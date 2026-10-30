@@ -1,8 +1,4 @@
-# MiniSearch-Search-Engine-Backend-Mini-Elasticsearch-
-A Python-based mini search engine with an inverted index, ranked search, and analytics dashboard.
-
-
-# Mini Elasticsearch — Search Engine Backend
+# MiniSearch : Search-Engine-Backend (Mini-Elasticsearch)
 
 A Python-based mini search engine that demonstrates how search engines retrieve, rank, and analyze documents using an *inverted index*, term-frequency scoring, and a web-based analytics dashboard.
 
