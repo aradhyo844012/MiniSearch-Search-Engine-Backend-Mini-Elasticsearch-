@@ -10,21 +10,40 @@ The project demonstrates core concepts used in information retrieval without req
 
 ## Features
 
-- *Inverted Index:* Maps terms to the documents in which they appear.
-- *Ranked Search:* Ranks matching documents using term-frequency-based scoring.
-- *Web Interface:* Search documents and view results through a browser.
-- *Result Snippets:* Displays contextual text from matching documents.
-- *Index Rebuilding:* Rebuilds the index when documents change.
-- *Search History:* Records search queries and exposes history through the API.
-- *Analytics Dashboard:* Displays search statistics and visualizations.
-- *Zipf's Law Visualization:* Plots term frequency against rank to explore word-frequency patterns.
+* *Inverted Index:* Maps terms to the documents in which they appear.
+* *Ranked Search:* Ranks matching documents using term-frequency-based scoring.
+* *Web Interface:* Search documents and view results through a browser.
+* *Result Snippets:* Displays contextual text from matching documents.
+* *Index Rebuilding:* Rebuilds the index when documents change.
+* *Search History:* Records search queries and exposes history through the API.
+* *Analytics Dashboard:* Displays search statistics and visualizations.
+* *Zipf's Law Visualization:* Plots term frequency against rank to explore word-frequency patterns.
 
 ## Technology Stack
 
-- Python 3
-- Flask
-- HTML
-- CSS
-- JavaScript
-- Matplotlib
-- Collections and regular expressions for indexing and text processing
+* Python 3
+* Flask
+* HTML
+* CSS
+* JavaScript
+* Matplotlib
+* Collections and regular expressions for indexing and text processing
+
+
+
+\## Redesigned Frontend
+
+
+
+The project includes a redesigned frontend built with HTML5 and CSS3, providing a clean and responsive interface for interacting with the MiniSearch search engine.
+
+
+
+\### Frontend Technologies
+
+\- HTML5
+
+\- CSS3
+
+\- Responsive web design
+

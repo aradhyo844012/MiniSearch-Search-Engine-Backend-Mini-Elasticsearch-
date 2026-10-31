@@ -1,0 +1,345 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Elasticsearch | Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app-container">
+
+        <!-- TOP NAVIGATION -->
+        <header class="topbar">
+
+            <div class="brand">
+                <div class="brand-icon">M</div>
+                <span>mini<span class="brand-highlight">search</span></span>
+            </div>
+
+            <form class="search-bar">
+                <span class="search-icon">⌕</span>
+                <input
+                    type="search"
+                    placeholder="Search documents, keywords..."
+                    aria-label="Search documents"
+                >
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="top-actions">
+                <button class="filter-button">◷ &nbsp; All Time &nbsp;⌄</button>
+                <button class="filter-button">☷ &nbsp; Relevance &nbsp;⌄</button>
+                <button class="account-button">
+                    My Account &nbsp;⌄
+                </button>
+            </div>
+
+        </header>
+
+
+        <!-- MAIN LAYOUT -->
+        <main class="main-layout">
+
+            <!-- LEFT SIDEBAR -->
+            <aside class="sidebar">
+
+                <button class="clear-button">Clear All</button>
+
+                <div class="filter-section">
+
+                    <h3>DOCUMENT SOURCES</h3>
+
+                    <label class="filter-option active">
+                        <span class="filter-name">
+                            <span class="source-icon all">▦</span>
+                            All Documents
+                        </span>
+                        <span class="filter-count">4</span>
+                    </label>
+
+                    <label class="filter-option">
+                        <span class="filter-name">
+                            <span class="source-icon text">T</span>
+                            Text Documents
+                        </span>
+                        <span class="filter-count">4</span>
+                    </label>
+
+                </div>
+
+
+                <div class="filter-section">
+
+                    <h3>FILE TYPE</h3>
+
+                    <label class="checkbox-option">
+                        <span><input type="checkbox" checked> TXT</span>
+                        <span>4</span>
+                    </label>
+
+                </div>
+
+
+                <div class="filter-section">
+
+                    <h3>DOCUMENT CATEGORIES</h3>
+
+                    <label class="checkbox-option">
+                        <span><input type="checkbox"> Products</span>
+                    </label>
+
+                    <label class="checkbox-option">
+                        <span><input type="checkbox"> Technology</span>
+                    </label>
+
+                    <label class="checkbox-option">
+                        <span><input type="checkbox"> General</span>
+                    </label>
+
+                </div>
+
+
+                <div class="sidebar-footer">
+                    <div class="status-dot"></div>
+                    <span>Search Engine Online</span>
+                </div>
+
+            </aside>
+
+
+            <!-- SEARCH RESULTS -->
+            <section class="results-section">
+
+                <div class="results-heading">
+                    <div>
+                        <p class="eyebrow">SEARCH WORKSPACE</p>
+                        <h1>Search Results</h1>
+                        <p class="results-description">
+                            Showing relevant documents from your local index.
+                        </p>
+                    </div>
+
+                    <div class="result-summary">
+                        <strong>04</strong>
+                        <span>Documents</span>
+                    </div>
+                </div>
+
+
+                <!-- ACTIVE QUERY -->
+                <div class="query-info">
+                    <span class="query-label">SEARCH QUERY</span>
+                    <span class="query-tag">wireless</span>
+                    <span class="query-meta">Sorted by relevance</span>
+                </div>
+
+
+                <!-- RESULT 1 -->
+                <article class="result-card selected">
+
+                    <div class="result-topline">
+                        <div class="file-label">
+                            <span class="file-icon">TXT</span>
+                            <span>PRODUCT DOCUMENT</span>
+                        </div>
+
+                        <span class="relevance">98% Match</span>
+                    </div>
+
+                    <h2>Product 1 — Wireless Technology</h2>
+
+                    <p class="result-path">
+                        documents / product1.txt
+                    </p>
+
+                    <p class="result-snippet">
+                        Explore the features and specifications of our
+                        <mark>wireless</mark> technology, designed to provide
+                        reliable connectivity and improved performance...
+                    </p>
+
+                    <div class="result-footer">
+                        <span>TXT DOCUMENT</span>
+                        <span>Result #1</span>
+                    </div>
+
+                </article>
+
+
+                <!-- RESULT 2 -->
+                <article class="result-card">
+
+                    <div class="result-topline">
+                        <div class="file-label">
+                            <span class="file-icon">TXT</span>
+                            <span>PRODUCT DOCUMENT</span>
+                        </div>
+
+                        <span class="relevance">91% Match</span>
+                    </div>
+
+                    <h2>Product 2 — Smart Devices</h2>
+
+                    <p class="result-path">
+                        documents / product2.txt
+                    </p>
+
+                    <p class="result-snippet">
+                        Discover smart devices with advanced connectivity,
+                        intelligent features and <mark>wireless</mark>
+                        communication capabilities...
+                    </p>
+
+                    <div class="result-footer">
+                        <span>TXT DOCUMENT</span>
+                        <span>Result #2</span>
+                    </div>
+
+                </article>
+
+
+                <!-- RESULT 3 -->
+                <article class="result-card">
+
+                    <div class="result-topline">
+                        <div class="file-label">
+                            <span class="file-icon">TXT</span>
+                            <span>PRODUCT DOCUMENT</span>
+                        </div>
+
+                        <span class="relevance">84% Match</span>
+                    </div>
+
+                    <h2>Product 3 — Audio Equipment</h2>
+
+                    <p class="result-path">
+                        documents / product3.txt
+                    </p>
+
+                    <p class="result-snippet">
+                        Modern audio equipment combines performance,
+                        convenience and <mark>wireless</mark> connectivity
+                        for everyday use...
+                    </p>
+
+                    <div class="result-footer">
+                        <span>TXT DOCUMENT</span>
+                        <span>Result #3</span>
+                    </div>
+
+                </article>
+
+
+                <!-- RESULT 4 -->
+                <article class="result-card">
+
+                    <div class="result-topline">
+                        <div class="file-label">
+                            <span class="file-icon">TXT</span>
+                            <span>PRODUCT DOCUMENT</span>
+                        </div>
+
+                        <span class="relevance">76% Match</span>
+                    </div>
+
+                    <h2>Product 4 — Connectivity Solutions</h2>
+
+                    <p class="result-path">
+                        documents / product4.txt
+                    </p>
+
+                    <p class="result-snippet">
+                        Learn about connectivity solutions, communication
+                        systems and modern device integration...
+                    </p>
+
+                    <div class="result-footer">
+                        <span>TXT DOCUMENT</span>
+                        <span>Result #4</span>
+                    </div>
+
+                </article>
+
+            </section>
+
+
+            <!-- RIGHT DOCUMENT PREVIEW -->
+            <aside class="preview-panel">
+
+                <div class="preview-header">
+                    <div class="preview-source">
+                        <span class="drive-icon">▤</span>
+                        <span>DOCUMENT PREVIEW</span>
+                    </div>
+
+                    <button class="close-button" aria-label="Close preview">
+                        ×
+                    </button>
+                </div>
+
+
+                <div class="preview-content">
+
+                    <span class="preview-file-type">TXT DOCUMENT</span>
+
+                    <h2>Product 1 — Wireless Technology</h2>
+
+                    <p class="preview-location">
+                        documents / product1.txt
+                    </p>
+
+                    <div class="preview-divider"></div>
+
+                    <h3>Matching Excerpt</h3>
+
+                    <p class="preview-excerpt">
+                        Explore the features and specifications of our
+                        <mark>wireless</mark> technology, designed to provide
+                        reliable connectivity and improved performance.
+                    </p>
+
+                    <div class="preview-divider"></div>
+
+                    <h3>Document Information</h3>
+
+                    <div class="metadata-row">
+                        <span>File name</span>
+                        <strong>product1.txt</strong>
+                    </div>
+
+                    <div class="metadata-row">
+                        <span>File format</span>
+                        <strong>TXT</strong>
+                    </div>
+
+                    <div class="metadata-row">
+                        <span>Source</span>
+                        <strong>Local Index</strong>
+                    </div>
+
+                    <div class="metadata-row">
+                        <span>Match rank</span>
+                        <strong>#1</strong>
+                    </div>
+
+                </div>
+
+
+                <div class="preview-bottom">
+                    <button class="open-document">
+                        View Full Document <span>→</span>
+                    </button>
+                </div>
+
+            </aside>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
