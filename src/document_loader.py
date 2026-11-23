@@ -58,4 +58,4 @@ if __name__ == "__main__":
         print("\nFirst document:")
         print("ID:", documents[0]["doc_id"])
         print("Title:", documents[0]["title"])
-        print("Content preview:", documents[0]["content"][:200]) 
+        print("Content preview:", documents[0]["content"][:200])  
