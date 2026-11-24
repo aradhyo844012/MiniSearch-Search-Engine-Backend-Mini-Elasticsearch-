@@ -1,6 +1,7 @@
 
 import json
 import mimetypes
+import os
 
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse, unquote
@@ -42,6 +43,39 @@ DOCUMENTS_BY_ID = {}
 class MiniSearchHandler(BaseHTTPRequestHandler):
 
     # -------------------------------------
+    # CORS HEADERS
+    # -------------------------------------
+
+    def send_cors_headers(self):
+
+        self.send_header(
+            "Access-Control-Allow-Origin",
+            "*"
+        )
+
+        self.send_header(
+            "Access-Control-Allow-Methods",
+            "GET, OPTIONS"
+        )
+
+        self.send_header(
+            "Access-Control-Allow-Headers",
+            "Content-Type"
+        )
+
+    # -------------------------------------
+    # HANDLE PREFLIGHT REQUESTS
+    # -------------------------------------
+
+    def do_OPTIONS(self):
+
+        self.send_response(204)
+
+        self.send_cors_headers()
+
+        self.end_headers()
+
+    # -------------------------------------
     # SEND JSON RESPONSE
     # -------------------------------------
 
@@ -63,6 +97,8 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
             "Content-Length",
             str(len(response))
         )
+
+        self.send_cors_headers()
 
         self.end_headers()
         self.wfile.write(response)
@@ -99,23 +135,29 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
         requested_path = Path(relative_path)
 
         if not requested_path.parts:
+
             self.send_error_json(
                 404,
                 "ENDPOINT_NOT_FOUND",
                 "The requested file does not exist."
             )
+
             return
 
         first_part = requested_path.parts[0]
 
         # Allow only index.html and approved static directories.
-        if first_part != "index.html" and first_part not in STATIC_DIRECTORIES:
+        if (
+            first_part != "index.html"
+            and first_part not in STATIC_DIRECTORIES
+        ):
 
             self.send_error_json(
                 404,
                 "ENDPOINT_NOT_FOUND",
                 "The requested endpoint does not exist."
             )
+
             return
 
         # Do not allow paths such as /index.html/other-file.
@@ -126,6 +168,7 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
                 "ENDPOINT_NOT_FOUND",
                 "The requested file does not exist."
             )
+
             return
 
         file_path = (
@@ -134,14 +177,17 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
 
         # Restrict access to the permitted frontend locations.
         if first_part == "index.html":
+
             allowed_root = PROJECT_ROOT.resolve()
 
         else:
+
             allowed_root = (
                 PROJECT_ROOT / first_part
             ).resolve()
 
         try:
+
             file_path.relative_to(allowed_root)
 
         except ValueError:
@@ -151,6 +197,7 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
                 "ENDPOINT_NOT_FOUND",
                 "The requested file does not exist."
             )
+
             return
 
         if not file_path.is_file():
@@ -160,6 +207,7 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
                 "ENDPOINT_NOT_FOUND",
                 "The requested frontend file was not found."
             )
+
             return
 
         try:
@@ -172,12 +220,15 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
 
             # Ensure browsers interpret JavaScript and CSS correctly.
             if file_path.suffix == ".js":
+
                 content_type = "text/javascript"
 
             elif file_path.suffix == ".css":
+
                 content_type = "text/css"
 
             if content_type is None:
+
                 content_type = "application/octet-stream"
 
             if (
@@ -187,6 +238,7 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
                     "application/json"
                 )
             ):
+
                 content_type += "; charset=utf-8"
 
             self.send_response(200)
@@ -202,6 +254,7 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
             )
 
             self.end_headers()
+
             self.wfile.write(content)
 
         except OSError:
@@ -230,16 +283,21 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
         try:
 
             if path == "/search":
+
                 self.handle_search(parameters)
 
             elif path == "/stats":
+
                 self.handle_stats()
 
             elif path.startswith("/doc/"):
+
                 doc_id = unquote(path[len("/doc/"):])
+
                 self.handle_document(doc_id)
 
             else:
+
                 self.serve_frontend(path)
 
         except Exception:
@@ -313,9 +371,11 @@ class MiniSearchHandler(BaseHTTPRequestHandler):
             message = str(error)
 
             if "query" in message.lower():
+
                 code = "INVALID_QUERY"
 
             else:
+
                 code = "INVALID_PARAMETER"
 
             self.send_error_json(
@@ -417,8 +477,15 @@ def start_server():
         for document in documents
     }
 
-    # Start server on localhost, port 8000.
-    server_address = ("localhost", 8000)
+    # Render provides the PORT environment variable.
+    # Locally, the server uses port 8000 by default.
+    host = "0.0.0.0"
+
+    port = int(
+        os.environ.get("PORT", 8000)
+    )
+
+    server_address = (host, port)
 
     server = ThreadingHTTPServer(
         server_address,
@@ -430,11 +497,12 @@ def start_server():
     print("       MINISEARCH SERVER RUNNING")
     print("=========================================")
     print()
-    print("Frontend:    http://localhost:8000")
-    print("Search API:  http://localhost:8000/search")
-    print("Stats API:   http://localhost:8000/stats")
-    print("Document:    http://localhost:8000/doc/1479")
-    print("Zipf Graph:  http://localhost:8000/reports/term_frequency_distribution.png")
+    print(f"Host:        {host}")
+    print(f"Port:        {port}")
+    print(f"Search API:  /search")
+    print(f"Stats API:   /stats")
+    print(f"Document:    /doc/1479")
+    print(f"Zipf Graph:  /reports/term_frequency_distribution.png")
     print()
     print("Press Ctrl+C to stop the server.")
     print()
@@ -457,4 +525,5 @@ def start_server():
 # =========================================
 
 if __name__ == "__main__":
+
     start_server()
