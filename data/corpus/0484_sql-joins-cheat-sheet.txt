@@ -1,0 +1,11 @@
+SQL Joins Cheat Sheet
+
+Use this page as a quick reminder of the essentials of SQL Joins.
+
+- Definition: operations that combine rows from two or more tables based on related columns.
+- Core ideas: inner join; left join; join conditions; cartesian products.
+- Use it for: linking customers to orders; building reports; finding unmatched rows.
+- Watch out for: forgetting the join condition; duplicating rows by joining on non-unique keys; filtering in the wrong clause of a left join.
+- Tools: PostgreSQL, MySQL Workbench, DBeaver.
+- Quick tip: practice inner join until it feels automatic.
+- Quick tip: write a tiny test for left join before building anything large.

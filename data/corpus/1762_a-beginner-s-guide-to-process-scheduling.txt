@@ -1,0 +1,19 @@
+A Beginner's Guide to Process Scheduling
+
+This guide is written for readers who are new to Process Scheduling and want a clear starting point. Put simply, Process Scheduling covers the way an operating system decides which process runs on the CPU and for how long. Learning it well pays off across many areas of computing.
+
+Logs and system monitors are the first place to look when a machine misbehaves.
+
+The vocabulary of Process Scheduling is small. Learn time slices, priorities, context switches, and run queues, and most documentation will start to make sense. A good way to remember time slices is to connect it with a concrete example from your own code.
+
+People use Process Scheduling for sharing CPUs among programs, for keeping interfaces responsive, and for running batch jobs.
+
+Popular tools and libraries include top, htop, and perf.
+
+Watch out for these problems: starvation of low priority tasks; too many context switches; and ignoring CPU affinity.
+
+Start small by applying Process Scheduling to one case, such as sharing CPUs among programs, before rolling it out more widely. Keep an eye on this risk during code review: starvation of low priority tasks. Read the official documentation for htop; it often explains priorities better than blog posts do.
+
+Keep an eye on this risk during code review: starvation of low priority tasks. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Process Scheduling.

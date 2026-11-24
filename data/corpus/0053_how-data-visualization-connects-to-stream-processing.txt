@@ -1,0 +1,13 @@
+How Data Visualization Connects to Stream Processing
+
+Data Visualization and Stream Processing are closely connected parts of Data Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving explaining results may also involve live dashboards. In such a project, chart types and events often influence each other.
+
+Start with Data Visualization: the term refers to presenting data as charts and graphics so that patterns are easy to see. Then look at Stream Processing, which refers to handling data continuously as it arrives rather than in large batches.
+
+A useful exercise is to take one example, such as exploring data, and explain how windows would change the design.
+
+Common problems are shared too. For Data Visualization, watch for this: unreadable labels. For Stream Processing, watch for this: losing state after crashes. Pipelines should be repeatable so that results can be reproduced later.
+
+Spend a few hours on each topic, then combine them in one small project using matplotlib or Apache Kafka.

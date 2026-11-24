@@ -1,0 +1,13 @@
+A Practical Checklist for Feature Engineering
+
+Use this checklist before you rely on Feature Engineering in a project.
+
+1. Guard against this risk: data leakage.
+2. Review the core ideas: scaling, encoding categories, interaction features, and missing values.
+3. Pick a tool to start with, such as pandas or scikit-learn pipelines.
+4. Measure results before and after any change.
+5. Ask a teammate to review the work, focusing on encoding categories.
+6. Confirm that your team agrees on what Feature Engineering should accomplish.
+7. Guard against this risk: inconsistent transformations between training and serving.
+8. Review how Feature Engineering interacts with Large Language Models.
+9. Try the approach on a small case, for example improving model accuracy.

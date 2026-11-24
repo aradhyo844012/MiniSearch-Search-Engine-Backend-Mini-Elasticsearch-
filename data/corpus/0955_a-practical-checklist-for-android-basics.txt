@@ -1,0 +1,12 @@
+A Practical Checklist for Android Basics
+
+Use this checklist before you rely on Android Basics in a project.
+
+1. Measure results before and after any change.
+2. Guard against this risk: ignoring lifecycle events.
+3. Review how Android Basics interacts with Mobile App Performance.
+4. Guard against this risk: hard-coded layouts.
+5. Try the approach on a small case, for example building simple apps.
+6. Confirm that your team agrees on what Android Basics should accomplish.
+7. Write at least one automated test that covers activities.
+8. Document your decisions in the project README.

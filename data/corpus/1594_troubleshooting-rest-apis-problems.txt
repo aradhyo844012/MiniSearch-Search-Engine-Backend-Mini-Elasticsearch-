@@ -1,0 +1,11 @@
+Troubleshooting REST APIs Problems
+
+When something breaks around REST APIs, a calm and systematic approach saves the most time. The term REST APIs refers to an approach to designing web APIs around resources, URLs and standard HTTP methods. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Flask usually reveal the cause faster than guessing.
+
+Common culprits: inconsistent naming; returning 200 for errors; no versioning plan. If none of these explains the symptom, re-read the basics of resources and HTTP verbs.
+
+In practice you can start with Flask, then explore FastAPI or Postman as your needs grow.
+
+In short, careful study of REST APIs pays off. Spend time on resources and HTTP verbs, and the rest will follow.

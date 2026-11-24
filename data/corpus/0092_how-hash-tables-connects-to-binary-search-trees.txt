@@ -1,0 +1,13 @@
+How Hash Tables Connects to Binary Search Trees
+
+Hash Tables and Binary Search Trees are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving implementing dictionaries and sets may also involve ordered lookups. In such a project, hash function and nodes and links often influence each other.
+
+Start with Hash Tables: the term refers to a way of storing key-value pairs so that lookups take roughly constant time. Then look at Binary Search Trees, which refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys.
+
+A useful exercise is to take one example, such as caching computed results, and explain how in-order traversal would change the design.
+
+Common problems are shared too. For Hash Tables, watch for this: resizing is expensive at scale. For Binary Search Trees, watch for this: forgetting to handle duplicate keys. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Spend a few hours on each topic, then combine them in one small project using Python dict or AVL trees.

@@ -1,0 +1,9 @@
+Case Study: Applying Threads and Concurrency in a Small Team
+
+Imagine a small student team building a project that depends on Threads and Concurrency. The term Threads and Concurrency refers to ways of making progress on several tasks at once within a program. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning threads and locks. Early on they hit a familiar problem: forgetting to protect shared data. After fixing it, they used Python threading to check their work and adopted Threads and Concurrency for handling many requests. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: forgetting to protect shared data; creating too many threads; and mixing up concurrency and parallelism. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Threads and Concurrency.

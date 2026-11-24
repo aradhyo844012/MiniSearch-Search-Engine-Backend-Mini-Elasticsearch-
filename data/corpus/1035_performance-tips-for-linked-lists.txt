@@ -1,0 +1,13 @@
+Performance Tips for Linked Lists
+
+Fast software rarely happens by accident, and Linked Lists offers several places to gain speed. Many students first meet Linked Lists in a classroom, but it matters just as much in production systems. The term refers to chains of nodes where each node stores a value and a reference to the next node.
+
+Start by measuring. Use Python collections.deque or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to nodes and head and tail pointers, because they usually decide how well things scale. For workloads such as queues and stacks, even small improvements add up quickly.
+
+To understand Linked Lists, start with nodes. Then move on to head and tail pointers, and finally look at singly and doubly linked lists and pointer updates. A good way to remember nodes is to connect it with a concrete example from your own code.
+
+Keep an eye on this risk during code review: losing the head pointer. Keep notes on what worked. A short README explaining your decisions about Linked Lists helps the next developer.
+
+Beginners often stumble on three things. First: losing the head pointer. Second: off-by-one errors during insertion. Third: poor cache locality.
+
+Keep experimenting, keep notes, and revisit Linked Lists whenever a new project gives you a reason.

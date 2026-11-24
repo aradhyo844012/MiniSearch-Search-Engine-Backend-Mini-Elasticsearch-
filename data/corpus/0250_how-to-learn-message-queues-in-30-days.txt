@@ -1,0 +1,14 @@
+How to Learn Message Queues in 30 Days
+
+You do not need months to become comfortable with Message Queues. A focused plan of thirty days is enough to build a solid base. Many students first meet Message Queues in a classroom, but it matters just as much in production systems. The term refers to systems that let services send work to each other asynchronously through a buffer.
+
+Week 1: learn producers and consumers, and write a one-page summary.
+Week 2: practice with RabbitMQ on a small task such as sending emails.
+Week 3: build a mini project around processing uploads.
+Week 4: review common mistakes such as losing messages without acknowledgements, and explain Message Queues to a friend.
+
+Popular tools and libraries include RabbitMQ, Apache Kafka, and Amazon SQS.
+
+Clear contracts between services make systems easier to change and test.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Message Queues.

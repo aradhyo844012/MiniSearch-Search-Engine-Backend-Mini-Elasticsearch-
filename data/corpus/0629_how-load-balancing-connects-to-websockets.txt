@@ -1,0 +1,13 @@
+How Load Balancing Connects to WebSockets
+
+Load Balancing and WebSockets are closely connected parts of Networking. Seeing how they fit together helps you learn both faster.
+
+A project involving scaling web applications may also involve chat applications. In such a project, round robin and persistent connections often influence each other.
+
+Start with Load Balancing: the term refers to spreading incoming requests across several servers so no single server is overwhelmed. Then look at WebSockets, which refers to a protocol that keeps a two-way connection open between a browser and a server.
+
+A useful exercise is to take one example, such as avoiding downtime, and explain how messages would change the design.
+
+Common problems are shared too. For Load Balancing, watch for this: ignoring health checks. For WebSockets, watch for this: unbounded message queues. Network failures are normal, so well-designed software expects timeouts and retries.
+
+Spend a few hours on each topic, then combine them in one small project using NGINX or Socket.IO.

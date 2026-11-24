@@ -1,0 +1,19 @@
+A Beginner's Guide to Web Accessibility
+
+This guide is written for readers who are new to Web Accessibility and want a clear starting point. The term Web Accessibility refers to designing websites so that people with different abilities can use them. This article explains the idea in plain language and points out where it fits in real projects.
+
+Small improvements in markup and styling often have a large effect on usability.
+
+Start small by applying Web Accessibility to one case, such as screen reader support, before rolling it out more widely. Write a few tests that show how Web Accessibility should behave. Tests double as documentation for your teammates.
+
+Four ideas sit at the heart of Web Accessibility: semantic HTML, ARIA attributes, keyboard navigation, and color contrast. Each one builds on the one before it. Sketching color contrast on paper before coding helps many learners see how the pieces fit.
+
+A team working on screen reader support might adopt Web Accessibility after hitting the limits of a simpler approach. Other teams turn to it for keyboard-only use or readable forms.
+
+Popular tools and libraries include axe DevTools, WAVE, and screen readers.
+
+Beginners often stumble on three things. First: low contrast text. Second: missing focus indicators. Third: images without alternative text.
+
+Write a few tests that show how Web Accessibility should behave. Tests double as documentation for your teammates. Practice semantic HTML with small exercises until it feels natural. Keep an eye on this risk during code review: low contrast text.
+
+Keep experimenting, keep notes, and revisit Web Accessibility whenever a new project gives you a reason.

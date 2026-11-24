@@ -1,0 +1,13 @@
+The Future of Load Balancing
+
+Predicting the future is risky, but the direction of Load Balancing is easy to describe in general terms. Put simply, Load Balancing covers spreading incoming requests across several servers so no single server is overwhelmed. Learning it well pays off across many areas of computing.
+
+Network failures are normal, so well-designed software expects timeouts and retries.
+
+Expect tools such as NGINX and HAProxy to keep improving, and expect newer ideas to keep building on round robin. The basics, though, tend to stay the same, so time spent on health checks and sticky sessions is rarely wasted. Anyone working on scaling web applications will keep meeting Load Balancing for years to come.
+
+Ask a teammate to explain sticky sessions back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Load Balancing should behave. Tests double as documentation for your teammates.
+
+Keep notes on what worked. A short README explaining your decisions about Load Balancing helps the next developer. Ask a teammate to explain sticky sessions back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Load Balancing whenever a new project gives you a reason.

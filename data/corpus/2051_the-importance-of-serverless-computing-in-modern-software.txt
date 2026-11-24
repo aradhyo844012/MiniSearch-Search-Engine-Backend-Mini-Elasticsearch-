@@ -1,0 +1,13 @@
+The Importance of Serverless Computing in Modern Software
+
+It is easy to underestimate Serverless Computing until something goes wrong without it. When people talk about Serverless Computing, they usually mean running code in managed functions without maintaining servers yourself. It appears in almost every serious software project, whether or not developers notice it.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly. A system that cannot be observed cannot be reliably operated.
+
+People use Serverless Computing for webhooks, for scheduled jobs, and for lightweight APIs.
+
+Watch out for these problems: cold start delays; vendor lock-in; and hard local debugging.
+
+If you are comfortable with Serverless Computing, explore Docker next. The two often appear in the same project.
+
+In short, careful study of Serverless Computing pays off. Spend time on functions and event triggers, and the rest will follow.

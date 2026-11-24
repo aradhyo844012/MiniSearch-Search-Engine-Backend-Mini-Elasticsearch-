@@ -1,0 +1,15 @@
+Responsive Design vs DOM Manipulation: Key Differences
+
+Responsive Design and DOM Manipulation both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Responsive Design refers to building pages that adapt smoothly to phones, tablets and large screens. Its core ideas are media queries, fluid grids, and flexible images.
+
+The term DOM Manipulation refers to reading and changing the structure and content of a web page from JavaScript. Its core ideas are selectors, events, and nodes.
+
+The main difference is focus. Responsive Design puts the emphasis on media queries and fluid grids, while DOM Manipulation puts the emphasis on selectors and events.
+
+Reach for Responsive Design when your task involves websites used on many devices or dashboards. Reach for DOM Manipulation when your task involves updating search results or handling form input.
+
+Both have risks. With Responsive Design, watch for this: testing only on one screen size. With DOM Manipulation, watch for this: inserting untrusted text as HTML.
+
+In practice you do not always have to choose. Many projects use Responsive Design alongside DOM Manipulation, with tools such as Chrome DevTools device mode and querySelector. Web pages must work across many browsers, devices and network conditions.

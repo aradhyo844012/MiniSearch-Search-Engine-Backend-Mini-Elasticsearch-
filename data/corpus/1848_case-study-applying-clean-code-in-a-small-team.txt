@@ -1,0 +1,11 @@
+Case Study: Applying Clean Code in a Small Team
+
+Imagine a small student team building a project that depends on Clean Code. When people talk about Clean Code, they usually mean writing code that other people can read, understand and change easily. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning meaningful names and small functions. Early on they hit a familiar problem: cryptic abbreviations. After fixing it, they used linters to check their work and adopted Clean Code for team projects. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Three issues come up again and again: cryptic abbreviations; functions that do too much; and comments that repeat the code. Knowing them in advance saves hours of debugging.
+
+Clean Code and Version Control Workflow are closely related, so learning both gives a fuller picture of Software Engineering.
+
+With steady practice, Clean Code will stop feeling abstract and become a tool you reach for naturally.

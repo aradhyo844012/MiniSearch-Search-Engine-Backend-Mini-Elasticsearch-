@@ -1,0 +1,12 @@
+A Practical Checklist for Rate Limiting
+
+Use this checklist before you rely on Rate Limiting in a project.
+
+1. Confirm that your team agrees on what Rate Limiting should accomplish.
+2. Guard against this risk: limits that are too strict.
+3. Write at least one automated test that covers token bucket.
+4. Document your decisions in the project README.
+5. Measure results before and after any change.
+6. Review the core ideas: token bucket, fixed window, sliding window, and 429 responses.
+7. Review how Rate Limiting interacts with Caching Strategies.
+8. Try the approach on a small case, for example protecting APIs.

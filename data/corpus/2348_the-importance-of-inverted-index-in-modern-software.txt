@@ -1,0 +1,13 @@
+The Importance of Inverted Index in Modern Software
+
+It is easy to underestimate Inverted Index until something goes wrong without it. Put simply, Inverted Index covers a data structure that maps each term to the documents that contain it. Learning it well pays off across many areas of computing.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+People use Inverted Index for full-text search, for log search, and for finding matching documents quickly.
+
+Three issues come up again and again: scanning very long postings lists; building the index without normalizing text; and forgetting to update it after changes. Knowing them in advance saves hours of debugging.
+
+Inverted Index and Edit Distance are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Inverted Index.

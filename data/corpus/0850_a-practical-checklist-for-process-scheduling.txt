@@ -1,0 +1,12 @@
+A Practical Checklist for Process Scheduling
+
+Use this checklist before you rely on Process Scheduling in a project.
+
+1. Guard against this risk: starvation of low priority tasks.
+2. Write at least one automated test that covers time slices.
+3. Review how Process Scheduling interacts with Virtual Memory.
+4. Ask a teammate to review the work, focusing on priorities.
+5. Try the approach on a small case, for example sharing CPUs among programs.
+6. Confirm that your team agrees on what Process Scheduling should accomplish.
+7. Guard against this risk: too many context switches.
+8. Document your decisions in the project README.

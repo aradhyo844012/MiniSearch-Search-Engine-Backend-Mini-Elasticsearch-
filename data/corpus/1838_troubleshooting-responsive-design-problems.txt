@@ -1,0 +1,13 @@
+Troubleshooting Responsive Design Problems
+
+When something breaks around Responsive Design, a calm and systematic approach saves the most time. When people talk about Responsive Design, they usually mean building pages that adapt smoothly to phones, tablets and large screens. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Chrome DevTools device mode usually reveal the cause faster than guessing.
+
+Keep an eye on this risk during code review: testing only on one screen size. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Bootstrap grid; it often explains fluid grids better than blog posts do.
+
+Common culprits: testing only on one screen size; tiny touch targets; horizontal scrolling. If none of these explains the symptom, re-read the basics of media queries and fluid grids.
+
+Popular tools and libraries include Chrome DevTools device mode, Bootstrap grid, and Lighthouse.
+
+Keep experimenting, keep notes, and revisit Responsive Design whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+The Trade-offs of Message Queues
+
+Every design choice has a cost, and Message Queues is no exception. When people talk about Message Queues, they usually mean systems that let services send work to each other asynchronously through a buffer. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Message Queues is well suited to sending emails and processing uploads. On the other hand, it is not free. Keep these risks in mind: losing messages without acknowledgements; poison messages that retry forever; duplicate processing. Whether the trade is worth it depends on how much producers and consumers matter to your project.
+
+Three issues come up again and again: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing. Knowing them in advance saves hours of debugging.
+
+Ask a teammate to explain acknowledgements back to you; teaching is a quick way to find gaps. Read the official documentation for Apache Kafka; it often explains consumers better than blog posts do.
+
+Clear contracts between services make systems easier to change and test.
+
+In short, careful study of Message Queues pays off. Spend time on producers and consumers, and the rest will follow.

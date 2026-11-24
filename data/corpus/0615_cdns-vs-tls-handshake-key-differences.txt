@@ -1,0 +1,15 @@
+CDNs vs TLS Handshake: Key Differences
+
+CDNs and TLS Handshake both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term CDNs refers to networks of servers around the world that deliver static content from a location close to the user. Its core ideas are edge servers, cache rules, and origin servers.
+
+The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. Its core ideas are certificates, cipher suites, and session keys.
+
+The main difference is focus. CDNs puts the emphasis on edge servers and cache rules, while TLS Handshake puts the emphasis on certificates and cipher suites.
+
+Reach for CDNs when your task involves serving images and scripts or speeding up global sites. Reach for TLS Handshake when your task involves securing websites or protecting API traffic.
+
+Both have risks. With CDNs, watch for this: caching private data. With TLS Handshake, watch for this: expired certificates.
+
+In practice you do not always have to choose. Many projects use CDNs alongside TLS Handshake, with tools such as Cloudflare and OpenSSL. Latency is limited by distance and by the number of round trips a request needs.

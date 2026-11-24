@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Graph Traversal
+
+This hands-on tutorial takes you from zero to a small working experiment with Graph Traversal. The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. This article explains the idea in plain language and points out where it fits in real projects.
+
+Step 1: Install or open NetworkX and create a new empty project folder.
+Step 2: Read about adjacency lists and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses breadth-first search.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as finding shortest paths in unweighted graphs.
+Step 6: Break your example on purpose and see what happens. A good experiment: forgetting to mark nodes as visited.
+
+Popular tools and libraries include NetworkX, Python collections.deque, and Graphviz.
+
+If you are comfortable with Graph Traversal, explore Dynamic Programming next. The two often appear in the same project.
+
+Beginners often stumble on three things. First: forgetting to mark nodes as visited. Second: using recursion on very deep graphs. Third: choosing an adjacency matrix for sparse graphs.
+
+With steady practice, Graph Traversal will stop feeling abstract and become a tool you reach for naturally.

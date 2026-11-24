@@ -1,0 +1,13 @@
+The Future of SQL Joins
+
+Predicting the future is risky, but the direction of SQL Joins is easy to describe in general terms. Many students first meet SQL Joins in a classroom, but it matters just as much in production systems. The term refers to operations that combine rows from two or more tables based on related columns.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Backups are only useful if restoring from them has been tested.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+Expect tools such as PostgreSQL and MySQL Workbench to keep improving, and expect newer ideas to keep building on inner join. The basics, though, tend to stay the same, so time spent on left join and join conditions is rarely wasted. Anyone working on linking customers to orders will keep meeting SQL Joins for years to come.
+
+Practice inner join with small exercises until it feels natural. Keep an eye on this risk during code review: forgetting the join condition.
+
+With steady practice, SQL Joins will stop feeling abstract and become a tool you reach for naturally.

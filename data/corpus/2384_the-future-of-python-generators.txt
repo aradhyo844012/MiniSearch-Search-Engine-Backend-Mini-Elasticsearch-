@@ -1,0 +1,13 @@
+The Future of Python Generators
+
+Predicting the future is risky, but the direction of Python Generators is easy to describe in general terms. The term Python Generators refers to functions that produce values one at a time instead of building a whole list. This article explains the idea in plain language and points out where it fits in real projects.
+
+Reading other people's code is one of the fastest ways to improve as a programmer. A language is easiest to learn by building small projects rather than memorizing syntax.
+
+Expect tools such as itertools and Python itertools docs to keep improving, and expect newer ideas to keep building on yield. The basics, though, tend to stay the same, so time spent on lazy evaluation and iterators is rarely wasted. Anyone working on reading large files line by line will keep meeting Python Generators for years to come.
+
+A language is easiest to learn by building small projects rather than memorizing syntax. Every language has idioms that experienced developers recognize at a glance.
+
+Read the official documentation for Python itertools docs; it often explains lazy evaluation better than blog posts do. Practice yield with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Python Generators.

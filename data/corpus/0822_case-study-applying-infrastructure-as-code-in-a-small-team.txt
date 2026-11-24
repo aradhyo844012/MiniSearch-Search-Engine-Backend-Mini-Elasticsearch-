@@ -1,0 +1,9 @@
+Case Study: Applying Infrastructure as Code in a Small Team
+
+Imagine a small student team building a project that depends on Infrastructure as Code. When people talk about Infrastructure as Code, they usually mean managing servers and cloud resources through version-controlled configuration files. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning declarative configuration and state. Early on they hit a familiar problem: manual changes causing drift. After fixing it, they used Terraform to check their work and adopted Infrastructure as Code for recreating environments. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Three issues come up again and again: manual changes causing drift; hard-coded secrets; and huge monolithic configurations. Knowing them in advance saves hours of debugging.
+
+With steady practice, Infrastructure as Code will stop feeling abstract and become a tool you reach for naturally.

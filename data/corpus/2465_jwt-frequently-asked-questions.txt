@@ -1,0 +1,19 @@
+JWT: Frequently Asked Questions
+
+Q: What is JWT?
+A: The term JWT refers to a compact token format that carries signed claims between a client and a server.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with JWT.
+
+Q: Which tools help?
+A: Popular choices include jwt.io, PyJWT, and jsonwebtoken.
+
+Q: What should a beginner learn first?
+A: Start with header, payload and signature and claims, then move on to expiry and signing keys.
+
+Q: How does it relate to REST APIs?
+A: JWT and REST APIs often appear in the same project, and both belong to the area of Backend and APIs.
+
+Q: What mistakes are most common?
+A: Watch for these: storing tokens in insecure places; skipping signature checks; and very long expiry times.

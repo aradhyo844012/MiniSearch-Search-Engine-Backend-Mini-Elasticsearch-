@@ -1,0 +1,13 @@
+Performance Tips for Process Scheduling
+
+Fast software rarely happens by accident, and Process Scheduling offers several places to gain speed. The term Process Scheduling refers to the way an operating system decides which process runs on the CPU and for how long. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use top or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to time slices and priorities, because they usually decide how well things scale. For workloads such as sharing CPUs among programs, even small improvements add up quickly.
+
+The vocabulary of Process Scheduling is small. Learn time slices, priorities, context switches, and run queues, and most documentation will start to make sense. Sketching run queues on paper before coding helps many learners see how the pieces fit.
+
+Practice time slices with small exercises until it feels natural. Keep an eye on this risk during code review: starvation of low priority tasks.
+
+Beginners often stumble on three things. First: starvation of low priority tasks. Second: too many context switches. Third: ignoring CPU affinity.
+
+Keep experimenting, keep notes, and revisit Process Scheduling whenever a new project gives you a reason.

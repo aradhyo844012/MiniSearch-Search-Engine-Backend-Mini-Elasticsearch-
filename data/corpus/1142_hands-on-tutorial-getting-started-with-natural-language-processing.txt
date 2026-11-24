@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Natural Language Processing
+
+This hands-on tutorial takes you from zero to a small working experiment with Natural Language Processing. If you build software for long enough, you will run into Natural Language Processing. The term refers to the field of teaching computers to work with human language.
+
+Step 1: Install or open spaCy and create a new empty project folder.
+Step 2: Read about tokenization and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses embeddings.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as search engines.
+Step 6: Break your example on purpose and see what happens. A good experiment: ignoring language variety.
+
+In practice you can start with spaCy, then explore NLTK or Hugging Face as your needs grow.
+
+Watch out for these problems: ignoring language variety; messy text preprocessing; and trusting metrics on tiny samples.
+
+In short, careful study of Natural Language Processing pays off. Spend time on tokenization and embeddings, and the rest will follow.

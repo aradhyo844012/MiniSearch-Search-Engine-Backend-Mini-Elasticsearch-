@@ -1,0 +1,13 @@
+The Trade-offs of DNS
+
+Every design choice has a cost, and DNS is no exception. If you build software for long enough, you will run into DNS. The term refers to the system that translates human-friendly domain names into IP addresses.
+
+On the positive side, DNS is well suited to mapping domains to servers and email routing. On the other hand, it is not free. Keep these risks in mind: forgetting TTLs when migrating; mistyped records; assuming changes apply instantly. Whether the trade is worth it depends on how much resolvers and records matter to your project.
+
+Watch out for these problems: forgetting TTLs when migrating; mistyped records; and assuming changes apply instantly.
+
+Write a few tests that show how DNS should behave. Tests double as documentation for your teammates. Measure before you optimize. Use dig or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: forgetting TTLs when migrating.
+
+Start small by applying DNS to one case, such as mapping domains to servers, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of DNS pays off. Spend time on resolvers and records, and the rest will follow.

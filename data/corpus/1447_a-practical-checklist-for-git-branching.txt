@@ -1,0 +1,13 @@
+A Practical Checklist for Git Branching
+
+Use this checklist before you rely on Git Branching in a project.
+
+1. Ask a teammate to review the work, focusing on merging.
+2. Try the approach on a small case, for example feature development.
+3. Review how Git Branching interacts with Monitoring and Observability.
+4. Measure results before and after any change.
+5. Document your decisions in the project README.
+6. Write at least one automated test that covers branches.
+7. Guard against this risk: long-lived branches.
+8. Guard against this risk: force-pushing shared branches.
+9. Confirm that your team agrees on what Git Branching should accomplish.

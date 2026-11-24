@@ -1,0 +1,11 @@
+Common Mistakes When Working with Containers
+
+Almost everyone makes a few avoidable errors when first working with Containers. When people talk about Containers, they usually mean lightweight packages that bundle an application with its dependencies and run in isolation. It appears in almost every serious software project, whether or not developers notice it.
+
+Watch out for these problems: running as root; bloated images; and storing data inside the container.
+
+Consider the first problem: running as root. A short test or a careful review comment usually catches it. The second problem is similar: bloated images. The third problem is this: storing data inside the container. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice images with small exercises until it feels natural. Measure before you optimize. Use Docker or a simple timer to see where time is actually spent. Start small by applying Containers to one case, such as consistent development environments, before rolling it out more widely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Containers.

@@ -1,0 +1,9 @@
+Case Study: Applying Functional Programming in a Small Team
+
+Imagine a small student team building a project that depends on Functional Programming. Put simply, Functional Programming covers a style of programming that builds programs from functions and avoids shared mutable state. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning pure functions and immutability. Early on they hit a familiar problem: overusing clever one-liners. After fixing it, they used Python functools to check their work and adopted Functional Programming for data transformation. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: overusing clever one-liners. Second: hidden state. Third: unreadable chains of functions.
+
+With steady practice, Functional Programming will stop feeling abstract and become a tool you reach for naturally.

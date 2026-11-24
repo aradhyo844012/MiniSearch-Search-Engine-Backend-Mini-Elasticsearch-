@@ -1,0 +1,13 @@
+The Trade-offs of Binary Search
+
+Every design choice has a cost, and Binary Search is no exception. When people talk about Binary Search, they usually mean a fast way to find an item in sorted data by repeatedly halving the search range. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Binary Search is well suited to looking up values in sorted arrays and finding insertion points. On the other hand, it is not free. Keep these risks in mind: off-by-one errors; infinite loops from bad bounds; using it on unsorted data. Whether the trade is worth it depends on how much sorted input and low and high bounds matter to your project.
+
+Three issues come up again and again: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data. Knowing them in advance saves hours of debugging.
+
+Write a few tests that show how Binary Search should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce.
+
+Choosing the right data structure often matters more than clever tuning later. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Binary Search.

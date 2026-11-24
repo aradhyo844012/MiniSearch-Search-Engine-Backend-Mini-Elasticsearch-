@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Authentication and Sessions
+
+This hands-on tutorial takes you from zero to a small working experiment with Authentication and Sessions. Many students first meet Authentication and Sessions in a classroom, but it matters just as much in production systems. The term refers to the process of proving who a user is and remembering them between requests.
+
+Step 1: Install or open Flask-Login and create a new empty project folder.
+Step 2: Read about credentials and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses session cookies.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as logging in to web apps.
+Step 6: Break your example on purpose and see what happens. A good experiment: storing session IDs insecurely.
+
+Popular tools and libraries include Flask-Login, Django auth, and Passport.js.
+
+Watch out for these problems: storing session IDs insecurely; never expiring sessions; and trusting client-side checks.
+
+If you are comfortable with Authentication and Sessions, explore Rate Limiting next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Authentication and Sessions.

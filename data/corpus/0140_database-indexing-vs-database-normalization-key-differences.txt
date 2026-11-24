@@ -1,0 +1,15 @@
+Database Indexing vs Database Normalization: Key Differences
+
+Database Indexing and Database Normalization both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Database Indexing refers to auxiliary structures that let a database find rows without scanning a whole table. Its core ideas are B-tree indexes, selectivity, and composite indexes.
+
+The term Database Normalization refers to the practice of organizing tables to reduce duplicated data and update anomalies. Its core ideas are first normal form, second normal form, and third normal form.
+
+The main difference is focus. Database Indexing puts the emphasis on B-tree indexes and selectivity, while Database Normalization puts the emphasis on first normal form and second normal form.
+
+Reach for Database Indexing when your task involves speeding up lookups or supporting sorted queries. Reach for Database Normalization when your task involves designing clean schemas or avoiding update anomalies.
+
+Both have risks. With Database Indexing, watch for this: indexing every column. With Database Normalization, watch for this: over-normalizing reporting tables.
+
+In practice you do not always have to choose. Many projects use Database Indexing alongside Database Normalization, with tools such as EXPLAIN plans and ER diagrams. Backups are only useful if restoring from them has been tested.

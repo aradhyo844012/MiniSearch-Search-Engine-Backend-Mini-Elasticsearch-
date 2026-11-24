@@ -1,0 +1,11 @@
+Common Mistakes When Working with Tries
+
+Almost everyone makes a few avoidable errors when first working with Tries. If you build software for long enough, you will run into Tries. The term refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+Watch out for these problems: high memory use for sparse data; forgetting end-of-word markers; and assuming case-insensitive matching.
+
+Consider the first problem: high memory use for sparse data. A short test or a careful review comment usually catches it. The second problem is similar: forgetting end-of-word markers. The third problem is this: assuming case-insensitive matching. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for Java TreeMap; it often explains nodes and edges better than blog posts do. Measure before you optimize. Use Python dict-based tries or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: high memory use for sparse data.
+
+With steady practice, Tries will stop feeling abstract and become a tool you reach for naturally.

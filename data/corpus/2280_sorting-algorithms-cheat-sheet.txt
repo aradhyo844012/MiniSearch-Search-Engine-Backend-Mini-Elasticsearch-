@@ -1,0 +1,11 @@
+Sorting Algorithms Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Sorting Algorithms.
+
+- Definition: methods for arranging items in a defined order.
+- Core ideas: comparison sorts; stability; divide and conquer; in-place sorting.
+- Use it for: ordering search results; preparing data for binary search; merging sorted logs.
+- Watch out for: assuming every sort is stable; sorting everything when a partial order is enough; ignoring worst-case input.
+- Tools: Python sorted, Java Arrays.sort, C++ std::sort.
+- Related topic: Dynamic Programming.
+- Quick tip: write a tiny test for stability before building anything large.

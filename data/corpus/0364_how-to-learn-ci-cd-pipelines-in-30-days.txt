@@ -1,0 +1,14 @@
+How to Learn CI/CD Pipelines in 30 Days
+
+You do not need months to become comfortable with CI/CD Pipelines. A focused plan of thirty days is enough to build a solid base. When people talk about CI/CD Pipelines, they usually mean automated workflows that build, test and deliver code whenever it changes. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn build stage and test stage, and write a one-page summary.
+Week 2: practice with GitHub Actions on a small task such as running tests on every push.
+Week 3: build a mini project around shipping releases safely.
+Week 4: review common mistakes such as slow pipelines, and explain CI/CD Pipelines to a friend.
+
+In practice you can start with GitHub Actions, then explore Jenkins or GitLab CI as your needs grow.
+
+Write a few tests that show how CI/CD Pipelines should behave. Tests double as documentation for your teammates. Practice build stage with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CI/CD Pipelines.

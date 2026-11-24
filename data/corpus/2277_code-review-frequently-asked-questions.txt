@@ -1,0 +1,22 @@
+Code Review: Frequently Asked Questions
+
+Q: What is Code Review?
+A: The term Code Review refers to having teammates examine changes before they are merged.
+
+Q: What should a beginner learn first?
+A: Start with pull requests and review comments, then move on to checklists and approvals.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: huge pull requests; vague comments; and reviewing only style.
+
+Q: How does it relate to Unit Testing?
+A: Code Review and Unit Testing often appear in the same project, and both belong to the area of Software Engineering.
+
+Q: Why do developers use Code Review?
+A: Common uses include catching bugs early, sharing knowledge, and keeping style consistent.
+
+Q: Which tools help?
+A: Popular choices include GitHub pull requests, GitLab merge requests, and linters.

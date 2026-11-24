@@ -1,0 +1,19 @@
+Myths and Facts About Overfitting
+
+A lot of folklore has built up around Overfitting. Some of it is true, and some of it is not. Put simply, Overfitting covers when a model learns the training data too closely and performs poorly on new data. Learning it well pays off across many areas of computing.
+
+Myth: Overfitting is only for experts.
+Fact: beginners can use it effectively once they understand training and validation error and model complexity.
+
+Myth: Overfitting is only useful in very large systems.
+Fact: small projects such as diagnosing weak models benefit as well.
+
+Myth: one tool does everything.
+Fact: scikit-learn, early stopping, and learning curves make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Overfitting are always obvious.
+Fact: subtle problems happen, for example evaluating only on training data.
+
+A model is only as good as the data used to train and test it.
+
+With steady practice, Overfitting will stop feeling abstract and become a tool you reach for naturally.

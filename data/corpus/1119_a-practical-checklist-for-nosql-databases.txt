@@ -1,0 +1,13 @@
+A Practical Checklist for NoSQL Databases
+
+Use this checklist before you rely on NoSQL Databases in a project.
+
+1. Guard against this risk: weak consistency surprises.
+2. Review how NoSQL Databases interacts with SQL Joins.
+3. Document your decisions in the project README.
+4. Review the core ideas: document stores, key-value stores, column families, and graph databases.
+5. Confirm that your team agrees on what NoSQL Databases should accomplish.
+6. Guard against this risk: assuming no schema means no design.
+7. Ask a teammate to review the work, focusing on key-value stores.
+8. Pick a tool to start with, such as MongoDB or Cassandra.
+9. Measure results before and after any change.

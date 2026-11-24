@@ -1,0 +1,15 @@
+Relational Databases vs Database Replication: Key Differences
+
+Relational Databases and Database Replication both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Relational Databases refers to systems that store data in tables with rows, columns and defined relationships. Its core ideas are tables and rows, primary keys, and foreign keys.
+
+The term Database Replication refers to copying data from one database server to others to improve availability and read capacity. Its core ideas are primary and replica, replication lag, and failover.
+
+The main difference is focus. Relational Databases puts the emphasis on tables and rows and primary keys, while Database Replication puts the emphasis on primary and replica and replication lag.
+
+Reach for Relational Databases when your task involves storing orders and customers or reporting and analytics. Reach for Database Replication when your task involves surviving server failures or scaling read traffic.
+
+Both have risks. With Relational Databases, watch for this: skipping constraints. With Database Replication, watch for this: reading stale data from replicas.
+
+In practice you do not always have to choose. Many projects use Relational Databases alongside Database Replication, with tools such as PostgreSQL and PostgreSQL streaming replication. Most slow pages in data-driven applications trace back to a handful of slow queries.

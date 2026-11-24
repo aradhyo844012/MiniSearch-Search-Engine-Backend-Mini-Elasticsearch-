@@ -1,0 +1,13 @@
+The Trade-offs of Data Visualization
+
+Every design choice has a cost, and Data Visualization is no exception. If you build software for long enough, you will run into Data Visualization. The term refers to presenting data as charts and graphics so that patterns are easy to see.
+
+On the positive side, Data Visualization is well suited to explaining results and exploring data. On the other hand, it is not free. Keep these risks in mind: truncated axes; unreadable labels; too many colors. Whether the trade is worth it depends on how much chart types and axes and labels matter to your project.
+
+Three issues come up again and again: truncated axes; unreadable labels; and too many colors. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for Seaborn; it often explains axes and labels better than blog posts do. Keep an eye on this risk during code review: truncated axes. Practice chart types with small exercises until it feels natural.
+
+Practice chart types with small exercises until it feels natural. Measure before you optimize. Use matplotlib or a simple timer to see where time is actually spent. Ask a teammate to explain color choices back to you; teaching is a quick way to find gaps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Visualization.

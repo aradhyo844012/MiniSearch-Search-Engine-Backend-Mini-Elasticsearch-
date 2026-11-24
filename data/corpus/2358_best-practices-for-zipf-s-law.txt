@@ -1,0 +1,15 @@
+Best Practices for Zipf's Law
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Zipf's Law in a classroom, but it matters just as much in production systems. The term refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Write a few tests that show how Zipf's Law should behave. Tests double as documentation for your teammates.
+3. Start small by applying Zipf's Law to one case, such as analyzing text corpora, before rolling it out more widely.
+4. Ask a teammate to explain log-log plots back to you; teaching is a quick way to find gaps.
+5. Measure before you optimize. Use matplotlib or a simple timer to see where time is actually spent.
+
+Popular tools and libraries include matplotlib, NumPy, and pandas.
+
+A solid grasp of Zipf's Law also makes Edit Distance easier to understand.
+
+In short, careful study of Zipf's Law pays off. Spend time on rank and frequency and power laws, and the rest will follow.

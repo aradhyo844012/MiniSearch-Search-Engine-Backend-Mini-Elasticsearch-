@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with TLS Handshake
+
+This hands-on tutorial takes you from zero to a small working experiment with TLS Handshake. When people talk about TLS Handshake, they usually mean the exchange that lets a client and server agree on keys and set up an encrypted connection. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open OpenSSL and create a new empty project folder.
+Step 2: Read about certificates and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses cipher suites.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as securing websites.
+Step 6: Break your example on purpose and see what happens. A good experiment: expired certificates.
+
+Latency is limited by distance and by the number of round trips a request needs.
+
+Popular tools and libraries include OpenSSL, Let's Encrypt, and SSL Labs.
+
+Three issues come up again and again: expired certificates; disabling certificate validation; and using outdated protocol versions. Knowing them in advance saves hours of debugging.
+
+With steady practice, TLS Handshake will stop feeling abstract and become a tool you reach for naturally.

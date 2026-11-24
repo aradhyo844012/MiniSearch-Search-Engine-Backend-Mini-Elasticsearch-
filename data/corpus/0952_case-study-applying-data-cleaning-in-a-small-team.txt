@@ -1,0 +1,9 @@
+Case Study: Applying Data Cleaning in a Small Team
+
+Imagine a small student team building a project that depends on Data Cleaning. The term Data Cleaning refers to finding and fixing errors, gaps and inconsistencies in raw data. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning missing values and duplicates. Early on they hit a familiar problem: dropping data without checking why it is missing. After fixing it, they used pandas to check their work and adopted Data Cleaning for preparing logs. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: dropping data without checking why it is missing; cleaning by hand without a record; and changing the original files. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Data Cleaning whenever a new project gives you a reason.

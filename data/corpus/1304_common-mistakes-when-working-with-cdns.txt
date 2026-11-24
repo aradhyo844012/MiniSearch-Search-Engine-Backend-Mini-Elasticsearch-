@@ -1,0 +1,11 @@
+Common Mistakes When Working with CDNs
+
+Almost everyone makes a few avoidable errors when first working with CDNs. If you build software for long enough, you will run into CDNs. The term refers to networks of servers around the world that deliver static content from a location close to the user.
+
+Beginners often stumble on three things. First: caching private data. Second: forgetting to purge old files. Third: misconfigured cache headers.
+
+Consider the first problem: caching private data. A short test or a careful review comment usually catches it. The second problem is similar: forgetting to purge old files. The third problem is this: misconfigured cache headers. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how CDNs should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Cloudflare or a simple timer to see where time is actually spent.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CDNs.

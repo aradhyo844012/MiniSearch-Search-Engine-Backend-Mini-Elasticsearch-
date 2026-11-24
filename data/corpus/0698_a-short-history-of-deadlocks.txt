@@ -1,0 +1,13 @@
+A Short History of Deadlocks
+
+Ideas behind Deadlocks developed gradually as engineers ran into practical limits and shared what they learned. The term Deadlocks refers to situations where two or more tasks wait for each other forever. This article explains the idea in plain language and points out where it fits in real projects.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+The vocabulary of Deadlocks is small. Learn mutual exclusion, hold and wait, circular wait, and lock ordering, and most documentation will start to make sense. Sketching lock ordering on paper before coding helps many learners see how the pieces fit.
+
+If you are comfortable with Deadlocks, explore Process Scheduling next. The two often appear in the same project.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+In short, careful study of Deadlocks pays off. Spend time on mutual exclusion and hold and wait, and the rest will follow.

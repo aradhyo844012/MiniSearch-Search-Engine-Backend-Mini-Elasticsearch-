@@ -1,0 +1,13 @@
+The Future of Single Page Applications
+
+Predicting the future is risky, but the direction of Single Page Applications is easy to describe in general terms. If you build software for long enough, you will run into Single Page Applications. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+If you are comfortable with Single Page Applications, explore Web Performance next. The two often appear in the same project.
+
+Small improvements in markup and styling often have a large effect on usability. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Expect tools such as React and Vue to keep improving, and expect newer ideas to keep building on client-side routing. The basics, though, tend to stay the same, so time spent on state management and API calls is rarely wasted. Anyone working on dashboards will keep meeting Single Page Applications for years to come.
+
+Keep an eye on this risk during code review: slow first load. Write a few tests that show how Single Page Applications should behave. Tests double as documentation for your teammates.
+
+With steady practice, Single Page Applications will stop feeling abstract and become a tool you reach for naturally.

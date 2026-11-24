@@ -1,0 +1,11 @@
+A Short History of SQL Injection
+
+Ideas behind SQL Injection developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into SQL Injection. The term refers to an attack where malicious input changes the meaning of a database query.
+
+Keeping dependencies updated removes a large share of known risks.
+
+To understand SQL Injection, start with parameterized queries. Then move on to input validation, and finally look at least privilege and escaping. Sketching escaping on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of SQL Injection also makes Cross-Site Scripting easier to understand.
+
+Keep experimenting, keep notes, and revisit SQL Injection whenever a new project gives you a reason.

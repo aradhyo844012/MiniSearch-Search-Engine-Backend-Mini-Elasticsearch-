@@ -1,0 +1,13 @@
+How Bloom Filters Connects to Recursion
+
+Bloom Filters and Recursion are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving skipping disk lookups for missing keys may also involve traversing trees. In such a project, bit arrays and base case often influence each other.
+
+Start with Bloom Filters: the term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. Then look at Recursion, which refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+A useful exercise is to take one example, such as checking visited URLs, and explain how recursive case would change the design.
+
+Common problems are shared too. For Bloom Filters, watch for this: trying to delete items. For Recursion, watch for this: exceeding the recursion limit. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Spend a few hours on each topic, then combine them in one small project using Python bitarray or Python sys.setrecursionlimit.

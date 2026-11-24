@@ -1,0 +1,14 @@
+How to Learn Tokenization in 30 Days
+
+You do not need months to become comfortable with Tokenization. A focused plan of thirty days is enough to build a solid base. The term Tokenization refers to splitting text into smaller units such as words that a program can count and compare. This article explains the idea in plain language and points out where it fits in real projects.
+
+Ask a teammate to explain stop words back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: different rules for indexing and querying.
+
+Week 1: learn lowercasing and splitting on punctuation, and write a one-page summary.
+Week 2: practice with Python re module on a small task such as indexing documents.
+Week 3: build a mini project around preparing text for models.
+Week 4: review common mistakes such as different rules for indexing and querying, and explain Tokenization to a friend.
+
+Popular tools and libraries include Python re module, NLTK, and spaCy.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Tokenization.

@@ -1,0 +1,11 @@
+Case Study: Applying TF-IDF in a Small Team
+
+Imagine a small student team building a project that depends on TF-IDF. Put simply, TF-IDF covers a scoring method that weights terms by how often they appear in a document and how rare they are overall. Learning it well pays off across many areas of computing.
+
+Start small by applying TF-IDF to one case, such as ranking search results, before rolling it out more widely. Ask a teammate to explain weighting back to you; teaching is a quick way to find gaps.
+
+The team first spent a week learning term frequency and inverse document frequency. Early on they hit a familiar problem: over-weighting common words. After fixing it, they used scikit-learn TfidfVectorizer to check their work and adopted TF-IDF for ranking search results. Looking back, they said the biggest lesson was to keep the design simple.
+
+Watch out for these problems: over-weighting common words; ignoring document length; and using it on tiny corpora.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

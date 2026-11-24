@@ -1,0 +1,10 @@
+Key Terms in Database Transactions Explained
+
+Clear vocabulary makes Database Transactions much easier to learn, so here are the key terms in plain language. Put simply, Database Transactions covers groups of operations that succeed or fail together. Learning it well pays off across many areas of computing.
+
+atomicity: a key term in Database Transactions. You will meet it constantly in documentation and in code reviews.
+consistency: a key term in Database Transactions. Practice with a small example to make the meaning stick.
+isolation: a key term in Database Transactions. It matters because it shapes how you design, test and explain your solution.
+durability: a key term in Database Transactions. Practice with a small example to make the meaning stick.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Transactions.

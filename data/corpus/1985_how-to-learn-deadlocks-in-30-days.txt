@@ -1,0 +1,12 @@
+How to Learn Deadlocks in 30 Days
+
+You do not need months to become comfortable with Deadlocks. A focused plan of thirty days is enough to build a solid base. When people talk about Deadlocks, they usually mean situations where two or more tasks wait for each other forever. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn mutual exclusion and hold and wait, and write a one-page summary.
+Week 2: practice with thread dumps on a small task such as database lock conflicts.
+Week 3: build a mini project around multi-threaded programs.
+Week 4: review common mistakes such as acquiring locks in inconsistent order, and explain Deadlocks to a friend.
+
+Popular tools and libraries include thread dumps, database deadlock logs, and static analyzers.
+
+Keep experimenting, keep notes, and revisit Deadlocks whenever a new project gives you a reason.

@@ -1,0 +1,19 @@
+A Beginner's Guide to Binary Search
+
+This guide is written for readers who are new to Binary Search and want a clear starting point. When people talk about Binary Search, they usually mean a fast way to find an item in sorted data by repeatedly halving the search range. It appears in almost every serious software project, whether or not developers notice it.
+
+Read the official documentation for Java Collections.binarySearch; it often explains low and high bounds better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Binary Search helps the next developer.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+The vocabulary of Binary Search is small. Learn sorted input, low and high bounds, midpoint calculation, and logarithmic time, and most documentation will start to make sense. Understanding low and high bounds first often makes midpoint calculation much easier to reason about.
+
+People use Binary Search for looking up values in sorted arrays, for finding insertion points, and for searching answer spaces.
+
+In practice you can start with Python bisect, then explore Java Collections.binarySearch or C++ lower_bound as your needs grow.
+
+Three issues come up again and again: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data. Knowing them in advance saves hours of debugging.
+
+Ask a teammate to explain midpoint calculation back to you; teaching is a quick way to find gaps. Write a few tests that show how Binary Search should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Binary Search helps the next developer.
+
+In short, careful study of Binary Search pays off. Spend time on sorted input and low and high bounds, and the rest will follow.

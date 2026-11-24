@@ -1,0 +1,9 @@
+Case Study: Applying CSS Flexbox and Grid in a Small Team
+
+Imagine a small student team building a project that depends on CSS Flexbox and Grid. The term CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning flex containers and grid tracks. Early on they hit a familiar problem: mixing up main and cross axes. After fixing it, they used browser grid inspector to check their work and adopted CSS Flexbox and Grid for navigation bars. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Beginners often stumble on three things. First: mixing up main and cross axes. Second: fixed widths that break on phones. Third: nesting layouts too deeply.
+
+Keep experimenting, keep notes, and revisit CSS Flexbox and Grid whenever a new project gives you a reason.

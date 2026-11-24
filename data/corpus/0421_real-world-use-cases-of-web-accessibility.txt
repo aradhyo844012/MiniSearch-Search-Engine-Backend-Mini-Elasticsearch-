@@ -1,0 +1,13 @@
+Real-World Use Cases of Web Accessibility
+
+The best way to appreciate Web Accessibility is to see where it is actually used. Many students first meet Web Accessibility in a classroom, but it matters just as much in production systems. The term refers to designing websites so that people with different abilities can use them.
+
+People use Web Accessibility for screen reader support, for keyboard-only use, and for readable forms.
+
+Consider screen reader support. In a case like this, Web Accessibility gives the work a clear structure, and understanding semantic HTML makes the design easier to explain. A different example is keyboard-only use, where ARIA attributes often decides how well the solution scales.
+
+Small improvements in markup and styling often have a large effect on usability. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+In practice you can start with axe DevTools, then explore WAVE or screen readers as your needs grow.
+
+Keep experimenting, keep notes, and revisit Web Accessibility whenever a new project gives you a reason.

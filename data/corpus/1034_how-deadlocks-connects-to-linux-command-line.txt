@@ -1,0 +1,13 @@
+How Deadlocks Connects to Linux Command Line
+
+Deadlocks and Linux Command Line are closely connected parts of Operating Systems. Seeing how they fit together helps you learn both faster.
+
+A project involving database lock conflicts may also involve automating tasks. In such a project, mutual exclusion and shell often influence each other.
+
+Start with Deadlocks: the term refers to situations where two or more tasks wait for each other forever. Then look at Linux Command Line, which refers to a text-based way of controlling a computer using commands and scripts.
+
+A useful exercise is to take one example, such as multi-threaded programs, and explain how pipes would change the design.
+
+Common problems are shared too. For Deadlocks, watch for this: holding locks while waiting on I/O. For Linux Command Line, watch for this: forgetting quotes around paths. Understanding what the kernel does explains many surprising performance problems.
+
+Spend a few hours on each topic, then combine them in one small project using thread dumps or bash.

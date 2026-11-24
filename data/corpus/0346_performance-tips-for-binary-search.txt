@@ -1,0 +1,13 @@
+Performance Tips for Binary Search
+
+Fast software rarely happens by accident, and Binary Search offers several places to gain speed. When people talk about Binary Search, they usually mean a fast way to find an item in sorted data by repeatedly halving the search range. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Python bisect or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to sorted input and low and high bounds, because they usually decide how well things scale. For workloads such as looking up values in sorted arrays, even small improvements add up quickly.
+
+To understand Binary Search, start with sorted input. Then move on to low and high bounds, and finally look at midpoint calculation and logarithmic time. Sketching logarithmic time on paper before coding helps many learners see how the pieces fit.
+
+Keep an eye on this risk during code review: off-by-one errors. Keep notes on what worked. A short README explaining your decisions about Binary Search helps the next developer.
+
+Watch out for these problems: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data.
+
+With steady practice, Binary Search will stop feeling abstract and become a tool you reach for naturally.

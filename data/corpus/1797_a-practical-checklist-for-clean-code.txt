@@ -1,0 +1,13 @@
+A Practical Checklist for Clean Code
+
+Use this checklist before you rely on Clean Code in a project.
+
+1. Write at least one automated test that covers meaningful names.
+2. Guard against this risk: cryptic abbreviations.
+3. Guard against this risk: comments that repeat the code.
+4. Pick a tool to start with, such as linters or formatters.
+5. Confirm that your team agrees on what Clean Code should accomplish.
+6. Review the core ideas: meaningful names, small functions, consistent style, and comments that explain why.
+7. Document your decisions in the project README.
+8. Measure results before and after any change.
+9. Ask a teammate to review the work, focusing on small functions.

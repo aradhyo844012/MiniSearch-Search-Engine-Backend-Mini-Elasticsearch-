@@ -1,0 +1,13 @@
+The Trade-offs of Binary Search Trees
+
+Every design choice has a cost, and Binary Search Trees is no exception. Many students first meet Binary Search Trees in a classroom, but it matters just as much in production systems. The term refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys.
+
+On the positive side, Binary Search Trees is well suited to ordered lookups and range queries. On the other hand, it is not free. Keep these risks in mind: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; recursive code can overflow the stack on deep trees. Whether the trade is worth it depends on how much nodes and links and in-order traversal matter to your project.
+
+Beginners often stumble on three things. First: unbalanced trees degrade to linked lists. Second: forgetting to handle duplicate keys. Third: recursive code can overflow the stack on deep trees.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Practice nodes and links with small exercises until it feels natural. Ask a teammate to explain tree height back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Binary Search Trees helps the next developer.
+
+With steady practice, Binary Search Trees will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,15 @@
+Inside Functional Programming: How It Works
+
+This article walks through what happens inside Functional Programming, step by step. If you build software for long enough, you will run into Functional Programming. The term refers to a style of programming that builds programs from functions and avoids shared mutable state.
+
+Write a few tests that show how Functional Programming should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Functional Programming helps the next developer.
+
+Four ideas sit at the heart of Functional Programming: pure functions, immutability, higher-order functions, and composition. Each one builds on the one before it. A good way to remember pure functions is to connect it with a concrete example from your own code.
+
+First, pure functions sets the stage for everything else. Next, immutability builds on it. After that, higher-order functions comes into play, and finally composition ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Every language has idioms that experienced developers recognize at a glance.
+
+Functional Programming and Python Basics are closely related, so learning both gives a fuller picture of Programming.
+
+In short, careful study of Functional Programming pays off. Spend time on pure functions and immutability, and the rest will follow.

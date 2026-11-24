@@ -1,0 +1,15 @@
+Best Practices for Mobile App Performance
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Mobile App Performance in a classroom, but it matters just as much in production systems. The term refers to making mobile apps start quickly, run smoothly and use little battery.
+
+1. Write a few tests that show how Mobile App Performance should behave. Tests double as documentation for your teammates.
+2. Keep notes on what worked. A short README explaining your decisions about Mobile App Performance helps the next developer.
+3. Read the official documentation for Xcode Instruments; it often explains frame rate better than blog posts do.
+4. Start small by applying Mobile App Performance to one case, such as smoother scrolling, before rolling it out more widely.
+5. Measure before you optimize. Use Android Profiler or a simple timer to see where time is actually spent.
+
+In practice you can start with Android Profiler, then explore Xcode Instruments or Firebase Performance Monitoring as your needs grow.
+
+A solid grasp of Mobile App Performance also makes Android Basics easier to understand.
+
+Keep experimenting, keep notes, and revisit Mobile App Performance whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+Troubleshooting Web Performance Problems
+
+When something breaks around Web Performance, a calm and systematic approach saves the most time. Many students first meet Web Performance in a classroom, but it matters just as much in production systems. The term refers to the practice of making websites load quickly and respond smoothly.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Lighthouse usually reveal the cause faster than guessing.
+
+Common culprits: shipping large JavaScript bundles; unoptimized images; too many network requests. If none of these explains the symptom, re-read the basics of page weight and caching.
+
+In practice you can start with Lighthouse, then explore WebPageTest or Chrome DevTools as your needs grow.
+
+Keep experimenting, keep notes, and revisit Web Performance whenever a new project gives you a reason.

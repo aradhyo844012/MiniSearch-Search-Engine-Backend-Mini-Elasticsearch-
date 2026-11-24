@@ -1,0 +1,13 @@
+Performance Tips for Deadlocks
+
+Fast software rarely happens by accident, and Deadlocks offers several places to gain speed. If you build software for long enough, you will run into Deadlocks. The term refers to situations where two or more tasks wait for each other forever.
+
+Start by measuring. Use thread dumps or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to mutual exclusion and hold and wait, because they usually decide how well things scale. For workloads such as database lock conflicts, even small improvements add up quickly.
+
+Four ideas sit at the heart of Deadlocks: mutual exclusion, hold and wait, circular wait, and lock ordering. Each one builds on the one before it. Sketching lock ordering on paper before coding helps many learners see how the pieces fit.
+
+Write a few tests that show how Deadlocks should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: acquiring locks in inconsistent order.
+
+Beginners often stumble on three things. First: acquiring locks in inconsistent order. Second: holding locks while waiting on I/O. Third: no timeouts on locks.
+
+Keep experimenting, keep notes, and revisit Deadlocks whenever a new project gives you a reason.

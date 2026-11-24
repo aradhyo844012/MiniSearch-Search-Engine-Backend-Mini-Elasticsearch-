@@ -1,0 +1,11 @@
+A Short History of Kubernetes
+
+Ideas behind Kubernetes developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Kubernetes, they usually mean a system for deploying, scaling and managing containerized applications. It appears in almost every serious software project, whether or not developers notice it.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+To understand Kubernetes, start with pods. Then move on to deployments, and finally look at services and ingress. Understanding deployments first often makes services much easier to reason about.
+
+A solid grasp of Kubernetes also makes Cloud Storage easier to understand.
+
+Keep experimenting, keep notes, and revisit Kubernetes whenever a new project gives you a reason.

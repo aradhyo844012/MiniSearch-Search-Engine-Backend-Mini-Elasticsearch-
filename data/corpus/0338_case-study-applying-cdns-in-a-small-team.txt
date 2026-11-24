@@ -1,0 +1,11 @@
+Case Study: Applying CDNs in a Small Team
+
+Imagine a small student team building a project that depends on CDNs. When people talk about CDNs, they usually mean networks of servers around the world that deliver static content from a location close to the user. It appears in almost every serious software project, whether or not developers notice it.
+
+If you are comfortable with CDNs, explore TLS Handshake next. The two often appear in the same project.
+
+The team first spent a week learning edge servers and cache rules. Early on they hit a familiar problem: caching private data. After fixing it, they used Cloudflare to check their work and adopted CDNs for serving images and scripts. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: caching private data. Second: forgetting to purge old files. Third: misconfigured cache headers.
+
+With steady practice, CDNs will stop feeling abstract and become a tool you reach for naturally.

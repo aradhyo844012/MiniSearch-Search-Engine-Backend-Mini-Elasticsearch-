@@ -1,0 +1,11 @@
+Case Study: Applying Dynamic Programming in a Small Team
+
+Imagine a small student team building a project that depends on Dynamic Programming. When people talk about Dynamic Programming, they usually mean a technique for solving problems by storing the answers to overlapping subproblems. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning overlapping subproblems and optimal substructure. Early on they hit a familiar problem: defining the state incorrectly. After fixing it, they used Python functools.lru_cache to check their work and adopted Dynamic Programming for computing edit distance. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: defining the state incorrectly; storing more state than needed; and ignoring base cases.
+
+A solid grasp of Dynamic Programming also makes Big O Notation easier to understand.
+
+Keep experimenting, keep notes, and revisit Dynamic Programming whenever a new project gives you a reason.

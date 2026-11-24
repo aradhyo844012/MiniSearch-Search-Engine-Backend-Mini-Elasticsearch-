@@ -1,0 +1,11 @@
+Edit Distance Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Edit Distance.
+
+- Definition: a measure of how many single-character changes turn one word into another.
+- Core ideas: insertions; deletions; substitutions; transpositions.
+- Use it for: spell checking; fuzzy matching; correcting search queries.
+- Watch out for: comparing against every word in a large vocabulary; ignoring word length; forgetting transpositions.
+- Tools: Levenshtein libraries, deletion-neighbour indexes, difflib.
+- Quick tip: write a tiny test for deletions before building anything large.
+- Related topic: Tokenization.

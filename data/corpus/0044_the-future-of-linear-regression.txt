@@ -1,0 +1,11 @@
+The Future of Linear Regression
+
+Predicting the future is risky, but the direction of Linear Regression is easy to describe in general terms. The term Linear Regression refers to a method for predicting a number by fitting a straight line or plane to data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Results should always be checked on data the model has never seen.
+
+Expect tools such as scikit-learn and NumPy to keep improving, and expect newer ideas to keep building on coefficients. The basics, though, tend to stay the same, so time spent on residuals and least squares is rarely wasted. Anyone working on predicting prices will keep meeting Linear Regression for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Start small by applying Linear Regression to one case, such as predicting prices, before rolling it out more widely. Practice coefficients with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Linear Regression whenever a new project gives you a reason.

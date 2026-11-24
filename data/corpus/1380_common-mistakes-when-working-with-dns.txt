@@ -1,0 +1,13 @@
+Common Mistakes When Working with DNS
+
+Almost everyone makes a few avoidable errors when first working with DNS. Put simply, DNS covers the system that translates human-friendly domain names into IP addresses. Learning it well pays off across many areas of computing.
+
+Watch out for these problems: forgetting TTLs when migrating; mistyped records; and assuming changes apply instantly.
+
+A solid grasp of DNS also makes HTTP and HTTPS easier to understand.
+
+Consider the first problem: forgetting TTLs when migrating. A short test or a careful review comment usually catches it. The second problem is similar: mistyped records. The third problem is this: assuming changes apply instantly. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about DNS helps the next developer. Keep an eye on this risk during code review: forgetting TTLs when migrating. Practice resolvers with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit DNS whenever a new project gives you a reason.

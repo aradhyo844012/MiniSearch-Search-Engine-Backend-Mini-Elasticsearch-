@@ -1,0 +1,13 @@
+Inside Web Performance: How It Works
+
+This article walks through what happens inside Web Performance, step by step. Put simply, Web Performance covers the practice of making websites load quickly and respond smoothly. Learning it well pays off across many areas of computing.
+
+To understand Web Performance, start with page weight. Then move on to caching, and finally look at lazy loading and critical rendering path. Understanding caching first often makes lazy loading much easier to reason about.
+
+First, page weight sets the stage for everything else. Next, caching builds on it. After that, lazy loading comes into play, and finally critical rendering path ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Small improvements in markup and styling often have a large effect on usability.
+
+A solid grasp of Web Performance also makes Bootstrap easier to understand.
+
+In short, careful study of Web Performance pays off. Spend time on page weight and caching, and the rest will follow.

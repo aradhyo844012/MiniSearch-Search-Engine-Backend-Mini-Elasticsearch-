@@ -1,0 +1,13 @@
+How Process Scheduling Connects to Deadlocks
+
+Process Scheduling and Deadlocks are closely connected parts of Operating Systems. Seeing how they fit together helps you learn both faster.
+
+A project involving sharing CPUs among programs may also involve database lock conflicts. In such a project, time slices and mutual exclusion often influence each other.
+
+Start with Process Scheduling: the term refers to the way an operating system decides which process runs on the CPU and for how long. Then look at Deadlocks, which refers to situations where two or more tasks wait for each other forever.
+
+A useful exercise is to take one example, such as keeping interfaces responsive, and explain how hold and wait would change the design.
+
+Common problems are shared too. For Process Scheduling, watch for this: too many context switches. For Deadlocks, watch for this: holding locks while waiting on I/O. The operating system shares limited hardware between many competing programs.
+
+Spend a few hours on each topic, then combine them in one small project using top or thread dumps.

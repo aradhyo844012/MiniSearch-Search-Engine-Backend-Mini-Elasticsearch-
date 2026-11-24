@@ -1,0 +1,13 @@
+Common Mistakes When Working with Gradient Descent
+
+Almost everyone makes a few avoidable errors when first working with Gradient Descent. If you build software for long enough, you will run into Gradient Descent. The term refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+Watch out for these problems: learning rates that are too large; getting stuck on plateaus; and unscaled features.
+
+Consider the first problem: learning rates that are too large. A short test or a careful review comment usually catches it. The second problem is similar: getting stuck on plateaus. The third problem is this: unscaled features. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Gradient Descent should behave. Tests double as documentation for your teammates. Measure before you optimize. Use PyTorch or a simple timer to see where time is actually spent.
+
+A solid grasp of Gradient Descent also makes Linear Regression easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Gradient Descent.

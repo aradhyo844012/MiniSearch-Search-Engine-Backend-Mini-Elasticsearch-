@@ -1,0 +1,13 @@
+The Importance of OAuth 2.0 in Modern Software
+
+It is easy to underestimate OAuth 2.0 until something goes wrong without it. If you build software for long enough, you will run into OAuth 2.0. The term refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+Keeping dependencies updated removes a large share of known risks.
+
+A team working on sign in with another account might adopt OAuth 2.0 after hitting the limits of a simpler approach. Other teams turn to it for API access for third-party apps or mobile logins.
+
+Watch out for these problems: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely.
+
+If you are comfortable with OAuth 2.0, explore Secure Coding next. The two often appear in the same project.
+
+With steady practice, OAuth 2.0 will stop feeling abstract and become a tool you reach for naturally.

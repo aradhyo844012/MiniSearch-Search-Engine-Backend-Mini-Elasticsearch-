@@ -1,0 +1,11 @@
+The Trade-offs of Data Cleaning
+
+Every design choice has a cost, and Data Cleaning is no exception. Put simply, Data Cleaning covers finding and fixing errors, gaps and inconsistencies in raw data. Learning it well pays off across many areas of computing.
+
+On the positive side, Data Cleaning is well suited to preparing logs and merging data sources. On the other hand, it is not free. Keep these risks in mind: dropping data without checking why it is missing; cleaning by hand without a record; changing the original files. Whether the trade is worth it depends on how much missing values and duplicates matter to your project.
+
+Watch out for these problems: dropping data without checking why it is missing; cleaning by hand without a record; and changing the original files.
+
+Read the official documentation for OpenRefine; it often explains duplicates better than blog posts do. Practice missing values with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Keep experimenting, keep notes, and revisit Data Cleaning whenever a new project gives you a reason.

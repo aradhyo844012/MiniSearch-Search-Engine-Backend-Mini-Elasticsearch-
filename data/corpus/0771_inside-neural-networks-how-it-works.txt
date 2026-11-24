@@ -1,0 +1,13 @@
+Inside Neural Networks: How It Works
+
+This article walks through what happens inside Neural Networks, step by step. Put simply, Neural Networks covers models made of layers of connected units that learn patterns from data. Learning it well pays off across many areas of computing.
+
+Four ideas sit at the heart of Neural Networks: layers, weights, activation functions, and backpropagation. Each one builds on the one before it. Sketching backpropagation on paper before coding helps many learners see how the pieces fit.
+
+First, layers sets the stage for everything else. Next, weights builds on it. After that, activation functions comes into play, and finally backpropagation ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Reproducible experiments make it far easier to trust and improve a model. A model is only as good as the data used to train and test it.
+
+If you are comfortable with Neural Networks, explore Overfitting next. The two often appear in the same project.
+
+With steady practice, Neural Networks will stop feeling abstract and become a tool you reach for naturally.

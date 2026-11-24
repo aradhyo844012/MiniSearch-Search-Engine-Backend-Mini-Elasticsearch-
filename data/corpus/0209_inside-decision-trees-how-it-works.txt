@@ -1,0 +1,15 @@
+Inside Decision Trees: How It Works
+
+This article walks through what happens inside Decision Trees, step by step. Many students first meet Decision Trees in a classroom, but it matters just as much in production systems. The term refers to models that make predictions by asking a sequence of simple questions about the data.
+
+To understand Decision Trees, start with splits. Then move on to entropy and Gini impurity, and finally look at leaf nodes and pruning. Understanding entropy and Gini impurity first often makes leaf nodes much easier to reason about.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Decision Trees helps the next developer. Practice splits with small exercises until it feels natural.
+
+First, splits sets the stage for everything else. Next, entropy and Gini impurity builds on it. After that, leaf nodes comes into play, and finally pruning ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+A model is only as good as the data used to train and test it. Reproducible experiments make it far easier to trust and improve a model.
+
+A solid grasp of Decision Trees also makes Linear Regression easier to understand.
+
+In short, careful study of Decision Trees pays off. Spend time on splits and entropy and Gini impurity, and the rest will follow.

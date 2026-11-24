@@ -1,0 +1,13 @@
+Inside OAuth 2.0: How It Works
+
+This article walks through what happens inside OAuth 2.0, step by step. Put simply, OAuth 2.0 covers a framework that lets applications access resources on a user's behalf without sharing passwords. Learning it well pays off across many areas of computing.
+
+Four ideas sit at the heart of OAuth 2.0: authorization server, access tokens, scopes, and redirect URIs. Each one builds on the one before it. A good way to remember authorization server is to connect it with a concrete example from your own code.
+
+First, authorization server sets the stage for everything else. Next, access tokens builds on it. After that, scopes comes into play, and finally redirect URIs ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Attackers usually choose the easiest weakness, not the most interesting one.
+
+A solid grasp of OAuth 2.0 also makes SQL Injection easier to understand.
+
+With steady practice, OAuth 2.0 will stop feeling abstract and become a tool you reach for naturally.

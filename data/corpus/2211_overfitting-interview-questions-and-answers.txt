@@ -1,0 +1,21 @@
+Overfitting Interview Questions and Answers
+
+Prepare for these questions about Overfitting.
+
+Q: Explain Overfitting in simple words.
+A: Overfitting refers to when a model learns the training data too closely and performs poorly on new data. I would add an example involving diagnosing weak models.
+
+Q: What problems have you seen in practice?
+A: evaluating only on training data; leaking test data; and adding complexity without evidence.
+
+Q: How does it connect to Neural Networks?
+A: Both belong to the area of Machine Learning, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with choosing simpler models, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: evaluating only on training data.
+
+Q: What are the key concepts?
+A: training and validation error, model complexity, regularization, and cross-validation.

@@ -1,0 +1,17 @@
+Myths and Facts About Zipf's Law
+
+A lot of folklore has built up around Zipf's Law. Some of it is true, and some of it is not. The term Zipf's Law refers to the observation that a word's frequency is roughly inversely related to its rank in natural language. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Zipf's Law is only for experts.
+Fact: beginners can use it effectively once they understand rank and frequency and power laws.
+
+Myth: Zipf's Law is only useful in very large systems.
+Fact: small projects such as analyzing text corpora benefit as well.
+
+Myth: one tool does everything.
+Fact: matplotlib, NumPy, and pandas make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Zipf's Law are always obvious.
+Fact: subtle problems happen, for example testing it on random text.
+
+In short, careful study of Zipf's Law pays off. Spend time on rank and frequency and power laws, and the rest will follow.

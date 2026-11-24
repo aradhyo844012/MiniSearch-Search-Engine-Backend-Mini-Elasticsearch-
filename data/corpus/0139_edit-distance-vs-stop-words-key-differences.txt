@@ -1,0 +1,15 @@
+Edit Distance vs Stop Words: Key Differences
+
+Edit Distance and Stop Words both belong to the area of Search and Retrieval, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Edit Distance refers to a measure of how many single-character changes turn one word into another. Its core ideas are insertions, deletions, and substitutions.
+
+The term Stop Words refers to very common words such as the and of that are often ignored by search systems. Its core ideas are frequency lists, index size, and query relevance.
+
+The main difference is focus. Edit Distance puts the emphasis on insertions and deletions, while Stop Words puts the emphasis on frequency lists and index size.
+
+Reach for Edit Distance when your task involves spell checking or fuzzy matching. Reach for Stop Words when your task involves shrinking indexes or speeding up queries.
+
+Both have risks. With Edit Distance, watch for this: comparing against every word in a large vocabulary. With Stop Words, watch for this: removing words that matter in phrases.
+
+In practice you do not always have to choose. Many projects use Edit Distance alongside Stop Words, with tools such as Levenshtein libraries and NLTK stopwords. Fast search comes from precomputing structures so that queries do very little work.

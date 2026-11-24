@@ -1,0 +1,17 @@
+A Beginner's Guide to Caching Strategies
+
+This guide is written for readers who are new to Caching Strategies and want a clear starting point. When people talk about Caching Strategies, they usually mean approaches for storing computed results so they can be reused instead of recalculated. It appears in almost every serious software project, whether or not developers notice it.
+
+Failures between services are normal, so retries and timeouts need careful design. Good APIs are boring, predictable and well documented.
+
+To understand Caching Strategies, start with cache-aside. Then move on to write-through, and finally look at time to live and invalidation. Understanding write-through first often makes time to live much easier to reason about.
+
+People use Caching Strategies for speeding up read-heavy APIs, for reducing database load, and for serving repeated searches.
+
+Popular tools and libraries include Redis, Memcached, and HTTP cache headers.
+
+Watch out for these problems: stale data; cache stampedes; and unbounded memory use.
+
+Measure before you optimize. Use Redis or a simple timer to see where time is actually spent. Start small by applying Caching Strategies to one case, such as speeding up read-heavy APIs, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit Caching Strategies whenever a new project gives you a reason.

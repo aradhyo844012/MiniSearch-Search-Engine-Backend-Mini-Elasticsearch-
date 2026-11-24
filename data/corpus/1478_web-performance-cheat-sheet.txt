@@ -1,0 +1,11 @@
+Web Performance Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Web Performance.
+
+- Definition: the practice of making websites load quickly and respond smoothly.
+- Core ideas: page weight; caching; lazy loading; critical rendering path.
+- Use it for: shopping sites; news pages; search interfaces.
+- Watch out for: shipping large JavaScript bundles; unoptimized images; too many network requests.
+- Tools: Lighthouse, WebPageTest, Chrome DevTools.
+- Quick tip: write a tiny test for caching before building anything large.
+- Quick tip: practice page weight until it feels automatic.

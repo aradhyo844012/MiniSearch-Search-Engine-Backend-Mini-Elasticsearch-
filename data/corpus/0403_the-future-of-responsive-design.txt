@@ -1,0 +1,11 @@
+The Future of Responsive Design
+
+Predicting the future is risky, but the direction of Responsive Design is easy to describe in general terms. If you build software for long enough, you will run into Responsive Design. The term refers to building pages that adapt smoothly to phones, tablets and large screens.
+
+Accessible design helps everyone, including people on slow connections or small screens. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Expect tools such as Chrome DevTools device mode and Bootstrap grid to keep improving, and expect newer ideas to keep building on media queries. The basics, though, tend to stay the same, so time spent on fluid grids and flexible images is rarely wasted. Anyone working on websites used on many devices will keep meeting Responsive Design for years to come.
+
+Keep an eye on this risk during code review: testing only on one screen size. Measure before you optimize. Use Chrome DevTools device mode or a simple timer to see where time is actually spent. Practice media queries with small exercises until it feels natural.
+
+With steady practice, Responsive Design will stop feeling abstract and become a tool you reach for naturally.

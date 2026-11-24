@@ -1,0 +1,11 @@
+The Trade-offs of Linked Lists
+
+Every design choice has a cost, and Linked Lists is no exception. Many students first meet Linked Lists in a classroom, but it matters just as much in production systems. The term refers to chains of nodes where each node stores a value and a reference to the next node.
+
+On the positive side, Linked Lists is well suited to queues and stacks and undo histories. On the other hand, it is not free. Keep these risks in mind: losing the head pointer; off-by-one errors during insertion; poor cache locality. Whether the trade is worth it depends on how much nodes and head and tail pointers matter to your project.
+
+Three issues come up again and again: losing the head pointer; off-by-one errors during insertion; and poor cache locality. Knowing them in advance saves hours of debugging.
+
+Keep an eye on this risk during code review: losing the head pointer. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linked Lists.

@@ -1,0 +1,13 @@
+How Docker Connects to Cloud Storage
+
+Docker and Cloud Storage are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving reproducible development setups may also involve backups. In such a project, Dockerfile and buckets often influence each other.
+
+Start with Docker: the term refers to a platform for building and running applications in containers. Then look at Cloud Storage, which refers to storing files and objects on remote servers that scale on demand.
+
+A useful exercise is to take one example, such as shipping applications, and explain how objects would change the design.
+
+Common problems are shared too. For Docker, watch for this: secrets baked into images. For Cloud Storage, watch for this: surprise egress costs. Automation turns risky manual steps into repeatable and reviewable processes.
+
+Spend a few hours on each topic, then combine them in one small project using Docker Compose or Amazon S3.

@@ -1,0 +1,11 @@
+The Trade-offs of ETL Pipelines
+
+Every design choice has a cost, and ETL Pipelines is no exception. The term ETL Pipelines refers to processes that extract data from sources, transform it and load it into a destination. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, ETL Pipelines is well suited to building reports and moving data into warehouses. On the other hand, it is not free. Keep these risks in mind: silent data loss; no retry logic; poor error reporting. Whether the trade is worth it depends on how much extraction and transformation matter to your project.
+
+Three issues come up again and again: silent data loss; no retry logic; and poor error reporting. Knowing them in advance saves hours of debugging.
+
+Measure before you optimize. Use Apache Airflow or a simple timer to see where time is actually spent. Write a few tests that show how ETL Pipelines should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: silent data loss.
+
+With steady practice, ETL Pipelines will stop feeling abstract and become a tool you reach for naturally.

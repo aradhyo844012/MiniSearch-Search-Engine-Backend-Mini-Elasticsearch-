@@ -1,0 +1,11 @@
+Case Study: Applying Database Sharding in a Small Team
+
+Imagine a small student team building a project that depends on Database Sharding. When people talk about Database Sharding, they usually mean splitting a large dataset across several databases so each holds only part of it. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning shard keys and routing. Early on they hit a familiar problem: choosing a poor shard key. After fixing it, they used Vitess to check their work and adopted Database Sharding for scaling beyond one server. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+Three issues come up again and again: choosing a poor shard key; hot shards; and expensive joins across shards. Knowing them in advance saves hours of debugging.
+
+With steady practice, Database Sharding will stop feeling abstract and become a tool you reach for naturally.

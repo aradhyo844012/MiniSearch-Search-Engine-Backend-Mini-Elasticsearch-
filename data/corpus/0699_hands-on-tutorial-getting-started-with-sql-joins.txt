@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with SQL Joins
+
+This hands-on tutorial takes you from zero to a small working experiment with SQL Joins. When people talk about SQL Joins, they usually mean operations that combine rows from two or more tables based on related columns. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open PostgreSQL and create a new empty project folder.
+Step 2: Read about inner join and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses left join.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as linking customers to orders.
+Step 6: Break your example on purpose and see what happens. A good experiment: forgetting the join condition.
+
+Popular tools and libraries include PostgreSQL, MySQL Workbench, and DBeaver.
+
+Watch out for these problems: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join.
+
+In short, careful study of SQL Joins pays off. Spend time on inner join and left join, and the rest will follow.

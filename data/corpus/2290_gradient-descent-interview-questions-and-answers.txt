@@ -1,0 +1,24 @@
+Gradient Descent Interview Questions and Answers
+
+Prepare for these questions about Gradient Descent.
+
+Q: Explain Gradient Descent in simple words.
+A: Gradient Descent refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error. I would add an example involving training neural networks.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as learning rate, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: learning rate, gradients, loss function, and batches.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: learning rates that are too large.
+
+Q: How does it connect to Overfitting?
+A: Both belong to the area of Machine Learning, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: learning rates that are too large; getting stuck on plateaus; and unscaled features.
+
+Q: Which tools have you used?
+A: PyTorch, NumPy, and TensorFlow.

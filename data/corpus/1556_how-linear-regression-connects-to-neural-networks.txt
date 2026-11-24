@@ -1,0 +1,13 @@
+How Linear Regression Connects to Neural Networks
+
+Linear Regression and Neural Networks are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving predicting prices may also involve image recognition. In such a project, coefficients and layers often influence each other.
+
+Start with Linear Regression: the term refers to a method for predicting a number by fitting a straight line or plane to data. Then look at Neural Networks, which refers to models made of layers of connected units that learn patterns from data.
+
+A useful exercise is to take one example, such as estimating demand, and explain how weights would change the design.
+
+Common problems are shared too. For Linear Regression, watch for this: ignoring outliers. For Neural Networks, watch for this: poor learning rate choices. Results should always be checked on data the model has never seen.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or PyTorch.

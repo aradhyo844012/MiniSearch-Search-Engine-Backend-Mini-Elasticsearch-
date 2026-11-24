@@ -1,0 +1,11 @@
+Common Mistakes When Working with IP Addressing and Subnets
+
+Almost everyone makes a few avoidable errors when first working with IP Addressing and Subnets. The term IP Addressing and Subnets refers to the rules for numbering devices on a network and dividing networks into smaller parts. This article explains the idea in plain language and points out where it fits in real projects.
+
+Watch out for these problems: overlapping address ranges; miscounting host bits; and exhausting small subnets.
+
+Consider the first problem: overlapping address ranges. A short test or a careful review comment usually catches it. The second problem is similar: miscounting host bits. The third problem is this: exhausting small subnets. It tends to appear only once a project grows, so it is worth planning for early.
+
+Ask a teammate to explain CIDR notation back to you; teaching is a quick way to find gaps. Measure before you optimize. Use ipcalc or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with IP Addressing and Subnets.

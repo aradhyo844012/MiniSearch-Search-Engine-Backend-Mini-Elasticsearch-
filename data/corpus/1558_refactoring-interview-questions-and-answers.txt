@@ -1,0 +1,24 @@
+Refactoring Interview Questions and Answers
+
+Prepare for these questions about Refactoring.
+
+Q: Explain Refactoring in simple words.
+A: Refactoring refers to improving the structure of existing code without changing its behavior. I would add an example involving reducing duplication.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: refactoring without tests.
+
+Q: Where would you apply it first?
+A: I would start with preparing for new features, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: small steps, tests as a safety net, extracting functions, and renaming.
+
+Q: What problems have you seen in practice?
+A: refactoring without tests; mixing refactoring with new features; and rewriting instead of improving.
+
+Q: Which tools have you used?
+A: IDE refactoring tools, pytest, and linters.
+
+Q: How does it connect to Code Review?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.

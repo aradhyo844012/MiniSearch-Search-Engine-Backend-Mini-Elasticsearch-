@@ -1,0 +1,11 @@
+Troubleshooting Virtual Memory Problems
+
+When something breaks around Virtual Memory, a calm and systematic approach saves the most time. Put simply, Virtual Memory covers a technique that gives each program its own address space backed by RAM and disk. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and vmstat usually reveal the cause faster than guessing.
+
+Common culprits: thrashing when memory is short; ignoring page fault costs; assuming memory is always available. If none of these explains the symptom, re-read the basics of pages and page tables.
+
+Popular tools and libraries include vmstat, free, and /proc/meminfo.
+
+With steady practice, Virtual Memory will stop feeling abstract and become a tool you reach for naturally.

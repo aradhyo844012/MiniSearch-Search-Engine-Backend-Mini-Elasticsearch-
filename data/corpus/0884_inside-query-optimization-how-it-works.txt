@@ -1,0 +1,15 @@
+Inside Query Optimization: How It Works
+
+This article walks through what happens inside Query Optimization, step by step. Put simply, Query Optimization covers the process of making database queries return results with less time and fewer resources. Learning it well pays off across many areas of computing.
+
+The vocabulary of Query Optimization is small. Learn query plans, statistics, index usage, and join order, and most documentation will start to make sense. Sketching join order on paper before coding helps many learners see how the pieces fit.
+
+First, query plans sets the stage for everything else. Next, statistics builds on it. After that, index usage comes into play, and finally join order ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Backups are only useful if restoring from them has been tested.
+
+Backups are only useful if restoring from them has been tested.
+
+Query Optimization and Redis Caching are closely related, so learning both gives a fuller picture of Databases.
+
+In short, careful study of Query Optimization pays off. Spend time on query plans and statistics, and the rest will follow.

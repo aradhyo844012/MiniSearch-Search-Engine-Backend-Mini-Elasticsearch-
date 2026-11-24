@@ -1,0 +1,17 @@
+A Beginner's Guide to Load Balancing
+
+This guide is written for readers who are new to Load Balancing and want a clear starting point. The term Load Balancing refers to spreading incoming requests across several servers so no single server is overwhelmed. This article explains the idea in plain language and points out where it fits in real projects.
+
+Network failures are normal, so well-designed software expects timeouts and retries.
+
+Four ideas sit at the heart of Load Balancing: round robin, health checks, sticky sessions, and layer 4 and layer 7. Each one builds on the one before it. A good way to remember round robin is to connect it with a concrete example from your own code.
+
+Typical applications include scaling web applications, avoiding downtime, and rolling deployments. Small projects and large systems both benefit.
+
+Popular tools and libraries include NGINX, HAProxy, and AWS Elastic Load Balancing.
+
+Beginners often stumble on three things. First: the balancer becoming a single point of failure. Second: ignoring health checks. Third: session data stored only on one server.
+
+Write a few tests that show how Load Balancing should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Load Balancing helps the next developer.
+
+In short, careful study of Load Balancing pays off. Spend time on round robin and health checks, and the rest will follow.

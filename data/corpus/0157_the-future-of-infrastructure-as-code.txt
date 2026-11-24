@@ -1,0 +1,11 @@
+The Future of Infrastructure as Code
+
+Predicting the future is risky, but the direction of Infrastructure as Code is easy to describe in general terms. If you build software for long enough, you will run into Infrastructure as Code. The term refers to managing servers and cloud resources through version-controlled configuration files.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly. Small, frequent releases are usually safer than rare, large ones.
+
+Expect tools such as Terraform and Ansible to keep improving, and expect newer ideas to keep building on declarative configuration. The basics, though, tend to stay the same, so time spent on state and modules is rarely wasted. Anyone working on recreating environments will keep meeting Infrastructure as Code for years to come.
+
+Practice declarative configuration with small exercises until it feels natural. Keep an eye on this risk during code review: manual changes causing drift. Measure before you optimize. Use Terraform or a simple timer to see where time is actually spent.
+
+In short, careful study of Infrastructure as Code pays off. Spend time on declarative configuration and state, and the rest will follow.

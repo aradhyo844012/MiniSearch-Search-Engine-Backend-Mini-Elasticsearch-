@@ -1,0 +1,13 @@
+How Caching Strategies Connects to Message Queues
+
+Caching Strategies and Message Queues are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving speeding up read-heavy APIs may also involve sending emails. In such a project, cache-aside and producers often influence each other.
+
+Start with Caching Strategies: the term refers to approaches for storing computed results so they can be reused instead of recalculated. Then look at Message Queues, which refers to systems that let services send work to each other asynchronously through a buffer.
+
+A useful exercise is to take one example, such as reducing database load, and explain how consumers would change the design.
+
+Common problems are shared too. For Caching Strategies, watch for this: cache stampedes. For Message Queues, watch for this: poison messages that retry forever. Good APIs are boring, predictable and well documented.
+
+Spend a few hours on each topic, then combine them in one small project using Redis or RabbitMQ.

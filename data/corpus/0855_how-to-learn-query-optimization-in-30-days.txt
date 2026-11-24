@@ -1,0 +1,14 @@
+How to Learn Query Optimization in 30 Days
+
+You do not need months to become comfortable with Query Optimization. A focused plan of thirty days is enough to build a solid base. Put simply, Query Optimization covers the process of making database queries return results with less time and fewer resources. Learning it well pays off across many areas of computing.
+
+A solid grasp of Query Optimization also makes Redis Caching easier to understand.
+
+Week 1: learn query plans and statistics, and write a one-page summary.
+Week 2: practice with EXPLAIN ANALYZE on a small task such as speeding up dashboards.
+Week 3: build a mini project around reducing server load.
+Week 4: review common mistakes such as selecting more columns than needed, and explain Query Optimization to a friend.
+
+Popular tools and libraries include EXPLAIN ANALYZE, pg_stat_statements, and query profilers.
+
+With steady practice, Query Optimization will stop feeling abstract and become a tool you reach for naturally.

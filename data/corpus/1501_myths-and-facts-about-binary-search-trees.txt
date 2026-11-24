@@ -1,0 +1,19 @@
+Myths and Facts About Binary Search Trees
+
+A lot of folklore has built up around Binary Search Trees. Some of it is true, and some of it is not. When people talk about Binary Search Trees, they usually mean ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. It appears in almost every serious software project, whether or not developers notice it.
+
+Interviewers and engineers alike value clear reasoning about time and space costs. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Myth: Binary Search Trees is only for experts.
+Fact: beginners can use it effectively once they understand nodes and links and in-order traversal.
+
+Myth: Binary Search Trees is only useful in very large systems.
+Fact: small projects such as ordered lookups benefit as well.
+
+Myth: one tool does everything.
+Fact: AVL trees, red-black trees, and Java TreeMap make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Binary Search Trees are always obvious.
+Fact: subtle problems happen, for example unbalanced trees degrade to linked lists.
+
+With steady practice, Binary Search Trees will stop feeling abstract and become a tool you reach for naturally.

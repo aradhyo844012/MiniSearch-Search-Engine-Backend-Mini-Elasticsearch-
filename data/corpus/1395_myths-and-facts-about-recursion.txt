@@ -1,0 +1,19 @@
+Myths and Facts About Recursion
+
+A lot of folklore has built up around Recursion. Some of it is true, and some of it is not. Put simply, Recursion covers a technique where a function solves a problem by calling itself on smaller inputs. Learning it well pays off across many areas of computing.
+
+Recursion and Heaps and Priority Queues are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Myth: Recursion is only for experts.
+Fact: beginners can use it effectively once they understand base case and recursive case.
+
+Myth: Recursion is only useful in very large systems.
+Fact: small projects such as traversing trees benefit as well.
+
+Myth: one tool does everything.
+Fact: Python sys.setrecursionlimit, debuggers, and memoization decorators make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Recursion are always obvious.
+Fact: subtle problems happen, for example missing base cases.
+
+In short, careful study of Recursion pays off. Spend time on base case and recursive case, and the rest will follow.

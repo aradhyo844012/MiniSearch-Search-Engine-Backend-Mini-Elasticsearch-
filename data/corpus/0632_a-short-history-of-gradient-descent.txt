@@ -1,0 +1,11 @@
+A Short History of Gradient Descent
+
+Ideas behind Gradient Descent developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into Gradient Descent. The term refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+A model is only as good as the data used to train and test it. Simple baselines are worth building first because they show what improvement is realistic.
+
+To understand Gradient Descent, start with learning rate. Then move on to gradients, and finally look at loss function and batches. Understanding gradients first often makes loss function much easier to reason about.
+
+Gradient Descent and Overfitting are closely related, so learning both gives a fuller picture of Machine Learning.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Gradient Descent.

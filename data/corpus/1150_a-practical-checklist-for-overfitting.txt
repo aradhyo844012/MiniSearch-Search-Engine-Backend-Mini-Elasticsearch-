@@ -1,0 +1,11 @@
+A Practical Checklist for Overfitting
+
+Use this checklist before you rely on Overfitting in a project.
+
+1. Write at least one automated test that covers training and validation error.
+2. Guard against this risk: leaking test data.
+3. Document your decisions in the project README.
+4. Try the approach on a small case, for example diagnosing weak models.
+5. Confirm that your team agrees on what Overfitting should accomplish.
+6. Guard against this risk: evaluating only on training data.
+7. Pick a tool to start with, such as scikit-learn or early stopping.

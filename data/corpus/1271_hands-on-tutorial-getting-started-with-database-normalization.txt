@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Database Normalization
+
+This hands-on tutorial takes you from zero to a small working experiment with Database Normalization. When people talk about Database Normalization, they usually mean the practice of organizing tables to reduce duplicated data and update anomalies. It appears in almost every serious software project, whether or not developers notice it.
+
+Keep notes on what worked. A short README explaining your decisions about Database Normalization helps the next developer. Keep an eye on this risk during code review: over-normalizing reporting tables.
+
+Step 1: Install or open ER diagrams and create a new empty project folder.
+Step 2: Read about first normal form and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses second normal form.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as designing clean schemas.
+Step 6: Break your example on purpose and see what happens. A good experiment: over-normalizing reporting tables.
+
+In practice you can start with ER diagrams, then explore dbdiagram.io or MySQL Workbench as your needs grow.
+
+Three issues come up again and again: over-normalizing reporting tables; ignoring query patterns; and duplicating data by accident. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Database Normalization pays off. Spend time on first normal form and second normal form, and the rest will follow.

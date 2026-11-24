@@ -1,0 +1,15 @@
+Inside Natural Language Processing: How It Works
+
+This article walks through what happens inside Natural Language Processing, step by step. The term Natural Language Processing refers to the field of teaching computers to work with human language. This article explains the idea in plain language and points out where it fits in real projects.
+
+The vocabulary of Natural Language Processing is small. Learn tokenization, embeddings, language models, and evaluation metrics, and most documentation will start to make sense. Understanding embeddings first often makes language models much easier to reason about.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use spaCy or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: ignoring language variety.
+
+First, tokenization sets the stage for everything else. Next, embeddings builds on it. After that, language models comes into play, and finally evaluation metrics ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Results should always be checked on data the model has never seen. A model is only as good as the data used to train and test it.
+
+A solid grasp of Natural Language Processing also makes Overfitting easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Natural Language Processing.

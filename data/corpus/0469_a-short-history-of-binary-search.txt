@@ -1,0 +1,11 @@
+A Short History of Binary Search
+
+Ideas behind Binary Search developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Binary Search in a classroom, but it matters just as much in production systems. The term refers to a fast way to find an item in sorted data by repeatedly halving the search range.
+
+Choosing the right data structure often matters more than clever tuning later. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+The vocabulary of Binary Search is small. Learn sorted input, low and high bounds, midpoint calculation, and logarithmic time, and most documentation will start to make sense. Sketching logarithmic time on paper before coding helps many learners see how the pieces fit.
+
+Binary Search and Recursion are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+In short, careful study of Binary Search pays off. Spend time on sorted input and low and high bounds, and the rest will follow.

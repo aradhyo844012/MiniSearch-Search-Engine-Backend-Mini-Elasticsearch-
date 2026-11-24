@@ -1,0 +1,24 @@
+Binary Search Trees Interview Questions and Answers
+
+Prepare for these questions about Binary Search Trees.
+
+Q: Explain Binary Search Trees in simple words.
+A: Binary Search Trees refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. I would add an example involving ordered lookups.
+
+Q: Which tools have you used?
+A: AVL trees, red-black trees, and Java TreeMap.
+
+Q: How does it connect to Graph Traversal?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as nodes and links, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; and recursive code can overflow the stack on deep trees.
+
+Q: Where would you apply it first?
+A: I would start with range queries, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: unbalanced trees degrade to linked lists.

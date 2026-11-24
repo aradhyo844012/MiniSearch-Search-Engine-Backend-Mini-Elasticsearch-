@@ -1,0 +1,17 @@
+Best Practices for Functional Programming
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Functional Programming in a classroom, but it matters just as much in production systems. The term refers to a style of programming that builds programs from functions and avoids shared mutable state.
+
+1. Read the official documentation for JavaScript array methods; it often explains immutability better than blog posts do.
+2. Start small by applying Functional Programming to one case, such as data transformation, before rolling it out more widely.
+3. Measure before you optimize. Use Python functools or a simple timer to see where time is actually spent.
+4. Keep notes on what worked. A short README explaining your decisions about Functional Programming helps the next developer.
+5. Write a few tests that show how Functional Programming should behave. Tests double as documentation for your teammates.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Functional Programming helps the next developer.
+
+In practice you can start with Python functools, then explore JavaScript array methods or Haskell as your needs grow.
+
+A solid grasp of Functional Programming also makes Error Handling easier to understand.
+
+With steady practice, Functional Programming will stop feeling abstract and become a tool you reach for naturally.

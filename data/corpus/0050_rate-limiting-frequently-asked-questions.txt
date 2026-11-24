@@ -1,0 +1,22 @@
+Rate Limiting: Frequently Asked Questions
+
+Q: What is Rate Limiting?
+A: The term Rate Limiting refers to controlling how many requests a client can make in a given period.
+
+Q: What mistakes are most common?
+A: Watch for these: limits that are too strict; keeping counters only on one server; and no helpful error messages.
+
+Q: What should a beginner learn first?
+A: Start with token bucket and fixed window, then move on to sliding window and 429 responses.
+
+Q: Which tools help?
+A: Popular choices include Redis, NGINX, and API gateways.
+
+Q: How does it relate to JSON?
+A: Rate Limiting and JSON often appear in the same project, and both belong to the area of Backend and APIs.
+
+Q: Why do developers use Rate Limiting?
+A: Common uses include protecting APIs, stopping brute force attempts, and fair usage across customers.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Rate Limiting.

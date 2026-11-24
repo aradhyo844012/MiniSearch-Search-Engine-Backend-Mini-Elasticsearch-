@@ -1,0 +1,15 @@
+Inside Bootstrap: How It Works
+
+This article walks through what happens inside Bootstrap, step by step. When people talk about Bootstrap, they usually mean a popular front-end toolkit with ready-made layout, components and utilities. It appears in almost every serious software project, whether or not developers notice it.
+
+Four ideas sit at the heart of Bootstrap: grid system, components, utility classes, and theming variables. Each one builds on the one before it. A good way to remember grid system is to connect it with a concrete example from your own code.
+
+First, grid system sets the stage for everything else. Next, components builds on it. After that, utility classes comes into play, and finally theming variables ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Ask a teammate to explain utility classes back to you; teaching is a quick way to find gaps. Measure before you optimize. Use Bootstrap CDN or a simple timer to see where time is actually spent.
+
+Accessible design helps everyone, including people on slow connections or small screens.
+
+A solid grasp of Bootstrap also makes Web Performance easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Bootstrap.

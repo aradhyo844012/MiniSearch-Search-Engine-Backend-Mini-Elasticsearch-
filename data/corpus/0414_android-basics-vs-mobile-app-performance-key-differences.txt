@@ -1,0 +1,15 @@
+Android Basics vs Mobile App Performance: Key Differences
+
+Android Basics and Mobile App Performance both belong to the area of Mobile Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Android Basics refers to the core building blocks used to create apps for Android phones. Its core ideas are activities, layouts, and intents.
+
+The term Mobile App Performance refers to making mobile apps start quickly, run smoothly and use little battery. Its core ideas are startup time, frame rate, and memory use.
+
+The main difference is focus. Android Basics puts the emphasis on activities and layouts, while Mobile App Performance puts the emphasis on startup time and frame rate.
+
+Reach for Android Basics when your task involves building simple apps or accessing sensors. Reach for Mobile App Performance when your task involves smoother scrolling or longer battery life.
+
+Both have risks. With Android Basics, watch for this: ignoring lifecycle events. With Mobile App Performance, watch for this: loading everything at startup.
+
+In practice you do not always have to choose. Many projects use Android Basics alongside Mobile App Performance, with tools such as Android Studio and Android Profiler. Mobile users expect apps to start quickly and respond immediately.

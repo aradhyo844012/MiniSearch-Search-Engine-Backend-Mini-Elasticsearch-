@@ -1,0 +1,15 @@
+Performance Tips for Binary Search Trees
+
+Fast software rarely happens by accident, and Binary Search Trees offers several places to gain speed. Put simply, Binary Search Trees covers ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use AVL trees or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to nodes and links and in-order traversal, because they usually decide how well things scale. For workloads such as ordered lookups, even small improvements add up quickly.
+
+The vocabulary of Binary Search Trees is small. Learn nodes and links, in-order traversal, tree height, and balancing, and most documentation will start to make sense. Sketching balancing on paper before coding helps many learners see how the pieces fit.
+
+Practice nodes and links with small exercises until it feels natural. Measure before you optimize. Use AVL trees or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Ask a teammate to explain tree height back to you; teaching is a quick way to find gaps. Write a few tests that show how Binary Search Trees should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; and recursive code can overflow the stack on deep trees. Knowing them in advance saves hours of debugging.
+
+With steady practice, Binary Search Trees will stop feeling abstract and become a tool you reach for naturally.

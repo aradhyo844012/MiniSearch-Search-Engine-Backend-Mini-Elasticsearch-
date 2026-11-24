@@ -1,0 +1,13 @@
+Real-World Use Cases of Public Key Cryptography
+
+The best way to appreciate Public Key Cryptography is to see where it is actually used. Put simply, Public Key Cryptography covers encryption that uses a pair of keys, one public and one private. Learning it well pays off across many areas of computing.
+
+People use Public Key Cryptography for HTTPS, for signing software, and for secure messaging.
+
+Consider HTTPS. In a case like this, Public Key Cryptography gives the work a clear structure, and understanding key pairs makes the design easier to explain. A different example is signing software, where digital signatures often decides how well the solution scales.
+
+Attackers usually choose the easiest weakness, not the most interesting one. Never trust input that comes from outside your own code.
+
+Popular tools and libraries include OpenSSL, GnuPG, and SSH keys.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Public Key Cryptography.

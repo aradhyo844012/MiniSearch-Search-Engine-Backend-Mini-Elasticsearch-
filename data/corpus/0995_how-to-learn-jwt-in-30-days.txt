@@ -1,0 +1,12 @@
+How to Learn JWT in 30 Days
+
+You do not need months to become comfortable with JWT. A focused plan of thirty days is enough to build a solid base. If you build software for long enough, you will run into JWT. The term refers to a compact token format that carries signed claims between a client and a server.
+
+Week 1: learn header, payload and signature and claims, and write a one-page summary.
+Week 2: practice with jwt.io on a small task such as stateless API authentication.
+Week 3: build a mini project around service-to-service calls.
+Week 4: review common mistakes such as storing tokens in insecure places, and explain JWT to a friend.
+
+Popular tools and libraries include jwt.io, PyJWT, and jsonwebtoken.
+
+With steady practice, JWT will stop feeling abstract and become a tool you reach for naturally.

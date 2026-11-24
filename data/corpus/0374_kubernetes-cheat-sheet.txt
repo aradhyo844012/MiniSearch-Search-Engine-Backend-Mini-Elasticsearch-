@@ -1,0 +1,11 @@
+Kubernetes Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Kubernetes.
+
+- Definition: a system for deploying, scaling and managing containerized applications.
+- Core ideas: pods; deployments; services; ingress.
+- Use it for: running many containers; rolling updates; automatic restarts.
+- Watch out for: resource limits missing; over-complicated setups; ignoring health probes.
+- Tools: kubectl, Helm, minikube.
+- Quick tip: write a tiny test for deployments before building anything large.
+- Quick tip: practice pods until it feels automatic.

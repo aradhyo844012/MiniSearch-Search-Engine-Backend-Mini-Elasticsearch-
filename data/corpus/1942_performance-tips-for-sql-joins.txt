@@ -1,0 +1,15 @@
+Performance Tips for SQL Joins
+
+Fast software rarely happens by accident, and SQL Joins offers several places to gain speed. Put simply, SQL Joins covers operations that combine rows from two or more tables based on related columns. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use PostgreSQL or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to inner join and left join, because they usually decide how well things scale. For workloads such as linking customers to orders, even small improvements add up quickly.
+
+The vocabulary of SQL Joins is small. Learn inner join, left join, join conditions, and cartesian products, and most documentation will start to make sense. A good way to remember inner join is to connect it with a concrete example from your own code.
+
+Practice inner join with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about SQL Joins helps the next developer. Measure before you optimize. Use PostgreSQL or a simple timer to see where time is actually spent.
+
+Three issues come up again and again: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join. Knowing them in advance saves hours of debugging.
+
+Good schema design is hard to change once real data and users depend on it. Backups are only useful if restoring from them has been tested.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with SQL Joins.

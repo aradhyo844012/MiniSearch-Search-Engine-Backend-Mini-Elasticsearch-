@@ -1,0 +1,13 @@
+How Edit Distance Connects to Autocomplete
+
+Edit Distance and Autocomplete are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving spell checking may also involve search boxes. In such a project, insertions and prefixes often influence each other.
+
+Start with Edit Distance: the term refers to a measure of how many single-character changes turn one word into another. Then look at Autocomplete, which refers to suggesting likely completions while a person types a query.
+
+A useful exercise is to take one example, such as fuzzy matching, and explain how ranking suggestions would change the design.
+
+Common problems are shared too. For Edit Distance, watch for this: ignoring word length. For Autocomplete, watch for this: offensive or irrelevant completions. Fast search comes from precomputing structures so that queries do very little work.
+
+Spend a few hours on each topic, then combine them in one small project using Levenshtein libraries or tries.

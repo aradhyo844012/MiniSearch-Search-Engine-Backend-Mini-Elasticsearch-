@@ -1,0 +1,19 @@
+Myths and Facts About NoSQL Databases
+
+A lot of folklore has built up around NoSQL Databases. Some of it is true, and some of it is not. Many students first meet NoSQL Databases in a classroom, but it matters just as much in production systems. The term refers to a broad family of databases that do not use the traditional relational table model.
+
+Myth: NoSQL Databases is only for experts.
+Fact: beginners can use it effectively once they understand document stores and key-value stores.
+
+Myth: NoSQL Databases is only useful in very large systems.
+Fact: small projects such as flexible schemas benefit as well.
+
+Myth: one tool does everything.
+Fact: MongoDB, Cassandra, and Redis make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with NoSQL Databases are always obvious.
+Fact: subtle problems happen, for example assuming no schema means no design.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory. Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+Keep experimenting, keep notes, and revisit NoSQL Databases whenever a new project gives you a reason.

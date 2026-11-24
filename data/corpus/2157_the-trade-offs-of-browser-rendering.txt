@@ -1,0 +1,11 @@
+The Trade-offs of Browser Rendering
+
+Every design choice has a cost, and Browser Rendering is no exception. The term Browser Rendering refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Browser Rendering is well suited to explaining slow pages and designing smooth animations. On the other hand, it is not free. Keep these risks in mind: blocking scripts in the head; forcing repeated layouts; loading huge images. Whether the trade is worth it depends on how much DOM construction and style calculation matter to your project.
+
+Three issues come up again and again: blocking scripts in the head; forcing repeated layouts; and loading huge images. Knowing them in advance saves hours of debugging.
+
+Practice DOM construction with small exercises until it feels natural. Read the official documentation for Lighthouse; it often explains style calculation better than blog posts do.
+
+In short, careful study of Browser Rendering pays off. Spend time on DOM construction and style calculation, and the rest will follow.

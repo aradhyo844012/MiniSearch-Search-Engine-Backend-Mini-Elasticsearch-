@@ -1,0 +1,11 @@
+A Practical Checklist for JSON
+
+Use this checklist before you rely on JSON in a project.
+
+1. Document your decisions in the project README.
+2. Guard against this risk: large payloads.
+3. Review the core ideas: objects, arrays, strings and numbers, and serialization.
+4. Review how JSON interacts with Caching Strategies.
+5. Ask a teammate to review the work, focusing on arrays.
+6. Measure results before and after any change.
+7. Try the approach on a small case, for example API responses.

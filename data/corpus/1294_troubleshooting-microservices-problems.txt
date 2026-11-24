@@ -1,0 +1,11 @@
+Troubleshooting Microservices Problems
+
+When something breaks around Microservices, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Microservices. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Docker usually reveal the cause faster than guessing.
+
+Common culprits: splitting too early; chatty services; hard debugging across services. If none of these explains the symptom, re-read the basics of service boundaries and APIs.
+
+Popular tools and libraries include Docker, Kubernetes, and API gateways.
+
+Keep experimenting, keep notes, and revisit Microservices whenever a new project gives you a reason.

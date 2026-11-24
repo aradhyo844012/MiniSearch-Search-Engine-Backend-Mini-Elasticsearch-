@@ -1,0 +1,17 @@
+Myths and Facts About Technical Debt
+
+A lot of folklore has built up around Technical Debt. Some of it is true, and some of it is not. If you build software for long enough, you will run into Technical Debt. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+Myth: Technical Debt is only for experts.
+Fact: beginners can use it effectively once they understand shortcuts and interest.
+
+Myth: Technical Debt is only useful in very large systems.
+Fact: small projects such as deciding when to cut corners benefit as well.
+
+Myth: one tool does everything.
+Fact: SonarQube, issue trackers, and code metrics make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Technical Debt are always obvious.
+Fact: subtle problems happen, for example never paying it down.
+
+With steady practice, Technical Debt will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+The Importance of Overfitting in Modern Software
+
+It is easy to underestimate Overfitting until something goes wrong without it. Many students first meet Overfitting in a classroom, but it matters just as much in production systems. The term refers to when a model learns the training data too closely and performs poorly on new data.
+
+Simple baselines are worth building first because they show what improvement is realistic. Reproducible experiments make it far easier to trust and improve a model.
+
+People use Overfitting for diagnosing weak models, for choosing simpler models, and for tuning hyperparameters.
+
+Beginners often stumble on three things. First: evaluating only on training data. Second: leaking test data. Third: adding complexity without evidence.
+
+A solid grasp of Overfitting also makes Gradient Descent easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Overfitting.

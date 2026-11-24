@@ -1,0 +1,13 @@
+Common Mistakes When Working with Cloud Storage
+
+Almost everyone makes a few avoidable errors when first working with Cloud Storage. Put simply, Cloud Storage covers storing files and objects on remote servers that scale on demand. Learning it well pays off across many areas of computing.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+Beginners often stumble on three things. First: public buckets by mistake. Second: surprise egress costs. Third: no lifecycle rules.
+
+Consider the first problem: public buckets by mistake. A short test or a careful review comment usually catches it. The second problem is similar: surprise egress costs. The third problem is this: no lifecycle rules. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Cloud Storage should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Amazon S3 or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Cloud Storage whenever a new project gives you a reason.

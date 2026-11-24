@@ -1,0 +1,17 @@
+Best Practices for Linux Command Line
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Linux Command Line covers a text-based way of controlling a computer using commands and scripts. Learning it well pays off across many areas of computing.
+
+1. Ask a teammate to explain permissions back to you; teaching is a quick way to find gaps.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Measure before you optimize. Use bash or a simple timer to see where time is actually spent.
+4. Read the official documentation for grep; it often explains pipes better than blog posts do.
+5. Keep an eye on this risk during code review: running destructive commands carelessly.
+
+Read the official documentation for grep; it often explains pipes better than blog posts do. Start small by applying Linux Command Line to one case, such as automating tasks, before rolling it out more widely.
+
+In practice you can start with bash, then explore grep or ssh as your needs grow.
+
+If you are comfortable with Linux Command Line, explore Containers next. The two often appear in the same project.
+
+In short, careful study of Linux Command Line pays off. Spend time on shell and pipes, and the rest will follow.

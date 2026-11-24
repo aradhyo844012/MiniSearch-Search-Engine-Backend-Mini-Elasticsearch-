@@ -1,0 +1,11 @@
+The Future of DNS
+
+Predicting the future is risky, but the direction of DNS is easy to describe in general terms. Put simply, DNS covers the system that translates human-friendly domain names into IP addresses. Learning it well pays off across many areas of computing.
+
+Every web request crosses several layers of protocols before it reaches an application. Latency is limited by distance and by the number of round trips a request needs.
+
+Expect tools such as dig and nslookup to keep improving, and expect newer ideas to keep building on resolvers. The basics, though, tend to stay the same, so time spent on records and caching and TTL is rarely wasted. Anyone working on mapping domains to servers will keep meeting DNS for years to come.
+
+Start small by applying DNS to one case, such as mapping domains to servers, before rolling it out more widely. Write a few tests that show how DNS should behave. Tests double as documentation for your teammates.
+
+With steady practice, DNS will stop feeling abstract and become a tool you reach for naturally.

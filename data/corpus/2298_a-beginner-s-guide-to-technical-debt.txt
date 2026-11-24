@@ -1,0 +1,19 @@
+A Beginner's Guide to Technical Debt
+
+This guide is written for readers who are new to Technical Debt and want a clear starting point. Many students first meet Technical Debt in a classroom, but it matters just as much in production systems. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+A solid grasp of Technical Debt also makes Design Patterns easier to understand.
+
+Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+The vocabulary of Technical Debt is small. Learn shortcuts, interest, refactoring backlog, and code smells, and most documentation will start to make sense. Understanding interest first often makes refactoring backlog much easier to reason about.
+
+People use Technical Debt for deciding when to cut corners, for planning cleanup work, and for explaining risk to managers.
+
+Popular tools and libraries include SonarQube, issue trackers, and code metrics.
+
+Beginners often stumble on three things. First: never paying it down. Second: hiding it from stakeholders. Third: unclear ownership.
+
+Keep an eye on this risk during code review: never paying it down. Automate repetitive steps so that results are easy to reproduce. Start small by applying Technical Debt to one case, such as deciding when to cut corners, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit Technical Debt whenever a new project gives you a reason.

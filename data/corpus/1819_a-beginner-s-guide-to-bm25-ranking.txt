@@ -1,0 +1,17 @@
+A Beginner's Guide to BM25 Ranking
+
+This guide is written for readers who are new to BM25 Ranking and want a clear starting point. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+Fast search comes from precomputing structures so that queries do very little work. Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Four ideas sit at the heart of BM25 Ranking: term saturation, document length normalization, k1 and b parameters, and inverse document frequency. Each one builds on the one before it. Sketching inverse document frequency on paper before coding helps many learners see how the pieces fit.
+
+You will see BM25 Ranking whenever people work on ranking search results or enterprise search. It also helps with question answering baselines.
+
+In practice you can start with Elasticsearch, then explore rank_bm25 or Lucene as your needs grow.
+
+Watch out for these problems: untuned parameters; ignoring field boundaries; and comparing scores across different queries.
+
+Automate repetitive steps so that results are easy to reproduce. Practice term saturation with small exercises until it feels natural.
+
+With steady practice, BM25 Ranking will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,19 @@
+Myths and Facts About Relational Databases
+
+A lot of folklore has built up around Relational Databases. Some of it is true, and some of it is not. The term Relational Databases refers to systems that store data in tables with rows, columns and defined relationships. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Relational Databases is only for experts.
+Fact: beginners can use it effectively once they understand tables and rows and primary keys.
+
+Myth: Relational Databases is only useful in very large systems.
+Fact: small projects such as storing orders and customers benefit as well.
+
+Myth: one tool does everything.
+Fact: PostgreSQL, MySQL, and SQLite make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Relational Databases are always obvious.
+Fact: subtle problems happen, for example skipping constraints.
+
+Relational Databases and Database Transactions are closely related, so learning both gives a fuller picture of Databases.
+
+Keep experimenting, keep notes, and revisit Relational Databases whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+The Future of JSON
+
+Predicting the future is risky, but the direction of JSON is easy to describe in general terms. The term JSON refers to a lightweight text format for exchanging structured data between programs. This article explains the idea in plain language and points out where it fits in real projects.
+
+A backend turns requests from many clients into reliable, consistent responses. Clear contracts between services make systems easier to change and test.
+
+A solid grasp of JSON also makes Message Queues easier to understand.
+
+Expect tools such as Python json module and jq to keep improving, and expect newer ideas to keep building on objects. The basics, though, tend to stay the same, so time spent on arrays and strings and numbers is rarely wasted. Anyone working on API responses will keep meeting JSON for years to come.
+
+Keep an eye on this risk during code review: trailing commas. Practice objects with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit JSON whenever a new project gives you a reason.

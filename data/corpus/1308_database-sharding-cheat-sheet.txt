@@ -1,0 +1,11 @@
+Database Sharding Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Database Sharding.
+
+- Definition: splitting a large dataset across several databases so each holds only part of it.
+- Core ideas: shard keys; routing; rebalancing; cross-shard queries.
+- Use it for: scaling beyond one server; isolating tenants; spreading write load.
+- Watch out for: choosing a poor shard key; hot shards; expensive joins across shards.
+- Tools: Vitess, MongoDB sharding, Citus.
+- Quick tip: write a tiny test for routing before building anything large.
+- Quick tip: practice shard keys until it feels automatic.

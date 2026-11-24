@@ -1,0 +1,15 @@
+Performance Tips for JSON
+
+Fast software rarely happens by accident, and JSON offers several places to gain speed. When people talk about JSON, they usually mean a lightweight text format for exchanging structured data between programs. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Python json module or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to objects and arrays, because they usually decide how well things scale. For workloads such as API responses, even small improvements add up quickly.
+
+Four ideas sit at the heart of JSON: objects, arrays, strings and numbers, and serialization. Each one builds on the one before it. Sketching serialization on paper before coding helps many learners see how the pieces fit.
+
+Practice objects with small exercises until it feels natural. Ask a teammate to explain strings and numbers back to you; teaching is a quick way to find gaps. Read the official documentation for jq; it often explains arrays better than blog posts do.
+
+Three issues come up again and again: trailing commas; large payloads; and losing precision with big numbers. Knowing them in advance saves hours of debugging.
+
+Keep an eye on this risk during code review: trailing commas. Ask a teammate to explain strings and numbers back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit JSON whenever a new project gives you a reason.

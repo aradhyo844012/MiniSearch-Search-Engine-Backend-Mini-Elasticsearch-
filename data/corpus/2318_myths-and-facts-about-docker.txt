@@ -1,0 +1,19 @@
+Myths and Facts About Docker
+
+A lot of folklore has built up around Docker. Some of it is true, and some of it is not. When people talk about Docker, they usually mean a platform for building and running applications in containers. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Docker is only for experts.
+Fact: beginners can use it effectively once they understand Dockerfile and image layers.
+
+Myth: Docker is only useful in very large systems.
+Fact: small projects such as reproducible development setups benefit as well.
+
+Myth: one tool does everything.
+Fact: Docker Compose, Docker Hub, and Podman make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Docker are always obvious.
+Fact: subtle problems happen, for example huge images.
+
+A solid grasp of Docker also makes Infrastructure as Code easier to understand.
+
+With steady practice, Docker will stop feeling abstract and become a tool you reach for naturally.

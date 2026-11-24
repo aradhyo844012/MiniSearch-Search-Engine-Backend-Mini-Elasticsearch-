@@ -1,0 +1,15 @@
+Linked Lists vs Binary Search: Key Differences
+
+Linked Lists and Binary Search both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Linked Lists refers to chains of nodes where each node stores a value and a reference to the next node. Its core ideas are nodes, head and tail pointers, and singly and doubly linked lists.
+
+The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. Its core ideas are sorted input, low and high bounds, and midpoint calculation.
+
+The main difference is focus. Linked Lists puts the emphasis on nodes and head and tail pointers, while Binary Search puts the emphasis on sorted input and low and high bounds.
+
+Reach for Linked Lists when your task involves queues and stacks or undo histories. Reach for Binary Search when your task involves looking up values in sorted arrays or finding insertion points.
+
+Both have risks. With Linked Lists, watch for this: losing the head pointer. With Binary Search, watch for this: off-by-one errors.
+
+In practice you do not always have to choose. Many projects use Linked Lists alongside Binary Search, with tools such as Python collections.deque and Python bisect. Algorithms are easiest to learn by tracing small examples on paper before writing any code.

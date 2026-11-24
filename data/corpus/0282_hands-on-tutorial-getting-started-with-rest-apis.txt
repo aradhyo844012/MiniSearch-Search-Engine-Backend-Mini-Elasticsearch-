@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with REST APIs
+
+This hands-on tutorial takes you from zero to a small working experiment with REST APIs. When people talk about REST APIs, they usually mean an approach to designing web APIs around resources, URLs and standard HTTP methods. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Flask and create a new empty project folder.
+Step 2: Read about resources and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses HTTP verbs.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as mobile app backends.
+Step 6: Break your example on purpose and see what happens. A good experiment: inconsistent naming.
+
+In practice you can start with Flask, then explore FastAPI or Postman as your needs grow.
+
+Beginners often stumble on three things. First: inconsistent naming. Second: returning 200 for errors. Third: no versioning plan.
+
+With steady practice, REST APIs will stop feeling abstract and become a tool you reach for naturally.

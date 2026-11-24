@@ -1,0 +1,12 @@
+A Practical Checklist for Responsive Design
+
+Use this checklist before you rely on Responsive Design in a project.
+
+1. Ask a teammate to review the work, focusing on fluid grids.
+2. Confirm that your team agrees on what Responsive Design should accomplish.
+3. Review how Responsive Design interacts with DOM Manipulation.
+4. Guard against this risk: horizontal scrolling.
+5. Measure results before and after any change.
+6. Document your decisions in the project README.
+7. Pick a tool to start with, such as Chrome DevTools device mode or Bootstrap grid.
+8. Try the approach on a small case, for example websites used on many devices.

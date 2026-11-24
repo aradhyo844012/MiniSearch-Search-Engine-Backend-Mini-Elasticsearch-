@@ -1,0 +1,13 @@
+Performance Tips for Recursion
+
+Fast software rarely happens by accident, and Recursion offers several places to gain speed. Many students first meet Recursion in a classroom, but it matters just as much in production systems. The term refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+Start by measuring. Use Python sys.setrecursionlimit or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to base case and recursive case, because they usually decide how well things scale. For workloads such as traversing trees, even small improvements add up quickly.
+
+To understand Recursion, start with base case. Then move on to recursive case, and finally look at call stack and tail calls. A good way to remember base case is to connect it with a concrete example from your own code.
+
+Measure before you optimize. Use Python sys.setrecursionlimit or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: missing base cases.
+
+Three issues come up again and again: missing base cases; exceeding the recursion limit; and recomputing the same values. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Recursion.

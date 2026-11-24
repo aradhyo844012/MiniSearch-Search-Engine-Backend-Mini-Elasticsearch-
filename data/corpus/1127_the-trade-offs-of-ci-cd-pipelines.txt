@@ -1,0 +1,13 @@
+The Trade-offs of CI/CD Pipelines
+
+Every design choice has a cost, and CI/CD Pipelines is no exception. When people talk about CI/CD Pipelines, they usually mean automated workflows that build, test and deliver code whenever it changes. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, CI/CD Pipelines is well suited to running tests on every push and shipping releases safely. On the other hand, it is not free. Keep these risks in mind: slow pipelines; flaky tests; secrets in logs. Whether the trade is worth it depends on how much build stage and test stage matter to your project.
+
+Three issues come up again and again: slow pipelines; flaky tests; and secrets in logs. Knowing them in advance saves hours of debugging.
+
+Keep notes on what worked. A short README explaining your decisions about CI/CD Pipelines helps the next developer. Ask a teammate to explain artifacts back to you; teaching is a quick way to find gaps.
+
+Start small by applying CI/CD Pipelines to one case, such as running tests on every push, before rolling it out more widely. Ask a teammate to explain artifacts back to you; teaching is a quick way to find gaps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CI/CD Pipelines.

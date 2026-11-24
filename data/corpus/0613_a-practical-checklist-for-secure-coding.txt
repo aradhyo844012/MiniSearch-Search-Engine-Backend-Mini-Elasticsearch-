@@ -1,0 +1,11 @@
+A Practical Checklist for Secure Coding
+
+Use this checklist before you rely on Secure Coding in a project.
+
+1. Measure results before and after any change.
+2. Review how Secure Coding interacts with OAuth 2.0.
+3. Pick a tool to start with, such as OWASP Top 10 or static analysis tools.
+4. Write at least one automated test that covers input validation.
+5. Review the core ideas: input validation, least privilege, dependency updates, and secret management.
+6. Ask a teammate to review the work, focusing on least privilege.
+7. Try the approach on a small case, for example reviewing pull requests.

@@ -1,0 +1,15 @@
+Performance Tips for Relational Databases
+
+Fast software rarely happens by accident, and Relational Databases offers several places to gain speed. Put simply, Relational Databases covers systems that store data in tables with rows, columns and defined relationships. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use PostgreSQL or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to tables and rows and primary keys, because they usually decide how well things scale. For workloads such as storing orders and customers, even small improvements add up quickly.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+To understand Relational Databases, start with tables and rows. Then move on to primary keys, and finally look at foreign keys and schemas. Sketching schemas on paper before coding helps many learners see how the pieces fit.
+
+Write a few tests that show how Relational Databases should behave. Tests double as documentation for your teammates. Start small by applying Relational Databases to one case, such as storing orders and customers, before rolling it out more widely.
+
+Beginners often stumble on three things. First: skipping constraints. Second: storing lists in a single column. Third: missing indexes on filtered columns.
+
+In short, careful study of Relational Databases pays off. Spend time on tables and rows and primary keys, and the rest will follow.

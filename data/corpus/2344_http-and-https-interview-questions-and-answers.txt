@@ -1,0 +1,18 @@
+HTTP and HTTPS Interview Questions and Answers
+
+Prepare for these questions about HTTP and HTTPS.
+
+Q: Explain HTTP and HTTPS in simple words.
+A: HTTP and HTTPS refers to the request and response protocol of the web, with HTTPS adding encryption. I would add an example involving loading web pages.
+
+Q: What problems have you seen in practice?
+A: mixing up status codes; sending secrets in URLs; and ignoring caching headers.
+
+Q: How does it connect to Load Balancing?
+A: Both belong to the area of Networking, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: curl, Postman, and browser developer tools.
+
+Q: Where would you apply it first?
+A: I would start with calling APIs, because it is small enough to test and large enough to show the benefit.

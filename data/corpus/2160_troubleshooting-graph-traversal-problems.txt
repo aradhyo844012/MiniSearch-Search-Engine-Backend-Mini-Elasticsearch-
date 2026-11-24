@@ -1,0 +1,13 @@
+Troubleshooting Graph Traversal Problems
+
+When something breaks around Graph Traversal, a calm and systematic approach saves the most time. When people talk about Graph Traversal, they usually mean systematic ways of visiting every node in a graph, usually breadth-first or depth-first. It appears in almost every serious software project, whether or not developers notice it.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and NetworkX usually reveal the cause faster than guessing.
+
+Common culprits: forgetting to mark nodes as visited; using recursion on very deep graphs; choosing an adjacency matrix for sparse graphs. If none of these explains the symptom, re-read the basics of adjacency lists and breadth-first search.
+
+Popular tools and libraries include NetworkX, Python collections.deque, and Graphviz.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Graph Traversal.

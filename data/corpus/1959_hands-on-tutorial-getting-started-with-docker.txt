@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Docker
+
+This hands-on tutorial takes you from zero to a small working experiment with Docker. If you build software for long enough, you will run into Docker. The term refers to a platform for building and running applications in containers.
+
+Step 1: Install or open Docker Compose and create a new empty project folder.
+Step 2: Read about Dockerfile and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses image layers.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as reproducible development setups.
+Step 6: Break your example on purpose and see what happens. A good experiment: huge images.
+
+Popular tools and libraries include Docker Compose, Docker Hub, and Podman.
+
+Three issues come up again and again: huge images; secrets baked into images; and running as root. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Docker pays off. Spend time on Dockerfile and image layers, and the rest will follow.

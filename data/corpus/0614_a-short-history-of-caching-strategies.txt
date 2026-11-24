@@ -1,0 +1,11 @@
+A Short History of Caching Strategies
+
+Ideas behind Caching Strategies developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Caching Strategies, they usually mean approaches for storing computed results so they can be reused instead of recalculated. It appears in almost every serious software project, whether or not developers notice it.
+
+Failures between services are normal, so retries and timeouts need careful design. A backend turns requests from many clients into reliable, consistent responses.
+
+Four ideas sit at the heart of Caching Strategies: cache-aside, write-through, time to live, and invalidation. Each one builds on the one before it. Sketching invalidation on paper before coding helps many learners see how the pieces fit.
+
+If you are comfortable with Caching Strategies, explore JWT next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Caching Strategies.

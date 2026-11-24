@@ -1,0 +1,17 @@
+Best Practices for Type Systems
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Type Systems in a classroom, but it matters just as much in production systems. The term refers to the rules a language uses to classify values and catch mistakes.
+
+1. Write a few tests that show how Type Systems should behave. Tests double as documentation for your teammates.
+2. Measure before you optimize. Use mypy or a simple timer to see where time is actually spent.
+3. Keep an eye on this risk during code review: treating annotations as guarantees at runtime.
+4. Keep notes on what worked. A short README explaining your decisions about Type Systems helps the next developer.
+5. Practice static and dynamic typing with small exercises until it feels natural.
+
+Popular tools and libraries include mypy, TypeScript, and Pyright.
+
+Type Systems and Object-Oriented Programming are closely related, so learning both gives a fuller picture of Programming.
+
+Type Systems and Object-Oriented Programming are closely related, so learning both gives a fuller picture of Programming.
+
+With steady practice, Type Systems will stop feeling abstract and become a tool you reach for naturally.

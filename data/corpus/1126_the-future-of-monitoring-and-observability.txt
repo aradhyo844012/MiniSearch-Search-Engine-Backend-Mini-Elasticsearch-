@@ -1,0 +1,13 @@
+The Future of Monitoring and Observability
+
+Predicting the future is risky, but the direction of Monitoring and Observability is easy to describe in general terms. Put simply, Monitoring and Observability covers collecting metrics, logs and traces so you can understand how a system behaves. Learning it well pays off across many areas of computing.
+
+Keep an eye on this risk during code review: noisy alerts. Measure before you optimize. Use Prometheus or a simple timer to see where time is actually spent. Practice metrics with small exercises until it feels natural.
+
+A system that cannot be observed cannot be reliably operated.
+
+Expect tools such as Prometheus and Grafana to keep improving, and expect newer ideas to keep building on metrics. The basics, though, tend to stay the same, so time spent on logs and traces is rarely wasted. Anyone working on detecting outages will keep meeting Monitoring and Observability for years to come.
+
+Start small by applying Monitoring and Observability to one case, such as detecting outages, before rolling it out more widely. Practice metrics with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Monitoring and Observability.

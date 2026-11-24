@@ -1,0 +1,12 @@
+A Practical Checklist for Dynamic Programming
+
+Use this checklist before you rely on Dynamic Programming in a project.
+
+1. Guard against this risk: storing more state than needed.
+2. Try the approach on a small case, for example computing edit distance.
+3. Ask a teammate to review the work, focusing on optimal substructure.
+4. Document your decisions in the project README.
+5. Measure results before and after any change.
+6. Pick a tool to start with, such as Python functools.lru_cache or NumPy.
+7. Guard against this risk: ignoring base cases.
+8. Review how Dynamic Programming interacts with Hash Tables.

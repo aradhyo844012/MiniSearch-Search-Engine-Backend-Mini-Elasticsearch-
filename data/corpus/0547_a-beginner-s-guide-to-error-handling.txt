@@ -1,0 +1,17 @@
+A Beginner's Guide to Error Handling
+
+This guide is written for readers who are new to Error Handling and want a clear starting point. Put simply, Error Handling covers planning for failures so that programs respond clearly instead of crashing. Learning it well pays off across many areas of computing.
+
+Every language has idioms that experienced developers recognize at a glance.
+
+Four ideas sit at the heart of Error Handling: exceptions, validation, logging, and retries. Each one builds on the one before it. A good way to remember exceptions is to connect it with a concrete example from your own code.
+
+You will see Error Handling whenever people work on reading files or calling networks. It also helps with parsing user input.
+
+In practice you can start with Python try and except, then explore logging module or Sentry as your needs grow.
+
+Beginners often stumble on three things. First: swallowing exceptions silently. Second: catching overly broad errors. Third: unhelpful error messages.
+
+Measure before you optimize. Use Python try and except or a simple timer to see where time is actually spent. Start small by applying Error Handling to one case, such as reading files, before rolling it out more widely.
+
+With steady practice, Error Handling will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,17 @@
+Best Practices for ETL Pipelines
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet ETL Pipelines in a classroom, but it matters just as much in production systems. The term refers to processes that extract data from sources, transform it and load it into a destination.
+
+1. Practice extraction with small exercises until it feels natural.
+2. Write a few tests that show how ETL Pipelines should behave. Tests double as documentation for your teammates.
+3. Keep an eye on this risk during code review: silent data loss.
+4. Read the official documentation for dbt; it often explains transformation better than blog posts do.
+5. Ask a teammate to explain loading back to you; teaching is a quick way to find gaps.
+
+Popular tools and libraries include Apache Airflow, dbt, and Python scripts.
+
+Ask a teammate to explain loading back to you; teaching is a quick way to find gaps. Measure before you optimize. Use Apache Airflow or a simple timer to see where time is actually spent. Start small by applying ETL Pipelines to one case, such as building reports, before rolling it out more widely.
+
+A solid grasp of ETL Pipelines also makes Data Cleaning easier to understand.
+
+Keep experimenting, keep notes, and revisit ETL Pipelines whenever a new project gives you a reason.

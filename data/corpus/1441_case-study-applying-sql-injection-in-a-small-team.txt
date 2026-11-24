@@ -1,0 +1,9 @@
+Case Study: Applying SQL Injection in a Small Team
+
+Imagine a small student team building a project that depends on SQL Injection. When people talk about SQL Injection, they usually mean an attack where malicious input changes the meaning of a database query. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning parameterized queries and input validation. Early on they hit a familiar problem: building queries with string concatenation. After fixing it, they used prepared statements to check their work and adopted SQL Injection for securing login forms. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: building queries with string concatenation; using admin accounts for the app; and revealing detailed database errors.
+
+With steady practice, SQL Injection will stop feeling abstract and become a tool you reach for naturally.

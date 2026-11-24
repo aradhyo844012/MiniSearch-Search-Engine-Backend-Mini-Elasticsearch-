@@ -1,0 +1,11 @@
+The Future of Containers
+
+Predicting the future is risky, but the direction of Containers is easy to describe in general terms. Put simply, Containers covers lightweight packages that bundle an application with its dependencies and run in isolation. Learning it well pays off across many areas of computing.
+
+Logs and system monitors are the first place to look when a machine misbehaves. Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+Expect tools such as Docker and Podman to keep improving, and expect newer ideas to keep building on images. The basics, though, tend to stay the same, so time spent on layers and namespaces is rarely wasted. Anyone working on consistent development environments will keep meeting Containers for years to come.
+
+Measure before you optimize. Use Docker or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Containers helps the next developer.
+
+In short, careful study of Containers pays off. Spend time on images and layers, and the rest will follow.

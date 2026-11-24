@@ -1,0 +1,21 @@
+Feature Engineering Interview Questions and Answers
+
+Prepare for these questions about Feature Engineering.
+
+Q: Explain Feature Engineering in simple words.
+A: Feature Engineering refers to creating and transforming input variables so that models can learn from them more easily. I would add an example involving improving model accuracy.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: data leakage.
+
+Q: What are the key concepts?
+A: scaling, encoding categories, interaction features, and missing values.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as scaling, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: data leakage; inconsistent transformations between training and serving; and too many redundant features.
+
+Q: Where would you apply it first?
+A: I would start with preparing tabular data, because it is small enough to test and large enough to show the benefit.

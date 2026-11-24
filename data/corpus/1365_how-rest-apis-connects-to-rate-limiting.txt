@@ -1,0 +1,13 @@
+How REST APIs Connects to Rate Limiting
+
+REST APIs and Rate Limiting are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving mobile app backends may also involve protecting APIs. In such a project, resources and token bucket often influence each other.
+
+Start with REST APIs: the term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods. Then look at Rate Limiting, which refers to controlling how many requests a client can make in a given period.
+
+A useful exercise is to take one example, such as integrating services, and explain how fixed window would change the design.
+
+Common problems are shared too. For REST APIs, watch for this: returning 200 for errors. For Rate Limiting, watch for this: keeping counters only on one server. Clear contracts between services make systems easier to change and test.
+
+Spend a few hours on each topic, then combine them in one small project using Flask or Redis.

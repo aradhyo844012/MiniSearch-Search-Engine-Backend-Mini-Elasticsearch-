@@ -1,0 +1,13 @@
+A Practical Checklist for Data Cleaning
+
+Use this checklist before you rely on Data Cleaning in a project.
+
+1. Document your decisions in the project README.
+2. Review the core ideas: missing values, duplicates, inconsistent formats, and outliers.
+3. Try the approach on a small case, for example preparing logs.
+4. Guard against this risk: changing the original files.
+5. Write at least one automated test that covers missing values.
+6. Review how Data Cleaning interacts with Stream Processing.
+7. Pick a tool to start with, such as pandas or OpenRefine.
+8. Confirm that your team agrees on what Data Cleaning should accomplish.
+9. Guard against this risk: dropping data without checking why it is missing.

@@ -1,0 +1,11 @@
+Common Mistakes When Working with Error Handling
+
+Almost everyone makes a few avoidable errors when first working with Error Handling. If you build software for long enough, you will run into Error Handling. The term refers to planning for failures so that programs respond clearly instead of crashing.
+
+Beginners often stumble on three things. First: swallowing exceptions silently. Second: catching overly broad errors. Third: unhelpful error messages.
+
+Consider the first problem: swallowing exceptions silently. A short test or a careful review comment usually catches it. The second problem is similar: catching overly broad errors. The third problem is this: unhelpful error messages. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep an eye on this risk during code review: swallowing exceptions silently. Automate repetitive steps so that results are easy to reproduce.
+
+Keep experimenting, keep notes, and revisit Error Handling whenever a new project gives you a reason.

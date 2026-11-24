@@ -1,0 +1,17 @@
+Myths and Facts About Git Branching
+
+A lot of folklore has built up around Git Branching. Some of it is true, and some of it is not. When people talk about Git Branching, they usually mean using separate lines of development so that changes can be built and reviewed independently. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Git Branching is only for experts.
+Fact: beginners can use it effectively once they understand branches and merging.
+
+Myth: Git Branching is only useful in very large systems.
+Fact: small projects such as feature development benefit as well.
+
+Myth: one tool does everything.
+Fact: Git, GitHub, and GitLab make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Git Branching are always obvious.
+Fact: subtle problems happen, for example long-lived branches.
+
+Keep experimenting, keep notes, and revisit Git Branching whenever a new project gives you a reason.

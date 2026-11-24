@@ -1,0 +1,16 @@
+Database Sharding: Frequently Asked Questions
+
+Q: What is Database Sharding?
+A: The term Database Sharding refers to splitting a large dataset across several databases so each holds only part of it.
+
+Q: How does it relate to Database Replication?
+A: Database Sharding and Database Replication often appear in the same project, and both belong to the area of Databases.
+
+Q: Which tools help?
+A: Popular choices include Vitess, MongoDB sharding, and Citus.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Why do developers use Database Sharding?
+A: Common uses include scaling beyond one server, isolating tenants, and spreading write load.

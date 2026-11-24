@@ -1,0 +1,19 @@
+Myths and Facts About Large Language Models
+
+A lot of folklore has built up around Large Language Models. Some of it is true, and some of it is not. The term Large Language Models refers to very large neural networks trained on text that can generate and analyze language. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Large Language Models is only for experts.
+Fact: beginners can use it effectively once they understand tokens and attention.
+
+Myth: Large Language Models is only useful in very large systems.
+Fact: small projects such as drafting text benefit as well.
+
+Myth: one tool does everything.
+Fact: Hugging Face, API playgrounds, and evaluation harnesses make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Large Language Models are always obvious.
+Fact: subtle problems happen, for example trusting outputs without checking.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Hugging Face or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Large Language Models whenever a new project gives you a reason.

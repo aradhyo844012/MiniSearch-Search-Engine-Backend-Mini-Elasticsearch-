@@ -1,0 +1,11 @@
+Troubleshooting Database Normalization Problems
+
+When something breaks around Database Normalization, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Database Normalization. The term refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and ER diagrams usually reveal the cause faster than guessing.
+
+Common culprits: over-normalizing reporting tables; ignoring query patterns; duplicating data by accident. If none of these explains the symptom, re-read the basics of first normal form and second normal form.
+
+Popular tools and libraries include ER diagrams, dbdiagram.io, and MySQL Workbench.
+
+In short, careful study of Database Normalization pays off. Spend time on first normal form and second normal form, and the rest will follow.

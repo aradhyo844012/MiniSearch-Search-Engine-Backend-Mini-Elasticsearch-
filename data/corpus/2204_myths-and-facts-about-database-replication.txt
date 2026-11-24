@@ -1,0 +1,17 @@
+Myths and Facts About Database Replication
+
+A lot of folklore has built up around Database Replication. Some of it is true, and some of it is not. When people talk about Database Replication, they usually mean copying data from one database server to others to improve availability and read capacity. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Database Replication is only for experts.
+Fact: beginners can use it effectively once they understand primary and replica and replication lag.
+
+Myth: Database Replication is only useful in very large systems.
+Fact: small projects such as surviving server failures benefit as well.
+
+Myth: one tool does everything.
+Fact: PostgreSQL streaming replication, MySQL replication, and Patroni make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Database Replication are always obvious.
+Fact: subtle problems happen, for example reading stale data from replicas.
+
+In short, careful study of Database Replication pays off. Spend time on primary and replica and replication lag, and the rest will follow.

@@ -1,0 +1,9 @@
+Case Study: Applying JavaScript Promises in a Small Team
+
+Imagine a small student team building a project that depends on JavaScript Promises. The term JavaScript Promises refers to objects that represent a value that will be available later, after an asynchronous task finishes. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning pending and resolved states and then and catch. Early on they hit a familiar problem: forgetting to handle rejections. After fixing it, they used fetch API to check their work and adopted JavaScript Promises for fetching data from APIs. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops.
+
+With steady practice, JavaScript Promises will stop feeling abstract and become a tool you reach for naturally.

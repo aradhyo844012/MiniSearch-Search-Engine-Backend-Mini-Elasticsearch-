@@ -1,0 +1,11 @@
+Common Mistakes When Working with Design Patterns
+
+Almost everyone makes a few avoidable errors when first working with Design Patterns. The term Design Patterns refers to reusable solutions to common problems in software design. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: forcing patterns where they are unnecessary. Second: over-engineering. Third: copying patterns without understanding the problem.
+
+Consider the first problem: forcing patterns where they are unnecessary. A short test or a careful review comment usually catches it. The second problem is similar: over-engineering. The third problem is this: copying patterns without understanding the problem. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice singleton with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about Design Patterns helps the next developer.
+
+In short, careful study of Design Patterns pays off. Spend time on singleton and factory, and the rest will follow.

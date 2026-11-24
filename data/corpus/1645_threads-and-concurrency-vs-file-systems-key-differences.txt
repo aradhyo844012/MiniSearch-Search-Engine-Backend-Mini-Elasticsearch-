@@ -1,0 +1,15 @@
+Threads and Concurrency vs File Systems: Key Differences
+
+Threads and Concurrency and File Systems both belong to the area of Operating Systems, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Threads and Concurrency refers to ways of making progress on several tasks at once within a program. Its core ideas are threads, locks, and race conditions.
+
+The term File Systems refers to the part of an operating system that organizes how data is stored and found on disk. Its core ideas are files and directories, inodes, and permissions.
+
+The main difference is focus. Threads and Concurrency puts the emphasis on threads and locks, while File Systems puts the emphasis on files and directories and inodes.
+
+Reach for Threads and Concurrency when your task involves handling many requests or keeping interfaces responsive. Reach for File Systems when your task involves storing documents or managing logs.
+
+Both have risks. With Threads and Concurrency, watch for this: forgetting to protect shared data. With File Systems, watch for this: running out of inodes.
+
+In practice you do not always have to choose. Many projects use Threads and Concurrency alongside File Systems, with tools such as Python threading and ext4. Understanding what the kernel does explains many surprising performance problems.

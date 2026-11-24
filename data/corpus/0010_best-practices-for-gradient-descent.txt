@@ -1,0 +1,17 @@
+Best Practices for Gradient Descent
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Gradient Descent in a classroom, but it matters just as much in production systems. The term refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+1. Measure before you optimize. Use PyTorch or a simple timer to see where time is actually spent.
+2. Write a few tests that show how Gradient Descent should behave. Tests double as documentation for your teammates.
+3. Read the official documentation for NumPy; it often explains gradients better than blog posts do.
+4. Keep an eye on this risk during code review: learning rates that are too large.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+Popular tools and libraries include PyTorch, NumPy, and TensorFlow.
+
+A solid grasp of Gradient Descent also makes Natural Language Processing easier to understand.
+
+Gradient Descent and Natural Language Processing are closely related, so learning both gives a fuller picture of Machine Learning.
+
+Keep experimenting, keep notes, and revisit Gradient Descent whenever a new project gives you a reason.

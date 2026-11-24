@@ -1,0 +1,13 @@
+A Short History of Web Accessibility
+
+Ideas behind Web Accessibility developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Web Accessibility, they usually mean designing websites so that people with different abilities can use them. It appears in almost every serious software project, whether or not developers notice it.
+
+Write a few tests that show how Web Accessibility should behave. Tests double as documentation for your teammates. Start small by applying Web Accessibility to one case, such as screen reader support, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does. Accessible design helps everyone, including people on slow connections or small screens.
+
+Four ideas sit at the heart of Web Accessibility: semantic HTML, ARIA attributes, keyboard navigation, and color contrast. Each one builds on the one before it. Understanding ARIA attributes first often makes keyboard navigation much easier to reason about.
+
+A solid grasp of Web Accessibility also makes HTML Semantics easier to understand.
+
+In short, careful study of Web Accessibility pays off. Spend time on semantic HTML and ARIA attributes, and the rest will follow.

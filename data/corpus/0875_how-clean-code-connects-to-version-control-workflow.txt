@@ -1,0 +1,13 @@
+How Clean Code Connects to Version Control Workflow
+
+Clean Code and Version Control Workflow are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving team projects may also involve collaborating on shared code. In such a project, meaningful names and commits often influence each other.
+
+Start with Clean Code: the term refers to writing code that other people can read, understand and change easily. Then look at Version Control Workflow, which refers to the habits and rules a team uses to track and combine changes to code.
+
+A useful exercise is to take one example, such as long-lived products, and explain how branches would change the design.
+
+Common problems are shared too. For Clean Code, watch for this: functions that do too much. For Version Control Workflow, watch for this: committing large unrelated changes. Software spends most of its life being changed, not written for the first time.
+
+Spend a few hours on each topic, then combine them in one small project using linters or Git.

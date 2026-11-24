@@ -1,0 +1,14 @@
+How to Learn Caching Strategies in 30 Days
+
+You do not need months to become comfortable with Caching Strategies. A focused plan of thirty days is enough to build a solid base. When people talk about Caching Strategies, they usually mean approaches for storing computed results so they can be reused instead of recalculated. It appears in almost every serious software project, whether or not developers notice it.
+
+Automate repetitive steps so that results are easy to reproduce. Practice cache-aside with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about Caching Strategies helps the next developer.
+
+Week 1: learn cache-aside and write-through, and write a one-page summary.
+Week 2: practice with Redis on a small task such as speeding up read-heavy APIs.
+Week 3: build a mini project around reducing database load.
+Week 4: review common mistakes such as stale data, and explain Caching Strategies to a friend.
+
+Popular tools and libraries include Redis, Memcached, and HTTP cache headers.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Caching Strategies.

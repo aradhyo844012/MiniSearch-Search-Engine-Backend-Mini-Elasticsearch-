@@ -1,0 +1,13 @@
+The Importance of JWT in Modern Software
+
+It is easy to underestimate JWT until something goes wrong without it. If you build software for long enough, you will run into JWT. The term refers to a compact token format that carries signed claims between a client and a server.
+
+A backend turns requests from many clients into reliable, consistent responses. Failures between services are normal, so retries and timeouts need careful design.
+
+You will see JWT whenever people work on stateless API authentication or service-to-service calls. It also helps with single sign-on.
+
+Watch out for these problems: storing tokens in insecure places; skipping signature checks; and very long expiry times.
+
+If you are comfortable with JWT, explore JSON next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JWT.

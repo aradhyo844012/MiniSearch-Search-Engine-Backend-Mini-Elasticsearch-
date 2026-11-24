@@ -1,0 +1,17 @@
+A Beginner's Guide to Message Queues
+
+This guide is written for readers who are new to Message Queues and want a clear starting point. If you build software for long enough, you will run into Message Queues. The term refers to systems that let services send work to each other asynchronously through a buffer.
+
+Clear contracts between services make systems easier to change and test.
+
+The vocabulary of Message Queues is small. Learn producers, consumers, acknowledgements, and retries, and most documentation will start to make sense. Understanding consumers first often makes acknowledgements much easier to reason about.
+
+Typical applications include sending emails, processing uploads, and smoothing traffic spikes. Small projects and large systems both benefit.
+
+In practice you can start with RabbitMQ, then explore Apache Kafka or Amazon SQS as your needs grow.
+
+Watch out for these problems: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing.
+
+Ask a teammate to explain acknowledgements back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+With steady practice, Message Queues will stop feeling abstract and become a tool you reach for naturally.

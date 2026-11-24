@@ -1,0 +1,13 @@
+Troubleshooting Query Optimization Problems
+
+When something breaks around Query Optimization, a calm and systematic approach saves the most time. The term Query Optimization refers to the process of making database queries return results with less time and fewer resources. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and EXPLAIN ANALYZE usually reveal the cause faster than guessing.
+
+Common culprits: selecting more columns than needed; running queries inside loops; guessing instead of reading the plan. If none of these explains the symptom, re-read the basics of query plans and statistics.
+
+If you are comfortable with Query Optimization, explore Database Indexing next. The two often appear in the same project.
+
+In practice you can start with EXPLAIN ANALYZE, then explore pg_stat_statements or query profilers as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Query Optimization.

@@ -1,0 +1,15 @@
+Docker vs Git Branching: Key Differences
+
+Docker and Git Branching both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Docker refers to a platform for building and running applications in containers. Its core ideas are Dockerfile, image layers, and volumes.
+
+The term Git Branching refers to using separate lines of development so that changes can be built and reviewed independently. Its core ideas are branches, merging, and rebasing.
+
+The main difference is focus. Docker puts the emphasis on Dockerfile and image layers, while Git Branching puts the emphasis on branches and merging.
+
+Reach for Docker when your task involves reproducible development setups or shipping applications. Reach for Git Branching when your task involves feature development or bug fixes.
+
+Both have risks. With Docker, watch for this: huge images. With Git Branching, watch for this: long-lived branches.
+
+In practice you do not always have to choose. Many projects use Docker alongside Git Branching, with tools such as Docker Compose and Git. Small, frequent releases are usually safer than rare, large ones.

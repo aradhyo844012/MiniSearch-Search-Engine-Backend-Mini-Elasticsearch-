@@ -1,0 +1,11 @@
+The Trade-offs of Object-Oriented Programming
+
+Every design choice has a cost, and Object-Oriented Programming is no exception. Put simply, Object-Oriented Programming covers a style of programming that organizes code into objects that combine data and behavior. Learning it well pays off across many areas of computing.
+
+On the positive side, Object-Oriented Programming is well suited to modeling real-world entities and building frameworks. On the other hand, it is not free. Keep these risks in mind: deep inheritance chains; exposing internal state; classes that do too much. Whether the trade is worth it depends on how much classes and inheritance matter to your project.
+
+Three issues come up again and again: deep inheritance chains; exposing internal state; and classes that do too much. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Object-Oriented Programming helps the next developer. Keep an eye on this risk during code review: deep inheritance chains.
+
+With steady practice, Object-Oriented Programming will stop feeling abstract and become a tool you reach for naturally.

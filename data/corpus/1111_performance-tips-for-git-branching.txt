@@ -1,0 +1,13 @@
+Performance Tips for Git Branching
+
+Fast software rarely happens by accident, and Git Branching offers several places to gain speed. The term Git Branching refers to using separate lines of development so that changes can be built and reviewed independently. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Git or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to branches and merging, because they usually decide how well things scale. For workloads such as feature development, even small improvements add up quickly.
+
+The vocabulary of Git Branching is small. Learn branches, merging, rebasing, and pull requests, and most documentation will start to make sense. A good way to remember branches is to connect it with a concrete example from your own code.
+
+Start small by applying Git Branching to one case, such as feature development, before rolling it out more widely. Practice branches with small exercises until it feels natural.
+
+Three issues come up again and again: long-lived branches; merge conflicts left unresolved; and force-pushing shared branches. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Git Branching pays off. Spend time on branches and merging, and the rest will follow.

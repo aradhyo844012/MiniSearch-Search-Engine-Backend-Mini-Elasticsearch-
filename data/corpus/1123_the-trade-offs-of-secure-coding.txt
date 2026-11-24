@@ -1,0 +1,13 @@
+The Trade-offs of Secure Coding
+
+Every design choice has a cost, and Secure Coding is no exception. Put simply, Secure Coding covers writing software in ways that avoid common vulnerabilities. Learning it well pays off across many areas of computing.
+
+On the positive side, Secure Coding is well suited to reviewing pull requests and building web services. On the other hand, it is not free. Keep these risks in mind: trusting user input; committing secrets to repositories; ignoring outdated libraries. Whether the trade is worth it depends on how much input validation and least privilege matter to your project.
+
+Keeping dependencies updated removes a large share of known risks.
+
+Watch out for these problems: trusting user input; committing secrets to repositories; and ignoring outdated libraries.
+
+Write a few tests that show how Secure Coding should behave. Tests double as documentation for your teammates. Practice input validation with small exercises until it feels natural.
+
+With steady practice, Secure Coding will stop feeling abstract and become a tool you reach for naturally.

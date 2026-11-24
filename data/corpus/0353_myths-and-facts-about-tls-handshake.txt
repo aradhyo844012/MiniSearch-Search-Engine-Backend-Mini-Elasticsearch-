@@ -1,0 +1,19 @@
+Myths and Facts About TLS Handshake
+
+A lot of folklore has built up around TLS Handshake. Some of it is true, and some of it is not. When people talk about TLS Handshake, they usually mean the exchange that lets a client and server agree on keys and set up an encrypted connection. It appears in almost every serious software project, whether or not developers notice it.
+
+Write a few tests that show how TLS Handshake should behave. Tests double as documentation for your teammates. Start small by applying TLS Handshake to one case, such as securing websites, before rolling it out more widely.
+
+Myth: TLS Handshake is only for experts.
+Fact: beginners can use it effectively once they understand certificates and cipher suites.
+
+Myth: TLS Handshake is only useful in very large systems.
+Fact: small projects such as securing websites benefit as well.
+
+Myth: one tool does everything.
+Fact: OpenSSL, Let's Encrypt, and SSL Labs make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with TLS Handshake are always obvious.
+Fact: subtle problems happen, for example expired certificates.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TLS Handshake.

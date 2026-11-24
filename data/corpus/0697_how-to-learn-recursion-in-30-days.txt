@@ -1,0 +1,14 @@
+How to Learn Recursion in 30 Days
+
+You do not need months to become comfortable with Recursion. A focused plan of thirty days is enough to build a solid base. The term Recursion refers to a technique where a function solves a problem by calling itself on smaller inputs. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn base case and recursive case, and write a one-page summary.
+Week 2: practice with Python sys.setrecursionlimit on a small task such as traversing trees.
+Week 3: build a mini project around divide and conquer algorithms.
+Week 4: review common mistakes such as missing base cases, and explain Recursion to a friend.
+
+In practice you can start with Python sys.setrecursionlimit, then explore debuggers or memoization decorators as your needs grow.
+
+A solid grasp of Recursion also makes Tries easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Recursion.

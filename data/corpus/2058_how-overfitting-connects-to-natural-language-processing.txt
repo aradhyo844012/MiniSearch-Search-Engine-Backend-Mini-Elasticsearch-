@@ -1,0 +1,13 @@
+How Overfitting Connects to Natural Language Processing
+
+Overfitting and Natural Language Processing are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving diagnosing weak models may also involve search engines. In such a project, training and validation error and tokenization often influence each other.
+
+Start with Overfitting: the term refers to when a model learns the training data too closely and performs poorly on new data. Then look at Natural Language Processing, which refers to the field of teaching computers to work with human language.
+
+A useful exercise is to take one example, such as choosing simpler models, and explain how embeddings would change the design.
+
+Common problems are shared too. For Overfitting, watch for this: leaking test data. For Natural Language Processing, watch for this: messy text preprocessing. Simple baselines are worth building first because they show what improvement is realistic.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or spaCy.

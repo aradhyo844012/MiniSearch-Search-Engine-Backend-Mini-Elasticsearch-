@@ -1,0 +1,15 @@
+The Importance of Model Evaluation in Modern Software
+
+It is easy to underestimate Model Evaluation until something goes wrong without it. The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. This article explains the idea in plain language and points out where it fits in real projects.
+
+Simple baselines are worth building first because they show what improvement is realistic. Results should always be checked on data the model has never seen.
+
+Typical applications include comparing models, choosing thresholds, and reporting results honestly. Small projects and large systems both benefit.
+
+If you are comfortable with Model Evaluation, explore Overfitting next. The two often appear in the same project.
+
+Watch out for these problems: using accuracy on imbalanced data; tuning on the test set; and ignoring variance between runs.
+
+A solid grasp of Model Evaluation also makes Overfitting easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

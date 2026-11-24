@@ -1,0 +1,24 @@
+Site Reliability Interview Questions and Answers
+
+Prepare for these questions about Site Reliability.
+
+Q: Explain Site Reliability in simple words.
+A: Site Reliability refers to the discipline of keeping services dependable using engineering practices. I would add an example involving running production services.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: alerting on everything.
+
+Q: What problems have you seen in practice?
+A: alerting on everything; blaming people instead of systems; and no written postmortems.
+
+Q: Where would you apply it first?
+A: I would start with reducing outages, because it is small enough to test and large enough to show the benefit.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as service level objectives, and add tests aimed at the known risks.
+
+Q: How does it connect to Monitoring and Observability?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.
+
+Q: What are the key concepts?
+A: service level objectives, error budgets, incident response, and postmortems.

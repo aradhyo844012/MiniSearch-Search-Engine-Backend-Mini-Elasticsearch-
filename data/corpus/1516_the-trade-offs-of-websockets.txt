@@ -1,0 +1,13 @@
+The Trade-offs of WebSockets
+
+Every design choice has a cost, and WebSockets is no exception. Many students first meet WebSockets in a classroom, but it matters just as much in production systems. The term refers to a protocol that keeps a two-way connection open between a browser and a server.
+
+On the positive side, WebSockets is well suited to chat applications and live dashboards. On the other hand, it is not free. Keep these risks in mind: forgetting reconnection logic; unbounded message queues; proxies closing idle connections. Whether the trade is worth it depends on how much persistent connections and messages matter to your project.
+
+Watch out for these problems: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections.
+
+Ask a teammate to explain heartbeats back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+A solid grasp of WebSockets also makes IP Addressing and Subnets easier to understand.
+
+Keep experimenting, keep notes, and revisit WebSockets whenever a new project gives you a reason.

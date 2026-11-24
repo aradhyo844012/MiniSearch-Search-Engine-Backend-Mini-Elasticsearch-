@@ -1,0 +1,24 @@
+Decision Trees Interview Questions and Answers
+
+Prepare for these questions about Decision Trees.
+
+Q: Explain Decision Trees in simple words.
+A: Decision Trees refers to models that make predictions by asking a sequence of simple questions about the data. I would add an example involving classifying customers.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as splits, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with explaining predictions, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: deep trees that overfit; ignoring class imbalance; and unstable results from small data changes.
+
+Q: How does it connect to Large Language Models?
+A: Both belong to the area of Machine Learning, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: scikit-learn, XGBoost, and Graphviz.
+
+Q: What are the key concepts?
+A: splits, entropy and Gini impurity, leaf nodes, and pruning.

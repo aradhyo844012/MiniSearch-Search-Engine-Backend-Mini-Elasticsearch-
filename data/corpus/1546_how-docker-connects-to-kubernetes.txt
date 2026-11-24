@@ -1,0 +1,13 @@
+How Docker Connects to Kubernetes
+
+Docker and Kubernetes are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving reproducible development setups may also involve running many containers. In such a project, Dockerfile and pods often influence each other.
+
+Start with Docker: the term refers to a platform for building and running applications in containers. Then look at Kubernetes, which refers to a system for deploying, scaling and managing containerized applications.
+
+A useful exercise is to take one example, such as shipping applications, and explain how deployments would change the design.
+
+Common problems are shared too. For Docker, watch for this: secrets baked into images. For Kubernetes, watch for this: over-complicated setups. A system that cannot be observed cannot be reliably operated.
+
+Spend a few hours on each topic, then combine them in one small project using Docker Compose or kubectl.

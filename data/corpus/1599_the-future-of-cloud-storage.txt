@@ -1,0 +1,13 @@
+The Future of Cloud Storage
+
+Predicting the future is risky, but the direction of Cloud Storage is easy to describe in general terms. Many students first meet Cloud Storage in a classroom, but it matters just as much in production systems. The term refers to storing files and objects on remote servers that scale on demand.
+
+Small, frequent releases are usually safer than rare, large ones.
+
+Expect tools such as Amazon S3 and Google Cloud Storage to keep improving, and expect newer ideas to keep building on buckets. The basics, though, tend to stay the same, so time spent on objects and access policies is rarely wasted. Anyone working on backups will keep meeting Cloud Storage for years to come.
+
+Cloud Storage and Git Branching are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+Ask a teammate to explain access policies back to you; teaching is a quick way to find gaps. Start small by applying Cloud Storage to one case, such as backups, before rolling it out more widely.
+
+In short, careful study of Cloud Storage pays off. Spend time on buckets and objects, and the rest will follow.

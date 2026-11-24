@@ -1,0 +1,21 @@
+DNS Interview Questions and Answers
+
+Prepare for these questions about DNS.
+
+Q: Explain DNS in simple words.
+A: DNS refers to the system that translates human-friendly domain names into IP addresses. I would add an example involving mapping domains to servers.
+
+Q: How does it connect to Load Balancing?
+A: Both belong to the area of Networking, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: forgetting TTLs when migrating; mistyped records; and assuming changes apply instantly.
+
+Q: Where would you apply it first?
+A: I would start with email routing, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: dig, nslookup, and Cloudflare DNS.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: forgetting TTLs when migrating.

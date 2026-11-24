@@ -1,0 +1,15 @@
+Cross-Site Scripting vs Two-Factor Authentication: Key Differences
+
+Cross-Site Scripting and Two-Factor Authentication both belong to the area of Security, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. Its core ideas are reflected XSS, stored XSS, and output encoding.
+
+The term Two-Factor Authentication refers to requiring a second proof of identity in addition to a password. Its core ideas are one-time codes, authenticator apps, and hardware keys.
+
+The main difference is focus. Cross-Site Scripting puts the emphasis on reflected XSS and stored XSS, while Two-Factor Authentication puts the emphasis on one-time codes and authenticator apps.
+
+Reach for Cross-Site Scripting when your task involves reviewing web forms or securing comment sections. Reach for Two-Factor Authentication when your task involves protecting email accounts or securing admin panels.
+
+Both have risks. With Cross-Site Scripting, watch for this: inserting user text as raw HTML. With Two-Factor Authentication, watch for this: relying only on SMS.
+
+In practice you do not always have to choose. Many projects use Cross-Site Scripting alongside Two-Factor Authentication, with tools such as OWASP guides and Google Authenticator. Never trust input that comes from outside your own code.

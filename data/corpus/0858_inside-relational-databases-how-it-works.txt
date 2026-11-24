@@ -1,0 +1,15 @@
+Inside Relational Databases: How It Works
+
+This article walks through what happens inside Relational Databases, step by step. Many students first meet Relational Databases in a classroom, but it matters just as much in production systems. The term refers to systems that store data in tables with rows, columns and defined relationships.
+
+Practice tables and rows with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Four ideas sit at the heart of Relational Databases: tables and rows, primary keys, foreign keys, and schemas. Each one builds on the one before it. A good way to remember tables and rows is to connect it with a concrete example from your own code.
+
+First, tables and rows sets the stage for everything else. Next, primary keys builds on it. After that, foreign keys comes into play, and finally schemas ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Backups are only useful if restoring from them has been tested. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+If you are comfortable with Relational Databases, explore Database Sharding next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Relational Databases.

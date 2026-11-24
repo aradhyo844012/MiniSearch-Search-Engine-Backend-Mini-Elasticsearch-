@@ -1,0 +1,16 @@
+Sorting Algorithms: Frequently Asked Questions
+
+Q: What is Sorting Algorithms?
+A: The term Sorting Algorithms refers to methods for arranging items in a defined order.
+
+Q: What should a beginner learn first?
+A: Start with comparison sorts and stability, then move on to divide and conquer and in-place sorting.
+
+Q: Why do developers use Sorting Algorithms?
+A: Common uses include ordering search results, preparing data for binary search, and merging sorted logs.
+
+Q: How does it relate to Tries?
+A: Sorting Algorithms and Tries often appear in the same project, and both belong to the area of Data Structures and Algorithms.
+
+Q: What mistakes are most common?
+A: Watch for these: assuming every sort is stable; sorting everything when a partial order is enough; and ignoring worst-case input.

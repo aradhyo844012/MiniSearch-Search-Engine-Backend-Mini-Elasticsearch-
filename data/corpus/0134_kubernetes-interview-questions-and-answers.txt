@@ -1,0 +1,24 @@
+Kubernetes Interview Questions and Answers
+
+Prepare for these questions about Kubernetes.
+
+Q: Explain Kubernetes in simple words.
+A: Kubernetes refers to a system for deploying, scaling and managing containerized applications. I would add an example involving running many containers.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: resource limits missing.
+
+Q: What are the key concepts?
+A: pods, deployments, services, and ingress.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as pods, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: resource limits missing; over-complicated setups; and ignoring health probes.
+
+Q: Where would you apply it first?
+A: I would start with rolling updates, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Git Branching?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.

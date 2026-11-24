@@ -1,0 +1,13 @@
+The Trade-offs of Deadlocks
+
+Every design choice has a cost, and Deadlocks is no exception. The term Deadlocks refers to situations where two or more tasks wait for each other forever. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Deadlocks is well suited to database lock conflicts and multi-threaded programs. On the other hand, it is not free. Keep these risks in mind: acquiring locks in inconsistent order; holding locks while waiting on I/O; no timeouts on locks. Whether the trade is worth it depends on how much mutual exclusion and hold and wait matter to your project.
+
+Beginners often stumble on three things. First: acquiring locks in inconsistent order. Second: holding locks while waiting on I/O. Third: no timeouts on locks.
+
+Read the official documentation for database deadlock logs; it often explains hold and wait better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+The operating system shares limited hardware between many competing programs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Deadlocks.

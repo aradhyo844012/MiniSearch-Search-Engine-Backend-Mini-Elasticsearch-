@@ -1,0 +1,13 @@
+The Trade-offs of REST APIs
+
+Every design choice has a cost, and REST APIs is no exception. Many students first meet REST APIs in a classroom, but it matters just as much in production systems. The term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods.
+
+On the positive side, REST APIs is well suited to mobile app backends and integrating services. On the other hand, it is not free. Keep these risks in mind: inconsistent naming; returning 200 for errors; no versioning plan. Whether the trade is worth it depends on how much resources and HTTP verbs matter to your project.
+
+Watch out for these problems: inconsistent naming; returning 200 for errors; and no versioning plan.
+
+A backend turns requests from many clients into reliable, consistent responses. Failures between services are normal, so retries and timeouts need careful design.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain status codes back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: inconsistent naming.
+
+With steady practice, REST APIs will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,19 @@
+Myths and Facts About Linked Lists
+
+A lot of folklore has built up around Linked Lists. Some of it is true, and some of it is not. If you build software for long enough, you will run into Linked Lists. The term refers to chains of nodes where each node stores a value and a reference to the next node.
+
+Myth: Linked Lists is only for experts.
+Fact: beginners can use it effectively once they understand nodes and head and tail pointers.
+
+Myth: Linked Lists is only useful in very large systems.
+Fact: small projects such as queues and stacks benefit as well.
+
+Myth: one tool does everything.
+Fact: Python collections.deque, Java LinkedList, and C pointers make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Linked Lists are always obvious.
+Fact: subtle problems happen, for example losing the head pointer.
+
+Keep notes on what worked. A short README explaining your decisions about Linked Lists helps the next developer. Measure before you optimize. Use Python collections.deque or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+With steady practice, Linked Lists will stop feeling abstract and become a tool you reach for naturally.

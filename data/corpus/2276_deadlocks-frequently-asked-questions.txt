@@ -1,0 +1,16 @@
+Deadlocks: Frequently Asked Questions
+
+Q: What is Deadlocks?
+A: The term Deadlocks refers to situations where two or more tasks wait for each other forever.
+
+Q: Why do developers use Deadlocks?
+A: Common uses include database lock conflicts, multi-threaded programs, and resource allocation.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Deadlocks.
+
+Q: Which tools help?
+A: Popular choices include thread dumps, database deadlock logs, and static analyzers.
+
+Q: What mistakes are most common?
+A: Watch for these: acquiring locks in inconsistent order; holding locks while waiting on I/O; and no timeouts on locks.

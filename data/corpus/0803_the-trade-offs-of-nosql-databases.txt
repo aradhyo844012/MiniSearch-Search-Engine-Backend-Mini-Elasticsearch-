@@ -1,0 +1,13 @@
+The Trade-offs of NoSQL Databases
+
+Every design choice has a cost, and NoSQL Databases is no exception. When people talk about NoSQL Databases, they usually mean a broad family of databases that do not use the traditional relational table model. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, NoSQL Databases is well suited to flexible schemas and high write throughput. On the other hand, it is not free. Keep these risks in mind: assuming no schema means no design; weak consistency surprises; expensive cross-collection queries. Whether the trade is worth it depends on how much document stores and key-value stores matter to your project.
+
+Three issues come up again and again: assuming no schema means no design; weak consistency surprises; and expensive cross-collection queries. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Cassandra; it often explains key-value stores better than blog posts do.
+
+Good schema design is hard to change once real data and users depend on it. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with NoSQL Databases.

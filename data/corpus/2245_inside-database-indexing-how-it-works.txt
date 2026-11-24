@@ -1,0 +1,15 @@
+Inside Database Indexing: How It Works
+
+This article walks through what happens inside Database Indexing, step by step. When people talk about Database Indexing, they usually mean auxiliary structures that let a database find rows without scanning a whole table. It appears in almost every serious software project, whether or not developers notice it.
+
+Good schema design is hard to change once real data and users depend on it.
+
+The vocabulary of Database Indexing is small. Learn B-tree indexes, selectivity, composite indexes, and covering indexes, and most documentation will start to make sense. Understanding selectivity first often makes composite indexes much easier to reason about.
+
+First, B-tree indexes sets the stage for everything else. Next, selectivity builds on it. After that, composite indexes comes into play, and finally covering indexes ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Good schema design is hard to change once real data and users depend on it.
+
+A solid grasp of Database Indexing also makes Database Sharding easier to understand.
+
+Keep experimenting, keep notes, and revisit Database Indexing whenever a new project gives you a reason.

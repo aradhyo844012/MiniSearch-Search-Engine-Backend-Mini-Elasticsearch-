@@ -1,0 +1,17 @@
+Best Practices for Binary Search
+
+The practices below come from patterns that tend to work well across many teams and projects. The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Keep notes on what worked. A short README explaining your decisions about Binary Search helps the next developer.
+2. Start small by applying Binary Search to one case, such as looking up values in sorted arrays, before rolling it out more widely.
+3. Keep an eye on this risk during code review: off-by-one errors.
+4. Ask a teammate to explain midpoint calculation back to you; teaching is a quick way to find gaps.
+5. Write a few tests that show how Binary Search should behave. Tests double as documentation for your teammates.
+
+Popular tools and libraries include Python bisect, Java Collections.binarySearch, and C++ lower_bound.
+
+A solid grasp of Binary Search also makes Sorting Algorithms easier to understand.
+
+A solid grasp of Binary Search also makes Sorting Algorithms easier to understand.
+
+In short, careful study of Binary Search pays off. Spend time on sorted input and low and high bounds, and the rest will follow.

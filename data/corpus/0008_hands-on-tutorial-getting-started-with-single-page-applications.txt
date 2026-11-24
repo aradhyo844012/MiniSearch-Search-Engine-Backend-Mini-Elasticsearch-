@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Single Page Applications
+
+This hands-on tutorial takes you from zero to a small working experiment with Single Page Applications. If you build software for long enough, you will run into Single Page Applications. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+Step 1: Install or open React and create a new empty project folder.
+Step 2: Read about client-side routing and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses state management.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as dashboards.
+Step 6: Break your example on purpose and see what happens. A good experiment: slow first load.
+
+In practice you can start with React, then explore Vue or Angular as your needs grow.
+
+Watch out for these problems: slow first load; poor search engine visibility; and broken back buttons.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Single Page Applications.

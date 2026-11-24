@@ -1,0 +1,21 @@
+Heaps and Priority Queues Interview Questions and Answers
+
+Prepare for these questions about Heaps and Priority Queues.
+
+Q: Explain Heaps and Priority Queues in simple words.
+A: Heaps and Priority Queues refers to structures that always give quick access to the smallest or largest element. I would add an example involving scheduling tasks.
+
+Q: How does it connect to Dynamic Programming?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: assuming a heap is fully sorted.
+
+Q: What are the key concepts?
+A: heap property, sift up and sift down, array representation, and top-k selection.
+
+Q: Where would you apply it first?
+A: I would start with selecting the top results from many candidates, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: assuming a heap is fully sorted; using a full sort when only the top k are needed; and mixing up min-heaps and max-heaps.

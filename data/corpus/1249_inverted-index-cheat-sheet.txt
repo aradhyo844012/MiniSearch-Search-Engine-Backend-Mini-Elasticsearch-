@@ -1,0 +1,11 @@
+Inverted Index Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Inverted Index.
+
+- Definition: a data structure that maps each term to the documents that contain it.
+- Core ideas: vocabulary; postings lists; term frequency; document frequency.
+- Use it for: full-text search; log search; finding matching documents quickly.
+- Watch out for: scanning very long postings lists; building the index without normalizing text; forgetting to update it after changes.
+- Tools: Lucene, Elasticsearch, custom Python dictionaries.
+- Quick tip: write a tiny test for postings lists before building anything large.
+- Related topic: TF-IDF.

@@ -1,0 +1,11 @@
+The Trade-offs of OAuth 2.0
+
+Every design choice has a cost, and OAuth 2.0 is no exception. The term OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, OAuth 2.0 is well suited to sign in with another account and API access for third-party apps. On the other hand, it is not free. Keep these risks in mind: loose redirect URI checks; requesting excessive scopes; storing tokens insecurely. Whether the trade is worth it depends on how much authorization server and access tokens matter to your project.
+
+Three issues come up again and again: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely. Knowing them in advance saves hours of debugging.
+
+Write a few tests that show how OAuth 2.0 should behave. Tests double as documentation for your teammates. Read the official documentation for Keycloak; it often explains access tokens better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of OAuth 2.0 pays off. Spend time on authorization server and access tokens, and the rest will follow.

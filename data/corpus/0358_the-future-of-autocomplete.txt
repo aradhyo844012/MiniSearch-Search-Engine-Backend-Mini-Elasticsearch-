@@ -1,0 +1,11 @@
+The Future of Autocomplete
+
+Predicting the future is risky, but the direction of Autocomplete is easy to describe in general terms. Many students first meet Autocomplete in a classroom, but it matters just as much in production systems. The term refers to suggesting likely completions while a person types a query.
+
+Fast search comes from precomputing structures so that queries do very little work. Search quality depends on how text is prepared before it is ever indexed.
+
+Expect tools such as tries and Redis sorted sets to keep improving, and expect newer ideas to keep building on prefixes. The basics, though, tend to stay the same, so time spent on ranking suggestions and latency is rarely wasted. Anyone working on search boxes will keep meeting Autocomplete for years to come.
+
+Read the official documentation for Redis sorted sets; it often explains ranking suggestions better than blog posts do. Practice prefixes with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Autocomplete.

@@ -1,0 +1,15 @@
+Best Practices for Message Queues
+
+The practices below come from patterns that tend to work well across many teams and projects. The term Message Queues refers to systems that let services send work to each other asynchronously through a buffer. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Write a few tests that show how Message Queues should behave. Tests double as documentation for your teammates.
+2. Start small by applying Message Queues to one case, such as sending emails, before rolling it out more widely.
+3. Read the official documentation for Apache Kafka; it often explains consumers better than blog posts do.
+4. Keep an eye on this risk during code review: losing messages without acknowledgements.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+Popular tools and libraries include RabbitMQ, Apache Kafka, and Amazon SQS.
+
+A solid grasp of Message Queues also makes Caching Strategies easier to understand.
+
+Keep experimenting, keep notes, and revisit Message Queues whenever a new project gives you a reason.

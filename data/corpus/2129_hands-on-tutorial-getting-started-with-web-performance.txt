@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Web Performance
+
+This hands-on tutorial takes you from zero to a small working experiment with Web Performance. If you build software for long enough, you will run into Web Performance. The term refers to the practice of making websites load quickly and respond smoothly.
+
+Step 1: Install or open Lighthouse and create a new empty project folder.
+Step 2: Read about page weight and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses caching.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as shopping sites.
+Step 6: Break your example on purpose and see what happens. A good experiment: shipping large JavaScript bundles.
+
+In practice you can start with Lighthouse, then explore WebPageTest or Chrome DevTools as your needs grow.
+
+Watch out for these problems: shipping large JavaScript bundles; unoptimized images; and too many network requests.
+
+Accessible design helps everyone, including people on slow connections or small screens. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+In short, careful study of Web Performance pays off. Spend time on page weight and caching, and the rest will follow.

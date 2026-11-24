@@ -1,0 +1,11 @@
+The Future of NoSQL Databases
+
+Predicting the future is risky, but the direction of NoSQL Databases is easy to describe in general terms. Put simply, NoSQL Databases covers a broad family of databases that do not use the traditional relational table model. Learning it well pays off across many areas of computing.
+
+Good schema design is hard to change once real data and users depend on it.
+
+Expect tools such as MongoDB and Cassandra to keep improving, and expect newer ideas to keep building on document stores. The basics, though, tend to stay the same, so time spent on key-value stores and column families is rarely wasted. Anyone working on flexible schemas will keep meeting NoSQL Databases for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Cassandra; it often explains key-value stores better than blog posts do. Keep an eye on this risk during code review: assuming no schema means no design.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with NoSQL Databases.

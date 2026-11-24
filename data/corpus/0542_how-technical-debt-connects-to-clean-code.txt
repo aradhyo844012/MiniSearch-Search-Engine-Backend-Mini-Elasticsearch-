@@ -1,0 +1,13 @@
+How Technical Debt Connects to Clean Code
+
+Technical Debt and Clean Code are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving deciding when to cut corners may also involve team projects. In such a project, shortcuts and meaningful names often influence each other.
+
+Start with Technical Debt: the term refers to the future cost of shortcuts taken in code, design or documentation. Then look at Clean Code, which refers to writing code that other people can read, understand and change easily.
+
+A useful exercise is to take one example, such as planning cleanup work, and explain how small functions would change the design.
+
+Common problems are shared too. For Technical Debt, watch for this: hiding it from stakeholders. For Clean Code, watch for this: functions that do too much. Readable code saves more time than clever code over the long run.
+
+Spend a few hours on each topic, then combine them in one small project using SonarQube or linters.

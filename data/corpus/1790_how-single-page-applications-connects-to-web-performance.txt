@@ -1,0 +1,13 @@
+How Single Page Applications Connects to Web Performance
+
+Single Page Applications and Web Performance are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving dashboards may also involve shopping sites. In such a project, client-side routing and page weight often influence each other.
+
+Start with Single Page Applications: the term refers to web apps that load once and update the page dynamically as the user interacts. Then look at Web Performance, which refers to the practice of making websites load quickly and respond smoothly.
+
+A useful exercise is to take one example, such as email clients, and explain how caching would change the design.
+
+Common problems are shared too. For Single Page Applications, watch for this: poor search engine visibility. For Web Performance, watch for this: unoptimized images. Small improvements in markup and styling often have a large effect on usability.
+
+Spend a few hours on each topic, then combine them in one small project using React or Lighthouse.

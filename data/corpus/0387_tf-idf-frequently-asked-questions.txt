@@ -1,0 +1,22 @@
+TF-IDF: Frequently Asked Questions
+
+Q: What is TF-IDF?
+A: The term TF-IDF refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with TF-IDF.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: How does it relate to Stop Words?
+A: TF-IDF and Stop Words often appear in the same project, and both belong to the area of Search and Retrieval.
+
+Q: What should a beginner learn first?
+A: Start with term frequency and inverse document frequency, then move on to weighting and normalization.
+
+Q: Which tools help?
+A: Popular choices include scikit-learn TfidfVectorizer, Lucene, and Gensim.
+
+Q: What mistakes are most common?
+A: Watch for these: over-weighting common words; ignoring document length; and using it on tiny corpora.

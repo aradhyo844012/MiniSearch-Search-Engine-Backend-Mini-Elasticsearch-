@@ -1,0 +1,18 @@
+Neural Networks Interview Questions and Answers
+
+Prepare for these questions about Neural Networks.
+
+Q: Explain Neural Networks in simple words.
+A: Neural Networks refers to models made of layers of connected units that learn patterns from data. I would add an example involving image recognition.
+
+Q: What problems have you seen in practice?
+A: too little training data; poor learning rate choices; and not monitoring validation loss.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: too little training data.
+
+Q: What are the key concepts?
+A: layers, weights, activation functions, and backpropagation.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as layers, and add tests aimed at the known risks.

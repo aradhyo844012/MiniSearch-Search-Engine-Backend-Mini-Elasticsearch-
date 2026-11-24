@@ -1,0 +1,17 @@
+Best Practices for OAuth 2.0
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet OAuth 2.0 in a classroom, but it matters just as much in production systems. The term refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+1. Write a few tests that show how OAuth 2.0 should behave. Tests double as documentation for your teammates.
+2. Read the official documentation for Keycloak; it often explains access tokens better than blog posts do.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Start small by applying OAuth 2.0 to one case, such as sign in with another account, before rolling it out more widely.
+5. Keep notes on what worked. A short README explaining your decisions about OAuth 2.0 helps the next developer.
+
+In practice you can start with Auth0, then explore Keycloak or authlib as your needs grow.
+
+If you are comfortable with OAuth 2.0, explore Cross-Site Scripting next. The two often appear in the same project.
+
+OAuth 2.0 and Cross-Site Scripting are closely related, so learning both gives a fuller picture of Security.
+
+Keep experimenting, keep notes, and revisit OAuth 2.0 whenever a new project gives you a reason.

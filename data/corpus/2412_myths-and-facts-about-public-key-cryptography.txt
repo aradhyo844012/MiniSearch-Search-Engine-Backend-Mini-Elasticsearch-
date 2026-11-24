@@ -1,0 +1,19 @@
+Myths and Facts About Public Key Cryptography
+
+A lot of folklore has built up around Public Key Cryptography. Some of it is true, and some of it is not. If you build software for long enough, you will run into Public Key Cryptography. The term refers to encryption that uses a pair of keys, one public and one private.
+
+Myth: Public Key Cryptography is only for experts.
+Fact: beginners can use it effectively once they understand key pairs and digital signatures.
+
+Myth: Public Key Cryptography is only useful in very large systems.
+Fact: small projects such as HTTPS benefit as well.
+
+Myth: one tool does everything.
+Fact: OpenSSL, GnuPG, and SSH keys make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Public Key Cryptography are always obvious.
+Fact: subtle problems happen, for example losing private keys.
+
+If you are comfortable with Public Key Cryptography, explore Phishing Defense next. The two often appear in the same project.
+
+With steady practice, Public Key Cryptography will stop feeling abstract and become a tool you reach for naturally.

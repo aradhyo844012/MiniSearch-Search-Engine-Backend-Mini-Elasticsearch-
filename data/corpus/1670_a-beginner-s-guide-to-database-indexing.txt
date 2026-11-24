@@ -1,0 +1,19 @@
+A Beginner's Guide to Database Indexing
+
+This guide is written for readers who are new to Database Indexing and want a clear starting point. If you build software for long enough, you will run into Database Indexing. The term refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+Good schema design is hard to change once real data and users depend on it.
+
+Database Indexing and Redis Caching are closely related, so learning both gives a fuller picture of Databases.
+
+To understand Database Indexing, start with B-tree indexes. Then move on to selectivity, and finally look at composite indexes and covering indexes. Understanding selectivity first often makes composite indexes much easier to reason about.
+
+People use Database Indexing for speeding up lookups, for supporting sorted queries, and for enforcing uniqueness.
+
+Popular tools and libraries include EXPLAIN plans, pgAdmin, and MySQL slow query log.
+
+Beginners often stumble on three things. First: indexing every column. Second: ignoring write overhead. Third: wrong column order in composite indexes.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use EXPLAIN plans or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Database Indexing whenever a new project gives you a reason.

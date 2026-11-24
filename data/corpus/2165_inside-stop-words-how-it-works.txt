@@ -1,0 +1,13 @@
+Inside Stop Words: How It Works
+
+This article walks through what happens inside Stop Words, step by step. If you build software for long enough, you will run into Stop Words. The term refers to very common words such as the and of that are often ignored by search systems.
+
+The vocabulary of Stop Words is small. Learn frequency lists, index size, query relevance, and language-specific lists, and most documentation will start to make sense. A good way to remember frequency lists is to connect it with a concrete example from your own code.
+
+First, frequency lists sets the stage for everything else. Next, index size builds on it. After that, query relevance comes into play, and finally language-specific lists ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Search quality depends on how text is prepared before it is ever indexed.
+
+If you are comfortable with Stop Words, explore Zipf's Law next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Stop Words.

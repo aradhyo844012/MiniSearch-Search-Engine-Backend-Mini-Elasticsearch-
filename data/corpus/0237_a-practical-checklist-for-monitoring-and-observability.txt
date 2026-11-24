@@ -1,0 +1,12 @@
+A Practical Checklist for Monitoring and Observability
+
+Use this checklist before you rely on Monitoring and Observability in a project.
+
+1. Guard against this risk: logs without context.
+2. Guard against this risk: noisy alerts.
+3. Write at least one automated test that covers metrics.
+4. Document your decisions in the project README.
+5. Review the core ideas: metrics, logs, traces, and alerts.
+6. Ask a teammate to review the work, focusing on logs.
+7. Review how Monitoring and Observability interacts with Site Reliability.
+8. Measure results before and after any change.

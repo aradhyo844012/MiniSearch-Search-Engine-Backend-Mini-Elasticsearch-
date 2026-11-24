@@ -1,0 +1,11 @@
+Common Mistakes When Working with Database Normalization
+
+Almost everyone makes a few avoidable errors when first working with Database Normalization. When people talk about Database Normalization, they usually mean the practice of organizing tables to reduce duplicated data and update anomalies. It appears in almost every serious software project, whether or not developers notice it.
+
+Three issues come up again and again: over-normalizing reporting tables; ignoring query patterns; and duplicating data by accident. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: over-normalizing reporting tables. A short test or a careful review comment usually catches it. The second problem is similar: ignoring query patterns. The third problem is this: duplicating data by accident. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about Database Normalization helps the next developer. Ask a teammate to explain third normal form back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of Database Normalization pays off. Spend time on first normal form and second normal form, and the rest will follow.

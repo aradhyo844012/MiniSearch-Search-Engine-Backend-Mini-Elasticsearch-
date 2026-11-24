@@ -1,0 +1,19 @@
+Myths and Facts About Linear Regression
+
+A lot of folklore has built up around Linear Regression. Some of it is true, and some of it is not. The term Linear Regression refers to a method for predicting a number by fitting a straight line or plane to data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Linear Regression is only for experts.
+Fact: beginners can use it effectively once they understand coefficients and residuals.
+
+Myth: Linear Regression is only useful in very large systems.
+Fact: small projects such as predicting prices benefit as well.
+
+Myth: one tool does everything.
+Fact: scikit-learn, NumPy, and statsmodels make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Linear Regression are always obvious.
+Fact: subtle problems happen, for example extrapolating far beyond the data.
+
+Reproducible experiments make it far easier to trust and improve a model.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linear Regression.

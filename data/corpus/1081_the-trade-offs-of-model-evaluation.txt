@@ -1,0 +1,13 @@
+The Trade-offs of Model Evaluation
+
+Every design choice has a cost, and Model Evaluation is no exception. When people talk about Model Evaluation, they usually mean measuring how well a machine learning model works on data it has not seen. It appears in almost every serious software project, whether or not developers notice it.
+
+Reproducible experiments make it far easier to trust and improve a model.
+
+On the positive side, Model Evaluation is well suited to comparing models and choosing thresholds. On the other hand, it is not free. Keep these risks in mind: using accuracy on imbalanced data; tuning on the test set; ignoring variance between runs. Whether the trade is worth it depends on how much accuracy and precision and recall matter to your project.
+
+Three issues come up again and again: using accuracy on imbalanced data; tuning on the test set; and ignoring variance between runs. Knowing them in advance saves hours of debugging.
+
+Keep an eye on this risk during code review: using accuracy on imbalanced data. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

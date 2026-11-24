@@ -1,0 +1,13 @@
+The Trade-offs of Monitoring and Observability
+
+Every design choice has a cost, and Monitoring and Observability is no exception. If you build software for long enough, you will run into Monitoring and Observability. The term refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+On the positive side, Monitoring and Observability is well suited to detecting outages and finding slow requests. On the other hand, it is not free. Keep these risks in mind: noisy alerts; logs without context; dashboards nobody reads. Whether the trade is worth it depends on how much metrics and logs matter to your project.
+
+Three issues come up again and again: noisy alerts; logs without context; and dashboards nobody reads. Knowing them in advance saves hours of debugging.
+
+Start small by applying Monitoring and Observability to one case, such as detecting outages, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Monitoring and Observability helps the next developer. Write a few tests that show how Monitoring and Observability should behave. Tests double as documentation for your teammates.
+
+If you are comfortable with Monitoring and Observability, explore Site Reliability next. The two often appear in the same project.
+
+With steady practice, Monitoring and Observability will stop feeling abstract and become a tool you reach for naturally.

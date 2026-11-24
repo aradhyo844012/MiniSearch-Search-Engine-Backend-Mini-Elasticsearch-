@@ -1,0 +1,13 @@
+How Monitoring and Observability Connects to Site Reliability
+
+Monitoring and Observability and Site Reliability are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving detecting outages may also involve running production services. In such a project, metrics and service level objectives often influence each other.
+
+Start with Monitoring and Observability: the term refers to collecting metrics, logs and traces so you can understand how a system behaves. Then look at Site Reliability, which refers to the discipline of keeping services dependable using engineering practices.
+
+A useful exercise is to take one example, such as finding slow requests, and explain how error budgets would change the design.
+
+Common problems are shared too. For Monitoring and Observability, watch for this: logs without context. For Site Reliability, watch for this: blaming people instead of systems. Automation turns risky manual steps into repeatable and reviewable processes.
+
+Spend a few hours on each topic, then combine them in one small project using Prometheus or PagerDuty.

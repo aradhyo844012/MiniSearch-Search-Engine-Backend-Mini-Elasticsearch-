@@ -1,0 +1,18 @@
+Stream Processing Interview Questions and Answers
+
+Prepare for these questions about Stream Processing.
+
+Q: Explain Stream Processing in simple words.
+A: Stream Processing refers to handling data continuously as it arrives rather than in large batches. I would add an example involving live dashboards.
+
+Q: Which tools have you used?
+A: Apache Kafka, Apache Flink, and Spark Structured Streaming.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: late events.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as events, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: late events; losing state after crashes; and duplicate processing.

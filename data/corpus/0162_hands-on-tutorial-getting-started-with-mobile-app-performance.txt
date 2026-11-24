@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Mobile App Performance
+
+This hands-on tutorial takes you from zero to a small working experiment with Mobile App Performance. When people talk about Mobile App Performance, they usually mean making mobile apps start quickly, run smoothly and use little battery. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Android Profiler and create a new empty project folder.
+Step 2: Read about startup time and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses frame rate.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as smoother scrolling.
+Step 6: Break your example on purpose and see what happens. A good experiment: loading everything at startup.
+
+Popular tools and libraries include Android Profiler, Xcode Instruments, and Firebase Performance Monitoring.
+
+Three issues come up again and again: loading everything at startup; large images; and too many background tasks. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Mobile App Performance whenever a new project gives you a reason.

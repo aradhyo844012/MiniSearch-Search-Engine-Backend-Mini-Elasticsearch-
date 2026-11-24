@@ -1,0 +1,13 @@
+Performance Tips for Model Evaluation
+
+Fast software rarely happens by accident, and Model Evaluation offers several places to gain speed. When people talk about Model Evaluation, they usually mean measuring how well a machine learning model works on data it has not seen. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use scikit-learn metrics or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to accuracy and precision and recall, because they usually decide how well things scale. For workloads such as comparing models, even small improvements add up quickly.
+
+To understand Model Evaluation, start with accuracy. Then move on to precision and recall, and finally look at confusion matrices and validation sets. A good way to remember accuracy is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Model Evaluation should behave. Tests double as documentation for your teammates. Practice accuracy with small exercises until it feels natural.
+
+Three issues come up again and again: using accuracy on imbalanced data; tuning on the test set; and ignoring variance between runs. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

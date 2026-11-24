@@ -1,0 +1,11 @@
+Mobile App Performance Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Mobile App Performance.
+
+- Definition: making mobile apps start quickly, run smoothly and use little battery.
+- Core ideas: startup time; frame rate; memory use; network calls.
+- Use it for: smoother scrolling; longer battery life; faster screens.
+- Watch out for: loading everything at startup; large images; too many background tasks.
+- Tools: Android Profiler, Xcode Instruments, Firebase Performance Monitoring.
+- Quick tip: practice startup time until it feels automatic.
+- Related topic: Android Basics.

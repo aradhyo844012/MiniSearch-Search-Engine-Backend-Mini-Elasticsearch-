@@ -1,0 +1,9 @@
+Case Study: Applying Sorting Algorithms in a Small Team
+
+Imagine a small student team building a project that depends on Sorting Algorithms. Many students first meet Sorting Algorithms in a classroom, but it matters just as much in production systems. The term refers to methods for arranging items in a defined order.
+
+The team first spent a week learning comparison sorts and stability. Early on they hit a familiar problem: assuming every sort is stable. After fixing it, they used Python sorted to check their work and adopted Sorting Algorithms for ordering search results. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: assuming every sort is stable; sorting everything when a partial order is enough; and ignoring worst-case input.
+
+Keep experimenting, keep notes, and revisit Sorting Algorithms whenever a new project gives you a reason.

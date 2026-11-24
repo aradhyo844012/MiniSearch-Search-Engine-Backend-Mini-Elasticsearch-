@@ -1,0 +1,19 @@
+A Beginner's Guide to Containers
+
+This guide is written for readers who are new to Containers and want a clear starting point. If you build software for long enough, you will run into Containers. The term refers to lightweight packages that bundle an application with its dependencies and run in isolation.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+Four ideas sit at the heart of Containers: images, layers, namespaces, and registries. Each one builds on the one before it. Sketching registries on paper before coding helps many learners see how the pieces fit.
+
+A team working on consistent development environments might adopt Containers after hitting the limits of a simpler approach. Other teams turn to it for deploying microservices or running tests in CI.
+
+Popular tools and libraries include Docker, Podman, and containerd.
+
+Watch out for these problems: running as root; bloated images; and storing data inside the container.
+
+Read the official documentation for Podman; it often explains layers better than blog posts do. Start small by applying Containers to one case, such as consistent development environments, before rolling it out more widely.
+
+Keep notes on what worked. A short README explaining your decisions about Containers helps the next developer. Write a few tests that show how Containers should behave. Tests double as documentation for your teammates.
+
+With steady practice, Containers will stop feeling abstract and become a tool you reach for naturally.

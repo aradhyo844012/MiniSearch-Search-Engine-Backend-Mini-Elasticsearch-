@@ -1,0 +1,13 @@
+How Unit Testing Connects to Design Patterns
+
+Unit Testing and Design Patterns are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving catching regressions may also involve structuring applications. In such a project, test cases and singleton often influence each other.
+
+Start with Unit Testing: the term refers to writing small automated tests that check one piece of code at a time. Then look at Design Patterns, which refers to reusable solutions to common problems in software design.
+
+A useful exercise is to take one example, such as documenting behavior, and explain how factory would change the design.
+
+Common problems are shared too. For Unit Testing, watch for this: slow tests. For Design Patterns, watch for this: over-engineering. Readable code saves more time than clever code over the long run.
+
+Spend a few hours on each topic, then combine them in one small project using pytest or UML diagrams.

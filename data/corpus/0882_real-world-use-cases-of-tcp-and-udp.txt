@@ -1,0 +1,13 @@
+Real-World Use Cases of TCP and UDP
+
+The best way to appreciate TCP and UDP is to see where it is actually used. When people talk about TCP and UDP, they usually mean the two main transport protocols, one reliable and ordered and the other fast and connectionless. It appears in almost every serious software project, whether or not developers notice it.
+
+People use TCP and UDP for web traffic, for video calls, and for online games.
+
+Consider web traffic. In a case like this, TCP and UDP gives the work a clear structure, and understanding handshakes makes the design easier to explain. A different example is video calls, where acknowledgements often decides how well the solution scales.
+
+Latency is limited by distance and by the number of round trips a request needs. Network failures are normal, so well-designed software expects timeouts and retries.
+
+Popular tools and libraries include Wireshark, netcat, and tcpdump.
+
+In short, careful study of TCP and UDP pays off. Spend time on handshakes and acknowledgements, and the rest will follow.

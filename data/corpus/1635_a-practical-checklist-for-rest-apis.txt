@@ -1,0 +1,13 @@
+A Practical Checklist for REST APIs
+
+Use this checklist before you rely on REST APIs in a project.
+
+1. Confirm that your team agrees on what REST APIs should accomplish.
+2. Review the core ideas: resources, HTTP verbs, status codes, and statelessness.
+3. Write at least one automated test that covers resources.
+4. Review how REST APIs interacts with JSON.
+5. Ask a teammate to review the work, focusing on HTTP verbs.
+6. Guard against this risk: no versioning plan.
+7. Pick a tool to start with, such as Flask or FastAPI.
+8. Try the approach on a small case, for example mobile app backends.
+9. Document your decisions in the project README.

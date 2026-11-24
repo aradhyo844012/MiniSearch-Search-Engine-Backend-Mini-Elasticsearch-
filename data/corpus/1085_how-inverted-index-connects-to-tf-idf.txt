@@ -1,0 +1,13 @@
+How Inverted Index Connects to TF-IDF
+
+Inverted Index and TF-IDF are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving full-text search may also involve ranking search results. In such a project, vocabulary and term frequency often influence each other.
+
+Start with Inverted Index: the term refers to a data structure that maps each term to the documents that contain it. Then look at TF-IDF, which refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+A useful exercise is to take one example, such as log search, and explain how inverse document frequency would change the design.
+
+Common problems are shared too. For Inverted Index, watch for this: building the index without normalizing text. For TF-IDF, watch for this: ignoring document length. Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Spend a few hours on each topic, then combine them in one small project using Lucene or scikit-learn TfidfVectorizer.

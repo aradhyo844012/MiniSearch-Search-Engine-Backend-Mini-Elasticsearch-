@@ -1,0 +1,11 @@
+Troubleshooting Decision Trees Problems
+
+When something breaks around Decision Trees, a calm and systematic approach saves the most time. Many students first meet Decision Trees in a classroom, but it matters just as much in production systems. The term refers to models that make predictions by asking a sequence of simple questions about the data.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and scikit-learn usually reveal the cause faster than guessing.
+
+Common culprits: deep trees that overfit; ignoring class imbalance; unstable results from small data changes. If none of these explains the symptom, re-read the basics of splits and entropy and Gini impurity.
+
+Popular tools and libraries include scikit-learn, XGBoost, and Graphviz.
+
+In short, careful study of Decision Trees pays off. Spend time on splits and entropy and Gini impurity, and the rest will follow.

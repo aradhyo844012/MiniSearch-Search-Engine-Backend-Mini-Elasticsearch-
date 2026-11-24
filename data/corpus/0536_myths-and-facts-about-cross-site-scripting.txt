@@ -1,0 +1,19 @@
+Myths and Facts About Cross-Site Scripting
+
+A lot of folklore has built up around Cross-Site Scripting. Some of it is true, and some of it is not. If you build software for long enough, you will run into Cross-Site Scripting. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Attackers usually choose the easiest weakness, not the most interesting one.
+
+Myth: Cross-Site Scripting is only for experts.
+Fact: beginners can use it effectively once they understand reflected XSS and stored XSS.
+
+Myth: Cross-Site Scripting is only useful in very large systems.
+Fact: small projects such as reviewing web forms benefit as well.
+
+Myth: one tool does everything.
+Fact: OWASP guides, CSP evaluators, and browser developer tools make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Cross-Site Scripting are always obvious.
+Fact: subtle problems happen, for example inserting user text as raw HTML.
+
+In short, careful study of Cross-Site Scripting pays off. Spend time on reflected XSS and stored XSS, and the rest will follow.

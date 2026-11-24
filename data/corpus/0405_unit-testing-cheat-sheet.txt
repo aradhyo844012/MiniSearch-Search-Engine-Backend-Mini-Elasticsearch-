@@ -1,0 +1,11 @@
+Unit Testing Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Unit Testing.
+
+- Definition: writing small automated tests that check one piece of code at a time.
+- Core ideas: test cases; assertions; fixtures; mocking.
+- Use it for: catching regressions; documenting behavior; refactoring safely.
+- Watch out for: testing implementation details; slow tests; tests that depend on each other.
+- Tools: pytest, unittest, coverage.py.
+- Related topic: Agile and Scrum.
+- Quick tip: practice test cases until it feels automatic.

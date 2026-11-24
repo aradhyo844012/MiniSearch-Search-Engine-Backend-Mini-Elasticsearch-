@@ -1,0 +1,17 @@
+A Beginner's Guide to Phishing Defense
+
+This guide is written for readers who are new to Phishing Defense and want a clear starting point. Many students first meet Phishing Defense in a classroom, but it matters just as much in production systems. The term refers to recognizing and reducing attacks that trick people into revealing information.
+
+Never trust input that comes from outside your own code.
+
+Four ideas sit at the heart of Phishing Defense: suspicious links, sender verification, email filtering, and user training. Each one builds on the one before it. A good way to remember suspicious links is to connect it with a concrete example from your own code.
+
+You will see Phishing Defense whenever people work on protecting employees or securing shared mailboxes. It also helps with incident response drills.
+
+Popular tools and libraries include SPF, DKIM, and DMARC.
+
+Watch out for these problems: clicking before checking; reusing passwords; and ignoring reports from users.
+
+Measure before you optimize. Use SPF or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: clicking before checking. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Phishing Defense.

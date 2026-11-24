@@ -1,0 +1,15 @@
+TF-IDF vs Tokenization: Key Differences
+
+TF-IDF and Tokenization both belong to the area of Search and Retrieval, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term TF-IDF refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall. Its core ideas are term frequency, inverse document frequency, and weighting.
+
+The term Tokenization refers to splitting text into smaller units such as words that a program can count and compare. Its core ideas are lowercasing, splitting on punctuation, and stop words.
+
+The main difference is focus. TF-IDF puts the emphasis on term frequency and inverse document frequency, while Tokenization puts the emphasis on lowercasing and splitting on punctuation.
+
+Reach for TF-IDF when your task involves ranking search results or finding keywords. Reach for Tokenization when your task involves indexing documents or preparing text for models.
+
+Both have risks. With TF-IDF, watch for this: over-weighting common words. With Tokenization, watch for this: different rules for indexing and querying.
+
+In practice you do not always have to choose. Many projects use TF-IDF alongside Tokenization, with tools such as scikit-learn TfidfVectorizer and Python re module. Search quality depends on how text is prepared before it is ever indexed.

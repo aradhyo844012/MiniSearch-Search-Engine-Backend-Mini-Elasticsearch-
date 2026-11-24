@@ -1,0 +1,11 @@
+HTML Semantics Cheat Sheet
+
+Use this page as a quick reminder of the essentials of HTML Semantics.
+
+- Definition: the practice of using HTML elements that describe the meaning of content.
+- Core ideas: headings; landmarks; lists and tables; forms.
+- Use it for: accessible pages; better search engine understanding; maintainable markup.
+- Watch out for: using div for everything; skipping heading levels; missing labels on form inputs.
+- Tools: HTML validators, browser developer tools, axe.
+- Quick tip: practice headings until it feels automatic.
+- Quick tip: write a tiny test for landmarks before building anything large.

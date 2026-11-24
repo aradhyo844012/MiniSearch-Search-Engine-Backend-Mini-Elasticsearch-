@@ -1,0 +1,21 @@
+Secure Coding Interview Questions and Answers
+
+Prepare for these questions about Secure Coding.
+
+Q: Explain Secure Coding in simple words.
+A: Secure Coding refers to writing software in ways that avoid common vulnerabilities. I would add an example involving reviewing pull requests.
+
+Q: How does it connect to Cross-Site Scripting?
+A: Both belong to the area of Security, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as input validation, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: trusting user input; committing secrets to repositories; and ignoring outdated libraries.
+
+Q: Which tools have you used?
+A: OWASP Top 10, static analysis tools, and Dependabot.
+
+Q: Where would you apply it first?
+A: I would start with building web services, because it is small enough to test and large enough to show the benefit.

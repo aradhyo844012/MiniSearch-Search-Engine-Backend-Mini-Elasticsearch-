@@ -1,0 +1,19 @@
+Myths and Facts About Data Cleaning
+
+A lot of folklore has built up around Data Cleaning. Some of it is true, and some of it is not. Many students first meet Data Cleaning in a classroom, but it matters just as much in production systems. The term refers to finding and fixing errors, gaps and inconsistencies in raw data.
+
+If you are comfortable with Data Cleaning, explore Pandas DataFrames next. The two often appear in the same project.
+
+Myth: Data Cleaning is only for experts.
+Fact: beginners can use it effectively once they understand missing values and duplicates.
+
+Myth: Data Cleaning is only useful in very large systems.
+Fact: small projects such as preparing logs benefit as well.
+
+Myth: one tool does everything.
+Fact: pandas, OpenRefine, and regular expressions make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Data Cleaning are always obvious.
+Fact: subtle problems happen, for example dropping data without checking why it is missing.
+
+In short, careful study of Data Cleaning pays off. Spend time on missing values and duplicates, and the rest will follow.

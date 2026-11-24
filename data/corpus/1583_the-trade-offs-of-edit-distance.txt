@@ -1,0 +1,11 @@
+The Trade-offs of Edit Distance
+
+Every design choice has a cost, and Edit Distance is no exception. When people talk about Edit Distance, they usually mean a measure of how many single-character changes turn one word into another. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Edit Distance is well suited to spell checking and fuzzy matching. On the other hand, it is not free. Keep these risks in mind: comparing against every word in a large vocabulary; ignoring word length; forgetting transpositions. Whether the trade is worth it depends on how much insertions and deletions matter to your project.
+
+Beginners often stumble on three things. First: comparing against every word in a large vocabulary. Second: ignoring word length. Third: forgetting transpositions.
+
+Write a few tests that show how Edit Distance should behave. Tests double as documentation for your teammates. Read the official documentation for deletion-neighbour indexes; it often explains deletions better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+Keep experimenting, keep notes, and revisit Edit Distance whenever a new project gives you a reason.

@@ -1,0 +1,11 @@
+The Future of SQL Injection
+
+Predicting the future is risky, but the direction of SQL Injection is easy to describe in general terms. When people talk about SQL Injection, they usually mean an attack where malicious input changes the meaning of a database query. It appears in almost every serious software project, whether or not developers notice it.
+
+Security is a habit applied throughout development, not a feature added at the end.
+
+Expect tools such as prepared statements and OWASP cheat sheets to keep improving, and expect newer ideas to keep building on parameterized queries. The basics, though, tend to stay the same, so time spent on input validation and least privilege is rarely wasted. Anyone working on securing login forms will keep meeting SQL Injection for years to come.
+
+Start small by applying SQL Injection to one case, such as securing login forms, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about SQL Injection helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with SQL Injection.

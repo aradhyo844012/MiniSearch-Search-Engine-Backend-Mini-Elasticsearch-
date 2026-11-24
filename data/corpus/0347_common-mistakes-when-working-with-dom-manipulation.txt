@@ -1,0 +1,11 @@
+Common Mistakes When Working with DOM Manipulation
+
+Almost everyone makes a few avoidable errors when first working with DOM Manipulation. Many students first meet DOM Manipulation in a classroom, but it matters just as much in production systems. The term refers to reading and changing the structure and content of a web page from JavaScript.
+
+Three issues come up again and again: inserting untrusted text as HTML; querying the DOM inside tight loops; and forgetting to remove event listeners. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: inserting untrusted text as HTML. A short test or a careful review comment usually catches it. The second problem is similar: querying the DOM inside tight loops. The third problem is this: forgetting to remove event listeners. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about DOM Manipulation helps the next developer. Practice selectors with small exercises until it feels natural.
+
+In short, careful study of DOM Manipulation pays off. Spend time on selectors and events, and the rest will follow.

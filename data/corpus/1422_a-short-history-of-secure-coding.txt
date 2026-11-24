@@ -1,0 +1,13 @@
+A Short History of Secure Coding
+
+Ideas behind Secure Coding developed gradually as engineers ran into practical limits and shared what they learned. The term Secure Coding refers to writing software in ways that avoid common vulnerabilities. This article explains the idea in plain language and points out where it fits in real projects.
+
+Attackers usually choose the easiest weakness, not the most interesting one.
+
+The vocabulary of Secure Coding is small. Learn input validation, least privilege, dependency updates, and secret management, and most documentation will start to make sense. A good way to remember input validation is to connect it with a concrete example from your own code.
+
+A solid grasp of Secure Coding also makes SQL Injection easier to understand.
+
+If you are comfortable with Secure Coding, explore SQL Injection next. The two often appear in the same project.
+
+With steady practice, Secure Coding will stop feeling abstract and become a tool you reach for naturally.

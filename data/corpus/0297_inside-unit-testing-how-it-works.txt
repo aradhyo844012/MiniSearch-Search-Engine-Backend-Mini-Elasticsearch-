@@ -1,0 +1,15 @@
+Inside Unit Testing: How It Works
+
+This article walks through what happens inside Unit Testing, step by step. Put simply, Unit Testing covers writing small automated tests that check one piece of code at a time. Learning it well pays off across many areas of computing.
+
+The vocabulary of Unit Testing is small. Learn test cases, assertions, fixtures, and mocking, and most documentation will start to make sense. A good way to remember test cases is to connect it with a concrete example from your own code.
+
+First, test cases sets the stage for everything else. Next, assertions builds on it. After that, fixtures comes into play, and finally mocking ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+Measure before you optimize. Use pytest or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+If you are comfortable with Unit Testing, explore Code Review next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Unit Testing.

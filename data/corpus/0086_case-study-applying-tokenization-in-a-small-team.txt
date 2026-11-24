@@ -1,0 +1,9 @@
+Case Study: Applying Tokenization in a Small Team
+
+Imagine a small student team building a project that depends on Tokenization. The term Tokenization refers to splitting text into smaller units such as words that a program can count and compare. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning lowercasing and splitting on punctuation. Early on they hit a familiar problem: different rules for indexing and querying. After fixing it, they used Python re module to check their work and adopted Tokenization for indexing documents. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: different rules for indexing and querying; dropping useful numbers; and breaking on apostrophes badly. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Tokenization.

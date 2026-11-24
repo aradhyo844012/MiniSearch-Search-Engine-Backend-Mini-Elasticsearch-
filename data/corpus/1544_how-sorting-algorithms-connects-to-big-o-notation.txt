@@ -1,0 +1,13 @@
+How Sorting Algorithms Connects to Big O Notation
+
+Sorting Algorithms and Big O Notation are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving ordering search results may also involve comparing algorithms. In such a project, comparison sorts and upper bounds often influence each other.
+
+Start with Sorting Algorithms: the term refers to methods for arranging items in a defined order. Then look at Big O Notation, which refers to a way of describing how running time or memory grows as the input size grows.
+
+A useful exercise is to take one example, such as preparing data for binary search, and explain how constant, linear and logarithmic growth would change the design.
+
+Common problems are shared too. For Sorting Algorithms, watch for this: sorting everything when a partial order is enough. For Big O Notation, watch for this: mixing up best and worst case. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python sorted or Python timeit.

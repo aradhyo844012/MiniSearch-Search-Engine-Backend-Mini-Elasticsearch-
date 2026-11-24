@@ -1,0 +1,19 @@
+Myths and Facts About TF-IDF
+
+A lot of folklore has built up around TF-IDF. Some of it is true, and some of it is not. Put simply, TF-IDF covers a scoring method that weights terms by how often they appear in a document and how rare they are overall. Learning it well pays off across many areas of computing.
+
+Myth: TF-IDF is only for experts.
+Fact: beginners can use it effectively once they understand term frequency and inverse document frequency.
+
+Myth: TF-IDF is only useful in very large systems.
+Fact: small projects such as ranking search results benefit as well.
+
+Myth: one tool does everything.
+Fact: scikit-learn TfidfVectorizer, Lucene, and Gensim make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with TF-IDF are always obvious.
+Fact: subtle problems happen, for example over-weighting common words.
+
+Search quality depends on how text is prepared before it is ever indexed. Fast search comes from precomputing structures so that queries do very little work.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

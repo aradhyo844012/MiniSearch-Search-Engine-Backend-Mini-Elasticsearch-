@@ -1,0 +1,16 @@
+Containers: Frequently Asked Questions
+
+Q: What is Containers?
+A: The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation.
+
+Q: How does it relate to File Systems?
+A: Containers and File Systems often appear in the same project, and both belong to the area of Operating Systems.
+
+Q: Which tools help?
+A: Popular choices include Docker, Podman, and containerd.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Containers.
+
+Q: Why do developers use Containers?
+A: Common uses include consistent development environments, deploying microservices, and running tests in CI.

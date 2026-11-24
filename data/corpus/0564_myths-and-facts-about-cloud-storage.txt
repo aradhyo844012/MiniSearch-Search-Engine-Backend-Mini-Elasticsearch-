@@ -1,0 +1,17 @@
+Myths and Facts About Cloud Storage
+
+A lot of folklore has built up around Cloud Storage. Some of it is true, and some of it is not. The term Cloud Storage refers to storing files and objects on remote servers that scale on demand. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Cloud Storage is only for experts.
+Fact: beginners can use it effectively once they understand buckets and objects.
+
+Myth: Cloud Storage is only useful in very large systems.
+Fact: small projects such as backups benefit as well.
+
+Myth: one tool does everything.
+Fact: Amazon S3, Google Cloud Storage, and Azure Blob Storage make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Cloud Storage are always obvious.
+Fact: subtle problems happen, for example public buckets by mistake.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cloud Storage.

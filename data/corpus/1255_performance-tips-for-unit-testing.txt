@@ -1,0 +1,15 @@
+Performance Tips for Unit Testing
+
+Fast software rarely happens by accident, and Unit Testing offers several places to gain speed. Many students first meet Unit Testing in a classroom, but it matters just as much in production systems. The term refers to writing small automated tests that check one piece of code at a time.
+
+Start by measuring. Use pytest or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to test cases and assertions, because they usually decide how well things scale. For workloads such as catching regressions, even small improvements add up quickly.
+
+To understand Unit Testing, start with test cases. Then move on to assertions, and finally look at fixtures and mocking. Sketching mocking on paper before coding helps many learners see how the pieces fit.
+
+Readable code saves more time than clever code over the long run. Software spends most of its life being changed, not written for the first time.
+
+Ask a teammate to explain fixtures back to you; teaching is a quick way to find gaps. Read the official documentation for unittest; it often explains assertions better than blog posts do.
+
+Watch out for these problems: testing implementation details; slow tests; and tests that depend on each other.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Unit Testing.

@@ -1,0 +1,15 @@
+Real-World Use Cases of TF-IDF
+
+The best way to appreciate TF-IDF is to see where it is actually used. Many students first meet TF-IDF in a classroom, but it matters just as much in production systems. The term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+A team working on ranking search results might adopt TF-IDF after hitting the limits of a simpler approach. Other teams turn to it for finding keywords or comparing documents.
+
+Consider ranking search results. In a case like this, TF-IDF gives the work a clear structure, and understanding term frequency makes the design easier to explain. A different example is finding keywords, where inverse document frequency often decides how well the solution scales.
+
+Start small by applying TF-IDF to one case, such as ranking search results, before rolling it out more widely. Read the official documentation for Lucene; it often explains inverse document frequency better than blog posts do.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Users judge a search engine by whether the right result appears near the top.
+
+In practice you can start with scikit-learn TfidfVectorizer, then explore Lucene or Gensim as your needs grow.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

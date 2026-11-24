@@ -1,0 +1,11 @@
+Relational Databases Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Relational Databases.
+
+- Definition: systems that store data in tables with rows, columns and defined relationships.
+- Core ideas: tables and rows; primary keys; foreign keys; schemas.
+- Use it for: storing orders and customers; reporting and analytics; content management.
+- Watch out for: skipping constraints; storing lists in a single column; missing indexes on filtered columns.
+- Tools: PostgreSQL, MySQL, SQLite.
+- Related topic: NoSQL Databases.
+- Quick tip: practice tables and rows until it feels automatic.

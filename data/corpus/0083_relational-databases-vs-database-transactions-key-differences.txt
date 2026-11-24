@@ -1,0 +1,15 @@
+Relational Databases vs Database Transactions: Key Differences
+
+Relational Databases and Database Transactions both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Relational Databases refers to systems that store data in tables with rows, columns and defined relationships. Its core ideas are tables and rows, primary keys, and foreign keys.
+
+The term Database Transactions refers to groups of operations that succeed or fail together. Its core ideas are atomicity, consistency, and isolation.
+
+The main difference is focus. Relational Databases puts the emphasis on tables and rows and primary keys, while Database Transactions puts the emphasis on atomicity and consistency.
+
+Reach for Relational Databases when your task involves storing orders and customers or reporting and analytics. Reach for Database Transactions when your task involves transferring money between accounts or placing orders.
+
+Both have risks. With Relational Databases, watch for this: skipping constraints. With Database Transactions, watch for this: holding transactions open too long.
+
+In practice you do not always have to choose. Many projects use Relational Databases alongside Database Transactions, with tools such as PostgreSQL and PostgreSQL. Data that must survive restarts and crashes belongs in a database rather than in memory.

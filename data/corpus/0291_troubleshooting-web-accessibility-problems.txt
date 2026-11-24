@@ -1,0 +1,11 @@
+Troubleshooting Web Accessibility Problems
+
+When something breaks around Web Accessibility, a calm and systematic approach saves the most time. Many students first meet Web Accessibility in a classroom, but it matters just as much in production systems. The term refers to designing websites so that people with different abilities can use them.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and axe DevTools usually reveal the cause faster than guessing.
+
+Common culprits: low contrast text; missing focus indicators; images without alternative text. If none of these explains the symptom, re-read the basics of semantic HTML and ARIA attributes.
+
+Popular tools and libraries include axe DevTools, WAVE, and screen readers.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Web Accessibility.

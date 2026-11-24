@@ -1,0 +1,11 @@
+WebSockets Cheat Sheet
+
+Use this page as a quick reminder of the essentials of WebSockets.
+
+- Definition: a protocol that keeps a two-way connection open between a browser and a server.
+- Core ideas: persistent connections; messages; heartbeats; reconnection.
+- Use it for: chat applications; live dashboards; collaborative editing.
+- Watch out for: forgetting reconnection logic; unbounded message queues; proxies closing idle connections.
+- Tools: Socket.IO, ws library, Python websockets.
+- Quick tip: write a tiny test for messages before building anything large.
+- Quick tip: practice persistent connections until it feels automatic.

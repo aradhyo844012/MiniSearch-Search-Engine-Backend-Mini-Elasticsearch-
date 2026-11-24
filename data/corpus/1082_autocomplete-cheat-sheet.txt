@@ -1,0 +1,11 @@
+Autocomplete Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Autocomplete.
+
+- Definition: suggesting likely completions while a person types a query.
+- Core ideas: prefixes; ranking suggestions; latency; query logs.
+- Use it for: search boxes; command palettes; address entry.
+- Watch out for: slow suggestions; offensive or irrelevant completions; ignoring typos in the prefix.
+- Tools: tries, Redis sorted sets, Elasticsearch suggesters.
+- Related topic: Zipf's Law.
+- Quick tip: practice prefixes until it feels automatic.

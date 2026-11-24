@@ -1,0 +1,13 @@
+The Trade-offs of Functional Programming
+
+Every design choice has a cost, and Functional Programming is no exception. Put simply, Functional Programming covers a style of programming that builds programs from functions and avoids shared mutable state. Learning it well pays off across many areas of computing.
+
+On the positive side, Functional Programming is well suited to data transformation and concurrent code. On the other hand, it is not free. Keep these risks in mind: overusing clever one-liners; hidden state; unreadable chains of functions. Whether the trade is worth it depends on how much pure functions and immutability matter to your project.
+
+Beginners often stumble on three things. First: overusing clever one-liners. Second: hidden state. Third: unreadable chains of functions.
+
+Ask a teammate to explain higher-order functions back to you; teaching is a quick way to find gaps. Start small by applying Functional Programming to one case, such as data transformation, before rolling it out more widely.
+
+Clear error messages and good names make programs far easier to debug.
+
+Keep experimenting, keep notes, and revisit Functional Programming whenever a new project gives you a reason.

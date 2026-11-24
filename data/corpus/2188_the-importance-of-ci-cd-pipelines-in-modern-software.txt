@@ -1,0 +1,13 @@
+The Importance of CI/CD Pipelines in Modern Software
+
+It is easy to underestimate CI/CD Pipelines until something goes wrong without it. Put simply, CI/CD Pipelines covers automated workflows that build, test and deliver code whenever it changes. Learning it well pays off across many areas of computing.
+
+Small, frequent releases are usually safer than rare, large ones. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+You will see CI/CD Pipelines whenever people work on running tests on every push or shipping releases safely. It also helps with enforcing code quality.
+
+Watch out for these problems: slow pipelines; flaky tests; and secrets in logs.
+
+A solid grasp of CI/CD Pipelines also makes Site Reliability easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CI/CD Pipelines.

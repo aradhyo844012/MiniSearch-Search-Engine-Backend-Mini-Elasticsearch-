@@ -1,0 +1,11 @@
+CI/CD Pipelines Cheat Sheet
+
+Use this page as a quick reminder of the essentials of CI/CD Pipelines.
+
+- Definition: automated workflows that build, test and deliver code whenever it changes.
+- Core ideas: build stage; test stage; artifacts; deployment stage.
+- Use it for: running tests on every push; shipping releases safely; enforcing code quality.
+- Watch out for: slow pipelines; flaky tests; secrets in logs.
+- Tools: GitHub Actions, Jenkins, GitLab CI.
+- Quick tip: write a tiny test for test stage before building anything large.
+- Related topic: Monitoring and Observability.

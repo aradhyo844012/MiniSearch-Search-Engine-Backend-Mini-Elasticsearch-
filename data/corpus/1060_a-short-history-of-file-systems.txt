@@ -1,0 +1,11 @@
+A Short History of File Systems
+
+Ideas behind File Systems developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet File Systems in a classroom, but it matters just as much in production systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Understanding what the kernel does explains many surprising performance problems. Logs and system monitors are the first place to look when a machine misbehaves.
+
+The vocabulary of File Systems is small. Learn files and directories, inodes, permissions, and journaling, and most documentation will start to make sense. Understanding inodes first often makes permissions much easier to reason about.
+
+If you are comfortable with File Systems, explore Virtual Memory next. The two often appear in the same project.
+
+In short, careful study of File Systems pays off. Spend time on files and directories and inodes, and the rest will follow.

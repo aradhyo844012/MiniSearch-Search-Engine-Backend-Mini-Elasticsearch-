@@ -1,0 +1,13 @@
+Performance Tips for Phishing Defense
+
+Fast software rarely happens by accident, and Phishing Defense offers several places to gain speed. When people talk about Phishing Defense, they usually mean recognizing and reducing attacks that trick people into revealing information. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use SPF or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to suspicious links and sender verification, because they usually decide how well things scale. For workloads such as protecting employees, even small improvements add up quickly.
+
+The vocabulary of Phishing Defense is small. Learn suspicious links, sender verification, email filtering, and user training, and most documentation will start to make sense. Understanding sender verification first often makes email filtering much easier to reason about.
+
+Keep an eye on this risk during code review: clicking before checking. Automate repetitive steps so that results are easy to reproduce.
+
+Beginners often stumble on three things. First: clicking before checking. Second: reusing passwords. Third: ignoring reports from users.
+
+Keep experimenting, keep notes, and revisit Phishing Defense whenever a new project gives you a reason.

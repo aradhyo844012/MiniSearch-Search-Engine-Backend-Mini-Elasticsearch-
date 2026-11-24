@@ -1,0 +1,11 @@
+Common Mistakes When Working with Bloom Filters
+
+Almost everyone makes a few avoidable errors when first working with Bloom Filters. The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. This article explains the idea in plain language and points out where it fits in real projects.
+
+Watch out for these problems: choosing too small a bit array; trying to delete items; and forgetting that false positives exist.
+
+Consider the first problem: choosing too small a bit array. A short test or a careful review comment usually catches it. The second problem is similar: trying to delete items. The third problem is this: forgetting that false positives exist. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Bloom Filters should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Python bitarray or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Bloom Filters helps the next developer.
+
+In short, careful study of Bloom Filters pays off. Spend time on bit arrays and multiple hash functions, and the rest will follow.

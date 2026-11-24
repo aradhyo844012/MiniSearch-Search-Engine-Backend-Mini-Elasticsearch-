@@ -1,0 +1,15 @@
+Best Practices for Virtual Memory
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Virtual Memory. The term refers to a technique that gives each program its own address space backed by RAM and disk.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Practice pages with small exercises until it feels natural.
+3. Read the official documentation for free; it often explains page tables better than blog posts do.
+4. Start small by applying Virtual Memory to one case, such as isolating programs, before rolling it out more widely.
+5. Keep an eye on this risk during code review: thrashing when memory is short.
+
+Popular tools and libraries include vmstat, free, and /proc/meminfo.
+
+A solid grasp of Virtual Memory also makes File Systems easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Virtual Memory.

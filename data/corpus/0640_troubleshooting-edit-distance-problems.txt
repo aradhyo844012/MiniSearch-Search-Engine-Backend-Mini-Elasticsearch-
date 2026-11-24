@@ -1,0 +1,11 @@
+Troubleshooting Edit Distance Problems
+
+When something breaks around Edit Distance, a calm and systematic approach saves the most time. Many students first meet Edit Distance in a classroom, but it matters just as much in production systems. The term refers to a measure of how many single-character changes turn one word into another.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Levenshtein libraries usually reveal the cause faster than guessing.
+
+Common culprits: comparing against every word in a large vocabulary; ignoring word length; forgetting transpositions. If none of these explains the symptom, re-read the basics of insertions and deletions.
+
+In practice you can start with Levenshtein libraries, then explore deletion-neighbour indexes or difflib as your needs grow.
+
+In short, careful study of Edit Distance pays off. Spend time on insertions and deletions, and the rest will follow.

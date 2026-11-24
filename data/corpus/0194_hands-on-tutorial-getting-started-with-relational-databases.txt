@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Relational Databases
+
+This hands-on tutorial takes you from zero to a small working experiment with Relational Databases. Put simply, Relational Databases covers systems that store data in tables with rows, columns and defined relationships. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open PostgreSQL and create a new empty project folder.
+Step 2: Read about tables and rows and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses primary keys.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as storing orders and customers.
+Step 6: Break your example on purpose and see what happens. A good experiment: skipping constraints.
+
+In practice you can start with PostgreSQL, then explore MySQL or SQLite as your needs grow.
+
+Watch out for these problems: skipping constraints; storing lists in a single column; and missing indexes on filtered columns.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Relational Databases.

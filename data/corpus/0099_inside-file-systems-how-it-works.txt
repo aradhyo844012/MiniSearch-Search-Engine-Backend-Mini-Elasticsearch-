@@ -1,0 +1,15 @@
+Inside File Systems: How It Works
+
+This article walks through what happens inside File Systems, step by step. Many students first meet File Systems in a classroom, but it matters just as much in production systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+The vocabulary of File Systems is small. Learn files and directories, inodes, permissions, and journaling, and most documentation will start to make sense. Understanding inodes first often makes permissions much easier to reason about.
+
+Keep notes on what worked. A short README explaining your decisions about File Systems helps the next developer. Read the official documentation for NTFS; it often explains inodes better than blog posts do.
+
+First, files and directories sets the stage for everything else. Next, inodes builds on it. After that, permissions comes into play, and finally journaling ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+File Systems and Process Scheduling are closely related, so learning both gives a fuller picture of Operating Systems.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with File Systems.

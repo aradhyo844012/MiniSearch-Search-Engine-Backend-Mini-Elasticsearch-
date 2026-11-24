@@ -1,0 +1,12 @@
+A Practical Checklist for Database Normalization
+
+Use this checklist before you rely on Database Normalization in a project.
+
+1. Document your decisions in the project README.
+2. Review the core ideas: first normal form, second normal form, third normal form, and functional dependencies.
+3. Ask a teammate to review the work, focusing on second normal form.
+4. Write at least one automated test that covers first normal form.
+5. Guard against this risk: ignoring query patterns.
+6. Pick a tool to start with, such as ER diagrams or dbdiagram.io.
+7. Review how Database Normalization interacts with Relational Databases.
+8. Measure results before and after any change.

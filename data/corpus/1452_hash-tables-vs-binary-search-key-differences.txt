@@ -1,0 +1,15 @@
+Hash Tables vs Binary Search: Key Differences
+
+Hash Tables and Binary Search both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Hash Tables refers to a way of storing key-value pairs so that lookups take roughly constant time. Its core ideas are hash function, buckets, and collision handling.
+
+The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. Its core ideas are sorted input, low and high bounds, and midpoint calculation.
+
+The main difference is focus. Hash Tables puts the emphasis on hash function and buckets, while Binary Search puts the emphasis on sorted input and low and high bounds.
+
+Reach for Hash Tables when your task involves implementing dictionaries and sets or caching computed results. Reach for Binary Search when your task involves looking up values in sorted arrays or finding insertion points.
+
+Both have risks. With Hash Tables, watch for this: poor hash functions cause clustering. With Binary Search, watch for this: off-by-one errors.
+
+In practice you do not always have to choose. Many projects use Hash Tables alongside Binary Search, with tools such as Python dict and Python bisect. Most performance problems in everyday programs come from doing unnecessary work on large inputs.

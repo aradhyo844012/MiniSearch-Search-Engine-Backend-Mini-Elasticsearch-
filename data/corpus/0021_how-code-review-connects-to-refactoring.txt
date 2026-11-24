@@ -1,0 +1,13 @@
+How Code Review Connects to Refactoring
+
+Code Review and Refactoring are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving catching bugs early may also involve reducing duplication. In such a project, pull requests and small steps often influence each other.
+
+Start with Code Review: the term refers to having teammates examine changes before they are merged. Then look at Refactoring, which refers to improving the structure of existing code without changing its behavior.
+
+A useful exercise is to take one example, such as sharing knowledge, and explain how tests as a safety net would change the design.
+
+Common problems are shared too. For Code Review, watch for this: vague comments. For Refactoring, watch for this: mixing refactoring with new features. Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+Spend a few hours on each topic, then combine them in one small project using GitHub pull requests or IDE refactoring tools.

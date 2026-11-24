@@ -1,0 +1,13 @@
+Performance Tips for Decision Trees
+
+Fast software rarely happens by accident, and Decision Trees offers several places to gain speed. Many students first meet Decision Trees in a classroom, but it matters just as much in production systems. The term refers to models that make predictions by asking a sequence of simple questions about the data.
+
+Start by measuring. Use scikit-learn or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to splits and entropy and Gini impurity, because they usually decide how well things scale. For workloads such as classifying customers, even small improvements add up quickly.
+
+The vocabulary of Decision Trees is small. Learn splits, entropy and Gini impurity, leaf nodes, and pruning, and most documentation will start to make sense. A good way to remember splits is to connect it with a concrete example from your own code.
+
+Practice splits with small exercises until it feels natural. Write a few tests that show how Decision Trees should behave. Tests double as documentation for your teammates.
+
+Watch out for these problems: deep trees that overfit; ignoring class imbalance; and unstable results from small data changes.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Decision Trees.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Phishing Defense
+
+This hands-on tutorial takes you from zero to a small working experiment with Phishing Defense. Put simply, Phishing Defense covers recognizing and reducing attacks that trick people into revealing information. Learning it well pays off across many areas of computing.
+
+Phishing Defense and Secure Coding are closely related, so learning both gives a fuller picture of Security.
+
+Step 1: Install or open SPF and create a new empty project folder.
+Step 2: Read about suspicious links and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses sender verification.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as protecting employees.
+Step 6: Break your example on purpose and see what happens. A good experiment: clicking before checking.
+
+Popular tools and libraries include SPF, DKIM, and DMARC.
+
+Watch out for these problems: clicking before checking; reusing passwords; and ignoring reports from users.
+
+In short, careful study of Phishing Defense pays off. Spend time on suspicious links and sender verification, and the rest will follow.

@@ -1,0 +1,11 @@
+Troubleshooting Linux Command Line Problems
+
+When something breaks around Linux Command Line, a calm and systematic approach saves the most time. When people talk about Linux Command Line, they usually mean a text-based way of controlling a computer using commands and scripts. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and bash usually reveal the cause faster than guessing.
+
+Common culprits: running destructive commands carelessly; forgetting quotes around paths; ignoring exit codes. If none of these explains the symptom, re-read the basics of shell and pipes.
+
+In practice you can start with bash, then explore grep or ssh as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linux Command Line.

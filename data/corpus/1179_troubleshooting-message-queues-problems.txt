@@ -1,0 +1,13 @@
+Troubleshooting Message Queues Problems
+
+When something breaks around Message Queues, a calm and systematic approach saves the most time. Many students first meet Message Queues in a classroom, but it matters just as much in production systems. The term refers to systems that let services send work to each other asynchronously through a buffer.
+
+Clear contracts between services make systems easier to change and test.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and RabbitMQ usually reveal the cause faster than guessing.
+
+Common culprits: losing messages without acknowledgements; poison messages that retry forever; duplicate processing. If none of these explains the symptom, re-read the basics of producers and consumers.
+
+In practice you can start with RabbitMQ, then explore Apache Kafka or Amazon SQS as your needs grow.
+
+With steady practice, Message Queues will stop feeling abstract and become a tool you reach for naturally.

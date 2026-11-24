@@ -1,0 +1,24 @@
+Natural Language Processing Interview Questions and Answers
+
+Prepare for these questions about Natural Language Processing.
+
+Q: Explain Natural Language Processing in simple words.
+A: Natural Language Processing refers to the field of teaching computers to work with human language. I would add an example involving search engines.
+
+Q: How does it connect to Linear Regression?
+A: Both belong to the area of Machine Learning, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: ignoring language variety.
+
+Q: Where would you apply it first?
+A: I would start with chatbots, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: tokenization, embeddings, language models, and evaluation metrics.
+
+Q: Which tools have you used?
+A: spaCy, NLTK, and Hugging Face.
+
+Q: What problems have you seen in practice?
+A: ignoring language variety; messy text preprocessing; and trusting metrics on tiny samples.

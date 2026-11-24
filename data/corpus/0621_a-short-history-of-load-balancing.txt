@@ -1,0 +1,11 @@
+A Short History of Load Balancing
+
+Ideas behind Load Balancing developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Load Balancing in a classroom, but it matters just as much in production systems. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+Every web request crosses several layers of protocols before it reaches an application. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+Four ideas sit at the heart of Load Balancing: round robin, health checks, sticky sessions, and layer 4 and layer 7. Each one builds on the one before it. A good way to remember round robin is to connect it with a concrete example from your own code.
+
+Load Balancing and WebSockets are closely related, so learning both gives a fuller picture of Networking.
+
+With steady practice, Load Balancing will stop feeling abstract and become a tool you reach for naturally.

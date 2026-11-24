@@ -1,0 +1,15 @@
+Inside Inverted Index: How It Works
+
+This article walks through what happens inside Inverted Index, step by step. When people talk about Inverted Index, they usually mean a data structure that maps each term to the documents that contain it. It appears in almost every serious software project, whether or not developers notice it.
+
+The vocabulary of Inverted Index is small. Learn vocabulary, postings lists, term frequency, and document frequency, and most documentation will start to make sense. Understanding postings lists first often makes term frequency much easier to reason about.
+
+First, vocabulary sets the stage for everything else. Next, postings lists builds on it. After that, term frequency comes into play, and finally document frequency ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+If you are comfortable with Inverted Index, explore Zipf's Law next. The two often appear in the same project.
+
+Write a few tests that show how Inverted Index should behave. Tests double as documentation for your teammates. Ask a teammate to explain term frequency back to you; teaching is a quick way to find gaps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Inverted Index.

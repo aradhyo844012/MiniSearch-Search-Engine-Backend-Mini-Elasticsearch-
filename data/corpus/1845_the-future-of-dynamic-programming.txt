@@ -1,0 +1,11 @@
+The Future of Dynamic Programming
+
+Predicting the future is risky, but the direction of Dynamic Programming is easy to describe in general terms. Many students first meet Dynamic Programming in a classroom, but it matters just as much in production systems. The term refers to a technique for solving problems by storing the answers to overlapping subproblems.
+
+Choosing the right data structure often matters more than clever tuning later. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Expect tools such as Python functools.lru_cache and NumPy to keep improving, and expect newer ideas to keep building on overlapping subproblems. The basics, though, tend to stay the same, so time spent on optimal substructure and memoization is rarely wasted. Anyone working on computing edit distance will keep meeting Dynamic Programming for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Start small by applying Dynamic Programming to one case, such as computing edit distance, before rolling it out more widely.
+
+With steady practice, Dynamic Programming will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,21 @@
+Autocomplete Interview Questions and Answers
+
+Prepare for these questions about Autocomplete.
+
+Q: Explain Autocomplete in simple words.
+A: Autocomplete refers to suggesting likely completions while a person types a query. I would add an example involving search boxes.
+
+Q: How does it connect to Edit Distance?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: slow suggestions; offensive or irrelevant completions; and ignoring typos in the prefix.
+
+Q: Which tools have you used?
+A: tries, Redis sorted sets, and Elasticsearch suggesters.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: slow suggestions.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as prefixes, and add tests aimed at the known risks.

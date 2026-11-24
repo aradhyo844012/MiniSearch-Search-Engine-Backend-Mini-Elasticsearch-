@@ -1,0 +1,9 @@
+Case Study: Applying Binary Search Trees in a Small Team
+
+Imagine a small student team building a project that depends on Binary Search Trees. Many students first meet Binary Search Trees in a classroom, but it matters just as much in production systems. The term refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys.
+
+The team first spent a week learning nodes and links and in-order traversal. Early on they hit a familiar problem: unbalanced trees degrade to linked lists. After fixing it, they used AVL trees to check their work and adopted Binary Search Trees for ordered lookups. Looking back, they said the biggest lesson was to write tests earlier.
+
+Beginners often stumble on three things. First: unbalanced trees degrade to linked lists. Second: forgetting to handle duplicate keys. Third: recursive code can overflow the stack on deep trees.
+
+Keep experimenting, keep notes, and revisit Binary Search Trees whenever a new project gives you a reason.

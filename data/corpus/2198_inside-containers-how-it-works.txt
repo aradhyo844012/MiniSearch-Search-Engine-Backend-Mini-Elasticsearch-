@@ -1,0 +1,13 @@
+Inside Containers: How It Works
+
+This article walks through what happens inside Containers, step by step. Put simply, Containers covers lightweight packages that bundle an application with its dependencies and run in isolation. Learning it well pays off across many areas of computing.
+
+To understand Containers, start with images. Then move on to layers, and finally look at namespaces and registries. Understanding layers first often makes namespaces much easier to reason about.
+
+First, images sets the stage for everything else. Next, layers builds on it. After that, namespaces comes into play, and finally registries ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+A solid grasp of Containers also makes Process Scheduling easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Containers.

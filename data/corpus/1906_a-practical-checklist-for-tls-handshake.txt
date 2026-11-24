@@ -1,0 +1,12 @@
+A Practical Checklist for TLS Handshake
+
+Use this checklist before you rely on TLS Handshake in a project.
+
+1. Review how TLS Handshake interacts with DNS.
+2. Review the core ideas: certificates, cipher suites, session keys, and certificate authorities.
+3. Measure results before and after any change.
+4. Guard against this risk: disabling certificate validation.
+5. Guard against this risk: expired certificates.
+6. Write at least one automated test that covers certificates.
+7. Guard against this risk: using outdated protocol versions.
+8. Try the approach on a small case, for example securing websites.

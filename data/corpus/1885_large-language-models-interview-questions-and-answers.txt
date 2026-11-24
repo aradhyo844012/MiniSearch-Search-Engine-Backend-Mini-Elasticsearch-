@@ -1,0 +1,18 @@
+Large Language Models Interview Questions and Answers
+
+Prepare for these questions about Large Language Models.
+
+Q: Explain Large Language Models in simple words.
+A: Large Language Models refers to very large neural networks trained on text that can generate and analyze language. I would add an example involving drafting text.
+
+Q: Where would you apply it first?
+A: I would start with answering questions, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: tokens, attention, pretraining, and prompts.
+
+Q: Which tools have you used?
+A: Hugging Face, API playgrounds, and evaluation harnesses.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: trusting outputs without checking.

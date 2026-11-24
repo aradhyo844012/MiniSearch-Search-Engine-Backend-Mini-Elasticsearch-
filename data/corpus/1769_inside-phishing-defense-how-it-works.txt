@@ -1,0 +1,13 @@
+Inside Phishing Defense: How It Works
+
+This article walks through what happens inside Phishing Defense, step by step. Many students first meet Phishing Defense in a classroom, but it matters just as much in production systems. The term refers to recognizing and reducing attacks that trick people into revealing information.
+
+To understand Phishing Defense, start with suspicious links. Then move on to sender verification, and finally look at email filtering and user training. Sketching user training on paper before coding helps many learners see how the pieces fit.
+
+First, suspicious links sets the stage for everything else. Next, sender verification builds on it. After that, email filtering comes into play, and finally user training ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Keeping dependencies updated removes a large share of known risks. Never trust input that comes from outside your own code.
+
+Phishing Defense and OAuth 2.0 are closely related, so learning both gives a fuller picture of Security.
+
+Keep experimenting, keep notes, and revisit Phishing Defense whenever a new project gives you a reason.

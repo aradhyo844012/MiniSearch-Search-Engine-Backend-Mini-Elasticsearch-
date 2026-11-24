@@ -1,0 +1,15 @@
+Inside Virtual Memory: How It Works
+
+This article walks through what happens inside Virtual Memory, step by step. If you build software for long enough, you will run into Virtual Memory. The term refers to a technique that gives each program its own address space backed by RAM and disk.
+
+To understand Virtual Memory, start with pages. Then move on to page tables, and finally look at page faults and swapping. Sketching swapping on paper before coding helps many learners see how the pieces fit.
+
+First, pages sets the stage for everything else. Next, page tables builds on it. After that, page faults comes into play, and finally swapping ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+The operating system shares limited hardware between many competing programs. Understanding what the kernel does explains many surprising performance problems.
+
+A solid grasp of Virtual Memory also makes Deadlocks easier to understand.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+With steady practice, Virtual Memory will stop feeling abstract and become a tool you reach for naturally.

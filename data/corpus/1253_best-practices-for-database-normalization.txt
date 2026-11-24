@@ -1,0 +1,17 @@
+Best Practices for Database Normalization
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Database Normalization covers the practice of organizing tables to reduce duplicated data and update anomalies. Learning it well pays off across many areas of computing.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Ask a teammate to explain third normal form back to you; teaching is a quick way to find gaps.
+3. Keep an eye on this risk during code review: over-normalizing reporting tables.
+4. Read the official documentation for dbdiagram.io; it often explains second normal form better than blog posts do.
+5. Keep notes on what worked. A short README explaining your decisions about Database Normalization helps the next developer.
+
+In practice you can start with ER diagrams, then explore dbdiagram.io or MySQL Workbench as your needs grow.
+
+Read the official documentation for dbdiagram.io; it often explains second normal form better than blog posts do. Keep an eye on this risk during code review: over-normalizing reporting tables.
+
+Database Normalization and Database Indexing are closely related, so learning both gives a fuller picture of Databases.
+
+In short, careful study of Database Normalization pays off. Spend time on first normal form and second normal form, and the rest will follow.

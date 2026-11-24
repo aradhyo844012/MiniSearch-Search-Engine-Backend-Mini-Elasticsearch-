@@ -1,0 +1,11 @@
+The Trade-offs of Hash Tables
+
+Every design choice has a cost, and Hash Tables is no exception. If you build software for long enough, you will run into Hash Tables. The term refers to a way of storing key-value pairs so that lookups take roughly constant time.
+
+On the positive side, Hash Tables is well suited to implementing dictionaries and sets and caching computed results. On the other hand, it is not free. Keep these risks in mind: poor hash functions cause clustering; resizing is expensive at scale; iteration order is not always stable. Whether the trade is worth it depends on how much hash function and buckets matter to your project.
+
+Watch out for these problems: poor hash functions cause clustering; resizing is expensive at scale; and iteration order is not always stable.
+
+Ask a teammate to explain collision handling back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of Hash Tables pays off. Spend time on hash function and buckets, and the rest will follow.

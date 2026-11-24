@@ -1,0 +1,15 @@
+Best Practices for Database Sharding
+
+The practices below come from patterns that tend to work well across many teams and projects. The term Database Sharding refers to splitting a large dataset across several databases so each holds only part of it. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Write a few tests that show how Database Sharding should behave. Tests double as documentation for your teammates.
+2. Start small by applying Database Sharding to one case, such as scaling beyond one server, before rolling it out more widely.
+3. Keep notes on what worked. A short README explaining your decisions about Database Sharding helps the next developer.
+4. Read the official documentation for MongoDB sharding; it often explains routing better than blog posts do.
+5. Keep an eye on this risk during code review: choosing a poor shard key.
+
+Popular tools and libraries include Vitess, MongoDB sharding, and Citus.
+
+Database Sharding and Database Replication are closely related, so learning both gives a fuller picture of Databases.
+
+In short, careful study of Database Sharding pays off. Spend time on shard keys and routing, and the rest will follow.

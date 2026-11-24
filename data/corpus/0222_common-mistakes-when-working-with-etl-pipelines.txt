@@ -1,0 +1,13 @@
+Common Mistakes When Working with ETL Pipelines
+
+Almost everyone makes a few avoidable errors when first working with ETL Pipelines. The term ETL Pipelines refers to processes that extract data from sources, transform it and load it into a destination. This article explains the idea in plain language and points out where it fits in real projects.
+
+Watch out for these problems: silent data loss; no retry logic; and poor error reporting.
+
+Consider the first problem: silent data loss. A short test or a careful review comment usually catches it. The second problem is similar: no retry logic. The third problem is this: poor error reporting. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice extraction with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about ETL Pipelines helps the next developer.
+
+A solid grasp of ETL Pipelines also makes Pandas DataFrames easier to understand.
+
+Keep experimenting, keep notes, and revisit ETL Pipelines whenever a new project gives you a reason.

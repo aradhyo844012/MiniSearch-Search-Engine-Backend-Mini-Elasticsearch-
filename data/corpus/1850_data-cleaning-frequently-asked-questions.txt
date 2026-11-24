@@ -1,0 +1,16 @@
+Data Cleaning: Frequently Asked Questions
+
+Q: What is Data Cleaning?
+A: The term Data Cleaning refers to finding and fixing errors, gaps and inconsistencies in raw data.
+
+Q: Which tools help?
+A: Popular choices include pandas, OpenRefine, and regular expressions.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Data Cleaning.
+
+Q: What should a beginner learn first?
+A: Start with missing values and duplicates, then move on to inconsistent formats and outliers.
+
+Q: What mistakes are most common?
+A: Watch for these: dropping data without checking why it is missing; cleaning by hand without a record; and changing the original files.

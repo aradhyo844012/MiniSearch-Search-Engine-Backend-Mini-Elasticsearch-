@@ -1,0 +1,15 @@
+Caching Strategies vs Microservices: Key Differences
+
+Caching Strategies and Microservices both belong to the area of Backend and APIs, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Caching Strategies refers to approaches for storing computed results so they can be reused instead of recalculated. Its core ideas are cache-aside, write-through, and time to live.
+
+The term Microservices refers to an architecture that splits an application into small services that can be deployed independently. Its core ideas are service boundaries, APIs, and independent deployment.
+
+The main difference is focus. Caching Strategies puts the emphasis on cache-aside and write-through, while Microservices puts the emphasis on service boundaries and APIs.
+
+Reach for Caching Strategies when your task involves speeding up read-heavy APIs or reducing database load. Reach for Microservices when your task involves large teams working in parallel or scaling parts separately.
+
+Both have risks. With Caching Strategies, watch for this: stale data. With Microservices, watch for this: splitting too early.
+
+In practice you do not always have to choose. Many projects use Caching Strategies alongside Microservices, with tools such as Redis and Docker. Failures between services are normal, so retries and timeouts need careful design.

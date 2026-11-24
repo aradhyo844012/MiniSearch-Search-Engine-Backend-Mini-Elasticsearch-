@@ -1,0 +1,11 @@
+Threads and Concurrency Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Threads and Concurrency.
+
+- Definition: ways of making progress on several tasks at once within a program.
+- Core ideas: threads; locks; race conditions; thread pools.
+- Use it for: handling many requests; keeping interfaces responsive; parallel computation.
+- Watch out for: forgetting to protect shared data; creating too many threads; mixing up concurrency and parallelism.
+- Tools: Python threading, Java ExecutorService, asyncio.
+- Related topic: Containers.
+- Quick tip: write a tiny test for locks before building anything large.

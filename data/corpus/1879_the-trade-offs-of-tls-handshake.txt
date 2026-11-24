@@ -1,0 +1,11 @@
+The Trade-offs of TLS Handshake
+
+Every design choice has a cost, and TLS Handshake is no exception. The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, TLS Handshake is well suited to securing websites and protecting API traffic. On the other hand, it is not free. Keep these risks in mind: expired certificates; disabling certificate validation; using outdated protocol versions. Whether the trade is worth it depends on how much certificates and cipher suites matter to your project.
+
+Beginners often stumble on three things. First: expired certificates. Second: disabling certificate validation. Third: using outdated protocol versions.
+
+Practice certificates with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Let's Encrypt; it often explains cipher suites better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TLS Handshake.

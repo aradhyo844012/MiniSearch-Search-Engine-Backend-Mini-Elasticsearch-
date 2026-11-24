@@ -1,0 +1,11 @@
+The Trade-offs of Virtual Memory
+
+Every design choice has a cost, and Virtual Memory is no exception. The term Virtual Memory refers to a technique that gives each program its own address space backed by RAM and disk. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Virtual Memory is well suited to isolating programs and running programs larger than RAM. On the other hand, it is not free. Keep these risks in mind: thrashing when memory is short; ignoring page fault costs; assuming memory is always available. Whether the trade is worth it depends on how much pages and page tables matter to your project.
+
+Watch out for these problems: thrashing when memory is short; ignoring page fault costs; and assuming memory is always available.
+
+Keep notes on what worked. A short README explaining your decisions about Virtual Memory helps the next developer. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of Virtual Memory pays off. Spend time on pages and page tables, and the rest will follow.

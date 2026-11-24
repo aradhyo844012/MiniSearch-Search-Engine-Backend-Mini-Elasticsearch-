@@ -1,0 +1,13 @@
+Inside JSON: How It Works
+
+This article walks through what happens inside JSON, step by step. The term JSON refers to a lightweight text format for exchanging structured data between programs. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand JSON, start with objects. Then move on to arrays, and finally look at strings and numbers and serialization. Understanding arrays first often makes strings and numbers much easier to reason about.
+
+First, objects sets the stage for everything else. Next, arrays builds on it. After that, strings and numbers comes into play, and finally serialization ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+A backend turns requests from many clients into reliable, consistent responses. Clear contracts between services make systems easier to change and test.
+
+A solid grasp of JSON also makes JWT easier to understand.
+
+Keep experimenting, keep notes, and revisit JSON whenever a new project gives you a reason.

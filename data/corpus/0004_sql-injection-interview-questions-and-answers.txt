@@ -1,0 +1,24 @@
+SQL Injection Interview Questions and Answers
+
+Prepare for these questions about SQL Injection.
+
+Q: Explain SQL Injection in simple words.
+A: SQL Injection refers to an attack where malicious input changes the meaning of a database query. I would add an example involving securing login forms.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: building queries with string concatenation.
+
+Q: How does it connect to Two-Factor Authentication?
+A: Both belong to the area of Security, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with reviewing search features, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: building queries with string concatenation; using admin accounts for the app; and revealing detailed database errors.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as parameterized queries, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: parameterized queries, input validation, least privilege, and escaping.

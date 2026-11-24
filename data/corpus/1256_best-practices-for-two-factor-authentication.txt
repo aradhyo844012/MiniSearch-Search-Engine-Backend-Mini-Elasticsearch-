@@ -1,0 +1,15 @@
+Best Practices for Two-Factor Authentication
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Two-Factor Authentication in a classroom, but it matters just as much in production systems. The term refers to requiring a second proof of identity in addition to a password.
+
+1. Practice one-time codes with small exercises until it feels natural.
+2. Keep an eye on this risk during code review: relying only on SMS.
+3. Read the official documentation for YubiKey; it often explains authenticator apps better than blog posts do.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Write a few tests that show how Two-Factor Authentication should behave. Tests double as documentation for your teammates.
+
+Popular tools and libraries include Google Authenticator, YubiKey, and TOTP libraries.
+
+A solid grasp of Two-Factor Authentication also makes SQL Injection easier to understand.
+
+Keep experimenting, keep notes, and revisit Two-Factor Authentication whenever a new project gives you a reason.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Stop Words
+
+This hands-on tutorial takes you from zero to a small working experiment with Stop Words. When people talk about Stop Words, they usually mean very common words such as the and of that are often ignored by search systems. It appears in almost every serious software project, whether or not developers notice it.
+
+Ask a teammate to explain query relevance back to you; teaching is a quick way to find gaps. Measure before you optimize. Use NLTK stopwords or a simple timer to see where time is actually spent. Write a few tests that show how Stop Words should behave. Tests double as documentation for your teammates.
+
+Step 1: Install or open NLTK stopwords and create a new empty project folder.
+Step 2: Read about frequency lists and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses index size.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as shrinking indexes.
+Step 6: Break your example on purpose and see what happens. A good experiment: removing words that matter in phrases.
+
+Popular tools and libraries include NLTK stopwords, scikit-learn, and custom word lists.
+
+Watch out for these problems: removing words that matter in phrases; using the wrong language list; and inconsistent handling at index and query time.
+
+With steady practice, Stop Words will stop feeling abstract and become a tool you reach for naturally.

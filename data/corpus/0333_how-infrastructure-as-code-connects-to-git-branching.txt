@@ -1,0 +1,13 @@
+How Infrastructure as Code Connects to Git Branching
+
+Infrastructure as Code and Git Branching are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving recreating environments may also involve feature development. In such a project, declarative configuration and branches often influence each other.
+
+Start with Infrastructure as Code: the term refers to managing servers and cloud resources through version-controlled configuration files. Then look at Git Branching, which refers to using separate lines of development so that changes can be built and reviewed independently.
+
+A useful exercise is to take one example, such as reviewing infrastructure changes, and explain how merging would change the design.
+
+Common problems are shared too. For Infrastructure as Code, watch for this: hard-coded secrets. For Git Branching, watch for this: merge conflicts left unresolved. A system that cannot be observed cannot be reliably operated.
+
+Spend a few hours on each topic, then combine them in one small project using Terraform or Git.

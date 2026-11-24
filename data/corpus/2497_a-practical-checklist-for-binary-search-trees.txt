@@ -1,0 +1,12 @@
+A Practical Checklist for Binary Search Trees
+
+Use this checklist before you rely on Binary Search Trees in a project.
+
+1. Confirm that your team agrees on what Binary Search Trees should accomplish.
+2. Measure results before and after any change.
+3. Review how Binary Search Trees interacts with Big O Notation.
+4. Write at least one automated test that covers nodes and links.
+5. Pick a tool to start with, such as AVL trees or red-black trees.
+6. Guard against this risk: unbalanced trees degrade to linked lists.
+7. Guard against this risk: recursive code can overflow the stack on deep trees.
+8. Guard against this risk: forgetting to handle duplicate keys.

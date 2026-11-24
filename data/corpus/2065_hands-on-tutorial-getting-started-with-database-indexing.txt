@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Database Indexing
+
+This hands-on tutorial takes you from zero to a small working experiment with Database Indexing. Many students first meet Database Indexing in a classroom, but it matters just as much in production systems. The term refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+Step 1: Install or open EXPLAIN plans and create a new empty project folder.
+Step 2: Read about B-tree indexes and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses selectivity.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as speeding up lookups.
+Step 6: Break your example on purpose and see what happens. A good experiment: indexing every column.
+
+Popular tools and libraries include EXPLAIN plans, pgAdmin, and MySQL slow query log.
+
+Beginners often stumble on three things. First: indexing every column. Second: ignoring write overhead. Third: wrong column order in composite indexes.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Indexing.

@@ -1,0 +1,12 @@
+How to Learn SQL Injection in 30 Days
+
+You do not need months to become comfortable with SQL Injection. A focused plan of thirty days is enough to build a solid base. The term SQL Injection refers to an attack where malicious input changes the meaning of a database query. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn parameterized queries and input validation, and write a one-page summary.
+Week 2: practice with prepared statements on a small task such as securing login forms.
+Week 3: build a mini project around reviewing search features.
+Week 4: review common mistakes such as building queries with string concatenation, and explain SQL Injection to a friend.
+
+Popular tools and libraries include prepared statements, OWASP cheat sheets, and sqlmap in test environments.
+
+In short, careful study of SQL Injection pays off. Spend time on parameterized queries and input validation, and the rest will follow.

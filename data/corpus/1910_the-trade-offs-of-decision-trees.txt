@@ -1,0 +1,13 @@
+The Trade-offs of Decision Trees
+
+Every design choice has a cost, and Decision Trees is no exception. The term Decision Trees refers to models that make predictions by asking a sequence of simple questions about the data. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Decision Trees is well suited to classifying customers and explaining predictions. On the other hand, it is not free. Keep these risks in mind: deep trees that overfit; ignoring class imbalance; unstable results from small data changes. Whether the trade is worth it depends on how much splits and entropy and Gini impurity matter to your project.
+
+Beginners often stumble on three things. First: deep trees that overfit. Second: ignoring class imbalance. Third: unstable results from small data changes.
+
+Ask a teammate to explain leaf nodes back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: deep trees that overfit.
+
+Reproducible experiments make it far easier to trust and improve a model.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Decision Trees.

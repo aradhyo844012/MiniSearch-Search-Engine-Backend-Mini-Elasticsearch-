@@ -1,0 +1,17 @@
+Best Practices for Pandas DataFrames
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Pandas DataFrames. The term refers to table-like structures in Python for loading, cleaning and analyzing data.
+
+A chart is only useful if the reader can see the point within a few seconds.
+
+1. Keep an eye on this risk during code review: chained assignment surprises.
+2. Practice rows and columns with small exercises until it feels natural.
+3. Write a few tests that show how Pandas DataFrames should behave. Tests double as documentation for your teammates.
+4. Read the official documentation for Jupyter; it often explains indexing better than blog posts do.
+5. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent.
+
+Popular tools and libraries include pandas, Jupyter, and NumPy.
+
+If you are comfortable with Pandas DataFrames, explore Stream Processing next. The two often appear in the same project.
+
+With steady practice, Pandas DataFrames will stop feeling abstract and become a tool you reach for naturally.

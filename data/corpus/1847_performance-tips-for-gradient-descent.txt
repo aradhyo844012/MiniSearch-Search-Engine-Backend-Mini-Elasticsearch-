@@ -1,0 +1,15 @@
+Performance Tips for Gradient Descent
+
+Fast software rarely happens by accident, and Gradient Descent offers several places to gain speed. The term Gradient Descent refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use PyTorch or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to learning rate and gradients, because they usually decide how well things scale. For workloads such as training neural networks, even small improvements add up quickly.
+
+Four ideas sit at the heart of Gradient Descent: learning rate, gradients, loss function, and batches. Each one builds on the one before it. Sketching batches on paper before coding helps many learners see how the pieces fit.
+
+Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Gradient Descent should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: learning rates that are too large; getting stuck on plateaus; and unscaled features. Knowing them in advance saves hours of debugging.
+
+Gradient Descent and Model Evaluation are closely related, so learning both gives a fuller picture of Machine Learning.
+
+In short, careful study of Gradient Descent pays off. Spend time on learning rate and gradients, and the rest will follow.

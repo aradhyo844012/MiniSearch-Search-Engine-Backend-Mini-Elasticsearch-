@@ -1,0 +1,17 @@
+Myths and Facts About Stream Processing
+
+A lot of folklore has built up around Stream Processing. Some of it is true, and some of it is not. If you build software for long enough, you will run into Stream Processing. The term refers to handling data continuously as it arrives rather than in large batches.
+
+Myth: Stream Processing is only for experts.
+Fact: beginners can use it effectively once they understand events and windows.
+
+Myth: Stream Processing is only useful in very large systems.
+Fact: small projects such as live dashboards benefit as well.
+
+Myth: one tool does everything.
+Fact: Apache Kafka, Apache Flink, and Spark Structured Streaming make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Stream Processing are always obvious.
+Fact: subtle problems happen, for example late events.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Stream Processing.

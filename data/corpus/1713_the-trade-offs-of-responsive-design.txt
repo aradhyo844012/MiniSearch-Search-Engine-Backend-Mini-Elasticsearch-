@@ -1,0 +1,13 @@
+The Trade-offs of Responsive Design
+
+Every design choice has a cost, and Responsive Design is no exception. When people talk about Responsive Design, they usually mean building pages that adapt smoothly to phones, tablets and large screens. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Responsive Design is well suited to websites used on many devices and dashboards. On the other hand, it is not free. Keep these risks in mind: testing only on one screen size; tiny touch targets; horizontal scrolling. Whether the trade is worth it depends on how much media queries and fluid grids matter to your project.
+
+If you are comfortable with Responsive Design, explore Bootstrap next. The two often appear in the same project.
+
+Three issues come up again and again: testing only on one screen size; tiny touch targets; and horizontal scrolling. Knowing them in advance saves hours of debugging.
+
+Keep notes on what worked. A short README explaining your decisions about Responsive Design helps the next developer. Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain flexible images back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Responsive Design whenever a new project gives you a reason.

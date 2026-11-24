@@ -1,0 +1,12 @@
+Key Terms in Dynamic Programming Explained
+
+Clear vocabulary makes Dynamic Programming much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Dynamic Programming. The term refers to a technique for solving problems by storing the answers to overlapping subproblems.
+
+overlapping subproblems: a key term in Dynamic Programming. You will meet it constantly in documentation and in code reviews.
+optimal substructure: a key term in Dynamic Programming. You will meet it constantly in documentation and in code reviews.
+memoization: a key term in Dynamic Programming. It matters because it shapes how you design, test and explain your solution.
+tabulation: a key term in Dynamic Programming. It matters because it shapes how you design, test and explain your solution.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+In short, careful study of Dynamic Programming pays off. Spend time on overlapping subproblems and optimal substructure, and the rest will follow.

@@ -1,0 +1,21 @@
+Docker Interview Questions and Answers
+
+Prepare for these questions about Docker.
+
+Q: Explain Docker in simple words.
+A: Docker refers to a platform for building and running applications in containers. I would add an example involving reproducible development setups.
+
+Q: What are the key concepts?
+A: Dockerfile, image layers, volumes, and networks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: huge images.
+
+Q: Which tools have you used?
+A: Docker Compose, Docker Hub, and Podman.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as Dockerfile, and add tests aimed at the known risks.
+
+Q: How does it connect to Kubernetes?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.

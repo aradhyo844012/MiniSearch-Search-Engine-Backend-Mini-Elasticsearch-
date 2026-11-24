@@ -1,0 +1,13 @@
+The Trade-offs of CDNs
+
+Every design choice has a cost, and CDNs is no exception. Many students first meet CDNs in a classroom, but it matters just as much in production systems. The term refers to networks of servers around the world that deliver static content from a location close to the user.
+
+On the positive side, CDNs is well suited to serving images and scripts and speeding up global sites. On the other hand, it is not free. Keep these risks in mind: caching private data; forgetting to purge old files; misconfigured cache headers. Whether the trade is worth it depends on how much edge servers and cache rules matter to your project.
+
+Three issues come up again and again: caching private data; forgetting to purge old files; and misconfigured cache headers. Knowing them in advance saves hours of debugging.
+
+Write a few tests that show how CDNs should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce. Practice edge servers with small exercises until it feels natural.
+
+CDNs and WebSockets are closely related, so learning both gives a fuller picture of Networking.
+
+With steady practice, CDNs will stop feeling abstract and become a tool you reach for naturally.

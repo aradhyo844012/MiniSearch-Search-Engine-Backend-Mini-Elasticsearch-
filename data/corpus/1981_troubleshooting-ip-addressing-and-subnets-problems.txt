@@ -1,0 +1,13 @@
+Troubleshooting IP Addressing and Subnets Problems
+
+When something breaks around IP Addressing and Subnets, a calm and systematic approach saves the most time. When people talk about IP Addressing and Subnets, they usually mean the rules for numbering devices on a network and dividing networks into smaller parts. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and ipcalc usually reveal the cause faster than guessing.
+
+Common culprits: overlapping address ranges; miscounting host bits; exhausting small subnets. If none of these explains the symptom, re-read the basics of IPv4 and IPv6 and subnet masks.
+
+Read the official documentation for ping; it often explains subnet masks better than blog posts do. Start small by applying IP Addressing and Subnets to one case, such as planning office networks, before rolling it out more widely.
+
+Popular tools and libraries include ipcalc, ping, and traceroute.
+
+With steady practice, IP Addressing and Subnets will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+Common Mistakes When Working with Linear Regression
+
+Almost everyone makes a few avoidable errors when first working with Linear Regression. Many students first meet Linear Regression in a classroom, but it matters just as much in production systems. The term refers to a method for predicting a number by fitting a straight line or plane to data.
+
+A solid grasp of Linear Regression also makes Large Language Models easier to understand.
+
+Three issues come up again and again: extrapolating far beyond the data; ignoring outliers; and using correlated features carelessly. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: extrapolating far beyond the data. A short test or a careful review comment usually catches it. The second problem is similar: ignoring outliers. The third problem is this: using correlated features carelessly. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice coefficients with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+With steady practice, Linear Regression will stop feeling abstract and become a tool you reach for naturally.

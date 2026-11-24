@@ -1,0 +1,11 @@
+TCP and UDP Cheat Sheet
+
+Use this page as a quick reminder of the essentials of TCP and UDP.
+
+- Definition: the two main transport protocols, one reliable and ordered and the other fast and connectionless.
+- Core ideas: handshakes; acknowledgements; ports; congestion control.
+- Use it for: web traffic; video calls; online games.
+- Watch out for: assuming UDP guarantees delivery; ignoring timeouts; opening too many connections.
+- Tools: Wireshark, netcat, tcpdump.
+- Quick tip: write a tiny test for acknowledgements before building anything large.
+- Related topic: IP Addressing and Subnets.

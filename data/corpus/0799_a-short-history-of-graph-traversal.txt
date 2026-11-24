@@ -1,0 +1,13 @@
+A Short History of Graph Traversal
+
+Ideas behind Graph Traversal developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Graph Traversal, they usually mean systematic ways of visiting every node in a graph, usually breadth-first or depth-first. It appears in almost every serious software project, whether or not developers notice it.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Choosing the right data structure often matters more than clever tuning later.
+
+To understand Graph Traversal, start with adjacency lists. Then move on to breadth-first search, and finally look at depth-first search and visited sets. A good way to remember adjacency lists is to connect it with a concrete example from your own code.
+
+A solid grasp of Graph Traversal also makes Binary Search easier to understand.
+
+With steady practice, Graph Traversal will stop feeling abstract and become a tool you reach for naturally.

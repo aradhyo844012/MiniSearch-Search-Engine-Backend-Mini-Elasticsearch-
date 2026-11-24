@@ -1,0 +1,17 @@
+A Beginner's Guide to HTML Semantics
+
+This guide is written for readers who are new to HTML Semantics and want a clear starting point. If you build software for long enough, you will run into HTML Semantics. The term refers to the practice of using HTML elements that describe the meaning of content.
+
+Small improvements in markup and styling often have a large effect on usability.
+
+The vocabulary of HTML Semantics is small. Learn headings, landmarks, lists and tables, and forms, and most documentation will start to make sense. Understanding landmarks first often makes lists and tables much easier to reason about.
+
+You will see HTML Semantics whenever people work on accessible pages or better search engine understanding. It also helps with maintainable markup.
+
+Popular tools and libraries include HTML validators, browser developer tools, and axe.
+
+Beginners often stumble on three things. First: using div for everything. Second: skipping heading levels. Third: missing labels on form inputs.
+
+Read the official documentation for browser developer tools; it often explains landmarks better than blog posts do. Keep an eye on this risk during code review: using div for everything.
+
+In short, careful study of HTML Semantics pays off. Spend time on headings and landmarks, and the rest will follow.

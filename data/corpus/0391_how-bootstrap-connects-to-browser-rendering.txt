@@ -1,0 +1,13 @@
+How Bootstrap Connects to Browser Rendering
+
+Bootstrap and Browser Rendering are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving prototypes and dashboards may also involve explaining slow pages. In such a project, grid system and DOM construction often influence each other.
+
+Start with Bootstrap: the term refers to a popular front-end toolkit with ready-made layout, components and utilities. Then look at Browser Rendering, which refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen.
+
+A useful exercise is to take one example, such as admin pages, and explain how style calculation would change the design.
+
+Common problems are shared too. For Bootstrap, watch for this: loading unused components. For Browser Rendering, watch for this: forcing repeated layouts. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Spend a few hours on each topic, then combine them in one small project using Bootstrap CDN or Chrome DevTools Performance panel.

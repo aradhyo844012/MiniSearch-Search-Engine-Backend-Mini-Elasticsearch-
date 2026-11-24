@@ -1,0 +1,15 @@
+Deadlocks vs Containers: Key Differences
+
+Deadlocks and Containers both belong to the area of Operating Systems, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Deadlocks refers to situations where two or more tasks wait for each other forever. Its core ideas are mutual exclusion, hold and wait, and circular wait.
+
+The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. Its core ideas are images, layers, and namespaces.
+
+The main difference is focus. Deadlocks puts the emphasis on mutual exclusion and hold and wait, while Containers puts the emphasis on images and layers.
+
+Reach for Deadlocks when your task involves database lock conflicts or multi-threaded programs. Reach for Containers when your task involves consistent development environments or deploying microservices.
+
+Both have risks. With Deadlocks, watch for this: acquiring locks in inconsistent order. With Containers, watch for this: running as root.
+
+In practice you do not always have to choose. Many projects use Deadlocks alongside Containers, with tools such as thread dumps and Docker. Logs and system monitors are the first place to look when a machine misbehaves.

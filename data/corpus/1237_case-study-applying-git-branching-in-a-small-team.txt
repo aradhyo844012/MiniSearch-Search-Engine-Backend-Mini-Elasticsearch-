@@ -1,0 +1,11 @@
+Case Study: Applying Git Branching in a Small Team
+
+Imagine a small student team building a project that depends on Git Branching. The term Git Branching refers to using separate lines of development so that changes can be built and reviewed independently. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning branches and merging. Early on they hit a familiar problem: long-lived branches. After fixing it, they used Git to check their work and adopted Git Branching for feature development. Looking back, they said the biggest lesson was to keep the design simple.
+
+A solid grasp of Git Branching also makes Docker easier to understand.
+
+Three issues come up again and again: long-lived branches; merge conflicts left unresolved; and force-pushing shared branches. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Git Branching.

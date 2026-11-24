@@ -1,0 +1,13 @@
+The Importance of DNS in Modern Software
+
+It is easy to underestimate DNS until something goes wrong without it. Put simply, DNS covers the system that translates human-friendly domain names into IP addresses. Learning it well pays off across many areas of computing.
+
+Every web request crosses several layers of protocols before it reaches an application. Latency is limited by distance and by the number of round trips a request needs.
+
+You will see DNS whenever people work on mapping domains to servers or email routing. It also helps with load distribution.
+
+Watch out for these problems: forgetting TTLs when migrating; mistyped records; and assuming changes apply instantly.
+
+If you are comfortable with DNS, explore Load Balancing next. The two often appear in the same project.
+
+In short, careful study of DNS pays off. Spend time on resolvers and records, and the rest will follow.

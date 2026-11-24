@@ -1,0 +1,11 @@
+Troubleshooting Design Patterns Problems
+
+When something breaks around Design Patterns, a calm and systematic approach saves the most time. Many students first meet Design Patterns in a classroom, but it matters just as much in production systems. The term refers to reusable solutions to common problems in software design.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and UML diagrams usually reveal the cause faster than guessing.
+
+Common culprits: forcing patterns where they are unnecessary; over-engineering; copying patterns without understanding the problem. If none of these explains the symptom, re-read the basics of singleton and factory.
+
+Popular tools and libraries include UML diagrams, refactoring guides, and code examples.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Design Patterns.

@@ -1,0 +1,15 @@
+Best Practices for WebSockets
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about WebSockets, they usually mean a protocol that keeps a two-way connection open between a browser and a server. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Keep notes on what worked. A short README explaining your decisions about WebSockets helps the next developer.
+2. Ask a teammate to explain heartbeats back to you; teaching is a quick way to find gaps.
+3. Keep an eye on this risk during code review: forgetting reconnection logic.
+4. Measure before you optimize. Use Socket.IO or a simple timer to see where time is actually spent.
+5. Write a few tests that show how WebSockets should behave. Tests double as documentation for your teammates.
+
+In practice you can start with Socket.IO, then explore ws library or Python websockets as your needs grow.
+
+If you are comfortable with WebSockets, explore DNS next. The two often appear in the same project.
+
+With steady practice, WebSockets will stop feeling abstract and become a tool you reach for naturally.

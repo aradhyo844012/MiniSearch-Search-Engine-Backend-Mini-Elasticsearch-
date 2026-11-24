@@ -1,0 +1,13 @@
+The Trade-offs of Large Language Models
+
+Every design choice has a cost, and Large Language Models is no exception. Many students first meet Large Language Models in a classroom, but it matters just as much in production systems. The term refers to very large neural networks trained on text that can generate and analyze language.
+
+On the positive side, Large Language Models is well suited to drafting text and answering questions. On the other hand, it is not free. Keep these risks in mind: trusting outputs without checking; vague prompts; sending sensitive data carelessly. Whether the trade is worth it depends on how much tokens and attention matter to your project.
+
+Three issues come up again and again: trusting outputs without checking; vague prompts; and sending sensitive data carelessly. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for API playgrounds; it often explains attention better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+If you are comfortable with Large Language Models, explore Overfitting next. The two often appear in the same project.
+
+In short, careful study of Large Language Models pays off. Spend time on tokens and attention, and the rest will follow.

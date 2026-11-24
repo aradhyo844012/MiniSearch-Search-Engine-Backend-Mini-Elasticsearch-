@@ -1,0 +1,11 @@
+Common Mistakes When Working with HTTP and HTTPS
+
+Almost everyone makes a few avoidable errors when first working with HTTP and HTTPS. If you build software for long enough, you will run into HTTP and HTTPS. The term refers to the request and response protocol of the web, with HTTPS adding encryption.
+
+Beginners often stumble on three things. First: mixing up status codes. Second: sending secrets in URLs. Third: ignoring caching headers.
+
+Consider the first problem: mixing up status codes. A short test or a careful review comment usually catches it. The second problem is similar: sending secrets in URLs. The third problem is this: ignoring caching headers. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice methods with small exercises until it feels natural. Measure before you optimize. Use curl or a simple timer to see where time is actually spent. Write a few tests that show how HTTP and HTTPS should behave. Tests double as documentation for your teammates.
+
+With steady practice, HTTP and HTTPS will stop feeling abstract and become a tool you reach for naturally.

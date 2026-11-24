@@ -1,0 +1,11 @@
+Microservices Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Microservices.
+
+- Definition: an architecture that splits an application into small services that can be deployed independently.
+- Core ideas: service boundaries; APIs; independent deployment; distributed data.
+- Use it for: large teams working in parallel; scaling parts separately; replacing components gradually.
+- Watch out for: splitting too early; chatty services; hard debugging across services.
+- Tools: Docker, Kubernetes, API gateways.
+- Related topic: Caching Strategies.
+- Quick tip: write a tiny test for APIs before building anything large.

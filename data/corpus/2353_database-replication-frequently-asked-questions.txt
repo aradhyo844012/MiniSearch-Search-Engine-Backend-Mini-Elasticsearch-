@@ -1,0 +1,22 @@
+Database Replication: Frequently Asked Questions
+
+Q: What is Database Replication?
+A: The term Database Replication refers to copying data from one database server to others to improve availability and read capacity.
+
+Q: What mistakes are most common?
+A: Watch for these: reading stale data from replicas; untested failover plans; and split-brain situations.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Why do developers use Database Replication?
+A: Common uses include surviving server failures, scaling read traffic, and running reports without slowing production.
+
+Q: How does it relate to Redis Caching?
+A: Database Replication and Redis Caching often appear in the same project, and both belong to the area of Databases.
+
+Q: Which tools help?
+A: Popular choices include PostgreSQL streaming replication, MySQL replication, and Patroni.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Database Replication.

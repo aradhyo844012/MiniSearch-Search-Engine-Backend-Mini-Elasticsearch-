@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Hash Tables
+
+This hands-on tutorial takes you from zero to a small working experiment with Hash Tables. When people talk about Hash Tables, they usually mean a way of storing key-value pairs so that lookups take roughly constant time. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Python dict and create a new empty project folder.
+Step 2: Read about hash function and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses buckets.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as implementing dictionaries and sets.
+Step 6: Break your example on purpose and see what happens. A good experiment: poor hash functions cause clustering.
+
+In practice you can start with Python dict, then explore Java HashMap or C++ unordered_map as your needs grow.
+
+Beginners often stumble on three things. First: poor hash functions cause clustering. Second: resizing is expensive at scale. Third: iteration order is not always stable.
+
+With steady practice, Hash Tables will stop feeling abstract and become a tool you reach for naturally.

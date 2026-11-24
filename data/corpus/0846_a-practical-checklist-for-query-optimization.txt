@@ -1,0 +1,12 @@
+A Practical Checklist for Query Optimization
+
+Use this checklist before you rely on Query Optimization in a project.
+
+1. Measure results before and after any change.
+2. Document your decisions in the project README.
+3. Pick a tool to start with, such as EXPLAIN ANALYZE or pg_stat_statements.
+4. Write at least one automated test that covers query plans.
+5. Review how Query Optimization interacts with Relational Databases.
+6. Guard against this risk: selecting more columns than needed.
+7. Guard against this risk: running queries inside loops.
+8. Guard against this risk: guessing instead of reading the plan.

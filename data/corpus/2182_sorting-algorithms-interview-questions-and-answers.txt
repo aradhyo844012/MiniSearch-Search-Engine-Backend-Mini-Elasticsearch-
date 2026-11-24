@@ -1,0 +1,21 @@
+Sorting Algorithms Interview Questions and Answers
+
+Prepare for these questions about Sorting Algorithms.
+
+Q: Explain Sorting Algorithms in simple words.
+A: Sorting Algorithms refers to methods for arranging items in a defined order. I would add an example involving ordering search results.
+
+Q: How does it connect to Binary Search?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with preparing data for binary search, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: comparison sorts, stability, divide and conquer, and in-place sorting.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as comparison sorts, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: assuming every sort is stable; sorting everything when a partial order is enough; and ignoring worst-case input.

@@ -1,0 +1,22 @@
+Big O Notation: Frequently Asked Questions
+
+Q: What is Big O Notation?
+A: The term Big O Notation refers to a way of describing how running time or memory grows as the input size grows.
+
+Q: How does it relate to Heaps and Priority Queues?
+A: Big O Notation and Heaps and Priority Queues often appear in the same project, and both belong to the area of Data Structures and Algorithms.
+
+Q: Why do developers use Big O Notation?
+A: Common uses include comparing algorithms, predicting scaling problems, and explaining design choices in interviews.
+
+Q: What mistakes are most common?
+A: Watch for these: ignoring constant factors entirely; mixing up best and worst case; and measuring only tiny inputs.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Big O Notation.
+
+Q: What should a beginner learn first?
+A: Start with upper bounds and constant, linear and logarithmic growth, then move on to worst case and amortized cost.
+
+Q: Which tools help?
+A: Popular choices include Python timeit, big-O cheat sheets, and profilers.

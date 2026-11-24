@@ -1,0 +1,11 @@
+Common Mistakes When Working with Model Evaluation
+
+Almost everyone makes a few avoidable errors when first working with Model Evaluation. The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: using accuracy on imbalanced data. Second: tuning on the test set. Third: ignoring variance between runs.
+
+Consider the first problem: using accuracy on imbalanced data. A short test or a careful review comment usually catches it. The second problem is similar: tuning on the test set. The third problem is this: ignoring variance between runs. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Model Evaluation should behave. Tests double as documentation for your teammates. Start small by applying Model Evaluation to one case, such as comparing models, before rolling it out more widely.
+
+In short, careful study of Model Evaluation pays off. Spend time on accuracy and precision and recall, and the rest will follow.

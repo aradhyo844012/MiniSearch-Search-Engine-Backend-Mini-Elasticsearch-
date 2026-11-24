@@ -1,0 +1,13 @@
+Performance Tips for Responsive Design
+
+Fast software rarely happens by accident, and Responsive Design offers several places to gain speed. Many students first meet Responsive Design in a classroom, but it matters just as much in production systems. The term refers to building pages that adapt smoothly to phones, tablets and large screens.
+
+Start by measuring. Use Chrome DevTools device mode or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to media queries and fluid grids, because they usually decide how well things scale. For workloads such as websites used on many devices, even small improvements add up quickly.
+
+The vocabulary of Responsive Design is small. Learn media queries, fluid grids, flexible images, and mobile-first thinking, and most documentation will start to make sense. Understanding fluid grids first often makes flexible images much easier to reason about.
+
+Practice media queries with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about Responsive Design helps the next developer. Write a few tests that show how Responsive Design should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: testing only on one screen size; tiny touch targets; and horizontal scrolling. Knowing them in advance saves hours of debugging.
+
+With steady practice, Responsive Design will stop feeling abstract and become a tool you reach for naturally.

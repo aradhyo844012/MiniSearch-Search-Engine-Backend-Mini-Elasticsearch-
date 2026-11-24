@@ -1,0 +1,18 @@
+Deadlocks Interview Questions and Answers
+
+Prepare for these questions about Deadlocks.
+
+Q: Explain Deadlocks in simple words.
+A: Deadlocks refers to situations where two or more tasks wait for each other forever. I would add an example involving database lock conflicts.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as mutual exclusion, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: mutual exclusion, hold and wait, circular wait, and lock ordering.
+
+Q: Which tools have you used?
+A: thread dumps, database deadlock logs, and static analyzers.
+
+Q: How does it connect to File Systems?
+A: Both belong to the area of Operating Systems, and understanding one makes the other easier to learn.

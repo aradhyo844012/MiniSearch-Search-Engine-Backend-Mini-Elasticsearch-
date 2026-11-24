@@ -1,0 +1,13 @@
+A Short History of Data Cleaning
+
+Ideas behind Data Cleaning developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Data Cleaning in a classroom, but it matters just as much in production systems. The term refers to finding and fixing errors, gaps and inconsistencies in raw data.
+
+Writing down assumptions about the data prevents confusing surprises later. Pipelines should be repeatable so that results can be reproduced later.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent. Practice missing values with small exercises until it feels natural.
+
+Four ideas sit at the heart of Data Cleaning: missing values, duplicates, inconsistent formats, and outliers. Each one builds on the one before it. Understanding duplicates first often makes inconsistent formats much easier to reason about.
+
+If you are comfortable with Data Cleaning, explore Pandas DataFrames next. The two often appear in the same project.
+
+With steady practice, Data Cleaning will stop feeling abstract and become a tool you reach for naturally.

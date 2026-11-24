@@ -1,0 +1,15 @@
+Best Practices for Relational Databases
+
+The practices below come from patterns that tend to work well across many teams and projects. The term Relational Databases refers to systems that store data in tables with rows, columns and defined relationships. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Write a few tests that show how Relational Databases should behave. Tests double as documentation for your teammates.
+2. Keep notes on what worked. A short README explaining your decisions about Relational Databases helps the next developer.
+3. Practice tables and rows with small exercises until it feels natural.
+4. Ask a teammate to explain foreign keys back to you; teaching is a quick way to find gaps.
+5. Read the official documentation for MySQL; it often explains primary keys better than blog posts do.
+
+Popular tools and libraries include PostgreSQL, MySQL, and SQLite.
+
+If you are comfortable with Relational Databases, explore NoSQL Databases next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Relational Databases.

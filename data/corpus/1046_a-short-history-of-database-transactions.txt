@@ -1,0 +1,11 @@
+A Short History of Database Transactions
+
+Ideas behind Database Transactions developed gradually as engineers ran into practical limits and shared what they learned. The term Database Transactions refers to groups of operations that succeed or fail together. This article explains the idea in plain language and points out where it fits in real projects.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+To understand Database Transactions, start with atomicity. Then move on to consistency, and finally look at isolation and durability. Understanding consistency first often makes isolation much easier to reason about.
+
+A solid grasp of Database Transactions also makes Query Optimization easier to understand.
+
+Keep experimenting, keep notes, and revisit Database Transactions whenever a new project gives you a reason.

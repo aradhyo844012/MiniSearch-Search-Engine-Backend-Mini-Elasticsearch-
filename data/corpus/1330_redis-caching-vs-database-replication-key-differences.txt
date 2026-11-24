@@ -1,0 +1,15 @@
+Redis Caching vs Database Replication: Key Differences
+
+Redis Caching and Database Replication both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Redis Caching refers to using an in-memory data store to keep frequently needed results close to the application. Its core ideas are key-value pairs, expiration times, and eviction policies.
+
+The term Database Replication refers to copying data from one database server to others to improve availability and read capacity. Its core ideas are primary and replica, replication lag, and failover.
+
+The main difference is focus. Redis Caching puts the emphasis on key-value pairs and expiration times, while Database Replication puts the emphasis on primary and replica and replication lag.
+
+Reach for Redis Caching when your task involves caching API responses or storing session data. Reach for Database Replication when your task involves surviving server failures or scaling read traffic.
+
+Both have risks. With Redis Caching, watch for this: serving stale data. With Database Replication, watch for this: reading stale data from replicas.
+
+In practice you do not always have to choose. Many projects use Redis Caching alongside Database Replication, with tools such as Redis and PostgreSQL streaming replication. Backups are only useful if restoring from them has been tested.

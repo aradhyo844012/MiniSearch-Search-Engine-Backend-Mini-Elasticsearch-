@@ -1,0 +1,13 @@
+How Unit Testing Connects to Agile and Scrum
+
+Unit Testing and Agile and Scrum are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving catching regressions may also involve student team projects. In such a project, test cases and sprints often influence each other.
+
+Start with Unit Testing: the term refers to writing small automated tests that check one piece of code at a time. Then look at Agile and Scrum, which refers to iterative ways of planning and delivering software in short cycles.
+
+A useful exercise is to take one example, such as documenting behavior, and explain how backlogs would change the design.
+
+Common problems are shared too. For Unit Testing, watch for this: slow tests. For Agile and Scrum, watch for this: overloading sprints. Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+Spend a few hours on each topic, then combine them in one small project using pytest or Jira.

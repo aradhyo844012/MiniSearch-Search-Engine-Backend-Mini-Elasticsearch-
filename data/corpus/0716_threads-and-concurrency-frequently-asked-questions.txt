@@ -1,0 +1,22 @@
+Threads and Concurrency: Frequently Asked Questions
+
+Q: What is Threads and Concurrency?
+A: The term Threads and Concurrency refers to ways of making progress on several tasks at once within a program.
+
+Q: What should a beginner learn first?
+A: Start with threads and locks, then move on to race conditions and thread pools.
+
+Q: How does it relate to Linux Command Line?
+A: Threads and Concurrency and Linux Command Line often appear in the same project, and both belong to the area of Operating Systems.
+
+Q: What mistakes are most common?
+A: Watch for these: forgetting to protect shared data; creating too many threads; and mixing up concurrency and parallelism.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Which tools help?
+A: Popular choices include Python threading, Java ExecutorService, and asyncio.
+
+Q: Why do developers use Threads and Concurrency?
+A: Common uses include handling many requests, keeping interfaces responsive, and parallel computation.

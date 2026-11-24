@@ -1,0 +1,13 @@
+How Unit Testing Connects to Technical Debt
+
+Unit Testing and Technical Debt are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving catching regressions may also involve deciding when to cut corners. In such a project, test cases and shortcuts often influence each other.
+
+Start with Unit Testing: the term refers to writing small automated tests that check one piece of code at a time. Then look at Technical Debt, which refers to the future cost of shortcuts taken in code, design or documentation.
+
+A useful exercise is to take one example, such as documenting behavior, and explain how interest would change the design.
+
+Common problems are shared too. For Unit Testing, watch for this: slow tests. For Technical Debt, watch for this: hiding it from stakeholders. Readable code saves more time than clever code over the long run.
+
+Spend a few hours on each topic, then combine them in one small project using pytest or SonarQube.

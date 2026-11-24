@@ -1,0 +1,12 @@
+A Practical Checklist for ETL Pipelines
+
+Use this checklist before you rely on ETL Pipelines in a project.
+
+1. Confirm that your team agrees on what ETL Pipelines should accomplish.
+2. Document your decisions in the project README.
+3. Review the core ideas: extraction, transformation, loading, and scheduling.
+4. Review how ETL Pipelines interacts with Data Cleaning.
+5. Guard against this risk: poor error reporting.
+6. Ask a teammate to review the work, focusing on transformation.
+7. Measure results before and after any change.
+8. Guard against this risk: no retry logic.

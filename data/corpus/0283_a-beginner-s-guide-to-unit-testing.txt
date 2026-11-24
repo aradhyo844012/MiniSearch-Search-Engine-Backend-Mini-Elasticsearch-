@@ -1,0 +1,19 @@
+A Beginner's Guide to Unit Testing
+
+This guide is written for readers who are new to Unit Testing and want a clear starting point. If you build software for long enough, you will run into Unit Testing. The term refers to writing small automated tests that check one piece of code at a time.
+
+Software spends most of its life being changed, not written for the first time. Readable code saves more time than clever code over the long run.
+
+Keep notes on what worked. A short README explaining your decisions about Unit Testing helps the next developer. Read the official documentation for unittest; it often explains assertions better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+The vocabulary of Unit Testing is small. Learn test cases, assertions, fixtures, and mocking, and most documentation will start to make sense. Understanding assertions first often makes fixtures much easier to reason about.
+
+You will see Unit Testing whenever people work on catching regressions or documenting behavior. It also helps with refactoring safely.
+
+Popular tools and libraries include pytest, unittest, and coverage.py.
+
+Watch out for these problems: testing implementation details; slow tests; and tests that depend on each other.
+
+Practice test cases with small exercises until it feels natural. Write a few tests that show how Unit Testing should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Unit Testing pays off. Spend time on test cases and assertions, and the rest will follow.

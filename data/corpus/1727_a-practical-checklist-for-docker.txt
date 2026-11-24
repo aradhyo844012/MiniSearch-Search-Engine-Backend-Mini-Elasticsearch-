@@ -1,0 +1,12 @@
+A Practical Checklist for Docker
+
+Use this checklist before you rely on Docker in a project.
+
+1. Ask a teammate to review the work, focusing on image layers.
+2. Pick a tool to start with, such as Docker Compose or Docker Hub.
+3. Guard against this risk: running as root.
+4. Review how Docker interacts with Site Reliability.
+5. Document your decisions in the project README.
+6. Write at least one automated test that covers Dockerfile.
+7. Guard against this risk: secrets baked into images.
+8. Measure results before and after any change.

@@ -1,0 +1,11 @@
+A Practical Checklist for Stop Words
+
+Use this checklist before you rely on Stop Words in a project.
+
+1. Ask a teammate to review the work, focusing on index size.
+2. Write at least one automated test that covers frequency lists.
+3. Document your decisions in the project README.
+4. Guard against this risk: using the wrong language list.
+5. Measure results before and after any change.
+6. Confirm that your team agrees on what Stop Words should accomplish.
+7. Guard against this risk: removing words that matter in phrases.

@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with File Systems
+
+This hands-on tutorial takes you from zero to a small working experiment with File Systems. Many students first meet File Systems in a classroom, but it matters just as much in production systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Step 1: Install or open ext4 and create a new empty project folder.
+Step 2: Read about files and directories and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses inodes.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as storing documents.
+Step 6: Break your example on purpose and see what happens. A good experiment: running out of inodes.
+
+In practice you can start with ext4, then explore NTFS or df and du as your needs grow.
+
+Three issues come up again and again: running out of inodes; wrong permissions; and ignoring disk space limits. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with File Systems.

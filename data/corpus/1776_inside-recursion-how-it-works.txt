@@ -1,0 +1,13 @@
+Inside Recursion: How It Works
+
+This article walks through what happens inside Recursion, step by step. If you build software for long enough, you will run into Recursion. The term refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+The vocabulary of Recursion is small. Learn base case, recursive case, call stack, and tail calls, and most documentation will start to make sense. Understanding recursive case first often makes call stack much easier to reason about.
+
+First, base case sets the stage for everything else. Next, recursive case builds on it. After that, call stack comes into play, and finally tail calls ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+If you are comfortable with Recursion, explore Sorting Algorithms next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Recursion.

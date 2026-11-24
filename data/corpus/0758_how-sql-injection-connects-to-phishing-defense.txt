@@ -1,0 +1,13 @@
+How SQL Injection Connects to Phishing Defense
+
+SQL Injection and Phishing Defense are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving securing login forms may also involve protecting employees. In such a project, parameterized queries and suspicious links often influence each other.
+
+Start with SQL Injection: the term refers to an attack where malicious input changes the meaning of a database query. Then look at Phishing Defense, which refers to recognizing and reducing attacks that trick people into revealing information.
+
+A useful exercise is to take one example, such as reviewing search features, and explain how sender verification would change the design.
+
+Common problems are shared too. For SQL Injection, watch for this: using admin accounts for the app. For Phishing Defense, watch for this: reusing passwords. Never trust input that comes from outside your own code.
+
+Spend a few hours on each topic, then combine them in one small project using prepared statements or SPF.

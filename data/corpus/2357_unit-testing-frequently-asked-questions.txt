@@ -1,0 +1,16 @@
+Unit Testing: Frequently Asked Questions
+
+Q: What is Unit Testing?
+A: The term Unit Testing refers to writing small automated tests that check one piece of code at a time.
+
+Q: Which tools help?
+A: Popular choices include pytest, unittest, and coverage.py.
+
+Q: What mistakes are most common?
+A: Watch for these: testing implementation details; slow tests; and tests that depend on each other.
+
+Q: What should a beginner learn first?
+A: Start with test cases and assertions, then move on to fixtures and mocking.
+
+Q: Why do developers use Unit Testing?
+A: Common uses include catching regressions, documenting behavior, and refactoring safely.

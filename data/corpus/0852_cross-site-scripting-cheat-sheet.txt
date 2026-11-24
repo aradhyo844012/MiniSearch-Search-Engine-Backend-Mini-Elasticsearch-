@@ -1,0 +1,11 @@
+Cross-Site Scripting Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Cross-Site Scripting.
+
+- Definition: a vulnerability where attackers get a site to run their scripts in other users' browsers.
+- Core ideas: reflected XSS; stored XSS; output encoding; content security policy.
+- Use it for: reviewing web forms; securing comment sections; hardening dashboards.
+- Watch out for: inserting user text as raw HTML; trusting client-side filtering; missing content security policy.
+- Tools: OWASP guides, CSP evaluators, browser developer tools.
+- Quick tip: write a tiny test for stored XSS before building anything large.
+- Related topic: Public Key Cryptography.

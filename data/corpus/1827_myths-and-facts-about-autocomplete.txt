@@ -1,0 +1,17 @@
+Myths and Facts About Autocomplete
+
+A lot of folklore has built up around Autocomplete. Some of it is true, and some of it is not. When people talk about Autocomplete, they usually mean suggesting likely completions while a person types a query. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Autocomplete is only for experts.
+Fact: beginners can use it effectively once they understand prefixes and ranking suggestions.
+
+Myth: Autocomplete is only useful in very large systems.
+Fact: small projects such as search boxes benefit as well.
+
+Myth: one tool does everything.
+Fact: tries, Redis sorted sets, and Elasticsearch suggesters make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Autocomplete are always obvious.
+Fact: subtle problems happen, for example slow suggestions.
+
+With steady practice, Autocomplete will stop feeling abstract and become a tool you reach for naturally.

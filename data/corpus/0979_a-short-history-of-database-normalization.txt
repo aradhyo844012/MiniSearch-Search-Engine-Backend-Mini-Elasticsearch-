@@ -1,0 +1,13 @@
+A Short History of Database Normalization
+
+Ideas behind Database Normalization developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Database Normalization in a classroom, but it matters just as much in production systems. The term refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+If you are comfortable with Database Normalization, explore Relational Databases next. The two often appear in the same project.
+
+Good schema design is hard to change once real data and users depend on it. Backups are only useful if restoring from them has been tested.
+
+Four ideas sit at the heart of Database Normalization: first normal form, second normal form, third normal form, and functional dependencies. Each one builds on the one before it. Sketching functional dependencies on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of Database Normalization also makes Relational Databases easier to understand.
+
+With steady practice, Database Normalization will stop feeling abstract and become a tool you reach for naturally.

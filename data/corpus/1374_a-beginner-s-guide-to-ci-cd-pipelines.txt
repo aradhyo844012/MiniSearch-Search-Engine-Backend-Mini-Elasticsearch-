@@ -1,0 +1,17 @@
+A Beginner's Guide to CI/CD Pipelines
+
+This guide is written for readers who are new to CI/CD Pipelines and want a clear starting point. The term CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes. This article explains the idea in plain language and points out where it fits in real projects.
+
+A system that cannot be observed cannot be reliably operated. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+To understand CI/CD Pipelines, start with build stage. Then move on to test stage, and finally look at artifacts and deployment stage. Understanding test stage first often makes artifacts much easier to reason about.
+
+People use CI/CD Pipelines for running tests on every push, for shipping releases safely, and for enforcing code quality.
+
+Popular tools and libraries include GitHub Actions, Jenkins, and GitLab CI.
+
+Watch out for these problems: slow pipelines; flaky tests; and secrets in logs.
+
+Read the official documentation for Jenkins; it often explains test stage better than blog posts do. Measure before you optimize. Use GitHub Actions or a simple timer to see where time is actually spent.
+
+In short, careful study of CI/CD Pipelines pays off. Spend time on build stage and test stage, and the rest will follow.

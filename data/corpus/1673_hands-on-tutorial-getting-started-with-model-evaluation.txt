@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Model Evaluation
+
+This hands-on tutorial takes you from zero to a small working experiment with Model Evaluation. Put simply, Model Evaluation covers measuring how well a machine learning model works on data it has not seen. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open scikit-learn metrics and create a new empty project folder.
+Step 2: Read about accuracy and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses precision and recall.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as comparing models.
+Step 6: Break your example on purpose and see what happens. A good experiment: using accuracy on imbalanced data.
+
+In practice you can start with scikit-learn metrics, then explore MLflow or pandas as your needs grow.
+
+Beginners often stumble on three things. First: using accuracy on imbalanced data. Second: tuning on the test set. Third: ignoring variance between runs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

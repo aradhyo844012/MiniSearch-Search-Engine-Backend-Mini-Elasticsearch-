@@ -1,0 +1,13 @@
+Inside Design Patterns: How It Works
+
+This article walks through what happens inside Design Patterns, step by step. The term Design Patterns refers to reusable solutions to common problems in software design. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand Design Patterns, start with singleton. Then move on to factory, and finally look at observer and strategy. A good way to remember singleton is to connect it with a concrete example from your own code.
+
+First, singleton sets the stage for everything else. Next, factory builds on it. After that, observer comes into play, and finally strategy ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Readable code saves more time than clever code over the long run. Software spends most of its life being changed, not written for the first time.
+
+If you are comfortable with Design Patterns, explore Code Review next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Design Patterns.

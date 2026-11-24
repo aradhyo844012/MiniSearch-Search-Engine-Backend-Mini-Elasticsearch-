@@ -1,0 +1,11 @@
+A Practical Checklist for Tokenization
+
+Use this checklist before you rely on Tokenization in a project.
+
+1. Confirm that your team agrees on what Tokenization should accomplish.
+2. Ask a teammate to review the work, focusing on splitting on punctuation.
+3. Guard against this risk: dropping useful numbers.
+4. Try the approach on a small case, for example indexing documents.
+5. Guard against this risk: breaking on apostrophes badly.
+6. Write at least one automated test that covers lowercasing.
+7. Document your decisions in the project README.

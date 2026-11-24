@@ -1,0 +1,11 @@
+The Trade-offs of Recursion
+
+Every design choice has a cost, and Recursion is no exception. The term Recursion refers to a technique where a function solves a problem by calling itself on smaller inputs. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Recursion is well suited to traversing trees and divide and conquer algorithms. On the other hand, it is not free. Keep these risks in mind: missing base cases; exceeding the recursion limit; recomputing the same values. Whether the trade is worth it depends on how much base case and recursive case matter to your project.
+
+Beginners often stumble on three things. First: missing base cases. Second: exceeding the recursion limit. Third: recomputing the same values.
+
+Keep notes on what worked. A short README explaining your decisions about Recursion helps the next developer. Keep an eye on this risk during code review: missing base cases. Automate repetitive steps so that results are easy to reproduce.
+
+Keep experimenting, keep notes, and revisit Recursion whenever a new project gives you a reason.

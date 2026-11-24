@@ -1,0 +1,16 @@
+Tokenization: Frequently Asked Questions
+
+Q: What is Tokenization?
+A: The term Tokenization refers to splitting text into smaller units such as words that a program can count and compare.
+
+Q: How does it relate to TF-IDF?
+A: Tokenization and TF-IDF often appear in the same project, and both belong to the area of Search and Retrieval.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Tokenization.
+
+Q: What mistakes are most common?
+A: Watch for these: different rules for indexing and querying; dropping useful numbers; and breaking on apostrophes badly.
+
+Q: What should a beginner learn first?
+A: Start with lowercasing and splitting on punctuation, then move on to stop words and normalization.

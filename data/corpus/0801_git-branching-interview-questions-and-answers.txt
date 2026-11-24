@@ -1,0 +1,21 @@
+Git Branching Interview Questions and Answers
+
+Prepare for these questions about Git Branching.
+
+Q: Explain Git Branching in simple words.
+A: Git Branching refers to using separate lines of development so that changes can be built and reviewed independently. I would add an example involving feature development.
+
+Q: Which tools have you used?
+A: Git, GitHub, and GitLab.
+
+Q: What are the key concepts?
+A: branches, merging, rebasing, and pull requests.
+
+Q: What problems have you seen in practice?
+A: long-lived branches; merge conflicts left unresolved; and force-pushing shared branches.
+
+Q: Where would you apply it first?
+A: I would start with bug fixes, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Cloud Storage?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.

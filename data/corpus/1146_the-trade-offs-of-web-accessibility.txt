@@ -1,0 +1,13 @@
+The Trade-offs of Web Accessibility
+
+Every design choice has a cost, and Web Accessibility is no exception. If you build software for long enough, you will run into Web Accessibility. The term refers to designing websites so that people with different abilities can use them.
+
+On the positive side, Web Accessibility is well suited to screen reader support and keyboard-only use. On the other hand, it is not free. Keep these risks in mind: low contrast text; missing focus indicators; images without alternative text. Whether the trade is worth it depends on how much semantic HTML and ARIA attributes matter to your project.
+
+Three issues come up again and again: low contrast text; missing focus indicators; and images without alternative text. Knowing them in advance saves hours of debugging.
+
+Small improvements in markup and styling often have a large effect on usability.
+
+Practice semantic HTML with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: low contrast text.
+
+Keep experimenting, keep notes, and revisit Web Accessibility whenever a new project gives you a reason.

@@ -1,0 +1,15 @@
+HTML Semantics vs Bootstrap: Key Differences
+
+HTML Semantics and Bootstrap both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term HTML Semantics refers to the practice of using HTML elements that describe the meaning of content. Its core ideas are headings, landmarks, and lists and tables.
+
+The term Bootstrap refers to a popular front-end toolkit with ready-made layout, components and utilities. Its core ideas are grid system, components, and utility classes.
+
+The main difference is focus. HTML Semantics puts the emphasis on headings and landmarks, while Bootstrap puts the emphasis on grid system and components.
+
+Reach for HTML Semantics when your task involves accessible pages or better search engine understanding. Reach for Bootstrap when your task involves prototypes and dashboards or admin pages.
+
+Both have risks. With HTML Semantics, watch for this: using div for everything. With Bootstrap, watch for this: overriding styles with heavy custom CSS.
+
+In practice you do not always have to choose. Many projects use HTML Semantics alongside Bootstrap, with tools such as HTML validators and Bootstrap CDN. Accessible design helps everyone, including people on slow connections or small screens.

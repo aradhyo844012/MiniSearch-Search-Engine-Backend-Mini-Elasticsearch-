@@ -1,0 +1,13 @@
+How Design Patterns Connects to Version Control Workflow
+
+Design Patterns and Version Control Workflow are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving structuring applications may also involve collaborating on shared code. In such a project, singleton and commits often influence each other.
+
+Start with Design Patterns: the term refers to reusable solutions to common problems in software design. Then look at Version Control Workflow, which refers to the habits and rules a team uses to track and combine changes to code.
+
+A useful exercise is to take one example, such as decoupling components, and explain how branches would change the design.
+
+Common problems are shared too. For Design Patterns, watch for this: over-engineering. For Version Control Workflow, watch for this: committing large unrelated changes. Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+Spend a few hours on each topic, then combine them in one small project using UML diagrams or Git.

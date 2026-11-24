@@ -1,0 +1,15 @@
+Best Practices for CSS Flexbox and Grid
+
+The practices below come from patterns that tend to work well across many teams and projects. The term CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Ask a teammate to explain alignment back to you; teaching is a quick way to find gaps.
+2. Keep an eye on this risk during code review: mixing up main and cross axes.
+3. Measure before you optimize. Use browser grid inspector or a simple timer to see where time is actually spent.
+4. Write a few tests that show how CSS Flexbox and Grid should behave. Tests double as documentation for your teammates.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+Popular tools and libraries include browser grid inspector, Bootstrap utilities, and CSS-Tricks guides.
+
+If you are comfortable with CSS Flexbox and Grid, explore DOM Manipulation next. The two often appear in the same project.
+
+With steady practice, CSS Flexbox and Grid will stop feeling abstract and become a tool you reach for naturally.

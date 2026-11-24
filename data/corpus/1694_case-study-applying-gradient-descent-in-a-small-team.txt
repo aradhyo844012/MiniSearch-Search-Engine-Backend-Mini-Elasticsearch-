@@ -1,0 +1,9 @@
+Case Study: Applying Gradient Descent in a Small Team
+
+Imagine a small student team building a project that depends on Gradient Descent. Many students first meet Gradient Descent in a classroom, but it matters just as much in production systems. The term refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+The team first spent a week learning learning rate and gradients. Early on they hit a familiar problem: learning rates that are too large. After fixing it, they used PyTorch to check their work and adopted Gradient Descent for training neural networks. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: learning rates that are too large; getting stuck on plateaus; and unscaled features.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Gradient Descent.

@@ -1,0 +1,13 @@
+Inside Big O Notation: How It Works
+
+This article walks through what happens inside Big O Notation, step by step. When people talk about Big O Notation, they usually mean a way of describing how running time or memory grows as the input size grows. It appears in almost every serious software project, whether or not developers notice it.
+
+To understand Big O Notation, start with upper bounds. Then move on to constant, linear and logarithmic growth, and finally look at worst case and amortized cost. Understanding constant, linear and logarithmic growth first often makes worst case much easier to reason about.
+
+First, upper bounds sets the stage for everything else. Next, constant, linear and logarithmic growth builds on it. After that, worst case comes into play, and finally amortized cost ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Big O Notation and Graph Traversal are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+With steady practice, Big O Notation will stop feeling abstract and become a tool you reach for naturally.

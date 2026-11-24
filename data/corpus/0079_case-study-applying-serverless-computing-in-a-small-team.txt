@@ -1,0 +1,9 @@
+Case Study: Applying Serverless Computing in a Small Team
+
+Imagine a small student team building a project that depends on Serverless Computing. If you build software for long enough, you will run into Serverless Computing. The term refers to running code in managed functions without maintaining servers yourself.
+
+The team first spent a week learning functions and event triggers. Early on they hit a familiar problem: cold start delays. After fixing it, they used AWS Lambda to check their work and adopted Serverless Computing for webhooks. Looking back, they said the biggest lesson was to keep the design simple.
+
+Three issues come up again and again: cold start delays; vendor lock-in; and hard local debugging. Knowing them in advance saves hours of debugging.
+
+With steady practice, Serverless Computing will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,15 @@
+Performance Tips for SQL Injection
+
+Fast software rarely happens by accident, and SQL Injection offers several places to gain speed. Put simply, SQL Injection covers an attack where malicious input changes the meaning of a database query. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use prepared statements or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to parameterized queries and input validation, because they usually decide how well things scale. For workloads such as securing login forms, even small improvements add up quickly.
+
+Four ideas sit at the heart of SQL Injection: parameterized queries, input validation, least privilege, and escaping. Each one builds on the one before it. Sketching escaping on paper before coding helps many learners see how the pieces fit.
+
+Keeping dependencies updated removes a large share of known risks.
+
+Write a few tests that show how SQL Injection should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: building queries with string concatenation. Start small by applying SQL Injection to one case, such as securing login forms, before rolling it out more widely.
+
+Watch out for these problems: building queries with string concatenation; using admin accounts for the app; and revealing detailed database errors.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with SQL Injection.

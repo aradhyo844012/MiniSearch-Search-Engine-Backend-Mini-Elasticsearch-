@@ -1,0 +1,13 @@
+The Trade-offs of Linear Regression
+
+Every design choice has a cost, and Linear Regression is no exception. When people talk about Linear Regression, they usually mean a method for predicting a number by fitting a straight line or plane to data. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Linear Regression is well suited to predicting prices and estimating demand. On the other hand, it is not free. Keep these risks in mind: extrapolating far beyond the data; ignoring outliers; using correlated features carelessly. Whether the trade is worth it depends on how much coefficients and residuals matter to your project.
+
+Beginners often stumble on three things. First: extrapolating far beyond the data. Second: ignoring outliers. Third: using correlated features carelessly.
+
+Reproducible experiments make it far easier to trust and improve a model.
+
+Read the official documentation for NumPy; it often explains residuals better than blog posts do. Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent.
+
+With steady practice, Linear Regression will stop feeling abstract and become a tool you reach for naturally.

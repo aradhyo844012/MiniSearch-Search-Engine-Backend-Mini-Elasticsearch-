@@ -1,0 +1,11 @@
+Redis Caching Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Redis Caching.
+
+- Definition: using an in-memory data store to keep frequently needed results close to the application.
+- Core ideas: key-value pairs; expiration times; eviction policies; cache invalidation.
+- Use it for: caching API responses; storing session data; rate limit counters.
+- Watch out for: serving stale data; caching without expiry; treating the cache as the source of truth.
+- Tools: Redis, redis-py, Memcached.
+- Related topic: Query Optimization.
+- Quick tip: practice key-value pairs until it feels automatic.

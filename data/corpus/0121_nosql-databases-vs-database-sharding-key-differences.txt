@@ -1,0 +1,15 @@
+NoSQL Databases vs Database Sharding: Key Differences
+
+NoSQL Databases and Database Sharding both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term NoSQL Databases refers to a broad family of databases that do not use the traditional relational table model. Its core ideas are document stores, key-value stores, and column families.
+
+The term Database Sharding refers to splitting a large dataset across several databases so each holds only part of it. Its core ideas are shard keys, routing, and rebalancing.
+
+The main difference is focus. NoSQL Databases puts the emphasis on document stores and key-value stores, while Database Sharding puts the emphasis on shard keys and routing.
+
+Reach for NoSQL Databases when your task involves flexible schemas or high write throughput. Reach for Database Sharding when your task involves scaling beyond one server or isolating tenants.
+
+Both have risks. With NoSQL Databases, watch for this: assuming no schema means no design. With Database Sharding, watch for this: choosing a poor shard key.
+
+In practice you do not always have to choose. Many projects use NoSQL Databases alongside Database Sharding, with tools such as MongoDB and Vitess. Good schema design is hard to change once real data and users depend on it.

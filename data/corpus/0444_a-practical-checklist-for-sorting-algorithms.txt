@@ -1,0 +1,13 @@
+A Practical Checklist for Sorting Algorithms
+
+Use this checklist before you rely on Sorting Algorithms in a project.
+
+1. Guard against this risk: assuming every sort is stable.
+2. Review the core ideas: comparison sorts, stability, divide and conquer, and in-place sorting.
+3. Confirm that your team agrees on what Sorting Algorithms should accomplish.
+4. Pick a tool to start with, such as Python sorted or Java Arrays.sort.
+5. Write at least one automated test that covers comparison sorts.
+6. Try the approach on a small case, for example ordering search results.
+7. Guard against this risk: ignoring worst-case input.
+8. Document your decisions in the project README.
+9. Guard against this risk: sorting everything when a partial order is enough.

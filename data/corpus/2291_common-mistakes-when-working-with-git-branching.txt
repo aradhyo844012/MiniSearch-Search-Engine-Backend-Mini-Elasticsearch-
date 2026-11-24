@@ -1,0 +1,11 @@
+Common Mistakes When Working with Git Branching
+
+Almost everyone makes a few avoidable errors when first working with Git Branching. If you build software for long enough, you will run into Git Branching. The term refers to using separate lines of development so that changes can be built and reviewed independently.
+
+Watch out for these problems: long-lived branches; merge conflicts left unresolved; and force-pushing shared branches.
+
+Consider the first problem: long-lived branches. A short test or a careful review comment usually catches it. The second problem is similar: merge conflicts left unresolved. The third problem is this: force-pushing shared branches. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about Git Branching helps the next developer. Practice branches with small exercises until it feels natural.
+
+With steady practice, Git Branching will stop feeling abstract and become a tool you reach for naturally.

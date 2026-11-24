@@ -1,0 +1,13 @@
+A Short History of Inverted Index
+
+Ideas behind Inverted Index developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Inverted Index covers a data structure that maps each term to the documents that contain it. Learning it well pays off across many areas of computing.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+To understand Inverted Index, start with vocabulary. Then move on to postings lists, and finally look at term frequency and document frequency. Understanding postings lists first often makes term frequency much easier to reason about.
+
+Users judge a search engine by whether the right result appears near the top.
+
+Inverted Index and BM25 Ranking are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+With steady practice, Inverted Index will stop feeling abstract and become a tool you reach for naturally.

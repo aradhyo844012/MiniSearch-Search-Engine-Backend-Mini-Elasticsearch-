@@ -1,0 +1,11 @@
+The Future of Git Branching
+
+Predicting the future is risky, but the direction of Git Branching is easy to describe in general terms. Many students first meet Git Branching in a classroom, but it matters just as much in production systems. The term refers to using separate lines of development so that changes can be built and reviewed independently.
+
+Small, frequent releases are usually safer than rare, large ones. A system that cannot be observed cannot be reliably operated.
+
+Expect tools such as Git and GitHub to keep improving, and expect newer ideas to keep building on branches. The basics, though, tend to stay the same, so time spent on merging and rebasing is rarely wasted. Anyone working on feature development will keep meeting Git Branching for years to come.
+
+Ask a teammate to explain rebasing back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Git Branching helps the next developer. Keep an eye on this risk during code review: long-lived branches.
+
+Keep experimenting, keep notes, and revisit Git Branching whenever a new project gives you a reason.

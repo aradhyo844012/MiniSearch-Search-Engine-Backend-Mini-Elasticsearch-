@@ -1,0 +1,11 @@
+A Practical Checklist for Threads and Concurrency
+
+Use this checklist before you rely on Threads and Concurrency in a project.
+
+1. Review how Threads and Concurrency interacts with Virtual Memory.
+2. Write at least one automated test that covers threads.
+3. Confirm that your team agrees on what Threads and Concurrency should accomplish.
+4. Ask a teammate to review the work, focusing on locks.
+5. Document your decisions in the project README.
+6. Pick a tool to start with, such as Python threading or Java ExecutorService.
+7. Try the approach on a small case, for example handling many requests.

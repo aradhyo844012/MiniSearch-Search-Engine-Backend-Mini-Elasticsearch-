@@ -1,0 +1,13 @@
+The Future of TF-IDF
+
+Predicting the future is risky, but the direction of TF-IDF is easy to describe in general terms. Put simply, TF-IDF covers a scoring method that weights terms by how often they appear in a document and how rare they are overall. Learning it well pays off across many areas of computing.
+
+Search quality depends on how text is prepared before it is ever indexed. Fast search comes from precomputing structures so that queries do very little work.
+
+Expect tools such as scikit-learn TfidfVectorizer and Lucene to keep improving, and expect newer ideas to keep building on term frequency. The basics, though, tend to stay the same, so time spent on inverse document frequency and weighting is rarely wasted. Anyone working on ranking search results will keep meeting TF-IDF for years to come.
+
+Measure before you optimize. Use scikit-learn TfidfVectorizer or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about TF-IDF helps the next developer. Keep an eye on this risk during code review: over-weighting common words.
+
+Keep an eye on this risk during code review: over-weighting common words. Write a few tests that show how TF-IDF should behave. Tests double as documentation for your teammates. Read the official documentation for Lucene; it often explains inverse document frequency better than blog posts do.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

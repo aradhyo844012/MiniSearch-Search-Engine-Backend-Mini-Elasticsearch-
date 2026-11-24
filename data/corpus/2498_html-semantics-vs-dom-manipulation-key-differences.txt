@@ -1,0 +1,15 @@
+HTML Semantics vs DOM Manipulation: Key Differences
+
+HTML Semantics and DOM Manipulation both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term HTML Semantics refers to the practice of using HTML elements that describe the meaning of content. Its core ideas are headings, landmarks, and lists and tables.
+
+The term DOM Manipulation refers to reading and changing the structure and content of a web page from JavaScript. Its core ideas are selectors, events, and nodes.
+
+The main difference is focus. HTML Semantics puts the emphasis on headings and landmarks, while DOM Manipulation puts the emphasis on selectors and events.
+
+Reach for HTML Semantics when your task involves accessible pages or better search engine understanding. Reach for DOM Manipulation when your task involves updating search results or handling form input.
+
+Both have risks. With HTML Semantics, watch for this: using div for everything. With DOM Manipulation, watch for this: inserting untrusted text as HTML.
+
+In practice you do not always have to choose. Many projects use HTML Semantics alongside DOM Manipulation, with tools such as HTML validators and querySelector. Browser developer tools are the fastest way to understand why a page behaves as it does.

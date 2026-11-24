@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Heaps and Priority Queues
+
+This hands-on tutorial takes you from zero to a small working experiment with Heaps and Priority Queues. If you build software for long enough, you will run into Heaps and Priority Queues. The term refers to structures that always give quick access to the smallest or largest element.
+
+Step 1: Install or open Python heapq and create a new empty project folder.
+Step 2: Read about heap property and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses sift up and sift down.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as scheduling tasks.
+Step 6: Break your example on purpose and see what happens. A good experiment: assuming a heap is fully sorted.
+
+Popular tools and libraries include Python heapq, Java PriorityQueue, and C++ priority_queue.
+
+If you are comfortable with Heaps and Priority Queues, explore Linked Lists next. The two often appear in the same project.
+
+Three issues come up again and again: assuming a heap is fully sorted; using a full sort when only the top k are needed; and mixing up min-heaps and max-heaps. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Heaps and Priority Queues pays off. Spend time on heap property and sift up and sift down, and the rest will follow.

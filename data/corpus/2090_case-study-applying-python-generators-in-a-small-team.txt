@@ -1,0 +1,9 @@
+Case Study: Applying Python Generators in a Small Team
+
+Imagine a small student team building a project that depends on Python Generators. The term Python Generators refers to functions that produce values one at a time instead of building a whole list. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning yield and lazy evaluation. Early on they hit a familiar problem: consuming a generator twice. After fixing it, they used itertools to check their work and adopted Python Generators for reading large files line by line. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Three issues come up again and again: consuming a generator twice; forgetting generators are lazy; and hiding errors until iteration. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Python Generators whenever a new project gives you a reason.

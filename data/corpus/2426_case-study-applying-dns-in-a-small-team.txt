@@ -1,0 +1,9 @@
+Case Study: Applying DNS in a Small Team
+
+Imagine a small student team building a project that depends on DNS. If you build software for long enough, you will run into DNS. The term refers to the system that translates human-friendly domain names into IP addresses.
+
+The team first spent a week learning resolvers and records. Early on they hit a familiar problem: forgetting TTLs when migrating. After fixing it, they used dig to check their work and adopted DNS for mapping domains to servers. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: forgetting TTLs when migrating; mistyped records; and assuming changes apply instantly.
+
+Keep experimenting, keep notes, and revisit DNS whenever a new project gives you a reason.

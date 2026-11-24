@@ -1,0 +1,14 @@
+How to Learn Overfitting in 30 Days
+
+You do not need months to become comfortable with Overfitting. A focused plan of thirty days is enough to build a solid base. The term Overfitting refers to when a model learns the training data too closely and performs poorly on new data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn training and validation error and model complexity, and write a one-page summary.
+Week 2: practice with scikit-learn on a small task such as diagnosing weak models.
+Week 3: build a mini project around choosing simpler models.
+Week 4: review common mistakes such as evaluating only on training data, and explain Overfitting to a friend.
+
+In practice you can start with scikit-learn, then explore early stopping or learning curves as your needs grow.
+
+A solid grasp of Overfitting also makes Gradient Descent easier to understand.
+
+In short, careful study of Overfitting pays off. Spend time on training and validation error and model complexity, and the rest will follow.

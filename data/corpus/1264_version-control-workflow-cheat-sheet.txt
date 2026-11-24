@@ -1,0 +1,11 @@
+Version Control Workflow Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Version Control Workflow.
+
+- Definition: the habits and rules a team uses to track and combine changes to code.
+- Core ideas: commits; branches; tags; release process.
+- Use it for: collaborating on shared code; tracking history; rolling back mistakes.
+- Watch out for: vague commit messages; committing large unrelated changes; rewriting shared history.
+- Tools: Git, GitHub, pre-commit hooks.
+- Quick tip: write a tiny test for branches before building anything large.
+- Related topic: Code Review.

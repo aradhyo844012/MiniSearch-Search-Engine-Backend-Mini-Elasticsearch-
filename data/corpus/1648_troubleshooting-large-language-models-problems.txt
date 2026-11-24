@@ -1,0 +1,13 @@
+Troubleshooting Large Language Models Problems
+
+When something breaks around Large Language Models, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Large Language Models. The term refers to very large neural networks trained on text that can generate and analyze language.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Hugging Face usually reveal the cause faster than guessing.
+
+Reproducible experiments make it far easier to trust and improve a model. Simple baselines are worth building first because they show what improvement is realistic.
+
+Common culprits: trusting outputs without checking; vague prompts; sending sensitive data carelessly. If none of these explains the symptom, re-read the basics of tokens and attention.
+
+In practice you can start with Hugging Face, then explore API playgrounds or evaluation harnesses as your needs grow.
+
+In short, careful study of Large Language Models pays off. Spend time on tokens and attention, and the rest will follow.

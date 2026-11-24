@@ -1,0 +1,13 @@
+How Neural Networks Connects to Model Evaluation
+
+Neural Networks and Model Evaluation are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving image recognition may also involve comparing models. In such a project, layers and accuracy often influence each other.
+
+Start with Neural Networks: the term refers to models made of layers of connected units that learn patterns from data. Then look at Model Evaluation, which refers to measuring how well a machine learning model works on data it has not seen.
+
+A useful exercise is to take one example, such as speech recognition, and explain how precision and recall would change the design.
+
+Common problems are shared too. For Neural Networks, watch for this: poor learning rate choices. For Model Evaluation, watch for this: tuning on the test set. A model is only as good as the data used to train and test it.
+
+Spend a few hours on each topic, then combine them in one small project using PyTorch or scikit-learn metrics.

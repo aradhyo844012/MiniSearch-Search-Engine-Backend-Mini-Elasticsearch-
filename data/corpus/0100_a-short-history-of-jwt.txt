@@ -1,0 +1,13 @@
+A Short History of JWT
+
+Ideas behind JWT developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet JWT in a classroom, but it matters just as much in production systems. The term refers to a compact token format that carries signed claims between a client and a server.
+
+A backend turns requests from many clients into reliable, consistent responses. Good APIs are boring, predictable and well documented.
+
+Good APIs are boring, predictable and well documented.
+
+To understand JWT, start with header, payload and signature. Then move on to claims, and finally look at expiry and signing keys. Understanding claims first often makes expiry much easier to reason about.
+
+JWT and Rate Limiting are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+Keep experimenting, keep notes, and revisit JWT whenever a new project gives you a reason.

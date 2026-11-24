@@ -1,0 +1,22 @@
+CDNs: Frequently Asked Questions
+
+Q: What is CDNs?
+A: The term CDNs refers to networks of servers around the world that deliver static content from a location close to the user.
+
+Q: How does it relate to TLS Handshake?
+A: CDNs and TLS Handshake often appear in the same project, and both belong to the area of Networking.
+
+Q: What mistakes are most common?
+A: Watch for these: caching private data; forgetting to purge old files; and misconfigured cache headers.
+
+Q: Why do developers use CDNs?
+A: Common uses include serving images and scripts, speeding up global sites, and absorbing traffic spikes.
+
+Q: What should a beginner learn first?
+A: Start with edge servers and cache rules, then move on to origin servers and cache purging.
+
+Q: Which tools help?
+A: Popular choices include Cloudflare, Akamai, and Amazon CloudFront.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with CDNs.

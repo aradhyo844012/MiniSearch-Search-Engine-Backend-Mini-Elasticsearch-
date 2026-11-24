@@ -1,0 +1,15 @@
+Kubernetes vs Monitoring and Observability: Key Differences
+
+Kubernetes and Monitoring and Observability both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Kubernetes refers to a system for deploying, scaling and managing containerized applications. Its core ideas are pods, deployments, and services.
+
+The term Monitoring and Observability refers to collecting metrics, logs and traces so you can understand how a system behaves. Its core ideas are metrics, logs, and traces.
+
+The main difference is focus. Kubernetes puts the emphasis on pods and deployments, while Monitoring and Observability puts the emphasis on metrics and logs.
+
+Reach for Kubernetes when your task involves running many containers or rolling updates. Reach for Monitoring and Observability when your task involves detecting outages or finding slow requests.
+
+Both have risks. With Kubernetes, watch for this: resource limits missing. With Monitoring and Observability, watch for this: noisy alerts.
+
+In practice you do not always have to choose. Many projects use Kubernetes alongside Monitoring and Observability, with tools such as kubectl and Prometheus. A system that cannot be observed cannot be reliably operated.

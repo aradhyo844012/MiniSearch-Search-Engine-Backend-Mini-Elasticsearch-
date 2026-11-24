@@ -1,0 +1,11 @@
+The Trade-offs of Site Reliability
+
+Every design choice has a cost, and Site Reliability is no exception. If you build software for long enough, you will run into Site Reliability. The term refers to the discipline of keeping services dependable using engineering practices.
+
+On the positive side, Site Reliability is well suited to running production services and reducing outages. On the other hand, it is not free. Keep these risks in mind: alerting on everything; blaming people instead of systems; no written postmortems. Whether the trade is worth it depends on how much service level objectives and error budgets matter to your project.
+
+Watch out for these problems: alerting on everything; blaming people instead of systems; and no written postmortems.
+
+Keep notes on what worked. A short README explaining your decisions about Site Reliability helps the next developer. Automate repetitive steps so that results are easy to reproduce.
+
+With steady practice, Site Reliability will stop feeling abstract and become a tool you reach for naturally.

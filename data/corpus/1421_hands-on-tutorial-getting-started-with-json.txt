@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with JSON
+
+This hands-on tutorial takes you from zero to a small working experiment with JSON. When people talk about JSON, they usually mean a lightweight text format for exchanging structured data between programs. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Python json module and create a new empty project folder.
+Step 2: Read about objects and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses arrays.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as API responses.
+Step 6: Break your example on purpose and see what happens. A good experiment: trailing commas.
+
+In practice you can start with Python json module, then explore jq or JSON Schema as your needs grow.
+
+Three issues come up again and again: trailing commas; large payloads; and losing precision with big numbers. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit JSON whenever a new project gives you a reason.

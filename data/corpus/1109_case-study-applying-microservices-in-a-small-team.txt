@@ -1,0 +1,11 @@
+Case Study: Applying Microservices in a Small Team
+
+Imagine a small student team building a project that depends on Microservices. The term Microservices refers to an architecture that splits an application into small services that can be deployed independently. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning service boundaries and APIs. Early on they hit a familiar problem: splitting too early. After fixing it, they used Docker to check their work and adopted Microservices for large teams working in parallel. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Microservices and JSON are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+Watch out for these problems: splitting too early; chatty services; and hard debugging across services.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Microservices.

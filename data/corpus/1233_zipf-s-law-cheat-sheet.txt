@@ -1,0 +1,11 @@
+Zipf's Law Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Zipf's Law.
+
+- Definition: the observation that a word's frequency is roughly inversely related to its rank in natural language.
+- Core ideas: rank and frequency; power laws; log-log plots; long tails.
+- Use it for: analyzing text corpora; sizing indexes; designing caches.
+- Watch out for: testing it on random text; reading too much into a perfect fit; ignoring small samples.
+- Tools: matplotlib, NumPy, pandas.
+- Quick tip: write a tiny test for power laws before building anything large.
+- Quick tip: practice rank and frequency until it feels automatic.

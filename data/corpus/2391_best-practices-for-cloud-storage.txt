@@ -1,0 +1,17 @@
+Best Practices for Cloud Storage
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Cloud Storage. The term refers to storing files and objects on remote servers that scale on demand.
+
+1. Ask a teammate to explain access policies back to you; teaching is a quick way to find gaps.
+2. Keep notes on what worked. A short README explaining your decisions about Cloud Storage helps the next developer.
+3. Practice buckets with small exercises until it feels natural.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Write a few tests that show how Cloud Storage should behave. Tests double as documentation for your teammates.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+In practice you can start with Amazon S3, then explore Google Cloud Storage or Azure Blob Storage as your needs grow.
+
+A solid grasp of Cloud Storage also makes CI/CD Pipelines easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cloud Storage.

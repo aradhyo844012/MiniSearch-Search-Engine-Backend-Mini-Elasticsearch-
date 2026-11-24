@@ -1,0 +1,24 @@
+HTML Semantics Interview Questions and Answers
+
+Prepare for these questions about HTML Semantics.
+
+Q: Explain HTML Semantics in simple words.
+A: HTML Semantics refers to the practice of using HTML elements that describe the meaning of content. I would add an example involving accessible pages.
+
+Q: How does it connect to Web Accessibility?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with better search engine understanding, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: HTML validators, browser developer tools, and axe.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: using div for everything.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as headings, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: using div for everything; skipping heading levels; and missing labels on form inputs.

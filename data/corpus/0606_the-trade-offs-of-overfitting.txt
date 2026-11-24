@@ -1,0 +1,11 @@
+The Trade-offs of Overfitting
+
+Every design choice has a cost, and Overfitting is no exception. The term Overfitting refers to when a model learns the training data too closely and performs poorly on new data. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Overfitting is well suited to diagnosing weak models and choosing simpler models. On the other hand, it is not free. Keep these risks in mind: evaluating only on training data; leaking test data; adding complexity without evidence. Whether the trade is worth it depends on how much training and validation error and model complexity matter to your project.
+
+Watch out for these problems: evaluating only on training data; leaking test data; and adding complexity without evidence.
+
+Start small by applying Overfitting to one case, such as diagnosing weak models, before rolling it out more widely. Read the official documentation for early stopping; it often explains model complexity better than blog posts do.
+
+In short, careful study of Overfitting pays off. Spend time on training and validation error and model complexity, and the rest will follow.

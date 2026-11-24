@@ -1,0 +1,11 @@
+The Future of Two-Factor Authentication
+
+Predicting the future is risky, but the direction of Two-Factor Authentication is easy to describe in general terms. The term Two-Factor Authentication refers to requiring a second proof of identity in addition to a password. This article explains the idea in plain language and points out where it fits in real projects.
+
+Never trust input that comes from outside your own code.
+
+Expect tools such as Google Authenticator and YubiKey to keep improving, and expect newer ideas to keep building on one-time codes. The basics, though, tend to stay the same, so time spent on authenticator apps and hardware keys is rarely wasted. Anyone working on protecting email accounts will keep meeting Two-Factor Authentication for years to come.
+
+Read the official documentation for YubiKey; it often explains authenticator apps better than blog posts do. Write a few tests that show how Two-Factor Authentication should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Two-Factor Authentication whenever a new project gives you a reason.

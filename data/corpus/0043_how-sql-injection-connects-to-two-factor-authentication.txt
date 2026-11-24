@@ -1,0 +1,13 @@
+How SQL Injection Connects to Two-Factor Authentication
+
+SQL Injection and Two-Factor Authentication are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving securing login forms may also involve protecting email accounts. In such a project, parameterized queries and one-time codes often influence each other.
+
+Start with SQL Injection: the term refers to an attack where malicious input changes the meaning of a database query. Then look at Two-Factor Authentication, which refers to requiring a second proof of identity in addition to a password.
+
+A useful exercise is to take one example, such as reviewing search features, and explain how authenticator apps would change the design.
+
+Common problems are shared too. For SQL Injection, watch for this: using admin accounts for the app. For Two-Factor Authentication, watch for this: no recovery plan. Keeping dependencies updated removes a large share of known risks.
+
+Spend a few hours on each topic, then combine them in one small project using prepared statements or Google Authenticator.

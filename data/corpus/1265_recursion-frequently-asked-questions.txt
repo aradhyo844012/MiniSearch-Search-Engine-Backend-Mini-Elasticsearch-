@@ -1,0 +1,22 @@
+Recursion: Frequently Asked Questions
+
+Q: What is Recursion?
+A: The term Recursion refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: missing base cases; exceeding the recursion limit; and recomputing the same values.
+
+Q: Why do developers use Recursion?
+A: Common uses include traversing trees, divide and conquer algorithms, and parsing nested data.
+
+Q: What should a beginner learn first?
+A: Start with base case and recursive case, then move on to call stack and tail calls.
+
+Q: How does it relate to Bloom Filters?
+A: Recursion and Bloom Filters often appear in the same project, and both belong to the area of Data Structures and Algorithms.
+
+Q: Which tools help?
+A: Popular choices include Python sys.setrecursionlimit, debuggers, and memoization decorators.

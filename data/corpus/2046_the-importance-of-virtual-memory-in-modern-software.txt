@@ -1,0 +1,15 @@
+The Importance of Virtual Memory in Modern Software
+
+It is easy to underestimate Virtual Memory until something goes wrong without it. When people talk about Virtual Memory, they usually mean a technique that gives each program its own address space backed by RAM and disk. It appears in almost every serious software project, whether or not developers notice it.
+
+Logs and system monitors are the first place to look when a machine misbehaves. The operating system shares limited hardware between many competing programs.
+
+You will see Virtual Memory whenever people work on isolating programs or running programs larger than RAM. It also helps with memory-mapped files.
+
+Logs and system monitors are the first place to look when a machine misbehaves.
+
+Beginners often stumble on three things. First: thrashing when memory is short. Second: ignoring page fault costs. Third: assuming memory is always available.
+
+Virtual Memory and Process Scheduling are closely related, so learning both gives a fuller picture of Operating Systems.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Virtual Memory.

@@ -1,0 +1,13 @@
+A Practical Checklist for Virtual Memory
+
+Use this checklist before you rely on Virtual Memory in a project.
+
+1. Confirm that your team agrees on what Virtual Memory should accomplish.
+2. Guard against this risk: assuming memory is always available.
+3. Ask a teammate to review the work, focusing on page tables.
+4. Review the core ideas: pages, page tables, page faults, and swapping.
+5. Try the approach on a small case, for example isolating programs.
+6. Measure results before and after any change.
+7. Guard against this risk: ignoring page fault costs.
+8. Review how Virtual Memory interacts with Process Scheduling.
+9. Guard against this risk: thrashing when memory is short.

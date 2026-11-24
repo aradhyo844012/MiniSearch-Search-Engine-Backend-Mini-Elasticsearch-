@@ -1,0 +1,11 @@
+Common Mistakes When Working with NoSQL Databases
+
+Almost everyone makes a few avoidable errors when first working with NoSQL Databases. The term NoSQL Databases refers to a broad family of databases that do not use the traditional relational table model. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: assuming no schema means no design. Second: weak consistency surprises. Third: expensive cross-collection queries.
+
+Consider the first problem: assuming no schema means no design. A short test or a careful review comment usually catches it. The second problem is similar: weak consistency surprises. The third problem is this: expensive cross-collection queries. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for Cassandra; it often explains key-value stores better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with NoSQL Databases.

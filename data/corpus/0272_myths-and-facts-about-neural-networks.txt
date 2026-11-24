@@ -1,0 +1,17 @@
+Myths and Facts About Neural Networks
+
+A lot of folklore has built up around Neural Networks. Some of it is true, and some of it is not. The term Neural Networks refers to models made of layers of connected units that learn patterns from data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Neural Networks is only for experts.
+Fact: beginners can use it effectively once they understand layers and weights.
+
+Myth: Neural Networks is only useful in very large systems.
+Fact: small projects such as image recognition benefit as well.
+
+Myth: one tool does everything.
+Fact: PyTorch, TensorFlow, and Keras make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Neural Networks are always obvious.
+Fact: subtle problems happen, for example too little training data.
+
+With steady practice, Neural Networks will stop feeling abstract and become a tool you reach for naturally.

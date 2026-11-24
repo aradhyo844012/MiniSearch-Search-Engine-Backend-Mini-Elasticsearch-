@@ -1,0 +1,9 @@
+Case Study: Applying Binary Search in a Small Team
+
+Imagine a small student team building a project that depends on Binary Search. Put simply, Binary Search covers a fast way to find an item in sorted data by repeatedly halving the search range. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning sorted input and low and high bounds. Early on they hit a familiar problem: off-by-one errors. After fixing it, they used Python bisect to check their work and adopted Binary Search for looking up values in sorted arrays. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data.
+
+Keep experimenting, keep notes, and revisit Binary Search whenever a new project gives you a reason.

@@ -1,0 +1,21 @@
+BM25 Ranking Interview Questions and Answers
+
+Prepare for these questions about BM25 Ranking.
+
+Q: Explain BM25 Ranking in simple words.
+A: BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. I would add an example involving ranking search results.
+
+Q: What problems have you seen in practice?
+A: untuned parameters; ignoring field boundaries; and comparing scores across different queries.
+
+Q: Where would you apply it first?
+A: I would start with enterprise search, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: Elasticsearch, rank_bm25, and Lucene.
+
+Q: How does it connect to Stop Words?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: untuned parameters.

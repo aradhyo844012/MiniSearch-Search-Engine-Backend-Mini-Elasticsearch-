@@ -1,0 +1,11 @@
+Web Accessibility Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Web Accessibility.
+
+- Definition: designing websites so that people with different abilities can use them.
+- Core ideas: semantic HTML; ARIA attributes; keyboard navigation; color contrast.
+- Use it for: screen reader support; keyboard-only use; readable forms.
+- Watch out for: low contrast text; missing focus indicators; images without alternative text.
+- Tools: axe DevTools, WAVE, screen readers.
+- Quick tip: write a tiny test for ARIA attributes before building anything large.
+- Quick tip: practice semantic HTML until it feels automatic.

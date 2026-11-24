@@ -1,0 +1,17 @@
+Best Practices for IP Addressing and Subnets
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into IP Addressing and Subnets. The term refers to the rules for numbering devices on a network and dividing networks into smaller parts.
+
+Network failures are normal, so well-designed software expects timeouts and retries. Every web request crosses several layers of protocols before it reaches an application.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Start small by applying IP Addressing and Subnets to one case, such as planning office networks, before rolling it out more widely.
+3. Measure before you optimize. Use ipcalc or a simple timer to see where time is actually spent.
+4. Keep notes on what worked. A short README explaining your decisions about IP Addressing and Subnets helps the next developer.
+5. Read the official documentation for ping; it often explains subnet masks better than blog posts do.
+
+Popular tools and libraries include ipcalc, ping, and traceroute.
+
+If you are comfortable with IP Addressing and Subnets, explore WebSockets next. The two often appear in the same project.
+
+In short, careful study of IP Addressing and Subnets pays off. Spend time on IPv4 and IPv6 and subnet masks, and the rest will follow.

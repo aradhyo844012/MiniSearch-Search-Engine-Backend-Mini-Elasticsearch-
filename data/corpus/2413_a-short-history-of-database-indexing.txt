@@ -1,0 +1,11 @@
+A Short History of Database Indexing
+
+Ideas behind Database Indexing developed gradually as engineers ran into practical limits and shared what they learned. The term Database Indexing refers to auxiliary structures that let a database find rows without scanning a whole table. This article explains the idea in plain language and points out where it fits in real projects.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+To understand Database Indexing, start with B-tree indexes. Then move on to selectivity, and finally look at composite indexes and covering indexes. Sketching covering indexes on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of Database Indexing also makes NoSQL Databases easier to understand.
+
+With steady practice, Database Indexing will stop feeling abstract and become a tool you reach for naturally.

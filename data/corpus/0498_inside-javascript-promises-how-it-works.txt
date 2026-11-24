@@ -1,0 +1,15 @@
+Inside JavaScript Promises: How It Works
+
+This article walks through what happens inside JavaScript Promises, step by step. If you build software for long enough, you will run into JavaScript Promises. The term refers to objects that represent a value that will be available later, after an asynchronous task finishes.
+
+To understand JavaScript Promises, start with pending and resolved states. Then move on to then and catch, and finally look at async and await and chaining. Understanding then and catch first often makes async and await much easier to reason about.
+
+First, pending and resolved states sets the stage for everything else. Next, then and catch builds on it. After that, async and await comes into play, and finally chaining ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Accessible design helps everyone, including people on slow connections or small screens. Small improvements in markup and styling often have a large effect on usability.
+
+Ask a teammate to explain async and await back to you; teaching is a quick way to find gaps. Read the official documentation for Node.js; it often explains then and catch better than blog posts do.
+
+JavaScript Promises and DOM Manipulation are closely related, so learning both gives a fuller picture of Web Development.
+
+With steady practice, JavaScript Promises will stop feeling abstract and become a tool you reach for naturally.

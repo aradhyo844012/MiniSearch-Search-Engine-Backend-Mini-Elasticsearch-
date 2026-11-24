@@ -1,0 +1,11 @@
+Common Mistakes When Working with JavaScript Promises
+
+Almost everyone makes a few avoidable errors when first working with JavaScript Promises. Many students first meet JavaScript Promises in a classroom, but it matters just as much in production systems. The term refers to objects that represent a value that will be available later, after an asynchronous task finishes.
+
+Three issues come up again and again: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: forgetting to handle rejections. A short test or a careful review comment usually catches it. The second problem is similar: forgetting to return promises. The third problem is this: awaiting inside slow loops. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use fetch API or a simple timer to see where time is actually spent. Read the official documentation for Node.js; it often explains then and catch better than blog posts do. Ask a teammate to explain async and await back to you; teaching is a quick way to find gaps.
+
+With steady practice, JavaScript Promises will stop feeling abstract and become a tool you reach for naturally.

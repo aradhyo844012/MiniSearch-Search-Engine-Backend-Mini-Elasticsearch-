@@ -1,0 +1,21 @@
+Tokenization Interview Questions and Answers
+
+Prepare for these questions about Tokenization.
+
+Q: Explain Tokenization in simple words.
+A: Tokenization refers to splitting text into smaller units such as words that a program can count and compare. I would add an example involving indexing documents.
+
+Q: How does it connect to Edit Distance?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as lowercasing, and add tests aimed at the known risks.
+
+Q: Which tools have you used?
+A: Python re module, NLTK, and spaCy.
+
+Q: Where would you apply it first?
+A: I would start with preparing text for models, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: lowercasing, splitting on punctuation, stop words, and normalization.

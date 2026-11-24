@@ -1,0 +1,11 @@
+The Future of Tries
+
+Predicting the future is risky, but the direction of Tries is easy to describe in general terms. When people talk about Tries, they usually mean tree structures that store strings character by character so shared prefixes are stored once. It appears in almost every serious software project, whether or not developers notice it.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Expect tools such as Python dict-based tries and Java TreeMap to keep improving, and expect newer ideas to keep building on prefix sharing. The basics, though, tend to stay the same, so time spent on nodes and edges and end-of-word markers is rarely wasted. Anyone working on autocomplete will keep meeting Tries for years to come.
+
+Practice prefix sharing with small exercises until it feels natural. Write a few tests that show how Tries should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Python dict-based tries or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Tries whenever a new project gives you a reason.

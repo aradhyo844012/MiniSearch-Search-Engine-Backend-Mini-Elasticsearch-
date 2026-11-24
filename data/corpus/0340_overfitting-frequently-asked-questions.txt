@@ -1,0 +1,22 @@
+Overfitting: Frequently Asked Questions
+
+Q: What is Overfitting?
+A: The term Overfitting refers to when a model learns the training data too closely and performs poorly on new data.
+
+Q: What should a beginner learn first?
+A: Start with training and validation error and model complexity, then move on to regularization and cross-validation.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: evaluating only on training data; leaking test data; and adding complexity without evidence.
+
+Q: How does it relate to Model Evaluation?
+A: Overfitting and Model Evaluation often appear in the same project, and both belong to the area of Machine Learning.
+
+Q: Why do developers use Overfitting?
+A: Common uses include diagnosing weak models, choosing simpler models, and tuning hyperparameters.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Overfitting.

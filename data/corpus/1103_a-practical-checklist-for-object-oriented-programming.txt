@@ -1,0 +1,13 @@
+A Practical Checklist for Object-Oriented Programming
+
+Use this checklist before you rely on Object-Oriented Programming in a project.
+
+1. Guard against this risk: classes that do too much.
+2. Write at least one automated test that covers classes.
+3. Document your decisions in the project README.
+4. Pick a tool to start with, such as Python classes or Java.
+5. Measure results before and after any change.
+6. Ask a teammate to review the work, focusing on inheritance.
+7. Confirm that your team agrees on what Object-Oriented Programming should accomplish.
+8. Guard against this risk: exposing internal state.
+9. Try the approach on a small case, for example modeling real-world entities.

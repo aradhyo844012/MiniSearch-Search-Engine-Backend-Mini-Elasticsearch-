@@ -1,0 +1,19 @@
+Myths and Facts About JWT
+
+A lot of folklore has built up around JWT. Some of it is true, and some of it is not. Many students first meet JWT in a classroom, but it matters just as much in production systems. The term refers to a compact token format that carries signed claims between a client and a server.
+
+A solid grasp of JWT also makes Caching Strategies easier to understand.
+
+Myth: JWT is only for experts.
+Fact: beginners can use it effectively once they understand header, payload and signature and claims.
+
+Myth: JWT is only useful in very large systems.
+Fact: small projects such as stateless API authentication benefit as well.
+
+Myth: one tool does everything.
+Fact: jwt.io, PyJWT, and jsonwebtoken make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with JWT are always obvious.
+Fact: subtle problems happen, for example storing tokens in insecure places.
+
+With steady practice, JWT will stop feeling abstract and become a tool you reach for naturally.

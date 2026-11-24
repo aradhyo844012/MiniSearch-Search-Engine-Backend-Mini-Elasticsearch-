@@ -1,0 +1,16 @@
+Type Systems: Frequently Asked Questions
+
+Q: What is Type Systems?
+A: The term Type Systems refers to the rules a language uses to classify values and catch mistakes.
+
+Q: Why do developers use Type Systems?
+A: Common uses include catching bugs early, documenting interfaces, and refactoring large codebases.
+
+Q: What mistakes are most common?
+A: Watch for these: treating annotations as guarantees at runtime; overusing any types; and fighting the type checker.
+
+Q: How does it relate to Error Handling?
+A: Type Systems and Error Handling often appear in the same project, and both belong to the area of Programming.
+
+Q: Which tools help?
+A: Popular choices include mypy, TypeScript, and Pyright.

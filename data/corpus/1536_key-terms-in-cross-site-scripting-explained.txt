@@ -1,0 +1,12 @@
+Key Terms in Cross-Site Scripting Explained
+
+Clear vocabulary makes Cross-Site Scripting much easier to learn, so here are the key terms in plain language. When people talk about Cross-Site Scripting, they usually mean a vulnerability where attackers get a site to run their scripts in other users' browsers. It appears in almost every serious software project, whether or not developers notice it.
+
+reflected XSS: a key term in Cross-Site Scripting. Practice with a small example to make the meaning stick.
+stored XSS: a key term in Cross-Site Scripting. Beginners often confuse it with related terms, so define it in your own words early.
+output encoding: a key term in Cross-Site Scripting. It matters because it shapes how you design, test and explain your solution.
+content security policy: a key term in Cross-Site Scripting. It matters because it shapes how you design, test and explain your solution.
+
+Keeping dependencies updated removes a large share of known risks. Security is a habit applied throughout development, not a feature added at the end.
+
+With steady practice, Cross-Site Scripting will stop feeling abstract and become a tool you reach for naturally.

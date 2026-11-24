@@ -1,0 +1,17 @@
+Best Practices for Big O Notation
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Big O Notation, they usually mean a way of describing how running time or memory grows as the input size grows. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Measure before you optimize. Use Python timeit or a simple timer to see where time is actually spent.
+2. Start small by applying Big O Notation to one case, such as comparing algorithms, before rolling it out more widely.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Keep an eye on this risk during code review: ignoring constant factors entirely.
+5. Read the official documentation for big-O cheat sheets; it often explains constant, linear and logarithmic growth better than blog posts do.
+
+Big O Notation and Bloom Filters are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+In practice you can start with Python timeit, then explore big-O cheat sheets or profilers as your needs grow.
+
+A solid grasp of Big O Notation also makes Bloom Filters easier to understand.
+
+In short, careful study of Big O Notation pays off. Spend time on upper bounds and constant, linear and logarithmic growth, and the rest will follow.

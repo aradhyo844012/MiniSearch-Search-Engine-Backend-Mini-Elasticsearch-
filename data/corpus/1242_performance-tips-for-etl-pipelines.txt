@@ -1,0 +1,15 @@
+Performance Tips for ETL Pipelines
+
+Fast software rarely happens by accident, and ETL Pipelines offers several places to gain speed. Put simply, ETL Pipelines covers processes that extract data from sources, transform it and load it into a destination. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use Apache Airflow or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to extraction and transformation, because they usually decide how well things scale. For workloads such as building reports, even small improvements add up quickly.
+
+The vocabulary of ETL Pipelines is small. Learn extraction, transformation, loading, and scheduling, and most documentation will start to make sense. A good way to remember extraction is to connect it with a concrete example from your own code.
+
+Ask a teammate to explain loading back to you; teaching is a quick way to find gaps. Write a few tests that show how ETL Pipelines should behave. Tests double as documentation for your teammates.
+
+Beginners often stumble on three things. First: silent data loss. Second: no retry logic. Third: poor error reporting.
+
+A solid grasp of ETL Pipelines also makes Pandas DataFrames easier to understand.
+
+With steady practice, ETL Pipelines will stop feeling abstract and become a tool you reach for naturally.

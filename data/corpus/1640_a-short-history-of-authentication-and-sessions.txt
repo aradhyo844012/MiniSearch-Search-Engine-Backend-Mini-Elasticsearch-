@@ -1,0 +1,11 @@
+A Short History of Authentication and Sessions
+
+Ideas behind Authentication and Sessions developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into Authentication and Sessions. The term refers to the process of proving who a user is and remembering them between requests.
+
+Good APIs are boring, predictable and well documented. Failures between services are normal, so retries and timeouts need careful design.
+
+To understand Authentication and Sessions, start with credentials. Then move on to session cookies, and finally look at tokens and expiration. Understanding session cookies first often makes tokens much easier to reason about.
+
+Authentication and Sessions and JWT are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+With steady practice, Authentication and Sessions will stop feeling abstract and become a tool you reach for naturally.

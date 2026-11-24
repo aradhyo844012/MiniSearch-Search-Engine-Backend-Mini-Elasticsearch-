@@ -1,0 +1,11 @@
+The Trade-offs of Type Systems
+
+Every design choice has a cost, and Type Systems is no exception. Many students first meet Type Systems in a classroom, but it matters just as much in production systems. The term refers to the rules a language uses to classify values and catch mistakes.
+
+On the positive side, Type Systems is well suited to catching bugs early and documenting interfaces. On the other hand, it is not free. Keep these risks in mind: treating annotations as guarantees at runtime; overusing any types; fighting the type checker. Whether the trade is worth it depends on how much static and dynamic typing and type inference matter to your project.
+
+Beginners often stumble on three things. First: treating annotations as guarantees at runtime. Second: overusing any types. Third: fighting the type checker.
+
+Practice static and dynamic typing with small exercises until it feels natural. Measure before you optimize. Use mypy or a simple timer to see where time is actually spent.
+
+With steady practice, Type Systems will stop feeling abstract and become a tool you reach for naturally.

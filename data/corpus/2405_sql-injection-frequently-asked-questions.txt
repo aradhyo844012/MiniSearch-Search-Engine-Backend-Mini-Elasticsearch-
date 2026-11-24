@@ -1,0 +1,22 @@
+SQL Injection: Frequently Asked Questions
+
+Q: What is SQL Injection?
+A: The term SQL Injection refers to an attack where malicious input changes the meaning of a database query.
+
+Q: What should a beginner learn first?
+A: Start with parameterized queries and input validation, then move on to least privilege and escaping.
+
+Q: Which tools help?
+A: Popular choices include prepared statements, OWASP cheat sheets, and sqlmap in test environments.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Why do developers use SQL Injection?
+A: Common uses include securing login forms, reviewing search features, and auditing legacy code.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with SQL Injection.
+
+Q: What mistakes are most common?
+A: Watch for these: building queries with string concatenation; using admin accounts for the app; and revealing detailed database errors.

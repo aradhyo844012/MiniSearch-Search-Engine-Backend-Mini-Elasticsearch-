@@ -1,0 +1,17 @@
+Myths and Facts About Pandas DataFrames
+
+A lot of folklore has built up around Pandas DataFrames. Some of it is true, and some of it is not. Put simply, Pandas DataFrames covers table-like structures in Python for loading, cleaning and analyzing data. Learning it well pays off across many areas of computing.
+
+Myth: Pandas DataFrames is only for experts.
+Fact: beginners can use it effectively once they understand rows and columns and indexing.
+
+Myth: Pandas DataFrames is only useful in very large systems.
+Fact: small projects such as loading CSV files benefit as well.
+
+Myth: one tool does everything.
+Fact: pandas, Jupyter, and NumPy make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Pandas DataFrames are always obvious.
+Fact: subtle problems happen, for example chained assignment surprises.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Pandas DataFrames.

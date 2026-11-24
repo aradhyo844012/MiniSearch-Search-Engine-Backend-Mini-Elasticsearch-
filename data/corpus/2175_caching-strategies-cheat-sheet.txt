@@ -1,0 +1,11 @@
+Caching Strategies Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Caching Strategies.
+
+- Definition: approaches for storing computed results so they can be reused instead of recalculated.
+- Core ideas: cache-aside; write-through; time to live; invalidation.
+- Use it for: speeding up read-heavy APIs; reducing database load; serving repeated searches.
+- Watch out for: stale data; cache stampedes; unbounded memory use.
+- Tools: Redis, Memcached, HTTP cache headers.
+- Related topic: Rate Limiting.
+- Quick tip: practice cache-aside until it feels automatic.

@@ -1,0 +1,18 @@
+NoSQL Databases Interview Questions and Answers
+
+Prepare for these questions about NoSQL Databases.
+
+Q: Explain NoSQL Databases in simple words.
+A: NoSQL Databases refers to a broad family of databases that do not use the traditional relational table model. I would add an example involving flexible schemas.
+
+Q: Which tools have you used?
+A: MongoDB, Cassandra, and Redis.
+
+Q: Where would you apply it first?
+A: I would start with high write throughput, because it is small enough to test and large enough to show the benefit.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as document stores, and add tests aimed at the known risks.
+
+Q: How does it connect to Database Replication?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.

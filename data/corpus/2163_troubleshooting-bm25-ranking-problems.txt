@@ -1,0 +1,11 @@
+Troubleshooting BM25 Ranking Problems
+
+When something breaks around BM25 Ranking, a calm and systematic approach saves the most time. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Elasticsearch usually reveal the cause faster than guessing.
+
+Common culprits: untuned parameters; ignoring field boundaries; comparing scores across different queries. If none of these explains the symptom, re-read the basics of term saturation and document length normalization.
+
+In practice you can start with Elasticsearch, then explore rank_bm25 or Lucene as your needs grow.
+
+With steady practice, BM25 Ranking will stop feeling abstract and become a tool you reach for naturally.

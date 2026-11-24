@@ -1,0 +1,13 @@
+How Linked Lists Connects to Recursion
+
+Linked Lists and Recursion are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving queues and stacks may also involve traversing trees. In such a project, nodes and base case often influence each other.
+
+Start with Linked Lists: the term refers to chains of nodes where each node stores a value and a reference to the next node. Then look at Recursion, which refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+A useful exercise is to take one example, such as undo histories, and explain how recursive case would change the design.
+
+Common problems are shared too. For Linked Lists, watch for this: off-by-one errors during insertion. For Recursion, watch for this: exceeding the recursion limit. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Spend a few hours on each topic, then combine them in one small project using Python collections.deque or Python sys.setrecursionlimit.

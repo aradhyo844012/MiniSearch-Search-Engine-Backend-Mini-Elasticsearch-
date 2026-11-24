@@ -1,0 +1,11 @@
+Type Systems Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Type Systems.
+
+- Definition: the rules a language uses to classify values and catch mistakes.
+- Core ideas: static and dynamic typing; type inference; generics; type annotations.
+- Use it for: catching bugs early; documenting interfaces; refactoring large codebases.
+- Watch out for: treating annotations as guarantees at runtime; overusing any types; fighting the type checker.
+- Tools: mypy, TypeScript, Pyright.
+- Related topic: Python Basics.
+- Quick tip: practice static and dynamic typing until it feels automatic.

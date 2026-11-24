@@ -1,0 +1,15 @@
+Best Practices for Version Control Workflow
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Version Control Workflow. The term refers to the habits and rules a team uses to track and combine changes to code.
+
+1. Keep an eye on this risk during code review: vague commit messages.
+2. Keep notes on what worked. A short README explaining your decisions about Version Control Workflow helps the next developer.
+3. Practice commits with small exercises until it feels natural.
+4. Read the official documentation for GitHub; it often explains branches better than blog posts do.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+Popular tools and libraries include Git, GitHub, and pre-commit hooks.
+
+Version Control Workflow and Unit Testing are closely related, so learning both gives a fuller picture of Software Engineering.
+
+Keep experimenting, keep notes, and revisit Version Control Workflow whenever a new project gives you a reason.

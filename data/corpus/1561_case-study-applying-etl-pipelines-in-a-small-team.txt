@@ -1,0 +1,9 @@
+Case Study: Applying ETL Pipelines in a Small Team
+
+Imagine a small student team building a project that depends on ETL Pipelines. Many students first meet ETL Pipelines in a classroom, but it matters just as much in production systems. The term refers to processes that extract data from sources, transform it and load it into a destination.
+
+The team first spent a week learning extraction and transformation. Early on they hit a familiar problem: silent data loss. After fixing it, they used Apache Airflow to check their work and adopted ETL Pipelines for building reports. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: silent data loss. Second: no retry logic. Third: poor error reporting.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with ETL Pipelines.

@@ -1,0 +1,13 @@
+Performance Tips for Big O Notation
+
+Fast software rarely happens by accident, and Big O Notation offers several places to gain speed. Put simply, Big O Notation covers a way of describing how running time or memory grows as the input size grows. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use Python timeit or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to upper bounds and constant, linear and logarithmic growth, because they usually decide how well things scale. For workloads such as comparing algorithms, even small improvements add up quickly.
+
+The vocabulary of Big O Notation is small. Learn upper bounds, constant, linear and logarithmic growth, worst case, and amortized cost, and most documentation will start to make sense. A good way to remember upper bounds is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Big O Notation should behave. Tests double as documentation for your teammates. Practice upper bounds with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Three issues come up again and again: ignoring constant factors entirely; mixing up best and worst case; and measuring only tiny inputs. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Big O Notation whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+The Trade-offs of Neural Networks
+
+Every design choice has a cost, and Neural Networks is no exception. Put simply, Neural Networks covers models made of layers of connected units that learn patterns from data. Learning it well pays off across many areas of computing.
+
+Reproducible experiments make it far easier to trust and improve a model. Results should always be checked on data the model has never seen.
+
+On the positive side, Neural Networks is well suited to image recognition and speech recognition. On the other hand, it is not free. Keep these risks in mind: too little training data; poor learning rate choices; not monitoring validation loss. Whether the trade is worth it depends on how much layers and weights matter to your project.
+
+Three issues come up again and again: too little training data; poor learning rate choices; and not monitoring validation loss. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Practice layers with small exercises until it feels natural.
+
+With steady practice, Neural Networks will stop feeling abstract and become a tool you reach for naturally.

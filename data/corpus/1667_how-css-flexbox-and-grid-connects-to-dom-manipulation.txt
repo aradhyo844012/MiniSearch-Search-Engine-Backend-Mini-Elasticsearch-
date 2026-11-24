@@ -1,0 +1,13 @@
+How CSS Flexbox and Grid Connects to DOM Manipulation
+
+CSS Flexbox and Grid and DOM Manipulation are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving navigation bars may also involve updating search results. In such a project, flex containers and selectors often influence each other.
+
+Start with CSS Flexbox and Grid: the term refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. Then look at DOM Manipulation, which refers to reading and changing the structure and content of a web page from JavaScript.
+
+A useful exercise is to take one example, such as card layouts, and explain how events would change the design.
+
+Common problems are shared too. For CSS Flexbox and Grid, watch for this: fixed widths that break on phones. For DOM Manipulation, watch for this: querying the DOM inside tight loops. Web pages must work across many browsers, devices and network conditions.
+
+Spend a few hours on each topic, then combine them in one small project using browser grid inspector or querySelector.

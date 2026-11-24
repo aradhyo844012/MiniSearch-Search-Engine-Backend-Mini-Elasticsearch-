@@ -1,0 +1,13 @@
+The Future of Authentication and Sessions
+
+Predicting the future is risky, but the direction of Authentication and Sessions is easy to describe in general terms. The term Authentication and Sessions refers to the process of proving who a user is and remembering them between requests. This article explains the idea in plain language and points out where it fits in real projects.
+
+A solid grasp of Authentication and Sessions also makes REST APIs easier to understand.
+
+Good APIs are boring, predictable and well documented.
+
+Expect tools such as Flask-Login and Django auth to keep improving, and expect newer ideas to keep building on credentials. The basics, though, tend to stay the same, so time spent on session cookies and tokens is rarely wasted. Anyone working on logging in to web apps will keep meeting Authentication and Sessions for years to come.
+
+Keep an eye on this risk during code review: storing session IDs insecurely. Measure before you optimize. Use Flask-Login or a simple timer to see where time is actually spent. Start small by applying Authentication and Sessions to one case, such as logging in to web apps, before rolling it out more widely.
+
+With steady practice, Authentication and Sessions will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,22 @@
+Caching Strategies: Frequently Asked Questions
+
+Q: What is Caching Strategies?
+A: The term Caching Strategies refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+Q: How does it relate to Authentication and Sessions?
+A: Caching Strategies and Authentication and Sessions often appear in the same project, and both belong to the area of Backend and APIs.
+
+Q: Why do developers use Caching Strategies?
+A: Common uses include speeding up read-heavy APIs, reducing database load, and serving repeated searches.
+
+Q: What mistakes are most common?
+A: Watch for these: stale data; cache stampedes; and unbounded memory use.
+
+Q: Which tools help?
+A: Popular choices include Redis, Memcached, and HTTP cache headers.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Caching Strategies.

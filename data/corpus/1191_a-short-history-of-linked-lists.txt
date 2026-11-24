@@ -1,0 +1,11 @@
+A Short History of Linked Lists
+
+Ideas behind Linked Lists developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Linked Lists covers chains of nodes where each node stores a value and a reference to the next node. Learning it well pays off across many areas of computing.
+
+Interviewers and engineers alike value clear reasoning about time and space costs. Choosing the right data structure often matters more than clever tuning later.
+
+To understand Linked Lists, start with nodes. Then move on to head and tail pointers, and finally look at singly and doubly linked lists and pointer updates. Understanding head and tail pointers first often makes singly and doubly linked lists much easier to reason about.
+
+If you are comfortable with Linked Lists, explore Heaps and Priority Queues next. The two often appear in the same project.
+
+With steady practice, Linked Lists will stop feeling abstract and become a tool you reach for naturally.

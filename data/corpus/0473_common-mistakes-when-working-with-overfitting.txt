@@ -1,0 +1,13 @@
+Common Mistakes When Working with Overfitting
+
+Almost everyone makes a few avoidable errors when first working with Overfitting. If you build software for long enough, you will run into Overfitting. The term refers to when a model learns the training data too closely and performs poorly on new data.
+
+A solid grasp of Overfitting also makes Large Language Models easier to understand.
+
+Watch out for these problems: evaluating only on training data; leaking test data; and adding complexity without evidence.
+
+Consider the first problem: evaluating only on training data. A short test or a careful review comment usually catches it. The second problem is similar: leaking test data. The third problem is this: adding complexity without evidence. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for early stopping; it often explains model complexity better than blog posts do. Ask a teammate to explain regularization back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Overfitting whenever a new project gives you a reason.

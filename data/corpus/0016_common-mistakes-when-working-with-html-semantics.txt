@@ -1,0 +1,13 @@
+Common Mistakes When Working with HTML Semantics
+
+Almost everyone makes a few avoidable errors when first working with HTML Semantics. If you build software for long enough, you will run into HTML Semantics. The term refers to the practice of using HTML elements that describe the meaning of content.
+
+Accessible design helps everyone, including people on slow connections or small screens. Web pages must work across many browsers, devices and network conditions.
+
+Beginners often stumble on three things. First: using div for everything. Second: skipping heading levels. Third: missing labels on form inputs.
+
+Consider the first problem: using div for everything. A short test or a careful review comment usually catches it. The second problem is similar: skipping heading levels. The third problem is this: missing labels on form inputs. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Practice headings with small exercises until it feels natural. Start small by applying HTML Semantics to one case, such as accessible pages, before rolling it out more widely.
+
+With steady practice, HTML Semantics will stop feeling abstract and become a tool you reach for naturally.

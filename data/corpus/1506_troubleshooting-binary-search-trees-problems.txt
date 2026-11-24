@@ -1,0 +1,13 @@
+Troubleshooting Binary Search Trees Problems
+
+When something breaks around Binary Search Trees, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Binary Search Trees. The term refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and AVL trees usually reveal the cause faster than guessing.
+
+Start small by applying Binary Search Trees to one case, such as ordered lookups, before rolling it out more widely. Read the official documentation for red-black trees; it often explains in-order traversal better than blog posts do. Write a few tests that show how Binary Search Trees should behave. Tests double as documentation for your teammates.
+
+Common culprits: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; recursive code can overflow the stack on deep trees. If none of these explains the symptom, re-read the basics of nodes and links and in-order traversal.
+
+In practice you can start with AVL trees, then explore red-black trees or Java TreeMap as your needs grow.
+
+Keep experimenting, keep notes, and revisit Binary Search Trees whenever a new project gives you a reason.

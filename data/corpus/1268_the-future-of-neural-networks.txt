@@ -1,0 +1,13 @@
+The Future of Neural Networks
+
+Predicting the future is risky, but the direction of Neural Networks is easy to describe in general terms. The term Neural Networks refers to models made of layers of connected units that learn patterns from data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Write a few tests that show how Neural Networks should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce.
+
+A model is only as good as the data used to train and test it. Results should always be checked on data the model has never seen.
+
+Expect tools such as PyTorch and TensorFlow to keep improving, and expect newer ideas to keep building on layers. The basics, though, tend to stay the same, so time spent on weights and activation functions is rarely wasted. Anyone working on image recognition will keep meeting Neural Networks for years to come.
+
+Start small by applying Neural Networks to one case, such as image recognition, before rolling it out more widely. Keep an eye on this risk during code review: too little training data. Practice layers with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Neural Networks whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+How Heaps and Priority Queues Connects to Graph Traversal
+
+Heaps and Priority Queues and Graph Traversal are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving scheduling tasks may also involve finding shortest paths in unweighted graphs. In such a project, heap property and adjacency lists often influence each other.
+
+Start with Heaps and Priority Queues: the term refers to structures that always give quick access to the smallest or largest element. Then look at Graph Traversal, which refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first.
+
+A useful exercise is to take one example, such as selecting the top results from many candidates, and explain how breadth-first search would change the design.
+
+Common problems are shared too. For Heaps and Priority Queues, watch for this: using a full sort when only the top k are needed. For Graph Traversal, watch for this: using recursion on very deep graphs. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python heapq or NetworkX.

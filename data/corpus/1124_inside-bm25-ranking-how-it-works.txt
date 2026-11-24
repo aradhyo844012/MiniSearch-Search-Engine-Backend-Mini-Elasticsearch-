@@ -1,0 +1,15 @@
+Inside BM25 Ranking: How It Works
+
+This article walks through what happens inside BM25 Ranking, step by step. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand BM25 Ranking, start with term saturation. Then move on to document length normalization, and finally look at k1 and b parameters and inverse document frequency. Understanding document length normalization first often makes k1 and b parameters much easier to reason about.
+
+First, term saturation sets the stage for everything else. Next, document length normalization builds on it. After that, k1 and b parameters comes into play, and finally inverse document frequency ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Search quality depends on how text is prepared before it is ever indexed. Users judge a search engine by whether the right result appears near the top.
+
+If you are comfortable with BM25 Ranking, explore TF-IDF next. The two often appear in the same project.
+
+Practice term saturation with small exercises until it feels natural. Read the official documentation for rank_bm25; it often explains document length normalization better than blog posts do. Keep notes on what worked. A short README explaining your decisions about BM25 Ranking helps the next developer.
+
+Keep experimenting, keep notes, and revisit BM25 Ranking whenever a new project gives you a reason.

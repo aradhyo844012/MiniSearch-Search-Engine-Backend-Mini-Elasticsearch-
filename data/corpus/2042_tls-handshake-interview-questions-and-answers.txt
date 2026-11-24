@@ -1,0 +1,18 @@
+TLS Handshake Interview Questions and Answers
+
+Prepare for these questions about TLS Handshake.
+
+Q: Explain TLS Handshake in simple words.
+A: TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. I would add an example involving securing websites.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as certificates, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: certificates, cipher suites, session keys, and certificate authorities.
+
+Q: What problems have you seen in practice?
+A: expired certificates; disabling certificate validation; and using outdated protocol versions.
+
+Q: Which tools have you used?
+A: OpenSSL, Let's Encrypt, and SSL Labs.

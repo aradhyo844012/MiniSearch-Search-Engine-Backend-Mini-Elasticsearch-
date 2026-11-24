@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with SQL Injection
+
+This hands-on tutorial takes you from zero to a small working experiment with SQL Injection. When people talk about SQL Injection, they usually mean an attack where malicious input changes the meaning of a database query. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open prepared statements and create a new empty project folder.
+Step 2: Read about parameterized queries and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses input validation.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as securing login forms.
+Step 6: Break your example on purpose and see what happens. A good experiment: building queries with string concatenation.
+
+Never trust input that comes from outside your own code. Security is a habit applied throughout development, not a feature added at the end.
+
+Popular tools and libraries include prepared statements, OWASP cheat sheets, and sqlmap in test environments.
+
+Beginners often stumble on three things. First: building queries with string concatenation. Second: using admin accounts for the app. Third: revealing detailed database errors.
+
+Keep experimenting, keep notes, and revisit SQL Injection whenever a new project gives you a reason.

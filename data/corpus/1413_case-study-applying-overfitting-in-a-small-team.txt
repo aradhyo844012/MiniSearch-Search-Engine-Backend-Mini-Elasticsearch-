@@ -1,0 +1,9 @@
+Case Study: Applying Overfitting in a Small Team
+
+Imagine a small student team building a project that depends on Overfitting. When people talk about Overfitting, they usually mean when a model learns the training data too closely and performs poorly on new data. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning training and validation error and model complexity. Early on they hit a familiar problem: evaluating only on training data. After fixing it, they used scikit-learn to check their work and adopted Overfitting for diagnosing weak models. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: evaluating only on training data. Second: leaking test data. Third: adding complexity without evidence.
+
+With steady practice, Overfitting will stop feeling abstract and become a tool you reach for naturally.

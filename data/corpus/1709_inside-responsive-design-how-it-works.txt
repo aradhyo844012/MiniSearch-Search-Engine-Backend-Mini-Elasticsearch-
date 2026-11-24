@@ -1,0 +1,15 @@
+Inside Responsive Design: How It Works
+
+This article walks through what happens inside Responsive Design, step by step. The term Responsive Design refers to building pages that adapt smoothly to phones, tablets and large screens. This article explains the idea in plain language and points out where it fits in real projects.
+
+Four ideas sit at the heart of Responsive Design: media queries, fluid grids, flexible images, and mobile-first thinking. Each one builds on the one before it. Understanding fluid grids first often makes flexible images much easier to reason about.
+
+First, media queries sets the stage for everything else. Next, fluid grids builds on it. After that, flexible images comes into play, and finally mobile-first thinking ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Ask a teammate to explain flexible images back to you; teaching is a quick way to find gaps. Read the official documentation for Bootstrap grid; it often explains fluid grids better than blog posts do. Keep an eye on this risk during code review: testing only on one screen size.
+
+Web pages must work across many browsers, devices and network conditions. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Responsive Design and HTML Semantics are closely related, so learning both gives a fuller picture of Web Development.
+
+With steady practice, Responsive Design will stop feeling abstract and become a tool you reach for naturally.

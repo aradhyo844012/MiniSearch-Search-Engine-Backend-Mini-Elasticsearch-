@@ -1,0 +1,11 @@
+Decision Trees Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Decision Trees.
+
+- Definition: models that make predictions by asking a sequence of simple questions about the data.
+- Core ideas: splits; entropy and Gini impurity; leaf nodes; pruning.
+- Use it for: classifying customers; explaining predictions; baseline models.
+- Watch out for: deep trees that overfit; ignoring class imbalance; unstable results from small data changes.
+- Tools: scikit-learn, XGBoost, Graphviz.
+- Quick tip: write a tiny test for entropy and Gini impurity before building anything large.
+- Quick tip: practice splits until it feels automatic.

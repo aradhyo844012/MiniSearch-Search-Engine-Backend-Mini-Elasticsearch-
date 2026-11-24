@@ -1,0 +1,15 @@
+Performance Tips for Query Optimization
+
+Fast software rarely happens by accident, and Query Optimization offers several places to gain speed. The term Query Optimization refers to the process of making database queries return results with less time and fewer resources. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use EXPLAIN ANALYZE or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to query plans and statistics, because they usually decide how well things scale. For workloads such as speeding up dashboards, even small improvements add up quickly.
+
+If you are comfortable with Query Optimization, explore Database Transactions next. The two often appear in the same project.
+
+The vocabulary of Query Optimization is small. Learn query plans, statistics, index usage, and join order, and most documentation will start to make sense. Understanding statistics first often makes index usage much easier to reason about.
+
+Ask a teammate to explain index usage back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+Three issues come up again and again: selecting more columns than needed; running queries inside loops; and guessing instead of reading the plan. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Query Optimization pays off. Spend time on query plans and statistics, and the rest will follow.

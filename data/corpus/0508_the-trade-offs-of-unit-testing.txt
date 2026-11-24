@@ -1,0 +1,11 @@
+The Trade-offs of Unit Testing
+
+Every design choice has a cost, and Unit Testing is no exception. If you build software for long enough, you will run into Unit Testing. The term refers to writing small automated tests that check one piece of code at a time.
+
+On the positive side, Unit Testing is well suited to catching regressions and documenting behavior. On the other hand, it is not free. Keep these risks in mind: testing implementation details; slow tests; tests that depend on each other. Whether the trade is worth it depends on how much test cases and assertions matter to your project.
+
+Watch out for these problems: testing implementation details; slow tests; and tests that depend on each other.
+
+Write a few tests that show how Unit Testing should behave. Tests double as documentation for your teammates. Start small by applying Unit Testing to one case, such as catching regressions, before rolling it out more widely.
+
+In short, careful study of Unit Testing pays off. Spend time on test cases and assertions, and the rest will follow.

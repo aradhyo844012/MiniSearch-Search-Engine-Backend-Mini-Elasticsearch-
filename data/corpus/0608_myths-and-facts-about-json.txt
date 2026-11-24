@@ -1,0 +1,19 @@
+Myths and Facts About JSON
+
+A lot of folklore has built up around JSON. Some of it is true, and some of it is not. When people talk about JSON, they usually mean a lightweight text format for exchanging structured data between programs. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: JSON is only for experts.
+Fact: beginners can use it effectively once they understand objects and arrays.
+
+Myth: JSON is only useful in very large systems.
+Fact: small projects such as API responses benefit as well.
+
+Myth: one tool does everything.
+Fact: Python json module, jq, and JSON Schema make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with JSON are always obvious.
+Fact: subtle problems happen, for example trailing commas.
+
+Write a few tests that show how JSON should behave. Tests double as documentation for your teammates. Read the official documentation for jq; it often explains arrays better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JSON.

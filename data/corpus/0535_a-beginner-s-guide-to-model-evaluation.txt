@@ -1,0 +1,19 @@
+A Beginner's Guide to Model Evaluation
+
+This guide is written for readers who are new to Model Evaluation and want a clear starting point. If you build software for long enough, you will run into Model Evaluation. The term refers to measuring how well a machine learning model works on data it has not seen.
+
+A model is only as good as the data used to train and test it. Reproducible experiments make it far easier to trust and improve a model.
+
+Four ideas sit at the heart of Model Evaluation: accuracy, precision and recall, confusion matrices, and validation sets. Each one builds on the one before it. Sketching validation sets on paper before coding helps many learners see how the pieces fit.
+
+You will see Model Evaluation whenever people work on comparing models or choosing thresholds. It also helps with reporting results honestly.
+
+In practice you can start with scikit-learn metrics, then explore MLflow or pandas as your needs grow.
+
+Beginners often stumble on three things. First: using accuracy on imbalanced data. Second: tuning on the test set. Third: ignoring variance between runs.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Model Evaluation helps the next developer.
+
+Simple baselines are worth building first because they show what improvement is realistic.
+
+With steady practice, Model Evaluation will stop feeling abstract and become a tool you reach for naturally.

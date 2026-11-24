@@ -1,0 +1,11 @@
+The Future of Rate Limiting
+
+Predicting the future is risky, but the direction of Rate Limiting is easy to describe in general terms. Many students first meet Rate Limiting in a classroom, but it matters just as much in production systems. The term refers to controlling how many requests a client can make in a given period.
+
+A backend turns requests from many clients into reliable, consistent responses. Failures between services are normal, so retries and timeouts need careful design.
+
+Expect tools such as Redis and NGINX to keep improving, and expect newer ideas to keep building on token bucket. The basics, though, tend to stay the same, so time spent on fixed window and sliding window is rarely wasted. Anyone working on protecting APIs will keep meeting Rate Limiting for years to come.
+
+Keep notes on what worked. A short README explaining your decisions about Rate Limiting helps the next developer. Ask a teammate to explain sliding window back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of Rate Limiting pays off. Spend time on token bucket and fixed window, and the rest will follow.

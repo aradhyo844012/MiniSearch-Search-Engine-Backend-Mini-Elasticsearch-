@@ -1,0 +1,13 @@
+Troubleshooting Functional Programming Problems
+
+When something breaks around Functional Programming, a calm and systematic approach saves the most time. Many students first meet Functional Programming in a classroom, but it matters just as much in production systems. The term refers to a style of programming that builds programs from functions and avoids shared mutable state.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Python functools usually reveal the cause faster than guessing.
+
+Functional Programming and Python Basics are closely related, so learning both gives a fuller picture of Programming.
+
+Common culprits: overusing clever one-liners; hidden state; unreadable chains of functions. If none of these explains the symptom, re-read the basics of pure functions and immutability.
+
+In practice you can start with Python functools, then explore JavaScript array methods or Haskell as your needs grow.
+
+With steady practice, Functional Programming will stop feeling abstract and become a tool you reach for naturally.

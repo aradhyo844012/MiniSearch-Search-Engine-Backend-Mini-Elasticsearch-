@@ -1,0 +1,13 @@
+The Importance of Rate Limiting in Modern Software
+
+It is easy to underestimate Rate Limiting until something goes wrong without it. The term Rate Limiting refers to controlling how many requests a client can make in a given period. This article explains the idea in plain language and points out where it fits in real projects.
+
+Good APIs are boring, predictable and well documented. A backend turns requests from many clients into reliable, consistent responses.
+
+You will see Rate Limiting whenever people work on protecting APIs or stopping brute force attempts. It also helps with fair usage across customers.
+
+Three issues come up again and again: limits that are too strict; keeping counters only on one server; and no helpful error messages. Knowing them in advance saves hours of debugging.
+
+If you are comfortable with Rate Limiting, explore Message Queues next. The two often appear in the same project.
+
+With steady practice, Rate Limiting will stop feeling abstract and become a tool you reach for naturally.

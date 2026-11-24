@@ -1,0 +1,19 @@
+Myths and Facts About BM25 Ranking
+
+A lot of folklore has built up around BM25 Ranking. Some of it is true, and some of it is not. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: BM25 Ranking is only for experts.
+Fact: beginners can use it effectively once they understand term saturation and document length normalization.
+
+Myth: BM25 Ranking is only useful in very large systems.
+Fact: small projects such as ranking search results benefit as well.
+
+Myth: one tool does everything.
+Fact: Elasticsearch, rank_bm25, and Lucene make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with BM25 Ranking are always obvious.
+Fact: subtle problems happen, for example untuned parameters.
+
+Keep an eye on this risk during code review: untuned parameters. Keep notes on what worked. A short README explaining your decisions about BM25 Ranking helps the next developer. Measure before you optimize. Use Elasticsearch or a simple timer to see where time is actually spent.
+
+With steady practice, BM25 Ranking will stop feeling abstract and become a tool you reach for naturally.

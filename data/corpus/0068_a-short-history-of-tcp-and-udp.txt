@@ -1,0 +1,13 @@
+A Short History of TCP and UDP
+
+Ideas behind TCP and UDP developed gradually as engineers ran into practical limits and shared what they learned. When people talk about TCP and UDP, they usually mean the two main transport protocols, one reliable and ordered and the other fast and connectionless. It appears in almost every serious software project, whether or not developers notice it.
+
+Read the official documentation for netcat; it often explains acknowledgements better than blog posts do. Write a few tests that show how TCP and UDP should behave. Tests double as documentation for your teammates.
+
+Simple command-line tools can reveal a lot about what is happening on the wire.
+
+The vocabulary of TCP and UDP is small. Learn handshakes, acknowledgements, ports, and congestion control, and most documentation will start to make sense. Understanding acknowledgements first often makes ports much easier to reason about.
+
+A solid grasp of TCP and UDP also makes HTTP and HTTPS easier to understand.
+
+Keep experimenting, keep notes, and revisit TCP and UDP whenever a new project gives you a reason.

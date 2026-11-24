@@ -1,0 +1,17 @@
+Myths and Facts About Message Queues
+
+A lot of folklore has built up around Message Queues. Some of it is true, and some of it is not. Put simply, Message Queues covers systems that let services send work to each other asynchronously through a buffer. Learning it well pays off across many areas of computing.
+
+Myth: Message Queues is only for experts.
+Fact: beginners can use it effectively once they understand producers and consumers.
+
+Myth: Message Queues is only useful in very large systems.
+Fact: small projects such as sending emails benefit as well.
+
+Myth: one tool does everything.
+Fact: RabbitMQ, Apache Kafka, and Amazon SQS make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Message Queues are always obvious.
+Fact: subtle problems happen, for example losing messages without acknowledgements.
+
+With steady practice, Message Queues will stop feeling abstract and become a tool you reach for naturally.

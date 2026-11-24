@@ -1,0 +1,15 @@
+Best Practices for Load Balancing
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Load Balancing in a classroom, but it matters just as much in production systems. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+1. Ask a teammate to explain sticky sessions back to you; teaching is a quick way to find gaps.
+2. Start small by applying Load Balancing to one case, such as scaling web applications, before rolling it out more widely.
+3. Keep an eye on this risk during code review: the balancer becoming a single point of failure.
+4. Write a few tests that show how Load Balancing should behave. Tests double as documentation for your teammates.
+5. Keep notes on what worked. A short README explaining your decisions about Load Balancing helps the next developer.
+
+Popular tools and libraries include NGINX, HAProxy, and AWS Elastic Load Balancing.
+
+A solid grasp of Load Balancing also makes WebSockets easier to understand.
+
+Keep experimenting, keep notes, and revisit Load Balancing whenever a new project gives you a reason.

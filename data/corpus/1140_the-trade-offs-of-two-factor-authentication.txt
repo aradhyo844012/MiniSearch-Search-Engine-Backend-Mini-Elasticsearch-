@@ -1,0 +1,13 @@
+The Trade-offs of Two-Factor Authentication
+
+Every design choice has a cost, and Two-Factor Authentication is no exception. Put simply, Two-Factor Authentication covers requiring a second proof of identity in addition to a password. Learning it well pays off across many areas of computing.
+
+On the positive side, Two-Factor Authentication is well suited to protecting email accounts and securing admin panels. On the other hand, it is not free. Keep these risks in mind: relying only on SMS; no recovery plan; weak backup code storage. Whether the trade is worth it depends on how much one-time codes and authenticator apps matter to your project.
+
+Three issues come up again and again: relying only on SMS; no recovery plan; and weak backup code storage. Knowing them in advance saves hours of debugging.
+
+Practice one-time codes with small exercises until it feels natural. Read the official documentation for YubiKey; it often explains authenticator apps better than blog posts do. Ask a teammate to explain hardware keys back to you; teaching is a quick way to find gaps.
+
+Keep an eye on this risk during code review: relying only on SMS. Start small by applying Two-Factor Authentication to one case, such as protecting email accounts, before rolling it out more widely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Two-Factor Authentication.

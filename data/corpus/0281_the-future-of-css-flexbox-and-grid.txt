@@ -1,0 +1,13 @@
+The Future of CSS Flexbox and Grid
+
+Predicting the future is risky, but the direction of CSS Flexbox and Grid is easy to describe in general terms. The term CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. This article explains the idea in plain language and points out where it fits in real projects.
+
+Web pages must work across many browsers, devices and network conditions.
+
+Expect tools such as browser grid inspector and Bootstrap utilities to keep improving, and expect newer ideas to keep building on flex containers. The basics, though, tend to stay the same, so time spent on grid tracks and alignment is rarely wasted. Anyone working on navigation bars will keep meeting CSS Flexbox and Grid for years to come.
+
+Small improvements in markup and styling often have a large effect on usability. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Keep an eye on this risk during code review: mixing up main and cross axes. Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about CSS Flexbox and Grid helps the next developer.
+
+In short, careful study of CSS Flexbox and Grid pays off. Spend time on flex containers and grid tracks, and the rest will follow.

@@ -1,0 +1,13 @@
+How Sorting Algorithms Connects to Tries
+
+Sorting Algorithms and Tries are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving ordering search results may also involve autocomplete. In such a project, comparison sorts and prefix sharing often influence each other.
+
+Start with Sorting Algorithms: the term refers to methods for arranging items in a defined order. Then look at Tries, which refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+A useful exercise is to take one example, such as preparing data for binary search, and explain how nodes and edges would change the design.
+
+Common problems are shared too. For Sorting Algorithms, watch for this: sorting everything when a partial order is enough. For Tries, watch for this: forgetting end-of-word markers. Choosing the right data structure often matters more than clever tuning later.
+
+Spend a few hours on each topic, then combine them in one small project using Python sorted or Python dict-based tries.

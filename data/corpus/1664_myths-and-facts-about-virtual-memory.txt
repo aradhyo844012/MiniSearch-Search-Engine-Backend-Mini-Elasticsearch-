@@ -1,0 +1,17 @@
+Myths and Facts About Virtual Memory
+
+A lot of folklore has built up around Virtual Memory. Some of it is true, and some of it is not. Many students first meet Virtual Memory in a classroom, but it matters just as much in production systems. The term refers to a technique that gives each program its own address space backed by RAM and disk.
+
+Myth: Virtual Memory is only for experts.
+Fact: beginners can use it effectively once they understand pages and page tables.
+
+Myth: Virtual Memory is only useful in very large systems.
+Fact: small projects such as isolating programs benefit as well.
+
+Myth: one tool does everything.
+Fact: vmstat, free, and /proc/meminfo make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Virtual Memory are always obvious.
+Fact: subtle problems happen, for example thrashing when memory is short.
+
+In short, careful study of Virtual Memory pays off. Spend time on pages and page tables, and the rest will follow.

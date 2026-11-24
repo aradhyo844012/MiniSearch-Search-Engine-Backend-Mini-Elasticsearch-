@@ -1,0 +1,15 @@
+Best Practices for Responsive Design
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Responsive Design, they usually mean building pages that adapt smoothly to phones, tablets and large screens. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Ask a teammate to explain flexible images back to you; teaching is a quick way to find gaps.
+2. Start small by applying Responsive Design to one case, such as websites used on many devices, before rolling it out more widely.
+3. Practice media queries with small exercises until it feels natural.
+4. Keep notes on what worked. A short README explaining your decisions about Responsive Design helps the next developer.
+5. Measure before you optimize. Use Chrome DevTools device mode or a simple timer to see where time is actually spent.
+
+Popular tools and libraries include Chrome DevTools device mode, Bootstrap grid, and Lighthouse.
+
+A solid grasp of Responsive Design also makes HTML Semantics easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Responsive Design.

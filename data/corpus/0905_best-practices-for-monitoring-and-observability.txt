@@ -1,0 +1,17 @@
+Best Practices for Monitoring and Observability
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Monitoring and Observability, they usually mean collecting metrics, logs and traces so you can understand how a system behaves. It appears in almost every serious software project, whether or not developers notice it.
+
+A solid grasp of Monitoring and Observability also makes Kubernetes easier to understand.
+
+1. Keep an eye on this risk during code review: noisy alerts.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Practice metrics with small exercises until it feels natural.
+4. Write a few tests that show how Monitoring and Observability should behave. Tests double as documentation for your teammates.
+5. Measure before you optimize. Use Prometheus or a simple timer to see where time is actually spent.
+
+In practice you can start with Prometheus, then explore Grafana or OpenTelemetry as your needs grow.
+
+Monitoring and Observability and Kubernetes are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+Keep experimenting, keep notes, and revisit Monitoring and Observability whenever a new project gives you a reason.

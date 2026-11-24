@@ -1,0 +1,11 @@
+Troubleshooting TLS Handshake Problems
+
+When something breaks around TLS Handshake, a calm and systematic approach saves the most time. If you build software for long enough, you will run into TLS Handshake. The term refers to the exchange that lets a client and server agree on keys and set up an encrypted connection.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and OpenSSL usually reveal the cause faster than guessing.
+
+Common culprits: expired certificates; disabling certificate validation; using outdated protocol versions. If none of these explains the symptom, re-read the basics of certificates and cipher suites.
+
+Popular tools and libraries include OpenSSL, Let's Encrypt, and SSL Labs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TLS Handshake.

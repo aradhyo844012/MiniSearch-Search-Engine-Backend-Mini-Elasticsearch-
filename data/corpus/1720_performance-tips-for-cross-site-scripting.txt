@@ -1,0 +1,13 @@
+Performance Tips for Cross-Site Scripting
+
+Fast software rarely happens by accident, and Cross-Site Scripting offers several places to gain speed. When people talk about Cross-Site Scripting, they usually mean a vulnerability where attackers get a site to run their scripts in other users' browsers. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use OWASP guides or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to reflected XSS and stored XSS, because they usually decide how well things scale. For workloads such as reviewing web forms, even small improvements add up quickly.
+
+To understand Cross-Site Scripting, start with reflected XSS. Then move on to stored XSS, and finally look at output encoding and content security policy. A good way to remember reflected XSS is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Cross-Site Scripting should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: inserting user text as raw HTML. Ask a teammate to explain output encoding back to you; teaching is a quick way to find gaps.
+
+Watch out for these problems: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy.
+
+With steady practice, Cross-Site Scripting will stop feeling abstract and become a tool you reach for naturally.

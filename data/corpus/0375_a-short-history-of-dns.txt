@@ -1,0 +1,13 @@
+A Short History of DNS
+
+Ideas behind DNS developed gradually as engineers ran into practical limits and shared what they learned. The term DNS refers to the system that translates human-friendly domain names into IP addresses. This article explains the idea in plain language and points out where it fits in real projects.
+
+Every web request crosses several layers of protocols before it reaches an application. Latency is limited by distance and by the number of round trips a request needs.
+
+To understand DNS, start with resolvers. Then move on to records, and finally look at caching and TTL and name servers. Sketching name servers on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of DNS also makes HTTP and HTTPS easier to understand.
+
+Read the official documentation for nslookup; it often explains records better than blog posts do. Ask a teammate to explain caching and TTL back to you; teaching is a quick way to find gaps. Write a few tests that show how DNS should behave. Tests double as documentation for your teammates.
+
+With steady practice, DNS will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,11 @@
+Troubleshooting Cross-Site Scripting Problems
+
+When something breaks around Cross-Site Scripting, a calm and systematic approach saves the most time. When people talk about Cross-Site Scripting, they usually mean a vulnerability where attackers get a site to run their scripts in other users' browsers. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and OWASP guides usually reveal the cause faster than guessing.
+
+Common culprits: inserting user text as raw HTML; trusting client-side filtering; missing content security policy. If none of these explains the symptom, re-read the basics of reflected XSS and stored XSS.
+
+In practice you can start with OWASP guides, then explore CSP evaluators or browser developer tools as your needs grow.
+
+With steady practice, Cross-Site Scripting will stop feeling abstract and become a tool you reach for naturally.

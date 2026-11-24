@@ -1,0 +1,15 @@
+Performance Tips for Zipf's Law
+
+Fast software rarely happens by accident, and Zipf's Law offers several places to gain speed. When people talk about Zipf's Law, they usually mean the observation that a word's frequency is roughly inversely related to its rank in natural language. It appears in almost every serious software project, whether or not developers notice it.
+
+Search quality depends on how text is prepared before it is ever indexed.
+
+Start by measuring. Use matplotlib or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to rank and frequency and power laws, because they usually decide how well things scale. For workloads such as analyzing text corpora, even small improvements add up quickly.
+
+To understand Zipf's Law, start with rank and frequency. Then move on to power laws, and finally look at log-log plots and long tails. Sketching long tails on paper before coding helps many learners see how the pieces fit.
+
+Keep an eye on this risk during code review: testing it on random text. Keep notes on what worked. A short README explaining your decisions about Zipf's Law helps the next developer.
+
+Beginners often stumble on three things. First: testing it on random text. Second: reading too much into a perfect fit. Third: ignoring small samples.
+
+Keep experimenting, keep notes, and revisit Zipf's Law whenever a new project gives you a reason.

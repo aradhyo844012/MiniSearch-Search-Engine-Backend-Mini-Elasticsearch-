@@ -1,0 +1,12 @@
+A Practical Checklist for Autocomplete
+
+Use this checklist before you rely on Autocomplete in a project.
+
+1. Review how Autocomplete interacts with Stop Words.
+2. Guard against this risk: ignoring typos in the prefix.
+3. Pick a tool to start with, such as tries or Redis sorted sets.
+4. Review the core ideas: prefixes, ranking suggestions, latency, and query logs.
+5. Ask a teammate to review the work, focusing on ranking suggestions.
+6. Document your decisions in the project README.
+7. Write at least one automated test that covers prefixes.
+8. Try the approach on a small case, for example search boxes.

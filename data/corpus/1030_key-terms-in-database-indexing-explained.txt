@@ -1,0 +1,12 @@
+Key Terms in Database Indexing Explained
+
+Clear vocabulary makes Database Indexing much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Database Indexing. The term refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Backups are only useful if restoring from them has been tested.
+
+B-tree indexes: a key term in Database Indexing. Beginners often confuse it with related terms, so define it in your own words early.
+selectivity: a key term in Database Indexing. Beginners often confuse it with related terms, so define it in your own words early.
+composite indexes: a key term in Database Indexing. Beginners often confuse it with related terms, so define it in your own words early.
+covering indexes: a key term in Database Indexing. Practice with a small example to make the meaning stick.
+
+Keep experimenting, keep notes, and revisit Database Indexing whenever a new project gives you a reason.

@@ -1,0 +1,12 @@
+Key Terms in Pandas DataFrames Explained
+
+Clear vocabulary makes Pandas DataFrames much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Pandas DataFrames. The term refers to table-like structures in Python for loading, cleaning and analyzing data.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis. A chart is only useful if the reader can see the point within a few seconds.
+
+rows and columns: a key term in Pandas DataFrames. Beginners often confuse it with related terms, so define it in your own words early.
+indexing: a key term in Pandas DataFrames. You will meet it constantly in documentation and in code reviews.
+groupby: a key term in Pandas DataFrames. It matters because it shapes how you design, test and explain your solution.
+merging: a key term in Pandas DataFrames. Beginners often confuse it with related terms, so define it in your own words early.
+
+Keep experimenting, keep notes, and revisit Pandas DataFrames whenever a new project gives you a reason.

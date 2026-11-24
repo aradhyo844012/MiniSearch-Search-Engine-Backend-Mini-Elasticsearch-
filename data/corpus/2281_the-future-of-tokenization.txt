@@ -1,0 +1,13 @@
+The Future of Tokenization
+
+Predicting the future is risky, but the direction of Tokenization is easy to describe in general terms. If you build software for long enough, you will run into Tokenization. The term refers to splitting text into smaller units such as words that a program can count and compare.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+Expect tools such as Python re module and NLTK to keep improving, and expect newer ideas to keep building on lowercasing. The basics, though, tend to stay the same, so time spent on splitting on punctuation and stop words is rarely wasted. Anyone working on indexing documents will keep meeting Tokenization for years to come.
+
+A solid grasp of Tokenization also makes TF-IDF easier to understand.
+
+Ask a teammate to explain stop words back to you; teaching is a quick way to find gaps. Read the official documentation for NLTK; it often explains splitting on punctuation better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Tokenization.

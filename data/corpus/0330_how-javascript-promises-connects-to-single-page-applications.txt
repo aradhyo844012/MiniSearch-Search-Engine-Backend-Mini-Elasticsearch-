@@ -1,0 +1,13 @@
+How JavaScript Promises Connects to Single Page Applications
+
+JavaScript Promises and Single Page Applications are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving fetching data from APIs may also involve dashboards. In such a project, pending and resolved states and client-side routing often influence each other.
+
+Start with JavaScript Promises: the term refers to objects that represent a value that will be available later, after an asynchronous task finishes. Then look at Single Page Applications, which refers to web apps that load once and update the page dynamically as the user interacts.
+
+A useful exercise is to take one example, such as reading files, and explain how state management would change the design.
+
+Common problems are shared too. For JavaScript Promises, watch for this: forgetting to return promises. For Single Page Applications, watch for this: poor search engine visibility. Web pages must work across many browsers, devices and network conditions.
+
+Spend a few hours on each topic, then combine them in one small project using fetch API or React.

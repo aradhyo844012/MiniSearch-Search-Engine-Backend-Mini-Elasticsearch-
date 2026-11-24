@@ -1,0 +1,11 @@
+Git Branching Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Git Branching.
+
+- Definition: using separate lines of development so that changes can be built and reviewed independently.
+- Core ideas: branches; merging; rebasing; pull requests.
+- Use it for: feature development; bug fixes; release preparation.
+- Watch out for: long-lived branches; merge conflicts left unresolved; force-pushing shared branches.
+- Tools: Git, GitHub, GitLab.
+- Quick tip: write a tiny test for merging before building anything large.
+- Quick tip: practice branches until it feels automatic.

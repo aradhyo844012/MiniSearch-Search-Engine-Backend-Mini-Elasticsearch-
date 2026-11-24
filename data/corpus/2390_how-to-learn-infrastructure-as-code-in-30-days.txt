@@ -1,0 +1,14 @@
+How to Learn Infrastructure as Code in 30 Days
+
+You do not need months to become comfortable with Infrastructure as Code. A focused plan of thirty days is enough to build a solid base. Many students first meet Infrastructure as Code in a classroom, but it matters just as much in production systems. The term refers to managing servers and cloud resources through version-controlled configuration files.
+
+Keep notes on what worked. A short README explaining your decisions about Infrastructure as Code helps the next developer. Read the official documentation for Ansible; it often explains state better than blog posts do.
+
+Week 1: learn declarative configuration and state, and write a one-page summary.
+Week 2: practice with Terraform on a small task such as recreating environments.
+Week 3: build a mini project around reviewing infrastructure changes.
+Week 4: review common mistakes such as manual changes causing drift, and explain Infrastructure as Code to a friend.
+
+In practice you can start with Terraform, then explore Ansible or Pulumi as your needs grow.
+
+In short, careful study of Infrastructure as Code pays off. Spend time on declarative configuration and state, and the rest will follow.

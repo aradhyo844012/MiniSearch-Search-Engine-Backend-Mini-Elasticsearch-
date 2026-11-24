@@ -1,0 +1,13 @@
+The Trade-offs of Kubernetes
+
+Every design choice has a cost, and Kubernetes is no exception. The term Kubernetes refers to a system for deploying, scaling and managing containerized applications. This article explains the idea in plain language and points out where it fits in real projects.
+
+Kubernetes and Site Reliability are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+On the positive side, Kubernetes is well suited to running many containers and rolling updates. On the other hand, it is not free. Keep these risks in mind: resource limits missing; over-complicated setups; ignoring health probes. Whether the trade is worth it depends on how much pods and deployments matter to your project.
+
+Watch out for these problems: resource limits missing; over-complicated setups; and ignoring health probes.
+
+Practice pods with small exercises until it feels natural. Ask a teammate to explain services back to you; teaching is a quick way to find gaps. Measure before you optimize. Use kubectl or a simple timer to see where time is actually spent.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Kubernetes.

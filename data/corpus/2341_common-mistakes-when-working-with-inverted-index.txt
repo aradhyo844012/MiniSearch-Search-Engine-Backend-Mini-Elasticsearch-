@@ -1,0 +1,13 @@
+Common Mistakes When Working with Inverted Index
+
+Almost everyone makes a few avoidable errors when first working with Inverted Index. Many students first meet Inverted Index in a classroom, but it matters just as much in production systems. The term refers to a data structure that maps each term to the documents that contain it.
+
+Three issues come up again and again: scanning very long postings lists; building the index without normalizing text; and forgetting to update it after changes. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: scanning very long postings lists. A short test or a careful review comment usually catches it. The second problem is similar: building the index without normalizing text. The third problem is this: forgetting to update it after changes. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Inverted Index should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Lucene or a simple timer to see where time is actually spent.
+
+Fast search comes from precomputing structures so that queries do very little work. Search quality depends on how text is prepared before it is ever indexed.
+
+With steady practice, Inverted Index will stop feeling abstract and become a tool you reach for naturally.

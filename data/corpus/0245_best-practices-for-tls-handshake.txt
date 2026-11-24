@@ -1,0 +1,17 @@
+Best Practices for TLS Handshake
+
+The practices below come from patterns that tend to work well across many teams and projects. The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. This article explains the idea in plain language and points out where it fits in real projects.
+
+Ask a teammate to explain session keys back to you; teaching is a quick way to find gaps. Measure before you optimize. Use OpenSSL or a simple timer to see where time is actually spent.
+
+1. Write a few tests that show how TLS Handshake should behave. Tests double as documentation for your teammates.
+2. Read the official documentation for Let's Encrypt; it often explains cipher suites better than blog posts do.
+3. Keep notes on what worked. A short README explaining your decisions about TLS Handshake helps the next developer.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Ask a teammate to explain session keys back to you; teaching is a quick way to find gaps.
+
+In practice you can start with OpenSSL, then explore Let's Encrypt or SSL Labs as your needs grow.
+
+If you are comfortable with TLS Handshake, explore HTTP and HTTPS next. The two often appear in the same project.
+
+In short, careful study of TLS Handshake pays off. Spend time on certificates and cipher suites, and the rest will follow.

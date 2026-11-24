@@ -1,0 +1,15 @@
+JSON vs JWT: Key Differences
+
+JSON and JWT both belong to the area of Backend and APIs, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term JSON refers to a lightweight text format for exchanging structured data between programs. Its core ideas are objects, arrays, and strings and numbers.
+
+The term JWT refers to a compact token format that carries signed claims between a client and a server. Its core ideas are header, payload and signature, claims, and expiry.
+
+The main difference is focus. JSON puts the emphasis on objects and arrays, while JWT puts the emphasis on header, payload and signature and claims.
+
+Reach for JSON when your task involves API responses or configuration files. Reach for JWT when your task involves stateless API authentication or service-to-service calls.
+
+Both have risks. With JSON, watch for this: trailing commas. With JWT, watch for this: storing tokens in insecure places.
+
+In practice you do not always have to choose. Many projects use JSON alongside JWT, with tools such as Python json module and jwt.io. Good APIs are boring, predictable and well documented.

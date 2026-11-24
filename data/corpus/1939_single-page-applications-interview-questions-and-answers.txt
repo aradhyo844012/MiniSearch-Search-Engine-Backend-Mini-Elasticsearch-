@@ -1,0 +1,21 @@
+Single Page Applications Interview Questions and Answers
+
+Prepare for these questions about Single Page Applications.
+
+Q: Explain Single Page Applications in simple words.
+A: Single Page Applications refers to web apps that load once and update the page dynamically as the user interacts. I would add an example involving dashboards.
+
+Q: What problems have you seen in practice?
+A: slow first load; poor search engine visibility; and broken back buttons.
+
+Q: What are the key concepts?
+A: client-side routing, state management, API calls, and bundling.
+
+Q: How does it connect to Web Accessibility?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: React, Vue, and Angular.
+
+Q: Where would you apply it first?
+A: I would start with email clients, because it is small enough to test and large enough to show the benefit.

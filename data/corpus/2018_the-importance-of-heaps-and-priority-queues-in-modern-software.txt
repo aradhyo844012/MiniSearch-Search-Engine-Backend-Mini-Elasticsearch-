@@ -1,0 +1,15 @@
+The Importance of Heaps and Priority Queues in Modern Software
+
+It is easy to underestimate Heaps and Priority Queues until something goes wrong without it. If you build software for long enough, you will run into Heaps and Priority Queues. The term refers to structures that always give quick access to the smallest or largest element.
+
+If you are comfortable with Heaps and Priority Queues, explore Hash Tables next. The two often appear in the same project.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+You will see Heaps and Priority Queues whenever people work on scheduling tasks or selecting the top results from many candidates. It also helps with Dijkstra's shortest path algorithm.
+
+Watch out for these problems: assuming a heap is fully sorted; using a full sort when only the top k are needed; and mixing up min-heaps and max-heaps.
+
+If you are comfortable with Heaps and Priority Queues, explore Hash Tables next. The two often appear in the same project.
+
+In short, careful study of Heaps and Priority Queues pays off. Spend time on heap property and sift up and sift down, and the rest will follow.

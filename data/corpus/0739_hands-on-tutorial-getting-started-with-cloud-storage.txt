@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Cloud Storage
+
+This hands-on tutorial takes you from zero to a small working experiment with Cloud Storage. Put simply, Cloud Storage covers storing files and objects on remote servers that scale on demand. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open Amazon S3 and create a new empty project folder.
+Step 2: Read about buckets and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses objects.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as backups.
+Step 6: Break your example on purpose and see what happens. A good experiment: public buckets by mistake.
+
+Popular tools and libraries include Amazon S3, Google Cloud Storage, and Azure Blob Storage.
+
+Three issues come up again and again: public buckets by mistake; surprise egress costs; and no lifecycle rules. Knowing them in advance saves hours of debugging.
+
+With steady practice, Cloud Storage will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,17 @@
+A Beginner's Guide to Docker
+
+This guide is written for readers who are new to Docker and want a clear starting point. Put simply, Docker covers a platform for building and running applications in containers. Learning it well pays off across many areas of computing.
+
+Small, frequent releases are usually safer than rare, large ones. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+The vocabulary of Docker is small. Learn Dockerfile, image layers, volumes, and networks, and most documentation will start to make sense. Understanding image layers first often makes volumes much easier to reason about.
+
+People use Docker for reproducible development setups, for shipping applications, and for CI jobs.
+
+In practice you can start with Docker Compose, then explore Docker Hub or Podman as your needs grow.
+
+Beginners often stumble on three things. First: huge images. Second: secrets baked into images. Third: running as root.
+
+Measure before you optimize. Use Docker Compose or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Docker helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Docker.

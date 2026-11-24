@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Process Scheduling
+
+This hands-on tutorial takes you from zero to a small working experiment with Process Scheduling. Many students first meet Process Scheduling in a classroom, but it matters just as much in production systems. The term refers to the way an operating system decides which process runs on the CPU and for how long.
+
+Step 1: Install or open top and create a new empty project folder.
+Step 2: Read about time slices and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses priorities.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as sharing CPUs among programs.
+Step 6: Break your example on purpose and see what happens. A good experiment: starvation of low priority tasks.
+
+Popular tools and libraries include top, htop, and perf.
+
+Beginners often stumble on three things. First: starvation of low priority tasks. Second: too many context switches. Third: ignoring CPU affinity.
+
+In short, careful study of Process Scheduling pays off. Spend time on time slices and priorities, and the rest will follow.

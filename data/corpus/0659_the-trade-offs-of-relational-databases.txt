@@ -1,0 +1,11 @@
+The Trade-offs of Relational Databases
+
+Every design choice has a cost, and Relational Databases is no exception. Put simply, Relational Databases covers systems that store data in tables with rows, columns and defined relationships. Learning it well pays off across many areas of computing.
+
+On the positive side, Relational Databases is well suited to storing orders and customers and reporting and analytics. On the other hand, it is not free. Keep these risks in mind: skipping constraints; storing lists in a single column; missing indexes on filtered columns. Whether the trade is worth it depends on how much tables and rows and primary keys matter to your project.
+
+Beginners often stumble on three things. First: skipping constraints. Second: storing lists in a single column. Third: missing indexes on filtered columns.
+
+Read the official documentation for MySQL; it often explains primary keys better than blog posts do. Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Relational Databases helps the next developer.
+
+With steady practice, Relational Databases will stop feeling abstract and become a tool you reach for naturally.

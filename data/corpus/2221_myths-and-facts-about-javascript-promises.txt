@@ -1,0 +1,19 @@
+Myths and Facts About JavaScript Promises
+
+A lot of folklore has built up around JavaScript Promises. Some of it is true, and some of it is not. The term JavaScript Promises refers to objects that represent a value that will be available later, after an asynchronous task finishes. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: JavaScript Promises is only for experts.
+Fact: beginners can use it effectively once they understand pending and resolved states and then and catch.
+
+Myth: JavaScript Promises is only useful in very large systems.
+Fact: small projects such as fetching data from APIs benefit as well.
+
+Myth: one tool does everything.
+Fact: fetch API, Node.js, and Promise.all make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with JavaScript Promises are always obvious.
+Fact: subtle problems happen, for example forgetting to handle rejections.
+
+A solid grasp of JavaScript Promises also makes Web Performance easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JavaScript Promises.

@@ -1,0 +1,13 @@
+Common Mistakes When Working with Zipf's Law
+
+Almost everyone makes a few avoidable errors when first working with Zipf's Law. Put simply, Zipf's Law covers the observation that a word's frequency is roughly inversely related to its rank in natural language. Learning it well pays off across many areas of computing.
+
+Three issues come up again and again: testing it on random text; reading too much into a perfect fit; and ignoring small samples. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: testing it on random text. A short test or a careful review comment usually catches it. The second problem is similar: reading too much into a perfect fit. The third problem is this: ignoring small samples. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Zipf's Law should behave. Tests double as documentation for your teammates. Measure before you optimize. Use matplotlib or a simple timer to see where time is actually spent.
+
+Keep notes on what worked. A short README explaining your decisions about Zipf's Law helps the next developer. Measure before you optimize. Use matplotlib or a simple timer to see where time is actually spent. Read the official documentation for NumPy; it often explains power laws better than blog posts do.
+
+In short, careful study of Zipf's Law pays off. Spend time on rank and frequency and power laws, and the rest will follow.

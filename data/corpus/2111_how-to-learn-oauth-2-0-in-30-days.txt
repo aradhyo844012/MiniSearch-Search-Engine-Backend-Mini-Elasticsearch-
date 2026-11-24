@@ -1,0 +1,14 @@
+How to Learn OAuth 2.0 in 30 Days
+
+You do not need months to become comfortable with OAuth 2.0. A focused plan of thirty days is enough to build a solid base. Many students first meet OAuth 2.0 in a classroom, but it matters just as much in production systems. The term refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+Week 1: learn authorization server and access tokens, and write a one-page summary.
+Week 2: practice with Auth0 on a small task such as sign in with another account.
+Week 3: build a mini project around API access for third-party apps.
+Week 4: review common mistakes such as loose redirect URI checks, and explain OAuth 2.0 to a friend.
+
+In practice you can start with Auth0, then explore Keycloak or authlib as your needs grow.
+
+A solid grasp of OAuth 2.0 also makes SQL Injection easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with OAuth 2.0.

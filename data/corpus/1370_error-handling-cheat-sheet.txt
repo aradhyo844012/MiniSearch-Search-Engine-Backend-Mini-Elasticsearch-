@@ -1,0 +1,11 @@
+Error Handling Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Error Handling.
+
+- Definition: planning for failures so that programs respond clearly instead of crashing.
+- Core ideas: exceptions; validation; logging; retries.
+- Use it for: reading files; calling networks; parsing user input.
+- Watch out for: swallowing exceptions silently; catching overly broad errors; unhelpful error messages.
+- Tools: Python try and except, logging module, Sentry.
+- Quick tip: practice exceptions until it feels automatic.
+- Quick tip: write a tiny test for validation before building anything large.

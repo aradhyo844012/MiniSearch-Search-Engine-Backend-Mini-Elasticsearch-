@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with WebSockets
+
+This hands-on tutorial takes you from zero to a small working experiment with WebSockets. Put simply, WebSockets covers a protocol that keeps a two-way connection open between a browser and a server. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open Socket.IO and create a new empty project folder.
+Step 2: Read about persistent connections and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses messages.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as chat applications.
+Step 6: Break your example on purpose and see what happens. A good experiment: forgetting reconnection logic.
+
+Popular tools and libraries include Socket.IO, ws library, and Python websockets.
+
+Three issues come up again and again: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections. Knowing them in advance saves hours of debugging.
+
+In short, careful study of WebSockets pays off. Spend time on persistent connections and messages, and the rest will follow.

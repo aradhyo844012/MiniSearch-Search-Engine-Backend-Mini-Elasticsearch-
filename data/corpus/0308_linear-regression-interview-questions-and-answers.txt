@@ -1,0 +1,18 @@
+Linear Regression Interview Questions and Answers
+
+Prepare for these questions about Linear Regression.
+
+Q: Explain Linear Regression in simple words.
+A: Linear Regression refers to a method for predicting a number by fitting a straight line or plane to data. I would add an example involving predicting prices.
+
+Q: What problems have you seen in practice?
+A: extrapolating far beyond the data; ignoring outliers; and using correlated features carelessly.
+
+Q: What are the key concepts?
+A: coefficients, residuals, least squares, and assumptions.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: extrapolating far beyond the data.
+
+Q: How does it connect to Large Language Models?
+A: Both belong to the area of Machine Learning, and understanding one makes the other easier to learn.

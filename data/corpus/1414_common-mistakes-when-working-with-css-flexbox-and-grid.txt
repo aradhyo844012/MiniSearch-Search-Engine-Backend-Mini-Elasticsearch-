@@ -1,0 +1,11 @@
+Common Mistakes When Working with CSS Flexbox and Grid
+
+Almost everyone makes a few avoidable errors when first working with CSS Flexbox and Grid. Many students first meet CSS Flexbox and Grid in a classroom, but it matters just as much in production systems. The term refers to two layout systems that arrange elements in rows, columns and two-dimensional grids.
+
+Beginners often stumble on three things. First: mixing up main and cross axes. Second: fixed widths that break on phones. Third: nesting layouts too deeply.
+
+Consider the first problem: mixing up main and cross axes. A short test or a careful review comment usually catches it. The second problem is similar: fixed widths that break on phones. The third problem is this: nesting layouts too deeply. It tends to appear only once a project grows, so it is worth planning for early.
+
+Ask a teammate to explain alignment back to you; teaching is a quick way to find gaps. Measure before you optimize. Use browser grid inspector or a simple timer to see where time is actually spent. Practice flex containers with small exercises until it feels natural.
+
+With steady practice, CSS Flexbox and Grid will stop feeling abstract and become a tool you reach for naturally.

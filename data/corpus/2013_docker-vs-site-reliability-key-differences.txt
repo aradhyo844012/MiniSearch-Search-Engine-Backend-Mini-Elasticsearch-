@@ -1,0 +1,15 @@
+Docker vs Site Reliability: Key Differences
+
+Docker and Site Reliability both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Docker refers to a platform for building and running applications in containers. Its core ideas are Dockerfile, image layers, and volumes.
+
+The term Site Reliability refers to the discipline of keeping services dependable using engineering practices. Its core ideas are service level objectives, error budgets, and incident response.
+
+The main difference is focus. Docker puts the emphasis on Dockerfile and image layers, while Site Reliability puts the emphasis on service level objectives and error budgets.
+
+Reach for Docker when your task involves reproducible development setups or shipping applications. Reach for Site Reliability when your task involves running production services or reducing outages.
+
+Both have risks. With Docker, watch for this: huge images. With Site Reliability, watch for this: alerting on everything.
+
+In practice you do not always have to choose. Many projects use Docker alongside Site Reliability, with tools such as Docker Compose and PagerDuty. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.

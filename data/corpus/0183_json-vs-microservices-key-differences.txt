@@ -1,0 +1,15 @@
+JSON vs Microservices: Key Differences
+
+JSON and Microservices both belong to the area of Backend and APIs, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term JSON refers to a lightweight text format for exchanging structured data between programs. Its core ideas are objects, arrays, and strings and numbers.
+
+The term Microservices refers to an architecture that splits an application into small services that can be deployed independently. Its core ideas are service boundaries, APIs, and independent deployment.
+
+The main difference is focus. JSON puts the emphasis on objects and arrays, while Microservices puts the emphasis on service boundaries and APIs.
+
+Reach for JSON when your task involves API responses or configuration files. Reach for Microservices when your task involves large teams working in parallel or scaling parts separately.
+
+Both have risks. With JSON, watch for this: trailing commas. With Microservices, watch for this: splitting too early.
+
+In practice you do not always have to choose. Many projects use JSON alongside Microservices, with tools such as Python json module and Docker. Good APIs are boring, predictable and well documented.

@@ -1,0 +1,13 @@
+The Importance of Stop Words in Modern Software
+
+It is easy to underestimate Stop Words until something goes wrong without it. Many students first meet Stop Words in a classroom, but it matters just as much in production systems. The term refers to very common words such as the and of that are often ignored by search systems.
+
+Users judge a search engine by whether the right result appears near the top.
+
+Typical applications include shrinking indexes, speeding up queries, and reducing noise in ranking. Small projects and large systems both benefit.
+
+Watch out for these problems: removing words that matter in phrases; using the wrong language list; and inconsistent handling at index and query time.
+
+Stop Words and Tokenization are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+In short, careful study of Stop Words pays off. Spend time on frequency lists and index size, and the rest will follow.

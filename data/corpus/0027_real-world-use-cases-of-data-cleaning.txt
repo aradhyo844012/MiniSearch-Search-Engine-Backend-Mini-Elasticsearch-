@@ -1,0 +1,13 @@
+Real-World Use Cases of Data Cleaning
+
+The best way to appreciate Data Cleaning is to see where it is actually used. Put simply, Data Cleaning covers finding and fixing errors, gaps and inconsistencies in raw data. Learning it well pays off across many areas of computing.
+
+People use Data Cleaning for preparing logs, for merging data sources, and for improving model inputs.
+
+Consider preparing logs. In a case like this, Data Cleaning gives the work a clear structure, and understanding missing values makes the design easier to explain. A different example is merging data sources, where duplicates often decides how well the solution scales.
+
+A chart is only useful if the reader can see the point within a few seconds.
+
+In practice you can start with pandas, then explore OpenRefine or regular expressions as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Cleaning.

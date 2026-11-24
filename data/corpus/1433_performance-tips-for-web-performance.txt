@@ -1,0 +1,15 @@
+Performance Tips for Web Performance
+
+Fast software rarely happens by accident, and Web Performance offers several places to gain speed. Put simply, Web Performance covers the practice of making websites load quickly and respond smoothly. Learning it well pays off across many areas of computing.
+
+Web Performance and Browser Rendering are closely related, so learning both gives a fuller picture of Web Development.
+
+Start by measuring. Use Lighthouse or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to page weight and caching, because they usually decide how well things scale. For workloads such as shopping sites, even small improvements add up quickly.
+
+Four ideas sit at the heart of Web Performance: page weight, caching, lazy loading, and critical rendering path. Each one builds on the one before it. Understanding caching first often makes lazy loading much easier to reason about.
+
+Keep an eye on this risk during code review: shipping large JavaScript bundles. Keep notes on what worked. A short README explaining your decisions about Web Performance helps the next developer. Read the official documentation for WebPageTest; it often explains caching better than blog posts do.
+
+Watch out for these problems: shipping large JavaScript bundles; unoptimized images; and too many network requests.
+
+In short, careful study of Web Performance pays off. Spend time on page weight and caching, and the rest will follow.

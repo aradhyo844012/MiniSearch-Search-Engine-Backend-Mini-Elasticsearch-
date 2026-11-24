@@ -1,0 +1,11 @@
+Graph Traversal Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Graph Traversal.
+
+- Definition: systematic ways of visiting every node in a graph, usually breadth-first or depth-first.
+- Core ideas: adjacency lists; breadth-first search; depth-first search; visited sets.
+- Use it for: finding shortest paths in unweighted graphs; detecting cycles; crawling linked pages.
+- Watch out for: forgetting to mark nodes as visited; using recursion on very deep graphs; choosing an adjacency matrix for sparse graphs.
+- Tools: NetworkX, Python collections.deque, Graphviz.
+- Quick tip: write a tiny test for breadth-first search before building anything large.
+- Quick tip: practice adjacency lists until it feels automatic.

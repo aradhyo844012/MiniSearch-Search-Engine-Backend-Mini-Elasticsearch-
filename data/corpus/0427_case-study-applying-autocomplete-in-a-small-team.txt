@@ -1,0 +1,9 @@
+Case Study: Applying Autocomplete in a Small Team
+
+Imagine a small student team building a project that depends on Autocomplete. Put simply, Autocomplete covers suggesting likely completions while a person types a query. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning prefixes and ranking suggestions. Early on they hit a familiar problem: slow suggestions. After fixing it, they used tries to check their work and adopted Autocomplete for search boxes. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: slow suggestions. Second: offensive or irrelevant completions. Third: ignoring typos in the prefix.
+
+In short, careful study of Autocomplete pays off. Spend time on prefixes and ranking suggestions, and the rest will follow.

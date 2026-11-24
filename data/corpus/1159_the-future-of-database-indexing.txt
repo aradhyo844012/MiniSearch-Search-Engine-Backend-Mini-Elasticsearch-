@@ -1,0 +1,11 @@
+The Future of Database Indexing
+
+Predicting the future is risky, but the direction of Database Indexing is easy to describe in general terms. When people talk about Database Indexing, they usually mean auxiliary structures that let a database find rows without scanning a whole table. It appears in almost every serious software project, whether or not developers notice it.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Backups are only useful if restoring from them has been tested.
+
+Expect tools such as EXPLAIN plans and pgAdmin to keep improving, and expect newer ideas to keep building on B-tree indexes. The basics, though, tend to stay the same, so time spent on selectivity and composite indexes is rarely wasted. Anyone working on speeding up lookups will keep meeting Database Indexing for years to come.
+
+Write a few tests that show how Database Indexing should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: indexing every column. Keep notes on what worked. A short README explaining your decisions about Database Indexing helps the next developer.
+
+With steady practice, Database Indexing will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+Performance Tips for CI/CD Pipelines
+
+Fast software rarely happens by accident, and CI/CD Pipelines offers several places to gain speed. When people talk about CI/CD Pipelines, they usually mean automated workflows that build, test and deliver code whenever it changes. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use GitHub Actions or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to build stage and test stage, because they usually decide how well things scale. For workloads such as running tests on every push, even small improvements add up quickly.
+
+The vocabulary of CI/CD Pipelines is small. Learn build stage, test stage, artifacts, and deployment stage, and most documentation will start to make sense. A good way to remember build stage is to connect it with a concrete example from your own code.
+
+Keep notes on what worked. A short README explaining your decisions about CI/CD Pipelines helps the next developer. Start small by applying CI/CD Pipelines to one case, such as running tests on every push, before rolling it out more widely. Ask a teammate to explain artifacts back to you; teaching is a quick way to find gaps.
+
+Beginners often stumble on three things. First: slow pipelines. Second: flaky tests. Third: secrets in logs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CI/CD Pipelines.

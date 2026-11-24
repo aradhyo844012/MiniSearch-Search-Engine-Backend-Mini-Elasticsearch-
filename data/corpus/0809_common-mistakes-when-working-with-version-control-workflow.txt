@@ -1,0 +1,13 @@
+Common Mistakes When Working with Version Control Workflow
+
+Almost everyone makes a few avoidable errors when first working with Version Control Workflow. The term Version Control Workflow refers to the habits and rules a team uses to track and combine changes to code. This article explains the idea in plain language and points out where it fits in real projects.
+
+Three issues come up again and again: vague commit messages; committing large unrelated changes; and rewriting shared history. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: vague commit messages. A short test or a careful review comment usually catches it. The second problem is similar: committing large unrelated changes. The third problem is this: rewriting shared history. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use Git or a simple timer to see where time is actually spent. Ask a teammate to explain tags back to you; teaching is a quick way to find gaps.
+
+Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+With steady practice, Version Control Workflow will stop feeling abstract and become a tool you reach for naturally.

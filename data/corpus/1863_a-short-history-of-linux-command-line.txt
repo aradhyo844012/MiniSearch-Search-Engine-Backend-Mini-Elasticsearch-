@@ -1,0 +1,13 @@
+A Short History of Linux Command Line
+
+Ideas behind Linux Command Line developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Linux Command Line in a classroom, but it matters just as much in production systems. The term refers to a text-based way of controlling a computer using commands and scripts.
+
+Practice shell with small exercises until it feels natural. Read the official documentation for grep; it often explains pipes better than blog posts do. Start small by applying Linux Command Line to one case, such as automating tasks, before rolling it out more widely.
+
+Logs and system monitors are the first place to look when a machine misbehaves. Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+Four ideas sit at the heart of Linux Command Line: shell, pipes, permissions, and environment variables. Each one builds on the one before it. Sketching environment variables on paper before coding helps many learners see how the pieces fit.
+
+Linux Command Line and File Systems are closely related, so learning both gives a fuller picture of Operating Systems.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linux Command Line.

@@ -1,0 +1,11 @@
+The Trade-offs of Error Handling
+
+Every design choice has a cost, and Error Handling is no exception. If you build software for long enough, you will run into Error Handling. The term refers to planning for failures so that programs respond clearly instead of crashing.
+
+On the positive side, Error Handling is well suited to reading files and calling networks. On the other hand, it is not free. Keep these risks in mind: swallowing exceptions silently; catching overly broad errors; unhelpful error messages. Whether the trade is worth it depends on how much exceptions and validation matter to your project.
+
+Three issues come up again and again: swallowing exceptions silently; catching overly broad errors; and unhelpful error messages. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for logging module; it often explains validation better than blog posts do. Ask a teammate to explain logging back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: swallowing exceptions silently.
+
+With steady practice, Error Handling will stop feeling abstract and become a tool you reach for naturally.

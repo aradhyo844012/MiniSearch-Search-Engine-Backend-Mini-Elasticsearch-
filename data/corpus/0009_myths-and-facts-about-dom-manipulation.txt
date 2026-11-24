@@ -1,0 +1,19 @@
+Myths and Facts About DOM Manipulation
+
+A lot of folklore has built up around DOM Manipulation. Some of it is true, and some of it is not. When people talk about DOM Manipulation, they usually mean reading and changing the structure and content of a web page from JavaScript. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: DOM Manipulation is only for experts.
+Fact: beginners can use it effectively once they understand selectors and events.
+
+Myth: DOM Manipulation is only useful in very large systems.
+Fact: small projects such as updating search results benefit as well.
+
+Myth: one tool does everything.
+Fact: querySelector, browser console, and MDN docs make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with DOM Manipulation are always obvious.
+Fact: subtle problems happen, for example inserting untrusted text as HTML.
+
+A solid grasp of DOM Manipulation also makes Single Page Applications easier to understand.
+
+In short, careful study of DOM Manipulation pays off. Spend time on selectors and events, and the rest will follow.

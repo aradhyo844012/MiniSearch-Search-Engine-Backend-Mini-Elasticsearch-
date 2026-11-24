@@ -1,0 +1,13 @@
+A Practical Checklist for Public Key Cryptography
+
+Use this checklist before you rely on Public Key Cryptography in a project.
+
+1. Confirm that your team agrees on what Public Key Cryptography should accomplish.
+2. Try the approach on a small case, for example HTTPS.
+3. Ask a teammate to review the work, focusing on digital signatures.
+4. Guard against this risk: trusting unverified keys.
+5. Pick a tool to start with, such as OpenSSL or GnuPG.
+6. Guard against this risk: using keys that are too short.
+7. Document your decisions in the project README.
+8. Guard against this risk: losing private keys.
+9. Measure results before and after any change.

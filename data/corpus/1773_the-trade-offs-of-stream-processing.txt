@@ -1,0 +1,11 @@
+The Trade-offs of Stream Processing
+
+Every design choice has a cost, and Stream Processing is no exception. If you build software for long enough, you will run into Stream Processing. The term refers to handling data continuously as it arrives rather than in large batches.
+
+On the positive side, Stream Processing is well suited to live dashboards and fraud detection. On the other hand, it is not free. Keep these risks in mind: late events; losing state after crashes; duplicate processing. Whether the trade is worth it depends on how much events and windows matter to your project.
+
+Three issues come up again and again: late events; losing state after crashes; and duplicate processing. Knowing them in advance saves hours of debugging.
+
+Measure before you optimize. Use Apache Kafka or a simple timer to see where time is actually spent. Read the official documentation for Apache Flink; it often explains windows better than blog posts do.
+
+Keep experimenting, keep notes, and revisit Stream Processing whenever a new project gives you a reason.

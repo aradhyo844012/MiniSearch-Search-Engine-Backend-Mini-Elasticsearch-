@@ -1,0 +1,11 @@
+Troubleshooting Containers Problems
+
+When something breaks around Containers, a calm and systematic approach saves the most time. Put simply, Containers covers lightweight packages that bundle an application with its dependencies and run in isolation. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Docker usually reveal the cause faster than guessing.
+
+Common culprits: running as root; bloated images; storing data inside the container. If none of these explains the symptom, re-read the basics of images and layers.
+
+In practice you can start with Docker, then explore Podman or containerd as your needs grow.
+
+Keep experimenting, keep notes, and revisit Containers whenever a new project gives you a reason.

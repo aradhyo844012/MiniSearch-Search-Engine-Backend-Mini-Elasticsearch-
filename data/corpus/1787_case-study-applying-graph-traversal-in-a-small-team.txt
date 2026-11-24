@@ -1,0 +1,9 @@
+Case Study: Applying Graph Traversal in a Small Team
+
+Imagine a small student team building a project that depends on Graph Traversal. The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning adjacency lists and breadth-first search. Early on they hit a familiar problem: forgetting to mark nodes as visited. After fixing it, they used NetworkX to check their work and adopted Graph Traversal for finding shortest paths in unweighted graphs. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Beginners often stumble on three things. First: forgetting to mark nodes as visited. Second: using recursion on very deep graphs. Third: choosing an adjacency matrix for sparse graphs.
+
+In short, careful study of Graph Traversal pays off. Spend time on adjacency lists and breadth-first search, and the rest will follow.

@@ -1,0 +1,13 @@
+Performance Tips for Cloud Storage
+
+Fast software rarely happens by accident, and Cloud Storage offers several places to gain speed. Many students first meet Cloud Storage in a classroom, but it matters just as much in production systems. The term refers to storing files and objects on remote servers that scale on demand.
+
+Start by measuring. Use Amazon S3 or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to buckets and objects, because they usually decide how well things scale. For workloads such as backups, even small improvements add up quickly.
+
+To understand Cloud Storage, start with buckets. Then move on to objects, and finally look at access policies and storage classes. A good way to remember buckets is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Cloud Storage should behave. Tests double as documentation for your teammates. Read the official documentation for Google Cloud Storage; it often explains objects better than blog posts do.
+
+Watch out for these problems: public buckets by mistake; surprise egress costs; and no lifecycle rules.
+
+Keep experimenting, keep notes, and revisit Cloud Storage whenever a new project gives you a reason.

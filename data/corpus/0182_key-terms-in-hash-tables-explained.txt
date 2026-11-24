@@ -1,0 +1,10 @@
+Key Terms in Hash Tables Explained
+
+Clear vocabulary makes Hash Tables much easier to learn, so here are the key terms in plain language. When people talk about Hash Tables, they usually mean a way of storing key-value pairs so that lookups take roughly constant time. It appears in almost every serious software project, whether or not developers notice it.
+
+hash function: a key term in Hash Tables. Beginners often confuse it with related terms, so define it in your own words early.
+buckets: a key term in Hash Tables. It matters because it shapes how you design, test and explain your solution.
+collision handling: a key term in Hash Tables. Beginners often confuse it with related terms, so define it in your own words early.
+load factor: a key term in Hash Tables. It matters because it shapes how you design, test and explain your solution.
+
+Keep experimenting, keep notes, and revisit Hash Tables whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+Troubleshooting Heaps and Priority Queues Problems
+
+When something breaks around Heaps and Priority Queues, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Heaps and Priority Queues. The term refers to structures that always give quick access to the smallest or largest element.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Python heapq usually reveal the cause faster than guessing.
+
+Common culprits: assuming a heap is fully sorted; using a full sort when only the top k are needed; mixing up min-heaps and max-heaps. If none of these explains the symptom, re-read the basics of heap property and sift up and sift down.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+In practice you can start with Python heapq, then explore Java PriorityQueue or C++ priority_queue as your needs grow.
+
+With steady practice, Heaps and Priority Queues will stop feeling abstract and become a tool you reach for naturally.

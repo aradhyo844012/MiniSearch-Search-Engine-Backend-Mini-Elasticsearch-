@@ -1,0 +1,13 @@
+A Practical Checklist for Decision Trees
+
+Use this checklist before you rely on Decision Trees in a project.
+
+1. Review the core ideas: splits, entropy and Gini impurity, leaf nodes, and pruning.
+2. Pick a tool to start with, such as scikit-learn or XGBoost.
+3. Guard against this risk: ignoring class imbalance.
+4. Guard against this risk: unstable results from small data changes.
+5. Confirm that your team agrees on what Decision Trees should accomplish.
+6. Guard against this risk: deep trees that overfit.
+7. Review how Decision Trees interacts with Linear Regression.
+8. Ask a teammate to review the work, focusing on entropy and Gini impurity.
+9. Write at least one automated test that covers splits.

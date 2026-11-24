@@ -1,0 +1,13 @@
+The Trade-offs of Microservices
+
+Every design choice has a cost, and Microservices is no exception. If you build software for long enough, you will run into Microservices. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+On the positive side, Microservices is well suited to large teams working in parallel and scaling parts separately. On the other hand, it is not free. Keep these risks in mind: splitting too early; chatty services; hard debugging across services. Whether the trade is worth it depends on how much service boundaries and APIs matter to your project.
+
+Three issues come up again and again: splitting too early; chatty services; and hard debugging across services. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for Kubernetes; it often explains APIs better than blog posts do. Ask a teammate to explain independent deployment back to you; teaching is a quick way to find gaps.
+
+Keep notes on what worked. A short README explaining your decisions about Microservices helps the next developer. Automate repetitive steps so that results are easy to reproduce.
+
+Keep experimenting, keep notes, and revisit Microservices whenever a new project gives you a reason.

@@ -1,0 +1,11 @@
+Load Balancing Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Load Balancing.
+
+- Definition: spreading incoming requests across several servers so no single server is overwhelmed.
+- Core ideas: round robin; health checks; sticky sessions; layer 4 and layer 7.
+- Use it for: scaling web applications; avoiding downtime; rolling deployments.
+- Watch out for: the balancer becoming a single point of failure; ignoring health checks; session data stored only on one server.
+- Tools: NGINX, HAProxy, AWS Elastic Load Balancing.
+- Quick tip: practice round robin until it feels automatic.
+- Related topic: DNS.

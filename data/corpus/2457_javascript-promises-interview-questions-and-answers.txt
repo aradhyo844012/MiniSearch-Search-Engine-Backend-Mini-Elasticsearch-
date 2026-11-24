@@ -1,0 +1,18 @@
+JavaScript Promises Interview Questions and Answers
+
+Prepare for these questions about JavaScript Promises.
+
+Q: Explain JavaScript Promises in simple words.
+A: JavaScript Promises refers to objects that represent a value that will be available later, after an asynchronous task finishes. I would add an example involving fetching data from APIs.
+
+Q: How does it connect to Bootstrap?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: forgetting to handle rejections.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as pending and resolved states, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with reading files, because it is small enough to test and large enough to show the benefit.

@@ -1,0 +1,13 @@
+Performance Tips for Public Key Cryptography
+
+Fast software rarely happens by accident, and Public Key Cryptography offers several places to gain speed. When people talk about Public Key Cryptography, they usually mean encryption that uses a pair of keys, one public and one private. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use OpenSSL or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to key pairs and digital signatures, because they usually decide how well things scale. For workloads such as HTTPS, even small improvements add up quickly.
+
+To understand Public Key Cryptography, start with key pairs. Then move on to digital signatures, and finally look at certificates and key exchange. A good way to remember key pairs is to connect it with a concrete example from your own code.
+
+Keep notes on what worked. A short README explaining your decisions about Public Key Cryptography helps the next developer. Automate repetitive steps so that results are easy to reproduce.
+
+Beginners often stumble on three things. First: losing private keys. Second: trusting unverified keys. Third: using keys that are too short.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Public Key Cryptography.

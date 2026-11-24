@@ -1,0 +1,13 @@
+A Short History of ETL Pipelines
+
+Ideas behind ETL Pipelines developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet ETL Pipelines in a classroom, but it matters just as much in production systems. The term refers to processes that extract data from sources, transform it and load it into a destination.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+To understand ETL Pipelines, start with extraction. Then move on to transformation, and finally look at loading and scheduling. A good way to remember extraction is to connect it with a concrete example from your own code.
+
+A solid grasp of ETL Pipelines also makes Data Visualization easier to understand.
+
+Writing down assumptions about the data prevents confusing surprises later. Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with ETL Pipelines.

@@ -1,0 +1,11 @@
+Public Key Cryptography Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Public Key Cryptography.
+
+- Definition: encryption that uses a pair of keys, one public and one private.
+- Core ideas: key pairs; digital signatures; certificates; key exchange.
+- Use it for: HTTPS; signing software; secure messaging.
+- Watch out for: losing private keys; trusting unverified keys; using keys that are too short.
+- Tools: OpenSSL, GnuPG, SSH keys.
+- Quick tip: write a tiny test for digital signatures before building anything large.
+- Quick tip: practice key pairs until it feels automatic.

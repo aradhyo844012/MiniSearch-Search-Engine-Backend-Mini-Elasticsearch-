@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with ETL Pipelines
+
+This hands-on tutorial takes you from zero to a small working experiment with ETL Pipelines. Many students first meet ETL Pipelines in a classroom, but it matters just as much in production systems. The term refers to processes that extract data from sources, transform it and load it into a destination.
+
+Step 1: Install or open Apache Airflow and create a new empty project folder.
+Step 2: Read about extraction and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses transformation.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as building reports.
+Step 6: Break your example on purpose and see what happens. A good experiment: silent data loss.
+
+Popular tools and libraries include Apache Airflow, dbt, and Python scripts.
+
+Watch out for these problems: silent data loss; no retry logic; and poor error reporting.
+
+Pipelines should be repeatable so that results can be reproduced later.
+
+Keep experimenting, keep notes, and revisit ETL Pipelines whenever a new project gives you a reason.

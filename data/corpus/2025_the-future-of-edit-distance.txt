@@ -1,0 +1,13 @@
+The Future of Edit Distance
+
+Predicting the future is risky, but the direction of Edit Distance is easy to describe in general terms. The term Edit Distance refers to a measure of how many single-character changes turn one word into another. This article explains the idea in plain language and points out where it fits in real projects.
+
+Fast search comes from precomputing structures so that queries do very little work. Users judge a search engine by whether the right result appears near the top.
+
+Expect tools such as Levenshtein libraries and deletion-neighbour indexes to keep improving, and expect newer ideas to keep building on insertions. The basics, though, tend to stay the same, so time spent on deletions and substitutions is rarely wasted. Anyone working on spell checking will keep meeting Edit Distance for years to come.
+
+Read the official documentation for deletion-neighbour indexes; it often explains deletions better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+If you are comfortable with Edit Distance, explore Inverted Index next. The two often appear in the same project.
+
+In short, careful study of Edit Distance pays off. Spend time on insertions and deletions, and the rest will follow.

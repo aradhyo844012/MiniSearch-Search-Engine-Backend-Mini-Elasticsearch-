@@ -1,0 +1,9 @@
+Case Study: Applying Unit Testing in a Small Team
+
+Imagine a small student team building a project that depends on Unit Testing. If you build software for long enough, you will run into Unit Testing. The term refers to writing small automated tests that check one piece of code at a time.
+
+The team first spent a week learning test cases and assertions. Early on they hit a familiar problem: testing implementation details. After fixing it, they used pytest to check their work and adopted Unit Testing for catching regressions. Looking back, they said the biggest lesson was to keep the design simple.
+
+Watch out for these problems: testing implementation details; slow tests; and tests that depend on each other.
+
+In short, careful study of Unit Testing pays off. Spend time on test cases and assertions, and the rest will follow.

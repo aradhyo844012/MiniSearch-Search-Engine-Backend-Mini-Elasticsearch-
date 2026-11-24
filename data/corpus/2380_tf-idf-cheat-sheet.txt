@@ -1,0 +1,11 @@
+TF-IDF Cheat Sheet
+
+Use this page as a quick reminder of the essentials of TF-IDF.
+
+- Definition: a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+- Core ideas: term frequency; inverse document frequency; weighting; normalization.
+- Use it for: ranking search results; finding keywords; comparing documents.
+- Watch out for: over-weighting common words; ignoring document length; using it on tiny corpora.
+- Tools: scikit-learn TfidfVectorizer, Lucene, Gensim.
+- Related topic: Stop Words.
+- Quick tip: write a tiny test for inverse document frequency before building anything large.

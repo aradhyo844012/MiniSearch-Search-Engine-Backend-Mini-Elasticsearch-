@@ -1,0 +1,22 @@
+Infrastructure as Code: Frequently Asked Questions
+
+Q: What is Infrastructure as Code?
+A: The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files.
+
+Q: How does it relate to Monitoring and Observability?
+A: Infrastructure as Code and Monitoring and Observability often appear in the same project, and both belong to the area of Cloud and DevOps.
+
+Q: What should a beginner learn first?
+A: Start with declarative configuration and state, then move on to modules and drift.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: manual changes causing drift; hard-coded secrets; and huge monolithic configurations.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Infrastructure as Code.
+
+Q: Which tools help?
+A: Popular choices include Terraform, Ansible, and Pulumi.

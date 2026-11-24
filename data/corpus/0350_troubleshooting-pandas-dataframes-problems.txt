@@ -1,0 +1,11 @@
+Troubleshooting Pandas DataFrames Problems
+
+When something breaks around Pandas DataFrames, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Pandas DataFrames. The term refers to table-like structures in Python for loading, cleaning and analyzing data.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and pandas usually reveal the cause faster than guessing.
+
+Common culprits: chained assignment surprises; loading too much data into memory; forgetting to check data types. If none of these explains the symptom, re-read the basics of rows and columns and indexing.
+
+Popular tools and libraries include pandas, Jupyter, and NumPy.
+
+In short, careful study of Pandas DataFrames pays off. Spend time on rows and columns and indexing, and the rest will follow.

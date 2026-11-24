@@ -1,0 +1,17 @@
+A Beginner's Guide to Big O Notation
+
+This guide is written for readers who are new to Big O Notation and want a clear starting point. When people talk about Big O Notation, they usually mean a way of describing how running time or memory grows as the input size grows. It appears in almost every serious software project, whether or not developers notice it.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+The vocabulary of Big O Notation is small. Learn upper bounds, constant, linear and logarithmic growth, worst case, and amortized cost, and most documentation will start to make sense. Understanding constant, linear and logarithmic growth first often makes worst case much easier to reason about.
+
+You will see Big O Notation whenever people work on comparing algorithms or predicting scaling problems. It also helps with explaining design choices in interviews.
+
+Popular tools and libraries include Python timeit, big-O cheat sheets, and profilers.
+
+Beginners often stumble on three things. First: ignoring constant factors entirely. Second: mixing up best and worst case. Third: measuring only tiny inputs.
+
+Measure before you optimize. Use Python timeit or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Big O Notation helps the next developer. Read the official documentation for big-O cheat sheets; it often explains constant, linear and logarithmic growth better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Big O Notation.

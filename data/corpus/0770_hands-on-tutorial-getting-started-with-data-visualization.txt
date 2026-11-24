@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Data Visualization
+
+This hands-on tutorial takes you from zero to a small working experiment with Data Visualization. When people talk about Data Visualization, they usually mean presenting data as charts and graphics so that patterns are easy to see. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open matplotlib and create a new empty project folder.
+Step 2: Read about chart types and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses axes and labels.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as explaining results.
+Step 6: Break your example on purpose and see what happens. A good experiment: truncated axes.
+
+In practice you can start with matplotlib, then explore Seaborn or Plotly as your needs grow.
+
+Three issues come up again and again: truncated axes; unreadable labels; and too many colors. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Data Visualization whenever a new project gives you a reason.

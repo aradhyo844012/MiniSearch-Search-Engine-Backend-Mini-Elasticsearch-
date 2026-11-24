@@ -1,0 +1,13 @@
+Inside SQL Injection: How It Works
+
+This article walks through what happens inside SQL Injection, step by step. When people talk about SQL Injection, they usually mean an attack where malicious input changes the meaning of a database query. It appears in almost every serious software project, whether or not developers notice it.
+
+Four ideas sit at the heart of SQL Injection: parameterized queries, input validation, least privilege, and escaping. Each one builds on the one before it. Sketching escaping on paper before coding helps many learners see how the pieces fit.
+
+First, parameterized queries sets the stage for everything else. Next, input validation builds on it. After that, least privilege comes into play, and finally escaping ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Security is a habit applied throughout development, not a feature added at the end. Keeping dependencies updated removes a large share of known risks.
+
+SQL Injection and Phishing Defense are closely related, so learning both gives a fuller picture of Security.
+
+Keep experimenting, keep notes, and revisit SQL Injection whenever a new project gives you a reason.

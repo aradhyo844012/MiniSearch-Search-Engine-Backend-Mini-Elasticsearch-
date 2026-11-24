@@ -1,0 +1,16 @@
+Stream Processing: Frequently Asked Questions
+
+Q: What is Stream Processing?
+A: The term Stream Processing refers to handling data continuously as it arrives rather than in large batches.
+
+Q: What should a beginner learn first?
+A: Start with events and windows, then move on to offsets and state.
+
+Q: What mistakes are most common?
+A: Watch for these: late events; losing state after crashes; and duplicate processing.
+
+Q: Why do developers use Stream Processing?
+A: Common uses include live dashboards, fraud detection, and real-time alerts.
+
+Q: How does it relate to ETL Pipelines?
+A: Stream Processing and ETL Pipelines often appear in the same project, and both belong to the area of Data Engineering.

@@ -1,0 +1,19 @@
+DOM Manipulation: Frequently Asked Questions
+
+Q: What is DOM Manipulation?
+A: The term DOM Manipulation refers to reading and changing the structure and content of a web page from JavaScript.
+
+Q: What should a beginner learn first?
+A: Start with selectors and events, then move on to nodes and updates.
+
+Q: Why do developers use DOM Manipulation?
+A: Common uses include updating search results, handling form input, and showing messages.
+
+Q: How does it relate to HTML Semantics?
+A: DOM Manipulation and HTML Semantics often appear in the same project, and both belong to the area of Web Development.
+
+Q: Which tools help?
+A: Popular choices include querySelector, browser console, and MDN docs.
+
+Q: What mistakes are most common?
+A: Watch for these: inserting untrusted text as HTML; querying the DOM inside tight loops; and forgetting to remove event listeners.

@@ -1,0 +1,11 @@
+A Short History of IP Addressing and Subnets
+
+Ideas behind IP Addressing and Subnets developed gradually as engineers ran into practical limits and shared what they learned. When people talk about IP Addressing and Subnets, they usually mean the rules for numbering devices on a network and dividing networks into smaller parts. It appears in almost every serious software project, whether or not developers notice it.
+
+Latency is limited by distance and by the number of round trips a request needs. Every web request crosses several layers of protocols before it reaches an application.
+
+The vocabulary of IP Addressing and Subnets is small. Learn IPv4 and IPv6, subnet masks, CIDR notation, and private ranges, and most documentation will start to make sense. Understanding subnet masks first often makes CIDR notation much easier to reason about.
+
+A solid grasp of IP Addressing and Subnets also makes HTTP and HTTPS easier to understand.
+
+With steady practice, IP Addressing and Subnets will stop feeling abstract and become a tool you reach for naturally.

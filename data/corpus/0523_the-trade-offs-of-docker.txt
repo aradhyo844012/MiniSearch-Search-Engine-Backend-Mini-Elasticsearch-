@@ -1,0 +1,13 @@
+The Trade-offs of Docker
+
+Every design choice has a cost, and Docker is no exception. Many students first meet Docker in a classroom, but it matters just as much in production systems. The term refers to a platform for building and running applications in containers.
+
+On the positive side, Docker is well suited to reproducible development setups and shipping applications. On the other hand, it is not free. Keep these risks in mind: huge images; secrets baked into images; running as root. Whether the trade is worth it depends on how much Dockerfile and image layers matter to your project.
+
+Watch out for these problems: huge images; secrets baked into images; and running as root.
+
+Practice Dockerfile with small exercises until it feels natural. Measure before you optimize. Use Docker Compose or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Docker helps the next developer.
+
+Keep an eye on this risk during code review: huge images. Ask a teammate to explain volumes back to you; teaching is a quick way to find gaps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Docker.

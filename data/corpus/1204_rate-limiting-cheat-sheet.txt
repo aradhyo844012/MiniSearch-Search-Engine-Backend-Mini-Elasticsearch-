@@ -1,0 +1,11 @@
+Rate Limiting Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Rate Limiting.
+
+- Definition: controlling how many requests a client can make in a given period.
+- Core ideas: token bucket; fixed window; sliding window; 429 responses.
+- Use it for: protecting APIs; stopping brute force attempts; fair usage across customers.
+- Watch out for: limits that are too strict; keeping counters only on one server; no helpful error messages.
+- Tools: Redis, NGINX, API gateways.
+- Quick tip: practice token bucket until it feels automatic.
+- Quick tip: write a tiny test for fixed window before building anything large.

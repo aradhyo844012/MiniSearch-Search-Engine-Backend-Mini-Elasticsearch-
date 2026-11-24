@@ -1,0 +1,21 @@
+Stop Words Interview Questions and Answers
+
+Prepare for these questions about Stop Words.
+
+Q: Explain Stop Words in simple words.
+A: Stop Words refers to very common words such as the and of that are often ignored by search systems. I would add an example involving shrinking indexes.
+
+Q: How does it connect to Tokenization?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: NLTK stopwords, scikit-learn, and custom word lists.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: removing words that matter in phrases.
+
+Q: Where would you apply it first?
+A: I would start with speeding up queries, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: frequency lists, index size, query relevance, and language-specific lists.

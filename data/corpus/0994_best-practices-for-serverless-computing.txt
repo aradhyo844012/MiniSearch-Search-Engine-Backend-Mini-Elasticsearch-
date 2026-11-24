@@ -1,0 +1,15 @@
+Best Practices for Serverless Computing
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Serverless Computing in a classroom, but it matters just as much in production systems. The term refers to running code in managed functions without maintaining servers yourself.
+
+1. Measure before you optimize. Use AWS Lambda or a simple timer to see where time is actually spent.
+2. Read the official documentation for Cloud Functions; it often explains event triggers better than blog posts do.
+3. Ask a teammate to explain cold starts back to you; teaching is a quick way to find gaps.
+4. Practice functions with small exercises until it feels natural.
+5. Keep notes on what worked. A short README explaining your decisions about Serverless Computing helps the next developer.
+
+In practice you can start with AWS Lambda, then explore Cloud Functions or Azure Functions as your needs grow.
+
+Serverless Computing and Infrastructure as Code are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+With steady practice, Serverless Computing will stop feeling abstract and become a tool you reach for naturally.

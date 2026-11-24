@@ -1,0 +1,17 @@
+Myths and Facts About Redis Caching
+
+A lot of folklore has built up around Redis Caching. Some of it is true, and some of it is not. When people talk about Redis Caching, they usually mean using an in-memory data store to keep frequently needed results close to the application. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Redis Caching is only for experts.
+Fact: beginners can use it effectively once they understand key-value pairs and expiration times.
+
+Myth: Redis Caching is only useful in very large systems.
+Fact: small projects such as caching API responses benefit as well.
+
+Myth: one tool does everything.
+Fact: Redis, redis-py, and Memcached make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Redis Caching are always obvious.
+Fact: subtle problems happen, for example serving stale data.
+
+In short, careful study of Redis Caching pays off. Spend time on key-value pairs and expiration times, and the rest will follow.

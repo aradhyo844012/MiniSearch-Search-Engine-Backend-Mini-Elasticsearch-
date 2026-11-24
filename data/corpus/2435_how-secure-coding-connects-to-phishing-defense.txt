@@ -1,0 +1,13 @@
+How Secure Coding Connects to Phishing Defense
+
+Secure Coding and Phishing Defense are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving reviewing pull requests may also involve protecting employees. In such a project, input validation and suspicious links often influence each other.
+
+Start with Secure Coding: the term refers to writing software in ways that avoid common vulnerabilities. Then look at Phishing Defense, which refers to recognizing and reducing attacks that trick people into revealing information.
+
+A useful exercise is to take one example, such as building web services, and explain how sender verification would change the design.
+
+Common problems are shared too. For Secure Coding, watch for this: committing secrets to repositories. For Phishing Defense, watch for this: reusing passwords. Attackers usually choose the easiest weakness, not the most interesting one.
+
+Spend a few hours on each topic, then combine them in one small project using OWASP Top 10 or SPF.

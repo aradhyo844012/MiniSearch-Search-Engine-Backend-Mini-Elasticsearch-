@@ -1,0 +1,10 @@
+Key Terms in OAuth 2.0 Explained
+
+Clear vocabulary makes OAuth 2.0 much easier to learn, so here are the key terms in plain language. When people talk about OAuth 2.0, they usually mean a framework that lets applications access resources on a user's behalf without sharing passwords. It appears in almost every serious software project, whether or not developers notice it.
+
+authorization server: a key term in OAuth 2.0. It matters because it shapes how you design, test and explain your solution.
+access tokens: a key term in OAuth 2.0. Practice with a small example to make the meaning stick.
+scopes: a key term in OAuth 2.0. You will meet it constantly in documentation and in code reviews.
+redirect URIs: a key term in OAuth 2.0. Beginners often confuse it with related terms, so define it in your own words early.
+
+With steady practice, OAuth 2.0 will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,17 @@
+Myths and Facts About Version Control Workflow
+
+A lot of folklore has built up around Version Control Workflow. Some of it is true, and some of it is not. Many students first meet Version Control Workflow in a classroom, but it matters just as much in production systems. The term refers to the habits and rules a team uses to track and combine changes to code.
+
+Myth: Version Control Workflow is only for experts.
+Fact: beginners can use it effectively once they understand commits and branches.
+
+Myth: Version Control Workflow is only useful in very large systems.
+Fact: small projects such as collaborating on shared code benefit as well.
+
+Myth: one tool does everything.
+Fact: Git, GitHub, and pre-commit hooks make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Version Control Workflow are always obvious.
+Fact: subtle problems happen, for example vague commit messages.
+
+With steady practice, Version Control Workflow will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,15 @@
+File Systems vs Linux Command Line: Key Differences
+
+File Systems and Linux Command Line both belong to the area of Operating Systems, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term File Systems refers to the part of an operating system that organizes how data is stored and found on disk. Its core ideas are files and directories, inodes, and permissions.
+
+The term Linux Command Line refers to a text-based way of controlling a computer using commands and scripts. Its core ideas are shell, pipes, and permissions.
+
+The main difference is focus. File Systems puts the emphasis on files and directories and inodes, while Linux Command Line puts the emphasis on shell and pipes.
+
+Reach for File Systems when your task involves storing documents or managing logs. Reach for Linux Command Line when your task involves automating tasks or managing servers.
+
+Both have risks. With File Systems, watch for this: running out of inodes. With Linux Command Line, watch for this: running destructive commands carelessly.
+
+In practice you do not always have to choose. Many projects use File Systems alongside Linux Command Line, with tools such as ext4 and bash. Resource limits such as memory, file handles and processes are easy to forget until they run out.

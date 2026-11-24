@@ -1,0 +1,17 @@
+Myths and Facts About Authentication and Sessions
+
+A lot of folklore has built up around Authentication and Sessions. Some of it is true, and some of it is not. Many students first meet Authentication and Sessions in a classroom, but it matters just as much in production systems. The term refers to the process of proving who a user is and remembering them between requests.
+
+Myth: Authentication and Sessions is only for experts.
+Fact: beginners can use it effectively once they understand credentials and session cookies.
+
+Myth: Authentication and Sessions is only useful in very large systems.
+Fact: small projects such as logging in to web apps benefit as well.
+
+Myth: one tool does everything.
+Fact: Flask-Login, Django auth, and Passport.js make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Authentication and Sessions are always obvious.
+Fact: subtle problems happen, for example storing session IDs insecurely.
+
+In short, careful study of Authentication and Sessions pays off. Spend time on credentials and session cookies, and the rest will follow.

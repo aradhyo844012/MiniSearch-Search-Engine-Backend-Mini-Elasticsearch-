@@ -1,0 +1,13 @@
+How SQL Joins Connects to Redis Caching
+
+SQL Joins and Redis Caching are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving linking customers to orders may also involve caching API responses. In such a project, inner join and key-value pairs often influence each other.
+
+Start with SQL Joins: the term refers to operations that combine rows from two or more tables based on related columns. Then look at Redis Caching, which refers to using an in-memory data store to keep frequently needed results close to the application.
+
+A useful exercise is to take one example, such as building reports, and explain how expiration times would change the design.
+
+Common problems are shared too. For SQL Joins, watch for this: duplicating rows by joining on non-unique keys. For Redis Caching, watch for this: caching without expiry. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or Redis.

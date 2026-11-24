@@ -1,0 +1,19 @@
+Myths and Facts About Stop Words
+
+A lot of folklore has built up around Stop Words. Some of it is true, and some of it is not. When people talk about Stop Words, they usually mean very common words such as the and of that are often ignored by search systems. It appears in almost every serious software project, whether or not developers notice it.
+
+Stop Words and Zipf's Law are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Myth: Stop Words is only for experts.
+Fact: beginners can use it effectively once they understand frequency lists and index size.
+
+Myth: Stop Words is only useful in very large systems.
+Fact: small projects such as shrinking indexes benefit as well.
+
+Myth: one tool does everything.
+Fact: NLTK stopwords, scikit-learn, and custom word lists make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Stop Words are always obvious.
+Fact: subtle problems happen, for example removing words that matter in phrases.
+
+In short, careful study of Stop Words pays off. Spend time on frequency lists and index size, and the rest will follow.

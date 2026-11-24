@@ -1,0 +1,15 @@
+The Importance of CDNs in Modern Software
+
+It is easy to underestimate CDNs until something goes wrong without it. The term CDNs refers to networks of servers around the world that deliver static content from a location close to the user. This article explains the idea in plain language and points out where it fits in real projects.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+You will see CDNs whenever people work on serving images and scripts or speeding up global sites. It also helps with absorbing traffic spikes.
+
+Beginners often stumble on three things. First: caching private data. Second: forgetting to purge old files. Third: misconfigured cache headers.
+
+A solid grasp of CDNs also makes HTTP and HTTPS easier to understand.
+
+Write a few tests that show how CDNs should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: caching private data.
+
+Keep experimenting, keep notes, and revisit CDNs whenever a new project gives you a reason.

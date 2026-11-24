@@ -1,0 +1,13 @@
+How Relational Databases Connects to Database Indexing
+
+Relational Databases and Database Indexing are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving storing orders and customers may also involve speeding up lookups. In such a project, tables and rows and B-tree indexes often influence each other.
+
+Start with Relational Databases: the term refers to systems that store data in tables with rows, columns and defined relationships. Then look at Database Indexing, which refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+A useful exercise is to take one example, such as reporting and analytics, and explain how selectivity would change the design.
+
+Common problems are shared too. For Relational Databases, watch for this: storing lists in a single column. For Database Indexing, watch for this: ignoring write overhead. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or EXPLAIN plans.

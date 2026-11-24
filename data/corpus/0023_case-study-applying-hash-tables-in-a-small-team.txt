@@ -1,0 +1,11 @@
+Case Study: Applying Hash Tables in a Small Team
+
+Imagine a small student team building a project that depends on Hash Tables. Many students first meet Hash Tables in a classroom, but it matters just as much in production systems. The term refers to a way of storing key-value pairs so that lookups take roughly constant time.
+
+The team first spent a week learning hash function and buckets. Early on they hit a familiar problem: poor hash functions cause clustering. After fixing it, they used Python dict to check their work and adopted Hash Tables for implementing dictionaries and sets. Looking back, they said the biggest lesson was to keep the design simple.
+
+Keep notes on what worked. A short README explaining your decisions about Hash Tables helps the next developer. Measure before you optimize. Use Python dict or a simple timer to see where time is actually spent.
+
+Beginners often stumble on three things. First: poor hash functions cause clustering. Second: resizing is expensive at scale. Third: iteration order is not always stable.
+
+Keep experimenting, keep notes, and revisit Hash Tables whenever a new project gives you a reason.

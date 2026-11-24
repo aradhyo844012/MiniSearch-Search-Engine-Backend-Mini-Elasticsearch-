@@ -1,0 +1,11 @@
+DNS Cheat Sheet
+
+Use this page as a quick reminder of the essentials of DNS.
+
+- Definition: the system that translates human-friendly domain names into IP addresses.
+- Core ideas: resolvers; records; caching and TTL; name servers.
+- Use it for: mapping domains to servers; email routing; load distribution.
+- Watch out for: forgetting TTLs when migrating; mistyped records; assuming changes apply instantly.
+- Tools: dig, nslookup, Cloudflare DNS.
+- Quick tip: write a tiny test for records before building anything large.
+- Quick tip: practice resolvers until it feels automatic.

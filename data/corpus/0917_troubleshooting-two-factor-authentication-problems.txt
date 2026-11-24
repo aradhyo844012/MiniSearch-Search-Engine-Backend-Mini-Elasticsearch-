@@ -1,0 +1,11 @@
+Troubleshooting Two-Factor Authentication Problems
+
+When something breaks around Two-Factor Authentication, a calm and systematic approach saves the most time. When people talk about Two-Factor Authentication, they usually mean requiring a second proof of identity in addition to a password. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Google Authenticator usually reveal the cause faster than guessing.
+
+Common culprits: relying only on SMS; no recovery plan; weak backup code storage. If none of these explains the symptom, re-read the basics of one-time codes and authenticator apps.
+
+In practice you can start with Google Authenticator, then explore YubiKey or TOTP libraries as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Two-Factor Authentication.

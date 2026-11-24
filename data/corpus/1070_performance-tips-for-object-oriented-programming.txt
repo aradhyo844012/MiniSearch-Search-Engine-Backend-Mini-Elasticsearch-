@@ -1,0 +1,15 @@
+Performance Tips for Object-Oriented Programming
+
+Fast software rarely happens by accident, and Object-Oriented Programming offers several places to gain speed. The term Object-Oriented Programming refers to a style of programming that organizes code into objects that combine data and behavior. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Python classes or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to classes and inheritance, because they usually decide how well things scale. For workloads such as modeling real-world entities, even small improvements add up quickly.
+
+To understand Object-Oriented Programming, start with classes. Then move on to inheritance, and finally look at encapsulation and polymorphism. Understanding inheritance first often makes encapsulation much easier to reason about.
+
+A solid grasp of Object-Oriented Programming also makes Functional Programming easier to understand.
+
+Measure before you optimize. Use Python classes or a simple timer to see where time is actually spent. Practice classes with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about Object-Oriented Programming helps the next developer.
+
+Three issues come up again and again: deep inheritance chains; exposing internal state; and classes that do too much. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Object-Oriented Programming.

@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with IP Addressing and Subnets
+
+This hands-on tutorial takes you from zero to a small working experiment with IP Addressing and Subnets. Many students first meet IP Addressing and Subnets in a classroom, but it matters just as much in production systems. The term refers to the rules for numbering devices on a network and dividing networks into smaller parts.
+
+Step 1: Install or open ipcalc and create a new empty project folder.
+Step 2: Read about IPv4 and IPv6 and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses subnet masks.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as planning office networks.
+Step 6: Break your example on purpose and see what happens. A good experiment: overlapping address ranges.
+
+Popular tools and libraries include ipcalc, ping, and traceroute.
+
+Beginners often stumble on three things. First: overlapping address ranges. Second: miscounting host bits. Third: exhausting small subnets.
+
+With steady practice, IP Addressing and Subnets will stop feeling abstract and become a tool you reach for naturally.

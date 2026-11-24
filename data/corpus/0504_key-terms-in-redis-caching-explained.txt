@@ -1,0 +1,10 @@
+Key Terms in Redis Caching Explained
+
+Clear vocabulary makes Redis Caching much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Redis Caching. The term refers to using an in-memory data store to keep frequently needed results close to the application.
+
+key-value pairs: a key term in Redis Caching. You will meet it constantly in documentation and in code reviews.
+expiration times: a key term in Redis Caching. Practice with a small example to make the meaning stick.
+eviction policies: a key term in Redis Caching. You will meet it constantly in documentation and in code reviews.
+cache invalidation: a key term in Redis Caching. You will meet it constantly in documentation and in code reviews.
+
+Keep experimenting, keep notes, and revisit Redis Caching whenever a new project gives you a reason.

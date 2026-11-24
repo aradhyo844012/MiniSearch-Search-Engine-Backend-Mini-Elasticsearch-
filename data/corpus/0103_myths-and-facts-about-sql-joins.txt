@@ -1,0 +1,19 @@
+Myths and Facts About SQL Joins
+
+A lot of folklore has built up around SQL Joins. Some of it is true, and some of it is not. If you build software for long enough, you will run into SQL Joins. The term refers to operations that combine rows from two or more tables based on related columns.
+
+Backups are only useful if restoring from them has been tested.
+
+Myth: SQL Joins is only for experts.
+Fact: beginners can use it effectively once they understand inner join and left join.
+
+Myth: SQL Joins is only useful in very large systems.
+Fact: small projects such as linking customers to orders benefit as well.
+
+Myth: one tool does everything.
+Fact: PostgreSQL, MySQL Workbench, and DBeaver make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with SQL Joins are always obvious.
+Fact: subtle problems happen, for example forgetting the join condition.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with SQL Joins.

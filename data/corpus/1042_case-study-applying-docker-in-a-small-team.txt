@@ -1,0 +1,9 @@
+Case Study: Applying Docker in a Small Team
+
+Imagine a small student team building a project that depends on Docker. If you build software for long enough, you will run into Docker. The term refers to a platform for building and running applications in containers.
+
+The team first spent a week learning Dockerfile and image layers. Early on they hit a familiar problem: huge images. After fixing it, they used Docker Compose to check their work and adopted Docker for reproducible development setups. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: huge images. Second: secrets baked into images. Third: running as root.
+
+Keep experimenting, keep notes, and revisit Docker whenever a new project gives you a reason.

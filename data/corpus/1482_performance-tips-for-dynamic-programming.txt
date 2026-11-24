@@ -1,0 +1,13 @@
+Performance Tips for Dynamic Programming
+
+Fast software rarely happens by accident, and Dynamic Programming offers several places to gain speed. Put simply, Dynamic Programming covers a technique for solving problems by storing the answers to overlapping subproblems. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use Python functools.lru_cache or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to overlapping subproblems and optimal substructure, because they usually decide how well things scale. For workloads such as computing edit distance, even small improvements add up quickly.
+
+The vocabulary of Dynamic Programming is small. Learn overlapping subproblems, optimal substructure, memoization, and tabulation, and most documentation will start to make sense. Understanding optimal substructure first often makes memoization much easier to reason about.
+
+Keep notes on what worked. A short README explaining your decisions about Dynamic Programming helps the next developer. Read the official documentation for NumPy; it often explains optimal substructure better than blog posts do. Start small by applying Dynamic Programming to one case, such as computing edit distance, before rolling it out more widely.
+
+Three issues come up again and again: defining the state incorrectly; storing more state than needed; and ignoring base cases. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Dynamic Programming pays off. Spend time on overlapping subproblems and optimal substructure, and the rest will follow.

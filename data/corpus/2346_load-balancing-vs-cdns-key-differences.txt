@@ -1,0 +1,15 @@
+Load Balancing vs CDNs: Key Differences
+
+Load Balancing and CDNs both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Load Balancing refers to spreading incoming requests across several servers so no single server is overwhelmed. Its core ideas are round robin, health checks, and sticky sessions.
+
+The term CDNs refers to networks of servers around the world that deliver static content from a location close to the user. Its core ideas are edge servers, cache rules, and origin servers.
+
+The main difference is focus. Load Balancing puts the emphasis on round robin and health checks, while CDNs puts the emphasis on edge servers and cache rules.
+
+Reach for Load Balancing when your task involves scaling web applications or avoiding downtime. Reach for CDNs when your task involves serving images and scripts or speeding up global sites.
+
+Both have risks. With Load Balancing, watch for this: the balancer becoming a single point of failure. With CDNs, watch for this: caching private data.
+
+In practice you do not always have to choose. Many projects use Load Balancing alongside CDNs, with tools such as NGINX and Cloudflare. Every web request crosses several layers of protocols before it reaches an application.

@@ -1,0 +1,13 @@
+A Short History of Model Evaluation
+
+Ideas behind Model Evaluation developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Model Evaluation covers measuring how well a machine learning model works on data it has not seen. Learning it well pays off across many areas of computing.
+
+A model is only as good as the data used to train and test it.
+
+Four ideas sit at the heart of Model Evaluation: accuracy, precision and recall, confusion matrices, and validation sets. Each one builds on the one before it. Understanding precision and recall first often makes confusion matrices much easier to reason about.
+
+Ask a teammate to explain confusion matrices back to you; teaching is a quick way to find gaps. Measure before you optimize. Use scikit-learn metrics or a simple timer to see where time is actually spent.
+
+A solid grasp of Model Evaluation also makes Neural Networks easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

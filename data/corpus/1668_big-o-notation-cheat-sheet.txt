@@ -1,0 +1,11 @@
+Big O Notation Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Big O Notation.
+
+- Definition: a way of describing how running time or memory grows as the input size grows.
+- Core ideas: upper bounds; constant, linear and logarithmic growth; worst case; amortized cost.
+- Use it for: comparing algorithms; predicting scaling problems; explaining design choices in interviews.
+- Watch out for: ignoring constant factors entirely; mixing up best and worst case; measuring only tiny inputs.
+- Tools: Python timeit, big-O cheat sheets, profilers.
+- Quick tip: practice upper bounds until it feels automatic.
+- Related topic: Heaps and Priority Queues.

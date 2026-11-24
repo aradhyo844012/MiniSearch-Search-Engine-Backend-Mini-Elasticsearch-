@@ -1,0 +1,13 @@
+A Practical Checklist for Bootstrap
+
+Use this checklist before you rely on Bootstrap in a project.
+
+1. Pick a tool to start with, such as Bootstrap CDN or Sass variables.
+2. Review the core ideas: grid system, components, utility classes, and theming variables.
+3. Guard against this risk: loading unused components.
+4. Measure results before and after any change.
+5. Guard against this risk: overriding styles with heavy custom CSS.
+6. Write at least one automated test that covers grid system.
+7. Review how Bootstrap interacts with Browser Rendering.
+8. Confirm that your team agrees on what Bootstrap should accomplish.
+9. Try the approach on a small case, for example prototypes and dashboards.

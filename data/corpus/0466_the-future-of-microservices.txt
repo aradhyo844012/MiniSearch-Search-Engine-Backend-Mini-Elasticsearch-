@@ -1,0 +1,11 @@
+The Future of Microservices
+
+Predicting the future is risky, but the direction of Microservices is easy to describe in general terms. When people talk about Microservices, they usually mean an architecture that splits an application into small services that can be deployed independently. It appears in almost every serious software project, whether or not developers notice it.
+
+A backend turns requests from many clients into reliable, consistent responses. Good APIs are boring, predictable and well documented.
+
+Expect tools such as Docker and Kubernetes to keep improving, and expect newer ideas to keep building on service boundaries. The basics, though, tend to stay the same, so time spent on APIs and independent deployment is rarely wasted. Anyone working on large teams working in parallel will keep meeting Microservices for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Docker or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: splitting too early.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Microservices.

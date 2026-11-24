@@ -1,0 +1,21 @@
+Redis Caching Interview Questions and Answers
+
+Prepare for these questions about Redis Caching.
+
+Q: Explain Redis Caching in simple words.
+A: Redis Caching refers to using an in-memory data store to keep frequently needed results close to the application. I would add an example involving caching API responses.
+
+Q: Where would you apply it first?
+A: I would start with storing session data, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: Redis, redis-py, and Memcached.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: serving stale data.
+
+Q: What problems have you seen in practice?
+A: serving stale data; caching without expiry; and treating the cache as the source of truth.
+
+Q: How does it connect to NoSQL Databases?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.

@@ -1,0 +1,11 @@
+Common Mistakes When Working with Cross-Site Scripting
+
+Almost everyone makes a few avoidable errors when first working with Cross-Site Scripting. Many students first meet Cross-Site Scripting in a classroom, but it matters just as much in production systems. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Three issues come up again and again: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: inserting user text as raw HTML. A short test or a careful review comment usually catches it. The second problem is similar: trusting client-side filtering. The third problem is this: missing content security policy. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep an eye on this risk during code review: inserting user text as raw HTML. Ask a teammate to explain output encoding back to you; teaching is a quick way to find gaps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cross-Site Scripting.

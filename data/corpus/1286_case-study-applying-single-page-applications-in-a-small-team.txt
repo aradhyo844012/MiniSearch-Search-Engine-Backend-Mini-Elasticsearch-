@@ -1,0 +1,9 @@
+Case Study: Applying Single Page Applications in a Small Team
+
+Imagine a small student team building a project that depends on Single Page Applications. If you build software for long enough, you will run into Single Page Applications. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+The team first spent a week learning client-side routing and state management. Early on they hit a familiar problem: slow first load. After fixing it, they used React to check their work and adopted Single Page Applications for dashboards. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: slow first load. Second: poor search engine visibility. Third: broken back buttons.
+
+In short, careful study of Single Page Applications pays off. Spend time on client-side routing and state management, and the rest will follow.

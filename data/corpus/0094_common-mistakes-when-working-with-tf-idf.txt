@@ -1,0 +1,13 @@
+Common Mistakes When Working with TF-IDF
+
+Almost everyone makes a few avoidable errors when first working with TF-IDF. If you build software for long enough, you will run into TF-IDF. The term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+Watch out for these problems: over-weighting common words; ignoring document length; and using it on tiny corpora.
+
+TF-IDF and Stop Words are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Consider the first problem: over-weighting common words. A short test or a careful review comment usually catches it. The second problem is similar: ignoring document length. The third problem is this: using it on tiny corpora. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how TF-IDF should behave. Tests double as documentation for your teammates. Measure before you optimize. Use scikit-learn TfidfVectorizer or a simple timer to see where time is actually spent. Start small by applying TF-IDF to one case, such as ranking search results, before rolling it out more widely.
+
+With steady practice, TF-IDF will stop feeling abstract and become a tool you reach for naturally.

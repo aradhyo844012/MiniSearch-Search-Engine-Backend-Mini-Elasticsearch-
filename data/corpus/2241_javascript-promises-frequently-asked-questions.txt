@@ -1,0 +1,22 @@
+JavaScript Promises: Frequently Asked Questions
+
+Q: What is JavaScript Promises?
+A: The term JavaScript Promises refers to objects that represent a value that will be available later, after an asynchronous task finishes.
+
+Q: Why do developers use JavaScript Promises?
+A: Common uses include fetching data from APIs, reading files, and running tasks in sequence.
+
+Q: What mistakes are most common?
+A: Watch for these: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with JavaScript Promises.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Which tools help?
+A: Popular choices include fetch API, Node.js, and Promise.all.
+
+Q: How does it relate to Browser Rendering?
+A: JavaScript Promises and Browser Rendering often appear in the same project, and both belong to the area of Web Development.

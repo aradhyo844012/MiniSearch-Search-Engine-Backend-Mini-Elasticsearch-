@@ -1,0 +1,12 @@
+Key Terms in Infrastructure as Code Explained
+
+Clear vocabulary makes Infrastructure as Code much easier to learn, so here are the key terms in plain language. Put simply, Infrastructure as Code covers managing servers and cloud resources through version-controlled configuration files. Learning it well pays off across many areas of computing.
+
+Automation turns risky manual steps into repeatable and reviewable processes. A system that cannot be observed cannot be reliably operated.
+
+declarative configuration: a key term in Infrastructure as Code. Practice with a small example to make the meaning stick.
+state: a key term in Infrastructure as Code. Beginners often confuse it with related terms, so define it in your own words early.
+modules: a key term in Infrastructure as Code. Beginners often confuse it with related terms, so define it in your own words early.
+drift: a key term in Infrastructure as Code. It matters because it shapes how you design, test and explain your solution.
+
+In short, careful study of Infrastructure as Code pays off. Spend time on declarative configuration and state, and the rest will follow.

@@ -1,0 +1,17 @@
+Best Practices for TCP and UDP
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet TCP and UDP in a classroom, but it matters just as much in production systems. The term refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless.
+
+1. Ask a teammate to explain ports back to you; teaching is a quick way to find gaps.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Keep an eye on this risk during code review: assuming UDP guarantees delivery.
+4. Write a few tests that show how TCP and UDP should behave. Tests double as documentation for your teammates.
+5. Measure before you optimize. Use Wireshark or a simple timer to see where time is actually spent.
+
+In practice you can start with Wireshark, then explore netcat or tcpdump as your needs grow.
+
+Network failures are normal, so well-designed software expects timeouts and retries.
+
+A solid grasp of TCP and UDP also makes TLS Handshake easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TCP and UDP.

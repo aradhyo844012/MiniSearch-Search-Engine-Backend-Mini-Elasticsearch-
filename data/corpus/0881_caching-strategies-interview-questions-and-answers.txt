@@ -1,0 +1,18 @@
+Caching Strategies Interview Questions and Answers
+
+Prepare for these questions about Caching Strategies.
+
+Q: Explain Caching Strategies in simple words.
+A: Caching Strategies refers to approaches for storing computed results so they can be reused instead of recalculated. I would add an example involving speeding up read-heavy APIs.
+
+Q: What problems have you seen in practice?
+A: stale data; cache stampedes; and unbounded memory use.
+
+Q: What are the key concepts?
+A: cache-aside, write-through, time to live, and invalidation.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: stale data.
+
+Q: Which tools have you used?
+A: Redis, Memcached, and HTTP cache headers.

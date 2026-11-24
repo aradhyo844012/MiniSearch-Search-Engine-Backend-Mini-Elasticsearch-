@@ -1,0 +1,15 @@
+Performance Tips for Bloom Filters
+
+Fast software rarely happens by accident, and Bloom Filters offers several places to gain speed. The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. This article explains the idea in plain language and points out where it fits in real projects.
+
+Interviewers and engineers alike value clear reasoning about time and space costs. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Start by measuring. Use Python bitarray or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to bit arrays and multiple hash functions, because they usually decide how well things scale. For workloads such as skipping disk lookups for missing keys, even small improvements add up quickly.
+
+Four ideas sit at the heart of Bloom Filters: bit arrays, multiple hash functions, false positives, and no false negatives. Each one builds on the one before it. Understanding multiple hash functions first often makes false positives much easier to reason about.
+
+Start small by applying Bloom Filters to one case, such as skipping disk lookups for missing keys, before rolling it out more widely. Keep an eye on this risk during code review: choosing too small a bit array.
+
+Watch out for these problems: choosing too small a bit array; trying to delete items; and forgetting that false positives exist.
+
+With steady practice, Bloom Filters will stop feeling abstract and become a tool you reach for naturally.

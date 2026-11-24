@@ -1,0 +1,12 @@
+How to Learn Dynamic Programming in 30 Days
+
+You do not need months to become comfortable with Dynamic Programming. A focused plan of thirty days is enough to build a solid base. When people talk about Dynamic Programming, they usually mean a technique for solving problems by storing the answers to overlapping subproblems. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn overlapping subproblems and optimal substructure, and write a one-page summary.
+Week 2: practice with Python functools.lru_cache on a small task such as computing edit distance.
+Week 3: build a mini project around knapsack style optimization.
+Week 4: review common mistakes such as defining the state incorrectly, and explain Dynamic Programming to a friend.
+
+Popular tools and libraries include Python functools.lru_cache, NumPy, and spreadsheets for small tables.
+
+Keep experimenting, keep notes, and revisit Dynamic Programming whenever a new project gives you a reason.

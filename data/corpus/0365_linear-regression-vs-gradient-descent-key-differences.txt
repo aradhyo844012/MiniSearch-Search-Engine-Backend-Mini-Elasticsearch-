@@ -1,0 +1,15 @@
+Linear Regression vs Gradient Descent: Key Differences
+
+Linear Regression and Gradient Descent both belong to the area of Machine Learning, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Linear Regression refers to a method for predicting a number by fitting a straight line or plane to data. Its core ideas are coefficients, residuals, and least squares.
+
+The term Gradient Descent refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error. Its core ideas are learning rate, gradients, and loss function.
+
+The main difference is focus. Linear Regression puts the emphasis on coefficients and residuals, while Gradient Descent puts the emphasis on learning rate and gradients.
+
+Reach for Linear Regression when your task involves predicting prices or estimating demand. Reach for Gradient Descent when your task involves training neural networks or fitting regression models.
+
+Both have risks. With Linear Regression, watch for this: extrapolating far beyond the data. With Gradient Descent, watch for this: learning rates that are too large.
+
+In practice you do not always have to choose. Many projects use Linear Regression alongside Gradient Descent, with tools such as scikit-learn and PyTorch. Simple baselines are worth building first because they show what improvement is realistic.

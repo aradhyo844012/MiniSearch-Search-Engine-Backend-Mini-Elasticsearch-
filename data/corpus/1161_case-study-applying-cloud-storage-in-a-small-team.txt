@@ -1,0 +1,11 @@
+Case Study: Applying Cloud Storage in a Small Team
+
+Imagine a small student team building a project that depends on Cloud Storage. Put simply, Cloud Storage covers storing files and objects on remote servers that scale on demand. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning buckets and objects. Early on they hit a familiar problem: public buckets by mistake. After fixing it, they used Amazon S3 to check their work and adopted Cloud Storage for backups. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: public buckets by mistake; surprise egress costs; and no lifecycle rules.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cloud Storage.

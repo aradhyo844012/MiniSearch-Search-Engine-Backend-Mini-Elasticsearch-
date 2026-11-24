@@ -1,0 +1,12 @@
+How to Learn Process Scheduling in 30 Days
+
+You do not need months to become comfortable with Process Scheduling. A focused plan of thirty days is enough to build a solid base. If you build software for long enough, you will run into Process Scheduling. The term refers to the way an operating system decides which process runs on the CPU and for how long.
+
+Week 1: learn time slices and priorities, and write a one-page summary.
+Week 2: practice with top on a small task such as sharing CPUs among programs.
+Week 3: build a mini project around keeping interfaces responsive.
+Week 4: review common mistakes such as starvation of low priority tasks, and explain Process Scheduling to a friend.
+
+Popular tools and libraries include top, htop, and perf.
+
+In short, careful study of Process Scheduling pays off. Spend time on time slices and priorities, and the rest will follow.

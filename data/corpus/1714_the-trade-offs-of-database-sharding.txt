@@ -1,0 +1,13 @@
+The Trade-offs of Database Sharding
+
+Every design choice has a cost, and Database Sharding is no exception. If you build software for long enough, you will run into Database Sharding. The term refers to splitting a large dataset across several databases so each holds only part of it.
+
+On the positive side, Database Sharding is well suited to scaling beyond one server and isolating tenants. On the other hand, it is not free. Keep these risks in mind: choosing a poor shard key; hot shards; expensive joins across shards. Whether the trade is worth it depends on how much shard keys and routing matter to your project.
+
+Three issues come up again and again: choosing a poor shard key; hot shards; and expensive joins across shards. Knowing them in advance saves hours of debugging.
+
+Practice shard keys with small exercises until it feels natural. Write a few tests that show how Database Sharding should behave. Tests double as documentation for your teammates. Start small by applying Database Sharding to one case, such as scaling beyond one server, before rolling it out more widely.
+
+Keep notes on what worked. A short README explaining your decisions about Database Sharding helps the next developer. Measure before you optimize. Use Vitess or a simple timer to see where time is actually spent.
+
+With steady practice, Database Sharding will stop feeling abstract and become a tool you reach for naturally.

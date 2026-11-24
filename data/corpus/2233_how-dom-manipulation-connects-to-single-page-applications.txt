@@ -1,0 +1,13 @@
+How DOM Manipulation Connects to Single Page Applications
+
+DOM Manipulation and Single Page Applications are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving updating search results may also involve dashboards. In such a project, selectors and client-side routing often influence each other.
+
+Start with DOM Manipulation: the term refers to reading and changing the structure and content of a web page from JavaScript. Then look at Single Page Applications, which refers to web apps that load once and update the page dynamically as the user interacts.
+
+A useful exercise is to take one example, such as handling form input, and explain how state management would change the design.
+
+Common problems are shared too. For DOM Manipulation, watch for this: querying the DOM inside tight loops. For Single Page Applications, watch for this: poor search engine visibility. Accessible design helps everyone, including people on slow connections or small screens.
+
+Spend a few hours on each topic, then combine them in one small project using querySelector or React.

@@ -1,0 +1,13 @@
+Common Mistakes When Working with Public Key Cryptography
+
+Almost everyone makes a few avoidable errors when first working with Public Key Cryptography. Many students first meet Public Key Cryptography in a classroom, but it matters just as much in production systems. The term refers to encryption that uses a pair of keys, one public and one private.
+
+Watch out for these problems: losing private keys; trusting unverified keys; and using keys that are too short.
+
+If you are comfortable with Public Key Cryptography, explore Two-Factor Authentication next. The two often appear in the same project.
+
+Consider the first problem: losing private keys. A short test or a careful review comment usually catches it. The second problem is similar: trusting unverified keys. The third problem is this: using keys that are too short. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Public Key Cryptography should behave. Tests double as documentation for your teammates. Start small by applying Public Key Cryptography to one case, such as HTTPS, before rolling it out more widely.
+
+With steady practice, Public Key Cryptography will stop feeling abstract and become a tool you reach for naturally.

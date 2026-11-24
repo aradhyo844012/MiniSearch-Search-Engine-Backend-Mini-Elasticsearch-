@@ -1,0 +1,19 @@
+Myths and Facts About Refactoring
+
+A lot of folklore has built up around Refactoring. Some of it is true, and some of it is not. Many students first meet Refactoring in a classroom, but it matters just as much in production systems. The term refers to improving the structure of existing code without changing its behavior.
+
+Refactoring and Design Patterns are closely related, so learning both gives a fuller picture of Software Engineering.
+
+Myth: Refactoring is only for experts.
+Fact: beginners can use it effectively once they understand small steps and tests as a safety net.
+
+Myth: Refactoring is only useful in very large systems.
+Fact: small projects such as reducing duplication benefit as well.
+
+Myth: one tool does everything.
+Fact: IDE refactoring tools, pytest, and linters make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Refactoring are always obvious.
+Fact: subtle problems happen, for example refactoring without tests.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Refactoring.

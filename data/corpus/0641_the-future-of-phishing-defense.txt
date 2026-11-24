@@ -1,0 +1,13 @@
+The Future of Phishing Defense
+
+Predicting the future is risky, but the direction of Phishing Defense is easy to describe in general terms. Put simply, Phishing Defense covers recognizing and reducing attacks that trick people into revealing information. Learning it well pays off across many areas of computing.
+
+Keeping dependencies updated removes a large share of known risks. Attackers usually choose the easiest weakness, not the most interesting one.
+
+Expect tools such as SPF and DKIM to keep improving, and expect newer ideas to keep building on suspicious links. The basics, though, tend to stay the same, so time spent on sender verification and email filtering is rarely wasted. Anyone working on protecting employees will keep meeting Phishing Defense for years to come.
+
+Measure before you optimize. Use SPF or a simple timer to see where time is actually spent. Practice suspicious links with small exercises until it feels natural.
+
+Ask a teammate to explain email filtering back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: clicking before checking. Start small by applying Phishing Defense to one case, such as protecting employees, before rolling it out more widely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Phishing Defense.

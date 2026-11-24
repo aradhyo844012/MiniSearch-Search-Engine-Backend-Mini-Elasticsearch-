@@ -1,0 +1,11 @@
+Troubleshooting CI/CD Pipelines Problems
+
+When something breaks around CI/CD Pipelines, a calm and systematic approach saves the most time. Put simply, CI/CD Pipelines covers automated workflows that build, test and deliver code whenever it changes. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and GitHub Actions usually reveal the cause faster than guessing.
+
+Common culprits: slow pipelines; flaky tests; secrets in logs. If none of these explains the symptom, re-read the basics of build stage and test stage.
+
+Popular tools and libraries include GitHub Actions, Jenkins, and GitLab CI.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CI/CD Pipelines.

@@ -1,0 +1,15 @@
+Best Practices for Single Page Applications
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Single Page Applications covers web apps that load once and update the page dynamically as the user interacts. Learning it well pays off across many areas of computing.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Ask a teammate to explain API calls back to you; teaching is a quick way to find gaps.
+3. Keep notes on what worked. A short README explaining your decisions about Single Page Applications helps the next developer.
+4. Start small by applying Single Page Applications to one case, such as dashboards, before rolling it out more widely.
+5. Measure before you optimize. Use React or a simple timer to see where time is actually spent.
+
+In practice you can start with React, then explore Vue or Angular as your needs grow.
+
+If you are comfortable with Single Page Applications, explore CSS Flexbox and Grid next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Single Page Applications whenever a new project gives you a reason.

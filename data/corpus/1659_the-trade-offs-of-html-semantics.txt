@@ -1,0 +1,13 @@
+The Trade-offs of HTML Semantics
+
+Every design choice has a cost, and HTML Semantics is no exception. When people talk about HTML Semantics, they usually mean the practice of using HTML elements that describe the meaning of content. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, HTML Semantics is well suited to accessible pages and better search engine understanding. On the other hand, it is not free. Keep these risks in mind: using div for everything; skipping heading levels; missing labels on form inputs. Whether the trade is worth it depends on how much headings and landmarks matter to your project.
+
+If you are comfortable with HTML Semantics, explore Web Performance next. The two often appear in the same project.
+
+Three issues come up again and again: using div for everything; skipping heading levels; and missing labels on form inputs. Knowing them in advance saves hours of debugging.
+
+Write a few tests that show how HTML Semantics should behave. Tests double as documentation for your teammates. Measure before you optimize. Use HTML validators or a simple timer to see where time is actually spent.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with HTML Semantics.

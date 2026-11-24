@@ -1,0 +1,18 @@
+Infrastructure as Code Interview Questions and Answers
+
+Prepare for these questions about Infrastructure as Code.
+
+Q: Explain Infrastructure as Code in simple words.
+A: Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. I would add an example involving recreating environments.
+
+Q: What are the key concepts?
+A: declarative configuration, state, modules, and drift.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as declarative configuration, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with reviewing infrastructure changes, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: Terraform, Ansible, and Pulumi.

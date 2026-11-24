@@ -1,0 +1,12 @@
+Key Terms in Single Page Applications Explained
+
+Clear vocabulary makes Single Page Applications much easier to learn, so here are the key terms in plain language. Many students first meet Single Page Applications in a classroom, but it matters just as much in production systems. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+Read the official documentation for Vue; it often explains state management better than blog posts do. Start small by applying Single Page Applications to one case, such as dashboards, before rolling it out more widely. Write a few tests that show how Single Page Applications should behave. Tests double as documentation for your teammates.
+
+client-side routing: a key term in Single Page Applications. Beginners often confuse it with related terms, so define it in your own words early.
+state management: a key term in Single Page Applications. Beginners often confuse it with related terms, so define it in your own words early.
+API calls: a key term in Single Page Applications. You will meet it constantly in documentation and in code reviews.
+bundling: a key term in Single Page Applications. Practice with a small example to make the meaning stick.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Single Page Applications.

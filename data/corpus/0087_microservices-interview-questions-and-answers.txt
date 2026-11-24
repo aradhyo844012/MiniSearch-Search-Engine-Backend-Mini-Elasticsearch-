@@ -1,0 +1,18 @@
+Microservices Interview Questions and Answers
+
+Prepare for these questions about Microservices.
+
+Q: Explain Microservices in simple words.
+A: Microservices refers to an architecture that splits an application into small services that can be deployed independently. I would add an example involving large teams working in parallel.
+
+Q: Which tools have you used?
+A: Docker, Kubernetes, and API gateways.
+
+Q: Where would you apply it first?
+A: I would start with scaling parts separately, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: service boundaries, APIs, independent deployment, and distributed data.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as service boundaries, and add tests aimed at the known risks.

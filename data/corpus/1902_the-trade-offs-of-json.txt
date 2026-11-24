@@ -1,0 +1,11 @@
+The Trade-offs of JSON
+
+Every design choice has a cost, and JSON is no exception. If you build software for long enough, you will run into JSON. The term refers to a lightweight text format for exchanging structured data between programs.
+
+On the positive side, JSON is well suited to API responses and configuration files. On the other hand, it is not free. Keep these risks in mind: trailing commas; large payloads; losing precision with big numbers. Whether the trade is worth it depends on how much objects and arrays matter to your project.
+
+Watch out for these problems: trailing commas; large payloads; and losing precision with big numbers.
+
+Read the official documentation for jq; it often explains arrays better than blog posts do. Practice objects with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about JSON helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JSON.

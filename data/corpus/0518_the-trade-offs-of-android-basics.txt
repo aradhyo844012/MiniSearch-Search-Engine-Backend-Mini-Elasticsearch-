@@ -1,0 +1,13 @@
+The Trade-offs of Android Basics
+
+Every design choice has a cost, and Android Basics is no exception. Put simply, Android Basics covers the core building blocks used to create apps for Android phones. Learning it well pays off across many areas of computing.
+
+On the positive side, Android Basics is well suited to building simple apps and accessing sensors. On the other hand, it is not free. Keep these risks in mind: ignoring lifecycle events; blocking the main thread; hard-coded layouts. Whether the trade is worth it depends on how much activities and layouts matter to your project.
+
+Beginners often stumble on three things. First: ignoring lifecycle events. Second: blocking the main thread. Third: hard-coded layouts.
+
+Read the official documentation for Kotlin; it often explains layouts better than blog posts do. Ask a teammate to explain intents back to you; teaching is a quick way to find gaps. Practice activities with small exercises until it feels natural.
+
+Read the official documentation for Kotlin; it often explains layouts better than blog posts do. Measure before you optimize. Use Android Studio or a simple timer to see where time is actually spent. Practice activities with small exercises until it feels natural.
+
+With steady practice, Android Basics will stop feeling abstract and become a tool you reach for naturally.

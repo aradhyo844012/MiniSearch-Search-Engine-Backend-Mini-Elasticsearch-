@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Design Patterns
+
+This hands-on tutorial takes you from zero to a small working experiment with Design Patterns. Many students first meet Design Patterns in a classroom, but it matters just as much in production systems. The term refers to reusable solutions to common problems in software design.
+
+Step 1: Install or open UML diagrams and create a new empty project folder.
+Step 2: Read about singleton and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses factory.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as structuring applications.
+Step 6: Break your example on purpose and see what happens. A good experiment: forcing patterns where they are unnecessary.
+
+In practice you can start with UML diagrams, then explore refactoring guides or code examples as your needs grow.
+
+Beginners often stumble on three things. First: forcing patterns where they are unnecessary. Second: over-engineering. Third: copying patterns without understanding the problem.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Design Patterns.

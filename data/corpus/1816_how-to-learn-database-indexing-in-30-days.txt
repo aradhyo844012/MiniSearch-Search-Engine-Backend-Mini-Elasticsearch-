@@ -1,0 +1,14 @@
+How to Learn Database Indexing in 30 Days
+
+You do not need months to become comfortable with Database Indexing. A focused plan of thirty days is enough to build a solid base. Many students first meet Database Indexing in a classroom, but it matters just as much in production systems. The term refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+Measure before you optimize. Use EXPLAIN plans or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Week 1: learn B-tree indexes and selectivity, and write a one-page summary.
+Week 2: practice with EXPLAIN plans on a small task such as speeding up lookups.
+Week 3: build a mini project around supporting sorted queries.
+Week 4: review common mistakes such as indexing every column, and explain Database Indexing to a friend.
+
+Popular tools and libraries include EXPLAIN plans, pgAdmin, and MySQL slow query log.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Indexing.

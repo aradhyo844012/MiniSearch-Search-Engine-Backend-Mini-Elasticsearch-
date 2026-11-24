@@ -1,0 +1,15 @@
+SQL Injection vs OAuth 2.0: Key Differences
+
+SQL Injection and OAuth 2.0 both belong to the area of Security, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term SQL Injection refers to an attack where malicious input changes the meaning of a database query. Its core ideas are parameterized queries, input validation, and least privilege.
+
+The term OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords. Its core ideas are authorization server, access tokens, and scopes.
+
+The main difference is focus. SQL Injection puts the emphasis on parameterized queries and input validation, while OAuth 2.0 puts the emphasis on authorization server and access tokens.
+
+Reach for SQL Injection when your task involves securing login forms or reviewing search features. Reach for OAuth 2.0 when your task involves sign in with another account or API access for third-party apps.
+
+Both have risks. With SQL Injection, watch for this: building queries with string concatenation. With OAuth 2.0, watch for this: loose redirect URI checks.
+
+In practice you do not always have to choose. Many projects use SQL Injection alongside OAuth 2.0, with tools such as prepared statements and Auth0. Never trust input that comes from outside your own code.

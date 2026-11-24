@@ -1,0 +1,14 @@
+How to Learn Cross-Site Scripting in 30 Days
+
+You do not need months to become comfortable with Cross-Site Scripting. A focused plan of thirty days is enough to build a solid base. If you build software for long enough, you will run into Cross-Site Scripting. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Week 1: learn reflected XSS and stored XSS, and write a one-page summary.
+Week 2: practice with OWASP guides on a small task such as reviewing web forms.
+Week 3: build a mini project around securing comment sections.
+Week 4: review common mistakes such as inserting user text as raw HTML, and explain Cross-Site Scripting to a friend.
+
+Write a few tests that show how Cross-Site Scripting should behave. Tests double as documentation for your teammates. Read the official documentation for CSP evaluators; it often explains stored XSS better than blog posts do.
+
+In practice you can start with OWASP guides, then explore CSP evaluators or browser developer tools as your needs grow.
+
+Keep experimenting, keep notes, and revisit Cross-Site Scripting whenever a new project gives you a reason.

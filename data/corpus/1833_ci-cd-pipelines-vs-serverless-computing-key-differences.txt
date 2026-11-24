@@ -1,0 +1,15 @@
+CI/CD Pipelines vs Serverless Computing: Key Differences
+
+CI/CD Pipelines and Serverless Computing both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes. Its core ideas are build stage, test stage, and artifacts.
+
+The term Serverless Computing refers to running code in managed functions without maintaining servers yourself. Its core ideas are functions, event triggers, and cold starts.
+
+The main difference is focus. CI/CD Pipelines puts the emphasis on build stage and test stage, while Serverless Computing puts the emphasis on functions and event triggers.
+
+Reach for CI/CD Pipelines when your task involves running tests on every push or shipping releases safely. Reach for Serverless Computing when your task involves webhooks or scheduled jobs.
+
+Both have risks. With CI/CD Pipelines, watch for this: slow pipelines. With Serverless Computing, watch for this: cold start delays.
+
+In practice you do not always have to choose. Many projects use CI/CD Pipelines alongside Serverless Computing, with tools such as GitHub Actions and AWS Lambda. A system that cannot be observed cannot be reliably operated.

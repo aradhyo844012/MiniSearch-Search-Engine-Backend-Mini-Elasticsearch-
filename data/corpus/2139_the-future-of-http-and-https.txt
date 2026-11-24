@@ -1,0 +1,13 @@
+The Future of HTTP and HTTPS
+
+Predicting the future is risky, but the direction of HTTP and HTTPS is easy to describe in general terms. Put simply, HTTP and HTTPS covers the request and response protocol of the web, with HTTPS adding encryption. Learning it well pays off across many areas of computing.
+
+Latency is limited by distance and by the number of round trips a request needs.
+
+Expect tools such as curl and Postman to keep improving, and expect newer ideas to keep building on methods. The basics, though, tend to stay the same, so time spent on status codes and headers is rarely wasted. Anyone working on loading web pages will keep meeting HTTP and HTTPS for years to come.
+
+Ask a teammate to explain headers back to you; teaching is a quick way to find gaps. Write a few tests that show how HTTP and HTTPS should behave. Tests double as documentation for your teammates.
+
+Keep notes on what worked. A short README explaining your decisions about HTTP and HTTPS helps the next developer. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Postman; it often explains status codes better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with HTTP and HTTPS.

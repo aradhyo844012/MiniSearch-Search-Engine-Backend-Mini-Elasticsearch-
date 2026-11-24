@@ -1,0 +1,15 @@
+Performance Tips for Authentication and Sessions
+
+Fast software rarely happens by accident, and Authentication and Sessions offers several places to gain speed. The term Authentication and Sessions refers to the process of proving who a user is and remembering them between requests. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Flask-Login or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to credentials and session cookies, because they usually decide how well things scale. For workloads such as logging in to web apps, even small improvements add up quickly.
+
+To understand Authentication and Sessions, start with credentials. Then move on to session cookies, and finally look at tokens and expiration. A good way to remember credentials is to connect it with a concrete example from your own code.
+
+Authentication and Sessions and JSON are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+Start small by applying Authentication and Sessions to one case, such as logging in to web apps, before rolling it out more widely. Keep an eye on this risk during code review: storing session IDs insecurely.
+
+Three issues come up again and again: storing session IDs insecurely; never expiring sessions; and trusting client-side checks. Knowing them in advance saves hours of debugging.
+
+With steady practice, Authentication and Sessions will stop feeling abstract and become a tool you reach for naturally.

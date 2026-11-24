@@ -1,0 +1,17 @@
+A Beginner's Guide to Recursion
+
+This guide is written for readers who are new to Recursion and want a clear starting point. The term Recursion refers to a technique where a function solves a problem by calling itself on smaller inputs. This article explains the idea in plain language and points out where it fits in real projects.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+To understand Recursion, start with base case. Then move on to recursive case, and finally look at call stack and tail calls. Sketching tail calls on paper before coding helps many learners see how the pieces fit.
+
+Typical applications include traversing trees, divide and conquer algorithms, and parsing nested data. Small projects and large systems both benefit.
+
+In practice you can start with Python sys.setrecursionlimit, then explore debuggers or memoization decorators as your needs grow.
+
+Beginners often stumble on three things. First: missing base cases. Second: exceeding the recursion limit. Third: recomputing the same values.
+
+Practice base case with small exercises until it feels natural. Keep an eye on this risk during code review: missing base cases.
+
+In short, careful study of Recursion pays off. Spend time on base case and recursive case, and the rest will follow.

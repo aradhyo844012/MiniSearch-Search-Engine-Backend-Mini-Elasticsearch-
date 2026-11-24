@@ -1,0 +1,11 @@
+Common Mistakes When Working with Technical Debt
+
+Almost everyone makes a few avoidable errors when first working with Technical Debt. The term Technical Debt refers to the future cost of shortcuts taken in code, design or documentation. This article explains the idea in plain language and points out where it fits in real projects.
+
+Three issues come up again and again: never paying it down; hiding it from stakeholders; and unclear ownership. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: never paying it down. A short test or a careful review comment usually catches it. The second problem is similar: hiding it from stakeholders. The third problem is this: unclear ownership. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for issue trackers; it often explains interest better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Technical Debt helps the next developer.
+
+In short, careful study of Technical Debt pays off. Spend time on shortcuts and interest, and the rest will follow.

@@ -1,0 +1,13 @@
+The Importance of TLS Handshake in Modern Software
+
+It is easy to underestimate TLS Handshake until something goes wrong without it. The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. This article explains the idea in plain language and points out where it fits in real projects.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+You will see TLS Handshake whenever people work on securing websites or protecting API traffic. It also helps with verifying server identity.
+
+Watch out for these problems: expired certificates; disabling certificate validation; and using outdated protocol versions.
+
+TLS Handshake and WebSockets are closely related, so learning both gives a fuller picture of Networking.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TLS Handshake.

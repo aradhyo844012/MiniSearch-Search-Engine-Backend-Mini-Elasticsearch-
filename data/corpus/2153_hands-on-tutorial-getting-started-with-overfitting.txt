@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Overfitting
+
+This hands-on tutorial takes you from zero to a small working experiment with Overfitting. When people talk about Overfitting, they usually mean when a model learns the training data too closely and performs poorly on new data. It appears in almost every serious software project, whether or not developers notice it.
+
+If you are comfortable with Overfitting, explore Neural Networks next. The two often appear in the same project.
+
+Step 1: Install or open scikit-learn and create a new empty project folder.
+Step 2: Read about training and validation error and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses model complexity.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as diagnosing weak models.
+Step 6: Break your example on purpose and see what happens. A good experiment: evaluating only on training data.
+
+Popular tools and libraries include scikit-learn, early stopping, and learning curves.
+
+Watch out for these problems: evaluating only on training data; leaking test data; and adding complexity without evidence.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Overfitting.

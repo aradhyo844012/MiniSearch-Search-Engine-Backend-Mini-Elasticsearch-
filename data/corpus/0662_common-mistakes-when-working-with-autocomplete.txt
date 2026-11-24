@@ -1,0 +1,11 @@
+Common Mistakes When Working with Autocomplete
+
+Almost everyone makes a few avoidable errors when first working with Autocomplete. The term Autocomplete refers to suggesting likely completions while a person types a query. This article explains the idea in plain language and points out where it fits in real projects.
+
+Watch out for these problems: slow suggestions; offensive or irrelevant completions; and ignoring typos in the prefix.
+
+Consider the first problem: slow suggestions. A short test or a careful review comment usually catches it. The second problem is similar: offensive or irrelevant completions. The third problem is this: ignoring typos in the prefix. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain latency back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Autocomplete whenever a new project gives you a reason.

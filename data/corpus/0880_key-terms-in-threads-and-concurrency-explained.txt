@@ -1,0 +1,10 @@
+Key Terms in Threads and Concurrency Explained
+
+Clear vocabulary makes Threads and Concurrency much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Threads and Concurrency. The term refers to ways of making progress on several tasks at once within a program.
+
+threads: a key term in Threads and Concurrency. It matters because it shapes how you design, test and explain your solution.
+locks: a key term in Threads and Concurrency. Beginners often confuse it with related terms, so define it in your own words early.
+race conditions: a key term in Threads and Concurrency. You will meet it constantly in documentation and in code reviews.
+thread pools: a key term in Threads and Concurrency. It matters because it shapes how you design, test and explain your solution.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Threads and Concurrency.

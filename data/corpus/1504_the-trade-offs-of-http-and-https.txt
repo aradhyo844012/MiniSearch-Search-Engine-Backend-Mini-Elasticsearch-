@@ -1,0 +1,13 @@
+The Trade-offs of HTTP and HTTPS
+
+Every design choice has a cost, and HTTP and HTTPS is no exception. The term HTTP and HTTPS refers to the request and response protocol of the web, with HTTPS adding encryption. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, HTTP and HTTPS is well suited to loading web pages and calling APIs. On the other hand, it is not free. Keep these risks in mind: mixing up status codes; sending secrets in URLs; ignoring caching headers. Whether the trade is worth it depends on how much methods and status codes matter to your project.
+
+Beginners often stumble on three things. First: mixing up status codes. Second: sending secrets in URLs. Third: ignoring caching headers.
+
+Start small by applying HTTP and HTTPS to one case, such as loading web pages, before rolling it out more widely. Read the official documentation for Postman; it often explains status codes better than blog posts do.
+
+Read the official documentation for Postman; it often explains status codes better than blog posts do. Write a few tests that show how HTTP and HTTPS should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit HTTP and HTTPS whenever a new project gives you a reason.

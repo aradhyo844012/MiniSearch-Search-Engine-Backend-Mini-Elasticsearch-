@@ -1,0 +1,11 @@
+A Practical Checklist for Error Handling
+
+Use this checklist before you rely on Error Handling in a project.
+
+1. Pick a tool to start with, such as Python try and except or logging module.
+2. Measure results before and after any change.
+3. Try the approach on a small case, for example reading files.
+4. Guard against this risk: catching overly broad errors.
+5. Write at least one automated test that covers exceptions.
+6. Confirm that your team agrees on what Error Handling should accomplish.
+7. Ask a teammate to review the work, focusing on validation.

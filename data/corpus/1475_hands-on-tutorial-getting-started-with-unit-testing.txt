@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Unit Testing
+
+This hands-on tutorial takes you from zero to a small working experiment with Unit Testing. When people talk about Unit Testing, they usually mean writing small automated tests that check one piece of code at a time. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open pytest and create a new empty project folder.
+Step 2: Read about test cases and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses assertions.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as catching regressions.
+Step 6: Break your example on purpose and see what happens. A good experiment: testing implementation details.
+
+Popular tools and libraries include pytest, unittest, and coverage.py.
+
+Beginners often stumble on three things. First: testing implementation details. Second: slow tests. Third: tests that depend on each other.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Unit Testing.

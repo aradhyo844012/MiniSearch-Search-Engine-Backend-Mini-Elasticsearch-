@@ -1,0 +1,19 @@
+A Beginner's Guide to Clean Code
+
+This guide is written for readers who are new to Clean Code and want a clear starting point. The term Clean Code refers to writing code that other people can read, understand and change easily. This article explains the idea in plain language and points out where it fits in real projects.
+
+Software spends most of its life being changed, not written for the first time. Readable code saves more time than clever code over the long run.
+
+The vocabulary of Clean Code is small. Learn meaningful names, small functions, consistent style, and comments that explain why, and most documentation will start to make sense. Understanding small functions first often makes consistent style much easier to reason about.
+
+A team working on team projects might adopt Clean Code after hitting the limits of a simpler approach. Other teams turn to it for long-lived products or onboarding new developers.
+
+Write a few tests that show how Clean Code should behave. Tests double as documentation for your teammates. Ask a teammate to explain consistent style back to you; teaching is a quick way to find gaps.
+
+In practice you can start with linters, then explore formatters or code reviews as your needs grow.
+
+Beginners often stumble on three things. First: cryptic abbreviations. Second: functions that do too much. Third: comments that repeat the code.
+
+Keep notes on what worked. A short README explaining your decisions about Clean Code helps the next developer. Start small by applying Clean Code to one case, such as team projects, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit Clean Code whenever a new project gives you a reason.

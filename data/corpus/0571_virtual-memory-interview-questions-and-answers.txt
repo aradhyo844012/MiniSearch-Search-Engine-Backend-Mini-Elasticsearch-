@@ -1,0 +1,18 @@
+Virtual Memory Interview Questions and Answers
+
+Prepare for these questions about Virtual Memory.
+
+Q: Explain Virtual Memory in simple words.
+A: Virtual Memory refers to a technique that gives each program its own address space backed by RAM and disk. I would add an example involving isolating programs.
+
+Q: What are the key concepts?
+A: pages, page tables, page faults, and swapping.
+
+Q: Where would you apply it first?
+A: I would start with running programs larger than RAM, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: thrashing when memory is short; ignoring page fault costs; and assuming memory is always available.
+
+Q: Which tools have you used?
+A: vmstat, free, and /proc/meminfo.

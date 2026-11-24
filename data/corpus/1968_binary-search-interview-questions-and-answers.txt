@@ -1,0 +1,21 @@
+Binary Search Interview Questions and Answers
+
+Prepare for these questions about Binary Search.
+
+Q: Explain Binary Search in simple words.
+A: Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. I would add an example involving looking up values in sorted arrays.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: off-by-one errors.
+
+Q: How does it connect to Tries?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as sorted input, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with finding insertion points, because it is small enough to test and large enough to show the benefit.

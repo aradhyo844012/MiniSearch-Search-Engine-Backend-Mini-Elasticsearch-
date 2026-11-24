@@ -1,0 +1,19 @@
+A Beginner's Guide to Virtual Memory
+
+This guide is written for readers who are new to Virtual Memory and want a clear starting point. The term Virtual Memory refers to a technique that gives each program its own address space backed by RAM and disk. This article explains the idea in plain language and points out where it fits in real projects.
+
+Understanding what the kernel does explains many surprising performance problems. The operating system shares limited hardware between many competing programs.
+
+A solid grasp of Virtual Memory also makes Containers easier to understand.
+
+To understand Virtual Memory, start with pages. Then move on to page tables, and finally look at page faults and swapping. Understanding page tables first often makes page faults much easier to reason about.
+
+Typical applications include isolating programs, running programs larger than RAM, and memory-mapped files. Small projects and large systems both benefit.
+
+Popular tools and libraries include vmstat, free, and /proc/meminfo.
+
+Beginners often stumble on three things. First: thrashing when memory is short. Second: ignoring page fault costs. Third: assuming memory is always available.
+
+Keep an eye on this risk during code review: thrashing when memory is short. Measure before you optimize. Use vmstat or a simple timer to see where time is actually spent.
+
+In short, careful study of Virtual Memory pays off. Spend time on pages and page tables, and the rest will follow.

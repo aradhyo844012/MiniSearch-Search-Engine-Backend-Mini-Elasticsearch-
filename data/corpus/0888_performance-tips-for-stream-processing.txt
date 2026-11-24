@@ -1,0 +1,15 @@
+Performance Tips for Stream Processing
+
+Fast software rarely happens by accident, and Stream Processing offers several places to gain speed. Many students first meet Stream Processing in a classroom, but it matters just as much in production systems. The term refers to handling data continuously as it arrives rather than in large batches.
+
+Stream Processing and Data Cleaning are closely related, so learning both gives a fuller picture of Data Engineering.
+
+Start by measuring. Use Apache Kafka or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to events and windows, because they usually decide how well things scale. For workloads such as live dashboards, even small improvements add up quickly.
+
+Four ideas sit at the heart of Stream Processing: events, windows, offsets, and state. Each one builds on the one before it. Sketching state on paper before coding helps many learners see how the pieces fit.
+
+Start small by applying Stream Processing to one case, such as live dashboards, before rolling it out more widely. Write a few tests that show how Stream Processing should behave. Tests double as documentation for your teammates.
+
+Beginners often stumble on three things. First: late events. Second: losing state after crashes. Third: duplicate processing.
+
+Keep experimenting, keep notes, and revisit Stream Processing whenever a new project gives you a reason.

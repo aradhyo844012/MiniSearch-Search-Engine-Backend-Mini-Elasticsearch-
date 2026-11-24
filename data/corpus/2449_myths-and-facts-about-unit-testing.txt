@@ -1,0 +1,19 @@
+Myths and Facts About Unit Testing
+
+A lot of folklore has built up around Unit Testing. Some of it is true, and some of it is not. Put simply, Unit Testing covers writing small automated tests that check one piece of code at a time. Learning it well pays off across many areas of computing.
+
+Software spends most of its life being changed, not written for the first time. Readable code saves more time than clever code over the long run.
+
+Myth: Unit Testing is only for experts.
+Fact: beginners can use it effectively once they understand test cases and assertions.
+
+Myth: Unit Testing is only useful in very large systems.
+Fact: small projects such as catching regressions benefit as well.
+
+Myth: one tool does everything.
+Fact: pytest, unittest, and coverage.py make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Unit Testing are always obvious.
+Fact: subtle problems happen, for example testing implementation details.
+
+Keep experimenting, keep notes, and revisit Unit Testing whenever a new project gives you a reason.

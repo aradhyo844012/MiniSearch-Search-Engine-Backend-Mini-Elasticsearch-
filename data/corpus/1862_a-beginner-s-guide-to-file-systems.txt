@@ -1,0 +1,17 @@
+A Beginner's Guide to File Systems
+
+This guide is written for readers who are new to File Systems and want a clear starting point. The term File Systems refers to the part of an operating system that organizes how data is stored and found on disk. This article explains the idea in plain language and points out where it fits in real projects.
+
+The operating system shares limited hardware between many competing programs. Understanding what the kernel does explains many surprising performance problems.
+
+Four ideas sit at the heart of File Systems: files and directories, inodes, permissions, and journaling. Each one builds on the one before it. Sketching journaling on paper before coding helps many learners see how the pieces fit.
+
+People use File Systems for storing documents, for managing logs, and for organizing application data.
+
+In practice you can start with ext4, then explore NTFS or df and du as your needs grow.
+
+Watch out for these problems: running out of inodes; wrong permissions; and ignoring disk space limits.
+
+Read the official documentation for NTFS; it often explains inodes better than blog posts do. Start small by applying File Systems to one case, such as storing documents, before rolling it out more widely.
+
+In short, careful study of File Systems pays off. Spend time on files and directories and inodes, and the rest will follow.

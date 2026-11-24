@@ -1,0 +1,17 @@
+Myths and Facts About Database Transactions
+
+A lot of folklore has built up around Database Transactions. Some of it is true, and some of it is not. When people talk about Database Transactions, they usually mean groups of operations that succeed or fail together. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Database Transactions is only for experts.
+Fact: beginners can use it effectively once they understand atomicity and consistency.
+
+Myth: Database Transactions is only useful in very large systems.
+Fact: small projects such as transferring money between accounts benefit as well.
+
+Myth: one tool does everything.
+Fact: PostgreSQL, SQLAlchemy, and JDBC make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Database Transactions are always obvious.
+Fact: subtle problems happen, for example holding transactions open too long.
+
+In short, careful study of Database Transactions pays off. Spend time on atomicity and consistency, and the rest will follow.

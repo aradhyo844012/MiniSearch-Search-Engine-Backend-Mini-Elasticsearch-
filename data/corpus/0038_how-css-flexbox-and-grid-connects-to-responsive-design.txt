@@ -1,0 +1,13 @@
+How CSS Flexbox and Grid Connects to Responsive Design
+
+CSS Flexbox and Grid and Responsive Design are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving navigation bars may also involve websites used on many devices. In such a project, flex containers and media queries often influence each other.
+
+Start with CSS Flexbox and Grid: the term refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. Then look at Responsive Design, which refers to building pages that adapt smoothly to phones, tablets and large screens.
+
+A useful exercise is to take one example, such as card layouts, and explain how fluid grids would change the design.
+
+Common problems are shared too. For CSS Flexbox and Grid, watch for this: fixed widths that break on phones. For Responsive Design, watch for this: tiny touch targets. Accessible design helps everyone, including people on slow connections or small screens.
+
+Spend a few hours on each topic, then combine them in one small project using browser grid inspector or Chrome DevTools device mode.

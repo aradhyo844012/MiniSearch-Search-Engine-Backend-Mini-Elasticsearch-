@@ -1,0 +1,12 @@
+A Practical Checklist for Zipf's Law
+
+Use this checklist before you rely on Zipf's Law in a project.
+
+1. Guard against this risk: testing it on random text.
+2. Guard against this risk: reading too much into a perfect fit.
+3. Pick a tool to start with, such as matplotlib or NumPy.
+4. Confirm that your team agrees on what Zipf's Law should accomplish.
+5. Measure results before and after any change.
+6. Write at least one automated test that covers rank and frequency.
+7. Review how Zipf's Law interacts with BM25 Ranking.
+8. Guard against this risk: ignoring small samples.

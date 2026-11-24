@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Monitoring and Observability
+
+This hands-on tutorial takes you from zero to a small working experiment with Monitoring and Observability. If you build software for long enough, you will run into Monitoring and Observability. The term refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+Step 1: Install or open Prometheus and create a new empty project folder.
+Step 2: Read about metrics and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses logs.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as detecting outages.
+Step 6: Break your example on purpose and see what happens. A good experiment: noisy alerts.
+
+Popular tools and libraries include Prometheus, Grafana, and OpenTelemetry.
+
+Three issues come up again and again: noisy alerts; logs without context; and dashboards nobody reads. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Monitoring and Observability.

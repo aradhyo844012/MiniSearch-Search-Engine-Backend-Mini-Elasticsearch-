@@ -1,0 +1,21 @@
+TF-IDF Interview Questions and Answers
+
+Prepare for these questions about TF-IDF.
+
+Q: Explain TF-IDF in simple words.
+A: TF-IDF refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall. I would add an example involving ranking search results.
+
+Q: Where would you apply it first?
+A: I would start with finding keywords, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: over-weighting common words; ignoring document length; and using it on tiny corpora.
+
+Q: How does it connect to Zipf's Law?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: scikit-learn TfidfVectorizer, Lucene, and Gensim.
+
+Q: What are the key concepts?
+A: term frequency, inverse document frequency, weighting, and normalization.

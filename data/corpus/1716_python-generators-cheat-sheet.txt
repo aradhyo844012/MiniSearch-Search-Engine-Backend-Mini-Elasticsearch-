@@ -1,0 +1,11 @@
+Python Generators Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Python Generators.
+
+- Definition: functions that produce values one at a time instead of building a whole list.
+- Core ideas: yield; lazy evaluation; iterators; generator expressions.
+- Use it for: reading large files line by line; streaming data; building pipelines.
+- Watch out for: consuming a generator twice; forgetting generators are lazy; hiding errors until iteration.
+- Tools: itertools, Python itertools docs, pytest.
+- Related topic: Object-Oriented Programming.
+- Quick tip: write a tiny test for lazy evaluation before building anything large.

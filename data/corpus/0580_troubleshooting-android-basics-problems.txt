@@ -1,0 +1,13 @@
+Troubleshooting Android Basics Problems
+
+When something breaks around Android Basics, a calm and systematic approach saves the most time. When people talk about Android Basics, they usually mean the core building blocks used to create apps for Android phones. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Android Studio usually reveal the cause faster than guessing.
+
+Common culprits: ignoring lifecycle events; blocking the main thread; hard-coded layouts. If none of these explains the symptom, re-read the basics of activities and layouts.
+
+Write a few tests that show how Android Basics should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Android Basics helps the next developer. Measure before you optimize. Use Android Studio or a simple timer to see where time is actually spent.
+
+Popular tools and libraries include Android Studio, Kotlin, and Gradle.
+
+Keep experimenting, keep notes, and revisit Android Basics whenever a new project gives you a reason.

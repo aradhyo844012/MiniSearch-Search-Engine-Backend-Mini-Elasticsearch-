@@ -1,0 +1,14 @@
+How to Learn Graph Traversal in 30 Days
+
+You do not need months to become comfortable with Graph Traversal. A focused plan of thirty days is enough to build a solid base. The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. This article explains the idea in plain language and points out where it fits in real projects.
+
+If you are comfortable with Graph Traversal, explore Binary Search next. The two often appear in the same project.
+
+Week 1: learn adjacency lists and breadth-first search, and write a one-page summary.
+Week 2: practice with NetworkX on a small task such as finding shortest paths in unweighted graphs.
+Week 3: build a mini project around detecting cycles.
+Week 4: review common mistakes such as forgetting to mark nodes as visited, and explain Graph Traversal to a friend.
+
+Popular tools and libraries include NetworkX, Python collections.deque, and Graphviz.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Graph Traversal.

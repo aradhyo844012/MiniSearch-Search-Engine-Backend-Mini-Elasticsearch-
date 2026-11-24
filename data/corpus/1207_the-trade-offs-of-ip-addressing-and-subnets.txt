@@ -1,0 +1,13 @@
+The Trade-offs of IP Addressing and Subnets
+
+Every design choice has a cost, and IP Addressing and Subnets is no exception. Put simply, IP Addressing and Subnets covers the rules for numbering devices on a network and dividing networks into smaller parts. Learning it well pays off across many areas of computing.
+
+On the positive side, IP Addressing and Subnets is well suited to planning office networks and configuring cloud networks. On the other hand, it is not free. Keep these risks in mind: overlapping address ranges; miscounting host bits; exhausting small subnets. Whether the trade is worth it depends on how much IPv4 and IPv6 and subnet masks matter to your project.
+
+Watch out for these problems: overlapping address ranges; miscounting host bits; and exhausting small subnets.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: overlapping address ranges.
+
+Start small by applying IP Addressing and Subnets to one case, such as planning office networks, before rolling it out more widely. Measure before you optimize. Use ipcalc or a simple timer to see where time is actually spent. Read the official documentation for ping; it often explains subnet masks better than blog posts do.
+
+In short, careful study of IP Addressing and Subnets pays off. Spend time on IPv4 and IPv6 and subnet masks, and the rest will follow.

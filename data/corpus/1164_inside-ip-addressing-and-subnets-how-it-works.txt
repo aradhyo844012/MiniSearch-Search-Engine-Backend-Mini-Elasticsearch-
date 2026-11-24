@@ -1,0 +1,15 @@
+Inside IP Addressing and Subnets: How It Works
+
+This article walks through what happens inside IP Addressing and Subnets, step by step. Many students first meet IP Addressing and Subnets in a classroom, but it matters just as much in production systems. The term refers to the rules for numbering devices on a network and dividing networks into smaller parts.
+
+Four ideas sit at the heart of IP Addressing and Subnets: IPv4 and IPv6, subnet masks, CIDR notation, and private ranges. Each one builds on the one before it. Sketching private ranges on paper before coding helps many learners see how the pieces fit.
+
+First, IPv4 and IPv6 sets the stage for everything else. Next, subnet masks builds on it. After that, CIDR notation comes into play, and finally private ranges ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Simple command-line tools can reveal a lot about what is happening on the wire.
+
+If you are comfortable with IP Addressing and Subnets, explore CDNs next. The two often appear in the same project.
+
+Every web request crosses several layers of protocols before it reaches an application. Latency is limited by distance and by the number of round trips a request needs.
+
+In short, careful study of IP Addressing and Subnets pays off. Spend time on IPv4 and IPv6 and subnet masks, and the rest will follow.

@@ -1,0 +1,22 @@
+Two-Factor Authentication: Frequently Asked Questions
+
+Q: What is Two-Factor Authentication?
+A: The term Two-Factor Authentication refers to requiring a second proof of identity in addition to a password.
+
+Q: Which tools help?
+A: Popular choices include Google Authenticator, YubiKey, and TOTP libraries.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Two-Factor Authentication.
+
+Q: How does it relate to Password Hashing?
+A: Two-Factor Authentication and Password Hashing often appear in the same project, and both belong to the area of Security.
+
+Q: What mistakes are most common?
+A: Watch for these: relying only on SMS; no recovery plan; and weak backup code storage.
+
+Q: Why do developers use Two-Factor Authentication?
+A: Common uses include protecting email accounts, securing admin panels, and reducing account takeovers.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.

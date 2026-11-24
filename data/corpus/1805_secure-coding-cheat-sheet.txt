@@ -1,0 +1,11 @@
+Secure Coding Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Secure Coding.
+
+- Definition: writing software in ways that avoid common vulnerabilities.
+- Core ideas: input validation; least privilege; dependency updates; secret management.
+- Use it for: reviewing pull requests; building web services; handling user uploads.
+- Watch out for: trusting user input; committing secrets to repositories; ignoring outdated libraries.
+- Tools: OWASP Top 10, static analysis tools, Dependabot.
+- Related topic: Password Hashing.
+- Quick tip: practice input validation until it feels automatic.

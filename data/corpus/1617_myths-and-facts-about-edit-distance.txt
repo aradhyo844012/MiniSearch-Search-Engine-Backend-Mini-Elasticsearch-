@@ -1,0 +1,17 @@
+Myths and Facts About Edit Distance
+
+A lot of folklore has built up around Edit Distance. Some of it is true, and some of it is not. When people talk about Edit Distance, they usually mean a measure of how many single-character changes turn one word into another. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Edit Distance is only for experts.
+Fact: beginners can use it effectively once they understand insertions and deletions.
+
+Myth: Edit Distance is only useful in very large systems.
+Fact: small projects such as spell checking benefit as well.
+
+Myth: one tool does everything.
+Fact: Levenshtein libraries, deletion-neighbour indexes, and difflib make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Edit Distance are always obvious.
+Fact: subtle problems happen, for example comparing against every word in a large vocabulary.
+
+With steady practice, Edit Distance will stop feeling abstract and become a tool you reach for naturally.

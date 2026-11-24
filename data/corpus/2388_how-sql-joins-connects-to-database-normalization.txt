@@ -1,0 +1,13 @@
+How SQL Joins Connects to Database Normalization
+
+SQL Joins and Database Normalization are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving linking customers to orders may also involve designing clean schemas. In such a project, inner join and first normal form often influence each other.
+
+Start with SQL Joins: the term refers to operations that combine rows from two or more tables based on related columns. Then look at Database Normalization, which refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+A useful exercise is to take one example, such as building reports, and explain how second normal form would change the design.
+
+Common problems are shared too. For SQL Joins, watch for this: duplicating rows by joining on non-unique keys. For Database Normalization, watch for this: ignoring query patterns. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or ER diagrams.

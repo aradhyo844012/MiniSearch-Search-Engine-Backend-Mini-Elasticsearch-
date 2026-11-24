@@ -1,0 +1,13 @@
+A Short History of Public Key Cryptography
+
+Ideas behind Public Key Cryptography developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Public Key Cryptography in a classroom, but it matters just as much in production systems. The term refers to encryption that uses a pair of keys, one public and one private.
+
+Security is a habit applied throughout development, not a feature added at the end. Attackers usually choose the easiest weakness, not the most interesting one.
+
+Four ideas sit at the heart of Public Key Cryptography: key pairs, digital signatures, certificates, and key exchange. Each one builds on the one before it. A good way to remember key pairs is to connect it with a concrete example from your own code.
+
+Attackers usually choose the easiest weakness, not the most interesting one.
+
+If you are comfortable with Public Key Cryptography, explore Password Hashing next. The two often appear in the same project.
+
+With steady practice, Public Key Cryptography will stop feeling abstract and become a tool you reach for naturally.

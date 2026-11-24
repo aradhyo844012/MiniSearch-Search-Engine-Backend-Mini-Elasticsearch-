@@ -1,0 +1,15 @@
+CI/CD Pipelines vs Git Branching: Key Differences
+
+CI/CD Pipelines and Git Branching both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes. Its core ideas are build stage, test stage, and artifacts.
+
+The term Git Branching refers to using separate lines of development so that changes can be built and reviewed independently. Its core ideas are branches, merging, and rebasing.
+
+The main difference is focus. CI/CD Pipelines puts the emphasis on build stage and test stage, while Git Branching puts the emphasis on branches and merging.
+
+Reach for CI/CD Pipelines when your task involves running tests on every push or shipping releases safely. Reach for Git Branching when your task involves feature development or bug fixes.
+
+Both have risks. With CI/CD Pipelines, watch for this: slow pipelines. With Git Branching, watch for this: long-lived branches.
+
+In practice you do not always have to choose. Many projects use CI/CD Pipelines alongside Git Branching, with tools such as GitHub Actions and Git. Small, frequent releases are usually safer than rare, large ones.

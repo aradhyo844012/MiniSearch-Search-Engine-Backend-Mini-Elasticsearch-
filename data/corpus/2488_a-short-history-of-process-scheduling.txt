@@ -1,0 +1,11 @@
+A Short History of Process Scheduling
+
+Ideas behind Process Scheduling developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Process Scheduling, they usually mean the way an operating system decides which process runs on the CPU and for how long. It appears in almost every serious software project, whether or not developers notice it.
+
+The operating system shares limited hardware between many competing programs. Understanding what the kernel does explains many surprising performance problems.
+
+To understand Process Scheduling, start with time slices. Then move on to priorities, and finally look at context switches and run queues. Sketching run queues on paper before coding helps many learners see how the pieces fit.
+
+Process Scheduling and Containers are closely related, so learning both gives a fuller picture of Operating Systems.
+
+Keep experimenting, keep notes, and revisit Process Scheduling whenever a new project gives you a reason.

@@ -1,0 +1,11 @@
+Case Study: Applying Tries in a Small Team
+
+Imagine a small student team building a project that depends on Tries. If you build software for long enough, you will run into Tries. The term refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+The team first spent a week learning prefix sharing and nodes and edges. Early on they hit a familiar problem: high memory use for sparse data. After fixing it, they used Python dict-based tries to check their work and adopted Tries for autocomplete. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: high memory use for sparse data. Second: forgetting end-of-word markers. Third: assuming case-insensitive matching.
+
+If you are comfortable with Tries, explore Bloom Filters next. The two often appear in the same project.
+
+In short, careful study of Tries pays off. Spend time on prefix sharing and nodes and edges, and the rest will follow.

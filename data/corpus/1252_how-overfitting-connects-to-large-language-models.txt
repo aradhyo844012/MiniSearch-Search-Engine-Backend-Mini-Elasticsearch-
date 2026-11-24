@@ -1,0 +1,13 @@
+How Overfitting Connects to Large Language Models
+
+Overfitting and Large Language Models are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving diagnosing weak models may also involve drafting text. In such a project, training and validation error and tokens often influence each other.
+
+Start with Overfitting: the term refers to when a model learns the training data too closely and performs poorly on new data. Then look at Large Language Models, which refers to very large neural networks trained on text that can generate and analyze language.
+
+A useful exercise is to take one example, such as choosing simpler models, and explain how attention would change the design.
+
+Common problems are shared too. For Overfitting, watch for this: leaking test data. For Large Language Models, watch for this: vague prompts. Simple baselines are worth building first because they show what improvement is realistic.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or Hugging Face.

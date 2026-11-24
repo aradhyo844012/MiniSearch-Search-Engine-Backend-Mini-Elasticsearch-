@@ -1,0 +1,11 @@
+The Trade-offs of Gradient Descent
+
+Every design choice has a cost, and Gradient Descent is no exception. If you build software for long enough, you will run into Gradient Descent. The term refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+On the positive side, Gradient Descent is well suited to training neural networks and fitting regression models. On the other hand, it is not free. Keep these risks in mind: learning rates that are too large; getting stuck on plateaus; unscaled features. Whether the trade is worth it depends on how much learning rate and gradients matter to your project.
+
+Beginners often stumble on three things. First: learning rates that are too large. Second: getting stuck on plateaus. Third: unscaled features.
+
+Keep notes on what worked. A short README explaining your decisions about Gradient Descent helps the next developer. Practice learning rate with small exercises until it feels natural. Keep an eye on this risk during code review: learning rates that are too large.
+
+Keep experimenting, keep notes, and revisit Gradient Descent whenever a new project gives you a reason.

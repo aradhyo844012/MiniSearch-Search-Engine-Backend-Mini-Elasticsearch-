@@ -1,0 +1,11 @@
+A Practical Checklist for SQL Injection
+
+Use this checklist before you rely on SQL Injection in a project.
+
+1. Pick a tool to start with, such as prepared statements or OWASP cheat sheets.
+2. Review the core ideas: parameterized queries, input validation, least privilege, and escaping.
+3. Guard against this risk: revealing detailed database errors.
+4. Measure results before and after any change.
+5. Confirm that your team agrees on what SQL Injection should accomplish.
+6. Try the approach on a small case, for example securing login forms.
+7. Guard against this risk: using admin accounts for the app.

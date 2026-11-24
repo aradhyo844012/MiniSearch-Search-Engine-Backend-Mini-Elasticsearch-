@@ -1,0 +1,13 @@
+How Natural Language Processing Connects to Gradient Descent
+
+Natural Language Processing and Gradient Descent are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving search engines may also involve training neural networks. In such a project, tokenization and learning rate often influence each other.
+
+Start with Natural Language Processing: the term refers to the field of teaching computers to work with human language. Then look at Gradient Descent, which refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+A useful exercise is to take one example, such as chatbots, and explain how gradients would change the design.
+
+Common problems are shared too. For Natural Language Processing, watch for this: messy text preprocessing. For Gradient Descent, watch for this: getting stuck on plateaus. Reproducible experiments make it far easier to trust and improve a model.
+
+Spend a few hours on each topic, then combine them in one small project using spaCy or PyTorch.

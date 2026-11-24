@@ -1,0 +1,15 @@
+Best Practices for Edit Distance
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Edit Distance covers a measure of how many single-character changes turn one word into another. Learning it well pays off across many areas of computing.
+
+1. Practice insertions with small exercises until it feels natural.
+2. Ask a teammate to explain substitutions back to you; teaching is a quick way to find gaps.
+3. Measure before you optimize. Use Levenshtein libraries or a simple timer to see where time is actually spent.
+4. Keep an eye on this risk during code review: comparing against every word in a large vocabulary.
+5. Read the official documentation for deletion-neighbour indexes; it often explains deletions better than blog posts do.
+
+Popular tools and libraries include Levenshtein libraries, deletion-neighbour indexes, and difflib.
+
+If you are comfortable with Edit Distance, explore Tokenization next. The two often appear in the same project.
+
+With steady practice, Edit Distance will stop feeling abstract and become a tool you reach for naturally.

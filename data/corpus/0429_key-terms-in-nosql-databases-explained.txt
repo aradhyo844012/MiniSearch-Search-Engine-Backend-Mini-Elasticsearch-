@@ -1,0 +1,12 @@
+Key Terms in NoSQL Databases Explained
+
+Clear vocabulary makes NoSQL Databases much easier to learn, so here are the key terms in plain language. When people talk about NoSQL Databases, they usually mean a broad family of databases that do not use the traditional relational table model. It appears in almost every serious software project, whether or not developers notice it.
+
+document stores: a key term in NoSQL Databases. You will meet it constantly in documentation and in code reviews.
+key-value stores: a key term in NoSQL Databases. It matters because it shapes how you design, test and explain your solution.
+column families: a key term in NoSQL Databases. You will meet it constantly in documentation and in code reviews.
+graph databases: a key term in NoSQL Databases. It matters because it shapes how you design, test and explain your solution.
+
+Backups are only useful if restoring from them has been tested. Good schema design is hard to change once real data and users depend on it.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with NoSQL Databases.

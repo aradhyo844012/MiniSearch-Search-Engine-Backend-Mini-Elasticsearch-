@@ -1,0 +1,19 @@
+A Beginner's Guide to Overfitting
+
+This guide is written for readers who are new to Overfitting and want a clear starting point. The term Overfitting refers to when a model learns the training data too closely and performs poorly on new data. This article explains the idea in plain language and points out where it fits in real projects.
+
+A model is only as good as the data used to train and test it.
+
+Ask a teammate to explain regularization back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: evaluating only on training data.
+
+To understand Overfitting, start with training and validation error. Then move on to model complexity, and finally look at regularization and cross-validation. Understanding model complexity first often makes regularization much easier to reason about.
+
+People use Overfitting for diagnosing weak models, for choosing simpler models, and for tuning hyperparameters.
+
+In practice you can start with scikit-learn, then explore early stopping or learning curves as your needs grow.
+
+Beginners often stumble on three things. First: evaluating only on training data. Second: leaking test data. Third: adding complexity without evidence.
+
+Read the official documentation for early stopping; it often explains model complexity better than blog posts do. Ask a teammate to explain regularization back to you; teaching is a quick way to find gaps. Write a few tests that show how Overfitting should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Overfitting whenever a new project gives you a reason.

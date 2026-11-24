@@ -1,0 +1,13 @@
+The Future of Virtual Memory
+
+Predicting the future is risky, but the direction of Virtual Memory is easy to describe in general terms. The term Virtual Memory refers to a technique that gives each program its own address space backed by RAM and disk. This article explains the idea in plain language and points out where it fits in real projects.
+
+A solid grasp of Virtual Memory also makes File Systems easier to understand.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out. The operating system shares limited hardware between many competing programs.
+
+Expect tools such as vmstat and free to keep improving, and expect newer ideas to keep building on pages. The basics, though, tend to stay the same, so time spent on page tables and page faults is rarely wasted. Anyone working on isolating programs will keep meeting Virtual Memory for years to come.
+
+Keep an eye on this risk during code review: thrashing when memory is short. Keep notes on what worked. A short README explaining your decisions about Virtual Memory helps the next developer.
+
+In short, careful study of Virtual Memory pays off. Spend time on pages and page tables, and the rest will follow.

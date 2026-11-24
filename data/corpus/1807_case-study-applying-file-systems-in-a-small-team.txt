@@ -1,0 +1,9 @@
+Case Study: Applying File Systems in a Small Team
+
+Imagine a small student team building a project that depends on File Systems. If you build software for long enough, you will run into File Systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+The team first spent a week learning files and directories and inodes. Early on they hit a familiar problem: running out of inodes. After fixing it, they used ext4 to check their work and adopted File Systems for storing documents. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: running out of inodes. Second: wrong permissions. Third: ignoring disk space limits.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with File Systems.

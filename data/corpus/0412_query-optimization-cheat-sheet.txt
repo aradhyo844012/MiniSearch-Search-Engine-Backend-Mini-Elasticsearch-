@@ -1,0 +1,11 @@
+Query Optimization Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Query Optimization.
+
+- Definition: the process of making database queries return results with less time and fewer resources.
+- Core ideas: query plans; statistics; index usage; join order.
+- Use it for: speeding up dashboards; reducing server load; fixing slow pages.
+- Watch out for: selecting more columns than needed; running queries inside loops; guessing instead of reading the plan.
+- Tools: EXPLAIN ANALYZE, pg_stat_statements, query profilers.
+- Quick tip: write a tiny test for statistics before building anything large.
+- Related topic: SQL Joins.

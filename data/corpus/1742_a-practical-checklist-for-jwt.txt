@@ -1,0 +1,13 @@
+A Practical Checklist for JWT
+
+Use this checklist before you rely on JWT in a project.
+
+1. Guard against this risk: skipping signature checks.
+2. Confirm that your team agrees on what JWT should accomplish.
+3. Measure results before and after any change.
+4. Review the core ideas: header, payload and signature, claims, expiry, and signing keys.
+5. Guard against this risk: very long expiry times.
+6. Guard against this risk: storing tokens in insecure places.
+7. Ask a teammate to review the work, focusing on claims.
+8. Write at least one automated test that covers header, payload and signature.
+9. Pick a tool to start with, such as jwt.io or PyJWT.

@@ -1,0 +1,13 @@
+The Future of Threads and Concurrency
+
+Predicting the future is risky, but the direction of Threads and Concurrency is easy to describe in general terms. Many students first meet Threads and Concurrency in a classroom, but it matters just as much in production systems. The term refers to ways of making progress on several tasks at once within a program.
+
+The operating system shares limited hardware between many competing programs.
+
+Understanding what the kernel does explains many surprising performance problems. The operating system shares limited hardware between many competing programs.
+
+Expect tools such as Python threading and Java ExecutorService to keep improving, and expect newer ideas to keep building on threads. The basics, though, tend to stay the same, so time spent on locks and race conditions is rarely wasted. Anyone working on handling many requests will keep meeting Threads and Concurrency for years to come.
+
+Keep an eye on this risk during code review: forgetting to protect shared data. Ask a teammate to explain race conditions back to you; teaching is a quick way to find gaps.
+
+With steady practice, Threads and Concurrency will stop feeling abstract and become a tool you reach for naturally.

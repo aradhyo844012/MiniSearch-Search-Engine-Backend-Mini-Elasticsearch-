@@ -1,0 +1,17 @@
+Best Practices for Linked Lists
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Linked Lists. The term refers to chains of nodes where each node stores a value and a reference to the next node.
+
+1. Write a few tests that show how Linked Lists should behave. Tests double as documentation for your teammates.
+2. Practice nodes with small exercises until it feels natural.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Keep notes on what worked. A short README explaining your decisions about Linked Lists helps the next developer.
+5. Ask a teammate to explain singly and doubly linked lists back to you; teaching is a quick way to find gaps.
+
+Popular tools and libraries include Python collections.deque, Java LinkedList, and C pointers.
+
+Linked Lists and Sorting Algorithms are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+If you are comfortable with Linked Lists, explore Sorting Algorithms next. The two often appear in the same project.
+
+In short, careful study of Linked Lists pays off. Spend time on nodes and head and tail pointers, and the rest will follow.

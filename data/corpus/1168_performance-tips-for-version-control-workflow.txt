@@ -1,0 +1,15 @@
+Performance Tips for Version Control Workflow
+
+Fast software rarely happens by accident, and Version Control Workflow offers several places to gain speed. If you build software for long enough, you will run into Version Control Workflow. The term refers to the habits and rules a team uses to track and combine changes to code.
+
+Start by measuring. Use Git or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to commits and branches, because they usually decide how well things scale. For workloads such as collaborating on shared code, even small improvements add up quickly.
+
+To understand Version Control Workflow, start with commits. Then move on to branches, and finally look at tags and release process. A good way to remember commits is to connect it with a concrete example from your own code.
+
+Version Control Workflow and Technical Debt are closely related, so learning both gives a fuller picture of Software Engineering.
+
+Keep an eye on this risk during code review: vague commit messages. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for GitHub; it often explains branches better than blog posts do.
+
+Beginners often stumble on three things. First: vague commit messages. Second: committing large unrelated changes. Third: rewriting shared history.
+
+With steady practice, Version Control Workflow will stop feeling abstract and become a tool you reach for naturally.

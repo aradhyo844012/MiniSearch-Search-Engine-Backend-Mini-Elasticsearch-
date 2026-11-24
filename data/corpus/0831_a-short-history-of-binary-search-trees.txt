@@ -1,0 +1,13 @@
+A Short History of Binary Search Trees
+
+Ideas behind Binary Search Trees developed gradually as engineers ran into practical limits and shared what they learned. The term Binary Search Trees refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. This article explains the idea in plain language and points out where it fits in real projects.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+The vocabulary of Binary Search Trees is small. Learn nodes and links, in-order traversal, tree height, and balancing, and most documentation will start to make sense. A good way to remember nodes and links is to connect it with a concrete example from your own code.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Binary Search Trees and Linked Lists are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+In short, careful study of Binary Search Trees pays off. Spend time on nodes and links and in-order traversal, and the rest will follow.

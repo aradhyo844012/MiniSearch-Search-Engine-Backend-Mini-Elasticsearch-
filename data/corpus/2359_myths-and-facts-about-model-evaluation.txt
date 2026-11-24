@@ -1,0 +1,19 @@
+Myths and Facts About Model Evaluation
+
+A lot of folklore has built up around Model Evaluation. Some of it is true, and some of it is not. The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Model Evaluation is only for experts.
+Fact: beginners can use it effectively once they understand accuracy and precision and recall.
+
+Myth: Model Evaluation is only useful in very large systems.
+Fact: small projects such as comparing models benefit as well.
+
+Myth: one tool does everything.
+Fact: scikit-learn metrics, MLflow, and pandas make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Model Evaluation are always obvious.
+Fact: subtle problems happen, for example using accuracy on imbalanced data.
+
+Simple baselines are worth building first because they show what improvement is realistic. A model is only as good as the data used to train and test it.
+
+With steady practice, Model Evaluation will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+A Practical Checklist for CDNs
+
+Use this checklist before you rely on CDNs in a project.
+
+1. Review the core ideas: edge servers, cache rules, origin servers, and cache purging.
+2. Try the approach on a small case, for example serving images and scripts.
+3. Write at least one automated test that covers edge servers.
+4. Pick a tool to start with, such as Cloudflare or Akamai.
+5. Review how CDNs interacts with IP Addressing and Subnets.
+6. Ask a teammate to review the work, focusing on cache rules.
+7. Guard against this risk: caching private data.
+8. Measure results before and after any change.
+9. Document your decisions in the project README.

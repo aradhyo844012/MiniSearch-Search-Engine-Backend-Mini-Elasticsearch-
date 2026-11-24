@@ -1,0 +1,11 @@
+Refactoring Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Refactoring.
+
+- Definition: improving the structure of existing code without changing its behavior.
+- Core ideas: small steps; tests as a safety net; extracting functions; renaming.
+- Use it for: reducing duplication; preparing for new features; simplifying complex code.
+- Watch out for: refactoring without tests; mixing refactoring with new features; rewriting instead of improving.
+- Tools: IDE refactoring tools, pytest, linters.
+- Quick tip: write a tiny test for tests as a safety net before building anything large.
+- Related topic: Agile and Scrum.

@@ -1,0 +1,13 @@
+Inside Code Review: How It Works
+
+This article walks through what happens inside Code Review, step by step. If you build software for long enough, you will run into Code Review. The term refers to having teammates examine changes before they are merged.
+
+Four ideas sit at the heart of Code Review: pull requests, review comments, checklists, and approvals. Each one builds on the one before it. Understanding review comments first often makes checklists much easier to reason about.
+
+First, pull requests sets the stage for everything else. Next, review comments builds on it. After that, checklists comes into play, and finally approvals ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+If you are comfortable with Code Review, explore Unit Testing next. The two often appear in the same project.
+
+In short, careful study of Code Review pays off. Spend time on pull requests and review comments, and the rest will follow.

@@ -1,0 +1,13 @@
+How Functional Programming Connects to Error Handling
+
+Functional Programming and Error Handling are closely connected parts of Programming. Seeing how they fit together helps you learn both faster.
+
+A project involving data transformation may also involve reading files. In such a project, pure functions and exceptions often influence each other.
+
+Start with Functional Programming: the term refers to a style of programming that builds programs from functions and avoids shared mutable state. Then look at Error Handling, which refers to planning for failures so that programs respond clearly instead of crashing.
+
+A useful exercise is to take one example, such as concurrent code, and explain how validation would change the design.
+
+Common problems are shared too. For Functional Programming, watch for this: hidden state. For Error Handling, watch for this: catching overly broad errors. Clear error messages and good names make programs far easier to debug.
+
+Spend a few hours on each topic, then combine them in one small project using Python functools or Python try and except.

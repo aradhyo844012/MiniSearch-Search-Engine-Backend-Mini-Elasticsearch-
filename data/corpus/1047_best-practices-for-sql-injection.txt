@@ -1,0 +1,17 @@
+Best Practices for SQL Injection
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about SQL Injection, they usually mean an attack where malicious input changes the meaning of a database query. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Measure before you optimize. Use prepared statements or a simple timer to see where time is actually spent.
+2. Read the official documentation for OWASP cheat sheets; it often explains input validation better than blog posts do.
+3. Start small by applying SQL Injection to one case, such as securing login forms, before rolling it out more widely.
+4. Practice parameterized queries with small exercises until it feels natural.
+5. Keep notes on what worked. A short README explaining your decisions about SQL Injection helps the next developer.
+
+Popular tools and libraries include prepared statements, OWASP cheat sheets, and sqlmap in test environments.
+
+Keep an eye on this risk during code review: building queries with string concatenation. Write a few tests that show how SQL Injection should behave. Tests double as documentation for your teammates. Practice parameterized queries with small exercises until it feels natural.
+
+SQL Injection and OAuth 2.0 are closely related, so learning both gives a fuller picture of Security.
+
+In short, careful study of SQL Injection pays off. Spend time on parameterized queries and input validation, and the rest will follow.

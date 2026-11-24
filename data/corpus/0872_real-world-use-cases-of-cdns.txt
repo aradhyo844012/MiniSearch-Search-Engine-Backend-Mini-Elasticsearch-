@@ -1,0 +1,15 @@
+Real-World Use Cases of CDNs
+
+The best way to appreciate CDNs is to see where it is actually used. Many students first meet CDNs in a classroom, but it matters just as much in production systems. The term refers to networks of servers around the world that deliver static content from a location close to the user.
+
+You will see CDNs whenever people work on serving images and scripts or speeding up global sites. It also helps with absorbing traffic spikes.
+
+Consider serving images and scripts. In a case like this, CDNs gives the work a clear structure, and understanding edge servers makes the design easier to explain. A different example is speeding up global sites, where cache rules often decides how well the solution scales.
+
+Latency is limited by distance and by the number of round trips a request needs. Network failures are normal, so well-designed software expects timeouts and retries.
+
+Popular tools and libraries include Cloudflare, Akamai, and Amazon CloudFront.
+
+Measure before you optimize. Use Cloudflare or a simple timer to see where time is actually spent. Read the official documentation for Akamai; it often explains cache rules better than blog posts do.
+
+Keep experimenting, keep notes, and revisit CDNs whenever a new project gives you a reason.

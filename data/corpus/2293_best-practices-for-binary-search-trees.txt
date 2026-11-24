@@ -1,0 +1,15 @@
+Best Practices for Binary Search Trees
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Binary Search Trees, they usually mean ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Ask a teammate to explain tree height back to you; teaching is a quick way to find gaps.
+2. Start small by applying Binary Search Trees to one case, such as ordered lookups, before rolling it out more widely.
+3. Keep notes on what worked. A short README explaining your decisions about Binary Search Trees helps the next developer.
+4. Measure before you optimize. Use AVL trees or a simple timer to see where time is actually spent.
+5. Keep an eye on this risk during code review: unbalanced trees degrade to linked lists.
+
+Popular tools and libraries include AVL trees, red-black trees, and Java TreeMap.
+
+If you are comfortable with Binary Search Trees, explore Big O Notation next. The two often appear in the same project.
+
+With steady practice, Binary Search Trees will stop feeling abstract and become a tool you reach for naturally.

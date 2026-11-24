@@ -1,0 +1,11 @@
+BM25 Ranking Cheat Sheet
+
+Use this page as a quick reminder of the essentials of BM25 Ranking.
+
+- Definition: a ranking function that improves on plain term frequency with saturation and length normalization.
+- Core ideas: term saturation; document length normalization; k1 and b parameters; inverse document frequency.
+- Use it for: ranking search results; enterprise search; question answering baselines.
+- Watch out for: untuned parameters; ignoring field boundaries; comparing scores across different queries.
+- Tools: Elasticsearch, rank_bm25, Lucene.
+- Quick tip: write a tiny test for document length normalization before building anything large.
+- Related topic: Zipf's Law.

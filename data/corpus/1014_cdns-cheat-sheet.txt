@@ -1,0 +1,11 @@
+CDNs Cheat Sheet
+
+Use this page as a quick reminder of the essentials of CDNs.
+
+- Definition: networks of servers around the world that deliver static content from a location close to the user.
+- Core ideas: edge servers; cache rules; origin servers; cache purging.
+- Use it for: serving images and scripts; speeding up global sites; absorbing traffic spikes.
+- Watch out for: caching private data; forgetting to purge old files; misconfigured cache headers.
+- Tools: Cloudflare, Akamai, Amazon CloudFront.
+- Quick tip: practice edge servers until it feels automatic.
+- Quick tip: write a tiny test for cache rules before building anything large.

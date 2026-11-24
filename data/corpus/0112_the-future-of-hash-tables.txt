@@ -1,0 +1,13 @@
+The Future of Hash Tables
+
+Predicting the future is risky, but the direction of Hash Tables is easy to describe in general terms. When people talk about Hash Tables, they usually mean a way of storing key-value pairs so that lookups take roughly constant time. It appears in almost every serious software project, whether or not developers notice it.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+If you are comfortable with Hash Tables, explore Recursion next. The two often appear in the same project.
+
+Expect tools such as Python dict and Java HashMap to keep improving, and expect newer ideas to keep building on hash function. The basics, though, tend to stay the same, so time spent on buckets and collision handling is rarely wasted. Anyone working on implementing dictionaries and sets will keep meeting Hash Tables for years to come.
+
+Write a few tests that show how Hash Tables should behave. Tests double as documentation for your teammates. Ask a teammate to explain collision handling back to you; teaching is a quick way to find gaps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Hash Tables.

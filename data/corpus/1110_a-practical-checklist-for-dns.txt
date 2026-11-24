@@ -1,0 +1,12 @@
+A Practical Checklist for DNS
+
+Use this checklist before you rely on DNS in a project.
+
+1. Guard against this risk: forgetting TTLs when migrating.
+2. Pick a tool to start with, such as dig or nslookup.
+3. Try the approach on a small case, for example mapping domains to servers.
+4. Review the core ideas: resolvers, records, caching and TTL, and name servers.
+5. Ask a teammate to review the work, focusing on records.
+6. Confirm that your team agrees on what DNS should accomplish.
+7. Write at least one automated test that covers resolvers.
+8. Guard against this risk: assuming changes apply instantly.

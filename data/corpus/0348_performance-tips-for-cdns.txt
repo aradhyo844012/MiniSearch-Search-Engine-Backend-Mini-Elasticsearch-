@@ -1,0 +1,13 @@
+Performance Tips for CDNs
+
+Fast software rarely happens by accident, and CDNs offers several places to gain speed. If you build software for long enough, you will run into CDNs. The term refers to networks of servers around the world that deliver static content from a location close to the user.
+
+Start by measuring. Use Cloudflare or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to edge servers and cache rules, because they usually decide how well things scale. For workloads such as serving images and scripts, even small improvements add up quickly.
+
+To understand CDNs, start with edge servers. Then move on to cache rules, and finally look at origin servers and cache purging. A good way to remember edge servers is to connect it with a concrete example from your own code.
+
+Start small by applying CDNs to one case, such as serving images and scripts, before rolling it out more widely. Practice edge servers with small exercises until it feels natural. Measure before you optimize. Use Cloudflare or a simple timer to see where time is actually spent.
+
+Watch out for these problems: caching private data; forgetting to purge old files; and misconfigured cache headers.
+
+Keep experimenting, keep notes, and revisit CDNs whenever a new project gives you a reason.

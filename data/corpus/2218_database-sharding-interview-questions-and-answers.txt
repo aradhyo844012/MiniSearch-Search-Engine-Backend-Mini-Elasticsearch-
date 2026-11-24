@@ -1,0 +1,21 @@
+Database Sharding Interview Questions and Answers
+
+Prepare for these questions about Database Sharding.
+
+Q: Explain Database Sharding in simple words.
+A: Database Sharding refers to splitting a large dataset across several databases so each holds only part of it. I would add an example involving scaling beyond one server.
+
+Q: Which tools have you used?
+A: Vitess, MongoDB sharding, and Citus.
+
+Q: What problems have you seen in practice?
+A: choosing a poor shard key; hot shards; and expensive joins across shards.
+
+Q: Where would you apply it first?
+A: I would start with isolating tenants, because it is small enough to test and large enough to show the benefit.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as shard keys, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: shard keys, routing, rebalancing, and cross-shard queries.

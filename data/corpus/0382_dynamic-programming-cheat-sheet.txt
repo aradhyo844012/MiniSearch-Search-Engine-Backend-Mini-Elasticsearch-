@@ -1,0 +1,11 @@
+Dynamic Programming Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Dynamic Programming.
+
+- Definition: a technique for solving problems by storing the answers to overlapping subproblems.
+- Core ideas: overlapping subproblems; optimal substructure; memoization; tabulation.
+- Use it for: computing edit distance; knapsack style optimization; counting paths in grids.
+- Watch out for: defining the state incorrectly; storing more state than needed; ignoring base cases.
+- Tools: Python functools.lru_cache, NumPy, spreadsheets for small tables.
+- Quick tip: practice overlapping subproblems until it feels automatic.
+- Related topic: Bloom Filters.

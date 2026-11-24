@@ -1,0 +1,11 @@
+Troubleshooting Inverted Index Problems
+
+When something breaks around Inverted Index, a calm and systematic approach saves the most time. Put simply, Inverted Index covers a data structure that maps each term to the documents that contain it. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Lucene usually reveal the cause faster than guessing.
+
+Common culprits: scanning very long postings lists; building the index without normalizing text; forgetting to update it after changes. If none of these explains the symptom, re-read the basics of vocabulary and postings lists.
+
+Popular tools and libraries include Lucene, Elasticsearch, and custom Python dictionaries.
+
+In short, careful study of Inverted Index pays off. Spend time on vocabulary and postings lists, and the rest will follow.

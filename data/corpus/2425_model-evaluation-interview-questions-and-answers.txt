@@ -1,0 +1,21 @@
+Model Evaluation Interview Questions and Answers
+
+Prepare for these questions about Model Evaluation.
+
+Q: Explain Model Evaluation in simple words.
+A: Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. I would add an example involving comparing models.
+
+Q: What are the key concepts?
+A: accuracy, precision and recall, confusion matrices, and validation sets.
+
+Q: How does it connect to Gradient Descent?
+A: Both belong to the area of Machine Learning, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: using accuracy on imbalanced data.
+
+Q: Where would you apply it first?
+A: I would start with choosing thresholds, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: scikit-learn metrics, MLflow, and pandas.

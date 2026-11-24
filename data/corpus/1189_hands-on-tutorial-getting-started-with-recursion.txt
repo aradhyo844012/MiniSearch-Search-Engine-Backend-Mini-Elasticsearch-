@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Recursion
+
+This hands-on tutorial takes you from zero to a small working experiment with Recursion. Many students first meet Recursion in a classroom, but it matters just as much in production systems. The term refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+Step 1: Install or open Python sys.setrecursionlimit and create a new empty project folder.
+Step 2: Read about base case and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses recursive case.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as traversing trees.
+Step 6: Break your example on purpose and see what happens. A good experiment: missing base cases.
+
+In practice you can start with Python sys.setrecursionlimit, then explore debuggers or memoization decorators as your needs grow.
+
+Watch out for these problems: missing base cases; exceeding the recursion limit; and recomputing the same values.
+
+If you are comfortable with Recursion, explore Big O Notation next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Recursion whenever a new project gives you a reason.

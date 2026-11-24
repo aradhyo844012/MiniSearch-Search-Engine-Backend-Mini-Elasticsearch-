@@ -1,0 +1,19 @@
+Redis Caching: Frequently Asked Questions
+
+Q: What is Redis Caching?
+A: The term Redis Caching refers to using an in-memory data store to keep frequently needed results close to the application.
+
+Q: What should a beginner learn first?
+A: Start with key-value pairs and expiration times, then move on to eviction policies and cache invalidation.
+
+Q: Why do developers use Redis Caching?
+A: Common uses include caching API responses, storing session data, and rate limit counters.
+
+Q: Which tools help?
+A: Popular choices include Redis, redis-py, and Memcached.
+
+Q: How does it relate to Database Normalization?
+A: Redis Caching and Database Normalization often appear in the same project, and both belong to the area of Databases.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.

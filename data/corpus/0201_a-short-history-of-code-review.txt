@@ -1,0 +1,13 @@
+A Short History of Code Review
+
+Ideas behind Code Review developed gradually as engineers ran into practical limits and shared what they learned. The term Code Review refers to having teammates examine changes before they are merged. This article explains the idea in plain language and points out where it fits in real projects.
+
+Small, frequent feedback loops catch problems while they are still cheap to fix. Teams succeed when they agree on a few simple practices and follow them consistently.
+
+The vocabulary of Code Review is small. Learn pull requests, review comments, checklists, and approvals, and most documentation will start to make sense. Sketching approvals on paper before coding helps many learners see how the pieces fit.
+
+Measure before you optimize. Use GitHub pull requests or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Code Review helps the next developer.
+
+Code Review and Clean Code are closely related, so learning both gives a fuller picture of Software Engineering.
+
+In short, careful study of Code Review pays off. Spend time on pull requests and review comments, and the rest will follow.

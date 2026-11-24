@@ -1,0 +1,11 @@
+Common Mistakes When Working with Neural Networks
+
+Almost everyone makes a few avoidable errors when first working with Neural Networks. Put simply, Neural Networks covers models made of layers of connected units that learn patterns from data. Learning it well pays off across many areas of computing.
+
+Watch out for these problems: too little training data; poor learning rate choices; and not monitoring validation loss.
+
+Consider the first problem: too little training data. A short test or a careful review comment usually catches it. The second problem is similar: poor learning rate choices. The third problem is this: not monitoring validation loss. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice layers with small exercises until it feels natural. Ask a teammate to explain activation functions back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Neural Networks pays off. Spend time on layers and weights, and the rest will follow.

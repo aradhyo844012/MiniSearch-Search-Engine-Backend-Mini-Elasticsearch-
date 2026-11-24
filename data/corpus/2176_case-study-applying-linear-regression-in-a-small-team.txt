@@ -1,0 +1,11 @@
+Case Study: Applying Linear Regression in a Small Team
+
+Imagine a small student team building a project that depends on Linear Regression. If you build software for long enough, you will run into Linear Regression. The term refers to a method for predicting a number by fitting a straight line or plane to data.
+
+The team first spent a week learning coefficients and residuals. Early on they hit a familiar problem: extrapolating far beyond the data. After fixing it, they used scikit-learn to check their work and adopted Linear Regression for predicting prices. Looking back, they said the biggest lesson was to write tests earlier.
+
+Ask a teammate to explain least squares back to you; teaching is a quick way to find gaps. Write a few tests that show how Linear Regression should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: extrapolating far beyond the data; ignoring outliers; and using correlated features carelessly. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linear Regression.

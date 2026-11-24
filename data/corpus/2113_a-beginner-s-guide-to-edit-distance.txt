@@ -1,0 +1,17 @@
+A Beginner's Guide to Edit Distance
+
+This guide is written for readers who are new to Edit Distance and want a clear starting point. Put simply, Edit Distance covers a measure of how many single-character changes turn one word into another. Learning it well pays off across many areas of computing.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+To understand Edit Distance, start with insertions. Then move on to deletions, and finally look at substitutions and transpositions. A good way to remember insertions is to connect it with a concrete example from your own code.
+
+People use Edit Distance for spell checking, for fuzzy matching, and for correcting search queries.
+
+Popular tools and libraries include Levenshtein libraries, deletion-neighbour indexes, and difflib.
+
+Beginners often stumble on three things. First: comparing against every word in a large vocabulary. Second: ignoring word length. Third: forgetting transpositions.
+
+Ask a teammate to explain substitutions back to you; teaching is a quick way to find gaps. Practice insertions with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Edit Distance whenever a new project gives you a reason.

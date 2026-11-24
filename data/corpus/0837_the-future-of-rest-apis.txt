@@ -1,0 +1,13 @@
+The Future of REST APIs
+
+Predicting the future is risky, but the direction of REST APIs is easy to describe in general terms. If you build software for long enough, you will run into REST APIs. The term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods.
+
+Clear contracts between services make systems easier to change and test. Good APIs are boring, predictable and well documented.
+
+Failures between services are normal, so retries and timeouts need careful design.
+
+Expect tools such as Flask and FastAPI to keep improving, and expect newer ideas to keep building on resources. The basics, though, tend to stay the same, so time spent on HTTP verbs and status codes is rarely wasted. Anyone working on mobile app backends will keep meeting REST APIs for years to come.
+
+Keep an eye on this risk during code review: inconsistent naming. Practice resources with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit REST APIs whenever a new project gives you a reason.

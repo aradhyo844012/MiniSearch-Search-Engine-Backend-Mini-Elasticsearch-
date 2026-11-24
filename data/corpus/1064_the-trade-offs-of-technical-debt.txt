@@ -1,0 +1,13 @@
+The Trade-offs of Technical Debt
+
+Every design choice has a cost, and Technical Debt is no exception. Many students first meet Technical Debt in a classroom, but it matters just as much in production systems. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+On the positive side, Technical Debt is well suited to deciding when to cut corners and planning cleanup work. On the other hand, it is not free. Keep these risks in mind: never paying it down; hiding it from stakeholders; unclear ownership. Whether the trade is worth it depends on how much shortcuts and interest matter to your project.
+
+Three issues come up again and again: never paying it down; hiding it from stakeholders; and unclear ownership. Knowing them in advance saves hours of debugging.
+
+Write a few tests that show how Technical Debt should behave. Tests double as documentation for your teammates. Start small by applying Technical Debt to one case, such as deciding when to cut corners, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Technical Debt helps the next developer.
+
+Software spends most of its life being changed, not written for the first time. Small, frequent feedback loops catch problems while they are still cheap to fix.
+
+With steady practice, Technical Debt will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,16 @@
+Heaps and Priority Queues: Frequently Asked Questions
+
+Q: What is Heaps and Priority Queues?
+A: The term Heaps and Priority Queues refers to structures that always give quick access to the smallest or largest element.
+
+Q: What should a beginner learn first?
+A: Start with heap property and sift up and sift down, then move on to array representation and top-k selection.
+
+Q: Why do developers use Heaps and Priority Queues?
+A: Common uses include scheduling tasks, selecting the top results from many candidates, and Dijkstra's shortest path algorithm.
+
+Q: Which tools help?
+A: Popular choices include Python heapq, Java PriorityQueue, and C++ priority_queue.
+
+Q: What mistakes are most common?
+A: Watch for these: assuming a heap is fully sorted; using a full sort when only the top k are needed; and mixing up min-heaps and max-heaps.

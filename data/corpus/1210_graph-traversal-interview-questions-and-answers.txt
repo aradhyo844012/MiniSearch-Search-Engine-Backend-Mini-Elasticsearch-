@@ -1,0 +1,18 @@
+Graph Traversal Interview Questions and Answers
+
+Prepare for these questions about Graph Traversal.
+
+Q: Explain Graph Traversal in simple words.
+A: Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. I would add an example involving finding shortest paths in unweighted graphs.
+
+Q: Where would you apply it first?
+A: I would start with detecting cycles, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Heaps and Priority Queues?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as adjacency lists, and add tests aimed at the known risks.
+
+Q: Which tools have you used?
+A: NetworkX, Python collections.deque, and Graphviz.

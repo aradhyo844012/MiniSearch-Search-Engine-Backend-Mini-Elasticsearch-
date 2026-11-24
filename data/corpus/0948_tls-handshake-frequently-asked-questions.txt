@@ -1,0 +1,19 @@
+TLS Handshake: Frequently Asked Questions
+
+Q: What is TLS Handshake?
+A: The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection.
+
+Q: Which tools help?
+A: Popular choices include OpenSSL, Let's Encrypt, and SSL Labs.
+
+Q: What mistakes are most common?
+A: Watch for these: expired certificates; disabling certificate validation; and using outdated protocol versions.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with TLS Handshake.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: How does it relate to Load Balancing?
+A: TLS Handshake and Load Balancing often appear in the same project, and both belong to the area of Networking.

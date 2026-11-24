@@ -1,0 +1,22 @@
+Tries: Frequently Asked Questions
+
+Q: What is Tries?
+A: The term Tries refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+Q: How does it relate to Binary Search Trees?
+A: Tries and Binary Search Trees often appear in the same project, and both belong to the area of Data Structures and Algorithms.
+
+Q: What should a beginner learn first?
+A: Start with prefix sharing and nodes and edges, then move on to end-of-word markers and alphabet size.
+
+Q: What mistakes are most common?
+A: Watch for these: high memory use for sparse data; forgetting end-of-word markers; and assuming case-insensitive matching.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Which tools help?
+A: Popular choices include Python dict-based tries, Java TreeMap, and pygtrie.
+
+Q: Why do developers use Tries?
+A: Common uses include autocomplete, spell checking, and IP routing tables.

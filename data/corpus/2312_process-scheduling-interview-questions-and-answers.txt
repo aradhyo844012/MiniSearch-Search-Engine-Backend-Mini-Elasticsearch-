@@ -1,0 +1,21 @@
+Process Scheduling Interview Questions and Answers
+
+Prepare for these questions about Process Scheduling.
+
+Q: Explain Process Scheduling in simple words.
+A: Process Scheduling refers to the way an operating system decides which process runs on the CPU and for how long. I would add an example involving sharing CPUs among programs.
+
+Q: What problems have you seen in practice?
+A: starvation of low priority tasks; too many context switches; and ignoring CPU affinity.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as time slices, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: starvation of low priority tasks.
+
+Q: What are the key concepts?
+A: time slices, priorities, context switches, and run queues.
+
+Q: How does it connect to File Systems?
+A: Both belong to the area of Operating Systems, and understanding one makes the other easier to learn.

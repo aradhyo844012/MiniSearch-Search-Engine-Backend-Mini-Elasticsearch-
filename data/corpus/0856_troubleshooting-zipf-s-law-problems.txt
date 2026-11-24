@@ -1,0 +1,11 @@
+Troubleshooting Zipf's Law Problems
+
+When something breaks around Zipf's Law, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Zipf's Law. The term refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and matplotlib usually reveal the cause faster than guessing.
+
+Common culprits: testing it on random text; reading too much into a perfect fit; ignoring small samples. If none of these explains the symptom, re-read the basics of rank and frequency and power laws.
+
+In practice you can start with matplotlib, then explore NumPy or pandas as your needs grow.
+
+With steady practice, Zipf's Law will stop feeling abstract and become a tool you reach for naturally.

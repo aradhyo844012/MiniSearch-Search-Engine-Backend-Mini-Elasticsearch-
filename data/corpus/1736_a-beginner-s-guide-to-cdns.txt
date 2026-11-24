@@ -1,0 +1,19 @@
+A Beginner's Guide to CDNs
+
+This guide is written for readers who are new to CDNs and want a clear starting point. When people talk about CDNs, they usually mean networks of servers around the world that deliver static content from a location close to the user. It appears in almost every serious software project, whether or not developers notice it.
+
+Simple command-line tools can reveal a lot about what is happening on the wire.
+
+To understand CDNs, start with edge servers. Then move on to cache rules, and finally look at origin servers and cache purging. A good way to remember edge servers is to connect it with a concrete example from your own code.
+
+Typical applications include serving images and scripts, speeding up global sites, and absorbing traffic spikes. Small projects and large systems both benefit.
+
+Latency is limited by distance and by the number of round trips a request needs. Network failures are normal, so well-designed software expects timeouts and retries.
+
+In practice you can start with Cloudflare, then explore Akamai or Amazon CloudFront as your needs grow.
+
+Three issues come up again and again: caching private data; forgetting to purge old files; and misconfigured cache headers. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Cloudflare or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about CDNs helps the next developer.
+
+In short, careful study of CDNs pays off. Spend time on edge servers and cache rules, and the rest will follow.

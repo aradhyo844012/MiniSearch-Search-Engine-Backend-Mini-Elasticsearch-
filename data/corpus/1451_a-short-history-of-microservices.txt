@@ -1,0 +1,13 @@
+A Short History of Microservices
+
+Ideas behind Microservices developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Microservices in a classroom, but it matters just as much in production systems. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+If you are comfortable with Microservices, explore JWT next. The two often appear in the same project.
+
+Failures between services are normal, so retries and timeouts need careful design.
+
+The vocabulary of Microservices is small. Learn service boundaries, APIs, independent deployment, and distributed data, and most documentation will start to make sense. A good way to remember service boundaries is to connect it with a concrete example from your own code.
+
+If you are comfortable with Microservices, explore JWT next. The two often appear in the same project.
+
+With steady practice, Microservices will stop feeling abstract and become a tool you reach for naturally.

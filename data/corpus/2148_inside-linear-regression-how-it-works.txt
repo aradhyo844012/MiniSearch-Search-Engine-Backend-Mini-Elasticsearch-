@@ -1,0 +1,15 @@
+Inside Linear Regression: How It Works
+
+This article walks through what happens inside Linear Regression, step by step. When people talk about Linear Regression, they usually mean a method for predicting a number by fitting a straight line or plane to data. It appears in almost every serious software project, whether or not developers notice it.
+
+The vocabulary of Linear Regression is small. Learn coefficients, residuals, least squares, and assumptions, and most documentation will start to make sense. Understanding residuals first often makes least squares much easier to reason about.
+
+First, coefficients sets the stage for everything else. Next, residuals builds on it. After that, least squares comes into play, and finally assumptions ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Simple baselines are worth building first because they show what improvement is realistic.
+
+Start small by applying Linear Regression to one case, such as predicting prices, before rolling it out more widely. Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent.
+
+A solid grasp of Linear Regression also makes Overfitting easier to understand.
+
+In short, careful study of Linear Regression pays off. Spend time on coefficients and residuals, and the rest will follow.

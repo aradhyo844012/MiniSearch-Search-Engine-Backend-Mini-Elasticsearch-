@@ -1,0 +1,13 @@
+Performance Tips for Single Page Applications
+
+Fast software rarely happens by accident, and Single Page Applications offers several places to gain speed. Many students first meet Single Page Applications in a classroom, but it matters just as much in production systems. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+Start by measuring. Use React or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to client-side routing and state management, because they usually decide how well things scale. For workloads such as dashboards, even small improvements add up quickly.
+
+The vocabulary of Single Page Applications is small. Learn client-side routing, state management, API calls, and bundling, and most documentation will start to make sense. A good way to remember client-side routing is to connect it with a concrete example from your own code.
+
+Keep an eye on this risk during code review: slow first load. Automate repetitive steps so that results are easy to reproduce.
+
+Watch out for these problems: slow first load; poor search engine visibility; and broken back buttons.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Single Page Applications.

@@ -1,0 +1,13 @@
+A Practical Checklist for WebSockets
+
+Use this checklist before you rely on WebSockets in a project.
+
+1. Measure results before and after any change.
+2. Review the core ideas: persistent connections, messages, heartbeats, and reconnection.
+3. Pick a tool to start with, such as Socket.IO or ws library.
+4. Document your decisions in the project README.
+5. Write at least one automated test that covers persistent connections.
+6. Guard against this risk: unbounded message queues.
+7. Guard against this risk: forgetting reconnection logic.
+8. Ask a teammate to review the work, focusing on messages.
+9. Review how WebSockets interacts with TCP and UDP.

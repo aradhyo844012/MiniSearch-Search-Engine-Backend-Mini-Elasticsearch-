@@ -1,0 +1,11 @@
+A Short History of WebSockets
+
+Ideas behind WebSockets developed gradually as engineers ran into practical limits and shared what they learned. The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+Network failures are normal, so well-designed software expects timeouts and retries. Every web request crosses several layers of protocols before it reaches an application.
+
+To understand WebSockets, start with persistent connections. Then move on to messages, and finally look at heartbeats and reconnection. A good way to remember persistent connections is to connect it with a concrete example from your own code.
+
+WebSockets and TCP and UDP are closely related, so learning both gives a fuller picture of Networking.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with WebSockets.

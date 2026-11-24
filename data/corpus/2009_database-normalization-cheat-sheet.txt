@@ -1,0 +1,11 @@
+Database Normalization Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Database Normalization.
+
+- Definition: the practice of organizing tables to reduce duplicated data and update anomalies.
+- Core ideas: first normal form; second normal form; third normal form; functional dependencies.
+- Use it for: designing clean schemas; avoiding update anomalies; keeping data consistent.
+- Watch out for: over-normalizing reporting tables; ignoring query patterns; duplicating data by accident.
+- Tools: ER diagrams, dbdiagram.io, MySQL Workbench.
+- Quick tip: practice first normal form until it feels automatic.
+- Quick tip: write a tiny test for second normal form before building anything large.

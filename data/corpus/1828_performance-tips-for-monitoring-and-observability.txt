@@ -1,0 +1,13 @@
+Performance Tips for Monitoring and Observability
+
+Fast software rarely happens by accident, and Monitoring and Observability offers several places to gain speed. When people talk about Monitoring and Observability, they usually mean collecting metrics, logs and traces so you can understand how a system behaves. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Prometheus or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to metrics and logs, because they usually decide how well things scale. For workloads such as detecting outages, even small improvements add up quickly.
+
+Four ideas sit at the heart of Monitoring and Observability: metrics, logs, traces, and alerts. Each one builds on the one before it. Understanding logs first often makes traces much easier to reason about.
+
+Write a few tests that show how Monitoring and Observability should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Prometheus or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Watch out for these problems: noisy alerts; logs without context; and dashboards nobody reads.
+
+With steady practice, Monitoring and Observability will stop feeling abstract and become a tool you reach for naturally.

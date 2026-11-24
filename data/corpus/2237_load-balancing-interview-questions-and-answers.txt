@@ -1,0 +1,21 @@
+Load Balancing Interview Questions and Answers
+
+Prepare for these questions about Load Balancing.
+
+Q: Explain Load Balancing in simple words.
+A: Load Balancing refers to spreading incoming requests across several servers so no single server is overwhelmed. I would add an example involving scaling web applications.
+
+Q: What are the key concepts?
+A: round robin, health checks, sticky sessions, and layer 4 and layer 7.
+
+Q: What problems have you seen in practice?
+A: the balancer becoming a single point of failure; ignoring health checks; and session data stored only on one server.
+
+Q: Which tools have you used?
+A: NGINX, HAProxy, and AWS Elastic Load Balancing.
+
+Q: How does it connect to TCP and UDP?
+A: Both belong to the area of Networking, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: the balancer becoming a single point of failure.

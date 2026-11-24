@@ -1,0 +1,11 @@
+Case Study: Applying Web Performance in a Small Team
+
+Imagine a small student team building a project that depends on Web Performance. The term Web Performance refers to the practice of making websites load quickly and respond smoothly. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning page weight and caching. Early on they hit a familiar problem: shipping large JavaScript bundles. After fixing it, they used Lighthouse to check their work and adopted Web Performance for shopping sites. Looking back, they said the biggest lesson was to write tests earlier.
+
+Practice page weight with small exercises until it feels natural. Keep an eye on this risk during code review: shipping large JavaScript bundles. Start small by applying Web Performance to one case, such as shopping sites, before rolling it out more widely.
+
+Three issues come up again and again: shipping large JavaScript bundles; unoptimized images; and too many network requests. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Web Performance pays off. Spend time on page weight and caching, and the rest will follow.

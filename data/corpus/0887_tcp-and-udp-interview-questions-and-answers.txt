@@ -1,0 +1,24 @@
+TCP and UDP Interview Questions and Answers
+
+Prepare for these questions about TCP and UDP.
+
+Q: Explain TCP and UDP in simple words.
+A: TCP and UDP refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless. I would add an example involving web traffic.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: assuming UDP guarantees delivery.
+
+Q: What are the key concepts?
+A: handshakes, acknowledgements, ports, and congestion control.
+
+Q: Where would you apply it first?
+A: I would start with video calls, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to WebSockets?
+A: Both belong to the area of Networking, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: Wireshark, netcat, and tcpdump.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as handshakes, and add tests aimed at the known risks.

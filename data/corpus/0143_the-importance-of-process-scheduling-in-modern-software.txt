@@ -1,0 +1,15 @@
+The Importance of Process Scheduling in Modern Software
+
+It is easy to underestimate Process Scheduling until something goes wrong without it. The term Process Scheduling refers to the way an operating system decides which process runs on the CPU and for how long. This article explains the idea in plain language and points out where it fits in real projects.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+Typical applications include sharing CPUs among programs, keeping interfaces responsive, and running batch jobs. Small projects and large systems both benefit.
+
+A solid grasp of Process Scheduling also makes Threads and Concurrency easier to understand.
+
+Watch out for these problems: starvation of low priority tasks; too many context switches; and ignoring CPU affinity.
+
+Process Scheduling and Threads and Concurrency are closely related, so learning both gives a fuller picture of Operating Systems.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Process Scheduling.

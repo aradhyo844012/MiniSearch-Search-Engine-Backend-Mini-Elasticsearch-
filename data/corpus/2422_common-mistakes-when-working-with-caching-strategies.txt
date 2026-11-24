@@ -1,0 +1,11 @@
+Common Mistakes When Working with Caching Strategies
+
+Almost everyone makes a few avoidable errors when first working with Caching Strategies. If you build software for long enough, you will run into Caching Strategies. The term refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+Three issues come up again and again: stale data; cache stampedes; and unbounded memory use. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: stale data. A short test or a careful review comment usually catches it. The second problem is similar: cache stampedes. The third problem is this: unbounded memory use. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Caching Strategies should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Caching Strategies helps the next developer. Ask a teammate to explain time to live back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Caching Strategies pays off. Spend time on cache-aside and write-through, and the rest will follow.

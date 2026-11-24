@@ -1,0 +1,11 @@
+Binary Search Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Binary Search.
+
+- Definition: a fast way to find an item in sorted data by repeatedly halving the search range.
+- Core ideas: sorted input; low and high bounds; midpoint calculation; logarithmic time.
+- Use it for: looking up values in sorted arrays; finding insertion points; searching answer spaces.
+- Watch out for: off-by-one errors; infinite loops from bad bounds; using it on unsorted data.
+- Tools: Python bisect, Java Collections.binarySearch, C++ lower_bound.
+- Related topic: Recursion.
+- Quick tip: write a tiny test for low and high bounds before building anything large.

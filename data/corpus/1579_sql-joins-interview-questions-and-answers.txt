@@ -1,0 +1,24 @@
+SQL Joins Interview Questions and Answers
+
+Prepare for these questions about SQL Joins.
+
+Q: Explain SQL Joins in simple words.
+A: SQL Joins refers to operations that combine rows from two or more tables based on related columns. I would add an example involving linking customers to orders.
+
+Q: What problems have you seen in practice?
+A: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join.
+
+Q: Which tools have you used?
+A: PostgreSQL, MySQL Workbench, and DBeaver.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: forgetting the join condition.
+
+Q: How does it connect to Database Replication?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.
+
+Q: What are the key concepts?
+A: inner join, left join, join conditions, and cartesian products.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as inner join, and add tests aimed at the known risks.

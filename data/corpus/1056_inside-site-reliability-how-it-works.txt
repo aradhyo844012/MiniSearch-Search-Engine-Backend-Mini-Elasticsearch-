@@ -1,0 +1,15 @@
+Inside Site Reliability: How It Works
+
+This article walks through what happens inside Site Reliability, step by step. The term Site Reliability refers to the discipline of keeping services dependable using engineering practices. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand Site Reliability, start with service level objectives. Then move on to error budgets, and finally look at incident response and postmortems. Understanding error budgets first often makes incident response much easier to reason about.
+
+First, service level objectives sets the stage for everything else. Next, error budgets builds on it. After that, incident response comes into play, and finally postmortems ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Small, frequent releases are usually safer than rare, large ones.
+
+If you are comfortable with Site Reliability, explore Kubernetes next. The two often appear in the same project.
+
+Site Reliability and Kubernetes are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+With steady practice, Site Reliability will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,17 @@
+Myths and Facts About Load Balancing
+
+A lot of folklore has built up around Load Balancing. Some of it is true, and some of it is not. If you build software for long enough, you will run into Load Balancing. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+Myth: Load Balancing is only for experts.
+Fact: beginners can use it effectively once they understand round robin and health checks.
+
+Myth: Load Balancing is only useful in very large systems.
+Fact: small projects such as scaling web applications benefit as well.
+
+Myth: one tool does everything.
+Fact: NGINX, HAProxy, and AWS Elastic Load Balancing make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Load Balancing are always obvious.
+Fact: subtle problems happen, for example the balancer becoming a single point of failure.
+
+Keep experimenting, keep notes, and revisit Load Balancing whenever a new project gives you a reason.

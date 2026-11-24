@@ -1,0 +1,15 @@
+Code Review vs Clean Code: Key Differences
+
+Code Review and Clean Code both belong to the area of Software Engineering, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Code Review refers to having teammates examine changes before they are merged. Its core ideas are pull requests, review comments, and checklists.
+
+The term Clean Code refers to writing code that other people can read, understand and change easily. Its core ideas are meaningful names, small functions, and consistent style.
+
+The main difference is focus. Code Review puts the emphasis on pull requests and review comments, while Clean Code puts the emphasis on meaningful names and small functions.
+
+Reach for Code Review when your task involves catching bugs early or sharing knowledge. Reach for Clean Code when your task involves team projects or long-lived products.
+
+Both have risks. With Code Review, watch for this: huge pull requests. With Clean Code, watch for this: cryptic abbreviations.
+
+In practice you do not always have to choose. Many projects use Code Review alongside Clean Code, with tools such as GitHub pull requests and linters. Software spends most of its life being changed, not written for the first time.

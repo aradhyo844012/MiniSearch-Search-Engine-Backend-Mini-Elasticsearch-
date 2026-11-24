@@ -1,0 +1,11 @@
+Case Study: Applying Decision Trees in a Small Team
+
+Imagine a small student team building a project that depends on Decision Trees. Many students first meet Decision Trees in a classroom, but it matters just as much in production systems. The term refers to models that make predictions by asking a sequence of simple questions about the data.
+
+Ask a teammate to explain leaf nodes back to you; teaching is a quick way to find gaps. Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent.
+
+The team first spent a week learning splits and entropy and Gini impurity. Early on they hit a familiar problem: deep trees that overfit. After fixing it, they used scikit-learn to check their work and adopted Decision Trees for classifying customers. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: deep trees that overfit. Second: ignoring class imbalance. Third: unstable results from small data changes.
+
+With steady practice, Decision Trees will stop feeling abstract and become a tool you reach for naturally.

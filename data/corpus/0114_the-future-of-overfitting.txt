@@ -1,0 +1,11 @@
+The Future of Overfitting
+
+Predicting the future is risky, but the direction of Overfitting is easy to describe in general terms. Put simply, Overfitting covers when a model learns the training data too closely and performs poorly on new data. Learning it well pays off across many areas of computing.
+
+A model is only as good as the data used to train and test it.
+
+Expect tools such as scikit-learn and early stopping to keep improving, and expect newer ideas to keep building on training and validation error. The basics, though, tend to stay the same, so time spent on model complexity and regularization is rarely wasted. Anyone working on diagnosing weak models will keep meeting Overfitting for years to come.
+
+Practice training and validation error with small exercises until it feels natural. Ask a teammate to explain regularization back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Overfitting whenever a new project gives you a reason.

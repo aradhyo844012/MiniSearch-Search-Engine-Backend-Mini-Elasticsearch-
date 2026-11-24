@@ -1,0 +1,13 @@
+Performance Tips for File Systems
+
+Fast software rarely happens by accident, and File Systems offers several places to gain speed. If you build software for long enough, you will run into File Systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Start by measuring. Use ext4 or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to files and directories and inodes, because they usually decide how well things scale. For workloads such as storing documents, even small improvements add up quickly.
+
+The vocabulary of File Systems is small. Learn files and directories, inodes, permissions, and journaling, and most documentation will start to make sense. A good way to remember files and directories is to connect it with a concrete example from your own code.
+
+Ask a teammate to explain permissions back to you; teaching is a quick way to find gaps. Start small by applying File Systems to one case, such as storing documents, before rolling it out more widely. Measure before you optimize. Use ext4 or a simple timer to see where time is actually spent.
+
+Watch out for these problems: running out of inodes; wrong permissions; and ignoring disk space limits.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with File Systems.

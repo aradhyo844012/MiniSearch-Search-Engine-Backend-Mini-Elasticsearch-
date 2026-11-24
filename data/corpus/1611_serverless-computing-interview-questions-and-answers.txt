@@ -1,0 +1,24 @@
+Serverless Computing Interview Questions and Answers
+
+Prepare for these questions about Serverless Computing.
+
+Q: Explain Serverless Computing in simple words.
+A: Serverless Computing refers to running code in managed functions without maintaining servers yourself. I would add an example involving webhooks.
+
+Q: Where would you apply it first?
+A: I would start with scheduled jobs, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Docker?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: cold start delays; vendor lock-in; and hard local debugging.
+
+Q: What are the key concepts?
+A: functions, event triggers, cold starts, and pay per use.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: cold start delays.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as functions, and add tests aimed at the known risks.

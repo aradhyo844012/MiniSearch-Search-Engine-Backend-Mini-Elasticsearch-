@@ -1,0 +1,12 @@
+A Practical Checklist for Redis Caching
+
+Use this checklist before you rely on Redis Caching in a project.
+
+1. Try the approach on a small case, for example caching API responses.
+2. Measure results before and after any change.
+3. Pick a tool to start with, such as Redis or redis-py.
+4. Guard against this risk: caching without expiry.
+5. Write at least one automated test that covers key-value pairs.
+6. Confirm that your team agrees on what Redis Caching should accomplish.
+7. Review the core ideas: key-value pairs, expiration times, eviction policies, and cache invalidation.
+8. Guard against this risk: serving stale data.

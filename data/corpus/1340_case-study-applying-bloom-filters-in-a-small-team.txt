@@ -1,0 +1,9 @@
+Case Study: Applying Bloom Filters in a Small Team
+
+Imagine a small student team building a project that depends on Bloom Filters. Many students first meet Bloom Filters in a classroom, but it matters just as much in production systems. The term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+The team first spent a week learning bit arrays and multiple hash functions. Early on they hit a familiar problem: choosing too small a bit array. After fixing it, they used Python bitarray to check their work and adopted Bloom Filters for skipping disk lookups for missing keys. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: choosing too small a bit array. Second: trying to delete items. Third: forgetting that false positives exist.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Bloom Filters.

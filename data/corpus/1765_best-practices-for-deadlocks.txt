@@ -1,0 +1,15 @@
+Best Practices for Deadlocks
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Deadlocks, they usually mean situations where two or more tasks wait for each other forever. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Keep an eye on this risk during code review: acquiring locks in inconsistent order.
+2. Start small by applying Deadlocks to one case, such as database lock conflicts, before rolling it out more widely.
+3. Read the official documentation for database deadlock logs; it often explains hold and wait better than blog posts do.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Write a few tests that show how Deadlocks should behave. Tests double as documentation for your teammates.
+
+In practice you can start with thread dumps, then explore database deadlock logs or static analyzers as your needs grow.
+
+A solid grasp of Deadlocks also makes Virtual Memory easier to understand.
+
+In short, careful study of Deadlocks pays off. Spend time on mutual exclusion and hold and wait, and the rest will follow.

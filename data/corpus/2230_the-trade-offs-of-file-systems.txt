@@ -1,0 +1,13 @@
+The Trade-offs of File Systems
+
+Every design choice has a cost, and File Systems is no exception. Put simply, File Systems covers the part of an operating system that organizes how data is stored and found on disk. Learning it well pays off across many areas of computing.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out. Understanding what the kernel does explains many surprising performance problems.
+
+On the positive side, File Systems is well suited to storing documents and managing logs. On the other hand, it is not free. Keep these risks in mind: running out of inodes; wrong permissions; ignoring disk space limits. Whether the trade is worth it depends on how much files and directories and inodes matter to your project.
+
+Beginners often stumble on three things. First: running out of inodes. Second: wrong permissions. Third: ignoring disk space limits.
+
+Start small by applying File Systems to one case, such as storing documents, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about File Systems helps the next developer.
+
+In short, careful study of File Systems pays off. Spend time on files and directories and inodes, and the rest will follow.

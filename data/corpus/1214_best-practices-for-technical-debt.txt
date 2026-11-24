@@ -1,0 +1,15 @@
+Best Practices for Technical Debt
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Technical Debt. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+1. Practice shortcuts with small exercises until it feels natural.
+2. Read the official documentation for issue trackers; it often explains interest better than blog posts do.
+3. Start small by applying Technical Debt to one case, such as deciding when to cut corners, before rolling it out more widely.
+4. Ask a teammate to explain refactoring backlog back to you; teaching is a quick way to find gaps.
+5. Measure before you optimize. Use SonarQube or a simple timer to see where time is actually spent.
+
+In practice you can start with SonarQube, then explore issue trackers or code metrics as your needs grow.
+
+A solid grasp of Technical Debt also makes Code Review easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Technical Debt.

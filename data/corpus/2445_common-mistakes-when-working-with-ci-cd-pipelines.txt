@@ -1,0 +1,13 @@
+Common Mistakes When Working with CI/CD Pipelines
+
+Almost everyone makes a few avoidable errors when first working with CI/CD Pipelines. When people talk about CI/CD Pipelines, they usually mean automated workflows that build, test and deliver code whenever it changes. It appears in almost every serious software project, whether or not developers notice it.
+
+Watch out for these problems: slow pipelines; flaky tests; and secrets in logs.
+
+Automation turns risky manual steps into repeatable and reviewable processes.
+
+Consider the first problem: slow pipelines. A short test or a careful review comment usually catches it. The second problem is similar: flaky tests. The third problem is this: secrets in logs. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use GitHub Actions or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about CI/CD Pipelines helps the next developer.
+
+In short, careful study of CI/CD Pipelines pays off. Spend time on build stage and test stage, and the rest will follow.

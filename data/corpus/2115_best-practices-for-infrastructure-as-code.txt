@@ -1,0 +1,15 @@
+Best Practices for Infrastructure as Code
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Infrastructure as Code. The term refers to managing servers and cloud resources through version-controlled configuration files.
+
+1. Write a few tests that show how Infrastructure as Code should behave. Tests double as documentation for your teammates.
+2. Ask a teammate to explain modules back to you; teaching is a quick way to find gaps.
+3. Keep notes on what worked. A short README explaining your decisions about Infrastructure as Code helps the next developer.
+4. Measure before you optimize. Use Terraform or a simple timer to see where time is actually spent.
+5. Start small by applying Infrastructure as Code to one case, such as recreating environments, before rolling it out more widely.
+
+In practice you can start with Terraform, then explore Ansible or Pulumi as your needs grow.
+
+If you are comfortable with Infrastructure as Code, explore Docker next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Infrastructure as Code.

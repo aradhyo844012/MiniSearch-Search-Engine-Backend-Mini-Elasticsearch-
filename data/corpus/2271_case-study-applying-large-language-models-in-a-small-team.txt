@@ -1,0 +1,9 @@
+Case Study: Applying Large Language Models in a Small Team
+
+Imagine a small student team building a project that depends on Large Language Models. When people talk about Large Language Models, they usually mean very large neural networks trained on text that can generate and analyze language. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning tokens and attention. Early on they hit a familiar problem: trusting outputs without checking. After fixing it, they used Hugging Face to check their work and adopted Large Language Models for drafting text. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: trusting outputs without checking; vague prompts; and sending sensitive data carelessly.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Large Language Models.

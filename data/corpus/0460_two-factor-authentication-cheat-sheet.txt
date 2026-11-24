@@ -1,0 +1,11 @@
+Two-Factor Authentication Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Two-Factor Authentication.
+
+- Definition: requiring a second proof of identity in addition to a password.
+- Core ideas: one-time codes; authenticator apps; hardware keys; backup codes.
+- Use it for: protecting email accounts; securing admin panels; reducing account takeovers.
+- Watch out for: relying only on SMS; no recovery plan; weak backup code storage.
+- Tools: Google Authenticator, YubiKey, TOTP libraries.
+- Related topic: SQL Injection.
+- Quick tip: write a tiny test for authenticator apps before building anything large.

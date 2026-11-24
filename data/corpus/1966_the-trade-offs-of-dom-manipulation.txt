@@ -1,0 +1,13 @@
+The Trade-offs of DOM Manipulation
+
+Every design choice has a cost, and DOM Manipulation is no exception. Put simply, DOM Manipulation covers reading and changing the structure and content of a web page from JavaScript. Learning it well pays off across many areas of computing.
+
+Accessible design helps everyone, including people on slow connections or small screens.
+
+On the positive side, DOM Manipulation is well suited to updating search results and handling form input. On the other hand, it is not free. Keep these risks in mind: inserting untrusted text as HTML; querying the DOM inside tight loops; forgetting to remove event listeners. Whether the trade is worth it depends on how much selectors and events matter to your project.
+
+Watch out for these problems: inserting untrusted text as HTML; querying the DOM inside tight loops; and forgetting to remove event listeners.
+
+Read the official documentation for browser console; it often explains events better than blog posts do. Ask a teammate to explain nodes back to you; teaching is a quick way to find gaps. Practice selectors with small exercises until it feels natural.
+
+With steady practice, DOM Manipulation will stop feeling abstract and become a tool you reach for naturally.

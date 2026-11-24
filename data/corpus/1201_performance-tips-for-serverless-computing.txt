@@ -1,0 +1,13 @@
+Performance Tips for Serverless Computing
+
+Fast software rarely happens by accident, and Serverless Computing offers several places to gain speed. When people talk about Serverless Computing, they usually mean running code in managed functions without maintaining servers yourself. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use AWS Lambda or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to functions and event triggers, because they usually decide how well things scale. For workloads such as webhooks, even small improvements add up quickly.
+
+Four ideas sit at the heart of Serverless Computing: functions, event triggers, cold starts, and pay per use. Each one builds on the one before it. A good way to remember functions is to connect it with a concrete example from your own code.
+
+Keep an eye on this risk during code review: cold start delays. Keep notes on what worked. A short README explaining your decisions about Serverless Computing helps the next developer.
+
+Watch out for these problems: cold start delays; vendor lock-in; and hard local debugging.
+
+In short, careful study of Serverless Computing pays off. Spend time on functions and event triggers, and the rest will follow.

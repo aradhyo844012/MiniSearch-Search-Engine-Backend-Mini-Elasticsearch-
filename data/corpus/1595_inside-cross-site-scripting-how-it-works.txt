@@ -1,0 +1,15 @@
+Inside Cross-Site Scripting: How It Works
+
+This article walks through what happens inside Cross-Site Scripting, step by step. Many students first meet Cross-Site Scripting in a classroom, but it matters just as much in production systems. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Cross-Site Scripting and Phishing Defense are closely related, so learning both gives a fuller picture of Security.
+
+To understand Cross-Site Scripting, start with reflected XSS. Then move on to stored XSS, and finally look at output encoding and content security policy. A good way to remember reflected XSS is to connect it with a concrete example from your own code.
+
+First, reflected XSS sets the stage for everything else. Next, stored XSS builds on it. After that, output encoding comes into play, and finally content security policy ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Never trust input that comes from outside your own code. Security is a habit applied throughout development, not a feature added at the end.
+
+Cross-Site Scripting and Phishing Defense are closely related, so learning both gives a fuller picture of Security.
+
+Keep experimenting, keep notes, and revisit Cross-Site Scripting whenever a new project gives you a reason.

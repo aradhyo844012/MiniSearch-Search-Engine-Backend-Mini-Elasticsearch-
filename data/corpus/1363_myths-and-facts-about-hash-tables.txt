@@ -1,0 +1,17 @@
+Myths and Facts About Hash Tables
+
+A lot of folklore has built up around Hash Tables. Some of it is true, and some of it is not. If you build software for long enough, you will run into Hash Tables. The term refers to a way of storing key-value pairs so that lookups take roughly constant time.
+
+Myth: Hash Tables is only for experts.
+Fact: beginners can use it effectively once they understand hash function and buckets.
+
+Myth: Hash Tables is only useful in very large systems.
+Fact: small projects such as implementing dictionaries and sets benefit as well.
+
+Myth: one tool does everything.
+Fact: Python dict, Java HashMap, and C++ unordered_map make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Hash Tables are always obvious.
+Fact: subtle problems happen, for example poor hash functions cause clustering.
+
+In short, careful study of Hash Tables pays off. Spend time on hash function and buckets, and the rest will follow.

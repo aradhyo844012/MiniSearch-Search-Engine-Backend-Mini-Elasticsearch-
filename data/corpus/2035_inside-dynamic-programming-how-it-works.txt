@@ -1,0 +1,13 @@
+Inside Dynamic Programming: How It Works
+
+This article walks through what happens inside Dynamic Programming, step by step. Put simply, Dynamic Programming covers a technique for solving problems by storing the answers to overlapping subproblems. Learning it well pays off across many areas of computing.
+
+Four ideas sit at the heart of Dynamic Programming: overlapping subproblems, optimal substructure, memoization, and tabulation. Each one builds on the one before it. Understanding optimal substructure first often makes memoization much easier to reason about.
+
+First, overlapping subproblems sets the stage for everything else. Next, optimal substructure builds on it. After that, memoization comes into play, and finally tabulation ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+If you are comfortable with Dynamic Programming, explore Binary Search next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Dynamic Programming whenever a new project gives you a reason.

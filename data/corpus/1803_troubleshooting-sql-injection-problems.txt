@@ -1,0 +1,13 @@
+Troubleshooting SQL Injection Problems
+
+When something breaks around SQL Injection, a calm and systematic approach saves the most time. If you build software for long enough, you will run into SQL Injection. The term refers to an attack where malicious input changes the meaning of a database query.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and prepared statements usually reveal the cause faster than guessing.
+
+Common culprits: building queries with string concatenation; using admin accounts for the app; revealing detailed database errors. If none of these explains the symptom, re-read the basics of parameterized queries and input validation.
+
+Ask a teammate to explain least privilege back to you; teaching is a quick way to find gaps. Measure before you optimize. Use prepared statements or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about SQL Injection helps the next developer.
+
+In practice you can start with prepared statements, then explore OWASP cheat sheets or sqlmap in test environments as your needs grow.
+
+Keep experimenting, keep notes, and revisit SQL Injection whenever a new project gives you a reason.

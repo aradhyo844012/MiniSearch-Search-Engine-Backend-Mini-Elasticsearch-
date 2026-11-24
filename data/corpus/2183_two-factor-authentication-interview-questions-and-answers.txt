@@ -1,0 +1,18 @@
+Two-Factor Authentication Interview Questions and Answers
+
+Prepare for these questions about Two-Factor Authentication.
+
+Q: Explain Two-Factor Authentication in simple words.
+A: Two-Factor Authentication refers to requiring a second proof of identity in addition to a password. I would add an example involving protecting email accounts.
+
+Q: Which tools have you used?
+A: Google Authenticator, YubiKey, and TOTP libraries.
+
+Q: Where would you apply it first?
+A: I would start with securing admin panels, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: one-time codes, authenticator apps, hardware keys, and backup codes.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as one-time codes, and add tests aimed at the known risks.

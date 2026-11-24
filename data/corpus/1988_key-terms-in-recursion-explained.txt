@@ -1,0 +1,12 @@
+Key Terms in Recursion Explained
+
+Clear vocabulary makes Recursion much easier to learn, so here are the key terms in plain language. When people talk about Recursion, they usually mean a technique where a function solves a problem by calling itself on smaller inputs. It appears in almost every serious software project, whether or not developers notice it.
+
+base case: a key term in Recursion. Beginners often confuse it with related terms, so define it in your own words early.
+recursive case: a key term in Recursion. Beginners often confuse it with related terms, so define it in your own words early.
+call stack: a key term in Recursion. You will meet it constantly in documentation and in code reviews.
+tail calls: a key term in Recursion. It matters because it shapes how you design, test and explain your solution.
+
+Measure before you optimize. Use Python sys.setrecursionlimit or a simple timer to see where time is actually spent. Practice base case with small exercises until it feels natural. Write a few tests that show how Recursion should behave. Tests double as documentation for your teammates.
+
+With steady practice, Recursion will stop feeling abstract and become a tool you reach for naturally.

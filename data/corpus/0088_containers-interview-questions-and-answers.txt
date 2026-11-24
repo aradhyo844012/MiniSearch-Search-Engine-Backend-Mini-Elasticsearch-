@@ -1,0 +1,18 @@
+Containers Interview Questions and Answers
+
+Prepare for these questions about Containers.
+
+Q: Explain Containers in simple words.
+A: Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. I would add an example involving consistent development environments.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: running as root.
+
+Q: What problems have you seen in practice?
+A: running as root; bloated images; and storing data inside the container.
+
+Q: How does it connect to Linux Command Line?
+A: Both belong to the area of Operating Systems, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: Docker, Podman, and containerd.

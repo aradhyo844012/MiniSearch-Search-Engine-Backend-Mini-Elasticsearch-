@@ -1,0 +1,11 @@
+The Future of CDNs
+
+Predicting the future is risky, but the direction of CDNs is easy to describe in general terms. If you build software for long enough, you will run into CDNs. The term refers to networks of servers around the world that deliver static content from a location close to the user.
+
+Simple command-line tools can reveal a lot about what is happening on the wire. Latency is limited by distance and by the number of round trips a request needs.
+
+Expect tools such as Cloudflare and Akamai to keep improving, and expect newer ideas to keep building on edge servers. The basics, though, tend to stay the same, so time spent on cache rules and origin servers is rarely wasted. Anyone working on serving images and scripts will keep meeting CDNs for years to come.
+
+Keep an eye on this risk during code review: caching private data. Write a few tests that show how CDNs should behave. Tests double as documentation for your teammates.
+
+With steady practice, CDNs will stop feeling abstract and become a tool you reach for naturally.

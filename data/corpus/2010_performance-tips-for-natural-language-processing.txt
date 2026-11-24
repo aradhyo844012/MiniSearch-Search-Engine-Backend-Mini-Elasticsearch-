@@ -1,0 +1,15 @@
+Performance Tips for Natural Language Processing
+
+Fast software rarely happens by accident, and Natural Language Processing offers several places to gain speed. Put simply, Natural Language Processing covers the field of teaching computers to work with human language. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use spaCy or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to tokenization and embeddings, because they usually decide how well things scale. For workloads such as search engines, even small improvements add up quickly.
+
+A solid grasp of Natural Language Processing also makes Model Evaluation easier to understand.
+
+Four ideas sit at the heart of Natural Language Processing: tokenization, embeddings, language models, and evaluation metrics. Each one builds on the one before it. Sketching evaluation metrics on paper before coding helps many learners see how the pieces fit.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use spaCy or a simple timer to see where time is actually spent.
+
+Watch out for these problems: ignoring language variety; messy text preprocessing; and trusting metrics on tiny samples.
+
+Keep experimenting, keep notes, and revisit Natural Language Processing whenever a new project gives you a reason.

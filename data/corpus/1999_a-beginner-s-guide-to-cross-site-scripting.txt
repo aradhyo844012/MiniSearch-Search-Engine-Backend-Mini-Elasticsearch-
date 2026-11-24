@@ -1,0 +1,19 @@
+A Beginner's Guide to Cross-Site Scripting
+
+This guide is written for readers who are new to Cross-Site Scripting and want a clear starting point. The term Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. This article explains the idea in plain language and points out where it fits in real projects.
+
+Never trust input that comes from outside your own code. Security is a habit applied throughout development, not a feature added at the end.
+
+Never trust input that comes from outside your own code.
+
+To understand Cross-Site Scripting, start with reflected XSS. Then move on to stored XSS, and finally look at output encoding and content security policy. A good way to remember reflected XSS is to connect it with a concrete example from your own code.
+
+Typical applications include reviewing web forms, securing comment sections, and hardening dashboards. Small projects and large systems both benefit.
+
+Popular tools and libraries include OWASP guides, CSP evaluators, and browser developer tools.
+
+Beginners often stumble on three things. First: inserting user text as raw HTML. Second: trusting client-side filtering. Third: missing content security policy.
+
+Start small by applying Cross-Site Scripting to one case, such as reviewing web forms, before rolling it out more widely. Measure before you optimize. Use OWASP guides or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Cross-Site Scripting whenever a new project gives you a reason.

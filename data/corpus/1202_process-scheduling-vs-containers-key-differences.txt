@@ -1,0 +1,15 @@
+Process Scheduling vs Containers: Key Differences
+
+Process Scheduling and Containers both belong to the area of Operating Systems, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Process Scheduling refers to the way an operating system decides which process runs on the CPU and for how long. Its core ideas are time slices, priorities, and context switches.
+
+The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. Its core ideas are images, layers, and namespaces.
+
+The main difference is focus. Process Scheduling puts the emphasis on time slices and priorities, while Containers puts the emphasis on images and layers.
+
+Reach for Process Scheduling when your task involves sharing CPUs among programs or keeping interfaces responsive. Reach for Containers when your task involves consistent development environments or deploying microservices.
+
+Both have risks. With Process Scheduling, watch for this: starvation of low priority tasks. With Containers, watch for this: running as root.
+
+In practice you do not always have to choose. Many projects use Process Scheduling alongside Containers, with tools such as top and Docker. Logs and system monitors are the first place to look when a machine misbehaves.

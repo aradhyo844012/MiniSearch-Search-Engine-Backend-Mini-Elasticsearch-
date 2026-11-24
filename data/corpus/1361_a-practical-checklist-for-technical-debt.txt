@@ -1,0 +1,13 @@
+A Practical Checklist for Technical Debt
+
+Use this checklist before you rely on Technical Debt in a project.
+
+1. Guard against this risk: hiding it from stakeholders.
+2. Review the core ideas: shortcuts, interest, refactoring backlog, and code smells.
+3. Pick a tool to start with, such as SonarQube or issue trackers.
+4. Confirm that your team agrees on what Technical Debt should accomplish.
+5. Document your decisions in the project README.
+6. Write at least one automated test that covers shortcuts.
+7. Ask a teammate to review the work, focusing on interest.
+8. Try the approach on a small case, for example deciding when to cut corners.
+9. Review how Technical Debt interacts with Unit Testing.

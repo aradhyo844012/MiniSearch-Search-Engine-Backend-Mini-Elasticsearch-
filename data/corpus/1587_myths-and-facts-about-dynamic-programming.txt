@@ -1,0 +1,17 @@
+Myths and Facts About Dynamic Programming
+
+A lot of folklore has built up around Dynamic Programming. Some of it is true, and some of it is not. If you build software for long enough, you will run into Dynamic Programming. The term refers to a technique for solving problems by storing the answers to overlapping subproblems.
+
+Myth: Dynamic Programming is only for experts.
+Fact: beginners can use it effectively once they understand overlapping subproblems and optimal substructure.
+
+Myth: Dynamic Programming is only useful in very large systems.
+Fact: small projects such as computing edit distance benefit as well.
+
+Myth: one tool does everything.
+Fact: Python functools.lru_cache, NumPy, and spreadsheets for small tables make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Dynamic Programming are always obvious.
+Fact: subtle problems happen, for example defining the state incorrectly.
+
+In short, careful study of Dynamic Programming pays off. Spend time on overlapping subproblems and optimal substructure, and the rest will follow.

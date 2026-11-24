@@ -1,0 +1,18 @@
+Authentication and Sessions Interview Questions and Answers
+
+Prepare for these questions about Authentication and Sessions.
+
+Q: Explain Authentication and Sessions in simple words.
+A: Authentication and Sessions refers to the process of proving who a user is and remembering them between requests. I would add an example involving logging in to web apps.
+
+Q: Which tools have you used?
+A: Flask-Login, Django auth, and Passport.js.
+
+Q: Where would you apply it first?
+A: I would start with protecting admin pages, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: credentials, session cookies, tokens, and expiration.
+
+Q: How does it connect to Microservices?
+A: Both belong to the area of Backend and APIs, and understanding one makes the other easier to learn.

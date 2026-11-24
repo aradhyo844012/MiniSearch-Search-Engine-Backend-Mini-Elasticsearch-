@@ -1,0 +1,13 @@
+Troubleshooting Linear Regression Problems
+
+When something breaks around Linear Regression, a calm and systematic approach saves the most time. Put simply, Linear Regression covers a method for predicting a number by fitting a straight line or plane to data. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and scikit-learn usually reveal the cause faster than guessing.
+
+Common culprits: extrapolating far beyond the data; ignoring outliers; using correlated features carelessly. If none of these explains the symptom, re-read the basics of coefficients and residuals.
+
+A model is only as good as the data used to train and test it.
+
+Popular tools and libraries include scikit-learn, NumPy, and statsmodels.
+
+Keep experimenting, keep notes, and revisit Linear Regression whenever a new project gives you a reason.

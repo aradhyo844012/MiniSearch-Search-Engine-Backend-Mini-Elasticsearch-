@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Two-Factor Authentication
+
+This hands-on tutorial takes you from zero to a small working experiment with Two-Factor Authentication. When people talk about Two-Factor Authentication, they usually mean requiring a second proof of identity in addition to a password. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Google Authenticator and create a new empty project folder.
+Step 2: Read about one-time codes and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses authenticator apps.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as protecting email accounts.
+Step 6: Break your example on purpose and see what happens. A good experiment: relying only on SMS.
+
+In practice you can start with Google Authenticator, then explore YubiKey or TOTP libraries as your needs grow.
+
+Watch out for these problems: relying only on SMS; no recovery plan; and weak backup code storage.
+
+In short, careful study of Two-Factor Authentication pays off. Spend time on one-time codes and authenticator apps, and the rest will follow.

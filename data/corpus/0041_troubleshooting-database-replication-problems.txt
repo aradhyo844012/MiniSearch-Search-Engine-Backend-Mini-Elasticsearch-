@@ -1,0 +1,11 @@
+Troubleshooting Database Replication Problems
+
+When something breaks around Database Replication, a calm and systematic approach saves the most time. The term Database Replication refers to copying data from one database server to others to improve availability and read capacity. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and PostgreSQL streaming replication usually reveal the cause faster than guessing.
+
+Common culprits: reading stale data from replicas; untested failover plans; split-brain situations. If none of these explains the symptom, re-read the basics of primary and replica and replication lag.
+
+In practice you can start with PostgreSQL streaming replication, then explore MySQL replication or Patroni as your needs grow.
+
+Keep experimenting, keep notes, and revisit Database Replication whenever a new project gives you a reason.

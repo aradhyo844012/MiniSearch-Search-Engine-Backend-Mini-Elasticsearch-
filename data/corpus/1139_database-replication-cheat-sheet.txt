@@ -1,0 +1,11 @@
+Database Replication Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Database Replication.
+
+- Definition: copying data from one database server to others to improve availability and read capacity.
+- Core ideas: primary and replica; replication lag; failover; read scaling.
+- Use it for: surviving server failures; scaling read traffic; running reports without slowing production.
+- Watch out for: reading stale data from replicas; untested failover plans; split-brain situations.
+- Tools: PostgreSQL streaming replication, MySQL replication, Patroni.
+- Related topic: Redis Caching.
+- Quick tip: practice primary and replica until it feels automatic.

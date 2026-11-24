@@ -1,0 +1,11 @@
+Troubleshooting TF-IDF Problems
+
+When something breaks around TF-IDF, a calm and systematic approach saves the most time. If you build software for long enough, you will run into TF-IDF. The term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and scikit-learn TfidfVectorizer usually reveal the cause faster than guessing.
+
+Common culprits: over-weighting common words; ignoring document length; using it on tiny corpora. If none of these explains the symptom, re-read the basics of term frequency and inverse document frequency.
+
+Popular tools and libraries include scikit-learn TfidfVectorizer, Lucene, and Gensim.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

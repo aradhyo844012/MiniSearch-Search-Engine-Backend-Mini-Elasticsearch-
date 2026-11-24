@@ -1,0 +1,13 @@
+How Dynamic Programming Connects to Big O Notation
+
+Dynamic Programming and Big O Notation are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving computing edit distance may also involve comparing algorithms. In such a project, overlapping subproblems and upper bounds often influence each other.
+
+Start with Dynamic Programming: the term refers to a technique for solving problems by storing the answers to overlapping subproblems. Then look at Big O Notation, which refers to a way of describing how running time or memory grows as the input size grows.
+
+A useful exercise is to take one example, such as knapsack style optimization, and explain how constant, linear and logarithmic growth would change the design.
+
+Common problems are shared too. For Dynamic Programming, watch for this: storing more state than needed. For Big O Notation, watch for this: mixing up best and worst case. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python functools.lru_cache or Python timeit.

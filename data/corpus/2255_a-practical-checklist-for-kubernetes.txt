@@ -1,0 +1,12 @@
+A Practical Checklist for Kubernetes
+
+Use this checklist before you rely on Kubernetes in a project.
+
+1. Guard against this risk: over-complicated setups.
+2. Review the core ideas: pods, deployments, services, and ingress.
+3. Measure results before and after any change.
+4. Guard against this risk: ignoring health probes.
+5. Guard against this risk: resource limits missing.
+6. Ask a teammate to review the work, focusing on deployments.
+7. Try the approach on a small case, for example running many containers.
+8. Write at least one automated test that covers pods.

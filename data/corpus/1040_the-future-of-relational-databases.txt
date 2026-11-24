@@ -1,0 +1,11 @@
+The Future of Relational Databases
+
+Predicting the future is risky, but the direction of Relational Databases is easy to describe in general terms. When people talk about Relational Databases, they usually mean systems that store data in tables with rows, columns and defined relationships. It appears in almost every serious software project, whether or not developers notice it.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory. Backups are only useful if restoring from them has been tested.
+
+Expect tools such as PostgreSQL and MySQL to keep improving, and expect newer ideas to keep building on tables and rows. The basics, though, tend to stay the same, so time spent on primary keys and foreign keys is rarely wasted. Anyone working on storing orders and customers will keep meeting Relational Databases for years to come.
+
+Ask a teammate to explain foreign keys back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: skipping constraints.
+
+With steady practice, Relational Databases will stop feeling abstract and become a tool you reach for naturally.

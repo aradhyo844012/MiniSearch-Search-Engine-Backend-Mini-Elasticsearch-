@@ -1,0 +1,15 @@
+Real-World Use Cases of WebSockets
+
+The best way to appreciate WebSockets is to see where it is actually used. If you build software for long enough, you will run into WebSockets. The term refers to a protocol that keeps a two-way connection open between a browser and a server.
+
+Latency is limited by distance and by the number of round trips a request needs.
+
+People use WebSockets for chat applications, for live dashboards, and for collaborative editing.
+
+Consider chat applications. In a case like this, WebSockets gives the work a clear structure, and understanding persistent connections makes the design easier to explain. A different example is live dashboards, where messages often decides how well the solution scales.
+
+Latency is limited by distance and by the number of round trips a request needs. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+Popular tools and libraries include Socket.IO, ws library, and Python websockets.
+
+Keep experimenting, keep notes, and revisit WebSockets whenever a new project gives you a reason.

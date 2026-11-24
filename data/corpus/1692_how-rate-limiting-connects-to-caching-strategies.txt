@@ -1,0 +1,13 @@
+How Rate Limiting Connects to Caching Strategies
+
+Rate Limiting and Caching Strategies are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving protecting APIs may also involve speeding up read-heavy APIs. In such a project, token bucket and cache-aside often influence each other.
+
+Start with Rate Limiting: the term refers to controlling how many requests a client can make in a given period. Then look at Caching Strategies, which refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+A useful exercise is to take one example, such as stopping brute force attempts, and explain how write-through would change the design.
+
+Common problems are shared too. For Rate Limiting, watch for this: keeping counters only on one server. For Caching Strategies, watch for this: cache stampedes. Clear contracts between services make systems easier to change and test.
+
+Spend a few hours on each topic, then combine them in one small project using Redis or Redis.

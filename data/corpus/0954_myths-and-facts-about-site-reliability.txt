@@ -1,0 +1,17 @@
+Myths and Facts About Site Reliability
+
+A lot of folklore has built up around Site Reliability. Some of it is true, and some of it is not. When people talk about Site Reliability, they usually mean the discipline of keeping services dependable using engineering practices. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Site Reliability is only for experts.
+Fact: beginners can use it effectively once they understand service level objectives and error budgets.
+
+Myth: Site Reliability is only useful in very large systems.
+Fact: small projects such as running production services benefit as well.
+
+Myth: one tool does everything.
+Fact: PagerDuty, Prometheus, and runbooks make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Site Reliability are always obvious.
+Fact: subtle problems happen, for example alerting on everything.
+
+In short, careful study of Site Reliability pays off. Spend time on service level objectives and error budgets, and the rest will follow.

@@ -1,0 +1,15 @@
+Performance Tips for Threads and Concurrency
+
+Fast software rarely happens by accident, and Threads and Concurrency offers several places to gain speed. The term Threads and Concurrency refers to ways of making progress on several tasks at once within a program. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Python threading or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to threads and locks, because they usually decide how well things scale. For workloads such as handling many requests, even small improvements add up quickly.
+
+The vocabulary of Threads and Concurrency is small. Learn threads, locks, race conditions, and thread pools, and most documentation will start to make sense. A good way to remember threads is to connect it with a concrete example from your own code.
+
+Read the official documentation for Java ExecutorService; it often explains locks better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+Logs and system monitors are the first place to look when a machine misbehaves.
+
+Beginners often stumble on three things. First: forgetting to protect shared data. Second: creating too many threads. Third: mixing up concurrency and parallelism.
+
+Keep experimenting, keep notes, and revisit Threads and Concurrency whenever a new project gives you a reason.

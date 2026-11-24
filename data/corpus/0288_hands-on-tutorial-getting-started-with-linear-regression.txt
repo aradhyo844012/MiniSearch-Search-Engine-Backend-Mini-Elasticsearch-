@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Linear Regression
+
+This hands-on tutorial takes you from zero to a small working experiment with Linear Regression. Put simply, Linear Regression covers a method for predicting a number by fitting a straight line or plane to data. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open scikit-learn and create a new empty project folder.
+Step 2: Read about coefficients and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses residuals.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as predicting prices.
+Step 6: Break your example on purpose and see what happens. A good experiment: extrapolating far beyond the data.
+
+Simple baselines are worth building first because they show what improvement is realistic.
+
+In practice you can start with scikit-learn, then explore NumPy or statsmodels as your needs grow.
+
+Three issues come up again and again: extrapolating far beyond the data; ignoring outliers; and using correlated features carelessly. Knowing them in advance saves hours of debugging.
+
+With steady practice, Linear Regression will stop feeling abstract and become a tool you reach for naturally.

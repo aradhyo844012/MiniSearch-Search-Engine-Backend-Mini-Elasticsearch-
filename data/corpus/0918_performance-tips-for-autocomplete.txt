@@ -1,0 +1,15 @@
+Performance Tips for Autocomplete
+
+Fast software rarely happens by accident, and Autocomplete offers several places to gain speed. When people talk about Autocomplete, they usually mean suggesting likely completions while a person types a query. It appears in almost every serious software project, whether or not developers notice it.
+
+Read the official documentation for Redis sorted sets; it often explains ranking suggestions better than blog posts do. Practice prefixes with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Start by measuring. Use tries or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to prefixes and ranking suggestions, because they usually decide how well things scale. For workloads such as search boxes, even small improvements add up quickly.
+
+Four ideas sit at the heart of Autocomplete: prefixes, ranking suggestions, latency, and query logs. Each one builds on the one before it. Understanding ranking suggestions first often makes latency much easier to reason about.
+
+Start small by applying Autocomplete to one case, such as search boxes, before rolling it out more widely. Ask a teammate to explain latency back to you; teaching is a quick way to find gaps.
+
+Watch out for these problems: slow suggestions; offensive or irrelevant completions; and ignoring typos in the prefix.
+
+With steady practice, Autocomplete will stop feeling abstract and become a tool you reach for naturally.

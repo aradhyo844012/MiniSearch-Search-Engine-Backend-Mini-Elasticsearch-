@@ -1,0 +1,18 @@
+Database Transactions Interview Questions and Answers
+
+Prepare for these questions about Database Transactions.
+
+Q: Explain Database Transactions in simple words.
+A: Database Transactions refers to groups of operations that succeed or fail together. I would add an example involving transferring money between accounts.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as atomicity, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: holding transactions open too long; ignoring isolation levels; and forgetting to roll back on errors.
+
+Q: How does it connect to Database Replication?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: holding transactions open too long.

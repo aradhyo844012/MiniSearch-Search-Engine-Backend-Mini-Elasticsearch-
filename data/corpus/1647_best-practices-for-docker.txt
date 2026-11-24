@@ -1,0 +1,15 @@
+Best Practices for Docker
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Docker covers a platform for building and running applications in containers. Learning it well pays off across many areas of computing.
+
+1. Keep an eye on this risk during code review: huge images.
+2. Practice Dockerfile with small exercises until it feels natural.
+3. Keep notes on what worked. A short README explaining your decisions about Docker helps the next developer.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Read the official documentation for Docker Hub; it often explains image layers better than blog posts do.
+
+In practice you can start with Docker Compose, then explore Docker Hub or Podman as your needs grow.
+
+If you are comfortable with Docker, explore CI/CD Pipelines next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Docker.

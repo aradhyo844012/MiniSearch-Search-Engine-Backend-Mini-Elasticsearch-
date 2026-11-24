@@ -1,0 +1,11 @@
+Common Mistakes When Working with Natural Language Processing
+
+Almost everyone makes a few avoidable errors when first working with Natural Language Processing. Put simply, Natural Language Processing covers the field of teaching computers to work with human language. Learning it well pays off across many areas of computing.
+
+Watch out for these problems: ignoring language variety; messy text preprocessing; and trusting metrics on tiny samples.
+
+Consider the first problem: ignoring language variety. A short test or a careful review comment usually catches it. The second problem is similar: messy text preprocessing. The third problem is this: trusting metrics on tiny samples. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use spaCy or a simple timer to see where time is actually spent. Write a few tests that show how Natural Language Processing should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Natural Language Processing pays off. Spend time on tokenization and embeddings, and the rest will follow.

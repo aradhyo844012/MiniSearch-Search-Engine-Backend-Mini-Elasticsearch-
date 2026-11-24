@@ -1,0 +1,15 @@
+NoSQL Databases vs Query Optimization: Key Differences
+
+NoSQL Databases and Query Optimization both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term NoSQL Databases refers to a broad family of databases that do not use the traditional relational table model. Its core ideas are document stores, key-value stores, and column families.
+
+The term Query Optimization refers to the process of making database queries return results with less time and fewer resources. Its core ideas are query plans, statistics, and index usage.
+
+The main difference is focus. NoSQL Databases puts the emphasis on document stores and key-value stores, while Query Optimization puts the emphasis on query plans and statistics.
+
+Reach for NoSQL Databases when your task involves flexible schemas or high write throughput. Reach for Query Optimization when your task involves speeding up dashboards or reducing server load.
+
+Both have risks. With NoSQL Databases, watch for this: assuming no schema means no design. With Query Optimization, watch for this: selecting more columns than needed.
+
+In practice you do not always have to choose. Many projects use NoSQL Databases alongside Query Optimization, with tools such as MongoDB and EXPLAIN ANALYZE. Data that must survive restarts and crashes belongs in a database rather than in memory.

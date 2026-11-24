@@ -1,0 +1,12 @@
+How to Learn Hash Tables in 30 Days
+
+You do not need months to become comfortable with Hash Tables. A focused plan of thirty days is enough to build a solid base. When people talk about Hash Tables, they usually mean a way of storing key-value pairs so that lookups take roughly constant time. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn hash function and buckets, and write a one-page summary.
+Week 2: practice with Python dict on a small task such as implementing dictionaries and sets.
+Week 3: build a mini project around caching computed results.
+Week 4: review common mistakes such as poor hash functions cause clustering, and explain Hash Tables to a friend.
+
+Popular tools and libraries include Python dict, Java HashMap, and C++ unordered_map.
+
+In short, careful study of Hash Tables pays off. Spend time on hash function and buckets, and the rest will follow.

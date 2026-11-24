@@ -1,0 +1,15 @@
+Performance Tips for BM25 Ranking
+
+Fast software rarely happens by accident, and BM25 Ranking offers several places to gain speed. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Elasticsearch or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to term saturation and document length normalization, because they usually decide how well things scale. For workloads such as ranking search results, even small improvements add up quickly.
+
+To understand BM25 Ranking, start with term saturation. Then move on to document length normalization, and finally look at k1 and b parameters and inverse document frequency. Understanding document length normalization first often makes k1 and b parameters much easier to reason about.
+
+If you are comfortable with BM25 Ranking, explore TF-IDF next. The two often appear in the same project.
+
+Keep an eye on this risk during code review: untuned parameters. Automate repetitive steps so that results are easy to reproduce.
+
+Three issues come up again and again: untuned parameters; ignoring field boundaries; and comparing scores across different queries. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with BM25 Ranking.

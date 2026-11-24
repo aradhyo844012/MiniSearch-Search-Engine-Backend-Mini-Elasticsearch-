@@ -1,0 +1,12 @@
+How to Learn BM25 Ranking in 30 Days
+
+You do not need months to become comfortable with BM25 Ranking. A focused plan of thirty days is enough to build a solid base. Many students first meet BM25 Ranking in a classroom, but it matters just as much in production systems. The term refers to a ranking function that improves on plain term frequency with saturation and length normalization.
+
+Week 1: learn term saturation and document length normalization, and write a one-page summary.
+Week 2: practice with Elasticsearch on a small task such as ranking search results.
+Week 3: build a mini project around enterprise search.
+Week 4: review common mistakes such as untuned parameters, and explain BM25 Ranking to a friend.
+
+In practice you can start with Elasticsearch, then explore rank_bm25 or Lucene as your needs grow.
+
+Keep experimenting, keep notes, and revisit BM25 Ranking whenever a new project gives you a reason.

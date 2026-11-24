@@ -1,0 +1,15 @@
+CI/CD Pipelines vs Infrastructure as Code: Key Differences
+
+CI/CD Pipelines and Infrastructure as Code both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes. Its core ideas are build stage, test stage, and artifacts.
+
+The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. Its core ideas are declarative configuration, state, and modules.
+
+The main difference is focus. CI/CD Pipelines puts the emphasis on build stage and test stage, while Infrastructure as Code puts the emphasis on declarative configuration and state.
+
+Reach for CI/CD Pipelines when your task involves running tests on every push or shipping releases safely. Reach for Infrastructure as Code when your task involves recreating environments or reviewing infrastructure changes.
+
+Both have risks. With CI/CD Pipelines, watch for this: slow pipelines. With Infrastructure as Code, watch for this: manual changes causing drift.
+
+In practice you do not always have to choose. Many projects use CI/CD Pipelines alongside Infrastructure as Code, with tools such as GitHub Actions and Terraform. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.

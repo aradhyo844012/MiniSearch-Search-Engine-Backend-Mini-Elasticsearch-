@@ -1,0 +1,13 @@
+The Future of Stop Words
+
+Predicting the future is risky, but the direction of Stop Words is easy to describe in general terms. When people talk about Stop Words, they usually mean very common words such as the and of that are often ignored by search systems. It appears in almost every serious software project, whether or not developers notice it.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: removing words that matter in phrases.
+
+Search quality depends on how text is prepared before it is ever indexed. Fast search comes from precomputing structures so that queries do very little work.
+
+Expect tools such as NLTK stopwords and scikit-learn to keep improving, and expect newer ideas to keep building on frequency lists. The basics, though, tend to stay the same, so time spent on index size and query relevance is rarely wasted. Anyone working on shrinking indexes will keep meeting Stop Words for years to come.
+
+Measure before you optimize. Use NLTK stopwords or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Stop Words helps the next developer. Start small by applying Stop Words to one case, such as shrinking indexes, before rolling it out more widely.
+
+With steady practice, Stop Words will stop feeling abstract and become a tool you reach for naturally.

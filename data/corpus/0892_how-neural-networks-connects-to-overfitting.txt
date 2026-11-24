@@ -1,0 +1,13 @@
+How Neural Networks Connects to Overfitting
+
+Neural Networks and Overfitting are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving image recognition may also involve diagnosing weak models. In such a project, layers and training and validation error often influence each other.
+
+Start with Neural Networks: the term refers to models made of layers of connected units that learn patterns from data. Then look at Overfitting, which refers to when a model learns the training data too closely and performs poorly on new data.
+
+A useful exercise is to take one example, such as speech recognition, and explain how model complexity would change the design.
+
+Common problems are shared too. For Neural Networks, watch for this: poor learning rate choices. For Overfitting, watch for this: leaking test data. Results should always be checked on data the model has never seen.
+
+Spend a few hours on each topic, then combine them in one small project using PyTorch or scikit-learn.

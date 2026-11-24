@@ -1,0 +1,24 @@
+JWT Interview Questions and Answers
+
+Prepare for these questions about JWT.
+
+Q: Explain JWT in simple words.
+A: JWT refers to a compact token format that carries signed claims between a client and a server. I would add an example involving stateless API authentication.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as header, payload and signature, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: header, payload and signature, claims, expiry, and signing keys.
+
+Q: Where would you apply it first?
+A: I would start with service-to-service calls, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: storing tokens in insecure places.
+
+Q: How does it connect to REST APIs?
+A: Both belong to the area of Backend and APIs, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: jwt.io, PyJWT, and jsonwebtoken.

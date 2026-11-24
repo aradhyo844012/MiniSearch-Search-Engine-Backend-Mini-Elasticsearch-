@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Big O Notation
+
+This hands-on tutorial takes you from zero to a small working experiment with Big O Notation. Put simply, Big O Notation covers a way of describing how running time or memory grows as the input size grows. Learning it well pays off across many areas of computing.
+
+Keep an eye on this risk during code review: ignoring constant factors entirely. Measure before you optimize. Use Python timeit or a simple timer to see where time is actually spent. Start small by applying Big O Notation to one case, such as comparing algorithms, before rolling it out more widely.
+
+Step 1: Install or open Python timeit and create a new empty project folder.
+Step 2: Read about upper bounds and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses constant, linear and logarithmic growth.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as comparing algorithms.
+Step 6: Break your example on purpose and see what happens. A good experiment: ignoring constant factors entirely.
+
+Popular tools and libraries include Python timeit, big-O cheat sheets, and profilers.
+
+Beginners often stumble on three things. First: ignoring constant factors entirely. Second: mixing up best and worst case. Third: measuring only tiny inputs.
+
+Keep experimenting, keep notes, and revisit Big O Notation whenever a new project gives you a reason.

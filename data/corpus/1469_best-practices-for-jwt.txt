@@ -1,0 +1,17 @@
+Best Practices for JWT
+
+The practices below come from patterns that tend to work well across many teams and projects. The term JWT refers to a compact token format that carries signed claims between a client and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Read the official documentation for PyJWT; it often explains claims better than blog posts do.
+2. Keep an eye on this risk during code review: storing tokens in insecure places.
+3. Write a few tests that show how JWT should behave. Tests double as documentation for your teammates.
+4. Measure before you optimize. Use jwt.io or a simple timer to see where time is actually spent.
+5. Ask a teammate to explain expiry back to you; teaching is a quick way to find gaps.
+
+In practice you can start with jwt.io, then explore PyJWT or jsonwebtoken as your needs grow.
+
+JWT and Microservices are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+Measure before you optimize. Use jwt.io or a simple timer to see where time is actually spent. Write a few tests that show how JWT should behave. Tests double as documentation for your teammates.
+
+In short, careful study of JWT pays off. Spend time on header, payload and signature and claims, and the rest will follow.

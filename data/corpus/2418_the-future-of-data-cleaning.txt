@@ -1,0 +1,13 @@
+The Future of Data Cleaning
+
+Predicting the future is risky, but the direction of Data Cleaning is easy to describe in general terms. The term Data Cleaning refers to finding and fixing errors, gaps and inconsistencies in raw data. This article explains the idea in plain language and points out where it fits in real projects.
+
+A chart is only useful if the reader can see the point within a few seconds.
+
+Expect tools such as pandas and OpenRefine to keep improving, and expect newer ideas to keep building on missing values. The basics, though, tend to stay the same, so time spent on duplicates and inconsistent formats is rarely wasted. Anyone working on preparing logs will keep meeting Data Cleaning for years to come.
+
+Measure before you optimize. Use pandas or a simple timer to see where time is actually spent. Read the official documentation for OpenRefine; it often explains duplicates better than blog posts do.
+
+Data Cleaning and Data Visualization are closely related, so learning both gives a fuller picture of Data Engineering.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Cleaning.

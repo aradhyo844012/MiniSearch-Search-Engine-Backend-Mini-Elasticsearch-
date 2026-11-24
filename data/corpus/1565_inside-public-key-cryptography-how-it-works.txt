@@ -1,0 +1,15 @@
+Inside Public Key Cryptography: How It Works
+
+This article walks through what happens inside Public Key Cryptography, step by step. If you build software for long enough, you will run into Public Key Cryptography. The term refers to encryption that uses a pair of keys, one public and one private.
+
+To understand Public Key Cryptography, start with key pairs. Then move on to digital signatures, and finally look at certificates and key exchange. Sketching key exchange on paper before coding helps many learners see how the pieces fit.
+
+First, key pairs sets the stage for everything else. Next, digital signatures builds on it. After that, certificates comes into play, and finally key exchange ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Never trust input that comes from outside your own code.
+
+If you are comfortable with Public Key Cryptography, explore Two-Factor Authentication next. The two often appear in the same project.
+
+If you are comfortable with Public Key Cryptography, explore Two-Factor Authentication next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Public Key Cryptography.

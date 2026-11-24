@@ -1,0 +1,15 @@
+Monitoring and Observability vs Cloud Storage: Key Differences
+
+Monitoring and Observability and Cloud Storage both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Monitoring and Observability refers to collecting metrics, logs and traces so you can understand how a system behaves. Its core ideas are metrics, logs, and traces.
+
+The term Cloud Storage refers to storing files and objects on remote servers that scale on demand. Its core ideas are buckets, objects, and access policies.
+
+The main difference is focus. Monitoring and Observability puts the emphasis on metrics and logs, while Cloud Storage puts the emphasis on buckets and objects.
+
+Reach for Monitoring and Observability when your task involves detecting outages or finding slow requests. Reach for Cloud Storage when your task involves backups or serving images.
+
+Both have risks. With Monitoring and Observability, watch for this: noisy alerts. With Cloud Storage, watch for this: public buckets by mistake.
+
+In practice you do not always have to choose. Many projects use Monitoring and Observability alongside Cloud Storage, with tools such as Prometheus and Amazon S3. A system that cannot be observed cannot be reliably operated.

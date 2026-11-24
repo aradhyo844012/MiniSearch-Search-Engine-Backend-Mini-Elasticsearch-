@@ -1,0 +1,11 @@
+Common Mistakes When Working with Single Page Applications
+
+Almost everyone makes a few avoidable errors when first working with Single Page Applications. Many students first meet Single Page Applications in a classroom, but it matters just as much in production systems. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+Beginners often stumble on three things. First: slow first load. Second: poor search engine visibility. Third: broken back buttons.
+
+Consider the first problem: slow first load. A short test or a careful review comment usually catches it. The second problem is similar: poor search engine visibility. The third problem is this: broken back buttons. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Single Page Applications to one case, such as dashboards, before rolling it out more widely. Ask a teammate to explain API calls back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Single Page Applications helps the next developer.
+
+Keep experimenting, keep notes, and revisit Single Page Applications whenever a new project gives you a reason.

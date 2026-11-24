@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Zipf's Law
+
+This hands-on tutorial takes you from zero to a small working experiment with Zipf's Law. Put simply, Zipf's Law covers the observation that a word's frequency is roughly inversely related to its rank in natural language. Learning it well pays off across many areas of computing.
+
+Zipf's Law and Edit Distance are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Step 1: Install or open matplotlib and create a new empty project folder.
+Step 2: Read about rank and frequency and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses power laws.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as analyzing text corpora.
+Step 6: Break your example on purpose and see what happens. A good experiment: testing it on random text.
+
+In practice you can start with matplotlib, then explore NumPy or pandas as your needs grow.
+
+Watch out for these problems: testing it on random text; reading too much into a perfect fit; and ignoring small samples.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Zipf's Law.

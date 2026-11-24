@@ -1,0 +1,13 @@
+Performance Tips for Data Cleaning
+
+Fast software rarely happens by accident, and Data Cleaning offers several places to gain speed. The term Data Cleaning refers to finding and fixing errors, gaps and inconsistencies in raw data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use pandas or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to missing values and duplicates, because they usually decide how well things scale. For workloads such as preparing logs, even small improvements add up quickly.
+
+Four ideas sit at the heart of Data Cleaning: missing values, duplicates, inconsistent formats, and outliers. Each one builds on the one before it. Sketching outliers on paper before coding helps many learners see how the pieces fit.
+
+Keep an eye on this risk during code review: dropping data without checking why it is missing. Write a few tests that show how Data Cleaning should behave. Tests double as documentation for your teammates. Start small by applying Data Cleaning to one case, such as preparing logs, before rolling it out more widely.
+
+Beginners often stumble on three things. First: dropping data without checking why it is missing. Second: cleaning by hand without a record. Third: changing the original files.
+
+In short, careful study of Data Cleaning pays off. Spend time on missing values and duplicates, and the rest will follow.

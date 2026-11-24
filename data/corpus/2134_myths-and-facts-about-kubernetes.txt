@@ -1,0 +1,19 @@
+Myths and Facts About Kubernetes
+
+A lot of folklore has built up around Kubernetes. Some of it is true, and some of it is not. If you build software for long enough, you will run into Kubernetes. The term refers to a system for deploying, scaling and managing containerized applications.
+
+Myth: Kubernetes is only for experts.
+Fact: beginners can use it effectively once they understand pods and deployments.
+
+Myth: Kubernetes is only useful in very large systems.
+Fact: small projects such as running many containers benefit as well.
+
+Myth: one tool does everything.
+Fact: kubectl, Helm, and minikube make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Kubernetes are always obvious.
+Fact: subtle problems happen, for example resource limits missing.
+
+A solid grasp of Kubernetes also makes Infrastructure as Code easier to understand.
+
+Keep experimenting, keep notes, and revisit Kubernetes whenever a new project gives you a reason.

@@ -1,0 +1,17 @@
+Myths and Facts About CSS Flexbox and Grid
+
+A lot of folklore has built up around CSS Flexbox and Grid. Some of it is true, and some of it is not. When people talk about CSS Flexbox and Grid, they usually mean two layout systems that arrange elements in rows, columns and two-dimensional grids. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: CSS Flexbox and Grid is only for experts.
+Fact: beginners can use it effectively once they understand flex containers and grid tracks.
+
+Myth: CSS Flexbox and Grid is only useful in very large systems.
+Fact: small projects such as navigation bars benefit as well.
+
+Myth: one tool does everything.
+Fact: browser grid inspector, Bootstrap utilities, and CSS-Tricks guides make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with CSS Flexbox and Grid are always obvious.
+Fact: subtle problems happen, for example mixing up main and cross axes.
+
+In short, careful study of CSS Flexbox and Grid pays off. Spend time on flex containers and grid tracks, and the rest will follow.

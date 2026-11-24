@@ -1,0 +1,13 @@
+Troubleshooting Dynamic Programming Problems
+
+When something breaks around Dynamic Programming, a calm and systematic approach saves the most time. Put simply, Dynamic Programming covers a technique for solving problems by storing the answers to overlapping subproblems. Learning it well pays off across many areas of computing.
+
+A solid grasp of Dynamic Programming also makes Hash Tables easier to understand.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Python functools.lru_cache usually reveal the cause faster than guessing.
+
+Common culprits: defining the state incorrectly; storing more state than needed; ignoring base cases. If none of these explains the symptom, re-read the basics of overlapping subproblems and optimal substructure.
+
+Popular tools and libraries include Python functools.lru_cache, NumPy, and spreadsheets for small tables.
+
+With steady practice, Dynamic Programming will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+A Short History of Relational Databases
+
+Ideas behind Relational Databases developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Relational Databases, they usually mean systems that store data in tables with rows, columns and defined relationships. It appears in almost every serious software project, whether or not developers notice it.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+Four ideas sit at the heart of Relational Databases: tables and rows, primary keys, foreign keys, and schemas. Each one builds on the one before it. Understanding primary keys first often makes foreign keys much easier to reason about.
+
+If you are comfortable with Relational Databases, explore Database Transactions next. The two often appear in the same project.
+
+Ask a teammate to explain foreign keys back to you; teaching is a quick way to find gaps. Start small by applying Relational Databases to one case, such as storing orders and customers, before rolling it out more widely. Keep an eye on this risk during code review: skipping constraints.
+
+Keep experimenting, keep notes, and revisit Relational Databases whenever a new project gives you a reason.

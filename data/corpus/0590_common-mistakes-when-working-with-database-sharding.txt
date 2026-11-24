@@ -1,0 +1,13 @@
+Common Mistakes When Working with Database Sharding
+
+Almost everyone makes a few avoidable errors when first working with Database Sharding. Many students first meet Database Sharding in a classroom, but it matters just as much in production systems. The term refers to splitting a large dataset across several databases so each holds only part of it.
+
+Watch out for these problems: choosing a poor shard key; hot shards; and expensive joins across shards.
+
+Consider the first problem: choosing a poor shard key. A short test or a careful review comment usually catches it. The second problem is similar: hot shards. The third problem is this: expensive joins across shards. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about Database Sharding helps the next developer. Automate repetitive steps so that results are easy to reproduce.
+
+Practice shard keys with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about Database Sharding helps the next developer.
+
+In short, careful study of Database Sharding pays off. Spend time on shard keys and routing, and the rest will follow.

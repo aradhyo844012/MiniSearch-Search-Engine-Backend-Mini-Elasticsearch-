@@ -1,0 +1,13 @@
+Common Mistakes When Working with Recursion
+
+Almost everyone makes a few avoidable errors when first working with Recursion. If you build software for long enough, you will run into Recursion. The term refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+Watch out for these problems: missing base cases; exceeding the recursion limit; and recomputing the same values.
+
+Read the official documentation for debuggers; it often explains recursive case better than blog posts do. Measure before you optimize. Use Python sys.setrecursionlimit or a simple timer to see where time is actually spent. Write a few tests that show how Recursion should behave. Tests double as documentation for your teammates.
+
+Consider the first problem: missing base cases. A short test or a careful review comment usually catches it. The second problem is similar: exceeding the recursion limit. The third problem is this: recomputing the same values. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for debuggers; it often explains recursive case better than blog posts do. Write a few tests that show how Recursion should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Recursion pays off. Spend time on base case and recursive case, and the rest will follow.

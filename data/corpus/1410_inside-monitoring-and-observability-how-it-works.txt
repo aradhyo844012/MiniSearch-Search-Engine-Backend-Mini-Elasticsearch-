@@ -1,0 +1,15 @@
+Inside Monitoring and Observability: How It Works
+
+This article walks through what happens inside Monitoring and Observability, step by step. When people talk about Monitoring and Observability, they usually mean collecting metrics, logs and traces so you can understand how a system behaves. It appears in almost every serious software project, whether or not developers notice it.
+
+To understand Monitoring and Observability, start with metrics. Then move on to logs, and finally look at traces and alerts. Sketching alerts on paper before coding helps many learners see how the pieces fit.
+
+First, metrics sets the stage for everything else. Next, logs builds on it. After that, traces comes into play, and finally alerts ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+A system that cannot be observed cannot be reliably operated. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+If you are comfortable with Monitoring and Observability, explore Serverless Computing next. The two often appear in the same project.
+
+Monitoring and Observability and Serverless Computing are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Monitoring and Observability.

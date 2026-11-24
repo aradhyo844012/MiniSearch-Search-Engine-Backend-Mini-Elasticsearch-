@@ -1,0 +1,13 @@
+How Bloom Filters Connects to Binary Search
+
+Bloom Filters and Binary Search are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving skipping disk lookups for missing keys may also involve looking up values in sorted arrays. In such a project, bit arrays and sorted input often influence each other.
+
+Start with Bloom Filters: the term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. Then look at Binary Search, which refers to a fast way to find an item in sorted data by repeatedly halving the search range.
+
+A useful exercise is to take one example, such as checking visited URLs, and explain how low and high bounds would change the design.
+
+Common problems are shared too. For Bloom Filters, watch for this: trying to delete items. For Binary Search, watch for this: infinite loops from bad bounds. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python bitarray or Python bisect.

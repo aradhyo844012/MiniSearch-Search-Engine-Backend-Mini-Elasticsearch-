@@ -1,0 +1,15 @@
+Best Practices for Python Basics
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Python Basics. The term refers to the core features of Python, including data types, control flow and functions.
+
+1. Start small by applying Python Basics to one case, such as scripting, before rolling it out more widely.
+2. Keep notes on what worked. A short README explaining your decisions about Python Basics helps the next developer.
+3. Practice variables with small exercises until it feels natural.
+4. Keep an eye on this risk during code review: mutable default arguments.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+In practice you can start with Python interpreter, then explore pip or VS Code as your needs grow.
+
+If you are comfortable with Python Basics, explore Python Generators next. The two often appear in the same project.
+
+In short, careful study of Python Basics pays off. Spend time on variables and lists and dictionaries, and the rest will follow.

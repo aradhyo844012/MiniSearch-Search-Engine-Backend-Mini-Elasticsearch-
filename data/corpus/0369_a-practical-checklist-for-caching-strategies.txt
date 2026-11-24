@@ -1,0 +1,12 @@
+A Practical Checklist for Caching Strategies
+
+Use this checklist before you rely on Caching Strategies in a project.
+
+1. Guard against this risk: stale data.
+2. Write at least one automated test that covers cache-aside.
+3. Review how Caching Strategies interacts with JWT.
+4. Pick a tool to start with, such as Redis or Memcached.
+5. Try the approach on a small case, for example speeding up read-heavy APIs.
+6. Confirm that your team agrees on what Caching Strategies should accomplish.
+7. Review the core ideas: cache-aside, write-through, time to live, and invalidation.
+8. Guard against this risk: cache stampedes.

@@ -1,0 +1,12 @@
+Key Terms in Deadlocks Explained
+
+Clear vocabulary makes Deadlocks much easier to learn, so here are the key terms in plain language. When people talk about Deadlocks, they usually mean situations where two or more tasks wait for each other forever. It appears in almost every serious software project, whether or not developers notice it.
+
+mutual exclusion: a key term in Deadlocks. Beginners often confuse it with related terms, so define it in your own words early.
+hold and wait: a key term in Deadlocks. You will meet it constantly in documentation and in code reviews.
+circular wait: a key term in Deadlocks. It matters because it shapes how you design, test and explain your solution.
+lock ordering: a key term in Deadlocks. It matters because it shapes how you design, test and explain your solution.
+
+Deadlocks and Virtual Memory are closely related, so learning both gives a fuller picture of Operating Systems.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Deadlocks.

@@ -1,0 +1,15 @@
+File Systems vs Containers: Key Differences
+
+File Systems and Containers both belong to the area of Operating Systems, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term File Systems refers to the part of an operating system that organizes how data is stored and found on disk. Its core ideas are files and directories, inodes, and permissions.
+
+The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. Its core ideas are images, layers, and namespaces.
+
+The main difference is focus. File Systems puts the emphasis on files and directories and inodes, while Containers puts the emphasis on images and layers.
+
+Reach for File Systems when your task involves storing documents or managing logs. Reach for Containers when your task involves consistent development environments or deploying microservices.
+
+Both have risks. With File Systems, watch for this: running out of inodes. With Containers, watch for this: running as root.
+
+In practice you do not always have to choose. Many projects use File Systems alongside Containers, with tools such as ext4 and Docker. Understanding what the kernel does explains many surprising performance problems.

@@ -1,0 +1,15 @@
+Web Accessibility vs Web Performance: Key Differences
+
+Web Accessibility and Web Performance both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Web Accessibility refers to designing websites so that people with different abilities can use them. Its core ideas are semantic HTML, ARIA attributes, and keyboard navigation.
+
+The term Web Performance refers to the practice of making websites load quickly and respond smoothly. Its core ideas are page weight, caching, and lazy loading.
+
+The main difference is focus. Web Accessibility puts the emphasis on semantic HTML and ARIA attributes, while Web Performance puts the emphasis on page weight and caching.
+
+Reach for Web Accessibility when your task involves screen reader support or keyboard-only use. Reach for Web Performance when your task involves shopping sites or news pages.
+
+Both have risks. With Web Accessibility, watch for this: low contrast text. With Web Performance, watch for this: shipping large JavaScript bundles.
+
+In practice you do not always have to choose. Many projects use Web Accessibility alongside Web Performance, with tools such as axe DevTools and Lighthouse. Web pages must work across many browsers, devices and network conditions.

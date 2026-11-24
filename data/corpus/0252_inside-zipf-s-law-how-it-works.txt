@@ -1,0 +1,15 @@
+Inside Zipf's Law: How It Works
+
+This article walks through what happens inside Zipf's Law, step by step. The term Zipf's Law refers to the observation that a word's frequency is roughly inversely related to its rank in natural language. This article explains the idea in plain language and points out where it fits in real projects.
+
+The vocabulary of Zipf's Law is small. Learn rank and frequency, power laws, log-log plots, and long tails, and most documentation will start to make sense. Sketching long tails on paper before coding helps many learners see how the pieces fit.
+
+First, rank and frequency sets the stage for everything else. Next, power laws builds on it. After that, log-log plots comes into play, and finally long tails ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+Keep notes on what worked. A short README explaining your decisions about Zipf's Law helps the next developer. Practice rank and frequency with small exercises until it feels natural.
+
+Zipf's Law and Edit Distance are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Zipf's Law.

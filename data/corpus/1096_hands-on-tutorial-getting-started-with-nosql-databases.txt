@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with NoSQL Databases
+
+This hands-on tutorial takes you from zero to a small working experiment with NoSQL Databases. Many students first meet NoSQL Databases in a classroom, but it matters just as much in production systems. The term refers to a broad family of databases that do not use the traditional relational table model.
+
+Step 1: Install or open MongoDB and create a new empty project folder.
+Step 2: Read about document stores and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses key-value stores.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as flexible schemas.
+Step 6: Break your example on purpose and see what happens. A good experiment: assuming no schema means no design.
+
+In practice you can start with MongoDB, then explore Cassandra or Redis as your needs grow.
+
+Beginners often stumble on three things. First: assuming no schema means no design. Second: weak consistency surprises. Third: expensive cross-collection queries.
+
+Keep experimenting, keep notes, and revisit NoSQL Databases whenever a new project gives you a reason.

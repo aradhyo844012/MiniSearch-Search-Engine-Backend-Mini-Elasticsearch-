@@ -1,0 +1,19 @@
+Myths and Facts About Clean Code
+
+A lot of folklore has built up around Clean Code. Some of it is true, and some of it is not. If you build software for long enough, you will run into Clean Code. The term refers to writing code that other people can read, understand and change easily.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Clean Code helps the next developer. Write a few tests that show how Clean Code should behave. Tests double as documentation for your teammates.
+
+Myth: Clean Code is only for experts.
+Fact: beginners can use it effectively once they understand meaningful names and small functions.
+
+Myth: Clean Code is only useful in very large systems.
+Fact: small projects such as team projects benefit as well.
+
+Myth: one tool does everything.
+Fact: linters, formatters, and code reviews make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Clean Code are always obvious.
+Fact: subtle problems happen, for example cryptic abbreviations.
+
+In short, careful study of Clean Code pays off. Spend time on meaningful names and small functions, and the rest will follow.

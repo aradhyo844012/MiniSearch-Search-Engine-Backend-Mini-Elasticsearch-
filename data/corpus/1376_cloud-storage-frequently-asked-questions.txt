@@ -1,0 +1,22 @@
+Cloud Storage: Frequently Asked Questions
+
+Q: What is Cloud Storage?
+A: The term Cloud Storage refers to storing files and objects on remote servers that scale on demand.
+
+Q: Why do developers use Cloud Storage?
+A: Common uses include backups, serving images, and data lakes.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Cloud Storage.
+
+Q: Which tools help?
+A: Popular choices include Amazon S3, Google Cloud Storage, and Azure Blob Storage.
+
+Q: What should a beginner learn first?
+A: Start with buckets and objects, then move on to access policies and storage classes.
+
+Q: What mistakes are most common?
+A: Watch for these: public buckets by mistake; surprise egress costs; and no lifecycle rules.
+
+Q: How does it relate to Monitoring and Observability?
+A: Cloud Storage and Monitoring and Observability often appear in the same project, and both belong to the area of Cloud and DevOps.

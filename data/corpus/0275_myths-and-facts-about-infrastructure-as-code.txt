@@ -1,0 +1,17 @@
+Myths and Facts About Infrastructure as Code
+
+A lot of folklore has built up around Infrastructure as Code. Some of it is true, and some of it is not. The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Infrastructure as Code is only for experts.
+Fact: beginners can use it effectively once they understand declarative configuration and state.
+
+Myth: Infrastructure as Code is only useful in very large systems.
+Fact: small projects such as recreating environments benefit as well.
+
+Myth: one tool does everything.
+Fact: Terraform, Ansible, and Pulumi make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Infrastructure as Code are always obvious.
+Fact: subtle problems happen, for example manual changes causing drift.
+
+In short, careful study of Infrastructure as Code pays off. Spend time on declarative configuration and state, and the rest will follow.

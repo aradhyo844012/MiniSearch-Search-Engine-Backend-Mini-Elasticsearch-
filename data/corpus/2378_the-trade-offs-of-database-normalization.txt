@@ -1,0 +1,11 @@
+The Trade-offs of Database Normalization
+
+Every design choice has a cost, and Database Normalization is no exception. Many students first meet Database Normalization in a classroom, but it matters just as much in production systems. The term refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+On the positive side, Database Normalization is well suited to designing clean schemas and avoiding update anomalies. On the other hand, it is not free. Keep these risks in mind: over-normalizing reporting tables; ignoring query patterns; duplicating data by accident. Whether the trade is worth it depends on how much first normal form and second normal form matter to your project.
+
+Beginners often stumble on three things. First: over-normalizing reporting tables. Second: ignoring query patterns. Third: duplicating data by accident.
+
+Read the official documentation for dbdiagram.io; it often explains second normal form better than blog posts do. Keep an eye on this risk during code review: over-normalizing reporting tables.
+
+Keep experimenting, keep notes, and revisit Database Normalization whenever a new project gives you a reason.

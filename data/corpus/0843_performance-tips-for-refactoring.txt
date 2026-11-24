@@ -1,0 +1,15 @@
+Performance Tips for Refactoring
+
+Fast software rarely happens by accident, and Refactoring offers several places to gain speed. When people talk about Refactoring, they usually mean improving the structure of existing code without changing its behavior. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use IDE refactoring tools or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to small steps and tests as a safety net, because they usually decide how well things scale. For workloads such as reducing duplication, even small improvements add up quickly.
+
+The vocabulary of Refactoring is small. Learn small steps, tests as a safety net, extracting functions, and renaming, and most documentation will start to make sense. Sketching renaming on paper before coding helps many learners see how the pieces fit.
+
+Keep notes on what worked. A short README explaining your decisions about Refactoring helps the next developer. Practice small steps with small exercises until it feels natural. Keep an eye on this risk during code review: refactoring without tests.
+
+Read the official documentation for pytest; it often explains tests as a safety net better than blog posts do. Practice small steps with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Beginners often stumble on three things. First: refactoring without tests. Second: mixing refactoring with new features. Third: rewriting instead of improving.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Refactoring.

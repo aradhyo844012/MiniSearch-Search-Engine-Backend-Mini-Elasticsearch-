@@ -1,0 +1,13 @@
+The Future of Public Key Cryptography
+
+Predicting the future is risky, but the direction of Public Key Cryptography is easy to describe in general terms. When people talk about Public Key Cryptography, they usually mean encryption that uses a pair of keys, one public and one private. It appears in almost every serious software project, whether or not developers notice it.
+
+A solid grasp of Public Key Cryptography also makes Cross-Site Scripting easier to understand.
+
+Keeping dependencies updated removes a large share of known risks. Security is a habit applied throughout development, not a feature added at the end.
+
+Expect tools such as OpenSSL and GnuPG to keep improving, and expect newer ideas to keep building on key pairs. The basics, though, tend to stay the same, so time spent on digital signatures and certificates is rarely wasted. Anyone working on HTTPS will keep meeting Public Key Cryptography for years to come.
+
+Ask a teammate to explain certificates back to you; teaching is a quick way to find gaps. Practice key pairs with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Public Key Cryptography whenever a new project gives you a reason.

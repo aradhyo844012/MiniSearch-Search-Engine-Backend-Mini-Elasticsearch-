@@ -1,0 +1,11 @@
+Troubleshooting Data Visualization Problems
+
+When something breaks around Data Visualization, a calm and systematic approach saves the most time. When people talk about Data Visualization, they usually mean presenting data as charts and graphics so that patterns are easy to see. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and matplotlib usually reveal the cause faster than guessing.
+
+Common culprits: truncated axes; unreadable labels; too many colors. If none of these explains the symptom, re-read the basics of chart types and axes and labels.
+
+Popular tools and libraries include matplotlib, Seaborn, and Plotly.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Visualization.

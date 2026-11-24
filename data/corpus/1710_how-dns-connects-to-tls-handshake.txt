@@ -1,0 +1,13 @@
+How DNS Connects to TLS Handshake
+
+DNS and TLS Handshake are closely connected parts of Networking. Seeing how they fit together helps you learn both faster.
+
+A project involving mapping domains to servers may also involve securing websites. In such a project, resolvers and certificates often influence each other.
+
+Start with DNS: the term refers to the system that translates human-friendly domain names into IP addresses. Then look at TLS Handshake, which refers to the exchange that lets a client and server agree on keys and set up an encrypted connection.
+
+A useful exercise is to take one example, such as email routing, and explain how cipher suites would change the design.
+
+Common problems are shared too. For DNS, watch for this: mistyped records. For TLS Handshake, watch for this: disabling certificate validation. Latency is limited by distance and by the number of round trips a request needs.
+
+Spend a few hours on each topic, then combine them in one small project using dig or OpenSSL.

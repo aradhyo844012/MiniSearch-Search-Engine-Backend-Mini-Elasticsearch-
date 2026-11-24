@@ -1,0 +1,11 @@
+Pandas DataFrames Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Pandas DataFrames.
+
+- Definition: table-like structures in Python for loading, cleaning and analyzing data.
+- Core ideas: rows and columns; indexing; groupby; merging.
+- Use it for: loading CSV files; summarizing query logs; preparing data for charts.
+- Watch out for: chained assignment surprises; loading too much data into memory; forgetting to check data types.
+- Tools: pandas, Jupyter, NumPy.
+- Quick tip: practice rows and columns until it feels automatic.
+- Quick tip: write a tiny test for indexing before building anything large.

@@ -1,0 +1,17 @@
+A Beginner's Guide to Secure Coding
+
+This guide is written for readers who are new to Secure Coding and want a clear starting point. When people talk about Secure Coding, they usually mean writing software in ways that avoid common vulnerabilities. It appears in almost every serious software project, whether or not developers notice it.
+
+Security is a habit applied throughout development, not a feature added at the end.
+
+To understand Secure Coding, start with input validation. Then move on to least privilege, and finally look at dependency updates and secret management. Understanding least privilege first often makes dependency updates much easier to reason about.
+
+People use Secure Coding for reviewing pull requests, for building web services, and for handling user uploads.
+
+In practice you can start with OWASP Top 10, then explore static analysis tools or Dependabot as your needs grow.
+
+Watch out for these problems: trusting user input; committing secrets to repositories; and ignoring outdated libraries.
+
+Keep notes on what worked. A short README explaining your decisions about Secure Coding helps the next developer. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for static analysis tools; it often explains least privilege better than blog posts do.
+
+Keep experimenting, keep notes, and revisit Secure Coding whenever a new project gives you a reason.

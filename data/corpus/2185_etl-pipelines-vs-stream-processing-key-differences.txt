@@ -1,0 +1,15 @@
+ETL Pipelines vs Stream Processing: Key Differences
+
+ETL Pipelines and Stream Processing both belong to the area of Data Engineering, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term ETL Pipelines refers to processes that extract data from sources, transform it and load it into a destination. Its core ideas are extraction, transformation, and loading.
+
+The term Stream Processing refers to handling data continuously as it arrives rather than in large batches. Its core ideas are events, windows, and offsets.
+
+The main difference is focus. ETL Pipelines puts the emphasis on extraction and transformation, while Stream Processing puts the emphasis on events and windows.
+
+Reach for ETL Pipelines when your task involves building reports or moving data into warehouses. Reach for Stream Processing when your task involves live dashboards or fraud detection.
+
+Both have risks. With ETL Pipelines, watch for this: silent data loss. With Stream Processing, watch for this: late events.
+
+In practice you do not always have to choose. Many projects use ETL Pipelines alongside Stream Processing, with tools such as Apache Airflow and Apache Kafka. Writing down assumptions about the data prevents confusing surprises later.

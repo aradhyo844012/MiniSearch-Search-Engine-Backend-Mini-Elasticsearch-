@@ -1,0 +1,22 @@
+IP Addressing and Subnets: Frequently Asked Questions
+
+Q: What is IP Addressing and Subnets?
+A: The term IP Addressing and Subnets refers to the rules for numbering devices on a network and dividing networks into smaller parts.
+
+Q: How does it relate to WebSockets?
+A: IP Addressing and Subnets and WebSockets often appear in the same project, and both belong to the area of Networking.
+
+Q: Why do developers use IP Addressing and Subnets?
+A: Common uses include planning office networks, configuring cloud networks, and troubleshooting connectivity.
+
+Q: Which tools help?
+A: Popular choices include ipcalc, ping, and traceroute.
+
+Q: What should a beginner learn first?
+A: Start with IPv4 and IPv6 and subnet masks, then move on to CIDR notation and private ranges.
+
+Q: What mistakes are most common?
+A: Watch for these: overlapping address ranges; miscounting host bits; and exhausting small subnets.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with IP Addressing and Subnets.

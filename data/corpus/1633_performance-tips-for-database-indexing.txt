@@ -1,0 +1,15 @@
+Performance Tips for Database Indexing
+
+Fast software rarely happens by accident, and Database Indexing offers several places to gain speed. When people talk about Database Indexing, they usually mean auxiliary structures that let a database find rows without scanning a whole table. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use EXPLAIN plans or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to B-tree indexes and selectivity, because they usually decide how well things scale. For workloads such as speeding up lookups, even small improvements add up quickly.
+
+Four ideas sit at the heart of Database Indexing: B-tree indexes, selectivity, composite indexes, and covering indexes. Each one builds on the one before it. Sketching covering indexes on paper before coding helps many learners see how the pieces fit.
+
+Write a few tests that show how Database Indexing should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Database Indexing helps the next developer.
+
+Watch out for these problems: indexing every column; ignoring write overhead; and wrong column order in composite indexes.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+In short, careful study of Database Indexing pays off. Spend time on B-tree indexes and selectivity, and the rest will follow.

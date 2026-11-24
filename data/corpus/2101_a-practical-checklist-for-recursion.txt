@@ -1,0 +1,12 @@
+A Practical Checklist for Recursion
+
+Use this checklist before you rely on Recursion in a project.
+
+1. Ask a teammate to review the work, focusing on recursive case.
+2. Write at least one automated test that covers base case.
+3. Guard against this risk: missing base cases.
+4. Try the approach on a small case, for example traversing trees.
+5. Review how Recursion interacts with Dynamic Programming.
+6. Document your decisions in the project README.
+7. Pick a tool to start with, such as Python sys.setrecursionlimit or debuggers.
+8. Confirm that your team agrees on what Recursion should accomplish.

@@ -1,0 +1,13 @@
+How Public Key Cryptography Connects to OAuth 2.0
+
+Public Key Cryptography and OAuth 2.0 are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving HTTPS may also involve sign in with another account. In such a project, key pairs and authorization server often influence each other.
+
+Start with Public Key Cryptography: the term refers to encryption that uses a pair of keys, one public and one private. Then look at OAuth 2.0, which refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+A useful exercise is to take one example, such as signing software, and explain how access tokens would change the design.
+
+Common problems are shared too. For Public Key Cryptography, watch for this: trusting unverified keys. For OAuth 2.0, watch for this: requesting excessive scopes. Security is a habit applied throughout development, not a feature added at the end.
+
+Spend a few hours on each topic, then combine them in one small project using OpenSSL or Auth0.

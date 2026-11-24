@@ -1,0 +1,13 @@
+A Practical Checklist for Design Patterns
+
+Use this checklist before you rely on Design Patterns in a project.
+
+1. Document your decisions in the project README.
+2. Guard against this risk: copying patterns without understanding the problem.
+3. Guard against this risk: over-engineering.
+4. Guard against this risk: forcing patterns where they are unnecessary.
+5. Measure results before and after any change.
+6. Review the core ideas: singleton, factory, observer, and strategy.
+7. Write at least one automated test that covers singleton.
+8. Confirm that your team agrees on what Design Patterns should accomplish.
+9. Ask a teammate to review the work, focusing on factory.

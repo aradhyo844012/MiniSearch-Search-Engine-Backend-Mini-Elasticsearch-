@@ -1,0 +1,11 @@
+Cloud Storage Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Cloud Storage.
+
+- Definition: storing files and objects on remote servers that scale on demand.
+- Core ideas: buckets; objects; access policies; storage classes.
+- Use it for: backups; serving images; data lakes.
+- Watch out for: public buckets by mistake; surprise egress costs; no lifecycle rules.
+- Tools: Amazon S3, Google Cloud Storage, Azure Blob Storage.
+- Related topic: CI/CD Pipelines.
+- Quick tip: practice buckets until it feels automatic.

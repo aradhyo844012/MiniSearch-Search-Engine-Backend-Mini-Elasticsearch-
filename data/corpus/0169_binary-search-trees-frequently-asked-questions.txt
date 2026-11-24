@@ -1,0 +1,22 @@
+Binary Search Trees: Frequently Asked Questions
+
+Q: What is Binary Search Trees?
+A: The term Binary Search Trees refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys.
+
+Q: What should a beginner learn first?
+A: Start with nodes and links and in-order traversal, then move on to tree height and balancing.
+
+Q: What mistakes are most common?
+A: Watch for these: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; and recursive code can overflow the stack on deep trees.
+
+Q: Which tools help?
+A: Popular choices include AVL trees, red-black trees, and Java TreeMap.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Binary Search Trees.
+
+Q: Why do developers use Binary Search Trees?
+A: Common uses include ordered lookups, range queries, and building sorted sets.
+
+Q: How does it relate to Tries?
+A: Binary Search Trees and Tries often appear in the same project, and both belong to the area of Data Structures and Algorithms.

@@ -1,0 +1,12 @@
+A Practical Checklist for CSS Flexbox and Grid
+
+Use this checklist before you rely on CSS Flexbox and Grid in a project.
+
+1. Guard against this risk: nesting layouts too deeply.
+2. Review how CSS Flexbox and Grid interacts with JavaScript Promises.
+3. Try the approach on a small case, for example navigation bars.
+4. Write at least one automated test that covers flex containers.
+5. Pick a tool to start with, such as browser grid inspector or Bootstrap utilities.
+6. Review the core ideas: flex containers, grid tracks, alignment, and gaps.
+7. Guard against this risk: mixing up main and cross axes.
+8. Document your decisions in the project README.

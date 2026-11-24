@@ -1,0 +1,15 @@
+Big O Notation vs Binary Search: Key Differences
+
+Big O Notation and Binary Search both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Big O Notation refers to a way of describing how running time or memory grows as the input size grows. Its core ideas are upper bounds, constant, linear and logarithmic growth, and worst case.
+
+The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. Its core ideas are sorted input, low and high bounds, and midpoint calculation.
+
+The main difference is focus. Big O Notation puts the emphasis on upper bounds and constant, linear and logarithmic growth, while Binary Search puts the emphasis on sorted input and low and high bounds.
+
+Reach for Big O Notation when your task involves comparing algorithms or predicting scaling problems. Reach for Binary Search when your task involves looking up values in sorted arrays or finding insertion points.
+
+Both have risks. With Big O Notation, watch for this: ignoring constant factors entirely. With Binary Search, watch for this: off-by-one errors.
+
+In practice you do not always have to choose. Many projects use Big O Notation alongside Binary Search, with tools such as Python timeit and Python bisect. Interviewers and engineers alike value clear reasoning about time and space costs.

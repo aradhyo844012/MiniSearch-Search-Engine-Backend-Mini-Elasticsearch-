@@ -1,0 +1,18 @@
+Database Replication Interview Questions and Answers
+
+Prepare for these questions about Database Replication.
+
+Q: Explain Database Replication in simple words.
+A: Database Replication refers to copying data from one database server to others to improve availability and read capacity. I would add an example involving surviving server failures.
+
+Q: Where would you apply it first?
+A: I would start with scaling read traffic, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Relational Databases?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: reading stale data from replicas.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as primary and replica, and add tests aimed at the known risks.

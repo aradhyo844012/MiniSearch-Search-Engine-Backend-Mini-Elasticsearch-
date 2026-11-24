@@ -1,0 +1,13 @@
+How TCP and UDP Connects to TLS Handshake
+
+TCP and UDP and TLS Handshake are closely connected parts of Networking. Seeing how they fit together helps you learn both faster.
+
+A project involving web traffic may also involve securing websites. In such a project, handshakes and certificates often influence each other.
+
+Start with TCP and UDP: the term refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless. Then look at TLS Handshake, which refers to the exchange that lets a client and server agree on keys and set up an encrypted connection.
+
+A useful exercise is to take one example, such as video calls, and explain how cipher suites would change the design.
+
+Common problems are shared too. For TCP and UDP, watch for this: ignoring timeouts. For TLS Handshake, watch for this: disabling certificate validation. Network failures are normal, so well-designed software expects timeouts and retries.
+
+Spend a few hours on each topic, then combine them in one small project using Wireshark or OpenSSL.

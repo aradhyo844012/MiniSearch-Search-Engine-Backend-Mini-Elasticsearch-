@@ -1,0 +1,19 @@
+Myths and Facts About Monitoring and Observability
+
+A lot of folklore has built up around Monitoring and Observability. Some of it is true, and some of it is not. Many students first meet Monitoring and Observability in a classroom, but it matters just as much in production systems. The term refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+Automation turns risky manual steps into repeatable and reviewable processes. A system that cannot be observed cannot be reliably operated.
+
+Myth: Monitoring and Observability is only for experts.
+Fact: beginners can use it effectively once they understand metrics and logs.
+
+Myth: Monitoring and Observability is only useful in very large systems.
+Fact: small projects such as detecting outages benefit as well.
+
+Myth: one tool does everything.
+Fact: Prometheus, Grafana, and OpenTelemetry make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Monitoring and Observability are always obvious.
+Fact: subtle problems happen, for example noisy alerts.
+
+With steady practice, Monitoring and Observability will stop feeling abstract and become a tool you reach for naturally.

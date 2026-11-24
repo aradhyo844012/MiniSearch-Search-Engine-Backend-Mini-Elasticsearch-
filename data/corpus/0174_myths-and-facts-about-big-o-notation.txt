@@ -1,0 +1,19 @@
+Myths and Facts About Big O Notation
+
+A lot of folklore has built up around Big O Notation. Some of it is true, and some of it is not. The term Big O Notation refers to a way of describing how running time or memory grows as the input size grows. This article explains the idea in plain language and points out where it fits in real projects.
+
+If you are comfortable with Big O Notation, explore Dynamic Programming next. The two often appear in the same project.
+
+Myth: Big O Notation is only for experts.
+Fact: beginners can use it effectively once they understand upper bounds and constant, linear and logarithmic growth.
+
+Myth: Big O Notation is only useful in very large systems.
+Fact: small projects such as comparing algorithms benefit as well.
+
+Myth: one tool does everything.
+Fact: Python timeit, big-O cheat sheets, and profilers make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Big O Notation are always obvious.
+Fact: subtle problems happen, for example ignoring constant factors entirely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Big O Notation.

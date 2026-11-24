@@ -1,0 +1,13 @@
+How Cross-Site Scripting Connects to SQL Injection
+
+Cross-Site Scripting and SQL Injection are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving reviewing web forms may also involve securing login forms. In such a project, reflected XSS and parameterized queries often influence each other.
+
+Start with Cross-Site Scripting: the term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. Then look at SQL Injection, which refers to an attack where malicious input changes the meaning of a database query.
+
+A useful exercise is to take one example, such as securing comment sections, and explain how input validation would change the design.
+
+Common problems are shared too. For Cross-Site Scripting, watch for this: trusting client-side filtering. For SQL Injection, watch for this: using admin accounts for the app. Never trust input that comes from outside your own code.
+
+Spend a few hours on each topic, then combine them in one small project using OWASP guides or prepared statements.

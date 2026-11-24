@@ -1,0 +1,10 @@
+Key Terms in Load Balancing Explained
+
+Clear vocabulary makes Load Balancing much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Load Balancing. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+round robin: a key term in Load Balancing. You will meet it constantly in documentation and in code reviews.
+health checks: a key term in Load Balancing. It matters because it shapes how you design, test and explain your solution.
+sticky sessions: a key term in Load Balancing. Practice with a small example to make the meaning stick.
+layer 4 and layer 7: a key term in Load Balancing. It matters because it shapes how you design, test and explain your solution.
+
+In short, careful study of Load Balancing pays off. Spend time on round robin and health checks, and the rest will follow.

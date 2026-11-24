@@ -1,0 +1,13 @@
+How TF-IDF Connects to Stop Words
+
+TF-IDF and Stop Words are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving ranking search results may also involve shrinking indexes. In such a project, term frequency and frequency lists often influence each other.
+
+Start with TF-IDF: the term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall. Then look at Stop Words, which refers to very common words such as the and of that are often ignored by search systems.
+
+A useful exercise is to take one example, such as finding keywords, and explain how index size would change the design.
+
+Common problems are shared too. For TF-IDF, watch for this: ignoring document length. For Stop Words, watch for this: using the wrong language list. Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn TfidfVectorizer or NLTK stopwords.

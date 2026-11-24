@@ -1,0 +1,12 @@
+How to Learn Redis Caching in 30 Days
+
+You do not need months to become comfortable with Redis Caching. A focused plan of thirty days is enough to build a solid base. If you build software for long enough, you will run into Redis Caching. The term refers to using an in-memory data store to keep frequently needed results close to the application.
+
+Week 1: learn key-value pairs and expiration times, and write a one-page summary.
+Week 2: practice with Redis on a small task such as caching API responses.
+Week 3: build a mini project around storing session data.
+Week 4: review common mistakes such as serving stale data, and explain Redis Caching to a friend.
+
+Popular tools and libraries include Redis, redis-py, and Memcached.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Redis Caching.

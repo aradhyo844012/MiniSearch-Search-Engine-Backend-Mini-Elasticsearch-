@@ -1,0 +1,13 @@
+Inside Single Page Applications: How It Works
+
+This article walks through what happens inside Single Page Applications, step by step. Put simply, Single Page Applications covers web apps that load once and update the page dynamically as the user interacts. Learning it well pays off across many areas of computing.
+
+The vocabulary of Single Page Applications is small. Learn client-side routing, state management, API calls, and bundling, and most documentation will start to make sense. Understanding state management first often makes API calls much easier to reason about.
+
+First, client-side routing sets the stage for everything else. Next, state management builds on it. After that, API calls comes into play, and finally bundling ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does. Accessible design helps everyone, including people on slow connections or small screens.
+
+If you are comfortable with Single Page Applications, explore JavaScript Promises next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Single Page Applications.

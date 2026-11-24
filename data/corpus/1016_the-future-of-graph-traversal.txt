@@ -1,0 +1,11 @@
+The Future of Graph Traversal
+
+Predicting the future is risky, but the direction of Graph Traversal is easy to describe in general terms. If you build software for long enough, you will run into Graph Traversal. The term refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Expect tools such as NetworkX and Python collections.deque to keep improving, and expect newer ideas to keep building on adjacency lists. The basics, though, tend to stay the same, so time spent on breadth-first search and depth-first search is rarely wasted. Anyone working on finding shortest paths in unweighted graphs will keep meeting Graph Traversal for years to come.
+
+Write a few tests that show how Graph Traversal should behave. Tests double as documentation for your teammates. Read the official documentation for Python collections.deque; it often explains breadth-first search better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Graph Traversal.

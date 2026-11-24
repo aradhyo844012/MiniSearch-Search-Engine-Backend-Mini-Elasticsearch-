@@ -1,0 +1,11 @@
+The Trade-offs of JWT
+
+Every design choice has a cost, and JWT is no exception. When people talk about JWT, they usually mean a compact token format that carries signed claims between a client and a server. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, JWT is well suited to stateless API authentication and service-to-service calls. On the other hand, it is not free. Keep these risks in mind: storing tokens in insecure places; skipping signature checks; very long expiry times. Whether the trade is worth it depends on how much header, payload and signature and claims matter to your project.
+
+Beginners often stumble on three things. First: storing tokens in insecure places. Second: skipping signature checks. Third: very long expiry times.
+
+Ask a teammate to explain expiry back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about JWT helps the next developer. Practice header, payload and signature with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JWT.

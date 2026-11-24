@@ -1,0 +1,13 @@
+How Cross-Site Scripting Connects to Public Key Cryptography
+
+Cross-Site Scripting and Public Key Cryptography are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving reviewing web forms may also involve HTTPS. In such a project, reflected XSS and key pairs often influence each other.
+
+Start with Cross-Site Scripting: the term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. Then look at Public Key Cryptography, which refers to encryption that uses a pair of keys, one public and one private.
+
+A useful exercise is to take one example, such as securing comment sections, and explain how digital signatures would change the design.
+
+Common problems are shared too. For Cross-Site Scripting, watch for this: trusting client-side filtering. For Public Key Cryptography, watch for this: trusting unverified keys. Never trust input that comes from outside your own code.
+
+Spend a few hours on each topic, then combine them in one small project using OWASP guides or OpenSSL.

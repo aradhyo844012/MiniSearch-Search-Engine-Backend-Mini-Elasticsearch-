@@ -1,0 +1,15 @@
+Real-World Use Cases of Process Scheduling
+
+The best way to appreciate Process Scheduling is to see where it is actually used. When people talk about Process Scheduling, they usually mean the way an operating system decides which process runs on the CPU and for how long. It appears in almost every serious software project, whether or not developers notice it.
+
+People use Process Scheduling for sharing CPUs among programs, for keeping interfaces responsive, and for running batch jobs.
+
+Consider sharing CPUs among programs. In a case like this, Process Scheduling gives the work a clear structure, and understanding time slices makes the design easier to explain. A different example is keeping interfaces responsive, where priorities often decides how well the solution scales.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+A solid grasp of Process Scheduling also makes Containers easier to understand.
+
+Popular tools and libraries include top, htop, and perf.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Process Scheduling.

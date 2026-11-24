@@ -1,0 +1,13 @@
+Performance Tips for OAuth 2.0
+
+Fast software rarely happens by accident, and OAuth 2.0 offers several places to gain speed. The term OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Auth0 or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to authorization server and access tokens, because they usually decide how well things scale. For workloads such as sign in with another account, even small improvements add up quickly.
+
+The vocabulary of OAuth 2.0 is small. Learn authorization server, access tokens, scopes, and redirect URIs, and most documentation will start to make sense. Sketching redirect URIs on paper before coding helps many learners see how the pieces fit.
+
+Start small by applying OAuth 2.0 to one case, such as sign in with another account, before rolling it out more widely. Measure before you optimize. Use Auth0 or a simple timer to see where time is actually spent.
+
+Three issues come up again and again: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with OAuth 2.0.

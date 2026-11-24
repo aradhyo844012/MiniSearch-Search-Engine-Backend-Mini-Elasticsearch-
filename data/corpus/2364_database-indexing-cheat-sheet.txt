@@ -1,0 +1,11 @@
+Database Indexing Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Database Indexing.
+
+- Definition: auxiliary structures that let a database find rows without scanning a whole table.
+- Core ideas: B-tree indexes; selectivity; composite indexes; covering indexes.
+- Use it for: speeding up lookups; supporting sorted queries; enforcing uniqueness.
+- Watch out for: indexing every column; ignoring write overhead; wrong column order in composite indexes.
+- Tools: EXPLAIN plans, pgAdmin, MySQL slow query log.
+- Quick tip: practice B-tree indexes until it feels automatic.
+- Quick tip: write a tiny test for selectivity before building anything large.

@@ -1,0 +1,11 @@
+OAuth 2.0 Cheat Sheet
+
+Use this page as a quick reminder of the essentials of OAuth 2.0.
+
+- Definition: a framework that lets applications access resources on a user's behalf without sharing passwords.
+- Core ideas: authorization server; access tokens; scopes; redirect URIs.
+- Use it for: sign in with another account; API access for third-party apps; mobile logins.
+- Watch out for: loose redirect URI checks; requesting excessive scopes; storing tokens insecurely.
+- Tools: Auth0, Keycloak, authlib.
+- Related topic: Two-Factor Authentication.
+- Quick tip: practice authorization server until it feels automatic.

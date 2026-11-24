@@ -1,0 +1,17 @@
+Best Practices for Query Optimization
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Query Optimization. The term refers to the process of making database queries return results with less time and fewer resources.
+
+1. Keep an eye on this risk during code review: selecting more columns than needed.
+2. Practice query plans with small exercises until it feels natural.
+3. Measure before you optimize. Use EXPLAIN ANALYZE or a simple timer to see where time is actually spent.
+4. Start small by applying Query Optimization to one case, such as speeding up dashboards, before rolling it out more widely.
+5. Write a few tests that show how Query Optimization should behave. Tests double as documentation for your teammates.
+
+In practice you can start with EXPLAIN ANALYZE, then explore pg_stat_statements or query profilers as your needs grow.
+
+A solid grasp of Query Optimization also makes Redis Caching easier to understand.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Backups are only useful if restoring from them has been tested.
+
+In short, careful study of Query Optimization pays off. Spend time on query plans and statistics, and the rest will follow.

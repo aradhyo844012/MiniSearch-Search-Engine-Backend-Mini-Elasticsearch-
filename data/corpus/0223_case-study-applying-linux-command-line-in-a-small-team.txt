@@ -1,0 +1,9 @@
+Case Study: Applying Linux Command Line in a Small Team
+
+Imagine a small student team building a project that depends on Linux Command Line. The term Linux Command Line refers to a text-based way of controlling a computer using commands and scripts. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning shell and pipes. Early on they hit a familiar problem: running destructive commands carelessly. After fixing it, they used bash to check their work and adopted Linux Command Line for automating tasks. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: running destructive commands carelessly; forgetting quotes around paths; and ignoring exit codes. Knowing them in advance saves hours of debugging.
+
+With steady practice, Linux Command Line will stop feeling abstract and become a tool you reach for naturally.

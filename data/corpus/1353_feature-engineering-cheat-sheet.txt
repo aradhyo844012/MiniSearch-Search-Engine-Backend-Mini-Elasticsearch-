@@ -1,0 +1,11 @@
+Feature Engineering Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Feature Engineering.
+
+- Definition: creating and transforming input variables so that models can learn from them more easily.
+- Core ideas: scaling; encoding categories; interaction features; missing values.
+- Use it for: improving model accuracy; preparing tabular data; handling text and dates.
+- Watch out for: data leakage; inconsistent transformations between training and serving; too many redundant features.
+- Tools: pandas, scikit-learn pipelines, Featuretools.
+- Related topic: Model Evaluation.
+- Quick tip: practice scaling until it feels automatic.

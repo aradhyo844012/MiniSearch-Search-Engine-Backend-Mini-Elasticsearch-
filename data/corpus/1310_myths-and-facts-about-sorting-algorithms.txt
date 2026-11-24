@@ -1,0 +1,17 @@
+Myths and Facts About Sorting Algorithms
+
+A lot of folklore has built up around Sorting Algorithms. Some of it is true, and some of it is not. Put simply, Sorting Algorithms covers methods for arranging items in a defined order. Learning it well pays off across many areas of computing.
+
+Myth: Sorting Algorithms is only for experts.
+Fact: beginners can use it effectively once they understand comparison sorts and stability.
+
+Myth: Sorting Algorithms is only useful in very large systems.
+Fact: small projects such as ordering search results benefit as well.
+
+Myth: one tool does everything.
+Fact: Python sorted, Java Arrays.sort, and C++ std::sort make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Sorting Algorithms are always obvious.
+Fact: subtle problems happen, for example assuming every sort is stable.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Sorting Algorithms.

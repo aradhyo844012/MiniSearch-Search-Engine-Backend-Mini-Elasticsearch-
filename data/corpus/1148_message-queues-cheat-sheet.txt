@@ -1,0 +1,11 @@
+Message Queues Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Message Queues.
+
+- Definition: systems that let services send work to each other asynchronously through a buffer.
+- Core ideas: producers; consumers; acknowledgements; retries.
+- Use it for: sending emails; processing uploads; smoothing traffic spikes.
+- Watch out for: losing messages without acknowledgements; poison messages that retry forever; duplicate processing.
+- Tools: RabbitMQ, Apache Kafka, Amazon SQS.
+- Quick tip: write a tiny test for consumers before building anything large.
+- Related topic: Microservices.

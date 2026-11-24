@@ -1,0 +1,19 @@
+A Beginner's Guide to TCP and UDP
+
+This guide is written for readers who are new to TCP and UDP and want a clear starting point. Put simply, TCP and UDP covers the two main transport protocols, one reliable and ordered and the other fast and connectionless. Learning it well pays off across many areas of computing.
+
+Network failures are normal, so well-designed software expects timeouts and retries. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+To understand TCP and UDP, start with handshakes. Then move on to acknowledgements, and finally look at ports and congestion control. A good way to remember handshakes is to connect it with a concrete example from your own code.
+
+If you are comfortable with TCP and UDP, explore IP Addressing and Subnets next. The two often appear in the same project.
+
+A team working on web traffic might adopt TCP and UDP after hitting the limits of a simpler approach. Other teams turn to it for video calls or online games.
+
+Popular tools and libraries include Wireshark, netcat, and tcpdump.
+
+Watch out for these problems: assuming UDP guarantees delivery; ignoring timeouts; and opening too many connections.
+
+Keep notes on what worked. A short README explaining your decisions about TCP and UDP helps the next developer. Write a few tests that show how TCP and UDP should behave. Tests double as documentation for your teammates.
+
+With steady practice, TCP and UDP will stop feeling abstract and become a tool you reach for naturally.

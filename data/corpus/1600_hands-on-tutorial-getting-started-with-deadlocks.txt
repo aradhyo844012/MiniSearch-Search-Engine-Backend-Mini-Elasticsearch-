@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Deadlocks
+
+This hands-on tutorial takes you from zero to a small working experiment with Deadlocks. When people talk about Deadlocks, they usually mean situations where two or more tasks wait for each other forever. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open thread dumps and create a new empty project folder.
+Step 2: Read about mutual exclusion and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses hold and wait.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as database lock conflicts.
+Step 6: Break your example on purpose and see what happens. A good experiment: acquiring locks in inconsistent order.
+
+In practice you can start with thread dumps, then explore database deadlock logs or static analyzers as your needs grow.
+
+Beginners often stumble on three things. First: acquiring locks in inconsistent order. Second: holding locks while waiting on I/O. Third: no timeouts on locks.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Deadlocks.

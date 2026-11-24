@@ -1,0 +1,17 @@
+Myths and Facts About Inverted Index
+
+A lot of folklore has built up around Inverted Index. Some of it is true, and some of it is not. When people talk about Inverted Index, they usually mean a data structure that maps each term to the documents that contain it. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Inverted Index is only for experts.
+Fact: beginners can use it effectively once they understand vocabulary and postings lists.
+
+Myth: Inverted Index is only useful in very large systems.
+Fact: small projects such as full-text search benefit as well.
+
+Myth: one tool does everything.
+Fact: Lucene, Elasticsearch, and custom Python dictionaries make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Inverted Index are always obvious.
+Fact: subtle problems happen, for example scanning very long postings lists.
+
+Keep experimenting, keep notes, and revisit Inverted Index whenever a new project gives you a reason.

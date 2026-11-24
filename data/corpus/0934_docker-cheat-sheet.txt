@@ -1,0 +1,11 @@
+Docker Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Docker.
+
+- Definition: a platform for building and running applications in containers.
+- Core ideas: Dockerfile; image layers; volumes; networks.
+- Use it for: reproducible development setups; shipping applications; CI jobs.
+- Watch out for: huge images; secrets baked into images; running as root.
+- Tools: Docker Compose, Docker Hub, Podman.
+- Quick tip: write a tiny test for image layers before building anything large.
+- Related topic: Serverless Computing.

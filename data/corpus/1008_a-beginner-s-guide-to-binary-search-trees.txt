@@ -1,0 +1,17 @@
+A Beginner's Guide to Binary Search Trees
+
+This guide is written for readers who are new to Binary Search Trees and want a clear starting point. Put simply, Binary Search Trees covers ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. Learning it well pays off across many areas of computing.
+
+Choosing the right data structure often matters more than clever tuning later.
+
+Four ideas sit at the heart of Binary Search Trees: nodes and links, in-order traversal, tree height, and balancing. Each one builds on the one before it. Understanding in-order traversal first often makes tree height much easier to reason about.
+
+People use Binary Search Trees for ordered lookups, for range queries, and for building sorted sets.
+
+In practice you can start with AVL trees, then explore red-black trees or Java TreeMap as your needs grow.
+
+Three issues come up again and again: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; and recursive code can overflow the stack on deep trees. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use AVL trees or a simple timer to see where time is actually spent. Ask a teammate to explain tree height back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Binary Search Trees pays off. Spend time on nodes and links and in-order traversal, and the rest will follow.

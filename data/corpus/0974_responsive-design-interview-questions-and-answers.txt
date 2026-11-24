@@ -1,0 +1,18 @@
+Responsive Design Interview Questions and Answers
+
+Prepare for these questions about Responsive Design.
+
+Q: Explain Responsive Design in simple words.
+A: Responsive Design refers to building pages that adapt smoothly to phones, tablets and large screens. I would add an example involving websites used on many devices.
+
+Q: What problems have you seen in practice?
+A: testing only on one screen size; tiny touch targets; and horizontal scrolling.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: testing only on one screen size.
+
+Q: What are the key concepts?
+A: media queries, fluid grids, flexible images, and mobile-first thinking.
+
+Q: How does it connect to Single Page Applications?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.

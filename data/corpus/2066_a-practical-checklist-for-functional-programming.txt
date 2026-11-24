@@ -1,0 +1,13 @@
+A Practical Checklist for Functional Programming
+
+Use this checklist before you rely on Functional Programming in a project.
+
+1. Document your decisions in the project README.
+2. Measure results before and after any change.
+3. Pick a tool to start with, such as Python functools or JavaScript array methods.
+4. Review the core ideas: pure functions, immutability, higher-order functions, and composition.
+5. Write at least one automated test that covers pure functions.
+6. Guard against this risk: hidden state.
+7. Guard against this risk: unreadable chains of functions.
+8. Try the approach on a small case, for example data transformation.
+9. Ask a teammate to review the work, focusing on immutability.

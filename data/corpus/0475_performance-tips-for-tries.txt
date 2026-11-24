@@ -1,0 +1,15 @@
+Performance Tips for Tries
+
+Fast software rarely happens by accident, and Tries offers several places to gain speed. If you build software for long enough, you will run into Tries. The term refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+Tries and Binary Search are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Start by measuring. Use Python dict-based tries or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to prefix sharing and nodes and edges, because they usually decide how well things scale. For workloads such as autocomplete, even small improvements add up quickly.
+
+To understand Tries, start with prefix sharing. Then move on to nodes and edges, and finally look at end-of-word markers and alphabet size. A good way to remember prefix sharing is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Tries should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Python dict-based tries or a simple timer to see where time is actually spent.
+
+Three issues come up again and again: high memory use for sparse data; forgetting end-of-word markers; and assuming case-insensitive matching. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Tries whenever a new project gives you a reason.

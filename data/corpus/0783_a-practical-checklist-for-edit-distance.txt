@@ -1,0 +1,11 @@
+A Practical Checklist for Edit Distance
+
+Use this checklist before you rely on Edit Distance in a project.
+
+1. Confirm that your team agrees on what Edit Distance should accomplish.
+2. Review how Edit Distance interacts with TF-IDF.
+3. Document your decisions in the project README.
+4. Guard against this risk: ignoring word length.
+5. Write at least one automated test that covers insertions.
+6. Try the approach on a small case, for example spell checking.
+7. Guard against this risk: forgetting transpositions.

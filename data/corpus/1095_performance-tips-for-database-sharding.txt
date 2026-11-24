@@ -1,0 +1,13 @@
+Performance Tips for Database Sharding
+
+Fast software rarely happens by accident, and Database Sharding offers several places to gain speed. The term Database Sharding refers to splitting a large dataset across several databases so each holds only part of it. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Vitess or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to shard keys and routing, because they usually decide how well things scale. For workloads such as scaling beyond one server, even small improvements add up quickly.
+
+The vocabulary of Database Sharding is small. Learn shard keys, routing, rebalancing, and cross-shard queries, and most documentation will start to make sense. Sketching cross-shard queries on paper before coding helps many learners see how the pieces fit.
+
+Start small by applying Database Sharding to one case, such as scaling beyond one server, before rolling it out more widely. Write a few tests that show how Database Sharding should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: choosing a poor shard key; hot shards; and expensive joins across shards. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Database Sharding pays off. Spend time on shard keys and routing, and the rest will follow.

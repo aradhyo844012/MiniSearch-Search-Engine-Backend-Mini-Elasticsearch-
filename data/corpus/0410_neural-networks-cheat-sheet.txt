@@ -1,0 +1,11 @@
+Neural Networks Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Neural Networks.
+
+- Definition: models made of layers of connected units that learn patterns from data.
+- Core ideas: layers; weights; activation functions; backpropagation.
+- Use it for: image recognition; speech recognition; language tasks.
+- Watch out for: too little training data; poor learning rate choices; not monitoring validation loss.
+- Tools: PyTorch, TensorFlow, Keras.
+- Quick tip: write a tiny test for weights before building anything large.
+- Quick tip: practice layers until it feels automatic.

@@ -1,0 +1,13 @@
+Inside TF-IDF: How It Works
+
+This article walks through what happens inside TF-IDF, step by step. Put simply, TF-IDF covers a scoring method that weights terms by how often they appear in a document and how rare they are overall. Learning it well pays off across many areas of computing.
+
+Four ideas sit at the heart of TF-IDF: term frequency, inverse document frequency, weighting, and normalization. Each one builds on the one before it. A good way to remember term frequency is to connect it with a concrete example from your own code.
+
+First, term frequency sets the stage for everything else. Next, inverse document frequency builds on it. After that, weighting comes into play, and finally normalization ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+A solid grasp of TF-IDF also makes Inverted Index easier to understand.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

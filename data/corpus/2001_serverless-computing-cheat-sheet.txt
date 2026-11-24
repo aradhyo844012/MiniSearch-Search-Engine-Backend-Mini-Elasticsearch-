@@ -1,0 +1,11 @@
+Serverless Computing Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Serverless Computing.
+
+- Definition: running code in managed functions without maintaining servers yourself.
+- Core ideas: functions; event triggers; cold starts; pay per use.
+- Use it for: webhooks; scheduled jobs; lightweight APIs.
+- Watch out for: cold start delays; vendor lock-in; hard local debugging.
+- Tools: AWS Lambda, Cloud Functions, Azure Functions.
+- Quick tip: practice functions until it feels automatic.
+- Related topic: Site Reliability.

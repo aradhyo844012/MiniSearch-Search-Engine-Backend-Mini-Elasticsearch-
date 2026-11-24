@@ -1,0 +1,18 @@
+Object-Oriented Programming Interview Questions and Answers
+
+Prepare for these questions about Object-Oriented Programming.
+
+Q: Explain Object-Oriented Programming in simple words.
+A: Object-Oriented Programming refers to a style of programming that organizes code into objects that combine data and behavior. I would add an example involving modeling real-world entities.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as classes, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: deep inheritance chains.
+
+Q: Where would you apply it first?
+A: I would start with building frameworks, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: classes, inheritance, encapsulation, and polymorphism.

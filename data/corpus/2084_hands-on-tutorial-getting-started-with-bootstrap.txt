@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Bootstrap
+
+This hands-on tutorial takes you from zero to a small working experiment with Bootstrap. The term Bootstrap refers to a popular front-end toolkit with ready-made layout, components and utilities. This article explains the idea in plain language and points out where it fits in real projects.
+
+Step 1: Install or open Bootstrap CDN and create a new empty project folder.
+Step 2: Read about grid system and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses components.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as prototypes and dashboards.
+Step 6: Break your example on purpose and see what happens. A good experiment: overriding styles with heavy custom CSS.
+
+Small improvements in markup and styling often have a large effect on usability. Web pages must work across many browsers, devices and network conditions.
+
+In practice you can start with Bootstrap CDN, then explore Sass variables or Bootstrap Icons as your needs grow.
+
+Three issues come up again and again: overriding styles with heavy custom CSS; loading unused components; and copying markup without understanding it. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Bootstrap whenever a new project gives you a reason.

@@ -1,0 +1,14 @@
+How to Learn Public Key Cryptography in 30 Days
+
+You do not need months to become comfortable with Public Key Cryptography. A focused plan of thirty days is enough to build a solid base. Many students first meet Public Key Cryptography in a classroom, but it matters just as much in production systems. The term refers to encryption that uses a pair of keys, one public and one private.
+
+Week 1: learn key pairs and digital signatures, and write a one-page summary.
+Week 2: practice with OpenSSL on a small task such as HTTPS.
+Week 3: build a mini project around signing software.
+Week 4: review common mistakes such as losing private keys, and explain Public Key Cryptography to a friend.
+
+In practice you can start with OpenSSL, then explore GnuPG or SSH keys as your needs grow.
+
+Keeping dependencies updated removes a large share of known risks.
+
+With steady practice, Public Key Cryptography will stop feeling abstract and become a tool you reach for naturally.

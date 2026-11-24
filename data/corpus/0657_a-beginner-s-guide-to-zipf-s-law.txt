@@ -1,0 +1,19 @@
+A Beginner's Guide to Zipf's Law
+
+This guide is written for readers who are new to Zipf's Law and want a clear starting point. Many students first meet Zipf's Law in a classroom, but it matters just as much in production systems. The term refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+Users judge a search engine by whether the right result appears near the top. Search quality depends on how text is prepared before it is ever indexed.
+
+The vocabulary of Zipf's Law is small. Learn rank and frequency, power laws, log-log plots, and long tails, and most documentation will start to make sense. A good way to remember rank and frequency is to connect it with a concrete example from your own code.
+
+A team working on analyzing text corpora might adopt Zipf's Law after hitting the limits of a simpler approach. Other teams turn to it for sizing indexes or designing caches.
+
+In practice you can start with matplotlib, then explore NumPy or pandas as your needs grow.
+
+If you are comfortable with Zipf's Law, explore Stop Words next. The two often appear in the same project.
+
+Watch out for these problems: testing it on random text; reading too much into a perfect fit; and ignoring small samples.
+
+Keep notes on what worked. A short README explaining your decisions about Zipf's Law helps the next developer. Ask a teammate to explain log-log plots back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Zipf's Law whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+How Authentication and Sessions Connects to JWT
+
+Authentication and Sessions and JWT are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving logging in to web apps may also involve stateless API authentication. In such a project, credentials and header, payload and signature often influence each other.
+
+Start with Authentication and Sessions: the term refers to the process of proving who a user is and remembering them between requests. Then look at JWT, which refers to a compact token format that carries signed claims between a client and a server.
+
+A useful exercise is to take one example, such as protecting admin pages, and explain how claims would change the design.
+
+Common problems are shared too. For Authentication and Sessions, watch for this: never expiring sessions. For JWT, watch for this: skipping signature checks. A backend turns requests from many clients into reliable, consistent responses.
+
+Spend a few hours on each topic, then combine them in one small project using Flask-Login or jwt.io.

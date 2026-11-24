@@ -1,0 +1,13 @@
+Troubleshooting JSON Problems
+
+When something breaks around JSON, a calm and systematic approach saves the most time. The term JSON refers to a lightweight text format for exchanging structured data between programs. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Python json module usually reveal the cause faster than guessing.
+
+A backend turns requests from many clients into reliable, consistent responses. Good APIs are boring, predictable and well documented.
+
+Common culprits: trailing commas; large payloads; losing precision with big numbers. If none of these explains the symptom, re-read the basics of objects and arrays.
+
+Popular tools and libraries include Python json module, jq, and JSON Schema.
+
+With steady practice, JSON will stop feeling abstract and become a tool you reach for naturally.

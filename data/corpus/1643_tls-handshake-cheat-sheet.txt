@@ -1,0 +1,11 @@
+TLS Handshake Cheat Sheet
+
+Use this page as a quick reminder of the essentials of TLS Handshake.
+
+- Definition: the exchange that lets a client and server agree on keys and set up an encrypted connection.
+- Core ideas: certificates; cipher suites; session keys; certificate authorities.
+- Use it for: securing websites; protecting API traffic; verifying server identity.
+- Watch out for: expired certificates; disabling certificate validation; using outdated protocol versions.
+- Tools: OpenSSL, Let's Encrypt, SSL Labs.
+- Quick tip: practice certificates until it feels automatic.
+- Related topic: DNS.

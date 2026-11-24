@@ -1,0 +1,16 @@
+OAuth 2.0: Frequently Asked Questions
+
+Q: What is OAuth 2.0?
+A: The term OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+Q: What should a beginner learn first?
+A: Start with authorization server and access tokens, then move on to scopes and redirect URIs.
+
+Q: Which tools help?
+A: Popular choices include Auth0, Keycloak, and authlib.
+
+Q: What mistakes are most common?
+A: Watch for these: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely.
+
+Q: Why do developers use OAuth 2.0?
+A: Common uses include sign in with another account, API access for third-party apps, and mobile logins.

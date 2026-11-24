@@ -1,0 +1,13 @@
+Common Mistakes When Working with SQL Injection
+
+Almost everyone makes a few avoidable errors when first working with SQL Injection. If you build software for long enough, you will run into SQL Injection. The term refers to an attack where malicious input changes the meaning of a database query.
+
+Watch out for these problems: building queries with string concatenation; using admin accounts for the app; and revealing detailed database errors.
+
+A solid grasp of SQL Injection also makes OAuth 2.0 easier to understand.
+
+Consider the first problem: building queries with string concatenation. A short test or a careful review comment usually catches it. The second problem is similar: using admin accounts for the app. The third problem is this: revealing detailed database errors. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying SQL Injection to one case, such as securing login forms, before rolling it out more widely. Read the official documentation for OWASP cheat sheets; it often explains input validation better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with SQL Injection.

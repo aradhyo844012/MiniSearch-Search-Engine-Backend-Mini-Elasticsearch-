@@ -1,0 +1,9 @@
+Case Study: Applying JWT in a Small Team
+
+Imagine a small student team building a project that depends on JWT. Many students first meet JWT in a classroom, but it matters just as much in production systems. The term refers to a compact token format that carries signed claims between a client and a server.
+
+The team first spent a week learning header, payload and signature and claims. Early on they hit a familiar problem: storing tokens in insecure places. After fixing it, they used jwt.io to check their work and adopted JWT for stateless API authentication. Looking back, they said the biggest lesson was to write tests earlier.
+
+Beginners often stumble on three things. First: storing tokens in insecure places. Second: skipping signature checks. Third: very long expiry times.
+
+In short, careful study of JWT pays off. Spend time on header, payload and signature and claims, and the rest will follow.

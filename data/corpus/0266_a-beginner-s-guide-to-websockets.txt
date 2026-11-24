@@ -1,0 +1,19 @@
+A Beginner's Guide to WebSockets
+
+This guide is written for readers who are new to WebSockets and want a clear starting point. The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+Network failures are normal, so well-designed software expects timeouts and retries.
+
+To understand WebSockets, start with persistent connections. Then move on to messages, and finally look at heartbeats and reconnection. Sketching reconnection on paper before coding helps many learners see how the pieces fit.
+
+People use WebSockets for chat applications, for live dashboards, and for collaborative editing.
+
+Popular tools and libraries include Socket.IO, ws library, and Python websockets.
+
+WebSockets and IP Addressing and Subnets are closely related, so learning both gives a fuller picture of Networking.
+
+Watch out for these problems: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections.
+
+Practice persistent connections with small exercises until it feels natural. Write a few tests that show how WebSockets should behave. Tests double as documentation for your teammates. Start small by applying WebSockets to one case, such as chat applications, before rolling it out more widely.
+
+In short, careful study of WebSockets pays off. Spend time on persistent connections and messages, and the rest will follow.

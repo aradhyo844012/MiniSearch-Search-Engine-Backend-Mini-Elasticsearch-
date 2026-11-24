@@ -1,0 +1,15 @@
+Two-Factor Authentication vs OAuth 2.0: Key Differences
+
+Two-Factor Authentication and OAuth 2.0 both belong to the area of Security, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Two-Factor Authentication refers to requiring a second proof of identity in addition to a password. Its core ideas are one-time codes, authenticator apps, and hardware keys.
+
+The term OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords. Its core ideas are authorization server, access tokens, and scopes.
+
+The main difference is focus. Two-Factor Authentication puts the emphasis on one-time codes and authenticator apps, while OAuth 2.0 puts the emphasis on authorization server and access tokens.
+
+Reach for Two-Factor Authentication when your task involves protecting email accounts or securing admin panels. Reach for OAuth 2.0 when your task involves sign in with another account or API access for third-party apps.
+
+Both have risks. With Two-Factor Authentication, watch for this: relying only on SMS. With OAuth 2.0, watch for this: loose redirect URI checks.
+
+In practice you do not always have to choose. Many projects use Two-Factor Authentication alongside OAuth 2.0, with tools such as Google Authenticator and Auth0. Attackers usually choose the easiest weakness, not the most interesting one.

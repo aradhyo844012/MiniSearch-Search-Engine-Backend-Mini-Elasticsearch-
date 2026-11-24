@@ -1,0 +1,11 @@
+Case Study: Applying IP Addressing and Subnets in a Small Team
+
+Imagine a small student team building a project that depends on IP Addressing and Subnets. Many students first meet IP Addressing and Subnets in a classroom, but it matters just as much in production systems. The term refers to the rules for numbering devices on a network and dividing networks into smaller parts.
+
+The team first spent a week learning IPv4 and IPv6 and subnet masks. Early on they hit a familiar problem: overlapping address ranges. After fixing it, they used ipcalc to check their work and adopted IP Addressing and Subnets for planning office networks. Looking back, they said the biggest lesson was to keep the design simple.
+
+Three issues come up again and again: overlapping address ranges; miscounting host bits; and exhausting small subnets. Knowing them in advance saves hours of debugging.
+
+Start small by applying IP Addressing and Subnets to one case, such as planning office networks, before rolling it out more widely. Write a few tests that show how IP Addressing and Subnets should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about IP Addressing and Subnets helps the next developer.
+
+Keep experimenting, keep notes, and revisit IP Addressing and Subnets whenever a new project gives you a reason.

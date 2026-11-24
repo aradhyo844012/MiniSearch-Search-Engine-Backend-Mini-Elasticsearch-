@@ -1,0 +1,15 @@
+Graph Traversal vs Bloom Filters: Key Differences
+
+Graph Traversal and Bloom Filters both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Its core ideas are adjacency lists, breadth-first search, and depth-first search.
+
+The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. Its core ideas are bit arrays, multiple hash functions, and false positives.
+
+The main difference is focus. Graph Traversal puts the emphasis on adjacency lists and breadth-first search, while Bloom Filters puts the emphasis on bit arrays and multiple hash functions.
+
+Reach for Graph Traversal when your task involves finding shortest paths in unweighted graphs or detecting cycles. Reach for Bloom Filters when your task involves skipping disk lookups for missing keys or checking visited URLs.
+
+Both have risks. With Graph Traversal, watch for this: forgetting to mark nodes as visited. With Bloom Filters, watch for this: choosing too small a bit array.
+
+In practice you do not always have to choose. Many projects use Graph Traversal alongside Bloom Filters, with tools such as NetworkX and Python bitarray. Most performance problems in everyday programs come from doing unnecessary work on large inputs.

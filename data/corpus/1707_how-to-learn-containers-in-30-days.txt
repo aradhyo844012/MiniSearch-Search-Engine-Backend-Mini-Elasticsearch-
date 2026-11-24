@@ -1,0 +1,12 @@
+How to Learn Containers in 30 Days
+
+You do not need months to become comfortable with Containers. A focused plan of thirty days is enough to build a solid base. The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn images and layers, and write a one-page summary.
+Week 2: practice with Docker on a small task such as consistent development environments.
+Week 3: build a mini project around deploying microservices.
+Week 4: review common mistakes such as running as root, and explain Containers to a friend.
+
+In practice you can start with Docker, then explore Podman or containerd as your needs grow.
+
+In short, careful study of Containers pays off. Spend time on images and layers, and the rest will follow.

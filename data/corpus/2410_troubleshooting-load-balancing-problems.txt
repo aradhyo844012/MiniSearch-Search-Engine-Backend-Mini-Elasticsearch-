@@ -1,0 +1,13 @@
+Troubleshooting Load Balancing Problems
+
+When something breaks around Load Balancing, a calm and systematic approach saves the most time. The term Load Balancing refers to spreading incoming requests across several servers so no single server is overwhelmed. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and NGINX usually reveal the cause faster than guessing.
+
+Common culprits: the balancer becoming a single point of failure; ignoring health checks; session data stored only on one server. If none of these explains the symptom, re-read the basics of round robin and health checks.
+
+In practice you can start with NGINX, then explore HAProxy or AWS Elastic Load Balancing as your needs grow.
+
+If you are comfortable with Load Balancing, explore WebSockets next. The two often appear in the same project.
+
+With steady practice, Load Balancing will stop feeling abstract and become a tool you reach for naturally.

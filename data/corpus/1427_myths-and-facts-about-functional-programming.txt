@@ -1,0 +1,19 @@
+Myths and Facts About Functional Programming
+
+A lot of folklore has built up around Functional Programming. Some of it is true, and some of it is not. When people talk about Functional Programming, they usually mean a style of programming that builds programs from functions and avoids shared mutable state. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Functional Programming is only for experts.
+Fact: beginners can use it effectively once they understand pure functions and immutability.
+
+Myth: Functional Programming is only useful in very large systems.
+Fact: small projects such as data transformation benefit as well.
+
+Myth: one tool does everything.
+Fact: Python functools, JavaScript array methods, and Haskell make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Functional Programming are always obvious.
+Fact: subtle problems happen, for example overusing clever one-liners.
+
+A solid grasp of Functional Programming also makes Python Generators easier to understand.
+
+With steady practice, Functional Programming will stop feeling abstract and become a tool you reach for naturally.

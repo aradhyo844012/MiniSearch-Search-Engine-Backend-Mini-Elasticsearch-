@@ -1,0 +1,15 @@
+Inside DNS: How It Works
+
+This article walks through what happens inside DNS, step by step. If you build software for long enough, you will run into DNS. The term refers to the system that translates human-friendly domain names into IP addresses.
+
+To understand DNS, start with resolvers. Then move on to records, and finally look at caching and TTL and name servers. Understanding records first often makes caching and TTL much easier to reason about.
+
+First, resolvers sets the stage for everything else. Next, records builds on it. After that, caching and TTL comes into play, and finally name servers ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Automate repetitive steps so that results are easy to reproduce. Start small by applying DNS to one case, such as mapping domains to servers, before rolling it out more widely.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+If you are comfortable with DNS, explore Load Balancing next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit DNS whenever a new project gives you a reason.

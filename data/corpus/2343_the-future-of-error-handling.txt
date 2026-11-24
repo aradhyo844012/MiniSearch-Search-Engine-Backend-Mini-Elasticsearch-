@@ -1,0 +1,13 @@
+The Future of Error Handling
+
+Predicting the future is risky, but the direction of Error Handling is easy to describe in general terms. When people talk about Error Handling, they usually mean planning for failures so that programs respond clearly instead of crashing. It appears in almost every serious software project, whether or not developers notice it.
+
+Every language has idioms that experienced developers recognize at a glance.
+
+Expect tools such as Python try and except and logging module to keep improving, and expect newer ideas to keep building on exceptions. The basics, though, tend to stay the same, so time spent on validation and logging is rarely wasted. Anyone working on reading files will keep meeting Error Handling for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Error Handling should behave. Tests double as documentation for your teammates.
+
+Error Handling and Python Basics are closely related, so learning both gives a fuller picture of Programming.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Error Handling.

@@ -1,0 +1,13 @@
+How Database Indexing Connects to Query Optimization
+
+Database Indexing and Query Optimization are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving speeding up lookups may also involve speeding up dashboards. In such a project, B-tree indexes and query plans often influence each other.
+
+Start with Database Indexing: the term refers to auxiliary structures that let a database find rows without scanning a whole table. Then look at Query Optimization, which refers to the process of making database queries return results with less time and fewer resources.
+
+A useful exercise is to take one example, such as supporting sorted queries, and explain how statistics would change the design.
+
+Common problems are shared too. For Database Indexing, watch for this: ignoring write overhead. For Query Optimization, watch for this: running queries inside loops. Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+Spend a few hours on each topic, then combine them in one small project using EXPLAIN plans or EXPLAIN ANALYZE.

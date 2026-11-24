@@ -1,0 +1,11 @@
+Linked Lists Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Linked Lists.
+
+- Definition: chains of nodes where each node stores a value and a reference to the next node.
+- Core ideas: nodes; head and tail pointers; singly and doubly linked lists; pointer updates.
+- Use it for: queues and stacks; undo histories; memory allocators.
+- Watch out for: losing the head pointer; off-by-one errors during insertion; poor cache locality.
+- Tools: Python collections.deque, Java LinkedList, C pointers.
+- Related topic: Big O Notation.
+- Quick tip: practice nodes until it feels automatic.

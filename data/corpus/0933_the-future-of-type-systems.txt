@@ -1,0 +1,11 @@
+The Future of Type Systems
+
+Predicting the future is risky, but the direction of Type Systems is easy to describe in general terms. When people talk about Type Systems, they usually mean the rules a language uses to classify values and catch mistakes. It appears in almost every serious software project, whether or not developers notice it.
+
+Reading other people's code is one of the fastest ways to improve as a programmer.
+
+Expect tools such as mypy and TypeScript to keep improving, and expect newer ideas to keep building on static and dynamic typing. The basics, though, tend to stay the same, so time spent on type inference and generics is rarely wasted. Anyone working on catching bugs early will keep meeting Type Systems for years to come.
+
+Practice static and dynamic typing with small exercises until it feels natural. Measure before you optimize. Use mypy or a simple timer to see where time is actually spent. Read the official documentation for TypeScript; it often explains type inference better than blog posts do.
+
+Keep experimenting, keep notes, and revisit Type Systems whenever a new project gives you a reason.

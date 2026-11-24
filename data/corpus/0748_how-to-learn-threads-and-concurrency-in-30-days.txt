@@ -1,0 +1,14 @@
+How to Learn Threads and Concurrency in 30 Days
+
+You do not need months to become comfortable with Threads and Concurrency. A focused plan of thirty days is enough to build a solid base. Many students first meet Threads and Concurrency in a classroom, but it matters just as much in production systems. The term refers to ways of making progress on several tasks at once within a program.
+
+Week 1: learn threads and locks, and write a one-page summary.
+Week 2: practice with Python threading on a small task such as handling many requests.
+Week 3: build a mini project around keeping interfaces responsive.
+Week 4: review common mistakes such as forgetting to protect shared data, and explain Threads and Concurrency to a friend.
+
+Threads and Concurrency and Deadlocks are closely related, so learning both gives a fuller picture of Operating Systems.
+
+In practice you can start with Python threading, then explore Java ExecutorService or asyncio as your needs grow.
+
+In short, careful study of Threads and Concurrency pays off. Spend time on threads and locks, and the rest will follow.

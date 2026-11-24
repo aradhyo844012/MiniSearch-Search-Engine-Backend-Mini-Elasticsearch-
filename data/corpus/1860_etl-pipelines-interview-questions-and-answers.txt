@@ -1,0 +1,18 @@
+ETL Pipelines Interview Questions and Answers
+
+Prepare for these questions about ETL Pipelines.
+
+Q: Explain ETL Pipelines in simple words.
+A: ETL Pipelines refers to processes that extract data from sources, transform it and load it into a destination. I would add an example involving building reports.
+
+Q: What are the key concepts?
+A: extraction, transformation, loading, and scheduling.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as extraction, and add tests aimed at the known risks.
+
+Q: Which tools have you used?
+A: Apache Airflow, dbt, and Python scripts.
+
+Q: How does it connect to Pandas DataFrames?
+A: Both belong to the area of Data Engineering, and understanding one makes the other easier to learn.

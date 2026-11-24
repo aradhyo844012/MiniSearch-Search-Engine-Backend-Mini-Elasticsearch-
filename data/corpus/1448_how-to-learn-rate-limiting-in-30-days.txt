@@ -1,0 +1,12 @@
+How to Learn Rate Limiting in 30 Days
+
+You do not need months to become comfortable with Rate Limiting. A focused plan of thirty days is enough to build a solid base. The term Rate Limiting refers to controlling how many requests a client can make in a given period. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn token bucket and fixed window, and write a one-page summary.
+Week 2: practice with Redis on a small task such as protecting APIs.
+Week 3: build a mini project around stopping brute force attempts.
+Week 4: review common mistakes such as limits that are too strict, and explain Rate Limiting to a friend.
+
+Popular tools and libraries include Redis, NGINX, and API gateways.
+
+Keep experimenting, keep notes, and revisit Rate Limiting whenever a new project gives you a reason.

@@ -1,0 +1,17 @@
+Myths and Facts About OAuth 2.0
+
+A lot of folklore has built up around OAuth 2.0. Some of it is true, and some of it is not. Many students first meet OAuth 2.0 in a classroom, but it matters just as much in production systems. The term refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+Myth: OAuth 2.0 is only for experts.
+Fact: beginners can use it effectively once they understand authorization server and access tokens.
+
+Myth: OAuth 2.0 is only useful in very large systems.
+Fact: small projects such as sign in with another account benefit as well.
+
+Myth: one tool does everything.
+Fact: Auth0, Keycloak, and authlib make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with OAuth 2.0 are always obvious.
+Fact: subtle problems happen, for example loose redirect URI checks.
+
+Keep experimenting, keep notes, and revisit OAuth 2.0 whenever a new project gives you a reason.

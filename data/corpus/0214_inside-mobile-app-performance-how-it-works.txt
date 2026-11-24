@@ -1,0 +1,13 @@
+Inside Mobile App Performance: How It Works
+
+This article walks through what happens inside Mobile App Performance, step by step. The term Mobile App Performance refers to making mobile apps start quickly, run smoothly and use little battery. This article explains the idea in plain language and points out where it fits in real projects.
+
+Four ideas sit at the heart of Mobile App Performance: startup time, frame rate, memory use, and network calls. Each one builds on the one before it. Understanding frame rate first often makes memory use much easier to reason about.
+
+First, startup time sets the stage for everything else. Next, frame rate builds on it. After that, memory use comes into play, and finally network calls ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Phones have limited memory, battery and screen space compared with desktops. Mobile users expect apps to start quickly and respond immediately.
+
+Mobile App Performance and Android Basics are closely related, so learning both gives a fuller picture of Mobile Development.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Mobile App Performance.

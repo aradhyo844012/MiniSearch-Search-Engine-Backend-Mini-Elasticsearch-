@@ -1,0 +1,11 @@
+Common Mistakes When Working with Load Balancing
+
+Almost everyone makes a few avoidable errors when first working with Load Balancing. Put simply, Load Balancing covers spreading incoming requests across several servers so no single server is overwhelmed. Learning it well pays off across many areas of computing.
+
+Beginners often stumble on three things. First: the balancer becoming a single point of failure. Second: ignoring health checks. Third: session data stored only on one server.
+
+Consider the first problem: the balancer becoming a single point of failure. A short test or a careful review comment usually catches it. The second problem is similar: ignoring health checks. The third problem is this: session data stored only on one server. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Load Balancing to one case, such as scaling web applications, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for HAProxy; it often explains health checks better than blog posts do.
+
+Keep experimenting, keep notes, and revisit Load Balancing whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+How HTTP and HTTPS Connects to Load Balancing
+
+HTTP and HTTPS and Load Balancing are closely connected parts of Networking. Seeing how they fit together helps you learn both faster.
+
+A project involving loading web pages may also involve scaling web applications. In such a project, methods and round robin often influence each other.
+
+Start with HTTP and HTTPS: the term refers to the request and response protocol of the web, with HTTPS adding encryption. Then look at Load Balancing, which refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+A useful exercise is to take one example, such as calling APIs, and explain how health checks would change the design.
+
+Common problems are shared too. For HTTP and HTTPS, watch for this: sending secrets in URLs. For Load Balancing, watch for this: ignoring health checks. Every web request crosses several layers of protocols before it reaches an application.
+
+Spend a few hours on each topic, then combine them in one small project using curl or NGINX.

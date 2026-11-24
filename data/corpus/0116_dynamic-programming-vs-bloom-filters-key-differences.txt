@@ -1,0 +1,15 @@
+Dynamic Programming vs Bloom Filters: Key Differences
+
+Dynamic Programming and Bloom Filters both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Dynamic Programming refers to a technique for solving problems by storing the answers to overlapping subproblems. Its core ideas are overlapping subproblems, optimal substructure, and memoization.
+
+The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. Its core ideas are bit arrays, multiple hash functions, and false positives.
+
+The main difference is focus. Dynamic Programming puts the emphasis on overlapping subproblems and optimal substructure, while Bloom Filters puts the emphasis on bit arrays and multiple hash functions.
+
+Reach for Dynamic Programming when your task involves computing edit distance or knapsack style optimization. Reach for Bloom Filters when your task involves skipping disk lookups for missing keys or checking visited URLs.
+
+Both have risks. With Dynamic Programming, watch for this: defining the state incorrectly. With Bloom Filters, watch for this: choosing too small a bit array.
+
+In practice you do not always have to choose. Many projects use Dynamic Programming alongside Bloom Filters, with tools such as Python functools.lru_cache and Python bitarray. Interviewers and engineers alike value clear reasoning about time and space costs.

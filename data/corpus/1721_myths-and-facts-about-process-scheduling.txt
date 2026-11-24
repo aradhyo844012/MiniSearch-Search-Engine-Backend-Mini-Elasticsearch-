@@ -1,0 +1,19 @@
+Myths and Facts About Process Scheduling
+
+A lot of folklore has built up around Process Scheduling. Some of it is true, and some of it is not. Put simply, Process Scheduling covers the way an operating system decides which process runs on the CPU and for how long. Learning it well pays off across many areas of computing.
+
+Write a few tests that show how Process Scheduling should behave. Tests double as documentation for your teammates. Ask a teammate to explain context switches back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: starvation of low priority tasks.
+
+Myth: Process Scheduling is only for experts.
+Fact: beginners can use it effectively once they understand time slices and priorities.
+
+Myth: Process Scheduling is only useful in very large systems.
+Fact: small projects such as sharing CPUs among programs benefit as well.
+
+Myth: one tool does everything.
+Fact: top, htop, and perf make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Process Scheduling are always obvious.
+Fact: subtle problems happen, for example starvation of low priority tasks.
+
+In short, careful study of Process Scheduling pays off. Spend time on time slices and priorities, and the rest will follow.

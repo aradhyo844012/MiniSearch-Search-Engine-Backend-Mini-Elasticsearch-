@@ -1,0 +1,11 @@
+JavaScript Promises Cheat Sheet
+
+Use this page as a quick reminder of the essentials of JavaScript Promises.
+
+- Definition: objects that represent a value that will be available later, after an asynchronous task finishes.
+- Core ideas: pending and resolved states; then and catch; async and await; chaining.
+- Use it for: fetching data from APIs; reading files; running tasks in sequence.
+- Watch out for: forgetting to handle rejections; forgetting to return promises; awaiting inside slow loops.
+- Tools: fetch API, Node.js, Promise.all.
+- Related topic: HTML Semantics.
+- Quick tip: practice pending and resolved states until it feels automatic.

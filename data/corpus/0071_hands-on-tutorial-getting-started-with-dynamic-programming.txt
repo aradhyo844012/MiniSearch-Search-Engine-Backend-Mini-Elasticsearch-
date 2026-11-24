@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Dynamic Programming
+
+This hands-on tutorial takes you from zero to a small working experiment with Dynamic Programming. Many students first meet Dynamic Programming in a classroom, but it matters just as much in production systems. The term refers to a technique for solving problems by storing the answers to overlapping subproblems.
+
+Step 1: Install or open Python functools.lru_cache and create a new empty project folder.
+Step 2: Read about overlapping subproblems and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses optimal substructure.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as computing edit distance.
+Step 6: Break your example on purpose and see what happens. A good experiment: defining the state incorrectly.
+
+In practice you can start with Python functools.lru_cache, then explore NumPy or spreadsheets for small tables as your needs grow.
+
+A solid grasp of Dynamic Programming also makes Heaps and Priority Queues easier to understand.
+
+Three issues come up again and again: defining the state incorrectly; storing more state than needed; and ignoring base cases. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Dynamic Programming pays off. Spend time on overlapping subproblems and optimal substructure, and the rest will follow.

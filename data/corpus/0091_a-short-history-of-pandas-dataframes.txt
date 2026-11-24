@@ -1,0 +1,13 @@
+A Short History of Pandas DataFrames
+
+Ideas behind Pandas DataFrames developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Pandas DataFrames covers table-like structures in Python for loading, cleaning and analyzing data. Learning it well pays off across many areas of computing.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+Keep notes on what worked. A short README explaining your decisions about Pandas DataFrames helps the next developer. Keep an eye on this risk during code review: chained assignment surprises.
+
+Four ideas sit at the heart of Pandas DataFrames: rows and columns, indexing, groupby, and merging. Each one builds on the one before it. Sketching merging on paper before coding helps many learners see how the pieces fit.
+
+If you are comfortable with Pandas DataFrames, explore Stream Processing next. The two often appear in the same project.
+
+With steady practice, Pandas DataFrames will stop feeling abstract and become a tool you reach for naturally.

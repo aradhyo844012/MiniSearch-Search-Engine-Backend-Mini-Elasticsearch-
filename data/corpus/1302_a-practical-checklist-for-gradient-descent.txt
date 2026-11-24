@@ -1,0 +1,11 @@
+A Practical Checklist for Gradient Descent
+
+Use this checklist before you rely on Gradient Descent in a project.
+
+1. Try the approach on a small case, for example training neural networks.
+2. Guard against this risk: getting stuck on plateaus.
+3. Document your decisions in the project README.
+4. Pick a tool to start with, such as PyTorch or NumPy.
+5. Confirm that your team agrees on what Gradient Descent should accomplish.
+6. Guard against this risk: unscaled features.
+7. Guard against this risk: learning rates that are too large.

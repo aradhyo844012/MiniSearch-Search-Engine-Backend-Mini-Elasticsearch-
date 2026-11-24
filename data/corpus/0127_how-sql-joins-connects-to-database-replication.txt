@@ -1,0 +1,13 @@
+How SQL Joins Connects to Database Replication
+
+SQL Joins and Database Replication are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving linking customers to orders may also involve surviving server failures. In such a project, inner join and primary and replica often influence each other.
+
+Start with SQL Joins: the term refers to operations that combine rows from two or more tables based on related columns. Then look at Database Replication, which refers to copying data from one database server to others to improve availability and read capacity.
+
+A useful exercise is to take one example, such as building reports, and explain how replication lag would change the design.
+
+Common problems are shared too. For SQL Joins, watch for this: duplicating rows by joining on non-unique keys. For Database Replication, watch for this: untested failover plans. Backups are only useful if restoring from them has been tested.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or PostgreSQL streaming replication.

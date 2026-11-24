@@ -1,0 +1,17 @@
+Best Practices for Threads and Concurrency
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Threads and Concurrency. The term refers to ways of making progress on several tasks at once within a program.
+
+1. Keep an eye on this risk during code review: forgetting to protect shared data.
+2. Keep notes on what worked. A short README explaining your decisions about Threads and Concurrency helps the next developer.
+3. Ask a teammate to explain race conditions back to you; teaching is a quick way to find gaps.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Measure before you optimize. Use Python threading or a simple timer to see where time is actually spent.
+
+In practice you can start with Python threading, then explore Java ExecutorService or asyncio as your needs grow.
+
+Threads and Concurrency and Deadlocks are closely related, so learning both gives a fuller picture of Operating Systems.
+
+If you are comfortable with Threads and Concurrency, explore Deadlocks next. The two often appear in the same project.
+
+With steady practice, Threads and Concurrency will stop feeling abstract and become a tool you reach for naturally.

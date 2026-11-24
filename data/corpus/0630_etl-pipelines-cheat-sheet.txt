@@ -1,0 +1,11 @@
+ETL Pipelines Cheat Sheet
+
+Use this page as a quick reminder of the essentials of ETL Pipelines.
+
+- Definition: processes that extract data from sources, transform it and load it into a destination.
+- Core ideas: extraction; transformation; loading; scheduling.
+- Use it for: building reports; moving data into warehouses; combining systems.
+- Watch out for: silent data loss; no retry logic; poor error reporting.
+- Tools: Apache Airflow, dbt, Python scripts.
+- Related topic: Data Visualization.
+- Quick tip: write a tiny test for transformation before building anything large.

@@ -1,0 +1,12 @@
+Key Terms in Tries Explained
+
+Clear vocabulary makes Tries much easier to learn, so here are the key terms in plain language. Put simply, Tries covers tree structures that store strings character by character so shared prefixes are stored once. Learning it well pays off across many areas of computing.
+
+prefix sharing: a key term in Tries. It matters because it shapes how you design, test and explain your solution.
+nodes and edges: a key term in Tries. Practice with a small example to make the meaning stick.
+end-of-word markers: a key term in Tries. It matters because it shapes how you design, test and explain your solution.
+alphabet size: a key term in Tries. You will meet it constantly in documentation and in code reviews.
+
+Measure before you optimize. Use Python dict-based tries or a simple timer to see where time is actually spent. Write a few tests that show how Tries should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Tries whenever a new project gives you a reason.

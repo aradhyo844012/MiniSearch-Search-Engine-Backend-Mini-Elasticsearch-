@@ -1,0 +1,17 @@
+Myths and Facts About Threads and Concurrency
+
+A lot of folklore has built up around Threads and Concurrency. Some of it is true, and some of it is not. The term Threads and Concurrency refers to ways of making progress on several tasks at once within a program. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Threads and Concurrency is only for experts.
+Fact: beginners can use it effectively once they understand threads and locks.
+
+Myth: Threads and Concurrency is only useful in very large systems.
+Fact: small projects such as handling many requests benefit as well.
+
+Myth: one tool does everything.
+Fact: Python threading, Java ExecutorService, and asyncio make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Threads and Concurrency are always obvious.
+Fact: subtle problems happen, for example forgetting to protect shared data.
+
+In short, careful study of Threads and Concurrency pays off. Spend time on threads and locks, and the rest will follow.

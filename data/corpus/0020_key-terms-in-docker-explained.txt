@@ -1,0 +1,12 @@
+Key Terms in Docker Explained
+
+Clear vocabulary makes Docker much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Docker. The term refers to a platform for building and running applications in containers.
+
+Dockerfile: a key term in Docker. Practice with a small example to make the meaning stick.
+image layers: a key term in Docker. Beginners often confuse it with related terms, so define it in your own words early.
+volumes: a key term in Docker. Practice with a small example to make the meaning stick.
+networks: a key term in Docker. It matters because it shapes how you design, test and explain your solution.
+
+Keep an eye on this risk during code review: huge images. Ask a teammate to explain volumes back to you; teaching is a quick way to find gaps. Measure before you optimize. Use Docker Compose or a simple timer to see where time is actually spent.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Docker.

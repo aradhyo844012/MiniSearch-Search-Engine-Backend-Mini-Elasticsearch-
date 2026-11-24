@@ -1,0 +1,17 @@
+A Beginner's Guide to Database Transactions
+
+This guide is written for readers who are new to Database Transactions and want a clear starting point. When people talk about Database Transactions, they usually mean groups of operations that succeed or fail together. It appears in almost every serious software project, whether or not developers notice it.
+
+Backups are only useful if restoring from them has been tested.
+
+The vocabulary of Database Transactions is small. Learn atomicity, consistency, isolation, and durability, and most documentation will start to make sense. Sketching durability on paper before coding helps many learners see how the pieces fit.
+
+You will see Database Transactions whenever people work on transferring money between accounts or placing orders. It also helps with updating inventory.
+
+Popular tools and libraries include PostgreSQL, SQLAlchemy, and JDBC.
+
+Watch out for these problems: holding transactions open too long; ignoring isolation levels; and forgetting to roll back on errors.
+
+Read the official documentation for SQLAlchemy; it often explains consistency better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Database Transactions helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Transactions.

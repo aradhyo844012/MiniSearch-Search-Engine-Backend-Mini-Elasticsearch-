@@ -1,0 +1,19 @@
+Myths and Facts About Binary Search
+
+A lot of folklore has built up around Binary Search. Some of it is true, and some of it is not. If you build software for long enough, you will run into Binary Search. The term refers to a fast way to find an item in sorted data by repeatedly halving the search range.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Myth: Binary Search is only for experts.
+Fact: beginners can use it effectively once they understand sorted input and low and high bounds.
+
+Myth: Binary Search is only useful in very large systems.
+Fact: small projects such as looking up values in sorted arrays benefit as well.
+
+Myth: one tool does everything.
+Fact: Python bisect, Java Collections.binarySearch, and C++ lower_bound make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Binary Search are always obvious.
+Fact: subtle problems happen, for example off-by-one errors.
+
+With steady practice, Binary Search will stop feeling abstract and become a tool you reach for naturally.

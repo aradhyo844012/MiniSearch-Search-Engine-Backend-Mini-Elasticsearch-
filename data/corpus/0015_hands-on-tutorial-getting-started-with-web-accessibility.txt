@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Web Accessibility
+
+This hands-on tutorial takes you from zero to a small working experiment with Web Accessibility. Put simply, Web Accessibility covers designing websites so that people with different abilities can use them. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open axe DevTools and create a new empty project folder.
+Step 2: Read about semantic HTML and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses ARIA attributes.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as screen reader support.
+Step 6: Break your example on purpose and see what happens. A good experiment: low contrast text.
+
+In practice you can start with axe DevTools, then explore WAVE or screen readers as your needs grow.
+
+Watch out for these problems: low contrast text; missing focus indicators; and images without alternative text.
+
+Read the official documentation for WAVE; it often explains ARIA attributes better than blog posts do. Write a few tests that show how Web Accessibility should behave. Tests double as documentation for your teammates. Ask a teammate to explain keyboard navigation back to you; teaching is a quick way to find gaps.
+
+With steady practice, Web Accessibility will stop feeling abstract and become a tool you reach for naturally.

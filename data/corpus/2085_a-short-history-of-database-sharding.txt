@@ -1,0 +1,13 @@
+A Short History of Database Sharding
+
+Ideas behind Database Sharding developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Database Sharding in a classroom, but it matters just as much in production systems. The term refers to splitting a large dataset across several databases so each holds only part of it.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Database Sharding and SQL Joins are closely related, so learning both gives a fuller picture of Databases.
+
+Four ideas sit at the heart of Database Sharding: shard keys, routing, rebalancing, and cross-shard queries. Each one builds on the one before it. Sketching cross-shard queries on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of Database Sharding also makes SQL Joins easier to understand.
+
+In short, careful study of Database Sharding pays off. Spend time on shard keys and routing, and the rest will follow.

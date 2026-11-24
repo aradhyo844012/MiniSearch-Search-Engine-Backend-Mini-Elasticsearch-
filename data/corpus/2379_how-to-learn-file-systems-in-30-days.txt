@@ -1,0 +1,14 @@
+How to Learn File Systems in 30 Days
+
+You do not need months to become comfortable with File Systems. A focused plan of thirty days is enough to build a solid base. When people talk about File Systems, they usually mean the part of an operating system that organizes how data is stored and found on disk. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn files and directories and inodes, and write a one-page summary.
+Week 2: practice with ext4 on a small task such as storing documents.
+Week 3: build a mini project around managing logs.
+Week 4: review common mistakes such as running out of inodes, and explain File Systems to a friend.
+
+Popular tools and libraries include ext4, NTFS, and df and du.
+
+Measure before you optimize. Use ext4 or a simple timer to see where time is actually spent. Ask a teammate to explain permissions back to you; teaching is a quick way to find gaps. Write a few tests that show how File Systems should behave. Tests double as documentation for your teammates.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with File Systems.

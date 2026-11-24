@@ -1,0 +1,18 @@
+JSON Interview Questions and Answers
+
+Prepare for these questions about JSON.
+
+Q: Explain JSON in simple words.
+A: JSON refers to a lightweight text format for exchanging structured data between programs. I would add an example involving API responses.
+
+Q: Where would you apply it first?
+A: I would start with configuration files, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: trailing commas; large payloads; and losing precision with big numbers.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: trailing commas.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as objects, and add tests aimed at the known risks.

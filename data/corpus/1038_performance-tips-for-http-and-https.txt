@@ -1,0 +1,15 @@
+Performance Tips for HTTP and HTTPS
+
+Fast software rarely happens by accident, and HTTP and HTTPS offers several places to gain speed. Many students first meet HTTP and HTTPS in a classroom, but it matters just as much in production systems. The term refers to the request and response protocol of the web, with HTTPS adding encryption.
+
+Start by measuring. Use curl or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to methods and status codes, because they usually decide how well things scale. For workloads such as loading web pages, even small improvements add up quickly.
+
+Four ideas sit at the heart of HTTP and HTTPS: methods, status codes, headers, and cookies. Each one builds on the one before it. A good way to remember methods is to connect it with a concrete example from your own code.
+
+Measure before you optimize. Use curl or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about HTTP and HTTPS helps the next developer.
+
+Network failures are normal, so well-designed software expects timeouts and retries. Latency is limited by distance and by the number of round trips a request needs.
+
+Watch out for these problems: mixing up status codes; sending secrets in URLs; and ignoring caching headers.
+
+With steady practice, HTTP and HTTPS will stop feeling abstract and become a tool you reach for naturally.

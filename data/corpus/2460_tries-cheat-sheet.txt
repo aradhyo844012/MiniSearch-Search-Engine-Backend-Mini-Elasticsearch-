@@ -1,0 +1,11 @@
+Tries Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Tries.
+
+- Definition: tree structures that store strings character by character so shared prefixes are stored once.
+- Core ideas: prefix sharing; nodes and edges; end-of-word markers; alphabet size.
+- Use it for: autocomplete; spell checking; IP routing tables.
+- Watch out for: high memory use for sparse data; forgetting end-of-word markers; assuming case-insensitive matching.
+- Tools: Python dict-based tries, Java TreeMap, pygtrie.
+- Related topic: Bloom Filters.
+- Quick tip: practice prefix sharing until it feels automatic.

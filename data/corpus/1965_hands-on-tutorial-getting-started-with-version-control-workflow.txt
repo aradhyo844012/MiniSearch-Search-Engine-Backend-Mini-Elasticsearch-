@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Version Control Workflow
+
+This hands-on tutorial takes you from zero to a small working experiment with Version Control Workflow. If you build software for long enough, you will run into Version Control Workflow. The term refers to the habits and rules a team uses to track and combine changes to code.
+
+Step 1: Install or open Git and create a new empty project folder.
+Step 2: Read about commits and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses branches.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as collaborating on shared code.
+Step 6: Break your example on purpose and see what happens. A good experiment: vague commit messages.
+
+In practice you can start with Git, then explore GitHub or pre-commit hooks as your needs grow.
+
+Beginners often stumble on three things. First: vague commit messages. Second: committing large unrelated changes. Third: rewriting shared history.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Version Control Workflow.

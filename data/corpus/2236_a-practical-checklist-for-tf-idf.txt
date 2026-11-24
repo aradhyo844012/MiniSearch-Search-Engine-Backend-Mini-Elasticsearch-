@@ -1,0 +1,13 @@
+A Practical Checklist for TF-IDF
+
+Use this checklist before you rely on TF-IDF in a project.
+
+1. Document your decisions in the project README.
+2. Ask a teammate to review the work, focusing on inverse document frequency.
+3. Review the core ideas: term frequency, inverse document frequency, weighting, and normalization.
+4. Pick a tool to start with, such as scikit-learn TfidfVectorizer or Lucene.
+5. Guard against this risk: over-weighting common words.
+6. Write at least one automated test that covers term frequency.
+7. Guard against this risk: using it on tiny corpora.
+8. Measure results before and after any change.
+9. Try the approach on a small case, for example ranking search results.

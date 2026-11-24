@@ -1,0 +1,11 @@
+Tokenization Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Tokenization.
+
+- Definition: splitting text into smaller units such as words that a program can count and compare.
+- Core ideas: lowercasing; splitting on punctuation; stop words; normalization.
+- Use it for: indexing documents; preparing text for models; analyzing queries.
+- Watch out for: different rules for indexing and querying; dropping useful numbers; breaking on apostrophes badly.
+- Tools: Python re module, NLTK, spaCy.
+- Related topic: TF-IDF.
+- Quick tip: practice lowercasing until it feels automatic.

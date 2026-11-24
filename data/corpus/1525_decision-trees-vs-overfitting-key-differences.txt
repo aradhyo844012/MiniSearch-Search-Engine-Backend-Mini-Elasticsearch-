@@ -1,0 +1,15 @@
+Decision Trees vs Overfitting: Key Differences
+
+Decision Trees and Overfitting both belong to the area of Machine Learning, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Decision Trees refers to models that make predictions by asking a sequence of simple questions about the data. Its core ideas are splits, entropy and Gini impurity, and leaf nodes.
+
+The term Overfitting refers to when a model learns the training data too closely and performs poorly on new data. Its core ideas are training and validation error, model complexity, and regularization.
+
+The main difference is focus. Decision Trees puts the emphasis on splits and entropy and Gini impurity, while Overfitting puts the emphasis on training and validation error and model complexity.
+
+Reach for Decision Trees when your task involves classifying customers or explaining predictions. Reach for Overfitting when your task involves diagnosing weak models or choosing simpler models.
+
+Both have risks. With Decision Trees, watch for this: deep trees that overfit. With Overfitting, watch for this: evaluating only on training data.
+
+In practice you do not always have to choose. Many projects use Decision Trees alongside Overfitting, with tools such as scikit-learn and scikit-learn. Reproducible experiments make it far easier to trust and improve a model.

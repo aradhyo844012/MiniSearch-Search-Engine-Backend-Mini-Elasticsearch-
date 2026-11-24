@@ -1,0 +1,11 @@
+Case Study: Applying OAuth 2.0 in a Small Team
+
+Imagine a small student team building a project that depends on OAuth 2.0. Put simply, OAuth 2.0 covers a framework that lets applications access resources on a user's behalf without sharing passwords. Learning it well pays off across many areas of computing.
+
+A solid grasp of OAuth 2.0 also makes Public Key Cryptography easier to understand.
+
+The team first spent a week learning authorization server and access tokens. Early on they hit a familiar problem: loose redirect URI checks. After fixing it, they used Auth0 to check their work and adopted OAuth 2.0 for sign in with another account. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Three issues come up again and again: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely. Knowing them in advance saves hours of debugging.
+
+With steady practice, OAuth 2.0 will stop feeling abstract and become a tool you reach for naturally.

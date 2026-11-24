@@ -1,0 +1,9 @@
+Case Study: Applying Containers in a Small Team
+
+Imagine a small student team building a project that depends on Containers. Put simply, Containers covers lightweight packages that bundle an application with its dependencies and run in isolation. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning images and layers. Early on they hit a familiar problem: running as root. After fixing it, they used Docker to check their work and adopted Containers for consistent development environments. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: running as root; bloated images; and storing data inside the container.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Containers.

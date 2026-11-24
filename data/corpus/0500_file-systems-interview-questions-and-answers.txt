@@ -1,0 +1,21 @@
+File Systems Interview Questions and Answers
+
+Prepare for these questions about File Systems.
+
+Q: Explain File Systems in simple words.
+A: File Systems refers to the part of an operating system that organizes how data is stored and found on disk. I would add an example involving storing documents.
+
+Q: Where would you apply it first?
+A: I would start with managing logs, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Linux Command Line?
+A: Both belong to the area of Operating Systems, and understanding one makes the other easier to learn.
+
+Q: What are the key concepts?
+A: files and directories, inodes, permissions, and journaling.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: running out of inodes.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as files and directories, and add tests aimed at the known risks.

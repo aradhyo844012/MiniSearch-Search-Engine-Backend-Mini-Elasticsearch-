@@ -1,0 +1,19 @@
+Myths and Facts About Browser Rendering
+
+A lot of folklore has built up around Browser Rendering. Some of it is true, and some of it is not. The term Browser Rendering refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start small by applying Browser Rendering to one case, such as explaining slow pages, before rolling it out more widely. Measure before you optimize. Use Chrome DevTools Performance panel or a simple timer to see where time is actually spent.
+
+Myth: Browser Rendering is only for experts.
+Fact: beginners can use it effectively once they understand DOM construction and style calculation.
+
+Myth: Browser Rendering is only useful in very large systems.
+Fact: small projects such as explaining slow pages benefit as well.
+
+Myth: one tool does everything.
+Fact: Chrome DevTools Performance panel, Lighthouse, and WebPageTest make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Browser Rendering are always obvious.
+Fact: subtle problems happen, for example blocking scripts in the head.
+
+In short, careful study of Browser Rendering pays off. Spend time on DOM construction and style calculation, and the rest will follow.

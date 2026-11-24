@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Binary Search Trees
+
+This hands-on tutorial takes you from zero to a small working experiment with Binary Search Trees. Put simply, Binary Search Trees covers ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open AVL trees and create a new empty project folder.
+Step 2: Read about nodes and links and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses in-order traversal.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as ordered lookups.
+Step 6: Break your example on purpose and see what happens. A good experiment: unbalanced trees degrade to linked lists.
+
+In practice you can start with AVL trees, then explore red-black trees or Java TreeMap as your needs grow.
+
+Three issues come up again and again: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; and recursive code can overflow the stack on deep trees. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Binary Search Trees whenever a new project gives you a reason.

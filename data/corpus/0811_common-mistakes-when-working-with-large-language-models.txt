@@ -1,0 +1,11 @@
+Common Mistakes When Working with Large Language Models
+
+Almost everyone makes a few avoidable errors when first working with Large Language Models. If you build software for long enough, you will run into Large Language Models. The term refers to very large neural networks trained on text that can generate and analyze language.
+
+Beginners often stumble on three things. First: trusting outputs without checking. Second: vague prompts. Third: sending sensitive data carelessly.
+
+Consider the first problem: trusting outputs without checking. A short test or a careful review comment usually catches it. The second problem is similar: vague prompts. The third problem is this: sending sensitive data carelessly. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for API playgrounds; it often explains attention better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Large Language Models helps the next developer. Keep an eye on this risk during code review: trusting outputs without checking.
+
+In short, careful study of Large Language Models pays off. Spend time on tokens and attention, and the rest will follow.

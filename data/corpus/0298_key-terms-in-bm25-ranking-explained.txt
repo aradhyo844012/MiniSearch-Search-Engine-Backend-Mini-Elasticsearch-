@@ -1,0 +1,10 @@
+Key Terms in BM25 Ranking Explained
+
+Clear vocabulary makes BM25 Ranking much easier to learn, so here are the key terms in plain language. When people talk about BM25 Ranking, they usually mean a ranking function that improves on plain term frequency with saturation and length normalization. It appears in almost every serious software project, whether or not developers notice it.
+
+term saturation: a key term in BM25 Ranking. You will meet it constantly in documentation and in code reviews.
+document length normalization: a key term in BM25 Ranking. You will meet it constantly in documentation and in code reviews.
+k1 and b parameters: a key term in BM25 Ranking. Practice with a small example to make the meaning stick.
+inverse document frequency: a key term in BM25 Ranking. Practice with a small example to make the meaning stick.
+
+In short, careful study of BM25 Ranking pays off. Spend time on term saturation and document length normalization, and the rest will follow.

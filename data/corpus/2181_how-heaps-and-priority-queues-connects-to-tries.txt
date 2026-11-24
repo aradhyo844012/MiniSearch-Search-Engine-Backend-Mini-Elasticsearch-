@@ -1,0 +1,13 @@
+How Heaps and Priority Queues Connects to Tries
+
+Heaps and Priority Queues and Tries are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving scheduling tasks may also involve autocomplete. In such a project, heap property and prefix sharing often influence each other.
+
+Start with Heaps and Priority Queues: the term refers to structures that always give quick access to the smallest or largest element. Then look at Tries, which refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+A useful exercise is to take one example, such as selecting the top results from many candidates, and explain how nodes and edges would change the design.
+
+Common problems are shared too. For Heaps and Priority Queues, watch for this: using a full sort when only the top k are needed. For Tries, watch for this: forgetting end-of-word markers. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Spend a few hours on each topic, then combine them in one small project using Python heapq or Python dict-based tries.

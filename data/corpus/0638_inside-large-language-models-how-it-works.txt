@@ -1,0 +1,13 @@
+Inside Large Language Models: How It Works
+
+This article walks through what happens inside Large Language Models, step by step. If you build software for long enough, you will run into Large Language Models. The term refers to very large neural networks trained on text that can generate and analyze language.
+
+The vocabulary of Large Language Models is small. Learn tokens, attention, pretraining, and prompts, and most documentation will start to make sense. Understanding attention first often makes pretraining much easier to reason about.
+
+First, tokens sets the stage for everything else. Next, attention builds on it. After that, pretraining comes into play, and finally prompts ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Simple baselines are worth building first because they show what improvement is realistic. A model is only as good as the data used to train and test it.
+
+Large Language Models and Decision Trees are closely related, so learning both gives a fuller picture of Machine Learning.
+
+Keep experimenting, keep notes, and revisit Large Language Models whenever a new project gives you a reason.

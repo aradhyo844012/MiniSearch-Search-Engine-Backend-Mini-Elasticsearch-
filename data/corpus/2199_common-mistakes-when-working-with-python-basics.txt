@@ -1,0 +1,11 @@
+Common Mistakes When Working with Python Basics
+
+Almost everyone makes a few avoidable errors when first working with Python Basics. Put simply, Python Basics covers the core features of Python, including data types, control flow and functions. Learning it well pays off across many areas of computing.
+
+Beginners often stumble on three things. First: mutable default arguments. Second: confusing equality and identity. Third: ignoring virtual environments.
+
+Consider the first problem: mutable default arguments. A short test or a careful review comment usually catches it. The second problem is similar: confusing equality and identity. The third problem is this: ignoring virtual environments. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Python Basics to one case, such as scripting, before rolling it out more widely. Ask a teammate to explain functions back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: mutable default arguments.
+
+With steady practice, Python Basics will stop feeling abstract and become a tool you reach for naturally.

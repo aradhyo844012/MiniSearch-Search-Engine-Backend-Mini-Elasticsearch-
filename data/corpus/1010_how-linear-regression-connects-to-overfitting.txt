@@ -1,0 +1,13 @@
+How Linear Regression Connects to Overfitting
+
+Linear Regression and Overfitting are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving predicting prices may also involve diagnosing weak models. In such a project, coefficients and training and validation error often influence each other.
+
+Start with Linear Regression: the term refers to a method for predicting a number by fitting a straight line or plane to data. Then look at Overfitting, which refers to when a model learns the training data too closely and performs poorly on new data.
+
+A useful exercise is to take one example, such as estimating demand, and explain how model complexity would change the design.
+
+Common problems are shared too. For Linear Regression, watch for this: ignoring outliers. For Overfitting, watch for this: leaking test data. Results should always be checked on data the model has never seen.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or scikit-learn.

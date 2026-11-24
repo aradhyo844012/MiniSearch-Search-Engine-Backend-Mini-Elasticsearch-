@@ -1,0 +1,15 @@
+Best Practices for Microservices
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Microservices. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+1. Read the official documentation for Kubernetes; it often explains APIs better than blog posts do.
+2. Keep notes on what worked. A short README explaining your decisions about Microservices helps the next developer.
+3. Start small by applying Microservices to one case, such as large teams working in parallel, before rolling it out more widely.
+4. Practice service boundaries with small exercises until it feels natural.
+5. Keep an eye on this risk during code review: splitting too early.
+
+In practice you can start with Docker, then explore Kubernetes or API gateways as your needs grow.
+
+A solid grasp of Microservices also makes Rate Limiting easier to understand.
+
+With steady practice, Microservices will stop feeling abstract and become a tool you reach for naturally.

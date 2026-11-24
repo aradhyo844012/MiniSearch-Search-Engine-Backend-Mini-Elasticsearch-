@@ -1,0 +1,17 @@
+Myths and Facts About CDNs
+
+A lot of folklore has built up around CDNs. Some of it is true, and some of it is not. When people talk about CDNs, they usually mean networks of servers around the world that deliver static content from a location close to the user. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: CDNs is only for experts.
+Fact: beginners can use it effectively once they understand edge servers and cache rules.
+
+Myth: CDNs is only useful in very large systems.
+Fact: small projects such as serving images and scripts benefit as well.
+
+Myth: one tool does everything.
+Fact: Cloudflare, Akamai, and Amazon CloudFront make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with CDNs are always obvious.
+Fact: subtle problems happen, for example caching private data.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CDNs.

@@ -1,0 +1,15 @@
+Performance Tips for Android Basics
+
+Fast software rarely happens by accident, and Android Basics offers several places to gain speed. When people talk about Android Basics, they usually mean the core building blocks used to create apps for Android phones. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Android Studio or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to activities and layouts, because they usually decide how well things scale. For workloads such as building simple apps, even small improvements add up quickly.
+
+To understand Android Basics, start with activities. Then move on to layouts, and finally look at intents and lifecycle. Understanding layouts first often makes intents much easier to reason about.
+
+If you are comfortable with Android Basics, explore Mobile App Performance next. The two often appear in the same project.
+
+Write a few tests that show how Android Basics should behave. Tests double as documentation for your teammates. Read the official documentation for Kotlin; it often explains layouts better than blog posts do.
+
+Beginners often stumble on three things. First: ignoring lifecycle events. Second: blocking the main thread. Third: hard-coded layouts.
+
+Keep experimenting, keep notes, and revisit Android Basics whenever a new project gives you a reason.

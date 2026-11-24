@@ -1,0 +1,11 @@
+File Systems Cheat Sheet
+
+Use this page as a quick reminder of the essentials of File Systems.
+
+- Definition: the part of an operating system that organizes how data is stored and found on disk.
+- Core ideas: files and directories; inodes; permissions; journaling.
+- Use it for: storing documents; managing logs; organizing application data.
+- Watch out for: running out of inodes; wrong permissions; ignoring disk space limits.
+- Tools: ext4, NTFS, df and du.
+- Related topic: Linux Command Line.
+- Quick tip: practice files and directories until it feels automatic.

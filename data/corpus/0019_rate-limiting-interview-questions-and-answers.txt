@@ -1,0 +1,21 @@
+Rate Limiting Interview Questions and Answers
+
+Prepare for these questions about Rate Limiting.
+
+Q: Explain Rate Limiting in simple words.
+A: Rate Limiting refers to controlling how many requests a client can make in a given period. I would add an example involving protecting APIs.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as token bucket, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: limits that are too strict; keeping counters only on one server; and no helpful error messages.
+
+Q: Where would you apply it first?
+A: I would start with stopping brute force attempts, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: token bucket, fixed window, sliding window, and 429 responses.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: limits that are too strict.

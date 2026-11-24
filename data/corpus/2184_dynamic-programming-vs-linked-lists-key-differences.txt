@@ -1,0 +1,15 @@
+Dynamic Programming vs Linked Lists: Key Differences
+
+Dynamic Programming and Linked Lists both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Dynamic Programming refers to a technique for solving problems by storing the answers to overlapping subproblems. Its core ideas are overlapping subproblems, optimal substructure, and memoization.
+
+The term Linked Lists refers to chains of nodes where each node stores a value and a reference to the next node. Its core ideas are nodes, head and tail pointers, and singly and doubly linked lists.
+
+The main difference is focus. Dynamic Programming puts the emphasis on overlapping subproblems and optimal substructure, while Linked Lists puts the emphasis on nodes and head and tail pointers.
+
+Reach for Dynamic Programming when your task involves computing edit distance or knapsack style optimization. Reach for Linked Lists when your task involves queues and stacks or undo histories.
+
+Both have risks. With Dynamic Programming, watch for this: defining the state incorrectly. With Linked Lists, watch for this: losing the head pointer.
+
+In practice you do not always have to choose. Many projects use Dynamic Programming alongside Linked Lists, with tools such as Python functools.lru_cache and Python collections.deque. Most performance problems in everyday programs come from doing unnecessary work on large inputs.

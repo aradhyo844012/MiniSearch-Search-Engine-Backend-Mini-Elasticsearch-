@@ -1,0 +1,18 @@
+CSS Flexbox and Grid Interview Questions and Answers
+
+Prepare for these questions about CSS Flexbox and Grid.
+
+Q: Explain CSS Flexbox and Grid in simple words.
+A: CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. I would add an example involving navigation bars.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as flex containers, and add tests aimed at the known risks.
+
+Q: How does it connect to Web Performance?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with card layouts, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: browser grid inspector, Bootstrap utilities, and CSS-Tricks guides.

@@ -1,0 +1,15 @@
+TCP and UDP vs Load Balancing: Key Differences
+
+TCP and UDP and Load Balancing both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term TCP and UDP refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless. Its core ideas are handshakes, acknowledgements, and ports.
+
+The term Load Balancing refers to spreading incoming requests across several servers so no single server is overwhelmed. Its core ideas are round robin, health checks, and sticky sessions.
+
+The main difference is focus. TCP and UDP puts the emphasis on handshakes and acknowledgements, while Load Balancing puts the emphasis on round robin and health checks.
+
+Reach for TCP and UDP when your task involves web traffic or video calls. Reach for Load Balancing when your task involves scaling web applications or avoiding downtime.
+
+Both have risks. With TCP and UDP, watch for this: assuming UDP guarantees delivery. With Load Balancing, watch for this: the balancer becoming a single point of failure.
+
+In practice you do not always have to choose. Many projects use TCP and UDP alongside Load Balancing, with tools such as Wireshark and NGINX. Latency is limited by distance and by the number of round trips a request needs.

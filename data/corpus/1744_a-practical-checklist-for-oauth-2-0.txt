@@ -1,0 +1,11 @@
+A Practical Checklist for OAuth 2.0
+
+Use this checklist before you rely on OAuth 2.0 in a project.
+
+1. Confirm that your team agrees on what OAuth 2.0 should accomplish.
+2. Guard against this risk: requesting excessive scopes.
+3. Try the approach on a small case, for example sign in with another account.
+4. Guard against this risk: loose redirect URI checks.
+5. Document your decisions in the project README.
+6. Review how OAuth 2.0 interacts with Secure Coding.
+7. Ask a teammate to review the work, focusing on access tokens.

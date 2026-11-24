@@ -1,0 +1,13 @@
+How Monitoring and Observability Connects to Git Branching
+
+Monitoring and Observability and Git Branching are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving detecting outages may also involve feature development. In such a project, metrics and branches often influence each other.
+
+Start with Monitoring and Observability: the term refers to collecting metrics, logs and traces so you can understand how a system behaves. Then look at Git Branching, which refers to using separate lines of development so that changes can be built and reviewed independently.
+
+A useful exercise is to take one example, such as finding slow requests, and explain how merging would change the design.
+
+Common problems are shared too. For Monitoring and Observability, watch for this: logs without context. For Git Branching, watch for this: merge conflicts left unresolved. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+Spend a few hours on each topic, then combine them in one small project using Prometheus or Git.

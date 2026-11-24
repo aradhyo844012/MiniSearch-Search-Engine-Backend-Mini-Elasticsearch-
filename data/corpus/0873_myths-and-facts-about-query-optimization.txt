@@ -1,0 +1,17 @@
+Myths and Facts About Query Optimization
+
+A lot of folklore has built up around Query Optimization. Some of it is true, and some of it is not. Put simply, Query Optimization covers the process of making database queries return results with less time and fewer resources. Learning it well pays off across many areas of computing.
+
+Myth: Query Optimization is only for experts.
+Fact: beginners can use it effectively once they understand query plans and statistics.
+
+Myth: Query Optimization is only useful in very large systems.
+Fact: small projects such as speeding up dashboards benefit as well.
+
+Myth: one tool does everything.
+Fact: EXPLAIN ANALYZE, pg_stat_statements, and query profilers make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Query Optimization are always obvious.
+Fact: subtle problems happen, for example selecting more columns than needed.
+
+With steady practice, Query Optimization will stop feeling abstract and become a tool you reach for naturally.

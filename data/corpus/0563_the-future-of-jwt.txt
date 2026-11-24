@@ -1,0 +1,11 @@
+The Future of JWT
+
+Predicting the future is risky, but the direction of JWT is easy to describe in general terms. When people talk about JWT, they usually mean a compact token format that carries signed claims between a client and a server. It appears in almost every serious software project, whether or not developers notice it.
+
+Failures between services are normal, so retries and timeouts need careful design. Clear contracts between services make systems easier to change and test.
+
+Expect tools such as jwt.io and PyJWT to keep improving, and expect newer ideas to keep building on header, payload and signature. The basics, though, tend to stay the same, so time spent on claims and expiry is rarely wasted. Anyone working on stateless API authentication will keep meeting JWT for years to come.
+
+Keep notes on what worked. A short README explaining your decisions about JWT helps the next developer. Practice header, payload and signature with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of JWT pays off. Spend time on header, payload and signature and claims, and the rest will follow.

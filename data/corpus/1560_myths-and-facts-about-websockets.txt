@@ -1,0 +1,17 @@
+Myths and Facts About WebSockets
+
+A lot of folklore has built up around WebSockets. Some of it is true, and some of it is not. The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: WebSockets is only for experts.
+Fact: beginners can use it effectively once they understand persistent connections and messages.
+
+Myth: WebSockets is only useful in very large systems.
+Fact: small projects such as chat applications benefit as well.
+
+Myth: one tool does everything.
+Fact: Socket.IO, ws library, and Python websockets make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with WebSockets are always obvious.
+Fact: subtle problems happen, for example forgetting reconnection logic.
+
+In short, careful study of WebSockets pays off. Spend time on persistent connections and messages, and the rest will follow.

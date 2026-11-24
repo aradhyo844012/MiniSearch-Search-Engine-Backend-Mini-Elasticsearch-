@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Containers
+
+This hands-on tutorial takes you from zero to a small working experiment with Containers. The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. This article explains the idea in plain language and points out where it fits in real projects.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+Step 1: Install or open Docker and create a new empty project folder.
+Step 2: Read about images and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses layers.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as consistent development environments.
+Step 6: Break your example on purpose and see what happens. A good experiment: running as root.
+
+In practice you can start with Docker, then explore Podman or containerd as your needs grow.
+
+Beginners often stumble on three things. First: running as root. Second: bloated images. Third: storing data inside the container.
+
+With steady practice, Containers will stop feeling abstract and become a tool you reach for naturally.

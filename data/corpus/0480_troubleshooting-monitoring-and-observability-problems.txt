@@ -1,0 +1,13 @@
+Troubleshooting Monitoring and Observability Problems
+
+When something breaks around Monitoring and Observability, a calm and systematic approach saves the most time. Many students first meet Monitoring and Observability in a classroom, but it matters just as much in production systems. The term refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Prometheus usually reveal the cause faster than guessing.
+
+Common culprits: noisy alerts; logs without context; dashboards nobody reads. If none of these explains the symptom, re-read the basics of metrics and logs.
+
+Automation turns risky manual steps into repeatable and reviewable processes.
+
+In practice you can start with Prometheus, then explore Grafana or OpenTelemetry as your needs grow.
+
+Keep experimenting, keep notes, and revisit Monitoring and Observability whenever a new project gives you a reason.

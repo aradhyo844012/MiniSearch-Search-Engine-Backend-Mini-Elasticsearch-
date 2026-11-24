@@ -1,0 +1,19 @@
+A Beginner's Guide to JWT
+
+This guide is written for readers who are new to JWT and want a clear starting point. If you build software for long enough, you will run into JWT. The term refers to a compact token format that carries signed claims between a client and a server.
+
+Good APIs are boring, predictable and well documented.
+
+Good APIs are boring, predictable and well documented.
+
+Four ideas sit at the heart of JWT: header, payload and signature, claims, expiry, and signing keys. Each one builds on the one before it. Understanding claims first often makes expiry much easier to reason about.
+
+Typical applications include stateless API authentication, service-to-service calls, and single sign-on. Small projects and large systems both benefit.
+
+Popular tools and libraries include jwt.io, PyJWT, and jsonwebtoken.
+
+Beginners often stumble on three things. First: storing tokens in insecure places. Second: skipping signature checks. Third: very long expiry times.
+
+Read the official documentation for PyJWT; it often explains claims better than blog posts do. Measure before you optimize. Use jwt.io or a simple timer to see where time is actually spent. Start small by applying JWT to one case, such as stateless API authentication, before rolling it out more widely.
+
+In short, careful study of JWT pays off. Spend time on header, payload and signature and claims, and the rest will follow.

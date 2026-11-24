@@ -1,0 +1,11 @@
+Troubleshooting Database Indexing Problems
+
+When something breaks around Database Indexing, a calm and systematic approach saves the most time. When people talk about Database Indexing, they usually mean auxiliary structures that let a database find rows without scanning a whole table. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and EXPLAIN plans usually reveal the cause faster than guessing.
+
+Common culprits: indexing every column; ignoring write overhead; wrong column order in composite indexes. If none of these explains the symptom, re-read the basics of B-tree indexes and selectivity.
+
+Popular tools and libraries include EXPLAIN plans, pgAdmin, and MySQL slow query log.
+
+Keep experimenting, keep notes, and revisit Database Indexing whenever a new project gives you a reason.

@@ -1,0 +1,12 @@
+Key Terms in Binary Search Explained
+
+Clear vocabulary makes Binary Search much easier to learn, so here are the key terms in plain language. Put simply, Binary Search covers a fast way to find an item in sorted data by repeatedly halving the search range. Learning it well pays off across many areas of computing.
+
+Read the official documentation for Java Collections.binarySearch; it often explains low and high bounds better than blog posts do. Practice sorted input with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+sorted input: a key term in Binary Search. Beginners often confuse it with related terms, so define it in your own words early.
+low and high bounds: a key term in Binary Search. Beginners often confuse it with related terms, so define it in your own words early.
+midpoint calculation: a key term in Binary Search. Practice with a small example to make the meaning stick.
+logarithmic time: a key term in Binary Search. Beginners often confuse it with related terms, so define it in your own words early.
+
+Keep experimenting, keep notes, and revisit Binary Search whenever a new project gives you a reason.

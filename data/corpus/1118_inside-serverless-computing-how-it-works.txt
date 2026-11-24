@@ -1,0 +1,13 @@
+Inside Serverless Computing: How It Works
+
+This article walks through what happens inside Serverless Computing, step by step. The term Serverless Computing refers to running code in managed functions without maintaining servers yourself. This article explains the idea in plain language and points out where it fits in real projects.
+
+The vocabulary of Serverless Computing is small. Learn functions, event triggers, cold starts, and pay per use, and most documentation will start to make sense. Understanding event triggers first often makes cold starts much easier to reason about.
+
+First, functions sets the stage for everything else. Next, event triggers builds on it. After that, cold starts comes into play, and finally pay per use ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Automation turns risky manual steps into repeatable and reviewable processes.
+
+A solid grasp of Serverless Computing also makes Kubernetes easier to understand.
+
+With steady practice, Serverless Computing will stop feeling abstract and become a tool you reach for naturally.

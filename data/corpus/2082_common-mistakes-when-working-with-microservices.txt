@@ -1,0 +1,11 @@
+Common Mistakes When Working with Microservices
+
+Almost everyone makes a few avoidable errors when first working with Microservices. Many students first meet Microservices in a classroom, but it matters just as much in production systems. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+Watch out for these problems: splitting too early; chatty services; and hard debugging across services.
+
+Consider the first problem: splitting too early. A short test or a careful review comment usually catches it. The second problem is similar: chatty services. The third problem is this: hard debugging across services. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use Docker or a simple timer to see where time is actually spent. Practice service boundaries with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Microservices whenever a new project gives you a reason.

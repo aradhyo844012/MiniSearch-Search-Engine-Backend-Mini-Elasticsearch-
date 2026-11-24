@@ -1,0 +1,13 @@
+Inside Tries: How It Works
+
+This article walks through what happens inside Tries, step by step. When people talk about Tries, they usually mean tree structures that store strings character by character so shared prefixes are stored once. It appears in almost every serious software project, whether or not developers notice it.
+
+The vocabulary of Tries is small. Learn prefix sharing, nodes and edges, end-of-word markers, and alphabet size, and most documentation will start to make sense. A good way to remember prefix sharing is to connect it with a concrete example from your own code.
+
+First, prefix sharing sets the stage for everything else. Next, nodes and edges builds on it. After that, end-of-word markers comes into play, and finally alphabet size ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Choosing the right data structure often matters more than clever tuning later.
+
+A solid grasp of Tries also makes Big O Notation easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Tries.

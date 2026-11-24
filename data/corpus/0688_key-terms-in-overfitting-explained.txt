@@ -1,0 +1,10 @@
+Key Terms in Overfitting Explained
+
+Clear vocabulary makes Overfitting much easier to learn, so here are the key terms in plain language. When people talk about Overfitting, they usually mean when a model learns the training data too closely and performs poorly on new data. It appears in almost every serious software project, whether or not developers notice it.
+
+training and validation error: a key term in Overfitting. Practice with a small example to make the meaning stick.
+model complexity: a key term in Overfitting. Beginners often confuse it with related terms, so define it in your own words early.
+regularization: a key term in Overfitting. You will meet it constantly in documentation and in code reviews.
+cross-validation: a key term in Overfitting. It matters because it shapes how you design, test and explain your solution.
+
+With steady practice, Overfitting will stop feeling abstract and become a tool you reach for naturally.

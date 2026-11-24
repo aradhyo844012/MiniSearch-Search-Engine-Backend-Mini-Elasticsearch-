@@ -1,0 +1,13 @@
+Common Mistakes When Working with TCP and UDP
+
+Almost everyone makes a few avoidable errors when first working with TCP and UDP. Put simply, TCP and UDP covers the two main transport protocols, one reliable and ordered and the other fast and connectionless. Learning it well pays off across many areas of computing.
+
+Beginners often stumble on three things. First: assuming UDP guarantees delivery. Second: ignoring timeouts. Third: opening too many connections.
+
+Consider the first problem: assuming UDP guarantees delivery. A short test or a careful review comment usually catches it. The second problem is similar: ignoring timeouts. The third problem is this: opening too many connections. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use Wireshark or a simple timer to see where time is actually spent. Write a few tests that show how TCP and UDP should behave. Tests double as documentation for your teammates. Ask a teammate to explain ports back to you; teaching is a quick way to find gaps.
+
+TCP and UDP and HTTP and HTTPS are closely related, so learning both gives a fuller picture of Networking.
+
+Keep experimenting, keep notes, and revisit TCP and UDP whenever a new project gives you a reason.

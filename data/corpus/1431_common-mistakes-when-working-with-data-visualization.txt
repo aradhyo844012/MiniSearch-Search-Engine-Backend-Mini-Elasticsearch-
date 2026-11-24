@@ -1,0 +1,13 @@
+Common Mistakes When Working with Data Visualization
+
+Almost everyone makes a few avoidable errors when first working with Data Visualization. Put simply, Data Visualization covers presenting data as charts and graphics so that patterns are easy to see. Learning it well pays off across many areas of computing.
+
+Watch out for these problems: truncated axes; unreadable labels; and too many colors.
+
+Practice chart types with small exercises until it feels natural. Read the official documentation for Seaborn; it often explains axes and labels better than blog posts do.
+
+Consider the first problem: truncated axes. A short test or a careful review comment usually catches it. The second problem is similar: unreadable labels. The third problem is this: too many colors. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Data Visualization should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Visualization.

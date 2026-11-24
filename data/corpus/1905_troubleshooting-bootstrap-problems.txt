@@ -1,0 +1,13 @@
+Troubleshooting Bootstrap Problems
+
+When something breaks around Bootstrap, a calm and systematic approach saves the most time. Many students first meet Bootstrap in a classroom, but it matters just as much in production systems. The term refers to a popular front-end toolkit with ready-made layout, components and utilities.
+
+Start small by applying Bootstrap to one case, such as prototypes and dashboards, before rolling it out more widely. Write a few tests that show how Bootstrap should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Bootstrap CDN usually reveal the cause faster than guessing.
+
+Common culprits: overriding styles with heavy custom CSS; loading unused components; copying markup without understanding it. If none of these explains the symptom, re-read the basics of grid system and components.
+
+In practice you can start with Bootstrap CDN, then explore Sass variables or Bootstrap Icons as your needs grow.
+
+Keep experimenting, keep notes, and revisit Bootstrap whenever a new project gives you a reason.

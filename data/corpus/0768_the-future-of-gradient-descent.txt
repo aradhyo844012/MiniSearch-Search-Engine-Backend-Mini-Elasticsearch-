@@ -1,0 +1,13 @@
+The Future of Gradient Descent
+
+Predicting the future is risky, but the direction of Gradient Descent is easy to describe in general terms. When people talk about Gradient Descent, they usually mean an optimization method that improves a model by repeatedly stepping in the direction that reduces error. It appears in almost every serious software project, whether or not developers notice it.
+
+Results should always be checked on data the model has never seen. A model is only as good as the data used to train and test it.
+
+Read the official documentation for NumPy; it often explains gradients better than blog posts do. Keep an eye on this risk during code review: learning rates that are too large.
+
+Expect tools such as PyTorch and NumPy to keep improving, and expect newer ideas to keep building on learning rate. The basics, though, tend to stay the same, so time spent on gradients and loss function is rarely wasted. Anyone working on training neural networks will keep meeting Gradient Descent for years to come.
+
+Practice learning rate with small exercises until it feels natural. Keep an eye on this risk during code review: learning rates that are too large.
+
+With steady practice, Gradient Descent will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+Real-World Use Cases of Load Balancing
+
+The best way to appreciate Load Balancing is to see where it is actually used. Many students first meet Load Balancing in a classroom, but it matters just as much in production systems. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+People use Load Balancing for scaling web applications, for avoiding downtime, and for rolling deployments.
+
+Consider scaling web applications. In a case like this, Load Balancing gives the work a clear structure, and understanding round robin makes the design easier to explain. A different example is avoiding downtime, where health checks often decides how well the solution scales.
+
+Simple command-line tools can reveal a lot about what is happening on the wire. Every web request crosses several layers of protocols before it reaches an application.
+
+In practice you can start with NGINX, then explore HAProxy or AWS Elastic Load Balancing as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Load Balancing.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Functional Programming
+
+This hands-on tutorial takes you from zero to a small working experiment with Functional Programming. Many students first meet Functional Programming in a classroom, but it matters just as much in production systems. The term refers to a style of programming that builds programs from functions and avoids shared mutable state.
+
+A language is easiest to learn by building small projects rather than memorizing syntax.
+
+Step 1: Install or open Python functools and create a new empty project folder.
+Step 2: Read about pure functions and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses immutability.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as data transformation.
+Step 6: Break your example on purpose and see what happens. A good experiment: overusing clever one-liners.
+
+Popular tools and libraries include Python functools, JavaScript array methods, and Haskell.
+
+Three issues come up again and again: overusing clever one-liners; hidden state; and unreadable chains of functions. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Functional Programming pays off. Spend time on pure functions and immutability, and the rest will follow.

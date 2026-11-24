@@ -1,0 +1,21 @@
+Database Normalization Interview Questions and Answers
+
+Prepare for these questions about Database Normalization.
+
+Q: Explain Database Normalization in simple words.
+A: Database Normalization refers to the practice of organizing tables to reduce duplicated data and update anomalies. I would add an example involving designing clean schemas.
+
+Q: Which tools have you used?
+A: ER diagrams, dbdiagram.io, and MySQL Workbench.
+
+Q: What problems have you seen in practice?
+A: over-normalizing reporting tables; ignoring query patterns; and duplicating data by accident.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as first normal form, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: first normal form, second normal form, third normal form, and functional dependencies.
+
+Q: How does it connect to Database Replication?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.

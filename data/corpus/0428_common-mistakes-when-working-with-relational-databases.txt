@@ -1,0 +1,11 @@
+Common Mistakes When Working with Relational Databases
+
+Almost everyone makes a few avoidable errors when first working with Relational Databases. The term Relational Databases refers to systems that store data in tables with rows, columns and defined relationships. This article explains the idea in plain language and points out where it fits in real projects.
+
+Three issues come up again and again: skipping constraints; storing lists in a single column; and missing indexes on filtered columns. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: skipping constraints. A short test or a careful review comment usually catches it. The second problem is similar: storing lists in a single column. The third problem is this: missing indexes on filtered columns. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use PostgreSQL or a simple timer to see where time is actually spent. Read the official documentation for MySQL; it often explains primary keys better than blog posts do. Start small by applying Relational Databases to one case, such as storing orders and customers, before rolling it out more widely.
+
+In short, careful study of Relational Databases pays off. Spend time on tables and rows and primary keys, and the rest will follow.

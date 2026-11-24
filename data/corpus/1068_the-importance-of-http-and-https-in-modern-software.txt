@@ -1,0 +1,13 @@
+The Importance of HTTP and HTTPS in Modern Software
+
+It is easy to underestimate HTTP and HTTPS until something goes wrong without it. Put simply, HTTP and HTTPS covers the request and response protocol of the web, with HTTPS adding encryption. Learning it well pays off across many areas of computing.
+
+Latency is limited by distance and by the number of round trips a request needs.
+
+People use HTTP and HTTPS for loading web pages, for calling APIs, and for downloading files.
+
+Three issues come up again and again: mixing up status codes; sending secrets in URLs; and ignoring caching headers. Knowing them in advance saves hours of debugging.
+
+If you are comfortable with HTTP and HTTPS, explore WebSockets next. The two often appear in the same project.
+
+In short, careful study of HTTP and HTTPS pays off. Spend time on methods and status codes, and the rest will follow.

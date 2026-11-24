@@ -1,0 +1,19 @@
+Myths and Facts About Web Performance
+
+A lot of folklore has built up around Web Performance. Some of it is true, and some of it is not. If you build software for long enough, you will run into Web Performance. The term refers to the practice of making websites load quickly and respond smoothly.
+
+Myth: Web Performance is only for experts.
+Fact: beginners can use it effectively once they understand page weight and caching.
+
+Myth: Web Performance is only useful in very large systems.
+Fact: small projects such as shopping sites benefit as well.
+
+Myth: one tool does everything.
+Fact: Lighthouse, WebPageTest, and Chrome DevTools make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Web Performance are always obvious.
+Fact: subtle problems happen, for example shipping large JavaScript bundles.
+
+Ask a teammate to explain lazy loading back to you; teaching is a quick way to find gaps. Practice page weight with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Web Performance whenever a new project gives you a reason.

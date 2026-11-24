@@ -1,0 +1,9 @@
+Case Study: Applying Process Scheduling in a Small Team
+
+Imagine a small student team building a project that depends on Process Scheduling. Many students first meet Process Scheduling in a classroom, but it matters just as much in production systems. The term refers to the way an operating system decides which process runs on the CPU and for how long.
+
+The team first spent a week learning time slices and priorities. Early on they hit a familiar problem: starvation of low priority tasks. After fixing it, they used top to check their work and adopted Process Scheduling for sharing CPUs among programs. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: starvation of low priority tasks; too many context switches; and ignoring CPU affinity. Knowing them in advance saves hours of debugging.
+
+With steady practice, Process Scheduling will stop feeling abstract and become a tool you reach for naturally.

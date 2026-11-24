@@ -1,0 +1,13 @@
+A Practical Checklist for Inverted Index
+
+Use this checklist before you rely on Inverted Index in a project.
+
+1. Write at least one automated test that covers vocabulary.
+2. Confirm that your team agrees on what Inverted Index should accomplish.
+3. Review the core ideas: vocabulary, postings lists, term frequency, and document frequency.
+4. Review how Inverted Index interacts with Zipf's Law.
+5. Try the approach on a small case, for example full-text search.
+6. Guard against this risk: building the index without normalizing text.
+7. Ask a teammate to review the work, focusing on postings lists.
+8. Measure results before and after any change.
+9. Document your decisions in the project README.

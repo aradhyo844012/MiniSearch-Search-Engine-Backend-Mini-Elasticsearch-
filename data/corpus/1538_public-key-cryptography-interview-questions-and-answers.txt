@@ -1,0 +1,18 @@
+Public Key Cryptography Interview Questions and Answers
+
+Prepare for these questions about Public Key Cryptography.
+
+Q: Explain Public Key Cryptography in simple words.
+A: Public Key Cryptography refers to encryption that uses a pair of keys, one public and one private. I would add an example involving HTTPS.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: losing private keys.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as key pairs, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with signing software, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: key pairs, digital signatures, certificates, and key exchange.

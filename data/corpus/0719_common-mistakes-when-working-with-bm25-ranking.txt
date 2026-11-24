@@ -1,0 +1,11 @@
+Common Mistakes When Working with BM25 Ranking
+
+Almost everyone makes a few avoidable errors when first working with BM25 Ranking. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: untuned parameters. Second: ignoring field boundaries. Third: comparing scores across different queries.
+
+Consider the first problem: untuned parameters. A short test or a careful review comment usually catches it. The second problem is similar: ignoring field boundaries. The third problem is this: comparing scores across different queries. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain k1 and b parameters back to you; teaching is a quick way to find gaps. Write a few tests that show how BM25 Ranking should behave. Tests double as documentation for your teammates.
+
+In short, careful study of BM25 Ranking pays off. Spend time on term saturation and document length normalization, and the rest will follow.

@@ -1,0 +1,15 @@
+Inside Data Cleaning: How It Works
+
+This article walks through what happens inside Data Cleaning, step by step. Many students first meet Data Cleaning in a classroom, but it matters just as much in production systems. The term refers to finding and fixing errors, gaps and inconsistencies in raw data.
+
+Four ideas sit at the heart of Data Cleaning: missing values, duplicates, inconsistent formats, and outliers. Each one builds on the one before it. Understanding duplicates first often makes inconsistent formats much easier to reason about.
+
+First, missing values sets the stage for everything else. Next, duplicates builds on it. After that, inconsistent formats comes into play, and finally outliers ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis. Writing down assumptions about the data prevents confusing surprises later.
+
+If you are comfortable with Data Cleaning, explore Pandas DataFrames next. The two often appear in the same project.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis. Writing down assumptions about the data prevents confusing surprises later.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Cleaning.

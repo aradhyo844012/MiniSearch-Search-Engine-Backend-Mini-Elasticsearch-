@@ -1,0 +1,13 @@
+Performance Tips for Technical Debt
+
+Fast software rarely happens by accident, and Technical Debt offers several places to gain speed. Many students first meet Technical Debt in a classroom, but it matters just as much in production systems. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+Start by measuring. Use SonarQube or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to shortcuts and interest, because they usually decide how well things scale. For workloads such as deciding when to cut corners, even small improvements add up quickly.
+
+To understand Technical Debt, start with shortcuts. Then move on to interest, and finally look at refactoring backlog and code smells. A good way to remember shortcuts is to connect it with a concrete example from your own code.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: never paying it down. Write a few tests that show how Technical Debt should behave. Tests double as documentation for your teammates.
+
+Watch out for these problems: never paying it down; hiding it from stakeholders; and unclear ownership.
+
+In short, careful study of Technical Debt pays off. Spend time on shortcuts and interest, and the rest will follow.

@@ -1,0 +1,9 @@
+Case Study: Applying Edit Distance in a Small Team
+
+Imagine a small student team building a project that depends on Edit Distance. If you build software for long enough, you will run into Edit Distance. The term refers to a measure of how many single-character changes turn one word into another.
+
+The team first spent a week learning insertions and deletions. Early on they hit a familiar problem: comparing against every word in a large vocabulary. After fixing it, they used Levenshtein libraries to check their work and adopted Edit Distance for spell checking. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Three issues come up again and again: comparing against every word in a large vocabulary; ignoring word length; and forgetting transpositions. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Edit Distance pays off. Spend time on insertions and deletions, and the rest will follow.

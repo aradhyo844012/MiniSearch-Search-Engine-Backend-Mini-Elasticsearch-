@@ -1,0 +1,11 @@
+Recursion Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Recursion.
+
+- Definition: a technique where a function solves a problem by calling itself on smaller inputs.
+- Core ideas: base case; recursive case; call stack; tail calls.
+- Use it for: traversing trees; divide and conquer algorithms; parsing nested data.
+- Watch out for: missing base cases; exceeding the recursion limit; recomputing the same values.
+- Tools: Python sys.setrecursionlimit, debuggers, memoization decorators.
+- Quick tip: practice base case until it feels automatic.
+- Quick tip: write a tiny test for recursive case before building anything large.

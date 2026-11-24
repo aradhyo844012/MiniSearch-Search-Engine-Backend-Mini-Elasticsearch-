@@ -1,0 +1,15 @@
+The Importance of Gradient Descent in Modern Software
+
+It is easy to underestimate Gradient Descent until something goes wrong without it. Put simply, Gradient Descent covers an optimization method that improves a model by repeatedly stepping in the direction that reduces error. Learning it well pays off across many areas of computing.
+
+Simple baselines are worth building first because they show what improvement is realistic.
+
+People use Gradient Descent for training neural networks, for fitting regression models, and for tuning parameters.
+
+Watch out for these problems: learning rates that are too large; getting stuck on plateaus; and unscaled features.
+
+If you are comfortable with Gradient Descent, explore Overfitting next. The two often appear in the same project.
+
+Keep notes on what worked. A short README explaining your decisions about Gradient Descent helps the next developer. Measure before you optimize. Use PyTorch or a simple timer to see where time is actually spent. Start small by applying Gradient Descent to one case, such as training neural networks, before rolling it out more widely.
+
+In short, careful study of Gradient Descent pays off. Spend time on learning rate and gradients, and the rest will follow.

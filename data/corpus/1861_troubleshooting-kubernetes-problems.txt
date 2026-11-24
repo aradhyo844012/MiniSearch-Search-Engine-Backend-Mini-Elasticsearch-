@@ -1,0 +1,13 @@
+Troubleshooting Kubernetes Problems
+
+When something breaks around Kubernetes, a calm and systematic approach saves the most time. When people talk about Kubernetes, they usually mean a system for deploying, scaling and managing containerized applications. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and kubectl usually reveal the cause faster than guessing.
+
+Common culprits: resource limits missing; over-complicated setups; ignoring health probes. If none of these explains the symptom, re-read the basics of pods and deployments.
+
+Automation turns risky manual steps into repeatable and reviewable processes.
+
+In practice you can start with kubectl, then explore Helm or minikube as your needs grow.
+
+With steady practice, Kubernetes will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,11 @@
+Common Mistakes When Working with Code Review
+
+Almost everyone makes a few avoidable errors when first working with Code Review. Put simply, Code Review covers having teammates examine changes before they are merged. Learning it well pays off across many areas of computing.
+
+Three issues come up again and again: huge pull requests; vague comments; and reviewing only style. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: huge pull requests. A short test or a careful review comment usually catches it. The second problem is similar: vague comments. The third problem is this: reviewing only style. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Code Review should behave. Tests double as documentation for your teammates. Ask a teammate to explain checklists back to you; teaching is a quick way to find gaps.
+
+With steady practice, Code Review will stop feeling abstract and become a tool you reach for naturally.

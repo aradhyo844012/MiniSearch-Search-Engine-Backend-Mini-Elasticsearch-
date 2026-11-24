@@ -1,0 +1,19 @@
+Virtual Memory: Frequently Asked Questions
+
+Q: What is Virtual Memory?
+A: The term Virtual Memory refers to a technique that gives each program its own address space backed by RAM and disk.
+
+Q: What should a beginner learn first?
+A: Start with pages and page tables, then move on to page faults and swapping.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: How does it relate to Threads and Concurrency?
+A: Virtual Memory and Threads and Concurrency often appear in the same project, and both belong to the area of Operating Systems.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Virtual Memory.
+
+Q: What mistakes are most common?
+A: Watch for these: thrashing when memory is short; ignoring page fault costs; and assuming memory is always available.

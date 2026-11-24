@@ -1,0 +1,15 @@
+Best Practices for Android Basics
+
+The practices below come from patterns that tend to work well across many teams and projects. The term Android Basics refers to the core building blocks used to create apps for Android phones. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Keep an eye on this risk during code review: ignoring lifecycle events.
+2. Write a few tests that show how Android Basics should behave. Tests double as documentation for your teammates.
+3. Ask a teammate to explain intents back to you; teaching is a quick way to find gaps.
+4. Practice activities with small exercises until it feels natural.
+5. Read the official documentation for Kotlin; it often explains layouts better than blog posts do.
+
+In practice you can start with Android Studio, then explore Kotlin or Gradle as your needs grow.
+
+Android Basics and Mobile App Performance are closely related, so learning both gives a fuller picture of Mobile Development.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Android Basics.

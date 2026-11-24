@@ -1,0 +1,11 @@
+A Practical Checklist for Heaps and Priority Queues
+
+Use this checklist before you rely on Heaps and Priority Queues in a project.
+
+1. Guard against this risk: using a full sort when only the top k are needed.
+2. Guard against this risk: mixing up min-heaps and max-heaps.
+3. Review the core ideas: heap property, sift up and sift down, array representation, and top-k selection.
+4. Guard against this risk: assuming a heap is fully sorted.
+5. Confirm that your team agrees on what Heaps and Priority Queues should accomplish.
+6. Review how Heaps and Priority Queues interacts with Sorting Algorithms.
+7. Ask a teammate to review the work, focusing on sift up and sift down.

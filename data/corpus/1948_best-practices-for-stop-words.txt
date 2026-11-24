@@ -1,0 +1,17 @@
+Best Practices for Stop Words
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Stop Words covers very common words such as the and of that are often ignored by search systems. Learning it well pays off across many areas of computing.
+
+1. Ask a teammate to explain query relevance back to you; teaching is a quick way to find gaps.
+2. Write a few tests that show how Stop Words should behave. Tests double as documentation for your teammates.
+3. Read the official documentation for scikit-learn; it often explains index size better than blog posts do.
+4. Keep notes on what worked. A short README explaining your decisions about Stop Words helps the next developer.
+5. Keep an eye on this risk during code review: removing words that matter in phrases.
+
+If you are comfortable with Stop Words, explore TF-IDF next. The two often appear in the same project.
+
+Popular tools and libraries include NLTK stopwords, scikit-learn, and custom word lists.
+
+A solid grasp of Stop Words also makes TF-IDF easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Stop Words.

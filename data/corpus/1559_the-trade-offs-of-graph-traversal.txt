@@ -1,0 +1,13 @@
+The Trade-offs of Graph Traversal
+
+Every design choice has a cost, and Graph Traversal is no exception. When people talk about Graph Traversal, they usually mean systematic ways of visiting every node in a graph, usually breadth-first or depth-first. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Graph Traversal is well suited to finding shortest paths in unweighted graphs and detecting cycles. On the other hand, it is not free. Keep these risks in mind: forgetting to mark nodes as visited; using recursion on very deep graphs; choosing an adjacency matrix for sparse graphs. Whether the trade is worth it depends on how much adjacency lists and breadth-first search matter to your project.
+
+Graph Traversal and Big O Notation are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Three issues come up again and again: forgetting to mark nodes as visited; using recursion on very deep graphs; and choosing an adjacency matrix for sparse graphs. Knowing them in advance saves hours of debugging.
+
+Practice adjacency lists with small exercises until it feels natural. Measure before you optimize. Use NetworkX or a simple timer to see where time is actually spent.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Graph Traversal.

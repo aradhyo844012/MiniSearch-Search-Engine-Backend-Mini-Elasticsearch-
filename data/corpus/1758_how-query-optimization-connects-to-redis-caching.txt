@@ -1,0 +1,13 @@
+How Query Optimization Connects to Redis Caching
+
+Query Optimization and Redis Caching are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving speeding up dashboards may also involve caching API responses. In such a project, query plans and key-value pairs often influence each other.
+
+Start with Query Optimization: the term refers to the process of making database queries return results with less time and fewer resources. Then look at Redis Caching, which refers to using an in-memory data store to keep frequently needed results close to the application.
+
+A useful exercise is to take one example, such as reducing server load, and explain how expiration times would change the design.
+
+Common problems are shared too. For Query Optimization, watch for this: running queries inside loops. For Redis Caching, watch for this: caching without expiry. Backups are only useful if restoring from them has been tested.
+
+Spend a few hours on each topic, then combine them in one small project using EXPLAIN ANALYZE or Redis.

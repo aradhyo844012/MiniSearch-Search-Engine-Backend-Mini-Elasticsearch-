@@ -1,0 +1,15 @@
+Performance Tips for Containers
+
+Fast software rarely happens by accident, and Containers offers several places to gain speed. When people talk about Containers, they usually mean lightweight packages that bundle an application with its dependencies and run in isolation. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Docker or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to images and layers, because they usually decide how well things scale. For workloads such as consistent development environments, even small improvements add up quickly.
+
+Keep notes on what worked. A short README explaining your decisions about Containers helps the next developer. Ask a teammate to explain namespaces back to you; teaching is a quick way to find gaps.
+
+Four ideas sit at the heart of Containers: images, layers, namespaces, and registries. Each one builds on the one before it. Sketching registries on paper before coding helps many learners see how the pieces fit.
+
+Automate repetitive steps so that results are easy to reproduce. Practice images with small exercises until it feels natural. Keep an eye on this risk during code review: running as root.
+
+Beginners often stumble on three things. First: running as root. Second: bloated images. Third: storing data inside the container.
+
+Keep experimenting, keep notes, and revisit Containers whenever a new project gives you a reason.

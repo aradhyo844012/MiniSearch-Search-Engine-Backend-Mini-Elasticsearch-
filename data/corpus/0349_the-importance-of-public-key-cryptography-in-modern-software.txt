@@ -1,0 +1,13 @@
+The Importance of Public Key Cryptography in Modern Software
+
+It is easy to underestimate Public Key Cryptography until something goes wrong without it. If you build software for long enough, you will run into Public Key Cryptography. The term refers to encryption that uses a pair of keys, one public and one private.
+
+Keeping dependencies updated removes a large share of known risks.
+
+Typical applications include HTTPS, signing software, and secure messaging. Small projects and large systems both benefit.
+
+Beginners often stumble on three things. First: losing private keys. Second: trusting unverified keys. Third: using keys that are too short.
+
+If you are comfortable with Public Key Cryptography, explore Phishing Defense next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Public Key Cryptography.

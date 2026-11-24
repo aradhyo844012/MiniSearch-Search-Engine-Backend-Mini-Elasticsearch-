@@ -1,0 +1,19 @@
+Query Optimization: Frequently Asked Questions
+
+Q: What is Query Optimization?
+A: The term Query Optimization refers to the process of making database queries return results with less time and fewer resources.
+
+Q: Why do developers use Query Optimization?
+A: Common uses include speeding up dashboards, reducing server load, and fixing slow pages.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Query Optimization.
+
+Q: Which tools help?
+A: Popular choices include EXPLAIN ANALYZE, pg_stat_statements, and query profilers.
+
+Q: How does it relate to Database Normalization?
+A: Query Optimization and Database Normalization often appear in the same project, and both belong to the area of Databases.
+
+Q: What should a beginner learn first?
+A: Start with query plans and statistics, then move on to index usage and join order.

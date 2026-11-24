@@ -1,0 +1,11 @@
+The Trade-offs of Version Control Workflow
+
+Every design choice has a cost, and Version Control Workflow is no exception. The term Version Control Workflow refers to the habits and rules a team uses to track and combine changes to code. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Version Control Workflow is well suited to collaborating on shared code and tracking history. On the other hand, it is not free. Keep these risks in mind: vague commit messages; committing large unrelated changes; rewriting shared history. Whether the trade is worth it depends on how much commits and branches matter to your project.
+
+Watch out for these problems: vague commit messages; committing large unrelated changes; and rewriting shared history.
+
+Ask a teammate to explain tags back to you; teaching is a quick way to find gaps. Write a few tests that show how Version Control Workflow should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Version Control Workflow pays off. Spend time on commits and branches, and the rest will follow.

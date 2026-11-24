@@ -1,0 +1,19 @@
+A Beginner's Guide to Data Cleaning
+
+This guide is written for readers who are new to Data Cleaning and want a clear starting point. Many students first meet Data Cleaning in a classroom, but it matters just as much in production systems. The term refers to finding and fixing errors, gaps and inconsistencies in raw data.
+
+Writing down assumptions about the data prevents confusing surprises later.
+
+Keep an eye on this risk during code review: dropping data without checking why it is missing. Ask a teammate to explain inconsistent formats back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Data Cleaning helps the next developer.
+
+To understand Data Cleaning, start with missing values. Then move on to duplicates, and finally look at inconsistent formats and outliers. Understanding duplicates first often makes inconsistent formats much easier to reason about.
+
+You will see Data Cleaning whenever people work on preparing logs or merging data sources. It also helps with improving model inputs.
+
+In practice you can start with pandas, then explore OpenRefine or regular expressions as your needs grow.
+
+Watch out for these problems: dropping data without checking why it is missing; cleaning by hand without a record; and changing the original files.
+
+Automate repetitive steps so that results are easy to reproduce. Practice missing values with small exercises until it feels natural. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Data Cleaning whenever a new project gives you a reason.

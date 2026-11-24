@@ -1,0 +1,17 @@
+A Beginner's Guide to Linux Command Line
+
+This guide is written for readers who are new to Linux Command Line and want a clear starting point. When people talk about Linux Command Line, they usually mean a text-based way of controlling a computer using commands and scripts. It appears in almost every serious software project, whether or not developers notice it.
+
+The operating system shares limited hardware between many competing programs.
+
+To understand Linux Command Line, start with shell. Then move on to pipes, and finally look at permissions and environment variables. A good way to remember shell is to connect it with a concrete example from your own code.
+
+A team working on automating tasks might adopt Linux Command Line after hitting the limits of a simpler approach. Other teams turn to it for managing servers or searching files and logs.
+
+Popular tools and libraries include bash, grep, and ssh.
+
+Beginners often stumble on three things. First: running destructive commands carelessly. Second: forgetting quotes around paths. Third: ignoring exit codes.
+
+Write a few tests that show how Linux Command Line should behave. Tests double as documentation for your teammates. Start small by applying Linux Command Line to one case, such as automating tasks, before rolling it out more widely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linux Command Line.

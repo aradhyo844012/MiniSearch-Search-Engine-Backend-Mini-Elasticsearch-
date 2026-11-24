@@ -1,0 +1,13 @@
+How Tries Connects to Recursion
+
+Tries and Recursion are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving autocomplete may also involve traversing trees. In such a project, prefix sharing and base case often influence each other.
+
+Start with Tries: the term refers to tree structures that store strings character by character so shared prefixes are stored once. Then look at Recursion, which refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+A useful exercise is to take one example, such as spell checking, and explain how recursive case would change the design.
+
+Common problems are shared too. For Tries, watch for this: forgetting end-of-word markers. For Recursion, watch for this: exceeding the recursion limit. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Spend a few hours on each topic, then combine them in one small project using Python dict-based tries or Python sys.setrecursionlimit.

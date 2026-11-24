@@ -1,0 +1,11 @@
+Case Study: Applying DOM Manipulation in a Small Team
+
+Imagine a small student team building a project that depends on DOM Manipulation. The term DOM Manipulation refers to reading and changing the structure and content of a web page from JavaScript. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning selectors and events. Early on they hit a familiar problem: inserting untrusted text as HTML. After fixing it, they used querySelector to check their work and adopted DOM Manipulation for updating search results. Looking back, they said the biggest lesson was to measure before optimizing.
+
+DOM Manipulation and Responsive Design are closely related, so learning both gives a fuller picture of Web Development.
+
+Three issues come up again and again: inserting untrusted text as HTML; querying the DOM inside tight loops; and forgetting to remove event listeners. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit DOM Manipulation whenever a new project gives you a reason.

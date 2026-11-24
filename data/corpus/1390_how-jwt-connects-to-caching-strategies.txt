@@ -1,0 +1,13 @@
+How JWT Connects to Caching Strategies
+
+JWT and Caching Strategies are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving stateless API authentication may also involve speeding up read-heavy APIs. In such a project, header, payload and signature and cache-aside often influence each other.
+
+Start with JWT: the term refers to a compact token format that carries signed claims between a client and a server. Then look at Caching Strategies, which refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+A useful exercise is to take one example, such as service-to-service calls, and explain how write-through would change the design.
+
+Common problems are shared too. For JWT, watch for this: skipping signature checks. For Caching Strategies, watch for this: cache stampedes. A backend turns requests from many clients into reliable, consistent responses.
+
+Spend a few hours on each topic, then combine them in one small project using jwt.io or Redis.

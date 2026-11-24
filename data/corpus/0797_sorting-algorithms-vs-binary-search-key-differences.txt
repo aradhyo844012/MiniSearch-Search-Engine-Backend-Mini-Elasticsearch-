@@ -1,0 +1,15 @@
+Sorting Algorithms vs Binary Search: Key Differences
+
+Sorting Algorithms and Binary Search both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Sorting Algorithms refers to methods for arranging items in a defined order. Its core ideas are comparison sorts, stability, and divide and conquer.
+
+The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. Its core ideas are sorted input, low and high bounds, and midpoint calculation.
+
+The main difference is focus. Sorting Algorithms puts the emphasis on comparison sorts and stability, while Binary Search puts the emphasis on sorted input and low and high bounds.
+
+Reach for Sorting Algorithms when your task involves ordering search results or preparing data for binary search. Reach for Binary Search when your task involves looking up values in sorted arrays or finding insertion points.
+
+Both have risks. With Sorting Algorithms, watch for this: assuming every sort is stable. With Binary Search, watch for this: off-by-one errors.
+
+In practice you do not always have to choose. Many projects use Sorting Algorithms alongside Binary Search, with tools such as Python sorted and Python bisect. Algorithms are easiest to learn by tracing small examples on paper before writing any code.

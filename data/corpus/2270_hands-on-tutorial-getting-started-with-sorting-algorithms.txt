@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Sorting Algorithms
+
+This hands-on tutorial takes you from zero to a small working experiment with Sorting Algorithms. If you build software for long enough, you will run into Sorting Algorithms. The term refers to methods for arranging items in a defined order.
+
+Step 1: Install or open Python sorted and create a new empty project folder.
+Step 2: Read about comparison sorts and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses stability.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as ordering search results.
+Step 6: Break your example on purpose and see what happens. A good experiment: assuming every sort is stable.
+
+Popular tools and libraries include Python sorted, Java Arrays.sort, and C++ std::sort.
+
+Beginners often stumble on three things. First: assuming every sort is stable. Second: sorting everything when a partial order is enough. Third: ignoring worst-case input.
+
+In short, careful study of Sorting Algorithms pays off. Spend time on comparison sorts and stability, and the rest will follow.

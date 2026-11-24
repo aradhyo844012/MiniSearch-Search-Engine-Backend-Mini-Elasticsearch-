@@ -1,0 +1,13 @@
+The Future of BM25 Ranking
+
+Predicting the future is risky, but the direction of BM25 Ranking is easy to describe in general terms. If you build software for long enough, you will run into BM25 Ranking. The term refers to a ranking function that improves on plain term frequency with saturation and length normalization.
+
+Practice term saturation with small exercises until it feels natural. Read the official documentation for rank_bm25; it often explains document length normalization better than blog posts do.
+
+Users judge a search engine by whether the right result appears near the top. Search quality depends on how text is prepared before it is ever indexed.
+
+Expect tools such as Elasticsearch and rank_bm25 to keep improving, and expect newer ideas to keep building on term saturation. The basics, though, tend to stay the same, so time spent on document length normalization and k1 and b parameters is rarely wasted. Anyone working on ranking search results will keep meeting BM25 Ranking for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: untuned parameters.
+
+In short, careful study of BM25 Ranking pays off. Spend time on term saturation and document length normalization, and the rest will follow.

@@ -1,0 +1,13 @@
+The Importance of Dynamic Programming in Modern Software
+
+It is easy to underestimate Dynamic Programming until something goes wrong without it. Put simply, Dynamic Programming covers a technique for solving problems by storing the answers to overlapping subproblems. Learning it well pays off across many areas of computing.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+People use Dynamic Programming for computing edit distance, for knapsack style optimization, and for counting paths in grids.
+
+Watch out for these problems: defining the state incorrectly; storing more state than needed; and ignoring base cases.
+
+If you are comfortable with Dynamic Programming, explore Bloom Filters next. The two often appear in the same project.
+
+In short, careful study of Dynamic Programming pays off. Spend time on overlapping subproblems and optimal substructure, and the rest will follow.

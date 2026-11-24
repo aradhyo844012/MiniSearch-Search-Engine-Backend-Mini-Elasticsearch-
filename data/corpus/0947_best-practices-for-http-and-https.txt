@@ -1,0 +1,15 @@
+Best Practices for HTTP and HTTPS
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about HTTP and HTTPS, they usually mean the request and response protocol of the web, with HTTPS adding encryption. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Keep an eye on this risk during code review: mixing up status codes.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Start small by applying HTTP and HTTPS to one case, such as loading web pages, before rolling it out more widely.
+4. Measure before you optimize. Use curl or a simple timer to see where time is actually spent.
+5. Ask a teammate to explain headers back to you; teaching is a quick way to find gaps.
+
+Popular tools and libraries include curl, Postman, and browser developer tools.
+
+A solid grasp of HTTP and HTTPS also makes TLS Handshake easier to understand.
+
+Keep experimenting, keep notes, and revisit HTTP and HTTPS whenever a new project gives you a reason.

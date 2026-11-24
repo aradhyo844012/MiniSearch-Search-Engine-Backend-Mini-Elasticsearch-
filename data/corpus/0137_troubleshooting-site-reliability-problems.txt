@@ -1,0 +1,11 @@
+Troubleshooting Site Reliability Problems
+
+When something breaks around Site Reliability, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Site Reliability. The term refers to the discipline of keeping services dependable using engineering practices.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and PagerDuty usually reveal the cause faster than guessing.
+
+Common culprits: alerting on everything; blaming people instead of systems; no written postmortems. If none of these explains the symptom, re-read the basics of service level objectives and error budgets.
+
+In practice you can start with PagerDuty, then explore Prometheus or runbooks as your needs grow.
+
+Keep experimenting, keep notes, and revisit Site Reliability whenever a new project gives you a reason.

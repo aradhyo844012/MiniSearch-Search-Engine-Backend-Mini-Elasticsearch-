@@ -1,0 +1,12 @@
+Key Terms in Caching Strategies Explained
+
+Clear vocabulary makes Caching Strategies much easier to learn, so here are the key terms in plain language. The term Caching Strategies refers to approaches for storing computed results so they can be reused instead of recalculated. This article explains the idea in plain language and points out where it fits in real projects.
+
+cache-aside: a key term in Caching Strategies. You will meet it constantly in documentation and in code reviews.
+write-through: a key term in Caching Strategies. Beginners often confuse it with related terms, so define it in your own words early.
+time to live: a key term in Caching Strategies. Practice with a small example to make the meaning stick.
+invalidation: a key term in Caching Strategies. You will meet it constantly in documentation and in code reviews.
+
+Caching Strategies and Rate Limiting are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Caching Strategies.

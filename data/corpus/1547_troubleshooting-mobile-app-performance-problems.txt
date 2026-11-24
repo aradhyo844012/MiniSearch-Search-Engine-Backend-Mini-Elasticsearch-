@@ -1,0 +1,13 @@
+Troubleshooting Mobile App Performance Problems
+
+When something breaks around Mobile App Performance, a calm and systematic approach saves the most time. When people talk about Mobile App Performance, they usually mean making mobile apps start quickly, run smoothly and use little battery. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Android Profiler usually reveal the cause faster than guessing.
+
+Common culprits: loading everything at startup; large images; too many background tasks. If none of these explains the symptom, re-read the basics of startup time and frame rate.
+
+Popular tools and libraries include Android Profiler, Xcode Instruments, and Firebase Performance Monitoring.
+
+A solid grasp of Mobile App Performance also makes Android Basics easier to understand.
+
+With steady practice, Mobile App Performance will stop feeling abstract and become a tool you reach for naturally.

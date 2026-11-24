@@ -1,0 +1,11 @@
+Troubleshooting CSS Flexbox and Grid Problems
+
+When something breaks around CSS Flexbox and Grid, a calm and systematic approach saves the most time. If you build software for long enough, you will run into CSS Flexbox and Grid. The term refers to two layout systems that arrange elements in rows, columns and two-dimensional grids.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and browser grid inspector usually reveal the cause faster than guessing.
+
+Common culprits: mixing up main and cross axes; fixed widths that break on phones; nesting layouts too deeply. If none of these explains the symptom, re-read the basics of flex containers and grid tracks.
+
+In practice you can start with browser grid inspector, then explore Bootstrap utilities or CSS-Tricks guides as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CSS Flexbox and Grid.

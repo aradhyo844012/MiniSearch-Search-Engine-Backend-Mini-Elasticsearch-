@@ -1,0 +1,13 @@
+The Trade-offs of Zipf's Law
+
+Every design choice has a cost, and Zipf's Law is no exception. When people talk about Zipf's Law, they usually mean the observation that a word's frequency is roughly inversely related to its rank in natural language. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Zipf's Law is well suited to analyzing text corpora and sizing indexes. On the other hand, it is not free. Keep these risks in mind: testing it on random text; reading too much into a perfect fit; ignoring small samples. Whether the trade is worth it depends on how much rank and frequency and power laws matter to your project.
+
+Watch out for these problems: testing it on random text; reading too much into a perfect fit; and ignoring small samples.
+
+Measure before you optimize. Use matplotlib or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: testing it on random text.
+
+With steady practice, Zipf's Law will stop feeling abstract and become a tool you reach for naturally.

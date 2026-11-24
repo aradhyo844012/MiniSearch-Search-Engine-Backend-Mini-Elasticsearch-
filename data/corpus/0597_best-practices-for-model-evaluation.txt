@@ -1,0 +1,17 @@
+Best Practices for Model Evaluation
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Model Evaluation covers measuring how well a machine learning model works on data it has not seen. Learning it well pays off across many areas of computing.
+
+1. Measure before you optimize. Use scikit-learn metrics or a simple timer to see where time is actually spent.
+2. Ask a teammate to explain confusion matrices back to you; teaching is a quick way to find gaps.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Keep notes on what worked. A short README explaining your decisions about Model Evaluation helps the next developer.
+5. Write a few tests that show how Model Evaluation should behave. Tests double as documentation for your teammates.
+
+Popular tools and libraries include scikit-learn metrics, MLflow, and pandas.
+
+Model Evaluation and Neural Networks are closely related, so learning both gives a fuller picture of Machine Learning.
+
+If you are comfortable with Model Evaluation, explore Neural Networks next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Model Evaluation whenever a new project gives you a reason.

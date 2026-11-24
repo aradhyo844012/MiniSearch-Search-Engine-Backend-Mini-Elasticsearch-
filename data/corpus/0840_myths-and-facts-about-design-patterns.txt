@@ -1,0 +1,17 @@
+Myths and Facts About Design Patterns
+
+A lot of folklore has built up around Design Patterns. Some of it is true, and some of it is not. The term Design Patterns refers to reusable solutions to common problems in software design. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Design Patterns is only for experts.
+Fact: beginners can use it effectively once they understand singleton and factory.
+
+Myth: Design Patterns is only useful in very large systems.
+Fact: small projects such as structuring applications benefit as well.
+
+Myth: one tool does everything.
+Fact: UML diagrams, refactoring guides, and code examples make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Design Patterns are always obvious.
+Fact: subtle problems happen, for example forcing patterns where they are unnecessary.
+
+In short, careful study of Design Patterns pays off. Spend time on singleton and factory, and the rest will follow.

@@ -1,0 +1,15 @@
+Performance Tips for JWT
+
+Fast software rarely happens by accident, and JWT offers several places to gain speed. Many students first meet JWT in a classroom, but it matters just as much in production systems. The term refers to a compact token format that carries signed claims between a client and a server.
+
+Start by measuring. Use jwt.io or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to header, payload and signature and claims, because they usually decide how well things scale. For workloads such as stateless API authentication, even small improvements add up quickly.
+
+The vocabulary of JWT is small. Learn header, payload and signature, claims, expiry, and signing keys, and most documentation will start to make sense. A good way to remember header, payload and signature is to connect it with a concrete example from your own code.
+
+A backend turns requests from many clients into reliable, consistent responses. Good APIs are boring, predictable and well documented.
+
+Practice header, payload and signature with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about JWT helps the next developer. Measure before you optimize. Use jwt.io or a simple timer to see where time is actually spent.
+
+Watch out for these problems: storing tokens in insecure places; skipping signature checks; and very long expiry times.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JWT.

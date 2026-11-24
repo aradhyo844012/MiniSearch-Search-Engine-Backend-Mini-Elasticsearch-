@@ -1,0 +1,13 @@
+The Future of Big O Notation
+
+Predicting the future is risky, but the direction of Big O Notation is easy to describe in general terms. The term Big O Notation refers to a way of describing how running time or memory grows as the input size grows. This article explains the idea in plain language and points out where it fits in real projects.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Expect tools such as Python timeit and big-O cheat sheets to keep improving, and expect newer ideas to keep building on upper bounds. The basics, though, tend to stay the same, so time spent on constant, linear and logarithmic growth and worst case is rarely wasted. Anyone working on comparing algorithms will keep meeting Big O Notation for years to come.
+
+Big O Notation and Binary Search Trees are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Automate repetitive steps so that results are easy to reproduce. Read the official documentation for big-O cheat sheets; it often explains constant, linear and logarithmic growth better than blog posts do. Ask a teammate to explain worst case back to you; teaching is a quick way to find gaps.
+
+With steady practice, Big O Notation will stop feeling abstract and become a tool you reach for naturally.

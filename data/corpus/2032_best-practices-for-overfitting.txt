@@ -1,0 +1,17 @@
+Best Practices for Overfitting
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Overfitting. The term refers to when a model learns the training data too closely and performs poorly on new data.
+
+1. Read the official documentation for early stopping; it often explains model complexity better than blog posts do.
+2. Ask a teammate to explain regularization back to you; teaching is a quick way to find gaps.
+3. Write a few tests that show how Overfitting should behave. Tests double as documentation for your teammates.
+4. Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent.
+5. Start small by applying Overfitting to one case, such as diagnosing weak models, before rolling it out more widely.
+
+Keep notes on what worked. A short README explaining your decisions about Overfitting helps the next developer. Write a few tests that show how Overfitting should behave. Tests double as documentation for your teammates.
+
+In practice you can start with scikit-learn, then explore early stopping or learning curves as your needs grow.
+
+A solid grasp of Overfitting also makes Feature Engineering easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Overfitting.

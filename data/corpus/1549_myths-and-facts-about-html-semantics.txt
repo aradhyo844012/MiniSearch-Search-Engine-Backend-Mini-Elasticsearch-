@@ -1,0 +1,19 @@
+Myths and Facts About HTML Semantics
+
+A lot of folklore has built up around HTML Semantics. Some of it is true, and some of it is not. Put simply, HTML Semantics covers the practice of using HTML elements that describe the meaning of content. Learning it well pays off across many areas of computing.
+
+Myth: HTML Semantics is only for experts.
+Fact: beginners can use it effectively once they understand headings and landmarks.
+
+Myth: HTML Semantics is only useful in very large systems.
+Fact: small projects such as accessible pages benefit as well.
+
+Myth: one tool does everything.
+Fact: HTML validators, browser developer tools, and axe make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with HTML Semantics are always obvious.
+Fact: subtle problems happen, for example using div for everything.
+
+Measure before you optimize. Use HTML validators or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about HTML Semantics helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with HTML Semantics.

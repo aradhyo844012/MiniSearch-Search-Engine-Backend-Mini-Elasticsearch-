@@ -1,0 +1,13 @@
+How REST APIs Connects to Authentication and Sessions
+
+REST APIs and Authentication and Sessions are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving mobile app backends may also involve logging in to web apps. In such a project, resources and credentials often influence each other.
+
+Start with REST APIs: the term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods. Then look at Authentication and Sessions, which refers to the process of proving who a user is and remembering them between requests.
+
+A useful exercise is to take one example, such as integrating services, and explain how session cookies would change the design.
+
+Common problems are shared too. For REST APIs, watch for this: returning 200 for errors. For Authentication and Sessions, watch for this: never expiring sessions. Good APIs are boring, predictable and well documented.
+
+Spend a few hours on each topic, then combine them in one small project using Flask or Flask-Login.

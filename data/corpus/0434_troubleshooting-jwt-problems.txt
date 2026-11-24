@@ -1,0 +1,13 @@
+Troubleshooting JWT Problems
+
+When something breaks around JWT, a calm and systematic approach saves the most time. Many students first meet JWT in a classroom, but it matters just as much in production systems. The term refers to a compact token format that carries signed claims between a client and a server.
+
+Clear contracts between services make systems easier to change and test. Failures between services are normal, so retries and timeouts need careful design.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and jwt.io usually reveal the cause faster than guessing.
+
+Common culprits: storing tokens in insecure places; skipping signature checks; very long expiry times. If none of these explains the symptom, re-read the basics of header, payload and signature and claims.
+
+In practice you can start with jwt.io, then explore PyJWT or jsonwebtoken as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JWT.

@@ -1,0 +1,11 @@
+Case Study: Applying Public Key Cryptography in a Small Team
+
+Imagine a small student team building a project that depends on Public Key Cryptography. The term Public Key Cryptography refers to encryption that uses a pair of keys, one public and one private. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning key pairs and digital signatures. Early on they hit a familiar problem: losing private keys. After fixing it, they used OpenSSL to check their work and adopted Public Key Cryptography for HTTPS. Looking back, they said the biggest lesson was to write tests earlier.
+
+Beginners often stumble on three things. First: losing private keys. Second: trusting unverified keys. Third: using keys that are too short.
+
+Write a few tests that show how Public Key Cryptography should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce. Start small by applying Public Key Cryptography to one case, such as HTTPS, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit Public Key Cryptography whenever a new project gives you a reason.

@@ -1,0 +1,17 @@
+Myths and Facts About IP Addressing and Subnets
+
+A lot of folklore has built up around IP Addressing and Subnets. Some of it is true, and some of it is not. The term IP Addressing and Subnets refers to the rules for numbering devices on a network and dividing networks into smaller parts. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: IP Addressing and Subnets is only for experts.
+Fact: beginners can use it effectively once they understand IPv4 and IPv6 and subnet masks.
+
+Myth: IP Addressing and Subnets is only useful in very large systems.
+Fact: small projects such as planning office networks benefit as well.
+
+Myth: one tool does everything.
+Fact: ipcalc, ping, and traceroute make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with IP Addressing and Subnets are always obvious.
+Fact: subtle problems happen, for example overlapping address ranges.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with IP Addressing and Subnets.

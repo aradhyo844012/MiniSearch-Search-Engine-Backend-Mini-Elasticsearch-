@@ -1,0 +1,11 @@
+Containers Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Containers.
+
+- Definition: lightweight packages that bundle an application with its dependencies and run in isolation.
+- Core ideas: images; layers; namespaces; registries.
+- Use it for: consistent development environments; deploying microservices; running tests in CI.
+- Watch out for: running as root; bloated images; storing data inside the container.
+- Tools: Docker, Podman, containerd.
+- Related topic: Process Scheduling.
+- Quick tip: write a tiny test for layers before building anything large.

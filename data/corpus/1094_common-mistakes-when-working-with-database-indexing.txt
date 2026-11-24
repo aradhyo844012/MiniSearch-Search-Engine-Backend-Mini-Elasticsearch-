@@ -1,0 +1,11 @@
+Common Mistakes When Working with Database Indexing
+
+Almost everyone makes a few avoidable errors when first working with Database Indexing. Many students first meet Database Indexing in a classroom, but it matters just as much in production systems. The term refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+Three issues come up again and again: indexing every column; ignoring write overhead; and wrong column order in composite indexes. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: indexing every column. A short test or a careful review comment usually catches it. The second problem is similar: ignoring write overhead. The third problem is this: wrong column order in composite indexes. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for pgAdmin; it often explains selectivity better than blog posts do. Write a few tests that show how Database Indexing should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Database Indexing pays off. Spend time on B-tree indexes and selectivity, and the rest will follow.

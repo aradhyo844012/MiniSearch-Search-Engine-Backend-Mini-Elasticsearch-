@@ -1,0 +1,18 @@
+Message Queues Interview Questions and Answers
+
+Prepare for these questions about Message Queues.
+
+Q: Explain Message Queues in simple words.
+A: Message Queues refers to systems that let services send work to each other asynchronously through a buffer. I would add an example involving sending emails.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: losing messages without acknowledgements.
+
+Q: What are the key concepts?
+A: producers, consumers, acknowledgements, and retries.
+
+Q: What problems have you seen in practice?
+A: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing.
+
+Q: Which tools have you used?
+A: RabbitMQ, Apache Kafka, and Amazon SQS.

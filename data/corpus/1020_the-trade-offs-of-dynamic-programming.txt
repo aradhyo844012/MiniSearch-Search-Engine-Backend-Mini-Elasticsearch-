@@ -1,0 +1,13 @@
+The Trade-offs of Dynamic Programming
+
+Every design choice has a cost, and Dynamic Programming is no exception. The term Dynamic Programming refers to a technique for solving problems by storing the answers to overlapping subproblems. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Dynamic Programming is well suited to computing edit distance and knapsack style optimization. On the other hand, it is not free. Keep these risks in mind: defining the state incorrectly; storing more state than needed; ignoring base cases. Whether the trade is worth it depends on how much overlapping subproblems and optimal substructure matter to your project.
+
+Three issues come up again and again: defining the state incorrectly; storing more state than needed; and ignoring base cases. Knowing them in advance saves hours of debugging.
+
+Ask a teammate to explain memoization back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: defining the state incorrectly. Keep notes on what worked. A short README explaining your decisions about Dynamic Programming helps the next developer.
+
+Automate repetitive steps so that results are easy to reproduce. Start small by applying Dynamic Programming to one case, such as computing edit distance, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit Dynamic Programming whenever a new project gives you a reason.

@@ -1,0 +1,15 @@
+Best Practices for Graph Traversal
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Graph Traversal covers systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Learning it well pays off across many areas of computing.
+
+1. Ask a teammate to explain depth-first search back to you; teaching is a quick way to find gaps.
+2. Start small by applying Graph Traversal to one case, such as finding shortest paths in unweighted graphs, before rolling it out more widely.
+3. Write a few tests that show how Graph Traversal should behave. Tests double as documentation for your teammates.
+4. Read the official documentation for Python collections.deque; it often explains breadth-first search better than blog posts do.
+5. Measure before you optimize. Use NetworkX or a simple timer to see where time is actually spent.
+
+Popular tools and libraries include NetworkX, Python collections.deque, and Graphviz.
+
+Graph Traversal and Linked Lists are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+With steady practice, Graph Traversal will stop feeling abstract and become a tool you reach for naturally.

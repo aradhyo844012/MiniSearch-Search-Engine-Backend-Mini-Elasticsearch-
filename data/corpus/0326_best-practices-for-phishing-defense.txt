@@ -1,0 +1,17 @@
+Best Practices for Phishing Defense
+
+The practices below come from patterns that tend to work well across many teams and projects. The term Phishing Defense refers to recognizing and reducing attacks that trick people into revealing information. This article explains the idea in plain language and points out where it fits in real projects.
+
+1. Read the official documentation for DKIM; it often explains sender verification better than blog posts do.
+2. Keep an eye on this risk during code review: clicking before checking.
+3. Keep notes on what worked. A short README explaining your decisions about Phishing Defense helps the next developer.
+4. Ask a teammate to explain email filtering back to you; teaching is a quick way to find gaps.
+5. Measure before you optimize. Use SPF or a simple timer to see where time is actually spent.
+
+Phishing Defense and Cross-Site Scripting are closely related, so learning both gives a fuller picture of Security.
+
+Popular tools and libraries include SPF, DKIM, and DMARC.
+
+Phishing Defense and Cross-Site Scripting are closely related, so learning both gives a fuller picture of Security.
+
+With steady practice, Phishing Defense will stop feeling abstract and become a tool you reach for naturally.

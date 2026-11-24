@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Tokenization
+
+This hands-on tutorial takes you from zero to a small working experiment with Tokenization. The term Tokenization refers to splitting text into smaller units such as words that a program can count and compare. This article explains the idea in plain language and points out where it fits in real projects.
+
+Step 1: Install or open Python re module and create a new empty project folder.
+Step 2: Read about lowercasing and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses splitting on punctuation.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as indexing documents.
+Step 6: Break your example on purpose and see what happens. A good experiment: different rules for indexing and querying.
+
+Popular tools and libraries include Python re module, NLTK, and spaCy.
+
+Watch out for these problems: different rules for indexing and querying; dropping useful numbers; and breaking on apostrophes badly.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Tokenization.

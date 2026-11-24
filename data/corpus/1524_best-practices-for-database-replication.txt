@@ -1,0 +1,15 @@
+Best Practices for Database Replication
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Database Replication. The term refers to copying data from one database server to others to improve availability and read capacity.
+
+1. Keep an eye on this risk during code review: reading stale data from replicas.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Write a few tests that show how Database Replication should behave. Tests double as documentation for your teammates.
+4. Read the official documentation for MySQL replication; it often explains replication lag better than blog posts do.
+5. Practice primary and replica with small exercises until it feels natural.
+
+In practice you can start with PostgreSQL streaming replication, then explore MySQL replication or Patroni as your needs grow.
+
+If you are comfortable with Database Replication, explore Database Sharding next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Replication.

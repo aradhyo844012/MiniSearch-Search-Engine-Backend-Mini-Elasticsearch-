@@ -1,0 +1,14 @@
+How to Learn Type Systems in 30 Days
+
+You do not need months to become comfortable with Type Systems. A focused plan of thirty days is enough to build a solid base. When people talk about Type Systems, they usually mean the rules a language uses to classify values and catch mistakes. It appears in almost every serious software project, whether or not developers notice it.
+
+Type Systems and Python Basics are closely related, so learning both gives a fuller picture of Programming.
+
+Week 1: learn static and dynamic typing and type inference, and write a one-page summary.
+Week 2: practice with mypy on a small task such as catching bugs early.
+Week 3: build a mini project around documenting interfaces.
+Week 4: review common mistakes such as treating annotations as guarantees at runtime, and explain Type Systems to a friend.
+
+In practice you can start with mypy, then explore TypeScript or Pyright as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Type Systems.

@@ -1,0 +1,11 @@
+Troubleshooting Code Review Problems
+
+When something breaks around Code Review, a calm and systematic approach saves the most time. Many students first meet Code Review in a classroom, but it matters just as much in production systems. The term refers to having teammates examine changes before they are merged.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and GitHub pull requests usually reveal the cause faster than guessing.
+
+Common culprits: huge pull requests; vague comments; reviewing only style. If none of these explains the symptom, re-read the basics of pull requests and review comments.
+
+In practice you can start with GitHub pull requests, then explore GitLab merge requests or linters as your needs grow.
+
+With steady practice, Code Review will stop feeling abstract and become a tool you reach for naturally.

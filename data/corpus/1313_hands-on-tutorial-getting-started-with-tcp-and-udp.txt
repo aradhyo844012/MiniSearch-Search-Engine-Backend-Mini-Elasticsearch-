@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with TCP and UDP
+
+This hands-on tutorial takes you from zero to a small working experiment with TCP and UDP. The term TCP and UDP refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless. This article explains the idea in plain language and points out where it fits in real projects.
+
+Step 1: Install or open Wireshark and create a new empty project folder.
+Step 2: Read about handshakes and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses acknowledgements.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as web traffic.
+Step 6: Break your example on purpose and see what happens. A good experiment: assuming UDP guarantees delivery.
+
+Popular tools and libraries include Wireshark, netcat, and tcpdump.
+
+Write a few tests that show how TCP and UDP should behave. Tests double as documentation for your teammates. Read the official documentation for netcat; it often explains acknowledgements better than blog posts do.
+
+Watch out for these problems: assuming UDP guarantees delivery; ignoring timeouts; and opening too many connections.
+
+Keep experimenting, keep notes, and revisit TCP and UDP whenever a new project gives you a reason.

@@ -1,0 +1,19 @@
+A Beginner's Guide to JavaScript Promises
+
+This guide is written for readers who are new to JavaScript Promises and want a clear starting point. If you build software for long enough, you will run into JavaScript Promises. The term refers to objects that represent a value that will be available later, after an asynchronous task finishes.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Four ideas sit at the heart of JavaScript Promises: pending and resolved states, then and catch, async and await, and chaining. Each one builds on the one before it. Understanding then and catch first often makes async and await much easier to reason about.
+
+Typical applications include fetching data from APIs, reading files, and running tasks in sequence. Small projects and large systems both benefit.
+
+JavaScript Promises and Web Performance are closely related, so learning both gives a fuller picture of Web Development.
+
+In practice you can start with fetch API, then explore Node.js or Promise.all as your needs grow.
+
+Watch out for these problems: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops.
+
+Write a few tests that show how JavaScript Promises should behave. Tests double as documentation for your teammates. Measure before you optimize. Use fetch API or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JavaScript Promises.

@@ -1,0 +1,11 @@
+Process Scheduling Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Process Scheduling.
+
+- Definition: the way an operating system decides which process runs on the CPU and for how long.
+- Core ideas: time slices; priorities; context switches; run queues.
+- Use it for: sharing CPUs among programs; keeping interfaces responsive; running batch jobs.
+- Watch out for: starvation of low priority tasks; too many context switches; ignoring CPU affinity.
+- Tools: top, htop, perf.
+- Quick tip: practice time slices until it feels automatic.
+- Quick tip: write a tiny test for priorities before building anything large.

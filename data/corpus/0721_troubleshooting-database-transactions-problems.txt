@@ -1,0 +1,11 @@
+Troubleshooting Database Transactions Problems
+
+When something breaks around Database Transactions, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Database Transactions. The term refers to groups of operations that succeed or fail together.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and PostgreSQL usually reveal the cause faster than guessing.
+
+Common culprits: holding transactions open too long; ignoring isolation levels; forgetting to roll back on errors. If none of these explains the symptom, re-read the basics of atomicity and consistency.
+
+Popular tools and libraries include PostgreSQL, SQLAlchemy, and JDBC.
+
+Keep experimenting, keep notes, and revisit Database Transactions whenever a new project gives you a reason.

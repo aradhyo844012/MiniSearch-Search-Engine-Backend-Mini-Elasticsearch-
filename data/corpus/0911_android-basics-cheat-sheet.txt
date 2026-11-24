@@ -1,0 +1,11 @@
+Android Basics Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Android Basics.
+
+- Definition: the core building blocks used to create apps for Android phones.
+- Core ideas: activities; layouts; intents; lifecycle.
+- Use it for: building simple apps; accessing sensors; showing lists.
+- Watch out for: ignoring lifecycle events; blocking the main thread; hard-coded layouts.
+- Tools: Android Studio, Kotlin, Gradle.
+- Related topic: Mobile App Performance.
+- Quick tip: write a tiny test for layouts before building anything large.

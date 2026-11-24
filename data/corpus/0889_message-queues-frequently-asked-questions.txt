@@ -1,0 +1,16 @@
+Message Queues: Frequently Asked Questions
+
+Q: What is Message Queues?
+A: The term Message Queues refers to systems that let services send work to each other asynchronously through a buffer.
+
+Q: What mistakes are most common?
+A: Watch for these: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing.
+
+Q: What should a beginner learn first?
+A: Start with producers and consumers, then move on to acknowledgements and retries.
+
+Q: How does it relate to JSON?
+A: Message Queues and JSON often appear in the same project, and both belong to the area of Backend and APIs.
+
+Q: Why do developers use Message Queues?
+A: Common uses include sending emails, processing uploads, and smoothing traffic spikes.

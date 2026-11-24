@@ -1,0 +1,21 @@
+Threads and Concurrency Interview Questions and Answers
+
+Prepare for these questions about Threads and Concurrency.
+
+Q: Explain Threads and Concurrency in simple words.
+A: Threads and Concurrency refers to ways of making progress on several tasks at once within a program. I would add an example involving handling many requests.
+
+Q: Which tools have you used?
+A: Python threading, Java ExecutorService, and asyncio.
+
+Q: What problems have you seen in practice?
+A: forgetting to protect shared data; creating too many threads; and mixing up concurrency and parallelism.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: forgetting to protect shared data.
+
+Q: What are the key concepts?
+A: threads, locks, race conditions, and thread pools.
+
+Q: How does it connect to Process Scheduling?
+A: Both belong to the area of Operating Systems, and understanding one makes the other easier to learn.

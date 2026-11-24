@@ -1,0 +1,13 @@
+A Short History of OAuth 2.0
+
+Ideas behind OAuth 2.0 developed gradually as engineers ran into practical limits and shared what they learned. When people talk about OAuth 2.0, they usually mean a framework that lets applications access resources on a user's behalf without sharing passwords. It appears in almost every serious software project, whether or not developers notice it.
+
+If you are comfortable with OAuth 2.0, explore Password Hashing next. The two often appear in the same project.
+
+Attackers usually choose the easiest weakness, not the most interesting one. Keeping dependencies updated removes a large share of known risks.
+
+To understand OAuth 2.0, start with authorization server. Then move on to access tokens, and finally look at scopes and redirect URIs. Understanding access tokens first often makes scopes much easier to reason about.
+
+If you are comfortable with OAuth 2.0, explore Password Hashing next. The two often appear in the same project.
+
+With steady practice, OAuth 2.0 will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,11 @@
+A Short History of Overfitting
+
+Ideas behind Overfitting developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into Overfitting. The term refers to when a model learns the training data too closely and performs poorly on new data.
+
+A model is only as good as the data used to train and test it. Results should always be checked on data the model has never seen.
+
+To understand Overfitting, start with training and validation error. Then move on to model complexity, and finally look at regularization and cross-validation. Sketching cross-validation on paper before coding helps many learners see how the pieces fit.
+
+If you are comfortable with Overfitting, explore Neural Networks next. The two often appear in the same project.
+
+In short, careful study of Overfitting pays off. Spend time on training and validation error and model complexity, and the rest will follow.

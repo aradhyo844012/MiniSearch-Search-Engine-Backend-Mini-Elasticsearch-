@@ -1,0 +1,13 @@
+Inside Model Evaluation: How It Works
+
+This article walks through what happens inside Model Evaluation, step by step. If you build software for long enough, you will run into Model Evaluation. The term refers to measuring how well a machine learning model works on data it has not seen.
+
+The vocabulary of Model Evaluation is small. Learn accuracy, precision and recall, confusion matrices, and validation sets, and most documentation will start to make sense. A good way to remember accuracy is to connect it with a concrete example from your own code.
+
+First, accuracy sets the stage for everything else. Next, precision and recall builds on it. After that, confusion matrices comes into play, and finally validation sets ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+A model is only as good as the data used to train and test it. Reproducible experiments make it far easier to trust and improve a model.
+
+If you are comfortable with Model Evaluation, explore Gradient Descent next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

@@ -1,0 +1,11 @@
+Troubleshooting Version Control Workflow Problems
+
+When something breaks around Version Control Workflow, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Version Control Workflow. The term refers to the habits and rules a team uses to track and combine changes to code.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Git usually reveal the cause faster than guessing.
+
+Common culprits: vague commit messages; committing large unrelated changes; rewriting shared history. If none of these explains the symptom, re-read the basics of commits and branches.
+
+Popular tools and libraries include Git, GitHub, and pre-commit hooks.
+
+Keep experimenting, keep notes, and revisit Version Control Workflow whenever a new project gives you a reason.

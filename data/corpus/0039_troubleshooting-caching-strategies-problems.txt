@@ -1,0 +1,11 @@
+Troubleshooting Caching Strategies Problems
+
+When something breaks around Caching Strategies, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Caching Strategies. The term refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Redis usually reveal the cause faster than guessing.
+
+Common culprits: stale data; cache stampedes; unbounded memory use. If none of these explains the symptom, re-read the basics of cache-aside and write-through.
+
+Popular tools and libraries include Redis, Memcached, and HTTP cache headers.
+
+In short, careful study of Caching Strategies pays off. Spend time on cache-aside and write-through, and the rest will follow.

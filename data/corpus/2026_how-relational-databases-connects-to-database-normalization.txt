@@ -1,0 +1,13 @@
+How Relational Databases Connects to Database Normalization
+
+Relational Databases and Database Normalization are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving storing orders and customers may also involve designing clean schemas. In such a project, tables and rows and first normal form often influence each other.
+
+Start with Relational Databases: the term refers to systems that store data in tables with rows, columns and defined relationships. Then look at Database Normalization, which refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+A useful exercise is to take one example, such as reporting and analytics, and explain how second normal form would change the design.
+
+Common problems are shared too. For Relational Databases, watch for this: storing lists in a single column. For Database Normalization, watch for this: ignoring query patterns. Backups are only useful if restoring from them has been tested.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or ER diagrams.

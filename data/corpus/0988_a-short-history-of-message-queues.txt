@@ -1,0 +1,13 @@
+A Short History of Message Queues
+
+Ideas behind Message Queues developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into Message Queues. The term refers to systems that let services send work to each other asynchronously through a buffer.
+
+Clear contracts between services make systems easier to change and test.
+
+To understand Message Queues, start with producers. Then move on to consumers, and finally look at acknowledgements and retries. Understanding consumers first often makes acknowledgements much easier to reason about.
+
+If you are comfortable with Message Queues, explore REST APIs next. The two often appear in the same project.
+
+Message Queues and REST APIs are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+Keep experimenting, keep notes, and revisit Message Queues whenever a new project gives you a reason.

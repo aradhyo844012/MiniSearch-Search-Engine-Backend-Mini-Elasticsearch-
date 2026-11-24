@@ -1,0 +1,12 @@
+Key Terms in Bloom Filters Explained
+
+Clear vocabulary makes Bloom Filters much easier to learn, so here are the key terms in plain language. If you build software for long enough, you will run into Bloom Filters. The term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+bit arrays: a key term in Bloom Filters. You will meet it constantly in documentation and in code reviews.
+multiple hash functions: a key term in Bloom Filters. You will meet it constantly in documentation and in code reviews.
+false positives: a key term in Bloom Filters. It matters because it shapes how you design, test and explain your solution.
+no false negatives: a key term in Bloom Filters. You will meet it constantly in documentation and in code reviews.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Keep experimenting, keep notes, and revisit Bloom Filters whenever a new project gives you a reason.

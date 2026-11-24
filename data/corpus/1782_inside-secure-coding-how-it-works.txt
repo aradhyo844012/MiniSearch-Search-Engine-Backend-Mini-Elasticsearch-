@@ -1,0 +1,13 @@
+Inside Secure Coding: How It Works
+
+This article walks through what happens inside Secure Coding, step by step. When people talk about Secure Coding, they usually mean writing software in ways that avoid common vulnerabilities. It appears in almost every serious software project, whether or not developers notice it.
+
+Four ideas sit at the heart of Secure Coding: input validation, least privilege, dependency updates, and secret management. Each one builds on the one before it. Sketching secret management on paper before coding helps many learners see how the pieces fit.
+
+First, input validation sets the stage for everything else. Next, least privilege builds on it. After that, dependency updates comes into play, and finally secret management ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Never trust input that comes from outside your own code.
+
+A solid grasp of Secure Coding also makes Cross-Site Scripting easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Secure Coding.

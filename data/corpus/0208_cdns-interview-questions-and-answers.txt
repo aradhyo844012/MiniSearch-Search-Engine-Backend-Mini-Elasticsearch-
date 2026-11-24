@@ -1,0 +1,24 @@
+CDNs Interview Questions and Answers
+
+Prepare for these questions about CDNs.
+
+Q: Explain CDNs in simple words.
+A: CDNs refers to networks of servers around the world that deliver static content from a location close to the user. I would add an example involving serving images and scripts.
+
+Q: How does it connect to TLS Handshake?
+A: Both belong to the area of Networking, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: Cloudflare, Akamai, and Amazon CloudFront.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: caching private data.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as edge servers, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: edge servers, cache rules, origin servers, and cache purging.
+
+Q: Where would you apply it first?
+A: I would start with speeding up global sites, because it is small enough to test and large enough to show the benefit.

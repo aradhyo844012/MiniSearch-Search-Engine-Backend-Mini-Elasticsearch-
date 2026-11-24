@@ -1,0 +1,13 @@
+How Inverted Index Connects to Zipf's Law
+
+Inverted Index and Zipf's Law are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving full-text search may also involve analyzing text corpora. In such a project, vocabulary and rank and frequency often influence each other.
+
+Start with Inverted Index: the term refers to a data structure that maps each term to the documents that contain it. Then look at Zipf's Law, which refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+A useful exercise is to take one example, such as log search, and explain how power laws would change the design.
+
+Common problems are shared too. For Inverted Index, watch for this: building the index without normalizing text. For Zipf's Law, watch for this: reading too much into a perfect fit. Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Spend a few hours on each topic, then combine them in one small project using Lucene or matplotlib.

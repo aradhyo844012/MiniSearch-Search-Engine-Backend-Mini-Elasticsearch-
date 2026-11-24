@@ -1,0 +1,9 @@
+Case Study: Applying Cross-Site Scripting in a Small Team
+
+Imagine a small student team building a project that depends on Cross-Site Scripting. When people talk about Cross-Site Scripting, they usually mean a vulnerability where attackers get a site to run their scripts in other users' browsers. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning reflected XSS and stored XSS. Early on they hit a familiar problem: inserting user text as raw HTML. After fixing it, they used OWASP guides to check their work and adopted Cross-Site Scripting for reviewing web forms. Looking back, they said the biggest lesson was to keep the design simple.
+
+Watch out for these problems: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy.
+
+In short, careful study of Cross-Site Scripting pays off. Spend time on reflected XSS and stored XSS, and the rest will follow.

@@ -1,0 +1,17 @@
+A Beginner's Guide to Relational Databases
+
+This guide is written for readers who are new to Relational Databases and want a clear starting point. Many students first meet Relational Databases in a classroom, but it matters just as much in production systems. The term refers to systems that store data in tables with rows, columns and defined relationships.
+
+Backups are only useful if restoring from them has been tested. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Four ideas sit at the heart of Relational Databases: tables and rows, primary keys, foreign keys, and schemas. Each one builds on the one before it. Sketching schemas on paper before coding helps many learners see how the pieces fit.
+
+You will see Relational Databases whenever people work on storing orders and customers or reporting and analytics. It also helps with content management.
+
+Popular tools and libraries include PostgreSQL, MySQL, and SQLite.
+
+Beginners often stumble on three things. First: skipping constraints. Second: storing lists in a single column. Third: missing indexes on filtered columns.
+
+Start small by applying Relational Databases to one case, such as storing orders and customers, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Relational Databases helps the next developer.
+
+Keep experimenting, keep notes, and revisit Relational Databases whenever a new project gives you a reason.

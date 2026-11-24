@@ -1,0 +1,17 @@
+Myths and Facts About Serverless Computing
+
+A lot of folklore has built up around Serverless Computing. Some of it is true, and some of it is not. When people talk about Serverless Computing, they usually mean running code in managed functions without maintaining servers yourself. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Serverless Computing is only for experts.
+Fact: beginners can use it effectively once they understand functions and event triggers.
+
+Myth: Serverless Computing is only useful in very large systems.
+Fact: small projects such as webhooks benefit as well.
+
+Myth: one tool does everything.
+Fact: AWS Lambda, Cloud Functions, and Azure Functions make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Serverless Computing are always obvious.
+Fact: subtle problems happen, for example cold start delays.
+
+With steady practice, Serverless Computing will stop feeling abstract and become a tool you reach for naturally.

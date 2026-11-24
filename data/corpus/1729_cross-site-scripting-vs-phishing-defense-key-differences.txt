@@ -1,0 +1,15 @@
+Cross-Site Scripting vs Phishing Defense: Key Differences
+
+Cross-Site Scripting and Phishing Defense both belong to the area of Security, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. Its core ideas are reflected XSS, stored XSS, and output encoding.
+
+The term Phishing Defense refers to recognizing and reducing attacks that trick people into revealing information. Its core ideas are suspicious links, sender verification, and email filtering.
+
+The main difference is focus. Cross-Site Scripting puts the emphasis on reflected XSS and stored XSS, while Phishing Defense puts the emphasis on suspicious links and sender verification.
+
+Reach for Cross-Site Scripting when your task involves reviewing web forms or securing comment sections. Reach for Phishing Defense when your task involves protecting employees or securing shared mailboxes.
+
+Both have risks. With Cross-Site Scripting, watch for this: inserting user text as raw HTML. With Phishing Defense, watch for this: clicking before checking.
+
+In practice you do not always have to choose. Many projects use Cross-Site Scripting alongside Phishing Defense, with tools such as OWASP guides and SPF. Attackers usually choose the easiest weakness, not the most interesting one.

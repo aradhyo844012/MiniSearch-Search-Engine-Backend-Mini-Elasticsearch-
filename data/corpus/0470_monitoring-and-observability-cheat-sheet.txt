@@ -1,0 +1,11 @@
+Monitoring and Observability Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Monitoring and Observability.
+
+- Definition: collecting metrics, logs and traces so you can understand how a system behaves.
+- Core ideas: metrics; logs; traces; alerts.
+- Use it for: detecting outages; finding slow requests; capacity planning.
+- Watch out for: noisy alerts; logs without context; dashboards nobody reads.
+- Tools: Prometheus, Grafana, OpenTelemetry.
+- Quick tip: practice metrics until it feels automatic.
+- Related topic: Infrastructure as Code.

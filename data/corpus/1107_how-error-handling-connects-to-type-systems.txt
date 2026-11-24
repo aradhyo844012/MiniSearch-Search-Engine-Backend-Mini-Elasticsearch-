@@ -1,0 +1,13 @@
+How Error Handling Connects to Type Systems
+
+Error Handling and Type Systems are closely connected parts of Programming. Seeing how they fit together helps you learn both faster.
+
+A project involving reading files may also involve catching bugs early. In such a project, exceptions and static and dynamic typing often influence each other.
+
+Start with Error Handling: the term refers to planning for failures so that programs respond clearly instead of crashing. Then look at Type Systems, which refers to the rules a language uses to classify values and catch mistakes.
+
+A useful exercise is to take one example, such as calling networks, and explain how type inference would change the design.
+
+Common problems are shared too. For Error Handling, watch for this: catching overly broad errors. For Type Systems, watch for this: overusing any types. Clear error messages and good names make programs far easier to debug.
+
+Spend a few hours on each topic, then combine them in one small project using Python try and except or mypy.

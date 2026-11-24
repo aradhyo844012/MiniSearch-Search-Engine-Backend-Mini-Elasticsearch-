@@ -1,0 +1,11 @@
+Case Study: Applying Monitoring and Observability in a Small Team
+
+Imagine a small student team building a project that depends on Monitoring and Observability. Many students first meet Monitoring and Observability in a classroom, but it matters just as much in production systems. The term refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+The team first spent a week learning metrics and logs. Early on they hit a familiar problem: noisy alerts. After fixing it, they used Prometheus to check their work and adopted Monitoring and Observability for detecting outages. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Beginners often stumble on three things. First: noisy alerts. Second: logs without context. Third: dashboards nobody reads.
+
+Small, frequent releases are usually safer than rare, large ones.
+
+In short, careful study of Monitoring and Observability pays off. Spend time on metrics and logs, and the rest will follow.

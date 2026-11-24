@@ -1,0 +1,18 @@
+Inverted Index Interview Questions and Answers
+
+Prepare for these questions about Inverted Index.
+
+Q: Explain Inverted Index in simple words.
+A: Inverted Index refers to a data structure that maps each term to the documents that contain it. I would add an example involving full-text search.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as vocabulary, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: scanning very long postings lists.
+
+Q: What are the key concepts?
+A: vocabulary, postings lists, term frequency, and document frequency.
+
+Q: What problems have you seen in practice?
+A: scanning very long postings lists; building the index without normalizing text; and forgetting to update it after changes.

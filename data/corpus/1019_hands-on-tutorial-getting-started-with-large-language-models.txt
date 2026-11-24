@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Large Language Models
+
+This hands-on tutorial takes you from zero to a small working experiment with Large Language Models. The term Large Language Models refers to very large neural networks trained on text that can generate and analyze language. This article explains the idea in plain language and points out where it fits in real projects.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain pretraining back to you; teaching is a quick way to find gaps.
+
+Step 1: Install or open Hugging Face and create a new empty project folder.
+Step 2: Read about tokens and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses attention.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as drafting text.
+Step 6: Break your example on purpose and see what happens. A good experiment: trusting outputs without checking.
+
+In practice you can start with Hugging Face, then explore API playgrounds or evaluation harnesses as your needs grow.
+
+Three issues come up again and again: trusting outputs without checking; vague prompts; and sending sensitive data carelessly. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Large Language Models.

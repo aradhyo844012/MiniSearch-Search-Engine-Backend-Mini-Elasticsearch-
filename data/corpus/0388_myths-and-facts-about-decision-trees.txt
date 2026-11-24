@@ -1,0 +1,19 @@
+Myths and Facts About Decision Trees
+
+A lot of folklore has built up around Decision Trees. Some of it is true, and some of it is not. When people talk about Decision Trees, they usually mean models that make predictions by asking a sequence of simple questions about the data. It appears in almost every serious software project, whether or not developers notice it.
+
+Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Decision Trees should behave. Tests double as documentation for your teammates. Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent.
+
+Myth: Decision Trees is only for experts.
+Fact: beginners can use it effectively once they understand splits and entropy and Gini impurity.
+
+Myth: Decision Trees is only useful in very large systems.
+Fact: small projects such as classifying customers benefit as well.
+
+Myth: one tool does everything.
+Fact: scikit-learn, XGBoost, and Graphviz make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Decision Trees are always obvious.
+Fact: subtle problems happen, for example deep trees that overfit.
+
+In short, careful study of Decision Trees pays off. Spend time on splits and entropy and Gini impurity, and the rest will follow.

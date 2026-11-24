@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Cross-Site Scripting
+
+This hands-on tutorial takes you from zero to a small working experiment with Cross-Site Scripting. Many students first meet Cross-Site Scripting in a classroom, but it matters just as much in production systems. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Step 1: Install or open OWASP guides and create a new empty project folder.
+Step 2: Read about reflected XSS and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses stored XSS.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as reviewing web forms.
+Step 6: Break your example on purpose and see what happens. A good experiment: inserting user text as raw HTML.
+
+In practice you can start with OWASP guides, then explore CSP evaluators or browser developer tools as your needs grow.
+
+Watch out for these problems: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cross-Site Scripting.

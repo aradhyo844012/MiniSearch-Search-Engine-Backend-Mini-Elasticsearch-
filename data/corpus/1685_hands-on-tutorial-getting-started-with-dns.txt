@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with DNS
+
+This hands-on tutorial takes you from zero to a small working experiment with DNS. Put simply, DNS covers the system that translates human-friendly domain names into IP addresses. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open dig and create a new empty project folder.
+Step 2: Read about resolvers and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses records.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as mapping domains to servers.
+Step 6: Break your example on purpose and see what happens. A good experiment: forgetting TTLs when migrating.
+
+Popular tools and libraries include dig, nslookup, and Cloudflare DNS.
+
+Beginners often stumble on three things. First: forgetting TTLs when migrating. Second: mistyped records. Third: assuming changes apply instantly.
+
+Every web request crosses several layers of protocols before it reaches an application. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+Keep experimenting, keep notes, and revisit DNS whenever a new project gives you a reason.

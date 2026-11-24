@@ -1,0 +1,11 @@
+The Future of WebSockets
+
+Predicting the future is risky, but the direction of WebSockets is easy to describe in general terms. The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+Network failures are normal, so well-designed software expects timeouts and retries.
+
+Expect tools such as Socket.IO and ws library to keep improving, and expect newer ideas to keep building on persistent connections. The basics, though, tend to stay the same, so time spent on messages and heartbeats is rarely wasted. Anyone working on chat applications will keep meeting WebSockets for years to come.
+
+Practice persistent connections with small exercises until it feels natural. Measure before you optimize. Use Socket.IO or a simple timer to see where time is actually spent.
+
+With steady practice, WebSockets will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,11 @@
+The Future of Functional Programming
+
+Predicting the future is risky, but the direction of Functional Programming is easy to describe in general terms. If you build software for long enough, you will run into Functional Programming. The term refers to a style of programming that builds programs from functions and avoids shared mutable state.
+
+Reading other people's code is one of the fastest ways to improve as a programmer.
+
+Expect tools such as Python functools and JavaScript array methods to keep improving, and expect newer ideas to keep building on pure functions. The basics, though, tend to stay the same, so time spent on immutability and higher-order functions is rarely wasted. Anyone working on data transformation will keep meeting Functional Programming for years to come.
+
+Start small by applying Functional Programming to one case, such as data transformation, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Functional Programming helps the next developer.
+
+With steady practice, Functional Programming will stop feeling abstract and become a tool you reach for naturally.

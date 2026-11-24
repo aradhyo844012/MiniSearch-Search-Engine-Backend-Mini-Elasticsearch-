@@ -1,0 +1,11 @@
+Database Transactions Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Database Transactions.
+
+- Definition: groups of operations that succeed or fail together.
+- Core ideas: atomicity; consistency; isolation; durability.
+- Use it for: transferring money between accounts; placing orders; updating inventory.
+- Watch out for: holding transactions open too long; ignoring isolation levels; forgetting to roll back on errors.
+- Tools: PostgreSQL, SQLAlchemy, JDBC.
+- Related topic: Database Sharding.
+- Quick tip: practice atomicity until it feels automatic.

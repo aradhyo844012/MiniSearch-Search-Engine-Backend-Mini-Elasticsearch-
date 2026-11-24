@@ -1,0 +1,11 @@
+Large Language Models Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Large Language Models.
+
+- Definition: very large neural networks trained on text that can generate and analyze language.
+- Core ideas: tokens; attention; pretraining; prompts.
+- Use it for: drafting text; answering questions; assisting with code.
+- Watch out for: trusting outputs without checking; vague prompts; sending sensitive data carelessly.
+- Tools: Hugging Face, API playgrounds, evaluation harnesses.
+- Related topic: Gradient Descent.
+- Quick tip: write a tiny test for attention before building anything large.

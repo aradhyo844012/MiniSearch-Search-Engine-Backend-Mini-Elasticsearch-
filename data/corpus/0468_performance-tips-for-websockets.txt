@@ -1,0 +1,15 @@
+Performance Tips for WebSockets
+
+Fast software rarely happens by accident, and WebSockets offers several places to gain speed. If you build software for long enough, you will run into WebSockets. The term refers to a protocol that keeps a two-way connection open between a browser and a server.
+
+Start by measuring. Use Socket.IO or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to persistent connections and messages, because they usually decide how well things scale. For workloads such as chat applications, even small improvements add up quickly.
+
+The vocabulary of WebSockets is small. Learn persistent connections, messages, heartbeats, and reconnection, and most documentation will start to make sense. A good way to remember persistent connections is to connect it with a concrete example from your own code.
+
+Write a few tests that show how WebSockets should behave. Tests double as documentation for your teammates. Ask a teammate to explain heartbeats back to you; teaching is a quick way to find gaps.
+
+If you are comfortable with WebSockets, explore CDNs next. The two often appear in the same project.
+
+Three issues come up again and again: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with WebSockets.

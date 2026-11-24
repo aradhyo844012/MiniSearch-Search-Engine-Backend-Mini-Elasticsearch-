@@ -1,0 +1,15 @@
+Best Practices for Linear Regression
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Linear Regression, they usually mean a method for predicting a number by fitting a straight line or plane to data. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Start small by applying Linear Regression to one case, such as predicting prices, before rolling it out more widely.
+3. Ask a teammate to explain least squares back to you; teaching is a quick way to find gaps.
+4. Keep notes on what worked. A short README explaining your decisions about Linear Regression helps the next developer.
+5. Read the official documentation for NumPy; it often explains residuals better than blog posts do.
+
+In practice you can start with scikit-learn, then explore NumPy or statsmodels as your needs grow.
+
+If you are comfortable with Linear Regression, explore Decision Trees next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Linear Regression whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+How Virtual Memory Connects to Deadlocks
+
+Virtual Memory and Deadlocks are closely connected parts of Operating Systems. Seeing how they fit together helps you learn both faster.
+
+A project involving isolating programs may also involve database lock conflicts. In such a project, pages and mutual exclusion often influence each other.
+
+Start with Virtual Memory: the term refers to a technique that gives each program its own address space backed by RAM and disk. Then look at Deadlocks, which refers to situations where two or more tasks wait for each other forever.
+
+A useful exercise is to take one example, such as running programs larger than RAM, and explain how hold and wait would change the design.
+
+Common problems are shared too. For Virtual Memory, watch for this: ignoring page fault costs. For Deadlocks, watch for this: holding locks while waiting on I/O. Logs and system monitors are the first place to look when a machine misbehaves.
+
+Spend a few hours on each topic, then combine them in one small project using vmstat or thread dumps.

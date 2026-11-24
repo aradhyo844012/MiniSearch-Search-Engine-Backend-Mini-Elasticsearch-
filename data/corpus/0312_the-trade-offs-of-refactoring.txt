@@ -1,0 +1,13 @@
+The Trade-offs of Refactoring
+
+Every design choice has a cost, and Refactoring is no exception. Put simply, Refactoring covers improving the structure of existing code without changing its behavior. Learning it well pays off across many areas of computing.
+
+On the positive side, Refactoring is well suited to reducing duplication and preparing for new features. On the other hand, it is not free. Keep these risks in mind: refactoring without tests; mixing refactoring with new features; rewriting instead of improving. Whether the trade is worth it depends on how much small steps and tests as a safety net matter to your project.
+
+Read the official documentation for pytest; it often explains tests as a safety net better than blog posts do. Practice small steps with small exercises until it feels natural.
+
+Watch out for these problems: refactoring without tests; mixing refactoring with new features; and rewriting instead of improving.
+
+Start small by applying Refactoring to one case, such as reducing duplication, before rolling it out more widely. Read the official documentation for pytest; it often explains tests as a safety net better than blog posts do.
+
+Keep experimenting, keep notes, and revisit Refactoring whenever a new project gives you a reason.

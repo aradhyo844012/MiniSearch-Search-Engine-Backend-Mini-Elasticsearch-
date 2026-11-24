@@ -1,0 +1,17 @@
+A Beginner's Guide to Neural Networks
+
+This guide is written for readers who are new to Neural Networks and want a clear starting point. Put simply, Neural Networks covers models made of layers of connected units that learn patterns from data. Learning it well pays off across many areas of computing.
+
+Simple baselines are worth building first because they show what improvement is realistic. A model is only as good as the data used to train and test it.
+
+Four ideas sit at the heart of Neural Networks: layers, weights, activation functions, and backpropagation. Each one builds on the one before it. Understanding weights first often makes activation functions much easier to reason about.
+
+People use Neural Networks for image recognition, for speech recognition, and for language tasks.
+
+In practice you can start with PyTorch, then explore TensorFlow or Keras as your needs grow.
+
+Beginners often stumble on three things. First: too little training data. Second: poor learning rate choices. Third: not monitoring validation loss.
+
+Write a few tests that show how Neural Networks should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: too little training data. Read the official documentation for TensorFlow; it often explains weights better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Neural Networks.

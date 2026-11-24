@@ -1,0 +1,16 @@
+Cross-Site Scripting: Frequently Asked Questions
+
+Q: What is Cross-Site Scripting?
+A: The term Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Q: Why do developers use Cross-Site Scripting?
+A: Common uses include reviewing web forms, securing comment sections, and hardening dashboards.
+
+Q: What mistakes are most common?
+A: Watch for these: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy.
+
+Q: Which tools help?
+A: Popular choices include OWASP guides, CSP evaluators, and browser developer tools.
+
+Q: What should a beginner learn first?
+A: Start with reflected XSS and stored XSS, then move on to output encoding and content security policy.

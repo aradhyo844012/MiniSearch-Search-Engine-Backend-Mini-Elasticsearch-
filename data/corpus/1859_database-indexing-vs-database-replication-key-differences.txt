@@ -1,0 +1,15 @@
+Database Indexing vs Database Replication: Key Differences
+
+Database Indexing and Database Replication both belong to the area of Databases, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Database Indexing refers to auxiliary structures that let a database find rows without scanning a whole table. Its core ideas are B-tree indexes, selectivity, and composite indexes.
+
+The term Database Replication refers to copying data from one database server to others to improve availability and read capacity. Its core ideas are primary and replica, replication lag, and failover.
+
+The main difference is focus. Database Indexing puts the emphasis on B-tree indexes and selectivity, while Database Replication puts the emphasis on primary and replica and replication lag.
+
+Reach for Database Indexing when your task involves speeding up lookups or supporting sorted queries. Reach for Database Replication when your task involves surviving server failures or scaling read traffic.
+
+Both have risks. With Database Indexing, watch for this: indexing every column. With Database Replication, watch for this: reading stale data from replicas.
+
+In practice you do not always have to choose. Many projects use Database Indexing alongside Database Replication, with tools such as EXPLAIN plans and PostgreSQL streaming replication. Data that must survive restarts and crashes belongs in a database rather than in memory.

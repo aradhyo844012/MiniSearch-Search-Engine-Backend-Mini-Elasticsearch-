@@ -1,0 +1,15 @@
+Rate Limiting vs Message Queues: Key Differences
+
+Rate Limiting and Message Queues both belong to the area of Backend and APIs, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Rate Limiting refers to controlling how many requests a client can make in a given period. Its core ideas are token bucket, fixed window, and sliding window.
+
+The term Message Queues refers to systems that let services send work to each other asynchronously through a buffer. Its core ideas are producers, consumers, and acknowledgements.
+
+The main difference is focus. Rate Limiting puts the emphasis on token bucket and fixed window, while Message Queues puts the emphasis on producers and consumers.
+
+Reach for Rate Limiting when your task involves protecting APIs or stopping brute force attempts. Reach for Message Queues when your task involves sending emails or processing uploads.
+
+Both have risks. With Rate Limiting, watch for this: limits that are too strict. With Message Queues, watch for this: losing messages without acknowledgements.
+
+In practice you do not always have to choose. Many projects use Rate Limiting alongside Message Queues, with tools such as Redis and RabbitMQ. Clear contracts between services make systems easier to change and test.

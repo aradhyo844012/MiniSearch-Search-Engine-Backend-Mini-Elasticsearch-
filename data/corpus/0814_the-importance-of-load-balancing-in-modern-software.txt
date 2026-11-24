@@ -1,0 +1,13 @@
+The Importance of Load Balancing in Modern Software
+
+It is easy to underestimate Load Balancing until something goes wrong without it. Put simply, Load Balancing covers spreading incoming requests across several servers so no single server is overwhelmed. Learning it well pays off across many areas of computing.
+
+Latency is limited by distance and by the number of round trips a request needs.
+
+People use Load Balancing for scaling web applications, for avoiding downtime, and for rolling deployments.
+
+Watch out for these problems: the balancer becoming a single point of failure; ignoring health checks; and session data stored only on one server.
+
+Load Balancing and DNS are closely related, so learning both gives a fuller picture of Networking.
+
+In short, careful study of Load Balancing pays off. Spend time on round robin and health checks, and the rest will follow.

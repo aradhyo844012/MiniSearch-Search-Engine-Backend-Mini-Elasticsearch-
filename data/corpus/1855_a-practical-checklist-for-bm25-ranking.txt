@@ -1,0 +1,12 @@
+A Practical Checklist for BM25 Ranking
+
+Use this checklist before you rely on BM25 Ranking in a project.
+
+1. Guard against this risk: comparing scores across different queries.
+2. Review how BM25 Ranking interacts with Edit Distance.
+3. Pick a tool to start with, such as Elasticsearch or rank_bm25.
+4. Review the core ideas: term saturation, document length normalization, k1 and b parameters, and inverse document frequency.
+5. Guard against this risk: ignoring field boundaries.
+6. Guard against this risk: untuned parameters.
+7. Confirm that your team agrees on what BM25 Ranking should accomplish.
+8. Measure results before and after any change.

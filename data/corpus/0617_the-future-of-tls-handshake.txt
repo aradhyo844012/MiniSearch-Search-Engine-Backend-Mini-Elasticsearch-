@@ -1,0 +1,13 @@
+The Future of TLS Handshake
+
+Predicting the future is risky, but the direction of TLS Handshake is easy to describe in general terms. The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. This article explains the idea in plain language and points out where it fits in real projects.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+Expect tools such as OpenSSL and Let's Encrypt to keep improving, and expect newer ideas to keep building on certificates. The basics, though, tend to stay the same, so time spent on cipher suites and session keys is rarely wasted. Anyone working on securing websites will keep meeting TLS Handshake for years to come.
+
+Ask a teammate to explain session keys back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Let's Encrypt; it often explains cipher suites better than blog posts do.
+
+Measure before you optimize. Use OpenSSL or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce. Practice certificates with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit TLS Handshake whenever a new project gives you a reason.

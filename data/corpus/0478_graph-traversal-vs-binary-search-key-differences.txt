@@ -1,0 +1,15 @@
+Graph Traversal vs Binary Search: Key Differences
+
+Graph Traversal and Binary Search both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Its core ideas are adjacency lists, breadth-first search, and depth-first search.
+
+The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. Its core ideas are sorted input, low and high bounds, and midpoint calculation.
+
+The main difference is focus. Graph Traversal puts the emphasis on adjacency lists and breadth-first search, while Binary Search puts the emphasis on sorted input and low and high bounds.
+
+Reach for Graph Traversal when your task involves finding shortest paths in unweighted graphs or detecting cycles. Reach for Binary Search when your task involves looking up values in sorted arrays or finding insertion points.
+
+Both have risks. With Graph Traversal, watch for this: forgetting to mark nodes as visited. With Binary Search, watch for this: off-by-one errors.
+
+In practice you do not always have to choose. Many projects use Graph Traversal alongside Binary Search, with tools such as NetworkX and Python bisect. Algorithms are easiest to learn by tracing small examples on paper before writing any code.

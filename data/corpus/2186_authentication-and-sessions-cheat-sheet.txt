@@ -1,0 +1,11 @@
+Authentication and Sessions Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Authentication and Sessions.
+
+- Definition: the process of proving who a user is and remembering them between requests.
+- Core ideas: credentials; session cookies; tokens; expiration.
+- Use it for: logging in to web apps; protecting admin pages; tracking signed-in users.
+- Watch out for: storing session IDs insecurely; never expiring sessions; trusting client-side checks.
+- Tools: Flask-Login, Django auth, Passport.js.
+- Related topic: JSON.
+- Quick tip: write a tiny test for session cookies before building anything large.

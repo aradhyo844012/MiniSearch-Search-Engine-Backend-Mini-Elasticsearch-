@@ -1,0 +1,13 @@
+Performance Tips for Infrastructure as Code
+
+Fast software rarely happens by accident, and Infrastructure as Code offers several places to gain speed. The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Terraform or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to declarative configuration and state, because they usually decide how well things scale. For workloads such as recreating environments, even small improvements add up quickly.
+
+Four ideas sit at the heart of Infrastructure as Code: declarative configuration, state, modules, and drift. Each one builds on the one before it. A good way to remember declarative configuration is to connect it with a concrete example from your own code.
+
+Keep an eye on this risk during code review: manual changes causing drift. Measure before you optimize. Use Terraform or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Watch out for these problems: manual changes causing drift; hard-coded secrets; and huge monolithic configurations.
+
+Keep experimenting, keep notes, and revisit Infrastructure as Code whenever a new project gives you a reason.

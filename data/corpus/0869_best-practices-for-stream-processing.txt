@@ -1,0 +1,17 @@
+Best Practices for Stream Processing
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Stream Processing covers handling data continuously as it arrives rather than in large batches. Learning it well pays off across many areas of computing.
+
+1. Keep an eye on this risk during code review: late events.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Write a few tests that show how Stream Processing should behave. Tests double as documentation for your teammates.
+4. Ask a teammate to explain offsets back to you; teaching is a quick way to find gaps.
+5. Measure before you optimize. Use Apache Kafka or a simple timer to see where time is actually spent.
+
+A solid grasp of Stream Processing also makes ETL Pipelines easier to understand.
+
+Popular tools and libraries include Apache Kafka, Apache Flink, and Spark Structured Streaming.
+
+A solid grasp of Stream Processing also makes ETL Pipelines easier to understand.
+
+Keep experimenting, keep notes, and revisit Stream Processing whenever a new project gives you a reason.

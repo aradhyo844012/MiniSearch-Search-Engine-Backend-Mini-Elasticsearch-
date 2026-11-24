@@ -1,0 +1,13 @@
+Troubleshooting Stop Words Problems
+
+When something breaks around Stop Words, a calm and systematic approach saves the most time. Put simply, Stop Words covers very common words such as the and of that are often ignored by search systems. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and NLTK stopwords usually reveal the cause faster than guessing.
+
+Common culprits: removing words that matter in phrases; using the wrong language list; inconsistent handling at index and query time. If none of these explains the symptom, re-read the basics of frequency lists and index size.
+
+In practice you can start with NLTK stopwords, then explore scikit-learn or custom word lists as your needs grow.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+With steady practice, Stop Words will stop feeling abstract and become a tool you reach for naturally.

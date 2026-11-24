@@ -1,0 +1,13 @@
+Common Mistakes When Working with Rate Limiting
+
+Almost everyone makes a few avoidable errors when first working with Rate Limiting. When people talk about Rate Limiting, they usually mean controlling how many requests a client can make in a given period. It appears in almost every serious software project, whether or not developers notice it.
+
+Beginners often stumble on three things. First: limits that are too strict. Second: keeping counters only on one server. Third: no helpful error messages.
+
+Consider the first problem: limits that are too strict. A short test or a careful review comment usually catches it. The second problem is similar: keeping counters only on one server. The third problem is this: no helpful error messages. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Rate Limiting should behave. Tests double as documentation for your teammates. Practice token bucket with small exercises until it feels natural. Start small by applying Rate Limiting to one case, such as protecting APIs, before rolling it out more widely.
+
+Failures between services are normal, so retries and timeouts need careful design.
+
+In short, careful study of Rate Limiting pays off. Spend time on token bucket and fixed window, and the rest will follow.

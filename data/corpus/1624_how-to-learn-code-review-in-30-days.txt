@@ -1,0 +1,14 @@
+How to Learn Code Review in 30 Days
+
+You do not need months to become comfortable with Code Review. A focused plan of thirty days is enough to build a solid base. When people talk about Code Review, they usually mean having teammates examine changes before they are merged. It appears in almost every serious software project, whether or not developers notice it.
+
+Keep an eye on this risk during code review: huge pull requests. Practice pull requests with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Week 1: learn pull requests and review comments, and write a one-page summary.
+Week 2: practice with GitHub pull requests on a small task such as catching bugs early.
+Week 3: build a mini project around sharing knowledge.
+Week 4: review common mistakes such as huge pull requests, and explain Code Review to a friend.
+
+In practice you can start with GitHub pull requests, then explore GitLab merge requests or linters as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Code Review.

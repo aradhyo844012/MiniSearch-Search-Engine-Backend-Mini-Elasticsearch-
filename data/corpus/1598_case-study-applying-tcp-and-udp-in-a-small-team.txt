@@ -1,0 +1,9 @@
+Case Study: Applying TCP and UDP in a Small Team
+
+Imagine a small student team building a project that depends on TCP and UDP. Put simply, TCP and UDP covers the two main transport protocols, one reliable and ordered and the other fast and connectionless. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning handshakes and acknowledgements. Early on they hit a familiar problem: assuming UDP guarantees delivery. After fixing it, they used Wireshark to check their work and adopted TCP and UDP for web traffic. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Three issues come up again and again: assuming UDP guarantees delivery; ignoring timeouts; and opening too many connections. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TCP and UDP.

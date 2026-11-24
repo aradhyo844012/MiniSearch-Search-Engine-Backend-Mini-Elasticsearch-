@@ -1,0 +1,11 @@
+A Practical Checklist for Database Sharding
+
+Use this checklist before you rely on Database Sharding in a project.
+
+1. Guard against this risk: hot shards.
+2. Try the approach on a small case, for example scaling beyond one server.
+3. Measure results before and after any change.
+4. Review the core ideas: shard keys, routing, rebalancing, and cross-shard queries.
+5. Confirm that your team agrees on what Database Sharding should accomplish.
+6. Ask a teammate to review the work, focusing on routing.
+7. Write at least one automated test that covers shard keys.

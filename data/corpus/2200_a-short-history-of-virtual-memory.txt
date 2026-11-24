@@ -1,0 +1,11 @@
+A Short History of Virtual Memory
+
+Ideas behind Virtual Memory developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Virtual Memory in a classroom, but it matters just as much in production systems. The term refers to a technique that gives each program its own address space backed by RAM and disk.
+
+Logs and system monitors are the first place to look when a machine misbehaves.
+
+The vocabulary of Virtual Memory is small. Learn pages, page tables, page faults, and swapping, and most documentation will start to make sense. A good way to remember pages is to connect it with a concrete example from your own code.
+
+Virtual Memory and Linux Command Line are closely related, so learning both gives a fuller picture of Operating Systems.
+
+With steady practice, Virtual Memory will stop feeling abstract and become a tool you reach for naturally.

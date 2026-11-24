@@ -1,0 +1,19 @@
+Myths and Facts About Gradient Descent
+
+A lot of folklore has built up around Gradient Descent. Some of it is true, and some of it is not. Put simply, Gradient Descent covers an optimization method that improves a model by repeatedly stepping in the direction that reduces error. Learning it well pays off across many areas of computing.
+
+Myth: Gradient Descent is only for experts.
+Fact: beginners can use it effectively once they understand learning rate and gradients.
+
+Myth: Gradient Descent is only useful in very large systems.
+Fact: small projects such as training neural networks benefit as well.
+
+Myth: one tool does everything.
+Fact: PyTorch, NumPy, and TensorFlow make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Gradient Descent are always obvious.
+Fact: subtle problems happen, for example learning rates that are too large.
+
+Reproducible experiments make it far easier to trust and improve a model.
+
+Keep experimenting, keep notes, and revisit Gradient Descent whenever a new project gives you a reason.

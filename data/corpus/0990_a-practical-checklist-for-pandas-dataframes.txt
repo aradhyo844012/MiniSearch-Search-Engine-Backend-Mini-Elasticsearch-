@@ -1,0 +1,12 @@
+A Practical Checklist for Pandas DataFrames
+
+Use this checklist before you rely on Pandas DataFrames in a project.
+
+1. Guard against this risk: forgetting to check data types.
+2. Write at least one automated test that covers rows and columns.
+3. Ask a teammate to review the work, focusing on indexing.
+4. Document your decisions in the project README.
+5. Try the approach on a small case, for example loading CSV files.
+6. Review how Pandas DataFrames interacts with ETL Pipelines.
+7. Measure results before and after any change.
+8. Review the core ideas: rows and columns, indexing, groupby, and merging.

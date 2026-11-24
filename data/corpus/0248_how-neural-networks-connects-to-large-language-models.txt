@@ -1,0 +1,13 @@
+How Neural Networks Connects to Large Language Models
+
+Neural Networks and Large Language Models are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving image recognition may also involve drafting text. In such a project, layers and tokens often influence each other.
+
+Start with Neural Networks: the term refers to models made of layers of connected units that learn patterns from data. Then look at Large Language Models, which refers to very large neural networks trained on text that can generate and analyze language.
+
+A useful exercise is to take one example, such as speech recognition, and explain how attention would change the design.
+
+Common problems are shared too. For Neural Networks, watch for this: poor learning rate choices. For Large Language Models, watch for this: vague prompts. Reproducible experiments make it far easier to trust and improve a model.
+
+Spend a few hours on each topic, then combine them in one small project using PyTorch or Hugging Face.

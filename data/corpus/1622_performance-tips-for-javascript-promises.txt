@@ -1,0 +1,13 @@
+Performance Tips for JavaScript Promises
+
+Fast software rarely happens by accident, and JavaScript Promises offers several places to gain speed. Many students first meet JavaScript Promises in a classroom, but it matters just as much in production systems. The term refers to objects that represent a value that will be available later, after an asynchronous task finishes.
+
+Start by measuring. Use fetch API or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to pending and resolved states and then and catch, because they usually decide how well things scale. For workloads such as fetching data from APIs, even small improvements add up quickly.
+
+To understand JavaScript Promises, start with pending and resolved states. Then move on to then and catch, and finally look at async and await and chaining. A good way to remember pending and resolved states is to connect it with a concrete example from your own code.
+
+Keep notes on what worked. A short README explaining your decisions about JavaScript Promises helps the next developer. Measure before you optimize. Use fetch API or a simple timer to see where time is actually spent. Write a few tests that show how JavaScript Promises should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit JavaScript Promises whenever a new project gives you a reason.

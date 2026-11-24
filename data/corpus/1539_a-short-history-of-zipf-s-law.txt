@@ -1,0 +1,13 @@
+A Short History of Zipf's Law
+
+Ideas behind Zipf's Law developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Zipf's Law, they usually mean the observation that a word's frequency is roughly inversely related to its rank in natural language. It appears in almost every serious software project, whether or not developers notice it.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Search quality depends on how text is prepared before it is ever indexed.
+
+Users judge a search engine by whether the right result appears near the top.
+
+Four ideas sit at the heart of Zipf's Law: rank and frequency, power laws, log-log plots, and long tails. Each one builds on the one before it. A good way to remember rank and frequency is to connect it with a concrete example from your own code.
+
+If you are comfortable with Zipf's Law, explore TF-IDF next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Zipf's Law.

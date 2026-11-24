@@ -1,0 +1,13 @@
+The Trade-offs of Code Review
+
+Every design choice has a cost, and Code Review is no exception. When people talk about Code Review, they usually mean having teammates examine changes before they are merged. It appears in almost every serious software project, whether or not developers notice it.
+
+Software spends most of its life being changed, not written for the first time. Readable code saves more time than clever code over the long run.
+
+On the positive side, Code Review is well suited to catching bugs early and sharing knowledge. On the other hand, it is not free. Keep these risks in mind: huge pull requests; vague comments; reviewing only style. Whether the trade is worth it depends on how much pull requests and review comments matter to your project.
+
+Watch out for these problems: huge pull requests; vague comments; and reviewing only style.
+
+Read the official documentation for GitLab merge requests; it often explains review comments better than blog posts do. Measure before you optimize. Use GitHub pull requests or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Code Review whenever a new project gives you a reason.

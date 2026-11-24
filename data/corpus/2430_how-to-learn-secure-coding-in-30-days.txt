@@ -1,0 +1,12 @@
+How to Learn Secure Coding in 30 Days
+
+You do not need months to become comfortable with Secure Coding. A focused plan of thirty days is enough to build a solid base. When people talk about Secure Coding, they usually mean writing software in ways that avoid common vulnerabilities. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn input validation and least privilege, and write a one-page summary.
+Week 2: practice with OWASP Top 10 on a small task such as reviewing pull requests.
+Week 3: build a mini project around building web services.
+Week 4: review common mistakes such as trusting user input, and explain Secure Coding to a friend.
+
+In practice you can start with OWASP Top 10, then explore static analysis tools or Dependabot as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Secure Coding.

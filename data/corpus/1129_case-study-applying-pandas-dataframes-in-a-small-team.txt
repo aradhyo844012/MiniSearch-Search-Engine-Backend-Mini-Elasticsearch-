@@ -1,0 +1,9 @@
+Case Study: Applying Pandas DataFrames in a Small Team
+
+Imagine a small student team building a project that depends on Pandas DataFrames. When people talk about Pandas DataFrames, they usually mean table-like structures in Python for loading, cleaning and analyzing data. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning rows and columns and indexing. Early on they hit a familiar problem: chained assignment surprises. After fixing it, they used pandas to check their work and adopted Pandas DataFrames for loading CSV files. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Three issues come up again and again: chained assignment surprises; loading too much data into memory; and forgetting to check data types. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Pandas DataFrames.

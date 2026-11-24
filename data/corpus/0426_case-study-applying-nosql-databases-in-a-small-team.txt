@@ -1,0 +1,11 @@
+Case Study: Applying NoSQL Databases in a Small Team
+
+Imagine a small student team building a project that depends on NoSQL Databases. The term NoSQL Databases refers to a broad family of databases that do not use the traditional relational table model. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning document stores and key-value stores. Early on they hit a familiar problem: assuming no schema means no design. After fixing it, they used MongoDB to check their work and adopted NoSQL Databases for flexible schemas. Looking back, they said the biggest lesson was to write tests earlier.
+
+Keep notes on what worked. A short README explaining your decisions about NoSQL Databases helps the next developer. Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: assuming no schema means no design.
+
+Watch out for these problems: assuming no schema means no design; weak consistency surprises; and expensive cross-collection queries.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with NoSQL Databases.

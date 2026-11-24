@@ -1,0 +1,13 @@
+How Threads and Concurrency Connects to Linux Command Line
+
+Threads and Concurrency and Linux Command Line are closely connected parts of Operating Systems. Seeing how they fit together helps you learn both faster.
+
+A project involving handling many requests may also involve automating tasks. In such a project, threads and shell often influence each other.
+
+Start with Threads and Concurrency: the term refers to ways of making progress on several tasks at once within a program. Then look at Linux Command Line, which refers to a text-based way of controlling a computer using commands and scripts.
+
+A useful exercise is to take one example, such as keeping interfaces responsive, and explain how pipes would change the design.
+
+Common problems are shared too. For Threads and Concurrency, watch for this: creating too many threads. For Linux Command Line, watch for this: forgetting quotes around paths. Logs and system monitors are the first place to look when a machine misbehaves.
+
+Spend a few hours on each topic, then combine them in one small project using Python threading or bash.

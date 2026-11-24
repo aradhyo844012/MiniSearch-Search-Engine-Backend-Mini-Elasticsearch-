@@ -1,0 +1,13 @@
+The Trade-offs of Web Performance
+
+Every design choice has a cost, and Web Performance is no exception. Many students first meet Web Performance in a classroom, but it matters just as much in production systems. The term refers to the practice of making websites load quickly and respond smoothly.
+
+On the positive side, Web Performance is well suited to shopping sites and news pages. On the other hand, it is not free. Keep these risks in mind: shipping large JavaScript bundles; unoptimized images; too many network requests. Whether the trade is worth it depends on how much page weight and caching matter to your project.
+
+Web Performance and JavaScript Promises are closely related, so learning both gives a fuller picture of Web Development.
+
+Beginners often stumble on three things. First: shipping large JavaScript bundles. Second: unoptimized images. Third: too many network requests.
+
+Ask a teammate to explain lazy loading back to you; teaching is a quick way to find gaps. Write a few tests that show how Web Performance should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Web Performance whenever a new project gives you a reason.

@@ -1,0 +1,19 @@
+Myths and Facts About SQL Injection
+
+A lot of folklore has built up around SQL Injection. Some of it is true, and some of it is not. Put simply, SQL Injection covers an attack where malicious input changes the meaning of a database query. Learning it well pays off across many areas of computing.
+
+Myth: SQL Injection is only for experts.
+Fact: beginners can use it effectively once they understand parameterized queries and input validation.
+
+Myth: SQL Injection is only useful in very large systems.
+Fact: small projects such as securing login forms benefit as well.
+
+Myth: one tool does everything.
+Fact: prepared statements, OWASP cheat sheets, and sqlmap in test environments make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with SQL Injection are always obvious.
+Fact: subtle problems happen, for example building queries with string concatenation.
+
+A solid grasp of SQL Injection also makes Password Hashing easier to understand.
+
+With steady practice, SQL Injection will stop feeling abstract and become a tool you reach for naturally.

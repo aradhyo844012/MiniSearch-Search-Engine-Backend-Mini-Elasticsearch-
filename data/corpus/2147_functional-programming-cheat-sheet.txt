@@ -1,0 +1,11 @@
+Functional Programming Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Functional Programming.
+
+- Definition: a style of programming that builds programs from functions and avoids shared mutable state.
+- Core ideas: pure functions; immutability; higher-order functions; composition.
+- Use it for: data transformation; concurrent code; testable logic.
+- Watch out for: overusing clever one-liners; hidden state; unreadable chains of functions.
+- Tools: Python functools, JavaScript array methods, Haskell.
+- Quick tip: practice pure functions until it feels automatic.
+- Related topic: Type Systems.

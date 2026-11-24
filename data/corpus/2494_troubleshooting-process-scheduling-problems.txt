@@ -1,0 +1,11 @@
+Troubleshooting Process Scheduling Problems
+
+When something breaks around Process Scheduling, a calm and systematic approach saves the most time. Put simply, Process Scheduling covers the way an operating system decides which process runs on the CPU and for how long. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and top usually reveal the cause faster than guessing.
+
+Common culprits: starvation of low priority tasks; too many context switches; ignoring CPU affinity. If none of these explains the symptom, re-read the basics of time slices and priorities.
+
+Popular tools and libraries include top, htop, and perf.
+
+Keep experimenting, keep notes, and revisit Process Scheduling whenever a new project gives you a reason.

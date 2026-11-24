@@ -1,0 +1,13 @@
+How Authentication and Sessions Connects to Caching Strategies
+
+Authentication and Sessions and Caching Strategies are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving logging in to web apps may also involve speeding up read-heavy APIs. In such a project, credentials and cache-aside often influence each other.
+
+Start with Authentication and Sessions: the term refers to the process of proving who a user is and remembering them between requests. Then look at Caching Strategies, which refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+A useful exercise is to take one example, such as protecting admin pages, and explain how write-through would change the design.
+
+Common problems are shared too. For Authentication and Sessions, watch for this: never expiring sessions. For Caching Strategies, watch for this: cache stampedes. Clear contracts between services make systems easier to change and test.
+
+Spend a few hours on each topic, then combine them in one small project using Flask-Login or Redis.

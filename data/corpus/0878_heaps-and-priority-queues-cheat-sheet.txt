@@ -1,0 +1,11 @@
+Heaps and Priority Queues Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Heaps and Priority Queues.
+
+- Definition: structures that always give quick access to the smallest or largest element.
+- Core ideas: heap property; sift up and sift down; array representation; top-k selection.
+- Use it for: scheduling tasks; selecting the top results from many candidates; Dijkstra's shortest path algorithm.
+- Watch out for: assuming a heap is fully sorted; using a full sort when only the top k are needed; mixing up min-heaps and max-heaps.
+- Tools: Python heapq, Java PriorityQueue, C++ priority_queue.
+- Related topic: Recursion.
+- Quick tip: practice heap property until it feels automatic.

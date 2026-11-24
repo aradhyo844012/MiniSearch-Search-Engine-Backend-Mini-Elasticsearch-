@@ -1,0 +1,15 @@
+Performance Tips for Hash Tables
+
+Fast software rarely happens by accident, and Hash Tables offers several places to gain speed. When people talk about Hash Tables, they usually mean a way of storing key-value pairs so that lookups take roughly constant time. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Python dict or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to hash function and buckets, because they usually decide how well things scale. For workloads such as implementing dictionaries and sets, even small improvements add up quickly.
+
+The vocabulary of Hash Tables is small. Learn hash function, buckets, collision handling, and load factor, and most documentation will start to make sense. A good way to remember hash function is to connect it with a concrete example from your own code.
+
+Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Hash Tables should behave. Tests double as documentation for your teammates.
+
+Three issues come up again and again: poor hash functions cause clustering; resizing is expensive at scale; and iteration order is not always stable. Knowing them in advance saves hours of debugging.
+
+Keep an eye on this risk during code review: poor hash functions cause clustering. Read the official documentation for Java HashMap; it often explains buckets better than blog posts do. Ask a teammate to explain collision handling back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Hash Tables whenever a new project gives you a reason.

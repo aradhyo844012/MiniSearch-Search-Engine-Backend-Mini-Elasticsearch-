@@ -1,0 +1,11 @@
+A Practical Checklist for Refactoring
+
+Use this checklist before you rely on Refactoring in a project.
+
+1. Review the core ideas: small steps, tests as a safety net, extracting functions, and renaming.
+2. Document your decisions in the project README.
+3. Guard against this risk: refactoring without tests.
+4. Pick a tool to start with, such as IDE refactoring tools or pytest.
+5. Guard against this risk: mixing refactoring with new features.
+6. Measure results before and after any change.
+7. Try the approach on a small case, for example reducing duplication.

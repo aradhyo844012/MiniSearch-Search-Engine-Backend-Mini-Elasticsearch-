@@ -1,0 +1,13 @@
+Troubleshooting Serverless Computing Problems
+
+When something breaks around Serverless Computing, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Serverless Computing. The term refers to running code in managed functions without maintaining servers yourself.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and AWS Lambda usually reveal the cause faster than guessing.
+
+Common culprits: cold start delays; vendor lock-in; hard local debugging. If none of these explains the symptom, re-read the basics of functions and event triggers.
+
+If you are comfortable with Serverless Computing, explore Docker next. The two often appear in the same project.
+
+Popular tools and libraries include AWS Lambda, Cloud Functions, and Azure Functions.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Serverless Computing.

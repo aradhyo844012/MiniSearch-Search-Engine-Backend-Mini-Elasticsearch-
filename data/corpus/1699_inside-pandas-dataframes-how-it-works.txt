@@ -1,0 +1,15 @@
+Inside Pandas DataFrames: How It Works
+
+This article walks through what happens inside Pandas DataFrames, step by step. When people talk about Pandas DataFrames, they usually mean table-like structures in Python for loading, cleaning and analyzing data. It appears in almost every serious software project, whether or not developers notice it.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis. A chart is only useful if the reader can see the point within a few seconds.
+
+To understand Pandas DataFrames, start with rows and columns. Then move on to indexing, and finally look at groupby and merging. A good way to remember rows and columns is to connect it with a concrete example from your own code.
+
+First, rows and columns sets the stage for everything else. Next, indexing builds on it. After that, groupby comes into play, and finally merging ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Pipelines should be repeatable so that results can be reproduced later.
+
+If you are comfortable with Pandas DataFrames, explore ETL Pipelines next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Pandas DataFrames.

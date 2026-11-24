@@ -1,0 +1,15 @@
+Best Practices for Site Reliability
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Site Reliability. The term refers to the discipline of keeping services dependable using engineering practices.
+
+1. Measure before you optimize. Use PagerDuty or a simple timer to see where time is actually spent.
+2. Ask a teammate to explain incident response back to you; teaching is a quick way to find gaps.
+3. Keep an eye on this risk during code review: alerting on everything.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Read the official documentation for Prometheus; it often explains error budgets better than blog posts do.
+
+In practice you can start with PagerDuty, then explore Prometheus or runbooks as your needs grow.
+
+A solid grasp of Site Reliability also makes Serverless Computing easier to understand.
+
+In short, careful study of Site Reliability pays off. Spend time on service level objectives and error budgets, and the rest will follow.

@@ -1,0 +1,15 @@
+The Importance of Site Reliability in Modern Software
+
+It is easy to underestimate Site Reliability until something goes wrong without it. The term Site Reliability refers to the discipline of keeping services dependable using engineering practices. This article explains the idea in plain language and points out where it fits in real projects.
+
+Small, frequent releases are usually safer than rare, large ones. A system that cannot be observed cannot be reliably operated.
+
+You will see Site Reliability whenever people work on running production services or reducing outages. It also helps with planning on-call rotations.
+
+Watch out for these problems: alerting on everything; blaming people instead of systems; and no written postmortems.
+
+If you are comfortable with Site Reliability, explore Docker next. The two often appear in the same project.
+
+A solid grasp of Site Reliability also makes Docker easier to understand.
+
+In short, careful study of Site Reliability pays off. Spend time on service level objectives and error budgets, and the rest will follow.

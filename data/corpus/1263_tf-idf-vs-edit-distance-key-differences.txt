@@ -1,0 +1,15 @@
+TF-IDF vs Edit Distance: Key Differences
+
+TF-IDF and Edit Distance both belong to the area of Search and Retrieval, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term TF-IDF refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall. Its core ideas are term frequency, inverse document frequency, and weighting.
+
+The term Edit Distance refers to a measure of how many single-character changes turn one word into another. Its core ideas are insertions, deletions, and substitutions.
+
+The main difference is focus. TF-IDF puts the emphasis on term frequency and inverse document frequency, while Edit Distance puts the emphasis on insertions and deletions.
+
+Reach for TF-IDF when your task involves ranking search results or finding keywords. Reach for Edit Distance when your task involves spell checking or fuzzy matching.
+
+Both have risks. With TF-IDF, watch for this: over-weighting common words. With Edit Distance, watch for this: comparing against every word in a large vocabulary.
+
+In practice you do not always have to choose. Many projects use TF-IDF alongside Edit Distance, with tools such as scikit-learn TfidfVectorizer and Levenshtein libraries. Real query logs reveal what people actually look for, which is rarely what designers expect.

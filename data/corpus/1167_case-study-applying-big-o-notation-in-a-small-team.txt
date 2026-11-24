@@ -1,0 +1,9 @@
+Case Study: Applying Big O Notation in a Small Team
+
+Imagine a small student team building a project that depends on Big O Notation. Many students first meet Big O Notation in a classroom, but it matters just as much in production systems. The term refers to a way of describing how running time or memory grows as the input size grows.
+
+The team first spent a week learning upper bounds and constant, linear and logarithmic growth. Early on they hit a familiar problem: ignoring constant factors entirely. After fixing it, they used Python timeit to check their work and adopted Big O Notation for comparing algorithms. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: ignoring constant factors entirely; mixing up best and worst case; and measuring only tiny inputs.
+
+With steady practice, Big O Notation will stop feeling abstract and become a tool you reach for naturally.

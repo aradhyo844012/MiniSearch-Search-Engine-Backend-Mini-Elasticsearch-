@@ -1,0 +1,13 @@
+How Database Indexing Connects to NoSQL Databases
+
+Database Indexing and NoSQL Databases are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving speeding up lookups may also involve flexible schemas. In such a project, B-tree indexes and document stores often influence each other.
+
+Start with Database Indexing: the term refers to auxiliary structures that let a database find rows without scanning a whole table. Then look at NoSQL Databases, which refers to a broad family of databases that do not use the traditional relational table model.
+
+A useful exercise is to take one example, such as supporting sorted queries, and explain how key-value stores would change the design.
+
+Common problems are shared too. For Database Indexing, watch for this: ignoring write overhead. For NoSQL Databases, watch for this: weak consistency surprises. Good schema design is hard to change once real data and users depend on it.
+
+Spend a few hours on each topic, then combine them in one small project using EXPLAIN plans or MongoDB.

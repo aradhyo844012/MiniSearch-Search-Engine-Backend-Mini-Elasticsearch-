@@ -1,0 +1,13 @@
+A Practical Checklist for Two-Factor Authentication
+
+Use this checklist before you rely on Two-Factor Authentication in a project.
+
+1. Guard against this risk: no recovery plan.
+2. Ask a teammate to review the work, focusing on authenticator apps.
+3. Pick a tool to start with, such as Google Authenticator or YubiKey.
+4. Measure results before and after any change.
+5. Guard against this risk: relying only on SMS.
+6. Write at least one automated test that covers one-time codes.
+7. Review how Two-Factor Authentication interacts with SQL Injection.
+8. Review the core ideas: one-time codes, authenticator apps, hardware keys, and backup codes.
+9. Document your decisions in the project README.

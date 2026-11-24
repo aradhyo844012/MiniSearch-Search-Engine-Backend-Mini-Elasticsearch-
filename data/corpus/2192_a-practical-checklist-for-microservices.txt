@@ -1,0 +1,11 @@
+A Practical Checklist for Microservices
+
+Use this checklist before you rely on Microservices in a project.
+
+1. Document your decisions in the project README.
+2. Pick a tool to start with, such as Docker or Kubernetes.
+3. Guard against this risk: splitting too early.
+4. Review how Microservices interacts with REST APIs.
+5. Ask a teammate to review the work, focusing on APIs.
+6. Measure results before and after any change.
+7. Write at least one automated test that covers service boundaries.

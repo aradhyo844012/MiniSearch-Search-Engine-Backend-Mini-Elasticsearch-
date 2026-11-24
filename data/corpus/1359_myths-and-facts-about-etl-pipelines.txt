@@ -1,0 +1,17 @@
+Myths and Facts About ETL Pipelines
+
+A lot of folklore has built up around ETL Pipelines. Some of it is true, and some of it is not. Put simply, ETL Pipelines covers processes that extract data from sources, transform it and load it into a destination. Learning it well pays off across many areas of computing.
+
+Myth: ETL Pipelines is only for experts.
+Fact: beginners can use it effectively once they understand extraction and transformation.
+
+Myth: ETL Pipelines is only useful in very large systems.
+Fact: small projects such as building reports benefit as well.
+
+Myth: one tool does everything.
+Fact: Apache Airflow, dbt, and Python scripts make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with ETL Pipelines are always obvious.
+Fact: subtle problems happen, for example silent data loss.
+
+Keep experimenting, keep notes, and revisit ETL Pipelines whenever a new project gives you a reason.

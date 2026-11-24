@@ -1,0 +1,11 @@
+Case Study: Applying Heaps and Priority Queues in a Small Team
+
+Imagine a small student team building a project that depends on Heaps and Priority Queues. Many students first meet Heaps and Priority Queues in a classroom, but it matters just as much in production systems. The term refers to structures that always give quick access to the smallest or largest element.
+
+The team first spent a week learning heap property and sift up and sift down. Early on they hit a familiar problem: assuming a heap is fully sorted. After fixing it, they used Python heapq to check their work and adopted Heaps and Priority Queues for scheduling tasks. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Heaps and Priority Queues and Sorting Algorithms are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Beginners often stumble on three things. First: assuming a heap is fully sorted. Second: using a full sort when only the top k are needed. Third: mixing up min-heaps and max-heaps.
+
+Keep experimenting, keep notes, and revisit Heaps and Priority Queues whenever a new project gives you a reason.

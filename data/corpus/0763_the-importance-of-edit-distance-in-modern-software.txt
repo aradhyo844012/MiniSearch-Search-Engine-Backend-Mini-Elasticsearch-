@@ -1,0 +1,13 @@
+The Importance of Edit Distance in Modern Software
+
+It is easy to underestimate Edit Distance until something goes wrong without it. Put simply, Edit Distance covers a measure of how many single-character changes turn one word into another. Learning it well pays off across many areas of computing.
+
+Search quality depends on how text is prepared before it is ever indexed.
+
+Typical applications include spell checking, fuzzy matching, and correcting search queries. Small projects and large systems both benefit.
+
+Watch out for these problems: comparing against every word in a large vocabulary; ignoring word length; and forgetting transpositions.
+
+A solid grasp of Edit Distance also makes Inverted Index easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Edit Distance.

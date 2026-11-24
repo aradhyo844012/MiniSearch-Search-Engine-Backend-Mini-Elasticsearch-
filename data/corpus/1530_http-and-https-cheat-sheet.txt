@@ -1,0 +1,11 @@
+HTTP and HTTPS Cheat Sheet
+
+Use this page as a quick reminder of the essentials of HTTP and HTTPS.
+
+- Definition: the request and response protocol of the web, with HTTPS adding encryption.
+- Core ideas: methods; status codes; headers; cookies.
+- Use it for: loading web pages; calling APIs; downloading files.
+- Watch out for: mixing up status codes; sending secrets in URLs; ignoring caching headers.
+- Tools: curl, Postman, browser developer tools.
+- Quick tip: practice methods until it feels automatic.
+- Quick tip: write a tiny test for status codes before building anything large.

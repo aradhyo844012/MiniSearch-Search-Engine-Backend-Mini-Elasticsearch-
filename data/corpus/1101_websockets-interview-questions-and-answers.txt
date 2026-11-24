@@ -1,0 +1,18 @@
+WebSockets Interview Questions and Answers
+
+Prepare for these questions about WebSockets.
+
+Q: Explain WebSockets in simple words.
+A: WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. I would add an example involving chat applications.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: forgetting reconnection logic.
+
+Q: How does it connect to CDNs?
+A: Both belong to the area of Networking, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections.
+
+Q: Where would you apply it first?
+A: I would start with live dashboards, because it is small enough to test and large enough to show the benefit.

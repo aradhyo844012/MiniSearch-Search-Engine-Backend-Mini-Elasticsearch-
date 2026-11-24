@@ -1,0 +1,13 @@
+Common Mistakes When Working with WebSockets
+
+Almost everyone makes a few avoidable errors when first working with WebSockets. When people talk about WebSockets, they usually mean a protocol that keeps a two-way connection open between a browser and a server. It appears in almost every serious software project, whether or not developers notice it.
+
+Watch out for these problems: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections.
+
+Consider the first problem: forgetting reconnection logic. A short test or a careful review comment usually catches it. The second problem is similar: unbounded message queues. The third problem is this: proxies closing idle connections. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep an eye on this risk during code review: forgetting reconnection logic. Ask a teammate to explain heartbeats back to you; teaching is a quick way to find gaps.
+
+Simple command-line tools can reveal a lot about what is happening on the wire.
+
+In short, careful study of WebSockets pays off. Spend time on persistent connections and messages, and the rest will follow.

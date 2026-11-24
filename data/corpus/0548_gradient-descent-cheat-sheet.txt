@@ -1,0 +1,11 @@
+Gradient Descent Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Gradient Descent.
+
+- Definition: an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+- Core ideas: learning rate; gradients; loss function; batches.
+- Use it for: training neural networks; fitting regression models; tuning parameters.
+- Watch out for: learning rates that are too large; getting stuck on plateaus; unscaled features.
+- Tools: PyTorch, NumPy, TensorFlow.
+- Quick tip: write a tiny test for gradients before building anything large.
+- Quick tip: practice learning rate until it feels automatic.

@@ -1,0 +1,19 @@
+Myths and Facts About Type Systems
+
+A lot of folklore has built up around Type Systems. Some of it is true, and some of it is not. The term Type Systems refers to the rules a language uses to classify values and catch mistakes. This article explains the idea in plain language and points out where it fits in real projects.
+
+Keep notes on what worked. A short README explaining your decisions about Type Systems helps the next developer. Write a few tests that show how Type Systems should behave. Tests double as documentation for your teammates.
+
+Myth: Type Systems is only for experts.
+Fact: beginners can use it effectively once they understand static and dynamic typing and type inference.
+
+Myth: Type Systems is only useful in very large systems.
+Fact: small projects such as catching bugs early benefit as well.
+
+Myth: one tool does everything.
+Fact: mypy, TypeScript, and Pyright make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Type Systems are always obvious.
+Fact: subtle problems happen, for example treating annotations as guarantees at runtime.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Type Systems.

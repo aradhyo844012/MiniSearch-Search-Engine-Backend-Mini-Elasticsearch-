@@ -1,0 +1,11 @@
+Case Study: Applying Virtual Memory in a Small Team
+
+Imagine a small student team building a project that depends on Virtual Memory. Many students first meet Virtual Memory in a classroom, but it matters just as much in production systems. The term refers to a technique that gives each program its own address space backed by RAM and disk.
+
+The team first spent a week learning pages and page tables. Early on they hit a familiar problem: thrashing when memory is short. After fixing it, they used vmstat to check their work and adopted Virtual Memory for isolating programs. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Keep notes on what worked. A short README explaining your decisions about Virtual Memory helps the next developer. Start small by applying Virtual Memory to one case, such as isolating programs, before rolling it out more widely. Practice pages with small exercises until it feels natural.
+
+Beginners often stumble on three things. First: thrashing when memory is short. Second: ignoring page fault costs. Third: assuming memory is always available.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Virtual Memory.

@@ -1,0 +1,13 @@
+Troubleshooting File Systems Problems
+
+When something breaks around File Systems, a calm and systematic approach saves the most time. Many students first meet File Systems in a classroom, but it matters just as much in production systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and ext4 usually reveal the cause faster than guessing.
+
+Common culprits: running out of inodes; wrong permissions; ignoring disk space limits. If none of these explains the symptom, re-read the basics of files and directories and inodes.
+
+Popular tools and libraries include ext4, NTFS, and df and du.
+
+If you are comfortable with File Systems, explore Threads and Concurrency next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with File Systems.

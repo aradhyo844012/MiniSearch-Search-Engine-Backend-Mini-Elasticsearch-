@@ -1,0 +1,17 @@
+Myths and Facts About Microservices
+
+A lot of folklore has built up around Microservices. Some of it is true, and some of it is not. If you build software for long enough, you will run into Microservices. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+Myth: Microservices is only for experts.
+Fact: beginners can use it effectively once they understand service boundaries and APIs.
+
+Myth: Microservices is only useful in very large systems.
+Fact: small projects such as large teams working in parallel benefit as well.
+
+Myth: one tool does everything.
+Fact: Docker, Kubernetes, and API gateways make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Microservices are always obvious.
+Fact: subtle problems happen, for example splitting too early.
+
+Keep experimenting, keep notes, and revisit Microservices whenever a new project gives you a reason.

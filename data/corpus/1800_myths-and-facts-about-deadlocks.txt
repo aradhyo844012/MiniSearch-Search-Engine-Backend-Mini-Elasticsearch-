@@ -1,0 +1,17 @@
+Myths and Facts About Deadlocks
+
+A lot of folklore has built up around Deadlocks. Some of it is true, and some of it is not. Many students first meet Deadlocks in a classroom, but it matters just as much in production systems. The term refers to situations where two or more tasks wait for each other forever.
+
+Myth: Deadlocks is only for experts.
+Fact: beginners can use it effectively once they understand mutual exclusion and hold and wait.
+
+Myth: Deadlocks is only useful in very large systems.
+Fact: small projects such as database lock conflicts benefit as well.
+
+Myth: one tool does everything.
+Fact: thread dumps, database deadlock logs, and static analyzers make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Deadlocks are always obvious.
+Fact: subtle problems happen, for example acquiring locks in inconsistent order.
+
+With steady practice, Deadlocks will stop feeling abstract and become a tool you reach for naturally.

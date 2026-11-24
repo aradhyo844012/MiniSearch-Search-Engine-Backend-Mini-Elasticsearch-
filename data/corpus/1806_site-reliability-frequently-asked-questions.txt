@@ -1,0 +1,16 @@
+Site Reliability: Frequently Asked Questions
+
+Q: What is Site Reliability?
+A: The term Site Reliability refers to the discipline of keeping services dependable using engineering practices.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Site Reliability.
+
+Q: Which tools help?
+A: Popular choices include PagerDuty, Prometheus, and runbooks.
+
+Q: What should a beginner learn first?
+A: Start with service level objectives and error budgets, then move on to incident response and postmortems.
+
+Q: Why do developers use Site Reliability?
+A: Common uses include running production services, reducing outages, and planning on-call rotations.

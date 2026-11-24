@@ -1,0 +1,16 @@
+Model Evaluation: Frequently Asked Questions
+
+Q: What is Model Evaluation?
+A: The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen.
+
+Q: How does it relate to Natural Language Processing?
+A: Model Evaluation and Natural Language Processing often appear in the same project, and both belong to the area of Machine Learning.
+
+Q: Which tools help?
+A: Popular choices include scikit-learn metrics, MLflow, and pandas.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Model Evaluation.
+
+Q: What mistakes are most common?
+A: Watch for these: using accuracy on imbalanced data; tuning on the test set; and ignoring variance between runs.

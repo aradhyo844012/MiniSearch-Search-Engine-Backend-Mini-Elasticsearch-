@@ -1,0 +1,15 @@
+The Importance of Deadlocks in Modern Software
+
+It is easy to underestimate Deadlocks until something goes wrong without it. If you build software for long enough, you will run into Deadlocks. The term refers to situations where two or more tasks wait for each other forever.
+
+Understanding what the kernel does explains many surprising performance problems. Logs and system monitors are the first place to look when a machine misbehaves.
+
+People use Deadlocks for database lock conflicts, for multi-threaded programs, and for resource allocation.
+
+Beginners often stumble on three things. First: acquiring locks in inconsistent order. Second: holding locks while waiting on I/O. Third: no timeouts on locks.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Deadlocks helps the next developer.
+
+If you are comfortable with Deadlocks, explore Linux Command Line next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Deadlocks whenever a new project gives you a reason.

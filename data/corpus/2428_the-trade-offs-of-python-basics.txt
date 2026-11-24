@@ -1,0 +1,11 @@
+The Trade-offs of Python Basics
+
+Every design choice has a cost, and Python Basics is no exception. When people talk about Python Basics, they usually mean the core features of Python, including data types, control flow and functions. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Python Basics is well suited to scripting and data analysis. On the other hand, it is not free. Keep these risks in mind: mutable default arguments; confusing equality and identity; ignoring virtual environments. Whether the trade is worth it depends on how much variables and lists and dictionaries matter to your project.
+
+Beginners often stumble on three things. First: mutable default arguments. Second: confusing equality and identity. Third: ignoring virtual environments.
+
+Start small by applying Python Basics to one case, such as scripting, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Python Basics.

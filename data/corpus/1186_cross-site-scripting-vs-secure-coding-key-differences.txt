@@ -1,0 +1,15 @@
+Cross-Site Scripting vs Secure Coding: Key Differences
+
+Cross-Site Scripting and Secure Coding both belong to the area of Security, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. Its core ideas are reflected XSS, stored XSS, and output encoding.
+
+The term Secure Coding refers to writing software in ways that avoid common vulnerabilities. Its core ideas are input validation, least privilege, and dependency updates.
+
+The main difference is focus. Cross-Site Scripting puts the emphasis on reflected XSS and stored XSS, while Secure Coding puts the emphasis on input validation and least privilege.
+
+Reach for Cross-Site Scripting when your task involves reviewing web forms or securing comment sections. Reach for Secure Coding when your task involves reviewing pull requests or building web services.
+
+Both have risks. With Cross-Site Scripting, watch for this: inserting user text as raw HTML. With Secure Coding, watch for this: trusting user input.
+
+In practice you do not always have to choose. Many projects use Cross-Site Scripting alongside Secure Coding, with tools such as OWASP guides and OWASP Top 10. Keeping dependencies updated removes a large share of known risks.

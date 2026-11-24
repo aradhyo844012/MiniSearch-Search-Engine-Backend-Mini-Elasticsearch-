@@ -1,0 +1,13 @@
+A Short History of Bloom Filters
+
+Ideas behind Bloom Filters developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Bloom Filters, they usually mean compact probabilistic structures that quickly tell you whether an item is probably in a set. It appears in almost every serious software project, whether or not developers notice it.
+
+Choosing the right data structure often matters more than clever tuning later.
+
+Choosing the right data structure often matters more than clever tuning later.
+
+Four ideas sit at the heart of Bloom Filters: bit arrays, multiple hash functions, false positives, and no false negatives. Each one builds on the one before it. Sketching no false negatives on paper before coding helps many learners see how the pieces fit.
+
+Bloom Filters and Tries are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Bloom Filters.

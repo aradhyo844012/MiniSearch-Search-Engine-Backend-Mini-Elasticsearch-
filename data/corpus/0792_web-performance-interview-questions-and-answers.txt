@@ -1,0 +1,24 @@
+Web Performance Interview Questions and Answers
+
+Prepare for these questions about Web Performance.
+
+Q: Explain Web Performance in simple words.
+A: Web Performance refers to the practice of making websites load quickly and respond smoothly. I would add an example involving shopping sites.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as page weight, and add tests aimed at the known risks.
+
+Q: How does it connect to JavaScript Promises?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: shipping large JavaScript bundles; unoptimized images; and too many network requests.
+
+Q: What are the key concepts?
+A: page weight, caching, lazy loading, and critical rendering path.
+
+Q: Where would you apply it first?
+A: I would start with news pages, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: shipping large JavaScript bundles.

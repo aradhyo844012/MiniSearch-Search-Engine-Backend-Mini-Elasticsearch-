@@ -1,0 +1,15 @@
+Real-World Use Cases of Virtual Memory
+
+The best way to appreciate Virtual Memory is to see where it is actually used. Put simply, Virtual Memory covers a technique that gives each program its own address space backed by RAM and disk. Learning it well pays off across many areas of computing.
+
+A team working on isolating programs might adopt Virtual Memory after hitting the limits of a simpler approach. Other teams turn to it for running programs larger than RAM or memory-mapped files.
+
+Consider isolating programs. In a case like this, Virtual Memory gives the work a clear structure, and understanding pages makes the design easier to explain. A different example is running programs larger than RAM, where page tables often decides how well the solution scales.
+
+Understanding what the kernel does explains many surprising performance problems. Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+Popular tools and libraries include vmstat, free, and /proc/meminfo.
+
+The operating system shares limited hardware between many competing programs.
+
+With steady practice, Virtual Memory will stop feeling abstract and become a tool you reach for naturally.

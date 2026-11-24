@@ -1,0 +1,11 @@
+A Short History of TLS Handshake
+
+Ideas behind TLS Handshake developed gradually as engineers ran into practical limits and shared what they learned. Put simply, TLS Handshake covers the exchange that lets a client and server agree on keys and set up an encrypted connection. Learning it well pays off across many areas of computing.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+To understand TLS Handshake, start with certificates. Then move on to cipher suites, and finally look at session keys and certificate authorities. Sketching certificate authorities on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of TLS Handshake also makes HTTP and HTTPS easier to understand.
+
+In short, careful study of TLS Handshake pays off. Spend time on certificates and cipher suites, and the rest will follow.

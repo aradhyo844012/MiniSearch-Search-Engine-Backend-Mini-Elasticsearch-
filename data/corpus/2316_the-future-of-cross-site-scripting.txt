@@ -1,0 +1,13 @@
+The Future of Cross-Site Scripting
+
+Predicting the future is risky, but the direction of Cross-Site Scripting is easy to describe in general terms. The term Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. This article explains the idea in plain language and points out where it fits in real projects.
+
+Attackers usually choose the easiest weakness, not the most interesting one. Security is a habit applied throughout development, not a feature added at the end.
+
+Practice reflected XSS with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce. Start small by applying Cross-Site Scripting to one case, such as reviewing web forms, before rolling it out more widely.
+
+Expect tools such as OWASP guides and CSP evaluators to keep improving, and expect newer ideas to keep building on reflected XSS. The basics, though, tend to stay the same, so time spent on stored XSS and output encoding is rarely wasted. Anyone working on reviewing web forms will keep meeting Cross-Site Scripting for years to come.
+
+Read the official documentation for CSP evaluators; it often explains stored XSS better than blog posts do. Start small by applying Cross-Site Scripting to one case, such as reviewing web forms, before rolling it out more widely.
+
+With steady practice, Cross-Site Scripting will stop feeling abstract and become a tool you reach for naturally.

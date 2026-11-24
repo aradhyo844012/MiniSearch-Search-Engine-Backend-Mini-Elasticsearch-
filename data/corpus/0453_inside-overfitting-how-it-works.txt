@@ -1,0 +1,13 @@
+Inside Overfitting: How It Works
+
+This article walks through what happens inside Overfitting, step by step. Put simply, Overfitting covers when a model learns the training data too closely and performs poorly on new data. Learning it well pays off across many areas of computing.
+
+Four ideas sit at the heart of Overfitting: training and validation error, model complexity, regularization, and cross-validation. Each one builds on the one before it. A good way to remember training and validation error is to connect it with a concrete example from your own code.
+
+First, training and validation error sets the stage for everything else. Next, model complexity builds on it. After that, regularization comes into play, and finally cross-validation ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+A model is only as good as the data used to train and test it. Simple baselines are worth building first because they show what improvement is realistic.
+
+If you are comfortable with Overfitting, explore Model Evaluation next. The two often appear in the same project.
+
+In short, careful study of Overfitting pays off. Spend time on training and validation error and model complexity, and the rest will follow.

@@ -1,0 +1,15 @@
+Performance Tips for REST APIs
+
+Fast software rarely happens by accident, and REST APIs offers several places to gain speed. Put simply, REST APIs covers an approach to designing web APIs around resources, URLs and standard HTTP methods. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use Flask or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to resources and HTTP verbs, because they usually decide how well things scale. For workloads such as mobile app backends, even small improvements add up quickly.
+
+Keep notes on what worked. A short README explaining your decisions about REST APIs helps the next developer. Keep an eye on this risk during code review: inconsistent naming. Ask a teammate to explain status codes back to you; teaching is a quick way to find gaps.
+
+Four ideas sit at the heart of REST APIs: resources, HTTP verbs, status codes, and statelessness. Each one builds on the one before it. Understanding HTTP verbs first often makes status codes much easier to reason about.
+
+Measure before you optimize. Use Flask or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Three issues come up again and again: inconsistent naming; returning 200 for errors; and no versioning plan. Knowing them in advance saves hours of debugging.
+
+In short, careful study of REST APIs pays off. Spend time on resources and HTTP verbs, and the rest will follow.

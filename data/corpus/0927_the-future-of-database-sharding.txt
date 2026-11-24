@@ -1,0 +1,13 @@
+The Future of Database Sharding
+
+Predicting the future is risky, but the direction of Database Sharding is easy to describe in general terms. Many students first meet Database Sharding in a classroom, but it matters just as much in production systems. The term refers to splitting a large dataset across several databases so each holds only part of it.
+
+Backups are only useful if restoring from them has been tested.
+
+Expect tools such as Vitess and MongoDB sharding to keep improving, and expect newer ideas to keep building on shard keys. The basics, though, tend to stay the same, so time spent on routing and rebalancing is rarely wasted. Anyone working on scaling beyond one server will keep meeting Database Sharding for years to come.
+
+Write a few tests that show how Database Sharding should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Vitess or a simple timer to see where time is actually spent.
+
+Measure before you optimize. Use Vitess or a simple timer to see where time is actually spent. Read the official documentation for MongoDB sharding; it often explains routing better than blog posts do. Write a few tests that show how Database Sharding should behave. Tests double as documentation for your teammates.
+
+With steady practice, Database Sharding will stop feeling abstract and become a tool you reach for naturally.

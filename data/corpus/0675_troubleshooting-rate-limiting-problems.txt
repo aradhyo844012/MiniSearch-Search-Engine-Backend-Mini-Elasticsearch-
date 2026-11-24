@@ -1,0 +1,13 @@
+Troubleshooting Rate Limiting Problems
+
+When something breaks around Rate Limiting, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Rate Limiting. The term refers to controlling how many requests a client can make in a given period.
+
+A backend turns requests from many clients into reliable, consistent responses. Clear contracts between services make systems easier to change and test.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Redis usually reveal the cause faster than guessing.
+
+Common culprits: limits that are too strict; keeping counters only on one server; no helpful error messages. If none of these explains the symptom, re-read the basics of token bucket and fixed window.
+
+In practice you can start with Redis, then explore NGINX or API gateways as your needs grow.
+
+With steady practice, Rate Limiting will stop feeling abstract and become a tool you reach for naturally.

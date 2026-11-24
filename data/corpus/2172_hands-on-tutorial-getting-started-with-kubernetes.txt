@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Kubernetes
+
+This hands-on tutorial takes you from zero to a small working experiment with Kubernetes. When people talk about Kubernetes, they usually mean a system for deploying, scaling and managing containerized applications. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open kubectl and create a new empty project folder.
+Step 2: Read about pods and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses deployments.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as running many containers.
+Step 6: Break your example on purpose and see what happens. A good experiment: resource limits missing.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+Popular tools and libraries include kubectl, Helm, and minikube.
+
+Watch out for these problems: resource limits missing; over-complicated setups; and ignoring health probes.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Kubernetes.

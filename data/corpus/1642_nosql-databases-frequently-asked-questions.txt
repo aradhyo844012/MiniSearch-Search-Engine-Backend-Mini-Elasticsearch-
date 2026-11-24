@@ -1,0 +1,22 @@
+NoSQL Databases: Frequently Asked Questions
+
+Q: What is NoSQL Databases?
+A: The term NoSQL Databases refers to a broad family of databases that do not use the traditional relational table model.
+
+Q: How does it relate to Database Indexing?
+A: NoSQL Databases and Database Indexing often appear in the same project, and both belong to the area of Databases.
+
+Q: Why do developers use NoSQL Databases?
+A: Common uses include flexible schemas, high write throughput, and caching and sessions.
+
+Q: What should a beginner learn first?
+A: Start with document stores and key-value stores, then move on to column families and graph databases.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: assuming no schema means no design; weak consistency surprises; and expensive cross-collection queries.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with NoSQL Databases.

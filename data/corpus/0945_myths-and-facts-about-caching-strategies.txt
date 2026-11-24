@@ -1,0 +1,17 @@
+Myths and Facts About Caching Strategies
+
+A lot of folklore has built up around Caching Strategies. Some of it is true, and some of it is not. If you build software for long enough, you will run into Caching Strategies. The term refers to approaches for storing computed results so they can be reused instead of recalculated.
+
+Myth: Caching Strategies is only for experts.
+Fact: beginners can use it effectively once they understand cache-aside and write-through.
+
+Myth: Caching Strategies is only useful in very large systems.
+Fact: small projects such as speeding up read-heavy APIs benefit as well.
+
+Myth: one tool does everything.
+Fact: Redis, Memcached, and HTTP cache headers make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Caching Strategies are always obvious.
+Fact: subtle problems happen, for example stale data.
+
+Keep experimenting, keep notes, and revisit Caching Strategies whenever a new project gives you a reason.

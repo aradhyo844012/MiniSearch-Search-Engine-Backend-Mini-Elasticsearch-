@@ -1,0 +1,12 @@
+A Practical Checklist for Database Replication
+
+Use this checklist before you rely on Database Replication in a project.
+
+1. Guard against this risk: reading stale data from replicas.
+2. Review how Database Replication interacts with Relational Databases.
+3. Write at least one automated test that covers primary and replica.
+4. Measure results before and after any change.
+5. Pick a tool to start with, such as PostgreSQL streaming replication or MySQL replication.
+6. Confirm that your team agrees on what Database Replication should accomplish.
+7. Review the core ideas: primary and replica, replication lag, failover, and read scaling.
+8. Guard against this risk: untested failover plans.

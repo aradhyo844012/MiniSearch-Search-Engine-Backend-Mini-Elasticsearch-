@@ -1,0 +1,13 @@
+The Future of Zipf's Law
+
+Predicting the future is risky, but the direction of Zipf's Law is easy to describe in general terms. Many students first meet Zipf's Law in a classroom, but it matters just as much in production systems. The term refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Expect tools such as matplotlib and NumPy to keep improving, and expect newer ideas to keep building on rank and frequency. The basics, though, tend to stay the same, so time spent on power laws and log-log plots is rarely wasted. Anyone working on analyzing text corpora will keep meeting Zipf's Law for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Start small by applying Zipf's Law to one case, such as analyzing text corpora, before rolling it out more widely. Keep an eye on this risk during code review: testing it on random text.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Users judge a search engine by whether the right result appears near the top.
+
+In short, careful study of Zipf's Law pays off. Spend time on rank and frequency and power laws, and the rest will follow.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Code Review
+
+This hands-on tutorial takes you from zero to a small working experiment with Code Review. Put simply, Code Review covers having teammates examine changes before they are merged. Learning it well pays off across many areas of computing.
+
+Keep notes on what worked. A short README explaining your decisions about Code Review helps the next developer. Ask a teammate to explain checklists back to you; teaching is a quick way to find gaps. Read the official documentation for GitLab merge requests; it often explains review comments better than blog posts do.
+
+Step 1: Install or open GitHub pull requests and create a new empty project folder.
+Step 2: Read about pull requests and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses review comments.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as catching bugs early.
+Step 6: Break your example on purpose and see what happens. A good experiment: huge pull requests.
+
+In practice you can start with GitHub pull requests, then explore GitLab merge requests or linters as your needs grow.
+
+Watch out for these problems: huge pull requests; vague comments; and reviewing only style.
+
+In short, careful study of Code Review pays off. Spend time on pull requests and review comments, and the rest will follow.

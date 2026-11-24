@@ -1,0 +1,13 @@
+A Short History of Browser Rendering
+
+Ideas behind Browser Rendering developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Browser Rendering in a classroom, but it matters just as much in production systems. The term refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen.
+
+Web pages must work across many browsers, devices and network conditions.
+
+To understand Browser Rendering, start with DOM construction. Then move on to style calculation, and finally look at layout and painting. A good way to remember DOM construction is to connect it with a concrete example from your own code.
+
+Browser Rendering and HTML Semantics are closely related, so learning both gives a fuller picture of Web Development.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does. Small improvements in markup and styling often have a large effect on usability.
+
+Keep experimenting, keep notes, and revisit Browser Rendering whenever a new project gives you a reason.

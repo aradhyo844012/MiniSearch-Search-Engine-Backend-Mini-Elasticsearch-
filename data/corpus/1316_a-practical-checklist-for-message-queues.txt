@@ -1,0 +1,12 @@
+A Practical Checklist for Message Queues
+
+Use this checklist before you rely on Message Queues in a project.
+
+1. Guard against this risk: losing messages without acknowledgements.
+2. Review the core ideas: producers, consumers, acknowledgements, and retries.
+3. Write at least one automated test that covers producers.
+4. Guard against this risk: duplicate processing.
+5. Pick a tool to start with, such as RabbitMQ or Apache Kafka.
+6. Guard against this risk: poison messages that retry forever.
+7. Document your decisions in the project README.
+8. Try the approach on a small case, for example sending emails.

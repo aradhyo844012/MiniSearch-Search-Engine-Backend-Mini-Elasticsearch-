@@ -1,0 +1,13 @@
+The Future of Refactoring
+
+Predicting the future is risky, but the direction of Refactoring is easy to describe in general terms. If you build software for long enough, you will run into Refactoring. The term refers to improving the structure of existing code without changing its behavior.
+
+Software spends most of its life being changed, not written for the first time.
+
+Expect tools such as IDE refactoring tools and pytest to keep improving, and expect newer ideas to keep building on small steps. The basics, though, tend to stay the same, so time spent on tests as a safety net and extracting functions is rarely wasted. Anyone working on reducing duplication will keep meeting Refactoring for years to come.
+
+Measure before you optimize. Use IDE refactoring tools or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce. Start small by applying Refactoring to one case, such as reducing duplication, before rolling it out more widely.
+
+If you are comfortable with Refactoring, explore Agile and Scrum next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Refactoring.

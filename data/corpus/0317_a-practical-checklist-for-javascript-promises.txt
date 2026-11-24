@@ -1,0 +1,13 @@
+A Practical Checklist for JavaScript Promises
+
+Use this checklist before you rely on JavaScript Promises in a project.
+
+1. Guard against this risk: awaiting inside slow loops.
+2. Guard against this risk: forgetting to return promises.
+3. Confirm that your team agrees on what JavaScript Promises should accomplish.
+4. Pick a tool to start with, such as fetch API or Node.js.
+5. Guard against this risk: forgetting to handle rejections.
+6. Write at least one automated test that covers pending and resolved states.
+7. Ask a teammate to review the work, focusing on then and catch.
+8. Try the approach on a small case, for example fetching data from APIs.
+9. Review the core ideas: pending and resolved states, then and catch, async and await, and chaining.

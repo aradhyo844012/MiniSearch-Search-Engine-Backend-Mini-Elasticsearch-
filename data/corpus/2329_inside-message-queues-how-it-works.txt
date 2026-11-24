@@ -1,0 +1,15 @@
+Inside Message Queues: How It Works
+
+This article walks through what happens inside Message Queues, step by step. The term Message Queues refers to systems that let services send work to each other asynchronously through a buffer. This article explains the idea in plain language and points out where it fits in real projects.
+
+The vocabulary of Message Queues is small. Learn producers, consumers, acknowledgements, and retries, and most documentation will start to make sense. Understanding consumers first often makes acknowledgements much easier to reason about.
+
+Read the official documentation for Apache Kafka; it often explains consumers better than blog posts do. Practice producers with small exercises until it feels natural. Keep an eye on this risk during code review: losing messages without acknowledgements.
+
+First, producers sets the stage for everything else. Next, consumers builds on it. After that, acknowledgements comes into play, and finally retries ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Good APIs are boring, predictable and well documented.
+
+A solid grasp of Message Queues also makes Authentication and Sessions easier to understand.
+
+Keep experimenting, keep notes, and revisit Message Queues whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+Performance Tips for Linear Regression
+
+Fast software rarely happens by accident, and Linear Regression offers several places to gain speed. The term Linear Regression refers to a method for predicting a number by fitting a straight line or plane to data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use scikit-learn or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to coefficients and residuals, because they usually decide how well things scale. For workloads such as predicting prices, even small improvements add up quickly.
+
+Four ideas sit at the heart of Linear Regression: coefficients, residuals, least squares, and assumptions. Each one builds on the one before it. Sketching assumptions on paper before coding helps many learners see how the pieces fit.
+
+Automate repetitive steps so that results are easy to reproduce. Practice coefficients with small exercises until it feels natural. Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent.
+
+Watch out for these problems: extrapolating far beyond the data; ignoring outliers; and using correlated features carelessly.
+
+In short, careful study of Linear Regression pays off. Spend time on coefficients and residuals, and the rest will follow.

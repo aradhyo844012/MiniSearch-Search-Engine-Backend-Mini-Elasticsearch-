@@ -1,0 +1,11 @@
+Common Mistakes When Working with File Systems
+
+Almost everyone makes a few avoidable errors when first working with File Systems. Put simply, File Systems covers the part of an operating system that organizes how data is stored and found on disk. Learning it well pays off across many areas of computing.
+
+Three issues come up again and again: running out of inodes; wrong permissions; and ignoring disk space limits. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: running out of inodes. A short test or a careful review comment usually catches it. The second problem is similar: wrong permissions. The third problem is this: ignoring disk space limits. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: running out of inodes. Write a few tests that show how File Systems should behave. Tests double as documentation for your teammates.
+
+In short, careful study of File Systems pays off. Spend time on files and directories and inodes, and the rest will follow.

@@ -1,0 +1,11 @@
+Deadlocks Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Deadlocks.
+
+- Definition: situations where two or more tasks wait for each other forever.
+- Core ideas: mutual exclusion; hold and wait; circular wait; lock ordering.
+- Use it for: database lock conflicts; multi-threaded programs; resource allocation.
+- Watch out for: acquiring locks in inconsistent order; holding locks while waiting on I/O; no timeouts on locks.
+- Tools: thread dumps, database deadlock logs, static analyzers.
+- Quick tip: practice mutual exclusion until it feels automatic.
+- Quick tip: write a tiny test for hold and wait before building anything large.

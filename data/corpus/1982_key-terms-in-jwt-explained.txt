@@ -1,0 +1,10 @@
+Key Terms in JWT Explained
+
+Clear vocabulary makes JWT much easier to learn, so here are the key terms in plain language. The term JWT refers to a compact token format that carries signed claims between a client and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+header, payload and signature: a key term in JWT. It matters because it shapes how you design, test and explain your solution.
+claims: a key term in JWT. It matters because it shapes how you design, test and explain your solution.
+expiry: a key term in JWT. You will meet it constantly in documentation and in code reviews.
+signing keys: a key term in JWT. You will meet it constantly in documentation and in code reviews.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with JWT.

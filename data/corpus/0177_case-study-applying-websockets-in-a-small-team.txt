@@ -1,0 +1,9 @@
+Case Study: Applying WebSockets in a Small Team
+
+Imagine a small student team building a project that depends on WebSockets. The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning persistent connections and messages. Early on they hit a familiar problem: forgetting reconnection logic. After fixing it, they used Socket.IO to check their work and adopted WebSockets for chat applications. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections.
+
+With steady practice, WebSockets will stop feeling abstract and become a tool you reach for naturally.

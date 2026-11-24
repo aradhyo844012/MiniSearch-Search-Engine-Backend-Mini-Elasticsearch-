@@ -1,0 +1,12 @@
+A Practical Checklist for Authentication and Sessions
+
+Use this checklist before you rely on Authentication and Sessions in a project.
+
+1. Pick a tool to start with, such as Flask-Login or Django auth.
+2. Review how Authentication and Sessions interacts with Caching Strategies.
+3. Try the approach on a small case, for example logging in to web apps.
+4. Guard against this risk: trusting client-side checks.
+5. Guard against this risk: storing session IDs insecurely.
+6. Ask a teammate to review the work, focusing on session cookies.
+7. Document your decisions in the project README.
+8. Confirm that your team agrees on what Authentication and Sessions should accomplish.

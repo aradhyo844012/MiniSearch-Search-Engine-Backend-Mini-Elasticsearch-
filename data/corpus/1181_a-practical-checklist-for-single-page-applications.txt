@@ -1,0 +1,11 @@
+A Practical Checklist for Single Page Applications
+
+Use this checklist before you rely on Single Page Applications in a project.
+
+1. Write at least one automated test that covers client-side routing.
+2. Try the approach on a small case, for example dashboards.
+3. Confirm that your team agrees on what Single Page Applications should accomplish.
+4. Measure results before and after any change.
+5. Guard against this risk: slow first load.
+6. Document your decisions in the project README.
+7. Ask a teammate to review the work, focusing on state management.

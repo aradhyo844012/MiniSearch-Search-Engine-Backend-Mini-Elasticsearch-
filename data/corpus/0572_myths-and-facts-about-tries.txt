@@ -1,0 +1,17 @@
+Myths and Facts About Tries
+
+A lot of folklore has built up around Tries. Some of it is true, and some of it is not. Many students first meet Tries in a classroom, but it matters just as much in production systems. The term refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+Myth: Tries is only for experts.
+Fact: beginners can use it effectively once they understand prefix sharing and nodes and edges.
+
+Myth: Tries is only useful in very large systems.
+Fact: small projects such as autocomplete benefit as well.
+
+Myth: one tool does everything.
+Fact: Python dict-based tries, Java TreeMap, and pygtrie make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Tries are always obvious.
+Fact: subtle problems happen, for example high memory use for sparse data.
+
+In short, careful study of Tries pays off. Spend time on prefix sharing and nodes and edges, and the rest will follow.

@@ -1,0 +1,17 @@
+Myths and Facts About Database Normalization
+
+A lot of folklore has built up around Database Normalization. Some of it is true, and some of it is not. Put simply, Database Normalization covers the practice of organizing tables to reduce duplicated data and update anomalies. Learning it well pays off across many areas of computing.
+
+Myth: Database Normalization is only for experts.
+Fact: beginners can use it effectively once they understand first normal form and second normal form.
+
+Myth: Database Normalization is only useful in very large systems.
+Fact: small projects such as designing clean schemas benefit as well.
+
+Myth: one tool does everything.
+Fact: ER diagrams, dbdiagram.io, and MySQL Workbench make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Database Normalization are always obvious.
+Fact: subtle problems happen, for example over-normalizing reporting tables.
+
+With steady practice, Database Normalization will stop feeling abstract and become a tool you reach for naturally.

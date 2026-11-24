@@ -1,0 +1,13 @@
+How Overfitting Connects to Feature Engineering
+
+Overfitting and Feature Engineering are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving diagnosing weak models may also involve improving model accuracy. In such a project, training and validation error and scaling often influence each other.
+
+Start with Overfitting: the term refers to when a model learns the training data too closely and performs poorly on new data. Then look at Feature Engineering, which refers to creating and transforming input variables so that models can learn from them more easily.
+
+A useful exercise is to take one example, such as choosing simpler models, and explain how encoding categories would change the design.
+
+Common problems are shared too. For Overfitting, watch for this: leaking test data. For Feature Engineering, watch for this: inconsistent transformations between training and serving. A model is only as good as the data used to train and test it.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or pandas.

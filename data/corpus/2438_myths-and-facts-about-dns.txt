@@ -1,0 +1,17 @@
+Myths and Facts About DNS
+
+A lot of folklore has built up around DNS. Some of it is true, and some of it is not. If you build software for long enough, you will run into DNS. The term refers to the system that translates human-friendly domain names into IP addresses.
+
+Myth: DNS is only for experts.
+Fact: beginners can use it effectively once they understand resolvers and records.
+
+Myth: DNS is only useful in very large systems.
+Fact: small projects such as mapping domains to servers benefit as well.
+
+Myth: one tool does everything.
+Fact: dig, nslookup, and Cloudflare DNS make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with DNS are always obvious.
+Fact: subtle problems happen, for example forgetting TTLs when migrating.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with DNS.

@@ -1,0 +1,11 @@
+The Trade-offs of Authentication and Sessions
+
+Every design choice has a cost, and Authentication and Sessions is no exception. Many students first meet Authentication and Sessions in a classroom, but it matters just as much in production systems. The term refers to the process of proving who a user is and remembering them between requests.
+
+On the positive side, Authentication and Sessions is well suited to logging in to web apps and protecting admin pages. On the other hand, it is not free. Keep these risks in mind: storing session IDs insecurely; never expiring sessions; trusting client-side checks. Whether the trade is worth it depends on how much credentials and session cookies matter to your project.
+
+Three issues come up again and again: storing session IDs insecurely; never expiring sessions; and trusting client-side checks. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Authentication and Sessions helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Authentication and Sessions.

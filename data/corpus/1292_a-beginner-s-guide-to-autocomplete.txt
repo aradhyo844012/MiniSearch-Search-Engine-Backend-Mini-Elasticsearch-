@@ -1,0 +1,17 @@
+A Beginner's Guide to Autocomplete
+
+This guide is written for readers who are new to Autocomplete and want a clear starting point. When people talk about Autocomplete, they usually mean suggesting likely completions while a person types a query. It appears in almost every serious software project, whether or not developers notice it.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Fast search comes from precomputing structures so that queries do very little work.
+
+The vocabulary of Autocomplete is small. Learn prefixes, ranking suggestions, latency, and query logs, and most documentation will start to make sense. A good way to remember prefixes is to connect it with a concrete example from your own code.
+
+Typical applications include search boxes, command palettes, and address entry. Small projects and large systems both benefit.
+
+Popular tools and libraries include tries, Redis sorted sets, and Elasticsearch suggesters.
+
+Three issues come up again and again: slow suggestions; offensive or irrelevant completions; and ignoring typos in the prefix. Knowing them in advance saves hours of debugging.
+
+Measure before you optimize. Use tries or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Autocomplete helps the next developer.
+
+With steady practice, Autocomplete will stop feeling abstract and become a tool you reach for naturally.

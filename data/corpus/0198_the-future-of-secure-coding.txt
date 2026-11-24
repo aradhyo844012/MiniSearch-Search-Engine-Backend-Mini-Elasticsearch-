@@ -1,0 +1,11 @@
+The Future of Secure Coding
+
+Predicting the future is risky, but the direction of Secure Coding is easy to describe in general terms. Many students first meet Secure Coding in a classroom, but it matters just as much in production systems. The term refers to writing software in ways that avoid common vulnerabilities.
+
+Security is a habit applied throughout development, not a feature added at the end.
+
+Expect tools such as OWASP Top 10 and static analysis tools to keep improving, and expect newer ideas to keep building on input validation. The basics, though, tend to stay the same, so time spent on least privilege and dependency updates is rarely wasted. Anyone working on reviewing pull requests will keep meeting Secure Coding for years to come.
+
+Ask a teammate to explain dependency updates back to you; teaching is a quick way to find gaps. Measure before you optimize. Use OWASP Top 10 or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Secure Coding helps the next developer.
+
+With steady practice, Secure Coding will stop feeling abstract and become a tool you reach for naturally.

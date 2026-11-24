@@ -1,0 +1,13 @@
+The Importance of Containers in Modern Software
+
+It is easy to underestimate Containers until something goes wrong without it. When people talk about Containers, they usually mean lightweight packages that bundle an application with its dependencies and run in isolation. It appears in almost every serious software project, whether or not developers notice it.
+
+Understanding what the kernel does explains many surprising performance problems. The operating system shares limited hardware between many competing programs.
+
+People use Containers for consistent development environments, for deploying microservices, and for running tests in CI.
+
+Watch out for these problems: running as root; bloated images; and storing data inside the container.
+
+Containers and Linux Command Line are closely related, so learning both gives a fuller picture of Operating Systems.
+
+With steady practice, Containers will stop feeling abstract and become a tool you reach for naturally.

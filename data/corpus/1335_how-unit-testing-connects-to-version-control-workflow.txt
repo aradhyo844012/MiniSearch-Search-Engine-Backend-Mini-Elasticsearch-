@@ -1,0 +1,13 @@
+How Unit Testing Connects to Version Control Workflow
+
+Unit Testing and Version Control Workflow are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving catching regressions may also involve collaborating on shared code. In such a project, test cases and commits often influence each other.
+
+Start with Unit Testing: the term refers to writing small automated tests that check one piece of code at a time. Then look at Version Control Workflow, which refers to the habits and rules a team uses to track and combine changes to code.
+
+A useful exercise is to take one example, such as documenting behavior, and explain how branches would change the design.
+
+Common problems are shared too. For Unit Testing, watch for this: slow tests. For Version Control Workflow, watch for this: committing large unrelated changes. Software spends most of its life being changed, not written for the first time.
+
+Spend a few hours on each topic, then combine them in one small project using pytest or Git.

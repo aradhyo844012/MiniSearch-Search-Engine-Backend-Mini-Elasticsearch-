@@ -1,0 +1,12 @@
+A Practical Checklist for Database Indexing
+
+Use this checklist before you rely on Database Indexing in a project.
+
+1. Confirm that your team agrees on what Database Indexing should accomplish.
+2. Try the approach on a small case, for example speeding up lookups.
+3. Measure results before and after any change.
+4. Ask a teammate to review the work, focusing on selectivity.
+5. Write at least one automated test that covers B-tree indexes.
+6. Document your decisions in the project README.
+7. Review how Database Indexing interacts with Database Replication.
+8. Guard against this risk: indexing every column.

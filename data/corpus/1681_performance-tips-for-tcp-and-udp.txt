@@ -1,0 +1,15 @@
+Performance Tips for TCP and UDP
+
+Fast software rarely happens by accident, and TCP and UDP offers several places to gain speed. Put simply, TCP and UDP covers the two main transport protocols, one reliable and ordered and the other fast and connectionless. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use Wireshark or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to handshakes and acknowledgements, because they usually decide how well things scale. For workloads such as web traffic, even small improvements add up quickly.
+
+Four ideas sit at the heart of TCP and UDP: handshakes, acknowledgements, ports, and congestion control. Each one builds on the one before it. A good way to remember handshakes is to connect it with a concrete example from your own code.
+
+Start small by applying TCP and UDP to one case, such as web traffic, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce.
+
+Three issues come up again and again: assuming UDP guarantees delivery; ignoring timeouts; and opening too many connections. Knowing them in advance saves hours of debugging.
+
+TCP and UDP and IP Addressing and Subnets are closely related, so learning both gives a fuller picture of Networking.
+
+With steady practice, TCP and UDP will stop feeling abstract and become a tool you reach for naturally.

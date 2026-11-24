@@ -1,0 +1,12 @@
+How to Learn Feature Engineering in 30 Days
+
+You do not need months to become comfortable with Feature Engineering. A focused plan of thirty days is enough to build a solid base. The term Feature Engineering refers to creating and transforming input variables so that models can learn from them more easily. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn scaling and encoding categories, and write a one-page summary.
+Week 2: practice with pandas on a small task such as improving model accuracy.
+Week 3: build a mini project around preparing tabular data.
+Week 4: review common mistakes such as data leakage, and explain Feature Engineering to a friend.
+
+In practice you can start with pandas, then explore scikit-learn pipelines or Featuretools as your needs grow.
+
+In short, careful study of Feature Engineering pays off. Spend time on scaling and encoding categories, and the rest will follow.

@@ -1,0 +1,13 @@
+How Docker Connects to Monitoring and Observability
+
+Docker and Monitoring and Observability are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving reproducible development setups may also involve detecting outages. In such a project, Dockerfile and metrics often influence each other.
+
+Start with Docker: the term refers to a platform for building and running applications in containers. Then look at Monitoring and Observability, which refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+A useful exercise is to take one example, such as shipping applications, and explain how logs would change the design.
+
+Common problems are shared too. For Docker, watch for this: secrets baked into images. For Monitoring and Observability, watch for this: logs without context. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+Spend a few hours on each topic, then combine them in one small project using Docker Compose or Prometheus.

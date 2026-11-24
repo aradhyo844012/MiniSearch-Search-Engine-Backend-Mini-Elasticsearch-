@@ -1,0 +1,19 @@
+A Beginner's Guide to ETL Pipelines
+
+This guide is written for readers who are new to ETL Pipelines and want a clear starting point. When people talk about ETL Pipelines, they usually mean processes that extract data from sources, transform it and load it into a destination. It appears in almost every serious software project, whether or not developers notice it.
+
+Pipelines should be repeatable so that results can be reproduced later. Writing down assumptions about the data prevents confusing surprises later.
+
+Keep notes on what worked. A short README explaining your decisions about ETL Pipelines helps the next developer. Start small by applying ETL Pipelines to one case, such as building reports, before rolling it out more widely.
+
+The vocabulary of ETL Pipelines is small. Learn extraction, transformation, loading, and scheduling, and most documentation will start to make sense. A good way to remember extraction is to connect it with a concrete example from your own code.
+
+You will see ETL Pipelines whenever people work on building reports or moving data into warehouses. It also helps with combining systems.
+
+In practice you can start with Apache Airflow, then explore dbt or Python scripts as your needs grow.
+
+Three issues come up again and again: silent data loss; no retry logic; and poor error reporting. Knowing them in advance saves hours of debugging.
+
+Ask a teammate to explain loading back to you; teaching is a quick way to find gaps. Read the official documentation for dbt; it often explains transformation better than blog posts do.
+
+Keep experimenting, keep notes, and revisit ETL Pipelines whenever a new project gives you a reason.

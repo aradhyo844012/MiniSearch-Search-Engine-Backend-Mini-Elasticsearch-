@@ -1,0 +1,12 @@
+Key Terms in Refactoring Explained
+
+Clear vocabulary makes Refactoring much easier to learn, so here are the key terms in plain language. Many students first meet Refactoring in a classroom, but it matters just as much in production systems. The term refers to improving the structure of existing code without changing its behavior.
+
+small steps: a key term in Refactoring. It matters because it shapes how you design, test and explain your solution.
+tests as a safety net: a key term in Refactoring. You will meet it constantly in documentation and in code reviews.
+extracting functions: a key term in Refactoring. You will meet it constantly in documentation and in code reviews.
+renaming: a key term in Refactoring. It matters because it shapes how you design, test and explain your solution.
+
+Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Refactoring should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Refactoring pays off. Spend time on small steps and tests as a safety net, and the rest will follow.

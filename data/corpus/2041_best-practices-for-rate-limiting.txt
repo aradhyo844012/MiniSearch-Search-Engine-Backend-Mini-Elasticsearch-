@@ -1,0 +1,17 @@
+Best Practices for Rate Limiting
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Rate Limiting, they usually mean controlling how many requests a client can make in a given period. It appears in almost every serious software project, whether or not developers notice it.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Rate Limiting helps the next developer. Write a few tests that show how Rate Limiting should behave. Tests double as documentation for your teammates.
+
+1. Ask a teammate to explain sliding window back to you; teaching is a quick way to find gaps.
+2. Read the official documentation for NGINX; it often explains fixed window better than blog posts do.
+3. Write a few tests that show how Rate Limiting should behave. Tests double as documentation for your teammates.
+4. Practice token bucket with small exercises until it feels natural.
+5. Measure before you optimize. Use Redis or a simple timer to see where time is actually spent.
+
+Popular tools and libraries include Redis, NGINX, and API gateways.
+
+If you are comfortable with Rate Limiting, explore JSON next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Rate Limiting.

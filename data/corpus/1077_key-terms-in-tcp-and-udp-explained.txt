@@ -1,0 +1,12 @@
+Key Terms in TCP and UDP Explained
+
+Clear vocabulary makes TCP and UDP much easier to learn, so here are the key terms in plain language. Put simply, TCP and UDP covers the two main transport protocols, one reliable and ordered and the other fast and connectionless. Learning it well pays off across many areas of computing.
+
+handshakes: a key term in TCP and UDP. It matters because it shapes how you design, test and explain your solution.
+acknowledgements: a key term in TCP and UDP. You will meet it constantly in documentation and in code reviews.
+ports: a key term in TCP and UDP. It matters because it shapes how you design, test and explain your solution.
+congestion control: a key term in TCP and UDP. Beginners often confuse it with related terms, so define it in your own words early.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+In short, careful study of TCP and UDP pays off. Spend time on handshakes and acknowledgements, and the rest will follow.

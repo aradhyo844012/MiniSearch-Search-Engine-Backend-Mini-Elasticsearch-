@@ -1,0 +1,11 @@
+Case Study: Applying Message Queues in a Small Team
+
+Imagine a small student team building a project that depends on Message Queues. The term Message Queues refers to systems that let services send work to each other asynchronously through a buffer. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning producers and consumers. Early on they hit a familiar problem: losing messages without acknowledgements. After fixing it, they used RabbitMQ to check their work and adopted Message Queues for sending emails. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Ask a teammate to explain acknowledgements back to you; teaching is a quick way to find gaps. Read the official documentation for Apache Kafka; it often explains consumers better than blog posts do. Start small by applying Message Queues to one case, such as sending emails, before rolling it out more widely.
+
+Watch out for these problems: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing.
+
+With steady practice, Message Queues will stop feeling abstract and become a tool you reach for naturally.

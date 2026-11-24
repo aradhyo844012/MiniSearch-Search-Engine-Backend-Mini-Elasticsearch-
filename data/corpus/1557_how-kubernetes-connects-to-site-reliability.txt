@@ -1,0 +1,13 @@
+How Kubernetes Connects to Site Reliability
+
+Kubernetes and Site Reliability are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving running many containers may also involve running production services. In such a project, pods and service level objectives often influence each other.
+
+Start with Kubernetes: the term refers to a system for deploying, scaling and managing containerized applications. Then look at Site Reliability, which refers to the discipline of keeping services dependable using engineering practices.
+
+A useful exercise is to take one example, such as rolling updates, and explain how error budgets would change the design.
+
+Common problems are shared too. For Kubernetes, watch for this: over-complicated setups. For Site Reliability, watch for this: blaming people instead of systems. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.
+
+Spend a few hours on each topic, then combine them in one small project using kubectl or PagerDuty.

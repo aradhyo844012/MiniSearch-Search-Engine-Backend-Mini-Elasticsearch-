@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Gradient Descent
+
+This hands-on tutorial takes you from zero to a small working experiment with Gradient Descent. If you build software for long enough, you will run into Gradient Descent. The term refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error.
+
+Step 1: Install or open PyTorch and create a new empty project folder.
+Step 2: Read about learning rate and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses gradients.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as training neural networks.
+Step 6: Break your example on purpose and see what happens. A good experiment: learning rates that are too large.
+
+Popular tools and libraries include PyTorch, NumPy, and TensorFlow.
+
+Watch out for these problems: learning rates that are too large; getting stuck on plateaus; and unscaled features.
+
+In short, careful study of Gradient Descent pays off. Spend time on learning rate and gradients, and the rest will follow.

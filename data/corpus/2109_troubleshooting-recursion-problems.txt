@@ -1,0 +1,11 @@
+Troubleshooting Recursion Problems
+
+When something breaks around Recursion, a calm and systematic approach saves the most time. Many students first meet Recursion in a classroom, but it matters just as much in production systems. The term refers to a technique where a function solves a problem by calling itself on smaller inputs.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Python sys.setrecursionlimit usually reveal the cause faster than guessing.
+
+Common culprits: missing base cases; exceeding the recursion limit; recomputing the same values. If none of these explains the symptom, re-read the basics of base case and recursive case.
+
+Popular tools and libraries include Python sys.setrecursionlimit, debuggers, and memoization decorators.
+
+Keep experimenting, keep notes, and revisit Recursion whenever a new project gives you a reason.

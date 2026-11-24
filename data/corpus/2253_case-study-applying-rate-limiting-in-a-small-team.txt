@@ -1,0 +1,9 @@
+Case Study: Applying Rate Limiting in a Small Team
+
+Imagine a small student team building a project that depends on Rate Limiting. When people talk about Rate Limiting, they usually mean controlling how many requests a client can make in a given period. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning token bucket and fixed window. Early on they hit a familiar problem: limits that are too strict. After fixing it, they used Redis to check their work and adopted Rate Limiting for protecting APIs. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Three issues come up again and again: limits that are too strict; keeping counters only on one server; and no helpful error messages. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Rate Limiting pays off. Spend time on token bucket and fixed window, and the rest will follow.

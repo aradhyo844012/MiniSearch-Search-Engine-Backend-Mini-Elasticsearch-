@@ -1,0 +1,11 @@
+JWT Cheat Sheet
+
+Use this page as a quick reminder of the essentials of JWT.
+
+- Definition: a compact token format that carries signed claims between a client and a server.
+- Core ideas: header, payload and signature; claims; expiry; signing keys.
+- Use it for: stateless API authentication; service-to-service calls; single sign-on.
+- Watch out for: storing tokens in insecure places; skipping signature checks; very long expiry times.
+- Tools: jwt.io, PyJWT, jsonwebtoken.
+- Quick tip: practice header, payload and signature until it feels automatic.
+- Related topic: JSON.

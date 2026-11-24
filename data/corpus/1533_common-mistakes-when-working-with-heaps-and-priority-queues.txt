@@ -1,0 +1,13 @@
+Common Mistakes When Working with Heaps and Priority Queues
+
+Almost everyone makes a few avoidable errors when first working with Heaps and Priority Queues. The term Heaps and Priority Queues refers to structures that always give quick access to the smallest or largest element. This article explains the idea in plain language and points out where it fits in real projects.
+
+Three issues come up again and again: assuming a heap is fully sorted; using a full sort when only the top k are needed; and mixing up min-heaps and max-heaps. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: assuming a heap is fully sorted. A short test or a careful review comment usually catches it. The second problem is similar: using a full sort when only the top k are needed. The third problem is this: mixing up min-heaps and max-heaps. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Practice heap property with small exercises until it feels natural. Write a few tests that show how Heaps and Priority Queues should behave. Tests double as documentation for your teammates.
+
+Ask a teammate to explain array representation back to you; teaching is a quick way to find gaps. Practice heap property with small exercises until it feels natural.
+
+In short, careful study of Heaps and Priority Queues pays off. Spend time on heap property and sift up and sift down, and the rest will follow.

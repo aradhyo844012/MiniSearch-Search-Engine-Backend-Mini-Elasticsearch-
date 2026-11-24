@@ -1,0 +1,11 @@
+Troubleshooting Model Evaluation Problems
+
+When something breaks around Model Evaluation, a calm and systematic approach saves the most time. Many students first meet Model Evaluation in a classroom, but it matters just as much in production systems. The term refers to measuring how well a machine learning model works on data it has not seen.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and scikit-learn metrics usually reveal the cause faster than guessing.
+
+Common culprits: using accuracy on imbalanced data; tuning on the test set; ignoring variance between runs. If none of these explains the symptom, re-read the basics of accuracy and precision and recall.
+
+Popular tools and libraries include scikit-learn metrics, MLflow, and pandas.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

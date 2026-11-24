@@ -1,0 +1,19 @@
+Myths and Facts About Error Handling
+
+A lot of folklore has built up around Error Handling. Some of it is true, and some of it is not. Put simply, Error Handling covers planning for failures so that programs respond clearly instead of crashing. Learning it well pays off across many areas of computing.
+
+Myth: Error Handling is only for experts.
+Fact: beginners can use it effectively once they understand exceptions and validation.
+
+Myth: Error Handling is only useful in very large systems.
+Fact: small projects such as reading files benefit as well.
+
+Myth: one tool does everything.
+Fact: Python try and except, logging module, and Sentry make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Error Handling are always obvious.
+Fact: subtle problems happen, for example swallowing exceptions silently.
+
+Reading other people's code is one of the fastest ways to improve as a programmer.
+
+In short, careful study of Error Handling pays off. Spend time on exceptions and validation, and the rest will follow.

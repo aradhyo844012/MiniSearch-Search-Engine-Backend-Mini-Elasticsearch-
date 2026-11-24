@@ -1,0 +1,13 @@
+The Future of Kubernetes
+
+Predicting the future is risky, but the direction of Kubernetes is easy to describe in general terms. When people talk about Kubernetes, they usually mean a system for deploying, scaling and managing containerized applications. It appears in almost every serious software project, whether or not developers notice it.
+
+A system that cannot be observed cannot be reliably operated. Automation turns risky manual steps into repeatable and reviewable processes.
+
+Expect tools such as kubectl and Helm to keep improving, and expect newer ideas to keep building on pods. The basics, though, tend to stay the same, so time spent on deployments and services is rarely wasted. Anyone working on running many containers will keep meeting Kubernetes for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Helm; it often explains deployments better than blog posts do. Write a few tests that show how Kubernetes should behave. Tests double as documentation for your teammates.
+
+A system that cannot be observed cannot be reliably operated. Automation turns risky manual steps into repeatable and reviewable processes.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Kubernetes.

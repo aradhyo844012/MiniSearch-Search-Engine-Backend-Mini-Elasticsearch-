@@ -1,0 +1,13 @@
+Inside Python Generators: How It Works
+
+This article walks through what happens inside Python Generators, step by step. If you build software for long enough, you will run into Python Generators. The term refers to functions that produce values one at a time instead of building a whole list.
+
+To understand Python Generators, start with yield. Then move on to lazy evaluation, and finally look at iterators and generator expressions. Sketching generator expressions on paper before coding helps many learners see how the pieces fit.
+
+First, yield sets the stage for everything else. Next, lazy evaluation builds on it. After that, iterators comes into play, and finally generator expressions ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Every language has idioms that experienced developers recognize at a glance.
+
+If you are comfortable with Python Generators, explore Error Handling next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Python Generators.

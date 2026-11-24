@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Microservices
+
+This hands-on tutorial takes you from zero to a small working experiment with Microservices. Many students first meet Microservices in a classroom, but it matters just as much in production systems. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+Step 1: Install or open Docker and create a new empty project folder.
+Step 2: Read about service boundaries and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses APIs.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as large teams working in parallel.
+Step 6: Break your example on purpose and see what happens. A good experiment: splitting too early.
+
+Popular tools and libraries include Docker, Kubernetes, and API gateways.
+
+Three issues come up again and again: splitting too early; chatty services; and hard debugging across services. Knowing them in advance saves hours of debugging.
+
+With steady practice, Microservices will stop feeling abstract and become a tool you reach for naturally.

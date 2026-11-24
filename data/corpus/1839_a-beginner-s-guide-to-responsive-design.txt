@@ -1,0 +1,19 @@
+A Beginner's Guide to Responsive Design
+
+This guide is written for readers who are new to Responsive Design and want a clear starting point. Many students first meet Responsive Design in a classroom, but it matters just as much in production systems. The term refers to building pages that adapt smoothly to phones, tablets and large screens.
+
+Small improvements in markup and styling often have a large effect on usability. Web pages must work across many browsers, devices and network conditions.
+
+Small improvements in markup and styling often have a large effect on usability. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Four ideas sit at the heart of Responsive Design: media queries, fluid grids, flexible images, and mobile-first thinking. Each one builds on the one before it. Understanding fluid grids first often makes flexible images much easier to reason about.
+
+People use Responsive Design for websites used on many devices, for dashboards, and for e-commerce pages.
+
+Popular tools and libraries include Chrome DevTools device mode, Bootstrap grid, and Lighthouse.
+
+Watch out for these problems: testing only on one screen size; tiny touch targets; and horizontal scrolling.
+
+Ask a teammate to explain flexible images back to you; teaching is a quick way to find gaps. Start small by applying Responsive Design to one case, such as websites used on many devices, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit Responsive Design whenever a new project gives you a reason.

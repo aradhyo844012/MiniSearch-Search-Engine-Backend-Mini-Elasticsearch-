@@ -1,0 +1,11 @@
+NoSQL Databases Cheat Sheet
+
+Use this page as a quick reminder of the essentials of NoSQL Databases.
+
+- Definition: a broad family of databases that do not use the traditional relational table model.
+- Core ideas: document stores; key-value stores; column families; graph databases.
+- Use it for: flexible schemas; high write throughput; caching and sessions.
+- Watch out for: assuming no schema means no design; weak consistency surprises; expensive cross-collection queries.
+- Tools: MongoDB, Cassandra, Redis.
+- Related topic: Database Replication.
+- Quick tip: write a tiny test for key-value stores before building anything large.

@@ -1,0 +1,13 @@
+How DOM Manipulation Connects to Web Accessibility
+
+DOM Manipulation and Web Accessibility are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving updating search results may also involve screen reader support. In such a project, selectors and semantic HTML often influence each other.
+
+Start with DOM Manipulation: the term refers to reading and changing the structure and content of a web page from JavaScript. Then look at Web Accessibility, which refers to designing websites so that people with different abilities can use them.
+
+A useful exercise is to take one example, such as handling form input, and explain how ARIA attributes would change the design.
+
+Common problems are shared too. For DOM Manipulation, watch for this: querying the DOM inside tight loops. For Web Accessibility, watch for this: missing focus indicators. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Spend a few hours on each topic, then combine them in one small project using querySelector or axe DevTools.

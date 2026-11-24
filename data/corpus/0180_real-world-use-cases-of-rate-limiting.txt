@@ -1,0 +1,15 @@
+Real-World Use Cases of Rate Limiting
+
+The best way to appreciate Rate Limiting is to see where it is actually used. If you build software for long enough, you will run into Rate Limiting. The term refers to controlling how many requests a client can make in a given period.
+
+You will see Rate Limiting whenever people work on protecting APIs or stopping brute force attempts. It also helps with fair usage across customers.
+
+Practice token bucket with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+Consider protecting APIs. In a case like this, Rate Limiting gives the work a clear structure, and understanding token bucket makes the design easier to explain. A different example is stopping brute force attempts, where fixed window often decides how well the solution scales.
+
+Good APIs are boring, predictable and well documented. Failures between services are normal, so retries and timeouts need careful design.
+
+In practice you can start with Redis, then explore NGINX or API gateways as your needs grow.
+
+With steady practice, Rate Limiting will stop feeling abstract and become a tool you reach for naturally.

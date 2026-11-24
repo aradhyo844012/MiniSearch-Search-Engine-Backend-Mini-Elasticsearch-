@@ -1,0 +1,11 @@
+Common Mistakes When Working with Two-Factor Authentication
+
+Almost everyone makes a few avoidable errors when first working with Two-Factor Authentication. The term Two-Factor Authentication refers to requiring a second proof of identity in addition to a password. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: relying only on SMS. Second: no recovery plan. Third: weak backup code storage.
+
+Consider the first problem: relying only on SMS. A short test or a careful review comment usually catches it. The second problem is similar: no recovery plan. The third problem is this: weak backup code storage. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Google Authenticator or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: relying only on SMS.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Two-Factor Authentication.

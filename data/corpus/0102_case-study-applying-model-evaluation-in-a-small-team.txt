@@ -1,0 +1,9 @@
+Case Study: Applying Model Evaluation in a Small Team
+
+Imagine a small student team building a project that depends on Model Evaluation. The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning accuracy and precision and recall. Early on they hit a familiar problem: using accuracy on imbalanced data. After fixing it, they used scikit-learn metrics to check their work and adopted Model Evaluation for comparing models. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Three issues come up again and again: using accuracy on imbalanced data; tuning on the test set; and ignoring variance between runs. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Model Evaluation.

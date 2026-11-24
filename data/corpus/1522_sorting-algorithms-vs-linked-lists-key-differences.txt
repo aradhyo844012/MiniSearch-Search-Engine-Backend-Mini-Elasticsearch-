@@ -1,0 +1,15 @@
+Sorting Algorithms vs Linked Lists: Key Differences
+
+Sorting Algorithms and Linked Lists both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Sorting Algorithms refers to methods for arranging items in a defined order. Its core ideas are comparison sorts, stability, and divide and conquer.
+
+The term Linked Lists refers to chains of nodes where each node stores a value and a reference to the next node. Its core ideas are nodes, head and tail pointers, and singly and doubly linked lists.
+
+The main difference is focus. Sorting Algorithms puts the emphasis on comparison sorts and stability, while Linked Lists puts the emphasis on nodes and head and tail pointers.
+
+Reach for Sorting Algorithms when your task involves ordering search results or preparing data for binary search. Reach for Linked Lists when your task involves queues and stacks or undo histories.
+
+Both have risks. With Sorting Algorithms, watch for this: assuming every sort is stable. With Linked Lists, watch for this: losing the head pointer.
+
+In practice you do not always have to choose. Many projects use Sorting Algorithms alongside Linked Lists, with tools such as Python sorted and Python collections.deque. Interviewers and engineers alike value clear reasoning about time and space costs.

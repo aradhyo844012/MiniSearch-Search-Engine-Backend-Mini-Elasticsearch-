@@ -1,0 +1,21 @@
+Edit Distance Interview Questions and Answers
+
+Prepare for these questions about Edit Distance.
+
+Q: Explain Edit Distance in simple words.
+A: Edit Distance refers to a measure of how many single-character changes turn one word into another. I would add an example involving spell checking.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as insertions, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: comparing against every word in a large vocabulary.
+
+Q: How does it connect to TF-IDF?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: comparing against every word in a large vocabulary; ignoring word length; and forgetting transpositions.
+
+Q: Where would you apply it first?
+A: I would start with fuzzy matching, because it is small enough to test and large enough to show the benefit.

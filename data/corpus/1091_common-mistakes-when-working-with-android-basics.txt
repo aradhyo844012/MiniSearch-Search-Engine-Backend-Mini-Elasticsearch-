@@ -1,0 +1,13 @@
+Common Mistakes When Working with Android Basics
+
+Almost everyone makes a few avoidable errors when first working with Android Basics. The term Android Basics refers to the core building blocks used to create apps for Android phones. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: ignoring lifecycle events. Second: blocking the main thread. Third: hard-coded layouts.
+
+Consider the first problem: ignoring lifecycle events. A short test or a careful review comment usually catches it. The second problem is similar: blocking the main thread. The third problem is this: hard-coded layouts. It tends to appear only once a project grows, so it is worth planning for early.
+
+Write a few tests that show how Android Basics should behave. Tests double as documentation for your teammates. Measure before you optimize. Use Android Studio or a simple timer to see where time is actually spent. Practice activities with small exercises until it feels natural.
+
+Measure before you optimize. Use Android Studio or a simple timer to see where time is actually spent. Ask a teammate to explain intents back to you; teaching is a quick way to find gaps.
+
+With steady practice, Android Basics will stop feeling abstract and become a tool you reach for naturally.

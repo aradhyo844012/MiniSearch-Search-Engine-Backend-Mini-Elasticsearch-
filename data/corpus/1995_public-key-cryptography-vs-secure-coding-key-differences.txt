@@ -1,0 +1,15 @@
+Public Key Cryptography vs Secure Coding: Key Differences
+
+Public Key Cryptography and Secure Coding both belong to the area of Security, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Public Key Cryptography refers to encryption that uses a pair of keys, one public and one private. Its core ideas are key pairs, digital signatures, and certificates.
+
+The term Secure Coding refers to writing software in ways that avoid common vulnerabilities. Its core ideas are input validation, least privilege, and dependency updates.
+
+The main difference is focus. Public Key Cryptography puts the emphasis on key pairs and digital signatures, while Secure Coding puts the emphasis on input validation and least privilege.
+
+Reach for Public Key Cryptography when your task involves HTTPS or signing software. Reach for Secure Coding when your task involves reviewing pull requests or building web services.
+
+Both have risks. With Public Key Cryptography, watch for this: losing private keys. With Secure Coding, watch for this: trusting user input.
+
+In practice you do not always have to choose. Many projects use Public Key Cryptography alongside Secure Coding, with tools such as OpenSSL and OWASP Top 10. Security is a habit applied throughout development, not a feature added at the end.

@@ -1,0 +1,21 @@
+Zipf's Law Interview Questions and Answers
+
+Prepare for these questions about Zipf's Law.
+
+Q: Explain Zipf's Law in simple words.
+A: Zipf's Law refers to the observation that a word's frequency is roughly inversely related to its rank in natural language. I would add an example involving analyzing text corpora.
+
+Q: How does it connect to BM25 Ranking?
+A: Both belong to the area of Search and Retrieval, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: testing it on random text.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as rank and frequency, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with sizing indexes, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: matplotlib, NumPy, and pandas.

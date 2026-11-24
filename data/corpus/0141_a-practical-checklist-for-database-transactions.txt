@@ -1,0 +1,11 @@
+A Practical Checklist for Database Transactions
+
+Use this checklist before you rely on Database Transactions in a project.
+
+1. Write at least one automated test that covers atomicity.
+2. Try the approach on a small case, for example transferring money between accounts.
+3. Guard against this risk: forgetting to roll back on errors.
+4. Review how Database Transactions interacts with SQL Joins.
+5. Guard against this risk: ignoring isolation levels.
+6. Ask a teammate to review the work, focusing on consistency.
+7. Confirm that your team agrees on what Database Transactions should accomplish.

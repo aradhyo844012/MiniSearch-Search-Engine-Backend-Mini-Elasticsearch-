@@ -1,0 +1,11 @@
+A Practical Checklist for HTML Semantics
+
+Use this checklist before you rely on HTML Semantics in a project.
+
+1. Guard against this risk: missing labels on form inputs.
+2. Document your decisions in the project README.
+3. Ask a teammate to review the work, focusing on landmarks.
+4. Guard against this risk: using div for everything.
+5. Try the approach on a small case, for example accessible pages.
+6. Confirm that your team agrees on what HTML Semantics should accomplish.
+7. Review how HTML Semantics interacts with Single Page Applications.

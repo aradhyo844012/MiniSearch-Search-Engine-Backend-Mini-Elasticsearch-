@@ -1,0 +1,13 @@
+How Bootstrap Connects to Single Page Applications
+
+Bootstrap and Single Page Applications are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving prototypes and dashboards may also involve dashboards. In such a project, grid system and client-side routing often influence each other.
+
+Start with Bootstrap: the term refers to a popular front-end toolkit with ready-made layout, components and utilities. Then look at Single Page Applications, which refers to web apps that load once and update the page dynamically as the user interacts.
+
+A useful exercise is to take one example, such as admin pages, and explain how state management would change the design.
+
+Common problems are shared too. For Bootstrap, watch for this: loading unused components. For Single Page Applications, watch for this: poor search engine visibility. Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Spend a few hours on each topic, then combine them in one small project using Bootstrap CDN or React.

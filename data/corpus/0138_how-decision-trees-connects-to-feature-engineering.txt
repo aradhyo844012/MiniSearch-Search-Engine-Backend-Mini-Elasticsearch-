@@ -1,0 +1,13 @@
+How Decision Trees Connects to Feature Engineering
+
+Decision Trees and Feature Engineering are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving classifying customers may also involve improving model accuracy. In such a project, splits and scaling often influence each other.
+
+Start with Decision Trees: the term refers to models that make predictions by asking a sequence of simple questions about the data. Then look at Feature Engineering, which refers to creating and transforming input variables so that models can learn from them more easily.
+
+A useful exercise is to take one example, such as explaining predictions, and explain how encoding categories would change the design.
+
+Common problems are shared too. For Decision Trees, watch for this: ignoring class imbalance. For Feature Engineering, watch for this: inconsistent transformations between training and serving. Results should always be checked on data the model has never seen.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or pandas.

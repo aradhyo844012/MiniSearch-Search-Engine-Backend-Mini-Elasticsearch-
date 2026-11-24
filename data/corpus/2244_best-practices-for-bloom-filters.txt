@@ -1,0 +1,15 @@
+Best Practices for Bloom Filters
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Bloom Filters in a classroom, but it matters just as much in production systems. The term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+1. Keep notes on what worked. A short README explaining your decisions about Bloom Filters helps the next developer.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Practice bit arrays with small exercises until it feels natural.
+4. Measure before you optimize. Use Python bitarray or a simple timer to see where time is actually spent.
+5. Start small by applying Bloom Filters to one case, such as skipping disk lookups for missing keys, before rolling it out more widely.
+
+In practice you can start with Python bitarray, then explore Guava BloomFilter or Redis modules as your needs grow.
+
+A solid grasp of Bloom Filters also makes Linked Lists easier to understand.
+
+With steady practice, Bloom Filters will stop feeling abstract and become a tool you reach for naturally.

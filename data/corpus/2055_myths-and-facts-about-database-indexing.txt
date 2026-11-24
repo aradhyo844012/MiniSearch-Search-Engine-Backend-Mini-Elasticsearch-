@@ -1,0 +1,19 @@
+Myths and Facts About Database Indexing
+
+A lot of folklore has built up around Database Indexing. Some of it is true, and some of it is not. When people talk about Database Indexing, they usually mean auxiliary structures that let a database find rows without scanning a whole table. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Database Indexing is only for experts.
+Fact: beginners can use it effectively once they understand B-tree indexes and selectivity.
+
+Myth: Database Indexing is only useful in very large systems.
+Fact: small projects such as speeding up lookups benefit as well.
+
+Myth: one tool does everything.
+Fact: EXPLAIN plans, pgAdmin, and MySQL slow query log make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Database Indexing are always obvious.
+Fact: subtle problems happen, for example indexing every column.
+
+Automate repetitive steps so that results are easy to reproduce. Practice B-tree indexes with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Indexing.

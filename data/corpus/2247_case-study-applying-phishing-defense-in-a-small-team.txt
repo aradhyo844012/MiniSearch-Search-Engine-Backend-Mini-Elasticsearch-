@@ -1,0 +1,11 @@
+Case Study: Applying Phishing Defense in a Small Team
+
+Imagine a small student team building a project that depends on Phishing Defense. The term Phishing Defense refers to recognizing and reducing attacks that trick people into revealing information. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning suspicious links and sender verification. Early on they hit a familiar problem: clicking before checking. After fixing it, they used SPF to check their work and adopted Phishing Defense for protecting employees. Looking back, they said the biggest lesson was to keep the design simple.
+
+Security is a habit applied throughout development, not a feature added at the end. Keeping dependencies updated removes a large share of known risks.
+
+Three issues come up again and again: clicking before checking; reusing passwords; and ignoring reports from users. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Phishing Defense whenever a new project gives you a reason.

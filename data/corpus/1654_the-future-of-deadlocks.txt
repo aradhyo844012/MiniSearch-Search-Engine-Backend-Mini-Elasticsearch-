@@ -1,0 +1,13 @@
+The Future of Deadlocks
+
+Predicting the future is risky, but the direction of Deadlocks is easy to describe in general terms. The term Deadlocks refers to situations where two or more tasks wait for each other forever. This article explains the idea in plain language and points out where it fits in real projects.
+
+The operating system shares limited hardware between many competing programs.
+
+Expect tools such as thread dumps and database deadlock logs to keep improving, and expect newer ideas to keep building on mutual exclusion. The basics, though, tend to stay the same, so time spent on hold and wait and circular wait is rarely wasted. Anyone working on database lock conflicts will keep meeting Deadlocks for years to come.
+
+The operating system shares limited hardware between many competing programs. Logs and system monitors are the first place to look when a machine misbehaves.
+
+Keep an eye on this risk during code review: acquiring locks in inconsistent order. Read the official documentation for database deadlock logs; it often explains hold and wait better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+With steady practice, Deadlocks will stop feeling abstract and become a tool you reach for naturally.

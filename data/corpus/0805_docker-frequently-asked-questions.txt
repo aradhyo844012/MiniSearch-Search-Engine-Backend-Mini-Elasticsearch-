@@ -1,0 +1,16 @@
+Docker: Frequently Asked Questions
+
+Q: What is Docker?
+A: The term Docker refers to a platform for building and running applications in containers.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Docker.
+
+Q: What mistakes are most common?
+A: Watch for these: huge images; secrets baked into images; and running as root.
+
+Q: Which tools help?
+A: Popular choices include Docker Compose, Docker Hub, and Podman.

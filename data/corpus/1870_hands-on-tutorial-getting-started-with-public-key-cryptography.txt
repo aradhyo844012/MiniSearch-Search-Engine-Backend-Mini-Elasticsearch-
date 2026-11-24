@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Public Key Cryptography
+
+This hands-on tutorial takes you from zero to a small working experiment with Public Key Cryptography. The term Public Key Cryptography refers to encryption that uses a pair of keys, one public and one private. This article explains the idea in plain language and points out where it fits in real projects.
+
+Step 1: Install or open OpenSSL and create a new empty project folder.
+Step 2: Read about key pairs and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses digital signatures.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as HTTPS.
+Step 6: Break your example on purpose and see what happens. A good experiment: losing private keys.
+
+Popular tools and libraries include OpenSSL, GnuPG, and SSH keys.
+
+Watch out for these problems: losing private keys; trusting unverified keys; and using keys that are too short.
+
+Keep experimenting, keep notes, and revisit Public Key Cryptography whenever a new project gives you a reason.

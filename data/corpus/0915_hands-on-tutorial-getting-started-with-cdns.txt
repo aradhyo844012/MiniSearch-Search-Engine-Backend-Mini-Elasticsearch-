@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with CDNs
+
+This hands-on tutorial takes you from zero to a small working experiment with CDNs. Put simply, CDNs covers networks of servers around the world that deliver static content from a location close to the user. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open Cloudflare and create a new empty project folder.
+Step 2: Read about edge servers and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses cache rules.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as serving images and scripts.
+Step 6: Break your example on purpose and see what happens. A good experiment: caching private data.
+
+In practice you can start with Cloudflare, then explore Akamai or Amazon CloudFront as your needs grow.
+
+A solid grasp of CDNs also makes TCP and UDP easier to understand.
+
+Watch out for these problems: caching private data; forgetting to purge old files; and misconfigured cache headers.
+
+In short, careful study of CDNs pays off. Spend time on edge servers and cache rules, and the rest will follow.

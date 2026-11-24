@@ -1,0 +1,24 @@
+Unit Testing Interview Questions and Answers
+
+Prepare for these questions about Unit Testing.
+
+Q: Explain Unit Testing in simple words.
+A: Unit Testing refers to writing small automated tests that check one piece of code at a time. I would add an example involving catching regressions.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as test cases, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: testing implementation details.
+
+Q: Which tools have you used?
+A: pytest, unittest, and coverage.py.
+
+Q: How does it connect to Version Control Workflow?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.
+
+Q: What are the key concepts?
+A: test cases, assertions, fixtures, and mocking.
+
+Q: What problems have you seen in practice?
+A: testing implementation details; slow tests; and tests that depend on each other.

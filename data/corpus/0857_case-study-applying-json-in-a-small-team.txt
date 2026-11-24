@@ -1,0 +1,11 @@
+Case Study: Applying JSON in a Small Team
+
+Imagine a small student team building a project that depends on JSON. If you build software for long enough, you will run into JSON. The term refers to a lightweight text format for exchanging structured data between programs.
+
+The team first spent a week learning objects and arrays. Early on they hit a familiar problem: trailing commas. After fixing it, they used Python json module to check their work and adopted JSON for API responses. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Measure before you optimize. Use Python json module or a simple timer to see where time is actually spent. Read the official documentation for jq; it often explains arrays better than blog posts do. Start small by applying JSON to one case, such as API responses, before rolling it out more widely.
+
+Watch out for these problems: trailing commas; large payloads; and losing precision with big numbers.
+
+Keep experimenting, keep notes, and revisit JSON whenever a new project gives you a reason.

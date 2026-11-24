@@ -1,0 +1,13 @@
+How Authentication and Sessions Connects to Microservices
+
+Authentication and Sessions and Microservices are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving logging in to web apps may also involve large teams working in parallel. In such a project, credentials and service boundaries often influence each other.
+
+Start with Authentication and Sessions: the term refers to the process of proving who a user is and remembering them between requests. Then look at Microservices, which refers to an architecture that splits an application into small services that can be deployed independently.
+
+A useful exercise is to take one example, such as protecting admin pages, and explain how APIs would change the design.
+
+Common problems are shared too. For Authentication and Sessions, watch for this: never expiring sessions. For Microservices, watch for this: chatty services. Good APIs are boring, predictable and well documented.
+
+Spend a few hours on each topic, then combine them in one small project using Flask-Login or Docker.

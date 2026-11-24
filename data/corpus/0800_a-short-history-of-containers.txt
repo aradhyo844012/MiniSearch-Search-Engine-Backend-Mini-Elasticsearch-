@@ -1,0 +1,11 @@
+A Short History of Containers
+
+Ideas behind Containers developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Containers covers lightweight packages that bundle an application with its dependencies and run in isolation. Learning it well pays off across many areas of computing.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out. Understanding what the kernel does explains many surprising performance problems.
+
+The vocabulary of Containers is small. Learn images, layers, namespaces, and registries, and most documentation will start to make sense. Understanding layers first often makes namespaces much easier to reason about.
+
+If you are comfortable with Containers, explore Deadlocks next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Containers.

@@ -1,0 +1,12 @@
+A Practical Checklist for Relational Databases
+
+Use this checklist before you rely on Relational Databases in a project.
+
+1. Measure results before and after any change.
+2. Guard against this risk: missing indexes on filtered columns.
+3. Confirm that your team agrees on what Relational Databases should accomplish.
+4. Guard against this risk: skipping constraints.
+5. Guard against this risk: storing lists in a single column.
+6. Try the approach on a small case, for example storing orders and customers.
+7. Pick a tool to start with, such as PostgreSQL or MySQL.
+8. Review the core ideas: tables and rows, primary keys, foreign keys, and schemas.

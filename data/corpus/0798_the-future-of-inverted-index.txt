@@ -1,0 +1,13 @@
+The Future of Inverted Index
+
+Predicting the future is risky, but the direction of Inverted Index is easy to describe in general terms. Put simply, Inverted Index covers a data structure that maps each term to the documents that contain it. Learning it well pays off across many areas of computing.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Expect tools such as Lucene and Elasticsearch to keep improving, and expect newer ideas to keep building on vocabulary. The basics, though, tend to stay the same, so time spent on postings lists and term frequency is rarely wasted. Anyone working on full-text search will keep meeting Inverted Index for years to come.
+
+Read the official documentation for Elasticsearch; it often explains postings lists better than blog posts do. Write a few tests that show how Inverted Index should behave. Tests double as documentation for your teammates.
+
+If you are comfortable with Inverted Index, explore TF-IDF next. The two often appear in the same project.
+
+In short, careful study of Inverted Index pays off. Spend time on vocabulary and postings lists, and the rest will follow.

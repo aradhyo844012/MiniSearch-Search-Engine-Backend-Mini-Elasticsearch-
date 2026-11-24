@@ -1,0 +1,19 @@
+A Beginner's Guide to CSS Flexbox and Grid
+
+This guide is written for readers who are new to CSS Flexbox and Grid and want a clear starting point. Put simply, CSS Flexbox and Grid covers two layout systems that arrange elements in rows, columns and two-dimensional grids. Learning it well pays off across many areas of computing.
+
+Accessible design helps everyone, including people on slow connections or small screens.
+
+The vocabulary of CSS Flexbox and Grid is small. Learn flex containers, grid tracks, alignment, and gaps, and most documentation will start to make sense. Sketching gaps on paper before coding helps many learners see how the pieces fit.
+
+People use CSS Flexbox and Grid for navigation bars, for card layouts, and for page templates.
+
+In practice you can start with browser grid inspector, then explore Bootstrap utilities or CSS-Tricks guides as your needs grow.
+
+Beginners often stumble on three things. First: mixing up main and cross axes. Second: fixed widths that break on phones. Third: nesting layouts too deeply.
+
+Keep notes on what worked. A short README explaining your decisions about CSS Flexbox and Grid helps the next developer. Read the official documentation for Bootstrap utilities; it often explains grid tracks better than blog posts do.
+
+Keep notes on what worked. A short README explaining your decisions about CSS Flexbox and Grid helps the next developer. Keep an eye on this risk during code review: mixing up main and cross axes. Practice flex containers with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CSS Flexbox and Grid.

@@ -1,0 +1,13 @@
+The Future of Model Evaluation
+
+Predicting the future is risky, but the direction of Model Evaluation is easy to describe in general terms. Put simply, Model Evaluation covers measuring how well a machine learning model works on data it has not seen. Learning it well pays off across many areas of computing.
+
+A model is only as good as the data used to train and test it.
+
+Expect tools such as scikit-learn metrics and MLflow to keep improving, and expect newer ideas to keep building on accuracy. The basics, though, tend to stay the same, so time spent on precision and recall and confusion matrices is rarely wasted. Anyone working on comparing models will keep meeting Model Evaluation for years to come.
+
+Simple baselines are worth building first because they show what improvement is realistic.
+
+Keep notes on what worked. A short README explaining your decisions about Model Evaluation helps the next developer. Keep an eye on this risk during code review: using accuracy on imbalanced data.
+
+In short, careful study of Model Evaluation pays off. Spend time on accuracy and precision and recall, and the rest will follow.

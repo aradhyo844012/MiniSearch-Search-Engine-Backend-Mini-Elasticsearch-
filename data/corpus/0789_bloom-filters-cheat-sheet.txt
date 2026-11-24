@@ -1,0 +1,11 @@
+Bloom Filters Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Bloom Filters.
+
+- Definition: compact probabilistic structures that quickly tell you whether an item is probably in a set.
+- Core ideas: bit arrays; multiple hash functions; false positives; no false negatives.
+- Use it for: skipping disk lookups for missing keys; checking visited URLs; reducing cache misses.
+- Watch out for: choosing too small a bit array; trying to delete items; forgetting that false positives exist.
+- Tools: Python bitarray, Guava BloomFilter, Redis modules.
+- Related topic: Binary Search Trees.
+- Quick tip: write a tiny test for multiple hash functions before building anything large.

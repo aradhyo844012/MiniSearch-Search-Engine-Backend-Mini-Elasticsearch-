@@ -1,0 +1,17 @@
+Best Practices for DNS
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into DNS. The term refers to the system that translates human-friendly domain names into IP addresses.
+
+1. Ask a teammate to explain caching and TTL back to you; teaching is a quick way to find gaps.
+2. Start small by applying DNS to one case, such as mapping domains to servers, before rolling it out more widely.
+3. Write a few tests that show how DNS should behave. Tests double as documentation for your teammates.
+4. Keep an eye on this risk during code review: forgetting TTLs when migrating.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+In practice you can start with dig, then explore nslookup or Cloudflare DNS as your needs grow.
+
+Network failures are normal, so well-designed software expects timeouts and retries.
+
+A solid grasp of DNS also makes Load Balancing easier to understand.
+
+In short, careful study of DNS pays off. Spend time on resolvers and records, and the rest will follow.

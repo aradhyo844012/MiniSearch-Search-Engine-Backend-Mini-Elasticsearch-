@@ -1,0 +1,19 @@
+A Beginner's Guide to Linked Lists
+
+This guide is written for readers who are new to Linked Lists and want a clear starting point. When people talk about Linked Lists, they usually mean chains of nodes where each node stores a value and a reference to the next node. It appears in almost every serious software project, whether or not developers notice it.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+The vocabulary of Linked Lists is small. Learn nodes, head and tail pointers, singly and doubly linked lists, and pointer updates, and most documentation will start to make sense. Understanding head and tail pointers first often makes singly and doubly linked lists much easier to reason about.
+
+Typical applications include queues and stacks, undo histories, and memory allocators. Small projects and large systems both benefit.
+
+In practice you can start with Python collections.deque, then explore Java LinkedList or C pointers as your needs grow.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Watch out for these problems: losing the head pointer; off-by-one errors during insertion; and poor cache locality.
+
+Write a few tests that show how Linked Lists should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Linked Lists helps the next developer.
+
+Keep experimenting, keep notes, and revisit Linked Lists whenever a new project gives you a reason.

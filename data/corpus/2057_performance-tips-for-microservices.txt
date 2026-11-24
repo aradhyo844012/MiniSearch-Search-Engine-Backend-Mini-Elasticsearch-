@@ -1,0 +1,13 @@
+Performance Tips for Microservices
+
+Fast software rarely happens by accident, and Microservices offers several places to gain speed. If you build software for long enough, you will run into Microservices. The term refers to an architecture that splits an application into small services that can be deployed independently.
+
+Start by measuring. Use Docker or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to service boundaries and APIs, because they usually decide how well things scale. For workloads such as large teams working in parallel, even small improvements add up quickly.
+
+Four ideas sit at the heart of Microservices: service boundaries, APIs, independent deployment, and distributed data. Each one builds on the one before it. A good way to remember service boundaries is to connect it with a concrete example from your own code.
+
+Measure before you optimize. Use Docker or a simple timer to see where time is actually spent. Ask a teammate to explain independent deployment back to you; teaching is a quick way to find gaps.
+
+Watch out for these problems: splitting too early; chatty services; and hard debugging across services.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Microservices.

@@ -1,0 +1,13 @@
+Performance Tips for Overfitting
+
+Fast software rarely happens by accident, and Overfitting offers several places to gain speed. When people talk about Overfitting, they usually mean when a model learns the training data too closely and performs poorly on new data. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use scikit-learn or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to training and validation error and model complexity, because they usually decide how well things scale. For workloads such as diagnosing weak models, even small improvements add up quickly.
+
+To understand Overfitting, start with training and validation error. Then move on to model complexity, and finally look at regularization and cross-validation. Understanding model complexity first often makes regularization much easier to reason about.
+
+Measure before you optimize. Use scikit-learn or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: evaluating only on training data. Write a few tests that show how Overfitting should behave. Tests double as documentation for your teammates.
+
+Beginners often stumble on three things. First: evaluating only on training data. Second: leaking test data. Third: adding complexity without evidence.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Overfitting.

@@ -1,0 +1,19 @@
+Myths and Facts About REST APIs
+
+A lot of folklore has built up around REST APIs. Some of it is true, and some of it is not. Put simply, REST APIs covers an approach to designing web APIs around resources, URLs and standard HTTP methods. Learning it well pays off across many areas of computing.
+
+Myth: REST APIs is only for experts.
+Fact: beginners can use it effectively once they understand resources and HTTP verbs.
+
+Myth: REST APIs is only useful in very large systems.
+Fact: small projects such as mobile app backends benefit as well.
+
+Myth: one tool does everything.
+Fact: Flask, FastAPI, and Postman make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with REST APIs are always obvious.
+Fact: subtle problems happen, for example inconsistent naming.
+
+Clear contracts between services make systems easier to change and test.
+
+With steady practice, REST APIs will stop feeling abstract and become a tool you reach for naturally.

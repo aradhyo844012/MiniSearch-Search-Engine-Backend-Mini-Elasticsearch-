@@ -1,0 +1,13 @@
+A Practical Checklist for HTTP and HTTPS
+
+Use this checklist before you rely on HTTP and HTTPS in a project.
+
+1. Confirm that your team agrees on what HTTP and HTTPS should accomplish.
+2. Ask a teammate to review the work, focusing on status codes.
+3. Write at least one automated test that covers methods.
+4. Guard against this risk: mixing up status codes.
+5. Guard against this risk: sending secrets in URLs.
+6. Review the core ideas: methods, status codes, headers, and cookies.
+7. Guard against this risk: ignoring caching headers.
+8. Document your decisions in the project README.
+9. Review how HTTP and HTTPS interacts with Load Balancing.

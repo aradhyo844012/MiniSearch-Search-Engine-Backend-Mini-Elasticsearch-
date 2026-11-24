@@ -1,0 +1,12 @@
+How to Learn TCP and UDP in 30 Days
+
+You do not need months to become comfortable with TCP and UDP. A focused plan of thirty days is enough to build a solid base. The term TCP and UDP refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn handshakes and acknowledgements, and write a one-page summary.
+Week 2: practice with Wireshark on a small task such as web traffic.
+Week 3: build a mini project around video calls.
+Week 4: review common mistakes such as assuming UDP guarantees delivery, and explain TCP and UDP to a friend.
+
+In practice you can start with Wireshark, then explore netcat or tcpdump as your needs grow.
+
+Keep experimenting, keep notes, and revisit TCP and UDP whenever a new project gives you a reason.

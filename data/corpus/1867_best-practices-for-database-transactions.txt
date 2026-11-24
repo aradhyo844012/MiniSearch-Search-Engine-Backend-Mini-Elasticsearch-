@@ -1,0 +1,17 @@
+Best Practices for Database Transactions
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Database Transactions, they usually mean groups of operations that succeed or fail together. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Write a few tests that show how Database Transactions should behave. Tests double as documentation for your teammates.
+2. Practice atomicity with small exercises until it feels natural.
+3. Start small by applying Database Transactions to one case, such as transferring money between accounts, before rolling it out more widely.
+4. Automate repetitive steps so that results are easy to reproduce.
+5. Ask a teammate to explain isolation back to you; teaching is a quick way to find gaps.
+
+In practice you can start with PostgreSQL, then explore SQLAlchemy or JDBC as your needs grow.
+
+Database Transactions and Database Indexing are closely related, so learning both gives a fuller picture of Databases.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+With steady practice, Database Transactions will stop feeling abstract and become a tool you reach for naturally.

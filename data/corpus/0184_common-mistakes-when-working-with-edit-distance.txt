@@ -1,0 +1,11 @@
+Common Mistakes When Working with Edit Distance
+
+Almost everyone makes a few avoidable errors when first working with Edit Distance. The term Edit Distance refers to a measure of how many single-character changes turn one word into another. This article explains the idea in plain language and points out where it fits in real projects.
+
+Three issues come up again and again: comparing against every word in a large vocabulary; ignoring word length; and forgetting transpositions. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: comparing against every word in a large vocabulary. A short test or a careful review comment usually catches it. The second problem is similar: ignoring word length. The third problem is this: forgetting transpositions. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use Levenshtein libraries or a simple timer to see where time is actually spent. Practice insertions with small exercises until it feels natural. Ask a teammate to explain substitutions back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Edit Distance pays off. Spend time on insertions and deletions, and the rest will follow.

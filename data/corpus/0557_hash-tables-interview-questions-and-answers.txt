@@ -1,0 +1,21 @@
+Hash Tables Interview Questions and Answers
+
+Prepare for these questions about Hash Tables.
+
+Q: Explain Hash Tables in simple words.
+A: Hash Tables refers to a way of storing key-value pairs so that lookups take roughly constant time. I would add an example involving implementing dictionaries and sets.
+
+Q: What are the key concepts?
+A: hash function, buckets, collision handling, and load factor.
+
+Q: What problems have you seen in practice?
+A: poor hash functions cause clustering; resizing is expensive at scale; and iteration order is not always stable.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: poor hash functions cause clustering.
+
+Q: Where would you apply it first?
+A: I would start with caching computed results, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Heaps and Priority Queues?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.

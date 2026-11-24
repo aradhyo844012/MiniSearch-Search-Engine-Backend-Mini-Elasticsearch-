@@ -1,0 +1,13 @@
+The Trade-offs of Big O Notation
+
+Every design choice has a cost, and Big O Notation is no exception. Put simply, Big O Notation covers a way of describing how running time or memory grows as the input size grows. Learning it well pays off across many areas of computing.
+
+On the positive side, Big O Notation is well suited to comparing algorithms and predicting scaling problems. On the other hand, it is not free. Keep these risks in mind: ignoring constant factors entirely; mixing up best and worst case; measuring only tiny inputs. Whether the trade is worth it depends on how much upper bounds and constant, linear and logarithmic growth matter to your project.
+
+Three issues come up again and again: ignoring constant factors entirely; mixing up best and worst case; and measuring only tiny inputs. Knowing them in advance saves hours of debugging.
+
+Keep notes on what worked. A short README explaining your decisions about Big O Notation helps the next developer. Practice upper bounds with small exercises until it feels natural.
+
+Interviewers and engineers alike value clear reasoning about time and space costs.
+
+In short, careful study of Big O Notation pays off. Spend time on upper bounds and constant, linear and logarithmic growth, and the rest will follow.

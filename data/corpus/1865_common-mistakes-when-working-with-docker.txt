@@ -1,0 +1,13 @@
+Common Mistakes When Working with Docker
+
+Almost everyone makes a few avoidable errors when first working with Docker. If you build software for long enough, you will run into Docker. The term refers to a platform for building and running applications in containers.
+
+Watch out for these problems: huge images; secrets baked into images; and running as root.
+
+Consider the first problem: huge images. A short test or a careful review comment usually catches it. The second problem is similar: secrets baked into images. The third problem is this: running as root. It tends to appear only once a project grows, so it is worth planning for early.
+
+A system that cannot be observed cannot be reliably operated.
+
+Keep an eye on this risk during code review: huge images. Practice Dockerfile with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Docker.

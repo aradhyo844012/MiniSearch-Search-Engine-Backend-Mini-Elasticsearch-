@@ -1,0 +1,13 @@
+Common Mistakes When Working with Browser Rendering
+
+Almost everyone makes a few avoidable errors when first working with Browser Rendering. When people talk about Browser Rendering, they usually mean the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. It appears in almost every serious software project, whether or not developers notice it.
+
+Three issues come up again and again: blocking scripts in the head; forcing repeated layouts; and loading huge images. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: blocking scripts in the head. A short test or a careful review comment usually catches it. The second problem is similar: forcing repeated layouts. The third problem is this: loading huge images. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about Browser Rendering helps the next developer. Practice DOM construction with small exercises until it feels natural. Read the official documentation for Lighthouse; it often explains style calculation better than blog posts do.
+
+Start small by applying Browser Rendering to one case, such as explaining slow pages, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain layout back to you; teaching is a quick way to find gaps.
+
+With steady practice, Browser Rendering will stop feeling abstract and become a tool you reach for naturally.

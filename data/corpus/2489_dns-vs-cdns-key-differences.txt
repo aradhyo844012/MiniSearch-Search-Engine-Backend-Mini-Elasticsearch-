@@ -1,0 +1,15 @@
+DNS vs CDNs: Key Differences
+
+DNS and CDNs both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term DNS refers to the system that translates human-friendly domain names into IP addresses. Its core ideas are resolvers, records, and caching and TTL.
+
+The term CDNs refers to networks of servers around the world that deliver static content from a location close to the user. Its core ideas are edge servers, cache rules, and origin servers.
+
+The main difference is focus. DNS puts the emphasis on resolvers and records, while CDNs puts the emphasis on edge servers and cache rules.
+
+Reach for DNS when your task involves mapping domains to servers or email routing. Reach for CDNs when your task involves serving images and scripts or speeding up global sites.
+
+Both have risks. With DNS, watch for this: forgetting TTLs when migrating. With CDNs, watch for this: caching private data.
+
+In practice you do not always have to choose. Many projects use DNS alongside CDNs, with tools such as dig and Cloudflare. Latency is limited by distance and by the number of round trips a request needs.

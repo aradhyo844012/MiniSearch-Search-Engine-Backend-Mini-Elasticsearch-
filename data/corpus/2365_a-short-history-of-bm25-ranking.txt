@@ -1,0 +1,11 @@
+A Short History of BM25 Ranking
+
+Ideas behind BM25 Ranking developed gradually as engineers ran into practical limits and shared what they learned. When people talk about BM25 Ranking, they usually mean a ranking function that improves on plain term frequency with saturation and length normalization. It appears in almost every serious software project, whether or not developers notice it.
+
+Fast search comes from precomputing structures so that queries do very little work. Search quality depends on how text is prepared before it is ever indexed.
+
+To understand BM25 Ranking, start with term saturation. Then move on to document length normalization, and finally look at k1 and b parameters and inverse document frequency. A good way to remember term saturation is to connect it with a concrete example from your own code.
+
+BM25 Ranking and Inverted Index are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Keep experimenting, keep notes, and revisit BM25 Ranking whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+A Practical Checklist for Graph Traversal
+
+Use this checklist before you rely on Graph Traversal in a project.
+
+1. Review the core ideas: adjacency lists, breadth-first search, depth-first search, and visited sets.
+2. Confirm that your team agrees on what Graph Traversal should accomplish.
+3. Guard against this risk: forgetting to mark nodes as visited.
+4. Guard against this risk: using recursion on very deep graphs.
+5. Measure results before and after any change.
+6. Review how Graph Traversal interacts with Big O Notation.
+7. Pick a tool to start with, such as NetworkX or Python collections.deque.
+8. Guard against this risk: choosing an adjacency matrix for sparse graphs.
+9. Try the approach on a small case, for example finding shortest paths in unweighted graphs.

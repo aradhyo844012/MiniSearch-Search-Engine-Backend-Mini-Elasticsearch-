@@ -1,0 +1,13 @@
+Performance Tips for Docker
+
+Fast software rarely happens by accident, and Docker offers several places to gain speed. If you build software for long enough, you will run into Docker. The term refers to a platform for building and running applications in containers.
+
+Start by measuring. Use Docker Compose or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to Dockerfile and image layers, because they usually decide how well things scale. For workloads such as reproducible development setups, even small improvements add up quickly.
+
+The vocabulary of Docker is small. Learn Dockerfile, image layers, volumes, and networks, and most documentation will start to make sense. A good way to remember Dockerfile is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Docker should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce. Practice Dockerfile with small exercises until it feels natural.
+
+Three issues come up again and again: huge images; secrets baked into images; and running as root. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Docker whenever a new project gives you a reason.

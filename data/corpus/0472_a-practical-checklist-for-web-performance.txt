@@ -1,0 +1,11 @@
+A Practical Checklist for Web Performance
+
+Use this checklist before you rely on Web Performance in a project.
+
+1. Confirm that your team agrees on what Web Performance should accomplish.
+2. Review how Web Performance interacts with Single Page Applications.
+3. Pick a tool to start with, such as Lighthouse or WebPageTest.
+4. Review the core ideas: page weight, caching, lazy loading, and critical rendering path.
+5. Guard against this risk: shipping large JavaScript bundles.
+6. Try the approach on a small case, for example shopping sites.
+7. Guard against this risk: unoptimized images.

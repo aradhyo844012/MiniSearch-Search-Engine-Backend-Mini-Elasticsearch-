@@ -1,0 +1,10 @@
+Key Terms in TLS Handshake Explained
+
+Clear vocabulary makes TLS Handshake much easier to learn, so here are the key terms in plain language. Many students first meet TLS Handshake in a classroom, but it matters just as much in production systems. The term refers to the exchange that lets a client and server agree on keys and set up an encrypted connection.
+
+certificates: a key term in TLS Handshake. You will meet it constantly in documentation and in code reviews.
+cipher suites: a key term in TLS Handshake. Beginners often confuse it with related terms, so define it in your own words early.
+session keys: a key term in TLS Handshake. You will meet it constantly in documentation and in code reviews.
+certificate authorities: a key term in TLS Handshake. You will meet it constantly in documentation and in code reviews.
+
+With steady practice, TLS Handshake will stop feeling abstract and become a tool you reach for naturally.

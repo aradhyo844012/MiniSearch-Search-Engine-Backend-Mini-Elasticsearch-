@@ -1,0 +1,12 @@
+How to Learn TLS Handshake in 30 Days
+
+You do not need months to become comfortable with TLS Handshake. A focused plan of thirty days is enough to build a solid base. Many students first meet TLS Handshake in a classroom, but it matters just as much in production systems. The term refers to the exchange that lets a client and server agree on keys and set up an encrypted connection.
+
+Week 1: learn certificates and cipher suites, and write a one-page summary.
+Week 2: practice with OpenSSL on a small task such as securing websites.
+Week 3: build a mini project around protecting API traffic.
+Week 4: review common mistakes such as expired certificates, and explain TLS Handshake to a friend.
+
+Popular tools and libraries include OpenSSL, Let's Encrypt, and SSL Labs.
+
+With steady practice, TLS Handshake will stop feeling abstract and become a tool you reach for naturally.

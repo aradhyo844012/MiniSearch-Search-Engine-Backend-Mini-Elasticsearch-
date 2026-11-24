@@ -1,0 +1,17 @@
+Myths and Facts About Single Page Applications
+
+A lot of folklore has built up around Single Page Applications. Some of it is true, and some of it is not. The term Single Page Applications refers to web apps that load once and update the page dynamically as the user interacts. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Single Page Applications is only for experts.
+Fact: beginners can use it effectively once they understand client-side routing and state management.
+
+Myth: Single Page Applications is only useful in very large systems.
+Fact: small projects such as dashboards benefit as well.
+
+Myth: one tool does everything.
+Fact: React, Vue, and Angular make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Single Page Applications are always obvious.
+Fact: subtle problems happen, for example slow first load.
+
+In short, careful study of Single Page Applications pays off. Spend time on client-side routing and state management, and the rest will follow.

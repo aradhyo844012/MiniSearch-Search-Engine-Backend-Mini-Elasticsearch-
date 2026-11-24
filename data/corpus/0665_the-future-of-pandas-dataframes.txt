@@ -1,0 +1,13 @@
+The Future of Pandas DataFrames
+
+Predicting the future is risky, but the direction of Pandas DataFrames is easy to describe in general terms. The term Pandas DataFrames refers to table-like structures in Python for loading, cleaning and analyzing data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Writing down assumptions about the data prevents confusing surprises later.
+
+A solid grasp of Pandas DataFrames also makes Data Visualization easier to understand.
+
+Expect tools such as pandas and Jupyter to keep improving, and expect newer ideas to keep building on rows and columns. The basics, though, tend to stay the same, so time spent on indexing and groupby is rarely wasted. Anyone working on loading CSV files will keep meeting Pandas DataFrames for years to come.
+
+Write a few tests that show how Pandas DataFrames should behave. Tests double as documentation for your teammates. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent.
+
+With steady practice, Pandas DataFrames will stop feeling abstract and become a tool you reach for naturally.

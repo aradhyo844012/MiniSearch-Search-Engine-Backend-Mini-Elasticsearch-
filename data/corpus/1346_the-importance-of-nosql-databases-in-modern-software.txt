@@ -1,0 +1,13 @@
+The Importance of NoSQL Databases in Modern Software
+
+It is easy to underestimate NoSQL Databases until something goes wrong without it. Many students first meet NoSQL Databases in a classroom, but it matters just as much in production systems. The term refers to a broad family of databases that do not use the traditional relational table model.
+
+Backups are only useful if restoring from them has been tested. Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+A team working on flexible schemas might adopt NoSQL Databases after hitting the limits of a simpler approach. Other teams turn to it for high write throughput or caching and sessions.
+
+Watch out for these problems: assuming no schema means no design; weak consistency surprises; and expensive cross-collection queries.
+
+NoSQL Databases and Relational Databases are closely related, so learning both gives a fuller picture of Databases.
+
+With steady practice, NoSQL Databases will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,19 @@
+A Beginner's Guide to Large Language Models
+
+This guide is written for readers who are new to Large Language Models and want a clear starting point. Many students first meet Large Language Models in a classroom, but it matters just as much in production systems. The term refers to very large neural networks trained on text that can generate and analyze language.
+
+A model is only as good as the data used to train and test it.
+
+The vocabulary of Large Language Models is small. Learn tokens, attention, pretraining, and prompts, and most documentation will start to make sense. Understanding attention first often makes pretraining much easier to reason about.
+
+You will see Large Language Models whenever people work on drafting text or answering questions. It also helps with assisting with code.
+
+Popular tools and libraries include Hugging Face, API playgrounds, and evaluation harnesses.
+
+Three issues come up again and again: trusting outputs without checking; vague prompts; and sending sensitive data carelessly. Knowing them in advance saves hours of debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about Large Language Models helps the next developer.
+
+Keep notes on what worked. A short README explaining your decisions about Large Language Models helps the next developer. Measure before you optimize. Use Hugging Face or a simple timer to see where time is actually spent. Write a few tests that show how Large Language Models should behave. Tests double as documentation for your teammates.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Large Language Models.

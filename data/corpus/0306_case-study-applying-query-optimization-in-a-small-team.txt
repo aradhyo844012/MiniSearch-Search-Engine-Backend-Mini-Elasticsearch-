@@ -1,0 +1,9 @@
+Case Study: Applying Query Optimization in a Small Team
+
+Imagine a small student team building a project that depends on Query Optimization. The term Query Optimization refers to the process of making database queries return results with less time and fewer resources. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning query plans and statistics. Early on they hit a familiar problem: selecting more columns than needed. After fixing it, they used EXPLAIN ANALYZE to check their work and adopted Query Optimization for speeding up dashboards. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: selecting more columns than needed. Second: running queries inside loops. Third: guessing instead of reading the plan.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Query Optimization.

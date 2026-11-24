@@ -1,0 +1,11 @@
+Case Study: Applying Redis Caching in a Small Team
+
+Imagine a small student team building a project that depends on Redis Caching. The term Redis Caching refers to using an in-memory data store to keep frequently needed results close to the application. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning key-value pairs and expiration times. Early on they hit a familiar problem: serving stale data. After fixing it, they used Redis to check their work and adopted Redis Caching for caching API responses. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: serving stale data. Second: caching without expiry. Third: treating the cache as the source of truth.
+
+Measure before you optimize. Use Redis or a simple timer to see where time is actually spent. Ask a teammate to explain eviction policies back to you; teaching is a quick way to find gaps.
+
+Keep experimenting, keep notes, and revisit Redis Caching whenever a new project gives you a reason.

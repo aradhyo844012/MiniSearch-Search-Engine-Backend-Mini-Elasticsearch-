@@ -1,0 +1,17 @@
+A Beginner's Guide to TF-IDF
+
+This guide is written for readers who are new to TF-IDF and want a clear starting point. When people talk about TF-IDF, they usually mean a scoring method that weights terms by how often they appear in a document and how rare they are overall. It appears in almost every serious software project, whether or not developers notice it.
+
+Search quality depends on how text is prepared before it is ever indexed. Fast search comes from precomputing structures so that queries do very little work.
+
+Four ideas sit at the heart of TF-IDF: term frequency, inverse document frequency, weighting, and normalization. Each one builds on the one before it. Sketching normalization on paper before coding helps many learners see how the pieces fit.
+
+People use TF-IDF for ranking search results, for finding keywords, and for comparing documents.
+
+In practice you can start with scikit-learn TfidfVectorizer, then explore Lucene or Gensim as your needs grow.
+
+Three issues come up again and again: over-weighting common words; ignoring document length; and using it on tiny corpora. Knowing them in advance saves hours of debugging.
+
+Keep notes on what worked. A short README explaining your decisions about TF-IDF helps the next developer. Start small by applying TF-IDF to one case, such as ranking search results, before rolling it out more widely. Read the official documentation for Lucene; it often explains inverse document frequency better than blog posts do.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

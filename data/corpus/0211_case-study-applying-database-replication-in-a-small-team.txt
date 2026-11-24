@@ -1,0 +1,11 @@
+Case Study: Applying Database Replication in a Small Team
+
+Imagine a small student team building a project that depends on Database Replication. If you build software for long enough, you will run into Database Replication. The term refers to copying data from one database server to others to improve availability and read capacity.
+
+The team first spent a week learning primary and replica and replication lag. Early on they hit a familiar problem: reading stale data from replicas. After fixing it, they used PostgreSQL streaming replication to check their work and adopted Database Replication for surviving server failures. Looking back, they said the biggest lesson was to keep the design simple.
+
+Measure before you optimize. Use PostgreSQL streaming replication or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce. Read the official documentation for MySQL replication; it often explains replication lag better than blog posts do.
+
+Three issues come up again and again: reading stale data from replicas; untested failover plans; and split-brain situations. Knowing them in advance saves hours of debugging.
+
+With steady practice, Database Replication will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+The Trade-offs of Cross-Site Scripting
+
+Every design choice has a cost, and Cross-Site Scripting is no exception. Put simply, Cross-Site Scripting covers a vulnerability where attackers get a site to run their scripts in other users' browsers. Learning it well pays off across many areas of computing.
+
+On the positive side, Cross-Site Scripting is well suited to reviewing web forms and securing comment sections. On the other hand, it is not free. Keep these risks in mind: inserting user text as raw HTML; trusting client-side filtering; missing content security policy. Whether the trade is worth it depends on how much reflected XSS and stored XSS matter to your project.
+
+Watch out for these problems: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy.
+
+Start small by applying Cross-Site Scripting to one case, such as reviewing web forms, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Cross-Site Scripting helps the next developer.
+
+Cross-Site Scripting and Two-Factor Authentication are closely related, so learning both gives a fuller picture of Security.
+
+Keep experimenting, keep notes, and revisit Cross-Site Scripting whenever a new project gives you a reason.

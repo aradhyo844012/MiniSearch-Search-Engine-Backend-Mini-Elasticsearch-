@@ -1,0 +1,19 @@
+A Beginner's Guide to NoSQL Databases
+
+This guide is written for readers who are new to NoSQL Databases and want a clear starting point. When people talk about NoSQL Databases, they usually mean a broad family of databases that do not use the traditional relational table model. It appears in almost every serious software project, whether or not developers notice it.
+
+NoSQL Databases and Database Indexing are closely related, so learning both gives a fuller picture of Databases.
+
+Good schema design is hard to change once real data and users depend on it. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+The vocabulary of NoSQL Databases is small. Learn document stores, key-value stores, column families, and graph databases, and most documentation will start to make sense. A good way to remember document stores is to connect it with a concrete example from your own code.
+
+You will see NoSQL Databases whenever people work on flexible schemas or high write throughput. It also helps with caching and sessions.
+
+In practice you can start with MongoDB, then explore Cassandra or Redis as your needs grow.
+
+Watch out for these problems: assuming no schema means no design; weak consistency surprises; and expensive cross-collection queries.
+
+Measure before you optimize. Use MongoDB or a simple timer to see where time is actually spent. Practice document stores with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of NoSQL Databases pays off. Spend time on document stores and key-value stores, and the rest will follow.

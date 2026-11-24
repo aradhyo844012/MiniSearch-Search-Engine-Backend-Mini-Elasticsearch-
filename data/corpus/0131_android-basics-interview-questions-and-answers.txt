@@ -1,0 +1,21 @@
+Android Basics Interview Questions and Answers
+
+Prepare for these questions about Android Basics.
+
+Q: Explain Android Basics in simple words.
+A: Android Basics refers to the core building blocks used to create apps for Android phones. I would add an example involving building simple apps.
+
+Q: Which tools have you used?
+A: Android Studio, Kotlin, and Gradle.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as activities, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: activities, layouts, intents, and lifecycle.
+
+Q: How does it connect to Mobile App Performance?
+A: Both belong to the area of Mobile Development, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with accessing sensors, because it is small enough to test and large enough to show the benefit.

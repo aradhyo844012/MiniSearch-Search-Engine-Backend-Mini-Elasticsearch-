@@ -1,0 +1,13 @@
+The Importance of Data Cleaning in Modern Software
+
+It is easy to underestimate Data Cleaning until something goes wrong without it. Put simply, Data Cleaning covers finding and fixing errors, gaps and inconsistencies in raw data. Learning it well pays off across many areas of computing.
+
+A chart is only useful if the reader can see the point within a few seconds.
+
+You will see Data Cleaning whenever people work on preparing logs or merging data sources. It also helps with improving model inputs.
+
+Watch out for these problems: dropping data without checking why it is missing; cleaning by hand without a record; and changing the original files.
+
+If you are comfortable with Data Cleaning, explore Pandas DataFrames next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Data Cleaning whenever a new project gives you a reason.

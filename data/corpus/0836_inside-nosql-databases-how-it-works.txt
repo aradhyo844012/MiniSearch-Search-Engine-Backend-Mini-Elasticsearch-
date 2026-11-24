@@ -1,0 +1,13 @@
+Inside NoSQL Databases: How It Works
+
+This article walks through what happens inside NoSQL Databases, step by step. Many students first meet NoSQL Databases in a classroom, but it matters just as much in production systems. The term refers to a broad family of databases that do not use the traditional relational table model.
+
+The vocabulary of NoSQL Databases is small. Learn document stores, key-value stores, column families, and graph databases, and most documentation will start to make sense. A good way to remember document stores is to connect it with a concrete example from your own code.
+
+First, document stores sets the stage for everything else. Next, key-value stores builds on it. After that, column families comes into play, and finally graph databases ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+A solid grasp of NoSQL Databases also makes Database Normalization easier to understand.
+
+In short, careful study of NoSQL Databases pays off. Spend time on document stores and key-value stores, and the rest will follow.

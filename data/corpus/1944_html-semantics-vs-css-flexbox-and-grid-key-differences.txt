@@ -1,0 +1,15 @@
+HTML Semantics vs CSS Flexbox and Grid: Key Differences
+
+HTML Semantics and CSS Flexbox and Grid both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term HTML Semantics refers to the practice of using HTML elements that describe the meaning of content. Its core ideas are headings, landmarks, and lists and tables.
+
+The term CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. Its core ideas are flex containers, grid tracks, and alignment.
+
+The main difference is focus. HTML Semantics puts the emphasis on headings and landmarks, while CSS Flexbox and Grid puts the emphasis on flex containers and grid tracks.
+
+Reach for HTML Semantics when your task involves accessible pages or better search engine understanding. Reach for CSS Flexbox and Grid when your task involves navigation bars or card layouts.
+
+Both have risks. With HTML Semantics, watch for this: using div for everything. With CSS Flexbox and Grid, watch for this: mixing up main and cross axes.
+
+In practice you do not always have to choose. Many projects use HTML Semantics alongside CSS Flexbox and Grid, with tools such as HTML validators and browser grid inspector. Web pages must work across many browsers, devices and network conditions.

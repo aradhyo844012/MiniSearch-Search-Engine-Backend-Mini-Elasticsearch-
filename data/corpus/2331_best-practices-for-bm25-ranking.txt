@@ -1,0 +1,17 @@
+Best Practices for BM25 Ranking
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, BM25 Ranking covers a ranking function that improves on plain term frequency with saturation and length normalization. Learning it well pays off across many areas of computing.
+
+1. Practice term saturation with small exercises until it feels natural.
+2. Start small by applying BM25 Ranking to one case, such as ranking search results, before rolling it out more widely.
+3. Ask a teammate to explain k1 and b parameters back to you; teaching is a quick way to find gaps.
+4. Read the official documentation for rank_bm25; it often explains document length normalization better than blog posts do.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Search quality depends on how text is prepared before it is ever indexed.
+
+In practice you can start with Elasticsearch, then explore rank_bm25 or Lucene as your needs grow.
+
+BM25 Ranking and Autocomplete are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+With steady practice, BM25 Ranking will stop feeling abstract and become a tool you reach for naturally.

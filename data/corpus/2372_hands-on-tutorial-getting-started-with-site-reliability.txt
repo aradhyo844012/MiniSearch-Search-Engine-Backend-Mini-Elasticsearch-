@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Site Reliability
+
+This hands-on tutorial takes you from zero to a small working experiment with Site Reliability. When people talk about Site Reliability, they usually mean the discipline of keeping services dependable using engineering practices. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open PagerDuty and create a new empty project folder.
+Step 2: Read about service level objectives and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses error budgets.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as running production services.
+Step 6: Break your example on purpose and see what happens. A good experiment: alerting on everything.
+
+Popular tools and libraries include PagerDuty, Prometheus, and runbooks.
+
+Watch out for these problems: alerting on everything; blaming people instead of systems; and no written postmortems.
+
+In short, careful study of Site Reliability pays off. Spend time on service level objectives and error budgets, and the rest will follow.

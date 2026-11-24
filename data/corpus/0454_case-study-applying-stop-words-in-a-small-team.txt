@@ -1,0 +1,11 @@
+Case Study: Applying Stop Words in a Small Team
+
+Imagine a small student team building a project that depends on Stop Words. Put simply, Stop Words covers very common words such as the and of that are often ignored by search systems. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning frequency lists and index size. Early on they hit a familiar problem: removing words that matter in phrases. After fixing it, they used NLTK stopwords to check their work and adopted Stop Words for shrinking indexes. Looking back, they said the biggest lesson was to keep the design simple.
+
+Beginners often stumble on three things. First: removing words that matter in phrases. Second: using the wrong language list. Third: inconsistent handling at index and query time.
+
+If you are comfortable with Stop Words, explore BM25 Ranking next. The two often appear in the same project.
+
+With steady practice, Stop Words will stop feeling abstract and become a tool you reach for naturally.

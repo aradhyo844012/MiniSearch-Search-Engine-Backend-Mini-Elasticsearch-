@@ -1,0 +1,22 @@
+Bloom Filters: Frequently Asked Questions
+
+Q: What is Bloom Filters?
+A: The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+Q: Which tools help?
+A: Popular choices include Python bitarray, Guava BloomFilter, and Redis modules.
+
+Q: What mistakes are most common?
+A: Watch for these: choosing too small a bit array; trying to delete items; and forgetting that false positives exist.
+
+Q: How does it relate to Binary Search Trees?
+A: Bloom Filters and Binary Search Trees often appear in the same project, and both belong to the area of Data Structures and Algorithms.
+
+Q: What should a beginner learn first?
+A: Start with bit arrays and multiple hash functions, then move on to false positives and no false negatives.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Bloom Filters.
+
+Q: Why do developers use Bloom Filters?
+A: Common uses include skipping disk lookups for missing keys, checking visited URLs, and reducing cache misses.

@@ -1,0 +1,24 @@
+REST APIs Interview Questions and Answers
+
+Prepare for these questions about REST APIs.
+
+Q: Explain REST APIs in simple words.
+A: REST APIs refers to an approach to designing web APIs around resources, URLs and standard HTTP methods. I would add an example involving mobile app backends.
+
+Q: What are the key concepts?
+A: resources, HTTP verbs, status codes, and statelessness.
+
+Q: What problems have you seen in practice?
+A: inconsistent naming; returning 200 for errors; and no versioning plan.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as resources, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with integrating services, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: Flask, FastAPI, and Postman.
+
+Q: How does it connect to Caching Strategies?
+A: Both belong to the area of Backend and APIs, and understanding one makes the other easier to learn.

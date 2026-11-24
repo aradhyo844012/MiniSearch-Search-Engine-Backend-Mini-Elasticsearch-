@@ -1,0 +1,15 @@
+Model Evaluation vs Gradient Descent: Key Differences
+
+Model Evaluation and Gradient Descent both belong to the area of Machine Learning, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. Its core ideas are accuracy, precision and recall, and confusion matrices.
+
+The term Gradient Descent refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error. Its core ideas are learning rate, gradients, and loss function.
+
+The main difference is focus. Model Evaluation puts the emphasis on accuracy and precision and recall, while Gradient Descent puts the emphasis on learning rate and gradients.
+
+Reach for Model Evaluation when your task involves comparing models or choosing thresholds. Reach for Gradient Descent when your task involves training neural networks or fitting regression models.
+
+Both have risks. With Model Evaluation, watch for this: using accuracy on imbalanced data. With Gradient Descent, watch for this: learning rates that are too large.
+
+In practice you do not always have to choose. Many projects use Model Evaluation alongside Gradient Descent, with tools such as scikit-learn metrics and PyTorch. A model is only as good as the data used to train and test it.

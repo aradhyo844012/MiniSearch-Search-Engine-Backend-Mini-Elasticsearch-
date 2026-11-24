@@ -1,0 +1,13 @@
+A Short History of Redis Caching
+
+Ideas behind Redis Caching developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Redis Caching in a classroom, but it matters just as much in production systems. The term refers to using an in-memory data store to keep frequently needed results close to the application.
+
+Good schema design is hard to change once real data and users depend on it.
+
+Good schema design is hard to change once real data and users depend on it. Backups are only useful if restoring from them has been tested.
+
+Four ideas sit at the heart of Redis Caching: key-value pairs, expiration times, eviction policies, and cache invalidation. Each one builds on the one before it. Sketching cache invalidation on paper before coding helps many learners see how the pieces fit.
+
+Redis Caching and NoSQL Databases are closely related, so learning both gives a fuller picture of Databases.
+
+In short, careful study of Redis Caching pays off. Spend time on key-value pairs and expiration times, and the rest will follow.

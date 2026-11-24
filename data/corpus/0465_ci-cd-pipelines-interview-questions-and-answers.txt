@@ -1,0 +1,18 @@
+CI/CD Pipelines Interview Questions and Answers
+
+Prepare for these questions about CI/CD Pipelines.
+
+Q: Explain CI/CD Pipelines in simple words.
+A: CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes. I would add an example involving running tests on every push.
+
+Q: What are the key concepts?
+A: build stage, test stage, artifacts, and deployment stage.
+
+Q: What problems have you seen in practice?
+A: slow pipelines; flaky tests; and secrets in logs.
+
+Q: Where would you apply it first?
+A: I would start with shipping releases safely, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Site Reliability?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.

@@ -1,0 +1,13 @@
+Performance Tips for Design Patterns
+
+Fast software rarely happens by accident, and Design Patterns offers several places to gain speed. Many students first meet Design Patterns in a classroom, but it matters just as much in production systems. The term refers to reusable solutions to common problems in software design.
+
+Start by measuring. Use UML diagrams or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to singleton and factory, because they usually decide how well things scale. For workloads such as structuring applications, even small improvements add up quickly.
+
+Four ideas sit at the heart of Design Patterns: singleton, factory, observer, and strategy. Each one builds on the one before it. Understanding factory first often makes observer much easier to reason about.
+
+Keep an eye on this risk during code review: forcing patterns where they are unnecessary. Read the official documentation for refactoring guides; it often explains factory better than blog posts do.
+
+Three issues come up again and again: forcing patterns where they are unnecessary; over-engineering; and copying patterns without understanding the problem. Knowing them in advance saves hours of debugging.
+
+With steady practice, Design Patterns will stop feeling abstract and become a tool you reach for naturally.

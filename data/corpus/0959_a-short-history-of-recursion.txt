@@ -1,0 +1,13 @@
+A Short History of Recursion
+
+Ideas behind Recursion developed gradually as engineers ran into practical limits and shared what they learned. The term Recursion refers to a technique where a function solves a problem by calling itself on smaller inputs. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start small by applying Recursion to one case, such as traversing trees, before rolling it out more widely. Write a few tests that show how Recursion should behave. Tests double as documentation for your teammates.
+
+Most performance problems in everyday programs come from doing unnecessary work on large inputs. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Four ideas sit at the heart of Recursion: base case, recursive case, call stack, and tail calls. Each one builds on the one before it. Understanding recursive case first often makes call stack much easier to reason about.
+
+Recursion and Binary Search are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+With steady practice, Recursion will stop feeling abstract and become a tool you reach for naturally.

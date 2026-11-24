@@ -1,0 +1,13 @@
+How Python Generators Connects to Functional Programming
+
+Python Generators and Functional Programming are closely connected parts of Programming. Seeing how they fit together helps you learn both faster.
+
+A project involving reading large files line by line may also involve data transformation. In such a project, yield and pure functions often influence each other.
+
+Start with Python Generators: the term refers to functions that produce values one at a time instead of building a whole list. Then look at Functional Programming, which refers to a style of programming that builds programs from functions and avoids shared mutable state.
+
+A useful exercise is to take one example, such as streaming data, and explain how immutability would change the design.
+
+Common problems are shared too. For Python Generators, watch for this: forgetting generators are lazy. For Functional Programming, watch for this: hidden state. Every language has idioms that experienced developers recognize at a glance.
+
+Spend a few hours on each topic, then combine them in one small project using itertools or Python functools.

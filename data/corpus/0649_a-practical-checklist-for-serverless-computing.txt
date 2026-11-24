@@ -1,0 +1,13 @@
+A Practical Checklist for Serverless Computing
+
+Use this checklist before you rely on Serverless Computing in a project.
+
+1. Guard against this risk: vendor lock-in.
+2. Measure results before and after any change.
+3. Pick a tool to start with, such as AWS Lambda or Cloud Functions.
+4. Confirm that your team agrees on what Serverless Computing should accomplish.
+5. Document your decisions in the project README.
+6. Guard against this risk: hard local debugging.
+7. Guard against this risk: cold start delays.
+8. Review how Serverless Computing interacts with Monitoring and Observability.
+9. Ask a teammate to review the work, focusing on event triggers.

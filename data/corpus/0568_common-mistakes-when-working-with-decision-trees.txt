@@ -1,0 +1,13 @@
+Common Mistakes When Working with Decision Trees
+
+Almost everyone makes a few avoidable errors when first working with Decision Trees. Put simply, Decision Trees covers models that make predictions by asking a sequence of simple questions about the data. Learning it well pays off across many areas of computing.
+
+Three issues come up again and again: deep trees that overfit; ignoring class imbalance; and unstable results from small data changes. Knowing them in advance saves hours of debugging.
+
+Decision Trees and Natural Language Processing are closely related, so learning both gives a fuller picture of Machine Learning.
+
+Consider the first problem: deep trees that overfit. A short test or a careful review comment usually catches it. The second problem is similar: ignoring class imbalance. The third problem is this: unstable results from small data changes. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for XGBoost; it often explains entropy and Gini impurity better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Decision Trees helps the next developer.
+
+Keep experimenting, keep notes, and revisit Decision Trees whenever a new project gives you a reason.

@@ -1,0 +1,24 @@
+Linked Lists Interview Questions and Answers
+
+Prepare for these questions about Linked Lists.
+
+Q: Explain Linked Lists in simple words.
+A: Linked Lists refers to chains of nodes where each node stores a value and a reference to the next node. I would add an example involving queues and stacks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: losing the head pointer.
+
+Q: How does it connect to Hash Tables?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: losing the head pointer; off-by-one errors during insertion; and poor cache locality.
+
+Q: Which tools have you used?
+A: Python collections.deque, Java LinkedList, and C pointers.
+
+Q: Where would you apply it first?
+A: I would start with undo histories, because it is small enough to test and large enough to show the benefit.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as nodes, and add tests aimed at the known risks.

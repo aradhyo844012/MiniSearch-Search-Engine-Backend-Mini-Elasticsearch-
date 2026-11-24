@@ -1,0 +1,13 @@
+A Short History of Threads and Concurrency
+
+Ideas behind Threads and Concurrency developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Threads and Concurrency covers ways of making progress on several tasks at once within a program. Learning it well pays off across many areas of computing.
+
+Understanding what the kernel does explains many surprising performance problems. The operating system shares limited hardware between many competing programs.
+
+To understand Threads and Concurrency, start with threads. Then move on to locks, and finally look at race conditions and thread pools. Sketching thread pools on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of Threads and Concurrency also makes Deadlocks easier to understand.
+
+Keep notes on what worked. A short README explaining your decisions about Threads and Concurrency helps the next developer. Read the official documentation for Java ExecutorService; it often explains locks better than blog posts do. Write a few tests that show how Threads and Concurrency should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Threads and Concurrency pays off. Spend time on threads and locks, and the rest will follow.

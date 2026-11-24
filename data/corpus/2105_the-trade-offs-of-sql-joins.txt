@@ -1,0 +1,11 @@
+The Trade-offs of SQL Joins
+
+Every design choice has a cost, and SQL Joins is no exception. Put simply, SQL Joins covers operations that combine rows from two or more tables based on related columns. Learning it well pays off across many areas of computing.
+
+On the positive side, SQL Joins is well suited to linking customers to orders and building reports. On the other hand, it is not free. Keep these risks in mind: forgetting the join condition; duplicating rows by joining on non-unique keys; filtering in the wrong clause of a left join. Whether the trade is worth it depends on how much inner join and left join matter to your project.
+
+Watch out for these problems: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join.
+
+Practice inner join with small exercises until it feels natural. Keep an eye on this risk during code review: forgetting the join condition. Measure before you optimize. Use PostgreSQL or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit SQL Joins whenever a new project gives you a reason.

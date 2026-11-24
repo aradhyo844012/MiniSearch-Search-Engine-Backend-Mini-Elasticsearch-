@@ -1,0 +1,13 @@
+A Short History of Query Optimization
+
+Ideas behind Query Optimization developed gradually as engineers ran into practical limits and shared what they learned. The term Query Optimization refers to the process of making database queries return results with less time and fewer resources. This article explains the idea in plain language and points out where it fits in real projects.
+
+Backups are only useful if restoring from them has been tested.
+
+To understand Query Optimization, start with query plans. Then move on to statistics, and finally look at index usage and join order. Understanding statistics first often makes index usage much easier to reason about.
+
+If you are comfortable with Query Optimization, explore Database Replication next. The two often appear in the same project.
+
+Query Optimization and Database Replication are closely related, so learning both gives a fuller picture of Databases.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Query Optimization.

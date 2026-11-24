@@ -1,0 +1,9 @@
+Case Study: Applying Stream Processing in a Small Team
+
+Imagine a small student team building a project that depends on Stream Processing. Put simply, Stream Processing covers handling data continuously as it arrives rather than in large batches. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning events and windows. Early on they hit a familiar problem: late events. After fixing it, they used Apache Kafka to check their work and adopted Stream Processing for live dashboards. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Three issues come up again and again: late events; losing state after crashes; and duplicate processing. Knowing them in advance saves hours of debugging.
+
+With steady practice, Stream Processing will stop feeling abstract and become a tool you reach for naturally.

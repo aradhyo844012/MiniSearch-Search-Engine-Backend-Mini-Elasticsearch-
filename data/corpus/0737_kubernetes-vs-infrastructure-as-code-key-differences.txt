@@ -1,0 +1,15 @@
+Kubernetes vs Infrastructure as Code: Key Differences
+
+Kubernetes and Infrastructure as Code both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Kubernetes refers to a system for deploying, scaling and managing containerized applications. Its core ideas are pods, deployments, and services.
+
+The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. Its core ideas are declarative configuration, state, and modules.
+
+The main difference is focus. Kubernetes puts the emphasis on pods and deployments, while Infrastructure as Code puts the emphasis on declarative configuration and state.
+
+Reach for Kubernetes when your task involves running many containers or rolling updates. Reach for Infrastructure as Code when your task involves recreating environments or reviewing infrastructure changes.
+
+Both have risks. With Kubernetes, watch for this: resource limits missing. With Infrastructure as Code, watch for this: manual changes causing drift.
+
+In practice you do not always have to choose. Many projects use Kubernetes alongside Infrastructure as Code, with tools such as kubectl and Terraform. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.

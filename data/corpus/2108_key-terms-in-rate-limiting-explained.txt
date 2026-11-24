@@ -1,0 +1,12 @@
+Key Terms in Rate Limiting Explained
+
+Clear vocabulary makes Rate Limiting much easier to learn, so here are the key terms in plain language. Put simply, Rate Limiting covers controlling how many requests a client can make in a given period. Learning it well pays off across many areas of computing.
+
+token bucket: a key term in Rate Limiting. It matters because it shapes how you design, test and explain your solution.
+fixed window: a key term in Rate Limiting. Beginners often confuse it with related terms, so define it in your own words early.
+sliding window: a key term in Rate Limiting. It matters because it shapes how you design, test and explain your solution.
+429 responses: a key term in Rate Limiting. Beginners often confuse it with related terms, so define it in your own words early.
+
+Keep notes on what worked. A short README explaining your decisions about Rate Limiting helps the next developer. Keep an eye on this risk during code review: limits that are too strict. Read the official documentation for NGINX; it often explains fixed window better than blog posts do.
+
+Keep experimenting, keep notes, and revisit Rate Limiting whenever a new project gives you a reason.

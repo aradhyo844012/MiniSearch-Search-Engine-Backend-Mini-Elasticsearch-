@@ -1,0 +1,21 @@
+Data Visualization Interview Questions and Answers
+
+Prepare for these questions about Data Visualization.
+
+Q: Explain Data Visualization in simple words.
+A: Data Visualization refers to presenting data as charts and graphics so that patterns are easy to see. I would add an example involving explaining results.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as chart types, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: truncated axes; unreadable labels; and too many colors.
+
+Q: Which tools have you used?
+A: matplotlib, Seaborn, and Plotly.
+
+Q: Where would you apply it first?
+A: I would start with exploring data, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: chart types, axes and labels, color choices, and annotations.

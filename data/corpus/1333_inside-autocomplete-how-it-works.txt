@@ -1,0 +1,15 @@
+Inside Autocomplete: How It Works
+
+This article walks through what happens inside Autocomplete, step by step. The term Autocomplete refers to suggesting likely completions while a person types a query. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand Autocomplete, start with prefixes. Then move on to ranking suggestions, and finally look at latency and query logs. Sketching query logs on paper before coding helps many learners see how the pieces fit.
+
+First, prefixes sets the stage for everything else. Next, ranking suggestions builds on it. After that, latency comes into play, and finally query logs ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Users judge a search engine by whether the right result appears near the top. Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+A solid grasp of Autocomplete also makes TF-IDF easier to understand.
+
+A solid grasp of Autocomplete also makes TF-IDF easier to understand.
+
+With steady practice, Autocomplete will stop feeling abstract and become a tool you reach for naturally.

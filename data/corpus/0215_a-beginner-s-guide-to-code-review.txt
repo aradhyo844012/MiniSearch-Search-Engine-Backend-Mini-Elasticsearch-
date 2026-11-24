@@ -1,0 +1,17 @@
+A Beginner's Guide to Code Review
+
+This guide is written for readers who are new to Code Review and want a clear starting point. Put simply, Code Review covers having teammates examine changes before they are merged. Learning it well pays off across many areas of computing.
+
+Teams succeed when they agree on a few simple practices and follow them consistently. Readable code saves more time than clever code over the long run.
+
+The vocabulary of Code Review is small. Learn pull requests, review comments, checklists, and approvals, and most documentation will start to make sense. Understanding review comments first often makes checklists much easier to reason about.
+
+People use Code Review for catching bugs early, for sharing knowledge, and for keeping style consistent.
+
+Popular tools and libraries include GitHub pull requests, GitLab merge requests, and linters.
+
+Three issues come up again and again: huge pull requests; vague comments; and reviewing only style. Knowing them in advance saves hours of debugging.
+
+Ask a teammate to explain checklists back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Code Review helps the next developer. Keep an eye on this risk during code review: huge pull requests.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Code Review.

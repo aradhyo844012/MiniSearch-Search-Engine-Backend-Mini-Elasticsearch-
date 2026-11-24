@@ -1,0 +1,15 @@
+The Importance of Zipf's Law in Modern Software
+
+It is easy to underestimate Zipf's Law until something goes wrong without it. Many students first meet Zipf's Law in a classroom, but it matters just as much in production systems. The term refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Users judge a search engine by whether the right result appears near the top.
+
+Ask a teammate to explain log-log plots back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Zipf's Law helps the next developer. Read the official documentation for NumPy; it often explains power laws better than blog posts do.
+
+People use Zipf's Law for analyzing text corpora, for sizing indexes, and for designing caches.
+
+Beginners often stumble on three things. First: testing it on random text. Second: reading too much into a perfect fit. Third: ignoring small samples.
+
+If you are comfortable with Zipf's Law, explore Tokenization next. The two often appear in the same project.
+
+In short, careful study of Zipf's Law pays off. Spend time on rank and frequency and power laws, and the rest will follow.

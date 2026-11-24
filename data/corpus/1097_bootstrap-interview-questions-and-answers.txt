@@ -1,0 +1,24 @@
+Bootstrap Interview Questions and Answers
+
+Prepare for these questions about Bootstrap.
+
+Q: Explain Bootstrap in simple words.
+A: Bootstrap refers to a popular front-end toolkit with ready-made layout, components and utilities. I would add an example involving prototypes and dashboards.
+
+Q: Where would you apply it first?
+A: I would start with admin pages, because it is small enough to test and large enough to show the benefit.
+
+Q: Which tools have you used?
+A: Bootstrap CDN, Sass variables, and Bootstrap Icons.
+
+Q: How does it connect to Responsive Design?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: What are the key concepts?
+A: grid system, components, utility classes, and theming variables.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as grid system, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: overriding styles with heavy custom CSS; loading unused components; and copying markup without understanding it.

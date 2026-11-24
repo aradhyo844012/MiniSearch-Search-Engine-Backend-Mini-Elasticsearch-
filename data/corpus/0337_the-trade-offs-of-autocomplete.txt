@@ -1,0 +1,13 @@
+The Trade-offs of Autocomplete
+
+Every design choice has a cost, and Autocomplete is no exception. Many students first meet Autocomplete in a classroom, but it matters just as much in production systems. The term refers to suggesting likely completions while a person types a query.
+
+On the positive side, Autocomplete is well suited to search boxes and command palettes. On the other hand, it is not free. Keep these risks in mind: slow suggestions; offensive or irrelevant completions; ignoring typos in the prefix. Whether the trade is worth it depends on how much prefixes and ranking suggestions matter to your project.
+
+Three issues come up again and again: slow suggestions; offensive or irrelevant completions; and ignoring typos in the prefix. Knowing them in advance saves hours of debugging.
+
+Keep notes on what worked. A short README explaining your decisions about Autocomplete helps the next developer. Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain latency back to you; teaching is a quick way to find gaps.
+
+Start small by applying Autocomplete to one case, such as search boxes, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use tries or a simple timer to see where time is actually spent.
+
+In short, careful study of Autocomplete pays off. Spend time on prefixes and ranking suggestions, and the rest will follow.

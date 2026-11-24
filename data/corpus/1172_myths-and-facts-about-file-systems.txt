@@ -1,0 +1,17 @@
+Myths and Facts About File Systems
+
+A lot of folklore has built up around File Systems. Some of it is true, and some of it is not. Put simply, File Systems covers the part of an operating system that organizes how data is stored and found on disk. Learning it well pays off across many areas of computing.
+
+Myth: File Systems is only for experts.
+Fact: beginners can use it effectively once they understand files and directories and inodes.
+
+Myth: File Systems is only useful in very large systems.
+Fact: small projects such as storing documents benefit as well.
+
+Myth: one tool does everything.
+Fact: ext4, NTFS, and df and du make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with File Systems are always obvious.
+Fact: subtle problems happen, for example running out of inodes.
+
+Keep experimenting, keep notes, and revisit File Systems whenever a new project gives you a reason.

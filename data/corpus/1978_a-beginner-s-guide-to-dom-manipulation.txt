@@ -1,0 +1,19 @@
+A Beginner's Guide to DOM Manipulation
+
+This guide is written for readers who are new to DOM Manipulation and want a clear starting point. When people talk about DOM Manipulation, they usually mean reading and changing the structure and content of a web page from JavaScript. It appears in almost every serious software project, whether or not developers notice it.
+
+Keep notes on what worked. A short README explaining your decisions about DOM Manipulation helps the next developer. Measure before you optimize. Use querySelector or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+Four ideas sit at the heart of DOM Manipulation: selectors, events, nodes, and updates. Each one builds on the one before it. Understanding events first often makes nodes much easier to reason about.
+
+Typical applications include updating search results, handling form input, and showing messages. Small projects and large systems both benefit.
+
+Popular tools and libraries include querySelector, browser console, and MDN docs.
+
+Beginners often stumble on three things. First: inserting untrusted text as HTML. Second: querying the DOM inside tight loops. Third: forgetting to remove event listeners.
+
+Ask a teammate to explain nodes back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: inserting untrusted text as HTML. Start small by applying DOM Manipulation to one case, such as updating search results, before rolling it out more widely.
+
+Keep experimenting, keep notes, and revisit DOM Manipulation whenever a new project gives you a reason.

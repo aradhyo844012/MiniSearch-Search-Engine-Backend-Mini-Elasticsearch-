@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Decision Trees
+
+This hands-on tutorial takes you from zero to a small working experiment with Decision Trees. If you build software for long enough, you will run into Decision Trees. The term refers to models that make predictions by asking a sequence of simple questions about the data.
+
+Step 1: Install or open scikit-learn and create a new empty project folder.
+Step 2: Read about splits and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses entropy and Gini impurity.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as classifying customers.
+Step 6: Break your example on purpose and see what happens. A good experiment: deep trees that overfit.
+
+Popular tools and libraries include scikit-learn, XGBoost, and Graphviz.
+
+If you are comfortable with Decision Trees, explore Model Evaluation next. The two often appear in the same project.
+
+Watch out for these problems: deep trees that overfit; ignoring class imbalance; and unstable results from small data changes.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Decision Trees.

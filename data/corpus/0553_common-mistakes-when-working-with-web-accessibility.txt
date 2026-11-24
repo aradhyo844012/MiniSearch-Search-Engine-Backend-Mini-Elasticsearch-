@@ -1,0 +1,11 @@
+Common Mistakes When Working with Web Accessibility
+
+Almost everyone makes a few avoidable errors when first working with Web Accessibility. When people talk about Web Accessibility, they usually mean designing websites so that people with different abilities can use them. It appears in almost every serious software project, whether or not developers notice it.
+
+Three issues come up again and again: low contrast text; missing focus indicators; and images without alternative text. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: low contrast text. A short test or a careful review comment usually catches it. The second problem is similar: missing focus indicators. The third problem is this: images without alternative text. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain keyboard navigation back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Web Accessibility helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Web Accessibility.

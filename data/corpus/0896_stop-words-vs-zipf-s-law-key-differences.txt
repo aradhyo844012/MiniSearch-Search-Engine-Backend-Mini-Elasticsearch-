@@ -1,0 +1,15 @@
+Stop Words vs Zipf's Law: Key Differences
+
+Stop Words and Zipf's Law both belong to the area of Search and Retrieval, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Stop Words refers to very common words such as the and of that are often ignored by search systems. Its core ideas are frequency lists, index size, and query relevance.
+
+The term Zipf's Law refers to the observation that a word's frequency is roughly inversely related to its rank in natural language. Its core ideas are rank and frequency, power laws, and log-log plots.
+
+The main difference is focus. Stop Words puts the emphasis on frequency lists and index size, while Zipf's Law puts the emphasis on rank and frequency and power laws.
+
+Reach for Stop Words when your task involves shrinking indexes or speeding up queries. Reach for Zipf's Law when your task involves analyzing text corpora or sizing indexes.
+
+Both have risks. With Stop Words, watch for this: removing words that matter in phrases. With Zipf's Law, watch for this: testing it on random text.
+
+In practice you do not always have to choose. Many projects use Stop Words alongside Zipf's Law, with tools such as NLTK stopwords and matplotlib. Search quality depends on how text is prepared before it is ever indexed.

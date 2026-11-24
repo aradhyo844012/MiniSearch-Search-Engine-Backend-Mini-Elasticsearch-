@@ -1,0 +1,12 @@
+How to Learn TF-IDF in 30 Days
+
+You do not need months to become comfortable with TF-IDF. A focused plan of thirty days is enough to build a solid base. The term TF-IDF refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall. This article explains the idea in plain language and points out where it fits in real projects.
+
+Week 1: learn term frequency and inverse document frequency, and write a one-page summary.
+Week 2: practice with scikit-learn TfidfVectorizer on a small task such as ranking search results.
+Week 3: build a mini project around finding keywords.
+Week 4: review common mistakes such as over-weighting common words, and explain TF-IDF to a friend.
+
+Popular tools and libraries include scikit-learn TfidfVectorizer, Lucene, and Gensim.
+
+In short, careful study of TF-IDF pays off. Spend time on term frequency and inverse document frequency, and the rest will follow.

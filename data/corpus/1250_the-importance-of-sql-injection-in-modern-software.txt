@@ -1,0 +1,13 @@
+The Importance of SQL Injection in Modern Software
+
+It is easy to underestimate SQL Injection until something goes wrong without it. Many students first meet SQL Injection in a classroom, but it matters just as much in production systems. The term refers to an attack where malicious input changes the meaning of a database query.
+
+Attackers usually choose the easiest weakness, not the most interesting one. Security is a habit applied throughout development, not a feature added at the end.
+
+People use SQL Injection for securing login forms, for reviewing search features, and for auditing legacy code.
+
+Watch out for these problems: building queries with string concatenation; using admin accounts for the app; and revealing detailed database errors.
+
+SQL Injection and Password Hashing are closely related, so learning both gives a fuller picture of Security.
+
+In short, careful study of SQL Injection pays off. Spend time on parameterized queries and input validation, and the rest will follow.

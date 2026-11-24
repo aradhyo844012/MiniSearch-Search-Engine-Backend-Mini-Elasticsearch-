@@ -1,0 +1,11 @@
+A Short History of Dynamic Programming
+
+Ideas behind Dynamic Programming developed gradually as engineers ran into practical limits and shared what they learned. The term Dynamic Programming refers to a technique for solving problems by storing the answers to overlapping subproblems. This article explains the idea in plain language and points out where it fits in real projects.
+
+Choosing the right data structure often matters more than clever tuning later. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+To understand Dynamic Programming, start with overlapping subproblems. Then move on to optimal substructure, and finally look at memoization and tabulation. A good way to remember overlapping subproblems is to connect it with a concrete example from your own code.
+
+If you are comfortable with Dynamic Programming, explore Sorting Algorithms next. The two often appear in the same project.
+
+With steady practice, Dynamic Programming will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,13 @@
+A Practical Checklist for CI/CD Pipelines
+
+Use this checklist before you rely on CI/CD Pipelines in a project.
+
+1. Confirm that your team agrees on what CI/CD Pipelines should accomplish.
+2. Ask a teammate to review the work, focusing on test stage.
+3. Guard against this risk: flaky tests.
+4. Guard against this risk: secrets in logs.
+5. Document your decisions in the project README.
+6. Write at least one automated test that covers build stage.
+7. Guard against this risk: slow pipelines.
+8. Pick a tool to start with, such as GitHub Actions or Jenkins.
+9. Measure results before and after any change.

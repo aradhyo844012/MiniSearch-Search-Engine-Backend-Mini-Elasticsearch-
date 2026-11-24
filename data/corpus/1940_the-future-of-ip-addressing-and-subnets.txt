@@ -1,0 +1,11 @@
+The Future of IP Addressing and Subnets
+
+Predicting the future is risky, but the direction of IP Addressing and Subnets is easy to describe in general terms. Put simply, IP Addressing and Subnets covers the rules for numbering devices on a network and dividing networks into smaller parts. Learning it well pays off across many areas of computing.
+
+Every web request crosses several layers of protocols before it reaches an application. Latency is limited by distance and by the number of round trips a request needs.
+
+Expect tools such as ipcalc and ping to keep improving, and expect newer ideas to keep building on IPv4 and IPv6. The basics, though, tend to stay the same, so time spent on subnet masks and CIDR notation is rarely wasted. Anyone working on planning office networks will keep meeting IP Addressing and Subnets for years to come.
+
+Keep notes on what worked. A short README explaining your decisions about IP Addressing and Subnets helps the next developer. Read the official documentation for ping; it often explains subnet masks better than blog posts do.
+
+With steady practice, IP Addressing and Subnets will stop feeling abstract and become a tool you reach for naturally.

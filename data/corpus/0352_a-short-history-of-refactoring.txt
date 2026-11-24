@@ -1,0 +1,11 @@
+A Short History of Refactoring
+
+Ideas behind Refactoring developed gradually as engineers ran into practical limits and shared what they learned. The term Refactoring refers to improving the structure of existing code without changing its behavior. This article explains the idea in plain language and points out where it fits in real projects.
+
+Readable code saves more time than clever code over the long run.
+
+Four ideas sit at the heart of Refactoring: small steps, tests as a safety net, extracting functions, and renaming. Each one builds on the one before it. Understanding tests as a safety net first often makes extracting functions much easier to reason about.
+
+A solid grasp of Refactoring also makes Agile and Scrum easier to understand.
+
+Keep experimenting, keep notes, and revisit Refactoring whenever a new project gives you a reason.

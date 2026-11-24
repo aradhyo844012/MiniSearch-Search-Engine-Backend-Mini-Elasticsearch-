@@ -1,0 +1,11 @@
+Case Study: Applying SQL Joins in a Small Team
+
+Imagine a small student team building a project that depends on SQL Joins. The term SQL Joins refers to operations that combine rows from two or more tables based on related columns. This article explains the idea in plain language and points out where it fits in real projects.
+
+The team first spent a week learning inner join and left join. Early on they hit a familiar problem: forgetting the join condition. After fixing it, they used PostgreSQL to check their work and adopted SQL Joins for linking customers to orders. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join. Knowing them in advance saves hours of debugging.
+
+Backups are only useful if restoring from them has been tested. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Keep experimenting, keep notes, and revisit SQL Joins whenever a new project gives you a reason.

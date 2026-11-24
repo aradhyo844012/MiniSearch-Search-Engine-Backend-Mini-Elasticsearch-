@@ -1,0 +1,11 @@
+Case Study: Applying HTTP and HTTPS in a Small Team
+
+Imagine a small student team building a project that depends on HTTP and HTTPS. Put simply, HTTP and HTTPS covers the request and response protocol of the web, with HTTPS adding encryption. Learning it well pays off across many areas of computing.
+
+Ask a teammate to explain headers back to you; teaching is a quick way to find gaps. Practice methods with small exercises until it feels natural.
+
+The team first spent a week learning methods and status codes. Early on they hit a familiar problem: mixing up status codes. After fixing it, they used curl to check their work and adopted HTTP and HTTPS for loading web pages. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: mixing up status codes; sending secrets in URLs; and ignoring caching headers. Knowing them in advance saves hours of debugging.
+
+In short, careful study of HTTP and HTTPS pays off. Spend time on methods and status codes, and the rest will follow.

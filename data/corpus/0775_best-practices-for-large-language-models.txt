@@ -1,0 +1,15 @@
+Best Practices for Large Language Models
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Large Language Models covers very large neural networks trained on text that can generate and analyze language. Learning it well pays off across many areas of computing.
+
+1. Start small by applying Large Language Models to one case, such as drafting text, before rolling it out more widely.
+2. Keep notes on what worked. A short README explaining your decisions about Large Language Models helps the next developer.
+3. Practice tokens with small exercises until it feels natural.
+4. Keep an eye on this risk during code review: trusting outputs without checking.
+5. Measure before you optimize. Use Hugging Face or a simple timer to see where time is actually spent.
+
+In practice you can start with Hugging Face, then explore API playgrounds or evaluation harnesses as your needs grow.
+
+Large Language Models and Model Evaluation are closely related, so learning both gives a fuller picture of Machine Learning.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Large Language Models.

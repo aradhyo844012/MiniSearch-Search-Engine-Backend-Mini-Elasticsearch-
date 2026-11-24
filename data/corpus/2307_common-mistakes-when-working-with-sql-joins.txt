@@ -1,0 +1,13 @@
+Common Mistakes When Working with SQL Joins
+
+Almost everyone makes a few avoidable errors when first working with SQL Joins. If you build software for long enough, you will run into SQL Joins. The term refers to operations that combine rows from two or more tables based on related columns.
+
+Watch out for these problems: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join.
+
+SQL Joins and Database Indexing are closely related, so learning both gives a fuller picture of Databases.
+
+Consider the first problem: forgetting the join condition. A short test or a careful review comment usually catches it. The second problem is similar: duplicating rows by joining on non-unique keys. The third problem is this: filtering in the wrong clause of a left join. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use PostgreSQL or a simple timer to see where time is actually spent. Start small by applying SQL Joins to one case, such as linking customers to orders, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce.
+
+In short, careful study of SQL Joins pays off. Spend time on inner join and left join, and the rest will follow.

@@ -1,0 +1,13 @@
+Real-World Use Cases of OAuth 2.0
+
+The best way to appreciate OAuth 2.0 is to see where it is actually used. When people talk about OAuth 2.0, they usually mean a framework that lets applications access resources on a user's behalf without sharing passwords. It appears in almost every serious software project, whether or not developers notice it.
+
+People use OAuth 2.0 for sign in with another account, for API access for third-party apps, and for mobile logins.
+
+Consider sign in with another account. In a case like this, OAuth 2.0 gives the work a clear structure, and understanding authorization server makes the design easier to explain. A different example is API access for third-party apps, where access tokens often decides how well the solution scales.
+
+Attackers usually choose the easiest weakness, not the most interesting one. Never trust input that comes from outside your own code.
+
+In practice you can start with Auth0, then explore Keycloak or authlib as your needs grow.
+
+Keep experimenting, keep notes, and revisit OAuth 2.0 whenever a new project gives you a reason.

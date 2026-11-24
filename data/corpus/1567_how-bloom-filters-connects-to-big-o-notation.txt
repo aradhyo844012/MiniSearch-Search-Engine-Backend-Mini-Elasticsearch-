@@ -1,0 +1,13 @@
+How Bloom Filters Connects to Big O Notation
+
+Bloom Filters and Big O Notation are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving skipping disk lookups for missing keys may also involve comparing algorithms. In such a project, bit arrays and upper bounds often influence each other.
+
+Start with Bloom Filters: the term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. Then look at Big O Notation, which refers to a way of describing how running time or memory grows as the input size grows.
+
+A useful exercise is to take one example, such as checking visited URLs, and explain how constant, linear and logarithmic growth would change the design.
+
+Common problems are shared too. For Bloom Filters, watch for this: trying to delete items. For Big O Notation, watch for this: mixing up best and worst case. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python bitarray or Python timeit.

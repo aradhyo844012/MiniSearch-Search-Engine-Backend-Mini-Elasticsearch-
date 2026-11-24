@@ -1,0 +1,17 @@
+A Beginner's Guide to OAuth 2.0
+
+This guide is written for readers who are new to OAuth 2.0 and want a clear starting point. Many students first meet OAuth 2.0 in a classroom, but it matters just as much in production systems. The term refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+Security is a habit applied throughout development, not a feature added at the end.
+
+To understand OAuth 2.0, start with authorization server. Then move on to access tokens, and finally look at scopes and redirect URIs. Understanding access tokens first often makes scopes much easier to reason about.
+
+You will see OAuth 2.0 whenever people work on sign in with another account or API access for third-party apps. It also helps with mobile logins.
+
+In practice you can start with Auth0, then explore Keycloak or authlib as your needs grow.
+
+Beginners often stumble on three things. First: loose redirect URI checks. Second: requesting excessive scopes. Third: storing tokens insecurely.
+
+Start small by applying OAuth 2.0 to one case, such as sign in with another account, before rolling it out more widely. Practice authorization server with small exercises until it feels natural. Write a few tests that show how OAuth 2.0 should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit OAuth 2.0 whenever a new project gives you a reason.

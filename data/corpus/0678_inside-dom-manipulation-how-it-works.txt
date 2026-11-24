@@ -1,0 +1,15 @@
+Inside DOM Manipulation: How It Works
+
+This article walks through what happens inside DOM Manipulation, step by step. The term DOM Manipulation refers to reading and changing the structure and content of a web page from JavaScript. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand DOM Manipulation, start with selectors. Then move on to events, and finally look at nodes and updates. A good way to remember selectors is to connect it with a concrete example from your own code.
+
+If you are comfortable with DOM Manipulation, explore Browser Rendering next. The two often appear in the same project.
+
+First, selectors sets the stage for everything else. Next, events builds on it. After that, nodes comes into play, and finally updates ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Web pages must work across many browsers, devices and network conditions.
+
+A solid grasp of DOM Manipulation also makes Browser Rendering easier to understand.
+
+Keep experimenting, keep notes, and revisit DOM Manipulation whenever a new project gives you a reason.

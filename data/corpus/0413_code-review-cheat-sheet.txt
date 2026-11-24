@@ -1,0 +1,11 @@
+Code Review Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Code Review.
+
+- Definition: having teammates examine changes before they are merged.
+- Core ideas: pull requests; review comments; checklists; approvals.
+- Use it for: catching bugs early; sharing knowledge; keeping style consistent.
+- Watch out for: huge pull requests; vague comments; reviewing only style.
+- Tools: GitHub pull requests, GitLab merge requests, linters.
+- Quick tip: write a tiny test for review comments before building anything large.
+- Quick tip: practice pull requests until it feels automatic.

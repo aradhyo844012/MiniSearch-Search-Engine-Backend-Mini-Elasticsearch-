@@ -1,0 +1,11 @@
+The Trade-offs of Phishing Defense
+
+Every design choice has a cost, and Phishing Defense is no exception. Many students first meet Phishing Defense in a classroom, but it matters just as much in production systems. The term refers to recognizing and reducing attacks that trick people into revealing information.
+
+On the positive side, Phishing Defense is well suited to protecting employees and securing shared mailboxes. On the other hand, it is not free. Keep these risks in mind: clicking before checking; reusing passwords; ignoring reports from users. Whether the trade is worth it depends on how much suspicious links and sender verification matter to your project.
+
+Beginners often stumble on three things. First: clicking before checking. Second: reusing passwords. Third: ignoring reports from users.
+
+Start small by applying Phishing Defense to one case, such as protecting employees, before rolling it out more widely. Write a few tests that show how Phishing Defense should behave. Tests double as documentation for your teammates. Keep an eye on this risk during code review: clicking before checking.
+
+Keep experimenting, keep notes, and revisit Phishing Defense whenever a new project gives you a reason.

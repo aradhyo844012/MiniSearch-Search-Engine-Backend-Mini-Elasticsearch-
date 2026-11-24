@@ -1,0 +1,13 @@
+The Trade-offs of Stop Words
+
+Every design choice has a cost, and Stop Words is no exception. The term Stop Words refers to very common words such as the and of that are often ignored by search systems. This article explains the idea in plain language and points out where it fits in real projects.
+
+A solid grasp of Stop Words also makes Tokenization easier to understand.
+
+On the positive side, Stop Words is well suited to shrinking indexes and speeding up queries. On the other hand, it is not free. Keep these risks in mind: removing words that matter in phrases; using the wrong language list; inconsistent handling at index and query time. Whether the trade is worth it depends on how much frequency lists and index size matter to your project.
+
+Beginners often stumble on three things. First: removing words that matter in phrases. Second: using the wrong language list. Third: inconsistent handling at index and query time.
+
+Measure before you optimize. Use NLTK stopwords or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: removing words that matter in phrases. Keep notes on what worked. A short README explaining your decisions about Stop Words helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Stop Words.

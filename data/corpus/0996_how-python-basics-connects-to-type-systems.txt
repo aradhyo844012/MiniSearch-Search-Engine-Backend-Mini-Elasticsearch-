@@ -1,0 +1,13 @@
+How Python Basics Connects to Type Systems
+
+Python Basics and Type Systems are closely connected parts of Programming. Seeing how they fit together helps you learn both faster.
+
+A project involving scripting may also involve catching bugs early. In such a project, variables and static and dynamic typing often influence each other.
+
+Start with Python Basics: the term refers to the core features of Python, including data types, control flow and functions. Then look at Type Systems, which refers to the rules a language uses to classify values and catch mistakes.
+
+A useful exercise is to take one example, such as data analysis, and explain how type inference would change the design.
+
+Common problems are shared too. For Python Basics, watch for this: confusing equality and identity. For Type Systems, watch for this: overusing any types. Clear error messages and good names make programs far easier to debug.
+
+Spend a few hours on each topic, then combine them in one small project using Python interpreter or mypy.

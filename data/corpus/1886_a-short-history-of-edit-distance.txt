@@ -1,0 +1,13 @@
+A Short History of Edit Distance
+
+Ideas behind Edit Distance developed gradually as engineers ran into practical limits and shared what they learned. The term Edit Distance refers to a measure of how many single-character changes turn one word into another. This article explains the idea in plain language and points out where it fits in real projects.
+
+Users judge a search engine by whether the right result appears near the top.
+
+The vocabulary of Edit Distance is small. Learn insertions, deletions, substitutions, and transpositions, and most documentation will start to make sense. Understanding deletions first often makes substitutions much easier to reason about.
+
+Edit Distance and BM25 Ranking are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Edit Distance.

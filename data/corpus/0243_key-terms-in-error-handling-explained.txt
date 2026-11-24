@@ -1,0 +1,10 @@
+Key Terms in Error Handling Explained
+
+Clear vocabulary makes Error Handling much easier to learn, so here are the key terms in plain language. When people talk about Error Handling, they usually mean planning for failures so that programs respond clearly instead of crashing. It appears in almost every serious software project, whether or not developers notice it.
+
+exceptions: a key term in Error Handling. It matters because it shapes how you design, test and explain your solution.
+validation: a key term in Error Handling. You will meet it constantly in documentation and in code reviews.
+logging: a key term in Error Handling. It matters because it shapes how you design, test and explain your solution.
+retries: a key term in Error Handling. You will meet it constantly in documentation and in code reviews.
+
+In short, careful study of Error Handling pays off. Spend time on exceptions and validation, and the rest will follow.

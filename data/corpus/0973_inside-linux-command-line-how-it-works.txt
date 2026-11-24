@@ -1,0 +1,15 @@
+Inside Linux Command Line: How It Works
+
+This article walks through what happens inside Linux Command Line, step by step. If you build software for long enough, you will run into Linux Command Line. The term refers to a text-based way of controlling a computer using commands and scripts.
+
+Four ideas sit at the heart of Linux Command Line: shell, pipes, permissions, and environment variables. Each one builds on the one before it. Sketching environment variables on paper before coding helps many learners see how the pieces fit.
+
+If you are comfortable with Linux Command Line, explore Deadlocks next. The two often appear in the same project.
+
+First, shell sets the stage for everything else. Next, pipes builds on it. After that, permissions comes into play, and finally environment variables ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Logs and system monitors are the first place to look when a machine misbehaves. Understanding what the kernel does explains many surprising performance problems.
+
+A solid grasp of Linux Command Line also makes Deadlocks easier to understand.
+
+In short, careful study of Linux Command Line pays off. Spend time on shell and pipes, and the rest will follow.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Linked Lists
+
+This hands-on tutorial takes you from zero to a small working experiment with Linked Lists. The term Linked Lists refers to chains of nodes where each node stores a value and a reference to the next node. This article explains the idea in plain language and points out where it fits in real projects.
+
+Step 1: Install or open Python collections.deque and create a new empty project folder.
+Step 2: Read about nodes and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses head and tail pointers.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as queues and stacks.
+Step 6: Break your example on purpose and see what happens. A good experiment: losing the head pointer.
+
+Popular tools and libraries include Python collections.deque, Java LinkedList, and C pointers.
+
+A solid grasp of Linked Lists also makes Heaps and Priority Queues easier to understand.
+
+Beginners often stumble on three things. First: losing the head pointer. Second: off-by-one errors during insertion. Third: poor cache locality.
+
+With steady practice, Linked Lists will stop feeling abstract and become a tool you reach for naturally.

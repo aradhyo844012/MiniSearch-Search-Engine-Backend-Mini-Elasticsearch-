@@ -1,0 +1,13 @@
+Performance Tips for Database Normalization
+
+Fast software rarely happens by accident, and Database Normalization offers several places to gain speed. Put simply, Database Normalization covers the practice of organizing tables to reduce duplicated data and update anomalies. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use ER diagrams or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to first normal form and second normal form, because they usually decide how well things scale. For workloads such as designing clean schemas, even small improvements add up quickly.
+
+Four ideas sit at the heart of Database Normalization: first normal form, second normal form, third normal form, and functional dependencies. Each one builds on the one before it. A good way to remember first normal form is to connect it with a concrete example from your own code.
+
+Read the official documentation for dbdiagram.io; it often explains second normal form better than blog posts do. Keep an eye on this risk during code review: over-normalizing reporting tables. Automate repetitive steps so that results are easy to reproduce.
+
+Beginners often stumble on three things. First: over-normalizing reporting tables. Second: ignoring query patterns. Third: duplicating data by accident.
+
+In short, careful study of Database Normalization pays off. Spend time on first normal form and second normal form, and the rest will follow.

@@ -1,0 +1,16 @@
+Graph Traversal: Frequently Asked Questions
+
+Q: What is Graph Traversal?
+A: The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first.
+
+Q: Why do developers use Graph Traversal?
+A: Common uses include finding shortest paths in unweighted graphs, detecting cycles, and crawling linked pages.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Which tools help?
+A: Popular choices include NetworkX, Python collections.deque, and Graphviz.
+
+Q: What should a beginner learn first?
+A: Start with adjacency lists and breadth-first search, then move on to depth-first search and visited sets.

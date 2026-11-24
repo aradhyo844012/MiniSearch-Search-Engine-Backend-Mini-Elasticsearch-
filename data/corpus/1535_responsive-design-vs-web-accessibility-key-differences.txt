@@ -1,0 +1,15 @@
+Responsive Design vs Web Accessibility: Key Differences
+
+Responsive Design and Web Accessibility both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Responsive Design refers to building pages that adapt smoothly to phones, tablets and large screens. Its core ideas are media queries, fluid grids, and flexible images.
+
+The term Web Accessibility refers to designing websites so that people with different abilities can use them. Its core ideas are semantic HTML, ARIA attributes, and keyboard navigation.
+
+The main difference is focus. Responsive Design puts the emphasis on media queries and fluid grids, while Web Accessibility puts the emphasis on semantic HTML and ARIA attributes.
+
+Reach for Responsive Design when your task involves websites used on many devices or dashboards. Reach for Web Accessibility when your task involves screen reader support or keyboard-only use.
+
+Both have risks. With Responsive Design, watch for this: testing only on one screen size. With Web Accessibility, watch for this: low contrast text.
+
+In practice you do not always have to choose. Many projects use Responsive Design alongside Web Accessibility, with tools such as Chrome DevTools device mode and axe DevTools. Browser developer tools are the fastest way to understand why a page behaves as it does.

@@ -1,0 +1,17 @@
+A Beginner's Guide to Two-Factor Authentication
+
+This guide is written for readers who are new to Two-Factor Authentication and want a clear starting point. Put simply, Two-Factor Authentication covers requiring a second proof of identity in addition to a password. Learning it well pays off across many areas of computing.
+
+Never trust input that comes from outside your own code. Security is a habit applied throughout development, not a feature added at the end.
+
+Four ideas sit at the heart of Two-Factor Authentication: one-time codes, authenticator apps, hardware keys, and backup codes. Each one builds on the one before it. Understanding authenticator apps first often makes hardware keys much easier to reason about.
+
+You will see Two-Factor Authentication whenever people work on protecting email accounts or securing admin panels. It also helps with reducing account takeovers.
+
+Popular tools and libraries include Google Authenticator, YubiKey, and TOTP libraries.
+
+Beginners often stumble on three things. First: relying only on SMS. Second: no recovery plan. Third: weak backup code storage.
+
+Start small by applying Two-Factor Authentication to one case, such as protecting email accounts, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Two-Factor Authentication helps the next developer.
+
+Keep experimenting, keep notes, and revisit Two-Factor Authentication whenever a new project gives you a reason.

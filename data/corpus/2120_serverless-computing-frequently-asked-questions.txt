@@ -1,0 +1,16 @@
+Serverless Computing: Frequently Asked Questions
+
+Q: What is Serverless Computing?
+A: The term Serverless Computing refers to running code in managed functions without maintaining servers yourself.
+
+Q: What should a beginner learn first?
+A: Start with functions and event triggers, then move on to cold starts and pay per use.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: cold start delays; vendor lock-in; and hard local debugging.
+
+Q: Which tools help?
+A: Popular choices include AWS Lambda, Cloud Functions, and Azure Functions.

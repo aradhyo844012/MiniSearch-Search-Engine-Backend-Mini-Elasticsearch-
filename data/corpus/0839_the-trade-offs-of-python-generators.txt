@@ -1,0 +1,13 @@
+The Trade-offs of Python Generators
+
+Every design choice has a cost, and Python Generators is no exception. When people talk about Python Generators, they usually mean functions that produce values one at a time instead of building a whole list. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Python Generators is well suited to reading large files line by line and streaming data. On the other hand, it is not free. Keep these risks in mind: consuming a generator twice; forgetting generators are lazy; hiding errors until iteration. Whether the trade is worth it depends on how much yield and lazy evaluation matter to your project.
+
+Beginners often stumble on three things. First: consuming a generator twice. Second: forgetting generators are lazy. Third: hiding errors until iteration.
+
+Reading other people's code is one of the fastest ways to improve as a programmer. Clear error messages and good names make programs far easier to debug.
+
+Practice yield with small exercises until it feels natural. Write a few tests that show how Python Generators should behave. Tests double as documentation for your teammates.
+
+With steady practice, Python Generators will stop feeling abstract and become a tool you reach for naturally.

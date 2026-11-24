@@ -1,0 +1,12 @@
+Key Terms in Two-Factor Authentication Explained
+
+Clear vocabulary makes Two-Factor Authentication much easier to learn, so here are the key terms in plain language. When people talk about Two-Factor Authentication, they usually mean requiring a second proof of identity in addition to a password. It appears in almost every serious software project, whether or not developers notice it.
+
+one-time codes: a key term in Two-Factor Authentication. Practice with a small example to make the meaning stick.
+authenticator apps: a key term in Two-Factor Authentication. You will meet it constantly in documentation and in code reviews.
+hardware keys: a key term in Two-Factor Authentication. You will meet it constantly in documentation and in code reviews.
+backup codes: a key term in Two-Factor Authentication. Beginners often confuse it with related terms, so define it in your own words early.
+
+Read the official documentation for YubiKey; it often explains authenticator apps better than blog posts do. Ask a teammate to explain hardware keys back to you; teaching is a quick way to find gaps.
+
+With steady practice, Two-Factor Authentication will stop feeling abstract and become a tool you reach for naturally.

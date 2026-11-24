@@ -1,0 +1,11 @@
+The Trade-offs of Inverted Index
+
+Every design choice has a cost, and Inverted Index is no exception. Put simply, Inverted Index covers a data structure that maps each term to the documents that contain it. Learning it well pays off across many areas of computing.
+
+On the positive side, Inverted Index is well suited to full-text search and log search. On the other hand, it is not free. Keep these risks in mind: scanning very long postings lists; building the index without normalizing text; forgetting to update it after changes. Whether the trade is worth it depends on how much vocabulary and postings lists matter to your project.
+
+Beginners often stumble on three things. First: scanning very long postings lists. Second: building the index without normalizing text. Third: forgetting to update it after changes.
+
+Measure before you optimize. Use Lucene or a simple timer to see where time is actually spent. Ask a teammate to explain term frequency back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Inverted Index pays off. Spend time on vocabulary and postings lists, and the rest will follow.

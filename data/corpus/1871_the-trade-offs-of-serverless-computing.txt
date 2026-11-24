@@ -1,0 +1,11 @@
+The Trade-offs of Serverless Computing
+
+Every design choice has a cost, and Serverless Computing is no exception. The term Serverless Computing refers to running code in managed functions without maintaining servers yourself. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Serverless Computing is well suited to webhooks and scheduled jobs. On the other hand, it is not free. Keep these risks in mind: cold start delays; vendor lock-in; hard local debugging. Whether the trade is worth it depends on how much functions and event triggers matter to your project.
+
+Watch out for these problems: cold start delays; vendor lock-in; and hard local debugging.
+
+Write a few tests that show how Serverless Computing should behave. Tests double as documentation for your teammates. Ask a teammate to explain cold starts back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Serverless Computing pays off. Spend time on functions and event triggers, and the rest will follow.

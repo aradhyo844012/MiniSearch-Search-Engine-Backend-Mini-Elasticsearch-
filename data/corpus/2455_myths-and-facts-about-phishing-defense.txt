@@ -1,0 +1,19 @@
+Myths and Facts About Phishing Defense
+
+A lot of folklore has built up around Phishing Defense. Some of it is true, and some of it is not. Many students first meet Phishing Defense in a classroom, but it matters just as much in production systems. The term refers to recognizing and reducing attacks that trick people into revealing information.
+
+Myth: Phishing Defense is only for experts.
+Fact: beginners can use it effectively once they understand suspicious links and sender verification.
+
+Myth: Phishing Defense is only useful in very large systems.
+Fact: small projects such as protecting employees benefit as well.
+
+Myth: one tool does everything.
+Fact: SPF, DKIM, and DMARC make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Phishing Defense are always obvious.
+Fact: subtle problems happen, for example clicking before checking.
+
+Security is a habit applied throughout development, not a feature added at the end. Attackers usually choose the easiest weakness, not the most interesting one.
+
+With steady practice, Phishing Defense will stop feeling abstract and become a tool you reach for naturally.

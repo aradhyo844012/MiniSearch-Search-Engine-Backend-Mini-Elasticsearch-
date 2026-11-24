@@ -1,0 +1,24 @@
+Relational Databases Interview Questions and Answers
+
+Prepare for these questions about Relational Databases.
+
+Q: Explain Relational Databases in simple words.
+A: Relational Databases refers to systems that store data in tables with rows, columns and defined relationships. I would add an example involving storing orders and customers.
+
+Q: Where would you apply it first?
+A: I would start with reporting and analytics, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to NoSQL Databases?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: skipping constraints; storing lists in a single column; and missing indexes on filtered columns.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: skipping constraints.
+
+Q: Which tools have you used?
+A: PostgreSQL, MySQL, and SQLite.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as tables and rows, and add tests aimed at the known risks.

@@ -1,0 +1,11 @@
+The Future of Process Scheduling
+
+Predicting the future is risky, but the direction of Process Scheduling is easy to describe in general terms. When people talk about Process Scheduling, they usually mean the way an operating system decides which process runs on the CPU and for how long. It appears in almost every serious software project, whether or not developers notice it.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out. The operating system shares limited hardware between many competing programs.
+
+Expect tools such as top and htop to keep improving, and expect newer ideas to keep building on time slices. The basics, though, tend to stay the same, so time spent on priorities and context switches is rarely wasted. Anyone working on sharing CPUs among programs will keep meeting Process Scheduling for years to come.
+
+Read the official documentation for htop; it often explains priorities better than blog posts do. Start small by applying Process Scheduling to one case, such as sharing CPUs among programs, before rolling it out more widely. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Process Scheduling.

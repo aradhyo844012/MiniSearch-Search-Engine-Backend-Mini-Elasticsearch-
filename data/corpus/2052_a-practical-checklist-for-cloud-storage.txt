@@ -1,0 +1,11 @@
+A Practical Checklist for Cloud Storage
+
+Use this checklist before you rely on Cloud Storage in a project.
+
+1. Confirm that your team agrees on what Cloud Storage should accomplish.
+2. Pick a tool to start with, such as Amazon S3 or Google Cloud Storage.
+3. Write at least one automated test that covers buckets.
+4. Measure results before and after any change.
+5. Document your decisions in the project README.
+6. Review how Cloud Storage interacts with Docker.
+7. Ask a teammate to review the work, focusing on objects.

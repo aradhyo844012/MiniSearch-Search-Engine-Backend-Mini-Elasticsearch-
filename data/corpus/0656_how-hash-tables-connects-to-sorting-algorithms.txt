@@ -1,0 +1,13 @@
+How Hash Tables Connects to Sorting Algorithms
+
+Hash Tables and Sorting Algorithms are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving implementing dictionaries and sets may also involve ordering search results. In such a project, hash function and comparison sorts often influence each other.
+
+Start with Hash Tables: the term refers to a way of storing key-value pairs so that lookups take roughly constant time. Then look at Sorting Algorithms, which refers to methods for arranging items in a defined order.
+
+A useful exercise is to take one example, such as caching computed results, and explain how stability would change the design.
+
+Common problems are shared too. For Hash Tables, watch for this: resizing is expensive at scale. For Sorting Algorithms, watch for this: sorting everything when a partial order is enough. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Spend a few hours on each topic, then combine them in one small project using Python dict or Python sorted.

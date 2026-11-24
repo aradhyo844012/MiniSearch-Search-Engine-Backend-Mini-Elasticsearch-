@@ -1,0 +1,18 @@
+Cross-Site Scripting Interview Questions and Answers
+
+Prepare for these questions about Cross-Site Scripting.
+
+Q: Explain Cross-Site Scripting in simple words.
+A: Cross-Site Scripting refers to a vulnerability where attackers get a site to run their scripts in other users' browsers. I would add an example involving reviewing web forms.
+
+Q: What problems have you seen in practice?
+A: inserting user text as raw HTML; trusting client-side filtering; and missing content security policy.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as reflected XSS, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: inserting user text as raw HTML.
+
+Q: What are the key concepts?
+A: reflected XSS, stored XSS, output encoding, and content security policy.

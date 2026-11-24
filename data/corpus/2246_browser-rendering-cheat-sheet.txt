@@ -1,0 +1,11 @@
+Browser Rendering Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Browser Rendering.
+
+- Definition: the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen.
+- Core ideas: DOM construction; style calculation; layout; painting.
+- Use it for: explaining slow pages; designing smooth animations; debugging layout shifts.
+- Watch out for: blocking scripts in the head; forcing repeated layouts; loading huge images.
+- Tools: Chrome DevTools Performance panel, Lighthouse, WebPageTest.
+- Quick tip: practice DOM construction until it feels automatic.
+- Related topic: CSS Flexbox and Grid.

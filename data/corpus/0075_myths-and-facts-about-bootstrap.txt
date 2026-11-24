@@ -1,0 +1,19 @@
+Myths and Facts About Bootstrap
+
+A lot of folklore has built up around Bootstrap. Some of it is true, and some of it is not. When people talk about Bootstrap, they usually mean a popular front-end toolkit with ready-made layout, components and utilities. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Bootstrap is only for experts.
+Fact: beginners can use it effectively once they understand grid system and components.
+
+Myth: Bootstrap is only useful in very large systems.
+Fact: small projects such as prototypes and dashboards benefit as well.
+
+Myth: one tool does everything.
+Fact: Bootstrap CDN, Sass variables, and Bootstrap Icons make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Bootstrap are always obvious.
+Fact: subtle problems happen, for example overriding styles with heavy custom CSS.
+
+Measure before you optimize. Use Bootstrap CDN or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce. Practice grid system with small exercises until it feels natural.
+
+With steady practice, Bootstrap will stop feeling abstract and become a tool you reach for naturally.

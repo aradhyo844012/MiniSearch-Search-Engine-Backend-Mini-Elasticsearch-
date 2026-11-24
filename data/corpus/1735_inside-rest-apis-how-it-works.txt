@@ -1,0 +1,13 @@
+Inside REST APIs: How It Works
+
+This article walks through what happens inside REST APIs, step by step. If you build software for long enough, you will run into REST APIs. The term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods.
+
+The vocabulary of REST APIs is small. Learn resources, HTTP verbs, status codes, and statelessness, and most documentation will start to make sense. A good way to remember resources is to connect it with a concrete example from your own code.
+
+First, resources sets the stage for everything else. Next, HTTP verbs builds on it. After that, status codes comes into play, and finally statelessness ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Failures between services are normal, so retries and timeouts need careful design.
+
+REST APIs and Message Queues are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+In short, careful study of REST APIs pays off. Spend time on resources and HTTP verbs, and the rest will follow.

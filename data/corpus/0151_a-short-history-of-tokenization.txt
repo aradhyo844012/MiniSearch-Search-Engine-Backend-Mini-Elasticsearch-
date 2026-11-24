@@ -1,0 +1,11 @@
+A Short History of Tokenization
+
+Ideas behind Tokenization developed gradually as engineers ran into practical limits and shared what they learned. Put simply, Tokenization covers splitting text into smaller units such as words that a program can count and compare. Learning it well pays off across many areas of computing.
+
+Fast search comes from precomputing structures so that queries do very little work. Real query logs reveal what people actually look for, which is rarely what designers expect.
+
+Four ideas sit at the heart of Tokenization: lowercasing, splitting on punctuation, stop words, and normalization. Each one builds on the one before it. Understanding splitting on punctuation first often makes stop words much easier to reason about.
+
+Tokenization and Stop Words are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+In short, careful study of Tokenization pays off. Spend time on lowercasing and splitting on punctuation, and the rest will follow.

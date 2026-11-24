@@ -1,0 +1,12 @@
+A Practical Checklist for DOM Manipulation
+
+Use this checklist before you rely on DOM Manipulation in a project.
+
+1. Review the core ideas: selectors, events, nodes, and updates.
+2. Pick a tool to start with, such as querySelector or browser console.
+3. Confirm that your team agrees on what DOM Manipulation should accomplish.
+4. Guard against this risk: querying the DOM inside tight loops.
+5. Try the approach on a small case, for example updating search results.
+6. Document your decisions in the project README.
+7. Guard against this risk: inserting untrusted text as HTML.
+8. Write at least one automated test that covers selectors.

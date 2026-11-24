@@ -1,0 +1,11 @@
+Common Mistakes When Working with Phishing Defense
+
+Almost everyone makes a few avoidable errors when first working with Phishing Defense. Put simply, Phishing Defense covers recognizing and reducing attacks that trick people into revealing information. Learning it well pays off across many areas of computing.
+
+Three issues come up again and again: clicking before checking; reusing passwords; and ignoring reports from users. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: clicking before checking. A short test or a careful review comment usually catches it. The second problem is similar: reusing passwords. The third problem is this: ignoring reports from users. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice suspicious links with small exercises until it feels natural. Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Phishing Defense should behave. Tests double as documentation for your teammates.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Phishing Defense.

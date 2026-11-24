@@ -1,0 +1,18 @@
+Cloud Storage Interview Questions and Answers
+
+Prepare for these questions about Cloud Storage.
+
+Q: Explain Cloud Storage in simple words.
+A: Cloud Storage refers to storing files and objects on remote servers that scale on demand. I would add an example involving backups.
+
+Q: How does it connect to Git Branching?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as buckets, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: public buckets by mistake.
+
+Q: Where would you apply it first?
+A: I would start with serving images, because it is small enough to test and large enough to show the benefit.

@@ -1,0 +1,13 @@
+How BM25 Ranking Connects to Edit Distance
+
+BM25 Ranking and Edit Distance are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving ranking search results may also involve spell checking. In such a project, term saturation and insertions often influence each other.
+
+Start with BM25 Ranking: the term refers to a ranking function that improves on plain term frequency with saturation and length normalization. Then look at Edit Distance, which refers to a measure of how many single-character changes turn one word into another.
+
+A useful exercise is to take one example, such as enterprise search, and explain how deletions would change the design.
+
+Common problems are shared too. For BM25 Ranking, watch for this: ignoring field boundaries. For Edit Distance, watch for this: ignoring word length. Search quality depends on how text is prepared before it is ever indexed.
+
+Spend a few hours on each topic, then combine them in one small project using Elasticsearch or Levenshtein libraries.

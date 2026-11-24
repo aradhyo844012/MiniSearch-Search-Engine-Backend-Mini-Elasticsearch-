@@ -1,0 +1,14 @@
+How to Learn Big O Notation in 30 Days
+
+You do not need months to become comfortable with Big O Notation. A focused plan of thirty days is enough to build a solid base. Put simply, Big O Notation covers a way of describing how running time or memory grows as the input size grows. Learning it well pays off across many areas of computing.
+
+Week 1: learn upper bounds and constant, linear and logarithmic growth, and write a one-page summary.
+Week 2: practice with Python timeit on a small task such as comparing algorithms.
+Week 3: build a mini project around predicting scaling problems.
+Week 4: review common mistakes such as ignoring constant factors entirely, and explain Big O Notation to a friend.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Python timeit or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: ignoring constant factors entirely.
+
+In practice you can start with Python timeit, then explore big-O cheat sheets or profilers as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Big O Notation.

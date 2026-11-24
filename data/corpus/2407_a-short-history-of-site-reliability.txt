@@ -1,0 +1,11 @@
+A Short History of Site Reliability
+
+Ideas behind Site Reliability developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Site Reliability, they usually mean the discipline of keeping services dependable using engineering practices. It appears in almost every serious software project, whether or not developers notice it.
+
+A system that cannot be observed cannot be reliably operated.
+
+The vocabulary of Site Reliability is small. Learn service level objectives, error budgets, incident response, and postmortems, and most documentation will start to make sense. Understanding error budgets first often makes incident response much easier to reason about.
+
+If you are comfortable with Site Reliability, explore Git Branching next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Site Reliability whenever a new project gives you a reason.

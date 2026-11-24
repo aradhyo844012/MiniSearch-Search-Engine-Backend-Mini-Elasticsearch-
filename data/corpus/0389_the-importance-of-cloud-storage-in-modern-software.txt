@@ -1,0 +1,13 @@
+The Importance of Cloud Storage in Modern Software
+
+It is easy to underestimate Cloud Storage until something goes wrong without it. If you build software for long enough, you will run into Cloud Storage. The term refers to storing files and objects on remote servers that scale on demand.
+
+Small, frequent releases are usually safer than rare, large ones.
+
+You will see Cloud Storage whenever people work on backups or serving images. It also helps with data lakes.
+
+Three issues come up again and again: public buckets by mistake; surprise egress costs; and no lifecycle rules. Knowing them in advance saves hours of debugging.
+
+If you are comfortable with Cloud Storage, explore Site Reliability next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cloud Storage.

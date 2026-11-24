@@ -1,0 +1,11 @@
+A Practical Checklist for Stream Processing
+
+Use this checklist before you rely on Stream Processing in a project.
+
+1. Ask a teammate to review the work, focusing on windows.
+2. Measure results before and after any change.
+3. Review the core ideas: events, windows, offsets, and state.
+4. Write at least one automated test that covers events.
+5. Guard against this risk: late events.
+6. Confirm that your team agrees on what Stream Processing should accomplish.
+7. Guard against this risk: duplicate processing.

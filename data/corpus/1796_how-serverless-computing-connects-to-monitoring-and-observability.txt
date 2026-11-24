@@ -1,0 +1,13 @@
+How Serverless Computing Connects to Monitoring and Observability
+
+Serverless Computing and Monitoring and Observability are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving webhooks may also involve detecting outages. In such a project, functions and metrics often influence each other.
+
+Start with Serverless Computing: the term refers to running code in managed functions without maintaining servers yourself. Then look at Monitoring and Observability, which refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+A useful exercise is to take one example, such as scheduled jobs, and explain how logs would change the design.
+
+Common problems are shared too. For Serverless Computing, watch for this: vendor lock-in. For Monitoring and Observability, watch for this: logs without context. A system that cannot be observed cannot be reliably operated.
+
+Spend a few hours on each topic, then combine them in one small project using AWS Lambda or Prometheus.

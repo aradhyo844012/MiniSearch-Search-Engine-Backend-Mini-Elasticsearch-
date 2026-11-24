@@ -1,0 +1,17 @@
+A Beginner's Guide to Natural Language Processing
+
+This guide is written for readers who are new to Natural Language Processing and want a clear starting point. Put simply, Natural Language Processing covers the field of teaching computers to work with human language. Learning it well pays off across many areas of computing.
+
+Simple baselines are worth building first because they show what improvement is realistic. Reproducible experiments make it far easier to trust and improve a model.
+
+Four ideas sit at the heart of Natural Language Processing: tokenization, embeddings, language models, and evaluation metrics. Each one builds on the one before it. Understanding embeddings first often makes language models much easier to reason about.
+
+People use Natural Language Processing for search engines, for chatbots, and for sentiment analysis.
+
+In practice you can start with spaCy, then explore NLTK or Hugging Face as your needs grow.
+
+Beginners often stumble on three things. First: ignoring language variety. Second: messy text preprocessing. Third: trusting metrics on tiny samples.
+
+Start small by applying Natural Language Processing to one case, such as search engines, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Natural Language Processing helps the next developer. Write a few tests that show how Natural Language Processing should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Natural Language Processing pays off. Spend time on tokenization and embeddings, and the rest will follow.

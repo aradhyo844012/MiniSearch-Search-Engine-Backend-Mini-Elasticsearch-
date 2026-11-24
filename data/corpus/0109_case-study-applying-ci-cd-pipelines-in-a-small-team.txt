@@ -1,0 +1,9 @@
+Case Study: Applying CI/CD Pipelines in a Small Team
+
+Imagine a small student team building a project that depends on CI/CD Pipelines. Put simply, CI/CD Pipelines covers automated workflows that build, test and deliver code whenever it changes. Learning it well pays off across many areas of computing.
+
+The team first spent a week learning build stage and test stage. Early on they hit a familiar problem: slow pipelines. After fixing it, they used GitHub Actions to check their work and adopted CI/CD Pipelines for running tests on every push. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: slow pipelines; flaky tests; and secrets in logs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CI/CD Pipelines.

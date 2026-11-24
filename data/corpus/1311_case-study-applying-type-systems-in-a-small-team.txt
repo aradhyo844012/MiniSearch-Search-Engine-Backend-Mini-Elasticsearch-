@@ -1,0 +1,11 @@
+Case Study: Applying Type Systems in a Small Team
+
+Imagine a small student team building a project that depends on Type Systems. The term Type Systems refers to the rules a language uses to classify values and catch mistakes. This article explains the idea in plain language and points out where it fits in real projects.
+
+Practice static and dynamic typing with small exercises until it feels natural. Measure before you optimize. Use mypy or a simple timer to see where time is actually spent.
+
+The team first spent a week learning static and dynamic typing and type inference. Early on they hit a familiar problem: treating annotations as guarantees at runtime. After fixing it, they used mypy to check their work and adopted Type Systems for catching bugs early. Looking back, they said the biggest lesson was to write tests earlier.
+
+Watch out for these problems: treating annotations as guarantees at runtime; overusing any types; and fighting the type checker.
+
+Keep experimenting, keep notes, and revisit Type Systems whenever a new project gives you a reason.

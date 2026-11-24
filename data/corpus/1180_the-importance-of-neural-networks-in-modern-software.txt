@@ -1,0 +1,13 @@
+The Importance of Neural Networks in Modern Software
+
+It is easy to underestimate Neural Networks until something goes wrong without it. Put simply, Neural Networks covers models made of layers of connected units that learn patterns from data. Learning it well pays off across many areas of computing.
+
+Results should always be checked on data the model has never seen. Reproducible experiments make it far easier to trust and improve a model.
+
+People use Neural Networks for image recognition, for speech recognition, and for language tasks.
+
+Three issues come up again and again: too little training data; poor learning rate choices; and not monitoring validation loss. Knowing them in advance saves hours of debugging.
+
+A solid grasp of Neural Networks also makes Feature Engineering easier to understand.
+
+Keep experimenting, keep notes, and revisit Neural Networks whenever a new project gives you a reason.

@@ -1,0 +1,12 @@
+A Practical Checklist for Site Reliability
+
+Use this checklist before you rely on Site Reliability in a project.
+
+1. Write at least one automated test that covers service level objectives.
+2. Pick a tool to start with, such as PagerDuty or Prometheus.
+3. Try the approach on a small case, for example running production services.
+4. Document your decisions in the project README.
+5. Guard against this risk: alerting on everything.
+6. Guard against this risk: no written postmortems.
+7. Review how Site Reliability interacts with Serverless Computing.
+8. Ask a teammate to review the work, focusing on error budgets.

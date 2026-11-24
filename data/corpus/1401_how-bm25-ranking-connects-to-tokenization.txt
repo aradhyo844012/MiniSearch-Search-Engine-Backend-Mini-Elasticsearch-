@@ -1,0 +1,13 @@
+How BM25 Ranking Connects to Tokenization
+
+BM25 Ranking and Tokenization are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving ranking search results may also involve indexing documents. In such a project, term saturation and lowercasing often influence each other.
+
+Start with BM25 Ranking: the term refers to a ranking function that improves on plain term frequency with saturation and length normalization. Then look at Tokenization, which refers to splitting text into smaller units such as words that a program can count and compare.
+
+A useful exercise is to take one example, such as enterprise search, and explain how splitting on punctuation would change the design.
+
+Common problems are shared too. For BM25 Ranking, watch for this: ignoring field boundaries. For Tokenization, watch for this: dropping useful numbers. Users judge a search engine by whether the right result appears near the top.
+
+Spend a few hours on each topic, then combine them in one small project using Elasticsearch or Python re module.

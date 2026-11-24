@@ -1,0 +1,13 @@
+Troubleshooting HTTP and HTTPS Problems
+
+When something breaks around HTTP and HTTPS, a calm and systematic approach saves the most time. The term HTTP and HTTPS refers to the request and response protocol of the web, with HTTPS adding encryption. This article explains the idea in plain language and points out where it fits in real projects.
+
+HTTP and HTTPS and WebSockets are closely related, so learning both gives a fuller picture of Networking.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and curl usually reveal the cause faster than guessing.
+
+Common culprits: mixing up status codes; sending secrets in URLs; ignoring caching headers. If none of these explains the symptom, re-read the basics of methods and status codes.
+
+Popular tools and libraries include curl, Postman, and browser developer tools.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with HTTP and HTTPS.

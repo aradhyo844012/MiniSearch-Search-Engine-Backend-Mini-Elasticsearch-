@@ -1,0 +1,13 @@
+How Git Branching Connects to Site Reliability
+
+Git Branching and Site Reliability are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving feature development may also involve running production services. In such a project, branches and service level objectives often influence each other.
+
+Start with Git Branching: the term refers to using separate lines of development so that changes can be built and reviewed independently. Then look at Site Reliability, which refers to the discipline of keeping services dependable using engineering practices.
+
+A useful exercise is to take one example, such as bug fixes, and explain how error budgets would change the design.
+
+Common problems are shared too. For Git Branching, watch for this: merge conflicts left unresolved. For Site Reliability, watch for this: blaming people instead of systems. A system that cannot be observed cannot be reliably operated.
+
+Spend a few hours on each topic, then combine them in one small project using Git or PagerDuty.

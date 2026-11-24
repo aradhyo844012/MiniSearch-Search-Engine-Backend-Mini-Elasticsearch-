@@ -1,0 +1,24 @@
+Technical Debt Interview Questions and Answers
+
+Prepare for these questions about Technical Debt.
+
+Q: Explain Technical Debt in simple words.
+A: Technical Debt refers to the future cost of shortcuts taken in code, design or documentation. I would add an example involving deciding when to cut corners.
+
+Q: Which tools have you used?
+A: SonarQube, issue trackers, and code metrics.
+
+Q: Where would you apply it first?
+A: I would start with planning cleanup work, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: never paying it down.
+
+Q: How does it connect to Version Control Workflow?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: never paying it down; hiding it from stakeholders; and unclear ownership.
+
+Q: What are the key concepts?
+A: shortcuts, interest, refactoring backlog, and code smells.

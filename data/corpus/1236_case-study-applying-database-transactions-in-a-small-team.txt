@@ -1,0 +1,9 @@
+Case Study: Applying Database Transactions in a Small Team
+
+Imagine a small student team building a project that depends on Database Transactions. If you build software for long enough, you will run into Database Transactions. The term refers to groups of operations that succeed or fail together.
+
+The team first spent a week learning atomicity and consistency. Early on they hit a familiar problem: holding transactions open too long. After fixing it, they used PostgreSQL to check their work and adopted Database Transactions for transferring money between accounts. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: holding transactions open too long. Second: ignoring isolation levels. Third: forgetting to roll back on errors.
+
+Keep experimenting, keep notes, and revisit Database Transactions whenever a new project gives you a reason.

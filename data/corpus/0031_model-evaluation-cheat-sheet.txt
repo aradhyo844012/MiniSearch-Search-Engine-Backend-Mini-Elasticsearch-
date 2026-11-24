@@ -1,0 +1,11 @@
+Model Evaluation Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Model Evaluation.
+
+- Definition: measuring how well a machine learning model works on data it has not seen.
+- Core ideas: accuracy; precision and recall; confusion matrices; validation sets.
+- Use it for: comparing models; choosing thresholds; reporting results honestly.
+- Watch out for: using accuracy on imbalanced data; tuning on the test set; ignoring variance between runs.
+- Tools: scikit-learn metrics, MLflow, pandas.
+- Quick tip: write a tiny test for precision and recall before building anything large.
+- Quick tip: practice accuracy until it feels automatic.

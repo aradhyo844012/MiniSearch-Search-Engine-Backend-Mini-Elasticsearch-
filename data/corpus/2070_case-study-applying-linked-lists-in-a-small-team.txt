@@ -1,0 +1,9 @@
+Case Study: Applying Linked Lists in a Small Team
+
+Imagine a small student team building a project that depends on Linked Lists. Many students first meet Linked Lists in a classroom, but it matters just as much in production systems. The term refers to chains of nodes where each node stores a value and a reference to the next node.
+
+The team first spent a week learning nodes and head and tail pointers. Early on they hit a familiar problem: losing the head pointer. After fixing it, they used Python collections.deque to check their work and adopted Linked Lists for queues and stacks. Looking back, they said the biggest lesson was to keep the design simple.
+
+Three issues come up again and again: losing the head pointer; off-by-one errors during insertion; and poor cache locality. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Linked Lists whenever a new project gives you a reason.

@@ -1,0 +1,19 @@
+Myths and Facts About Graph Traversal
+
+A lot of folklore has built up around Graph Traversal. Some of it is true, and some of it is not. Put simply, Graph Traversal covers systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Learning it well pays off across many areas of computing.
+
+Graph Traversal and Linked Lists are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Myth: Graph Traversal is only for experts.
+Fact: beginners can use it effectively once they understand adjacency lists and breadth-first search.
+
+Myth: Graph Traversal is only useful in very large systems.
+Fact: small projects such as finding shortest paths in unweighted graphs benefit as well.
+
+Myth: one tool does everything.
+Fact: NetworkX, Python collections.deque, and Graphviz make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Graph Traversal are always obvious.
+Fact: subtle problems happen, for example forgetting to mark nodes as visited.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Graph Traversal.

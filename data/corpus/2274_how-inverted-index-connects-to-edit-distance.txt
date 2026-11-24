@@ -1,0 +1,13 @@
+How Inverted Index Connects to Edit Distance
+
+Inverted Index and Edit Distance are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving full-text search may also involve spell checking. In such a project, vocabulary and insertions often influence each other.
+
+Start with Inverted Index: the term refers to a data structure that maps each term to the documents that contain it. Then look at Edit Distance, which refers to a measure of how many single-character changes turn one word into another.
+
+A useful exercise is to take one example, such as log search, and explain how deletions would change the design.
+
+Common problems are shared too. For Inverted Index, watch for this: building the index without normalizing text. For Edit Distance, watch for this: ignoring word length. Search quality depends on how text is prepared before it is ever indexed.
+
+Spend a few hours on each topic, then combine them in one small project using Lucene or Levenshtein libraries.

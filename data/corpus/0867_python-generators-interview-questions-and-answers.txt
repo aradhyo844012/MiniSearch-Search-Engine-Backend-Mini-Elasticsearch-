@@ -1,0 +1,21 @@
+Python Generators Interview Questions and Answers
+
+Prepare for these questions about Python Generators.
+
+Q: Explain Python Generators in simple words.
+A: Python Generators refers to functions that produce values one at a time instead of building a whole list. I would add an example involving reading large files line by line.
+
+Q: What problems have you seen in practice?
+A: consuming a generator twice; forgetting generators are lazy; and hiding errors until iteration.
+
+Q: What are the key concepts?
+A: yield, lazy evaluation, iterators, and generator expressions.
+
+Q: How does it connect to Functional Programming?
+A: Both belong to the area of Programming, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: itertools, Python itertools docs, and pytest.
+
+Q: Where would you apply it first?
+A: I would start with streaming data, because it is small enough to test and large enough to show the benefit.

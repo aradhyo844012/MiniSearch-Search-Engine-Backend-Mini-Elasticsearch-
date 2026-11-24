@@ -1,0 +1,22 @@
+Microservices: Frequently Asked Questions
+
+Q: What is Microservices?
+A: The term Microservices refers to an architecture that splits an application into small services that can be deployed independently.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Why do developers use Microservices?
+A: Common uses include large teams working in parallel, scaling parts separately, and replacing components gradually.
+
+Q: Which tools help?
+A: Popular choices include Docker, Kubernetes, and API gateways.
+
+Q: How does it relate to Authentication and Sessions?
+A: Microservices and Authentication and Sessions often appear in the same project, and both belong to the area of Backend and APIs.
+
+Q: What mistakes are most common?
+A: Watch for these: splitting too early; chatty services; and hard debugging across services.
+
+Q: What should a beginner learn first?
+A: Start with service boundaries and APIs, then move on to independent deployment and distributed data.

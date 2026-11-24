@@ -1,0 +1,11 @@
+Case Study: Applying Kubernetes in a Small Team
+
+Imagine a small student team building a project that depends on Kubernetes. If you build software for long enough, you will run into Kubernetes. The term refers to a system for deploying, scaling and managing containerized applications.
+
+The team first spent a week learning pods and deployments. Early on they hit a familiar problem: resource limits missing. After fixing it, they used kubectl to check their work and adopted Kubernetes for running many containers. Looking back, they said the biggest lesson was to write tests earlier.
+
+Kubernetes and Docker are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+Watch out for these problems: resource limits missing; over-complicated setups; and ignoring health probes.
+
+With steady practice, Kubernetes will stop feeling abstract and become a tool you reach for naturally.

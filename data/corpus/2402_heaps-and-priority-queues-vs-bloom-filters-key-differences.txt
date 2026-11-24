@@ -1,0 +1,15 @@
+Heaps and Priority Queues vs Bloom Filters: Key Differences
+
+Heaps and Priority Queues and Bloom Filters both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Heaps and Priority Queues refers to structures that always give quick access to the smallest or largest element. Its core ideas are heap property, sift up and sift down, and array representation.
+
+The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. Its core ideas are bit arrays, multiple hash functions, and false positives.
+
+The main difference is focus. Heaps and Priority Queues puts the emphasis on heap property and sift up and sift down, while Bloom Filters puts the emphasis on bit arrays and multiple hash functions.
+
+Reach for Heaps and Priority Queues when your task involves scheduling tasks or selecting the top results from many candidates. Reach for Bloom Filters when your task involves skipping disk lookups for missing keys or checking visited URLs.
+
+Both have risks. With Heaps and Priority Queues, watch for this: assuming a heap is fully sorted. With Bloom Filters, watch for this: choosing too small a bit array.
+
+In practice you do not always have to choose. Many projects use Heaps and Priority Queues alongside Bloom Filters, with tools such as Python heapq and Python bitarray. Interviewers and engineers alike value clear reasoning about time and space costs.

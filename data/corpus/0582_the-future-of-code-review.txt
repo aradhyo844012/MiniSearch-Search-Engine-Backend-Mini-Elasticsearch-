@@ -1,0 +1,11 @@
+The Future of Code Review
+
+Predicting the future is risky, but the direction of Code Review is easy to describe in general terms. Many students first meet Code Review in a classroom, but it matters just as much in production systems. The term refers to having teammates examine changes before they are merged.
+
+Readable code saves more time than clever code over the long run.
+
+Expect tools such as GitHub pull requests and GitLab merge requests to keep improving, and expect newer ideas to keep building on pull requests. The basics, though, tend to stay the same, so time spent on review comments and checklists is rarely wasted. Anyone working on catching bugs early will keep meeting Code Review for years to come.
+
+Ask a teammate to explain checklists back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+Keep experimenting, keep notes, and revisit Code Review whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+Inside Process Scheduling: How It Works
+
+This article walks through what happens inside Process Scheduling, step by step. The term Process Scheduling refers to the way an operating system decides which process runs on the CPU and for how long. This article explains the idea in plain language and points out where it fits in real projects.
+
+Four ideas sit at the heart of Process Scheduling: time slices, priorities, context switches, and run queues. Each one builds on the one before it. Sketching run queues on paper before coding helps many learners see how the pieces fit.
+
+First, time slices sets the stage for everything else. Next, priorities builds on it. After that, context switches comes into play, and finally run queues ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Logs and system monitors are the first place to look when a machine misbehaves. Understanding what the kernel does explains many surprising performance problems.
+
+If you are comfortable with Process Scheduling, explore File Systems next. The two often appear in the same project.
+
+With steady practice, Process Scheduling will stop feeling abstract and become a tool you reach for naturally.

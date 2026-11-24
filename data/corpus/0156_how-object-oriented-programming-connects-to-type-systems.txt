@@ -1,0 +1,13 @@
+How Object-Oriented Programming Connects to Type Systems
+
+Object-Oriented Programming and Type Systems are closely connected parts of Programming. Seeing how they fit together helps you learn both faster.
+
+A project involving modeling real-world entities may also involve catching bugs early. In such a project, classes and static and dynamic typing often influence each other.
+
+Start with Object-Oriented Programming: the term refers to a style of programming that organizes code into objects that combine data and behavior. Then look at Type Systems, which refers to the rules a language uses to classify values and catch mistakes.
+
+A useful exercise is to take one example, such as building frameworks, and explain how type inference would change the design.
+
+Common problems are shared too. For Object-Oriented Programming, watch for this: exposing internal state. For Type Systems, watch for this: overusing any types. Clear error messages and good names make programs far easier to debug.
+
+Spend a few hours on each topic, then combine them in one small project using Python classes or mypy.

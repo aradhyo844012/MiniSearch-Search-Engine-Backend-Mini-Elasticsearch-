@@ -1,0 +1,11 @@
+Common Mistakes When Working with Sorting Algorithms
+
+Almost everyone makes a few avoidable errors when first working with Sorting Algorithms. When people talk about Sorting Algorithms, they usually mean methods for arranging items in a defined order. It appears in almost every serious software project, whether or not developers notice it.
+
+Beginners often stumble on three things. First: assuming every sort is stable. Second: sorting everything when a partial order is enough. Third: ignoring worst-case input.
+
+Consider the first problem: assuming every sort is stable. A short test or a careful review comment usually catches it. The second problem is similar: sorting everything when a partial order is enough. The third problem is this: ignoring worst-case input. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Sorting Algorithms to one case, such as ordering search results, before rolling it out more widely. Write a few tests that show how Sorting Algorithms should behave. Tests double as documentation for your teammates. Ask a teammate to explain divide and conquer back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Sorting Algorithms pays off. Spend time on comparison sorts and stability, and the rest will follow.

@@ -1,0 +1,19 @@
+WebSockets: Frequently Asked Questions
+
+Q: What is WebSockets?
+A: The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server.
+
+Q: What mistakes are most common?
+A: Watch for these: forgetting reconnection logic; unbounded message queues; and proxies closing idle connections.
+
+Q: Why do developers use WebSockets?
+A: Common uses include chat applications, live dashboards, and collaborative editing.
+
+Q: Which tools help?
+A: Popular choices include Socket.IO, ws library, and Python websockets.
+
+Q: What should a beginner learn first?
+A: Start with persistent connections and messages, then move on to heartbeats and reconnection.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with WebSockets.

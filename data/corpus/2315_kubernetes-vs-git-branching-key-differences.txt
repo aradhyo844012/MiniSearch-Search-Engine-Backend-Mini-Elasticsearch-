@@ -1,0 +1,15 @@
+Kubernetes vs Git Branching: Key Differences
+
+Kubernetes and Git Branching both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Kubernetes refers to a system for deploying, scaling and managing containerized applications. Its core ideas are pods, deployments, and services.
+
+The term Git Branching refers to using separate lines of development so that changes can be built and reviewed independently. Its core ideas are branches, merging, and rebasing.
+
+The main difference is focus. Kubernetes puts the emphasis on pods and deployments, while Git Branching puts the emphasis on branches and merging.
+
+Reach for Kubernetes when your task involves running many containers or rolling updates. Reach for Git Branching when your task involves feature development or bug fixes.
+
+Both have risks. With Kubernetes, watch for this: resource limits missing. With Git Branching, watch for this: long-lived branches.
+
+In practice you do not always have to choose. Many projects use Kubernetes alongside Git Branching, with tools such as kubectl and Git. Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly.

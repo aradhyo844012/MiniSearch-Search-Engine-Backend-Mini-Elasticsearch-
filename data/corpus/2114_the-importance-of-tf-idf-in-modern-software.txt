@@ -1,0 +1,13 @@
+The Importance of TF-IDF in Modern Software
+
+It is easy to underestimate TF-IDF until something goes wrong without it. When people talk about TF-IDF, they usually mean a scoring method that weights terms by how often they appear in a document and how rare they are overall. It appears in almost every serious software project, whether or not developers notice it.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+Typical applications include ranking search results, finding keywords, and comparing documents. Small projects and large systems both benefit.
+
+Three issues come up again and again: over-weighting common words; ignoring document length; and using it on tiny corpora. Knowing them in advance saves hours of debugging.
+
+If you are comfortable with TF-IDF, explore Stop Words next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit TF-IDF whenever a new project gives you a reason.

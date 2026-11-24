@@ -1,0 +1,17 @@
+A Beginner's Guide to Functional Programming
+
+This guide is written for readers who are new to Functional Programming and want a clear starting point. When people talk about Functional Programming, they usually mean a style of programming that builds programs from functions and avoids shared mutable state. It appears in almost every serious software project, whether or not developers notice it.
+
+Clear error messages and good names make programs far easier to debug.
+
+The vocabulary of Functional Programming is small. Learn pure functions, immutability, higher-order functions, and composition, and most documentation will start to make sense. A good way to remember pure functions is to connect it with a concrete example from your own code.
+
+You will see Functional Programming whenever people work on data transformation or concurrent code. It also helps with testable logic.
+
+In practice you can start with Python functools, then explore JavaScript array methods or Haskell as your needs grow.
+
+Three issues come up again and again: overusing clever one-liners; hidden state; and unreadable chains of functions. Knowing them in advance saves hours of debugging.
+
+Ask a teammate to explain higher-order functions back to you; teaching is a quick way to find gaps. Start small by applying Functional Programming to one case, such as data transformation, before rolling it out more widely. Practice pure functions with small exercises until it feels natural.
+
+With steady practice, Functional Programming will stop feeling abstract and become a tool you reach for naturally.

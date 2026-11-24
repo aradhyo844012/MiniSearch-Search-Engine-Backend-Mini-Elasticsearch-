@@ -1,0 +1,13 @@
+The Importance of Stream Processing in Modern Software
+
+It is easy to underestimate Stream Processing until something goes wrong without it. If you build software for long enough, you will run into Stream Processing. The term refers to handling data continuously as it arrives rather than in large batches.
+
+Pipelines should be repeatable so that results can be reproduced later. Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+You will see Stream Processing whenever people work on live dashboards or fraud detection. It also helps with real-time alerts.
+
+Watch out for these problems: late events; losing state after crashes; and duplicate processing.
+
+If you are comfortable with Stream Processing, explore Data Visualization next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit Stream Processing whenever a new project gives you a reason.

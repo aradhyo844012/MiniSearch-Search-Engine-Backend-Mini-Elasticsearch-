@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Redis Caching
+
+This hands-on tutorial takes you from zero to a small working experiment with Redis Caching. Many students first meet Redis Caching in a classroom, but it matters just as much in production systems. The term refers to using an in-memory data store to keep frequently needed results close to the application.
+
+Step 1: Install or open Redis and create a new empty project folder.
+Step 2: Read about key-value pairs and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses expiration times.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as caching API responses.
+Step 6: Break your example on purpose and see what happens. A good experiment: serving stale data.
+
+Popular tools and libraries include Redis, redis-py, and Memcached.
+
+Three issues come up again and again: serving stale data; caching without expiry; and treating the cache as the source of truth. Knowing them in advance saves hours of debugging.
+
+With steady practice, Redis Caching will stop feeling abstract and become a tool you reach for naturally.

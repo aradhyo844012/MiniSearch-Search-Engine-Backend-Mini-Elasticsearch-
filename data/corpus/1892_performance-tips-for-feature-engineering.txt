@@ -1,0 +1,13 @@
+Performance Tips for Feature Engineering
+
+Fast software rarely happens by accident, and Feature Engineering offers several places to gain speed. Put simply, Feature Engineering covers creating and transforming input variables so that models can learn from them more easily. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use pandas or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to scaling and encoding categories, because they usually decide how well things scale. For workloads such as improving model accuracy, even small improvements add up quickly.
+
+The vocabulary of Feature Engineering is small. Learn scaling, encoding categories, interaction features, and missing values, and most documentation will start to make sense. Understanding encoding categories first often makes interaction features much easier to reason about.
+
+Practice scaling with small exercises until it feels natural. Ask a teammate to explain interaction features back to you; teaching is a quick way to find gaps.
+
+Beginners often stumble on three things. First: data leakage. Second: inconsistent transformations between training and serving. Third: too many redundant features.
+
+Keep experimenting, keep notes, and revisit Feature Engineering whenever a new project gives you a reason.

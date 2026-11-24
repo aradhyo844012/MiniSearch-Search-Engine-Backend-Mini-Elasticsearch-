@@ -1,0 +1,19 @@
+Myths and Facts About Containers
+
+A lot of folklore has built up around Containers. Some of it is true, and some of it is not. Many students first meet Containers in a classroom, but it matters just as much in production systems. The term refers to lightweight packages that bundle an application with its dependencies and run in isolation.
+
+Myth: Containers is only for experts.
+Fact: beginners can use it effectively once they understand images and layers.
+
+Myth: Containers is only useful in very large systems.
+Fact: small projects such as consistent development environments benefit as well.
+
+Myth: one tool does everything.
+Fact: Docker, Podman, and containerd make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Containers are always obvious.
+Fact: subtle problems happen, for example running as root.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+In short, careful study of Containers pays off. Spend time on images and layers, and the rest will follow.

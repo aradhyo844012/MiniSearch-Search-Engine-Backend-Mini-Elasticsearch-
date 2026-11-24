@@ -1,0 +1,13 @@
+How Design Patterns Connects to Technical Debt
+
+Design Patterns and Technical Debt are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving structuring applications may also involve deciding when to cut corners. In such a project, singleton and shortcuts often influence each other.
+
+Start with Design Patterns: the term refers to reusable solutions to common problems in software design. Then look at Technical Debt, which refers to the future cost of shortcuts taken in code, design or documentation.
+
+A useful exercise is to take one example, such as decoupling components, and explain how interest would change the design.
+
+Common problems are shared too. For Design Patterns, watch for this: over-engineering. For Technical Debt, watch for this: hiding it from stakeholders. Readable code saves more time than clever code over the long run.
+
+Spend a few hours on each topic, then combine them in one small project using UML diagrams or SonarQube.

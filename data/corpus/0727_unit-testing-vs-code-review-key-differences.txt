@@ -1,0 +1,15 @@
+Unit Testing vs Code Review: Key Differences
+
+Unit Testing and Code Review both belong to the area of Software Engineering, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Unit Testing refers to writing small automated tests that check one piece of code at a time. Its core ideas are test cases, assertions, and fixtures.
+
+The term Code Review refers to having teammates examine changes before they are merged. Its core ideas are pull requests, review comments, and checklists.
+
+The main difference is focus. Unit Testing puts the emphasis on test cases and assertions, while Code Review puts the emphasis on pull requests and review comments.
+
+Reach for Unit Testing when your task involves catching regressions or documenting behavior. Reach for Code Review when your task involves catching bugs early or sharing knowledge.
+
+Both have risks. With Unit Testing, watch for this: testing implementation details. With Code Review, watch for this: huge pull requests.
+
+In practice you do not always have to choose. Many projects use Unit Testing alongside Code Review, with tools such as pytest and GitHub pull requests. Readable code saves more time than clever code over the long run.

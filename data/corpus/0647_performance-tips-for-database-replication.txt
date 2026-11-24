@@ -1,0 +1,13 @@
+Performance Tips for Database Replication
+
+Fast software rarely happens by accident, and Database Replication offers several places to gain speed. If you build software for long enough, you will run into Database Replication. The term refers to copying data from one database server to others to improve availability and read capacity.
+
+Start by measuring. Use PostgreSQL streaming replication or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to primary and replica and replication lag, because they usually decide how well things scale. For workloads such as surviving server failures, even small improvements add up quickly.
+
+To understand Database Replication, start with primary and replica. Then move on to replication lag, and finally look at failover and read scaling. A good way to remember primary and replica is to connect it with a concrete example from your own code.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: reading stale data from replicas.
+
+Beginners often stumble on three things. First: reading stale data from replicas. Second: untested failover plans. Third: split-brain situations.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Replication.

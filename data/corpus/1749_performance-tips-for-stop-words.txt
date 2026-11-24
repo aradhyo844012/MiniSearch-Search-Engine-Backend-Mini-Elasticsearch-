@@ -1,0 +1,15 @@
+Performance Tips for Stop Words
+
+Fast software rarely happens by accident, and Stop Words offers several places to gain speed. If you build software for long enough, you will run into Stop Words. The term refers to very common words such as the and of that are often ignored by search systems.
+
+Stop Words and Zipf's Law are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Start by measuring. Use NLTK stopwords or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to frequency lists and index size, because they usually decide how well things scale. For workloads such as shrinking indexes, even small improvements add up quickly.
+
+Four ideas sit at the heart of Stop Words: frequency lists, index size, query relevance, and language-specific lists. Each one builds on the one before it. Understanding index size first often makes query relevance much easier to reason about.
+
+Write a few tests that show how Stop Words should behave. Tests double as documentation for your teammates. Ask a teammate to explain query relevance back to you; teaching is a quick way to find gaps. Read the official documentation for scikit-learn; it often explains index size better than blog posts do.
+
+Watch out for these problems: removing words that matter in phrases; using the wrong language list; and inconsistent handling at index and query time.
+
+Keep experimenting, keep notes, and revisit Stop Words whenever a new project gives you a reason.

@@ -1,0 +1,11 @@
+The Future of Decision Trees
+
+Predicting the future is risky, but the direction of Decision Trees is easy to describe in general terms. The term Decision Trees refers to models that make predictions by asking a sequence of simple questions about the data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Reproducible experiments make it far easier to trust and improve a model.
+
+Expect tools such as scikit-learn and XGBoost to keep improving, and expect newer ideas to keep building on splits. The basics, though, tend to stay the same, so time spent on entropy and Gini impurity and leaf nodes is rarely wasted. Anyone working on classifying customers will keep meeting Decision Trees for years to come.
+
+Write a few tests that show how Decision Trees should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain leaf nodes back to you; teaching is a quick way to find gaps.
+
+With steady practice, Decision Trees will stop feeling abstract and become a tool you reach for naturally.

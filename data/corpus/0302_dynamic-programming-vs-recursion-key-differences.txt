@@ -1,0 +1,15 @@
+Dynamic Programming vs Recursion: Key Differences
+
+Dynamic Programming and Recursion both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Dynamic Programming refers to a technique for solving problems by storing the answers to overlapping subproblems. Its core ideas are overlapping subproblems, optimal substructure, and memoization.
+
+The term Recursion refers to a technique where a function solves a problem by calling itself on smaller inputs. Its core ideas are base case, recursive case, and call stack.
+
+The main difference is focus. Dynamic Programming puts the emphasis on overlapping subproblems and optimal substructure, while Recursion puts the emphasis on base case and recursive case.
+
+Reach for Dynamic Programming when your task involves computing edit distance or knapsack style optimization. Reach for Recursion when your task involves traversing trees or divide and conquer algorithms.
+
+Both have risks. With Dynamic Programming, watch for this: defining the state incorrectly. With Recursion, watch for this: missing base cases.
+
+In practice you do not always have to choose. Many projects use Dynamic Programming alongside Recursion, with tools such as Python functools.lru_cache and Python sys.setrecursionlimit. Algorithms are easiest to learn by tracing small examples on paper before writing any code.

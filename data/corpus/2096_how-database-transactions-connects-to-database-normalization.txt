@@ -1,0 +1,13 @@
+How Database Transactions Connects to Database Normalization
+
+Database Transactions and Database Normalization are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving transferring money between accounts may also involve designing clean schemas. In such a project, atomicity and first normal form often influence each other.
+
+Start with Database Transactions: the term refers to groups of operations that succeed or fail together. Then look at Database Normalization, which refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+A useful exercise is to take one example, such as placing orders, and explain how second normal form would change the design.
+
+Common problems are shared too. For Database Transactions, watch for this: ignoring isolation levels. For Database Normalization, watch for this: ignoring query patterns. Good schema design is hard to change once real data and users depend on it.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or ER diagrams.

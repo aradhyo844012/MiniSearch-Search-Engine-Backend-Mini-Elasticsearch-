@@ -1,0 +1,13 @@
+How Data Cleaning Connects to Stream Processing
+
+Data Cleaning and Stream Processing are closely connected parts of Data Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving preparing logs may also involve live dashboards. In such a project, missing values and events often influence each other.
+
+Start with Data Cleaning: the term refers to finding and fixing errors, gaps and inconsistencies in raw data. Then look at Stream Processing, which refers to handling data continuously as it arrives rather than in large batches.
+
+A useful exercise is to take one example, such as merging data sources, and explain how windows would change the design.
+
+Common problems are shared too. For Data Cleaning, watch for this: cleaning by hand without a record. For Stream Processing, watch for this: losing state after crashes. A chart is only useful if the reader can see the point within a few seconds.
+
+Spend a few hours on each topic, then combine them in one small project using pandas or Apache Kafka.

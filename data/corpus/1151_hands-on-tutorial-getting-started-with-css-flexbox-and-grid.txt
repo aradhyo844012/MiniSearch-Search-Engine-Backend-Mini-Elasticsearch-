@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with CSS Flexbox and Grid
+
+This hands-on tutorial takes you from zero to a small working experiment with CSS Flexbox and Grid. When people talk about CSS Flexbox and Grid, they usually mean two layout systems that arrange elements in rows, columns and two-dimensional grids. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open browser grid inspector and create a new empty project folder.
+Step 2: Read about flex containers and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses grid tracks.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as navigation bars.
+Step 6: Break your example on purpose and see what happens. A good experiment: mixing up main and cross axes.
+
+In practice you can start with browser grid inspector, then explore Bootstrap utilities or CSS-Tricks guides as your needs grow.
+
+Beginners often stumble on three things. First: mixing up main and cross axes. Second: fixed widths that break on phones. Third: nesting layouts too deeply.
+
+With steady practice, CSS Flexbox and Grid will stop feeling abstract and become a tool you reach for naturally.

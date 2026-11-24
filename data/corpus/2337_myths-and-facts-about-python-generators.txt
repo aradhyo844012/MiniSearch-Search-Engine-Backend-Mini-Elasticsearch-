@@ -1,0 +1,19 @@
+Myths and Facts About Python Generators
+
+A lot of folklore has built up around Python Generators. Some of it is true, and some of it is not. When people talk about Python Generators, they usually mean functions that produce values one at a time instead of building a whole list. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Python Generators is only for experts.
+Fact: beginners can use it effectively once they understand yield and lazy evaluation.
+
+Myth: Python Generators is only useful in very large systems.
+Fact: small projects such as reading large files line by line benefit as well.
+
+Myth: one tool does everything.
+Fact: itertools, Python itertools docs, and pytest make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Python Generators are always obvious.
+Fact: subtle problems happen, for example consuming a generator twice.
+
+Python Generators and Type Systems are closely related, so learning both gives a fuller picture of Programming.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Python Generators.

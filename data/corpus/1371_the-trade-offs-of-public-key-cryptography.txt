@@ -1,0 +1,13 @@
+The Trade-offs of Public Key Cryptography
+
+Every design choice has a cost, and Public Key Cryptography is no exception. Put simply, Public Key Cryptography covers encryption that uses a pair of keys, one public and one private. Learning it well pays off across many areas of computing.
+
+On the positive side, Public Key Cryptography is well suited to HTTPS and signing software. On the other hand, it is not free. Keep these risks in mind: losing private keys; trusting unverified keys; using keys that are too short. Whether the trade is worth it depends on how much key pairs and digital signatures matter to your project.
+
+Watch out for these problems: losing private keys; trusting unverified keys; and using keys that are too short.
+
+Ask a teammate to explain certificates back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Public Key Cryptography helps the next developer.
+
+A solid grasp of Public Key Cryptography also makes Cross-Site Scripting easier to understand.
+
+Keep experimenting, keep notes, and revisit Public Key Cryptography whenever a new project gives you a reason.

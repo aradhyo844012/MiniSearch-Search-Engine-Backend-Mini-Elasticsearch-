@@ -1,0 +1,14 @@
+How to Learn Virtual Memory in 30 Days
+
+You do not need months to become comfortable with Virtual Memory. A focused plan of thirty days is enough to build a solid base. When people talk about Virtual Memory, they usually mean a technique that gives each program its own address space backed by RAM and disk. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn pages and page tables, and write a one-page summary.
+Week 2: practice with vmstat on a small task such as isolating programs.
+Week 3: build a mini project around running programs larger than RAM.
+Week 4: review common mistakes such as thrashing when memory is short, and explain Virtual Memory to a friend.
+
+Popular tools and libraries include vmstat, free, and /proc/meminfo.
+
+Start small by applying Virtual Memory to one case, such as isolating programs, before rolling it out more widely. Practice pages with small exercises until it feels natural. Keep an eye on this risk during code review: thrashing when memory is short.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Virtual Memory.

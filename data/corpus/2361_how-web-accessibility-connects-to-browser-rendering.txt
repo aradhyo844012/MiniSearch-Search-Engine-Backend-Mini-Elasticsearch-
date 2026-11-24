@@ -1,0 +1,13 @@
+How Web Accessibility Connects to Browser Rendering
+
+Web Accessibility and Browser Rendering are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving screen reader support may also involve explaining slow pages. In such a project, semantic HTML and DOM construction often influence each other.
+
+Start with Web Accessibility: the term refers to designing websites so that people with different abilities can use them. Then look at Browser Rendering, which refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen.
+
+A useful exercise is to take one example, such as keyboard-only use, and explain how style calculation would change the design.
+
+Common problems are shared too. For Web Accessibility, watch for this: missing focus indicators. For Browser Rendering, watch for this: forcing repeated layouts. Web pages must work across many browsers, devices and network conditions.
+
+Spend a few hours on each topic, then combine them in one small project using axe DevTools or Chrome DevTools Performance panel.

@@ -1,0 +1,9 @@
+Case Study: Applying Neural Networks in a Small Team
+
+Imagine a small student team building a project that depends on Neural Networks. If you build software for long enough, you will run into Neural Networks. The term refers to models made of layers of connected units that learn patterns from data.
+
+The team first spent a week learning layers and weights. Early on they hit a familiar problem: too little training data. After fixing it, they used PyTorch to check their work and adopted Neural Networks for image recognition. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: too little training data; poor learning rate choices; and not monitoring validation loss.
+
+Keep experimenting, keep notes, and revisit Neural Networks whenever a new project gives you a reason.

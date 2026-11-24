@@ -1,0 +1,13 @@
+Inside Data Visualization: How It Works
+
+This article walks through what happens inside Data Visualization, step by step. When people talk about Data Visualization, they usually mean presenting data as charts and graphics so that patterns are easy to see. It appears in almost every serious software project, whether or not developers notice it.
+
+The vocabulary of Data Visualization is small. Learn chart types, axes and labels, color choices, and annotations, and most documentation will start to make sense. A good way to remember chart types is to connect it with a concrete example from your own code.
+
+First, chart types sets the stage for everything else. Next, axes and labels builds on it. After that, color choices comes into play, and finally annotations ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Writing down assumptions about the data prevents confusing surprises later. Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+A solid grasp of Data Visualization also makes Stream Processing easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Visualization.

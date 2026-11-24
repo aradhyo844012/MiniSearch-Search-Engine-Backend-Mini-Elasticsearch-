@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with OAuth 2.0
+
+This hands-on tutorial takes you from zero to a small working experiment with OAuth 2.0. Put simply, OAuth 2.0 covers a framework that lets applications access resources on a user's behalf without sharing passwords. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open Auth0 and create a new empty project folder.
+Step 2: Read about authorization server and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses access tokens.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as sign in with another account.
+Step 6: Break your example on purpose and see what happens. A good experiment: loose redirect URI checks.
+
+If you are comfortable with OAuth 2.0, explore Password Hashing next. The two often appear in the same project.
+
+Popular tools and libraries include Auth0, Keycloak, and authlib.
+
+Watch out for these problems: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely.
+
+With steady practice, OAuth 2.0 will stop feeling abstract and become a tool you reach for naturally.

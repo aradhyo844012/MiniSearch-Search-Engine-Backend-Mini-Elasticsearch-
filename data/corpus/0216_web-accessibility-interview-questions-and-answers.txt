@@ -1,0 +1,21 @@
+Web Accessibility Interview Questions and Answers
+
+Prepare for these questions about Web Accessibility.
+
+Q: Explain Web Accessibility in simple words.
+A: Web Accessibility refers to designing websites so that people with different abilities can use them. I would add an example involving screen reader support.
+
+Q: Where would you apply it first?
+A: I would start with keyboard-only use, because it is small enough to test and large enough to show the benefit.
+
+Q: What are the key concepts?
+A: semantic HTML, ARIA attributes, keyboard navigation, and color contrast.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as semantic HTML, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: low contrast text; missing focus indicators; and images without alternative text.
+
+Q: Which tools have you used?
+A: axe DevTools, WAVE, and screen readers.

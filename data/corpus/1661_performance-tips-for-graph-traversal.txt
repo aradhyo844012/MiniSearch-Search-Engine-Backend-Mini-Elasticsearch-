@@ -1,0 +1,13 @@
+Performance Tips for Graph Traversal
+
+Fast software rarely happens by accident, and Graph Traversal offers several places to gain speed. When people talk about Graph Traversal, they usually mean systematic ways of visiting every node in a graph, usually breadth-first or depth-first. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use NetworkX or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to adjacency lists and breadth-first search, because they usually decide how well things scale. For workloads such as finding shortest paths in unweighted graphs, even small improvements add up quickly.
+
+To understand Graph Traversal, start with adjacency lists. Then move on to breadth-first search, and finally look at depth-first search and visited sets. A good way to remember adjacency lists is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Graph Traversal should behave. Tests double as documentation for your teammates. Read the official documentation for Python collections.deque; it often explains breadth-first search better than blog posts do. Keep an eye on this risk during code review: forgetting to mark nodes as visited.
+
+Three issues come up again and again: forgetting to mark nodes as visited; using recursion on very deep graphs; and choosing an adjacency matrix for sparse graphs. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Graph Traversal whenever a new project gives you a reason.

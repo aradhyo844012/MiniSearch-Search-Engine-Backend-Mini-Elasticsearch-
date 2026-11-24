@@ -1,0 +1,19 @@
+Myths and Facts About Secure Coding
+
+A lot of folklore has built up around Secure Coding. Some of it is true, and some of it is not. The term Secure Coding refers to writing software in ways that avoid common vulnerabilities. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Secure Coding is only for experts.
+Fact: beginners can use it effectively once they understand input validation and least privilege.
+
+Myth: Secure Coding is only useful in very large systems.
+Fact: small projects such as reviewing pull requests benefit as well.
+
+Myth: one tool does everything.
+Fact: OWASP Top 10, static analysis tools, and Dependabot make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Secure Coding are always obvious.
+Fact: subtle problems happen, for example trusting user input.
+
+Keep notes on what worked. A short README explaining your decisions about Secure Coding helps the next developer. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Secure Coding.

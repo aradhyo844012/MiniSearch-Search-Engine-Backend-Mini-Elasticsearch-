@@ -1,0 +1,15 @@
+Virtual Memory vs Containers: Key Differences
+
+Virtual Memory and Containers both belong to the area of Operating Systems, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Virtual Memory refers to a technique that gives each program its own address space backed by RAM and disk. Its core ideas are pages, page tables, and page faults.
+
+The term Containers refers to lightweight packages that bundle an application with its dependencies and run in isolation. Its core ideas are images, layers, and namespaces.
+
+The main difference is focus. Virtual Memory puts the emphasis on pages and page tables, while Containers puts the emphasis on images and layers.
+
+Reach for Virtual Memory when your task involves isolating programs or running programs larger than RAM. Reach for Containers when your task involves consistent development environments or deploying microservices.
+
+Both have risks. With Virtual Memory, watch for this: thrashing when memory is short. With Containers, watch for this: running as root.
+
+In practice you do not always have to choose. Many projects use Virtual Memory alongside Containers, with tools such as vmstat and Docker. Resource limits such as memory, file handles and processes are easy to forget until they run out.

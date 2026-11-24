@@ -1,0 +1,17 @@
+Best Practices for Sorting Algorithms
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Sorting Algorithms covers methods for arranging items in a defined order. Learning it well pays off across many areas of computing.
+
+1. Practice comparison sorts with small exercises until it feels natural.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Ask a teammate to explain divide and conquer back to you; teaching is a quick way to find gaps.
+4. Measure before you optimize. Use Python sorted or a simple timer to see where time is actually spent.
+5. Keep notes on what worked. A short README explaining your decisions about Sorting Algorithms helps the next developer.
+
+In practice you can start with Python sorted, then explore Java Arrays.sort or C++ std::sort as your needs grow.
+
+Sorting Algorithms and Binary Search are closely related, so learning both gives a fuller picture of Data Structures and Algorithms.
+
+Choosing the right data structure often matters more than clever tuning later.
+
+Keep experimenting, keep notes, and revisit Sorting Algorithms whenever a new project gives you a reason.

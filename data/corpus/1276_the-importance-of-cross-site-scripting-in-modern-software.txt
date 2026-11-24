@@ -1,0 +1,15 @@
+The Importance of Cross-Site Scripting in Modern Software
+
+It is easy to underestimate Cross-Site Scripting until something goes wrong without it. Many students first meet Cross-Site Scripting in a classroom, but it matters just as much in production systems. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Keeping dependencies updated removes a large share of known risks.
+
+People use Cross-Site Scripting for reviewing web forms, for securing comment sections, and for hardening dashboards.
+
+Beginners often stumble on three things. First: inserting user text as raw HTML. Second: trusting client-side filtering. Third: missing content security policy.
+
+Keep notes on what worked. A short README explaining your decisions about Cross-Site Scripting helps the next developer. Automate repetitive steps so that results are easy to reproduce. Practice reflected XSS with small exercises until it feels natural.
+
+A solid grasp of Cross-Site Scripting also makes SQL Injection easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Cross-Site Scripting.

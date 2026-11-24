@@ -1,0 +1,19 @@
+Myths and Facts About Bloom Filters
+
+A lot of folklore has built up around Bloom Filters. Some of it is true, and some of it is not. The term Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Bloom Filters is only for experts.
+Fact: beginners can use it effectively once they understand bit arrays and multiple hash functions.
+
+Myth: Bloom Filters is only useful in very large systems.
+Fact: small projects such as skipping disk lookups for missing keys benefit as well.
+
+Myth: one tool does everything.
+Fact: Python bitarray, Guava BloomFilter, and Redis modules make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Bloom Filters are always obvious.
+Fact: subtle problems happen, for example choosing too small a bit array.
+
+A solid grasp of Bloom Filters also makes Sorting Algorithms easier to understand.
+
+In short, careful study of Bloom Filters pays off. Spend time on bit arrays and multiple hash functions, and the rest will follow.

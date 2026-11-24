@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Refactoring
+
+This hands-on tutorial takes you from zero to a small working experiment with Refactoring. Put simply, Refactoring covers improving the structure of existing code without changing its behavior. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open IDE refactoring tools and create a new empty project folder.
+Step 2: Read about small steps and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses tests as a safety net.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as reducing duplication.
+Step 6: Break your example on purpose and see what happens. A good experiment: refactoring without tests.
+
+Refactoring and Code Review are closely related, so learning both gives a fuller picture of Software Engineering.
+
+In practice you can start with IDE refactoring tools, then explore pytest or linters as your needs grow.
+
+Beginners often stumble on three things. First: refactoring without tests. Second: mixing refactoring with new features. Third: rewriting instead of improving.
+
+Keep experimenting, keep notes, and revisit Refactoring whenever a new project gives you a reason.

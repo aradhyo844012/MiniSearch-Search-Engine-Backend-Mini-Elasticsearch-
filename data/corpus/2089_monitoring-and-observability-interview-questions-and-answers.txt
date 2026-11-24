@@ -1,0 +1,21 @@
+Monitoring and Observability Interview Questions and Answers
+
+Prepare for these questions about Monitoring and Observability.
+
+Q: Explain Monitoring and Observability in simple words.
+A: Monitoring and Observability refers to collecting metrics, logs and traces so you can understand how a system behaves. I would add an example involving detecting outages.
+
+Q: Which tools have you used?
+A: Prometheus, Grafana, and OpenTelemetry.
+
+Q: How does it connect to Serverless Computing?
+A: Both belong to the area of Cloud and DevOps, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as metrics, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with finding slow requests, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: noisy alerts.

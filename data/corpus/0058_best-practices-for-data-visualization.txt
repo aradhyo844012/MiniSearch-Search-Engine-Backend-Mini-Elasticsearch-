@@ -1,0 +1,17 @@
+Best Practices for Data Visualization
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about Data Visualization, they usually mean presenting data as charts and graphics so that patterns are easy to see. It appears in almost every serious software project, whether or not developers notice it.
+
+Pipelines should be repeatable so that results can be reproduced later.
+
+1. Keep an eye on this risk during code review: truncated axes.
+2. Write a few tests that show how Data Visualization should behave. Tests double as documentation for your teammates.
+3. Practice chart types with small exercises until it feels natural.
+4. Keep notes on what worked. A short README explaining your decisions about Data Visualization helps the next developer.
+5. Ask a teammate to explain color choices back to you; teaching is a quick way to find gaps.
+
+In practice you can start with matplotlib, then explore Seaborn or Plotly as your needs grow.
+
+Data Visualization and Pandas DataFrames are closely related, so learning both gives a fuller picture of Data Engineering.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Data Visualization.

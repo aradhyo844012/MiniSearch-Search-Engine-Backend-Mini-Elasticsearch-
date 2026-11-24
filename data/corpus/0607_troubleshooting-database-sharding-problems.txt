@@ -1,0 +1,13 @@
+Troubleshooting Database Sharding Problems
+
+When something breaks around Database Sharding, a calm and systematic approach saves the most time. The term Database Sharding refers to splitting a large dataset across several databases so each holds only part of it. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Vitess usually reveal the cause faster than guessing.
+
+If you are comfortable with Database Sharding, explore SQL Joins next. The two often appear in the same project.
+
+Common culprits: choosing a poor shard key; hot shards; expensive joins across shards. If none of these explains the symptom, re-read the basics of shard keys and routing.
+
+In practice you can start with Vitess, then explore MongoDB sharding or Citus as your needs grow.
+
+With steady practice, Database Sharding will stop feeling abstract and become a tool you reach for naturally.

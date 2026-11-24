@@ -1,0 +1,16 @@
+CI/CD Pipelines: Frequently Asked Questions
+
+Q: What is CI/CD Pipelines?
+A: The term CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with CI/CD Pipelines.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: slow pipelines; flaky tests; and secrets in logs.
+
+Q: What should a beginner learn first?
+A: Start with build stage and test stage, then move on to artifacts and deployment stage.

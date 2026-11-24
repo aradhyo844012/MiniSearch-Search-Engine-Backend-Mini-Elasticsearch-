@@ -1,0 +1,11 @@
+Case Study: Applying Authentication and Sessions in a Small Team
+
+Imagine a small student team building a project that depends on Authentication and Sessions. Many students first meet Authentication and Sessions in a classroom, but it matters just as much in production systems. The term refers to the process of proving who a user is and remembering them between requests.
+
+Authentication and Sessions and JSON are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+The team first spent a week learning credentials and session cookies. Early on they hit a familiar problem: storing session IDs insecurely. After fixing it, they used Flask-Login to check their work and adopted Authentication and Sessions for logging in to web apps. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: storing session IDs insecurely; never expiring sessions; and trusting client-side checks. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Authentication and Sessions pays off. Spend time on credentials and session cookies, and the rest will follow.

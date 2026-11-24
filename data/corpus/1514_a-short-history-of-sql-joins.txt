@@ -1,0 +1,11 @@
+A Short History of SQL Joins
+
+Ideas behind SQL Joins developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into SQL Joins. The term refers to operations that combine rows from two or more tables based on related columns.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory. Good schema design is hard to change once real data and users depend on it.
+
+Four ideas sit at the heart of SQL Joins: inner join, left join, join conditions, and cartesian products. Each one builds on the one before it. Sketching cartesian products on paper before coding helps many learners see how the pieces fit.
+
+SQL Joins and Database Normalization are closely related, so learning both gives a fuller picture of Databases.
+
+With steady practice, SQL Joins will stop feeling abstract and become a tool you reach for naturally.

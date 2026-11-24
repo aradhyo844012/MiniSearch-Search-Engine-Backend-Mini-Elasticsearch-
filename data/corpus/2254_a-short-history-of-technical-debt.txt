@@ -1,0 +1,13 @@
+A Short History of Technical Debt
+
+Ideas behind Technical Debt developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet Technical Debt in a classroom, but it matters just as much in production systems. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+Readable code saves more time than clever code over the long run.
+
+The vocabulary of Technical Debt is small. Learn shortcuts, interest, refactoring backlog, and code smells, and most documentation will start to make sense. Understanding interest first often makes refactoring backlog much easier to reason about.
+
+If you are comfortable with Technical Debt, explore Version Control Workflow next. The two often appear in the same project.
+
+Keep notes on what worked. A short README explaining your decisions about Technical Debt helps the next developer. Ask a teammate to explain refactoring backlog back to you; teaching is a quick way to find gaps. Read the official documentation for issue trackers; it often explains interest better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Technical Debt.

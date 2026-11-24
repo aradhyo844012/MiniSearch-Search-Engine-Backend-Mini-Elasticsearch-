@@ -1,0 +1,13 @@
+How Database Transactions Connects to Database Replication
+
+Database Transactions and Database Replication are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving transferring money between accounts may also involve surviving server failures. In such a project, atomicity and primary and replica often influence each other.
+
+Start with Database Transactions: the term refers to groups of operations that succeed or fail together. Then look at Database Replication, which refers to copying data from one database server to others to improve availability and read capacity.
+
+A useful exercise is to take one example, such as placing orders, and explain how replication lag would change the design.
+
+Common problems are shared too. For Database Transactions, watch for this: ignoring isolation levels. For Database Replication, watch for this: untested failover plans. Good schema design is hard to change once real data and users depend on it.
+
+Spend a few hours on each topic, then combine them in one small project using PostgreSQL or PostgreSQL streaming replication.

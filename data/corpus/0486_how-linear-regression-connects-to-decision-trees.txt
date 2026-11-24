@@ -1,0 +1,13 @@
+How Linear Regression Connects to Decision Trees
+
+Linear Regression and Decision Trees are closely connected parts of Machine Learning. Seeing how they fit together helps you learn both faster.
+
+A project involving predicting prices may also involve classifying customers. In such a project, coefficients and splits often influence each other.
+
+Start with Linear Regression: the term refers to a method for predicting a number by fitting a straight line or plane to data. Then look at Decision Trees, which refers to models that make predictions by asking a sequence of simple questions about the data.
+
+A useful exercise is to take one example, such as estimating demand, and explain how entropy and Gini impurity would change the design.
+
+Common problems are shared too. For Linear Regression, watch for this: ignoring outliers. For Decision Trees, watch for this: ignoring class imbalance. Results should always be checked on data the model has never seen.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn or scikit-learn.

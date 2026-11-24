@@ -1,0 +1,12 @@
+A Practical Checklist for Deadlocks
+
+Use this checklist before you rely on Deadlocks in a project.
+
+1. Write at least one automated test that covers mutual exclusion.
+2. Measure results before and after any change.
+3. Try the approach on a small case, for example database lock conflicts.
+4. Review the core ideas: mutual exclusion, hold and wait, circular wait, and lock ordering.
+5. Guard against this risk: no timeouts on locks.
+6. Confirm that your team agrees on what Deadlocks should accomplish.
+7. Guard against this risk: acquiring locks in inconsistent order.
+8. Pick a tool to start with, such as thread dumps or database deadlock logs.

@@ -1,0 +1,15 @@
+Performance Tips for HTML Semantics
+
+Fast software rarely happens by accident, and HTML Semantics offers several places to gain speed. Many students first meet HTML Semantics in a classroom, but it matters just as much in production systems. The term refers to the practice of using HTML elements that describe the meaning of content.
+
+Start by measuring. Use HTML validators or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to headings and landmarks, because they usually decide how well things scale. For workloads such as accessible pages, even small improvements add up quickly.
+
+The vocabulary of HTML Semantics is small. Learn headings, landmarks, lists and tables, and forms, and most documentation will start to make sense. Understanding landmarks first often makes lists and tables much easier to reason about.
+
+Start small by applying HTML Semantics to one case, such as accessible pages, before rolling it out more widely. Ask a teammate to explain lists and tables back to you; teaching is a quick way to find gaps.
+
+Keep an eye on this risk during code review: using div for everything. Ask a teammate to explain lists and tables back to you; teaching is a quick way to find gaps. Measure before you optimize. Use HTML validators or a simple timer to see where time is actually spent.
+
+Three issues come up again and again: using div for everything; skipping heading levels; and missing labels on form inputs. Knowing them in advance saves hours of debugging.
+
+In short, careful study of HTML Semantics pays off. Spend time on headings and landmarks, and the rest will follow.

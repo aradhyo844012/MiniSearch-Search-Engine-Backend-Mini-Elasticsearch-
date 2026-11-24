@@ -1,0 +1,13 @@
+The Importance of Python Generators in Modern Software
+
+It is easy to underestimate Python Generators until something goes wrong without it. If you build software for long enough, you will run into Python Generators. The term refers to functions that produce values one at a time instead of building a whole list.
+
+Reading other people's code is one of the fastest ways to improve as a programmer.
+
+You will see Python Generators whenever people work on reading large files line by line or streaming data. It also helps with building pipelines.
+
+Watch out for these problems: consuming a generator twice; forgetting generators are lazy; and hiding errors until iteration.
+
+A solid grasp of Python Generators also makes Type Systems easier to understand.
+
+In short, careful study of Python Generators pays off. Spend time on yield and lazy evaluation, and the rest will follow.

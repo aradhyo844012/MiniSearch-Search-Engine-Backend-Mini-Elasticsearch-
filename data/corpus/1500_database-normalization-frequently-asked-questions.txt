@@ -1,0 +1,16 @@
+Database Normalization: Frequently Asked Questions
+
+Q: What is Database Normalization?
+A: The term Database Normalization refers to the practice of organizing tables to reduce duplicated data and update anomalies.
+
+Q: Which tools help?
+A: Popular choices include ER diagrams, dbdiagram.io, and MySQL Workbench.
+
+Q: Why do developers use Database Normalization?
+A: Common uses include designing clean schemas, avoiding update anomalies, and keeping data consistent.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: over-normalizing reporting tables; ignoring query patterns; and duplicating data by accident.

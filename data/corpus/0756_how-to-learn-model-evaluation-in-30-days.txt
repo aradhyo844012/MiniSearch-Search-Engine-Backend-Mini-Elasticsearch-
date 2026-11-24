@@ -1,0 +1,14 @@
+How to Learn Model Evaluation in 30 Days
+
+You do not need months to become comfortable with Model Evaluation. A focused plan of thirty days is enough to build a solid base. The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start small by applying Model Evaluation to one case, such as comparing models, before rolling it out more widely. Write a few tests that show how Model Evaluation should behave. Tests double as documentation for your teammates.
+
+Week 1: learn accuracy and precision and recall, and write a one-page summary.
+Week 2: practice with scikit-learn metrics on a small task such as comparing models.
+Week 3: build a mini project around choosing thresholds.
+Week 4: review common mistakes such as using accuracy on imbalanced data, and explain Model Evaluation to a friend.
+
+Popular tools and libraries include scikit-learn metrics, MLflow, and pandas.
+
+Keep experimenting, keep notes, and revisit Model Evaluation whenever a new project gives you a reason.

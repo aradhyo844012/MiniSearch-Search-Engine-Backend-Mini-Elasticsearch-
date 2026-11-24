@@ -1,0 +1,18 @@
+Data Cleaning Interview Questions and Answers
+
+Prepare for these questions about Data Cleaning.
+
+Q: Explain Data Cleaning in simple words.
+A: Data Cleaning refers to finding and fixing errors, gaps and inconsistencies in raw data. I would add an example involving preparing logs.
+
+Q: Which tools have you used?
+A: pandas, OpenRefine, and regular expressions.
+
+Q: Where would you apply it first?
+A: I would start with merging data sources, because it is small enough to test and large enough to show the benefit.
+
+Q: What problems have you seen in practice?
+A: dropping data without checking why it is missing; cleaning by hand without a record; and changing the original files.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: dropping data without checking why it is missing.

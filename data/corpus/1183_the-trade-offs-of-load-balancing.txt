@@ -1,0 +1,13 @@
+The Trade-offs of Load Balancing
+
+Every design choice has a cost, and Load Balancing is no exception. Many students first meet Load Balancing in a classroom, but it matters just as much in production systems. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+Every web request crosses several layers of protocols before it reaches an application. Network failures are normal, so well-designed software expects timeouts and retries.
+
+On the positive side, Load Balancing is well suited to scaling web applications and avoiding downtime. On the other hand, it is not free. Keep these risks in mind: the balancer becoming a single point of failure; ignoring health checks; session data stored only on one server. Whether the trade is worth it depends on how much round robin and health checks matter to your project.
+
+Three issues come up again and again: the balancer becoming a single point of failure; ignoring health checks; and session data stored only on one server. Knowing them in advance saves hours of debugging.
+
+Start small by applying Load Balancing to one case, such as scaling web applications, before rolling it out more widely. Read the official documentation for HAProxy; it often explains health checks better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Load Balancing helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Load Balancing.

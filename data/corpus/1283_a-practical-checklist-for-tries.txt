@@ -1,0 +1,11 @@
+A Practical Checklist for Tries
+
+Use this checklist before you rely on Tries in a project.
+
+1. Review how Tries interacts with Heaps and Priority Queues.
+2. Write at least one automated test that covers prefix sharing.
+3. Confirm that your team agrees on what Tries should accomplish.
+4. Ask a teammate to review the work, focusing on nodes and edges.
+5. Try the approach on a small case, for example autocomplete.
+6. Guard against this risk: assuming case-insensitive matching.
+7. Guard against this risk: forgetting end-of-word markers.

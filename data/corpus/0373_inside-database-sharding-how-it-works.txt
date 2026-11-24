@@ -1,0 +1,13 @@
+Inside Database Sharding: How It Works
+
+This article walks through what happens inside Database Sharding, step by step. Many students first meet Database Sharding in a classroom, but it matters just as much in production systems. The term refers to splitting a large dataset across several databases so each holds only part of it.
+
+To understand Database Sharding, start with shard keys. Then move on to routing, and finally look at rebalancing and cross-shard queries. A good way to remember shard keys is to connect it with a concrete example from your own code.
+
+First, shard keys sets the stage for everything else. Next, routing builds on it. After that, rebalancing comes into play, and finally cross-shard queries ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Good schema design is hard to change once real data and users depend on it.
+
+A solid grasp of Database Sharding also makes Database Transactions easier to understand.
+
+With steady practice, Database Sharding will stop feeling abstract and become a tool you reach for naturally.

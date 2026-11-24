@@ -1,0 +1,13 @@
+How Graph Traversal Connects to Linked Lists
+
+Graph Traversal and Linked Lists are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving finding shortest paths in unweighted graphs may also involve queues and stacks. In such a project, adjacency lists and nodes often influence each other.
+
+Start with Graph Traversal: the term refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Then look at Linked Lists, which refers to chains of nodes where each node stores a value and a reference to the next node.
+
+A useful exercise is to take one example, such as detecting cycles, and explain how head and tail pointers would change the design.
+
+Common problems are shared too. For Graph Traversal, watch for this: using recursion on very deep graphs. For Linked Lists, watch for this: off-by-one errors during insertion. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using NetworkX or Python collections.deque.

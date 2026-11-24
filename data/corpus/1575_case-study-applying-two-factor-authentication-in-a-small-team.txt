@@ -1,0 +1,9 @@
+Case Study: Applying Two-Factor Authentication in a Small Team
+
+Imagine a small student team building a project that depends on Two-Factor Authentication. When people talk about Two-Factor Authentication, they usually mean requiring a second proof of identity in addition to a password. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning one-time codes and authenticator apps. Early on they hit a familiar problem: relying only on SMS. After fixing it, they used Google Authenticator to check their work and adopted Two-Factor Authentication for protecting email accounts. Looking back, they said the biggest lesson was to keep the design simple.
+
+Watch out for these problems: relying only on SMS; no recovery plan; and weak backup code storage.
+
+Keep experimenting, keep notes, and revisit Two-Factor Authentication whenever a new project gives you a reason.

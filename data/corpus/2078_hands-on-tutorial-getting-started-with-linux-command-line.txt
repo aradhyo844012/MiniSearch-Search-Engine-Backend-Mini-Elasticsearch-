@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Linux Command Line
+
+This hands-on tutorial takes you from zero to a small working experiment with Linux Command Line. When people talk about Linux Command Line, they usually mean a text-based way of controlling a computer using commands and scripts. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open bash and create a new empty project folder.
+Step 2: Read about shell and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses pipes.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as automating tasks.
+Step 6: Break your example on purpose and see what happens. A good experiment: running destructive commands carelessly.
+
+In practice you can start with bash, then explore grep or ssh as your needs grow.
+
+Three issues come up again and again: running destructive commands carelessly; forgetting quotes around paths; and ignoring exit codes. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linux Command Line.

@@ -1,0 +1,17 @@
+A Beginner's Guide to Serverless Computing
+
+This guide is written for readers who are new to Serverless Computing and want a clear starting point. Put simply, Serverless Computing covers running code in managed functions without maintaining servers yourself. Learning it well pays off across many areas of computing.
+
+Small, frequent releases are usually safer than rare, large ones. Automation turns risky manual steps into repeatable and reviewable processes.
+
+Four ideas sit at the heart of Serverless Computing: functions, event triggers, cold starts, and pay per use. Each one builds on the one before it. A good way to remember functions is to connect it with a concrete example from your own code.
+
+Typical applications include webhooks, scheduled jobs, and lightweight APIs. Small projects and large systems both benefit.
+
+Popular tools and libraries include AWS Lambda, Cloud Functions, and Azure Functions.
+
+Watch out for these problems: cold start delays; vendor lock-in; and hard local debugging.
+
+Automate repetitive steps so that results are easy to reproduce. Start small by applying Serverless Computing to one case, such as webhooks, before rolling it out more widely.
+
+With steady practice, Serverless Computing will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,11 @@
+Infrastructure as Code Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Infrastructure as Code.
+
+- Definition: managing servers and cloud resources through version-controlled configuration files.
+- Core ideas: declarative configuration; state; modules; drift.
+- Use it for: recreating environments; reviewing infrastructure changes; disaster recovery.
+- Watch out for: manual changes causing drift; hard-coded secrets; huge monolithic configurations.
+- Tools: Terraform, Ansible, Pulumi.
+- Quick tip: write a tiny test for state before building anything large.
+- Quick tip: practice declarative configuration until it feels automatic.

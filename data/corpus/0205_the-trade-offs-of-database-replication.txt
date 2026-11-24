@@ -1,0 +1,11 @@
+The Trade-offs of Database Replication
+
+Every design choice has a cost, and Database Replication is no exception. Put simply, Database Replication covers copying data from one database server to others to improve availability and read capacity. Learning it well pays off across many areas of computing.
+
+On the positive side, Database Replication is well suited to surviving server failures and scaling read traffic. On the other hand, it is not free. Keep these risks in mind: reading stale data from replicas; untested failover plans; split-brain situations. Whether the trade is worth it depends on how much primary and replica and replication lag matter to your project.
+
+Watch out for these problems: reading stale data from replicas; untested failover plans; and split-brain situations.
+
+Read the official documentation for MySQL replication; it often explains replication lag better than blog posts do. Measure before you optimize. Use PostgreSQL streaming replication or a simple timer to see where time is actually spent. Practice primary and replica with small exercises until it feels natural.
+
+With steady practice, Database Replication will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,21 @@
+Bloom Filters Interview Questions and Answers
+
+Prepare for these questions about Bloom Filters.
+
+Q: Explain Bloom Filters in simple words.
+A: Bloom Filters refers to compact probabilistic structures that quickly tell you whether an item is probably in a set. I would add an example involving skipping disk lookups for missing keys.
+
+Q: What are the key concepts?
+A: bit arrays, multiple hash functions, false positives, and no false negatives.
+
+Q: Which tools have you used?
+A: Python bitarray, Guava BloomFilter, and Redis modules.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as bit arrays, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with checking visited URLs, because it is small enough to test and large enough to show the benefit.
+
+Q: How does it connect to Big O Notation?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.

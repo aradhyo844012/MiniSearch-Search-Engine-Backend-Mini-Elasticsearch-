@@ -1,0 +1,11 @@
+Common Mistakes When Working with Pandas DataFrames
+
+Almost everyone makes a few avoidable errors when first working with Pandas DataFrames. The term Pandas DataFrames refers to table-like structures in Python for loading, cleaning and analyzing data. This article explains the idea in plain language and points out where it fits in real projects.
+
+Three issues come up again and again: chained assignment surprises; loading too much data into memory; and forgetting to check data types. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: chained assignment surprises. A short test or a careful review comment usually catches it. The second problem is similar: loading too much data into memory. The third problem is this: forgetting to check data types. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for Jupyter; it often explains indexing better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Pandas DataFrames helps the next developer. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent.
+
+In short, careful study of Pandas DataFrames pays off. Spend time on rows and columns and indexing, and the rest will follow.

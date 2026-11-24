@@ -1,0 +1,11 @@
+A Practical Checklist for Browser Rendering
+
+Use this checklist before you rely on Browser Rendering in a project.
+
+1. Pick a tool to start with, such as Chrome DevTools Performance panel or Lighthouse.
+2. Document your decisions in the project README.
+3. Guard against this risk: blocking scripts in the head.
+4. Confirm that your team agrees on what Browser Rendering should accomplish.
+5. Try the approach on a small case, for example explaining slow pages.
+6. Review how Browser Rendering interacts with HTML Semantics.
+7. Ask a teammate to review the work, focusing on style calculation.

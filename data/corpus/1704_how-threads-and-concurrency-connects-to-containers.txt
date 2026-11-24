@@ -1,0 +1,13 @@
+How Threads and Concurrency Connects to Containers
+
+Threads and Concurrency and Containers are closely connected parts of Operating Systems. Seeing how they fit together helps you learn both faster.
+
+A project involving handling many requests may also involve consistent development environments. In such a project, threads and images often influence each other.
+
+Start with Threads and Concurrency: the term refers to ways of making progress on several tasks at once within a program. Then look at Containers, which refers to lightweight packages that bundle an application with its dependencies and run in isolation.
+
+A useful exercise is to take one example, such as keeping interfaces responsive, and explain how layers would change the design.
+
+Common problems are shared too. For Threads and Concurrency, watch for this: creating too many threads. For Containers, watch for this: bloated images. Logs and system monitors are the first place to look when a machine misbehaves.
+
+Spend a few hours on each topic, then combine them in one small project using Python threading or Docker.

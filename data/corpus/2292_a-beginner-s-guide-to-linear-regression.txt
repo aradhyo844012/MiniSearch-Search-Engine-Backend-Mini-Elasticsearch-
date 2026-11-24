@@ -1,0 +1,17 @@
+A Beginner's Guide to Linear Regression
+
+This guide is written for readers who are new to Linear Regression and want a clear starting point. When people talk about Linear Regression, they usually mean a method for predicting a number by fitting a straight line or plane to data. It appears in almost every serious software project, whether or not developers notice it.
+
+Reproducible experiments make it far easier to trust and improve a model. A model is only as good as the data used to train and test it.
+
+Four ideas sit at the heart of Linear Regression: coefficients, residuals, least squares, and assumptions. Each one builds on the one before it. A good way to remember coefficients is to connect it with a concrete example from your own code.
+
+People use Linear Regression for predicting prices, for estimating demand, and for finding trends.
+
+In practice you can start with scikit-learn, then explore NumPy or statsmodels as your needs grow.
+
+Beginners often stumble on three things. First: extrapolating far beyond the data. Second: ignoring outliers. Third: using correlated features carelessly.
+
+Practice coefficients with small exercises until it feels natural. Write a few tests that show how Linear Regression should behave. Tests double as documentation for your teammates. Keep notes on what worked. A short README explaining your decisions about Linear Regression helps the next developer.
+
+With steady practice, Linear Regression will stop feeling abstract and become a tool you reach for naturally.

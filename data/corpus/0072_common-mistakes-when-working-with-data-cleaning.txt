@@ -1,0 +1,13 @@
+Common Mistakes When Working with Data Cleaning
+
+Almost everyone makes a few avoidable errors when first working with Data Cleaning. When people talk about Data Cleaning, they usually mean finding and fixing errors, gaps and inconsistencies in raw data. It appears in almost every serious software project, whether or not developers notice it.
+
+Beginners often stumble on three things. First: dropping data without checking why it is missing. Second: cleaning by hand without a record. Third: changing the original files.
+
+Consider the first problem: dropping data without checking why it is missing. A short test or a careful review comment usually catches it. The second problem is similar: cleaning by hand without a record. The third problem is this: changing the original files. It tends to appear only once a project grows, so it is worth planning for early.
+
+Writing down assumptions about the data prevents confusing surprises later.
+
+Read the official documentation for OpenRefine; it often explains duplicates better than blog posts do. Write a few tests that show how Data Cleaning should behave. Tests double as documentation for your teammates. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent.
+
+With steady practice, Data Cleaning will stop feeling abstract and become a tool you reach for naturally.

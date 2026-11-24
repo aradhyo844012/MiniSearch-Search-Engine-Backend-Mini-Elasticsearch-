@@ -1,0 +1,19 @@
+A Beginner's Guide to Tries
+
+This guide is written for readers who are new to Tries and want a clear starting point. If you build software for long enough, you will run into Tries. The term refers to tree structures that store strings character by character so shared prefixes are stored once.
+
+Choosing the right data structure often matters more than clever tuning later. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+To understand Tries, start with prefix sharing. Then move on to nodes and edges, and finally look at end-of-word markers and alphabet size. A good way to remember prefix sharing is to connect it with a concrete example from your own code.
+
+Typical applications include autocomplete, spell checking, and IP routing tables. Small projects and large systems both benefit.
+
+In practice you can start with Python dict-based tries, then explore Java TreeMap or pygtrie as your needs grow.
+
+Beginners often stumble on three things. First: high memory use for sparse data. Second: forgetting end-of-word markers. Third: assuming case-insensitive matching.
+
+Measure before you optimize. Use Python dict-based tries or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: high memory use for sparse data.
+
+Ask a teammate to explain end-of-word markers back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Python dict-based tries or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Tries whenever a new project gives you a reason.

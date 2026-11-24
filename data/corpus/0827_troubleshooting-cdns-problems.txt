@@ -1,0 +1,13 @@
+Troubleshooting CDNs Problems
+
+When something breaks around CDNs, a calm and systematic approach saves the most time. Many students first meet CDNs in a classroom, but it matters just as much in production systems. The term refers to networks of servers around the world that deliver static content from a location close to the user.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Cloudflare usually reveal the cause faster than guessing.
+
+If you are comfortable with CDNs, explore Load Balancing next. The two often appear in the same project.
+
+Common culprits: caching private data; forgetting to purge old files; misconfigured cache headers. If none of these explains the symptom, re-read the basics of edge servers and cache rules.
+
+In practice you can start with Cloudflare, then explore Akamai or Amazon CloudFront as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CDNs.

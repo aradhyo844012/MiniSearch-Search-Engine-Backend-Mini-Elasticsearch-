@@ -1,0 +1,11 @@
+Common Mistakes When Working with Binary Search
+
+Almost everyone makes a few avoidable errors when first working with Binary Search. Many students first meet Binary Search in a classroom, but it matters just as much in production systems. The term refers to a fast way to find an item in sorted data by repeatedly halving the search range.
+
+Watch out for these problems: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data.
+
+Consider the first problem: off-by-one errors. A short test or a careful review comment usually catches it. The second problem is similar: infinite loops from bad bounds. The third problem is this: using it on unsorted data. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice sorted input with small exercises until it feels natural. Ask a teammate to explain midpoint calculation back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Binary Search pays off. Spend time on sorted input and low and high bounds, and the rest will follow.

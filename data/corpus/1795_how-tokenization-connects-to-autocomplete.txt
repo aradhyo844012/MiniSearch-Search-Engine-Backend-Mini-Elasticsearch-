@@ -1,0 +1,13 @@
+How Tokenization Connects to Autocomplete
+
+Tokenization and Autocomplete are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving indexing documents may also involve search boxes. In such a project, lowercasing and prefixes often influence each other.
+
+Start with Tokenization: the term refers to splitting text into smaller units such as words that a program can count and compare. Then look at Autocomplete, which refers to suggesting likely completions while a person types a query.
+
+A useful exercise is to take one example, such as preparing text for models, and explain how ranking suggestions would change the design.
+
+Common problems are shared too. For Tokenization, watch for this: dropping useful numbers. For Autocomplete, watch for this: offensive or irrelevant completions. Users judge a search engine by whether the right result appears near the top.
+
+Spend a few hours on each topic, then combine them in one small project using Python re module or tries.

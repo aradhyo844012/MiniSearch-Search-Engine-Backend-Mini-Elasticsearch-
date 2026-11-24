@@ -1,0 +1,15 @@
+DNS vs HTTP and HTTPS: Key Differences
+
+DNS and HTTP and HTTPS both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term DNS refers to the system that translates human-friendly domain names into IP addresses. Its core ideas are resolvers, records, and caching and TTL.
+
+The term HTTP and HTTPS refers to the request and response protocol of the web, with HTTPS adding encryption. Its core ideas are methods, status codes, and headers.
+
+The main difference is focus. DNS puts the emphasis on resolvers and records, while HTTP and HTTPS puts the emphasis on methods and status codes.
+
+Reach for DNS when your task involves mapping domains to servers or email routing. Reach for HTTP and HTTPS when your task involves loading web pages or calling APIs.
+
+Both have risks. With DNS, watch for this: forgetting TTLs when migrating. With HTTP and HTTPS, watch for this: mixing up status codes.
+
+In practice you do not always have to choose. Many projects use DNS alongside HTTP and HTTPS, with tools such as dig and curl. Every web request crosses several layers of protocols before it reaches an application.

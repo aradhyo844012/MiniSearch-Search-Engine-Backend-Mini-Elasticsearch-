@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Android Basics
+
+This hands-on tutorial takes you from zero to a small working experiment with Android Basics. If you build software for long enough, you will run into Android Basics. The term refers to the core building blocks used to create apps for Android phones.
+
+Step 1: Install or open Android Studio and create a new empty project folder.
+Step 2: Read about activities and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses layouts.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as building simple apps.
+Step 6: Break your example on purpose and see what happens. A good experiment: ignoring lifecycle events.
+
+Popular tools and libraries include Android Studio, Kotlin, and Gradle.
+
+Watch out for these problems: ignoring lifecycle events; blocking the main thread; and hard-coded layouts.
+
+Keep experimenting, keep notes, and revisit Android Basics whenever a new project gives you a reason.

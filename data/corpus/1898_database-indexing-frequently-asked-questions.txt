@@ -1,0 +1,19 @@
+Database Indexing: Frequently Asked Questions
+
+Q: What is Database Indexing?
+A: The term Database Indexing refers to auxiliary structures that let a database find rows without scanning a whole table.
+
+Q: How does it relate to Database Transactions?
+A: Database Indexing and Database Transactions often appear in the same project, and both belong to the area of Databases.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: What mistakes are most common?
+A: Watch for these: indexing every column; ignoring write overhead; and wrong column order in composite indexes.
+
+Q: What should a beginner learn first?
+A: Start with B-tree indexes and selectivity, then move on to composite indexes and covering indexes.
+
+Q: Why do developers use Database Indexing?
+A: Common uses include speeding up lookups, supporting sorted queries, and enforcing uniqueness.

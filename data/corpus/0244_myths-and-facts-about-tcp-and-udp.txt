@@ -1,0 +1,17 @@
+Myths and Facts About TCP and UDP
+
+A lot of folklore has built up around TCP and UDP. Some of it is true, and some of it is not. If you build software for long enough, you will run into TCP and UDP. The term refers to the two main transport protocols, one reliable and ordered and the other fast and connectionless.
+
+Myth: TCP and UDP is only for experts.
+Fact: beginners can use it effectively once they understand handshakes and acknowledgements.
+
+Myth: TCP and UDP is only useful in very large systems.
+Fact: small projects such as web traffic benefit as well.
+
+Myth: one tool does everything.
+Fact: Wireshark, netcat, and tcpdump make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with TCP and UDP are always obvious.
+Fact: subtle problems happen, for example assuming UDP guarantees delivery.
+
+Keep experimenting, keep notes, and revisit TCP and UDP whenever a new project gives you a reason.

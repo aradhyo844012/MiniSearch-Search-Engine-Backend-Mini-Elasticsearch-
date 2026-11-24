@@ -1,0 +1,13 @@
+Inside ETL Pipelines: How It Works
+
+This article walks through what happens inside ETL Pipelines, step by step. Put simply, ETL Pipelines covers processes that extract data from sources, transform it and load it into a destination. Learning it well pays off across many areas of computing.
+
+To understand ETL Pipelines, start with extraction. Then move on to transformation, and finally look at loading and scheduling. A good way to remember extraction is to connect it with a concrete example from your own code.
+
+First, extraction sets the stage for everything else. Next, transformation builds on it. After that, loading comes into play, and finally scheduling ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Pipelines should be repeatable so that results can be reproduced later. Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+If you are comfortable with ETL Pipelines, explore Data Cleaning next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit ETL Pipelines whenever a new project gives you a reason.

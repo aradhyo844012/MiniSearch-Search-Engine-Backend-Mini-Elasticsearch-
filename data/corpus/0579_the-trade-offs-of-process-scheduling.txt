@@ -1,0 +1,11 @@
+The Trade-offs of Process Scheduling
+
+Every design choice has a cost, and Process Scheduling is no exception. When people talk about Process Scheduling, they usually mean the way an operating system decides which process runs on the CPU and for how long. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Process Scheduling is well suited to sharing CPUs among programs and keeping interfaces responsive. On the other hand, it is not free. Keep these risks in mind: starvation of low priority tasks; too many context switches; ignoring CPU affinity. Whether the trade is worth it depends on how much time slices and priorities matter to your project.
+
+Three issues come up again and again: starvation of low priority tasks; too many context switches; and ignoring CPU affinity. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for htop; it often explains priorities better than blog posts do. Practice time slices with small exercises until it feels natural.
+
+In short, careful study of Process Scheduling pays off. Spend time on time slices and priorities, and the rest will follow.

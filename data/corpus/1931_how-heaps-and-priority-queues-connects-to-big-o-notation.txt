@@ -1,0 +1,13 @@
+How Heaps and Priority Queues Connects to Big O Notation
+
+Heaps and Priority Queues and Big O Notation are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving scheduling tasks may also involve comparing algorithms. In such a project, heap property and upper bounds often influence each other.
+
+Start with Heaps and Priority Queues: the term refers to structures that always give quick access to the smallest or largest element. Then look at Big O Notation, which refers to a way of describing how running time or memory grows as the input size grows.
+
+A useful exercise is to take one example, such as selecting the top results from many candidates, and explain how constant, linear and logarithmic growth would change the design.
+
+Common problems are shared too. For Heaps and Priority Queues, watch for this: using a full sort when only the top k are needed. For Big O Notation, watch for this: mixing up best and worst case. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python heapq or Python timeit.

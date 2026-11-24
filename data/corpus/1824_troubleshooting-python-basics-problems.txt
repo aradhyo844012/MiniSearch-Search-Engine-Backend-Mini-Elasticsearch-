@@ -1,0 +1,13 @@
+Troubleshooting Python Basics Problems
+
+When something breaks around Python Basics, a calm and systematic approach saves the most time. When people talk about Python Basics, they usually mean the core features of Python, including data types, control flow and functions. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Python interpreter usually reveal the cause faster than guessing.
+
+Common culprits: mutable default arguments; confusing equality and identity; ignoring virtual environments. If none of these explains the symptom, re-read the basics of variables and lists and dictionaries.
+
+In practice you can start with Python interpreter, then explore pip or VS Code as your needs grow.
+
+Reading other people's code is one of the fastest ways to improve as a programmer.
+
+Keep experimenting, keep notes, and revisit Python Basics whenever a new project gives you a reason.

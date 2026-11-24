@@ -1,0 +1,19 @@
+Myths and Facts About Natural Language Processing
+
+A lot of folklore has built up around Natural Language Processing. Some of it is true, and some of it is not. When people talk about Natural Language Processing, they usually mean the field of teaching computers to work with human language. It appears in almost every serious software project, whether or not developers notice it.
+
+Myth: Natural Language Processing is only for experts.
+Fact: beginners can use it effectively once they understand tokenization and embeddings.
+
+Myth: Natural Language Processing is only useful in very large systems.
+Fact: small projects such as search engines benefit as well.
+
+Myth: one tool does everything.
+Fact: spaCy, NLTK, and Hugging Face make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Natural Language Processing are always obvious.
+Fact: subtle problems happen, for example ignoring language variety.
+
+Write a few tests that show how Natural Language Processing should behave. Tests double as documentation for your teammates. Start small by applying Natural Language Processing to one case, such as search engines, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Natural Language Processing helps the next developer.
+
+In short, careful study of Natural Language Processing pays off. Spend time on tokenization and embeddings, and the rest will follow.

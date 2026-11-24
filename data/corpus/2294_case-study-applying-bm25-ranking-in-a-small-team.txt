@@ -1,0 +1,11 @@
+Case Study: Applying BM25 Ranking in a Small Team
+
+Imagine a small student team building a project that depends on BM25 Ranking. If you build software for long enough, you will run into BM25 Ranking. The term refers to a ranking function that improves on plain term frequency with saturation and length normalization.
+
+A solid grasp of BM25 Ranking also makes TF-IDF easier to understand.
+
+The team first spent a week learning term saturation and document length normalization. Early on they hit a familiar problem: untuned parameters. After fixing it, they used Elasticsearch to check their work and adopted BM25 Ranking for ranking search results. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Beginners often stumble on three things. First: untuned parameters. Second: ignoring field boundaries. Third: comparing scores across different queries.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with BM25 Ranking.

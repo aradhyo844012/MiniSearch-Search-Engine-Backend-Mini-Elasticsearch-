@@ -1,0 +1,11 @@
+Common Mistakes When Working with Monitoring and Observability
+
+Almost everyone makes a few avoidable errors when first working with Monitoring and Observability. Many students first meet Monitoring and Observability in a classroom, but it matters just as much in production systems. The term refers to collecting metrics, logs and traces so you can understand how a system behaves.
+
+Three issues come up again and again: noisy alerts; logs without context; and dashboards nobody reads. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: noisy alerts. A short test or a careful review comment usually catches it. The second problem is similar: logs without context. The third problem is this: dashboards nobody reads. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about Monitoring and Observability helps the next developer. Read the official documentation for Grafana; it often explains logs better than blog posts do.
+
+In short, careful study of Monitoring and Observability pays off. Spend time on metrics and logs, and the rest will follow.

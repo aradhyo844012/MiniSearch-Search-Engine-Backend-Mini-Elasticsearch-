@@ -1,0 +1,11 @@
+A Practical Checklist for Linear Regression
+
+Use this checklist before you rely on Linear Regression in a project.
+
+1. Measure results before and after any change.
+2. Ask a teammate to review the work, focusing on residuals.
+3. Review how Linear Regression interacts with Overfitting.
+4. Guard against this risk: extrapolating far beyond the data.
+5. Guard against this risk: ignoring outliers.
+6. Confirm that your team agrees on what Linear Regression should accomplish.
+7. Guard against this risk: using correlated features carelessly.

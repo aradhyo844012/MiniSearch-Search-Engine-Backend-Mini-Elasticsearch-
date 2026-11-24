@@ -1,0 +1,11 @@
+The Trade-offs of BM25 Ranking
+
+Every design choice has a cost, and BM25 Ranking is no exception. The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, BM25 Ranking is well suited to ranking search results and enterprise search. On the other hand, it is not free. Keep these risks in mind: untuned parameters; ignoring field boundaries; comparing scores across different queries. Whether the trade is worth it depends on how much term saturation and document length normalization matter to your project.
+
+Watch out for these problems: untuned parameters; ignoring field boundaries; and comparing scores across different queries.
+
+Ask a teammate to explain k1 and b parameters back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Elasticsearch or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit BM25 Ranking whenever a new project gives you a reason.

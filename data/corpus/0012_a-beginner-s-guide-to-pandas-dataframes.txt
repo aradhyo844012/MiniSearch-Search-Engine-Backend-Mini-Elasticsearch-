@@ -1,0 +1,17 @@
+A Beginner's Guide to Pandas DataFrames
+
+This guide is written for readers who are new to Pandas DataFrames and want a clear starting point. When people talk about Pandas DataFrames, they usually mean table-like structures in Python for loading, cleaning and analyzing data. It appears in almost every serious software project, whether or not developers notice it.
+
+Writing down assumptions about the data prevents confusing surprises later. A chart is only useful if the reader can see the point within a few seconds.
+
+Four ideas sit at the heart of Pandas DataFrames: rows and columns, indexing, groupby, and merging. Each one builds on the one before it. Understanding indexing first often makes groupby much easier to reason about.
+
+A team working on loading CSV files might adopt Pandas DataFrames after hitting the limits of a simpler approach. Other teams turn to it for summarizing query logs or preparing data for charts.
+
+In practice you can start with pandas, then explore Jupyter or NumPy as your needs grow.
+
+Watch out for these problems: chained assignment surprises; loading too much data into memory; and forgetting to check data types.
+
+Write a few tests that show how Pandas DataFrames should behave. Tests double as documentation for your teammates. Read the official documentation for Jupyter; it often explains indexing better than blog posts do. Practice rows and columns with small exercises until it feels natural.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Pandas DataFrames.

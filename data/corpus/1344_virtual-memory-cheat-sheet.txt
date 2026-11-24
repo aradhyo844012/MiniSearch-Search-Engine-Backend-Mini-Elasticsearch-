@@ -1,0 +1,11 @@
+Virtual Memory Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Virtual Memory.
+
+- Definition: a technique that gives each program its own address space backed by RAM and disk.
+- Core ideas: pages; page tables; page faults; swapping.
+- Use it for: isolating programs; running programs larger than RAM; memory-mapped files.
+- Watch out for: thrashing when memory is short; ignoring page fault costs; assuming memory is always available.
+- Tools: vmstat, free, /proc/meminfo.
+- Related topic: Process Scheduling.
+- Quick tip: practice pages until it feels automatic.

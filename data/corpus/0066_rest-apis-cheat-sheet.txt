@@ -1,0 +1,11 @@
+REST APIs Cheat Sheet
+
+Use this page as a quick reminder of the essentials of REST APIs.
+
+- Definition: an approach to designing web APIs around resources, URLs and standard HTTP methods.
+- Core ideas: resources; HTTP verbs; status codes; statelessness.
+- Use it for: mobile app backends; integrating services; public developer platforms.
+- Watch out for: inconsistent naming; returning 200 for errors; no versioning plan.
+- Tools: Flask, FastAPI, Postman.
+- Quick tip: practice resources until it feels automatic.
+- Related topic: Caching Strategies.

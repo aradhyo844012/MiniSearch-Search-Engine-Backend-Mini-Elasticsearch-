@@ -1,0 +1,11 @@
+Common Mistakes When Working with Database Transactions
+
+Almost everyone makes a few avoidable errors when first working with Database Transactions. The term Database Transactions refers to groups of operations that succeed or fail together. This article explains the idea in plain language and points out where it fits in real projects.
+
+Watch out for these problems: holding transactions open too long; ignoring isolation levels; and forgetting to roll back on errors.
+
+Consider the first problem: holding transactions open too long. A short test or a careful review comment usually catches it. The second problem is similar: ignoring isolation levels. The third problem is this: forgetting to roll back on errors. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep notes on what worked. A short README explaining your decisions about Database Transactions helps the next developer. Start small by applying Database Transactions to one case, such as transferring money between accounts, before rolling it out more widely.
+
+In short, careful study of Database Transactions pays off. Spend time on atomicity and consistency, and the rest will follow.

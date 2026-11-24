@@ -1,0 +1,12 @@
+A Practical Checklist for IP Addressing and Subnets
+
+Use this checklist before you rely on IP Addressing and Subnets in a project.
+
+1. Guard against this risk: exhausting small subnets.
+2. Review how IP Addressing and Subnets interacts with WebSockets.
+3. Confirm that your team agrees on what IP Addressing and Subnets should accomplish.
+4. Write at least one automated test that covers IPv4 and IPv6.
+5. Pick a tool to start with, such as ipcalc or ping.
+6. Guard against this risk: overlapping address ranges.
+7. Review the core ideas: IPv4 and IPv6, subnet masks, CIDR notation, and private ranges.
+8. Guard against this risk: miscounting host bits.

@@ -1,0 +1,22 @@
+Secure Coding: Frequently Asked Questions
+
+Q: What is Secure Coding?
+A: The term Secure Coding refers to writing software in ways that avoid common vulnerabilities.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Secure Coding.
+
+Q: What should a beginner learn first?
+A: Start with input validation and least privilege, then move on to dependency updates and secret management.
+
+Q: Why do developers use Secure Coding?
+A: Common uses include reviewing pull requests, building web services, and handling user uploads.
+
+Q: Which tools help?
+A: Popular choices include OWASP Top 10, static analysis tools, and Dependabot.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: How does it relate to Cross-Site Scripting?
+A: Secure Coding and Cross-Site Scripting often appear in the same project, and both belong to the area of Security.

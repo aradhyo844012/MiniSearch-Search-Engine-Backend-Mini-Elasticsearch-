@@ -1,0 +1,11 @@
+JSON Cheat Sheet
+
+Use this page as a quick reminder of the essentials of JSON.
+
+- Definition: a lightweight text format for exchanging structured data between programs.
+- Core ideas: objects; arrays; strings and numbers; serialization.
+- Use it for: API responses; configuration files; storing documents.
+- Watch out for: trailing commas; large payloads; losing precision with big numbers.
+- Tools: Python json module, jq, JSON Schema.
+- Quick tip: practice objects until it feels automatic.
+- Related topic: Authentication and Sessions.

@@ -1,0 +1,10 @@
+Key Terms in SQL Injection Explained
+
+Clear vocabulary makes SQL Injection much easier to learn, so here are the key terms in plain language. The term SQL Injection refers to an attack where malicious input changes the meaning of a database query. This article explains the idea in plain language and points out where it fits in real projects.
+
+parameterized queries: a key term in SQL Injection. You will meet it constantly in documentation and in code reviews.
+input validation: a key term in SQL Injection. You will meet it constantly in documentation and in code reviews.
+least privilege: a key term in SQL Injection. It matters because it shapes how you design, test and explain your solution.
+escaping: a key term in SQL Injection. You will meet it constantly in documentation and in code reviews.
+
+Keep experimenting, keep notes, and revisit SQL Injection whenever a new project gives you a reason.

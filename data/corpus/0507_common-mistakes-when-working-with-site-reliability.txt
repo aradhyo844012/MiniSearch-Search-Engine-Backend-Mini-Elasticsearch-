@@ -1,0 +1,11 @@
+Common Mistakes When Working with Site Reliability
+
+Almost everyone makes a few avoidable errors when first working with Site Reliability. Many students first meet Site Reliability in a classroom, but it matters just as much in production systems. The term refers to the discipline of keeping services dependable using engineering practices.
+
+Watch out for these problems: alerting on everything; blaming people instead of systems; and no written postmortems.
+
+Consider the first problem: alerting on everything. A short test or a careful review comment usually catches it. The second problem is similar: blaming people instead of systems. The third problem is this: no written postmortems. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Read the official documentation for Prometheus; it often explains error budgets better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Site Reliability.

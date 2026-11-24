@@ -1,0 +1,13 @@
+A Practical Checklist for Binary Search
+
+Use this checklist before you rely on Binary Search in a project.
+
+1. Document your decisions in the project README.
+2. Try the approach on a small case, for example looking up values in sorted arrays.
+3. Confirm that your team agrees on what Binary Search should accomplish.
+4. Pick a tool to start with, such as Python bisect or Java Collections.binarySearch.
+5. Review how Binary Search interacts with Big O Notation.
+6. Ask a teammate to review the work, focusing on low and high bounds.
+7. Guard against this risk: infinite loops from bad bounds.
+8. Write at least one automated test that covers sorted input.
+9. Guard against this risk: using it on unsorted data.

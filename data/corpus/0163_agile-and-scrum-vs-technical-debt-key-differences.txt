@@ -1,0 +1,15 @@
+Agile and Scrum vs Technical Debt: Key Differences
+
+Agile and Scrum and Technical Debt both belong to the area of Software Engineering, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Agile and Scrum refers to iterative ways of planning and delivering software in short cycles. Its core ideas are sprints, backlogs, and stand-ups.
+
+The term Technical Debt refers to the future cost of shortcuts taken in code, design or documentation. Its core ideas are shortcuts, interest, and refactoring backlog.
+
+The main difference is focus. Agile and Scrum puts the emphasis on sprints and backlogs, while Technical Debt puts the emphasis on shortcuts and interest.
+
+Reach for Agile and Scrum when your task involves student team projects or product development. Reach for Technical Debt when your task involves deciding when to cut corners or planning cleanup work.
+
+Both have risks. With Agile and Scrum, watch for this: skipping retrospectives. With Technical Debt, watch for this: never paying it down.
+
+In practice you do not always have to choose. Many projects use Agile and Scrum alongside Technical Debt, with tools such as Jira and SonarQube. Small, frequent feedback loops catch problems while they are still cheap to fix.

@@ -1,0 +1,13 @@
+The Importance of Message Queues in Modern Software
+
+It is easy to underestimate Message Queues until something goes wrong without it. If you build software for long enough, you will run into Message Queues. The term refers to systems that let services send work to each other asynchronously through a buffer.
+
+Good APIs are boring, predictable and well documented.
+
+People use Message Queues for sending emails, for processing uploads, and for smoothing traffic spikes.
+
+Three issues come up again and again: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing. Knowing them in advance saves hours of debugging.
+
+Message Queues and JWT are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+In short, careful study of Message Queues pays off. Spend time on producers and consumers, and the rest will follow.

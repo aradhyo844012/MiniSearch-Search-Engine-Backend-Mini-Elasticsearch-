@@ -1,0 +1,15 @@
+The Importance of Threads and Concurrency in Modern Software
+
+It is easy to underestimate Threads and Concurrency until something goes wrong without it. Many students first meet Threads and Concurrency in a classroom, but it matters just as much in production systems. The term refers to ways of making progress on several tasks at once within a program.
+
+Logs and system monitors are the first place to look when a machine misbehaves.
+
+Understanding what the kernel does explains many surprising performance problems.
+
+Typical applications include handling many requests, keeping interfaces responsive, and parallel computation. Small projects and large systems both benefit.
+
+Watch out for these problems: forgetting to protect shared data; creating too many threads; and mixing up concurrency and parallelism.
+
+If you are comfortable with Threads and Concurrency, explore Containers next. The two often appear in the same project.
+
+In short, careful study of Threads and Concurrency pays off. Spend time on threads and locks, and the rest will follow.

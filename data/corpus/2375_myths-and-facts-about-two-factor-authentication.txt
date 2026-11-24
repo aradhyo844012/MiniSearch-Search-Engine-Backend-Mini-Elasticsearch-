@@ -1,0 +1,19 @@
+Myths and Facts About Two-Factor Authentication
+
+A lot of folklore has built up around Two-Factor Authentication. Some of it is true, and some of it is not. Put simply, Two-Factor Authentication covers requiring a second proof of identity in addition to a password. Learning it well pays off across many areas of computing.
+
+Myth: Two-Factor Authentication is only for experts.
+Fact: beginners can use it effectively once they understand one-time codes and authenticator apps.
+
+Myth: Two-Factor Authentication is only useful in very large systems.
+Fact: small projects such as protecting email accounts benefit as well.
+
+Myth: one tool does everything.
+Fact: Google Authenticator, YubiKey, and TOTP libraries make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Two-Factor Authentication are always obvious.
+Fact: subtle problems happen, for example relying only on SMS.
+
+Start small by applying Two-Factor Authentication to one case, such as protecting email accounts, before rolling it out more widely. Keep an eye on this risk during code review: relying only on SMS.
+
+In short, careful study of Two-Factor Authentication pays off. Spend time on one-time codes and authenticator apps, and the rest will follow.

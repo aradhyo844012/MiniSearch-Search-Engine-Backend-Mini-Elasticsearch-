@@ -1,0 +1,13 @@
+The Trade-offs of Single Page Applications
+
+Every design choice has a cost, and Single Page Applications is no exception. Many students first meet Single Page Applications in a classroom, but it matters just as much in production systems. The term refers to web apps that load once and update the page dynamically as the user interacts.
+
+On the positive side, Single Page Applications is well suited to dashboards and email clients. On the other hand, it is not free. Keep these risks in mind: slow first load; poor search engine visibility; broken back buttons. Whether the trade is worth it depends on how much client-side routing and state management matter to your project.
+
+Three issues come up again and again: slow first load; poor search engine visibility; and broken back buttons. Knowing them in advance saves hours of debugging.
+
+Practice client-side routing with small exercises until it feels natural. Read the official documentation for Vue; it often explains state management better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Single Page Applications helps the next developer.
+
+Write a few tests that show how Single Page Applications should behave. Tests double as documentation for your teammates. Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain API calls back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Single Page Applications pays off. Spend time on client-side routing and state management, and the rest will follow.

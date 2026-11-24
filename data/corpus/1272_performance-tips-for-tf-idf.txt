@@ -1,0 +1,13 @@
+Performance Tips for TF-IDF
+
+Fast software rarely happens by accident, and TF-IDF offers several places to gain speed. If you build software for long enough, you will run into TF-IDF. The term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+Start by measuring. Use scikit-learn TfidfVectorizer or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to term frequency and inverse document frequency, because they usually decide how well things scale. For workloads such as ranking search results, even small improvements add up quickly.
+
+To understand TF-IDF, start with term frequency. Then move on to inverse document frequency, and finally look at weighting and normalization. A good way to remember term frequency is to connect it with a concrete example from your own code.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain weighting back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: over-weighting common words.
+
+Three issues come up again and again: over-weighting common words; ignoring document length; and using it on tiny corpora. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TF-IDF.

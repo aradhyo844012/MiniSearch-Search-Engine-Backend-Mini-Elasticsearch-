@@ -1,0 +1,13 @@
+How Refactoring Connects to Technical Debt
+
+Refactoring and Technical Debt are closely connected parts of Software Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving reducing duplication may also involve deciding when to cut corners. In such a project, small steps and shortcuts often influence each other.
+
+Start with Refactoring: the term refers to improving the structure of existing code without changing its behavior. Then look at Technical Debt, which refers to the future cost of shortcuts taken in code, design or documentation.
+
+A useful exercise is to take one example, such as preparing for new features, and explain how interest would change the design.
+
+Common problems are shared too. For Refactoring, watch for this: mixing refactoring with new features. For Technical Debt, watch for this: hiding it from stakeholders. Teams succeed when they agree on a few simple practices and follow them consistently.
+
+Spend a few hours on each topic, then combine them in one small project using IDE refactoring tools or SonarQube.

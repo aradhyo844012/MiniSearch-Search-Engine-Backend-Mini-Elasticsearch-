@@ -1,0 +1,22 @@
+Binary Search: Frequently Asked Questions
+
+Q: What is Binary Search?
+A: The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range.
+
+Q: Which tools help?
+A: Popular choices include Python bisect, Java Collections.binarySearch, and C++ lower_bound.
+
+Q: What should a beginner learn first?
+A: Start with sorted input and low and high bounds, then move on to midpoint calculation and logarithmic time.
+
+Q: What mistakes are most common?
+A: Watch for these: off-by-one errors; infinite loops from bad bounds; and using it on unsorted data.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: How does it relate to Linked Lists?
+A: Binary Search and Linked Lists often appear in the same project, and both belong to the area of Data Structures and Algorithms.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Binary Search.

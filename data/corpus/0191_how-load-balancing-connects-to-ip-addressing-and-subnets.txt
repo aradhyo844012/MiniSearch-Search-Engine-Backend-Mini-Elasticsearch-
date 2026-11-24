@@ -1,0 +1,13 @@
+How Load Balancing Connects to IP Addressing and Subnets
+
+Load Balancing and IP Addressing and Subnets are closely connected parts of Networking. Seeing how they fit together helps you learn both faster.
+
+A project involving scaling web applications may also involve planning office networks. In such a project, round robin and IPv4 and IPv6 often influence each other.
+
+Start with Load Balancing: the term refers to spreading incoming requests across several servers so no single server is overwhelmed. Then look at IP Addressing and Subnets, which refers to the rules for numbering devices on a network and dividing networks into smaller parts.
+
+A useful exercise is to take one example, such as avoiding downtime, and explain how subnet masks would change the design.
+
+Common problems are shared too. For Load Balancing, watch for this: ignoring health checks. For IP Addressing and Subnets, watch for this: miscounting host bits. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+Spend a few hours on each topic, then combine them in one small project using NGINX or ipcalc.

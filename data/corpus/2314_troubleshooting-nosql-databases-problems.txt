@@ -1,0 +1,13 @@
+Troubleshooting NoSQL Databases Problems
+
+When something breaks around NoSQL Databases, a calm and systematic approach saves the most time. When people talk about NoSQL Databases, they usually mean a broad family of databases that do not use the traditional relational table model. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and MongoDB usually reveal the cause faster than guessing.
+
+Common culprits: assuming no schema means no design; weak consistency surprises; expensive cross-collection queries. If none of these explains the symptom, re-read the basics of document stores and key-value stores.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Backups are only useful if restoring from them has been tested.
+
+Popular tools and libraries include MongoDB, Cassandra, and Redis.
+
+In short, careful study of NoSQL Databases pays off. Spend time on document stores and key-value stores, and the rest will follow.

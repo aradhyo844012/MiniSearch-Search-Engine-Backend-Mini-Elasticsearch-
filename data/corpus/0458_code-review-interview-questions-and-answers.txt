@@ -1,0 +1,18 @@
+Code Review Interview Questions and Answers
+
+Prepare for these questions about Code Review.
+
+Q: Explain Code Review in simple words.
+A: Code Review refers to having teammates examine changes before they are merged. I would add an example involving catching bugs early.
+
+Q: Which tools have you used?
+A: GitHub pull requests, GitLab merge requests, and linters.
+
+Q: How does it connect to Technical Debt?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as pull requests, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with sharing knowledge, because it is small enough to test and large enough to show the benefit.

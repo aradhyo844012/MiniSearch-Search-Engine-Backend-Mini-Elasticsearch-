@@ -1,0 +1,13 @@
+How CI/CD Pipelines Connects to Cloud Storage
+
+CI/CD Pipelines and Cloud Storage are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving running tests on every push may also involve backups. In such a project, build stage and buckets often influence each other.
+
+Start with CI/CD Pipelines: the term refers to automated workflows that build, test and deliver code whenever it changes. Then look at Cloud Storage, which refers to storing files and objects on remote servers that scale on demand.
+
+A useful exercise is to take one example, such as shipping releases safely, and explain how objects would change the design.
+
+Common problems are shared too. For CI/CD Pipelines, watch for this: flaky tests. For Cloud Storage, watch for this: surprise egress costs. A system that cannot be observed cannot be reliably operated.
+
+Spend a few hours on each topic, then combine them in one small project using GitHub Actions or Amazon S3.

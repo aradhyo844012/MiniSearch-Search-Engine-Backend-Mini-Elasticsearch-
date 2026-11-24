@@ -1,0 +1,19 @@
+A Beginner's Guide to REST APIs
+
+This guide is written for readers who are new to REST APIs and want a clear starting point. The term REST APIs refers to an approach to designing web APIs around resources, URLs and standard HTTP methods. This article explains the idea in plain language and points out where it fits in real projects.
+
+Failures between services are normal, so retries and timeouts need careful design.
+
+Four ideas sit at the heart of REST APIs: resources, HTTP verbs, status codes, and statelessness. Each one builds on the one before it. Sketching statelessness on paper before coding helps many learners see how the pieces fit.
+
+Typical applications include mobile app backends, integrating services, and public developer platforms. Small projects and large systems both benefit.
+
+In practice you can start with Flask, then explore FastAPI or Postman as your needs grow.
+
+If you are comfortable with REST APIs, explore Rate Limiting next. The two often appear in the same project.
+
+Beginners often stumble on three things. First: inconsistent naming. Second: returning 200 for errors. Third: no versioning plan.
+
+Keep an eye on this risk during code review: inconsistent naming. Measure before you optimize. Use Flask or a simple timer to see where time is actually spent. Read the official documentation for FastAPI; it often explains HTTP verbs better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with REST APIs.

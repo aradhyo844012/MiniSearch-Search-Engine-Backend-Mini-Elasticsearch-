@@ -1,0 +1,15 @@
+Performance Tips for Heaps and Priority Queues
+
+Fast software rarely happens by accident, and Heaps and Priority Queues offers several places to gain speed. Put simply, Heaps and Priority Queues covers structures that always give quick access to the smallest or largest element. Learning it well pays off across many areas of computing.
+
+Ask a teammate to explain array representation back to you; teaching is a quick way to find gaps. Measure before you optimize. Use Python heapq or a simple timer to see where time is actually spent.
+
+Start by measuring. Use Python heapq or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to heap property and sift up and sift down, because they usually decide how well things scale. For workloads such as scheduling tasks, even small improvements add up quickly.
+
+Four ideas sit at the heart of Heaps and Priority Queues: heap property, sift up and sift down, array representation, and top-k selection. Each one builds on the one before it. Understanding sift up and sift down first often makes array representation much easier to reason about.
+
+Ask a teammate to explain array representation back to you; teaching is a quick way to find gaps. Keep notes on what worked. A short README explaining your decisions about Heaps and Priority Queues helps the next developer. Keep an eye on this risk during code review: assuming a heap is fully sorted.
+
+Three issues come up again and again: assuming a heap is fully sorted; using a full sort when only the top k are needed; and mixing up min-heaps and max-heaps. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Heaps and Priority Queues whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+The Future of Feature Engineering
+
+Predicting the future is risky, but the direction of Feature Engineering is easy to describe in general terms. When people talk about Feature Engineering, they usually mean creating and transforming input variables so that models can learn from them more easily. It appears in almost every serious software project, whether or not developers notice it.
+
+A model is only as good as the data used to train and test it.
+
+Reproducible experiments make it far easier to trust and improve a model. Results should always be checked on data the model has never seen.
+
+Expect tools such as pandas and scikit-learn pipelines to keep improving, and expect newer ideas to keep building on scaling. The basics, though, tend to stay the same, so time spent on encoding categories and interaction features is rarely wasted. Anyone working on improving model accuracy will keep meeting Feature Engineering for years to come.
+
+Read the official documentation for scikit-learn pipelines; it often explains encoding categories better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Feature Engineering helps the next developer. Start small by applying Feature Engineering to one case, such as improving model accuracy, before rolling it out more widely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Feature Engineering.

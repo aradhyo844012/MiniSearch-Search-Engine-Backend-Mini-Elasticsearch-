@@ -1,0 +1,13 @@
+The Importance of Database Transactions in Modern Software
+
+It is easy to underestimate Database Transactions until something goes wrong without it. The term Database Transactions refers to groups of operations that succeed or fail together. This article explains the idea in plain language and points out where it fits in real projects.
+
+Good schema design is hard to change once real data and users depend on it. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+You will see Database Transactions whenever people work on transferring money between accounts or placing orders. It also helps with updating inventory.
+
+Beginners often stumble on three things. First: holding transactions open too long. Second: ignoring isolation levels. Third: forgetting to roll back on errors.
+
+Database Transactions and Database Sharding are closely related, so learning both gives a fuller picture of Databases.
+
+Keep experimenting, keep notes, and revisit Database Transactions whenever a new project gives you a reason.

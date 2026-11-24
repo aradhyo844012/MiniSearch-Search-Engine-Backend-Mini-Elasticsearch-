@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Technical Debt
+
+This hands-on tutorial takes you from zero to a small working experiment with Technical Debt. Many students first meet Technical Debt in a classroom, but it matters just as much in production systems. The term refers to the future cost of shortcuts taken in code, design or documentation.
+
+Step 1: Install or open SonarQube and create a new empty project folder.
+Step 2: Read about shortcuts and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses interest.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as deciding when to cut corners.
+Step 6: Break your example on purpose and see what happens. A good experiment: never paying it down.
+
+If you are comfortable with Technical Debt, explore Refactoring next. The two often appear in the same project.
+
+In practice you can start with SonarQube, then explore issue trackers or code metrics as your needs grow.
+
+Three issues come up again and again: never paying it down; hiding it from stakeholders; and unclear ownership. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Technical Debt.

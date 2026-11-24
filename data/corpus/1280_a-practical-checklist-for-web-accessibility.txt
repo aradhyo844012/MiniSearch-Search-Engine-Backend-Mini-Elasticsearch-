@@ -1,0 +1,12 @@
+A Practical Checklist for Web Accessibility
+
+Use this checklist before you rely on Web Accessibility in a project.
+
+1. Guard against this risk: images without alternative text.
+2. Review the core ideas: semantic HTML, ARIA attributes, keyboard navigation, and color contrast.
+3. Guard against this risk: missing focus indicators.
+4. Ask a teammate to review the work, focusing on ARIA attributes.
+5. Guard against this risk: low contrast text.
+6. Review how Web Accessibility interacts with Single Page Applications.
+7. Confirm that your team agrees on what Web Accessibility should accomplish.
+8. Try the approach on a small case, for example screen reader support.

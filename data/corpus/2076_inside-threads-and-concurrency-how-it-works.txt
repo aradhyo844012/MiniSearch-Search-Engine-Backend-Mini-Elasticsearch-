@@ -1,0 +1,13 @@
+Inside Threads and Concurrency: How It Works
+
+This article walks through what happens inside Threads and Concurrency, step by step. The term Threads and Concurrency refers to ways of making progress on several tasks at once within a program. This article explains the idea in plain language and points out where it fits in real projects.
+
+Four ideas sit at the heart of Threads and Concurrency: threads, locks, race conditions, and thread pools. Each one builds on the one before it. A good way to remember threads is to connect it with a concrete example from your own code.
+
+First, threads sets the stage for everything else. Next, locks builds on it. After that, race conditions comes into play, and finally thread pools ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+Threads and Concurrency and Deadlocks are closely related, so learning both gives a fuller picture of Operating Systems.
+
+Keep experimenting, keep notes, and revisit Threads and Concurrency whenever a new project gives you a reason.

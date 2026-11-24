@@ -1,0 +1,11 @@
+The Trade-offs of JavaScript Promises
+
+Every design choice has a cost, and JavaScript Promises is no exception. Put simply, JavaScript Promises covers objects that represent a value that will be available later, after an asynchronous task finishes. Learning it well pays off across many areas of computing.
+
+On the positive side, JavaScript Promises is well suited to fetching data from APIs and reading files. On the other hand, it is not free. Keep these risks in mind: forgetting to handle rejections; forgetting to return promises; awaiting inside slow loops. Whether the trade is worth it depends on how much pending and resolved states and then and catch matter to your project.
+
+Beginners often stumble on three things. First: forgetting to handle rejections. Second: forgetting to return promises. Third: awaiting inside slow loops.
+
+Start small by applying JavaScript Promises to one case, such as fetching data from APIs, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about JavaScript Promises helps the next developer. Practice pending and resolved states with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit JavaScript Promises whenever a new project gives you a reason.

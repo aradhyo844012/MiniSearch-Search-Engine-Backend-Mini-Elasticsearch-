@@ -1,0 +1,22 @@
+Python Generators: Frequently Asked Questions
+
+Q: What is Python Generators?
+A: The term Python Generators refers to functions that produce values one at a time instead of building a whole list.
+
+Q: What mistakes are most common?
+A: Watch for these: consuming a generator twice; forgetting generators are lazy; and hiding errors until iteration.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Which tools help?
+A: Popular choices include itertools, Python itertools docs, and pytest.
+
+Q: How does it relate to Object-Oriented Programming?
+A: Python Generators and Object-Oriented Programming often appear in the same project, and both belong to the area of Programming.
+
+Q: What should a beginner learn first?
+A: Start with yield and lazy evaluation, then move on to iterators and generator expressions.
+
+Q: Why do developers use Python Generators?
+A: Common uses include reading large files line by line, streaming data, and building pipelines.

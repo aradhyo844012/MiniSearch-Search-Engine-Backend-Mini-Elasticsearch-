@@ -1,0 +1,13 @@
+How TF-IDF Connects to Zipf's Law
+
+TF-IDF and Zipf's Law are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving ranking search results may also involve analyzing text corpora. In such a project, term frequency and rank and frequency often influence each other.
+
+Start with TF-IDF: the term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall. Then look at Zipf's Law, which refers to the observation that a word's frequency is roughly inversely related to its rank in natural language.
+
+A useful exercise is to take one example, such as finding keywords, and explain how power laws would change the design.
+
+Common problems are shared too. For TF-IDF, watch for this: ignoring document length. For Zipf's Law, watch for this: reading too much into a perfect fit. Fast search comes from precomputing structures so that queries do very little work.
+
+Spend a few hours on each topic, then combine them in one small project using scikit-learn TfidfVectorizer or matplotlib.

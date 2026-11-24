@@ -1,0 +1,11 @@
+Common Mistakes When Working with Stream Processing
+
+Almost everyone makes a few avoidable errors when first working with Stream Processing. Put simply, Stream Processing covers handling data continuously as it arrives rather than in large batches. Learning it well pays off across many areas of computing.
+
+Watch out for these problems: late events; losing state after crashes; and duplicate processing.
+
+Consider the first problem: late events. A short test or a careful review comment usually catches it. The second problem is similar: losing state after crashes. The third problem is this: duplicate processing. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Stream Processing to one case, such as live dashboards, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Stream Processing helps the next developer.
+
+Keep experimenting, keep notes, and revisit Stream Processing whenever a new project gives you a reason.

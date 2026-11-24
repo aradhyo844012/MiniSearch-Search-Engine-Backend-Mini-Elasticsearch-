@@ -1,0 +1,15 @@
+Performance Tips for Python Generators
+
+Fast software rarely happens by accident, and Python Generators offers several places to gain speed. Put simply, Python Generators covers functions that produce values one at a time instead of building a whole list. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use itertools or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to yield and lazy evaluation, because they usually decide how well things scale. For workloads such as reading large files line by line, even small improvements add up quickly.
+
+Start small by applying Python Generators to one case, such as reading large files line by line, before rolling it out more widely. Ask a teammate to explain iterators back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: consuming a generator twice.
+
+To understand Python Generators, start with yield. Then move on to lazy evaluation, and finally look at iterators and generator expressions. A good way to remember yield is to connect it with a concrete example from your own code.
+
+Write a few tests that show how Python Generators should behave. Tests double as documentation for your teammates. Measure before you optimize. Use itertools or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about Python Generators helps the next developer.
+
+Watch out for these problems: consuming a generator twice; forgetting generators are lazy; and hiding errors until iteration.
+
+With steady practice, Python Generators will stop feeling abstract and become a tool you reach for naturally.

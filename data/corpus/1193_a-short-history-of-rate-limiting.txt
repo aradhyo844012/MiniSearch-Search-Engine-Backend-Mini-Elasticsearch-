@@ -1,0 +1,11 @@
+A Short History of Rate Limiting
+
+Ideas behind Rate Limiting developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Rate Limiting, they usually mean controlling how many requests a client can make in a given period. It appears in almost every serious software project, whether or not developers notice it.
+
+Clear contracts between services make systems easier to change and test. A backend turns requests from many clients into reliable, consistent responses.
+
+Four ideas sit at the heart of Rate Limiting: token bucket, fixed window, sliding window, and 429 responses. Each one builds on the one before it. Sketching 429 responses on paper before coding helps many learners see how the pieces fit.
+
+Rate Limiting and Message Queues are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Rate Limiting.

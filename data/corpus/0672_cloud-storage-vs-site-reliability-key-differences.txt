@@ -1,0 +1,15 @@
+Cloud Storage vs Site Reliability: Key Differences
+
+Cloud Storage and Site Reliability both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Cloud Storage refers to storing files and objects on remote servers that scale on demand. Its core ideas are buckets, objects, and access policies.
+
+The term Site Reliability refers to the discipline of keeping services dependable using engineering practices. Its core ideas are service level objectives, error budgets, and incident response.
+
+The main difference is focus. Cloud Storage puts the emphasis on buckets and objects, while Site Reliability puts the emphasis on service level objectives and error budgets.
+
+Reach for Cloud Storage when your task involves backups or serving images. Reach for Site Reliability when your task involves running production services or reducing outages.
+
+Both have risks. With Cloud Storage, watch for this: public buckets by mistake. With Site Reliability, watch for this: alerting on everything.
+
+In practice you do not always have to choose. Many projects use Cloud Storage alongside Site Reliability, with tools such as Amazon S3 and PagerDuty. Small, frequent releases are usually safer than rare, large ones.

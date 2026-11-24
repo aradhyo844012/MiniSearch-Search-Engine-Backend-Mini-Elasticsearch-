@@ -1,0 +1,24 @@
+Query Optimization Interview Questions and Answers
+
+Prepare for these questions about Query Optimization.
+
+Q: Explain Query Optimization in simple words.
+A: Query Optimization refers to the process of making database queries return results with less time and fewer resources. I would add an example involving speeding up dashboards.
+
+Q: How does it connect to Database Transactions?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with reducing server load, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: selecting more columns than needed.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as query plans, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: selecting more columns than needed; running queries inside loops; and guessing instead of reading the plan.
+
+Q: Which tools have you used?
+A: EXPLAIN ANALYZE, pg_stat_statements, and query profilers.

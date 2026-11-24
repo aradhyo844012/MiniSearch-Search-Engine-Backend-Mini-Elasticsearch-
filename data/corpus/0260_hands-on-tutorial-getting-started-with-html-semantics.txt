@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with HTML Semantics
+
+This hands-on tutorial takes you from zero to a small working experiment with HTML Semantics. Many students first meet HTML Semantics in a classroom, but it matters just as much in production systems. The term refers to the practice of using HTML elements that describe the meaning of content.
+
+Step 1: Install or open HTML validators and create a new empty project folder.
+Step 2: Read about headings and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses landmarks.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as accessible pages.
+Step 6: Break your example on purpose and see what happens. A good experiment: using div for everything.
+
+In practice you can start with HTML validators, then explore browser developer tools or axe as your needs grow.
+
+Watch out for these problems: using div for everything; skipping heading levels; and missing labels on form inputs.
+
+With steady practice, HTML Semantics will stop feeling abstract and become a tool you reach for naturally.

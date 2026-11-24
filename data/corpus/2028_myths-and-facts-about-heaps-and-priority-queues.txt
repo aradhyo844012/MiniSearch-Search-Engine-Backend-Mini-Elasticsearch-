@@ -1,0 +1,19 @@
+Myths and Facts About Heaps and Priority Queues
+
+A lot of folklore has built up around Heaps and Priority Queues. Some of it is true, and some of it is not. If you build software for long enough, you will run into Heaps and Priority Queues. The term refers to structures that always give quick access to the smallest or largest element.
+
+Read the official documentation for Java PriorityQueue; it often explains sift up and sift down better than blog posts do. Measure before you optimize. Use Python heapq or a simple timer to see where time is actually spent.
+
+Myth: Heaps and Priority Queues is only for experts.
+Fact: beginners can use it effectively once they understand heap property and sift up and sift down.
+
+Myth: Heaps and Priority Queues is only useful in very large systems.
+Fact: small projects such as scheduling tasks benefit as well.
+
+Myth: one tool does everything.
+Fact: Python heapq, Java PriorityQueue, and C++ priority_queue make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Heaps and Priority Queues are always obvious.
+Fact: subtle problems happen, for example assuming a heap is fully sorted.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Heaps and Priority Queues.

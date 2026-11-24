@@ -1,0 +1,16 @@
+BM25 Ranking: Frequently Asked Questions
+
+Q: What is BM25 Ranking?
+A: The term BM25 Ranking refers to a ranking function that improves on plain term frequency with saturation and length normalization.
+
+Q: How does it relate to Stop Words?
+A: BM25 Ranking and Stop Words often appear in the same project, and both belong to the area of Search and Retrieval.
+
+Q: Why do developers use BM25 Ranking?
+A: Common uses include ranking search results, enterprise search, and question answering baselines.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with BM25 Ranking.
+
+Q: What should a beginner learn first?
+A: Start with term saturation and document length normalization, then move on to k1 and b parameters and inverse document frequency.

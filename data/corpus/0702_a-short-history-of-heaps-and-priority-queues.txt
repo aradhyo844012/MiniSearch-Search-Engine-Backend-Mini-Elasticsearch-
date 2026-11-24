@@ -1,0 +1,11 @@
+A Short History of Heaps and Priority Queues
+
+Ideas behind Heaps and Priority Queues developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Heaps and Priority Queues, they usually mean structures that always give quick access to the smallest or largest element. It appears in almost every serious software project, whether or not developers notice it.
+
+Algorithms are easiest to learn by tracing small examples on paper before writing any code. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+To understand Heaps and Priority Queues, start with heap property. Then move on to sift up and sift down, and finally look at array representation and top-k selection. Sketching top-k selection on paper before coding helps many learners see how the pieces fit.
+
+A solid grasp of Heaps and Priority Queues also makes Dynamic Programming easier to understand.
+
+Keep experimenting, keep notes, and revisit Heaps and Priority Queues whenever a new project gives you a reason.

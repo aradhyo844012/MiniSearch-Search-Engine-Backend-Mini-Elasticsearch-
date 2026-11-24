@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with BM25 Ranking
+
+This hands-on tutorial takes you from zero to a small working experiment with BM25 Ranking. Put simply, BM25 Ranking covers a ranking function that improves on plain term frequency with saturation and length normalization. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open Elasticsearch and create a new empty project folder.
+Step 2: Read about term saturation and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses document length normalization.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as ranking search results.
+Step 6: Break your example on purpose and see what happens. A good experiment: untuned parameters.
+
+In practice you can start with Elasticsearch, then explore rank_bm25 or Lucene as your needs grow.
+
+Beginners often stumble on three things. First: untuned parameters. Second: ignoring field boundaries. Third: comparing scores across different queries.
+
+Keep experimenting, keep notes, and revisit BM25 Ranking whenever a new project gives you a reason.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with JavaScript Promises
+
+This hands-on tutorial takes you from zero to a small working experiment with JavaScript Promises. When people talk about JavaScript Promises, they usually mean objects that represent a value that will be available later, after an asynchronous task finishes. It appears in almost every serious software project, whether or not developers notice it.
+
+Keep an eye on this risk during code review: forgetting to handle rejections. Read the official documentation for Node.js; it often explains then and catch better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+Step 1: Install or open fetch API and create a new empty project folder.
+Step 2: Read about pending and resolved states and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses then and catch.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as fetching data from APIs.
+Step 6: Break your example on purpose and see what happens. A good experiment: forgetting to handle rejections.
+
+Popular tools and libraries include fetch API, Node.js, and Promise.all.
+
+Three issues come up again and again: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops. Knowing them in advance saves hours of debugging.
+
+In short, careful study of JavaScript Promises pays off. Spend time on pending and resolved states and then and catch, and the rest will follow.

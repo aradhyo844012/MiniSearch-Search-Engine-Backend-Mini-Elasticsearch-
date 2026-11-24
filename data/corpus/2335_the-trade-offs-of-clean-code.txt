@@ -1,0 +1,11 @@
+The Trade-offs of Clean Code
+
+Every design choice has a cost, and Clean Code is no exception. Many students first meet Clean Code in a classroom, but it matters just as much in production systems. The term refers to writing code that other people can read, understand and change easily.
+
+On the positive side, Clean Code is well suited to team projects and long-lived products. On the other hand, it is not free. Keep these risks in mind: cryptic abbreviations; functions that do too much; comments that repeat the code. Whether the trade is worth it depends on how much meaningful names and small functions matter to your project.
+
+Watch out for these problems: cryptic abbreviations; functions that do too much; and comments that repeat the code.
+
+Read the official documentation for formatters; it often explains small functions better than blog posts do. Write a few tests that show how Clean Code should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Clean Code whenever a new project gives you a reason.

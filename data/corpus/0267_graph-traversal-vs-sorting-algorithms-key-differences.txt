@@ -1,0 +1,15 @@
+Graph Traversal vs Sorting Algorithms: Key Differences
+
+Graph Traversal and Sorting Algorithms both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Graph Traversal refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Its core ideas are adjacency lists, breadth-first search, and depth-first search.
+
+The term Sorting Algorithms refers to methods for arranging items in a defined order. Its core ideas are comparison sorts, stability, and divide and conquer.
+
+The main difference is focus. Graph Traversal puts the emphasis on adjacency lists and breadth-first search, while Sorting Algorithms puts the emphasis on comparison sorts and stability.
+
+Reach for Graph Traversal when your task involves finding shortest paths in unweighted graphs or detecting cycles. Reach for Sorting Algorithms when your task involves ordering search results or preparing data for binary search.
+
+Both have risks. With Graph Traversal, watch for this: forgetting to mark nodes as visited. With Sorting Algorithms, watch for this: assuming every sort is stable.
+
+In practice you do not always have to choose. Many projects use Graph Traversal alongside Sorting Algorithms, with tools such as NetworkX and Python sorted. Interviewers and engineers alike value clear reasoning about time and space costs.

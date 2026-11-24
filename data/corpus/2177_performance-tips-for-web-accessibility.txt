@@ -1,0 +1,15 @@
+Performance Tips for Web Accessibility
+
+Fast software rarely happens by accident, and Web Accessibility offers several places to gain speed. The term Web Accessibility refers to designing websites so that people with different abilities can use them. This article explains the idea in plain language and points out where it fits in real projects.
+
+Accessible design helps everyone, including people on slow connections or small screens.
+
+Start by measuring. Use axe DevTools or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to semantic HTML and ARIA attributes, because they usually decide how well things scale. For workloads such as screen reader support, even small improvements add up quickly.
+
+To understand Web Accessibility, start with semantic HTML. Then move on to ARIA attributes, and finally look at keyboard navigation and color contrast. Sketching color contrast on paper before coding helps many learners see how the pieces fit.
+
+Automate repetitive steps so that results are easy to reproduce. Read the official documentation for WAVE; it often explains ARIA attributes better than blog posts do.
+
+Beginners often stumble on three things. First: low contrast text. Second: missing focus indicators. Third: images without alternative text.
+
+Keep experimenting, keep notes, and revisit Web Accessibility whenever a new project gives you a reason.

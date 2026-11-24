@@ -1,0 +1,15 @@
+CSS Flexbox and Grid vs Browser Rendering: Key Differences
+
+CSS Flexbox and Grid and Browser Rendering both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. Its core ideas are flex containers, grid tracks, and alignment.
+
+The term Browser Rendering refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. Its core ideas are DOM construction, style calculation, and layout.
+
+The main difference is focus. CSS Flexbox and Grid puts the emphasis on flex containers and grid tracks, while Browser Rendering puts the emphasis on DOM construction and style calculation.
+
+Reach for CSS Flexbox and Grid when your task involves navigation bars or card layouts. Reach for Browser Rendering when your task involves explaining slow pages or designing smooth animations.
+
+Both have risks. With CSS Flexbox and Grid, watch for this: mixing up main and cross axes. With Browser Rendering, watch for this: blocking scripts in the head.
+
+In practice you do not always have to choose. Many projects use CSS Flexbox and Grid alongside Browser Rendering, with tools such as browser grid inspector and Chrome DevTools Performance panel. Accessible design helps everyone, including people on slow connections or small screens.

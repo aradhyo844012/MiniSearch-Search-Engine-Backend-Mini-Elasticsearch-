@@ -1,0 +1,19 @@
+A Beginner's Guide to Infrastructure as Code
+
+This guide is written for readers who are new to Infrastructure as Code and want a clear starting point. When people talk about Infrastructure as Code, they usually mean managing servers and cloud resources through version-controlled configuration files. It appears in almost every serious software project, whether or not developers notice it.
+
+Cloud resources are easy to create and just as easy to forget, which makes costs grow quietly. Automation turns risky manual steps into repeatable and reviewable processes.
+
+Four ideas sit at the heart of Infrastructure as Code: declarative configuration, state, modules, and drift. Each one builds on the one before it. Sketching drift on paper before coding helps many learners see how the pieces fit.
+
+A team working on recreating environments might adopt Infrastructure as Code after hitting the limits of a simpler approach. Other teams turn to it for reviewing infrastructure changes or disaster recovery.
+
+In practice you can start with Terraform, then explore Ansible or Pulumi as your needs grow.
+
+Three issues come up again and again: manual changes causing drift; hard-coded secrets; and huge monolithic configurations. Knowing them in advance saves hours of debugging.
+
+If you are comfortable with Infrastructure as Code, explore Serverless Computing next. The two often appear in the same project.
+
+Start small by applying Infrastructure as Code to one case, such as recreating environments, before rolling it out more widely. Keep an eye on this risk during code review: manual changes causing drift. Write a few tests that show how Infrastructure as Code should behave. Tests double as documentation for your teammates.
+
+With steady practice, Infrastructure as Code will stop feeling abstract and become a tool you reach for naturally.

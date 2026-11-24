@@ -1,0 +1,13 @@
+The Future of Web Performance
+
+Predicting the future is risky, but the direction of Web Performance is easy to describe in general terms. When people talk about Web Performance, they usually mean the practice of making websites load quickly and respond smoothly. It appears in almost every serious software project, whether or not developers notice it.
+
+Accessible design helps everyone, including people on slow connections or small screens. Web pages must work across many browsers, devices and network conditions.
+
+Expect tools such as Lighthouse and WebPageTest to keep improving, and expect newer ideas to keep building on page weight. The basics, though, tend to stay the same, so time spent on caching and lazy loading is rarely wasted. Anyone working on shopping sites will keep meeting Web Performance for years to come.
+
+Ask a teammate to explain lazy loading back to you; teaching is a quick way to find gaps. Measure before you optimize. Use Lighthouse or a simple timer to see where time is actually spent.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does. Small improvements in markup and styling often have a large effect on usability.
+
+Keep experimenting, keep notes, and revisit Web Performance whenever a new project gives you a reason.

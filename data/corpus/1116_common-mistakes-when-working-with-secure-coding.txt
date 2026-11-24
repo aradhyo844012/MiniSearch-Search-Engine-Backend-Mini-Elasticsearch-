@@ -1,0 +1,11 @@
+Common Mistakes When Working with Secure Coding
+
+Almost everyone makes a few avoidable errors when first working with Secure Coding. Many students first meet Secure Coding in a classroom, but it matters just as much in production systems. The term refers to writing software in ways that avoid common vulnerabilities.
+
+Watch out for these problems: trusting user input; committing secrets to repositories; and ignoring outdated libraries.
+
+Consider the first problem: trusting user input. A short test or a careful review comment usually catches it. The second problem is similar: committing secrets to repositories. The third problem is this: ignoring outdated libraries. It tends to appear only once a project grows, so it is worth planning for early.
+
+Read the official documentation for static analysis tools; it often explains least privilege better than blog posts do. Keep an eye on this risk during code review: trusting user input. Keep notes on what worked. A short README explaining your decisions about Secure Coding helps the next developer.
+
+Keep experimenting, keep notes, and revisit Secure Coding whenever a new project gives you a reason.

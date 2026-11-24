@@ -1,0 +1,13 @@
+Performance Tips for Bootstrap
+
+Fast software rarely happens by accident, and Bootstrap offers several places to gain speed. If you build software for long enough, you will run into Bootstrap. The term refers to a popular front-end toolkit with ready-made layout, components and utilities.
+
+Start by measuring. Use Bootstrap CDN or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to grid system and components, because they usually decide how well things scale. For workloads such as prototypes and dashboards, even small improvements add up quickly.
+
+To understand Bootstrap, start with grid system. Then move on to components, and finally look at utility classes and theming variables. A good way to remember grid system is to connect it with a concrete example from your own code.
+
+Keep an eye on this risk during code review: overriding styles with heavy custom CSS. Keep notes on what worked. A short README explaining your decisions about Bootstrap helps the next developer. Measure before you optimize. Use Bootstrap CDN or a simple timer to see where time is actually spent.
+
+Beginners often stumble on three things. First: overriding styles with heavy custom CSS. Second: loading unused components. Third: copying markup without understanding it.
+
+With steady practice, Bootstrap will stop feeling abstract and become a tool you reach for naturally.

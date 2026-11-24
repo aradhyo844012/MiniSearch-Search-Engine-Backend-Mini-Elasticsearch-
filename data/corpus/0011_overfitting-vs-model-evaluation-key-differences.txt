@@ -1,0 +1,15 @@
+Overfitting vs Model Evaluation: Key Differences
+
+Overfitting and Model Evaluation both belong to the area of Machine Learning, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Overfitting refers to when a model learns the training data too closely and performs poorly on new data. Its core ideas are training and validation error, model complexity, and regularization.
+
+The term Model Evaluation refers to measuring how well a machine learning model works on data it has not seen. Its core ideas are accuracy, precision and recall, and confusion matrices.
+
+The main difference is focus. Overfitting puts the emphasis on training and validation error and model complexity, while Model Evaluation puts the emphasis on accuracy and precision and recall.
+
+Reach for Overfitting when your task involves diagnosing weak models or choosing simpler models. Reach for Model Evaluation when your task involves comparing models or choosing thresholds.
+
+Both have risks. With Overfitting, watch for this: evaluating only on training data. With Model Evaluation, watch for this: using accuracy on imbalanced data.
+
+In practice you do not always have to choose. Many projects use Overfitting alongside Model Evaluation, with tools such as scikit-learn and scikit-learn metrics. Reproducible experiments make it far easier to trust and improve a model.

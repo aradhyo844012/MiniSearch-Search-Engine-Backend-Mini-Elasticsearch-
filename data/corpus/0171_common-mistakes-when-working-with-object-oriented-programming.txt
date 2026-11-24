@@ -1,0 +1,11 @@
+Common Mistakes When Working with Object-Oriented Programming
+
+Almost everyone makes a few avoidable errors when first working with Object-Oriented Programming. When people talk about Object-Oriented Programming, they usually mean a style of programming that organizes code into objects that combine data and behavior. It appears in almost every serious software project, whether or not developers notice it.
+
+Beginners often stumble on three things. First: deep inheritance chains. Second: exposing internal state. Third: classes that do too much.
+
+Consider the first problem: deep inheritance chains. A short test or a careful review comment usually catches it. The second problem is similar: exposing internal state. The third problem is this: classes that do too much. It tends to appear only once a project grows, so it is worth planning for early.
+
+Practice classes with small exercises until it feels natural. Read the official documentation for Java; it often explains inheritance better than blog posts do.
+
+With steady practice, Object-Oriented Programming will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,12 @@
+A Practical Checklist for Natural Language Processing
+
+Use this checklist before you rely on Natural Language Processing in a project.
+
+1. Review how Natural Language Processing interacts with Gradient Descent.
+2. Guard against this risk: ignoring language variety.
+3. Pick a tool to start with, such as spaCy or NLTK.
+4. Ask a teammate to review the work, focusing on embeddings.
+5. Confirm that your team agrees on what Natural Language Processing should accomplish.
+6. Guard against this risk: messy text preprocessing.
+7. Measure results before and after any change.
+8. Try the approach on a small case, for example search engines.

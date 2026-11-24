@@ -1,0 +1,18 @@
+Linux Command Line Interview Questions and Answers
+
+Prepare for these questions about Linux Command Line.
+
+Q: Explain Linux Command Line in simple words.
+A: Linux Command Line refers to a text-based way of controlling a computer using commands and scripts. I would add an example involving automating tasks.
+
+Q: What are the key concepts?
+A: shell, pipes, permissions, and environment variables.
+
+Q: Which tools have you used?
+A: bash, grep, and ssh.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as shell, and add tests aimed at the known risks.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: running destructive commands carelessly.

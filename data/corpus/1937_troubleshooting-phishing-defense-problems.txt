@@ -1,0 +1,13 @@
+Troubleshooting Phishing Defense Problems
+
+When something breaks around Phishing Defense, a calm and systematic approach saves the most time. When people talk about Phishing Defense, they usually mean recognizing and reducing attacks that trick people into revealing information. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and SPF usually reveal the cause faster than guessing.
+
+Common culprits: clicking before checking; reusing passwords; ignoring reports from users. If none of these explains the symptom, re-read the basics of suspicious links and sender verification.
+
+Popular tools and libraries include SPF, DKIM, and DMARC.
+
+If you are comfortable with Phishing Defense, explore Secure Coding next. The two often appear in the same project.
+
+With steady practice, Phishing Defense will stop feeling abstract and become a tool you reach for naturally.

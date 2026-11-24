@@ -1,0 +1,13 @@
+How Virtual Memory Connects to File Systems
+
+Virtual Memory and File Systems are closely connected parts of Operating Systems. Seeing how they fit together helps you learn both faster.
+
+A project involving isolating programs may also involve storing documents. In such a project, pages and files and directories often influence each other.
+
+Start with Virtual Memory: the term refers to a technique that gives each program its own address space backed by RAM and disk. Then look at File Systems, which refers to the part of an operating system that organizes how data is stored and found on disk.
+
+A useful exercise is to take one example, such as running programs larger than RAM, and explain how inodes would change the design.
+
+Common problems are shared too. For Virtual Memory, watch for this: ignoring page fault costs. For File Systems, watch for this: wrong permissions. Resource limits such as memory, file handles and processes are easy to forget until they run out.
+
+Spend a few hours on each topic, then combine them in one small project using vmstat or ext4.

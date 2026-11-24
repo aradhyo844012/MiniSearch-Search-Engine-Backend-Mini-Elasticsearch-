@@ -1,0 +1,11 @@
+A Short History of Cross-Site Scripting
+
+Ideas behind Cross-Site Scripting developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Cross-Site Scripting, they usually mean a vulnerability where attackers get a site to run their scripts in other users' browsers. It appears in almost every serious software project, whether or not developers notice it.
+
+Security is a habit applied throughout development, not a feature added at the end.
+
+The vocabulary of Cross-Site Scripting is small. Learn reflected XSS, stored XSS, output encoding, and content security policy, and most documentation will start to make sense. Understanding stored XSS first often makes output encoding much easier to reason about.
+
+If you are comfortable with Cross-Site Scripting, explore Secure Coding next. The two often appear in the same project.
+
+With steady practice, Cross-Site Scripting will stop feeling abstract and become a tool you reach for naturally.

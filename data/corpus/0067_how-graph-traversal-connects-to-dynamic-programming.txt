@@ -1,0 +1,13 @@
+How Graph Traversal Connects to Dynamic Programming
+
+Graph Traversal and Dynamic Programming are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving finding shortest paths in unweighted graphs may also involve computing edit distance. In such a project, adjacency lists and overlapping subproblems often influence each other.
+
+Start with Graph Traversal: the term refers to systematic ways of visiting every node in a graph, usually breadth-first or depth-first. Then look at Dynamic Programming, which refers to a technique for solving problems by storing the answers to overlapping subproblems.
+
+A useful exercise is to take one example, such as detecting cycles, and explain how optimal substructure would change the design.
+
+Common problems are shared too. For Graph Traversal, watch for this: using recursion on very deep graphs. For Dynamic Programming, watch for this: storing more state than needed. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+Spend a few hours on each topic, then combine them in one small project using NetworkX or Python functools.lru_cache.

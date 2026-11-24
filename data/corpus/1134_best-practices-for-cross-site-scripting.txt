@@ -1,0 +1,17 @@
+Best Practices for Cross-Site Scripting
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Cross-Site Scripting in a classroom, but it matters just as much in production systems. The term refers to a vulnerability where attackers get a site to run their scripts in other users' browsers.
+
+Read the official documentation for CSP evaluators; it often explains stored XSS better than blog posts do. Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain output encoding back to you; teaching is a quick way to find gaps.
+
+1. Write a few tests that show how Cross-Site Scripting should behave. Tests double as documentation for your teammates.
+2. Start small by applying Cross-Site Scripting to one case, such as reviewing web forms, before rolling it out more widely.
+3. Keep notes on what worked. A short README explaining your decisions about Cross-Site Scripting helps the next developer.
+4. Practice reflected XSS with small exercises until it feels natural.
+5. Automate repetitive steps so that results are easy to reproduce.
+
+In practice you can start with OWASP guides, then explore CSP evaluators or browser developer tools as your needs grow.
+
+Cross-Site Scripting and SQL Injection are closely related, so learning both gives a fuller picture of Security.
+
+Keep experimenting, keep notes, and revisit Cross-Site Scripting whenever a new project gives you a reason.

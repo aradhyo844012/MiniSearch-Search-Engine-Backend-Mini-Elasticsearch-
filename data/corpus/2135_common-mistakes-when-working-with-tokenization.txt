@@ -1,0 +1,11 @@
+Common Mistakes When Working with Tokenization
+
+Almost everyone makes a few avoidable errors when first working with Tokenization. When people talk about Tokenization, they usually mean splitting text into smaller units such as words that a program can count and compare. It appears in almost every serious software project, whether or not developers notice it.
+
+Watch out for these problems: different rules for indexing and querying; dropping useful numbers; and breaking on apostrophes badly.
+
+Consider the first problem: different rules for indexing and querying. A short test or a careful review comment usually catches it. The second problem is similar: dropping useful numbers. The third problem is this: breaking on apostrophes badly. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use Python re module or a simple timer to see where time is actually spent. Write a few tests that show how Tokenization should behave. Tests double as documentation for your teammates.
+
+With steady practice, Tokenization will stop feeling abstract and become a tool you reach for naturally.

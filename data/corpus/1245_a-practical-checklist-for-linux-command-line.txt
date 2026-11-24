@@ -1,0 +1,13 @@
+A Practical Checklist for Linux Command Line
+
+Use this checklist before you rely on Linux Command Line in a project.
+
+1. Ask a teammate to review the work, focusing on pipes.
+2. Write at least one automated test that covers shell.
+3. Confirm that your team agrees on what Linux Command Line should accomplish.
+4. Guard against this risk: running destructive commands carelessly.
+5. Guard against this risk: ignoring exit codes.
+6. Document your decisions in the project README.
+7. Pick a tool to start with, such as bash or grep.
+8. Try the approach on a small case, for example automating tasks.
+9. Review the core ideas: shell, pipes, permissions, and environment variables.

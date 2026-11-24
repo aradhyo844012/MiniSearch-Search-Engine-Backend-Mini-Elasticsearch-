@@ -1,0 +1,11 @@
+Troubleshooting Browser Rendering Problems
+
+When something breaks around Browser Rendering, a calm and systematic approach saves the most time. The term Browser Rendering refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Chrome DevTools Performance panel usually reveal the cause faster than guessing.
+
+Common culprits: blocking scripts in the head; forcing repeated layouts; loading huge images. If none of these explains the symptom, re-read the basics of DOM construction and style calculation.
+
+Popular tools and libraries include Chrome DevTools Performance panel, Lighthouse, and WebPageTest.
+
+With steady practice, Browser Rendering will stop feeling abstract and become a tool you reach for naturally.

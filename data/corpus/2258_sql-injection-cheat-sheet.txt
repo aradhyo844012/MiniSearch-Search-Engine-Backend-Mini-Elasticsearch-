@@ -1,0 +1,11 @@
+SQL Injection Cheat Sheet
+
+Use this page as a quick reminder of the essentials of SQL Injection.
+
+- Definition: an attack where malicious input changes the meaning of a database query.
+- Core ideas: parameterized queries; input validation; least privilege; escaping.
+- Use it for: securing login forms; reviewing search features; auditing legacy code.
+- Watch out for: building queries with string concatenation; using admin accounts for the app; revealing detailed database errors.
+- Tools: prepared statements, OWASP cheat sheets, sqlmap in test environments.
+- Related topic: OAuth 2.0.
+- Quick tip: write a tiny test for input validation before building anything large.

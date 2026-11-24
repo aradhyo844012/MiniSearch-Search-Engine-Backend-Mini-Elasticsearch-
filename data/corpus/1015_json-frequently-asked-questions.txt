@@ -1,0 +1,16 @@
+JSON: Frequently Asked Questions
+
+Q: What is JSON?
+A: The term JSON refers to a lightweight text format for exchanging structured data between programs.
+
+Q: Which tools help?
+A: Popular choices include Python json module, jq, and JSON Schema.
+
+Q: What mistakes are most common?
+A: Watch for these: trailing commas; large payloads; and losing precision with big numbers.
+
+Q: Why do developers use JSON?
+A: Common uses include API responses, configuration files, and storing documents.
+
+Q: How does it relate to JWT?
+A: JSON and JWT often appear in the same project, and both belong to the area of Backend and APIs.

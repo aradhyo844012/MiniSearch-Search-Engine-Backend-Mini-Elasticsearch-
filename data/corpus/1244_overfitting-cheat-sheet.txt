@@ -1,0 +1,11 @@
+Overfitting Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Overfitting.
+
+- Definition: when a model learns the training data too closely and performs poorly on new data.
+- Core ideas: training and validation error; model complexity; regularization; cross-validation.
+- Use it for: diagnosing weak models; choosing simpler models; tuning hyperparameters.
+- Watch out for: evaluating only on training data; leaking test data; adding complexity without evidence.
+- Tools: scikit-learn, early stopping, learning curves.
+- Related topic: Large Language Models.
+- Quick tip: practice training and validation error until it feels automatic.

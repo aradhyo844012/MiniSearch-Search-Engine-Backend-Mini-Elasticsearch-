@@ -1,0 +1,11 @@
+Troubleshooting Infrastructure as Code Problems
+
+When something breaks around Infrastructure as Code, a calm and systematic approach saves the most time. Many students first meet Infrastructure as Code in a classroom, but it matters just as much in production systems. The term refers to managing servers and cloud resources through version-controlled configuration files.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and Terraform usually reveal the cause faster than guessing.
+
+Common culprits: manual changes causing drift; hard-coded secrets; huge monolithic configurations. If none of these explains the symptom, re-read the basics of declarative configuration and state.
+
+Popular tools and libraries include Terraform, Ansible, and Pulumi.
+
+With steady practice, Infrastructure as Code will stop feeling abstract and become a tool you reach for naturally.

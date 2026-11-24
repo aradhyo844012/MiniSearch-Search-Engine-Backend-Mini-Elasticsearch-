@@ -1,0 +1,11 @@
+DOM Manipulation Cheat Sheet
+
+Use this page as a quick reminder of the essentials of DOM Manipulation.
+
+- Definition: reading and changing the structure and content of a web page from JavaScript.
+- Core ideas: selectors; events; nodes; updates.
+- Use it for: updating search results; handling form input; showing messages.
+- Watch out for: inserting untrusted text as HTML; querying the DOM inside tight loops; forgetting to remove event listeners.
+- Tools: querySelector, browser console, MDN docs.
+- Quick tip: practice selectors until it feels automatic.
+- Quick tip: write a tiny test for events before building anything large.

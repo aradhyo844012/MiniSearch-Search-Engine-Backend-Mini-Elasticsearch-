@@ -1,0 +1,11 @@
+A Practical Checklist for Infrastructure as Code
+
+Use this checklist before you rely on Infrastructure as Code in a project.
+
+1. Review how Infrastructure as Code interacts with Monitoring and Observability.
+2. Review the core ideas: declarative configuration, state, modules, and drift.
+3. Guard against this risk: huge monolithic configurations.
+4. Write at least one automated test that covers declarative configuration.
+5. Confirm that your team agrees on what Infrastructure as Code should accomplish.
+6. Pick a tool to start with, such as Terraform or Ansible.
+7. Guard against this risk: hard-coded secrets.

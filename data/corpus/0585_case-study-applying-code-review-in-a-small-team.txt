@@ -1,0 +1,11 @@
+Case Study: Applying Code Review in a Small Team
+
+Imagine a small student team building a project that depends on Code Review. Many students first meet Code Review in a classroom, but it matters just as much in production systems. The term refers to having teammates examine changes before they are merged.
+
+The team first spent a week learning pull requests and review comments. Early on they hit a familiar problem: huge pull requests. After fixing it, they used GitHub pull requests to check their work and adopted Code Review for catching bugs early. Looking back, they said the biggest lesson was to keep the design simple.
+
+Write a few tests that show how Code Review should behave. Tests double as documentation for your teammates. Measure before you optimize. Use GitHub pull requests or a simple timer to see where time is actually spent.
+
+Watch out for these problems: huge pull requests; vague comments; and reviewing only style.
+
+Keep experimenting, keep notes, and revisit Code Review whenever a new project gives you a reason.

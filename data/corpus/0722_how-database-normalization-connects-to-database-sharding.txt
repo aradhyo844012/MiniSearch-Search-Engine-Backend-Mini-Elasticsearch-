@@ -1,0 +1,13 @@
+How Database Normalization Connects to Database Sharding
+
+Database Normalization and Database Sharding are closely connected parts of Databases. Seeing how they fit together helps you learn both faster.
+
+A project involving designing clean schemas may also involve scaling beyond one server. In such a project, first normal form and shard keys often influence each other.
+
+Start with Database Normalization: the term refers to the practice of organizing tables to reduce duplicated data and update anomalies. Then look at Database Sharding, which refers to splitting a large dataset across several databases so each holds only part of it.
+
+A useful exercise is to take one example, such as avoiding update anomalies, and explain how routing would change the design.
+
+Common problems are shared too. For Database Normalization, watch for this: ignoring query patterns. For Database Sharding, watch for this: hot shards. Backups are only useful if restoring from them has been tested.
+
+Spend a few hours on each topic, then combine them in one small project using ER diagrams or Vitess.

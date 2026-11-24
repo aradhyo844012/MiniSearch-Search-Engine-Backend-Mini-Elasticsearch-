@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Pandas DataFrames
+
+This hands-on tutorial takes you from zero to a small working experiment with Pandas DataFrames. When people talk about Pandas DataFrames, they usually mean table-like structures in Python for loading, cleaning and analyzing data. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open pandas and create a new empty project folder.
+Step 2: Read about rows and columns and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses indexing.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as loading CSV files.
+Step 6: Break your example on purpose and see what happens. A good experiment: chained assignment surprises.
+
+Pipelines should be repeatable so that results can be reproduced later. Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+Popular tools and libraries include pandas, Jupyter, and NumPy.
+
+Watch out for these problems: chained assignment surprises; loading too much data into memory; and forgetting to check data types.
+
+In short, careful study of Pandas DataFrames pays off. Spend time on rows and columns and indexing, and the rest will follow.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Browser Rendering
+
+This hands-on tutorial takes you from zero to a small working experiment with Browser Rendering. Many students first meet Browser Rendering in a classroom, but it matters just as much in production systems. The term refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen.
+
+Keep notes on what worked. A short README explaining your decisions about Browser Rendering helps the next developer. Read the official documentation for Lighthouse; it often explains style calculation better than blog posts do. Ask a teammate to explain layout back to you; teaching is a quick way to find gaps.
+
+Step 1: Install or open Chrome DevTools Performance panel and create a new empty project folder.
+Step 2: Read about DOM construction and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses style calculation.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as explaining slow pages.
+Step 6: Break your example on purpose and see what happens. A good experiment: blocking scripts in the head.
+
+In practice you can start with Chrome DevTools Performance panel, then explore Lighthouse or WebPageTest as your needs grow.
+
+Three issues come up again and again: blocking scripts in the head; forcing repeated layouts; and loading huge images. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Browser Rendering pays off. Spend time on DOM construction and style calculation, and the rest will follow.

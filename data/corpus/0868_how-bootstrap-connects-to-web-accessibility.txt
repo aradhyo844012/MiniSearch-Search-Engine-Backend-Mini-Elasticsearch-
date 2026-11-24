@@ -1,0 +1,13 @@
+How Bootstrap Connects to Web Accessibility
+
+Bootstrap and Web Accessibility are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving prototypes and dashboards may also involve screen reader support. In such a project, grid system and semantic HTML often influence each other.
+
+Start with Bootstrap: the term refers to a popular front-end toolkit with ready-made layout, components and utilities. Then look at Web Accessibility, which refers to designing websites so that people with different abilities can use them.
+
+A useful exercise is to take one example, such as admin pages, and explain how ARIA attributes would change the design.
+
+Common problems are shared too. For Bootstrap, watch for this: loading unused components. For Web Accessibility, watch for this: missing focus indicators. Small improvements in markup and styling often have a large effect on usability.
+
+Spend a few hours on each topic, then combine them in one small project using Bootstrap CDN or axe DevTools.

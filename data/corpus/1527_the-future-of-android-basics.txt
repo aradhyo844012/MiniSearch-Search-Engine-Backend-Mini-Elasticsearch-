@@ -1,0 +1,11 @@
+The Future of Android Basics
+
+Predicting the future is risky, but the direction of Android Basics is easy to describe in general terms. The term Android Basics refers to the core building blocks used to create apps for Android phones. This article explains the idea in plain language and points out where it fits in real projects.
+
+Network connections on phones are unreliable, so apps should handle offline states gracefully.
+
+Expect tools such as Android Studio and Kotlin to keep improving, and expect newer ideas to keep building on activities. The basics, though, tend to stay the same, so time spent on layouts and intents is rarely wasted. Anyone working on building simple apps will keep meeting Android Basics for years to come.
+
+Keep an eye on this risk during code review: ignoring lifecycle events. Automate repetitive steps so that results are easy to reproduce.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Android Basics.

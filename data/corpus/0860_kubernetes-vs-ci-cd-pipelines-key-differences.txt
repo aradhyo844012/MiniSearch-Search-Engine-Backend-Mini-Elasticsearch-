@@ -1,0 +1,15 @@
+Kubernetes vs CI/CD Pipelines: Key Differences
+
+Kubernetes and CI/CD Pipelines both belong to the area of Cloud and DevOps, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Kubernetes refers to a system for deploying, scaling and managing containerized applications. Its core ideas are pods, deployments, and services.
+
+The term CI/CD Pipelines refers to automated workflows that build, test and deliver code whenever it changes. Its core ideas are build stage, test stage, and artifacts.
+
+The main difference is focus. Kubernetes puts the emphasis on pods and deployments, while CI/CD Pipelines puts the emphasis on build stage and test stage.
+
+Reach for Kubernetes when your task involves running many containers or rolling updates. Reach for CI/CD Pipelines when your task involves running tests on every push or shipping releases safely.
+
+Both have risks. With Kubernetes, watch for this: resource limits missing. With CI/CD Pipelines, watch for this: slow pipelines.
+
+In practice you do not always have to choose. Many projects use Kubernetes alongside CI/CD Pipelines, with tools such as kubectl and GitHub Actions. Automation turns risky manual steps into repeatable and reviewable processes.

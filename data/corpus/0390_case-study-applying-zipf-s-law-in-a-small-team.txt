@@ -1,0 +1,11 @@
+Case Study: Applying Zipf's Law in a Small Team
+
+Imagine a small student team building a project that depends on Zipf's Law. When people talk about Zipf's Law, they usually mean the observation that a word's frequency is roughly inversely related to its rank in natural language. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning rank and frequency and power laws. Early on they hit a familiar problem: testing it on random text. After fixing it, they used matplotlib to check their work and adopted Zipf's Law for analyzing text corpora. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: testing it on random text; reading too much into a perfect fit; and ignoring small samples. Knowing them in advance saves hours of debugging.
+
+Real query logs reveal what people actually look for, which is rarely what designers expect. Fast search comes from precomputing structures so that queries do very little work.
+
+With steady practice, Zipf's Law will stop feeling abstract and become a tool you reach for naturally.

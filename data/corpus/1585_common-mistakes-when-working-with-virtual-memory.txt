@@ -1,0 +1,11 @@
+Common Mistakes When Working with Virtual Memory
+
+Almost everyone makes a few avoidable errors when first working with Virtual Memory. When people talk about Virtual Memory, they usually mean a technique that gives each program its own address space backed by RAM and disk. It appears in almost every serious software project, whether or not developers notice it.
+
+Three issues come up again and again: thrashing when memory is short; ignoring page fault costs; and assuming memory is always available. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: thrashing when memory is short. A short test or a careful review comment usually catches it. The second problem is similar: ignoring page fault costs. The third problem is this: assuming memory is always available. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use vmstat or a simple timer to see where time is actually spent. Practice pages with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Virtual Memory whenever a new project gives you a reason.

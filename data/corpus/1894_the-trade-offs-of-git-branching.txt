@@ -1,0 +1,13 @@
+The Trade-offs of Git Branching
+
+Every design choice has a cost, and Git Branching is no exception. Many students first meet Git Branching in a classroom, but it matters just as much in production systems. The term refers to using separate lines of development so that changes can be built and reviewed independently.
+
+Automate repetitive steps so that results are easy to reproduce. Practice branches with small exercises until it feels natural.
+
+On the positive side, Git Branching is well suited to feature development and bug fixes. On the other hand, it is not free. Keep these risks in mind: long-lived branches; merge conflicts left unresolved; force-pushing shared branches. Whether the trade is worth it depends on how much branches and merging matter to your project.
+
+Three issues come up again and again: long-lived branches; merge conflicts left unresolved; and force-pushing shared branches. Knowing them in advance saves hours of debugging.
+
+Keep an eye on this risk during code review: long-lived branches. Write a few tests that show how Git Branching should behave. Tests double as documentation for your teammates.
+
+With steady practice, Git Branching will stop feeling abstract and become a tool you reach for naturally.

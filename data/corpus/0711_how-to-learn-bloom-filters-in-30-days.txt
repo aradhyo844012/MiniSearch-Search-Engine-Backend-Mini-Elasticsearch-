@@ -1,0 +1,12 @@
+How to Learn Bloom Filters in 30 Days
+
+You do not need months to become comfortable with Bloom Filters. A focused plan of thirty days is enough to build a solid base. Many students first meet Bloom Filters in a classroom, but it matters just as much in production systems. The term refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+Week 1: learn bit arrays and multiple hash functions, and write a one-page summary.
+Week 2: practice with Python bitarray on a small task such as skipping disk lookups for missing keys.
+Week 3: build a mini project around checking visited URLs.
+Week 4: review common mistakes such as choosing too small a bit array, and explain Bloom Filters to a friend.
+
+Popular tools and libraries include Python bitarray, Guava BloomFilter, and Redis modules.
+
+In short, careful study of Bloom Filters pays off. Spend time on bit arrays and multiple hash functions, and the rest will follow.

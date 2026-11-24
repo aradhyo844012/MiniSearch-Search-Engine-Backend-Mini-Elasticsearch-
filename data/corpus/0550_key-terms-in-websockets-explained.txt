@@ -1,0 +1,12 @@
+Key Terms in WebSockets Explained
+
+Clear vocabulary makes WebSockets much easier to learn, so here are the key terms in plain language. The term WebSockets refers to a protocol that keeps a two-way connection open between a browser and a server. This article explains the idea in plain language and points out where it fits in real projects.
+
+persistent connections: a key term in WebSockets. Practice with a small example to make the meaning stick.
+messages: a key term in WebSockets. Practice with a small example to make the meaning stick.
+heartbeats: a key term in WebSockets. Beginners often confuse it with related terms, so define it in your own words early.
+reconnection: a key term in WebSockets. You will meet it constantly in documentation and in code reviews.
+
+Start small by applying WebSockets to one case, such as chat applications, before rolling it out more widely. Practice persistent connections with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit WebSockets whenever a new project gives you a reason.

@@ -1,0 +1,22 @@
+Error Handling: Frequently Asked Questions
+
+Q: What is Error Handling?
+A: The term Error Handling refers to planning for failures so that programs respond clearly instead of crashing.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Error Handling.
+
+Q: What should a beginner learn first?
+A: Start with exceptions and validation, then move on to logging and retries.
+
+Q: Why do developers use Error Handling?
+A: Common uses include reading files, calling networks, and parsing user input.
+
+Q: What mistakes are most common?
+A: Watch for these: swallowing exceptions silently; catching overly broad errors; and unhelpful error messages.
+
+Q: Which tools help?
+A: Popular choices include Python try and except, logging module, and Sentry.
+
+Q: How does it relate to Type Systems?
+A: Error Handling and Type Systems often appear in the same project, and both belong to the area of Programming.

@@ -1,0 +1,13 @@
+The Trade-offs of CSS Flexbox and Grid
+
+Every design choice has a cost, and CSS Flexbox and Grid is no exception. If you build software for long enough, you will run into CSS Flexbox and Grid. The term refers to two layout systems that arrange elements in rows, columns and two-dimensional grids.
+
+On the positive side, CSS Flexbox and Grid is well suited to navigation bars and card layouts. On the other hand, it is not free. Keep these risks in mind: mixing up main and cross axes; fixed widths that break on phones; nesting layouts too deeply. Whether the trade is worth it depends on how much flex containers and grid tracks matter to your project.
+
+Watch out for these problems: mixing up main and cross axes; fixed widths that break on phones; and nesting layouts too deeply.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: mixing up main and cross axes.
+
+A solid grasp of CSS Flexbox and Grid also makes Web Performance easier to understand.
+
+Keep experimenting, keep notes, and revisit CSS Flexbox and Grid whenever a new project gives you a reason.

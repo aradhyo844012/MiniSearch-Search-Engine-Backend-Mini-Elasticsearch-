@@ -1,0 +1,11 @@
+Case Study: Applying Load Balancing in a Small Team
+
+Imagine a small student team building a project that depends on Load Balancing. When people talk about Load Balancing, they usually mean spreading incoming requests across several servers so no single server is overwhelmed. It appears in almost every serious software project, whether or not developers notice it.
+
+Latency is limited by distance and by the number of round trips a request needs. Network failures are normal, so well-designed software expects timeouts and retries.
+
+The team first spent a week learning round robin and health checks. Early on they hit a familiar problem: the balancer becoming a single point of failure. After fixing it, they used NGINX to check their work and adopted Load Balancing for scaling web applications. Looking back, they said the biggest lesson was to write tests earlier.
+
+Watch out for these problems: the balancer becoming a single point of failure; ignoring health checks; and session data stored only on one server.
+
+With steady practice, Load Balancing will stop feeling abstract and become a tool you reach for naturally.

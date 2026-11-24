@@ -1,0 +1,13 @@
+Inside Authentication and Sessions: How It Works
+
+This article walks through what happens inside Authentication and Sessions, step by step. The term Authentication and Sessions refers to the process of proving who a user is and remembering them between requests. This article explains the idea in plain language and points out where it fits in real projects.
+
+To understand Authentication and Sessions, start with credentials. Then move on to session cookies, and finally look at tokens and expiration. Understanding session cookies first often makes tokens much easier to reason about.
+
+First, credentials sets the stage for everything else. Next, session cookies builds on it. After that, tokens comes into play, and finally expiration ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Clear contracts between services make systems easier to change and test. Failures between services are normal, so retries and timeouts need careful design.
+
+A solid grasp of Authentication and Sessions also makes Microservices easier to understand.
+
+In short, careful study of Authentication and Sessions pays off. Spend time on credentials and session cookies, and the rest will follow.

@@ -1,0 +1,19 @@
+A Beginner's Guide to Microservices
+
+This guide is written for readers who are new to Microservices and want a clear starting point. The term Microservices refers to an architecture that splits an application into small services that can be deployed independently. This article explains the idea in plain language and points out where it fits in real projects.
+
+Good APIs are boring, predictable and well documented. Clear contracts between services make systems easier to change and test.
+
+To understand Microservices, start with service boundaries. Then move on to APIs, and finally look at independent deployment and distributed data. Understanding APIs first often makes independent deployment much easier to reason about.
+
+Typical applications include large teams working in parallel, scaling parts separately, and replacing components gradually. Small projects and large systems both benefit.
+
+In practice you can start with Docker, then explore Kubernetes or API gateways as your needs grow.
+
+Failures between services are normal, so retries and timeouts need careful design. Clear contracts between services make systems easier to change and test.
+
+Watch out for these problems: splitting too early; chatty services; and hard debugging across services.
+
+Read the official documentation for Kubernetes; it often explains APIs better than blog posts do. Ask a teammate to explain independent deployment back to you; teaching is a quick way to find gaps.
+
+In short, careful study of Microservices pays off. Spend time on service boundaries and APIs, and the rest will follow.

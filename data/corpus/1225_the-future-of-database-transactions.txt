@@ -1,0 +1,11 @@
+The Future of Database Transactions
+
+Predicting the future is risky, but the direction of Database Transactions is easy to describe in general terms. Put simply, Database Transactions covers groups of operations that succeed or fail together. Learning it well pays off across many areas of computing.
+
+Backups are only useful if restoring from them has been tested. Good schema design is hard to change once real data and users depend on it.
+
+Expect tools such as PostgreSQL and SQLAlchemy to keep improving, and expect newer ideas to keep building on atomicity. The basics, though, tend to stay the same, so time spent on consistency and isolation is rarely wasted. Anyone working on transferring money between accounts will keep meeting Database Transactions for years to come.
+
+Write a few tests that show how Database Transactions should behave. Tests double as documentation for your teammates. Measure before you optimize. Use PostgreSQL or a simple timer to see where time is actually spent.
+
+In short, careful study of Database Transactions pays off. Spend time on atomicity and consistency, and the rest will follow.

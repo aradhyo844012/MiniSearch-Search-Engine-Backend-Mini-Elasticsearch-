@@ -1,0 +1,19 @@
+A Beginner's Guide to Design Patterns
+
+This guide is written for readers who are new to Design Patterns and want a clear starting point. When people talk about Design Patterns, they usually mean reusable solutions to common problems in software design. It appears in almost every serious software project, whether or not developers notice it.
+
+Software spends most of its life being changed, not written for the first time. Teams succeed when they agree on a few simple practices and follow them consistently.
+
+To understand Design Patterns, start with singleton. Then move on to factory, and finally look at observer and strategy. A good way to remember singleton is to connect it with a concrete example from your own code.
+
+A team working on structuring applications might adopt Design Patterns after hitting the limits of a simpler approach. Other teams turn to it for decoupling components or communicating design ideas.
+
+Popular tools and libraries include UML diagrams, refactoring guides, and code examples.
+
+Measure before you optimize. Use UML diagrams or a simple timer to see where time is actually spent. Read the official documentation for refactoring guides; it often explains factory better than blog posts do. Keep an eye on this risk during code review: forcing patterns where they are unnecessary.
+
+Watch out for these problems: forcing patterns where they are unnecessary; over-engineering; and copying patterns without understanding the problem.
+
+Read the official documentation for refactoring guides; it often explains factory better than blog posts do. Keep notes on what worked. A short README explaining your decisions about Design Patterns helps the next developer. Measure before you optimize. Use UML diagrams or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Design Patterns whenever a new project gives you a reason.

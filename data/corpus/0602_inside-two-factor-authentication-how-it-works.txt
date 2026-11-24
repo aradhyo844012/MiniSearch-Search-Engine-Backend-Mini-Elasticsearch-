@@ -1,0 +1,15 @@
+Inside Two-Factor Authentication: How It Works
+
+This article walks through what happens inside Two-Factor Authentication, step by step. Many students first meet Two-Factor Authentication in a classroom, but it matters just as much in production systems. The term refers to requiring a second proof of identity in addition to a password.
+
+To understand Two-Factor Authentication, start with one-time codes. Then move on to authenticator apps, and finally look at hardware keys and backup codes. Sketching backup codes on paper before coding helps many learners see how the pieces fit.
+
+If you are comfortable with Two-Factor Authentication, explore Password Hashing next. The two often appear in the same project.
+
+First, one-time codes sets the stage for everything else. Next, authenticator apps builds on it. After that, hardware keys comes into play, and finally backup codes ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Keeping dependencies updated removes a large share of known risks. Attackers usually choose the easiest weakness, not the most interesting one.
+
+Two-Factor Authentication and Password Hashing are closely related, so learning both gives a fuller picture of Security.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Two-Factor Authentication.

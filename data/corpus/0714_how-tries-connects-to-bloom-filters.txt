@@ -1,0 +1,13 @@
+How Tries Connects to Bloom Filters
+
+Tries and Bloom Filters are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving autocomplete may also involve skipping disk lookups for missing keys. In such a project, prefix sharing and bit arrays often influence each other.
+
+Start with Tries: the term refers to tree structures that store strings character by character so shared prefixes are stored once. Then look at Bloom Filters, which refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+A useful exercise is to take one example, such as spell checking, and explain how multiple hash functions would change the design.
+
+Common problems are shared too. For Tries, watch for this: forgetting end-of-word markers. For Bloom Filters, watch for this: trying to delete items. Algorithms are easiest to learn by tracing small examples on paper before writing any code.
+
+Spend a few hours on each topic, then combine them in one small project using Python dict-based tries or Python bitarray.

@@ -1,0 +1,13 @@
+How CDNs Connects to WebSockets
+
+CDNs and WebSockets are closely connected parts of Networking. Seeing how they fit together helps you learn both faster.
+
+A project involving serving images and scripts may also involve chat applications. In such a project, edge servers and persistent connections often influence each other.
+
+Start with CDNs: the term refers to networks of servers around the world that deliver static content from a location close to the user. Then look at WebSockets, which refers to a protocol that keeps a two-way connection open between a browser and a server.
+
+A useful exercise is to take one example, such as speeding up global sites, and explain how messages would change the design.
+
+Common problems are shared too. For CDNs, watch for this: forgetting to purge old files. For WebSockets, watch for this: unbounded message queues. Every web request crosses several layers of protocols before it reaches an application.
+
+Spend a few hours on each topic, then combine them in one small project using Cloudflare or Socket.IO.

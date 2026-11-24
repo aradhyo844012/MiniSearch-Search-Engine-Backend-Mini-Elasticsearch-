@@ -1,0 +1,19 @@
+Myths and Facts About Android Basics
+
+A lot of folklore has built up around Android Basics. Some of it is true, and some of it is not. The term Android Basics refers to the core building blocks used to create apps for Android phones. This article explains the idea in plain language and points out where it fits in real projects.
+
+Myth: Android Basics is only for experts.
+Fact: beginners can use it effectively once they understand activities and layouts.
+
+Myth: Android Basics is only useful in very large systems.
+Fact: small projects such as building simple apps benefit as well.
+
+Myth: one tool does everything.
+Fact: Android Studio, Kotlin, and Gradle make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Android Basics are always obvious.
+Fact: subtle problems happen, for example ignoring lifecycle events.
+
+Network connections on phones are unreliable, so apps should handle offline states gracefully. Phones have limited memory, battery and screen space compared with desktops.
+
+In short, careful study of Android Basics pays off. Spend time on activities and layouts, and the rest will follow.

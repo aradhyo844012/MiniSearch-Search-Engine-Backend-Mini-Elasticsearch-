@@ -1,0 +1,18 @@
+Clean Code Interview Questions and Answers
+
+Prepare for these questions about Clean Code.
+
+Q: Explain Clean Code in simple words.
+A: Clean Code refers to writing code that other people can read, understand and change easily. I would add an example involving team projects.
+
+Q: How does it connect to Agile and Scrum?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: linters, formatters, and code reviews.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as meaningful names, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: meaningful names, small functions, consistent style, and comments that explain why.

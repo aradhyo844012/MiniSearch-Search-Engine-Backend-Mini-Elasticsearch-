@@ -1,0 +1,15 @@
+Performance Tips for Python Basics
+
+Fast software rarely happens by accident, and Python Basics offers several places to gain speed. The term Python Basics refers to the core features of Python, including data types, control flow and functions. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by measuring. Use Python interpreter or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to variables and lists and dictionaries, because they usually decide how well things scale. For workloads such as scripting, even small improvements add up quickly.
+
+Clear error messages and good names make programs far easier to debug. Every language has idioms that experienced developers recognize at a glance.
+
+To understand Python Basics, start with variables. Then move on to lists and dictionaries, and finally look at functions and modules. A good way to remember variables is to connect it with a concrete example from your own code.
+
+Keep notes on what worked. A short README explaining your decisions about Python Basics helps the next developer. Ask a teammate to explain functions back to you; teaching is a quick way to find gaps. Measure before you optimize. Use Python interpreter or a simple timer to see where time is actually spent.
+
+Beginners often stumble on three things. First: mutable default arguments. Second: confusing equality and identity. Third: ignoring virtual environments.
+
+In short, careful study of Python Basics pays off. Spend time on variables and lists and dictionaries, and the rest will follow.

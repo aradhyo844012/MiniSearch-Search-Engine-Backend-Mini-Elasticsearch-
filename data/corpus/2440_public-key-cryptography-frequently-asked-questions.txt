@@ -1,0 +1,22 @@
+Public Key Cryptography: Frequently Asked Questions
+
+Q: What is Public Key Cryptography?
+A: The term Public Key Cryptography refers to encryption that uses a pair of keys, one public and one private.
+
+Q: How does it relate to Password Hashing?
+A: Public Key Cryptography and Password Hashing often appear in the same project, and both belong to the area of Security.
+
+Q: What mistakes are most common?
+A: Watch for these: losing private keys; trusting unverified keys; and using keys that are too short.
+
+Q: Which tools help?
+A: Popular choices include OpenSSL, GnuPG, and SSH keys.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Why do developers use Public Key Cryptography?
+A: Common uses include HTTPS, signing software, and secure messaging.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Public Key Cryptography.

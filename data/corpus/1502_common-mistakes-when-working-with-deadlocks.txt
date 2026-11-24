@@ -1,0 +1,13 @@
+Common Mistakes When Working with Deadlocks
+
+Almost everyone makes a few avoidable errors when first working with Deadlocks. If you build software for long enough, you will run into Deadlocks. The term refers to situations where two or more tasks wait for each other forever.
+
+Measure before you optimize. Use thread dumps or a simple timer to see where time is actually spent. Start small by applying Deadlocks to one case, such as database lock conflicts, before rolling it out more widely.
+
+Three issues come up again and again: acquiring locks in inconsistent order; holding locks while waiting on I/O; and no timeouts on locks. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: acquiring locks in inconsistent order. A short test or a careful review comment usually catches it. The second problem is similar: holding locks while waiting on I/O. The third problem is this: no timeouts on locks. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Deadlocks to one case, such as database lock conflicts, before rolling it out more widely. Keep an eye on this risk during code review: acquiring locks in inconsistent order. Measure before you optimize. Use thread dumps or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Deadlocks whenever a new project gives you a reason.

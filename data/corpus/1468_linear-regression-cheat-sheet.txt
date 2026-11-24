@@ -1,0 +1,11 @@
+Linear Regression Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Linear Regression.
+
+- Definition: a method for predicting a number by fitting a straight line or plane to data.
+- Core ideas: coefficients; residuals; least squares; assumptions.
+- Use it for: predicting prices; estimating demand; finding trends.
+- Watch out for: extrapolating far beyond the data; ignoring outliers; using correlated features carelessly.
+- Tools: scikit-learn, NumPy, statsmodels.
+- Quick tip: practice coefficients until it feels automatic.
+- Related topic: Gradient Descent.

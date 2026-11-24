@@ -1,0 +1,13 @@
+The Importance of JavaScript Promises in Modern Software
+
+It is easy to underestimate JavaScript Promises until something goes wrong without it. If you build software for long enough, you will run into JavaScript Promises. The term refers to objects that represent a value that will be available later, after an asynchronous task finishes.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+You will see JavaScript Promises whenever people work on fetching data from APIs or reading files. It also helps with running tasks in sequence.
+
+Three issues come up again and again: forgetting to handle rejections; forgetting to return promises; and awaiting inside slow loops. Knowing them in advance saves hours of debugging.
+
+JavaScript Promises and Bootstrap are closely related, so learning both gives a fuller picture of Web Development.
+
+In short, careful study of JavaScript Promises pays off. Spend time on pending and resolved states and then and catch, and the rest will follow.

@@ -1,0 +1,15 @@
+Performance Tips for Rate Limiting
+
+Fast software rarely happens by accident, and Rate Limiting offers several places to gain speed. Many students first meet Rate Limiting in a classroom, but it matters just as much in production systems. The term refers to controlling how many requests a client can make in a given period.
+
+Start by measuring. Use Redis or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to token bucket and fixed window, because they usually decide how well things scale. For workloads such as protecting APIs, even small improvements add up quickly.
+
+Good APIs are boring, predictable and well documented. Clear contracts between services make systems easier to change and test.
+
+Four ideas sit at the heart of Rate Limiting: token bucket, fixed window, sliding window, and 429 responses. Each one builds on the one before it. Sketching 429 responses on paper before coding helps many learners see how the pieces fit.
+
+Automate repetitive steps so that results are easy to reproduce. Ask a teammate to explain sliding window back to you; teaching is a quick way to find gaps. Write a few tests that show how Rate Limiting should behave. Tests double as documentation for your teammates.
+
+Watch out for these problems: limits that are too strict; keeping counters only on one server; and no helpful error messages.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Rate Limiting.

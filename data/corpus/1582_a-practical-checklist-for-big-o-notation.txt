@@ -1,0 +1,13 @@
+A Practical Checklist for Big O Notation
+
+Use this checklist before you rely on Big O Notation in a project.
+
+1. Review the core ideas: upper bounds, constant, linear and logarithmic growth, worst case, and amortized cost.
+2. Guard against this risk: mixing up best and worst case.
+3. Confirm that your team agrees on what Big O Notation should accomplish.
+4. Guard against this risk: measuring only tiny inputs.
+5. Document your decisions in the project README.
+6. Write at least one automated test that covers upper bounds.
+7. Try the approach on a small case, for example comparing algorithms.
+8. Review how Big O Notation interacts with Tries.
+9. Measure results before and after any change.

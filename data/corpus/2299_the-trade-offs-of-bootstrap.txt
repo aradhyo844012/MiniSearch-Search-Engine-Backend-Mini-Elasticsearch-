@@ -1,0 +1,11 @@
+The Trade-offs of Bootstrap
+
+Every design choice has a cost, and Bootstrap is no exception. Put simply, Bootstrap covers a popular front-end toolkit with ready-made layout, components and utilities. Learning it well pays off across many areas of computing.
+
+On the positive side, Bootstrap is well suited to prototypes and dashboards and admin pages. On the other hand, it is not free. Keep these risks in mind: overriding styles with heavy custom CSS; loading unused components; copying markup without understanding it. Whether the trade is worth it depends on how much grid system and components matter to your project.
+
+Three issues come up again and again: overriding styles with heavy custom CSS; loading unused components; and copying markup without understanding it. Knowing them in advance saves hours of debugging.
+
+Measure before you optimize. Use Bootstrap CDN or a simple timer to see where time is actually spent. Practice grid system with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Bootstrap whenever a new project gives you a reason.

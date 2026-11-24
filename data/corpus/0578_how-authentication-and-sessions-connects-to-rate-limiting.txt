@@ -1,0 +1,13 @@
+How Authentication and Sessions Connects to Rate Limiting
+
+Authentication and Sessions and Rate Limiting are closely connected parts of Backend and APIs. Seeing how they fit together helps you learn both faster.
+
+A project involving logging in to web apps may also involve protecting APIs. In such a project, credentials and token bucket often influence each other.
+
+Start with Authentication and Sessions: the term refers to the process of proving who a user is and remembering them between requests. Then look at Rate Limiting, which refers to controlling how many requests a client can make in a given period.
+
+A useful exercise is to take one example, such as protecting admin pages, and explain how fixed window would change the design.
+
+Common problems are shared too. For Authentication and Sessions, watch for this: never expiring sessions. For Rate Limiting, watch for this: keeping counters only on one server. A backend turns requests from many clients into reliable, consistent responses.
+
+Spend a few hours on each topic, then combine them in one small project using Flask-Login or Redis.

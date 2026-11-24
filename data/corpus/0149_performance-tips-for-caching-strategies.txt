@@ -1,0 +1,13 @@
+Performance Tips for Caching Strategies
+
+Fast software rarely happens by accident, and Caching Strategies offers several places to gain speed. When people talk about Caching Strategies, they usually mean approaches for storing computed results so they can be reused instead of recalculated. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use Redis or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to cache-aside and write-through, because they usually decide how well things scale. For workloads such as speeding up read-heavy APIs, even small improvements add up quickly.
+
+To understand Caching Strategies, start with cache-aside. Then move on to write-through, and finally look at time to live and invalidation. A good way to remember cache-aside is to connect it with a concrete example from your own code.
+
+Start small by applying Caching Strategies to one case, such as speeding up read-heavy APIs, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Caching Strategies helps the next developer.
+
+Beginners often stumble on three things. First: stale data. Second: cache stampedes. Third: unbounded memory use.
+
+In short, careful study of Caching Strategies pays off. Spend time on cache-aside and write-through, and the rest will follow.

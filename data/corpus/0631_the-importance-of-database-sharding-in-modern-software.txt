@@ -1,0 +1,15 @@
+The Importance of Database Sharding in Modern Software
+
+It is easy to underestimate Database Sharding until something goes wrong without it. If you build software for long enough, you will run into Database Sharding. The term refers to splitting a large dataset across several databases so each holds only part of it.
+
+Good schema design is hard to change once real data and users depend on it. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+Backups are only useful if restoring from them has been tested. Good schema design is hard to change once real data and users depend on it.
+
+You will see Database Sharding whenever people work on scaling beyond one server or isolating tenants. It also helps with spreading write load.
+
+Beginners often stumble on three things. First: choosing a poor shard key. Second: hot shards. Third: expensive joins across shards.
+
+Database Sharding and Redis Caching are closely related, so learning both gives a fuller picture of Databases.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Database Sharding.

@@ -1,0 +1,13 @@
+The Future of OAuth 2.0
+
+Predicting the future is risky, but the direction of OAuth 2.0 is easy to describe in general terms. Many students first meet OAuth 2.0 in a classroom, but it matters just as much in production systems. The term refers to a framework that lets applications access resources on a user's behalf without sharing passwords.
+
+Keeping dependencies updated removes a large share of known risks. Never trust input that comes from outside your own code.
+
+Expect tools such as Auth0 and Keycloak to keep improving, and expect newer ideas to keep building on authorization server. The basics, though, tend to stay the same, so time spent on access tokens and scopes is rarely wasted. Anyone working on sign in with another account will keep meeting OAuth 2.0 for years to come.
+
+Ask a teammate to explain scopes back to you; teaching is a quick way to find gaps. Start small by applying OAuth 2.0 to one case, such as sign in with another account, before rolling it out more widely. Write a few tests that show how OAuth 2.0 should behave. Tests double as documentation for your teammates.
+
+Keeping dependencies updated removes a large share of known risks.
+
+In short, careful study of OAuth 2.0 pays off. Spend time on authorization server and access tokens, and the rest will follow.

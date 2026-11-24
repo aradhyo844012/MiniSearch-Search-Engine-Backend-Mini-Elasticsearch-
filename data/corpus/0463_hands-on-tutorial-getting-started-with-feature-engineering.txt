@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Feature Engineering
+
+This hands-on tutorial takes you from zero to a small working experiment with Feature Engineering. Put simply, Feature Engineering covers creating and transforming input variables so that models can learn from them more easily. Learning it well pays off across many areas of computing.
+
+Step 1: Install or open pandas and create a new empty project folder.
+Step 2: Read about scaling and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses encoding categories.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as improving model accuracy.
+Step 6: Break your example on purpose and see what happens. A good experiment: data leakage.
+
+In practice you can start with pandas, then explore scikit-learn pipelines or Featuretools as your needs grow.
+
+Watch out for these problems: data leakage; inconsistent transformations between training and serving; and too many redundant features.
+
+Simple baselines are worth building first because they show what improvement is realistic.
+
+In short, careful study of Feature Engineering pays off. Spend time on scaling and encoding categories, and the rest will follow.

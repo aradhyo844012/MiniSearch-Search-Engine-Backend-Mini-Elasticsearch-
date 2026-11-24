@@ -1,0 +1,11 @@
+Stop Words Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Stop Words.
+
+- Definition: very common words such as the and of that are often ignored by search systems.
+- Core ideas: frequency lists; index size; query relevance; language-specific lists.
+- Use it for: shrinking indexes; speeding up queries; reducing noise in ranking.
+- Watch out for: removing words that matter in phrases; using the wrong language list; inconsistent handling at index and query time.
+- Tools: NLTK stopwords, scikit-learn, custom word lists.
+- Related topic: Inverted Index.
+- Quick tip: write a tiny test for index size before building anything large.

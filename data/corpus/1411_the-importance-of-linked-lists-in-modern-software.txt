@@ -1,0 +1,13 @@
+The Importance of Linked Lists in Modern Software
+
+It is easy to underestimate Linked Lists until something goes wrong without it. If you build software for long enough, you will run into Linked Lists. The term refers to chains of nodes where each node stores a value and a reference to the next node.
+
+Choosing the right data structure often matters more than clever tuning later. Most performance problems in everyday programs come from doing unnecessary work on large inputs.
+
+A team working on queues and stacks might adopt Linked Lists after hitting the limits of a simpler approach. Other teams turn to it for undo histories or memory allocators.
+
+Watch out for these problems: losing the head pointer; off-by-one errors during insertion; and poor cache locality.
+
+A solid grasp of Linked Lists also makes Heaps and Priority Queues easier to understand.
+
+Keep experimenting, keep notes, and revisit Linked Lists whenever a new project gives you a reason.

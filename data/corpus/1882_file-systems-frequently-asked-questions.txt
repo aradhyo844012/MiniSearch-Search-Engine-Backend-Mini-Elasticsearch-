@@ -1,0 +1,22 @@
+File Systems: Frequently Asked Questions
+
+Q: What is File Systems?
+A: The term File Systems refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Q: What mistakes are most common?
+A: Watch for these: running out of inodes; wrong permissions; and ignoring disk space limits.
+
+Q: Why do developers use File Systems?
+A: Common uses include storing documents, managing logs, and organizing application data.
+
+Q: Which tools help?
+A: Popular choices include ext4, NTFS, and df and du.
+
+Q: What should a beginner learn first?
+A: Start with files and directories and inodes, then move on to permissions and journaling.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with File Systems.
+
+Q: How does it relate to Virtual Memory?
+A: File Systems and Virtual Memory often appear in the same project, and both belong to the area of Operating Systems.

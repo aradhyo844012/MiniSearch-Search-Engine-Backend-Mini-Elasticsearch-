@@ -1,0 +1,9 @@
+Case Study: Applying Web Accessibility in a Small Team
+
+Imagine a small student team building a project that depends on Web Accessibility. If you build software for long enough, you will run into Web Accessibility. The term refers to designing websites so that people with different abilities can use them.
+
+The team first spent a week learning semantic HTML and ARIA attributes. Early on they hit a familiar problem: low contrast text. After fixing it, they used axe DevTools to check their work and adopted Web Accessibility for screen reader support. Looking back, they said the biggest lesson was to measure before optimizing.
+
+Watch out for these problems: low contrast text; missing focus indicators; and images without alternative text.
+
+Keep experimenting, keep notes, and revisit Web Accessibility whenever a new project gives you a reason.

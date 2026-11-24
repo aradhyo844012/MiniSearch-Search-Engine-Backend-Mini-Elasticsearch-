@@ -1,0 +1,13 @@
+How Binary Search Trees Connects to Bloom Filters
+
+Binary Search Trees and Bloom Filters are closely connected parts of Data Structures and Algorithms. Seeing how they fit together helps you learn both faster.
+
+A project involving ordered lookups may also involve skipping disk lookups for missing keys. In such a project, nodes and links and bit arrays often influence each other.
+
+Start with Binary Search Trees: the term refers to ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. Then look at Bloom Filters, which refers to compact probabilistic structures that quickly tell you whether an item is probably in a set.
+
+A useful exercise is to take one example, such as range queries, and explain how multiple hash functions would change the design.
+
+Common problems are shared too. For Binary Search Trees, watch for this: forgetting to handle duplicate keys. For Bloom Filters, watch for this: trying to delete items. Interviewers and engineers alike value clear reasoning about time and space costs.
+
+Spend a few hours on each topic, then combine them in one small project using AVL trees or Python bitarray.

@@ -1,0 +1,13 @@
+The Trade-offs of Containers
+
+Every design choice has a cost, and Containers is no exception. Many students first meet Containers in a classroom, but it matters just as much in production systems. The term refers to lightweight packages that bundle an application with its dependencies and run in isolation.
+
+On the positive side, Containers is well suited to consistent development environments and deploying microservices. On the other hand, it is not free. Keep these risks in mind: running as root; bloated images; storing data inside the container. Whether the trade is worth it depends on how much images and layers matter to your project.
+
+Measure before you optimize. Use Docker or a simple timer to see where time is actually spent. Ask a teammate to explain namespaces back to you; teaching is a quick way to find gaps. Read the official documentation for Podman; it often explains layers better than blog posts do.
+
+Beginners often stumble on three things. First: running as root. Second: bloated images. Third: storing data inside the container.
+
+Write a few tests that show how Containers should behave. Tests double as documentation for your teammates. Start small by applying Containers to one case, such as consistent development environments, before rolling it out more widely.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Containers.

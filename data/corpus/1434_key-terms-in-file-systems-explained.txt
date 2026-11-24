@@ -1,0 +1,12 @@
+Key Terms in File Systems Explained
+
+Clear vocabulary makes File Systems much easier to learn, so here are the key terms in plain language. Many students first meet File Systems in a classroom, but it matters just as much in production systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out. Logs and system monitors are the first place to look when a machine misbehaves.
+
+files and directories: a key term in File Systems. You will meet it constantly in documentation and in code reviews.
+inodes: a key term in File Systems. It matters because it shapes how you design, test and explain your solution.
+permissions: a key term in File Systems. Practice with a small example to make the meaning stick.
+journaling: a key term in File Systems. It matters because it shapes how you design, test and explain your solution.
+
+Keep experimenting, keep notes, and revisit File Systems whenever a new project gives you a reason.

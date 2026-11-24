@@ -1,0 +1,15 @@
+Performance Tips for Code Review
+
+Fast software rarely happens by accident, and Code Review offers several places to gain speed. Many students first meet Code Review in a classroom, but it matters just as much in production systems. The term refers to having teammates examine changes before they are merged.
+
+Start by measuring. Use GitHub pull requests or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to pull requests and review comments, because they usually decide how well things scale. For workloads such as catching bugs early, even small improvements add up quickly.
+
+Teams succeed when they agree on a few simple practices and follow them consistently.
+
+To understand Code Review, start with pull requests. Then move on to review comments, and finally look at checklists and approvals. Understanding review comments first often makes checklists much easier to reason about.
+
+Measure before you optimize. Use GitHub pull requests or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: huge pull requests.
+
+Three issues come up again and again: huge pull requests; vague comments; and reviewing only style. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Code Review pays off. Spend time on pull requests and review comments, and the rest will follow.

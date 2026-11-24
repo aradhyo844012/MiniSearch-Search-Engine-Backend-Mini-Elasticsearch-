@@ -1,0 +1,22 @@
+ETL Pipelines: Frequently Asked Questions
+
+Q: What is ETL Pipelines?
+A: The term ETL Pipelines refers to processes that extract data from sources, transform it and load it into a destination.
+
+Q: How does it relate to Data Visualization?
+A: ETL Pipelines and Data Visualization often appear in the same project, and both belong to the area of Data Engineering.
+
+Q: Which tools help?
+A: Popular choices include Apache Airflow, dbt, and Python scripts.
+
+Q: What should a beginner learn first?
+A: Start with extraction and transformation, then move on to loading and scheduling.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with ETL Pipelines.
+
+Q: What mistakes are most common?
+A: Watch for these: silent data loss; no retry logic; and poor error reporting.

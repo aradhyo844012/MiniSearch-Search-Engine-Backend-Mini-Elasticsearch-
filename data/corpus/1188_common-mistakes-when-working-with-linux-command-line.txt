@@ -1,0 +1,11 @@
+Common Mistakes When Working with Linux Command Line
+
+Almost everyone makes a few avoidable errors when first working with Linux Command Line. When people talk about Linux Command Line, they usually mean a text-based way of controlling a computer using commands and scripts. It appears in almost every serious software project, whether or not developers notice it.
+
+Watch out for these problems: running destructive commands carelessly; forgetting quotes around paths; and ignoring exit codes.
+
+Consider the first problem: running destructive commands carelessly. A short test or a careful review comment usually catches it. The second problem is similar: forgetting quotes around paths. The third problem is this: ignoring exit codes. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep an eye on this risk during code review: running destructive commands carelessly. Read the official documentation for grep; it often explains pipes better than blog posts do.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Linux Command Line.

@@ -1,0 +1,13 @@
+Performance Tips for NoSQL Databases
+
+Fast software rarely happens by accident, and NoSQL Databases offers several places to gain speed. Put simply, NoSQL Databases covers a broad family of databases that do not use the traditional relational table model. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use MongoDB or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to document stores and key-value stores, because they usually decide how well things scale. For workloads such as flexible schemas, even small improvements add up quickly.
+
+Four ideas sit at the heart of NoSQL Databases: document stores, key-value stores, column families, and graph databases. Each one builds on the one before it. Understanding key-value stores first often makes column families much easier to reason about.
+
+Ask a teammate to explain column families back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: assuming no schema means no design.
+
+Three issues come up again and again: assuming no schema means no design; weak consistency surprises; and expensive cross-collection queries. Knowing them in advance saves hours of debugging.
+
+With steady practice, NoSQL Databases will stop feeling abstract and become a tool you reach for naturally.

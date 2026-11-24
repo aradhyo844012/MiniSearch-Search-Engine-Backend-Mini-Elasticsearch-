@@ -1,0 +1,19 @@
+A Beginner's Guide to Data Visualization
+
+This guide is written for readers who are new to Data Visualization and want a clear starting point. If you build software for long enough, you will run into Data Visualization. The term refers to presenting data as charts and graphics so that patterns are easy to see.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+Four ideas sit at the heart of Data Visualization: chart types, axes and labels, color choices, and annotations. Each one builds on the one before it. A good way to remember chart types is to connect it with a concrete example from your own code.
+
+People use Data Visualization for explaining results, for exploring data, and for reporting performance.
+
+In practice you can start with matplotlib, then explore Seaborn or Plotly as your needs grow.
+
+Beginners often stumble on three things. First: truncated axes. Second: unreadable labels. Third: too many colors.
+
+Measure before you optimize. Use matplotlib or a simple timer to see where time is actually spent. Read the official documentation for Seaborn; it often explains axes and labels better than blog posts do.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+In short, careful study of Data Visualization pays off. Spend time on chart types and axes and labels, and the rest will follow.

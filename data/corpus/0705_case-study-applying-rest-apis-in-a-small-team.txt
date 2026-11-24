@@ -1,0 +1,9 @@
+Case Study: Applying REST APIs in a Small Team
+
+Imagine a small student team building a project that depends on REST APIs. Many students first meet REST APIs in a classroom, but it matters just as much in production systems. The term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods.
+
+The team first spent a week learning resources and HTTP verbs. Early on they hit a familiar problem: inconsistent naming. After fixing it, they used Flask to check their work and adopted REST APIs for mobile app backends. Looking back, they said the biggest lesson was to keep the design simple.
+
+Watch out for these problems: inconsistent naming; returning 200 for errors; and no versioning plan.
+
+Keep experimenting, keep notes, and revisit REST APIs whenever a new project gives you a reason.

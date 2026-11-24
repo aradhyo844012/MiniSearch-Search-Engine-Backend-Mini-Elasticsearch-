@@ -1,0 +1,17 @@
+Best Practices for Redis Caching
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Redis Caching covers using an in-memory data store to keep frequently needed results close to the application. Learning it well pays off across many areas of computing.
+
+1. Read the official documentation for redis-py; it often explains expiration times better than blog posts do.
+2. Keep an eye on this risk during code review: serving stale data.
+3. Keep notes on what worked. A short README explaining your decisions about Redis Caching helps the next developer.
+4. Start small by applying Redis Caching to one case, such as caching API responses, before rolling it out more widely.
+5. Measure before you optimize. Use Redis or a simple timer to see where time is actually spent.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+In practice you can start with Redis, then explore redis-py or Memcached as your needs grow.
+
+A solid grasp of Redis Caching also makes Database Replication easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Redis Caching.

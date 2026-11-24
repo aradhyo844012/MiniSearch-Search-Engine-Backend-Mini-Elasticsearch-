@@ -1,0 +1,15 @@
+Load Balancing vs TLS Handshake: Key Differences
+
+Load Balancing and TLS Handshake both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Load Balancing refers to spreading incoming requests across several servers so no single server is overwhelmed. Its core ideas are round robin, health checks, and sticky sessions.
+
+The term TLS Handshake refers to the exchange that lets a client and server agree on keys and set up an encrypted connection. Its core ideas are certificates, cipher suites, and session keys.
+
+The main difference is focus. Load Balancing puts the emphasis on round robin and health checks, while TLS Handshake puts the emphasis on certificates and cipher suites.
+
+Reach for Load Balancing when your task involves scaling web applications or avoiding downtime. Reach for TLS Handshake when your task involves securing websites or protecting API traffic.
+
+Both have risks. With Load Balancing, watch for this: the balancer becoming a single point of failure. With TLS Handshake, watch for this: expired certificates.
+
+In practice you do not always have to choose. Many projects use Load Balancing alongside TLS Handshake, with tools such as NGINX and OpenSSL. Every web request crosses several layers of protocols before it reaches an application.

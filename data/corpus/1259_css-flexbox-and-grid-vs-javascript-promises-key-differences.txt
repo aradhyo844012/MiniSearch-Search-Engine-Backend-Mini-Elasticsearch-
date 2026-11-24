@@ -1,0 +1,15 @@
+CSS Flexbox and Grid vs JavaScript Promises: Key Differences
+
+CSS Flexbox and Grid and JavaScript Promises both belong to the area of Web Development, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term CSS Flexbox and Grid refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. Its core ideas are flex containers, grid tracks, and alignment.
+
+The term JavaScript Promises refers to objects that represent a value that will be available later, after an asynchronous task finishes. Its core ideas are pending and resolved states, then and catch, and async and await.
+
+The main difference is focus. CSS Flexbox and Grid puts the emphasis on flex containers and grid tracks, while JavaScript Promises puts the emphasis on pending and resolved states and then and catch.
+
+Reach for CSS Flexbox and Grid when your task involves navigation bars or card layouts. Reach for JavaScript Promises when your task involves fetching data from APIs or reading files.
+
+Both have risks. With CSS Flexbox and Grid, watch for this: mixing up main and cross axes. With JavaScript Promises, watch for this: forgetting to handle rejections.
+
+In practice you do not always have to choose. Many projects use CSS Flexbox and Grid alongside JavaScript Promises, with tools such as browser grid inspector and fetch API. Browser developer tools are the fastest way to understand why a page behaves as it does.

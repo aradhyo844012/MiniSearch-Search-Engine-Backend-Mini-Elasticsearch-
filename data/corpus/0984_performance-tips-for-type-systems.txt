@@ -1,0 +1,13 @@
+Performance Tips for Type Systems
+
+Fast software rarely happens by accident, and Type Systems offers several places to gain speed. When people talk about Type Systems, they usually mean the rules a language uses to classify values and catch mistakes. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use mypy or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to static and dynamic typing and type inference, because they usually decide how well things scale. For workloads such as catching bugs early, even small improvements add up quickly.
+
+To understand Type Systems, start with static and dynamic typing. Then move on to type inference, and finally look at generics and type annotations. A good way to remember static and dynamic typing is to connect it with a concrete example from your own code.
+
+Keep an eye on this risk during code review: treating annotations as guarantees at runtime. Practice static and dynamic typing with small exercises until it feels natural. Measure before you optimize. Use mypy or a simple timer to see where time is actually spent.
+
+Three issues come up again and again: treating annotations as guarantees at runtime; overusing any types; and fighting the type checker. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Type Systems.

@@ -1,0 +1,13 @@
+A Practical Checklist for Cross-Site Scripting
+
+Use this checklist before you rely on Cross-Site Scripting in a project.
+
+1. Write at least one automated test that covers reflected XSS.
+2. Guard against this risk: missing content security policy.
+3. Guard against this risk: inserting user text as raw HTML.
+4. Confirm that your team agrees on what Cross-Site Scripting should accomplish.
+5. Guard against this risk: trusting client-side filtering.
+6. Review the core ideas: reflected XSS, stored XSS, output encoding, and content security policy.
+7. Review how Cross-Site Scripting interacts with Public Key Cryptography.
+8. Pick a tool to start with, such as OWASP guides or CSP evaluators.
+9. Try the approach on a small case, for example reviewing web forms.

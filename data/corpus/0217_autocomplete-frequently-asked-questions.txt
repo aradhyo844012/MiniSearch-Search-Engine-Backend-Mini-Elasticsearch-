@@ -1,0 +1,19 @@
+Autocomplete: Frequently Asked Questions
+
+Q: What is Autocomplete?
+A: The term Autocomplete refers to suggesting likely completions while a person types a query.
+
+Q: Why do developers use Autocomplete?
+A: Common uses include search boxes, command palettes, and address entry.
+
+Q: How does it relate to Stop Words?
+A: Autocomplete and Stop Words often appear in the same project, and both belong to the area of Search and Retrieval.
+
+Q: What mistakes are most common?
+A: Watch for these: slow suggestions; offensive or irrelevant completions; and ignoring typos in the prefix.
+
+Q: Which tools help?
+A: Popular choices include tries, Redis sorted sets, and Elasticsearch suggesters.
+
+Q: What should a beginner learn first?
+A: Start with prefixes and ranking suggestions, then move on to latency and query logs.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Message Queues
+
+This hands-on tutorial takes you from zero to a small working experiment with Message Queues. If you build software for long enough, you will run into Message Queues. The term refers to systems that let services send work to each other asynchronously through a buffer.
+
+Step 1: Install or open RabbitMQ and create a new empty project folder.
+Step 2: Read about producers and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses consumers.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as sending emails.
+Step 6: Break your example on purpose and see what happens. A good experiment: losing messages without acknowledgements.
+
+Popular tools and libraries include RabbitMQ, Apache Kafka, and Amazon SQS.
+
+If you are comfortable with Message Queues, explore REST APIs next. The two often appear in the same project.
+
+Three issues come up again and again: losing messages without acknowledgements; poison messages that retry forever; and duplicate processing. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Message Queues.

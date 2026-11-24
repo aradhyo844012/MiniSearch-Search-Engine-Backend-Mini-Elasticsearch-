@@ -1,0 +1,16 @@
+Hands-On Tutorial: Getting Started with Stream Processing
+
+This hands-on tutorial takes you from zero to a small working experiment with Stream Processing. When people talk about Stream Processing, they usually mean handling data continuously as it arrives rather than in large batches. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Apache Kafka and create a new empty project folder.
+Step 2: Read about events and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses windows.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as live dashboards.
+Step 6: Break your example on purpose and see what happens. A good experiment: late events.
+
+In practice you can start with Apache Kafka, then explore Apache Flink or Spark Structured Streaming as your needs grow.
+
+Watch out for these problems: late events; losing state after crashes; and duplicate processing.
+
+In short, careful study of Stream Processing pays off. Spend time on events and windows, and the rest will follow.

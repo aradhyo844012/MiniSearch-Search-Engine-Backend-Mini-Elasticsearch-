@@ -1,0 +1,14 @@
+How to Learn Authentication and Sessions in 30 Days
+
+You do not need months to become comfortable with Authentication and Sessions. A focused plan of thirty days is enough to build a solid base. Put simply, Authentication and Sessions covers the process of proving who a user is and remembering them between requests. Learning it well pays off across many areas of computing.
+
+If you are comfortable with Authentication and Sessions, explore REST APIs next. The two often appear in the same project.
+
+Week 1: learn credentials and session cookies, and write a one-page summary.
+Week 2: practice with Flask-Login on a small task such as logging in to web apps.
+Week 3: build a mini project around protecting admin pages.
+Week 4: review common mistakes such as storing session IDs insecurely, and explain Authentication and Sessions to a friend.
+
+In practice you can start with Flask-Login, then explore Django auth or Passport.js as your needs grow.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Authentication and Sessions.

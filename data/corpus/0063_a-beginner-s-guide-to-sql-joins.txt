@@ -1,0 +1,17 @@
+A Beginner's Guide to SQL Joins
+
+This guide is written for readers who are new to SQL Joins and want a clear starting point. If you build software for long enough, you will run into SQL Joins. The term refers to operations that combine rows from two or more tables based on related columns.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries.
+
+The vocabulary of SQL Joins is small. Learn inner join, left join, join conditions, and cartesian products, and most documentation will start to make sense. A good way to remember inner join is to connect it with a concrete example from your own code.
+
+Typical applications include linking customers to orders, building reports, and finding unmatched rows. Small projects and large systems both benefit.
+
+In practice you can start with PostgreSQL, then explore MySQL Workbench or DBeaver as your needs grow.
+
+Three issues come up again and again: forgetting the join condition; duplicating rows by joining on non-unique keys; and filtering in the wrong clause of a left join. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for MySQL Workbench; it often explains left join better than blog posts do. Keep notes on what worked. A short README explaining your decisions about SQL Joins helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with SQL Joins.

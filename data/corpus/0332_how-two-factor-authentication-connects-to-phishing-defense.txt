@@ -1,0 +1,13 @@
+How Two-Factor Authentication Connects to Phishing Defense
+
+Two-Factor Authentication and Phishing Defense are closely connected parts of Security. Seeing how they fit together helps you learn both faster.
+
+A project involving protecting email accounts may also involve protecting employees. In such a project, one-time codes and suspicious links often influence each other.
+
+Start with Two-Factor Authentication: the term refers to requiring a second proof of identity in addition to a password. Then look at Phishing Defense, which refers to recognizing and reducing attacks that trick people into revealing information.
+
+A useful exercise is to take one example, such as securing admin panels, and explain how sender verification would change the design.
+
+Common problems are shared too. For Two-Factor Authentication, watch for this: no recovery plan. For Phishing Defense, watch for this: reusing passwords. Attackers usually choose the easiest weakness, not the most interesting one.
+
+Spend a few hours on each topic, then combine them in one small project using Google Authenticator or SPF.

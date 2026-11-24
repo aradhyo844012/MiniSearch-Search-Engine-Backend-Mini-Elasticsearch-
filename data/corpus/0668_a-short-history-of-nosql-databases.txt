@@ -1,0 +1,11 @@
+A Short History of NoSQL Databases
+
+Ideas behind NoSQL Databases developed gradually as engineers ran into practical limits and shared what they learned. If you build software for long enough, you will run into NoSQL Databases. The term refers to a broad family of databases that do not use the traditional relational table model.
+
+Good schema design is hard to change once real data and users depend on it. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+To understand NoSQL Databases, start with document stores. Then move on to key-value stores, and finally look at column families and graph databases. A good way to remember document stores is to connect it with a concrete example from your own code.
+
+NoSQL Databases and Database Replication are closely related, so learning both gives a fuller picture of Databases.
+
+In short, careful study of NoSQL Databases pays off. Spend time on document stores and key-value stores, and the rest will follow.

@@ -1,0 +1,17 @@
+Best Practices for Autocomplete
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Autocomplete. The term refers to suggesting likely completions while a person types a query.
+
+1. Measure before you optimize. Use tries or a simple timer to see where time is actually spent.
+2. Practice prefixes with small exercises until it feels natural.
+3. Start small by applying Autocomplete to one case, such as search boxes, before rolling it out more widely.
+4. Read the official documentation for Redis sorted sets; it often explains ranking suggestions better than blog posts do.
+5. Write a few tests that show how Autocomplete should behave. Tests double as documentation for your teammates.
+
+Keep an eye on this risk during code review: slow suggestions. Practice prefixes with small exercises until it feels natural.
+
+Popular tools and libraries include tries, Redis sorted sets, and Elasticsearch suggesters.
+
+Autocomplete and BM25 Ranking are closely related, so learning both gives a fuller picture of Search and Retrieval.
+
+Keep experimenting, keep notes, and revisit Autocomplete whenever a new project gives you a reason.

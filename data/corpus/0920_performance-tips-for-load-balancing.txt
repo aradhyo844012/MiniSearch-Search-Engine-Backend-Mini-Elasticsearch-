@@ -1,0 +1,13 @@
+Performance Tips for Load Balancing
+
+Fast software rarely happens by accident, and Load Balancing offers several places to gain speed. If you build software for long enough, you will run into Load Balancing. The term refers to spreading incoming requests across several servers so no single server is overwhelmed.
+
+Start by measuring. Use NGINX or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to round robin and health checks, because they usually decide how well things scale. For workloads such as scaling web applications, even small improvements add up quickly.
+
+Four ideas sit at the heart of Load Balancing: round robin, health checks, sticky sessions, and layer 4 and layer 7. Each one builds on the one before it. Sketching layer 4 and layer 7 on paper before coding helps many learners see how the pieces fit.
+
+Ask a teammate to explain sticky sessions back to you; teaching is a quick way to find gaps. Start small by applying Load Balancing to one case, such as scaling web applications, before rolling it out more widely. Measure before you optimize. Use NGINX or a simple timer to see where time is actually spent.
+
+Watch out for these problems: the balancer becoming a single point of failure; ignoring health checks; and session data stored only on one server.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Load Balancing.

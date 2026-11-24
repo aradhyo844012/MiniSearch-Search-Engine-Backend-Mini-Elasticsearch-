@@ -1,0 +1,19 @@
+Authentication and Sessions: Frequently Asked Questions
+
+Q: What is Authentication and Sessions?
+A: The term Authentication and Sessions refers to the process of proving who a user is and remembering them between requests.
+
+Q: Why do developers use Authentication and Sessions?
+A: Common uses include logging in to web apps, protecting admin pages, and tracking signed-in users.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.
+
+Q: How does it relate to Rate Limiting?
+A: Authentication and Sessions and Rate Limiting often appear in the same project, and both belong to the area of Backend and APIs.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Authentication and Sessions.
+
+Q: What mistakes are most common?
+A: Watch for these: storing session IDs insecurely; never expiring sessions; and trusting client-side checks.

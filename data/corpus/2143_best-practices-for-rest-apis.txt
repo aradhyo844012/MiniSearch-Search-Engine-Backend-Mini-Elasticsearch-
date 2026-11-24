@@ -1,0 +1,17 @@
+Best Practices for REST APIs
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about REST APIs, they usually mean an approach to designing web APIs around resources, URLs and standard HTTP methods. It appears in almost every serious software project, whether or not developers notice it.
+
+If you are comfortable with REST APIs, explore Microservices next. The two often appear in the same project.
+
+1. Read the official documentation for FastAPI; it often explains HTTP verbs better than blog posts do.
+2. Ask a teammate to explain status codes back to you; teaching is a quick way to find gaps.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Practice resources with small exercises until it feels natural.
+5. Keep an eye on this risk during code review: inconsistent naming.
+
+In practice you can start with Flask, then explore FastAPI or Postman as your needs grow.
+
+REST APIs and Microservices are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+In short, careful study of REST APIs pays off. Spend time on resources and HTTP verbs, and the rest will follow.

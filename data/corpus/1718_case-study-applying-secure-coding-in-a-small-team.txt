@@ -1,0 +1,9 @@
+Case Study: Applying Secure Coding in a Small Team
+
+Imagine a small student team building a project that depends on Secure Coding. If you build software for long enough, you will run into Secure Coding. The term refers to writing software in ways that avoid common vulnerabilities.
+
+The team first spent a week learning input validation and least privilege. Early on they hit a familiar problem: trusting user input. After fixing it, they used OWASP Top 10 to check their work and adopted Secure Coding for reviewing pull requests. Looking back, they said the biggest lesson was to document decisions as they went.
+
+Watch out for these problems: trusting user input; committing secrets to repositories; and ignoring outdated libraries.
+
+With steady practice, Secure Coding will stop feeling abstract and become a tool you reach for naturally.

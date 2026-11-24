@@ -1,0 +1,12 @@
+A Practical Checklist for Data Visualization
+
+Use this checklist before you rely on Data Visualization in a project.
+
+1. Measure results before and after any change.
+2. Try the approach on a small case, for example explaining results.
+3. Confirm that your team agrees on what Data Visualization should accomplish.
+4. Guard against this risk: truncated axes.
+5. Review the core ideas: chart types, axes and labels, color choices, and annotations.
+6. Write at least one automated test that covers chart types.
+7. Document your decisions in the project README.
+8. Guard against this risk: too many colors.

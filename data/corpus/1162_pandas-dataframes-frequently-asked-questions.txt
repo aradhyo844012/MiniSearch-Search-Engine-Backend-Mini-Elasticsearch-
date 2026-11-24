@@ -1,0 +1,16 @@
+Pandas DataFrames: Frequently Asked Questions
+
+Q: What is Pandas DataFrames?
+A: The term Pandas DataFrames refers to table-like structures in Python for loading, cleaning and analyzing data.
+
+Q: Which tools help?
+A: Popular choices include pandas, Jupyter, and NumPy.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Pandas DataFrames.
+
+Q: What mistakes are most common?
+A: Watch for these: chained assignment surprises; loading too much data into memory; and forgetting to check data types.
+
+Q: What should a beginner learn first?
+A: Start with rows and columns and indexing, then move on to groupby and merging.

@@ -1,0 +1,13 @@
+Troubleshooting Clean Code Problems
+
+When something breaks around Clean Code, a calm and systematic approach saves the most time. Many students first meet Clean Code in a classroom, but it matters just as much in production systems. The term refers to writing code that other people can read, understand and change easily.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and linters usually reveal the cause faster than guessing.
+
+Common culprits: cryptic abbreviations; functions that do too much; comments that repeat the code. If none of these explains the symptom, re-read the basics of meaningful names and small functions.
+
+Clean Code and Design Patterns are closely related, so learning both gives a fuller picture of Software Engineering.
+
+In practice you can start with linters, then explore formatters or code reviews as your needs grow.
+
+With steady practice, Clean Code will stop feeling abstract and become a tool you reach for naturally.

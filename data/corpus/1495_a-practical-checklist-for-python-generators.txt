@@ -1,0 +1,12 @@
+A Practical Checklist for Python Generators
+
+Use this checklist before you rely on Python Generators in a project.
+
+1. Guard against this risk: consuming a generator twice.
+2. Try the approach on a small case, for example reading large files line by line.
+3. Document your decisions in the project README.
+4. Review the core ideas: yield, lazy evaluation, iterators, and generator expressions.
+5. Measure results before and after any change.
+6. Confirm that your team agrees on what Python Generators should accomplish.
+7. Guard against this risk: hiding errors until iteration.
+8. Guard against this risk: forgetting generators are lazy.

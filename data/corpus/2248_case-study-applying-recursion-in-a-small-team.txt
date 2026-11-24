@@ -1,0 +1,9 @@
+Case Study: Applying Recursion in a Small Team
+
+Imagine a small student team building a project that depends on Recursion. When people talk about Recursion, they usually mean a technique where a function solves a problem by calling itself on smaller inputs. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning base case and recursive case. Early on they hit a familiar problem: missing base cases. After fixing it, they used Python sys.setrecursionlimit to check their work and adopted Recursion for traversing trees. Looking back, they said the biggest lesson was to write tests earlier.
+
+Three issues come up again and again: missing base cases; exceeding the recursion limit; and recomputing the same values. Knowing them in advance saves hours of debugging.
+
+In short, careful study of Recursion pays off. Spend time on base case and recursive case, and the rest will follow.

@@ -1,0 +1,11 @@
+Common Mistakes When Working with Binary Search Trees
+
+Almost everyone makes a few avoidable errors when first working with Binary Search Trees. Put simply, Binary Search Trees covers ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys. Learning it well pays off across many areas of computing.
+
+Beginners often stumble on three things. First: unbalanced trees degrade to linked lists. Second: forgetting to handle duplicate keys. Third: recursive code can overflow the stack on deep trees.
+
+Consider the first problem: unbalanced trees degrade to linked lists. A short test or a careful review comment usually catches it. The second problem is similar: forgetting to handle duplicate keys. The third problem is this: recursive code can overflow the stack on deep trees. It tends to appear only once a project grows, so it is worth planning for early.
+
+Measure before you optimize. Use AVL trees or a simple timer to see where time is actually spent. Automate repetitive steps so that results are easy to reproduce. Practice nodes and links with small exercises until it feels natural.
+
+With steady practice, Binary Search Trees will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,11 @@
+Binary Search Trees Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Binary Search Trees.
+
+- Definition: ordered trees in which each node's left subtree holds smaller keys and its right subtree holds larger keys.
+- Core ideas: nodes and links; in-order traversal; tree height; balancing.
+- Use it for: ordered lookups; range queries; building sorted sets.
+- Watch out for: unbalanced trees degrade to linked lists; forgetting to handle duplicate keys; recursive code can overflow the stack on deep trees.
+- Tools: AVL trees, red-black trees, Java TreeMap.
+- Quick tip: practice nodes and links until it feels automatic.
+- Related topic: Heaps and Priority Queues.

@@ -1,0 +1,21 @@
+Big O Notation Interview Questions and Answers
+
+Prepare for these questions about Big O Notation.
+
+Q: Explain Big O Notation in simple words.
+A: Big O Notation refers to a way of describing how running time or memory grows as the input size grows. I would add an example involving comparing algorithms.
+
+Q: Which tools have you used?
+A: Python timeit, big-O cheat sheets, and profilers.
+
+Q: Where would you apply it first?
+A: I would start with predicting scaling problems, because it is small enough to test and large enough to show the benefit.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: ignoring constant factors entirely.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as upper bounds, and add tests aimed at the known risks.
+
+Q: What are the key concepts?
+A: upper bounds, constant, linear and logarithmic growth, worst case, and amortized cost.

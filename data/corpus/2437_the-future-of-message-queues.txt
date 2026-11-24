@@ -1,0 +1,11 @@
+The Future of Message Queues
+
+Predicting the future is risky, but the direction of Message Queues is easy to describe in general terms. The term Message Queues refers to systems that let services send work to each other asynchronously through a buffer. This article explains the idea in plain language and points out where it fits in real projects.
+
+Good APIs are boring, predictable and well documented. Clear contracts between services make systems easier to change and test.
+
+Expect tools such as RabbitMQ and Apache Kafka to keep improving, and expect newer ideas to keep building on producers. The basics, though, tend to stay the same, so time spent on consumers and acknowledgements is rarely wasted. Anyone working on sending emails will keep meeting Message Queues for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: losing messages without acknowledgements.
+
+In short, careful study of Message Queues pays off. Spend time on producers and consumers, and the rest will follow.

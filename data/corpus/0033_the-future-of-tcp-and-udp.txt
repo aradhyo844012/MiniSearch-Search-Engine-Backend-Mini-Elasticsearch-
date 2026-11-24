@@ -1,0 +1,11 @@
+The Future of TCP and UDP
+
+Predicting the future is risky, but the direction of TCP and UDP is easy to describe in general terms. When people talk about TCP and UDP, they usually mean the two main transport protocols, one reliable and ordered and the other fast and connectionless. It appears in almost every serious software project, whether or not developers notice it.
+
+Latency is limited by distance and by the number of round trips a request needs.
+
+Expect tools such as Wireshark and netcat to keep improving, and expect newer ideas to keep building on handshakes. The basics, though, tend to stay the same, so time spent on acknowledgements and ports is rarely wasted. Anyone working on web traffic will keep meeting TCP and UDP for years to come.
+
+Measure before you optimize. Use Wireshark or a simple timer to see where time is actually spent. Keep notes on what worked. A short README explaining your decisions about TCP and UDP helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with TCP and UDP.

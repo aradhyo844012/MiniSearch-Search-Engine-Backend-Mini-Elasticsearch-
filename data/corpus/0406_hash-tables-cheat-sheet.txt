@@ -1,0 +1,11 @@
+Hash Tables Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Hash Tables.
+
+- Definition: a way of storing key-value pairs so that lookups take roughly constant time.
+- Core ideas: hash function; buckets; collision handling; load factor.
+- Use it for: implementing dictionaries and sets; caching computed results; counting word frequencies.
+- Watch out for: poor hash functions cause clustering; resizing is expensive at scale; iteration order is not always stable.
+- Tools: Python dict, Java HashMap, C++ unordered_map.
+- Quick tip: write a tiny test for buckets before building anything large.
+- Quick tip: practice hash function until it feels automatic.

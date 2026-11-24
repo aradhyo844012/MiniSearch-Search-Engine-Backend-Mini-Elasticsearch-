@@ -1,0 +1,16 @@
+Linked Lists: Frequently Asked Questions
+
+Q: What is Linked Lists?
+A: The term Linked Lists refers to chains of nodes where each node stores a value and a reference to the next node.
+
+Q: Do I need special hardware to practice?
+A: No. A normal laptop and a few small experiments are enough to get comfortable with Linked Lists.
+
+Q: Why do developers use Linked Lists?
+A: Common uses include queues and stacks, undo histories, and memory allocators.
+
+Q: What mistakes are most common?
+A: Watch for these: losing the head pointer; off-by-one errors during insertion; and poor cache locality.
+
+Q: How long does it take to learn?
+A: Most people grasp the basics in a few weeks of steady practice, then deepen their understanding by building projects.

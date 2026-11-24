@@ -1,0 +1,13 @@
+The Trade-offs of Threads and Concurrency
+
+Every design choice has a cost, and Threads and Concurrency is no exception. When people talk about Threads and Concurrency, they usually mean ways of making progress on several tasks at once within a program. It appears in almost every serious software project, whether or not developers notice it.
+
+On the positive side, Threads and Concurrency is well suited to handling many requests and keeping interfaces responsive. On the other hand, it is not free. Keep these risks in mind: forgetting to protect shared data; creating too many threads; mixing up concurrency and parallelism. Whether the trade is worth it depends on how much threads and locks matter to your project.
+
+Three issues come up again and again: forgetting to protect shared data; creating too many threads; and mixing up concurrency and parallelism. Knowing them in advance saves hours of debugging.
+
+Keep an eye on this risk during code review: forgetting to protect shared data. Practice threads with small exercises until it feels natural.
+
+Threads and Concurrency and Linux Command Line are closely related, so learning both gives a fuller picture of Operating Systems.
+
+In short, careful study of Threads and Concurrency pays off. Spend time on threads and locks, and the rest will follow.

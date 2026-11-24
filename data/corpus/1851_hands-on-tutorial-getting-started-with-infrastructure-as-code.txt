@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Infrastructure as Code
+
+This hands-on tutorial takes you from zero to a small working experiment with Infrastructure as Code. When people talk about Infrastructure as Code, they usually mean managing servers and cloud resources through version-controlled configuration files. It appears in almost every serious software project, whether or not developers notice it.
+
+Step 1: Install or open Terraform and create a new empty project folder.
+Step 2: Read about declarative configuration and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses state.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as recreating environments.
+Step 6: Break your example on purpose and see what happens. A good experiment: manual changes causing drift.
+
+In practice you can start with Terraform, then explore Ansible or Pulumi as your needs grow.
+
+Beginners often stumble on three things. First: manual changes causing drift. Second: hard-coded secrets. Third: huge monolithic configurations.
+
+Infrastructure as Code and Kubernetes are closely related, so learning both gives a fuller picture of Cloud and DevOps.
+
+In short, careful study of Infrastructure as Code pays off. Spend time on declarative configuration and state, and the rest will follow.

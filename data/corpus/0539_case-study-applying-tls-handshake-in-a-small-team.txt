@@ -1,0 +1,11 @@
+Case Study: Applying TLS Handshake in a Small Team
+
+Imagine a small student team building a project that depends on TLS Handshake. When people talk about TLS Handshake, they usually mean the exchange that lets a client and server agree on keys and set up an encrypted connection. It appears in almost every serious software project, whether or not developers notice it.
+
+The team first spent a week learning certificates and cipher suites. Early on they hit a familiar problem: expired certificates. After fixing it, they used OpenSSL to check their work and adopted TLS Handshake for securing websites. Looking back, they said the biggest lesson was to measure before optimizing.
+
+If you are comfortable with TLS Handshake, explore Load Balancing next. The two often appear in the same project.
+
+Watch out for these problems: expired certificates; disabling certificate validation; and using outdated protocol versions.
+
+Keep experimenting, keep notes, and revisit TLS Handshake whenever a new project gives you a reason.

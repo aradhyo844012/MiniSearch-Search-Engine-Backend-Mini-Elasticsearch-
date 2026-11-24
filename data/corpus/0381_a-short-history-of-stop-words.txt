@@ -1,0 +1,11 @@
+A Short History of Stop Words
+
+Ideas behind Stop Words developed gradually as engineers ran into practical limits and shared what they learned. The term Stop Words refers to very common words such as the and of that are often ignored by search systems. This article explains the idea in plain language and points out where it fits in real projects.
+
+Search quality depends on how text is prepared before it is ever indexed. Users judge a search engine by whether the right result appears near the top.
+
+To understand Stop Words, start with frequency lists. Then move on to index size, and finally look at query relevance and language-specific lists. Understanding index size first often makes query relevance much easier to reason about.
+
+A solid grasp of Stop Words also makes Inverted Index easier to understand.
+
+With steady practice, Stop Words will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,17 @@
+A Beginner's Guide to Refactoring
+
+This guide is written for readers who are new to Refactoring and want a clear starting point. Put simply, Refactoring covers improving the structure of existing code without changing its behavior. Learning it well pays off across many areas of computing.
+
+Software spends most of its life being changed, not written for the first time. Readable code saves more time than clever code over the long run.
+
+To understand Refactoring, start with small steps. Then move on to tests as a safety net, and finally look at extracting functions and renaming. Understanding tests as a safety net first often makes extracting functions much easier to reason about.
+
+A team working on reducing duplication might adopt Refactoring after hitting the limits of a simpler approach. Other teams turn to it for preparing for new features or simplifying complex code.
+
+Popular tools and libraries include IDE refactoring tools, pytest, and linters.
+
+Three issues come up again and again: refactoring without tests; mixing refactoring with new features; and rewriting instead of improving. Knowing them in advance saves hours of debugging.
+
+Measure before you optimize. Use IDE refactoring tools or a simple timer to see where time is actually spent. Keep an eye on this risk during code review: refactoring without tests. Read the official documentation for pytest; it often explains tests as a safety net better than blog posts do.
+
+In short, careful study of Refactoring pays off. Spend time on small steps and tests as a safety net, and the rest will follow.

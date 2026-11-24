@@ -1,0 +1,18 @@
+Tries Interview Questions and Answers
+
+Prepare for these questions about Tries.
+
+Q: Explain Tries in simple words.
+A: Tries refers to tree structures that store strings character by character so shared prefixes are stored once. I would add an example involving autocomplete.
+
+Q: How does it connect to Linked Lists?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: Which tools have you used?
+A: Python dict-based tries, Java TreeMap, and pygtrie.
+
+Q: What are the key concepts?
+A: prefix sharing, nodes and edges, end-of-word markers, and alphabet size.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as prefix sharing, and add tests aimed at the known risks.

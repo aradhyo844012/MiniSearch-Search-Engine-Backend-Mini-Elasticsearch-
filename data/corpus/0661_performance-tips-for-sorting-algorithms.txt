@@ -1,0 +1,13 @@
+Performance Tips for Sorting Algorithms
+
+Fast software rarely happens by accident, and Sorting Algorithms offers several places to gain speed. Put simply, Sorting Algorithms covers methods for arranging items in a defined order. Learning it well pays off across many areas of computing.
+
+Start by measuring. Use Python sorted or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to comparison sorts and stability, because they usually decide how well things scale. For workloads such as ordering search results, even small improvements add up quickly.
+
+Four ideas sit at the heart of Sorting Algorithms: comparison sorts, stability, divide and conquer, and in-place sorting. Each one builds on the one before it. A good way to remember comparison sorts is to connect it with a concrete example from your own code.
+
+Ask a teammate to explain divide and conquer back to you; teaching is a quick way to find gaps. Read the official documentation for Java Arrays.sort; it often explains stability better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+Beginners often stumble on three things. First: assuming every sort is stable. Second: sorting everything when a partial order is enough. Third: ignoring worst-case input.
+
+In short, careful study of Sorting Algorithms pays off. Spend time on comparison sorts and stability, and the rest will follow.

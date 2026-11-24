@@ -1,0 +1,11 @@
+The Trade-offs of Query Optimization
+
+Every design choice has a cost, and Query Optimization is no exception. Many students first meet Query Optimization in a classroom, but it matters just as much in production systems. The term refers to the process of making database queries return results with less time and fewer resources.
+
+On the positive side, Query Optimization is well suited to speeding up dashboards and reducing server load. On the other hand, it is not free. Keep these risks in mind: selecting more columns than needed; running queries inside loops; guessing instead of reading the plan. Whether the trade is worth it depends on how much query plans and statistics matter to your project.
+
+Beginners often stumble on three things. First: selecting more columns than needed. Second: running queries inside loops. Third: guessing instead of reading the plan.
+
+Read the official documentation for pg_stat_statements; it often explains statistics better than blog posts do. Measure before you optimize. Use EXPLAIN ANALYZE or a simple timer to see where time is actually spent. Start small by applying Query Optimization to one case, such as speeding up dashboards, before rolling it out more widely.
+
+In short, careful study of Query Optimization pays off. Spend time on query plans and statistics, and the rest will follow.

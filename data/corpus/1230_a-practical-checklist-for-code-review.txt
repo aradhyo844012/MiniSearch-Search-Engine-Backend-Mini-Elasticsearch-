@@ -1,0 +1,13 @@
+A Practical Checklist for Code Review
+
+Use this checklist before you rely on Code Review in a project.
+
+1. Guard against this risk: huge pull requests.
+2. Review how Code Review interacts with Design Patterns.
+3. Pick a tool to start with, such as GitHub pull requests or GitLab merge requests.
+4. Measure results before and after any change.
+5. Write at least one automated test that covers pull requests.
+6. Guard against this risk: vague comments.
+7. Try the approach on a small case, for example catching bugs early.
+8. Ask a teammate to review the work, focusing on review comments.
+9. Review the core ideas: pull requests, review comments, checklists, and approvals.

@@ -1,0 +1,13 @@
+The Future of Technical Debt
+
+Predicting the future is risky, but the direction of Technical Debt is easy to describe in general terms. Put simply, Technical Debt covers the future cost of shortcuts taken in code, design or documentation. Learning it well pays off across many areas of computing.
+
+Teams succeed when they agree on a few simple practices and follow them consistently.
+
+Teams succeed when they agree on a few simple practices and follow them consistently. Software spends most of its life being changed, not written for the first time.
+
+Expect tools such as SonarQube and issue trackers to keep improving, and expect newer ideas to keep building on shortcuts. The basics, though, tend to stay the same, so time spent on interest and refactoring backlog is rarely wasted. Anyone working on deciding when to cut corners will keep meeting Technical Debt for years to come.
+
+Keep an eye on this risk during code review: never paying it down. Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Technical Debt should behave. Tests double as documentation for your teammates.
+
+In short, careful study of Technical Debt pays off. Spend time on shortcuts and interest, and the rest will follow.

@@ -1,0 +1,13 @@
+How Kubernetes Connects to Serverless Computing
+
+Kubernetes and Serverless Computing are closely connected parts of Cloud and DevOps. Seeing how they fit together helps you learn both faster.
+
+A project involving running many containers may also involve webhooks. In such a project, pods and functions often influence each other.
+
+Start with Kubernetes: the term refers to a system for deploying, scaling and managing containerized applications. Then look at Serverless Computing, which refers to running code in managed functions without maintaining servers yourself.
+
+A useful exercise is to take one example, such as rolling updates, and explain how event triggers would change the design.
+
+Common problems are shared too. For Kubernetes, watch for this: over-complicated setups. For Serverless Computing, watch for this: vendor lock-in. Small, frequent releases are usually safer than rare, large ones.
+
+Spend a few hours on each topic, then combine them in one small project using kubectl or AWS Lambda.

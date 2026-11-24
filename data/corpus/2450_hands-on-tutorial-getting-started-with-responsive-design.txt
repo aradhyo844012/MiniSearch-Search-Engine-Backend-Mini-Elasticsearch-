@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Responsive Design
+
+This hands-on tutorial takes you from zero to a small working experiment with Responsive Design. Many students first meet Responsive Design in a classroom, but it matters just as much in production systems. The term refers to building pages that adapt smoothly to phones, tablets and large screens.
+
+Accessible design helps everyone, including people on slow connections or small screens. Small improvements in markup and styling often have a large effect on usability.
+
+Step 1: Install or open Chrome DevTools device mode and create a new empty project folder.
+Step 2: Read about media queries and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses fluid grids.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as websites used on many devices.
+Step 6: Break your example on purpose and see what happens. A good experiment: testing only on one screen size.
+
+Popular tools and libraries include Chrome DevTools device mode, Bootstrap grid, and Lighthouse.
+
+Three issues come up again and again: testing only on one screen size; tiny touch targets; and horizontal scrolling. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Responsive Design.

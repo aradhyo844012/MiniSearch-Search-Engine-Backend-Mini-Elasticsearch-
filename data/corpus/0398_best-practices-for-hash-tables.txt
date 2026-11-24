@@ -1,0 +1,15 @@
+Best Practices for Hash Tables
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Hash Tables covers a way of storing key-value pairs so that lookups take roughly constant time. Learning it well pays off across many areas of computing.
+
+1. Ask a teammate to explain collision handling back to you; teaching is a quick way to find gaps.
+2. Practice hash function with small exercises until it feels natural.
+3. Keep an eye on this risk during code review: poor hash functions cause clustering.
+4. Start small by applying Hash Tables to one case, such as implementing dictionaries and sets, before rolling it out more widely.
+5. Read the official documentation for Java HashMap; it often explains buckets better than blog posts do.
+
+In practice you can start with Python dict, then explore Java HashMap or C++ unordered_map as your needs grow.
+
+A solid grasp of Hash Tables also makes Big O Notation easier to understand.
+
+In short, careful study of Hash Tables pays off. Spend time on hash function and buckets, and the rest will follow.

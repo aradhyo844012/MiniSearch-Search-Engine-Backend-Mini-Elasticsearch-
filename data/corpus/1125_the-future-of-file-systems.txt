@@ -1,0 +1,11 @@
+The Future of File Systems
+
+Predicting the future is risky, but the direction of File Systems is easy to describe in general terms. If you build software for long enough, you will run into File Systems. The term refers to the part of an operating system that organizes how data is stored and found on disk.
+
+Resource limits such as memory, file handles and processes are easy to forget until they run out. Understanding what the kernel does explains many surprising performance problems.
+
+Expect tools such as ext4 and NTFS to keep improving, and expect newer ideas to keep building on files and directories. The basics, though, tend to stay the same, so time spent on inodes and permissions is rarely wasted. Anyone working on storing documents will keep meeting File Systems for years to come.
+
+Automate repetitive steps so that results are easy to reproduce. Keep notes on what worked. A short README explaining your decisions about File Systems helps the next developer. Ask a teammate to explain permissions back to you; teaching is a quick way to find gaps.
+
+With steady practice, File Systems will stop feeling abstract and become a tool you reach for naturally.

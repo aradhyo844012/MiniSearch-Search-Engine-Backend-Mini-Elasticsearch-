@@ -1,0 +1,11 @@
+Site Reliability Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Site Reliability.
+
+- Definition: the discipline of keeping services dependable using engineering practices.
+- Core ideas: service level objectives; error budgets; incident response; postmortems.
+- Use it for: running production services; reducing outages; planning on-call rotations.
+- Watch out for: alerting on everything; blaming people instead of systems; no written postmortems.
+- Tools: PagerDuty, Prometheus, runbooks.
+- Related topic: CI/CD Pipelines.
+- Quick tip: practice service level objectives until it feels automatic.

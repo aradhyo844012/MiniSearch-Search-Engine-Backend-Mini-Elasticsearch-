@@ -1,0 +1,15 @@
+Inside Browser Rendering: How It Works
+
+This article walks through what happens inside Browser Rendering, step by step. When people talk about Browser Rendering, they usually mean the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. It appears in almost every serious software project, whether or not developers notice it.
+
+Four ideas sit at the heart of Browser Rendering: DOM construction, style calculation, layout, and painting. Each one builds on the one before it. Sketching painting on paper before coding helps many learners see how the pieces fit.
+
+First, DOM construction sets the stage for everything else. Next, style calculation builds on it. After that, layout comes into play, and finally painting ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Browser developer tools are the fastest way to understand why a page behaves as it does.
+
+If you are comfortable with Browser Rendering, explore CSS Flexbox and Grid next. The two often appear in the same project.
+
+A solid grasp of Browser Rendering also makes CSS Flexbox and Grid easier to understand.
+
+With steady practice, Browser Rendering will stop feeling abstract and become a tool you reach for naturally.

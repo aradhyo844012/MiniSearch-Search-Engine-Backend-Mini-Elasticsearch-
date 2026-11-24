@@ -1,0 +1,13 @@
+Troubleshooting Gradient Descent Problems
+
+When something breaks around Gradient Descent, a calm and systematic approach saves the most time. The term Gradient Descent refers to an optimization method that improves a model by repeatedly stepping in the direction that reduces error. This article explains the idea in plain language and points out where it fits in real projects.
+
+A solid grasp of Gradient Descent also makes Linear Regression easier to understand.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and PyTorch usually reveal the cause faster than guessing.
+
+Common culprits: learning rates that are too large; getting stuck on plateaus; unscaled features. If none of these explains the symptom, re-read the basics of learning rate and gradients.
+
+Popular tools and libraries include PyTorch, NumPy, and TensorFlow.
+
+With steady practice, Gradient Descent will stop feeling abstract and become a tool you reach for naturally.

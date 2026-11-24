@@ -1,0 +1,13 @@
+How BM25 Ranking Connects to Stop Words
+
+BM25 Ranking and Stop Words are closely connected parts of Search and Retrieval. Seeing how they fit together helps you learn both faster.
+
+A project involving ranking search results may also involve shrinking indexes. In such a project, term saturation and frequency lists often influence each other.
+
+Start with BM25 Ranking: the term refers to a ranking function that improves on plain term frequency with saturation and length normalization. Then look at Stop Words, which refers to very common words such as the and of that are often ignored by search systems.
+
+A useful exercise is to take one example, such as enterprise search, and explain how index size would change the design.
+
+Common problems are shared too. For BM25 Ranking, watch for this: ignoring field boundaries. For Stop Words, watch for this: using the wrong language list. Users judge a search engine by whether the right result appears near the top.
+
+Spend a few hours on each topic, then combine them in one small project using Elasticsearch or NLTK stopwords.

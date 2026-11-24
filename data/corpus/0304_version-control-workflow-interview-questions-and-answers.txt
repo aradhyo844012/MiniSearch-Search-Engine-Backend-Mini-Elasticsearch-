@@ -1,0 +1,21 @@
+Version Control Workflow Interview Questions and Answers
+
+Prepare for these questions about Version Control Workflow.
+
+Q: Explain Version Control Workflow in simple words.
+A: Version Control Workflow refers to the habits and rules a team uses to track and combine changes to code. I would add an example involving collaborating on shared code.
+
+Q: Which tools have you used?
+A: Git, GitHub, and pre-commit hooks.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as commits, and add tests aimed at the known risks.
+
+Q: How does it connect to Code Review?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: vague commit messages.
+
+Q: What are the key concepts?
+A: commits, branches, tags, and release process.

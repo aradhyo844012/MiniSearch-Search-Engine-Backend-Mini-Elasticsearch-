@@ -1,0 +1,15 @@
+DNS vs IP Addressing and Subnets: Key Differences
+
+DNS and IP Addressing and Subnets both belong to the area of Networking, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term DNS refers to the system that translates human-friendly domain names into IP addresses. Its core ideas are resolvers, records, and caching and TTL.
+
+The term IP Addressing and Subnets refers to the rules for numbering devices on a network and dividing networks into smaller parts. Its core ideas are IPv4 and IPv6, subnet masks, and CIDR notation.
+
+The main difference is focus. DNS puts the emphasis on resolvers and records, while IP Addressing and Subnets puts the emphasis on IPv4 and IPv6 and subnet masks.
+
+Reach for DNS when your task involves mapping domains to servers or email routing. Reach for IP Addressing and Subnets when your task involves planning office networks or configuring cloud networks.
+
+Both have risks. With DNS, watch for this: forgetting TTLs when migrating. With IP Addressing and Subnets, watch for this: overlapping address ranges.
+
+In practice you do not always have to choose. Many projects use DNS alongside IP Addressing and Subnets, with tools such as dig and ipcalc. Latency is limited by distance and by the number of round trips a request needs.

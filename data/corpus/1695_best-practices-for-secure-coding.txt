@@ -1,0 +1,17 @@
+Best Practices for Secure Coding
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Secure Coding in a classroom, but it matters just as much in production systems. The term refers to writing software in ways that avoid common vulnerabilities.
+
+1. Read the official documentation for static analysis tools; it often explains least privilege better than blog posts do.
+2. Measure before you optimize. Use OWASP Top 10 or a simple timer to see where time is actually spent.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Practice input validation with small exercises until it feels natural.
+5. Ask a teammate to explain dependency updates back to you; teaching is a quick way to find gaps.
+
+Automate repetitive steps so that results are easy to reproduce. Practice input validation with small exercises until it feels natural. Write a few tests that show how Secure Coding should behave. Tests double as documentation for your teammates.
+
+In practice you can start with OWASP Top 10, then explore static analysis tools or Dependabot as your needs grow.
+
+If you are comfortable with Secure Coding, explore Cross-Site Scripting next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Secure Coding.

@@ -1,0 +1,18 @@
+Hands-On Tutorial: Getting Started with Threads and Concurrency
+
+This hands-on tutorial takes you from zero to a small working experiment with Threads and Concurrency. If you build software for long enough, you will run into Threads and Concurrency. The term refers to ways of making progress on several tasks at once within a program.
+
+Step 1: Install or open Python threading and create a new empty project folder.
+Step 2: Read about threads and write down a definition in your own words.
+Step 3: Build the smallest possible example that uses locks.
+Step 4: Add one test or print statement that proves it works.
+Step 5: Extend the example to handle a case such as handling many requests.
+Step 6: Break your example on purpose and see what happens. A good experiment: forgetting to protect shared data.
+
+Keep an eye on this risk during code review: forgetting to protect shared data. Write a few tests that show how Threads and Concurrency should behave. Tests double as documentation for your teammates.
+
+In practice you can start with Python threading, then explore Java ExecutorService or asyncio as your needs grow.
+
+Three issues come up again and again: forgetting to protect shared data; creating too many threads; and mixing up concurrency and parallelism. Knowing them in advance saves hours of debugging.
+
+Keep experimenting, keep notes, and revisit Threads and Concurrency whenever a new project gives you a reason.

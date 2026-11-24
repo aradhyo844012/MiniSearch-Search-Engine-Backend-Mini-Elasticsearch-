@@ -1,0 +1,13 @@
+The Trade-offs of Mobile App Performance
+
+Every design choice has a cost, and Mobile App Performance is no exception. Many students first meet Mobile App Performance in a classroom, but it matters just as much in production systems. The term refers to making mobile apps start quickly, run smoothly and use little battery.
+
+On the positive side, Mobile App Performance is well suited to smoother scrolling and longer battery life. On the other hand, it is not free. Keep these risks in mind: loading everything at startup; large images; too many background tasks. Whether the trade is worth it depends on how much startup time and frame rate matter to your project.
+
+Mobile App Performance and Android Basics are closely related, so learning both gives a fuller picture of Mobile Development.
+
+Watch out for these problems: loading everything at startup; large images; and too many background tasks.
+
+Read the official documentation for Xcode Instruments; it often explains frame rate better than blog posts do. Measure before you optimize. Use Android Profiler or a simple timer to see where time is actually spent. Start small by applying Mobile App Performance to one case, such as smoother scrolling, before rolling it out more widely.
+
+In short, careful study of Mobile App Performance pays off. Spend time on startup time and frame rate, and the rest will follow.

@@ -1,0 +1,13 @@
+Inside CDNs: How It Works
+
+This article walks through what happens inside CDNs, step by step. Put simply, CDNs covers networks of servers around the world that deliver static content from a location close to the user. Learning it well pays off across many areas of computing.
+
+To understand CDNs, start with edge servers. Then move on to cache rules, and finally look at origin servers and cache purging. Understanding cache rules first often makes origin servers much easier to reason about.
+
+First, edge servers sets the stage for everything else. Next, cache rules builds on it. After that, origin servers comes into play, and finally cache purging ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Every web request crosses several layers of protocols before it reaches an application.
+
+If you are comfortable with CDNs, explore DNS next. The two often appear in the same project.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with CDNs.

@@ -1,0 +1,18 @@
+Dynamic Programming Interview Questions and Answers
+
+Prepare for these questions about Dynamic Programming.
+
+Q: Explain Dynamic Programming in simple words.
+A: Dynamic Programming refers to a technique for solving problems by storing the answers to overlapping subproblems. I would add an example involving computing edit distance.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: defining the state incorrectly.
+
+Q: How does it connect to Graph Traversal?
+A: Both belong to the area of Data Structures and Algorithms, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as overlapping subproblems, and add tests aimed at the known risks.
+
+Q: Which tools have you used?
+A: Python functools.lru_cache, NumPy, and spreadsheets for small tables.

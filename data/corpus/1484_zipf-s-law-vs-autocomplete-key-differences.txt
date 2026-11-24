@@ -1,0 +1,15 @@
+Zipf's Law vs Autocomplete: Key Differences
+
+Zipf's Law and Autocomplete both belong to the area of Search and Retrieval, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Zipf's Law refers to the observation that a word's frequency is roughly inversely related to its rank in natural language. Its core ideas are rank and frequency, power laws, and log-log plots.
+
+The term Autocomplete refers to suggesting likely completions while a person types a query. Its core ideas are prefixes, ranking suggestions, and latency.
+
+The main difference is focus. Zipf's Law puts the emphasis on rank and frequency and power laws, while Autocomplete puts the emphasis on prefixes and ranking suggestions.
+
+Reach for Zipf's Law when your task involves analyzing text corpora or sizing indexes. Reach for Autocomplete when your task involves search boxes or command palettes.
+
+Both have risks. With Zipf's Law, watch for this: testing it on random text. With Autocomplete, watch for this: slow suggestions.
+
+In practice you do not always have to choose. Many projects use Zipf's Law alongside Autocomplete, with tools such as matplotlib and tries. Real query logs reveal what people actually look for, which is rarely what designers expect.

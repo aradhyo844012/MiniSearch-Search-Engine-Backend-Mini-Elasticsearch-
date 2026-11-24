@@ -1,0 +1,13 @@
+Inside TCP and UDP: How It Works
+
+This article walks through what happens inside TCP and UDP, step by step. Put simply, TCP and UDP covers the two main transport protocols, one reliable and ordered and the other fast and connectionless. Learning it well pays off across many areas of computing.
+
+To understand TCP and UDP, start with handshakes. Then move on to acknowledgements, and finally look at ports and congestion control. A good way to remember handshakes is to connect it with a concrete example from your own code.
+
+First, handshakes sets the stage for everything else. Next, acknowledgements builds on it. After that, ports comes into play, and finally congestion control ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Simple command-line tools can reveal a lot about what is happening on the wire. Every web request crosses several layers of protocols before it reaches an application.
+
+If you are comfortable with TCP and UDP, explore Load Balancing next. The two often appear in the same project.
+
+Keep experimenting, keep notes, and revisit TCP and UDP whenever a new project gives you a reason.

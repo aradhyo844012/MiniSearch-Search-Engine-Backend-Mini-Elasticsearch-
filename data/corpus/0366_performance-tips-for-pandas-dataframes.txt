@@ -1,0 +1,15 @@
+Performance Tips for Pandas DataFrames
+
+Fast software rarely happens by accident, and Pandas DataFrames offers several places to gain speed. If you build software for long enough, you will run into Pandas DataFrames. The term refers to table-like structures in Python for loading, cleaning and analyzing data.
+
+Start by measuring. Use pandas or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to rows and columns and indexing, because they usually decide how well things scale. For workloads such as loading CSV files, even small improvements add up quickly.
+
+The vocabulary of Pandas DataFrames is small. Learn rows and columns, indexing, groupby, and merging, and most documentation will start to make sense. A good way to remember rows and columns is to connect it with a concrete example from your own code.
+
+Read the official documentation for Jupyter; it often explains indexing better than blog posts do. Keep an eye on this risk during code review: chained assignment surprises. Keep notes on what worked. A short README explaining your decisions about Pandas DataFrames helps the next developer.
+
+Three issues come up again and again: chained assignment surprises; loading too much data into memory; and forgetting to check data types. Knowing them in advance saves hours of debugging.
+
+A solid grasp of Pandas DataFrames also makes Stream Processing easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Pandas DataFrames.

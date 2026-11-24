@@ -1,0 +1,17 @@
+Best Practices for File Systems
+
+The practices below come from patterns that tend to work well across many teams and projects. When people talk about File Systems, they usually mean the part of an operating system that organizes how data is stored and found on disk. It appears in almost every serious software project, whether or not developers notice it.
+
+1. Measure before you optimize. Use ext4 or a simple timer to see where time is actually spent.
+2. Read the official documentation for NTFS; it often explains inodes better than blog posts do.
+3. Practice files and directories with small exercises until it feels natural.
+4. Write a few tests that show how File Systems should behave. Tests double as documentation for your teammates.
+5. Ask a teammate to explain permissions back to you; teaching is a quick way to find gaps.
+
+Start small by applying File Systems to one case, such as storing documents, before rolling it out more widely. Ask a teammate to explain permissions back to you; teaching is a quick way to find gaps. Practice files and directories with small exercises until it feels natural.
+
+In practice you can start with ext4, then explore NTFS or df and du as your needs grow.
+
+File Systems and Deadlocks are closely related, so learning both gives a fuller picture of Operating Systems.
+
+In short, careful study of File Systems pays off. Spend time on files and directories and inodes, and the rest will follow.

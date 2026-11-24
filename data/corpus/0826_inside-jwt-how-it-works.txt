@@ -1,0 +1,15 @@
+Inside JWT: How It Works
+
+This article walks through what happens inside JWT, step by step. When people talk about JWT, they usually mean a compact token format that carries signed claims between a client and a server. It appears in almost every serious software project, whether or not developers notice it.
+
+Good APIs are boring, predictable and well documented.
+
+Four ideas sit at the heart of JWT: header, payload and signature, claims, expiry, and signing keys. Each one builds on the one before it. Understanding claims first often makes expiry much easier to reason about.
+
+First, header, payload and signature sets the stage for everything else. Next, claims builds on it. After that, expiry comes into play, and finally signing keys ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+A backend turns requests from many clients into reliable, consistent responses.
+
+A solid grasp of JWT also makes REST APIs easier to understand.
+
+Keep experimenting, keep notes, and revisit JWT whenever a new project gives you a reason.

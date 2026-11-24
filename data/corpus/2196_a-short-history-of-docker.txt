@@ -1,0 +1,11 @@
+A Short History of Docker
+
+Ideas behind Docker developed gradually as engineers ran into practical limits and shared what they learned. When people talk about Docker, they usually mean a platform for building and running applications in containers. It appears in almost every serious software project, whether or not developers notice it.
+
+Automation turns risky manual steps into repeatable and reviewable processes.
+
+The vocabulary of Docker is small. Learn Dockerfile, image layers, volumes, and networks, and most documentation will start to make sense. Understanding image layers first often makes volumes much easier to reason about.
+
+A solid grasp of Docker also makes Kubernetes easier to understand.
+
+Keep experimenting, keep notes, and revisit Docker whenever a new project gives you a reason.

@@ -1,0 +1,15 @@
+Performance Tips for Tokenization
+
+Fast software rarely happens by accident, and Tokenization offers several places to gain speed. Many students first meet Tokenization in a classroom, but it matters just as much in production systems. The term refers to splitting text into smaller units such as words that a program can count and compare.
+
+Start by measuring. Use Python re module or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to lowercasing and splitting on punctuation, because they usually decide how well things scale. For workloads such as indexing documents, even small improvements add up quickly.
+
+Users judge a search engine by whether the right result appears near the top. Fast search comes from precomputing structures so that queries do very little work.
+
+The vocabulary of Tokenization is small. Learn lowercasing, splitting on punctuation, stop words, and normalization, and most documentation will start to make sense. Understanding splitting on punctuation first often makes stop words much easier to reason about.
+
+Ask a teammate to explain stop words back to you; teaching is a quick way to find gaps. Start small by applying Tokenization to one case, such as indexing documents, before rolling it out more widely.
+
+Three issues come up again and again: different rules for indexing and querying; dropping useful numbers; and breaking on apostrophes badly. Knowing them in advance saves hours of debugging.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Tokenization.

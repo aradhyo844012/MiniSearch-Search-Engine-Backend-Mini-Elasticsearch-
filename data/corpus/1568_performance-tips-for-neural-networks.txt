@@ -1,0 +1,15 @@
+Performance Tips for Neural Networks
+
+Fast software rarely happens by accident, and Neural Networks offers several places to gain speed. When people talk about Neural Networks, they usually mean models made of layers of connected units that learn patterns from data. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use PyTorch or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to layers and weights, because they usually decide how well things scale. For workloads such as image recognition, even small improvements add up quickly.
+
+To understand Neural Networks, start with layers. Then move on to weights, and finally look at activation functions and backpropagation. Understanding weights first often makes activation functions much easier to reason about.
+
+Start small by applying Neural Networks to one case, such as image recognition, before rolling it out more widely. Ask a teammate to explain activation functions back to you; teaching is a quick way to find gaps. Automate repetitive steps so that results are easy to reproduce.
+
+Keep an eye on this risk during code review: too little training data. Ask a teammate to explain activation functions back to you; teaching is a quick way to find gaps.
+
+Beginners often stumble on three things. First: too little training data. Second: poor learning rate choices. Third: not monitoring validation loss.
+
+Keep experimenting, keep notes, and revisit Neural Networks whenever a new project gives you a reason.

@@ -1,0 +1,17 @@
+Best Practices for SQL Joins
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into SQL Joins. The term refers to operations that combine rows from two or more tables based on related columns.
+
+1. Practice inner join with small exercises until it feels natural.
+2. Ask a teammate to explain join conditions back to you; teaching is a quick way to find gaps.
+3. Write a few tests that show how SQL Joins should behave. Tests double as documentation for your teammates.
+4. Keep notes on what worked. A short README explaining your decisions about SQL Joins helps the next developer.
+5. Read the official documentation for MySQL Workbench; it often explains left join better than blog posts do.
+
+In practice you can start with PostgreSQL, then explore MySQL Workbench or DBeaver as your needs grow.
+
+Measure before you optimize. Use PostgreSQL or a simple timer to see where time is actually spent. Read the official documentation for MySQL Workbench; it often explains left join better than blog posts do. Automate repetitive steps so that results are easy to reproduce.
+
+A solid grasp of SQL Joins also makes Query Optimization easier to understand.
+
+Keep experimenting, keep notes, and revisit SQL Joins whenever a new project gives you a reason.

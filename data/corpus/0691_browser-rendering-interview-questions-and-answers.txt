@@ -1,0 +1,18 @@
+Browser Rendering Interview Questions and Answers
+
+Prepare for these questions about Browser Rendering.
+
+Q: Explain Browser Rendering in simple words.
+A: Browser Rendering refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen. I would add an example involving explaining slow pages.
+
+Q: Which tools have you used?
+A: Chrome DevTools Performance panel, Lighthouse, and WebPageTest.
+
+Q: How does it connect to Web Accessibility?
+A: Both belong to the area of Web Development, and understanding one makes the other easier to learn.
+
+Q: What problems have you seen in practice?
+A: blocking scripts in the head; forcing repeated layouts; and loading huge images.
+
+Q: Where would you apply it first?
+A: I would start with designing smooth animations, because it is small enough to test and large enough to show the benefit.

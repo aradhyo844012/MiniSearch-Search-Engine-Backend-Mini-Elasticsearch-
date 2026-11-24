@@ -1,0 +1,13 @@
+Common Mistakes When Working with OAuth 2.0
+
+Almost everyone makes a few avoidable errors when first working with OAuth 2.0. The term OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords. This article explains the idea in plain language and points out where it fits in real projects.
+
+Watch out for these problems: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely.
+
+Consider the first problem: loose redirect URI checks. A short test or a careful review comment usually catches it. The second problem is similar: requesting excessive scopes. The third problem is this: storing tokens insecurely. It tends to appear only once a project grows, so it is worth planning for early.
+
+Keep an eye on this risk during code review: loose redirect URI checks. Keep notes on what worked. A short README explaining your decisions about OAuth 2.0 helps the next developer.
+
+Ask a teammate to explain scopes back to you; teaching is a quick way to find gaps. Read the official documentation for Keycloak; it often explains access tokens better than blog posts do. Measure before you optimize. Use Auth0 or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit OAuth 2.0 whenever a new project gives you a reason.

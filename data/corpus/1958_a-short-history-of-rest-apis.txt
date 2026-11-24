@@ -1,0 +1,11 @@
+A Short History of REST APIs
+
+Ideas behind REST APIs developed gradually as engineers ran into practical limits and shared what they learned. Many students first meet REST APIs in a classroom, but it matters just as much in production systems. The term refers to an approach to designing web APIs around resources, URLs and standard HTTP methods.
+
+A backend turns requests from many clients into reliable, consistent responses. Clear contracts between services make systems easier to change and test.
+
+Four ideas sit at the heart of REST APIs: resources, HTTP verbs, status codes, and statelessness. Each one builds on the one before it. A good way to remember resources is to connect it with a concrete example from your own code.
+
+REST APIs and JWT are closely related, so learning both gives a fuller picture of Backend and APIs.
+
+In short, careful study of REST APIs pays off. Spend time on resources and HTTP verbs, and the rest will follow.

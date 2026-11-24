@@ -1,0 +1,13 @@
+A Practical Checklist for SQL Joins
+
+Use this checklist before you rely on SQL Joins in a project.
+
+1. Pick a tool to start with, such as PostgreSQL or MySQL Workbench.
+2. Guard against this risk: forgetting the join condition.
+3. Ask a teammate to review the work, focusing on left join.
+4. Document your decisions in the project README.
+5. Confirm that your team agrees on what SQL Joins should accomplish.
+6. Measure results before and after any change.
+7. Guard against this risk: filtering in the wrong clause of a left join.
+8. Write at least one automated test that covers inner join.
+9. Try the approach on a small case, for example linking customers to orders.

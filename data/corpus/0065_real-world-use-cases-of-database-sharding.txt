@@ -1,0 +1,15 @@
+Real-World Use Cases of Database Sharding
+
+The best way to appreciate Database Sharding is to see where it is actually used. The term Database Sharding refers to splitting a large dataset across several databases so each holds only part of it. This article explains the idea in plain language and points out where it fits in real projects.
+
+People use Database Sharding for scaling beyond one server, for isolating tenants, and for spreading write load.
+
+Data that must survive restarts and crashes belongs in a database rather than in memory. Backups are only useful if restoring from them has been tested.
+
+Consider scaling beyond one server. In a case like this, Database Sharding gives the work a clear structure, and understanding shard keys makes the design easier to explain. A different example is isolating tenants, where routing often decides how well the solution scales.
+
+Most slow pages in data-driven applications trace back to a handful of slow queries. Data that must survive restarts and crashes belongs in a database rather than in memory.
+
+In practice you can start with Vitess, then explore MongoDB sharding or Citus as your needs grow.
+
+Keep experimenting, keep notes, and revisit Database Sharding whenever a new project gives you a reason.

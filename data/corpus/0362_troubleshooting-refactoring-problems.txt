@@ -1,0 +1,13 @@
+Troubleshooting Refactoring Problems
+
+When something breaks around Refactoring, a calm and systematic approach saves the most time. If you build software for long enough, you will run into Refactoring. The term refers to improving the structure of existing code without changing its behavior.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and IDE refactoring tools usually reveal the cause faster than guessing.
+
+Readable code saves more time than clever code over the long run.
+
+Common culprits: refactoring without tests; mixing refactoring with new features; rewriting instead of improving. If none of these explains the symptom, re-read the basics of small steps and tests as a safety net.
+
+In practice you can start with IDE refactoring tools, then explore pytest or linters as your needs grow.
+
+In short, careful study of Refactoring pays off. Spend time on small steps and tests as a safety net, and the rest will follow.

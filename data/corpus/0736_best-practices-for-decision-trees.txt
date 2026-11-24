@@ -1,0 +1,17 @@
+Best Practices for Decision Trees
+
+The practices below come from patterns that tend to work well across many teams and projects. If you build software for long enough, you will run into Decision Trees. The term refers to models that make predictions by asking a sequence of simple questions about the data.
+
+Results should always be checked on data the model has never seen. Simple baselines are worth building first because they show what improvement is realistic.
+
+1. Ask a teammate to explain leaf nodes back to you; teaching is a quick way to find gaps.
+2. Automate repetitive steps so that results are easy to reproduce.
+3. Practice splits with small exercises until it feels natural.
+4. Read the official documentation for XGBoost; it often explains entropy and Gini impurity better than blog posts do.
+5. Start small by applying Decision Trees to one case, such as classifying customers, before rolling it out more widely.
+
+In practice you can start with scikit-learn, then explore XGBoost or Graphviz as your needs grow.
+
+Decision Trees and Gradient Descent are closely related, so learning both gives a fuller picture of Machine Learning.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Decision Trees.

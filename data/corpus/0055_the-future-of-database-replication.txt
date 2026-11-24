@@ -1,0 +1,13 @@
+The Future of Database Replication
+
+Predicting the future is risky, but the direction of Database Replication is easy to describe in general terms. When people talk about Database Replication, they usually mean copying data from one database server to others to improve availability and read capacity. It appears in almost every serious software project, whether or not developers notice it.
+
+Backups are only useful if restoring from them has been tested.
+
+Read the official documentation for MySQL replication; it often explains replication lag better than blog posts do. Measure before you optimize. Use PostgreSQL streaming replication or a simple timer to see where time is actually spent.
+
+Expect tools such as PostgreSQL streaming replication and MySQL replication to keep improving, and expect newer ideas to keep building on primary and replica. The basics, though, tend to stay the same, so time spent on replication lag and failover is rarely wasted. Anyone working on surviving server failures will keep meeting Database Replication for years to come.
+
+Write a few tests that show how Database Replication should behave. Tests double as documentation for your teammates. Measure before you optimize. Use PostgreSQL streaming replication or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Database Replication whenever a new project gives you a reason.

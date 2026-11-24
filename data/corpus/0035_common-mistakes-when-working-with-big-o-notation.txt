@@ -1,0 +1,13 @@
+Common Mistakes When Working with Big O Notation
+
+Almost everyone makes a few avoidable errors when first working with Big O Notation. When people talk about Big O Notation, they usually mean a way of describing how running time or memory grows as the input size grows. It appears in almost every serious software project, whether or not developers notice it.
+
+Ask a teammate to explain worst case back to you; teaching is a quick way to find gaps. Keep an eye on this risk during code review: ignoring constant factors entirely. Read the official documentation for big-O cheat sheets; it often explains constant, linear and logarithmic growth better than blog posts do.
+
+Three issues come up again and again: ignoring constant factors entirely; mixing up best and worst case; and measuring only tiny inputs. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: ignoring constant factors entirely. A short test or a careful review comment usually catches it. The second problem is similar: mixing up best and worst case. The third problem is this: measuring only tiny inputs. It tends to appear only once a project grows, so it is worth planning for early.
+
+Automate repetitive steps so that results are easy to reproduce. Measure before you optimize. Use Python timeit or a simple timer to see where time is actually spent.
+
+In short, careful study of Big O Notation pays off. Spend time on upper bounds and constant, linear and logarithmic growth, and the rest will follow.

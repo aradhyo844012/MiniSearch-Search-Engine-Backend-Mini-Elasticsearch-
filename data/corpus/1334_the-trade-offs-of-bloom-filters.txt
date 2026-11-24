@@ -1,0 +1,11 @@
+The Trade-offs of Bloom Filters
+
+Every design choice has a cost, and Bloom Filters is no exception. Put simply, Bloom Filters covers compact probabilistic structures that quickly tell you whether an item is probably in a set. Learning it well pays off across many areas of computing.
+
+On the positive side, Bloom Filters is well suited to skipping disk lookups for missing keys and checking visited URLs. On the other hand, it is not free. Keep these risks in mind: choosing too small a bit array; trying to delete items; forgetting that false positives exist. Whether the trade is worth it depends on how much bit arrays and multiple hash functions matter to your project.
+
+Watch out for these problems: choosing too small a bit array; trying to delete items; and forgetting that false positives exist.
+
+Automate repetitive steps so that results are easy to reproduce. Keep an eye on this risk during code review: choosing too small a bit array. Keep notes on what worked. A short README explaining your decisions about Bloom Filters helps the next developer.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Bloom Filters.

@@ -1,0 +1,15 @@
+Tries vs Binary Search: Key Differences
+
+Tries and Binary Search both belong to the area of Data Structures and Algorithms, but they solve different problems. This article compares them side by side so you can choose with confidence.
+
+The term Tries refers to tree structures that store strings character by character so shared prefixes are stored once. Its core ideas are prefix sharing, nodes and edges, and end-of-word markers.
+
+The term Binary Search refers to a fast way to find an item in sorted data by repeatedly halving the search range. Its core ideas are sorted input, low and high bounds, and midpoint calculation.
+
+The main difference is focus. Tries puts the emphasis on prefix sharing and nodes and edges, while Binary Search puts the emphasis on sorted input and low and high bounds.
+
+Reach for Tries when your task involves autocomplete or spell checking. Reach for Binary Search when your task involves looking up values in sorted arrays or finding insertion points.
+
+Both have risks. With Tries, watch for this: high memory use for sparse data. With Binary Search, watch for this: off-by-one errors.
+
+In practice you do not always have to choose. Many projects use Tries alongside Binary Search, with tools such as Python dict-based tries and Python bisect. Choosing the right data structure often matters more than clever tuning later.

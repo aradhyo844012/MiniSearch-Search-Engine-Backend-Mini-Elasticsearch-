@@ -1,0 +1,11 @@
+The Trade-offs of Natural Language Processing
+
+Every design choice has a cost, and Natural Language Processing is no exception. The term Natural Language Processing refers to the field of teaching computers to work with human language. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Natural Language Processing is well suited to search engines and chatbots. On the other hand, it is not free. Keep these risks in mind: ignoring language variety; messy text preprocessing; trusting metrics on tiny samples. Whether the trade is worth it depends on how much tokenization and embeddings matter to your project.
+
+Watch out for these problems: ignoring language variety; messy text preprocessing; and trusting metrics on tiny samples.
+
+Start small by applying Natural Language Processing to one case, such as search engines, before rolling it out more widely. Keep notes on what worked. A short README explaining your decisions about Natural Language Processing helps the next developer.
+
+With steady practice, Natural Language Processing will stop feeling abstract and become a tool you reach for naturally.

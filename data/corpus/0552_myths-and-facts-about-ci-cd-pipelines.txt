@@ -1,0 +1,17 @@
+Myths and Facts About CI/CD Pipelines
+
+A lot of folklore has built up around CI/CD Pipelines. Some of it is true, and some of it is not. If you build software for long enough, you will run into CI/CD Pipelines. The term refers to automated workflows that build, test and deliver code whenever it changes.
+
+Myth: CI/CD Pipelines is only for experts.
+Fact: beginners can use it effectively once they understand build stage and test stage.
+
+Myth: CI/CD Pipelines is only useful in very large systems.
+Fact: small projects such as running tests on every push benefit as well.
+
+Myth: one tool does everything.
+Fact: GitHub Actions, Jenkins, and GitLab CI make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with CI/CD Pipelines are always obvious.
+Fact: subtle problems happen, for example slow pipelines.
+
+In short, careful study of CI/CD Pipelines pays off. Spend time on build stage and test stage, and the rest will follow.

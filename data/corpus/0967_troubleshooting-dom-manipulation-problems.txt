@@ -1,0 +1,13 @@
+Troubleshooting DOM Manipulation Problems
+
+When something breaks around DOM Manipulation, a calm and systematic approach saves the most time. Put simply, DOM Manipulation covers reading and changing the structure and content of a web page from JavaScript. Learning it well pays off across many areas of computing.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and querySelector usually reveal the cause faster than guessing.
+
+DOM Manipulation and JavaScript Promises are closely related, so learning both gives a fuller picture of Web Development.
+
+Common culprits: inserting untrusted text as HTML; querying the DOM inside tight loops; forgetting to remove event listeners. If none of these explains the symptom, re-read the basics of selectors and events.
+
+Popular tools and libraries include querySelector, browser console, and MDN docs.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with DOM Manipulation.

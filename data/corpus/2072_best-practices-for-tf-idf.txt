@@ -1,0 +1,17 @@
+Best Practices for TF-IDF
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet TF-IDF in a classroom, but it matters just as much in production systems. The term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+1. Ask a teammate to explain weighting back to you; teaching is a quick way to find gaps.
+2. Read the official documentation for Lucene; it often explains inverse document frequency better than blog posts do.
+3. Start small by applying TF-IDF to one case, such as ranking search results, before rolling it out more widely.
+4. Write a few tests that show how TF-IDF should behave. Tests double as documentation for your teammates.
+5. Practice term frequency with small exercises until it feels natural.
+
+In practice you can start with scikit-learn TfidfVectorizer, then explore Lucene or Gensim as your needs grow.
+
+Fast search comes from precomputing structures so that queries do very little work.
+
+A solid grasp of TF-IDF also makes Edit Distance easier to understand.
+
+In short, careful study of TF-IDF pays off. Spend time on term frequency and inverse document frequency, and the rest will follow.

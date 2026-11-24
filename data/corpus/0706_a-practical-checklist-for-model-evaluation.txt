@@ -1,0 +1,13 @@
+A Practical Checklist for Model Evaluation
+
+Use this checklist before you rely on Model Evaluation in a project.
+
+1. Guard against this risk: ignoring variance between runs.
+2. Try the approach on a small case, for example comparing models.
+3. Review how Model Evaluation interacts with Natural Language Processing.
+4. Pick a tool to start with, such as scikit-learn metrics or MLflow.
+5. Confirm that your team agrees on what Model Evaluation should accomplish.
+6. Document your decisions in the project README.
+7. Write at least one automated test that covers accuracy.
+8. Guard against this risk: tuning on the test set.
+9. Ask a teammate to review the work, focusing on precision and recall.

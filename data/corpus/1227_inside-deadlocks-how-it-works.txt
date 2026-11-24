@@ -1,0 +1,13 @@
+Inside Deadlocks: How It Works
+
+This article walks through what happens inside Deadlocks, step by step. When people talk about Deadlocks, they usually mean situations where two or more tasks wait for each other forever. It appears in almost every serious software project, whether or not developers notice it.
+
+To understand Deadlocks, start with mutual exclusion. Then move on to hold and wait, and finally look at circular wait and lock ordering. Sketching lock ordering on paper before coding helps many learners see how the pieces fit.
+
+First, mutual exclusion sets the stage for everything else. Next, hold and wait builds on it. After that, circular wait comes into play, and finally lock ordering ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Logs and system monitors are the first place to look when a machine misbehaves.
+
+A solid grasp of Deadlocks also makes Threads and Concurrency easier to understand.
+
+Keep experimenting, keep notes, and revisit Deadlocks whenever a new project gives you a reason.

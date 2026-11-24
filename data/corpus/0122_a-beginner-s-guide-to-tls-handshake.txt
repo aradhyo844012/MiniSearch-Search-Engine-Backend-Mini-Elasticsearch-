@@ -1,0 +1,17 @@
+A Beginner's Guide to TLS Handshake
+
+This guide is written for readers who are new to TLS Handshake and want a clear starting point. Put simply, TLS Handshake covers the exchange that lets a client and server agree on keys and set up an encrypted connection. Learning it well pays off across many areas of computing.
+
+Simple command-line tools can reveal a lot about what is happening on the wire.
+
+Four ideas sit at the heart of TLS Handshake: certificates, cipher suites, session keys, and certificate authorities. Each one builds on the one before it. Understanding cipher suites first often makes session keys much easier to reason about.
+
+A team working on securing websites might adopt TLS Handshake after hitting the limits of a simpler approach. Other teams turn to it for protecting API traffic or verifying server identity.
+
+Popular tools and libraries include OpenSSL, Let's Encrypt, and SSL Labs.
+
+Watch out for these problems: expired certificates; disabling certificate validation; and using outdated protocol versions.
+
+Keep notes on what worked. A short README explaining your decisions about TLS Handshake helps the next developer. Measure before you optimize. Use OpenSSL or a simple timer to see where time is actually spent.
+
+In short, careful study of TLS Handshake pays off. Spend time on certificates and cipher suites, and the rest will follow.

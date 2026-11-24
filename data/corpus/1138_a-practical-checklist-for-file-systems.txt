@@ -1,0 +1,11 @@
+A Practical Checklist for File Systems
+
+Use this checklist before you rely on File Systems in a project.
+
+1. Try the approach on a small case, for example storing documents.
+2. Review the core ideas: files and directories, inodes, permissions, and journaling.
+3. Document your decisions in the project README.
+4. Write at least one automated test that covers files and directories.
+5. Guard against this risk: wrong permissions.
+6. Confirm that your team agrees on what File Systems should accomplish.
+7. Guard against this risk: ignoring disk space limits.

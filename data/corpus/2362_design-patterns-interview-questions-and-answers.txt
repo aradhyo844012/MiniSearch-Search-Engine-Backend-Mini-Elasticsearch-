@@ -1,0 +1,21 @@
+Design Patterns Interview Questions and Answers
+
+Prepare for these questions about Design Patterns.
+
+Q: Explain Design Patterns in simple words.
+A: Design Patterns refers to reusable solutions to common problems in software design. I would add an example involving structuring applications.
+
+Q: Which tools have you used?
+A: UML diagrams, refactoring guides, and code examples.
+
+Q: How does it connect to Version Control Workflow?
+A: Both belong to the area of Software Engineering, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as singleton, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: forcing patterns where they are unnecessary; over-engineering; and copying patterns without understanding the problem.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: forcing patterns where they are unnecessary.

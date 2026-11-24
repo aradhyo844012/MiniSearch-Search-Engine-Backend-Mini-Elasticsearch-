@@ -1,0 +1,17 @@
+Myths and Facts About Code Review
+
+A lot of folklore has built up around Code Review. Some of it is true, and some of it is not. Many students first meet Code Review in a classroom, but it matters just as much in production systems. The term refers to having teammates examine changes before they are merged.
+
+Myth: Code Review is only for experts.
+Fact: beginners can use it effectively once they understand pull requests and review comments.
+
+Myth: Code Review is only useful in very large systems.
+Fact: small projects such as catching bugs early benefit as well.
+
+Myth: one tool does everything.
+Fact: GitHub pull requests, GitLab merge requests, and linters make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Code Review are always obvious.
+Fact: subtle problems happen, for example huge pull requests.
+
+Keep experimenting, keep notes, and revisit Code Review whenever a new project gives you a reason.

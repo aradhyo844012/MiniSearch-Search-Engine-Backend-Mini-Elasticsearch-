@@ -1,0 +1,11 @@
+The Trade-offs of Tokenization
+
+Every design choice has a cost, and Tokenization is no exception. The term Tokenization refers to splitting text into smaller units such as words that a program can count and compare. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Tokenization is well suited to indexing documents and preparing text for models. On the other hand, it is not free. Keep these risks in mind: different rules for indexing and querying; dropping useful numbers; breaking on apostrophes badly. Whether the trade is worth it depends on how much lowercasing and splitting on punctuation matter to your project.
+
+Three issues come up again and again: different rules for indexing and querying; dropping useful numbers; and breaking on apostrophes badly. Knowing them in advance saves hours of debugging.
+
+Keep notes on what worked. A short README explaining your decisions about Tokenization helps the next developer. Keep an eye on this risk during code review: different rules for indexing and querying. Write a few tests that show how Tokenization should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Tokenization whenever a new project gives you a reason.

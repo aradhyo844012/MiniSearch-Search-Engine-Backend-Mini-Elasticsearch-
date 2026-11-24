@@ -1,0 +1,15 @@
+Best Practices for Kubernetes
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Kubernetes covers a system for deploying, scaling and managing containerized applications. Learning it well pays off across many areas of computing.
+
+1. Ask a teammate to explain services back to you; teaching is a quick way to find gaps.
+2. Start small by applying Kubernetes to one case, such as running many containers, before rolling it out more widely.
+3. Automate repetitive steps so that results are easy to reproduce.
+4. Measure before you optimize. Use kubectl or a simple timer to see where time is actually spent.
+5. Practice pods with small exercises until it feels natural.
+
+Popular tools and libraries include kubectl, Helm, and minikube.
+
+A solid grasp of Kubernetes also makes Serverless Computing easier to understand.
+
+With steady practice, Kubernetes will stop feeling abstract and become a tool you reach for naturally.

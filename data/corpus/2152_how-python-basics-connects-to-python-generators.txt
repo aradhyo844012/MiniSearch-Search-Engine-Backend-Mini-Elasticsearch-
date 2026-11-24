@@ -1,0 +1,13 @@
+How Python Basics Connects to Python Generators
+
+Python Basics and Python Generators are closely connected parts of Programming. Seeing how they fit together helps you learn both faster.
+
+A project involving scripting may also involve reading large files line by line. In such a project, variables and yield often influence each other.
+
+Start with Python Basics: the term refers to the core features of Python, including data types, control flow and functions. Then look at Python Generators, which refers to functions that produce values one at a time instead of building a whole list.
+
+A useful exercise is to take one example, such as data analysis, and explain how lazy evaluation would change the design.
+
+Common problems are shared too. For Python Basics, watch for this: confusing equality and identity. For Python Generators, watch for this: forgetting generators are lazy. A language is easiest to learn by building small projects rather than memorizing syntax.
+
+Spend a few hours on each topic, then combine them in one small project using Python interpreter or itertools.

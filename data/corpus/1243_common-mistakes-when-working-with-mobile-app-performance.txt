@@ -1,0 +1,11 @@
+Common Mistakes When Working with Mobile App Performance
+
+Almost everyone makes a few avoidable errors when first working with Mobile App Performance. The term Mobile App Performance refers to making mobile apps start quickly, run smoothly and use little battery. This article explains the idea in plain language and points out where it fits in real projects.
+
+Beginners often stumble on three things. First: loading everything at startup. Second: large images. Third: too many background tasks.
+
+Consider the first problem: loading everything at startup. A short test or a careful review comment usually catches it. The second problem is similar: large images. The third problem is this: too many background tasks. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Mobile App Performance to one case, such as smoother scrolling, before rolling it out more widely. Practice startup time with small exercises until it feels natural. Ask a teammate to explain memory use back to you; teaching is a quick way to find gaps.
+
+With steady practice, Mobile App Performance will stop feeling abstract and become a tool you reach for naturally.

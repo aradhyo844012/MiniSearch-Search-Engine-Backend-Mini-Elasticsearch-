@@ -1,0 +1,21 @@
+Database Indexing Interview Questions and Answers
+
+Prepare for these questions about Database Indexing.
+
+Q: Explain Database Indexing in simple words.
+A: Database Indexing refers to auxiliary structures that let a database find rows without scanning a whole table. I would add an example involving speeding up lookups.
+
+Q: Where would you apply it first?
+A: I would start with supporting sorted queries, because it is small enough to test and large enough to show the benefit.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as B-tree indexes, and add tests aimed at the known risks.
+
+Q: How does it connect to NoSQL Databases?
+A: Both belong to the area of Databases, and understanding one makes the other easier to learn.
+
+Q: What are the key concepts?
+A: B-tree indexes, selectivity, composite indexes, and covering indexes.
+
+Q: What problems have you seen in practice?
+A: indexing every column; ignoring write overhead; and wrong column order in composite indexes.

@@ -1,0 +1,17 @@
+Best Practices for Process Scheduling
+
+The practices below come from patterns that tend to work well across many teams and projects. Many students first meet Process Scheduling in a classroom, but it matters just as much in production systems. The term refers to the way an operating system decides which process runs on the CPU and for how long.
+
+Start small by applying Process Scheduling to one case, such as sharing CPUs among programs, before rolling it out more widely. Write a few tests that show how Process Scheduling should behave. Tests double as documentation for your teammates. Practice time slices with small exercises until it feels natural.
+
+1. Automate repetitive steps so that results are easy to reproduce.
+2. Start small by applying Process Scheduling to one case, such as sharing CPUs among programs, before rolling it out more widely.
+3. Keep notes on what worked. A short README explaining your decisions about Process Scheduling helps the next developer.
+4. Write a few tests that show how Process Scheduling should behave. Tests double as documentation for your teammates.
+5. Practice time slices with small exercises until it feels natural.
+
+Popular tools and libraries include top, htop, and perf.
+
+A solid grasp of Process Scheduling also makes Containers easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Process Scheduling.

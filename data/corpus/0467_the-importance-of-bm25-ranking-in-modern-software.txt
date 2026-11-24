@@ -1,0 +1,15 @@
+The Importance of BM25 Ranking in Modern Software
+
+It is easy to underestimate BM25 Ranking until something goes wrong without it. If you build software for long enough, you will run into BM25 Ranking. The term refers to a ranking function that improves on plain term frequency with saturation and length normalization.
+
+Search quality depends on how text is prepared before it is ever indexed. Users judge a search engine by whether the right result appears near the top.
+
+Search quality depends on how text is prepared before it is ever indexed. Users judge a search engine by whether the right result appears near the top.
+
+People use BM25 Ranking for ranking search results, for enterprise search, and for question answering baselines.
+
+Watch out for these problems: untuned parameters; ignoring field boundaries; and comparing scores across different queries.
+
+A solid grasp of BM25 Ranking also makes Inverted Index easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with BM25 Ranking.

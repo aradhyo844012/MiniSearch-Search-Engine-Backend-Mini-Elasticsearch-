@@ -1,0 +1,13 @@
+How Data Visualization Connects to ETL Pipelines
+
+Data Visualization and ETL Pipelines are closely connected parts of Data Engineering. Seeing how they fit together helps you learn both faster.
+
+A project involving explaining results may also involve building reports. In such a project, chart types and extraction often influence each other.
+
+Start with Data Visualization: the term refers to presenting data as charts and graphics so that patterns are easy to see. Then look at ETL Pipelines, which refers to processes that extract data from sources, transform it and load it into a destination.
+
+A useful exercise is to take one example, such as exploring data, and explain how transformation would change the design.
+
+Common problems are shared too. For Data Visualization, watch for this: unreadable labels. For ETL Pipelines, watch for this: no retry logic. A chart is only useful if the reader can see the point within a few seconds.
+
+Spend a few hours on each topic, then combine them in one small project using matplotlib or Apache Airflow.

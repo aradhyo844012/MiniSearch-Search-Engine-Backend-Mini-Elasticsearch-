@@ -1,0 +1,13 @@
+The Trade-offs of TF-IDF
+
+Every design choice has a cost, and TF-IDF is no exception. If you build software for long enough, you will run into TF-IDF. The term refers to a scoring method that weights terms by how often they appear in a document and how rare they are overall.
+
+Start small by applying TF-IDF to one case, such as ranking search results, before rolling it out more widely. Write a few tests that show how TF-IDF should behave. Tests double as documentation for your teammates. Practice term frequency with small exercises until it feels natural.
+
+On the positive side, TF-IDF is well suited to ranking search results and finding keywords. On the other hand, it is not free. Keep these risks in mind: over-weighting common words; ignoring document length; using it on tiny corpora. Whether the trade is worth it depends on how much term frequency and inverse document frequency matter to your project.
+
+Three issues come up again and again: over-weighting common words; ignoring document length; and using it on tiny corpora. Knowing them in advance saves hours of debugging.
+
+Read the official documentation for Lucene; it often explains inverse document frequency better than blog posts do. Practice term frequency with small exercises until it feels natural.
+
+With steady practice, TF-IDF will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,15 @@
+The Importance of Pandas DataFrames in Modern Software
+
+It is easy to underestimate Pandas DataFrames until something goes wrong without it. Put simply, Pandas DataFrames covers table-like structures in Python for loading, cleaning and analyzing data. Learning it well pays off across many areas of computing.
+
+Data work is mostly preparation, and cleaning often takes longer than analysis.
+
+You will see Pandas DataFrames whenever people work on loading CSV files or summarizing query logs. It also helps with preparing data for charts.
+
+Watch out for these problems: chained assignment surprises; loading too much data into memory; and forgetting to check data types.
+
+Practice rows and columns with small exercises until it feels natural. Keep an eye on this risk during code review: chained assignment surprises. Write a few tests that show how Pandas DataFrames should behave. Tests double as documentation for your teammates.
+
+Pandas DataFrames and Stream Processing are closely related, so learning both gives a fuller picture of Data Engineering.
+
+Keep experimenting, keep notes, and revisit Pandas DataFrames whenever a new project gives you a reason.

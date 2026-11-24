@@ -1,0 +1,17 @@
+A Beginner's Guide to Browser Rendering
+
+This guide is written for readers who are new to Browser Rendering and want a clear starting point. Many students first meet Browser Rendering in a classroom, but it matters just as much in production systems. The term refers to the steps a browser takes to turn HTML, CSS and JavaScript into pixels on screen.
+
+Accessible design helps everyone, including people on slow connections or small screens.
+
+To understand Browser Rendering, start with DOM construction. Then move on to style calculation, and finally look at layout and painting. Sketching painting on paper before coding helps many learners see how the pieces fit.
+
+People use Browser Rendering for explaining slow pages, for designing smooth animations, and for debugging layout shifts.
+
+Popular tools and libraries include Chrome DevTools Performance panel, Lighthouse, and WebPageTest.
+
+Beginners often stumble on three things. First: blocking scripts in the head. Second: forcing repeated layouts. Third: loading huge images.
+
+Start small by applying Browser Rendering to one case, such as explaining slow pages, before rolling it out more widely. Read the official documentation for Lighthouse; it often explains style calculation better than blog posts do. Practice DOM construction with small exercises until it feels natural.
+
+Keep experimenting, keep notes, and revisit Browser Rendering whenever a new project gives you a reason.

@@ -1,0 +1,15 @@
+Performance Tips for IP Addressing and Subnets
+
+Fast software rarely happens by accident, and IP Addressing and Subnets offers several places to gain speed. When people talk about IP Addressing and Subnets, they usually mean the rules for numbering devices on a network and dividing networks into smaller parts. It appears in almost every serious software project, whether or not developers notice it.
+
+Start by measuring. Use ipcalc or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to IPv4 and IPv6 and subnet masks, because they usually decide how well things scale. For workloads such as planning office networks, even small improvements add up quickly.
+
+Four ideas sit at the heart of IP Addressing and Subnets: IPv4 and IPv6, subnet masks, CIDR notation, and private ranges. Each one builds on the one before it. Understanding subnet masks first often makes CIDR notation much easier to reason about.
+
+If you are comfortable with IP Addressing and Subnets, explore HTTP and HTTPS next. The two often appear in the same project.
+
+Practice IPv4 and IPv6 with small exercises until it feels natural. Read the official documentation for ping; it often explains subnet masks better than blog posts do.
+
+Watch out for these problems: overlapping address ranges; miscounting host bits; and exhausting small subnets.
+
+In short, careful study of IP Addressing and Subnets pays off. Spend time on IPv4 and IPv6 and subnet masks, and the rest will follow.

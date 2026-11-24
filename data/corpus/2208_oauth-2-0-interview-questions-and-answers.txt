@@ -1,0 +1,21 @@
+OAuth 2.0 Interview Questions and Answers
+
+Prepare for these questions about OAuth 2.0.
+
+Q: Explain OAuth 2.0 in simple words.
+A: OAuth 2.0 refers to a framework that lets applications access resources on a user's behalf without sharing passwords. I would add an example involving sign in with another account.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as authorization server, and add tests aimed at the known risks.
+
+Q: What problems have you seen in practice?
+A: loose redirect URI checks; requesting excessive scopes; and storing tokens insecurely.
+
+Q: Which tools have you used?
+A: Auth0, Keycloak, and authlib.
+
+Q: How does it connect to SQL Injection?
+A: Both belong to the area of Security, and understanding one makes the other easier to learn.
+
+Q: Where would you apply it first?
+A: I would start with API access for third-party apps, because it is small enough to test and large enough to show the benefit.

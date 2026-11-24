@@ -1,0 +1,19 @@
+Myths and Facts About Rate Limiting
+
+A lot of folklore has built up around Rate Limiting. Some of it is true, and some of it is not. If you build software for long enough, you will run into Rate Limiting. The term refers to controlling how many requests a client can make in a given period.
+
+A backend turns requests from many clients into reliable, consistent responses.
+
+Myth: Rate Limiting is only for experts.
+Fact: beginners can use it effectively once they understand token bucket and fixed window.
+
+Myth: Rate Limiting is only useful in very large systems.
+Fact: small projects such as protecting APIs benefit as well.
+
+Myth: one tool does everything.
+Fact: Redis, NGINX, and API gateways make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Rate Limiting are always obvious.
+Fact: subtle problems happen, for example limits that are too strict.
+
+In short, careful study of Rate Limiting pays off. Spend time on token bucket and fixed window, and the rest will follow.

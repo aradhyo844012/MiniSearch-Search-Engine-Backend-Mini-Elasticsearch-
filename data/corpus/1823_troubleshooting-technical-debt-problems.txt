@@ -1,0 +1,11 @@
+Troubleshooting Technical Debt Problems
+
+When something breaks around Technical Debt, a calm and systematic approach saves the most time. The term Technical Debt refers to the future cost of shortcuts taken in code, design or documentation. This article explains the idea in plain language and points out where it fits in real projects.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and SonarQube usually reveal the cause faster than guessing.
+
+Common culprits: never paying it down; hiding it from stakeholders; unclear ownership. If none of these explains the symptom, re-read the basics of shortcuts and interest.
+
+Popular tools and libraries include SonarQube, issue trackers, and code metrics.
+
+With steady practice, Technical Debt will stop feeling abstract and become a tool you reach for naturally.

@@ -1,0 +1,24 @@
+Phishing Defense Interview Questions and Answers
+
+Prepare for these questions about Phishing Defense.
+
+Q: Explain Phishing Defense in simple words.
+A: Phishing Defense refers to recognizing and reducing attacks that trick people into revealing information. I would add an example involving protecting employees.
+
+Q: When would you avoid it?
+A: I would avoid it when the problem is small and a simpler approach works, or when this risk is hard to manage: clicking before checking.
+
+Q: Which tools have you used?
+A: SPF, DKIM, and DMARC.
+
+Q: What problems have you seen in practice?
+A: clicking before checking; reusing passwords; and ignoring reports from users.
+
+Q: How does it connect to Password Hashing?
+A: Both belong to the area of Security, and understanding one makes the other easier to learn.
+
+Q: How would you test it?
+A: I would write small unit tests for each core concept, such as suspicious links, and add tests aimed at the known risks.
+
+Q: Where would you apply it first?
+A: I would start with securing shared mailboxes, because it is small enough to test and large enough to show the benefit.

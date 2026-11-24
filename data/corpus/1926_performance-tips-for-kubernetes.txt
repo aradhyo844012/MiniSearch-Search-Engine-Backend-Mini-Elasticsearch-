@@ -1,0 +1,13 @@
+Performance Tips for Kubernetes
+
+Fast software rarely happens by accident, and Kubernetes offers several places to gain speed. Many students first meet Kubernetes in a classroom, but it matters just as much in production systems. The term refers to a system for deploying, scaling and managing containerized applications.
+
+Start by measuring. Use kubectl or a simple timer to find out where time is really spent, rather than guessing. Pay special attention to pods and deployments, because they usually decide how well things scale. For workloads such as running many containers, even small improvements add up quickly.
+
+The vocabulary of Kubernetes is small. Learn pods, deployments, services, and ingress, and most documentation will start to make sense. A good way to remember pods is to connect it with a concrete example from your own code.
+
+Practice pods with small exercises until it feels natural. Keep notes on what worked. A short README explaining your decisions about Kubernetes helps the next developer. Start small by applying Kubernetes to one case, such as running many containers, before rolling it out more widely.
+
+Watch out for these problems: resource limits missing; over-complicated setups; and ignoring health probes.
+
+Keep experimenting, keep notes, and revisit Kubernetes whenever a new project gives you a reason.

@@ -1,0 +1,11 @@
+Common Mistakes When Working with Feature Engineering
+
+Almost everyone makes a few avoidable errors when first working with Feature Engineering. If you build software for long enough, you will run into Feature Engineering. The term refers to creating and transforming input variables so that models can learn from them more easily.
+
+Three issues come up again and again: data leakage; inconsistent transformations between training and serving; and too many redundant features. Knowing them in advance saves hours of debugging.
+
+Consider the first problem: data leakage. A short test or a careful review comment usually catches it. The second problem is similar: inconsistent transformations between training and serving. The third problem is this: too many redundant features. It tends to appear only once a project grows, so it is worth planning for early.
+
+Start small by applying Feature Engineering to one case, such as improving model accuracy, before rolling it out more widely. Measure before you optimize. Use pandas or a simple timer to see where time is actually spent.
+
+Keep experimenting, keep notes, and revisit Feature Engineering whenever a new project gives you a reason.

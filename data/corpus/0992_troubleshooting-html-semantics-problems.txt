@@ -1,0 +1,13 @@
+Troubleshooting HTML Semantics Problems
+
+When something breaks around HTML Semantics, a calm and systematic approach saves the most time. Many students first meet HTML Semantics in a classroom, but it matters just as much in production systems. The term refers to the practice of using HTML elements that describe the meaning of content.
+
+Accessible design helps everyone, including people on slow connections or small screens. Web pages must work across many browsers, devices and network conditions.
+
+Start by reproducing the problem with the smallest possible example. Then change one thing at a time and note what happens. Logs, tests and HTML validators usually reveal the cause faster than guessing.
+
+Common culprits: using div for everything; skipping heading levels; missing labels on form inputs. If none of these explains the symptom, re-read the basics of headings and landmarks.
+
+In practice you can start with HTML validators, then explore browser developer tools or axe as your needs grow.
+
+In short, careful study of HTML Semantics pays off. Spend time on headings and landmarks, and the rest will follow.

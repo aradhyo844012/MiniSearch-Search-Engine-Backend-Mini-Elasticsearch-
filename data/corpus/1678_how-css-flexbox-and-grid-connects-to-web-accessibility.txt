@@ -1,0 +1,13 @@
+How CSS Flexbox and Grid Connects to Web Accessibility
+
+CSS Flexbox and Grid and Web Accessibility are closely connected parts of Web Development. Seeing how they fit together helps you learn both faster.
+
+A project involving navigation bars may also involve screen reader support. In such a project, flex containers and semantic HTML often influence each other.
+
+Start with CSS Flexbox and Grid: the term refers to two layout systems that arrange elements in rows, columns and two-dimensional grids. Then look at Web Accessibility, which refers to designing websites so that people with different abilities can use them.
+
+A useful exercise is to take one example, such as card layouts, and explain how ARIA attributes would change the design.
+
+Common problems are shared too. For CSS Flexbox and Grid, watch for this: fixed widths that break on phones. For Web Accessibility, watch for this: missing focus indicators. Small improvements in markup and styling often have a large effect on usability.
+
+Spend a few hours on each topic, then combine them in one small project using browser grid inspector or axe DevTools.

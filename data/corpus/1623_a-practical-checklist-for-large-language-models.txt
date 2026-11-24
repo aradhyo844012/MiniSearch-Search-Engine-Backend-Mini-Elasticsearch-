@@ -1,0 +1,13 @@
+A Practical Checklist for Large Language Models
+
+Use this checklist before you rely on Large Language Models in a project.
+
+1. Try the approach on a small case, for example drafting text.
+2. Measure results before and after any change.
+3. Write at least one automated test that covers tokens.
+4. Document your decisions in the project README.
+5. Ask a teammate to review the work, focusing on attention.
+6. Review how Large Language Models interacts with Decision Trees.
+7. Pick a tool to start with, such as Hugging Face or API playgrounds.
+8. Guard against this risk: vague prompts.
+9. Review the core ideas: tokens, attention, pretraining, and prompts.

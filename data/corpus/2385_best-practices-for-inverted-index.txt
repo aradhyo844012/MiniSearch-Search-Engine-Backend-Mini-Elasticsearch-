@@ -1,0 +1,15 @@
+Best Practices for Inverted Index
+
+The practices below come from patterns that tend to work well across many teams and projects. Put simply, Inverted Index covers a data structure that maps each term to the documents that contain it. Learning it well pays off across many areas of computing.
+
+1. Start small by applying Inverted Index to one case, such as full-text search, before rolling it out more widely.
+2. Measure before you optimize. Use Lucene or a simple timer to see where time is actually spent.
+3. Keep notes on what worked. A short README explaining your decisions about Inverted Index helps the next developer.
+4. Write a few tests that show how Inverted Index should behave. Tests double as documentation for your teammates.
+5. Read the official documentation for Elasticsearch; it often explains postings lists better than blog posts do.
+
+In practice you can start with Lucene, then explore Elasticsearch or custom Python dictionaries as your needs grow.
+
+A solid grasp of Inverted Index also makes TF-IDF easier to understand.
+
+With steady practice, Inverted Index will stop feeling abstract and become a tool you reach for naturally.

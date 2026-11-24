@@ -1,0 +1,11 @@
+Stream Processing Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Stream Processing.
+
+- Definition: handling data continuously as it arrives rather than in large batches.
+- Core ideas: events; windows; offsets; state.
+- Use it for: live dashboards; fraud detection; real-time alerts.
+- Watch out for: late events; losing state after crashes; duplicate processing.
+- Tools: Apache Kafka, Apache Flink, Spark Structured Streaming.
+- Quick tip: practice events until it feels automatic.
+- Quick tip: write a tiny test for windows before building anything large.

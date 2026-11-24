@@ -1,0 +1,13 @@
+Inside Infrastructure as Code: How It Works
+
+This article walks through what happens inside Infrastructure as Code, step by step. The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. This article explains the idea in plain language and points out where it fits in real projects.
+
+Four ideas sit at the heart of Infrastructure as Code: declarative configuration, state, modules, and drift. Each one builds on the one before it. A good way to remember declarative configuration is to connect it with a concrete example from your own code.
+
+First, declarative configuration sets the stage for everything else. Next, state builds on it. After that, modules comes into play, and finally drift ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Automation turns risky manual steps into repeatable and reviewable processes.
+
+A solid grasp of Infrastructure as Code also makes Site Reliability easier to understand.
+
+None of this needs special hardware or expensive software. A laptop, curiosity and a few small experiments are enough to get comfortable with Infrastructure as Code.

@@ -1,0 +1,14 @@
+How to Learn WebSockets in 30 Days
+
+You do not need months to become comfortable with WebSockets. A focused plan of thirty days is enough to build a solid base. When people talk about WebSockets, they usually mean a protocol that keeps a two-way connection open between a browser and a server. It appears in almost every serious software project, whether or not developers notice it.
+
+Week 1: learn persistent connections and messages, and write a one-page summary.
+Week 2: practice with Socket.IO on a small task such as chat applications.
+Week 3: build a mini project around live dashboards.
+Week 4: review common mistakes such as forgetting reconnection logic, and explain WebSockets to a friend.
+
+Every web request crosses several layers of protocols before it reaches an application. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+In practice you can start with Socket.IO, then explore ws library or Python websockets as your needs grow.
+
+Keep experimenting, keep notes, and revisit WebSockets whenever a new project gives you a reason.

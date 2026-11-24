@@ -1,0 +1,11 @@
+A Practical Checklist for Bloom Filters
+
+Use this checklist before you rely on Bloom Filters in a project.
+
+1. Document your decisions in the project README.
+2. Review the core ideas: bit arrays, multiple hash functions, false positives, and no false negatives.
+3. Guard against this risk: forgetting that false positives exist.
+4. Guard against this risk: choosing too small a bit array.
+5. Try the approach on a small case, for example skipping disk lookups for missing keys.
+6. Review how Bloom Filters interacts with Sorting Algorithms.
+7. Measure results before and after any change.

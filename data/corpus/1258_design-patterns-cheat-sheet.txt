@@ -1,0 +1,11 @@
+Design Patterns Cheat Sheet
+
+Use this page as a quick reminder of the essentials of Design Patterns.
+
+- Definition: reusable solutions to common problems in software design.
+- Core ideas: singleton; factory; observer; strategy.
+- Use it for: structuring applications; decoupling components; communicating design ideas.
+- Watch out for: forcing patterns where they are unnecessary; over-engineering; copying patterns without understanding the problem.
+- Tools: UML diagrams, refactoring guides, code examples.
+- Quick tip: write a tiny test for factory before building anything large.
+- Quick tip: practice singleton until it feels automatic.

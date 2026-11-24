@@ -1,0 +1,19 @@
+Myths and Facts About Web Accessibility
+
+A lot of folklore has built up around Web Accessibility. Some of it is true, and some of it is not. Many students first meet Web Accessibility in a classroom, but it matters just as much in production systems. The term refers to designing websites so that people with different abilities can use them.
+
+A solid grasp of Web Accessibility also makes JavaScript Promises easier to understand.
+
+Myth: Web Accessibility is only for experts.
+Fact: beginners can use it effectively once they understand semantic HTML and ARIA attributes.
+
+Myth: Web Accessibility is only useful in very large systems.
+Fact: small projects such as screen reader support benefit as well.
+
+Myth: one tool does everything.
+Fact: axe DevTools, WAVE, and screen readers make different trade-offs, so the right choice depends on the project.
+
+Myth: mistakes with Web Accessibility are always obvious.
+Fact: subtle problems happen, for example low contrast text.
+
+Keep experimenting, keep notes, and revisit Web Accessibility whenever a new project gives you a reason.

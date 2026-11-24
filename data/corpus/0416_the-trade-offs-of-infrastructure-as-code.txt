@@ -1,0 +1,13 @@
+The Trade-offs of Infrastructure as Code
+
+Every design choice has a cost, and Infrastructure as Code is no exception. The term Infrastructure as Code refers to managing servers and cloud resources through version-controlled configuration files. This article explains the idea in plain language and points out where it fits in real projects.
+
+On the positive side, Infrastructure as Code is well suited to recreating environments and reviewing infrastructure changes. On the other hand, it is not free. Keep these risks in mind: manual changes causing drift; hard-coded secrets; huge monolithic configurations. Whether the trade is worth it depends on how much declarative configuration and state matter to your project.
+
+Watch out for these problems: manual changes causing drift; hard-coded secrets; and huge monolithic configurations.
+
+Measure before you optimize. Use Terraform or a simple timer to see where time is actually spent. Write a few tests that show how Infrastructure as Code should behave. Tests double as documentation for your teammates. Practice declarative configuration with small exercises until it feels natural.
+
+Keep notes on what worked. A short README explaining your decisions about Infrastructure as Code helps the next developer. Automate repetitive steps so that results are easy to reproduce. Write a few tests that show how Infrastructure as Code should behave. Tests double as documentation for your teammates.
+
+Keep experimenting, keep notes, and revisit Infrastructure as Code whenever a new project gives you a reason.

@@ -1,0 +1,13 @@
+Inside TLS Handshake: How It Works
+
+This article walks through what happens inside TLS Handshake, step by step. When people talk about TLS Handshake, they usually mean the exchange that lets a client and server agree on keys and set up an encrypted connection. It appears in almost every serious software project, whether or not developers notice it.
+
+To understand TLS Handshake, start with certificates. Then move on to cipher suites, and finally look at session keys and certificate authorities. A good way to remember certificates is to connect it with a concrete example from your own code.
+
+First, certificates sets the stage for everything else. Next, cipher suites builds on it. After that, session keys comes into play, and finally certificate authorities ties the pieces together. Seeing the sequence once, with a tiny example, makes the whole topic easier to remember.
+
+Network failures are normal, so well-designed software expects timeouts and retries. Simple command-line tools can reveal a lot about what is happening on the wire.
+
+TLS Handshake and IP Addressing and Subnets are closely related, so learning both gives a fuller picture of Networking.
+
+In short, careful study of TLS Handshake pays off. Spend time on certificates and cipher suites, and the rest will follow.
