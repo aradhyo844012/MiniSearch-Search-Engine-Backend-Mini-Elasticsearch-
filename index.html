@@ -1,0 +1,596 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#2563EB">
+  <meta name="description" content="MiniSearch — a lightweight local document search engine.">
+  <title>MiniSearch — Fast local search</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/minisearch-mark.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="toastRegion" class="toast-region" aria-live="polite"></div>
+
+  <section id="landingPage" class="landing-page">
+    <nav class="landing-nav wrap">
+      <a class="brand" href="#home" aria-label="MiniSearch home">
+        <span class="brand-lockup" aria-label="MiniSearch">
+          <img class="brand-mark-image" src="assets/minisearch-mark.png" alt="">
+          <span class="brand-wordmark"><span class="brand-mini">Mini</span><span class="brand-search">Search</span></span>
+        </span>
+      </a>
+      <div class="landing-links">
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#tech">Technology</a>
+      </div>
+      <button class="btn btn-primary" id="enterWorkspace">Open workspace <span>↗</span></button>
+    </nav>
+
+    <main>
+      <section class="hero wrap" id="home">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="pulse"></span> LOCAL WORKSPACE SEARCH · READY TO EXPLORE</div>
+          <h1>Find what you need.<br><span>Before you finish typing.</span></h1>
+          <p class="hero-sub">A focused search experience for your local documents and code. Fast retrieval, ranked results, and helpful typo correction — all in one workspace.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" id="heroSearch">Explore MiniSearch <span>→</span></button>
+            <a class="text-link" href="#features">Discover features <span>↓</span></a>
+          </div>
+          <div class="hero-proof">
+            <div class="avatar-stack"><i>M</i><i>S</i><i>+</i></div>
+            <span>Built for focused local discovery</span>
+            <span class="proof-dot">•</span>
+            <span class="mono">v1.0</span>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="visual-glow"></div>
+          <div class="mock-window">
+            <div class="mock-top">
+              <span class="window-dots"><i></i><i></i><i></i></span>
+              <span>MiniSearch workspace</span>
+              <span class="live-pill">● PREVIEW</span>
+            </div>
+            <div class="mock-search"><span>⌕</span><span>inverted index search</span><kbd>↵</kbd></div>
+            <div class="mock-meta"><span>Example search results</span><span>Preview</span></div>
+            <div class="mock-result">
+              <b>Building an In-Memory Full-Text Search Engine</b>
+              <small>docs / search / architecture.md</small>
+              <p>Explore the <mark>inverted index</mark> and ranked retrieval pipeline...</p>
+            </div>
+            <div class="mock-result">
+              <b>MiniSearch Architecture & Tokenizer Pipeline</b>
+              <small>src / core / indexer.py</small>
+              <p>Tokenization, normalization and document scoring...</p>
+            </div>
+            <div class="mock-result faded">
+              <b>Search Engine Benchmark Suite</b>
+              <small>benchmarks / retrieval</small>
+              <p>Measure query latency and relevance...</p>
+            </div>
+            <div class="mock-bottom"><span>⌘ K</span><span>Search across your workspace</span><span>↗</span></div>
+          </div>
+          <div class="float-stat stat-one">
+            <span class="stat-icon">ϟ</span>
+            <div><b>Fast retrieval</b><small>Low-latency search</small></div>
+          </div>
+          <div class="float-stat stat-two">
+            <span class="stat-icon">⌕</span>
+            <div><b>Smart ranking</b><small>Term frequency ranking</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="metric-strip wrap">
+        <div><b>OR / AND</b><span>Flexible query modes</span></div>
+        <div><b>TF ranking</b><span>Relevance ranking</span></div>
+        <div><b>Typo-aware</b><span>Helpful corrections</span></div>
+        <div><b>Local-first</b><span>Your workspace index</span></div>
+      </section>
+
+      <section class="section wrap discovery-section" id="features">
+        <div class="section-heading">
+          <div class="eyebrow">BUILT FOR DISCOVERY</div>
+          <h2>Everything you need to<br><span>search with confidence.</span></h2>
+          <p>Purposeful tools that make a growing document workspace easier to navigate.</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon blue">⌕</div>
+            <h3>Powerful search</h3>
+            <p>Search across indexed documents with OR and AND matching modes and adjustable result limits.</p>
+            <span class="feature-tag">RETRIEVAL</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon blue">✳</div>
+            <h3>Relevant results</h3>
+            <p>See ranked matches, relevance scores, matched terms, and useful snippets at a glance.</p>
+            <span class="feature-tag">RANKING</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon amber">⌁</div>
+            <h3>Typo assistance</h3>
+            <p>When the engine suggests a corrected query, review it and rerun the search in one click.</p>
+            <span class="feature-tag">CORRECTION</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon green">▤</div>
+            <h3>Document reader</h3>
+            <p>Open a result to inspect its complete content without leaving your workspace.</p>
+            <span class="feature-tag">DOCUMENTS</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon pink">◫</div>
+            <h3>Index overview</h3>
+            <p>Monitor document count, vocabulary size, index footprint, and build duration from the API.</p>
+            <span class="feature-tag">INDEX STATUS</span>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon cyan">⌁</div>
+            <h3>Query insights</h3>
+            <p>Review activity captured in this browser session, including query volume and latency.</p>
+            <span class="feature-tag">SESSION ANALYTICS</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="how-section" id="how">
+        <div class="wrap how-inner">
+          <div>
+            <div class="eyebrow">SIMPLE BY DESIGN</div>
+            <h2>From question<br>to <span>discovery.</span></h2>
+            <p>MiniSearch contacts a simple search interface to an indexed local document collection.</p>
+            <button class="btn btn-primary" id="howLaunch">Try the workspace →</button>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <b>01</b>
+              <div><h3>Enter a query</h3><p>Type a phrase, keyword, or code term into the search bar.</p></div>
+            </div>
+            <div class="step">
+              <b>02</b>
+              <div><h3>Refine your search</h3><p>Choose OR or AND mode and the number of results to retrieve.</p></div>
+            </div>
+            <div class="step">
+              <b>03</b>
+              <div><h3>Explore the matches</h3><p>Open documents, inspect snippets, and use query insights.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="tech-section wrap" id="tech">
+        <div class="tech-panel">
+          <div>
+            <div class="eyebrow">UNDER THE HOOD</div>
+            <h2>Small interface.<br><span>Serious search.</span></h2>
+            <p>A frontend for an indexed search engine, designed to keep the workflow clear and responsive.</p>
+          </div>
+          <div class="tech-pills">
+            <span>Inverted index</span>
+            <span>Term frequency scoring</span>
+            <span>Tokenization</span>
+            <span>OR / AND</span>
+            <span>REST API</span>
+            <span>Vanilla JavaScript</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="landing-footer wrap">
+      <a class="brand" href="#home">
+        <span class="brand-lockup" aria-label="MiniSearch">
+          <img class="brand-mark-image" src="assets/minisearch-mark.png" alt="">
+          <span class="brand-wordmark"><span class="brand-mini">Mini</span><span class="brand-search">Search</span></span>
+        </span>
+      </a>
+      <span>Fast local intelligence for your workspace.</span>
+      <span class="mono">FRONTEND DEMO · v1.0</span>
+    </footer>
+  </section>
+
+  <div id="appShell" class="app-shell hidden">
+    <div class="sidebar-backdrop hidden" id="sidebarBackdrop"></div>
+
+    <aside class="sidebar" id="sidebar">
+      <a class="brand side-brand" href="#" id="sideHome">
+        <span class="brand-lockup" aria-label="MiniSearch">
+          <img class="brand-mark-image" src="assets/minisearch-mark.png" alt="">
+          <span class="brand-wordmark"><span class="brand-mini">Mini</span><span class="brand-search">Search</span></span>
+        </span>
+      </a>
+
+      <div class="workspace-label">WORKSPACE <span class="status-dot"></span></div>
+
+      <nav class="side-nav" aria-label="Main navigation">
+        <button class="nav-item active" data-view="search"><span class="nav-icon">⌕</span> Search <kbd>⌘ 1</kbd></button>
+        <button class="nav-item" data-view="index"><span class="nav-icon">▦</span> Index status</button>
+        <button class="nav-item" data-view="analytics"><span class="nav-icon">◫</span> Analytics</button>
+      </nav>
+
+      <div class="sidebar-bottom">
+        <div class="api-card">
+          <div class="api-card-top"><span class="status-dot" id="apiDot"></span><b id="apiStatus">Checking API</b></div>
+          <small id="apiBaseLabel">localhost:8000</small>
+          <button id="recheckApi" class="mini-link">Check connection ↗</button>
+        </div>
+
+        <button class="nav-item back-home" id="backLanding"><span class="nav-icon">↩</span> Back to overview</button>
+
+        <div class="user-mini-wrap">
+          <div class="user-mini">
+            <div class="user-avatar" id="sidebarAvatar">MS</div>
+            <div class="user-mini-copy">
+              <b id="sidebarUserName">MiniSearch user</b>
+              <small id="sidebarWorkspaceName">MiniSearch workspace</small>
+            </div>
+            <button class="more-dots" id="accountMenuToggle" type="button" aria-label="Open account and workspace menu" aria-haspopup="true" aria-expanded="false">···</button>
+          </div>
+
+          <div class="account-menu hidden" id="accountMenu" role="menu" aria-label="Account and workspace menu">
+            <div class="account-menu-heading">
+              <b id="menuWorkspaceName">MiniSearch workspace</b>
+              <small>Workspace options</small>
+            </div>
+            <button type="button" class="account-menu-item" id="openWorkspaceSettings" role="menuitem"><span>⚙</span><span><b>Workspace settings</b><small>Names and profile</small></span></button>
+            <button type="button" class="account-menu-item" id="accountThemeToggle" role="menuitem"><span>◐</span><span><b>Appearance</b><small id="accountThemeLabel">Switch to dark mode</small></span></button>
+            <button type="button" class="account-menu-item" id="openShortcuts" role="menuitem"><span>⌨</span><span><b>Keyboard shortcuts</b><small>Quick navigation guide</small></span></button>
+            <div class="account-menu-note">Settings are stored in this browser.</div>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="mobileMenu" aria-label="Open navigation" aria-controls="sidebar" aria-expanded="false">☰</button>
+        <div class="breadcrumb">Workspace <span>/</span> <b id="crumb">Search</b></div>
+        <div class="top-actions">
+          <span class="top-status"><i class="status-dot" id="topStatusDot"></i> <span id="topStatusLabel">Checking API</span></span>
+          <button class="icon-button" id="themeToggle" title="Toggle theme" aria-label="Toggle light and dark theme" aria-pressed="false">◐</button>
+          <div class="user-avatar small-avatar">MS</div>
+        </div>
+      </header>
+
+      <div class="page-content">
+        <section id="searchView" class="view">
+          <div class="page-title-row">
+            <div>
+              <div class="eyebrow">DISCOVER YOUR WORKSPACE</div>
+              <h1>Search <span>workspace.</span></h1>
+              <p class="muted">Find documents, code, and ideas across your indexed files.</p>
+            </div>
+            <div class="index-ready"><span class="status-dot"></span> Engine connection <b id="searchEngineState">Checking</b></div>
+          </div>
+
+          <div class="search-panel">
+            <form id="searchForm" class="search-form">
+              <span class="search-symbol">⌕</span>
+              <input id="queryInput" type="search" placeholder="Search your documents..." autocomplete="off" aria-label="Search query">
+              <button type="button" class="clear-query" id="clearQuery" aria-label="Clear query">×</button>
+              <button class="btn btn-primary search-submit" type="submit">Search <span>↵</span></button>
+            </form>
+
+            <div class="search-options">
+              <div class="mode-switch">
+                <span>Logic mode</span>
+                <button type="button" class="mode-btn active" data-mode="OR" aria-pressed="true">OR</button>
+                <button type="button" class="mode-btn" data-mode="AND" aria-pressed="false">AND</button>
+              </div>
+              <label class="limit-control">Results
+                <select id="resultLimit">
+                  <option>10</option><option>20</option><option>30</option><option>50</option><option>100</option>
+                </select>
+              </label>
+              <span class="toggle-label">✳ Correction shown when suggested by the engine</span>
+            </div>
+
+            <div class="suggestions">
+              <span>Try:</span>
+              <button type="button" class="query-chip">inverted index</button>
+              <button type="button" class="query-chip">search engine</button>
+              <button type="button" class="query-chip">term frequency</button>
+              <button type="button" class="query-chip">tokenizer</button>
+            </div>
+          </div>
+
+          <div id="searchStatus" class="search-status hidden" role="status" aria-live="polite"></div>
+
+          <div id="correctionBanner" class="correction-banner hidden">
+            <span class="correction-icon">✳</span>
+            <div class="correction-message">
+              <b>Suggested query: <span id="correctedText"></span></b>
+              <small>Choose a query to run again. Original-text search may still be corrected by the backend.</small>
+            </div>
+            <div class="correction-actions">
+              <button id="useSuggestion" type="button" class="btn btn-primary">Search suggestion</button>
+              <button id="useOriginal" type="button" class="btn btn-light">Search original</button>
+            </div>
+          </div>
+
+          <div class="results-layout">
+            <div class="results-main">
+              <div class="results-toolbar">
+                <div>
+                  <b id="resultCount">Your results</b>
+                  <span id="resultMeta" class="muted">Enter a query to begin</span>
+                </div>
+                <label class="sort-control">Sort on
+                  <select id="sortSelect">
+                    <option value="relevance">Relevance</option>
+                    <option value="title">Title A–Z</option>
+                    <option value="score">Score — Highest First</option>
+                  </select>
+                </label>
+              </div>
+
+              <div id="resultsList" class="results-list" aria-live="polite" aria-busy="false">
+                <div class="welcome-results">
+                  <div class="welcome-symbol">⌕</div>
+                  <h2>What are you looking for?</h2>
+                  <p>Search your indexed workspace to see ranked documents and matching snippets here.</p>
+                  <button class="btn btn-light" id="loadExample">Try “search engine”</button>
+                </div>
+              </div>
+
+              <div id="pagination" class="pagination hidden">
+                <span id="pageSummary"></span>
+                <div><button id="prevPage" class="page-btn">←</button><button id="nextPage" class="page-btn">→</button></div>
+              </div>
+            </div>
+
+            <aside class="results-aside">
+              <div class="side-widget">
+                <div class="widget-heading"><b>Index snapshot</b><span class="live-label">LIVE</span></div>
+                <div class="snapshot-number"><b id="snapshotDocs">—</b><span>documents indexed</span></div>
+                <div class="snapshot-grid">
+                  <div><b id="snapshotTerms">—</b><small>Vocabulary</small></div>
+                  <div><b id="snapshotSize">—</b><small>Index size</small></div>
+                </div>
+                <button class="widget-link" data-goto="index">View index status →</button>
+              </div>
+
+              <div class="side-widget">
+                <div class="widget-heading"><b>Recent searches</b><button class="widget-link" id="clearHistory">Clear</button></div>
+                <div id="recentSearches" class="recent-list"><p class="muted tiny">Your searches will appear here.</p></div>
+              </div>
+
+              <div class="side-tip">
+                <span>✦</span>
+                <div><b>Search tip</b><p>Use AND to require every term, or OR to find documents containing any term.</p></div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section id="indexView" class="view hidden">
+          <div class="page-title-row">
+            <div>
+              <div class="eyebrow">SYSTEM OVERVIEW</div>
+              <h1>Index <span>status.</span></h1>
+              <p class="muted">Monitor the search index reported by your backend.</p>
+            </div>
+            <button class="btn btn-primary" id="refreshStats">↻ Refresh metrics</button>
+          </div>
+
+          <div class="metric-grid">
+            <article class="metric-card"><div class="metric-top"><span>Total documents</span><span class="metric-icon">▤</span></div><b id="metricDocs">—</b><small>Documents in the active index</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Vocabulary size</span><span class="metric-icon">Aa</span></div><b id="metricVocab">—</b><small>Unique indexed terms</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Index footprint</span><span class="metric-icon">▧</span></div><b id="metricBytes">—</b><small>Reported index size</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Build duration</span><span class="metric-icon">ϟ</span></div><b id="metricBuild">—</b><small>Last index build time</small></article>
+          </div>
+
+          <div class="two-col-panels">
+            <article class="content-card">
+              <div class="card-heading"><div><h2>Index health</h2><p>Connection and index readiness</p></div><span class="live-label">API</span></div>
+              <div class="health-row">
+                <span class="health-indicator" id="healthIndicator"></span>
+                <div><b id="healthTitle">Waiting for backend</b><small id="healthDescription">Connect to the MiniSearch API to load live index details.</small></div>
+              </div>
+              <div class="detail-rows">
+                <div><span>API endpoint</span><b id="endpointValue">/stats</b></div>
+                <div><span>Index built at</span><b id="builtAtValue">—</b></div>
+                <div><span>Frontend mode</span><b>Read-only metrics</b></div>
+              </div>
+            </article>
+
+            <article class="content-card">
+              <div class="card-heading"><div><h2>Index operations</h2><p>Build and maintenance workflow</p></div><span class="read-only-label">CLI ONLY</span></div>
+              <div class="notice-box">
+                <b>Index rebuild is not exposed by the v1 API.</b>
+                <p>This interface intentionally does not show a fake rebuild button. Run the backend's documented CLI command in its terminal when you need to rebuild the index.</p>
+              </div>
+              <div class="code-line">
+                <code>Reminder: rebuild the MiniSearch index using the backend CLI documented in the backend README.</code>
+                <button id="copyCommand" class="copy-btn">Copy CLI reminder</button>
+              </div>
+              <p class="tiny muted">Use the exact command and options from your backend README if they differ.</p>
+            </article>
+          </div>
+
+          <article class="content-card index-about">
+            <div class="card-heading"><div><h2>How the index works</h2><p>Core concepts behind retrieval</p></div></div>
+            <div class="concept-grid">
+              <div><span>01</span><b>Tokenization</b><p>Text is split into searchable terms.</p></div>
+              <div><span>02</span><b>Inverted index</b><p>Terms map to the documents where they occur.</p></div>
+              <div><span>03</span><b>Ranking</b><p>Term-frequency scoring orders relevant matches.</p></div>
+            </div>
+          </article>
+        </section>
+
+        <section id="analyticsView" class="view hidden">
+          <div class="page-title-row">
+            <div>
+              <div class="eyebrow">QUERY PERFORMANCE</div>
+              <h1>Search <span>analytics.</span></h1>
+              <p class="muted">A local view of searches performed in this browser session.</p>
+            </div>
+            <button class="btn btn-light" id="exportAnalytics">↓ Export CSV</button>
+          </div>
+
+          <div class="analytics-note">
+            <span>ⓘ</span> Analytics below are calculated from this browser session. The v1 backend contract does not provide a persistent analytics endpoint.
+          </div>
+
+          <div class="metric-grid analytics-metrics">
+            <article class="metric-card"><div class="metric-top"><span>Total searches</span><span class="metric-icon">⌕</span></div><b id="analyticsTotal">0</b><small>In this session</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Average latency</span><span class="metric-icon">ϟ</span></div><b id="analyticsLatency">—</b><small>Successful searches</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Zero-result queries</span><span class="metric-icon">◎</span></div><b id="analyticsZero">0</b><small>No matching documents</small></article>
+            <article class="metric-card"><div class="metric-top"><span>Average hits</span><span class="metric-icon">▤</span></div><b id="analyticsHits">—</b><small>Per successful query</small></article>
+          </div>
+
+          <div class="two-col-panels">
+            <article class="content-card">
+              <div class="card-heading"><div><h2>Latency distribution</h2><p>Recent successful queries</p></div></div>
+              <div id="latencyChart" class="bar-chart"><div class="chart-empty">Run a few searches to build your latency chart.</div></div>
+            </article>
+            <article class="content-card">
+              <div class="card-heading"><div><h2>Popular search terms</h2><p>Most repeated queries this session</p></div></div>
+              <div id="popularQueries" class="popular-list"><div class="chart-empty">Your popular queries will appear here.</div></div>
+            </article>
+          </div>
+
+          <!-- ZIPF'S LAW ANALYSIS -->
+          <article class="content-card zipf-card">
+            <div class="card-heading">
+              <div>
+                <h2>Zipf's Law Analysis</h2>
+                <p>Term frequency distribution across the indexed corpus</p>
+              </div>
+              <span class="live-label">CORPUS ANALYSIS</span>
+            </div>
+
+            <div class="zipf-description">
+              <p>
+                This graph illustrates the relationship between the
+                frequency of terms and their rank in the MiniSearch
+                document collection. A small number of terms occur
+                frequently, while many terms appear less often.
+              </p>
+            </div>
+
+            <div class="zipf-chart-container">
+              <img
+                src="/reports/term_frequency_distribution.png"
+                alt="MiniSearch Zipf-like term frequency distribution graph"
+                class="zipf-chart-image"
+                loading="lazy"
+              >
+            </div>
+
+            <div class="zipf-caption">
+              <span>Term rank</span>
+              <span>Term frequency</span>
+            </div>
+
+            <div class="zipf-insight">
+              <b>Understanding the distribution</b>
+              <p>
+                The downward trend indicates that a relatively small
+                number of terms occur frequently, while most terms
+                occur less often. This is consistent with a
+                Zipf-like distribution in natural language.
+              </p>
+            </div>
+          </article>
+          <!-- END ZIPF'S LAW ANALYSIS -->
+
+          <article class="content-card">
+            <div class="card-heading">
+              <div><h2>Recent query activity</h2><p>Latest search requests</p></div>
+              <button id="clearAnalytics" class="widget-link">Clear activity</button>
+            </div>
+            <div class="table-wrap">
+              <table class="activity-table">
+                <thead>
+                  <tr><th>QUERY</th><th>MODE</th><th>RESULTS</th><th>LATENCY</th><th>STATUS</th></tr>
+                </thead>
+                <tbody id="activityRows">
+                  <tr><td colspan="5" class="table-empty">No searches recorded yet.</td></tr>
+                </tbody>
+              </table>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <footer class="app-footer">
+        <span>MiniSearch Core · Fast local intelligence engine</span>
+        <span>API-powered workspace <i>•</i> v1.0</span>
+      </footer>
+    </main>
+  </div>
+
+  <div class="modal hidden" id="workspaceSettingsModal" role="dialog" aria-modal="true" aria-labelledby="workspaceSettingsTitle">
+    <div class="modal-backdrop" id="workspaceSettingsBackdrop"></div>
+    <section class="settings-modal">
+      <header class="modal-header">
+        <div>
+          <div class="eyebrow">WORKSPACE PREFERENCES</div>
+          <h2 id="workspaceSettingsTitle">Workspace settings</h2>
+          <small>Personalize how this workspace appears in your browser.</small>
+        </div>
+        <button class="icon-button" id="closeWorkspaceSettings" type="button" aria-label="Close settings">×</button>
+      </header>
+      <form id="workspaceSettingsForm" class="settings-form">
+        <label>Workspace name<input id="workspaceNameInput" name="workspaceName" maxlength="40" required placeholder="e.g. Engineering workspace"></label>
+        <label>Your display name<input id="displayNameInput" name="displayName" maxlength="32" required placeholder="e.g. Alex Morgan"></label>
+        <p class="settings-note">These preferences are saved in this browser only. Shared team accounts, invitations, and permissions require backend support.</p>
+        <div class="settings-actions">
+          <button type="button" class="btn btn-quiet" id="cancelWorkspaceSettings">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save changes</button>
+        </div>
+      </form>
+    </section>
+  </div>
+
+  <div class="modal hidden" id="shortcutsModal" role="dialog" aria-modal="true" aria-labelledby="shortcutsTitle">
+    <div class="modal-backdrop" id="shortcutsBackdrop"></div>
+    <section class="settings-modal shortcuts-modal">
+      <header class="modal-header">
+        <div>
+          <div class="eyebrow">WORK FASTER</div>
+          <h2 id="shortcutsTitle">Keyboard shortcuts</h2>
+          <small>Useful shortcuts available in MiniSearch.</small>
+        </div>
+        <button class="icon-button" id="closeShortcuts" type="button" aria-label="Close shortcuts">×</button>
+      </header>
+      <div class="shortcut-list">
+        <div><span>Focus search</span><kbd>Ctrl / ⌘ + K</kbd></div>
+        <div><span>Close dialog or menu</span><kbd>Esc</kbd></div>
+        <div><span>Search current query</span><kbd>Enter</kbd></div>
+      </div>
+      <div class="settings-actions"><button type="button" class="btn btn-primary" id="doneShortcuts">Done</button></div>
+    </section>
+  </div>
+
+  <div id="documentModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="documentTitle">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <article class="document-modal">
+      <header class="modal-header">
+        <div>
+          <div class="eyebrow">DOCUMENT VIEWER</div>
+          <h2 id="documentTitle">Document</h2>
+          <small id="documentId"></small>
+        </div>
+        <button class="icon-button" id="closeDocument" aria-label="Close document">×</button>
+      </header>
+      <div id="documentBody" class="document-body"><div class="loading-line">Loading document…</div></div>
+      <footer class="modal-footer">
+        <span>Content returned by MiniSearch API</span>
+        <button class="btn btn-light" id="copyDocument">Copy content</button>
+      </footer>
+    </article>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
