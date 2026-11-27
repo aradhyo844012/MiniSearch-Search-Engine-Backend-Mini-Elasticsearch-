@@ -1,0 +1,15 @@
+The Pros and Cons of WebAssembly
+
+No technology is free of trade-offs, and WebAssembly is no exception. Here is an honest summary.
+
+Advantages:
+- Supports running heavy computation in the browser
+- Makes porting existing C or Rust code easier
+- Helps with games and image tools
+
+Drawbacks and risks:
+- Risk: crossing the JavaScript boundary too often
+- Risk: large binaries
+- Risk: limited access to browser APIs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as running heavy computation in the browser, and you can manage the risks, WebAssembly is a sound choice. Whatever you decide, measure before moving code to WebAssembly.

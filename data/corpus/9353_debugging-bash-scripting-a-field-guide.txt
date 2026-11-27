@@ -1,0 +1,13 @@
+Debugging Bash Scripting: A Field Guide
+
+When something goes wrong around Bash Scripting, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: unquoted variables, ignoring errors in pipelines, and scripts that are hard to read.
+Step 3: revisit variables and conditionals and loops, since misunderstandings there cause many bugs.
+Step 4: use Bash or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Bash Scripting in work such as automating deployments come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start scripts with set -euo pipefail and quote every variable. It prevents a surprising number of repeat problems.

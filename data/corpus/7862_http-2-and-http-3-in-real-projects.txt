@@ -1,0 +1,11 @@
+HTTP/2 and HTTP/3 in Real Projects
+
+Reading about HTTP/2 and HTTP/3 is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: faster page loads. Here, multiplexing drives the main design choices, and the team needs to guard against assuming old tricks like sprite sheets still help.
+
+Scenario two: improving mobile performance. This time header compression matters most, and tools such as curl with HTTP/3 support help keep things manageable.
+
+Scenario three: reducing connection overhead. The key idea is QUIC, and the biggest risk is middleboxes blocking UDP.
+
+Across all three scenarios, HTTP/2 and HTTP/3 stays the same idea: newer versions of the web protocol that load pages faster over fewer connections. Only the details change.

@@ -1,0 +1,15 @@
+The Pros and Cons of Ray Tracing
+
+No technology is free of trade-offs, and Ray Tracing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports movie visuals
+- Makes architectural visualization easier
+- Helps with realistic game lighting
+
+Drawbacks and risks:
+- Risk: slow render times
+- Risk: noise from too few samples
+- Risk: numerical precision errors
+
+Weigh the two lists against your own project. If the advantages match your needs, such as movie visuals, and you can manage the risks, Ray Tracing is a sound choice. Whatever you decide, start with spheres and a single light before adding features.

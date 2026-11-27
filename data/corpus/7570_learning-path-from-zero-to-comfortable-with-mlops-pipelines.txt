@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with MLOps Pipelines
+
+This path is for a learner who has never studied MLOps Pipelines before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (MLOps Pipelines is automated workflows that train, test, deploy and monitor machine learning models) and learn data versioning and training pipelines.
+
+Stage 2, hands-on: install MLflow, follow a tutorial, and build a small example involving repeatable model releases.
+
+Stage 3, depth: study the model registry and continuous delivery, then deliberately explore this problem: untracked data changes.
+
+Stage 4, application: apply MLOps Pipelines to tracking experiments, compare Kubeflow with DVC, and write up your results.
+
+Stage 5, review: teach MLOps Pipelines to someone else, and then move on to Model Drift and Monitoring.

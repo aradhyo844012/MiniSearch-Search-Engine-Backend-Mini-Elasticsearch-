@@ -1,0 +1,26 @@
+Everything You Need to Know About Dev Containers
+
+This page collects the essentials about Dev Containers in one place. In short, Dev Containers is containerized development environments that every teammate can start in the same way.
+
+Core concepts:
+- devcontainer.json
+- images
+- mounted folders
+- extensions
+
+Where it is used:
+- onboarding new developers
+- matching production tools
+- trying projects safely
+
+Common problems:
+- slow image builds
+- files owned by the wrong user
+- forgetting to pin tool versions
+
+Tools to know:
+- VS Code Dev Containers
+- Docker
+- GitHub Codespaces
+
+Remember this above all: a ready-made workshop that opens identically for everyone is a good way to picture it, and the best habit is to pin tool versions inside the container definition.

@@ -1,0 +1,15 @@
+NAT Quick Reference
+
+A one-screen reminder for NAT. Bookmark it and return when the details fade.
+
+What it is: a technique that lets many devices share one public IP address by rewriting addresses.
+Key terms: private addresses, translation tables, port mapping, and port forwarding.
+Typical uses: home routers, sharing limited IPv4 addresses, and hiding internal networks.
+Risks: breaking peer-to-peer connections, exhausted translation tables, and misconfigured port forwarding.
+Tools: iptables, router admin pages, and conntrack.
+
+Mental picture: a receptionist who forwards calls for many desks through one phone number.
+
+Habit to build: document every port forward you create.
+
+See also: HTTP/2 and HTTP/3, which sits close to NAT in the area of Networking and Internet Infrastructure.

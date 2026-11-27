@@ -1,0 +1,15 @@
+Build Systems Quick Reference
+
+A one-screen reminder for Build Systems. Bookmark it and return when the details fade.
+
+What it is: tools that turn source code into runnable programs automatically.
+Key terms: targets, dependencies, incremental builds, and build caches.
+Typical uses: compiling large projects, packaging software, and running repeatable pipelines.
+Risks: slow full rebuilds, undeclared dependencies, and machine-specific builds.
+Tools: Make, Gradle, and Bazel.
+
+Mental picture: an assembly line that only rebuilds the parts that changed.
+
+Habit to build: make builds reproducible on any machine.
+
+See also: Browser Developer Tools, which sits close to Build Systems in the area of Developer Tooling and Build Systems.

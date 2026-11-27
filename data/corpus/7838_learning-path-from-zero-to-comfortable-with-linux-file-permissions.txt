@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Linux File Permissions
+
+This path is for a learner who has never studied Linux File Permissions before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Linux File Permissions is the read, write and execute rules that control who can access each file) and learn owner, group and others and mode bits.
+
+Stage 2, hands-on: install ls -l, follow a tutorial, and build a small example involving protecting private keys.
+
+Stage 3, depth: study chmod and chown and umask, then deliberately explore this problem: using chmod 777 as a quick fix.
+
+Stage 4, application: apply Linux File Permissions to sharing project folders, compare chmod with setfacl, and write up your results.
+
+Stage 5, review: teach Linux File Permissions to someone else, and then move on to Disk Partitioning and Mounting.

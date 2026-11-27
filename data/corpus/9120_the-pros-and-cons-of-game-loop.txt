@@ -1,0 +1,15 @@
+The Pros and Cons of Game Loop
+
+No technology is free of trade-offs, and Game Loop is no exception. Here is an honest summary.
+
+Advantages:
+- Supports running every real-time game
+- Makes keeping animation smooth easier
+- Helps with simulating physics steadily
+
+Drawbacks and risks:
+- Risk: tying logic to frame rate
+- Risk: slow update steps
+- Risk: ignoring delta time
+
+Weigh the two lists against your own project. If the advantages match your needs, such as running every real-time game, and you can manage the risks, Game Loop is a sound choice. Whatever you decide, use delta time so speed does not depend on frame rate.

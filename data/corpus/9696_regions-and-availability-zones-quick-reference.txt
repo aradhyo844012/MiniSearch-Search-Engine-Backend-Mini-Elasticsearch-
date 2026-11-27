@@ -1,0 +1,15 @@
+Regions and Availability Zones Quick Reference
+
+A one-screen reminder for Regions and Availability Zones. Bookmark it and return when the details fade.
+
+What it is: the geographic locations and isolated data centers a cloud provider uses to host resources.
+Key terms: regions, availability zones, latency, and data residency.
+Typical uses: placing services near users, surviving data center failures, and meeting data laws.
+Risks: putting everything in one zone, cross-region transfer fees, and forgetting data residency rules.
+Tools: AWS Regions, Azure regions, and Google Cloud regions.
+
+Mental picture: branches of a bank in different cities and different buildings.
+
+Habit to build: spread critical services across at least two zones.
+
+See also: Virtual Private Clouds, which sits close to Regions and Availability Zones in the area of Cloud Platforms and Architecture.

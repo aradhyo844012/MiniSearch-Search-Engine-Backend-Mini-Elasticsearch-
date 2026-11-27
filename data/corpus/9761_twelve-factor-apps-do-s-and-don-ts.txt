@@ -1,0 +1,17 @@
+Twelve-Factor Apps Do's and Don'ts
+
+A quick list of habits for working with Twelve-Factor Apps.
+
+Do:
+- Learn config in the environment before anything else.
+- Try Heroku on a small example.
+- Make it a habit to keep config out of the code.
+- Test the case of building web services early.
+
+Don't:
+- Ignore this: storing state on local disks.
+- Ignore this: hard-coded config.
+- Ignore this: long start-up times.
+- Adopt Twelve-Factor Apps just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Twelve-Factor Apps, a little patience with stateless processes pays off more than any clever shortcut.

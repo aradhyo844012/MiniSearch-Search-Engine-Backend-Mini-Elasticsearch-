@@ -1,0 +1,11 @@
+Finite Automata in Real Projects
+
+Reading about Finite Automata is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: tokenizers. Here, states drives the main design choices, and the team needs to guard against missing transitions.
+
+Scenario two: pattern matching. This time transitions matters most, and tools such as JFLAP help keep things manageable.
+
+Scenario three: protocol design. The key idea is accepting states, and the biggest risk is confusing deterministic and non-deterministic machines.
+
+Across all three scenarios, Finite Automata stays the same idea: simple abstract machines that read input and move between a fixed set of states. Only the details change.

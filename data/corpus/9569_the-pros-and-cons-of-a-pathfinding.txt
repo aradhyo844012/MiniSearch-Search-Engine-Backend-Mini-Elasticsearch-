@@ -1,0 +1,15 @@
+The Pros and Cons of A* Pathfinding
+
+No technology is free of trade-offs, and A* Pathfinding is no exception. Here is an honest summary.
+
+Advantages:
+- Supports game characters
+- Makes robot navigation easier
+- Helps with map routing
+
+Drawbacks and risks:
+- Risk: overestimating the heuristic
+- Risk: slow searches on huge maps
+- Risk: ignoring moving obstacles
+
+Weigh the two lists against your own project. If the advantages match your needs, such as game characters, and you can manage the risks, A* Pathfinding is a sound choice. Whatever you decide, choose an admissible heuristic so paths stay optimal.

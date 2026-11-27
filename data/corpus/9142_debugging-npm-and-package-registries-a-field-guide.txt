@@ -1,0 +1,13 @@
+Debugging npm and Package Registries: A Field Guide
+
+When something goes wrong around npm and Package Registries, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: unpinned versions, installing untrusted packages, and huge dependency trees.
+Step 3: revisit package.json and semantic versions, since misunderstandings there cause many bugs.
+Step 4: use npm or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving npm and Package Registries in work such as installing JavaScript libraries come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, commit your lock file. It prevents a surprising number of repeat problems.

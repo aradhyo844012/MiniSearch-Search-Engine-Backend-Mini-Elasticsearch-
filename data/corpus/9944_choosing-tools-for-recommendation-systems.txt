@@ -1,0 +1,11 @@
+Choosing Tools for Recommendation Systems
+
+There is no single best tool for Recommendation Systems. The right choice depends on your project, your team and your timeline.
+
+Surprise is a common first choice, especially for streaming services. implicit suits teams that already work with similar technology, and TensorFlow Recommenders is worth a look when you need something different.
+
+Judge any tool for Recommendation Systems by four questions: Is the documentation clear? Is the community active? Does it handle online shops well? Can you leave it later if you need to?
+
+Whichever tool you pick for Recommendation Systems, test it on a small problem first, and watch for this: feedback loops.
+
+As a rule of thumb, evaluate with held-out interactions, not training data, no matter which tool you use.

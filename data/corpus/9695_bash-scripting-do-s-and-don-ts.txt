@@ -1,0 +1,17 @@
+Bash Scripting Do's and Don'ts
+
+A quick list of habits for working with Bash Scripting.
+
+Do:
+- Learn variables before anything else.
+- Try Bash on a small example.
+- Make it a habit to start scripts with set -euo pipefail and quote every variable.
+- Test the case of automating deployments early.
+
+Don't:
+- Ignore this: unquoted variables.
+- Ignore this: ignoring errors in pipelines.
+- Ignore this: scripts that are hard to read.
+- Adopt Bash Scripting just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Bash Scripting, a little patience with conditionals and loops pays off more than any clever shortcut.

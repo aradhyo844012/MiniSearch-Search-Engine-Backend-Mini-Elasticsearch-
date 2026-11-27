@@ -1,0 +1,11 @@
+Choosing Tools for Floating-Point Arithmetic
+
+There is no single best tool for Floating-Point Arithmetic. The right choice depends on your project, your team and your timeline.
+
+Python decimal is a common first choice, especially for scientific computing. NumPy suits teams that already work with similar technology, and IEEE 754 references is worth a look when you need something different.
+
+Judge any tool for Floating-Point Arithmetic by four questions: Is the documentation clear? Is the community active? Does it handle graphics well? Can you leave it later if you need to?
+
+Whichever tool you pick for Floating-Point Arithmetic, test it on a small problem first, and watch for this: comparing floats with equality.
+
+As a rule of thumb, compare floats with a tolerance and use decimals for money, no matter which tool you use.

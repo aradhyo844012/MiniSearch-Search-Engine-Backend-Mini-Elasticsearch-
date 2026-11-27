@@ -1,0 +1,13 @@
+Teaching Subqueries and CTEs to a Teammate
+
+Explaining Subqueries and CTEs to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: solving a puzzle by writing down intermediate answers. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Subqueries and CTEs is queries nested inside other queries or named as temporary result sets. Avoid jargon at this stage.
+
+Walk through an example involving breaking complex reports into steps, naming subqueries and WITH clauses as they come up.
+
+Ask your teammate to explain correlated queries in Subqueries and CTEs back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, correlated subqueries that run slowly, and suggest this habit: name each CTE after what it returns.

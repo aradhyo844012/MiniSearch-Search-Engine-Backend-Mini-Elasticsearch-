@@ -1,0 +1,11 @@
+Scaling Considerations for Environment Variables
+
+A design that works for a classroom project can behave very differently under real load. Here is how Environment Variables changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding variable names and getting storing configuration right.
+
+Medium scale: problems start to appear. Watch for committing secrets in dotfiles and variables not visible to child processes, and measure with env before changing anything.
+
+Large scale: export and shell startup files move from background details to central design questions. Teams often revisit their choices around selecting program paths at this stage.
+
+Before you scale, print a variable to confirm its value before blaming the code. It is cheaper to build that habit early than to fix a crisis later.

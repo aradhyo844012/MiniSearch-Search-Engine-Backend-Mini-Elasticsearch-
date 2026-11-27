@@ -1,0 +1,13 @@
+Cron Jobs and Scheduling Explained Simply
+
+Here is Cron Jobs and Scheduling without the jargon: it is a Unix tool that runs commands automatically at scheduled times.
+
+Think of Cron Jobs and Scheduling as an alarm clock that starts chores for you. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: crontab syntax, schedule fields, environment differences, and output redirection. You do not need to master them all at once. Start with crontab syntax, then add schedule fields.
+
+People reach for Cron Jobs and Scheduling when they work on nightly backups, log rotation, and periodic reports.
+
+One practical tip is to redirect output to a log file and use absolute paths.
+
+After Cron Jobs and Scheduling, a natural next topic is Process Signals and Job Control.

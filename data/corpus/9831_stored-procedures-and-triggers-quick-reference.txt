@@ -1,0 +1,15 @@
+Stored Procedures and Triggers Quick Reference
+
+A one-screen reminder for Stored Procedures and Triggers. Bookmark it and return when the details fade.
+
+What it is: code stored inside the database that runs on demand or automatically when data changes.
+Key terms: procedures, triggers, parameters, and side effects.
+Typical uses: enforcing rules close to the data, audit logging, and batch updates.
+Risks: hidden logic that surprises developers, hard-to-test code, and trigger chains.
+Tools: PL/pgSQL, MySQL Workbench, and pgTAP.
+
+Mental picture: a house rule that fires automatically whenever something is placed on a shelf.
+
+Habit to build: keep triggers small and well documented.
+
+See also: Views and Materialized Views, which sits close to Stored Procedures and Triggers in the area of SQL and Data Practice.

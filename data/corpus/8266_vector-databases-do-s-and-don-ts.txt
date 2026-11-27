@@ -1,0 +1,17 @@
+Vector Databases Do's and Don'ts
+
+A quick list of habits for working with Vector Databases.
+
+Do:
+- Learn embeddings before anything else.
+- Try FAISS on a small example.
+- Make it a habit to measure recall on a small labeled test set.
+- Test the case of semantic search early.
+
+Don't:
+- Ignore this: mixing embedding models.
+- Ignore this: ignoring recall trade-offs.
+- Ignore this: oversized vectors.
+- Adopt Vector Databases just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Vector Databases, a little patience with approximate nearest neighbors pays off more than any clever shortcut.

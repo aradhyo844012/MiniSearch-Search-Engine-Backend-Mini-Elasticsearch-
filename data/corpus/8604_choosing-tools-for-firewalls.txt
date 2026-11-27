@@ -1,0 +1,11 @@
+Choosing Tools for Firewalls
+
+There is no single best tool for Firewalls. The right choice depends on your project, your team and your timeline.
+
+ufw is a common first choice, especially for protecting servers. iptables suits teams that already work with similar technology, and pfSense is worth a look when you need something different.
+
+Judge any tool for Firewalls by four questions: Is the documentation clear? Is the community active? Does it handle segmenting networks well? Can you leave it later if you need to?
+
+Whichever tool you pick for Firewalls, test it on a small problem first, and watch for this: rules in the wrong order.
+
+As a rule of thumb, start with default deny and open only what you need, no matter which tool you use.

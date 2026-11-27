@@ -1,0 +1,9 @@
+Understanding API Gateways Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a reception desk that checks visitors and sends them to the right office.
+
+In that picture, routing is the first rule you follow, authentication is the next step, and rate limits and request transformation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real API Gateways is services that sit in front of APIs to handle routing, authentication and limits, and it involves details such as a single point of failure that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Kong to learn the exact behavior. The same picture helps when you explain exposing microservices to a friend.

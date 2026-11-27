@@ -1,0 +1,13 @@
+Debugging Computer Vision Basics: A Field Guide
+
+When something goes wrong around Computer Vision Basics, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: lighting changes, biased datasets, and overfitting to a small set of photos.
+Step 3: revisit pixels and filters and edges, since misunderstandings there cause many bugs.
+Step 4: use OpenCV or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Computer Vision Basics in work such as face detection come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, visualize intermediate steps such as edges or masks. It prevents a surprising number of repeat problems.

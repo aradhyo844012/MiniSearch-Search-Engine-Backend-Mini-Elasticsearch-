@@ -1,0 +1,11 @@
+Biometric Authentication Tips from Experienced Engineers
+
+Engineers who work with Biometric Authentication regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip enrollment; everything else builds on it.
+2. Reach for Android BiometricPrompt first, and only then evaluate alternatives such as Face ID APIs.
+3. When something behaves strangely, revisit matching before anything else.
+4. Make sure you can offer a fallback method and protect the stored templates.
+5. Test the case of phone unlock early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to building access as well as to Biometric Authentication in general.

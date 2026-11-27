@@ -1,0 +1,17 @@
+A* Pathfinding for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover A* Pathfinding.
+
+Learning goals:
+1. Explain A* Pathfinding in your own words.
+2. Describe open and closed sets, cost so far, heuristics, and grids and graphs.
+3. Give examples from game characters and robot navigation.
+4. Name three problems to watch for.
+
+Start with the definition: A* Pathfinding is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining. Then draw a hiker who prefers trails that seem to head toward the summit on paper and label the four terms from the goals above.
+
+Self-test questions: Why is overestimating the heuristic a problem? How does cost so far relate to heuristics? When would you choose Unity NavMesh or Python heapq?
+
+Study habit: choose an admissible heuristic so paths stay optimal.
+
+When you feel ready, compare A* Pathfinding with Procedural Generation and write down three differences.

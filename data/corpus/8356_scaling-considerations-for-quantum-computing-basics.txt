@@ -1,0 +1,11 @@
+Scaling Considerations for Quantum Computing Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Quantum Computing Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding qubits and getting research on cryptography right.
+
+Medium scale: problems start to appear. Watch for expecting speedups for every problem and noise and errors, and measure with Qiskit before changing anything.
+
+Large scale: entanglement and quantum gates move from background details to central design questions. Teams often revisit their choices around simulating molecules at this stage.
+
+Before you scale, start by simulating small circuits on a laptop. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,17 @@
+Cloud-Native Applications for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Cloud-Native Applications.
+
+Learning goals:
+1. Explain Cloud-Native Applications in your own words.
+2. Describe containers, microservices, declarative configuration, and elastic scaling.
+3. Give examples from web platforms and data-heavy services.
+4. Name three problems to watch for.
+
+Start with the definition: Cloud-Native Applications is applications designed from the start to run in the cloud using containers and managed services. Then draw a plant that grows best in the soil it was designed for on paper and label the four terms from the goals above.
+
+Self-test questions: Why is treating the cloud like a data center a problem? How does microservices relate to declarative configuration? When would you choose Kubernetes or Docker?
+
+Study habit: design every service to be stateless where possible.
+
+When you feel ready, compare Cloud-Native Applications with Twelve-Factor Apps and write down three differences.

@@ -1,0 +1,15 @@
+Font Rendering in 10 Minutes
+
+You have ten minutes, so here is the fast route through Font Rendering.
+
+Minutes 1 and 2, the definition: Font Rendering is turning font outlines into readable text on screen.
+
+Minutes 3 and 4, the vocabulary: learn glyphs, hinting, anti-aliasing, and kerning.
+
+Minutes 5 and 6, the picture: imagine a calligrapher tracing letter shapes onto a grid of pixels. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through web pages, operating systems, and PDF viewers.
+
+Minutes 9 and 10, the traps and the tools: watch for missing font fallbacks and blurry text from scaling, then try FreeType for a first experiment.
+
+If you have a spare minute, remember to subset fonts to the characters you need.

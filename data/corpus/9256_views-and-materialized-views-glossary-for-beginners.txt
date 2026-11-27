@@ -1,0 +1,12 @@
+Views and Materialized Views Glossary for Beginners
+
+New words can make Views and Materialized Views feel harder than it is. This glossary keeps the key ones in one place.
+
+Views and Materialized Views: saved queries that behave like tables, with materialized views storing the results.
+view definitions: a core term, most visible in simplifying repeated queries.
+refresh strategies: a core term that beginners often confuse with permissions.
+permissions: a core term that connects to dependencies.
+dependencies: a core term worth revisiting after you try a real example.
+PostgreSQL: a tool commonly used for hiding sensitive columns.
+
+Come back to this Views and Materialized Views list whenever documentation for MySQL uses a word you do not recognize.

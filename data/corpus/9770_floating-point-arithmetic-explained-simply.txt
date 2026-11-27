@@ -1,0 +1,13 @@
+Floating-Point Arithmetic Explained Simply
+
+If Floating-Point Arithmetic sounds intimidating, relax. It is the way computers approximate real numbers with a fixed number of bits, and the idea is simpler than the name suggests.
+
+Think of Floating-Point Arithmetic as writing numbers in scientific notation with a limited number of digits. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: mantissa and exponent, rounding, precision, and special values. You do not need to master them all at once. Start with mantissa and exponent, then add rounding.
+
+You will meet Floating-Point Arithmetic in work such as scientific computing, graphics, and financial calculations that need care.
+
+One practical tip is to compare floats with a tolerance and use decimals for money.
+
+After Floating-Point Arithmetic, a natural next topic is Linear Algebra for Programmers.

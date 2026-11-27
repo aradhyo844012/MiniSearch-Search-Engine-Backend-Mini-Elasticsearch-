@@ -1,0 +1,11 @@
+Game Engines in Real Projects
+
+Reading about Game Engines is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: indie games. Here, scenes drives the main design choices, and the team needs to guard against choosing an engine by hype.
+
+Scenario two: simulations. This time assets matters most, and tools such as Unity help keep things manageable.
+
+Scenario three: interactive demos. The key idea is scripting, and the biggest risk is loading everything at start-up.
+
+Across all three scenarios, Game Engines stays the same idea: software frameworks that provide graphics, physics, input and tools for building games. Only the details change.

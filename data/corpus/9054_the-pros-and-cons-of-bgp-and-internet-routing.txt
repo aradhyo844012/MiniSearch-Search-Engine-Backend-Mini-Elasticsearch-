@@ -1,0 +1,15 @@
+The Pros and Cons of BGP and Internet Routing
+
+No technology is free of trade-offs, and BGP and Internet Routing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports connecting ISPs
+- Makes directing traffic between large networks easier
+- Helps with explaining internet outages
+
+Drawbacks and risks:
+- Risk: route leaks
+- Risk: hijacked prefixes
+- Risk: misconfigured filters
+
+Weigh the two lists against your own project. If the advantages match your needs, such as connecting ISPs, and you can manage the risks, BGP and Internet Routing is a sound choice. Whatever you decide, filter route announcements strictly.

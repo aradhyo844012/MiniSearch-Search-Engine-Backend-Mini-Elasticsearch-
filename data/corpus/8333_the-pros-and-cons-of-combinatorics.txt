@@ -1,0 +1,15 @@
+The Pros and Cons of Combinatorics
+
+No technology is free of trade-offs, and Combinatorics is no exception. Here is an honest summary.
+
+Advantages:
+- Supports analyzing algorithms
+- Makes probability easier
+- Helps with estimating password strength
+
+Drawbacks and risks:
+- Risk: double counting
+- Risk: mixing order and no-order cases
+- Risk: ignoring repetition
+
+Weigh the two lists against your own project. If the advantages match your needs, such as analyzing algorithms, and you can manage the risks, Combinatorics is a sound choice. Whatever you decide, test counting formulas on tiny cases first.

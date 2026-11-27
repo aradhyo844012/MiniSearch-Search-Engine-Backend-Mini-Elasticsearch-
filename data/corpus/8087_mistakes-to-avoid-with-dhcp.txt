@@ -1,0 +1,11 @@
+Mistakes to Avoid with DHCP
+
+Everyone learns DHCP partly through mistakes. Here are three worth avoiding.
+
+Mistake one: rogue DHCP servers. It usually appears when someone skips leases and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: exhausted address pools. It tends to be noticed late, often during testing of home and office networks. A short checklist during review catches it early.
+
+Mistake three: conflicting static addresses. It is easy to miss because everything seems to work at first. Keep an eye on discover and offer messages to spot it.
+
+If you remember only one rule, make it this: reserve fixed addresses for servers and printers.

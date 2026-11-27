@@ -1,0 +1,26 @@
+Everything You Need to Know About Model Deployment
+
+This page collects the essentials about Model Deployment in one place. In short, Model Deployment is making a trained model available to serve predictions in a real application.
+
+Core concepts:
+- serving APIs
+- batch versus online inference
+- containers
+- latency budgets
+
+Where it is used:
+- recommendation endpoints
+- fraud checks
+- mobile app features
+
+Common problems:
+- training-serving mismatch
+- slow cold starts
+- no fallback when the model fails
+
+Tools to know:
+- FastAPI
+- TorchServe
+- BentoML
+
+Remember this above all: moving a recipe from the test kitchen into the restaurant is a good way to picture it, and the best habit is to log inputs and outputs so predictions can be audited.

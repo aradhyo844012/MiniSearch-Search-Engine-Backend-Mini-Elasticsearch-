@@ -1,0 +1,13 @@
+Teaching Physics Engines to a Teammate
+
+Explaining Physics Engines to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a stage manager who enforces gravity on every prop. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Physics Engines is software that simulates forces, motion and collisions of objects. Avoid jargon at this stage.
+
+Walk through an example involving vehicles and ragdolls, naming rigid bodies and forces and impulses as they come up.
+
+Ask your teammate to explain constraints in Physics Engines back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, variable time steps, and suggest this habit: use a fixed time step for stable results.

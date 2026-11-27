@@ -1,0 +1,17 @@
+Video Codecs Do's and Don'ts
+
+A quick list of habits for working with Video Codecs.
+
+Do:
+- Learn frames before anything else.
+- Try FFmpeg on a small example.
+- Make it a habit to test playback on the weakest target device.
+- Test the case of streaming services early.
+
+Don't:
+- Ignore this: mismatched codec support.
+- Ignore this: too low a bitrate.
+- Ignore this: ignoring hardware decoding.
+- Adopt Video Codecs just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Video Codecs, a little patience with motion compensation pays off more than any clever shortcut.

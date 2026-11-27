@@ -1,0 +1,17 @@
+Monorepos for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Monorepos.
+
+Learning goals:
+1. Explain Monorepos in your own words.
+2. Describe shared tooling, code ownership, selective builds, and atomic changes.
+3. Give examples from sharing libraries across apps and coordinated refactors.
+4. Name three problems to watch for.
+
+Start with the definition: Monorepos is single repositories that hold the code for many projects. Then draw one big toolbox for the whole workshop on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow checkouts a problem? How does code ownership relate to selective builds? When would you choose Nx or Bazel?
+
+Study habit worth keeping: set up selective builds and tests early.
+
+When you feel ready, compare Monorepos with npm and Package Registries and write down three differences.

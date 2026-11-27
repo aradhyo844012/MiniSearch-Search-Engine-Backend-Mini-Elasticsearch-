@@ -1,0 +1,26 @@
+Everything You Need to Know About A* Pathfinding
+
+This page collects the essentials about A* Pathfinding in one place. In short, A* Pathfinding is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+
+Core concepts:
+- open and closed sets
+- cost so far
+- heuristics
+- grids and graphs
+
+Where it is used:
+- game characters
+- robot navigation
+- map routing
+
+Common problems:
+- overestimating the heuristic
+- slow searches on huge maps
+- ignoring moving obstacles
+
+Tools to know:
+- Unity NavMesh
+- Python heapq
+- Recast Navigation
+
+Remember this above all: a hiker who prefers trails that seem to head toward the summit is a good way to picture it, and the best habit is to choose an admissible heuristic so paths stay optimal.

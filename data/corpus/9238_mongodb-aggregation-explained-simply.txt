@@ -1,0 +1,13 @@
+MongoDB Aggregation Explained Simply
+
+If MongoDB Aggregation sounds intimidating, relax. It is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB, and the idea is simpler than the name suggests.
+
+Think of MongoDB Aggregation as an assembly line where each station filters or reshapes the parts. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: pipeline stages, $match and $group, projection, and indexes. You do not need to master them all at once. Start with pipeline stages, then add $match and $group.
+
+People reach for MongoDB Aggregation when they work on summarizing orders, building analytics queries, and reshaping documents.
+
+One practical tip is to filter with $match as early as possible.
+
+Once MongoDB Aggregation feels comfortable, read about Subqueries and CTEs, which lives in the same neighborhood of ideas.

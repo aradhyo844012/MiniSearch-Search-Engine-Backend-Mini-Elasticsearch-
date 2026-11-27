@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with systemd Services
+
+This path is for a learner who has never studied systemd Services before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (systemd Services is the init system and service manager used by most modern Linux distributions) and learn unit files and targets.
+
+Stage 2, hands-on: install systemctl, follow a tutorial, and build a small example involving starting services at boot.
+
+Stage 3, depth: study service states and journal logs, then deliberately explore this problem: editing unit files without reloading the daemon.
+
+Stage 4, application: apply systemd Services to restarting crashed programs, compare journalctl with systemd-analyze, and write up your results.
+
+Stage 5, review: teach systemd Services to someone else, and then move on to Disk Partitioning and Mounting.

@@ -1,0 +1,15 @@
+The Pros and Cons of Stored Procedures and Triggers
+
+No technology is free of trade-offs, and Stored Procedures and Triggers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports enforcing rules close to the data
+- Makes audit logging easier
+- Helps with batch updates
+
+Drawbacks and risks:
+- Risk: hidden logic that surprises developers
+- Risk: hard-to-test code
+- Risk: trigger chains
+
+Weigh the two lists against your own project. If the advantages match your needs, such as enforcing rules close to the data, and you can manage the risks, Stored Procedures and Triggers is a sound choice. Whatever you decide, keep triggers small and well documented.

@@ -1,0 +1,12 @@
+Database Constraints Glossary for Beginners
+
+New words can make Database Constraints feel harder than it is. This glossary keeps the key ones in one place.
+
+Database Constraints: rules the database enforces to keep stored data valid.
+primary keys: a core term, most visible in preventing bad data.
+foreign keys: a core term that beginners often confuse with unique constraints.
+unique constraints: a core term that connects to check constraints.
+check constraints: a core term worth revisiting after you try a real example.
+PostgreSQL: a tool commonly used for protecting relationships.
+
+Come back to this Database Constraints list whenever documentation for SQLite uses a word you do not recognize.

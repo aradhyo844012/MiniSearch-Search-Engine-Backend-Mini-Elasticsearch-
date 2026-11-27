@@ -1,0 +1,13 @@
+Debugging Browser Developer Tools: A Field Guide
+
+When something goes wrong around Browser Developer Tools, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: editing the page and forgetting to copy the changes, leaving throttling on, and ignoring console warnings.
+Step 3: revisit the elements panel and the console, since misunderstandings there cause many bugs.
+Step 4: use Chrome DevTools or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Browser Developer Tools in work such as debugging layouts come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep the network panel open while testing features. It prevents a surprising number of repeat problems.

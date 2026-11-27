@@ -1,0 +1,12 @@
+High Availability Design Glossary for Beginners
+
+New words can make High Availability Design feel harder than it is. This glossary keeps the key ones in one place.
+
+High Availability Design: designing systems so they keep working when parts fail.
+redundancy: a core term, most visible in online stores.
+failover: a core term that beginners often confuse with health checks.
+health checks: a core term that connects to no single point of failure.
+no single point of failure: a core term worth revisiting after you try a real example.
+load balancers: a tool commonly used for banking systems.
+
+Come back to this High Availability Design list whenever documentation for Kubernetes uses a word you do not recognize.

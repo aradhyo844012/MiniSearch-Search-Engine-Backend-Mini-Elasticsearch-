@@ -1,0 +1,17 @@
+SQL Basics Do's and Don'ts
+
+A quick list of habits for working with SQL Basics.
+
+Do:
+- Learn SELECT before anything else.
+- Try SQLite on a small example.
+- Make it a habit to run a SELECT with the same WHERE clause before any UPDATE or DELETE.
+- Test the case of reading customer records early.
+
+Don't:
+- Ignore this: forgetting the WHERE clause on updates.
+- Ignore this: selecting every column.
+- Ignore this: assuming row order without ORDER BY.
+- Adopt SQL Basics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with SQL Basics, a little patience with WHERE pays off more than any clever shortcut.

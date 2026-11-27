@@ -1,0 +1,26 @@
+Everything You Need to Know About Code Formatters
+
+This page collects the essentials about Code Formatters in one place. In short, Code Formatters is tools that automatically rewrite code to a consistent style.
+
+Core concepts:
+- style rules
+- configuration
+- editor integration
+- pre-commit hooks
+
+Where it is used:
+- ending style debates
+- cleaner diffs
+- onboarding contributors
+
+Common problems:
+- reformatting entire files at once
+- conflicting tool settings
+- ignoring generated files
+
+Tools to know:
+- Prettier
+- Black
+- gofmt
+
+Remember this above all: an automatic proofreader that fixes spacing for everyone is a good way to picture it, and the best habit is to run the formatter in a pre-commit hook.

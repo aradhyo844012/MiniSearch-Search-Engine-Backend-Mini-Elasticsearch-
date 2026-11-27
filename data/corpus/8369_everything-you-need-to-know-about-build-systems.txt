@@ -1,0 +1,26 @@
+Everything You Need to Know About Build Systems
+
+This page collects the essentials about Build Systems in one place. In short, Build Systems is tools that turn source code into runnable programs automatically.
+
+Core concepts:
+- targets
+- dependencies
+- incremental builds
+- build caches
+
+Where it is used:
+- compiling large projects
+- packaging software
+- running repeatable pipelines
+
+Common problems:
+- slow full rebuilds
+- undeclared dependencies
+- machine-specific builds
+
+Tools to know:
+- Make
+- Gradle
+- Bazel
+
+Remember this above all: an assembly line that only rebuilds the parts that changed is a good way to picture it, and the best habit is to make builds reproducible on any machine.

@@ -1,0 +1,11 @@
+Linux File Permissions Tips from Experienced Engineers
+
+Engineers who work with Linux File Permissions regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of protecting private keys early, before the design hardens.
+2. Make sure you can grant the least permission that works.
+3. Do not skip owner, group and others; everything else builds on it.
+4. Reach for ls -l first, and only then evaluate alternatives such as chmod.
+5. Be careful with this one: using chmod 777 as a quick fix.
+
+None of these tips needs special equipment, and all of them apply to sharing project folders as well as to Linux File Permissions in general.

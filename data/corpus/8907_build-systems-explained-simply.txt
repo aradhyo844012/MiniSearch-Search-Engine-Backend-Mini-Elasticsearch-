@@ -1,0 +1,13 @@
+Build Systems Explained Simply
+
+If Build Systems sounds intimidating, relax. It is tools that turn source code into runnable programs automatically, and the idea is simpler than the name suggests.
+
+Think of Build Systems as an assembly line that only rebuilds the parts that changed. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: targets, dependencies, incremental builds, and build caches. You do not need to master them all at once. Start with targets, then add dependencies.
+
+You will meet Build Systems in work such as compiling large projects, packaging software, and running repeatable pipelines.
+
+One practical tip is to make builds reproducible on any machine.
+
+Once Build Systems feels comfortable, read about Code Formatters, which lives in the same neighborhood of ideas.

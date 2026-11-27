@@ -1,0 +1,11 @@
+Why NAT Matters for Developers
+
+Developers who understand NAT make better decisions, because NAT is a technique that lets many devices share one public IP address by rewriting addresses.
+
+Three situations show why it matters. First, home routers. Second, sharing limited IPv4 addresses. Third, hiding internal networks. In each case, a solid grasp of private addresses and translation tables separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: breaking peer-to-peer connections, exhausted translation tables, and misconfigured port forwarding.
+
+You will not need to build everything yourself; iptables, router admin pages, and conntrack cover most needs.
+
+Connect NAT with Wi-Fi Networks to see the bigger picture of Networking and Internet Infrastructure.

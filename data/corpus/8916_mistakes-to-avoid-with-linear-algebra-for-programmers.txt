@@ -1,0 +1,11 @@
+Mistakes to Avoid with Linear Algebra for Programmers
+
+Everyone learns Linear Algebra for Programmers partly through mistakes. Here are three worth avoiding.
+
+Mistake one: mixing row and column conventions. It usually appears when someone skips vectors and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: shape mismatches. It tends to be noticed late, often during testing of 3D graphics. A short checklist during review catches it early.
+
+Mistake three: forgetting that matrix multiplication is not commutative. It is easy to miss because everything seems to work at first. Keep an eye on eigenvalues to spot it.
+
+If you remember only one rule, make it this: check shapes before multiplying.

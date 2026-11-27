@@ -1,0 +1,12 @@
+Monorepos Glossary for Beginners
+
+New words can make Monorepos feel harder than it is. This glossary keeps the key ones in one place.
+
+Monorepos: single repositories that hold the code for many projects.
+shared tooling: a core term, most visible in sharing libraries across apps.
+code ownership: a core term that beginners often confuse with selective builds.
+selective builds: a core term that connects to atomic changes.
+atomic changes: a core term worth revisiting after you try a real example.
+Nx: a tool commonly used for coordinated refactors.
+
+Come back to this Monorepos list whenever documentation for Bazel uses a word you do not recognize.

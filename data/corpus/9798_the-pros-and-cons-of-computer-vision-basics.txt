@@ -1,0 +1,15 @@
+The Pros and Cons of Computer Vision Basics
+
+No technology is free of trade-offs, and Computer Vision Basics is no exception. Here is an honest summary.
+
+Advantages:
+- Supports face detection
+- Makes document scanning easier
+- Helps with quality inspection
+
+Drawbacks and risks:
+- Risk: lighting changes
+- Risk: biased datasets
+- Risk: overfitting to a small set of photos
+
+Weigh the two lists against your own project. If the advantages match your needs, such as face detection, and you can manage the risks, Computer Vision Basics is a sound choice. Whatever you decide, visualize intermediate steps such as edges or masks.

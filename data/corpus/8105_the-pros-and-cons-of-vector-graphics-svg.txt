@@ -1,0 +1,15 @@
+The Pros and Cons of Vector Graphics (SVG)
+
+No technology is free of trade-offs, and Vector Graphics (SVG) is no exception. Here is an honest summary.
+
+Advantages:
+- Supports logos
+- Makes icons easier
+- Helps with charts
+
+Drawbacks and risks:
+- Risk: overly complex paths
+- Risk: a missing viewBox
+- Risk: inconsistent stroke widths
+
+Weigh the two lists against your own project. If the advantages match your needs, such as logos, and you can manage the risks, Vector Graphics (SVG) is a sound choice. Whatever you decide, set a viewBox so the image scales cleanly.

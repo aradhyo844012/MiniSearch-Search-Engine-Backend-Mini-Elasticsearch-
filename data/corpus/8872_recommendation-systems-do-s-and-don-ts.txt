@@ -1,0 +1,17 @@
+Recommendation Systems Do's and Don'ts
+
+A quick list of habits for working with Recommendation Systems.
+
+Do:
+- Learn collaborative filtering before anything else.
+- Try Surprise on a small example.
+- Make it a habit to evaluate with held-out interactions, not training data.
+- Test the case of streaming services early.
+
+Don't:
+- Ignore this: feedback loops.
+- Ignore this: popularity bias.
+- Ignore this: ignoring new users.
+- Adopt Recommendation Systems just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Recommendation Systems, a little patience with content-based filtering pays off more than any clever shortcut.

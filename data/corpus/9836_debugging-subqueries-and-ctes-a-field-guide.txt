@@ -1,0 +1,13 @@
+Debugging Subqueries and CTEs: A Field Guide
+
+When something goes wrong around Subqueries and CTEs, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: correlated subqueries that run slowly, deep nesting, and assuming CTEs are always materialized.
+Step 3: revisit subqueries and WITH clauses, since misunderstandings there cause many bugs.
+Step 4: use PostgreSQL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Subqueries and CTEs in work such as breaking complex reports into steps come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, name each CTE after what it returns. It prevents a surprising number of repeat problems.

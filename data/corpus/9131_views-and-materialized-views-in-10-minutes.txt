@@ -1,0 +1,15 @@
+Views and Materialized Views in 10 Minutes
+
+You have ten minutes, so here is the fast route through Views and Materialized Views.
+
+Minutes 1 and 2, the definition: Views and Materialized Views is saved queries that behave like tables, with materialized views storing the results.
+
+Minutes 3 and 4, the vocabulary: learn view definitions, refresh strategies, permissions, and dependencies.
+
+Minutes 5 and 6, the picture: imagine a window cut into a wall that shows only part of the room. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through simplifying repeated queries, hiding sensitive columns, and speeding up reports.
+
+Minutes 9 and 10, the traps and the tools: watch for stale materialized data and views stacked on views, then try PostgreSQL for a first experiment.
+
+If you have a spare minute, remember to document how and when each materialized view is refreshed.

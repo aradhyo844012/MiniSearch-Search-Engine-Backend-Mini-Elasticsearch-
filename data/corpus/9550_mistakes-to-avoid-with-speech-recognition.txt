@@ -1,0 +1,11 @@
+Mistakes to Avoid with Speech Recognition
+
+Everyone learns Speech Recognition partly through mistakes. Here are three worth avoiding.
+
+Mistake one: accents and background noise. It usually appears when someone skips audio features and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: domain-specific vocabulary. It tends to be noticed late, often during testing of voice assistants. A short checklist during review catches it early.
+
+Mistake three: privacy of recordings. It is easy to miss because everything seems to work at first. Keep an eye on word error rate to spot it.
+
+If you remember only one rule, make it this: measure word error rate on audio like your real users'.

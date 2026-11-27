@@ -1,0 +1,13 @@
+Debugging Game Loop: A Field Guide
+
+When something goes wrong around Game Loop, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: tying logic to frame rate, slow update steps, and ignoring delta time.
+Step 3: revisit input handling and the update step, since misunderstandings there cause many bugs.
+Step 4: use Unity or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Game Loop in work such as running every real-time game come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use delta time so speed does not depend on frame rate. It prevents a surprising number of repeat problems.

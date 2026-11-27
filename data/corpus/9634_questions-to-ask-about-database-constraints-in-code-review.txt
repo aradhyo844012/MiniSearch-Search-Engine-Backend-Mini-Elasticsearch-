@@ -1,0 +1,12 @@
+Questions to Ask About Database Constraints in Code Review
+
+Reviewing code that involves Database Constraints is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch missing indexes on foreign keys if it appeared later?
+- Could we put critical rules in the database as well as in the app?
+- Have we avoided this problem: rules enforced only in the app?
+- Is foreign keys clear to someone reading the code for the first time?
+- Does the code handle the case of preventing bad data correctly?
+- Is PostgreSQL used consistently, or are we mixing approaches?
+
+Good reviews of work on Database Constraints are specific, kind and focused on unique constraints, not on personal style.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Browser Developer Tools
+
+This page collects the essentials about Browser Developer Tools in one place. In short, Browser Developer Tools is built-in browser panels for inspecting, debugging and measuring web pages.
+
+Core concepts:
+- the elements panel
+- the console
+- the network panel
+- the performance profiler
+
+Where it is used:
+- debugging layouts
+- inspecting API calls
+- finding slow scripts
+
+Common problems:
+- editing the page and forgetting to copy the changes
+- leaving throttling on
+- ignoring console warnings
+
+Tools to know:
+- Chrome DevTools
+- Firefox Developer Edition
+- Lighthouse
+
+Remember this above all: an X-ray machine for web pages is a good way to picture it, and the best habit is to keep the network panel open while testing features.

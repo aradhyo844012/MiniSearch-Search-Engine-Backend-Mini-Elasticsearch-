@@ -1,0 +1,17 @@
+Bash Scripting for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Bash Scripting.
+
+Learning goals:
+1. Explain Bash Scripting in your own words.
+2. Describe variables, conditionals and loops, exit codes, and functions.
+3. Give examples from automating deployments and processing text files.
+4. Name three problems to watch for.
+
+Start with the definition: Bash Scripting is writing shell scripts that automate tasks by chaining commands, variables and control flow. Then draw a recipe card that the computer follows without help on paper and label the four terms from the goals above.
+
+Self-test questions: Why is unquoted variables a problem? How does conditionals and loops relate to exit codes? When would you choose Bash or ShellCheck?
+
+Study habit worth keeping: start scripts with set -euo pipefail and quote every variable.
+
+When you feel ready, compare Bash Scripting with Package Managers and write down three differences.

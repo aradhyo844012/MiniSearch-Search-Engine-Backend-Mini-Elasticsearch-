@@ -1,0 +1,13 @@
+Teaching A* Pathfinding to a Teammate
+
+Explaining A* Pathfinding to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a hiker who prefers trails that seem to head toward the summit. Ask your teammate what the picture suggests.
+
+Then give the plain definition: A* Pathfinding is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining. Avoid jargon at this stage.
+
+Walk through an example involving game characters, naming open and closed sets and cost so far as they come up.
+
+Ask your teammate to explain heuristics in A* Pathfinding back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, overestimating the heuristic, and suggest this habit: choose an admissible heuristic so paths stay optimal.

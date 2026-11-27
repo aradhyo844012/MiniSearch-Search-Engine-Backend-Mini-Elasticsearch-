@@ -1,0 +1,11 @@
+MongoDB Aggregation Tips from Experienced Engineers
+
+Engineers who work with MongoDB Aggregation regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip pipeline stages; everything else builds on it.
+2. Be careful with this one: putting $match late.
+3. Write down why you chose MongoDB Aggregation so the next person understands the decision.
+4. When something behaves strangely, revisit $match and $group before anything else.
+5. Reach for MongoDB Compass first, and only then evaluate alternatives such as mongosh.
+
+None of these tips needs special equipment, and all of them apply to building analytics queries as well as to MongoDB Aggregation in general.

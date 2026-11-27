@@ -1,0 +1,13 @@
+Debugging Stored Procedures and Triggers: A Field Guide
+
+When something goes wrong around Stored Procedures and Triggers, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: hidden logic that surprises developers, hard-to-test code, and trigger chains.
+Step 3: revisit procedures and triggers, since misunderstandings there cause many bugs.
+Step 4: use PL/pgSQL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Stored Procedures and Triggers in work such as enforcing rules close to the data come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep triggers small and well documented. It prevents a surprising number of repeat problems.

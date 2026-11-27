@@ -1,0 +1,11 @@
+Game Loop in Real Projects
+
+Reading about Game Loop is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: running every real-time game. Here, input handling drives the main design choices, and the team needs to guard against tying logic to frame rate.
+
+Scenario two: keeping animation smooth. This time the update step matters most, and tools such as Unity help keep things manageable.
+
+Scenario three: simulating physics steadily. The key idea is rendering, and the biggest risk is slow update steps.
+
+Across all three scenarios, Game Loop stays the same idea: the repeating cycle that processes input, updates the game state and draws each frame. Only the details change.

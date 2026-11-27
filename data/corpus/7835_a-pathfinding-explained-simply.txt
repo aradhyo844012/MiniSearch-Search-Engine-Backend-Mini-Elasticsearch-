@@ -1,0 +1,13 @@
+A* Pathfinding Explained Simply
+
+Here is A* Pathfinding without the jargon: it is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+
+Think of A* Pathfinding as a hiker who prefers trails that seem to head toward the summit. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: open and closed sets, cost so far, heuristics, and grids and graphs. You do not need to master them all at once. Start with open and closed sets, then add cost so far.
+
+People reach for A* Pathfinding when they work on game characters, robot navigation, and map routing.
+
+One practical tip is to choose an admissible heuristic so paths stay optimal.
+
+After A* Pathfinding, a natural next topic is Entity Component Systems.

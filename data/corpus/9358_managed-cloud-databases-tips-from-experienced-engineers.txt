@@ -1,0 +1,11 @@
+Managed Cloud Databases Tips from Experienced Engineers
+
+Engineers who work with Managed Cloud Databases regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: surprise costs.
+2. Write down why you chose Managed Cloud Databases so the next person understands the decision.
+3. Test the case of launching apps quickly early, before the design hardens.
+4. When something behaves strangely, revisit read replicas before anything else.
+5. Make sure you can test restoring a backup before you need it.
+
+None of these tips needs special equipment, and all of them apply to reducing database administration as well as to Managed Cloud Databases in general.

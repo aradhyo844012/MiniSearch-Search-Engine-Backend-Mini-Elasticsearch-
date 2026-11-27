@@ -1,0 +1,26 @@
+Everything You Need to Know About Network Troubleshooting
+
+This page collects the essentials about Network Troubleshooting in one place. In short, Network Troubleshooting is a step-by-step process for finding out why a network connection fails or is slow.
+
+Core concepts:
+- protocol layers
+- ping and traceroute
+- DNS checks
+- packet captures
+
+Where it is used:
+- fixing office connectivity
+- diagnosing slow apps
+- verifying firewall changes
+
+Common problems:
+- changing several things at once
+- blaming the application too early
+- ignoring DNS
+
+Tools to know:
+- ping
+- traceroute
+- Wireshark
+
+Remember this above all: a doctor who checks the heart, lungs and blood pressure in order is a good way to picture it, and the best habit is to work from the bottom layer upward.

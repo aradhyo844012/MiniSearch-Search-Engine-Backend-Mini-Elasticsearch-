@@ -1,0 +1,12 @@
+Linux Boot Process Glossary for Beginners
+
+New words can make Linux Boot Process feel harder than it is. This glossary keeps the key ones in one place.
+
+Linux Boot Process: the sequence of steps from powering on a machine to a running operating system.
+firmware: a core term, most visible in troubleshooting machines that do not start.
+bootloader: a core term that beginners often confuse with kernel initialization.
+kernel initialization: a core term that connects to the init system.
+the init system: a core term worth revisiting after you try a real example.
+GRUB: a tool commonly used for configuring dual boot.
+
+Come back to this Linux Boot Process list whenever documentation for dmesg uses a word you do not recognize.

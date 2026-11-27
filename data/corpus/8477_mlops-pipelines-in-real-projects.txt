@@ -1,0 +1,11 @@
+MLOps Pipelines in Real Projects
+
+Reading about MLOps Pipelines is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: repeatable model releases. Here, data versioning drives the main design choices, and the team needs to guard against untracked data changes.
+
+Scenario two: tracking experiments. This time training pipelines matters most, and tools such as MLflow help keep things manageable.
+
+Scenario three: rolling back models. The key idea is the model registry, and the biggest risk is manual deployment steps.
+
+Across all three scenarios, MLOps Pipelines stays the same idea: automated workflows that train, test, deploy and monitor machine learning models. Only the details change.

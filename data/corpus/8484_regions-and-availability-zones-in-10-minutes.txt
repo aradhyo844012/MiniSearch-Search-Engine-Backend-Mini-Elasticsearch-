@@ -1,0 +1,15 @@
+Regions and Availability Zones in 10 Minutes
+
+You have ten minutes, so here is the fast route through Regions and Availability Zones.
+
+Minutes 1 and 2, the definition: Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources.
+
+Minutes 3 and 4, the vocabulary: learn regions, availability zones, latency, and data residency.
+
+Minutes 5 and 6, the picture: imagine branches of a bank in different cities and different buildings. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through placing services near users, surviving data center failures, and meeting data laws.
+
+Minutes 9 and 10, the traps and the tools: watch for putting everything in one zone and cross-region transfer fees, then try AWS Regions for a first experiment.
+
+If you have a spare minute, remember to spread critical services across at least two zones.

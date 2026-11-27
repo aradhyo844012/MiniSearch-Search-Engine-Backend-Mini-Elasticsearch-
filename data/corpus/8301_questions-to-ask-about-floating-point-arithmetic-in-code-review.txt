@@ -1,0 +1,12 @@
+Questions to Ask About Floating-Point Arithmetic in Code Review
+
+Reviewing code that involves Floating-Point Arithmetic is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered comparing floats with equality?
+- Is Python decimal used consistently, or are we mixing approaches?
+- Does the code handle the case of scientific computing correctly?
+- Would a test catch accumulated rounding errors if it appeared later?
+- Is rounding clear to someone reading the code for the first time?
+- Have we avoided this problem: using floats for money?
+
+Good reviews of work on Floating-Point Arithmetic are specific, kind and focused on precision, not on personal style.

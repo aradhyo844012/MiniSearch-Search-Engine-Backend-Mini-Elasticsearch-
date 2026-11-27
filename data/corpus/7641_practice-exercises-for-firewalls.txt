@@ -1,0 +1,11 @@
+Practice Exercises for Firewalls
+
+These exercises build real understanding of Firewalls. Do them in order, and write down your answers.
+
+Exercise 1: Pick ufw and complete its getting-started tutorial.
+Exercise 2: List three situations from your own experience that resemble protecting servers or segmenting networks.
+Exercise 3: Create a small example that deliberately triggers this problem: rules in the wrong order. Then fix it.
+Exercise 4: Compare iptables and pfSense for logging suspicious traffic and write down your conclusion.
+Exercise 5: Explain how default deny and zones differ, using a drawing.
+
+When you finish, compare your answers with the definition: Firewalls is systems that allow or block network traffic according to rules.

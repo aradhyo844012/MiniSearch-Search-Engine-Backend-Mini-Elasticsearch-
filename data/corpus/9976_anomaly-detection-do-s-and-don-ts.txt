@@ -1,0 +1,17 @@
+Anomaly Detection Do's and Don'ts
+
+A quick list of habits for working with Anomaly Detection.
+
+Do:
+- Learn baselines before anything else.
+- Try scikit-learn on a small example.
+- Make it a habit to tune alerts using real examples of past incidents.
+- Test the case of fraud detection early.
+
+Don't:
+- Ignore this: too many false alarms.
+- Ignore this: shifting baselines.
+- Ignore this: labeling normal data incorrectly.
+- Adopt Anomaly Detection just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Anomaly Detection, a little patience with thresholds pays off more than any clever shortcut.

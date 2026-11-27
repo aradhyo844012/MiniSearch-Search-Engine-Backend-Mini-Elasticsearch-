@@ -1,0 +1,12 @@
+Questions to Ask About NAT in Code Review
+
+Reviewing code that involves NAT is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is translation tables clear to someone reading the code for the first time?
+- Is iptables used consistently, or are we mixing approaches?
+- Does the code handle the case of home routers correctly?
+- Have we avoided this problem: misconfigured port forwarding?
+- Would a test catch exhausted translation tables if it appeared later?
+- Have we considered breaking peer-to-peer connections?
+
+Good reviews of work on NAT are specific, kind and focused on port mapping, not on personal style.

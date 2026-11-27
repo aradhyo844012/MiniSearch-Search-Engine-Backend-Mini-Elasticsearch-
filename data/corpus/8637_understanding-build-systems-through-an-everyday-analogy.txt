@@ -1,0 +1,9 @@
+Understanding Build Systems Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an assembly line that only rebuilds the parts that changed.
+
+In that picture, targets is the first rule you follow, dependencies is the next step, and incremental builds and build caches keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Build Systems is tools that turn source code into runnable programs automatically, and it involves details such as slow full rebuilds that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Make to learn the exact behavior. The same picture helps when you explain compiling large projects to a friend.

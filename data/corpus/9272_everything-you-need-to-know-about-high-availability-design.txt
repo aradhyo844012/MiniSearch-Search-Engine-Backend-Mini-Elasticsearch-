@@ -1,0 +1,26 @@
+Everything You Need to Know About High Availability Design
+
+This page collects the essentials about High Availability Design in one place. In short, High Availability Design is designing systems so they keep working when parts fail.
+
+Core concepts:
+- redundancy
+- failover
+- health checks
+- no single point of failure
+
+Where it is used:
+- online stores
+- banking systems
+- healthcare software
+
+Common problems:
+- hidden single points of failure
+- untested failover
+- correlated failures
+
+Tools to know:
+- load balancers
+- Kubernetes
+- Patroni
+
+Remember this above all: a bridge with several cables so one breaking does not matter is a good way to picture it, and the best habit is to list every component and ask what happens if it dies.

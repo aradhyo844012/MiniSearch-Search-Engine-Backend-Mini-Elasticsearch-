@@ -1,0 +1,15 @@
+Number Theory and RSA Quick Reference
+
+A one-screen reminder for Number Theory and RSA. Bookmark it and return when the details fade.
+
+What it is: the study of integers, whose properties underpin much of modern encryption.
+Key terms: prime numbers, modular arithmetic, greatest common divisor, and modular exponentiation.
+Typical uses: public key cryptography, hash functions, and digital signatures.
+Risks: using small primes, implementing crypto by hand in production, and ignoring padding.
+Tools: Python pow, OpenSSL, and SageMath.
+
+Mental picture: a clock whose numbers wrap around.
+
+Habit to build: use vetted crypto libraries instead of writing your own.
+
+See also: Probability Basics, which sits close to Number Theory and RSA in the area of Mathematics for Computing.

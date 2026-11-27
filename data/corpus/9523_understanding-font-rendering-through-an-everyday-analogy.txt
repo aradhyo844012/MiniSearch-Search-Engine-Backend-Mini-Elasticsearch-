@@ -1,0 +1,9 @@
+Understanding Font Rendering Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a calligrapher tracing letter shapes onto a grid of pixels.
+
+In that picture, glyphs is the first rule you follow, hinting is the next step, and anti-aliasing and kerning keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Font Rendering is turning font outlines into readable text on screen, and it involves details such as missing font fallbacks that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for FreeType to learn the exact behavior. The same picture helps when you explain web pages to a friend.

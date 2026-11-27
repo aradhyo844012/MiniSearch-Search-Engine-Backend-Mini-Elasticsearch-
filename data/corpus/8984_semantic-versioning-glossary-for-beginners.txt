@@ -1,0 +1,12 @@
+Semantic Versioning Glossary for Beginners
+
+New words can make Semantic Versioning feel harder than it is. This glossary keeps the key ones in one place.
+
+Semantic Versioning: a numbering scheme where major, minor and patch numbers signal how much changed.
+major, minor and patch numbers: a core term, most visible in publishing libraries.
+breaking changes: a core term that beginners often confuse with pre-release tags.
+pre-release tags: a core term that connects to version ranges.
+version ranges: a core term worth revisiting after you try a real example.
+semver.org: a tool commonly used for declaring dependencies.
+
+Come back to this Semantic Versioning list whenever documentation for npm semver uses a word you do not recognize.

@@ -1,0 +1,17 @@
+Managed Cloud Databases Do's and Don'ts
+
+A quick list of habits for working with Managed Cloud Databases.
+
+Do:
+- Learn automated backups before anything else.
+- Try Amazon RDS on a small example.
+- Make it a habit to test restoring a backup before you need it.
+- Test the case of launching apps quickly early.
+
+Don't:
+- Ignore this: surprise costs.
+- Ignore this: limited configuration control.
+- Ignore this: ignoring maintenance windows.
+- Adopt Managed Cloud Databases just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Managed Cloud Databases, a little patience with read replicas pays off more than any clever shortcut.

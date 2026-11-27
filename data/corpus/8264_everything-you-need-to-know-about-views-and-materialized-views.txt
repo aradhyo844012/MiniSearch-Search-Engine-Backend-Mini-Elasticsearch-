@@ -1,0 +1,26 @@
+Everything You Need to Know About Views and Materialized Views
+
+This page collects the essentials about Views and Materialized Views in one place. In short, Views and Materialized Views is saved queries that behave like tables, with materialized views storing the results.
+
+Core concepts:
+- view definitions
+- refresh strategies
+- permissions
+- dependencies
+
+Where it is used:
+- simplifying repeated queries
+- hiding sensitive columns
+- speeding up reports
+
+Common problems:
+- stale materialized data
+- views stacked on views
+- surprising performance costs
+
+Tools to know:
+- PostgreSQL
+- MySQL
+- Snowflake
+
+Remember this above all: a window cut into a wall that shows only part of the room is a good way to picture it, and the best habit is to document how and when each materialized view is refreshed.

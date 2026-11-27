@@ -1,0 +1,11 @@
+Scaling Considerations for Smart Contracts
+
+A design that works for a classroom project can behave very differently under real load. Here is how Smart Contracts changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding contract code and getting token systems right.
+
+Medium scale: problems start to appear. Watch for bugs that cannot be patched and reentrancy attacks, and measure with Solidity before changing anything.
+
+Large scale: gas fees and immutability move from background details to central design questions. Teams often revisit their choices around automated escrow at this stage.
+
+Before you scale, audit and test contracts thoroughly before deployment. It is cheaper to build that habit early than to fix a crisis later.

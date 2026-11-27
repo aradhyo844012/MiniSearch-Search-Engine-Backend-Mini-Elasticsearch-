@@ -1,0 +1,17 @@
+Code Formatters Do's and Don'ts
+
+A quick list of habits for working with Code Formatters.
+
+Do:
+- Learn style rules before anything else.
+- Try Prettier on a small example.
+- Make it a habit to run the formatter in a pre-commit hook.
+- Test the case of ending style debates early.
+
+Don't:
+- Ignore this: reformatting entire files at once.
+- Ignore this: conflicting tool settings.
+- Ignore this: ignoring generated files.
+- Adopt Code Formatters just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Code Formatters, a little patience with configuration pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Teaching Bash Scripting to a Teammate
+
+Explaining Bash Scripting to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a recipe card that the computer follows without help. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Bash Scripting is writing shell scripts that automate tasks by chaining commands, variables and control flow. Avoid jargon at this stage.
+
+Walk through an example involving automating deployments, naming variables and conditionals and loops as they come up.
+
+Ask your teammate to explain exit codes in Bash Scripting back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, unquoted variables, and suggest this habit: start scripts with set -euo pipefail and quote every variable.

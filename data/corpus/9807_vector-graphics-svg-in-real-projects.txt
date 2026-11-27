@@ -1,0 +1,11 @@
+Vector Graphics (SVG) in Real Projects
+
+Reading about Vector Graphics (SVG) is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: logos. Here, paths drives the main design choices, and the team needs to guard against overly complex paths.
+
+Scenario two: icons. This time the viewBox matters most, and tools such as Inkscape help keep things manageable.
+
+Scenario three: charts. The key idea is fill and stroke, and the biggest risk is a missing viewBox.
+
+Across all three scenarios, Vector Graphics (SVG) stays the same idea: images described by shapes and paths so they stay sharp at any size. Only the details change.

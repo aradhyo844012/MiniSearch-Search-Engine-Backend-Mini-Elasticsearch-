@@ -1,0 +1,11 @@
+Choosing Tools for Code Formatters
+
+There is no single best tool for Code Formatters. The right choice depends on your project, your team and your timeline.
+
+Prettier is a common first choice, especially for ending style debates. Black suits teams that already work with similar technology, and gofmt is worth a look when you need something different.
+
+Judge any tool for Code Formatters by four questions: Is the documentation clear? Is the community active? Does it handle cleaner diffs well? Can you leave it later if you need to?
+
+Whichever tool you pick for Code Formatters, test it on a small problem first, and watch for this: reformatting entire files at once.
+
+As a rule of thumb, run the formatter in a pre-commit hook, no matter which tool you use.

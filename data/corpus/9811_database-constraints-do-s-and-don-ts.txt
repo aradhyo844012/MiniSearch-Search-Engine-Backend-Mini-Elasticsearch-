@@ -1,0 +1,17 @@
+Database Constraints Do's and Don'ts
+
+A quick list of habits for working with Database Constraints.
+
+Do:
+- Learn primary keys before anything else.
+- Try PostgreSQL on a small example.
+- Make it a habit to put critical rules in the database as well as in the app.
+- Test the case of preventing bad data early.
+
+Don't:
+- Ignore this: skipping constraints for speed.
+- Ignore this: missing indexes on foreign keys.
+- Ignore this: rules enforced only in the app.
+- Adopt Database Constraints just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Database Constraints, a little patience with foreign keys pays off more than any clever shortcut.

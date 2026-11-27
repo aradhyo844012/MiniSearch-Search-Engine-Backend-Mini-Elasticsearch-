@@ -1,0 +1,11 @@
+Practice Exercises for Semantic Versioning
+
+These exercises build real understanding of Semantic Versioning. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Semantic Versioning and include the term major, minor and patch numbers.
+Exercise 2: Compare npm semver and release notes for planning upgrades and write down your conclusion.
+Exercise 3: Pick semver.org and complete its getting-started tutorial.
+Exercise 4: Explain how pre-release tags and version ranges differ, using a drawing.
+Exercise 5: Create a small example that deliberately triggers this problem: breaking changes in minor releases. Then fix it.
+
+When you finish, compare your answers with the definition: Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed.

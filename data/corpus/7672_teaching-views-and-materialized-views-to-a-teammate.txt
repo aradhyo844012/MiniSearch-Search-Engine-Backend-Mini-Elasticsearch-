@@ -1,0 +1,13 @@
+Teaching Views and Materialized Views to a Teammate
+
+Explaining Views and Materialized Views to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a window cut into a wall that shows only part of the room. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Views and Materialized Views is saved queries that behave like tables, with materialized views storing the results. Avoid jargon at this stage.
+
+Walk through an example involving simplifying repeated queries, naming view definitions and refresh strategies as they come up.
+
+Ask your teammate to explain permissions in Views and Materialized Views back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, stale materialized data, and suggest this habit: document how and when each materialized view is refreshed.

@@ -1,0 +1,13 @@
+Teaching NAT to a Teammate
+
+Explaining NAT to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a receptionist who forwards calls for many desks through one phone number. Ask your teammate what the picture suggests.
+
+Then give the plain definition: NAT is a technique that lets many devices share one public IP address by rewriting addresses. Avoid jargon at this stage.
+
+Walk through an example involving home routers, naming private addresses and translation tables as they come up.
+
+Ask your teammate to explain port mapping in NAT back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, breaking peer-to-peer connections, and suggest this habit: document every port forward you create.

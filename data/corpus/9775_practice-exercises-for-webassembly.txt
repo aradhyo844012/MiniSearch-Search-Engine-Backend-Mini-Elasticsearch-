@@ -1,0 +1,11 @@
+Practice Exercises for WebAssembly
+
+These exercises build real understanding of WebAssembly. Do them in order, and write down your answers.
+
+Exercise 1: Pick Emscripten and complete its getting-started tutorial.
+Exercise 2: List three situations from your own experience that resemble running heavy computation in the browser or porting existing C or Rust code.
+Exercise 3: Create a small example that deliberately triggers this problem: crossing the JavaScript boundary too often. Then fix it.
+Exercise 4: Compare wasm-pack and Wasmtime for games and image tools and write down your conclusion.
+Exercise 5: Explain how imports and exports and the JavaScript bridge differ, using a drawing.
+
+When you finish, compare your answers with the definition: WebAssembly is a compact binary format that lets code written in many languages run fast in browsers.

@@ -1,0 +1,11 @@
+Video Codecs Tips from Experienced Engineers
+
+Engineers who work with Video Codecs regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip frames; everything else builds on it.
+2. Write down why you chose Video Codecs so the next person understands the decision.
+3. Be careful with this one: mismatched codec support.
+4. When something behaves strangely, revisit motion compensation before anything else.
+5. Test the case of streaming services early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to video calls as well as to Video Codecs in general.

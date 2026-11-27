@@ -1,0 +1,11 @@
+Choosing Tools for Packet Switching
+
+There is no single best tool for Packet Switching. The right choice depends on your project, your team and your timeline.
+
+Wireshark is a common first choice, especially for internet traffic. tcpdump suits teams that already work with similar technology, and iperf is worth a look when you need something different.
+
+Judge any tool for Packet Switching by four questions: Is the documentation clear? Is the community active? Does it handle voice over IP well? Can you leave it later if you need to?
+
+Whichever tool you pick for Packet Switching, test it on a small problem first, and watch for this: packet loss.
+
+As a rule of thumb, capture a few packets to see the headers for yourself, no matter which tool you use.

@@ -1,0 +1,15 @@
+Stored Procedures and Triggers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Stored Procedures and Triggers.
+
+Minutes 1 and 2, the definition: Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes.
+
+Minutes 3 and 4, the vocabulary: learn procedures, triggers, parameters, and side effects.
+
+Minutes 5 and 6, the picture: imagine a house rule that fires automatically whenever something is placed on a shelf. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through enforcing rules close to the data, audit logging, and batch updates.
+
+Minutes 9 and 10, the traps and the tools: watch for hidden logic that surprises developers and hard-to-test code, then try PL/pgSQL for a first experiment.
+
+If you have a spare minute, remember to keep triggers small and well documented.

@@ -1,0 +1,13 @@
+Debugging Wi-Fi Networks: A Field Guide
+
+When something goes wrong around Wi-Fi Networks, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: overlapping channels, weak passwords, and poor access point placement.
+Step 3: revisit SSIDs and channels and bands, since misunderstandings there cause many bugs.
+Step 4: use Wi-Fi analyzer apps or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Wi-Fi Networks in work such as home internet come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use WPA3, or WPA2 with a long passphrase. It prevents a surprising number of repeat problems.

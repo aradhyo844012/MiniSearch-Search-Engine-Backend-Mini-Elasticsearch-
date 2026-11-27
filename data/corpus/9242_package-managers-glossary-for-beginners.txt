@@ -1,0 +1,12 @@
+Package Managers Glossary for Beginners
+
+New words can make Package Managers feel harder than it is. This glossary keeps the key ones in one place.
+
+Package Managers: tools that install, update and remove software along with its dependencies.
+repositories: a core term, most visible in installing system tools.
+dependency resolution: a core term that beginners often confuse with versions.
+versions: a core term that connects to signed packages.
+signed packages: a core term worth revisiting after you try a real example.
+apt: a tool commonly used for keeping servers updated.
+
+Come back to this Package Managers list whenever documentation for dnf uses a word you do not recognize.

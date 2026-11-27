@@ -1,0 +1,11 @@
+Choosing Tools for Browser Developer Tools
+
+There is no single best tool for Browser Developer Tools. The right choice depends on your project, your team and your timeline.
+
+Chrome DevTools is a common first choice, especially for debugging layouts. Firefox Developer Edition suits teams that already work with similar technology, and Lighthouse is worth a look when you need something different.
+
+Judge any tool for Browser Developer Tools by four questions: Is the documentation clear? Is the community active? Does it handle inspecting API calls well? Can you leave it later if you need to?
+
+Whichever tool you pick for Browser Developer Tools, test it on a small problem first, and watch for this: editing the page and forgetting to copy the changes.
+
+As a rule of thumb, keep the network panel open while testing features, no matter which tool you use.

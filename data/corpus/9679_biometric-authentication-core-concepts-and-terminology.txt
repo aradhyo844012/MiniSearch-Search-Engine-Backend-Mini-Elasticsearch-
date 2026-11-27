@@ -1,0 +1,10 @@
+Biometric Authentication: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Biometric Authentication with confidence. The subject itself is verifying identity using traits such as fingerprints, faces or voices.
+
+enrollment: one of the building blocks of Biometric Authentication. It shows up whenever you work on phone unlock.
+matching: one of the building blocks of Biometric Authentication. Documentation for Android BiometricPrompt usually mentions it early.
+false accept and false reject rates: one of the building blocks of Biometric Authentication. Mixing it up with neighboring terms is a common source of confusion.
+liveness detection: one of the building blocks of Biometric Authentication. Documentation for Android BiometricPrompt usually mentions it early.
+
+Practice using these four Biometric Authentication terms in sentences about building access. If the sentences feel natural, the vocabulary has stuck.

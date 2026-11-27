@@ -1,0 +1,11 @@
+Is A* Pathfinding Right for Your Project?
+
+Before adopting A* Pathfinding, ask whether it fits the problem. Remember that A* Pathfinding is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+
+It is a good fit when your work involves game characters or robot navigation, and when your team understands open and closed sets.
+
+Be cautious when the project is very small, when deadlines leave no room to learn cost so far, or when you cannot manage these risks: overestimating the heuristic, slow searches on huge maps, and ignoring moving obstacles.
+
+A simple decision test: write down the problem in one sentence, then check whether heuristics and grids and graphs are part of the answer. If they are, A* Pathfinding is probably worth a closer look.
+
+If you decide to go ahead, start small with map routing and choose an admissible heuristic so paths stay optimal.

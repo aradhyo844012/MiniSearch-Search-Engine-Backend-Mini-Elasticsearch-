@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Rasterization
+
+This is a fictional but realistic day for a developer whose project relies on Rasterization.
+
+Morning: Asha starts by reviewing a ticket about real-time games. Before touching any code, Asha re-reads the notes on triangles to make sure the plan is sound.
+
+Midday: Asha pairs with a teammate to explore pixel coverage with OpenGL. A small test exposes the problem of aliasing along edges, and they fix it together.
+
+Afternoon: the team discusses a new request involving user interfaces. Asha sketches coloring squares on graph paper to match a drawn outline on the whiteboard to help everyone follow the idea.
+
+End of day: Asha writes a short note describing what changed and adds a reminder to draw simple shapes first to understand the pipeline.
+
+Days like this are typical. Rasterization is not glamorous, but understanding it keeps small problems from growing.

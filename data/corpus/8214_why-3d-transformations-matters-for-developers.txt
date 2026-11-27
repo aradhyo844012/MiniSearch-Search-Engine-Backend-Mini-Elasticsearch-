@@ -1,0 +1,11 @@
+Why 3D Transformations Matters for Developers
+
+Developers who understand 3D Transformations make better decisions, because 3D Transformations is the matrix operations that move, rotate and scale objects in 3D space.
+
+Three situations show why it matters. First, games. Second, modeling tools. Third, robotics. In each case, a solid grasp of translation and rotation separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: wrong multiplication order, gimbal lock, and mixing coordinate systems.
+
+Good tools exist, including GLM, three.js, and Blender, so you rarely have to start from nothing.
+
+Connect 3D Transformations with Rasterization to see the bigger picture of Graphics and Multimedia.

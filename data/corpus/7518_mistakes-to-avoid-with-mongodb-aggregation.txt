@@ -1,0 +1,11 @@
+Mistakes to Avoid with MongoDB Aggregation
+
+Everyone learns MongoDB Aggregation partly through mistakes. Here are three worth avoiding.
+
+Mistake one: putting $match late. It usually appears when someone skips pipeline stages and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: huge intermediate results. It tends to be noticed late, often during testing of summarizing orders. A short checklist during review catches it early.
+
+Mistake three: hitting memory limits. It is easy to miss because everything seems to work at first. Keep an eye on indexes to spot it.
+
+If you remember only one rule, make it this: filter with $match as early as possible.

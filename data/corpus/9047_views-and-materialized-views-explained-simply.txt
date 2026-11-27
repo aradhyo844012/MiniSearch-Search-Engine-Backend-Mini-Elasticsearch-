@@ -1,0 +1,13 @@
+Views and Materialized Views Explained Simply
+
+If Views and Materialized Views sounds intimidating, relax. It is saved queries that behave like tables, with materialized views storing the results, and the idea is simpler than the name suggests.
+
+Think of Views and Materialized Views as a window cut into a wall that shows only part of the room. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: view definitions, refresh strategies, permissions, and dependencies. You do not need to master them all at once. Start with view definitions, then add refresh strategies.
+
+You will meet Views and Materialized Views in work such as simplifying repeated queries, hiding sensitive columns, and speeding up reports.
+
+One practical tip is to document how and when each materialized view is refreshed.
+
+After Views and Materialized Views, a natural next topic is Elasticsearch Concepts.

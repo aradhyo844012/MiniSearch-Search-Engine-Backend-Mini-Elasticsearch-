@@ -1,0 +1,17 @@
+BGP and Internet Routing Do's and Don'ts
+
+A quick list of habits for working with BGP and Internet Routing.
+
+Do:
+- Learn autonomous systems before anything else.
+- Try bgpq4 on a small example.
+- Make it a habit to filter route announcements strictly.
+- Test the case of connecting ISPs early.
+
+Don't:
+- Ignore this: route leaks.
+- Ignore this: hijacked prefixes.
+- Ignore this: misconfigured filters.
+- Adopt BGP and Internet Routing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with BGP and Internet Routing, a little patience with route announcements pays off more than any clever shortcut.

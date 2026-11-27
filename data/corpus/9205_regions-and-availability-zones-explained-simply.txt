@@ -1,0 +1,13 @@
+Regions and Availability Zones Explained Simply
+
+Here is Regions and Availability Zones without the jargon: it is the geographic locations and isolated data centers a cloud provider uses to host resources.
+
+Think of Regions and Availability Zones as branches of a bank in different cities and different buildings. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: regions, availability zones, latency, and data residency. You do not need to master them all at once. Start with regions, then add availability zones.
+
+People reach for Regions and Availability Zones when they work on placing services near users, surviving data center failures, and meeting data laws.
+
+One practical tip is to spread critical services across at least two zones.
+
+Once Regions and Availability Zones feels comfortable, read about Managed Cloud Databases, which lives in the same neighborhood of ideas.

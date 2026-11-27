@@ -1,0 +1,13 @@
+Model Deployment Explained Simply
+
+If Model Deployment sounds intimidating, relax. It is making a trained model available to serve predictions in a real application, and the idea is simpler than the name suggests.
+
+Think of Model Deployment as moving a recipe from the test kitchen into the restaurant. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: serving APIs, batch versus online inference, containers, and latency budgets. You do not need to master them all at once. Start with serving APIs, then add batch versus online inference.
+
+You will meet Model Deployment in work such as recommendation endpoints, fraud checks, and mobile app features.
+
+One practical tip is to log inputs and outputs so predictions can be audited.
+
+Once Model Deployment feels comfortable, read about Anomaly Detection, which lives in the same neighborhood of ideas.

@@ -1,0 +1,17 @@
+Procedural Generation Do's and Don'ts
+
+A quick list of habits for working with Procedural Generation.
+
+Do:
+- Learn random seeds before anything else.
+- Try Perlin noise on a small example.
+- Make it a habit to log the seed so any generated level can be reproduced.
+- Test the case of roguelike dungeons early.
+
+Don't:
+- Ignore this: levels that are unfair or unwinnable.
+- Ignore this: repetitive results.
+- Ignore this: bugs that cannot be reproduced without seeds.
+- Adopt Procedural Generation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Procedural Generation, a little patience with noise functions pays off more than any clever shortcut.

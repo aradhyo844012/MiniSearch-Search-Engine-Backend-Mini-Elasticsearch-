@@ -1,0 +1,11 @@
+Is Virtual Private Clouds Right for Your Project?
+
+Before adopting Virtual Private Clouds, ask whether it fits the problem. Remember that Virtual Private Clouds is isolated private networks inside a cloud provider where you place your resources.
+
+It is a good fit when your work involves separating public and private services or connecting to offices, and when your team understands subnets.
+
+Be cautious when the project is very small, when deadlines leave no room to learn route tables, or when you cannot manage these risks: overlapping address ranges, databases in public subnets, and missing routes.
+
+A simple decision test: write down the problem in one sentence, then check whether security groups and gateways are part of the answer. If they are, Virtual Private Clouds is probably worth a closer look.
+
+If you decide to go ahead, start small with securing databases and keep databases in private subnets.

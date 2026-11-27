@@ -1,0 +1,12 @@
+Questions to Ask About Smart Contracts in Code Review
+
+Reviewing code that involves Smart Contracts is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of token systems correctly?
+- Would a test catch reentrancy attacks if it appeared later?
+- Is transactions clear to someone reading the code for the first time?
+- Could we audit and test contracts thoroughly before deployment?
+- Is Solidity used consistently, or are we mixing approaches?
+- Does this change respect contract code, or does it work around it?
+
+Good reviews of work on Smart Contracts are specific, kind and focused on gas fees, not on personal style.

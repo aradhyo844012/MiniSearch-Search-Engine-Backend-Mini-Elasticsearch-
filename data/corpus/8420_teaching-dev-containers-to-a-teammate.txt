@@ -1,0 +1,13 @@
+Teaching Dev Containers to a Teammate
+
+Explaining Dev Containers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a ready-made workshop that opens identically for everyone. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Dev Containers is containerized development environments that every teammate can start in the same way. Avoid jargon at this stage.
+
+Walk through an example involving onboarding new developers, naming devcontainer.json and images as they come up.
+
+Ask your teammate to explain mounted folders in Dev Containers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow image builds, and suggest this habit: pin tool versions inside the container definition.

@@ -1,0 +1,11 @@
+Scaling Considerations for Blockchain Fundamentals
+
+A design that works for a classroom project can behave very differently under real load. Here is how Blockchain Fundamentals changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding blocks and getting digital currencies right.
+
+Medium scale: problems start to appear. Watch for treating it as a database replacement and slow throughput, and measure with Bitcoin Core before changing anything.
+
+Large scale: consensus and decentralization move from background details to central design questions. Teams often revisit their choices around supply chain tracking at this stage.
+
+Before you scale, ask whether a normal database would solve the problem. It is cheaper to build that habit early than to fix a crisis later.

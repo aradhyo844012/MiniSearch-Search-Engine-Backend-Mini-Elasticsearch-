@@ -1,0 +1,11 @@
+Scaling Considerations for Information Theory and Entropy
+
+A design that works for a classroom project can behave very differently under real load. Here is how Information Theory and Entropy changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding bits and getting data compression right.
+
+Medium scale: problems start to appear. Watch for confusing information with meaning and ignoring noise, and measure with the Python math module before changing anything.
+
+Large scale: compression limits and noise move from background details to central design questions. Teams often revisit their choices around error-correcting codes at this stage.
+
+Before you scale, compute the entropy of a short text by hand. It is cheaper to build that habit early than to fix a crisis later.

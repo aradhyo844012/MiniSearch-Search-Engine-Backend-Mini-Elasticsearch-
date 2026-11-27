@@ -1,0 +1,11 @@
+Cloud-Native Applications Tips from Experienced Engineers
+
+Engineers who work with Cloud-Native Applications regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Cloud-Native Applications so the next person understands the decision.
+2. Test the case of web platforms early, before the design hardens.
+3. Do not skip containers; everything else builds on it.
+4. Make sure you can design every service to be stateless where possible.
+5. When something behaves strangely, revisit microservices before anything else.
+
+None of these tips needs special equipment, and all of them apply to data-heavy services as well as to Cloud-Native Applications in general.

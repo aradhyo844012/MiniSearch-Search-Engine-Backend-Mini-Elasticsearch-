@@ -1,0 +1,9 @@
+Understanding Bash Scripting Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a recipe card that the computer follows without help.
+
+In that picture, variables is the first rule you follow, conditionals and loops is the next step, and exit codes and functions keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Bash Scripting is writing shell scripts that automate tasks by chaining commands, variables and control flow, and it involves details such as unquoted variables that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Bash to learn the exact behavior. The same picture helps when you explain automating deployments to a friend.

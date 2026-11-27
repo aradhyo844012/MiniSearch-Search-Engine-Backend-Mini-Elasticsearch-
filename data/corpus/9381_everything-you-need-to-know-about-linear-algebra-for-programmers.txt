@@ -1,0 +1,26 @@
+Everything You Need to Know About Linear Algebra for Programmers
+
+This page collects the essentials about Linear Algebra for Programmers in one place. In short, Linear Algebra for Programmers is the math of vectors and matrices used in graphics and machine learning.
+
+Core concepts:
+- vectors
+- matrices
+- dot products
+- eigenvalues
+
+Where it is used:
+- 3D graphics
+- machine learning
+- recommendation systems
+
+Common problems:
+- mixing row and column conventions
+- shape mismatches
+- forgetting that matrix multiplication is not commutative
+
+Tools to know:
+- NumPy
+- MATLAB
+- the 3Blue1Brown video series
+
+Remember this above all: a set of arrows and stretching machines acting on space is a good way to picture it, and the best habit is to check shapes before multiplying.

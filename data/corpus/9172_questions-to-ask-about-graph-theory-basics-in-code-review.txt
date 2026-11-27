@@ -1,0 +1,12 @@
+Questions to Ask About Graph Theory Basics in Code Review
+
+Reviewing code that involves Graph Theory Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is NetworkX used consistently, or are we mixing approaches?
+- Does this change respect vertices and edges, or does it work around it?
+- Is degree clear to someone reading the code for the first time?
+- Does the code handle the case of social networks correctly?
+- Have we considered mixing directed and undirected graphs?
+- Have we avoided this problem: choosing the wrong representation for dense graphs?
+
+Good reviews of work on Graph Theory Basics are specific, kind and focused on paths and cycles, not on personal style.

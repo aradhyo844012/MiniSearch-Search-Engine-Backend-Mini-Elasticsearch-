@@ -1,0 +1,9 @@
+Understanding Firewalls Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a security gate that checks each visitor against a list.
+
+In that picture, rules is the first rule you follow, stateful inspection is the next step, and default deny and zones keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Firewalls is systems that allow or block network traffic according to rules, and it involves details such as rules in the wrong order that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for ufw to learn the exact behavior. The same picture helps when you explain protecting servers to a friend.

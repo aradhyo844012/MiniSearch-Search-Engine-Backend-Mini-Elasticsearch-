@@ -1,0 +1,13 @@
+Teaching Procedural Generation to a Teammate
+
+Explaining Procedural Generation to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a chef inventing endless dishes from a fixed set of ingredients. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Procedural Generation is creating game content such as levels and terrain automatically with algorithms. Avoid jargon at this stage.
+
+Walk through an example involving roguelike dungeons, naming random seeds and noise functions as they come up.
+
+Ask your teammate to explain rules and constraints in Procedural Generation back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, levels that are unfair or unwinnable, and suggest this habit: log the seed so any generated level can be reproduced.

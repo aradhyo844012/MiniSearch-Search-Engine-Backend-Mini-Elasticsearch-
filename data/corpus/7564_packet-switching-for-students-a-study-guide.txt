@@ -1,0 +1,17 @@
+Packet Switching for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Packet Switching.
+
+Learning goals:
+1. Explain Packet Switching in your own words.
+2. Describe packets, headers, routing, and reassembly.
+3. Give examples from internet traffic and voice over IP.
+4. Name three problems to watch for.
+
+Start with the definition: Packet Switching is a method of sending data as small packets that travel independently across a network. Then draw mailing a book one page per envelope and reassembling it on arrival on paper and label the four terms from the goals above.
+
+Self-test questions: Why is packet loss a problem? How does headers relate to routing? When would you choose Wireshark or tcpdump?
+
+Study habit worth keeping: capture a few packets to see the headers for yourself.
+
+When you feel ready, compare Packet Switching with HTTP/2 and HTTP/3 and write down three differences.

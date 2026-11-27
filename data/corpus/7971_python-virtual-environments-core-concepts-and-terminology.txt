@@ -1,0 +1,10 @@
+Python Virtual Environments: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Python Virtual Environments with confidence. The subject itself is isolated folders that hold a project's own Python packages.
+
+venv: one of the building blocks of Python Virtual Environments. Mixing it up with neighboring terms is a common source of confusion.
+pip: one of the building blocks of Python Virtual Environments. It shows up whenever you work on keeping projects separate.
+requirements files: one of the building blocks of Python Virtual Environments. Documentation for venv usually mentions it early.
+activation: one of the building blocks of Python Virtual Environments. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four Python Virtual Environments terms in sentences about reproducing setups. If the sentences feel natural, the vocabulary has stuck.

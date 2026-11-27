@@ -1,0 +1,17 @@
+3D Transformations Do's and Don'ts
+
+A quick list of habits for working with 3D Transformations.
+
+Do:
+- Learn translation before anything else.
+- Try GLM on a small example.
+- Make it a habit to write down the order of transformations before multiplying.
+- Test the case of games early.
+
+Don't:
+- Ignore this: wrong multiplication order.
+- Ignore this: gimbal lock.
+- Ignore this: mixing coordinate systems.
+- Adopt 3D Transformations just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with 3D Transformations, a little patience with rotation pays off more than any clever shortcut.

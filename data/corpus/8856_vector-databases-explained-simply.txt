@@ -1,0 +1,13 @@
+Vector Databases Explained Simply
+
+Here is Vector Databases without the jargon: it is databases built to store embeddings and find the most similar ones quickly.
+
+Think of Vector Databases as a map where similar ideas sit near each other. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: embeddings, approximate nearest neighbors, distance metrics, and metadata filters. You do not need to master them all at once. Start with embeddings, then add approximate nearest neighbors.
+
+You will meet Vector Databases in work such as semantic search, recommendations, and retrieval for AI assistants.
+
+One practical tip is to measure recall on a small labeled test set.
+
+Once Vector Databases feels comfortable, read about Views and Materialized Views, which lives in the same neighborhood of ideas.

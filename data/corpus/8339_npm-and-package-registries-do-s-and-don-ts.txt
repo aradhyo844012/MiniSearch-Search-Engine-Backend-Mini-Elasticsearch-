@@ -1,0 +1,17 @@
+npm and Package Registries Do's and Don'ts
+
+A quick list of habits for working with npm and Package Registries.
+
+Do:
+- Learn package.json before anything else.
+- Try npm on a small example.
+- Make it a habit to commit your lock file.
+- Test the case of installing JavaScript libraries early.
+
+Don't:
+- Ignore this: unpinned versions.
+- Ignore this: installing untrusted packages.
+- Ignore this: huge dependency trees.
+- Adopt npm and Package Registries just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with npm and Package Registries, a little patience with semantic versions pays off more than any clever shortcut.

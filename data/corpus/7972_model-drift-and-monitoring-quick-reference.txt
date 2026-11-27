@@ -1,0 +1,15 @@
+Model Drift and Monitoring Quick Reference
+
+A one-screen reminder for Model Drift and Monitoring. Bookmark it and return when the details fade.
+
+What it is: watching deployed models for changes in data or performance over time.
+Key terms: data drift, concept drift, performance metrics, and alerts.
+Typical uses: catching degrading models, scheduling retraining, and keeping predictions trustworthy.
+Risks: monitoring only system health, having no ground truth labels, and alert fatigue.
+Tools: Evidently, Prometheus, and Grafana.
+
+Mental picture: checking a car's gauges on a long trip.
+
+Habit to build: monitor input data as well as accuracy.
+
+See also: Speech Recognition, which sits close to Model Drift and Monitoring in the area of AI Engineering and MLOps.

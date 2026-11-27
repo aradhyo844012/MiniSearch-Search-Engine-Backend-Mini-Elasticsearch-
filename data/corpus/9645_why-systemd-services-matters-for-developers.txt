@@ -1,0 +1,11 @@
+Why systemd Services Matters for Developers
+
+Developers who understand systemd Services make better decisions, because systemd Services is the init system and service manager used by most modern Linux distributions.
+
+Three situations show why it matters. First, starting services at boot. Second, restarting crashed programs. Third, managing dependencies between services. In each case, a solid grasp of unit files and targets separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: editing unit files without reloading the daemon, missing restart policies, and ignoring dependency ordering.
+
+Good tools exist, including systemctl, journalctl, and systemd-analyze, so you rarely have to start from nothing.
+
+Connect systemd Services with Linux File Permissions to see the bigger picture of Linux and System Administration.

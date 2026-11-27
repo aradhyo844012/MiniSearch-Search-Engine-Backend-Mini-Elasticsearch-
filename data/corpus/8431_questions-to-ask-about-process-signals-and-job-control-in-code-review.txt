@@ -1,0 +1,12 @@
+Questions to Ask About Process Signals and Job Control in Code Review
+
+Reviewing code that involves Process Signals and Job Control is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect SIGTERM and SIGKILL, or does it work around it?
+- Is foreground and background jobs clear to someone reading the code for the first time?
+- Could we try SIGTERM before SIGKILL so programs can clean up?
+- Is kill used consistently, or are we mixing approaches?
+- Does the code handle the case of stopping runaway programs correctly?
+- Have we considered using kill -9 first?
+
+Good reviews of work on Process Signals and Job Control are specific, kind and focused on kill and trap, not on personal style.

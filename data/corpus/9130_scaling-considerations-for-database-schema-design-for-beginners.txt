@@ -1,0 +1,11 @@
+Scaling Considerations for Database Schema Design for Beginners
+
+A design that works for a classroom project can behave very differently under real load. Here is how Database Schema Design for Beginners changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding entities and getting starting new projects right.
+
+Medium scale: problems start to appear. Watch for storing lists in a single column and unclear names, and measure with dbdiagram.io before changing anything.
+
+Large scale: keys and naming conventions move from background details to central design questions. Teams often revisit their choices around reviewing existing schemas at this stage.
+
+Before you scale, write down the main queries before finalizing the tables. It is cheaper to build that habit early than to fix a crisis later.

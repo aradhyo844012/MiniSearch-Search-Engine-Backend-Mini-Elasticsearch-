@@ -1,0 +1,11 @@
+Choosing Tools for API Gateways
+
+There is no single best tool for API Gateways. The right choice depends on your project, your team and your timeline.
+
+Kong is a common first choice, especially for exposing microservices. AWS API Gateway suits teams that already work with similar technology, and NGINX is worth a look when you need something different.
+
+Judge any tool for API Gateways by four questions: Is the documentation clear? Is the community active? Does it handle securing public APIs well? Can you leave it later if you need to?
+
+Whichever tool you pick for API Gateways, test it on a small problem first, and watch for this: a single point of failure.
+
+As a rule of thumb, keep the gateway thin and put business logic in services, no matter which tool you use.

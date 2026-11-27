@@ -1,0 +1,15 @@
+Procedural Generation Quick Reference
+
+A one-screen reminder for Procedural Generation. Bookmark it and return when the details fade.
+
+What it is: creating game content such as levels and terrain automatically with algorithms.
+Key terms: random seeds, noise functions, rules and constraints, and reproducibility.
+Typical uses: roguelike dungeons, infinite terrain, and varied item drops.
+Risks: levels that are unfair or unwinnable, repetitive results, and bugs that cannot be reproduced without seeds.
+Tools: Perlin noise, Wave Function Collapse, and Unity.
+
+Mental picture: a chef inventing endless dishes from a fixed set of ingredients.
+
+Habit to build: log the seed so any generated level can be reproduced.
+
+See also: Game Loop, which sits close to Procedural Generation in the area of Game Development.

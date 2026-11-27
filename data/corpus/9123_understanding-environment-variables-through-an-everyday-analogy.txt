@@ -1,0 +1,9 @@
+Understanding Environment Variables Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture sticky notes attached to a program before it starts.
+
+In that picture, variable names is the first rule you follow, scope is the next step, and export and shell startup files keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Environment Variables is named values the operating system gives to programs to configure their behavior, and it involves details such as committing secrets in dotfiles that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for env to learn the exact behavior. The same picture helps when you explain storing configuration to a friend.

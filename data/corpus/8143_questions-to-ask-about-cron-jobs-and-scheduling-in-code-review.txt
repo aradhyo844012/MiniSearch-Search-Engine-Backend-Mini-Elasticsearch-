@@ -1,0 +1,12 @@
+Questions to Ask About Cron Jobs and Scheduling in Code Review
+
+Reviewing code that involves Cron Jobs and Scheduling is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch overlapping runs of slow jobs if it appeared later?
+- Could we redirect output to a log file and use absolute paths?
+- Does this change respect crontab syntax, or does it work around it?
+- Have we considered assuming cron has your shell environment?
+- Is schedule fields clear to someone reading the code for the first time?
+- Have we avoided this problem: no logging of failures?
+
+Good reviews of work on Cron Jobs and Scheduling are specific, kind and focused on environment differences, not on personal style.

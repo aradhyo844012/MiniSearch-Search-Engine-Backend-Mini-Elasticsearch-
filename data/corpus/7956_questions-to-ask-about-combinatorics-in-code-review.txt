@@ -1,0 +1,12 @@
+Questions to Ask About Combinatorics in Code Review
+
+Reviewing code that involves Combinatorics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: ignoring repetition?
+- Does the code handle the case of analyzing algorithms correctly?
+- Have we considered double counting?
+- Would a test catch mixing order and no-order cases if it appeared later?
+- Is Python itertools used consistently, or are we mixing approaches?
+- Does this change respect permutations, or does it work around it?
+
+Good reviews of work on Combinatorics are specific, kind and focused on the pigeonhole principle, not on personal style.

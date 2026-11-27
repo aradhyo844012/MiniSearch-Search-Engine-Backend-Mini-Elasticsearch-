@@ -1,0 +1,11 @@
+Dev Containers in Real Projects
+
+Reading about Dev Containers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: onboarding new developers. Here, devcontainer.json drives the main design choices, and the team needs to guard against slow image builds.
+
+Scenario two: matching production tools. This time images matters most, and tools such as VS Code Dev Containers help keep things manageable.
+
+Scenario three: trying projects safely. The key idea is mounted folders, and the biggest risk is files owned by the wrong user.
+
+Across all three scenarios, Dev Containers stays the same idea: containerized development environments that every teammate can start in the same way. Only the details change.

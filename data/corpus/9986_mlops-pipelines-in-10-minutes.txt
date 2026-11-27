@@ -1,0 +1,15 @@
+MLOps Pipelines in 10 Minutes
+
+You have ten minutes, so here is the fast route through MLOps Pipelines.
+
+Minutes 1 and 2, the definition: MLOps Pipelines is automated workflows that train, test, deploy and monitor machine learning models.
+
+Minutes 3 and 4, the vocabulary: learn data versioning, training pipelines, the model registry, and continuous delivery.
+
+Minutes 5 and 6, the picture: imagine a factory line that turns data into a tested, packaged model. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through repeatable model releases, tracking experiments, and rolling back models.
+
+Minutes 9 and 10, the traps and the tools: watch for untracked data changes and manual deployment steps, then try MLflow for a first experiment.
+
+If you have a spare minute, remember to version both the code and the data.

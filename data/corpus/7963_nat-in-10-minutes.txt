@@ -1,0 +1,15 @@
+NAT in 10 Minutes
+
+You have ten minutes, so here is the fast route through NAT.
+
+Minutes 1 and 2, the definition: NAT is a technique that lets many devices share one public IP address by rewriting addresses.
+
+Minutes 3 and 4, the vocabulary: learn private addresses, translation tables, port mapping, and port forwarding.
+
+Minutes 5 and 6, the picture: imagine a receptionist who forwards calls for many desks through one phone number. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through home routers, sharing limited IPv4 addresses, and hiding internal networks.
+
+Minutes 9 and 10, the traps and the tools: watch for breaking peer-to-peer connections and exhausted translation tables, then try iptables for a first experiment.
+
+If you have a spare minute, remember to document every port forward you create.

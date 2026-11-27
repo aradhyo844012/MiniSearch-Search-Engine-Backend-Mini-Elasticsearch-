@@ -1,0 +1,12 @@
+Questions to Ask About Responsible AI and Bias in Code Review
+
+Reviewing code that involves Responsible AI and Bias is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Fairlearn used consistently, or are we mixing approaches?
+- Does the code handle the case of hiring tools correctly?
+- Would a test catch testing only on average performance if it appeared later?
+- Is fairness metrics clear to someone reading the code for the first time?
+- Does this change respect bias in data, or does it work around it?
+- Have we considered assuming data is neutral?
+
+Good reviews of work on Responsible AI and Bias are specific, kind and focused on transparency, not on personal style.

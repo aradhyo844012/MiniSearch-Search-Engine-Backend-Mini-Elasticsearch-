@@ -1,0 +1,11 @@
+Process Signals and Job Control in Real Projects
+
+Reading about Process Signals and Job Control is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: stopping runaway programs. Here, SIGTERM and SIGKILL drives the main design choices, and the team needs to guard against using kill -9 first.
+
+Scenario two: shutting down gracefully. This time foreground and background jobs matters most, and tools such as kill help keep things manageable.
+
+Scenario three: running long tasks in the background. The key idea is kill and trap, and the biggest risk is orphaned child processes.
+
+Across all three scenarios, Process Signals and Job Control stays the same idea: messages and shell features used to stop, pause and resume running programs. Only the details change.

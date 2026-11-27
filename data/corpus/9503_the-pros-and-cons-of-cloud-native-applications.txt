@@ -1,0 +1,15 @@
+The Pros and Cons of Cloud-Native Applications
+
+No technology is free of trade-offs, and Cloud-Native Applications is no exception. Here is an honest summary.
+
+Advantages:
+- Supports web platforms
+- Makes data-heavy services easier
+- Helps with rapidly changing products
+
+Drawbacks and risks:
+- Risk: treating the cloud like a data center
+- Risk: too many services
+- Risk: ignoring costs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as web platforms, and you can manage the risks, Cloud-Native Applications is a sound choice. Whatever you decide, design every service to be stateless where possible.

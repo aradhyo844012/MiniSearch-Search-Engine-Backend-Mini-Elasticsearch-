@@ -1,0 +1,11 @@
+Scaling Considerations for Multi-Cloud Strategy
+
+A design that works for a classroom project can behave very differently under real load. Here is how Multi-Cloud Strategy changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding portability and getting avoiding single-provider risk right.
+
+Medium scale: problems start to appear. Watch for doubling operational complexity and lowest-common-denominator designs, and measure with Terraform before changing anything.
+
+Large scale: abstraction layers and cost comparison move from background details to central design questions. Teams often revisit their choices around meeting regional rules at this stage.
+
+Before you scale, be clear about the problem multi-cloud is meant to solve. It is cheaper to build that habit early than to fix a crisis later.

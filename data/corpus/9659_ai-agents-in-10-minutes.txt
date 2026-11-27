@@ -1,0 +1,15 @@
+AI Agents in 10 Minutes
+
+You have ten minutes, so here is the fast route through AI Agents.
+
+Minutes 1 and 2, the definition: AI Agents is software systems that use a language model to plan steps and call tools to reach a goal.
+
+Minutes 3 and 4, the vocabulary: learn planning, tool calls, memory, and guardrails.
+
+Minutes 5 and 6, the picture: imagine an assistant that makes a plan and uses a toolbox to carry it out. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through research assistants, workflow automation, and customer support.
+
+Minutes 9 and 10, the traps and the tools: watch for runaway loops and unchecked tool permissions, then try LangGraph for a first experiment.
+
+If you have a spare minute, remember to limit what tools the agent may use and log every action.

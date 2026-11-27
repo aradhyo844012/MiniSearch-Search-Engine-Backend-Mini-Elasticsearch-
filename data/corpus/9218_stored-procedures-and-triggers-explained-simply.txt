@@ -1,0 +1,13 @@
+Stored Procedures and Triggers Explained Simply
+
+Here is Stored Procedures and Triggers without the jargon: it is code stored inside the database that runs on demand or automatically when data changes.
+
+Think of Stored Procedures and Triggers as a house rule that fires automatically whenever something is placed on a shelf. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: procedures, triggers, parameters, and side effects. You do not need to master them all at once. Start with procedures, then add triggers.
+
+People reach for Stored Procedures and Triggers when they work on enforcing rules close to the data, audit logging, and batch updates.
+
+One practical tip is to keep triggers small and well documented.
+
+After Stored Procedures and Triggers, a natural next topic is Elasticsearch Concepts.

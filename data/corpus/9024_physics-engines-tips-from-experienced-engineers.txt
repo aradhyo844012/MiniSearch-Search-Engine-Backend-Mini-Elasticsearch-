@@ -1,0 +1,11 @@
+Physics Engines Tips from Experienced Engineers
+
+Engineers who work with Physics Engines regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Physics Engines so the next person understands the decision.
+2. Do not skip rigid bodies; everything else builds on it.
+3. When something behaves strangely, revisit forces and impulses before anything else.
+4. Test the case of vehicles and ragdolls early, before the design hardens.
+5. Be careful with this one: variable time steps.
+
+None of these tips needs special equipment, and all of them apply to puzzle games as well as to Physics Engines in general.

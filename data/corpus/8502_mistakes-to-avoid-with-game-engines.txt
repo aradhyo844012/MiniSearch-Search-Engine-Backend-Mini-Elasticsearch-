@@ -1,0 +1,11 @@
+Mistakes to Avoid with Game Engines
+
+Everyone learns Game Engines partly through mistakes. Here are three worth avoiding.
+
+Mistake one: choosing an engine by hype. It usually appears when someone skips scenes and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: loading everything at start-up. It tends to be noticed late, often during testing of indie games. A short checklist during review catches it early.
+
+Mistake three: ignoring platform limits. It is easy to miss because everything seems to work at first. Keep an eye on build pipelines to spot it.
+
+If you remember only one rule, make it this: build a tiny prototype in two engines before choosing.

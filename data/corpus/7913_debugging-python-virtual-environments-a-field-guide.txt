@@ -1,0 +1,13 @@
+Debugging Python Virtual Environments: A Field Guide
+
+When something goes wrong around Python Virtual Environments, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: installing packages globally, forgetting to activate, and committing the environment folder.
+Step 3: revisit venv and pip, since misunderstandings there cause many bugs.
+Step 4: use venv or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Python Virtual Environments in work such as keeping projects separate come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, create one environment per project and record its requirements. It prevents a surprising number of repeat problems.

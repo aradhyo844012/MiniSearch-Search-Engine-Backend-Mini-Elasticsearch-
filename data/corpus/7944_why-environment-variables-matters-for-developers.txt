@@ -1,0 +1,11 @@
+Why Environment Variables Matters for Developers
+
+Developers who understand Environment Variables make better decisions, because Environment Variables is named values the operating system gives to programs to configure their behavior.
+
+Three situations show why it matters. First, storing configuration. Second, selecting program paths. Third, passing settings to containers. In each case, a solid grasp of variable names and scope separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: committing secrets in dotfiles, variables not visible to child processes, and typos in names.
+
+Good tools exist, including env, printenv, and dotenv files, so you rarely have to start from nothing.
+
+Connect Environment Variables with Linux File Permissions to see the bigger picture of Linux and System Administration.

@@ -1,0 +1,13 @@
+Teaching Process Signals and Job Control to a Teammate
+
+Explaining Process Signals and Job Control to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a traffic officer's hand signals for running programs. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Process Signals and Job Control is messages and shell features used to stop, pause and resume running programs. Avoid jargon at this stage.
+
+Walk through an example involving stopping runaway programs, naming SIGTERM and SIGKILL and foreground and background jobs as they come up.
+
+Ask your teammate to explain kill and trap in Process Signals and Job Control back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, using kill -9 first, and suggest this habit: try SIGTERM before SIGKILL so programs can clean up.

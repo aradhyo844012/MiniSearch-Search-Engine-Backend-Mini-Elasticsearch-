@@ -1,0 +1,11 @@
+Semantic Versioning in Real Projects
+
+Reading about Semantic Versioning is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: publishing libraries. Here, major, minor and patch numbers drives the main design choices, and the team needs to guard against breaking changes in minor releases.
+
+Scenario two: declaring dependencies. This time breaking changes matters most, and tools such as semver.org help keep things manageable.
+
+Scenario three: planning upgrades. The key idea is pre-release tags, and the biggest risk is overly loose ranges.
+
+Across all three scenarios, Semantic Versioning stays the same idea: a numbering scheme where major, minor and patch numbers signal how much changed. Only the details change.

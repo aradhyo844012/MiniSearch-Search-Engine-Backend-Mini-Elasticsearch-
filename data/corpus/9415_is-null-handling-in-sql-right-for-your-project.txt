@@ -1,0 +1,11 @@
+Is NULL Handling in SQL Right for Your Project?
+
+Before adopting NULL Handling in SQL, ask whether it fits the problem. Remember that NULL Handling in SQL is understanding how missing or unknown values behave in queries.
+
+It is a good fit when your work involves optional fields or outer joins, and when your team understands three-valued logic.
+
+Be cautious when the project is very small, when deadlines leave no room to learn IS NULL, or when you cannot manage these risks: comparing with equals instead of IS NULL, NOT IN with NULLs, and forgetting NULLs in counts.
+
+A simple decision test: write down the problem in one sentence, then check whether COALESCE and NULL in aggregates are part of the answer. If they are, NULL Handling in SQL is probably worth a closer look.
+
+If you decide to go ahead, start small with data cleaning and use IS NULL and COALESCE instead of comparing with equals.

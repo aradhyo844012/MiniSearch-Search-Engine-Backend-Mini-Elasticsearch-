@@ -1,0 +1,11 @@
+Choosing Tools for Edge Computing
+
+There is no single best tool for Edge Computing. The right choice depends on your project, your team and your timeline.
+
+AWS IoT Greengrass is a common first choice, especially for factory sensors. K3s suits teams that already work with similar technology, and Cloudflare Workers is worth a look when you need something different.
+
+Judge any tool for Edge Computing by four questions: Is the documentation clear? Is the community active? Does it handle video analytics well? Can you leave it later if you need to?
+
+Whichever tool you pick for Edge Computing, test it on a small problem first, and watch for this: hard-to-update devices.
+
+As a rule of thumb, decide which data must stay local before designing the system, no matter which tool you use.

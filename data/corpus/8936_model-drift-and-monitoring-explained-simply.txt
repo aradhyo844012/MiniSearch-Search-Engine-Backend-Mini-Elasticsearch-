@@ -1,0 +1,13 @@
+Model Drift and Monitoring Explained Simply
+
+If Model Drift and Monitoring sounds intimidating, relax. It is watching deployed models for changes in data or performance over time, and the idea is simpler than the name suggests.
+
+Think of Model Drift and Monitoring as checking a car's gauges on a long trip. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: data drift, concept drift, performance metrics, and alerts. You do not need to master them all at once. Start with data drift, then add concept drift.
+
+You will meet Model Drift and Monitoring in work such as catching degrading models, scheduling retraining, and keeping predictions trustworthy.
+
+One practical tip is to monitor input data as well as accuracy.
+
+Once Model Drift and Monitoring feels comfortable, read about Responsible AI and Bias, which lives in the same neighborhood of ideas.

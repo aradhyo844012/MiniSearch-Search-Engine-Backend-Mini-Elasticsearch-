@@ -1,0 +1,9 @@
+Understanding Virtual Private Clouds Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a gated neighborhood inside a big city.
+
+In that picture, subnets is the first rule you follow, route tables is the next step, and security groups and gateways keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Virtual Private Clouds is isolated private networks inside a cloud provider where you place your resources, and it involves details such as overlapping address ranges that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for AWS VPC to learn the exact behavior. The same picture helps when you explain separating public and private services to a friend.

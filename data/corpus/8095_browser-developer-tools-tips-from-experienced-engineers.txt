@@ -1,0 +1,11 @@
+Browser Developer Tools Tips from Experienced Engineers
+
+Engineers who work with Browser Developer Tools regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of debugging layouts early, before the design hardens.
+2. Make sure you can keep the network panel open while testing features.
+3. Do not skip the elements panel; everything else builds on it.
+4. When something behaves strangely, revisit the console before anything else.
+5. Be careful with this one: editing the page and forgetting to copy the changes.
+
+None of these tips needs special equipment, and all of them apply to inspecting API calls as well as to Browser Developer Tools in general.

@@ -1,0 +1,12 @@
+Questions to Ask About Robotics and ROS in Code Review
+
+Reviewing code that involves Robotics and ROS is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch unsafe motion commands if it appeared later?
+- Is ROS 2 used consistently, or are we mixing approaches?
+- Have we considered ignoring sensor noise?
+- Could we test in simulation before moving real hardware?
+- Is actuators clear to someone reading the code for the first time?
+- Does this change respect sensors, or does it work around it?
+
+Good reviews of work on Robotics and ROS are specific, kind and focused on nodes and topics, not on personal style.

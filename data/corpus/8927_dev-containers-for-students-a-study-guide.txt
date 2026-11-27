@@ -1,0 +1,17 @@
+Dev Containers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Dev Containers.
+
+Learning goals:
+1. Explain Dev Containers in your own words.
+2. Describe devcontainer.json, images, mounted folders, and extensions.
+3. Give examples from onboarding new developers and matching production tools.
+4. Name three problems to watch for.
+
+Start with the definition: Dev Containers is containerized development environments that every teammate can start in the same way. Then draw a ready-made workshop that opens identically for everyone on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow image builds a problem? How does images relate to mounted folders? When would you choose VS Code Dev Containers or Docker?
+
+Study habit: pin tool versions inside the container definition.
+
+When you feel ready, compare Dev Containers with Python Virtual Environments and write down three differences.

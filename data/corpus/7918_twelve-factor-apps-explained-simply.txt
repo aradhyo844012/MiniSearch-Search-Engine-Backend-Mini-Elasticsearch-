@@ -1,0 +1,13 @@
+Twelve-Factor Apps Explained Simply
+
+If Twelve-Factor Apps sounds intimidating, relax. It is a set of twelve guidelines for building apps that deploy and scale cleanly, and the idea is simpler than the name suggests.
+
+Think of Twelve-Factor Apps as a checklist for packing a suitcase that fits any airline. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: config in the environment, stateless processes, backing services, and disposability. You do not need to master them all at once. Start with config in the environment, then add stateless processes.
+
+People reach for Twelve-Factor Apps when they work on building web services, deploying to platforms, and keeping environments consistent.
+
+One practical tip is to keep config out of the code.
+
+After Twelve-Factor Apps, a natural next topic is AWS IAM Roles and Policies.

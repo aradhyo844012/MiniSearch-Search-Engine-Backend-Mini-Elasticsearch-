@@ -1,0 +1,26 @@
+Everything You Need to Know About systemd Services
+
+This page collects the essentials about systemd Services in one place. In short, systemd Services is the init system and service manager used by most modern Linux distributions.
+
+Core concepts:
+- unit files
+- targets
+- service states
+- journal logs
+
+Where it is used:
+- starting services at boot
+- restarting crashed programs
+- managing dependencies between services
+
+Common problems:
+- editing unit files without reloading the daemon
+- missing restart policies
+- ignoring dependency ordering
+
+Tools to know:
+- systemctl
+- journalctl
+- systemd-analyze
+
+Remember this above all: a building manager who opens each office in the right order every morning is a good way to picture it, and the best habit is to run systemctl daemon-reload after every unit file change.

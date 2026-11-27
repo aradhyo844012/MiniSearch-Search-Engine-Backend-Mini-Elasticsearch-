@@ -1,0 +1,11 @@
+Makefiles in Real Projects
+
+Reading about Makefiles is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: compiling C projects. Here, targets drives the main design choices, and the team needs to guard against tabs versus spaces.
+
+Scenario two: shortcuts for common commands. This time prerequisites matters most, and tools such as GNU Make help keep things manageable.
+
+Scenario three: automating documentation builds. The key idea is recipes, and the biggest risk is missing phony declarations.
+
+Across all three scenarios, Makefiles stays the same idea: plain files that describe how to build programs and run common tasks with the make tool. Only the details change.

@@ -1,0 +1,11 @@
+Is Combinatorics Right for Your Project?
+
+Before adopting Combinatorics, ask whether it fits the problem. Remember that Combinatorics is the art of counting arrangements and selections.
+
+It is a good fit when your work involves analyzing algorithms or probability, and when your team understands permutations.
+
+Be cautious when the project is very small, when deadlines leave no room to learn combinations, or when you cannot manage these risks: double counting, mixing order and no-order cases, and ignoring repetition.
+
+A simple decision test: write down the problem in one sentence, then check whether the pigeonhole principle and inclusion-exclusion are part of the answer. If they are, Combinatorics is probably worth a closer look.
+
+If you decide to go ahead, start small with estimating password strength and test counting formulas on tiny cases first.

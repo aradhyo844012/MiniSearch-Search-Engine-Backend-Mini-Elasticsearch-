@@ -1,0 +1,26 @@
+Everything You Need to Know About AI Agents
+
+This page collects the essentials about AI Agents in one place. In short, AI Agents is software systems that use a language model to plan steps and call tools to reach a goal.
+
+Core concepts:
+- planning
+- tool calls
+- memory
+- guardrails
+
+Where it is used:
+- research assistants
+- workflow automation
+- customer support
+
+Common problems:
+- runaway loops
+- unchecked tool permissions
+- hard-to-debug behavior
+
+Tools to know:
+- LangGraph
+- AutoGen
+- tool-calling APIs
+
+Remember this above all: an assistant that makes a plan and uses a toolbox to carry it out is a good way to picture it, and the best habit is to limit what tools the agent may use and log every action.

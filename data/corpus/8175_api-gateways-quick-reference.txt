@@ -1,0 +1,15 @@
+API Gateways Quick Reference
+
+A one-screen reminder for API Gateways. Bookmark it and return when the details fade.
+
+What it is: services that sit in front of APIs to handle routing, authentication and limits.
+Key terms: routing, authentication, rate limits, and request transformation.
+Typical uses: exposing microservices, securing public APIs, and collecting usage metrics.
+Risks: a single point of failure, business logic leaking into the gateway, and added latency.
+Tools: Kong, AWS API Gateway, and NGINX.
+
+Mental picture: a reception desk that checks visitors and sends them to the right office.
+
+Habit to build: keep the gateway thin and put business logic in services.
+
+See also: Managed Kubernetes Services, which sits close to API Gateways in the area of Cloud Platforms and Architecture.

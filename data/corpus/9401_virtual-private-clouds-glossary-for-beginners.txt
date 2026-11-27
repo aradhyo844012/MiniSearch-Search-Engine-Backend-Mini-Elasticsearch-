@@ -1,0 +1,12 @@
+Virtual Private Clouds Glossary for Beginners
+
+New words can make Virtual Private Clouds feel harder than it is. This glossary keeps the key ones in one place.
+
+Virtual Private Clouds: isolated private networks inside a cloud provider where you place your resources.
+subnets: a core term, most visible in separating public and private services.
+route tables: a core term that beginners often confuse with security groups.
+security groups: a core term that connects to gateways.
+gateways: a core term worth revisiting after you try a real example.
+AWS VPC: a tool commonly used for connecting to offices.
+
+Come back to this Virtual Private Clouds list whenever documentation for Terraform uses a word you do not recognize.

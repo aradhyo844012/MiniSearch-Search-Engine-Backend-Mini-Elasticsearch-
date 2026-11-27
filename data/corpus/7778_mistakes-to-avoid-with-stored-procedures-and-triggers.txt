@@ -1,0 +1,11 @@
+Mistakes to Avoid with Stored Procedures and Triggers
+
+Everyone learns Stored Procedures and Triggers partly through mistakes. Here are three worth avoiding.
+
+Mistake one: hidden logic that surprises developers. It usually appears when someone skips procedures and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: hard-to-test code. It tends to be noticed late, often during testing of enforcing rules close to the data. A short checklist during review catches it early.
+
+Mistake three: trigger chains. It is easy to miss because everything seems to work at first. Keep an eye on side effects to spot it.
+
+If you remember only one rule, make it this: keep triggers small and well documented.

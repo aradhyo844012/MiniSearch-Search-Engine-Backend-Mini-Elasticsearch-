@@ -1,0 +1,15 @@
+Vector Databases Quick Reference
+
+A one-screen reminder for Vector Databases. Bookmark it and return when the details fade.
+
+What it is: databases built to store embeddings and find the most similar ones quickly.
+Key terms: embeddings, approximate nearest neighbors, distance metrics, and metadata filters.
+Typical uses: semantic search, recommendations, and retrieval for AI assistants.
+Risks: mixing embedding models, ignoring recall trade-offs, and oversized vectors.
+Tools: FAISS, pgvector, and Pinecone.
+
+Mental picture: a map where similar ideas sit near each other.
+
+Habit to build: measure recall on a small labeled test set.
+
+See also: SQL Basics, which sits close to Vector Databases in the area of SQL and Data Practice.

@@ -1,0 +1,12 @@
+Questions to Ask About Digital Audio in Code Review
+
+Reviewing code that involves Digital Audio is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch aliasing at low sample rates if it appeared later?
+- Have we avoided this problem: mixing sample rates?
+- Have we considered clipping from too high a level?
+- Is bit depth clear to someone reading the code for the first time?
+- Is Audacity used consistently, or are we mixing approaches?
+- Does this change respect sampling rate, or does it work around it?
+
+Good reviews of work on Digital Audio are specific, kind and focused on waveforms, not on personal style.

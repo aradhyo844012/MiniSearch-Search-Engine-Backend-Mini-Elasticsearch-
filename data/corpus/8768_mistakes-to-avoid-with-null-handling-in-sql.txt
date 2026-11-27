@@ -1,0 +1,11 @@
+Mistakes to Avoid with NULL Handling in SQL
+
+Everyone learns NULL Handling in SQL partly through mistakes. Here are three worth avoiding.
+
+Mistake one: comparing with equals instead of IS NULL. It usually appears when someone skips three-valued logic and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: NOT IN with NULLs. It tends to be noticed late, often during testing of optional fields. A short checklist during review catches it early.
+
+Mistake three: forgetting NULLs in counts. It is easy to miss because everything seems to work at first. Keep an eye on NULL in aggregates to spot it.
+
+If you remember only one rule, make it this: use IS NULL and COALESCE instead of comparing with equals.

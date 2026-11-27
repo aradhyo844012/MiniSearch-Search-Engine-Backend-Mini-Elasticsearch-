@@ -1,0 +1,13 @@
+Rasterization Explained Simply
+
+If Rasterization sounds intimidating, relax. It is converting shapes described by geometry into pixels on the screen, and the idea is simpler than the name suggests.
+
+Think of Rasterization as coloring squares on graph paper to match a drawn outline. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: triangles, pixel coverage, the depth buffer, and interpolation. You do not need to master them all at once. Start with triangles, then add pixel coverage.
+
+People reach for Rasterization when they work on real-time games, user interfaces, and CAD previews.
+
+One practical tip is to draw simple shapes first to understand the pipeline.
+
+After Rasterization, a natural next topic is Vector Graphics (SVG).

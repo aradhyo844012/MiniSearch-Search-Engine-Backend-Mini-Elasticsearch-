@@ -1,0 +1,17 @@
+AWS IAM Roles and Policies Do's and Don'ts
+
+A quick list of habits for working with AWS IAM Roles and Policies.
+
+Do:
+- Learn users and roles before anything else.
+- Try IAM Access Analyzer on a small example.
+- Make it a habit to grant the narrowest policy that works and review it regularly.
+- Test the case of securing deployments early.
+
+Don't:
+- Ignore this: wildcard permissions.
+- Ignore this: long-lived access keys.
+- Ignore this: unused roles.
+- Adopt AWS IAM Roles and Policies just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with AWS IAM Roles and Policies, a little patience with policies pays off more than any clever shortcut.

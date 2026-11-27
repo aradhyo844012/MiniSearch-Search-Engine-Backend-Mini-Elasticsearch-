@@ -1,0 +1,15 @@
+Database Constraints Quick Reference
+
+A one-screen reminder for Database Constraints. Bookmark it and return when the details fade.
+
+What it is: rules the database enforces to keep stored data valid.
+Key terms: primary keys, foreign keys, unique constraints, and check constraints.
+Typical uses: preventing bad data, protecting relationships, and documenting business rules.
+Risks: skipping constraints for speed, missing indexes on foreign keys, and rules enforced only in the app.
+Tools: PostgreSQL, SQLite, and ER diagram tools.
+
+Mental picture: guard rails along a mountain road.
+
+Habit to build: put critical rules in the database as well as in the app.
+
+See also: MongoDB Aggregation, which sits close to Database Constraints in the area of SQL and Data Practice.

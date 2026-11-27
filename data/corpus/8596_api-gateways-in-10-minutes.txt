@@ -1,0 +1,15 @@
+API Gateways in 10 Minutes
+
+You have ten minutes, so here is the fast route through API Gateways.
+
+Minutes 1 and 2, the definition: API Gateways is services that sit in front of APIs to handle routing, authentication and limits.
+
+Minutes 3 and 4, the vocabulary: learn routing, authentication, rate limits, and request transformation.
+
+Minutes 5 and 6, the picture: imagine a reception desk that checks visitors and sends them to the right office. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through exposing microservices, securing public APIs, and collecting usage metrics.
+
+Minutes 9 and 10, the traps and the tools: watch for a single point of failure and business logic leaking into the gateway, then try Kong for a first experiment.
+
+If you have a spare minute, remember to keep the gateway thin and put business logic in services.

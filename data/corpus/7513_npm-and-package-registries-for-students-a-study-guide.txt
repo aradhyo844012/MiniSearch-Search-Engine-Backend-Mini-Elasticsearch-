@@ -1,0 +1,17 @@
+npm and Package Registries for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover npm and Package Registries.
+
+Learning goals:
+1. Explain npm and Package Registries in your own words.
+2. Describe package.json, semantic versions, lock files, and registries.
+3. Give examples from installing JavaScript libraries and sharing internal packages.
+4. Name three problems to watch for.
+
+Start with the definition: npm and Package Registries is services and tools for publishing and installing reusable code packages. Then draw a shared parts warehouse with a catalog on paper and label the four terms from the goals above.
+
+Self-test questions: Why is unpinned versions a problem? How does semantic versions relate to lock files? When would you choose npm or Yarn?
+
+Study habit: commit your lock file.
+
+When you feel ready, compare npm and Package Registries with WebAssembly and write down three differences.

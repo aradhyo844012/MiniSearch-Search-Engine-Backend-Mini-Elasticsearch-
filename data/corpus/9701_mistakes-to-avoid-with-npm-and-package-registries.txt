@@ -1,0 +1,11 @@
+Mistakes to Avoid with npm and Package Registries
+
+Everyone learns npm and Package Registries partly through mistakes. Here are three worth avoiding.
+
+Mistake one: unpinned versions. It usually appears when someone skips package.json and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: installing untrusted packages. It tends to be noticed late, often during testing of installing JavaScript libraries. A short checklist during review catches it early.
+
+Mistake three: huge dependency trees. It is easy to miss because everything seems to work at first. Keep an eye on registries to spot it.
+
+If you remember only one rule, make it this: commit your lock file.

@@ -1,0 +1,12 @@
+Questions to Ask About Linear Algebra for Programmers in Code Review
+
+Reviewing code that involves Linear Algebra for Programmers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: forgetting that matrix multiplication is not commutative?
+- Does the code handle the case of 3D graphics correctly?
+- Could we check shapes before multiplying?
+- Is NumPy used consistently, or are we mixing approaches?
+- Would a test catch shape mismatches if it appeared later?
+- Is matrices clear to someone reading the code for the first time?
+
+Good reviews of work on Linear Algebra for Programmers are specific, kind and focused on dot products, not on personal style.

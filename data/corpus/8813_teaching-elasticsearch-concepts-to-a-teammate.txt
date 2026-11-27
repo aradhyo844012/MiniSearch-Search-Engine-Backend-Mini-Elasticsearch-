@@ -1,0 +1,13 @@
+Teaching Elasticsearch Concepts to a Teammate
+
+Explaining Elasticsearch Concepts to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a giant library with an index card for every word. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Elasticsearch Concepts is the building blocks of a distributed search engine that indexes and ranks documents. Avoid jargon at this stage.
+
+Walk through an example involving site search, naming indexes and shards as they come up.
+
+Ask your teammate to explain analyzers in Elasticsearch Concepts back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, too many shards, and suggest this habit: define explicit mappings instead of relying on defaults.

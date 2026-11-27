@@ -1,0 +1,13 @@
+Debugging Biometric Authentication: A Field Guide
+
+When something goes wrong around Biometric Authentication, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: spoofing attacks, biased recognition, and credentials that cannot be changed once leaked.
+Step 3: revisit enrollment and matching, since misunderstandings there cause many bugs.
+Step 4: use Android BiometricPrompt or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Biometric Authentication in work such as phone unlock come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, offer a fallback method and protect the stored templates. It prevents a surprising number of repeat problems.

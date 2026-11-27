@@ -1,0 +1,11 @@
+Managed Cloud Databases in Real Projects
+
+Reading about Managed Cloud Databases is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: launching apps quickly. Here, automated backups drives the main design choices, and the team needs to guard against surprise costs.
+
+Scenario two: reducing database administration. This time read replicas matters most, and tools such as Amazon RDS help keep things manageable.
+
+Scenario three: high availability setups. The key idea is maintenance windows, and the biggest risk is limited configuration control.
+
+Across all three scenarios, Managed Cloud Databases stays the same idea: database services where the cloud provider handles backups, patching and failover. Only the details change.

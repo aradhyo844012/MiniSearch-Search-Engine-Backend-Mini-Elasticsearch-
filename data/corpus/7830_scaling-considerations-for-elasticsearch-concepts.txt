@@ -1,0 +1,11 @@
+Scaling Considerations for Elasticsearch Concepts
+
+A design that works for a classroom project can behave very differently under real load. Here is how Elasticsearch Concepts changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding indexes and getting site search right.
+
+Medium scale: problems start to appear. Watch for too many shards and mapping explosions, and measure with Elasticsearch before changing anything.
+
+Large scale: analyzers and queries move from background details to central design questions. Teams often revisit their choices around log analytics at this stage.
+
+Before you scale, define explicit mappings instead of relying on defaults. It is cheaper to build that habit early than to fix a crisis later.

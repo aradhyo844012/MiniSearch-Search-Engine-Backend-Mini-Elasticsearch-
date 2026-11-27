@@ -1,0 +1,17 @@
+Database Constraints for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Database Constraints.
+
+Learning goals:
+1. Explain Database Constraints in your own words.
+2. Describe primary keys, foreign keys, unique constraints, and check constraints.
+3. Give examples from preventing bad data and protecting relationships.
+4. Name three problems to watch for.
+
+Start with the definition: Database Constraints is rules the database enforces to keep stored data valid. Then draw guard rails along a mountain road on paper and label the four terms from the goals above.
+
+Self-test questions: Why is skipping constraints for speed a problem? How does foreign keys relate to unique constraints? When would you choose PostgreSQL or SQLite?
+
+Study habit worth keeping: put critical rules in the database as well as in the app.
+
+When you feel ready, compare Database Constraints with Views and Materialized Views and write down three differences.

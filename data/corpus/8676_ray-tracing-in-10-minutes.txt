@@ -1,0 +1,15 @@
+Ray Tracing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Ray Tracing.
+
+Minutes 1 and 2, the definition: Ray Tracing is a rendering technique that follows rays of light to produce realistic images.
+
+Minutes 3 and 4, the vocabulary: learn rays, intersections, reflection and refraction, and shadows.
+
+Minutes 5 and 6, the picture: imagine tracing a flashlight beam backward from your eye into the scene. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through movie visuals, architectural visualization, and realistic game lighting.
+
+Minutes 9 and 10, the traps and the tools: watch for slow render times and noise from too few samples, then try Blender Cycles for a first experiment.
+
+If you have a spare minute, remember to start with spheres and a single light before adding features.

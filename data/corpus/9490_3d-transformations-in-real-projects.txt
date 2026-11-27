@@ -1,0 +1,11 @@
+3D Transformations in Real Projects
+
+Reading about 3D Transformations is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: games. Here, translation drives the main design choices, and the team needs to guard against wrong multiplication order.
+
+Scenario two: modeling tools. This time rotation matters most, and tools such as GLM help keep things manageable.
+
+Scenario three: robotics. The key idea is scaling, and the biggest risk is gimbal lock.
+
+Across all three scenarios, 3D Transformations stays the same idea: the matrix operations that move, rotate and scale objects in 3D space. Only the details change.

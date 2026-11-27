@@ -1,0 +1,9 @@
+Understanding Python Virtual Environments Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a separate toolbox for each project.
+
+In that picture, venv is the first rule you follow, pip is the next step, and requirements files and activation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Python Virtual Environments is isolated folders that hold a project's own Python packages, and it involves details such as installing packages globally that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for venv to learn the exact behavior. The same picture helps when you explain keeping projects separate to a friend.

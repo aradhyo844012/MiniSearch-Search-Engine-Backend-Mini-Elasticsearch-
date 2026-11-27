@@ -1,0 +1,26 @@
+Everything You Need to Know About NULL Handling in SQL
+
+This page collects the essentials about NULL Handling in SQL in one place. In short, NULL Handling in SQL is understanding how missing or unknown values behave in queries.
+
+Core concepts:
+- three-valued logic
+- IS NULL
+- COALESCE
+- NULL in aggregates
+
+Where it is used:
+- optional fields
+- outer joins
+- data cleaning
+
+Common problems:
+- comparing with equals instead of IS NULL
+- NOT IN with NULLs
+- forgetting NULLs in counts
+
+Tools to know:
+- PostgreSQL
+- SQLite
+- DBeaver
+
+Remember this above all: an empty box on a form that means unknown, not zero is a good way to picture it, and the best habit is to use IS NULL and COALESCE instead of comparing with equals.

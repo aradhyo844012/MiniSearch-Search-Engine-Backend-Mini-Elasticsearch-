@@ -1,0 +1,11 @@
+Choosing Tools for Entity Component Systems
+
+There is no single best tool for Entity Component Systems. The right choice depends on your project, your team and your timeline.
+
+Bevy is a common first choice, especially for large simulations. Unity DOTS suits teams that already work with similar technology, and EnTT is worth a look when you need something different.
+
+Judge any tool for Entity Component Systems by four questions: Is the documentation clear? Is the community active? Does it handle games with thousands of objects well? Can you leave it later if you need to?
+
+Whichever tool you pick for Entity Component Systems, test it on a small problem first, and watch for this: overengineering small games.
+
+As a rule of thumb, keep components as plain data, no matter which tool you use.

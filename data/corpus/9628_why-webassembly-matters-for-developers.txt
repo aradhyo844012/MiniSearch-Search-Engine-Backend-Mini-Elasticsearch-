@@ -1,0 +1,11 @@
+Why WebAssembly Matters for Developers
+
+Developers who understand WebAssembly make better decisions, because WebAssembly is a compact binary format that lets code written in many languages run fast in browsers.
+
+Three situations show why it matters. First, running heavy computation in the browser. Second, porting existing C or Rust code. Third, games and image tools. In each case, a solid grasp of modules and linear memory separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: crossing the JavaScript boundary too often, large binaries, and limited access to browser APIs.
+
+You will not need to build everything yourself; Emscripten, wasm-pack, and Wasmtime cover most needs.
+
+Connect WebAssembly with Python Virtual Environments to see the bigger picture of Developer Tooling and Build Systems.

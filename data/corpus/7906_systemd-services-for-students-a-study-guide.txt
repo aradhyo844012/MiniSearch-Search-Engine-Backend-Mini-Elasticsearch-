@@ -1,0 +1,17 @@
+systemd Services for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover systemd Services.
+
+Learning goals:
+1. Explain systemd Services in your own words.
+2. Describe unit files, targets, service states, and journal logs.
+3. Give examples from starting services at boot and restarting crashed programs.
+4. Name three problems to watch for.
+
+Start with the definition: systemd Services is the init system and service manager used by most modern Linux distributions. Then draw a building manager who opens each office in the right order every morning on paper and label the four terms from the goals above.
+
+Self-test questions: Why is editing unit files without reloading the daemon a problem? How does targets relate to service states? When would you choose systemctl or journalctl?
+
+Study habit worth keeping: run systemctl daemon-reload after every unit file change.
+
+When you feel ready, compare systemd Services with Disk Partitioning and Mounting and write down three differences.

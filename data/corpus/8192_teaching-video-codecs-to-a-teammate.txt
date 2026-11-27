@@ -1,0 +1,13 @@
+Teaching Video Codecs to a Teammate
+
+Explaining Video Codecs to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a flip book that only redraws what changed between pages. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Video Codecs is programs that compress and decompress video so it can be stored and streamed. Avoid jargon at this stage.
+
+Walk through an example involving streaming services, naming frames and motion compensation as they come up.
+
+Ask your teammate to explain bitrate in Video Codecs back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, mismatched codec support, and suggest this habit: test playback on the weakest target device.

@@ -1,0 +1,12 @@
+Questions to Ask About DHCP in Code Review
+
+Reviewing code that involves DHCP is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is address pools clear to someone reading the code for the first time?
+- Does the code handle the case of home and office networks correctly?
+- Could we reserve fixed addresses for servers and printers?
+- Is dnsmasq used consistently, or are we mixing approaches?
+- Have we considered rogue DHCP servers?
+- Would a test catch exhausted address pools if it appeared later?
+
+Good reviews of work on DHCP are specific, kind and focused on reservations, not on personal style.

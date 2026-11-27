@@ -1,0 +1,11 @@
+Choosing Tools for Font Rendering
+
+There is no single best tool for Font Rendering. The right choice depends on your project, your team and your timeline.
+
+FreeType is a common first choice, especially for web pages. Google Fonts suits teams that already work with similar technology, and font inspector tools is worth a look when you need something different.
+
+Judge any tool for Font Rendering by four questions: Is the documentation clear? Is the community active? Does it handle operating systems well? Can you leave it later if you need to?
+
+Whichever tool you pick for Font Rendering, test it on a small problem first, and watch for this: missing font fallbacks.
+
+As a rule of thumb, subset fonts to the characters you need, no matter which tool you use.

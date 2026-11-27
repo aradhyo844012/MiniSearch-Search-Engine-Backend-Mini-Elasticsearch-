@@ -1,0 +1,17 @@
+Dev Containers Do's and Don'ts
+
+A quick list of habits for working with Dev Containers.
+
+Do:
+- Learn devcontainer.json before anything else.
+- Try VS Code Dev Containers on a small example.
+- Make it a habit to pin tool versions inside the container definition.
+- Test the case of onboarding new developers early.
+
+Don't:
+- Ignore this: slow image builds.
+- Ignore this: files owned by the wrong user.
+- Ignore this: forgetting to pin tool versions.
+- Adopt Dev Containers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Dev Containers, a little patience with images pays off more than any clever shortcut.

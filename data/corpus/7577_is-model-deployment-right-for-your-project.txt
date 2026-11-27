@@ -1,0 +1,11 @@
+Is Model Deployment Right for Your Project?
+
+Before adopting Model Deployment, ask whether it fits the problem. Remember that Model Deployment is making a trained model available to serve predictions in a real application.
+
+It is a good fit when your work involves recommendation endpoints or fraud checks, and when your team understands serving APIs.
+
+Be cautious when the project is very small, when deadlines leave no room to learn batch versus online inference, or when you cannot manage these risks: training-serving mismatch, slow cold starts, and no fallback when the model fails.
+
+A simple decision test: write down the problem in one sentence, then check whether containers and latency budgets are part of the answer. If they are, Model Deployment is probably worth a closer look.
+
+If you decide to go ahead, start small with mobile app features and log inputs and outputs so predictions can be audited.

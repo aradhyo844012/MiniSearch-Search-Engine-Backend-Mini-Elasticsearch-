@@ -1,0 +1,15 @@
+The Pros and Cons of DHCP
+
+No technology is free of trade-offs, and DHCP is no exception. Here is an honest summary.
+
+Advantages:
+- Supports home and office networks
+- Makes guest Wi-Fi easier
+- Helps with booting machines over a network
+
+Drawbacks and risks:
+- Risk: rogue DHCP servers
+- Risk: exhausted address pools
+- Risk: conflicting static addresses
+
+Weigh the two lists against your own project. If the advantages match your needs, such as home and office networks, and you can manage the risks, DHCP is a sound choice. Whatever you decide, reserve fixed addresses for servers and printers.

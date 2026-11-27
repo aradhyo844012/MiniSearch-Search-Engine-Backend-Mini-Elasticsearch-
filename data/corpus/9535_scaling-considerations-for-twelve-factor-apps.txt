@@ -1,0 +1,11 @@
+Scaling Considerations for Twelve-Factor Apps
+
+A design that works for a classroom project can behave very differently under real load. Here is how Twelve-Factor Apps changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding config in the environment and getting building web services right.
+
+Medium scale: problems start to appear. Watch for storing state on local disks and hard-coded config, and measure with Heroku before changing anything.
+
+Large scale: backing services and disposability move from background details to central design questions. Teams often revisit their choices around deploying to platforms at this stage.
+
+Before you scale, keep config out of the code. It is cheaper to build that habit early than to fix a crisis later.

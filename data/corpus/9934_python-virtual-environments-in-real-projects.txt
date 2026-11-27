@@ -1,0 +1,11 @@
+Python Virtual Environments in Real Projects
+
+Reading about Python Virtual Environments is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: keeping projects separate. Here, venv drives the main design choices, and the team needs to guard against installing packages globally.
+
+Scenario two: reproducing setups. This time pip matters most, and tools such as venv help keep things manageable.
+
+Scenario three: testing against different versions. The key idea is requirements files, and the biggest risk is forgetting to activate.
+
+Across all three scenarios, Python Virtual Environments stays the same idea: isolated folders that hold a project's own Python packages. Only the details change.

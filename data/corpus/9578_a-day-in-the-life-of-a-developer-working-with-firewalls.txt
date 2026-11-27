@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Firewalls
+
+This is a fictional but realistic day for a developer whose project relies on Firewalls.
+
+Morning: Sneha starts by reviewing a ticket about protecting servers. Before touching any code, Sneha re-reads the notes on rules to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore stateful inspection with ufw. A small test exposes the problem of rules in the wrong order, and they fix it together.
+
+Afternoon: the team discusses a new request involving segmenting networks. Sneha sketches a security gate that checks each visitor against a list on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to start with default deny and open only what you need.
+
+Days like this are typical. Firewalls is not glamorous, but understanding it keeps small problems from growing.

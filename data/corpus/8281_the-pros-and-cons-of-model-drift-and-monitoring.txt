@@ -1,0 +1,15 @@
+The Pros and Cons of Model Drift and Monitoring
+
+No technology is free of trade-offs, and Model Drift and Monitoring is no exception. Here is an honest summary.
+
+Advantages:
+- Supports catching degrading models
+- Makes scheduling retraining easier
+- Helps with keeping predictions trustworthy
+
+Drawbacks and risks:
+- Risk: monitoring only system health
+- Risk: having no ground truth labels
+- Risk: alert fatigue
+
+Weigh the two lists against your own project. If the advantages match your needs, such as catching degrading models, and you can manage the risks, Model Drift and Monitoring is a sound choice. Whatever you decide, monitor input data as well as accuracy.

@@ -1,0 +1,11 @@
+Linux File Permissions in Real Projects
+
+Reading about Linux File Permissions is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: protecting private keys. Here, owner, group and others drives the main design choices, and the team needs to guard against using chmod 777 as a quick fix.
+
+Scenario two: sharing project folders. This time mode bits matters most, and tools such as ls -l help keep things manageable.
+
+Scenario three: securing web server files. The key idea is chmod and chown, and the biggest risk is wrong ownership after copying files.
+
+Across all three scenarios, Linux File Permissions stays the same idea: the read, write and execute rules that control who can access each file. Only the details change.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Probability Basics
+
+This page collects the essentials about Probability Basics in one place. In short, Probability Basics is the study of how likely events are to happen.
+
+Core concepts:
+- events
+- conditional probability
+- independence
+- expected value
+
+Where it is used:
+- randomized algorithms
+- machine learning
+- risk estimates
+
+Common problems:
+- confusing independent and exclusive events
+- ignoring base rates
+- falling for the gambler's fallacy
+
+Tools to know:
+- Python random
+- NumPy
+- simulation notebooks
+
+Remember this above all: predicting how often a dice roll will land on each face is a good way to picture it, and the best habit is to simulate the problem in code to check your reasoning.

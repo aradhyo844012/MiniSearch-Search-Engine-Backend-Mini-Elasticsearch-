@@ -1,0 +1,17 @@
+Edge Computing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Edge Computing.
+
+Learning goals:
+1. Explain Edge Computing in your own words.
+2. Describe edge nodes, latency, bandwidth savings, and synchronization.
+3. Give examples from factory sensors and video analytics.
+4. Name three problems to watch for.
+
+Start with the definition: Edge Computing is processing data close to where it is produced instead of in a distant data center. Then draw a local branch office that handles tasks without calling headquarters on paper and label the four terms from the goals above.
+
+Self-test questions: Why is hard-to-update devices a problem? How does latency relate to bandwidth savings? When would you choose AWS IoT Greengrass or K3s?
+
+Study habit worth keeping: decide which data must stay local before designing the system.
+
+When you feel ready, compare Edge Computing with 5G Networks and write down three differences.

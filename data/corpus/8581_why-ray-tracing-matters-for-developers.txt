@@ -1,0 +1,11 @@
+Why Ray Tracing Matters for Developers
+
+Developers who understand Ray Tracing make better decisions, because Ray Tracing is a rendering technique that follows rays of light to produce realistic images.
+
+Three situations show why it matters. First, movie visuals. Second, architectural visualization. Third, realistic game lighting. In each case, a solid grasp of rays and intersections separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: slow render times, noise from too few samples, and numerical precision errors.
+
+You will not need to build everything yourself; Blender Cycles, NVIDIA OptiX, and POV-Ray cover most needs.
+
+Connect Ray Tracing with Rasterization to see the bigger picture of Graphics and Multimedia.

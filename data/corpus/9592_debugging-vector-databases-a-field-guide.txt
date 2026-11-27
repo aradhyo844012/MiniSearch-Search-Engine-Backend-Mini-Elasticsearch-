@@ -1,0 +1,13 @@
+Debugging Vector Databases: A Field Guide
+
+When something goes wrong around Vector Databases, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mixing embedding models, ignoring recall trade-offs, and oversized vectors.
+Step 3: revisit embeddings and approximate nearest neighbors, since misunderstandings there cause many bugs.
+Step 4: use FAISS or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Vector Databases in work such as semantic search come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, measure recall on a small labeled test set. It prevents a surprising number of repeat problems.

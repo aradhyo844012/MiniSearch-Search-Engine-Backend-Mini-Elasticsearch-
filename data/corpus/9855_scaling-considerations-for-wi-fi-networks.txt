@@ -1,0 +1,11 @@
+Scaling Considerations for Wi-Fi Networks
+
+A design that works for a classroom project can behave very differently under real load. Here is how Wi-Fi Networks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding SSIDs and getting home internet right.
+
+Medium scale: problems start to appear. Watch for overlapping channels and weak passwords, and measure with Wi-Fi analyzer apps before changing anything.
+
+Large scale: WPA encryption and signal strength move from background details to central design questions. Teams often revisit their choices around office coverage at this stage.
+
+Before you scale, use WPA3, or WPA2 with a long passphrase. It is cheaper to build that habit early than to fix a crisis later.

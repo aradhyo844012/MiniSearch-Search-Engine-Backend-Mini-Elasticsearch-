@@ -1,0 +1,12 @@
+Questions to Ask About API Gateways in Code Review
+
+Reviewing code that involves API Gateways is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we keep the gateway thin and put business logic in services?
+- Does this change respect routing, or does it work around it?
+- Does the code handle the case of exposing microservices correctly?
+- Is authentication clear to someone reading the code for the first time?
+- Would a test catch business logic leaking into the gateway if it appeared later?
+- Have we avoided this problem: added latency?
+
+Good reviews of work on API Gateways are specific, kind and focused on rate limits, not on personal style.

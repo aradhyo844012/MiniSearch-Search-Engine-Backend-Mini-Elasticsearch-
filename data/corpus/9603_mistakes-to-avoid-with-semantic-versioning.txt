@@ -1,0 +1,11 @@
+Mistakes to Avoid with Semantic Versioning
+
+Everyone learns Semantic Versioning partly through mistakes. Here are three worth avoiding.
+
+Mistake one: breaking changes in minor releases. It usually appears when someone skips major, minor and patch numbers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: overly loose ranges. It tends to be noticed late, often during testing of publishing libraries. A short checklist during review catches it early.
+
+Mistake three: forgetting to document changes. It is easy to miss because everything seems to work at first. Keep an eye on version ranges to spot it.
+
+If you remember only one rule, make it this: write a changelog entry with every release.

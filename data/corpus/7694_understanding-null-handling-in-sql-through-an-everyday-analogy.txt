@@ -1,0 +1,9 @@
+Understanding NULL Handling in SQL Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an empty box on a form that means unknown, not zero.
+
+In that picture, three-valued logic is the first rule you follow, IS NULL is the next step, and COALESCE and NULL in aggregates keep everything running smoothly.
+
+Every analogy breaks down eventually. Real NULL Handling in SQL is understanding how missing or unknown values behave in queries, and it involves details such as comparing with equals instead of IS NULL that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PostgreSQL to learn the exact behavior. The same picture helps when you explain optional fields to a friend.

@@ -1,0 +1,11 @@
+Is NAT Right for Your Project?
+
+Before adopting NAT, ask whether it fits the problem. Remember that NAT is a technique that lets many devices share one public IP address by rewriting addresses.
+
+It is a good fit when your work involves home routers or sharing limited IPv4 addresses, and when your team understands private addresses.
+
+Be cautious when the project is very small, when deadlines leave no room to learn translation tables, or when you cannot manage these risks: breaking peer-to-peer connections, exhausted translation tables, and misconfigured port forwarding.
+
+A simple decision test: write down the problem in one sentence, then check whether port mapping and port forwarding are part of the answer. If they are, NAT is probably worth a closer look.
+
+If you decide to go ahead, start small with hiding internal networks and document every port forward you create.

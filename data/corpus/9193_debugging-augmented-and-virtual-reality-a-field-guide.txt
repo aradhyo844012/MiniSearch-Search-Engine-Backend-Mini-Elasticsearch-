@@ -1,0 +1,13 @@
+Debugging Augmented and Virtual Reality: A Field Guide
+
+When something goes wrong around Augmented and Virtual Reality, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: motion sickness from low frame rates, heavy assets, and poor interface design in 3D.
+Step 3: revisit head tracking and rendering at high frame rates, since misunderstandings there cause many bugs.
+Step 4: use Unity XR or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Augmented and Virtual Reality in work such as training simulations come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep frame rates high and test comfort with real users. It prevents a surprising number of repeat problems.

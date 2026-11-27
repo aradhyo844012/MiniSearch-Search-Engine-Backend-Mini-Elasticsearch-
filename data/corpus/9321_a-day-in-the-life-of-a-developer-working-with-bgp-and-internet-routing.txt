@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with BGP and Internet Routing
+
+This is a fictional but realistic day for a developer whose project relies on BGP and Internet Routing.
+
+Morning: Arjun starts by reviewing a ticket about connecting ISPs. Before touching any code, Arjun re-reads the notes on autonomous systems to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore route announcements with bgpq4. A small test exposes the problem of route leaks, and they fix it together.
+
+Afternoon: the team discusses a new request involving directing traffic between large networks. Arjun sketches the postal service agreeing on which depot handles each region on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to filter route announcements strictly.
+
+Days like this are typical. BGP and Internet Routing is not glamorous, but understanding it keeps small problems from growing.

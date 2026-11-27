@@ -1,0 +1,15 @@
+The Pros and Cons of Biometric Authentication
+
+No technology is free of trade-offs, and Biometric Authentication is no exception. Here is an honest summary.
+
+Advantages:
+- Supports phone unlock
+- Makes building access easier
+- Helps with payment approval
+
+Drawbacks and risks:
+- Risk: spoofing attacks
+- Risk: biased recognition
+- Risk: credentials that cannot be changed once leaked
+
+Weigh the two lists against your own project. If the advantages match your needs, such as phone unlock, and you can manage the risks, Biometric Authentication is a sound choice. Whatever you decide, offer a fallback method and protect the stored templates.

@@ -1,0 +1,17 @@
+Build Systems Do's and Don'ts
+
+A quick list of habits for working with Build Systems.
+
+Do:
+- Learn targets before anything else.
+- Try Make on a small example.
+- Make it a habit to make builds reproducible on any machine.
+- Test the case of compiling large projects early.
+
+Don't:
+- Ignore this: slow full rebuilds.
+- Ignore this: undeclared dependencies.
+- Ignore this: machine-specific builds.
+- Adopt Build Systems just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Build Systems, a little patience with dependencies pays off more than any clever shortcut.

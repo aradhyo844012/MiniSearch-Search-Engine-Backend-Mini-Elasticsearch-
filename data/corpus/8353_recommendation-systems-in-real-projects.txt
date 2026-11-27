@@ -1,0 +1,11 @@
+Recommendation Systems in Real Projects
+
+Reading about Recommendation Systems is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: streaming services. Here, collaborative filtering drives the main design choices, and the team needs to guard against feedback loops.
+
+Scenario two: online shops. This time content-based filtering matters most, and tools such as Surprise help keep things manageable.
+
+Scenario three: news feeds. The key idea is ranking, and the biggest risk is popularity bias.
+
+Across all three scenarios, Recommendation Systems stays the same idea: systems that suggest items a user is likely to want. Only the details change.

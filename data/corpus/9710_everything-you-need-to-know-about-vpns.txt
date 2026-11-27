@@ -1,0 +1,26 @@
+Everything You Need to Know About VPNs
+
+This page collects the essentials about VPNs in one place. In short, VPNs is encrypted tunnels that connect devices or networks across the public internet.
+
+Core concepts:
+- tunneling
+- encryption
+- authentication
+- split tunneling
+
+Where it is used:
+- remote work access
+- linking offices
+- protecting traffic on public Wi-Fi
+
+Common problems:
+- assuming it makes you anonymous
+- slow routing through distant servers
+- leaking DNS requests
+
+Tools to know:
+- WireGuard
+- OpenVPN
+- Tailscale
+
+Remember this above all: a private tunnel under a public road is a good way to picture it, and the best habit is to test for DNS leaks after connecting.

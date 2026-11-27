@@ -1,0 +1,17 @@
+Floating-Point Arithmetic for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Floating-Point Arithmetic.
+
+Learning goals:
+1. Explain Floating-Point Arithmetic in your own words.
+2. Describe mantissa and exponent, rounding, precision, and special values.
+3. Give examples from scientific computing and graphics.
+4. Name three problems to watch for.
+
+Start with the definition: Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits. Then draw writing numbers in scientific notation with a limited number of digits on paper and label the four terms from the goals above.
+
+Self-test questions: Why is comparing floats with equality a problem? How does rounding relate to precision? When would you choose Python decimal or NumPy?
+
+Study habit: compare floats with a tolerance and use decimals for money.
+
+When you feel ready, compare Floating-Point Arithmetic with Discrete Mathematics and write down three differences.

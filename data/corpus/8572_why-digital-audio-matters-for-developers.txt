@@ -1,0 +1,11 @@
+Why Digital Audio Matters for Developers
+
+Developers who understand Digital Audio make better decisions, because Digital Audio is representing sound as numbers by sampling it many times per second.
+
+Three situations show why it matters. First, music production. Second, voice calls. Third, podcasts. In each case, a solid grasp of sampling rate and bit depth separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: clipping from too high a level, aliasing at low sample rates, and mixing sample rates.
+
+You will not need to build everything yourself; Audacity, SoX, and the Web Audio API cover most needs.
+
+Connect Digital Audio with Color Spaces to see the bigger picture of Graphics and Multimedia.

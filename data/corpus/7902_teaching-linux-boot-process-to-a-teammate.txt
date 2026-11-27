@@ -1,0 +1,13 @@
+Teaching Linux Boot Process to a Teammate
+
+Explaining Linux Boot Process to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a theater crew setting the stage in order before the curtain rises. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Linux Boot Process is the sequence of steps from powering on a machine to a running operating system. Avoid jargon at this stage.
+
+Walk through an example involving troubleshooting machines that do not start, naming firmware and bootloader as they come up.
+
+Ask your teammate to explain kernel initialization in Linux Boot Process back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, overwriting the bootloader, and suggest this habit: keep a recovery option available before editing boot settings.

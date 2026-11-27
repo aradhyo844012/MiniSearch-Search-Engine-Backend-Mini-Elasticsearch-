@@ -1,0 +1,15 @@
+The Pros and Cons of Twelve-Factor Apps
+
+No technology is free of trade-offs, and Twelve-Factor Apps is no exception. Here is an honest summary.
+
+Advantages:
+- Supports building web services
+- Makes deploying to platforms easier
+- Helps with keeping environments consistent
+
+Drawbacks and risks:
+- Risk: storing state on local disks
+- Risk: hard-coded config
+- Risk: long start-up times
+
+Weigh the two lists against your own project. If the advantages match your needs, such as building web services, and you can manage the risks, Twelve-Factor Apps is a sound choice. Whatever you decide, keep config out of the code.

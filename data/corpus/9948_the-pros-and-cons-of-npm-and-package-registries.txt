@@ -1,0 +1,15 @@
+The Pros and Cons of npm and Package Registries
+
+No technology is free of trade-offs, and npm and Package Registries is no exception. Here is an honest summary.
+
+Advantages:
+- Supports installing JavaScript libraries
+- Makes sharing internal packages easier
+- Helps with reproducible builds
+
+Drawbacks and risks:
+- Risk: unpinned versions
+- Risk: installing untrusted packages
+- Risk: huge dependency trees
+
+Weigh the two lists against your own project. If the advantages match your needs, such as installing JavaScript libraries, and you can manage the risks, npm and Package Registries is a sound choice. Whatever you decide, commit your lock file.

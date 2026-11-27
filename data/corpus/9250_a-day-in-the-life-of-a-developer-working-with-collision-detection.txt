@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Collision Detection
+
+This is a fictional but realistic day for a developer whose project relies on Collision Detection.
+
+Morning: Rahul starts by reviewing a ticket about platformers. Before touching any code, Rahul re-reads the notes on bounding boxes to make sure the plan is sound.
+
+Midday: Rahul pairs with a teammate to explore broad and narrow phases with Box2D. A small test exposes the problem of tunneling through thin objects, and they fix it together.
+
+Afternoon: the team discusses a new request involving shooters. Rahul sketches two people checking whether their personal space bubbles overlap on the whiteboard to help everyone follow the idea.
+
+End of day: Rahul writes a short note describing what changed and adds a reminder to use simple shapes first and refine only when needed.
+
+Days like this are typical. Collision Detection is not glamorous, but understanding it keeps small problems from growing.

@@ -1,0 +1,15 @@
+The Pros and Cons of AWS IAM Roles and Policies
+
+No technology is free of trade-offs, and AWS IAM Roles and Policies is no exception. Here is an honest summary.
+
+Advantages:
+- Supports securing deployments
+- Makes granting services access easier
+- Helps with auditing permissions
+
+Drawbacks and risks:
+- Risk: wildcard permissions
+- Risk: long-lived access keys
+- Risk: unused roles
+
+Weigh the two lists against your own project. If the advantages match your needs, such as securing deployments, and you can manage the risks, AWS IAM Roles and Policies is a sound choice. Whatever you decide, grant the narrowest policy that works and review it regularly.

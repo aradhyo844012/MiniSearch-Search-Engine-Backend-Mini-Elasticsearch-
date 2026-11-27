@@ -1,0 +1,13 @@
+Teaching Sprite Animation to a Teammate
+
+Explaining Sprite Animation to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a flip book drawn one page at a time. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Sprite Animation is showing a sequence of 2D images quickly to make a character appear to move. Avoid jargon at this stage.
+
+Walk through an example involving 2D platformers, naming sprite sheets and frames as they come up.
+
+Ask your teammate to explain frame rate in Sprite Animation back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, inconsistent frame timing, and suggest this habit: pack frames into one sprite sheet to reduce draw calls.

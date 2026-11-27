@@ -1,0 +1,11 @@
+Mistakes to Avoid with Network Troubleshooting
+
+Everyone learns Network Troubleshooting partly through mistakes. Here are three worth avoiding.
+
+Mistake one: changing several things at once. It usually appears when someone skips protocol layers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: blaming the application too early. It tends to be noticed late, often during testing of fixing office connectivity. A short checklist during review catches it early.
+
+Mistake three: ignoring DNS. It is easy to miss because everything seems to work at first. Keep an eye on packet captures to spot it.
+
+If you remember only one rule, make it this: work from the bottom layer upward.

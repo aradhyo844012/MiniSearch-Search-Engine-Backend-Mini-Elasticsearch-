@@ -1,0 +1,13 @@
+Environment Variables Explained Simply
+
+If Environment Variables sounds intimidating, relax. It is named values the operating system gives to programs to configure their behavior, and the idea is simpler than the name suggests.
+
+Think of Environment Variables as sticky notes attached to a program before it starts. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: variable names, scope, export, and shell startup files. You do not need to master them all at once. Start with variable names, then add scope.
+
+People reach for Environment Variables when they work on storing configuration, selecting program paths, and passing settings to containers.
+
+One practical tip is to print a variable to confirm its value before blaming the code.
+
+Once Environment Variables feels comfortable, read about Cron Jobs and Scheduling, which lives in the same neighborhood of ideas.

@@ -1,0 +1,26 @@
+Everything You Need to Know About MongoDB Aggregation
+
+This page collects the essentials about MongoDB Aggregation in one place. In short, MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+
+Core concepts:
+- pipeline stages
+- $match and $group
+- projection
+- indexes
+
+Where it is used:
+- summarizing orders
+- building analytics queries
+- reshaping documents
+
+Common problems:
+- putting $match late
+- huge intermediate results
+- hitting memory limits
+
+Tools to know:
+- MongoDB Compass
+- mongosh
+- PyMongo
+
+Remember this above all: an assembly line where each station filters or reshapes the parts is a good way to picture it, and the best habit is to filter with $match as early as possible.

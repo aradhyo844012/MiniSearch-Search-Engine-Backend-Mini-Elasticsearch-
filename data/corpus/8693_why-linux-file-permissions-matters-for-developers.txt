@@ -1,0 +1,11 @@
+Why Linux File Permissions Matters for Developers
+
+Developers who understand Linux File Permissions make better decisions, because Linux File Permissions is the read, write and execute rules that control who can access each file.
+
+Three situations show why it matters. First, protecting private keys. Second, sharing project folders. Third, securing web server files. In each case, a solid grasp of owner, group and others and mode bits separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: using chmod 777 as a quick fix, wrong ownership after copying files, and forgetting directory execute bits.
+
+Good tools exist, including ls -l, chmod, and setfacl, so you rarely have to start from nothing.
+
+Connect Linux File Permissions with Cron Jobs and Scheduling to see the bigger picture of Linux and System Administration.

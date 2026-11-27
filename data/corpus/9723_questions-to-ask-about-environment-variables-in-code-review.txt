@@ -1,0 +1,12 @@
+Questions to Ask About Environment Variables in Code Review
+
+Reviewing code that involves Environment Variables is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is env used consistently, or are we mixing approaches?
+- Have we considered committing secrets in dotfiles?
+- Have we avoided this problem: typos in names?
+- Would a test catch variables not visible to child processes if it appeared later?
+- Does this change respect variable names, or does it work around it?
+- Could we print a variable to confirm its value before blaming the code?
+
+Good reviews of work on Environment Variables are specific, kind and focused on export, not on personal style.

@@ -1,0 +1,13 @@
+Teaching systemd Services to a Teammate
+
+Explaining systemd Services to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a building manager who opens each office in the right order every morning. Ask your teammate what the picture suggests.
+
+Then give the plain definition: systemd Services is the init system and service manager used by most modern Linux distributions. Avoid jargon at this stage.
+
+Walk through an example involving starting services at boot, naming unit files and targets as they come up.
+
+Ask your teammate to explain service states in systemd Services back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, editing unit files without reloading the daemon, and suggest this habit: run systemctl daemon-reload after every unit file change.

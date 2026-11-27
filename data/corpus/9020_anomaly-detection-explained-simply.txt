@@ -1,0 +1,13 @@
+Anomaly Detection Explained Simply
+
+Here is Anomaly Detection without the jargon: it is finding data points or events that differ sharply from normal behavior.
+
+Think of Anomaly Detection as a security guard who notices the one person acting differently. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: baselines, thresholds, isolation methods, and false positives. You do not need to master them all at once. Start with baselines, then add thresholds.
+
+People reach for Anomaly Detection when they work on fraud detection, server monitoring, and manufacturing quality.
+
+One practical tip is to tune alerts using real examples of past incidents.
+
+After Anomaly Detection, a natural next topic is Model Drift and Monitoring.

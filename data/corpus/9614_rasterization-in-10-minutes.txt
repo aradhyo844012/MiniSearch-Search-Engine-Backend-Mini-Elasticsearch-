@@ -1,0 +1,15 @@
+Rasterization in 10 Minutes
+
+You have ten minutes, so here is the fast route through Rasterization.
+
+Minutes 1 and 2, the definition: Rasterization is converting shapes described by geometry into pixels on the screen.
+
+Minutes 3 and 4, the vocabulary: learn triangles, pixel coverage, the depth buffer, and interpolation.
+
+Minutes 5 and 6, the picture: imagine coloring squares on graph paper to match a drawn outline. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through real-time games, user interfaces, and CAD previews.
+
+Minutes 9 and 10, the traps and the tools: watch for aliasing along edges and overdraw, then try OpenGL for a first experiment.
+
+If you have a spare minute, remember to draw simple shapes first to understand the pipeline.

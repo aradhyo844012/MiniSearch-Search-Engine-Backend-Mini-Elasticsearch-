@@ -1,0 +1,15 @@
+Shaders in 10 Minutes
+
+You have ten minutes, so here is the fast route through Shaders.
+
+Minutes 1 and 2, the definition: Shaders is small programs that run on the graphics card to control how things are drawn.
+
+Minutes 3 and 4, the vocabulary: learn vertex shaders, fragment shaders, uniforms, and GLSL.
+
+Minutes 5 and 6, the picture: imagine a tiny painter that colors each pixel following your instructions. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through lighting effects, water and fire visuals, and post-processing.
+
+Minutes 9 and 10, the traps and the tools: watch for branches that slow the GPU and precision errors, then try GLSL for a first experiment.
+
+If you have a spare minute, remember to start from a minimal shader and add one effect at a time.

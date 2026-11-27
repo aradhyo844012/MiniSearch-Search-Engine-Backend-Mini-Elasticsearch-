@@ -1,0 +1,15 @@
+BGP and Internet Routing Quick Reference
+
+A one-screen reminder for BGP and Internet Routing. Bookmark it and return when the details fade.
+
+What it is: the protocol networks use to tell each other which addresses they can reach.
+Key terms: autonomous systems, route announcements, peering, and path selection.
+Typical uses: connecting ISPs, directing traffic between large networks, and explaining internet outages.
+Risks: route leaks, hijacked prefixes, and misconfigured filters.
+Tools: bgpq4, BIRD, and RIPE Stat.
+
+Mental picture: the postal service agreeing on which depot handles each region.
+
+Habit to build: filter route announcements strictly.
+
+See also: HTTP/2 and HTTP/3, which sits close to BGP and Internet Routing in the area of Networking and Internet Infrastructure.

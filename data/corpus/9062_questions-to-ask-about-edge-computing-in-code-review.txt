@@ -1,0 +1,12 @@
+Questions to Ask About Edge Computing in Code Review
+
+Reviewing code that involves Edge Computing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect edge nodes, or does it work around it?
+- Is AWS IoT Greengrass used consistently, or are we mixing approaches?
+- Have we considered hard-to-update devices?
+- Is latency clear to someone reading the code for the first time?
+- Could we decide which data must stay local before designing the system?
+- Would a test catch inconsistent hardware if it appeared later?
+
+Good reviews of work on Edge Computing are specific, kind and focused on bandwidth savings, not on personal style.

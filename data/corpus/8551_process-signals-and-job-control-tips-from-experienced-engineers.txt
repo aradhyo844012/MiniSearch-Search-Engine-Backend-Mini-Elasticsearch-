@@ -1,0 +1,11 @@
+Process Signals and Job Control Tips from Experienced Engineers
+
+Engineers who work with Process Signals and Job Control regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Process Signals and Job Control so the next person understands the decision.
+2. Be careful with this one: using kill -9 first.
+3. Test the case of stopping runaway programs early, before the design hardens.
+4. Make sure you can try SIGTERM before SIGKILL so programs can clean up.
+5. When something behaves strangely, revisit foreground and background jobs before anything else.
+
+None of these tips needs special equipment, and all of them apply to shutting down gracefully as well as to Process Signals and Job Control in general.

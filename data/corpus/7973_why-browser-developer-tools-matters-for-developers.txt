@@ -1,0 +1,11 @@
+Why Browser Developer Tools Matters for Developers
+
+Developers who understand Browser Developer Tools make better decisions, because Browser Developer Tools is built-in browser panels for inspecting, debugging and measuring web pages.
+
+Three situations show why it matters. First, debugging layouts. Second, inspecting API calls. Third, finding slow scripts. In each case, a solid grasp of the elements panel and the console separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: editing the page and forgetting to copy the changes, leaving throttling on, and ignoring console warnings.
+
+You will not need to build everything yourself; Chrome DevTools, Firefox Developer Edition, and Lighthouse cover most needs.
+
+Connect Browser Developer Tools with Makefiles to see the bigger picture of Developer Tooling and Build Systems.

@@ -1,0 +1,17 @@
+HTTP/2 and HTTP/3 Do's and Don'ts
+
+A quick list of habits for working with HTTP/2 and HTTP/3.
+
+Do:
+- Learn multiplexing before anything else.
+- Try curl with HTTP/3 support on a small example.
+- Make it a habit to keep a working HTTP/1.1 fallback.
+- Test the case of faster page loads early.
+
+Don't:
+- Ignore this: assuming old tricks like sprite sheets still help.
+- Ignore this: middleboxes blocking UDP.
+- Ignore this: misconfigured fallbacks.
+- Adopt HTTP/2 and HTTP/3 just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with HTTP/2 and HTTP/3, a little patience with header compression pays off more than any clever shortcut.

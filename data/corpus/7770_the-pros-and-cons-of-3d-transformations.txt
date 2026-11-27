@@ -1,0 +1,15 @@
+The Pros and Cons of 3D Transformations
+
+No technology is free of trade-offs, and 3D Transformations is no exception. Here is an honest summary.
+
+Advantages:
+- Supports games
+- Makes modeling tools easier
+- Helps with robotics
+
+Drawbacks and risks:
+- Risk: wrong multiplication order
+- Risk: gimbal lock
+- Risk: mixing coordinate systems
+
+Weigh the two lists against your own project. If the advantages match your needs, such as games, and you can manage the risks, 3D Transformations is a sound choice. Whatever you decide, write down the order of transformations before multiplying.

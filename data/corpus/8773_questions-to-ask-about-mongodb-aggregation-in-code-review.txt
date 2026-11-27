@@ -1,0 +1,12 @@
+Questions to Ask About MongoDB Aggregation in Code Review
+
+Reviewing code that involves MongoDB Aggregation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: hitting memory limits?
+- Have we considered putting $match late?
+- Would a test catch huge intermediate results if it appeared later?
+- Is $match and $group clear to someone reading the code for the first time?
+- Could we filter with $match as early as possible?
+- Does this change respect pipeline stages, or does it work around it?
+
+Good reviews of work on MongoDB Aggregation are specific, kind and focused on projection, not on personal style.

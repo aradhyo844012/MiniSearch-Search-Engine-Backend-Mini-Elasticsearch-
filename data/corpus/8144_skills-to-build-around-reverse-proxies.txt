@@ -1,0 +1,13 @@
+Skills to Build Around Reverse Proxies
+
+Knowing the definition of Reverse Proxies is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with upstream servers and proxy headers, and able to explain them without notes.
+
+Hands-on practice: spend real time with NGINX on a Reverse Proxies task, and try at least one alternative such as Caddy.
+
+Judgment: learn to decide when Reverse Proxies fits a problem such as hiding backend servers, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a hotel front desk that routes guests to the right room.
+
+Habits: forward the real client IP in a trusted header, and write down what you learn after each project.

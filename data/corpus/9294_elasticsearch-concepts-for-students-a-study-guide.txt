@@ -1,0 +1,17 @@
+Elasticsearch Concepts for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Elasticsearch Concepts.
+
+Learning goals:
+1. Explain Elasticsearch Concepts in your own words.
+2. Describe indexes, shards, analyzers, and queries.
+3. Give examples from site search and log analytics.
+4. Name three problems to watch for.
+
+Start with the definition: Elasticsearch Concepts is the building blocks of a distributed search engine that indexes and ranks documents. Then draw a giant library with an index card for every word on paper and label the four terms from the goals above.
+
+Self-test questions: Why is too many shards a problem? How does shards relate to analyzers? When would you choose Elasticsearch or Kibana?
+
+Study habit worth keeping: define explicit mappings instead of relying on defaults.
+
+When you feel ready, compare Elasticsearch Concepts with Subqueries and CTEs and write down three differences.

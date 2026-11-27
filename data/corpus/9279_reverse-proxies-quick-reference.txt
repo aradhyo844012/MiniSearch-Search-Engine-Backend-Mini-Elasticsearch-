@@ -1,0 +1,15 @@
+Reverse Proxies Quick Reference
+
+A one-screen reminder for Reverse Proxies. Bookmark it and return when the details fade.
+
+What it is: servers that sit in front of applications and forward client requests to them.
+Key terms: upstream servers, proxy headers, TLS termination, and caching.
+Typical uses: hiding backend servers, terminating HTTPS, and routing requests to several apps.
+Risks: losing the client IP address, wrong timeouts, and exposing internal paths.
+Tools: NGINX, Caddy, and HAProxy.
+
+Mental picture: a hotel front desk that routes guests to the right room.
+
+Habit to build: forward the real client IP in a trusted header.
+
+See also: DHCP, which sits close to Reverse Proxies in the area of Networking and Internet Infrastructure.

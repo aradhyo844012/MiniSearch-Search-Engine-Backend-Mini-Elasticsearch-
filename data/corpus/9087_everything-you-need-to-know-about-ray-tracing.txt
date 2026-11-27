@@ -1,0 +1,26 @@
+Everything You Need to Know About Ray Tracing
+
+This page collects the essentials about Ray Tracing in one place. In short, Ray Tracing is a rendering technique that follows rays of light to produce realistic images.
+
+Core concepts:
+- rays
+- intersections
+- reflection and refraction
+- shadows
+
+Where it is used:
+- movie visuals
+- architectural visualization
+- realistic game lighting
+
+Common problems:
+- slow render times
+- noise from too few samples
+- numerical precision errors
+
+Tools to know:
+- Blender Cycles
+- NVIDIA OptiX
+- POV-Ray
+
+Remember this above all: tracing a flashlight beam backward from your eye into the scene is a good way to picture it, and the best habit is to start with spheres and a single light before adding features.

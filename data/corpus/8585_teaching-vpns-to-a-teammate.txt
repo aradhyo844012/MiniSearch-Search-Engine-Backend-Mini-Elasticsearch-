@@ -1,0 +1,13 @@
+Teaching VPNs to a Teammate
+
+Explaining VPNs to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a private tunnel under a public road. Ask your teammate what the picture suggests.
+
+Then give the plain definition: VPNs is encrypted tunnels that connect devices or networks across the public internet. Avoid jargon at this stage.
+
+Walk through an example involving remote work access, naming tunneling and encryption as they come up.
+
+Ask your teammate to explain authentication in VPNs back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, assuming it makes you anonymous, and suggest this habit: test for DNS leaks after connecting.

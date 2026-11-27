@@ -1,0 +1,12 @@
+Managed Kubernetes Services Glossary for Beginners
+
+New words can make Managed Kubernetes Services feel harder than it is. This glossary keeps the key ones in one place.
+
+Managed Kubernetes Services: cloud services that run the Kubernetes control plane for you.
+the control plane: a core term, most visible in running containerized apps.
+node pools: a core term that beginners often confuse with upgrades.
+upgrades: a core term that connects to integrated load balancers.
+integrated load balancers: a core term worth revisiting after you try a real example.
+Amazon EKS: a tool commonly used for scaling services.
+
+Come back to this Managed Kubernetes Services list whenever documentation for Google GKE uses a word you do not recognize.

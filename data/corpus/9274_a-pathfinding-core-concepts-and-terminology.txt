@@ -1,0 +1,10 @@
+A* Pathfinding: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about A* Pathfinding with confidence. The subject itself is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+
+open and closed sets: one of the building blocks of A* Pathfinding. Mixing it up with neighboring terms is a common source of confusion.
+cost so far: one of the building blocks of A* Pathfinding. Mixing it up with neighboring terms is a common source of confusion.
+heuristics: one of the building blocks of A* Pathfinding. Mixing it up with neighboring terms is a common source of confusion.
+grids and graphs: one of the building blocks of A* Pathfinding. Documentation for Unity NavMesh usually mentions it early.
+
+Practice using these four A* Pathfinding terms in sentences about robot navigation. If the sentences feel natural, the vocabulary has stuck.

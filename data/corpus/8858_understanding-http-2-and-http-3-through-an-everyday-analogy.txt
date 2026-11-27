@@ -1,0 +1,9 @@
+Understanding HTTP/2 and HTTP/3 Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a multi-lane highway replacing a single-lane road.
+
+In that picture, multiplexing is the first rule you follow, header compression is the next step, and QUIC and server push keep everything running smoothly.
+
+Every analogy breaks down eventually. Real HTTP/2 and HTTP/3 is newer versions of the web protocol that load pages faster over fewer connections, and it involves details such as assuming old tricks like sprite sheets still help that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for curl with HTTP/3 support to learn the exact behavior. The same picture helps when you explain faster page loads to a friend.

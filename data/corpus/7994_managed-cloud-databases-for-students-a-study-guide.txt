@@ -1,0 +1,17 @@
+Managed Cloud Databases for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Managed Cloud Databases.
+
+Learning goals:
+1. Explain Managed Cloud Databases in your own words.
+2. Describe automated backups, read replicas, maintenance windows, and scaling options.
+3. Give examples from launching apps quickly and reducing database administration.
+4. Name three problems to watch for.
+
+Start with the definition: Managed Cloud Databases is database services where the cloud provider handles backups, patching and failover. Then draw a restaurant that hires a kitchen crew to handle the cleaning on paper and label the four terms from the goals above.
+
+Self-test questions: Why is surprise costs a problem? How does read replicas relate to maintenance windows? When would you choose Amazon RDS or Cloud SQL?
+
+Study habit: test restoring a backup before you need it.
+
+When you feel ready, compare Managed Cloud Databases with Regions and Availability Zones and write down three differences.

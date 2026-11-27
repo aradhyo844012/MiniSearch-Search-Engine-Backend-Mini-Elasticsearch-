@@ -1,0 +1,11 @@
+Scaling Considerations for Bash Scripting
+
+A design that works for a classroom project can behave very differently under real load. Here is how Bash Scripting changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding variables and getting automating deployments right.
+
+Medium scale: problems start to appear. Watch for unquoted variables and ignoring errors in pipelines, and measure with Bash before changing anything.
+
+Large scale: exit codes and functions move from background details to central design questions. Teams often revisit their choices around processing text files at this stage.
+
+Before you scale, start scripts with set -euo pipefail and quote every variable. It is cheaper to build that habit early than to fix a crisis later.

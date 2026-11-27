@@ -1,0 +1,26 @@
+Everything You Need to Know About DHCP
+
+This page collects the essentials about DHCP in one place. In short, DHCP is a service that automatically gives devices IP addresses and network settings.
+
+Core concepts:
+- leases
+- address pools
+- reservations
+- discover and offer messages
+
+Where it is used:
+- home and office networks
+- guest Wi-Fi
+- booting machines over a network
+
+Common problems:
+- rogue DHCP servers
+- exhausted address pools
+- conflicting static addresses
+
+Tools to know:
+- dnsmasq
+- ISC Kea
+- Wireshark
+
+Remember this above all: a hotel desk that hands out room numbers for a limited stay is a good way to picture it, and the best habit is to reserve fixed addresses for servers and printers.

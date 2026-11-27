@@ -1,0 +1,12 @@
+Questions to Ask About HTTP/2 and HTTP/3 in Code Review
+
+Reviewing code that involves HTTP/2 and HTTP/3 is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect multiplexing, or does it work around it?
+- Is header compression clear to someone reading the code for the first time?
+- Have we avoided this problem: misconfigured fallbacks?
+- Could we keep a working HTTP/1.1 fallback?
+- Is curl with HTTP/3 support used consistently, or are we mixing approaches?
+- Would a test catch middleboxes blocking UDP if it appeared later?
+
+Good reviews of work on HTTP/2 and HTTP/3 are specific, kind and focused on QUIC, not on personal style.

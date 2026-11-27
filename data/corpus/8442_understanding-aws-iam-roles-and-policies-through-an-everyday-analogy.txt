@@ -1,0 +1,9 @@
+Understanding AWS IAM Roles and Policies Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture key cards that open only the doors a person needs.
+
+In that picture, users and roles is the first rule you follow, policies is the next step, and least privilege and temporary credentials keep everything running smoothly.
+
+Every analogy breaks down eventually. Real AWS IAM Roles and Policies is the permission system that controls who can do what in an AWS account, and it involves details such as wildcard permissions that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for IAM Access Analyzer to learn the exact behavior. The same picture helps when you explain securing deployments to a friend.

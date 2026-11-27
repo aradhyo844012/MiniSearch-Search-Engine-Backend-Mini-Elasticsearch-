@@ -1,0 +1,15 @@
+SQL Basics in 10 Minutes
+
+You have ten minutes, so here is the fast route through SQL Basics.
+
+Minutes 1 and 2, the definition: SQL Basics is the core SQL commands for reading and changing data in tables.
+
+Minutes 3 and 4, the vocabulary: learn SELECT, WHERE, ORDER BY, and INSERT and UPDATE.
+
+Minutes 5 and 6, the picture: imagine asking a very organized librarian for exactly the books you need. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through reading customer records, building reports, and changing stored data.
+
+Minutes 9 and 10, the traps and the tools: watch for forgetting the WHERE clause on updates and selecting every column, then try SQLite for a first experiment.
+
+If you have a spare minute, remember to run a SELECT with the same WHERE clause before any UPDATE or DELETE.

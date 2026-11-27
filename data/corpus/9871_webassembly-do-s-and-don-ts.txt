@@ -1,0 +1,17 @@
+WebAssembly Do's and Don'ts
+
+A quick list of habits for working with WebAssembly.
+
+Do:
+- Learn modules before anything else.
+- Try Emscripten on a small example.
+- Make it a habit to measure before moving code to WebAssembly.
+- Test the case of running heavy computation in the browser early.
+
+Don't:
+- Ignore this: crossing the JavaScript boundary too often.
+- Ignore this: large binaries.
+- Ignore this: limited access to browser APIs.
+- Adopt WebAssembly just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with WebAssembly, a little patience with linear memory pays off more than any clever shortcut.

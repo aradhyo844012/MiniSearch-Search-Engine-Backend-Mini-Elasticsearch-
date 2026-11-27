@@ -1,0 +1,11 @@
+Mistakes to Avoid with Database Constraints
+
+Everyone learns Database Constraints partly through mistakes. Here are three worth avoiding.
+
+Mistake one: skipping constraints for speed. It usually appears when someone skips primary keys and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: missing indexes on foreign keys. It tends to be noticed late, often during testing of preventing bad data. A short checklist during review catches it early.
+
+Mistake three: rules enforced only in the app. It is easy to miss because everything seems to work at first. Keep an eye on check constraints to spot it.
+
+If you remember only one rule, make it this: put critical rules in the database as well as in the app.

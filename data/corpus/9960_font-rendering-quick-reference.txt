@@ -1,0 +1,15 @@
+Font Rendering Quick Reference
+
+A one-screen reminder for Font Rendering. Bookmark it and return when the details fade.
+
+What it is: turning font outlines into readable text on screen.
+Key terms: glyphs, hinting, anti-aliasing, and kerning.
+Typical uses: web pages, operating systems, and PDF viewers.
+Risks: missing font fallbacks, blurry text from scaling, and large font files.
+Tools: FreeType, Google Fonts, and font inspector tools.
+
+Mental picture: a calligrapher tracing letter shapes onto a grid of pixels.
+
+Habit to build: subset fonts to the characters you need.
+
+See also: Image Compression, which sits close to Font Rendering in the area of Graphics and Multimedia.

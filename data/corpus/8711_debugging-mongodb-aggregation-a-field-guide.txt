@@ -1,0 +1,13 @@
+Debugging MongoDB Aggregation: A Field Guide
+
+When something goes wrong around MongoDB Aggregation, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: putting $match late, huge intermediate results, and hitting memory limits.
+Step 3: revisit pipeline stages and $match and $group, since misunderstandings there cause many bugs.
+Step 4: use MongoDB Compass or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving MongoDB Aggregation in work such as summarizing orders come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, filter with $match as early as possible. It prevents a surprising number of repeat problems.

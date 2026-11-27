@@ -1,0 +1,11 @@
+Choosing Tools for Procedural Generation
+
+There is no single best tool for Procedural Generation. The right choice depends on your project, your team and your timeline.
+
+Perlin noise is a common first choice, especially for roguelike dungeons. Wave Function Collapse suits teams that already work with similar technology, and Unity is worth a look when you need something different.
+
+Judge any tool for Procedural Generation by four questions: Is the documentation clear? Is the community active? Does it handle infinite terrain well? Can you leave it later if you need to?
+
+Whichever tool you pick for Procedural Generation, test it on a small problem first, and watch for this: levels that are unfair or unwinnable.
+
+As a rule of thumb, log the seed so any generated level can be reproduced, no matter which tool you use.

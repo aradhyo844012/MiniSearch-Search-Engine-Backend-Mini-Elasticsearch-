@@ -1,0 +1,13 @@
+Collision Detection Explained Simply
+
+If Collision Detection sounds intimidating, relax. It is the process of finding out when objects in a game touch or overlap, and the idea is simpler than the name suggests.
+
+Think of Collision Detection as two people checking whether their personal space bubbles overlap. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: bounding boxes, broad and narrow phases, spatial partitioning, and collision response. You do not need to master them all at once. Start with bounding boxes, then add broad and narrow phases.
+
+People reach for Collision Detection when they work on platformers, shooters, and physics puzzles.
+
+One practical tip is to use simple shapes first and refine only when needed.
+
+Once Collision Detection feels comfortable, read about Game AI Behavior Trees, which lives in the same neighborhood of ideas.

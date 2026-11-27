@@ -1,0 +1,26 @@
+Everything You Need to Know About Makefiles
+
+This page collects the essentials about Makefiles in one place. In short, Makefiles is plain files that describe how to build programs and run common tasks with the make tool.
+
+Core concepts:
+- targets
+- prerequisites
+- recipes
+- phony targets
+
+Where it is used:
+- compiling C projects
+- shortcuts for common commands
+- automating documentation builds
+
+Common problems:
+- tabs versus spaces
+- missing phony declarations
+- hidden environment assumptions
+
+Tools to know:
+- GNU Make
+- CMake
+- a text editor
+
+Remember this above all: a to-do list that knows which steps must come first is a good way to picture it, and the best habit is to use phony targets for tasks like test and clean.

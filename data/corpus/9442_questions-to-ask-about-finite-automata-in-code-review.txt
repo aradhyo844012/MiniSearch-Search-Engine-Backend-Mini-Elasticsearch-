@@ -1,0 +1,12 @@
+Questions to Ask About Finite Automata in Code Review
+
+Reviewing code that involves Finite Automata is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of tokenizers correctly?
+- Is transitions clear to someone reading the code for the first time?
+- Could we draw the state diagram before writing any code?
+- Does this change respect states, or does it work around it?
+- Would a test catch confusing deterministic and non-deterministic machines if it appeared later?
+- Have we avoided this problem: state explosion?
+
+Good reviews of work on Finite Automata are specific, kind and focused on accepting states, not on personal style.

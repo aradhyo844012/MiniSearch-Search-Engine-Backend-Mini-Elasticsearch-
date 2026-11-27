@@ -1,0 +1,11 @@
+Scaling Considerations for A* Pathfinding
+
+A design that works for a classroom project can behave very differently under real load. Here is how A* Pathfinding changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding open and closed sets and getting game characters right.
+
+Medium scale: problems start to appear. Watch for overestimating the heuristic and slow searches on huge maps, and measure with Unity NavMesh before changing anything.
+
+Large scale: heuristics and grids and graphs move from background details to central design questions. Teams often revisit their choices around robot navigation at this stage.
+
+Before you scale, choose an admissible heuristic so paths stay optimal. It is cheaper to build that habit early than to fix a crisis later.

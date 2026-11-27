@@ -1,0 +1,11 @@
+Mistakes to Avoid with Smart Contracts
+
+Everyone learns Smart Contracts partly through mistakes. Here are three worth avoiding.
+
+Mistake one: bugs that cannot be patched. It usually appears when someone skips contract code and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: reentrancy attacks. It tends to be noticed late, often during testing of token systems. A short checklist during review catches it early.
+
+Mistake three: high gas costs. It is easy to miss because everything seems to work at first. Keep an eye on immutability to spot it.
+
+If you remember only one rule, make it this: audit and test contracts thoroughly before deployment.

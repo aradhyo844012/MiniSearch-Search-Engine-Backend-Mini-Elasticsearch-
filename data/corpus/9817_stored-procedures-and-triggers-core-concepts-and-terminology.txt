@@ -1,0 +1,10 @@
+Stored Procedures and Triggers: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Stored Procedures and Triggers with confidence. The subject itself is code stored inside the database that runs on demand or automatically when data changes.
+
+procedures: one of the building blocks of Stored Procedures and Triggers. Mixing it up with neighboring terms is a common source of confusion.
+triggers: one of the building blocks of Stored Procedures and Triggers. You should be able to explain it in a single sentence before moving on.
+parameters: one of the building blocks of Stored Procedures and Triggers. Documentation for PL/pgSQL usually mentions it early.
+side effects: one of the building blocks of Stored Procedures and Triggers. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Stored Procedures and Triggers terms in sentences about audit logging. If the sentences feel natural, the vocabulary has stuck.

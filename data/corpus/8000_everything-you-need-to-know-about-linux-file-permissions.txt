@@ -1,0 +1,26 @@
+Everything You Need to Know About Linux File Permissions
+
+This page collects the essentials about Linux File Permissions in one place. In short, Linux File Permissions is the read, write and execute rules that control who can access each file.
+
+Core concepts:
+- owner, group and others
+- mode bits
+- chmod and chown
+- umask
+
+Where it is used:
+- protecting private keys
+- sharing project folders
+- securing web server files
+
+Common problems:
+- using chmod 777 as a quick fix
+- wrong ownership after copying files
+- forgetting directory execute bits
+
+Tools to know:
+- ls -l
+- chmod
+- setfacl
+
+Remember this above all: colored wristbands that decide which rooms each guest may enter is a good way to picture it, and the best habit is to grant the least permission that works.

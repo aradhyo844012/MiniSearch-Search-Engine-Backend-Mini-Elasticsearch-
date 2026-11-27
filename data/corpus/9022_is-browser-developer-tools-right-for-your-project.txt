@@ -1,0 +1,11 @@
+Is Browser Developer Tools Right for Your Project?
+
+Before adopting Browser Developer Tools, ask whether it fits the problem. Remember that Browser Developer Tools is built-in browser panels for inspecting, debugging and measuring web pages.
+
+It is a good fit when your work involves debugging layouts or inspecting API calls, and when your team understands the elements panel.
+
+Be cautious when the project is very small, when deadlines leave no room to learn the console, or when you cannot manage these risks: editing the page and forgetting to copy the changes, leaving throttling on, and ignoring console warnings.
+
+A simple decision test: write down the problem in one sentence, then check whether the network panel and the performance profiler are part of the answer. If they are, Browser Developer Tools is probably worth a closer look.
+
+If you decide to go ahead, start small with finding slow scripts and keep the network panel open while testing features.

@@ -1,0 +1,15 @@
+Combinatorics Quick Reference
+
+A one-screen reminder for Combinatorics. Bookmark it and return when the details fade.
+
+What it is: the art of counting arrangements and selections.
+Key terms: permutations, combinations, the pigeonhole principle, and inclusion-exclusion.
+Typical uses: analyzing algorithms, probability, and estimating password strength.
+Risks: double counting, mixing order and no-order cases, and ignoring repetition.
+Tools: Python itertools, math.comb, and SymPy.
+
+Mental picture: counting the ways to seat guests at a table.
+
+Habit to build: test counting formulas on tiny cases first.
+
+See also: Linear Algebra for Programmers, which sits close to Combinatorics in the area of Mathematics for Computing.

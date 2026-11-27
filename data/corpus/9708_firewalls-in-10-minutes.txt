@@ -1,0 +1,15 @@
+Firewalls in 10 Minutes
+
+You have ten minutes, so here is the fast route through Firewalls.
+
+Minutes 1 and 2, the definition: Firewalls is systems that allow or block network traffic according to rules.
+
+Minutes 3 and 4, the vocabulary: learn rules, stateful inspection, default deny, and zones.
+
+Minutes 5 and 6, the picture: imagine a security gate that checks each visitor against a list. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through protecting servers, segmenting networks, and logging suspicious traffic.
+
+Minutes 9 and 10, the traps and the tools: watch for rules in the wrong order and overly broad allow rules, then try ufw for a first experiment.
+
+If you have a spare minute, remember to start with default deny and open only what you need.

@@ -1,0 +1,11 @@
+Why Makefiles Matters for Developers
+
+Developers who understand Makefiles make better decisions, because Makefiles is plain files that describe how to build programs and run common tasks with the make tool.
+
+Three situations show why it matters. First, compiling C projects. Second, shortcuts for common commands. Third, automating documentation builds. In each case, a solid grasp of targets and prerequisites separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: tabs versus spaces, missing phony declarations, and hidden environment assumptions.
+
+You will not need to build everything yourself; GNU Make, CMake, and a text editor cover most needs.
+
+Connect Makefiles with Python Virtual Environments to see the bigger picture of Developer Tooling and Build Systems.

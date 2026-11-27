@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Edge Computing
+
+This is a fictional but realistic day for a developer whose project relies on Edge Computing.
+
+Morning: Divya starts by reviewing a ticket about factory sensors. Before touching any code, Divya re-reads the notes on edge nodes to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore latency with AWS IoT Greengrass. A small test exposes the problem of hard-to-update devices, and they fix it together.
+
+Afternoon: the team discusses a new request involving video analytics. Divya sketches a local branch office that handles tasks without calling headquarters on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to decide which data must stay local before designing the system.
+
+Days like this are typical. Edge Computing is not glamorous, but understanding it keeps small problems from growing.

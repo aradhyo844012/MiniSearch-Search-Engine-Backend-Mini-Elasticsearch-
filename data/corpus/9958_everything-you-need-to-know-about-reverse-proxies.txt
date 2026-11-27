@@ -1,0 +1,26 @@
+Everything You Need to Know About Reverse Proxies
+
+This page collects the essentials about Reverse Proxies in one place. In short, Reverse Proxies is servers that sit in front of applications and forward client requests to them.
+
+Core concepts:
+- upstream servers
+- proxy headers
+- TLS termination
+- caching
+
+Where it is used:
+- hiding backend servers
+- terminating HTTPS
+- routing requests to several apps
+
+Common problems:
+- losing the client IP address
+- wrong timeouts
+- exposing internal paths
+
+Tools to know:
+- NGINX
+- Caddy
+- HAProxy
+
+Remember this above all: a hotel front desk that routes guests to the right room is a good way to picture it, and the best habit is to forward the real client IP in a trusted header.

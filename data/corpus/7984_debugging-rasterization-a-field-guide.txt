@@ -1,0 +1,13 @@
+Debugging Rasterization: A Field Guide
+
+When something goes wrong around Rasterization, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: aliasing along edges, overdraw, and depth fighting.
+Step 3: revisit triangles and pixel coverage, since misunderstandings there cause many bugs.
+Step 4: use OpenGL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Rasterization in work such as real-time games come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, draw simple shapes first to understand the pipeline. It prevents a surprising number of repeat problems.

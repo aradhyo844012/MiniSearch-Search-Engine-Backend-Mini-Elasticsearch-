@@ -1,0 +1,9 @@
+Understanding High Availability Design Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a bridge with several cables so one breaking does not matter.
+
+In that picture, redundancy is the first rule you follow, failover is the next step, and health checks and no single point of failure keep everything running smoothly.
+
+Every analogy breaks down eventually. Real High Availability Design is designing systems so they keep working when parts fail, and it involves details such as hidden single points of failure that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for load balancers to learn the exact behavior. The same picture helps when you explain online stores to a friend.

@@ -1,0 +1,12 @@
+systemd Services Glossary for Beginners
+
+New words can make systemd Services feel harder than it is. This glossary keeps the key ones in one place.
+
+systemd Services: the init system and service manager used by most modern Linux distributions.
+unit files: a core term, most visible in starting services at boot.
+targets: a core term that beginners often confuse with service states.
+service states: a core term that connects to journal logs.
+journal logs: a core term worth revisiting after you try a real example.
+systemctl: a tool commonly used for restarting crashed programs.
+
+Come back to this systemd Services list whenever documentation for journalctl uses a word you do not recognize.

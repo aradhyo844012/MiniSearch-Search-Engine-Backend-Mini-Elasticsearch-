@@ -1,0 +1,11 @@
+Scaling Considerations for Managed Kubernetes Services
+
+A design that works for a classroom project can behave very differently under real load. Here is how Managed Kubernetes Services changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding the control plane and getting running containerized apps right.
+
+Medium scale: problems start to appear. Watch for neglecting version upgrades and oversized node pools, and measure with Amazon EKS before changing anything.
+
+Large scale: upgrades and integrated load balancers move from background details to central design questions. Teams often revisit their choices around scaling services at this stage.
+
+Before you scale, plan regular cluster upgrades. It is cheaper to build that habit early than to fix a crisis later.

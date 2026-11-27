@@ -1,0 +1,11 @@
+Scaling Considerations for Dev Containers
+
+A design that works for a classroom project can behave very differently under real load. Here is how Dev Containers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding devcontainer.json and getting onboarding new developers right.
+
+Medium scale: problems start to appear. Watch for slow image builds and files owned by the wrong user, and measure with VS Code Dev Containers before changing anything.
+
+Large scale: mounted folders and extensions move from background details to central design questions. Teams often revisit their choices around matching production tools at this stage.
+
+Before you scale, pin tool versions inside the container definition. It is cheaper to build that habit early than to fix a crisis later.

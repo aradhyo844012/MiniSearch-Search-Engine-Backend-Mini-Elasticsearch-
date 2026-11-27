@@ -1,0 +1,11 @@
+Scaling Considerations for Cron Jobs and Scheduling
+
+A design that works for a classroom project can behave very differently under real load. Here is how Cron Jobs and Scheduling changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding crontab syntax and getting nightly backups right.
+
+Medium scale: problems start to appear. Watch for assuming cron has your shell environment and overlapping runs of slow jobs, and measure with crontab before changing anything.
+
+Large scale: environment differences and output redirection move from background details to central design questions. Teams often revisit their choices around log rotation at this stage.
+
+Before you scale, redirect output to a log file and use absolute paths. It is cheaper to build that habit early than to fix a crisis later.

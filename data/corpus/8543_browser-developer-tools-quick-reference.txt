@@ -1,0 +1,15 @@
+Browser Developer Tools Quick Reference
+
+A one-screen reminder for Browser Developer Tools. Bookmark it and return when the details fade.
+
+What it is: built-in browser panels for inspecting, debugging and measuring web pages.
+Key terms: the elements panel, the console, the network panel, and the performance profiler.
+Typical uses: debugging layouts, inspecting API calls, and finding slow scripts.
+Risks: editing the page and forgetting to copy the changes, leaving throttling on, and ignoring console warnings.
+Tools: Chrome DevTools, Firefox Developer Edition, and Lighthouse.
+
+Mental picture: an X-ray machine for web pages.
+
+Habit to build: keep the network panel open while testing features.
+
+See also: Python Virtual Environments, which sits close to Browser Developer Tools in the area of Developer Tooling and Build Systems.

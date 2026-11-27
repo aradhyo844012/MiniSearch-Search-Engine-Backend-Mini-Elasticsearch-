@@ -1,0 +1,13 @@
+Procedural Generation Explained Simply
+
+If Procedural Generation sounds intimidating, relax. It is creating game content such as levels and terrain automatically with algorithms, and the idea is simpler than the name suggests.
+
+Think of Procedural Generation as a chef inventing endless dishes from a fixed set of ingredients. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: random seeds, noise functions, rules and constraints, and reproducibility. You do not need to master them all at once. Start with random seeds, then add noise functions.
+
+You will meet Procedural Generation in work such as roguelike dungeons, infinite terrain, and varied item drops.
+
+One practical tip is to log the seed so any generated level can be reproduced.
+
+Once Procedural Generation feels comfortable, read about Shaders, which lives in the same neighborhood of ideas.

@@ -1,0 +1,11 @@
+Choosing Tools for Package Managers
+
+There is no single best tool for Package Managers. The right choice depends on your project, your team and your timeline.
+
+apt is a common first choice, especially for installing system tools. dnf suits teams that already work with similar technology, and Homebrew is worth a look when you need something different.
+
+Judge any tool for Package Managers by four questions: Is the documentation clear? Is the community active? Does it handle keeping servers updated well? Can you leave it later if you need to?
+
+Whichever tool you pick for Package Managers, test it on a small problem first, and watch for this: mixing sources that conflict.
+
+As a rule of thumb, update the package index before installing anything, no matter which tool you use.

@@ -1,0 +1,15 @@
+The Pros and Cons of Packet Switching
+
+No technology is free of trade-offs, and Packet Switching is no exception. Here is an honest summary.
+
+Advantages:
+- Supports internet traffic
+- Makes voice over IP easier
+- Helps with file transfers
+
+Drawbacks and risks:
+- Risk: packet loss
+- Risk: out-of-order delivery
+- Risk: large packets being fragmented
+
+Weigh the two lists against your own project. If the advantages match your needs, such as internet traffic, and you can manage the risks, Packet Switching is a sound choice. Whatever you decide, capture a few packets to see the headers for yourself.

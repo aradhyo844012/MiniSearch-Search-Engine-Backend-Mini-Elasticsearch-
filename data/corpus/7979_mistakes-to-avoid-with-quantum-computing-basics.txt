@@ -1,0 +1,11 @@
+Mistakes to Avoid with Quantum Computing Basics
+
+Everyone learns Quantum Computing Basics partly through mistakes. Here are three worth avoiding.
+
+Mistake one: expecting speedups for every problem. It usually appears when someone skips qubits and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: noise and errors. It tends to be noticed late, often during testing of research on cryptography. A short checklist during review catches it early.
+
+Mistake three: hype about current machines. It is easy to miss because everything seems to work at first. Keep an eye on quantum gates to spot it.
+
+If you remember only one rule, make it this: start by simulating small circuits on a laptop.

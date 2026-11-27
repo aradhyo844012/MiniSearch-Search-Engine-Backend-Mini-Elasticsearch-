@@ -1,0 +1,17 @@
+systemd Services Do's and Don'ts
+
+A quick list of habits for working with systemd Services.
+
+Do:
+- Learn unit files before anything else.
+- Try systemctl on a small example.
+- Make it a habit to run systemctl daemon-reload after every unit file change.
+- Test the case of starting services at boot early.
+
+Don't:
+- Ignore this: editing unit files without reloading the daemon.
+- Ignore this: missing restart policies.
+- Ignore this: ignoring dependency ordering.
+- Adopt systemd Services just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with systemd Services, a little patience with targets pays off more than any clever shortcut.

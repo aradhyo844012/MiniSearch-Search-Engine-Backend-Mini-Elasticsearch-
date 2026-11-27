@@ -1,0 +1,26 @@
+Everything You Need to Know About WebAssembly
+
+This page collects the essentials about WebAssembly in one place. In short, WebAssembly is a compact binary format that lets code written in many languages run fast in browsers.
+
+Core concepts:
+- modules
+- linear memory
+- imports and exports
+- the JavaScript bridge
+
+Where it is used:
+- running heavy computation in the browser
+- porting existing C or Rust code
+- games and image tools
+
+Common problems:
+- crossing the JavaScript boundary too often
+- large binaries
+- limited access to browser APIs
+
+Tools to know:
+- Emscripten
+- wasm-pack
+- Wasmtime
+
+Remember this above all: a fast engine installed in the corner of a web page is a good way to picture it, and the best habit is to measure before moving code to WebAssembly.

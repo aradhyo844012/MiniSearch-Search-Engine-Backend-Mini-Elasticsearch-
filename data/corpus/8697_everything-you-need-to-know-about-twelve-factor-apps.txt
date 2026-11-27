@@ -1,0 +1,26 @@
+Everything You Need to Know About Twelve-Factor Apps
+
+This page collects the essentials about Twelve-Factor Apps in one place. In short, Twelve-Factor Apps is a set of twelve guidelines for building apps that deploy and scale cleanly.
+
+Core concepts:
+- config in the environment
+- stateless processes
+- backing services
+- disposability
+
+Where it is used:
+- building web services
+- deploying to platforms
+- keeping environments consistent
+
+Common problems:
+- storing state on local disks
+- hard-coded config
+- long start-up times
+
+Tools to know:
+- Heroku
+- Docker
+- Cloud Foundry
+
+Remember this above all: a checklist for packing a suitcase that fits any airline is a good way to picture it, and the best habit is to keep config out of the code.

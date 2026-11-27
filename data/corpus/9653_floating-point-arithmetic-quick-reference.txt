@@ -1,0 +1,15 @@
+Floating-Point Arithmetic Quick Reference
+
+A one-screen reminder for Floating-Point Arithmetic. Bookmark it and return when the details fade.
+
+What it is: the way computers approximate real numbers with a fixed number of bits.
+Key terms: mantissa and exponent, rounding, precision, and special values.
+Typical uses: scientific computing, graphics, and financial calculations that need care.
+Risks: comparing floats with equality, accumulated rounding errors, and using floats for money.
+Tools: Python decimal, NumPy, and IEEE 754 references.
+
+Mental picture: writing numbers in scientific notation with a limited number of digits.
+
+Habit to build: compare floats with a tolerance and use decimals for money.
+
+See also: Linear Algebra for Programmers, which sits close to Floating-Point Arithmetic in the area of Mathematics for Computing.

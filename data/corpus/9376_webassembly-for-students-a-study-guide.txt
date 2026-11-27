@@ -1,0 +1,17 @@
+WebAssembly for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover WebAssembly.
+
+Learning goals:
+1. Explain WebAssembly in your own words.
+2. Describe modules, linear memory, imports and exports, and the JavaScript bridge.
+3. Give examples from running heavy computation in the browser and porting existing C or Rust code.
+4. Name three problems to watch for.
+
+Start with the definition: WebAssembly is a compact binary format that lets code written in many languages run fast in browsers. Then draw a fast engine installed in the corner of a web page on paper and label the four terms from the goals above.
+
+Self-test questions: Why is crossing the JavaScript boundary too often a problem? How does linear memory relate to imports and exports? When would you choose Emscripten or wasm-pack?
+
+Study habit: measure before moving code to WebAssembly.
+
+When you feel ready, compare WebAssembly with Makefiles and write down three differences.

@@ -1,0 +1,11 @@
+Scaling Considerations for Subqueries and CTEs
+
+A design that works for a classroom project can behave very differently under real load. Here is how Subqueries and CTEs changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding subqueries and getting breaking complex reports into steps right.
+
+Medium scale: problems start to appear. Watch for correlated subqueries that run slowly and deep nesting, and measure with PostgreSQL before changing anything.
+
+Large scale: correlated queries and readability move from background details to central design questions. Teams often revisit their choices around filtering with computed results at this stage.
+
+Before you scale, name each CTE after what it returns. It is cheaper to build that habit early than to fix a crisis later.

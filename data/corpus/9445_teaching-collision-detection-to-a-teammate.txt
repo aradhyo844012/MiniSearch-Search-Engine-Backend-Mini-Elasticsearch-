@@ -1,0 +1,13 @@
+Teaching Collision Detection to a Teammate
+
+Explaining Collision Detection to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: two people checking whether their personal space bubbles overlap. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Collision Detection is the process of finding out when objects in a game touch or overlap. Avoid jargon at this stage.
+
+Walk through an example involving platformers, naming bounding boxes and broad and narrow phases as they come up.
+
+Ask your teammate to explain spatial partitioning in Collision Detection back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, tunneling through thin objects, and suggest this habit: use simple shapes first and refine only when needed.

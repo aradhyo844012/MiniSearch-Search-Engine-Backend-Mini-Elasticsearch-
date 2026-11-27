@@ -1,0 +1,17 @@
+Cloud-Native Applications Do's and Don'ts
+
+A quick list of habits for working with Cloud-Native Applications.
+
+Do:
+- Learn containers before anything else.
+- Try Kubernetes on a small example.
+- Make it a habit to design every service to be stateless where possible.
+- Test the case of web platforms early.
+
+Don't:
+- Ignore this: treating the cloud like a data center.
+- Ignore this: too many services.
+- Ignore this: ignoring costs.
+- Adopt Cloud-Native Applications just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Cloud-Native Applications, a little patience with microservices pays off more than any clever shortcut.

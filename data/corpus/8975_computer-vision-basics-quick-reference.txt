@@ -1,0 +1,15 @@
+Computer Vision Basics Quick Reference
+
+A one-screen reminder for Computer Vision Basics. Bookmark it and return when the details fade.
+
+What it is: teaching computers to extract information from images and video.
+Key terms: pixels, filters and edges, feature detection, and classification.
+Typical uses: face detection, document scanning, and quality inspection.
+Risks: lighting changes, biased datasets, and overfitting to a small set of photos.
+Tools: OpenCV, Pillow, and scikit-image.
+
+Mental picture: teaching a computer to notice shapes the way eyes do.
+
+Habit to build: visualize intermediate steps such as edges or masks.
+
+See also: Image Compression, which sits close to Computer Vision Basics in the area of Graphics and Multimedia.

@@ -1,0 +1,11 @@
+Is Smart Contracts Right for Your Project?
+
+Before adopting Smart Contracts, ask whether it fits the problem. Remember that Smart Contracts is programs stored on a blockchain that run automatically when conditions are met.
+
+It is a good fit when your work involves token systems or automated escrow, and when your team understands contract code.
+
+Be cautious when the project is very small, when deadlines leave no room to learn transactions, or when you cannot manage these risks: bugs that cannot be patched, reentrancy attacks, and high gas costs.
+
+A simple decision test: write down the problem in one sentence, then check whether gas fees and immutability are part of the answer. If they are, Smart Contracts is probably worth a closer look.
+
+If you decide to go ahead, start small with decentralized applications and audit and test contracts thoroughly before deployment.

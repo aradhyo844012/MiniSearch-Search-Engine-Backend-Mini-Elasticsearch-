@@ -1,0 +1,15 @@
+Code Formatters Quick Reference
+
+A one-screen reminder for Code Formatters. Bookmark it and return when the details fade.
+
+What it is: tools that automatically rewrite code to a consistent style.
+Key terms: style rules, configuration, editor integration, and pre-commit hooks.
+Typical uses: ending style debates, cleaner diffs, and onboarding contributors.
+Risks: reformatting entire files at once, conflicting tool settings, and ignoring generated files.
+Tools: Prettier, Black, and gofmt.
+
+Mental picture: an automatic proofreader that fixes spacing for everyone.
+
+Habit to build: run the formatter in a pre-commit hook.
+
+See also: npm and Package Registries, which sits close to Code Formatters in the area of Developer Tooling and Build Systems.

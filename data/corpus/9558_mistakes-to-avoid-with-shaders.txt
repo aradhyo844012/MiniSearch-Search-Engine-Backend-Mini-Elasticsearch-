@@ -1,0 +1,11 @@
+Mistakes to Avoid with Shaders
+
+Everyone learns Shaders partly through mistakes. Here are three worth avoiding.
+
+Mistake one: branches that slow the GPU. It usually appears when someone skips vertex shaders and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: precision errors. It tends to be noticed late, often during testing of lighting effects. A short checklist during review catches it early.
+
+Mistake three: platform differences. It is easy to miss because everything seems to work at first. Keep an eye on GLSL to spot it.
+
+If you remember only one rule, make it this: start from a minimal shader and add one effect at a time.

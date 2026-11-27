@@ -1,0 +1,11 @@
+Reverse Proxies in Real Projects
+
+Reading about Reverse Proxies is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: hiding backend servers. Here, upstream servers drives the main design choices, and the team needs to guard against losing the client IP address.
+
+Scenario two: terminating HTTPS. This time proxy headers matters most, and tools such as NGINX help keep things manageable.
+
+Scenario three: routing requests to several apps. The key idea is TLS termination, and the biggest risk is wrong timeouts.
+
+Across all three scenarios, Reverse Proxies stays the same idea: servers that sit in front of applications and forward client requests to them. Only the details change.

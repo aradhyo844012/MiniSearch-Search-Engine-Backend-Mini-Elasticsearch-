@@ -1,0 +1,17 @@
+Build Systems for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Build Systems.
+
+Learning goals:
+1. Explain Build Systems in your own words.
+2. Describe targets, dependencies, incremental builds, and build caches.
+3. Give examples from compiling large projects and packaging software.
+4. Name three problems to watch for.
+
+Start with the definition: Build Systems is tools that turn source code into runnable programs automatically. Then draw an assembly line that only rebuilds the parts that changed on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow full rebuilds a problem? How does dependencies relate to incremental builds? When would you choose Make or Gradle?
+
+Study habit worth keeping: make builds reproducible on any machine.
+
+When you feel ready, compare Build Systems with Monorepos and write down three differences.

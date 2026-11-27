@@ -1,0 +1,11 @@
+Video Codecs in Real Projects
+
+Reading about Video Codecs is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: streaming services. Here, frames drives the main design choices, and the team needs to guard against mismatched codec support.
+
+Scenario two: video calls. This time motion compensation matters most, and tools such as FFmpeg help keep things manageable.
+
+Scenario three: archiving footage. The key idea is bitrate, and the biggest risk is too low a bitrate.
+
+Across all three scenarios, Video Codecs stays the same idea: programs that compress and decompress video so it can be stored and streamed. Only the details change.

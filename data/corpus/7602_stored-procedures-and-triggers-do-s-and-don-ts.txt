@@ -1,0 +1,17 @@
+Stored Procedures and Triggers Do's and Don'ts
+
+A quick list of habits for working with Stored Procedures and Triggers.
+
+Do:
+- Learn procedures before anything else.
+- Try PL/pgSQL on a small example.
+- Make it a habit to keep triggers small and well documented.
+- Test the case of enforcing rules close to the data early.
+
+Don't:
+- Ignore this: hidden logic that surprises developers.
+- Ignore this: hard-to-test code.
+- Ignore this: trigger chains.
+- Adopt Stored Procedures and Triggers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Stored Procedures and Triggers, a little patience with triggers pays off more than any clever shortcut.

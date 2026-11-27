@@ -1,0 +1,13 @@
+Debugging Game AI Behavior Trees: A Field Guide
+
+When something goes wrong around Game AI Behavior Trees, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: trees that become tangled, expensive conditions checked every frame, and no way to debug decisions.
+Step 3: revisit selector nodes and sequence nodes, since misunderstandings there cause many bugs.
+Step 4: use Unreal Engine behavior trees or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Game AI Behavior Trees in work such as enemy behavior come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, visualize the tree while the game is running. It prevents a surprising number of repeat problems.

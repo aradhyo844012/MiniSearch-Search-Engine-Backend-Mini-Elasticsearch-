@@ -1,0 +1,17 @@
+Firewalls for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Firewalls.
+
+Learning goals:
+1. Explain Firewalls in your own words.
+2. Describe rules, stateful inspection, default deny, and zones.
+3. Give examples from protecting servers and segmenting networks.
+4. Name three problems to watch for.
+
+Start with the definition: Firewalls is systems that allow or block network traffic according to rules. Then draw a security gate that checks each visitor against a list on paper and label the four terms from the goals above.
+
+Self-test questions: Why is rules in the wrong order a problem? How does stateful inspection relate to default deny? When would you choose ufw or iptables?
+
+Study habit worth keeping: start with default deny and open only what you need.
+
+When you feel ready, compare Firewalls with Reverse Proxies and write down three differences.

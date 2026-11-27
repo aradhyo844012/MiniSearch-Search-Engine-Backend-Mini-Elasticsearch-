@@ -1,0 +1,13 @@
+Disk Partitioning and Mounting Explained Simply
+
+If Disk Partitioning and Mounting sounds intimidating, relax. It is dividing storage into sections and attaching them to the file tree, and the idea is simpler than the name suggests.
+
+Think of Disk Partitioning and Mounting as building rooms inside a warehouse and putting door numbers on them. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: partitions, file system types, mount points, and fstab. You do not need to master them all at once. Start with partitions, then add file system types.
+
+You will meet Disk Partitioning and Mounting in work such as adding a new drive, separating data from the system, and encrypting volumes.
+
+One practical tip is to double-check device names with lsblk before formatting.
+
+After Disk Partitioning and Mounting, a natural next topic is Process Signals and Job Control.

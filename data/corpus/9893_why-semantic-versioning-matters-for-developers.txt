@@ -1,0 +1,11 @@
+Why Semantic Versioning Matters for Developers
+
+Developers who understand Semantic Versioning make better decisions, because Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed.
+
+Three situations show why it matters. First, publishing libraries. Second, declaring dependencies. Third, planning upgrades. In each case, a solid grasp of major, minor and patch numbers and breaking changes separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: breaking changes in minor releases, overly loose ranges, and forgetting to document changes.
+
+You will not need to build everything yourself; semver.org, npm semver, and release notes cover most needs.
+
+Connect Semantic Versioning with Browser Developer Tools to see the bigger picture of Developer Tooling and Build Systems.

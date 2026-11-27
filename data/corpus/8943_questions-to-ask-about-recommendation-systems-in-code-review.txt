@@ -1,0 +1,12 @@
+Questions to Ask About Recommendation Systems in Code Review
+
+Reviewing code that involves Recommendation Systems is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch popularity bias if it appeared later?
+- Could we evaluate with held-out interactions, not training data?
+- Does this change respect collaborative filtering, or does it work around it?
+- Have we considered feedback loops?
+- Is Surprise used consistently, or are we mixing approaches?
+- Does the code handle the case of streaming services correctly?
+
+Good reviews of work on Recommendation Systems are specific, kind and focused on ranking, not on personal style.

@@ -1,0 +1,11 @@
+VPNs Tips from Experienced Engineers
+
+Engineers who work with VPNs regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit encryption before anything else.
+2. Make sure you can test for DNS leaks after connecting.
+3. Test the case of remote work access early, before the design hardens.
+4. Do not skip tunneling; everything else builds on it.
+5. Reach for WireGuard first, and only then evaluate alternatives such as OpenVPN.
+
+None of these tips needs special equipment, and all of them apply to linking offices as well as to VPNs in general.

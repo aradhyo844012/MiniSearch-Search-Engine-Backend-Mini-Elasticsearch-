@@ -1,0 +1,13 @@
+Teaching Reverse Proxies to a Teammate
+
+Explaining Reverse Proxies to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a hotel front desk that routes guests to the right room. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Reverse Proxies is servers that sit in front of applications and forward client requests to them. Avoid jargon at this stage.
+
+Walk through an example involving hiding backend servers, naming upstream servers and proxy headers as they come up.
+
+Ask your teammate to explain TLS termination in Reverse Proxies back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, losing the client IP address, and suggest this habit: forward the real client IP in a trusted header.

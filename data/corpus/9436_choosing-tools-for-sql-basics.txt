@@ -1,0 +1,11 @@
+Choosing Tools for SQL Basics
+
+There is no single best tool for SQL Basics. The right choice depends on your project, your team and your timeline.
+
+SQLite is a common first choice, especially for reading customer records. PostgreSQL suits teams that already work with similar technology, and DB Browser for SQLite is worth a look when you need something different.
+
+Judge any tool for SQL Basics by four questions: Is the documentation clear? Is the community active? Does it handle building reports well? Can you leave it later if you need to?
+
+Whichever tool you pick for SQL Basics, test it on a small problem first, and watch for this: forgetting the WHERE clause on updates.
+
+As a rule of thumb, run a SELECT with the same WHERE clause before any UPDATE or DELETE, no matter which tool you use.

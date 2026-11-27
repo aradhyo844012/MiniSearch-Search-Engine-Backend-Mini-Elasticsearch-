@@ -1,0 +1,11 @@
+Why Number Theory and RSA Matters for Developers
+
+Developers who understand Number Theory and RSA make better decisions, because Number Theory and RSA is the study of integers, whose properties underpin much of modern encryption.
+
+Three situations show why it matters. First, public key cryptography. Second, hash functions. Third, digital signatures. In each case, a solid grasp of prime numbers and modular arithmetic separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: using small primes, implementing crypto by hand in production, and ignoring padding.
+
+Good tools exist, including Python pow, OpenSSL, and SageMath, so you rarely have to start from nothing.
+
+Connect Number Theory and RSA with Discrete Mathematics to see the bigger picture of Mathematics for Computing.

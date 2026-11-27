@@ -1,0 +1,11 @@
+Scaling Considerations for SQL Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how SQL Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding SELECT and getting reading customer records right.
+
+Medium scale: problems start to appear. Watch for forgetting the WHERE clause on updates and selecting every column, and measure with SQLite before changing anything.
+
+Large scale: ORDER BY and INSERT and UPDATE move from background details to central design questions. Teams often revisit their choices around building reports at this stage.
+
+Before you scale, run a SELECT with the same WHERE clause before any UPDATE or DELETE. It is cheaper to build that habit early than to fix a crisis later.

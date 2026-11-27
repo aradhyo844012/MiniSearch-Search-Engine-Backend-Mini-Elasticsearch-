@@ -1,0 +1,13 @@
+Skills to Build Around HTTP/2 and HTTP/3
+
+Knowing the definition of HTTP/2 and HTTP/3 is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with multiplexing and header compression, and able to explain them without notes.
+
+Hands-on practice: spend real time with curl with HTTP/3 support on a HTTP/2 and HTTP/3 task, and try at least one alternative such as Chrome DevTools.
+
+Judgment: learn to decide when HTTP/2 and HTTP/3 fits a problem such as faster page loads, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a multi-lane highway replacing a single-lane road.
+
+Habits: keep a working HTTP/1.1 fallback, and write down what you learn after each project.

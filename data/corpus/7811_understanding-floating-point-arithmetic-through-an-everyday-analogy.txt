@@ -1,0 +1,9 @@
+Understanding Floating-Point Arithmetic Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture writing numbers in scientific notation with a limited number of digits.
+
+In that picture, mantissa and exponent is the first rule you follow, rounding is the next step, and precision and special values keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits, and it involves details such as comparing floats with equality that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Python decimal to learn the exact behavior. The same picture helps when you explain scientific computing to a friend.

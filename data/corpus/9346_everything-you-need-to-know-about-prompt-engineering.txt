@@ -1,0 +1,26 @@
+Everything You Need to Know About Prompt Engineering
+
+This page collects the essentials about Prompt Engineering in one place. In short, Prompt Engineering is the practice of writing clear instructions and examples to get useful output from language models.
+
+Core concepts:
+- instructions
+- examples
+- context
+- output format
+
+Where it is used:
+- drafting content
+- extracting data from text
+- building assistants
+
+Common problems:
+- vague requests
+- missing context
+- trusting outputs without verification
+
+Tools to know:
+- model playgrounds
+- LangChain
+- evaluation sets
+
+Remember this above all: giving clear directions to a very literal helper is a good way to picture it, and the best habit is to specify the output format and include one or two examples.

@@ -1,0 +1,15 @@
+The Pros and Cons of API Gateways
+
+No technology is free of trade-offs, and API Gateways is no exception. Here is an honest summary.
+
+Advantages:
+- Supports exposing microservices
+- Makes securing public APIs easier
+- Helps with collecting usage metrics
+
+Drawbacks and risks:
+- Risk: a single point of failure
+- Risk: business logic leaking into the gateway
+- Risk: added latency
+
+Weigh the two lists against your own project. If the advantages match your needs, such as exposing microservices, and you can manage the risks, API Gateways is a sound choice. Whatever you decide, keep the gateway thin and put business logic in services.

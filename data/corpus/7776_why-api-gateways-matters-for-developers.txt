@@ -1,0 +1,11 @@
+Why API Gateways Matters for Developers
+
+Developers who understand API Gateways make better decisions, because API Gateways is services that sit in front of APIs to handle routing, authentication and limits.
+
+Three situations show why it matters. First, exposing microservices. Second, securing public APIs. Third, collecting usage metrics. In each case, a solid grasp of routing and authentication separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: a single point of failure, business logic leaking into the gateway, and added latency.
+
+Good tools exist, including Kong, AWS API Gateway, and NGINX, so you rarely have to start from nothing.
+
+Connect API Gateways with AWS IAM Roles and Policies to see the bigger picture of Cloud Platforms and Architecture.

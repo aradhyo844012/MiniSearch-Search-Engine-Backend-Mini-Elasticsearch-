@@ -1,0 +1,26 @@
+Everything You Need to Know About Edge Computing
+
+This page collects the essentials about Edge Computing in one place. In short, Edge Computing is processing data close to where it is produced instead of in a distant data center.
+
+Core concepts:
+- edge nodes
+- latency
+- bandwidth savings
+- synchronization
+
+Where it is used:
+- factory sensors
+- video analytics
+- smart cities
+
+Common problems:
+- hard-to-update devices
+- inconsistent hardware
+- security at many sites
+
+Tools to know:
+- AWS IoT Greengrass
+- K3s
+- Cloudflare Workers
+
+Remember this above all: a local branch office that handles tasks without calling headquarters is a good way to picture it, and the best habit is to decide which data must stay local before designing the system.

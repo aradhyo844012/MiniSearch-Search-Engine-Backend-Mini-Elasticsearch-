@@ -1,0 +1,17 @@
+Linear Algebra for Programmers Do's and Don'ts
+
+A quick list of habits for working with Linear Algebra for Programmers.
+
+Do:
+- Learn vectors before anything else.
+- Try NumPy on a small example.
+- Make it a habit to check shapes before multiplying.
+- Test the case of 3D graphics early.
+
+Don't:
+- Ignore this: mixing row and column conventions.
+- Ignore this: shape mismatches.
+- Ignore this: forgetting that matrix multiplication is not commutative.
+- Adopt Linear Algebra for Programmers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Linear Algebra for Programmers, a little patience with matrices pays off more than any clever shortcut.

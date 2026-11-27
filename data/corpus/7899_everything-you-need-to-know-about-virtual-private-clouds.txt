@@ -1,0 +1,26 @@
+Everything You Need to Know About Virtual Private Clouds
+
+This page collects the essentials about Virtual Private Clouds in one place. In short, Virtual Private Clouds is isolated private networks inside a cloud provider where you place your resources.
+
+Core concepts:
+- subnets
+- route tables
+- security groups
+- gateways
+
+Where it is used:
+- separating public and private services
+- connecting to offices
+- securing databases
+
+Common problems:
+- overlapping address ranges
+- databases in public subnets
+- missing routes
+
+Tools to know:
+- AWS VPC
+- Terraform
+- VPC Flow Logs
+
+Remember this above all: a gated neighborhood inside a big city is a good way to picture it, and the best habit is to keep databases in private subnets.

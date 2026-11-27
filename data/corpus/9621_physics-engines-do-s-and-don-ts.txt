@@ -1,0 +1,17 @@
+Physics Engines Do's and Don'ts
+
+A quick list of habits for working with Physics Engines.
+
+Do:
+- Learn rigid bodies before anything else.
+- Try Box2D on a small example.
+- Make it a habit to use a fixed time step for stable results.
+- Test the case of vehicles and ragdolls early.
+
+Don't:
+- Ignore this: variable time steps.
+- Ignore this: unstable stacks of objects.
+- Ignore this: extreme mass ratios.
+- Adopt Physics Engines just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Physics Engines, a little patience with forces and impulses pays off more than any clever shortcut.

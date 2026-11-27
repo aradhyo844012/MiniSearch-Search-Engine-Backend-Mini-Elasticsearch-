@@ -1,0 +1,12 @@
+Questions to Ask About Cloud-Native Applications in Code Review
+
+Reviewing code that involves Cloud-Native Applications is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch too many services if it appeared later?
+- Is microservices clear to someone reading the code for the first time?
+- Does this change respect containers, or does it work around it?
+- Is Kubernetes used consistently, or are we mixing approaches?
+- Could we design every service to be stateless where possible?
+- Have we considered treating the cloud like a data center?
+
+Good reviews of work on Cloud-Native Applications are specific, kind and focused on declarative configuration, not on personal style.

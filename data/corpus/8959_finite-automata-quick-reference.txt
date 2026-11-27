@@ -1,0 +1,15 @@
+Finite Automata Quick Reference
+
+A one-screen reminder for Finite Automata. Bookmark it and return when the details fade.
+
+What it is: simple abstract machines that read input and move between a fixed set of states.
+Key terms: states, transitions, accepting states, and regular languages.
+Typical uses: tokenizers, pattern matching, and protocol design.
+Risks: missing transitions, confusing deterministic and non-deterministic machines, and state explosion.
+Tools: JFLAP, Python dictionaries, and regex engines.
+
+Mental picture: a turnstile that moves between locked and unlocked.
+
+Habit to build: draw the state diagram before writing any code.
+
+See also: Discrete Mathematics, which sits close to Finite Automata in the area of Mathematics for Computing.

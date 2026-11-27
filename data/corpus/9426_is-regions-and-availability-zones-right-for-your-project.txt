@@ -1,0 +1,11 @@
+Is Regions and Availability Zones Right for Your Project?
+
+Before adopting Regions and Availability Zones, ask whether it fits the problem. Remember that Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources.
+
+It is a good fit when your work involves placing services near users or surviving data center failures, and when your team understands regions.
+
+Be cautious when the project is very small, when deadlines leave no room to learn availability zones, or when you cannot manage these risks: putting everything in one zone, cross-region transfer fees, and forgetting data residency rules.
+
+A simple decision test: write down the problem in one sentence, then check whether latency and data residency are part of the answer. If they are, Regions and Availability Zones is probably worth a closer look.
+
+If you decide to go ahead, start small with meeting data laws and spread critical services across at least two zones.

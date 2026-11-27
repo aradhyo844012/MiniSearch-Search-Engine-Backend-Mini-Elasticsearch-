@@ -1,0 +1,17 @@
+Game Loop for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Game Loop.
+
+Learning goals:
+1. Explain Game Loop in your own words.
+2. Describe input handling, the update step, rendering, and frame timing.
+3. Give examples from running every real-time game and keeping animation smooth.
+4. Name three problems to watch for.
+
+Start with the definition: Game Loop is the repeating cycle that processes input, updates the game state and draws each frame. Then draw a heartbeat that keeps the whole game alive on paper and label the four terms from the goals above.
+
+Self-test questions: Why is tying logic to frame rate a problem? How does the update step relate to rendering? When would you choose Unity or Godot?
+
+Study habit: use delta time so speed does not depend on frame rate.
+
+When you feel ready, compare Game Loop with Entity Component Systems and write down three differences.

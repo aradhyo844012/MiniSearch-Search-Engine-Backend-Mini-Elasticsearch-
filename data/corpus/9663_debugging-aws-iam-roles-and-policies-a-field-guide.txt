@@ -1,0 +1,13 @@
+Debugging AWS IAM Roles and Policies: A Field Guide
+
+When something goes wrong around AWS IAM Roles and Policies, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: wildcard permissions, long-lived access keys, and unused roles.
+Step 3: revisit users and roles and policies, since misunderstandings there cause many bugs.
+Step 4: use IAM Access Analyzer or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving AWS IAM Roles and Policies in work such as securing deployments come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, grant the narrowest policy that works and review it regularly. It prevents a surprising number of repeat problems.

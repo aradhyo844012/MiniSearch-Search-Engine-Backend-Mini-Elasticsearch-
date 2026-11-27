@@ -1,0 +1,11 @@
+AWS IAM Roles and Policies in Real Projects
+
+Reading about AWS IAM Roles and Policies is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: securing deployments. Here, users and roles drives the main design choices, and the team needs to guard against wildcard permissions.
+
+Scenario two: granting services access. This time policies matters most, and tools such as IAM Access Analyzer help keep things manageable.
+
+Scenario three: auditing permissions. The key idea is least privilege, and the biggest risk is long-lived access keys.
+
+Across all three scenarios, AWS IAM Roles and Policies stays the same idea: the permission system that controls who can do what in an AWS account. Only the details change.

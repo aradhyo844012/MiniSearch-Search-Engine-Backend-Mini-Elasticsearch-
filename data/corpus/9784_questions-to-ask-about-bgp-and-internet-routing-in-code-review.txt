@@ -1,0 +1,12 @@
+Questions to Ask About BGP and Internet Routing in Code Review
+
+Reviewing code that involves BGP and Internet Routing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is route announcements clear to someone reading the code for the first time?
+- Does this change respect autonomous systems, or does it work around it?
+- Would a test catch hijacked prefixes if it appeared later?
+- Have we considered route leaks?
+- Is bgpq4 used consistently, or are we mixing approaches?
+- Does the code handle the case of connecting ISPs correctly?
+
+Good reviews of work on BGP and Internet Routing are specific, kind and focused on peering, not on personal style.

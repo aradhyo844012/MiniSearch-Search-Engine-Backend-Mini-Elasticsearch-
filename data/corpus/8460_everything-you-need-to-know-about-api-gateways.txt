@@ -1,0 +1,26 @@
+Everything You Need to Know About API Gateways
+
+This page collects the essentials about API Gateways in one place. In short, API Gateways is services that sit in front of APIs to handle routing, authentication and limits.
+
+Core concepts:
+- routing
+- authentication
+- rate limits
+- request transformation
+
+Where it is used:
+- exposing microservices
+- securing public APIs
+- collecting usage metrics
+
+Common problems:
+- a single point of failure
+- business logic leaking into the gateway
+- added latency
+
+Tools to know:
+- Kong
+- AWS API Gateway
+- NGINX
+
+Remember this above all: a reception desk that checks visitors and sends them to the right office is a good way to picture it, and the best habit is to keep the gateway thin and put business logic in services.

@@ -1,0 +1,15 @@
+Disk Partitioning and Mounting Quick Reference
+
+A one-screen reminder for Disk Partitioning and Mounting. Bookmark it and return when the details fade.
+
+What it is: dividing storage into sections and attaching them to the file tree.
+Key terms: partitions, file system types, mount points, and fstab.
+Typical uses: adding a new drive, separating data from the system, and encrypting volumes.
+Risks: wrong device names, mounting without fstab entries, and formatting the wrong disk.
+Tools: lsblk, fdisk, and mount.
+
+Mental picture: building rooms inside a warehouse and putting door numbers on them.
+
+Habit to build: double-check device names with lsblk before formatting.
+
+See also: SSH and Remote Access, which sits close to Disk Partitioning and Mounting in the area of Linux and System Administration.

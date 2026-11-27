@@ -1,0 +1,15 @@
+systemd Services Quick Reference
+
+A one-screen reminder for systemd Services. Bookmark it and return when the details fade.
+
+What it is: the init system and service manager used by most modern Linux distributions.
+Key terms: unit files, targets, service states, and journal logs.
+Typical uses: starting services at boot, restarting crashed programs, and managing dependencies between services.
+Risks: editing unit files without reloading the daemon, missing restart policies, and ignoring dependency ordering.
+Tools: systemctl, journalctl, and systemd-analyze.
+
+Mental picture: a building manager who opens each office in the right order every morning.
+
+Habit to build: run systemctl daemon-reload after every unit file change.
+
+See also: Bash Scripting, which sits close to systemd Services in the area of Linux and System Administration.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Stored Procedures and Triggers
+
+This path is for a learner who has never studied Stored Procedures and Triggers before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes) and learn procedures and triggers.
+
+Stage 2, hands-on: install PL/pgSQL, follow a tutorial, and build a small example involving enforcing rules close to the data.
+
+Stage 3, depth: study parameters and side effects, then deliberately explore this problem: hidden logic that surprises developers.
+
+Stage 4, application: apply Stored Procedures and Triggers to audit logging, compare MySQL Workbench with pgTAP, and write up your results.
+
+Stage 5, review: teach Stored Procedures and Triggers to someone else, and then move on to NULL Handling in SQL.

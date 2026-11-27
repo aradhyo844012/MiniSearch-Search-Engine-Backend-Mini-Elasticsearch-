@@ -1,0 +1,26 @@
+Everything You Need to Know About Linux Boot Process
+
+This page collects the essentials about Linux Boot Process in one place. In short, Linux Boot Process is the sequence of steps from powering on a machine to a running operating system.
+
+Core concepts:
+- firmware
+- bootloader
+- kernel initialization
+- the init system
+
+Where it is used:
+- troubleshooting machines that do not start
+- configuring dual boot
+- building custom images
+
+Common problems:
+- overwriting the bootloader
+- wrong kernel parameters
+- ignoring recovery options
+
+Tools to know:
+- GRUB
+- dmesg
+- journalctl -b
+
+Remember this above all: a theater crew setting the stage in order before the curtain rises is a good way to picture it, and the best habit is to keep a recovery option available before editing boot settings.

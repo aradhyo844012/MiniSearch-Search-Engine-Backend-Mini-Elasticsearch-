@@ -1,0 +1,13 @@
+Teaching DHCP to a Teammate
+
+Explaining DHCP to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a hotel desk that hands out room numbers for a limited stay. Ask your teammate what the picture suggests.
+
+Then give the plain definition: DHCP is a service that automatically gives devices IP addresses and network settings. Avoid jargon at this stage.
+
+Walk through an example involving home and office networks, naming leases and address pools as they come up.
+
+Ask your teammate to explain reservations in DHCP back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, rogue DHCP servers, and suggest this habit: reserve fixed addresses for servers and printers.

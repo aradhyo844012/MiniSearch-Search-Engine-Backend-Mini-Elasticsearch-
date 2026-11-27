@@ -1,0 +1,17 @@
+Finite Automata for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Finite Automata.
+
+Learning goals:
+1. Explain Finite Automata in your own words.
+2. Describe states, transitions, accepting states, and regular languages.
+3. Give examples from tokenizers and pattern matching.
+4. Name three problems to watch for.
+
+Start with the definition: Finite Automata is simple abstract machines that read input and move between a fixed set of states. Then draw a turnstile that moves between locked and unlocked on paper and label the four terms from the goals above.
+
+Self-test questions: Why is missing transitions a problem? How does transitions relate to accepting states? When would you choose JFLAP or Python dictionaries?
+
+Study habit: draw the state diagram before writing any code.
+
+When you feel ready, compare Finite Automata with Graph Theory Basics and write down three differences.

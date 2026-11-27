@@ -1,0 +1,11 @@
+Choosing Tools for Game AI Behavior Trees
+
+There is no single best tool for Game AI Behavior Trees. The right choice depends on your project, your team and your timeline.
+
+Unreal Engine behavior trees is a common first choice, especially for enemy behavior. py_trees suits teams that already work with similar technology, and Behavior Designer is worth a look when you need something different.
+
+Judge any tool for Game AI Behavior Trees by four questions: Is the documentation clear? Is the community active? Does it handle companion characters well? Can you leave it later if you need to?
+
+Whichever tool you pick for Game AI Behavior Trees, test it on a small problem first, and watch for this: trees that become tangled.
+
+As a rule of thumb, visualize the tree while the game is running, no matter which tool you use.

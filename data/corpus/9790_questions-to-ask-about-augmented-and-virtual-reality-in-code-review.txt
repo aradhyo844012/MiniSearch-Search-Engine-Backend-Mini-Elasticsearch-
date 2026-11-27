@@ -1,0 +1,12 @@
+Questions to Ask About Augmented and Virtual Reality in Code Review
+
+Reviewing code that involves Augmented and Virtual Reality is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered motion sickness from low frame rates?
+- Is Unity XR used consistently, or are we mixing approaches?
+- Does the code handle the case of training simulations correctly?
+- Does this change respect head tracking, or does it work around it?
+- Would a test catch heavy assets if it appeared later?
+- Is rendering at high frame rates clear to someone reading the code for the first time?
+
+Good reviews of work on Augmented and Virtual Reality are specific, kind and focused on spatial mapping, not on personal style.

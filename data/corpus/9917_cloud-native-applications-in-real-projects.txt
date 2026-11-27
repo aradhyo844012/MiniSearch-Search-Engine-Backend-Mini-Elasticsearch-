@@ -1,0 +1,11 @@
+Cloud-Native Applications in Real Projects
+
+Reading about Cloud-Native Applications is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: web platforms. Here, containers drives the main design choices, and the team needs to guard against treating the cloud like a data center.
+
+Scenario two: data-heavy services. This time microservices matters most, and tools such as Kubernetes help keep things manageable.
+
+Scenario three: rapidly changing products. The key idea is declarative configuration, and the biggest risk is too many services.
+
+Across all three scenarios, Cloud-Native Applications stays the same idea: applications designed from the start to run in the cloud using containers and managed services. Only the details change.

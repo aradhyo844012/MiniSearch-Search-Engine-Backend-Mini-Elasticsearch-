@@ -1,0 +1,15 @@
+Linux File Permissions Quick Reference
+
+A one-screen reminder for Linux File Permissions. Bookmark it and return when the details fade.
+
+What it is: the read, write and execute rules that control who can access each file.
+Key terms: owner, group and others, mode bits, chmod and chown, and umask.
+Typical uses: protecting private keys, sharing project folders, and securing web server files.
+Risks: using chmod 777 as a quick fix, wrong ownership after copying files, and forgetting directory execute bits.
+Tools: ls -l, chmod, and setfacl.
+
+Mental picture: colored wristbands that decide which rooms each guest may enter.
+
+Habit to build: grant the least permission that works.
+
+See also: Package Managers, which sits close to Linux File Permissions in the area of Linux and System Administration.

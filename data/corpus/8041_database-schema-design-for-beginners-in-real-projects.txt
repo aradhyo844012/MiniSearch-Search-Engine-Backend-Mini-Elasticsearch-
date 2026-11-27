@@ -1,0 +1,11 @@
+Database Schema Design for Beginners in Real Projects
+
+Reading about Database Schema Design for Beginners is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: starting new projects. Here, entities drives the main design choices, and the team needs to guard against storing lists in a single column.
+
+Scenario two: reviewing existing schemas. This time relationships matters most, and tools such as dbdiagram.io help keep things manageable.
+
+Scenario three: preparing for migrations. The key idea is keys, and the biggest risk is unclear names.
+
+Across all three scenarios, Database Schema Design for Beginners stays the same idea: planning tables, columns and relationships before building an application. Only the details change.

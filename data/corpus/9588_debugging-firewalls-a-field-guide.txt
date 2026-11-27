@@ -1,0 +1,13 @@
+Debugging Firewalls: A Field Guide
+
+When something goes wrong around Firewalls, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: rules in the wrong order, overly broad allow rules, and locking yourself out remotely.
+Step 3: revisit rules and stateful inspection, since misunderstandings there cause many bugs.
+Step 4: use ufw or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Firewalls in work such as protecting servers come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start with default deny and open only what you need. It prevents a surprising number of repeat problems.

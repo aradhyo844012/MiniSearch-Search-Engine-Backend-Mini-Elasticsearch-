@@ -1,0 +1,13 @@
+NAT Explained Simply
+
+If NAT sounds intimidating, relax. It is a technique that lets many devices share one public IP address by rewriting addresses, and the idea is simpler than the name suggests.
+
+Think of NAT as a receptionist who forwards calls for many desks through one phone number. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: private addresses, translation tables, port mapping, and port forwarding. You do not need to master them all at once. Start with private addresses, then add translation tables.
+
+You will meet NAT in work such as home routers, sharing limited IPv4 addresses, and hiding internal networks.
+
+One practical tip is to document every port forward you create.
+
+Once NAT feels comfortable, read about Packet Switching, which lives in the same neighborhood of ideas.

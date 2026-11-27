@@ -1,0 +1,13 @@
+Teaching Twelve-Factor Apps to a Teammate
+
+Explaining Twelve-Factor Apps to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a checklist for packing a suitcase that fits any airline. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Twelve-Factor Apps is a set of twelve guidelines for building apps that deploy and scale cleanly. Avoid jargon at this stage.
+
+Walk through an example involving building web services, naming config in the environment and stateless processes as they come up.
+
+Ask your teammate to explain backing services in Twelve-Factor Apps back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, storing state on local disks, and suggest this habit: keep config out of the code.

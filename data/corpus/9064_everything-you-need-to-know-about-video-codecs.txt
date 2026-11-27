@@ -1,0 +1,26 @@
+Everything You Need to Know About Video Codecs
+
+This page collects the essentials about Video Codecs in one place. In short, Video Codecs is programs that compress and decompress video so it can be stored and streamed.
+
+Core concepts:
+- frames
+- motion compensation
+- bitrate
+- containers
+
+Where it is used:
+- streaming services
+- video calls
+- archiving footage
+
+Common problems:
+- mismatched codec support
+- too low a bitrate
+- ignoring hardware decoding
+
+Tools to know:
+- FFmpeg
+- H.264
+- AV1
+
+Remember this above all: a flip book that only redraws what changed between pages is a good way to picture it, and the best habit is to test playback on the weakest target device.

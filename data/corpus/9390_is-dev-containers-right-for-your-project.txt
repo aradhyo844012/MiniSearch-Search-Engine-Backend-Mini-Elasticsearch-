@@ -1,0 +1,11 @@
+Is Dev Containers Right for Your Project?
+
+Before adopting Dev Containers, ask whether it fits the problem. Remember that Dev Containers is containerized development environments that every teammate can start in the same way.
+
+It is a good fit when your work involves onboarding new developers or matching production tools, and when your team understands devcontainer.json.
+
+Be cautious when the project is very small, when deadlines leave no room to learn images, or when you cannot manage these risks: slow image builds, files owned by the wrong user, and forgetting to pin tool versions.
+
+A simple decision test: write down the problem in one sentence, then check whether mounted folders and extensions are part of the answer. If they are, Dev Containers is probably worth a closer look.
+
+If you decide to go ahead, start small with trying projects safely and pin tool versions inside the container definition.

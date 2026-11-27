@@ -1,0 +1,12 @@
+Questions to Ask About Package Managers in Code Review
+
+Reviewing code that involves Package Managers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch ignoring signature checks if it appeared later?
+- Have we considered mixing sources that conflict?
+- Could we update the package index before installing anything?
+- Have we avoided this problem: upgrading without reading the changes?
+- Does this change respect repositories, or does it work around it?
+- Is apt used consistently, or are we mixing approaches?
+
+Good reviews of work on Package Managers are specific, kind and focused on versions, not on personal style.

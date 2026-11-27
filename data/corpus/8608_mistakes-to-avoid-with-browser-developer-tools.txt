@@ -1,0 +1,11 @@
+Mistakes to Avoid with Browser Developer Tools
+
+Everyone learns Browser Developer Tools partly through mistakes. Here are three worth avoiding.
+
+Mistake one: editing the page and forgetting to copy the changes. It usually appears when someone skips the elements panel and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: leaving throttling on. It tends to be noticed late, often during testing of debugging layouts. A short checklist during review catches it early.
+
+Mistake three: ignoring console warnings. It is easy to miss because everything seems to work at first. Keep an eye on the performance profiler to spot it.
+
+If you remember only one rule, make it this: keep the network panel open while testing features.

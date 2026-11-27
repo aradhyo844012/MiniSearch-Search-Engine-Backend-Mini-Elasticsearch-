@@ -1,0 +1,11 @@
+Scaling Considerations for Number Theory and RSA
+
+A design that works for a classroom project can behave very differently under real load. Here is how Number Theory and RSA changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding prime numbers and getting public key cryptography right.
+
+Medium scale: problems start to appear. Watch for using small primes and implementing crypto by hand in production, and measure with Python pow before changing anything.
+
+Large scale: greatest common divisor and modular exponentiation move from background details to central design questions. Teams often revisit their choices around hash functions at this stage.
+
+Before you scale, use vetted crypto libraries instead of writing your own. It is cheaper to build that habit early than to fix a crisis later.

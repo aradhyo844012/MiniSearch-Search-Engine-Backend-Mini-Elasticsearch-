@@ -1,0 +1,17 @@
+Font Rendering for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Font Rendering.
+
+Learning goals:
+1. Explain Font Rendering in your own words.
+2. Describe glyphs, hinting, anti-aliasing, and kerning.
+3. Give examples from web pages and operating systems.
+4. Name three problems to watch for.
+
+Start with the definition: Font Rendering is turning font outlines into readable text on screen. Then draw a calligrapher tracing letter shapes onto a grid of pixels on paper and label the four terms from the goals above.
+
+Self-test questions: Why is missing font fallbacks a problem? How does hinting relate to anti-aliasing? When would you choose FreeType or Google Fonts?
+
+Study habit worth keeping: subset fonts to the characters you need.
+
+When you feel ready, compare Font Rendering with Image Compression and write down three differences.

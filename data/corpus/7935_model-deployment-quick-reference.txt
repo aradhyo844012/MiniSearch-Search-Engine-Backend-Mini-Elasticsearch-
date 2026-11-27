@@ -1,0 +1,15 @@
+Model Deployment Quick Reference
+
+A one-screen reminder for Model Deployment. Bookmark it and return when the details fade.
+
+What it is: making a trained model available to serve predictions in a real application.
+Key terms: serving APIs, batch versus online inference, containers, and latency budgets.
+Typical uses: recommendation endpoints, fraud checks, and mobile app features.
+Risks: training-serving mismatch, slow cold starts, and no fallback when the model fails.
+Tools: FastAPI, TorchServe, and BentoML.
+
+Mental picture: moving a recipe from the test kitchen into the restaurant.
+
+Habit to build: log inputs and outputs so predictions can be audited.
+
+See also: Speech Recognition, which sits close to Model Deployment in the area of AI Engineering and MLOps.

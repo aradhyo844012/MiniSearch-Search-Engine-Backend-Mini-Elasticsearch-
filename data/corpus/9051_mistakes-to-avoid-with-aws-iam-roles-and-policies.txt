@@ -1,0 +1,11 @@
+Mistakes to Avoid with AWS IAM Roles and Policies
+
+Everyone learns AWS IAM Roles and Policies partly through mistakes. Here are three worth avoiding.
+
+Mistake one: wildcard permissions. It usually appears when someone skips users and roles and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: long-lived access keys. It tends to be noticed late, often during testing of securing deployments. A short checklist during review catches it early.
+
+Mistake three: unused roles. It is easy to miss because everything seems to work at first. Keep an eye on temporary credentials to spot it.
+
+If you remember only one rule, make it this: grant the narrowest policy that works and review it regularly.

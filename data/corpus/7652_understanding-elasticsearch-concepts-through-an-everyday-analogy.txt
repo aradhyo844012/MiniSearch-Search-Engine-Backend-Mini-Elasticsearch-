@@ -1,0 +1,9 @@
+Understanding Elasticsearch Concepts Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a giant library with an index card for every word.
+
+In that picture, indexes is the first rule you follow, shards is the next step, and analyzers and queries keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Elasticsearch Concepts is the building blocks of a distributed search engine that indexes and ranks documents, and it involves details such as too many shards that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Elasticsearch to learn the exact behavior. The same picture helps when you explain site search to a friend.

@@ -1,0 +1,17 @@
+AI Agents Do's and Don'ts
+
+A quick list of habits for working with AI Agents.
+
+Do:
+- Learn planning before anything else.
+- Try LangGraph on a small example.
+- Make it a habit to limit what tools the agent may use and log every action.
+- Test the case of research assistants early.
+
+Don't:
+- Ignore this: runaway loops.
+- Ignore this: unchecked tool permissions.
+- Ignore this: hard-to-debug behavior.
+- Adopt AI Agents just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with AI Agents, a little patience with tool calls pays off more than any clever shortcut.

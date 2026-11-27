@@ -1,0 +1,15 @@
+A* Pathfinding in 10 Minutes
+
+You have ten minutes, so here is the fast route through A* Pathfinding.
+
+Minutes 1 and 2, the definition: A* Pathfinding is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+
+Minutes 3 and 4, the vocabulary: learn open and closed sets, cost so far, heuristics, and grids and graphs.
+
+Minutes 5 and 6, the picture: imagine a hiker who prefers trails that seem to head toward the summit. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through game characters, robot navigation, and map routing.
+
+Minutes 9 and 10, the traps and the tools: watch for overestimating the heuristic and slow searches on huge maps, then try Unity NavMesh for a first experiment.
+
+If you have a spare minute, remember to choose an admissible heuristic so paths stay optimal.

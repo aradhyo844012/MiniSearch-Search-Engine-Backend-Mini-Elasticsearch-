@@ -1,0 +1,13 @@
+Debugging NAT: A Field Guide
+
+When something goes wrong around NAT, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: breaking peer-to-peer connections, exhausted translation tables, and misconfigured port forwarding.
+Step 3: revisit private addresses and translation tables, since misunderstandings there cause many bugs.
+Step 4: use iptables or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving NAT in work such as home routers come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, document every port forward you create. It prevents a surprising number of repeat problems.

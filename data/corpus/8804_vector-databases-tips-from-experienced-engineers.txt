@@ -1,0 +1,11 @@
+Vector Databases Tips from Experienced Engineers
+
+Engineers who work with Vector Databases regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Vector Databases so the next person understands the decision.
+2. Test the case of semantic search early, before the design hardens.
+3. When something behaves strangely, revisit approximate nearest neighbors before anything else.
+4. Reach for FAISS first, and only then evaluate alternatives such as pgvector.
+5. Do not skip embeddings; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to recommendations as well as to Vector Databases in general.

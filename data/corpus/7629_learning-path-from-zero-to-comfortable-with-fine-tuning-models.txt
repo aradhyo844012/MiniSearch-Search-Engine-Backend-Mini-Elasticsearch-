@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Fine-Tuning Models
+
+This path is for a learner who has never studied Fine-Tuning Models before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Fine-Tuning Models is adapting a pretrained model to a specific task with extra training on your own data) and learn pretrained weights and training data.
+
+Stage 2, hands-on: install Hugging Face, follow a tutorial, and build a small example involving domain-specific language tasks.
+
+Stage 3, depth: study the learning rate and evaluation, then deliberately explore this problem: overfitting on small datasets.
+
+Stage 4, application: apply Fine-Tuning Models to style adaptation, compare PyTorch with LoRA libraries, and write up your results.
+
+Stage 5, review: teach Fine-Tuning Models to someone else, and then move on to Model Drift and Monitoring.

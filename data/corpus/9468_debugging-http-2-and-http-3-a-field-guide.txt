@@ -1,0 +1,13 @@
+Debugging HTTP/2 and HTTP/3: A Field Guide
+
+When something goes wrong around HTTP/2 and HTTP/3, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: assuming old tricks like sprite sheets still help, middleboxes blocking UDP, and misconfigured fallbacks.
+Step 3: revisit multiplexing and header compression, since misunderstandings there cause many bugs.
+Step 4: use curl with HTTP/3 support or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving HTTP/2 and HTTP/3 in work such as faster page loads come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep a working HTTP/1.1 fallback. It prevents a surprising number of repeat problems.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Vector Databases
+
+This page collects the essentials about Vector Databases in one place. In short, Vector Databases is databases built to store embeddings and find the most similar ones quickly.
+
+Core concepts:
+- embeddings
+- approximate nearest neighbors
+- distance metrics
+- metadata filters
+
+Where it is used:
+- semantic search
+- recommendations
+- retrieval for AI assistants
+
+Common problems:
+- mixing embedding models
+- ignoring recall trade-offs
+- oversized vectors
+
+Tools to know:
+- FAISS
+- pgvector
+- Pinecone
+
+Remember this above all: a map where similar ideas sit near each other is a good way to picture it, and the best habit is to measure recall on a small labeled test set.

@@ -1,0 +1,11 @@
+Image Compression in Real Projects
+
+Reading about Image Compression is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: web images. Here, lossy and lossless formats drives the main design choices, and the team needs to guard against repeated recompression.
+
+Scenario two: photo storage. This time quantization matters most, and tools such as ImageMagick help keep things manageable.
+
+Scenario three: sending pictures over slow networks. The key idea is transform coding, and the biggest risk is the wrong format for graphics.
+
+Across all three scenarios, Image Compression stays the same idea: reducing the size of image files by removing redundancy or less visible detail. Only the details change.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Graph Theory Basics
+
+This page collects the essentials about Graph Theory Basics in one place. In short, Graph Theory Basics is the study of nodes and the connections between them.
+
+Core concepts:
+- vertices and edges
+- degree
+- paths and cycles
+- connectivity
+
+Where it is used:
+- social networks
+- maps
+- dependency analysis
+
+Common problems:
+- mixing directed and undirected graphs
+- ignoring disconnected parts
+- choosing the wrong representation for dense graphs
+
+Tools to know:
+- NetworkX
+- Graphviz
+- Gephi
+
+Remember this above all: a map of towns and the roads between them is a good way to picture it, and the best habit is to draw a small example before writing code.

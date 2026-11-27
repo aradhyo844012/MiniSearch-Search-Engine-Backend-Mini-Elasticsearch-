@@ -1,0 +1,13 @@
+Teaching Managed Cloud Databases to a Teammate
+
+Explaining Managed Cloud Databases to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a restaurant that hires a kitchen crew to handle the cleaning. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Managed Cloud Databases is database services where the cloud provider handles backups, patching and failover. Avoid jargon at this stage.
+
+Walk through an example involving launching apps quickly, naming automated backups and read replicas as they come up.
+
+Ask your teammate to explain maintenance windows in Managed Cloud Databases back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, surprise costs, and suggest this habit: test restoring a backup before you need it.

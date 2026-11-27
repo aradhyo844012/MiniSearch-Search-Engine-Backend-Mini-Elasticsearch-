@@ -1,0 +1,15 @@
+Python Virtual Environments Quick Reference
+
+A one-screen reminder for Python Virtual Environments. Bookmark it and return when the details fade.
+
+What it is: isolated folders that hold a project's own Python packages.
+Key terms: venv, pip, requirements files, and activation.
+Typical uses: keeping projects separate, reproducing setups, and testing against different versions.
+Risks: installing packages globally, forgetting to activate, and committing the environment folder.
+Tools: venv, pipx, and Poetry.
+
+Mental picture: a separate toolbox for each project.
+
+Habit to build: create one environment per project and record its requirements.
+
+See also: npm and Package Registries, which sits close to Python Virtual Environments in the area of Developer Tooling and Build Systems.

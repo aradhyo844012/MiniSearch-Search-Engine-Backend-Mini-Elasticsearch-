@@ -1,0 +1,26 @@
+Everything You Need to Know About Vector Graphics (SVG)
+
+This page collects the essentials about Vector Graphics (SVG) in one place. In short, Vector Graphics (SVG) is images described by shapes and paths so they stay sharp at any size.
+
+Core concepts:
+- paths
+- the viewBox
+- fill and stroke
+- transforms
+
+Where it is used:
+- logos
+- icons
+- charts
+
+Common problems:
+- overly complex paths
+- a missing viewBox
+- inconsistent stroke widths
+
+Tools to know:
+- Inkscape
+- SVGO
+- Figma
+
+Remember this above all: a recipe for drawing a picture rather than a photo of it is a good way to picture it, and the best habit is to set a viewBox so the image scales cleanly.

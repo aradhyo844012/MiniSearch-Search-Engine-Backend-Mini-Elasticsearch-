@@ -1,0 +1,15 @@
+The Pros and Cons of Browser Developer Tools
+
+No technology is free of trade-offs, and Browser Developer Tools is no exception. Here is an honest summary.
+
+Advantages:
+- Supports debugging layouts
+- Makes inspecting API calls easier
+- Helps with finding slow scripts
+
+Drawbacks and risks:
+- Risk: editing the page and forgetting to copy the changes
+- Risk: leaving throttling on
+- Risk: ignoring console warnings
+
+Weigh the two lists against your own project. If the advantages match your needs, such as debugging layouts, and you can manage the risks, Browser Developer Tools is a sound choice. Whatever you decide, keep the network panel open while testing features.

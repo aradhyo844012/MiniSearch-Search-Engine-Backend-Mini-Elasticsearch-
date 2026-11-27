@@ -1,0 +1,9 @@
+Understanding Code Formatters Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an automatic proofreader that fixes spacing for everyone.
+
+In that picture, style rules is the first rule you follow, configuration is the next step, and editor integration and pre-commit hooks keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Code Formatters is tools that automatically rewrite code to a consistent style, and it involves details such as reformatting entire files at once that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Prettier to learn the exact behavior. The same picture helps when you explain ending style debates to a friend.

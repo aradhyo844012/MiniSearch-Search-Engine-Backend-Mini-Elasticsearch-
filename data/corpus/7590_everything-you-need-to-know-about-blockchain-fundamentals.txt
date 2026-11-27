@@ -1,0 +1,26 @@
+Everything You Need to Know About Blockchain Fundamentals
+
+This page collects the essentials about Blockchain Fundamentals in one place. In short, Blockchain Fundamentals is a shared ledger where blocks of records are chained together using cryptographic hashes.
+
+Core concepts:
+- blocks
+- hashes
+- consensus
+- decentralization
+
+Where it is used:
+- digital currencies
+- supply chain tracking
+- public records
+
+Common problems:
+- treating it as a database replacement
+- slow throughput
+- the energy use of some designs
+
+Tools to know:
+- Bitcoin Core
+- Ethereum
+- Hyperledger
+
+Remember this above all: a notebook passed around a group where every page refers to the previous page is a good way to picture it, and the best habit is to ask whether a normal database would solve the problem.

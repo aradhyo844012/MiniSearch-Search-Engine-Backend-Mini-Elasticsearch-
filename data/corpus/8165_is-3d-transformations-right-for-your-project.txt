@@ -1,0 +1,11 @@
+Is 3D Transformations Right for Your Project?
+
+Before adopting 3D Transformations, ask whether it fits the problem. Remember that 3D Transformations is the matrix operations that move, rotate and scale objects in 3D space.
+
+It is a good fit when your work involves games or modeling tools, and when your team understands translation.
+
+Be cautious when the project is very small, when deadlines leave no room to learn rotation, or when you cannot manage these risks: wrong multiplication order, gimbal lock, and mixing coordinate systems.
+
+A simple decision test: write down the problem in one sentence, then check whether scaling and matrices are part of the answer. If they are, 3D Transformations is probably worth a closer look.
+
+If you decide to go ahead, start small with robotics and write down the order of transformations before multiplying.

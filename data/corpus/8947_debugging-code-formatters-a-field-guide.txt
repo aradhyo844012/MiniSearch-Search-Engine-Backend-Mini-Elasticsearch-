@@ -1,0 +1,13 @@
+Debugging Code Formatters: A Field Guide
+
+When something goes wrong around Code Formatters, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: reformatting entire files at once, conflicting tool settings, and ignoring generated files.
+Step 3: revisit style rules and configuration, since misunderstandings there cause many bugs.
+Step 4: use Prettier or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Code Formatters in work such as ending style debates come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, run the formatter in a pre-commit hook. It prevents a surprising number of repeat problems.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Build Systems
+
+Everyone learns Build Systems partly through mistakes. Here are three worth avoiding.
+
+Mistake one: slow full rebuilds. It usually appears when someone skips targets and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: undeclared dependencies. It tends to be noticed late, often during testing of compiling large projects. A short checklist during review catches it early.
+
+Mistake three: machine-specific builds. It is easy to miss because everything seems to work at first. Keep an eye on build caches to spot it.
+
+If you remember only one rule, make it this: make builds reproducible on any machine.

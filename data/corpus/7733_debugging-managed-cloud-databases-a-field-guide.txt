@@ -1,0 +1,13 @@
+Debugging Managed Cloud Databases: A Field Guide
+
+When something goes wrong around Managed Cloud Databases, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: surprise costs, limited configuration control, and ignoring maintenance windows.
+Step 3: revisit automated backups and read replicas, since misunderstandings there cause many bugs.
+Step 4: use Amazon RDS or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Managed Cloud Databases in work such as launching apps quickly come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, test restoring a backup before you need it. It prevents a surprising number of repeat problems.

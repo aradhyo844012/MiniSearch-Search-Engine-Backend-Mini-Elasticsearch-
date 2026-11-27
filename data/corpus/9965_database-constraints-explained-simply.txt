@@ -1,0 +1,13 @@
+Database Constraints Explained Simply
+
+Here is Database Constraints without the jargon: it is rules the database enforces to keep stored data valid.
+
+Think of Database Constraints as guard rails along a mountain road. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: primary keys, foreign keys, unique constraints, and check constraints. You do not need to master them all at once. Start with primary keys, then add foreign keys.
+
+You will meet Database Constraints in work such as preventing bad data, protecting relationships, and documenting business rules.
+
+One practical tip is to put critical rules in the database as well as in the app.
+
+After Database Constraints, a natural next topic is Stored Procedures and Triggers.

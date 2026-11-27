@@ -1,0 +1,11 @@
+AWS IAM Roles and Policies Tips from Experienced Engineers
+
+Engineers who work with AWS IAM Roles and Policies regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit policies before anything else.
+2. Test the case of securing deployments early, before the design hardens.
+3. Be careful with this one: wildcard permissions.
+4. Reach for IAM Access Analyzer first, and only then evaluate alternatives such as the AWS CLI.
+5. Write down why you chose AWS IAM Roles and Policies so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to granting services access as well as to AWS IAM Roles and Policies in general.

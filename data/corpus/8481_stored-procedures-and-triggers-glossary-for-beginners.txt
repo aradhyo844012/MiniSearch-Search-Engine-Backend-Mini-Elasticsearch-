@@ -1,0 +1,12 @@
+Stored Procedures and Triggers Glossary for Beginners
+
+New words can make Stored Procedures and Triggers feel harder than it is. This glossary keeps the key ones in one place.
+
+Stored Procedures and Triggers: code stored inside the database that runs on demand or automatically when data changes.
+procedures: a core term, most visible in enforcing rules close to the data.
+triggers: a core term that beginners often confuse with parameters.
+parameters: a core term that connects to side effects.
+side effects: a core term worth revisiting after you try a real example.
+PL/pgSQL: a tool commonly used for audit logging.
+
+Come back to this Stored Procedures and Triggers list whenever documentation for MySQL Workbench uses a word you do not recognize.

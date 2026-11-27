@@ -1,0 +1,11 @@
+Speech Recognition in Real Projects
+
+Reading about Speech Recognition is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: voice assistants. Here, audio features drives the main design choices, and the team needs to guard against accents and background noise.
+
+Scenario two: captioning. This time acoustic models matters most, and tools such as Whisper help keep things manageable.
+
+Scenario three: dictation. The key idea is language models, and the biggest risk is domain-specific vocabulary.
+
+Across all three scenarios, Speech Recognition stays the same idea: converting spoken language into text using machine learning. Only the details change.

@@ -1,0 +1,12 @@
+Questions to Ask About Speech Recognition in Code Review
+
+Reviewing code that involves Speech Recognition is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered accents and background noise?
+- Does this change respect audio features, or does it work around it?
+- Is Whisper used consistently, or are we mixing approaches?
+- Could we measure word error rate on audio like your real users'?
+- Is acoustic models clear to someone reading the code for the first time?
+- Does the code handle the case of voice assistants correctly?
+
+Good reviews of work on Speech Recognition are specific, kind and focused on language models, not on personal style.

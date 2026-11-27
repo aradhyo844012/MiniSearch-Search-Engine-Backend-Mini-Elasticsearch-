@@ -1,0 +1,17 @@
+High Availability Design for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover High Availability Design.
+
+Learning goals:
+1. Explain High Availability Design in your own words.
+2. Describe redundancy, failover, health checks, and no single point of failure.
+3. Give examples from online stores and banking systems.
+4. Name three problems to watch for.
+
+Start with the definition: High Availability Design is designing systems so they keep working when parts fail. Then draw a bridge with several cables so one breaking does not matter on paper and label the four terms from the goals above.
+
+Self-test questions: Why is hidden single points of failure a problem? How does failover relate to health checks? When would you choose load balancers or Kubernetes?
+
+Study habit worth keeping: list every component and ask what happens if it dies.
+
+When you feel ready, compare High Availability Design with Cloud-Native Applications and write down three differences.

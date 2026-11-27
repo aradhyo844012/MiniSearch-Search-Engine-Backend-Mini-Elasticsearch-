@@ -1,0 +1,15 @@
+The Pros and Cons of HTTP/2 and HTTP/3
+
+No technology is free of trade-offs, and HTTP/2 and HTTP/3 is no exception. Here is an honest summary.
+
+Advantages:
+- Supports faster page loads
+- Makes improving mobile performance easier
+- Helps with reducing connection overhead
+
+Drawbacks and risks:
+- Risk: assuming old tricks like sprite sheets still help
+- Risk: middleboxes blocking UDP
+- Risk: misconfigured fallbacks
+
+Weigh the two lists against your own project. If the advantages match your needs, such as faster page loads, and you can manage the risks, HTTP/2 and HTTP/3 is a sound choice. Whatever you decide, keep a working HTTP/1.1 fallback.

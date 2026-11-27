@@ -1,0 +1,15 @@
+Graph Theory Basics Quick Reference
+
+A one-screen reminder for Graph Theory Basics. Bookmark it and return when the details fade.
+
+What it is: the study of nodes and the connections between them.
+Key terms: vertices and edges, degree, paths and cycles, and connectivity.
+Typical uses: social networks, maps, and dependency analysis.
+Risks: mixing directed and undirected graphs, ignoring disconnected parts, and choosing the wrong representation for dense graphs.
+Tools: NetworkX, Graphviz, and Gephi.
+
+Mental picture: a map of towns and the roads between them.
+
+Habit to build: draw a small example before writing code.
+
+See also: Discrete Mathematics, which sits close to Graph Theory Basics in the area of Mathematics for Computing.

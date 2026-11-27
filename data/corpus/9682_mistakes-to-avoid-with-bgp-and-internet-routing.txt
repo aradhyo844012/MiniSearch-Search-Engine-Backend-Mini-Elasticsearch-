@@ -1,0 +1,11 @@
+Mistakes to Avoid with BGP and Internet Routing
+
+Everyone learns BGP and Internet Routing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: route leaks. It usually appears when someone skips autonomous systems and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: hijacked prefixes. It tends to be noticed late, often during testing of connecting ISPs. A short checklist during review catches it early.
+
+Mistake three: misconfigured filters. It is easy to miss because everything seems to work at first. Keep an eye on path selection to spot it.
+
+If you remember only one rule, make it this: filter route announcements strictly.

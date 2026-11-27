@@ -1,0 +1,17 @@
+Code Formatters for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Code Formatters.
+
+Learning goals:
+1. Explain Code Formatters in your own words.
+2. Describe style rules, configuration, editor integration, and pre-commit hooks.
+3. Give examples from ending style debates and cleaner diffs.
+4. Name three problems to watch for.
+
+Start with the definition: Code Formatters is tools that automatically rewrite code to a consistent style. Then draw an automatic proofreader that fixes spacing for everyone on paper and label the four terms from the goals above.
+
+Self-test questions: Why is reformatting entire files at once a problem? How does configuration relate to editor integration? When would you choose Prettier or Black?
+
+Study habit worth keeping: run the formatter in a pre-commit hook.
+
+When you feel ready, compare Code Formatters with Python Virtual Environments and write down three differences.

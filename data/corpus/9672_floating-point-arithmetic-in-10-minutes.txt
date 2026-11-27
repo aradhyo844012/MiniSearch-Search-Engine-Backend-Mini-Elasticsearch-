@@ -1,0 +1,15 @@
+Floating-Point Arithmetic in 10 Minutes
+
+You have ten minutes, so here is the fast route through Floating-Point Arithmetic.
+
+Minutes 1 and 2, the definition: Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits.
+
+Minutes 3 and 4, the vocabulary: learn mantissa and exponent, rounding, precision, and special values.
+
+Minutes 5 and 6, the picture: imagine writing numbers in scientific notation with a limited number of digits. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through scientific computing, graphics, and financial calculations that need care.
+
+Minutes 9 and 10, the traps and the tools: watch for comparing floats with equality and accumulated rounding errors, then try Python decimal for a first experiment.
+
+If you have a spare minute, remember to compare floats with a tolerance and use decimals for money.

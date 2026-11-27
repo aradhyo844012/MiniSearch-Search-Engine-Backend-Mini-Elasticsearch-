@@ -1,0 +1,11 @@
+Is Edge Computing Right for Your Project?
+
+Before adopting Edge Computing, ask whether it fits the problem. Remember that Edge Computing is processing data close to where it is produced instead of in a distant data center.
+
+It is a good fit when your work involves factory sensors or video analytics, and when your team understands edge nodes.
+
+Be cautious when the project is very small, when deadlines leave no room to learn latency, or when you cannot manage these risks: hard-to-update devices, inconsistent hardware, and security at many sites.
+
+A simple decision test: write down the problem in one sentence, then check whether bandwidth savings and synchronization are part of the answer. If they are, Edge Computing is probably worth a closer look.
+
+If you decide to go ahead, start small with smart cities and decide which data must stay local before designing the system.

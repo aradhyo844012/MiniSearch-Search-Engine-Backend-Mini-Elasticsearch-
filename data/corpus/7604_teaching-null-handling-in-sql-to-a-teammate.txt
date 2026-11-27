@@ -1,0 +1,13 @@
+Teaching NULL Handling in SQL to a Teammate
+
+Explaining NULL Handling in SQL to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an empty box on a form that means unknown, not zero. Ask your teammate what the picture suggests.
+
+Then give the plain definition: NULL Handling in SQL is understanding how missing or unknown values behave in queries. Avoid jargon at this stage.
+
+Walk through an example involving optional fields, naming three-valued logic and IS NULL as they come up.
+
+Ask your teammate to explain COALESCE in NULL Handling in SQL back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, comparing with equals instead of IS NULL, and suggest this habit: use IS NULL and COALESCE instead of comparing with equals.

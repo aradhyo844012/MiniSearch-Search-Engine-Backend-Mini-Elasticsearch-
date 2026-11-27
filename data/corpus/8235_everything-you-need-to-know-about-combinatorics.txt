@@ -1,0 +1,26 @@
+Everything You Need to Know About Combinatorics
+
+This page collects the essentials about Combinatorics in one place. In short, Combinatorics is the art of counting arrangements and selections.
+
+Core concepts:
+- permutations
+- combinations
+- the pigeonhole principle
+- inclusion-exclusion
+
+Where it is used:
+- analyzing algorithms
+- probability
+- estimating password strength
+
+Common problems:
+- double counting
+- mixing order and no-order cases
+- ignoring repetition
+
+Tools to know:
+- Python itertools
+- math.comb
+- SymPy
+
+Remember this above all: counting the ways to seat guests at a table is a good way to picture it, and the best habit is to test counting formulas on tiny cases first.

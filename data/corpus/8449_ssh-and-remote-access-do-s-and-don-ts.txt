@@ -1,0 +1,17 @@
+SSH and Remote Access Do's and Don'ts
+
+A quick list of habits for working with SSH and Remote Access.
+
+Do:
+- Learn key pairs before anything else.
+- Try OpenSSH on a small example.
+- Make it a habit to use key-based login and disable password authentication.
+- Test the case of administering servers early.
+
+Don't:
+- Ignore this: password logins left enabled.
+- Ignore this: sharing private keys.
+- Ignore this: ignoring host key warnings.
+- Adopt SSH and Remote Access just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with SSH and Remote Access, a little patience with host keys pays off more than any clever shortcut.

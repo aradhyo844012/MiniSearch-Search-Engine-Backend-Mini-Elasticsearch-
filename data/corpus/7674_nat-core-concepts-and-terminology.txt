@@ -1,0 +1,10 @@
+NAT: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about NAT with confidence. The subject itself is a technique that lets many devices share one public IP address by rewriting addresses.
+
+private addresses: one of the building blocks of NAT. You should be able to explain it in a single sentence before moving on.
+translation tables: one of the building blocks of NAT. It shows up whenever you work on home routers.
+port mapping: one of the building blocks of NAT. Documentation for iptables usually mentions it early.
+port forwarding: one of the building blocks of NAT. It shows up whenever you work on home routers.
+
+Practice using these four NAT terms in sentences about sharing limited IPv4 addresses. If the sentences feel natural, the vocabulary has stuck.

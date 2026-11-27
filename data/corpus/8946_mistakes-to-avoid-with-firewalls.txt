@@ -1,0 +1,11 @@
+Mistakes to Avoid with Firewalls
+
+Everyone learns Firewalls partly through mistakes. Here are three worth avoiding.
+
+Mistake one: rules in the wrong order. It usually appears when someone skips rules and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: overly broad allow rules. It tends to be noticed late, often during testing of protecting servers. A short checklist during review catches it early.
+
+Mistake three: locking yourself out remotely. It is easy to miss because everything seems to work at first. Keep an eye on zones to spot it.
+
+If you remember only one rule, make it this: start with default deny and open only what you need.

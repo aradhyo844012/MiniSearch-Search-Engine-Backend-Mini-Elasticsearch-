@@ -1,0 +1,26 @@
+Everything You Need to Know About Finite Automata
+
+This page collects the essentials about Finite Automata in one place. In short, Finite Automata is simple abstract machines that read input and move between a fixed set of states.
+
+Core concepts:
+- states
+- transitions
+- accepting states
+- regular languages
+
+Where it is used:
+- tokenizers
+- pattern matching
+- protocol design
+
+Common problems:
+- missing transitions
+- confusing deterministic and non-deterministic machines
+- state explosion
+
+Tools to know:
+- JFLAP
+- Python dictionaries
+- regex engines
+
+Remember this above all: a turnstile that moves between locked and unlocked is a good way to picture it, and the best habit is to draw the state diagram before writing any code.

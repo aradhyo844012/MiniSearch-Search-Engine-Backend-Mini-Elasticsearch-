@@ -1,0 +1,17 @@
+MongoDB Aggregation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover MongoDB Aggregation.
+
+Learning goals:
+1. Explain MongoDB Aggregation in your own words.
+2. Describe pipeline stages, $match and $group, projection, and indexes.
+3. Give examples from summarizing orders and building analytics queries.
+4. Name three problems to watch for.
+
+Start with the definition: MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB. Then draw an assembly line where each station filters or reshapes the parts on paper and label the four terms from the goals above.
+
+Self-test questions: Why is putting $match late a problem? How does $match and $group relate to projection? When would you choose MongoDB Compass or mongosh?
+
+Study habit: filter with $match as early as possible.
+
+When you feel ready, compare MongoDB Aggregation with SQL Basics and write down three differences.

@@ -1,0 +1,13 @@
+Bash Scripting Explained Simply
+
+Here is Bash Scripting without the jargon: it is writing shell scripts that automate tasks by chaining commands, variables and control flow.
+
+Think of Bash Scripting as a recipe card that the computer follows without help. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: variables, conditionals and loops, exit codes, and functions. You do not need to master them all at once. Start with variables, then add conditionals and loops.
+
+You will meet Bash Scripting in work such as automating deployments, processing text files, and setting up developer machines.
+
+One practical tip is to start scripts with set -euo pipefail and quote every variable.
+
+Once Bash Scripting feels comfortable, read about SSH and Remote Access, which lives in the same neighborhood of ideas.

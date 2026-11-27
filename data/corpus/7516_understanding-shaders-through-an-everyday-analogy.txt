@@ -1,0 +1,9 @@
+Understanding Shaders Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a tiny painter that colors each pixel following your instructions.
+
+In that picture, vertex shaders is the first rule you follow, fragment shaders is the next step, and uniforms and GLSL keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Shaders is small programs that run on the graphics card to control how things are drawn, and it involves details such as branches that slow the GPU that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for GLSL to learn the exact behavior. The same picture helps when you explain lighting effects to a friend.

@@ -1,0 +1,15 @@
+The Pros and Cons of Semantic Versioning
+
+No technology is free of trade-offs, and Semantic Versioning is no exception. Here is an honest summary.
+
+Advantages:
+- Supports publishing libraries
+- Makes declaring dependencies easier
+- Helps with planning upgrades
+
+Drawbacks and risks:
+- Risk: breaking changes in minor releases
+- Risk: overly loose ranges
+- Risk: forgetting to document changes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as publishing libraries, and you can manage the risks, Semantic Versioning is a sound choice. Whatever you decide, write a changelog entry with every release.

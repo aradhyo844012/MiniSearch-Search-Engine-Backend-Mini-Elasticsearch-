@@ -1,0 +1,12 @@
+Questions to Ask About Semantic Versioning in Code Review
+
+Reviewing code that involves Semantic Versioning is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered breaking changes in minor releases?
+- Have we avoided this problem: forgetting to document changes?
+- Would a test catch overly loose ranges if it appeared later?
+- Is breaking changes clear to someone reading the code for the first time?
+- Does this change respect major, minor and patch numbers, or does it work around it?
+- Could we write a changelog entry with every release?
+
+Good reviews of work on Semantic Versioning are specific, kind and focused on pre-release tags, not on personal style.

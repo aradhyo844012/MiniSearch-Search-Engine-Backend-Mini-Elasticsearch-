@@ -1,0 +1,15 @@
+The Pros and Cons of Python Virtual Environments
+
+No technology is free of trade-offs, and Python Virtual Environments is no exception. Here is an honest summary.
+
+Advantages:
+- Supports keeping projects separate
+- Makes reproducing setups easier
+- Helps with testing against different versions
+
+Drawbacks and risks:
+- Risk: installing packages globally
+- Risk: forgetting to activate
+- Risk: committing the environment folder
+
+Weigh the two lists against your own project. If the advantages match your needs, such as keeping projects separate, and you can manage the risks, Python Virtual Environments is a sound choice. Whatever you decide, create one environment per project and record its requirements.

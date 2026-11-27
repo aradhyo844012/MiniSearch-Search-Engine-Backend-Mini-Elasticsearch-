@@ -1,0 +1,15 @@
+The Pros and Cons of Subqueries and CTEs
+
+No technology is free of trade-offs, and Subqueries and CTEs is no exception. Here is an honest summary.
+
+Advantages:
+- Supports breaking complex reports into steps
+- Makes filtering with computed results easier
+- Helps with walking recursive hierarchies
+
+Drawbacks and risks:
+- Risk: correlated subqueries that run slowly
+- Risk: deep nesting
+- Risk: assuming CTEs are always materialized
+
+Weigh the two lists against your own project. If the advantages match your needs, such as breaking complex reports into steps, and you can manage the risks, Subqueries and CTEs is a sound choice. Whatever you decide, name each CTE after what it returns.

@@ -1,0 +1,11 @@
+Responsible AI and Bias in Real Projects
+
+Reading about Responsible AI and Bias is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: hiring tools. Here, bias in data drives the main design choices, and the team needs to guard against assuming data is neutral.
+
+Scenario two: lending models. This time fairness metrics matters most, and tools such as Fairlearn help keep things manageable.
+
+Scenario three: healthcare decisions. The key idea is transparency, and the biggest risk is testing only on average performance.
+
+Across all three scenarios, Responsible AI and Bias stays the same idea: practices for building AI systems that are fair, transparent and safe. Only the details change.

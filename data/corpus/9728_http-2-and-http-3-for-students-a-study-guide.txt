@@ -1,0 +1,17 @@
+HTTP/2 and HTTP/3 for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover HTTP/2 and HTTP/3.
+
+Learning goals:
+1. Explain HTTP/2 and HTTP/3 in your own words.
+2. Describe multiplexing, header compression, QUIC, and server push.
+3. Give examples from faster page loads and improving mobile performance.
+4. Name three problems to watch for.
+
+Start with the definition: HTTP/2 and HTTP/3 is newer versions of the web protocol that load pages faster over fewer connections. Then draw a multi-lane highway replacing a single-lane road on paper and label the four terms from the goals above.
+
+Self-test questions: Why is assuming old tricks like sprite sheets still help a problem? How does header compression relate to QUIC? When would you choose curl with HTTP/3 support or Chrome DevTools?
+
+Study habit worth keeping: keep a working HTTP/1.1 fallback.
+
+When you feel ready, compare HTTP/2 and HTTP/3 with DHCP and write down three differences.

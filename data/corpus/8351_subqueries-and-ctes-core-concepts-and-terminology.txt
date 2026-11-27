@@ -1,0 +1,10 @@
+Subqueries and CTEs: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Subqueries and CTEs with confidence. The subject itself is queries nested inside other queries or named as temporary result sets.
+
+subqueries: one of the building blocks of Subqueries and CTEs. Mixing it up with neighboring terms is a common source of confusion.
+WITH clauses: one of the building blocks of Subqueries and CTEs. Documentation for PostgreSQL usually mentions it early.
+correlated queries: one of the building blocks of Subqueries and CTEs. Documentation for PostgreSQL usually mentions it early.
+readability: one of the building blocks of Subqueries and CTEs. It shows up whenever you work on breaking complex reports into steps.
+
+Practice using these four Subqueries and CTEs terms in sentences about filtering with computed results. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,13 @@
+Code Formatters Explained Simply
+
+If Code Formatters sounds intimidating, relax. It is tools that automatically rewrite code to a consistent style, and the idea is simpler than the name suggests.
+
+Think of Code Formatters as an automatic proofreader that fixes spacing for everyone. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: style rules, configuration, editor integration, and pre-commit hooks. You do not need to master them all at once. Start with style rules, then add configuration.
+
+People reach for Code Formatters when they work on ending style debates, cleaner diffs, and onboarding contributors.
+
+One practical tip is to run the formatter in a pre-commit hook.
+
+Once Code Formatters feels comfortable, read about Makefiles, which lives in the same neighborhood of ideas.

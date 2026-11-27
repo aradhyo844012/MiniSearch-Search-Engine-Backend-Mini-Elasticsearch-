@@ -1,0 +1,11 @@
+Scaling Considerations for Ray Tracing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Ray Tracing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding rays and getting movie visuals right.
+
+Medium scale: problems start to appear. Watch for slow render times and noise from too few samples, and measure with Blender Cycles before changing anything.
+
+Large scale: reflection and refraction and shadows move from background details to central design questions. Teams often revisit their choices around architectural visualization at this stage.
+
+Before you scale, start with spheres and a single light before adding features. It is cheaper to build that habit early than to fix a crisis later.

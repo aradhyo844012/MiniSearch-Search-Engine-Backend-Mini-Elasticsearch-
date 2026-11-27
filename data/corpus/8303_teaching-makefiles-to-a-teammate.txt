@@ -1,0 +1,13 @@
+Teaching Makefiles to a Teammate
+
+Explaining Makefiles to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a to-do list that knows which steps must come first. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Makefiles is plain files that describe how to build programs and run common tasks with the make tool. Avoid jargon at this stage.
+
+Walk through an example involving compiling C projects, naming targets and prerequisites as they come up.
+
+Ask your teammate to explain recipes in Makefiles back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, tabs versus spaces, and suggest this habit: use phony targets for tasks like test and clean.

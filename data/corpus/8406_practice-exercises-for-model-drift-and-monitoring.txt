@@ -1,0 +1,11 @@
+Practice Exercises for Model Drift and Monitoring
+
+These exercises build real understanding of Model Drift and Monitoring. Do them in order, and write down your answers.
+
+Exercise 1: Explain how performance metrics and alerts differ, using a drawing.
+Exercise 2: Create a small example that deliberately triggers this problem: monitoring only system health. Then fix it.
+Exercise 3: Pick Evidently and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble catching degrading models or scheduling retraining.
+Exercise 5: Compare Prometheus and Grafana for keeping predictions trustworthy and write down your conclusion.
+
+When you finish, compare your answers with the definition: Model Drift and Monitoring is watching deployed models for changes in data or performance over time.

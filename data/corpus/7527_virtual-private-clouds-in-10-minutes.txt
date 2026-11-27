@@ -1,0 +1,15 @@
+Virtual Private Clouds in 10 Minutes
+
+You have ten minutes, so here is the fast route through Virtual Private Clouds.
+
+Minutes 1 and 2, the definition: Virtual Private Clouds is isolated private networks inside a cloud provider where you place your resources.
+
+Minutes 3 and 4, the vocabulary: learn subnets, route tables, security groups, and gateways.
+
+Minutes 5 and 6, the picture: imagine a gated neighborhood inside a big city. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through separating public and private services, connecting to offices, and securing databases.
+
+Minutes 9 and 10, the traps and the tools: watch for overlapping address ranges and databases in public subnets, then try AWS VPC for a first experiment.
+
+If you have a spare minute, remember to keep databases in private subnets.

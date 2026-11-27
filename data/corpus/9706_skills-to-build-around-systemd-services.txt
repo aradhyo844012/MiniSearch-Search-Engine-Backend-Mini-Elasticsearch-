@@ -1,0 +1,13 @@
+Skills to Build Around systemd Services
+
+Knowing the definition of systemd Services is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with unit files and targets, and able to explain them without notes.
+
+Hands-on practice: spend real time with systemctl on a systemd Services task, and try at least one alternative such as journalctl.
+
+Judgment: learn to decide when systemd Services fits a problem such as starting services at boot, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a building manager who opens each office in the right order every morning.
+
+Habits: run systemctl daemon-reload after every unit file change, and write down what you learn after each project.

@@ -1,0 +1,15 @@
+WebAssembly in 10 Minutes
+
+You have ten minutes, so here is the fast route through WebAssembly.
+
+Minutes 1 and 2, the definition: WebAssembly is a compact binary format that lets code written in many languages run fast in browsers.
+
+Minutes 3 and 4, the vocabulary: learn modules, linear memory, imports and exports, and the JavaScript bridge.
+
+Minutes 5 and 6, the picture: imagine a fast engine installed in the corner of a web page. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through running heavy computation in the browser, porting existing C or Rust code, and games and image tools.
+
+Minutes 9 and 10, the traps and the tools: watch for crossing the JavaScript boundary too often and large binaries, then try Emscripten for a first experiment.
+
+If you have a spare minute, remember to measure before moving code to WebAssembly.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with SSH and Remote Access
+
+Everyone learns SSH and Remote Access partly through mistakes. Here are three worth avoiding.
+
+Mistake one: password logins left enabled. It usually appears when someone skips key pairs and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: sharing private keys. It tends to be noticed late, often during testing of administering servers. A short checklist during review catches it early.
+
+Mistake three: ignoring host key warnings. It is easy to miss because everything seems to work at first. Keep an eye on config files to spot it.
+
+If you remember only one rule, make it this: use key-based login and disable password authentication.

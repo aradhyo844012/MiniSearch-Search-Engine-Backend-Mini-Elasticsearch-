@@ -1,0 +1,11 @@
+Is Managed Kubernetes Services Right for Your Project?
+
+Before adopting Managed Kubernetes Services, ask whether it fits the problem. Remember that Managed Kubernetes Services is cloud services that run the Kubernetes control plane for you.
+
+It is a good fit when your work involves running containerized apps or scaling services, and when your team understands the control plane.
+
+Be cautious when the project is very small, when deadlines leave no room to learn node pools, or when you cannot manage these risks: neglecting version upgrades, oversized node pools, and costly idle clusters.
+
+A simple decision test: write down the problem in one sentence, then check whether upgrades and integrated load balancers are part of the answer. If they are, Managed Kubernetes Services is probably worth a closer look.
+
+If you decide to go ahead, start small with reducing operations work and plan regular cluster upgrades.

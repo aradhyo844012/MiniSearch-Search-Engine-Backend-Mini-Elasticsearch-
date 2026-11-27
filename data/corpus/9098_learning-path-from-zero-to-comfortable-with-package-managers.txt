@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Package Managers
+
+This path is for a learner who has never studied Package Managers before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Package Managers is tools that install, update and remove software along with its dependencies) and learn repositories and dependency resolution.
+
+Stage 2, hands-on: install apt, follow a tutorial, and build a small example involving installing system tools.
+
+Stage 3, depth: study versions and signed packages, then deliberately explore this problem: mixing sources that conflict.
+
+Stage 4, application: apply Package Managers to keeping servers updated, compare dnf with Homebrew, and write up your results.
+
+Stage 5, review: teach Package Managers to someone else, and then move on to SSH and Remote Access.

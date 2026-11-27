@@ -1,0 +1,12 @@
+Questions to Ask About npm and Package Registries in Code Review
+
+Reviewing code that involves npm and Package Registries is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered unpinned versions?
+- Is npm used consistently, or are we mixing approaches?
+- Would a test catch installing untrusted packages if it appeared later?
+- Could we commit your lock file?
+- Does this change respect package.json, or does it work around it?
+- Have we avoided this problem: huge dependency trees?
+
+Good reviews of work on npm and Package Registries are specific, kind and focused on lock files, not on personal style.

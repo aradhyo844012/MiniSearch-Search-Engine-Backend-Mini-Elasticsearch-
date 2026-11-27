@@ -1,0 +1,11 @@
+Scaling Considerations for Packet Switching
+
+A design that works for a classroom project can behave very differently under real load. Here is how Packet Switching changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding packets and getting internet traffic right.
+
+Medium scale: problems start to appear. Watch for packet loss and out-of-order delivery, and measure with Wireshark before changing anything.
+
+Large scale: routing and reassembly move from background details to central design questions. Teams often revisit their choices around voice over IP at this stage.
+
+Before you scale, capture a few packets to see the headers for yourself. It is cheaper to build that habit early than to fix a crisis later.

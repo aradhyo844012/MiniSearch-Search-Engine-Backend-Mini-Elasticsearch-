@@ -1,0 +1,12 @@
+Questions to Ask About Image Compression in Code Review
+
+Reviewing code that involves Image Compression is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is ImageMagick used consistently, or are we mixing approaches?
+- Does the code handle the case of web images correctly?
+- Have we considered repeated recompression?
+- Have we avoided this problem: excessive quality loss?
+- Would a test catch the wrong format for graphics if it appeared later?
+- Is quantization clear to someone reading the code for the first time?
+
+Good reviews of work on Image Compression are specific, kind and focused on transform coding, not on personal style.

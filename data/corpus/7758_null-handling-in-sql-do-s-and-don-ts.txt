@@ -1,0 +1,17 @@
+NULL Handling in SQL Do's and Don'ts
+
+A quick list of habits for working with NULL Handling in SQL.
+
+Do:
+- Learn three-valued logic before anything else.
+- Try PostgreSQL on a small example.
+- Make it a habit to use IS NULL and COALESCE instead of comparing with equals.
+- Test the case of optional fields early.
+
+Don't:
+- Ignore this: comparing with equals instead of IS NULL.
+- Ignore this: NOT IN with NULLs.
+- Ignore this: forgetting NULLs in counts.
+- Adopt NULL Handling in SQL just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with NULL Handling in SQL, a little patience with IS NULL pays off more than any clever shortcut.

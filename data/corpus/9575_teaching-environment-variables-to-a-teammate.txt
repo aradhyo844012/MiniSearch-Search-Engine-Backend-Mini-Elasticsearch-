@@ -1,0 +1,13 @@
+Teaching Environment Variables to a Teammate
+
+Explaining Environment Variables to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: sticky notes attached to a program before it starts. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Environment Variables is named values the operating system gives to programs to configure their behavior. Avoid jargon at this stage.
+
+Walk through an example involving storing configuration, naming variable names and scope as they come up.
+
+Ask your teammate to explain export in Environment Variables back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, committing secrets in dotfiles, and suggest this habit: print a variable to confirm its value before blaming the code.

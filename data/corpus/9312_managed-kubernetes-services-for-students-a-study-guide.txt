@@ -1,0 +1,17 @@
+Managed Kubernetes Services for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Managed Kubernetes Services.
+
+Learning goals:
+1. Explain Managed Kubernetes Services in your own words.
+2. Describe the control plane, node pools, upgrades, and integrated load balancers.
+3. Give examples from running containerized apps and scaling services.
+4. Name three problems to watch for.
+
+Start with the definition: Managed Kubernetes Services is cloud services that run the Kubernetes control plane for you. Then draw renting an apartment building where the landlord handles the plumbing on paper and label the four terms from the goals above.
+
+Self-test questions: Why is neglecting version upgrades a problem? How does node pools relate to upgrades? When would you choose Amazon EKS or Google GKE?
+
+Study habit: plan regular cluster upgrades.
+
+When you feel ready, compare Managed Kubernetes Services with Virtual Private Clouds and write down three differences.

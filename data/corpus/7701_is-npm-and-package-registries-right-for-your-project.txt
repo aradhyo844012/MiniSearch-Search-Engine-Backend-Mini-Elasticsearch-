@@ -1,0 +1,11 @@
+Is npm and Package Registries Right for Your Project?
+
+Before adopting npm and Package Registries, ask whether it fits the problem. Remember that npm and Package Registries is services and tools for publishing and installing reusable code packages.
+
+It is a good fit when your work involves installing JavaScript libraries or sharing internal packages, and when your team understands package.json.
+
+Be cautious when the project is very small, when deadlines leave no room to learn semantic versions, or when you cannot manage these risks: unpinned versions, installing untrusted packages, and huge dependency trees.
+
+A simple decision test: write down the problem in one sentence, then check whether lock files and registries are part of the answer. If they are, npm and Package Registries is probably worth a closer look.
+
+If you decide to go ahead, start small with reproducible builds and commit your lock file.

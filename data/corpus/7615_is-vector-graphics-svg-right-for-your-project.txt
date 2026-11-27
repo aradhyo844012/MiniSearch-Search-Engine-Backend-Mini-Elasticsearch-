@@ -1,0 +1,11 @@
+Is Vector Graphics (SVG) Right for Your Project?
+
+Before adopting Vector Graphics (SVG), ask whether it fits the problem. Remember that Vector Graphics (SVG) is images described by shapes and paths so they stay sharp at any size.
+
+It is a good fit when your work involves logos or icons, and when your team understands paths.
+
+Be cautious when the project is very small, when deadlines leave no room to learn the viewBox, or when you cannot manage these risks: overly complex paths, a missing viewBox, and inconsistent stroke widths.
+
+A simple decision test: write down the problem in one sentence, then check whether fill and stroke and transforms are part of the answer. If they are, Vector Graphics (SVG) is probably worth a closer look.
+
+If you decide to go ahead, start small with charts and set a viewBox so the image scales cleanly.

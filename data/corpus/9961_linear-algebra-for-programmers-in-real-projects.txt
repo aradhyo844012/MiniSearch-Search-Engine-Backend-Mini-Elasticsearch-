@@ -1,0 +1,11 @@
+Linear Algebra for Programmers in Real Projects
+
+Reading about Linear Algebra for Programmers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: 3D graphics. Here, vectors drives the main design choices, and the team needs to guard against mixing row and column conventions.
+
+Scenario two: machine learning. This time matrices matters most, and tools such as NumPy help keep things manageable.
+
+Scenario three: recommendation systems. The key idea is dot products, and the biggest risk is shape mismatches.
+
+Across all three scenarios, Linear Algebra for Programmers stays the same idea: the math of vectors and matrices used in graphics and machine learning. Only the details change.

@@ -1,0 +1,12 @@
+Questions to Ask About Wi-Fi Networks in Code Review
+
+Reviewing code that involves Wi-Fi Networks is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: poor access point placement?
+- Have we considered overlapping channels?
+- Would a test catch weak passwords if it appeared later?
+- Is Wi-Fi analyzer apps used consistently, or are we mixing approaches?
+- Does this change respect SSIDs, or does it work around it?
+- Does the code handle the case of home internet correctly?
+
+Good reviews of work on Wi-Fi Networks are specific, kind and focused on WPA encryption, not on personal style.

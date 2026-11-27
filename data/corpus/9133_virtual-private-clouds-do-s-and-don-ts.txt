@@ -1,0 +1,17 @@
+Virtual Private Clouds Do's and Don'ts
+
+A quick list of habits for working with Virtual Private Clouds.
+
+Do:
+- Learn subnets before anything else.
+- Try AWS VPC on a small example.
+- Make it a habit to keep databases in private subnets.
+- Test the case of separating public and private services early.
+
+Don't:
+- Ignore this: overlapping address ranges.
+- Ignore this: databases in public subnets.
+- Ignore this: missing routes.
+- Adopt Virtual Private Clouds just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Virtual Private Clouds, a little patience with route tables pays off more than any clever shortcut.

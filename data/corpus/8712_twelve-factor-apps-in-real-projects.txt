@@ -1,0 +1,11 @@
+Twelve-Factor Apps in Real Projects
+
+Reading about Twelve-Factor Apps is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: building web services. Here, config in the environment drives the main design choices, and the team needs to guard against storing state on local disks.
+
+Scenario two: deploying to platforms. This time stateless processes matters most, and tools such as Heroku help keep things manageable.
+
+Scenario three: keeping environments consistent. The key idea is backing services, and the biggest risk is hard-coded config.
+
+Across all three scenarios, Twelve-Factor Apps stays the same idea: a set of twelve guidelines for building apps that deploy and scale cleanly. Only the details change.

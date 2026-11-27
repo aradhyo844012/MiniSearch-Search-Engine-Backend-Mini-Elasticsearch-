@@ -1,0 +1,17 @@
+Makefiles Do's and Don'ts
+
+A quick list of habits for working with Makefiles.
+
+Do:
+- Learn targets before anything else.
+- Try GNU Make on a small example.
+- Make it a habit to use phony targets for tasks like test and clean.
+- Test the case of compiling C projects early.
+
+Don't:
+- Ignore this: tabs versus spaces.
+- Ignore this: missing phony declarations.
+- Ignore this: hidden environment assumptions.
+- Adopt Makefiles just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Makefiles, a little patience with prerequisites pays off more than any clever shortcut.

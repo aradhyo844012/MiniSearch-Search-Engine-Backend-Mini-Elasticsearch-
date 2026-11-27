@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Reverse Proxies
+
+This is a fictional but realistic day for a developer whose project relies on Reverse Proxies.
+
+Morning: Sneha starts by reviewing a ticket about hiding backend servers. Before touching any code, Sneha re-reads the notes on upstream servers to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore proxy headers with NGINX. A small test exposes the problem of losing the client IP address, and they fix it together.
+
+Afternoon: the team discusses a new request involving terminating HTTPS. Sneha sketches a hotel front desk that routes guests to the right room on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to forward the real client IP in a trusted header.
+
+Days like this are typical. Reverse Proxies is not glamorous, but understanding it keeps small problems from growing.

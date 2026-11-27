@@ -1,0 +1,11 @@
+Edge Computing in Real Projects
+
+Reading about Edge Computing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: factory sensors. Here, edge nodes drives the main design choices, and the team needs to guard against hard-to-update devices.
+
+Scenario two: video analytics. This time latency matters most, and tools such as AWS IoT Greengrass help keep things manageable.
+
+Scenario three: smart cities. The key idea is bandwidth savings, and the biggest risk is inconsistent hardware.
+
+Across all three scenarios, Edge Computing stays the same idea: processing data close to where it is produced instead of in a distant data center. Only the details change.

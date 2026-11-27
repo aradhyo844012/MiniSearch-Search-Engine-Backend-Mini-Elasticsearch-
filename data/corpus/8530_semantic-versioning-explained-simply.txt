@@ -1,0 +1,13 @@
+Semantic Versioning Explained Simply
+
+Here is Semantic Versioning without the jargon: it is a numbering scheme where major, minor and patch numbers signal how much changed.
+
+Think of Semantic Versioning as the edition number on a textbook that tells you whether you must relearn anything. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: major, minor and patch numbers, breaking changes, pre-release tags, and version ranges. You do not need to master them all at once. Start with major, minor and patch numbers, then add breaking changes.
+
+You will meet Semantic Versioning in work such as publishing libraries, declaring dependencies, and planning upgrades.
+
+One practical tip is to write a changelog entry with every release.
+
+After Semantic Versioning, a natural next topic is npm and Package Registries.

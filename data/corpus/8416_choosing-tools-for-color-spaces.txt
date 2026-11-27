@@ -1,0 +1,11 @@
+Choosing Tools for Color Spaces
+
+There is no single best tool for Color Spaces. The right choice depends on your project, your team and your timeline.
+
+browser color pickers is a common first choice, especially for web design. ImageMagick suits teams that already work with similar technology, and Coolors is worth a look when you need something different.
+
+Judge any tool for Color Spaces by four questions: Is the documentation clear? Is the community active? Does it handle photo editing well? Can you leave it later if you need to?
+
+Whichever tool you pick for Color Spaces, test it on a small problem first, and watch for this: ignoring gamma.
+
+As a rule of thumb, work in one color space and convert only at the end, no matter which tool you use.

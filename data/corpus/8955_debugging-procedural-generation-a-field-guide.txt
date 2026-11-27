@@ -1,0 +1,13 @@
+Debugging Procedural Generation: A Field Guide
+
+When something goes wrong around Procedural Generation, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: levels that are unfair or unwinnable, repetitive results, and bugs that cannot be reproduced without seeds.
+Step 3: revisit random seeds and noise functions, since misunderstandings there cause many bugs.
+Step 4: use Perlin noise or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Procedural Generation in work such as roguelike dungeons come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, log the seed so any generated level can be reproduced. It prevents a surprising number of repeat problems.

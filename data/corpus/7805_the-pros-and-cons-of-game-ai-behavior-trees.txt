@@ -1,0 +1,15 @@
+The Pros and Cons of Game AI Behavior Trees
+
+No technology is free of trade-offs, and Game AI Behavior Trees is no exception. Here is an honest summary.
+
+Advantages:
+- Supports enemy behavior
+- Makes companion characters easier
+- Helps with simulated crowds
+
+Drawbacks and risks:
+- Risk: trees that become tangled
+- Risk: expensive conditions checked every frame
+- Risk: no way to debug decisions
+
+Weigh the two lists against your own project. If the advantages match your needs, such as enemy behavior, and you can manage the risks, Game AI Behavior Trees is a sound choice. Whatever you decide, visualize the tree while the game is running.

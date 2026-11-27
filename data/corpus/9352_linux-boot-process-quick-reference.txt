@@ -1,0 +1,15 @@
+Linux Boot Process Quick Reference
+
+A one-screen reminder for Linux Boot Process. Bookmark it and return when the details fade.
+
+What it is: the sequence of steps from powering on a machine to a running operating system.
+Key terms: firmware, bootloader, kernel initialization, and the init system.
+Typical uses: troubleshooting machines that do not start, configuring dual boot, and building custom images.
+Risks: overwriting the bootloader, wrong kernel parameters, and ignoring recovery options.
+Tools: GRUB, dmesg, and journalctl -b.
+
+Mental picture: a theater crew setting the stage in order before the curtain rises.
+
+Habit to build: keep a recovery option available before editing boot settings.
+
+See also: systemd Services, which sits close to Linux Boot Process in the area of Linux and System Administration.

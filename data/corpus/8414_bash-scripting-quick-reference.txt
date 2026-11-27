@@ -1,0 +1,15 @@
+Bash Scripting Quick Reference
+
+A one-screen reminder for Bash Scripting. Bookmark it and return when the details fade.
+
+What it is: writing shell scripts that automate tasks by chaining commands, variables and control flow.
+Key terms: variables, conditionals and loops, exit codes, and functions.
+Typical uses: automating deployments, processing text files, and setting up developer machines.
+Risks: unquoted variables, ignoring errors in pipelines, and scripts that are hard to read.
+Tools: Bash, ShellCheck, and shfmt.
+
+Mental picture: a recipe card that the computer follows without help.
+
+Habit to build: start scripts with set -euo pipefail and quote every variable.
+
+See also: Disk Partitioning and Mounting, which sits close to Bash Scripting in the area of Linux and System Administration.

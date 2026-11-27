@@ -1,0 +1,11 @@
+Scaling Considerations for Speech Recognition
+
+A design that works for a classroom project can behave very differently under real load. Here is how Speech Recognition changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding audio features and getting voice assistants right.
+
+Medium scale: problems start to appear. Watch for accents and background noise and domain-specific vocabulary, and measure with Whisper before changing anything.
+
+Large scale: language models and word error rate move from background details to central design questions. Teams often revisit their choices around captioning at this stage.
+
+Before you scale, measure word error rate on audio like your real users'. It is cheaper to build that habit early than to fix a crisis later.

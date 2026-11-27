@@ -1,0 +1,11 @@
+Mistakes to Avoid with Biometric Authentication
+
+Everyone learns Biometric Authentication partly through mistakes. Here are three worth avoiding.
+
+Mistake one: spoofing attacks. It usually appears when someone skips enrollment and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: biased recognition. It tends to be noticed late, often during testing of phone unlock. A short checklist during review catches it early.
+
+Mistake three: credentials that cannot be changed once leaked. It is easy to miss because everything seems to work at first. Keep an eye on liveness detection to spot it.
+
+If you remember only one rule, make it this: offer a fallback method and protect the stored templates.

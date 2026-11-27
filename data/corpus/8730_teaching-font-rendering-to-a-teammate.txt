@@ -1,0 +1,13 @@
+Teaching Font Rendering to a Teammate
+
+Explaining Font Rendering to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a calligrapher tracing letter shapes onto a grid of pixels. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Font Rendering is turning font outlines into readable text on screen. Avoid jargon at this stage.
+
+Walk through an example involving web pages, naming glyphs and hinting as they come up.
+
+Ask your teammate to explain anti-aliasing in Font Rendering back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, missing font fallbacks, and suggest this habit: subset fonts to the characters you need.

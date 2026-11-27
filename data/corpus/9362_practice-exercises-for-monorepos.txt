@@ -1,0 +1,11 @@
+Practice Exercises for Monorepos
+
+These exercises build real understanding of Monorepos. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: slow checkouts. Then fix it.
+Exercise 2: Compare Bazel and Turborepo for consistent tooling and write down your conclusion.
+Exercise 3: Pick Nx and complete its getting-started tutorial.
+Exercise 4: Write a short paragraph describing Monorepos and include the term shared tooling.
+Exercise 5: Explain how selective builds and atomic changes differ, using a drawing.
+
+When you finish, compare your answers with the definition: Monorepos is single repositories that hold the code for many projects.

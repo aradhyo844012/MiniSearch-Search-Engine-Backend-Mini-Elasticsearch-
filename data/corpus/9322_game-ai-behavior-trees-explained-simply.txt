@@ -1,0 +1,13 @@
+Game AI Behavior Trees Explained Simply
+
+Here is Game AI Behavior Trees without the jargon: it is tree-shaped plans that decide what a computer-controlled character does.
+
+Think of Game AI Behavior Trees as a flowchart a character consults every moment before acting. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: selector nodes, sequence nodes, conditions, and actions. You do not need to master them all at once. Start with selector nodes, then add sequence nodes.
+
+People reach for Game AI Behavior Trees when they work on enemy behavior, companion characters, and simulated crowds.
+
+One practical tip is to visualize the tree while the game is running.
+
+After Game AI Behavior Trees, a natural next topic is Physics Engines.

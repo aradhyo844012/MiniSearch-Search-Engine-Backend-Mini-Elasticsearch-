@@ -1,0 +1,11 @@
+npm and Package Registries in Real Projects
+
+Reading about npm and Package Registries is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: installing JavaScript libraries. Here, package.json drives the main design choices, and the team needs to guard against unpinned versions.
+
+Scenario two: sharing internal packages. This time semantic versions matters most, and tools such as npm help keep things manageable.
+
+Scenario three: reproducible builds. The key idea is lock files, and the biggest risk is installing untrusted packages.
+
+Across all three scenarios, npm and Package Registries stays the same idea: services and tools for publishing and installing reusable code packages. Only the details change.

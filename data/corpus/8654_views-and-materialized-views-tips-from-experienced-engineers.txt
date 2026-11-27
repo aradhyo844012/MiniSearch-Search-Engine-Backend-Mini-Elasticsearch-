@@ -1,0 +1,11 @@
+Views and Materialized Views Tips from Experienced Engineers
+
+Engineers who work with Views and Materialized Views regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit refresh strategies before anything else.
+2. Test the case of simplifying repeated queries early, before the design hardens.
+3. Write down why you chose Views and Materialized Views so the next person understands the decision.
+4. Reach for PostgreSQL first, and only then evaluate alternatives such as MySQL.
+5. Do not skip view definitions; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to hiding sensitive columns as well as to Views and Materialized Views in general.

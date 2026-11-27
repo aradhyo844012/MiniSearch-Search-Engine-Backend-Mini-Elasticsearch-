@@ -1,0 +1,26 @@
+Everything You Need to Know About Firewalls
+
+This page collects the essentials about Firewalls in one place. In short, Firewalls is systems that allow or block network traffic according to rules.
+
+Core concepts:
+- rules
+- stateful inspection
+- default deny
+- zones
+
+Where it is used:
+- protecting servers
+- segmenting networks
+- logging suspicious traffic
+
+Common problems:
+- rules in the wrong order
+- overly broad allow rules
+- locking yourself out remotely
+
+Tools to know:
+- ufw
+- iptables
+- pfSense
+
+Remember this above all: a security gate that checks each visitor against a list is a good way to picture it, and the best habit is to start with default deny and open only what you need.

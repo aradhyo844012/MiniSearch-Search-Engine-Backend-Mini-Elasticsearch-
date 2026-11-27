@@ -1,0 +1,17 @@
+Game AI Behavior Trees for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Game AI Behavior Trees.
+
+Learning goals:
+1. Explain Game AI Behavior Trees in your own words.
+2. Describe selector nodes, sequence nodes, conditions, and actions.
+3. Give examples from enemy behavior and companion characters.
+4. Name three problems to watch for.
+
+Start with the definition: Game AI Behavior Trees is tree-shaped plans that decide what a computer-controlled character does. Then draw a flowchart a character consults every moment before acting on paper and label the four terms from the goals above.
+
+Self-test questions: Why is trees that become tangled a problem? How does sequence nodes relate to conditions? When would you choose Unreal Engine behavior trees or py_trees?
+
+Study habit worth keeping: visualize the tree while the game is running.
+
+When you feel ready, compare Game AI Behavior Trees with A* Pathfinding and write down three differences.

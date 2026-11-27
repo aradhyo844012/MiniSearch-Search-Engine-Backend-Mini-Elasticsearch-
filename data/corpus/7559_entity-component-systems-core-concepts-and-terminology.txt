@@ -1,0 +1,10 @@
+Entity Component Systems: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Entity Component Systems with confidence. The subject itself is a game architecture that builds objects from data components processed by systems.
+
+entities: one of the building blocks of Entity Component Systems. You should be able to explain it in a single sentence before moving on.
+components: one of the building blocks of Entity Component Systems. It shows up whenever you work on large simulations.
+systems: one of the building blocks of Entity Component Systems. Documentation for Bevy usually mentions it early.
+queries: one of the building blocks of Entity Component Systems. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four Entity Component Systems terms in sentences about games with thousands of objects. If the sentences feel natural, the vocabulary has stuck.

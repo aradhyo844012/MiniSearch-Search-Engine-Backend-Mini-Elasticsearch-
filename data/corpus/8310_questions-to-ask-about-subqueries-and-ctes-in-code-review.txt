@@ -1,0 +1,12 @@
+Questions to Ask About Subqueries and CTEs in Code Review
+
+Reviewing code that involves Subqueries and CTEs is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch deep nesting if it appeared later?
+- Is PostgreSQL used consistently, or are we mixing approaches?
+- Does the code handle the case of breaking complex reports into steps correctly?
+- Is WITH clauses clear to someone reading the code for the first time?
+- Have we avoided this problem: assuming CTEs are always materialized?
+- Could we name each CTE after what it returns?
+
+Good reviews of work on Subqueries and CTEs are specific, kind and focused on correlated queries, not on personal style.

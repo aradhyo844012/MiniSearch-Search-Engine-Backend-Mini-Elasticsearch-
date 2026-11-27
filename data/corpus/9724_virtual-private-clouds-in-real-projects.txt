@@ -1,0 +1,11 @@
+Virtual Private Clouds in Real Projects
+
+Reading about Virtual Private Clouds is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: separating public and private services. Here, subnets drives the main design choices, and the team needs to guard against overlapping address ranges.
+
+Scenario two: connecting to offices. This time route tables matters most, and tools such as AWS VPC help keep things manageable.
+
+Scenario three: securing databases. The key idea is security groups, and the biggest risk is databases in public subnets.
+
+Across all three scenarios, Virtual Private Clouds stays the same idea: isolated private networks inside a cloud provider where you place your resources. Only the details change.

@@ -1,0 +1,17 @@
+NULL Handling in SQL for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover NULL Handling in SQL.
+
+Learning goals:
+1. Explain NULL Handling in SQL in your own words.
+2. Describe three-valued logic, IS NULL, COALESCE, and NULL in aggregates.
+3. Give examples from optional fields and outer joins.
+4. Name three problems to watch for.
+
+Start with the definition: NULL Handling in SQL is understanding how missing or unknown values behave in queries. Then draw an empty box on a form that means unknown, not zero on paper and label the four terms from the goals above.
+
+Self-test questions: Why is comparing with equals instead of IS NULL a problem? How does IS NULL relate to COALESCE? When would you choose PostgreSQL or SQLite?
+
+Study habit worth keeping: use IS NULL and COALESCE instead of comparing with equals.
+
+When you feel ready, compare NULL Handling in SQL with Elasticsearch Concepts and write down three differences.

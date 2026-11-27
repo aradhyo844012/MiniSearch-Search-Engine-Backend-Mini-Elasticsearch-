@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with NAT
+
+This path is for a learner who has never studied NAT before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (NAT is a technique that lets many devices share one public IP address by rewriting addresses) and learn private addresses and translation tables.
+
+Stage 2, hands-on: install iptables, follow a tutorial, and build a small example involving home routers.
+
+Stage 3, depth: study port mapping and port forwarding, then deliberately explore this problem: breaking peer-to-peer connections.
+
+Stage 4, application: apply NAT to sharing limited IPv4 addresses, compare router admin pages with conntrack, and write up your results.
+
+Stage 5, review: teach NAT to someone else, and then move on to Firewalls.

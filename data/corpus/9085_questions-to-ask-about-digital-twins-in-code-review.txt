@@ -1,0 +1,12 @@
+Questions to Ask About Digital Twins in Code Review
+
+Reviewing code that involves Digital Twins is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: unclear goals?
+- Does this change respect sensor data, or does it work around it?
+- Is simulation models clear to someone reading the code for the first time?
+- Would a test catch over-detailed models if it appeared later?
+- Is Azure Digital Twins used consistently, or are we mixing approaches?
+- Have we considered stale data?
+
+Good reviews of work on Digital Twins are specific, kind and focused on synchronization, not on personal style.

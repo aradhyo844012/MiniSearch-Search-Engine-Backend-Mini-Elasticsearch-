@@ -1,0 +1,11 @@
+Mistakes to Avoid with Probability Basics
+
+Everyone learns Probability Basics partly through mistakes. Here are three worth avoiding.
+
+Mistake one: confusing independent and exclusive events. It usually appears when someone skips events and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring base rates. It tends to be noticed late, often during testing of randomized algorithms. A short checklist during review catches it early.
+
+Mistake three: falling for the gambler's fallacy. It is easy to miss because everything seems to work at first. Keep an eye on expected value to spot it.
+
+If you remember only one rule, make it this: simulate the problem in code to check your reasoning.

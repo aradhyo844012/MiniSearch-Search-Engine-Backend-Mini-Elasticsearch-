@@ -1,0 +1,11 @@
+Scaling Considerations for Biometric Authentication
+
+A design that works for a classroom project can behave very differently under real load. Here is how Biometric Authentication changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding enrollment and getting phone unlock right.
+
+Medium scale: problems start to appear. Watch for spoofing attacks and biased recognition, and measure with Android BiometricPrompt before changing anything.
+
+Large scale: false accept and false reject rates and liveness detection move from background details to central design questions. Teams often revisit their choices around building access at this stage.
+
+Before you scale, offer a fallback method and protect the stored templates. It is cheaper to build that habit early than to fix a crisis later.

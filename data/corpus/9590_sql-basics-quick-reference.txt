@@ -1,0 +1,15 @@
+SQL Basics Quick Reference
+
+A one-screen reminder for SQL Basics. Bookmark it and return when the details fade.
+
+What it is: the core SQL commands for reading and changing data in tables.
+Key terms: SELECT, WHERE, ORDER BY, and INSERT and UPDATE.
+Typical uses: reading customer records, building reports, and changing stored data.
+Risks: forgetting the WHERE clause on updates, selecting every column, and assuming row order without ORDER BY.
+Tools: SQLite, PostgreSQL, and DB Browser for SQLite.
+
+Mental picture: asking a very organized librarian for exactly the books you need.
+
+Habit to build: run a SELECT with the same WHERE clause before any UPDATE or DELETE.
+
+See also: NULL Handling in SQL, which sits close to SQL Basics in the area of SQL and Data Practice.

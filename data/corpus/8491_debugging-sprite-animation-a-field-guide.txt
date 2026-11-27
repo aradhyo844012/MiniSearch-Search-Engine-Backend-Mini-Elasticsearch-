@@ -1,0 +1,13 @@
+Debugging Sprite Animation: A Field Guide
+
+When something goes wrong around Sprite Animation, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: inconsistent frame timing, huge uncompressed sheets, and animation states that never end.
+Step 3: revisit sprite sheets and frames, since misunderstandings there cause many bugs.
+Step 4: use Aseprite or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Sprite Animation in work such as 2D platformers come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, pack frames into one sprite sheet to reduce draw calls. It prevents a surprising number of repeat problems.

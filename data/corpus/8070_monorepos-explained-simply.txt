@@ -1,0 +1,13 @@
+Monorepos Explained Simply
+
+Here is Monorepos without the jargon: it is single repositories that hold the code for many projects.
+
+Think of Monorepos as one big toolbox for the whole workshop. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: shared tooling, code ownership, selective builds, and atomic changes. You do not need to master them all at once. Start with shared tooling, then add code ownership.
+
+People reach for Monorepos when they work on sharing libraries across apps, coordinated refactors, and consistent tooling.
+
+One practical tip is to set up selective builds and tests early.
+
+After Monorepos, a natural next topic is Semantic Versioning.

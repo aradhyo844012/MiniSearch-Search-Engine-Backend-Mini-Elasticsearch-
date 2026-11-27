@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Build Systems
+
+This path is for a learner who has never studied Build Systems before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Build Systems is tools that turn source code into runnable programs automatically) and learn targets and dependencies.
+
+Stage 2, hands-on: install Make, follow a tutorial, and build a small example involving compiling large projects.
+
+Stage 3, depth: study incremental builds and build caches, then deliberately explore this problem: slow full rebuilds.
+
+Stage 4, application: apply Build Systems to packaging software, compare Gradle with Bazel, and write up your results.
+
+Stage 5, review: teach Build Systems to someone else, and then move on to Semantic Versioning.

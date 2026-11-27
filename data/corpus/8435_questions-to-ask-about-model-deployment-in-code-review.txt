@@ -1,0 +1,12 @@
+Questions to Ask About Model Deployment in Code Review
+
+Reviewing code that involves Model Deployment is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is FastAPI used consistently, or are we mixing approaches?
+- Does the code handle the case of recommendation endpoints correctly?
+- Have we considered training-serving mismatch?
+- Is batch versus online inference clear to someone reading the code for the first time?
+- Does this change respect serving APIs, or does it work around it?
+- Have we avoided this problem: no fallback when the model fails?
+
+Good reviews of work on Model Deployment are specific, kind and focused on containers, not on personal style.

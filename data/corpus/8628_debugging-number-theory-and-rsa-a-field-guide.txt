@@ -1,0 +1,13 @@
+Debugging Number Theory and RSA: A Field Guide
+
+When something goes wrong around Number Theory and RSA, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using small primes, implementing crypto by hand in production, and ignoring padding.
+Step 3: revisit prime numbers and modular arithmetic, since misunderstandings there cause many bugs.
+Step 4: use Python pow or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Number Theory and RSA in work such as public key cryptography come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use vetted crypto libraries instead of writing your own. It prevents a surprising number of repeat problems.

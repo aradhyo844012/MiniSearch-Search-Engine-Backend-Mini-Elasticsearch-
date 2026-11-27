@@ -1,0 +1,11 @@
+Choosing Tools for Linux Boot Process
+
+There is no single best tool for Linux Boot Process. The right choice depends on your project, your team and your timeline.
+
+GRUB is a common first choice, especially for troubleshooting machines that do not start. dmesg suits teams that already work with similar technology, and journalctl -b is worth a look when you need something different.
+
+Judge any tool for Linux Boot Process by four questions: Is the documentation clear? Is the community active? Does it handle configuring dual boot well? Can you leave it later if you need to?
+
+Whichever tool you pick for Linux Boot Process, test it on a small problem first, and watch for this: overwriting the bootloader.
+
+As a rule of thumb, keep a recovery option available before editing boot settings, no matter which tool you use.

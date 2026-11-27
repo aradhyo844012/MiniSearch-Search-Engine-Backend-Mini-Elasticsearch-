@@ -1,0 +1,11 @@
+Scaling Considerations for Firewalls
+
+A design that works for a classroom project can behave very differently under real load. Here is how Firewalls changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding rules and getting protecting servers right.
+
+Medium scale: problems start to appear. Watch for rules in the wrong order and overly broad allow rules, and measure with ufw before changing anything.
+
+Large scale: default deny and zones move from background details to central design questions. Teams often revisit their choices around segmenting networks at this stage.
+
+Before you scale, start with default deny and open only what you need. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Is Physics Engines Right for Your Project?
+
+Before adopting Physics Engines, ask whether it fits the problem. Remember that Physics Engines is software that simulates forces, motion and collisions of objects.
+
+It is a good fit when your work involves vehicles and ragdolls or puzzle games, and when your team understands rigid bodies.
+
+Be cautious when the project is very small, when deadlines leave no room to learn forces and impulses, or when you cannot manage these risks: variable time steps, unstable stacks of objects, and extreme mass ratios.
+
+A simple decision test: write down the problem in one sentence, then check whether constraints and fixed time steps are part of the answer. If they are, Physics Engines is probably worth a closer look.
+
+If you decide to go ahead, start small with training simulations and use a fixed time step for stable results.

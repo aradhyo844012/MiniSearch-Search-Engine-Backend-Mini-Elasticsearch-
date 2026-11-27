@@ -1,0 +1,11 @@
+systemd Services in Real Projects
+
+Reading about systemd Services is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: starting services at boot. Here, unit files drives the main design choices, and the team needs to guard against editing unit files without reloading the daemon.
+
+Scenario two: restarting crashed programs. This time targets matters most, and tools such as systemctl help keep things manageable.
+
+Scenario three: managing dependencies between services. The key idea is service states, and the biggest risk is missing restart policies.
+
+Across all three scenarios, systemd Services stays the same idea: the init system and service manager used by most modern Linux distributions. Only the details change.

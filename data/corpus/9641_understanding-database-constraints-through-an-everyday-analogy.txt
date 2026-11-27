@@ -1,0 +1,9 @@
+Understanding Database Constraints Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture guard rails along a mountain road.
+
+In that picture, primary keys is the first rule you follow, foreign keys is the next step, and unique constraints and check constraints keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Database Constraints is rules the database enforces to keep stored data valid, and it involves details such as skipping constraints for speed that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PostgreSQL to learn the exact behavior. The same picture helps when you explain preventing bad data to a friend.

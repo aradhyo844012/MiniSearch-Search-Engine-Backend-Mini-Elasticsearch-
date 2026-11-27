@@ -1,0 +1,26 @@
+Everything You Need to Know About Database Constraints
+
+This page collects the essentials about Database Constraints in one place. In short, Database Constraints is rules the database enforces to keep stored data valid.
+
+Core concepts:
+- primary keys
+- foreign keys
+- unique constraints
+- check constraints
+
+Where it is used:
+- preventing bad data
+- protecting relationships
+- documenting business rules
+
+Common problems:
+- skipping constraints for speed
+- missing indexes on foreign keys
+- rules enforced only in the app
+
+Tools to know:
+- PostgreSQL
+- SQLite
+- ER diagram tools
+
+Remember this above all: guard rails along a mountain road is a good way to picture it, and the best habit is to put critical rules in the database as well as in the app.

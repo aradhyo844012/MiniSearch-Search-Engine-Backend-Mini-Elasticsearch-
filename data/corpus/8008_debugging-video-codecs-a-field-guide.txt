@@ -1,0 +1,13 @@
+Debugging Video Codecs: A Field Guide
+
+When something goes wrong around Video Codecs, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mismatched codec support, too low a bitrate, and ignoring hardware decoding.
+Step 3: revisit frames and motion compensation, since misunderstandings there cause many bugs.
+Step 4: use FFmpeg or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Video Codecs in work such as streaming services come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, test playback on the weakest target device. It prevents a surprising number of repeat problems.

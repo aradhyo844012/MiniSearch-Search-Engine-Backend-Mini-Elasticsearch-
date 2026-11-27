@@ -1,0 +1,17 @@
+Biometric Authentication Do's and Don'ts
+
+A quick list of habits for working with Biometric Authentication.
+
+Do:
+- Learn enrollment before anything else.
+- Try Android BiometricPrompt on a small example.
+- Make it a habit to offer a fallback method and protect the stored templates.
+- Test the case of phone unlock early.
+
+Don't:
+- Ignore this: spoofing attacks.
+- Ignore this: biased recognition.
+- Ignore this: credentials that cannot be changed once leaked.
+- Adopt Biometric Authentication just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Biometric Authentication, a little patience with matching pays off more than any clever shortcut.

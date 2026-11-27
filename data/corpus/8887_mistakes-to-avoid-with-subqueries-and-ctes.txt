@@ -1,0 +1,11 @@
+Mistakes to Avoid with Subqueries and CTEs
+
+Everyone learns Subqueries and CTEs partly through mistakes. Here are three worth avoiding.
+
+Mistake one: correlated subqueries that run slowly. It usually appears when someone skips subqueries and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: deep nesting. It tends to be noticed late, often during testing of breaking complex reports into steps. A short checklist during review catches it early.
+
+Mistake three: assuming CTEs are always materialized. It is easy to miss because everything seems to work at first. Keep an eye on readability to spot it.
+
+If you remember only one rule, make it this: name each CTE after what it returns.

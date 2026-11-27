@@ -1,0 +1,26 @@
+Everything You Need to Know About Regions and Availability Zones
+
+This page collects the essentials about Regions and Availability Zones in one place. In short, Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources.
+
+Core concepts:
+- regions
+- availability zones
+- latency
+- data residency
+
+Where it is used:
+- placing services near users
+- surviving data center failures
+- meeting data laws
+
+Common problems:
+- putting everything in one zone
+- cross-region transfer fees
+- forgetting data residency rules
+
+Tools to know:
+- AWS Regions
+- Azure regions
+- Google Cloud regions
+
+Remember this above all: branches of a bank in different cities and different buildings is a good way to picture it, and the best habit is to spread critical services across at least two zones.

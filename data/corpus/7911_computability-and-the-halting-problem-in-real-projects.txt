@@ -1,0 +1,11 @@
+Computability and the Halting Problem in Real Projects
+
+Reading about Computability and the Halting Problem is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: understanding the limits of tools. Here, Turing machines drives the main design choices, and the team needs to guard against assuming everything is solvable.
+
+Scenario two: proofs of impossibility. This time decidability matters most, and tools such as Turing machine simulators help keep things manageable.
+
+Scenario three: theory courses. The key idea is the halting problem, and the biggest risk is confusing hard with undecidable.
+
+Across all three scenarios, Computability and the Halting Problem stays the same idea: the study of what problems computers can and cannot solve. Only the details change.

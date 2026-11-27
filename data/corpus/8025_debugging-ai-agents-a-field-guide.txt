@@ -1,0 +1,13 @@
+Debugging AI Agents: A Field Guide
+
+When something goes wrong around AI Agents, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: runaway loops, unchecked tool permissions, and hard-to-debug behavior.
+Step 3: revisit planning and tool calls, since misunderstandings there cause many bugs.
+Step 4: use LangGraph or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving AI Agents in work such as research assistants come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, limit what tools the agent may use and log every action. It prevents a surprising number of repeat problems.

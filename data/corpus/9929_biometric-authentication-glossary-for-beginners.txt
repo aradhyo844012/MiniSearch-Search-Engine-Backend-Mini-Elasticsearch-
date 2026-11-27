@@ -1,0 +1,12 @@
+Biometric Authentication Glossary for Beginners
+
+New words can make Biometric Authentication feel harder than it is. This glossary keeps the key ones in one place.
+
+Biometric Authentication: verifying identity using traits such as fingerprints, faces or voices.
+enrollment: a core term, most visible in phone unlock.
+matching: a core term that beginners often confuse with false accept and false reject rates.
+false accept and false reject rates: a core term that connects to liveness detection.
+liveness detection: a core term worth revisiting after you try a real example.
+Android BiometricPrompt: a tool commonly used for building access.
+
+Come back to this Biometric Authentication list whenever documentation for Face ID APIs uses a word you do not recognize.

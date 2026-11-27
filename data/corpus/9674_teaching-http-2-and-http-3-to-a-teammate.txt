@@ -1,0 +1,13 @@
+Teaching HTTP/2 and HTTP/3 to a Teammate
+
+Explaining HTTP/2 and HTTP/3 to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a multi-lane highway replacing a single-lane road. Ask your teammate what the picture suggests.
+
+Then give the plain definition: HTTP/2 and HTTP/3 is newer versions of the web protocol that load pages faster over fewer connections. Avoid jargon at this stage.
+
+Walk through an example involving faster page loads, naming multiplexing and header compression as they come up.
+
+Ask your teammate to explain QUIC in HTTP/2 and HTTP/3 back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, assuming old tricks like sprite sheets still help, and suggest this habit: keep a working HTTP/1.1 fallback.

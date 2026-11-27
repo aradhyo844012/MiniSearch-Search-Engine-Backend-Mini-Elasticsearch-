@@ -1,0 +1,13 @@
+Debugging Floating-Point Arithmetic: A Field Guide
+
+When something goes wrong around Floating-Point Arithmetic, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: comparing floats with equality, accumulated rounding errors, and using floats for money.
+Step 3: revisit mantissa and exponent and rounding, since misunderstandings there cause many bugs.
+Step 4: use Python decimal or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Floating-Point Arithmetic in work such as scientific computing come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, compare floats with a tolerance and use decimals for money. It prevents a surprising number of repeat problems.

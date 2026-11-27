@@ -1,0 +1,11 @@
+Regions and Availability Zones in Real Projects
+
+Reading about Regions and Availability Zones is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: placing services near users. Here, regions drives the main design choices, and the team needs to guard against putting everything in one zone.
+
+Scenario two: surviving data center failures. This time availability zones matters most, and tools such as AWS Regions help keep things manageable.
+
+Scenario three: meeting data laws. The key idea is latency, and the biggest risk is cross-region transfer fees.
+
+Across all three scenarios, Regions and Availability Zones stays the same idea: the geographic locations and isolated data centers a cloud provider uses to host resources. Only the details change.

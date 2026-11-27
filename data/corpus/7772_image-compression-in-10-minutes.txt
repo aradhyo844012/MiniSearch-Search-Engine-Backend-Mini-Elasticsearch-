@@ -1,0 +1,15 @@
+Image Compression in 10 Minutes
+
+You have ten minutes, so here is the fast route through Image Compression.
+
+Minutes 1 and 2, the definition: Image Compression is reducing the size of image files by removing redundancy or less visible detail.
+
+Minutes 3 and 4, the vocabulary: learn lossy and lossless formats, quantization, transform coding, and quality settings.
+
+Minutes 5 and 6, the picture: imagine packing a suitcase by folding clothes tightly. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through web images, photo storage, and sending pictures over slow networks.
+
+Minutes 9 and 10, the traps and the tools: watch for repeated recompression and the wrong format for graphics, then try ImageMagick for a first experiment.
+
+If you have a spare minute, remember to pick the format by content: photos versus flat graphics.

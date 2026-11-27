@@ -1,0 +1,17 @@
+Font Rendering Do's and Don'ts
+
+A quick list of habits for working with Font Rendering.
+
+Do:
+- Learn glyphs before anything else.
+- Try FreeType on a small example.
+- Make it a habit to subset fonts to the characters you need.
+- Test the case of web pages early.
+
+Don't:
+- Ignore this: missing font fallbacks.
+- Ignore this: blurry text from scaling.
+- Ignore this: large font files.
+- Adopt Font Rendering just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Font Rendering, a little patience with hinting pays off more than any clever shortcut.

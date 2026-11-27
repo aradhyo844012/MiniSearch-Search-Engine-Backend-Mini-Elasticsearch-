@@ -1,0 +1,11 @@
+Mistakes to Avoid with Environment Variables
+
+Everyone learns Environment Variables partly through mistakes. Here are three worth avoiding.
+
+Mistake one: committing secrets in dotfiles. It usually appears when someone skips variable names and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: variables not visible to child processes. It tends to be noticed late, often during testing of storing configuration. A short checklist during review catches it early.
+
+Mistake three: typos in names. It is easy to miss because everything seems to work at first. Keep an eye on shell startup files to spot it.
+
+If you remember only one rule, make it this: print a variable to confirm its value before blaming the code.

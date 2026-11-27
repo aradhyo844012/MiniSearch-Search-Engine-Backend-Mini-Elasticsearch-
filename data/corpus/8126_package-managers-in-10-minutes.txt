@@ -1,0 +1,15 @@
+Package Managers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Package Managers.
+
+Minutes 1 and 2, the definition: Package Managers is tools that install, update and remove software along with its dependencies.
+
+Minutes 3 and 4, the vocabulary: learn repositories, dependency resolution, versions, and signed packages.
+
+Minutes 5 and 6, the picture: imagine a supply store that delivers parts together with the parts they need. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through installing system tools, keeping servers updated, and reproducing environments.
+
+Minutes 9 and 10, the traps and the tools: watch for mixing sources that conflict and ignoring signature checks, then try apt for a first experiment.
+
+If you have a spare minute, remember to update the package index before installing anything.

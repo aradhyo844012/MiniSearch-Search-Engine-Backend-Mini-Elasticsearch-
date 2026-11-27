@@ -1,0 +1,9 @@
+Understanding WebAssembly Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a fast engine installed in the corner of a web page.
+
+In that picture, modules is the first rule you follow, linear memory is the next step, and imports and exports and the JavaScript bridge keep everything running smoothly.
+
+Every analogy breaks down eventually. Real WebAssembly is a compact binary format that lets code written in many languages run fast in browsers, and it involves details such as crossing the JavaScript boundary too often that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Emscripten to learn the exact behavior. The same picture helps when you explain running heavy computation in the browser to a friend.

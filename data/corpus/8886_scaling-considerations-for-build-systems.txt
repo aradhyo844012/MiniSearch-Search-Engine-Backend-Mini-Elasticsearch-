@@ -1,0 +1,11 @@
+Scaling Considerations for Build Systems
+
+A design that works for a classroom project can behave very differently under real load. Here is how Build Systems changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding targets and getting compiling large projects right.
+
+Medium scale: problems start to appear. Watch for slow full rebuilds and undeclared dependencies, and measure with Make before changing anything.
+
+Large scale: incremental builds and build caches move from background details to central design questions. Teams often revisit their choices around packaging software at this stage.
+
+Before you scale, make builds reproducible on any machine. It is cheaper to build that habit early than to fix a crisis later.

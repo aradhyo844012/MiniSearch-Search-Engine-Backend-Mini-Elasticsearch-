@@ -1,0 +1,11 @@
+Is Build Systems Right for Your Project?
+
+Before adopting Build Systems, ask whether it fits the problem. Remember that Build Systems is tools that turn source code into runnable programs automatically.
+
+It is a good fit when your work involves compiling large projects or packaging software, and when your team understands targets.
+
+Be cautious when the project is very small, when deadlines leave no room to learn dependencies, or when you cannot manage these risks: slow full rebuilds, undeclared dependencies, and machine-specific builds.
+
+A simple decision test: write down the problem in one sentence, then check whether incremental builds and build caches are part of the answer. If they are, Build Systems is probably worth a closer look.
+
+If you decide to go ahead, start small with running repeatable pipelines and make builds reproducible on any machine.

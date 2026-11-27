@@ -1,0 +1,11 @@
+systemd Services Tips from Experienced Engineers
+
+Engineers who work with systemd Services regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of starting services at boot early, before the design hardens.
+2. Make sure you can run systemctl daemon-reload after every unit file change.
+3. Reach for systemctl first, and only then evaluate alternatives such as journalctl.
+4. Write down why you chose systemd Services so the next person understands the decision.
+5. Be careful with this one: editing unit files without reloading the daemon.
+
+None of these tips needs special equipment, and all of them apply to restarting crashed programs as well as to systemd Services in general.

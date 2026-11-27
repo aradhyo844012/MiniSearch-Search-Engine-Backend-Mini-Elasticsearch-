@@ -1,0 +1,11 @@
+Scaling Considerations for Prompt Engineering
+
+A design that works for a classroom project can behave very differently under real load. Here is how Prompt Engineering changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding instructions and getting drafting content right.
+
+Medium scale: problems start to appear. Watch for vague requests and missing context, and measure with model playgrounds before changing anything.
+
+Large scale: context and output format move from background details to central design questions. Teams often revisit their choices around extracting data from text at this stage.
+
+Before you scale, specify the output format and include one or two examples. It is cheaper to build that habit early than to fix a crisis later.

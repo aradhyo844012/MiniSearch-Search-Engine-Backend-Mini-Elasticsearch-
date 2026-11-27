@@ -1,0 +1,10 @@
+WebAssembly: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about WebAssembly with confidence. The subject itself is a compact binary format that lets code written in many languages run fast in browsers.
+
+modules: one of the building blocks of WebAssembly. It shows up whenever you work on running heavy computation in the browser.
+linear memory: one of the building blocks of WebAssembly. It shows up whenever you work on running heavy computation in the browser.
+imports and exports: one of the building blocks of WebAssembly. You should be able to explain it in a single sentence before moving on.
+the JavaScript bridge: one of the building blocks of WebAssembly. It shows up whenever you work on running heavy computation in the browser.
+
+Practice using these four WebAssembly terms in sentences about porting existing C or Rust code. If the sentences feel natural, the vocabulary has stuck.

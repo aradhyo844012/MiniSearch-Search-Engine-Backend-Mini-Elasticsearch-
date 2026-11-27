@@ -1,0 +1,11 @@
+Why Finite Automata Matters for Developers
+
+Developers who understand Finite Automata make better decisions, because Finite Automata is simple abstract machines that read input and move between a fixed set of states.
+
+Three situations show why it matters. First, tokenizers. Second, pattern matching. Third, protocol design. In each case, a solid grasp of states and transitions separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: missing transitions, confusing deterministic and non-deterministic machines, and state explosion.
+
+You will not need to build everything yourself; JFLAP, Python dictionaries, and regex engines cover most needs.
+
+Connect Finite Automata with Linear Algebra for Programmers to see the bigger picture of Mathematics for Computing.

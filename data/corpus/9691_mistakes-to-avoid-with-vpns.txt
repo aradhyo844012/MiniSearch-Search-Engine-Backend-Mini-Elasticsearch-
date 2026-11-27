@@ -1,0 +1,11 @@
+Mistakes to Avoid with VPNs
+
+Everyone learns VPNs partly through mistakes. Here are three worth avoiding.
+
+Mistake one: assuming it makes you anonymous. It usually appears when someone skips tunneling and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: slow routing through distant servers. It tends to be noticed late, often during testing of remote work access. A short checklist during review catches it early.
+
+Mistake three: leaking DNS requests. It is easy to miss because everything seems to work at first. Keep an eye on split tunneling to spot it.
+
+If you remember only one rule, make it this: test for DNS leaks after connecting.

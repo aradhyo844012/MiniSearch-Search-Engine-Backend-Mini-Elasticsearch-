@@ -1,0 +1,11 @@
+Why Database Constraints Matters for Developers
+
+Developers who understand Database Constraints make better decisions, because Database Constraints is rules the database enforces to keep stored data valid.
+
+Three situations show why it matters. First, preventing bad data. Second, protecting relationships. Third, documenting business rules. In each case, a solid grasp of primary keys and foreign keys separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: skipping constraints for speed, missing indexes on foreign keys, and rules enforced only in the app.
+
+Good tools exist, including PostgreSQL, SQLite, and ER diagram tools, so you rarely have to start from nothing.
+
+Connect Database Constraints with Views and Materialized Views to see the bigger picture of SQL and Data Practice.

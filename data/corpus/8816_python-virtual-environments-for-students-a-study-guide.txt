@@ -1,0 +1,17 @@
+Python Virtual Environments for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Python Virtual Environments.
+
+Learning goals:
+1. Explain Python Virtual Environments in your own words.
+2. Describe venv, pip, requirements files, and activation.
+3. Give examples from keeping projects separate and reproducing setups.
+4. Name three problems to watch for.
+
+Start with the definition: Python Virtual Environments is isolated folders that hold a project's own Python packages. Then draw a separate toolbox for each project on paper and label the four terms from the goals above.
+
+Self-test questions: Why is installing packages globally a problem? How does pip relate to requirements files? When would you choose venv or pipx?
+
+Study habit: create one environment per project and record its requirements.
+
+When you feel ready, compare Python Virtual Environments with Makefiles and write down three differences.

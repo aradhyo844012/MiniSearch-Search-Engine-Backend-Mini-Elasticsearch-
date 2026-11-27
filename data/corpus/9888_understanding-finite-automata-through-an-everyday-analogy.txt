@@ -1,0 +1,9 @@
+Understanding Finite Automata Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a turnstile that moves between locked and unlocked.
+
+In that picture, states is the first rule you follow, transitions is the next step, and accepting states and regular languages keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Finite Automata is simple abstract machines that read input and move between a fixed set of states, and it involves details such as missing transitions that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for JFLAP to learn the exact behavior. The same picture helps when you explain tokenizers to a friend.

@@ -1,0 +1,12 @@
+Questions to Ask About Regions and Availability Zones in Code Review
+
+Reviewing code that involves Regions and Availability Zones is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of placing services near users correctly?
+- Would a test catch cross-region transfer fees if it appeared later?
+- Is AWS Regions used consistently, or are we mixing approaches?
+- Is availability zones clear to someone reading the code for the first time?
+- Have we considered putting everything in one zone?
+- Could we spread critical services across at least two zones?
+
+Good reviews of work on Regions and Availability Zones are specific, kind and focused on latency, not on personal style.

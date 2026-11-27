@@ -1,0 +1,26 @@
+Everything You Need to Know About AWS IAM Roles and Policies
+
+This page collects the essentials about AWS IAM Roles and Policies in one place. In short, AWS IAM Roles and Policies is the permission system that controls who can do what in an AWS account.
+
+Core concepts:
+- users and roles
+- policies
+- least privilege
+- temporary credentials
+
+Where it is used:
+- securing deployments
+- granting services access
+- auditing permissions
+
+Common problems:
+- wildcard permissions
+- long-lived access keys
+- unused roles
+
+Tools to know:
+- IAM Access Analyzer
+- the AWS CLI
+- Terraform
+
+Remember this above all: key cards that open only the doors a person needs is a good way to picture it, and the best habit is to grant the narrowest policy that works and review it regularly.

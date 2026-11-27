@@ -1,0 +1,15 @@
+Cron Jobs and Scheduling Quick Reference
+
+A one-screen reminder for Cron Jobs and Scheduling. Bookmark it and return when the details fade.
+
+What it is: a Unix tool that runs commands automatically at scheduled times.
+Key terms: crontab syntax, schedule fields, environment differences, and output redirection.
+Typical uses: nightly backups, log rotation, and periodic reports.
+Risks: assuming cron has your shell environment, overlapping runs of slow jobs, and no logging of failures.
+Tools: crontab, systemd timers, and flock.
+
+Mental picture: an alarm clock that starts chores for you.
+
+Habit to build: redirect output to a log file and use absolute paths.
+
+See also: Package Managers, which sits close to Cron Jobs and Scheduling in the area of Linux and System Administration.

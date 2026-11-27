@@ -1,0 +1,10 @@
+HTTP/2 and HTTP/3: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about HTTP/2 and HTTP/3 with confidence. The subject itself is newer versions of the web protocol that load pages faster over fewer connections.
+
+multiplexing: one of the building blocks of HTTP/2 and HTTP/3. Documentation for curl with HTTP/3 support usually mentions it early.
+header compression: one of the building blocks of HTTP/2 and HTTP/3. You should be able to explain it in a single sentence before moving on.
+QUIC: one of the building blocks of HTTP/2 and HTTP/3. You should be able to explain it in a single sentence before moving on.
+server push: one of the building blocks of HTTP/2 and HTTP/3. Documentation for curl with HTTP/3 support usually mentions it early.
+
+Practice using these four HTTP/2 and HTTP/3 terms in sentences about improving mobile performance. If the sentences feel natural, the vocabulary has stuck.

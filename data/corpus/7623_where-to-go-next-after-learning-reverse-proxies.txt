@@ -1,0 +1,11 @@
+Where to Go Next After Learning Reverse Proxies
+
+You have met the basics of Reverse Proxies. Here is how to keep the momentum going.
+
+Go wider: read about NAT, which belongs to the same area as Reverse Proxies (Networking and Internet Infrastructure) and often appears in the same projects.
+
+Go deeper: choose one of upstream servers, proxy headers, TLS termination or caching, and study it until you can explain it to a beginner.
+
+Go practical: build something around terminating HTTPS with NGINX, and note every problem you meet, starting with losing the client IP address.
+
+Go social: share what you learned. Explaining Reverse Proxies to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

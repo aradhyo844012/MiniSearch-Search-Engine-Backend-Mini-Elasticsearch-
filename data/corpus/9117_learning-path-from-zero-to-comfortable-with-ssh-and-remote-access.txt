@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with SSH and Remote Access
+
+This path is for a learner who has never studied SSH and Remote Access before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (SSH and Remote Access is a secure protocol for logging in to and controlling remote machines) and learn key pairs and host keys.
+
+Stage 2, hands-on: install OpenSSH, follow a tutorial, and build a small example involving administering servers.
+
+Stage 3, depth: study port forwarding and config files, then deliberately explore this problem: password logins left enabled.
+
+Stage 4, application: apply SSH and Remote Access to copying files securely, compare ssh-keygen with scp, and write up your results.
+
+Stage 5, review: teach SSH and Remote Access to someone else, and then move on to Disk Partitioning and Mounting.

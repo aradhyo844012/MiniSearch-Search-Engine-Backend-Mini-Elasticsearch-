@@ -1,0 +1,11 @@
+Packet Switching in Real Projects
+
+Reading about Packet Switching is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: internet traffic. Here, packets drives the main design choices, and the team needs to guard against packet loss.
+
+Scenario two: voice over IP. This time headers matters most, and tools such as Wireshark help keep things manageable.
+
+Scenario three: file transfers. The key idea is routing, and the biggest risk is out-of-order delivery.
+
+Across all three scenarios, Packet Switching stays the same idea: a method of sending data as small packets that travel independently across a network. Only the details change.

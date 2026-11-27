@@ -1,0 +1,15 @@
+Sprite Animation Quick Reference
+
+A one-screen reminder for Sprite Animation. Bookmark it and return when the details fade.
+
+What it is: showing a sequence of 2D images quickly to make a character appear to move.
+Key terms: sprite sheets, frames, frame rate, and animation states.
+Typical uses: 2D platformers, user interface effects, and visual novels.
+Risks: inconsistent frame timing, huge uncompressed sheets, and animation states that never end.
+Tools: Aseprite, Unity Animator, and Phaser.
+
+Mental picture: a flip book drawn one page at a time.
+
+Habit to build: pack frames into one sprite sheet to reduce draw calls.
+
+See also: Collision Detection, which sits close to Sprite Animation in the area of Game Development.

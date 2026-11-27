@@ -1,0 +1,11 @@
+Rasterization Tips from Experienced Engineers
+
+Engineers who work with Rasterization regularly tend to repeat the same advice. Here it is.
+
+1. Reach for OpenGL first, and only then evaluate alternatives such as Vulkan.
+2. Test the case of real-time games early, before the design hardens.
+3. When something behaves strangely, revisit pixel coverage before anything else.
+4. Write down why you chose Rasterization so the next person understands the decision.
+5. Make sure you can draw simple shapes first to understand the pipeline.
+
+None of these tips needs special equipment, and all of them apply to user interfaces as well as to Rasterization in general.

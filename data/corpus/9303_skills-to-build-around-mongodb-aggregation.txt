@@ -1,0 +1,13 @@
+Skills to Build Around MongoDB Aggregation
+
+Knowing the definition of MongoDB Aggregation is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with pipeline stages and $match and $group, and able to explain them without notes.
+
+Hands-on practice: spend real time with MongoDB Compass on a MongoDB Aggregation task, and try at least one alternative such as mongosh.
+
+Judgment: learn to decide when MongoDB Aggregation fits a problem such as summarizing orders, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example an assembly line where each station filters or reshapes the parts.
+
+Habits: filter with $match as early as possible, and write down what you learn after each project.

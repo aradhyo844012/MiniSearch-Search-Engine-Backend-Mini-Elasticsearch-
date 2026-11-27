@@ -1,0 +1,9 @@
+Understanding Entity Component Systems Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture building characters from interchangeable parts snapped onto an ID tag.
+
+In that picture, entities is the first rule you follow, components is the next step, and systems and queries keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Entity Component Systems is a game architecture that builds objects from data components processed by systems, and it involves details such as overengineering small games that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Bevy to learn the exact behavior. The same picture helps when you explain large simulations to a friend.

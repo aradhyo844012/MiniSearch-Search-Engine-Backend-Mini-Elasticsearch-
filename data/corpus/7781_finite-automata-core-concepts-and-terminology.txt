@@ -1,0 +1,10 @@
+Finite Automata: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Finite Automata with confidence. The subject itself is simple abstract machines that read input and move between a fixed set of states.
+
+states: one of the building blocks of Finite Automata. Documentation for JFLAP usually mentions it early.
+transitions: one of the building blocks of Finite Automata. It shows up whenever you work on tokenizers.
+accepting states: one of the building blocks of Finite Automata. You should be able to explain it in a single sentence before moving on.
+regular languages: one of the building blocks of Finite Automata. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Finite Automata terms in sentences about pattern matching. If the sentences feel natural, the vocabulary has stuck.

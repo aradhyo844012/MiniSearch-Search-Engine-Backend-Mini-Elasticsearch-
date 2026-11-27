@@ -1,0 +1,11 @@
+Practice Exercises for Reverse Proxies
+
+These exercises build real understanding of Reverse Proxies. Do them in order, and write down your answers.
+
+Exercise 1: Pick NGINX and complete its getting-started tutorial.
+Exercise 2: List three situations from your own experience that resemble hiding backend servers or terminating HTTPS.
+Exercise 3: Explain how TLS termination and caching differ, using a drawing.
+Exercise 4: Write a short paragraph describing Reverse Proxies and include the term upstream servers.
+Exercise 5: Compare Caddy and HAProxy for routing requests to several apps and write down your conclusion.
+
+When you finish, compare your answers with the definition: Reverse Proxies is servers that sit in front of applications and forward client requests to them.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with High Availability Design
+
+This path is for a learner who has never studied High Availability Design before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (High Availability Design is designing systems so they keep working when parts fail) and learn redundancy and failover.
+
+Stage 2, hands-on: install load balancers, follow a tutorial, and build a small example involving online stores.
+
+Stage 3, depth: study health checks and no single point of failure, then deliberately explore this problem: hidden single points of failure.
+
+Stage 4, application: apply High Availability Design to banking systems, compare Kubernetes with Patroni, and write up your results.
+
+Stage 5, review: teach High Availability Design to someone else, and then move on to AWS IAM Roles and Policies.

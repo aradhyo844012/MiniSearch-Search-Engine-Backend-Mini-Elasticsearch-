@@ -1,0 +1,11 @@
+Is Finite Automata Right for Your Project?
+
+Before adopting Finite Automata, ask whether it fits the problem. Remember that Finite Automata is simple abstract machines that read input and move between a fixed set of states.
+
+It is a good fit when your work involves tokenizers or pattern matching, and when your team understands states.
+
+Be cautious when the project is very small, when deadlines leave no room to learn transitions, or when you cannot manage these risks: missing transitions, confusing deterministic and non-deterministic machines, and state explosion.
+
+A simple decision test: write down the problem in one sentence, then check whether accepting states and regular languages are part of the answer. If they are, Finite Automata is probably worth a closer look.
+
+If you decide to go ahead, start small with protocol design and draw the state diagram before writing any code.

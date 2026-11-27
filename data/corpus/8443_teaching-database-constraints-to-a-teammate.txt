@@ -1,0 +1,13 @@
+Teaching Database Constraints to a Teammate
+
+Explaining Database Constraints to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: guard rails along a mountain road. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Database Constraints is rules the database enforces to keep stored data valid. Avoid jargon at this stage.
+
+Walk through an example involving preventing bad data, naming primary keys and foreign keys as they come up.
+
+Ask your teammate to explain unique constraints in Database Constraints back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, skipping constraints for speed, and suggest this habit: put critical rules in the database as well as in the app.

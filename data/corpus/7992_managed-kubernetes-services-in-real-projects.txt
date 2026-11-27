@@ -1,0 +1,11 @@
+Managed Kubernetes Services in Real Projects
+
+Reading about Managed Kubernetes Services is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: running containerized apps. Here, the control plane drives the main design choices, and the team needs to guard against neglecting version upgrades.
+
+Scenario two: scaling services. This time node pools matters most, and tools such as Amazon EKS help keep things manageable.
+
+Scenario three: reducing operations work. The key idea is upgrades, and the biggest risk is oversized node pools.
+
+Across all three scenarios, Managed Kubernetes Services stays the same idea: cloud services that run the Kubernetes control plane for you. Only the details change.

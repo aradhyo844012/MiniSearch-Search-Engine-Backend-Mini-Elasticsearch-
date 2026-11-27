@@ -1,0 +1,13 @@
+Teaching Cron Jobs and Scheduling to a Teammate
+
+Explaining Cron Jobs and Scheduling to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an alarm clock that starts chores for you. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times. Avoid jargon at this stage.
+
+Walk through an example involving nightly backups, naming crontab syntax and schedule fields as they come up.
+
+Ask your teammate to explain environment differences in Cron Jobs and Scheduling back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, assuming cron has your shell environment, and suggest this habit: redirect output to a log file and use absolute paths.

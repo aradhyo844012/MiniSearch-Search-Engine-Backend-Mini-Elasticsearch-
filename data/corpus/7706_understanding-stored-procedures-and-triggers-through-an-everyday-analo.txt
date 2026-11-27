@@ -1,0 +1,9 @@
+Understanding Stored Procedures and Triggers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a house rule that fires automatically whenever something is placed on a shelf.
+
+In that picture, procedures is the first rule you follow, triggers is the next step, and parameters and side effects keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes, and it involves details such as hidden logic that surprises developers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PL/pgSQL to learn the exact behavior. The same picture helps when you explain enforcing rules close to the data to a friend.

@@ -1,0 +1,12 @@
+Questions to Ask About Shaders in Code Review
+
+Reviewing code that involves Shaders is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of lighting effects correctly?
+- Have we considered branches that slow the GPU?
+- Is GLSL used consistently, or are we mixing approaches?
+- Could we start from a minimal shader and add one effect at a time?
+- Does this change respect vertex shaders, or does it work around it?
+- Is fragment shaders clear to someone reading the code for the first time?
+
+Good reviews of work on Shaders are specific, kind and focused on uniforms, not on personal style.

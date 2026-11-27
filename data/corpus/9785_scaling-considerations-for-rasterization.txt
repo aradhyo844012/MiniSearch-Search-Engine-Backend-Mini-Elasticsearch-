@@ -1,0 +1,11 @@
+Scaling Considerations for Rasterization
+
+A design that works for a classroom project can behave very differently under real load. Here is how Rasterization changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding triangles and getting real-time games right.
+
+Medium scale: problems start to appear. Watch for aliasing along edges and overdraw, and measure with OpenGL before changing anything.
+
+Large scale: the depth buffer and interpolation move from background details to central design questions. Teams often revisit their choices around user interfaces at this stage.
+
+Before you scale, draw simple shapes first to understand the pipeline. It is cheaper to build that habit early than to fix a crisis later.

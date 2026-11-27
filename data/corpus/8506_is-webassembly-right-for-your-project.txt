@@ -1,0 +1,11 @@
+Is WebAssembly Right for Your Project?
+
+Before adopting WebAssembly, ask whether it fits the problem. Remember that WebAssembly is a compact binary format that lets code written in many languages run fast in browsers.
+
+It is a good fit when your work involves running heavy computation in the browser or porting existing C or Rust code, and when your team understands modules.
+
+Be cautious when the project is very small, when deadlines leave no room to learn linear memory, or when you cannot manage these risks: crossing the JavaScript boundary too often, large binaries, and limited access to browser APIs.
+
+A simple decision test: write down the problem in one sentence, then check whether imports and exports and the JavaScript bridge are part of the answer. If they are, WebAssembly is probably worth a closer look.
+
+If you decide to go ahead, start small with games and image tools and measure before moving code to WebAssembly.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Database Constraints
+
+This path is for a learner who has never studied Database Constraints before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Database Constraints is rules the database enforces to keep stored data valid) and learn primary keys and foreign keys.
+
+Stage 2, hands-on: install PostgreSQL, follow a tutorial, and build a small example involving preventing bad data.
+
+Stage 3, depth: study unique constraints and check constraints, then deliberately explore this problem: skipping constraints for speed.
+
+Stage 4, application: apply Database Constraints to protecting relationships, compare SQLite with ER diagram tools, and write up your results.
+
+Stage 5, review: teach Database Constraints to someone else, and then move on to NULL Handling in SQL.

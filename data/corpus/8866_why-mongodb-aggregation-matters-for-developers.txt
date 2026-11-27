@@ -1,0 +1,11 @@
+Why MongoDB Aggregation Matters for Developers
+
+Developers who understand MongoDB Aggregation make better decisions, because MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+
+Three situations show why it matters. First, summarizing orders. Second, building analytics queries. Third, reshaping documents. In each case, a solid grasp of pipeline stages and $match and $group separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: putting $match late, huge intermediate results, and hitting memory limits.
+
+Good tools exist, including MongoDB Compass, mongosh, and PyMongo, so you rarely have to start from nothing.
+
+Connect MongoDB Aggregation with Database Constraints to see the bigger picture of SQL and Data Practice.

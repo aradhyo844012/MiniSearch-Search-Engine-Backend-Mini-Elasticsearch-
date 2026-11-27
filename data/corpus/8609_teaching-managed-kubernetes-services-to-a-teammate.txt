@@ -1,0 +1,13 @@
+Teaching Managed Kubernetes Services to a Teammate
+
+Explaining Managed Kubernetes Services to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: renting an apartment building where the landlord handles the plumbing. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Managed Kubernetes Services is cloud services that run the Kubernetes control plane for you. Avoid jargon at this stage.
+
+Walk through an example involving running containerized apps, naming the control plane and node pools as they come up.
+
+Ask your teammate to explain upgrades in Managed Kubernetes Services back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, neglecting version upgrades, and suggest this habit: plan regular cluster upgrades.

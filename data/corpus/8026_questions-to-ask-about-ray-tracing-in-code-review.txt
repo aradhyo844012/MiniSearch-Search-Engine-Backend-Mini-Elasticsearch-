@@ -1,0 +1,12 @@
+Questions to Ask About Ray Tracing in Code Review
+
+Reviewing code that involves Ray Tracing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Blender Cycles used consistently, or are we mixing approaches?
+- Have we avoided this problem: numerical precision errors?
+- Does this change respect rays, or does it work around it?
+- Could we start with spheres and a single light before adding features?
+- Does the code handle the case of movie visuals correctly?
+- Would a test catch noise from too few samples if it appeared later?
+
+Good reviews of work on Ray Tracing are specific, kind and focused on reflection and refraction, not on personal style.

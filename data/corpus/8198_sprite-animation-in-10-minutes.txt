@@ -1,0 +1,15 @@
+Sprite Animation in 10 Minutes
+
+You have ten minutes, so here is the fast route through Sprite Animation.
+
+Minutes 1 and 2, the definition: Sprite Animation is showing a sequence of 2D images quickly to make a character appear to move.
+
+Minutes 3 and 4, the vocabulary: learn sprite sheets, frames, frame rate, and animation states.
+
+Minutes 5 and 6, the picture: imagine a flip book drawn one page at a time. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through 2D platformers, user interface effects, and visual novels.
+
+Minutes 9 and 10, the traps and the tools: watch for inconsistent frame timing and huge uncompressed sheets, then try Aseprite for a first experiment.
+
+If you have a spare minute, remember to pack frames into one sprite sheet to reduce draw calls.

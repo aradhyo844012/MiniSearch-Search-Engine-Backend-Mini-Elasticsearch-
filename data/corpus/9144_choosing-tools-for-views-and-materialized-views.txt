@@ -1,0 +1,11 @@
+Choosing Tools for Views and Materialized Views
+
+There is no single best tool for Views and Materialized Views. The right choice depends on your project, your team and your timeline.
+
+PostgreSQL is a common first choice, especially for simplifying repeated queries. MySQL suits teams that already work with similar technology, and Snowflake is worth a look when you need something different.
+
+Judge any tool for Views and Materialized Views by four questions: Is the documentation clear? Is the community active? Does it handle hiding sensitive columns well? Can you leave it later if you need to?
+
+Whichever tool you pick for Views and Materialized Views, test it on a small problem first, and watch for this: stale materialized data.
+
+As a rule of thumb, document how and when each materialized view is refreshed, no matter which tool you use.

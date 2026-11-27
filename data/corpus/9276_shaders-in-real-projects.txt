@@ -1,0 +1,11 @@
+Shaders in Real Projects
+
+Reading about Shaders is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: lighting effects. Here, vertex shaders drives the main design choices, and the team needs to guard against branches that slow the GPU.
+
+Scenario two: water and fire visuals. This time fragment shaders matters most, and tools such as GLSL help keep things manageable.
+
+Scenario three: post-processing. The key idea is uniforms, and the biggest risk is precision errors.
+
+Across all three scenarios, Shaders stays the same idea: small programs that run on the graphics card to control how things are drawn. Only the details change.

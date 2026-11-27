@@ -1,0 +1,11 @@
+Scaling Considerations for Responsible AI and Bias
+
+A design that works for a classroom project can behave very differently under real load. Here is how Responsible AI and Bias changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding bias in data and getting hiring tools right.
+
+Medium scale: problems start to appear. Watch for assuming data is neutral and testing only on average performance, and measure with Fairlearn before changing anything.
+
+Large scale: transparency and human oversight move from background details to central design questions. Teams often revisit their choices around lending models at this stage.
+
+Before you scale, test performance separately for different groups. It is cheaper to build that habit early than to fix a crisis later.

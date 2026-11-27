@@ -1,0 +1,12 @@
+Questions to Ask About Vector Graphics (SVG) in Code Review
+
+Reviewing code that involves Vector Graphics (SVG) is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Inkscape used consistently, or are we mixing approaches?
+- Does the code handle the case of logos correctly?
+- Would a test catch a missing viewBox if it appeared later?
+- Is the viewBox clear to someone reading the code for the first time?
+- Have we avoided this problem: inconsistent stroke widths?
+- Have we considered overly complex paths?
+
+Good reviews of work on Vector Graphics (SVG) are specific, kind and focused on fill and stroke, not on personal style.

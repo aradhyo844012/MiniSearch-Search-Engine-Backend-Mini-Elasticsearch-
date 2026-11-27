@@ -1,0 +1,11 @@
+Anomaly Detection in Real Projects
+
+Reading about Anomaly Detection is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: fraud detection. Here, baselines drives the main design choices, and the team needs to guard against too many false alarms.
+
+Scenario two: server monitoring. This time thresholds matters most, and tools such as scikit-learn help keep things manageable.
+
+Scenario three: manufacturing quality. The key idea is isolation methods, and the biggest risk is shifting baselines.
+
+Across all three scenarios, Anomaly Detection stays the same idea: finding data points or events that differ sharply from normal behavior. Only the details change.

@@ -1,0 +1,12 @@
+Questions to Ask About Database Schema Design for Beginners in Code Review
+
+Reviewing code that involves Database Schema Design for Beginners is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is dbdiagram.io used consistently, or are we mixing approaches?
+- Does the code handle the case of starting new projects correctly?
+- Is relationships clear to someone reading the code for the first time?
+- Have we considered storing lists in a single column?
+- Could we write down the main queries before finalizing the tables?
+- Would a test catch unclear names if it appeared later?
+
+Good reviews of work on Database Schema Design for Beginners are specific, kind and focused on keys, not on personal style.

@@ -1,0 +1,11 @@
+Blockchain Fundamentals in Real Projects
+
+Reading about Blockchain Fundamentals is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: digital currencies. Here, blocks drives the main design choices, and the team needs to guard against treating it as a database replacement.
+
+Scenario two: supply chain tracking. This time hashes matters most, and tools such as Bitcoin Core help keep things manageable.
+
+Scenario three: public records. The key idea is consensus, and the biggest risk is slow throughput.
+
+Across all three scenarios, Blockchain Fundamentals stays the same idea: a shared ledger where blocks of records are chained together using cryptographic hashes. Only the details change.

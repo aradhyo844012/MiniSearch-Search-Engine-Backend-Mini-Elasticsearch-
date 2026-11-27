@@ -1,0 +1,11 @@
+AI Agents in Real Projects
+
+Reading about AI Agents is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: research assistants. Here, planning drives the main design choices, and the team needs to guard against runaway loops.
+
+Scenario two: workflow automation. This time tool calls matters most, and tools such as LangGraph help keep things manageable.
+
+Scenario three: customer support. The key idea is memory, and the biggest risk is unchecked tool permissions.
+
+Across all three scenarios, AI Agents stays the same idea: software systems that use a language model to plan steps and call tools to reach a goal. Only the details change.

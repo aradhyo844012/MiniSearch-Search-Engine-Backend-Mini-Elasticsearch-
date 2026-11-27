@@ -1,0 +1,17 @@
+Robotics and ROS for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Robotics and ROS.
+
+Learning goals:
+1. Explain Robotics and ROS in your own words.
+2. Describe sensors, actuators, nodes and topics, and control loops.
+3. Give examples from warehouse robots and drones.
+4. Name three problems to watch for.
+
+Start with the definition: Robotics and ROS is building machines that sense and act, often using the Robot Operating System to connect their software. Then draw a body with senses and muscles controlled by a nervous system of messages on paper and label the four terms from the goals above.
+
+Self-test questions: Why is ignoring sensor noise a problem? How does actuators relate to nodes and topics? When would you choose ROS 2 or Gazebo?
+
+Study habit worth keeping: test in simulation before moving real hardware.
+
+When you feel ready, compare Robotics and ROS with Wearable Technology and write down three differences.

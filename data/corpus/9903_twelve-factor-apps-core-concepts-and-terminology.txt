@@ -1,0 +1,10 @@
+Twelve-Factor Apps: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Twelve-Factor Apps with confidence. The subject itself is a set of twelve guidelines for building apps that deploy and scale cleanly.
+
+config in the environment: one of the building blocks of Twelve-Factor Apps. You should be able to explain it in a single sentence before moving on.
+stateless processes: one of the building blocks of Twelve-Factor Apps. Documentation for Heroku usually mentions it early.
+backing services: one of the building blocks of Twelve-Factor Apps. Documentation for Heroku usually mentions it early.
+disposability: one of the building blocks of Twelve-Factor Apps. It shows up whenever you work on building web services.
+
+Practice using these four Twelve-Factor Apps terms in sentences about deploying to platforms. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,13 @@
+Debugging Blockchain Fundamentals: A Field Guide
+
+When something goes wrong around Blockchain Fundamentals, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: treating it as a database replacement, slow throughput, and the energy use of some designs.
+Step 3: revisit blocks and hashes, since misunderstandings there cause many bugs.
+Step 4: use Bitcoin Core or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Blockchain Fundamentals in work such as digital currencies come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, ask whether a normal database would solve the problem. It prevents a surprising number of repeat problems.

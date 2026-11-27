@@ -1,0 +1,26 @@
+Everything You Need to Know About Procedural Generation
+
+This page collects the essentials about Procedural Generation in one place. In short, Procedural Generation is creating game content such as levels and terrain automatically with algorithms.
+
+Core concepts:
+- random seeds
+- noise functions
+- rules and constraints
+- reproducibility
+
+Where it is used:
+- roguelike dungeons
+- infinite terrain
+- varied item drops
+
+Common problems:
+- levels that are unfair or unwinnable
+- repetitive results
+- bugs that cannot be reproduced without seeds
+
+Tools to know:
+- Perlin noise
+- Wave Function Collapse
+- Unity
+
+Remember this above all: a chef inventing endless dishes from a fixed set of ingredients is a good way to picture it, and the best habit is to log the seed so any generated level can be reproduced.

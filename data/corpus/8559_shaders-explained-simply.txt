@@ -1,0 +1,13 @@
+Shaders Explained Simply
+
+Here is Shaders without the jargon: it is small programs that run on the graphics card to control how things are drawn.
+
+Think of Shaders as a tiny painter that colors each pixel following your instructions. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: vertex shaders, fragment shaders, uniforms, and GLSL. You do not need to master them all at once. Start with vertex shaders, then add fragment shaders.
+
+You will meet Shaders in work such as lighting effects, water and fire visuals, and post-processing.
+
+One practical tip is to start from a minimal shader and add one effect at a time.
+
+Once Shaders feels comfortable, read about Entity Component Systems, which lives in the same neighborhood of ideas.

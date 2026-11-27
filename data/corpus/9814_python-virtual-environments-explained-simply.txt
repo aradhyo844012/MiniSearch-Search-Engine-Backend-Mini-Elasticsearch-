@@ -1,0 +1,13 @@
+Python Virtual Environments Explained Simply
+
+Here is Python Virtual Environments without the jargon: it is isolated folders that hold a project's own Python packages.
+
+Think of Python Virtual Environments as a separate toolbox for each project. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: venv, pip, requirements files, and activation. You do not need to master them all at once. Start with venv, then add pip.
+
+People reach for Python Virtual Environments when they work on keeping projects separate, reproducing setups, and testing against different versions.
+
+One practical tip is to create one environment per project and record its requirements.
+
+Once Python Virtual Environments feels comfortable, read about Monorepos, which lives in the same neighborhood of ideas.

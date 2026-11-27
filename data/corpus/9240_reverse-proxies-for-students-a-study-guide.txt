@@ -1,0 +1,17 @@
+Reverse Proxies for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Reverse Proxies.
+
+Learning goals:
+1. Explain Reverse Proxies in your own words.
+2. Describe upstream servers, proxy headers, TLS termination, and caching.
+3. Give examples from hiding backend servers and terminating HTTPS.
+4. Name three problems to watch for.
+
+Start with the definition: Reverse Proxies is servers that sit in front of applications and forward client requests to them. Then draw a hotel front desk that routes guests to the right room on paper and label the four terms from the goals above.
+
+Self-test questions: Why is losing the client IP address a problem? How does proxy headers relate to TLS termination? When would you choose NGINX or Caddy?
+
+Study habit: forward the real client IP in a trusted header.
+
+When you feel ready, compare Reverse Proxies with Wi-Fi Networks and write down three differences.

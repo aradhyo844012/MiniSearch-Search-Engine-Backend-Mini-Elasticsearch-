@@ -1,0 +1,15 @@
+The Pros and Cons of Robotics and ROS
+
+No technology is free of trade-offs, and Robotics and ROS is no exception. Here is an honest summary.
+
+Advantages:
+- Supports warehouse robots
+- Makes drones easier
+- Helps with educational robots
+
+Drawbacks and risks:
+- Risk: ignoring sensor noise
+- Risk: unsafe motion commands
+- Risk: tight coupling between nodes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as warehouse robots, and you can manage the risks, Robotics and ROS is a sound choice. Whatever you decide, test in simulation before moving real hardware.

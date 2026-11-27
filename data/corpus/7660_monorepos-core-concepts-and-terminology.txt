@@ -1,0 +1,10 @@
+Monorepos: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Monorepos with confidence. The subject itself is single repositories that hold the code for many projects.
+
+shared tooling: one of the building blocks of Monorepos. Mixing it up with neighboring terms is a common source of confusion.
+code ownership: one of the building blocks of Monorepos. You should be able to explain it in a single sentence before moving on.
+selective builds: one of the building blocks of Monorepos. You should be able to explain it in a single sentence before moving on.
+atomic changes: one of the building blocks of Monorepos. Documentation for Nx usually mentions it early.
+
+Practice using these four Monorepos terms in sentences about coordinated refactors. If the sentences feel natural, the vocabulary has stuck.

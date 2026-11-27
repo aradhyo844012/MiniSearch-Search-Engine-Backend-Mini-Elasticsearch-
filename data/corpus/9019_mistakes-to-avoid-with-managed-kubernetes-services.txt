@@ -1,0 +1,11 @@
+Mistakes to Avoid with Managed Kubernetes Services
+
+Everyone learns Managed Kubernetes Services partly through mistakes. Here are three worth avoiding.
+
+Mistake one: neglecting version upgrades. It usually appears when someone skips the control plane and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: oversized node pools. It tends to be noticed late, often during testing of running containerized apps. A short checklist during review catches it early.
+
+Mistake three: costly idle clusters. It is easy to miss because everything seems to work at first. Keep an eye on integrated load balancers to spot it.
+
+If you remember only one rule, make it this: plan regular cluster upgrades.

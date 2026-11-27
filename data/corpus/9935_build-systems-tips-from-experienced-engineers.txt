@@ -1,0 +1,11 @@
+Build Systems Tips from Experienced Engineers
+
+Engineers who work with Build Systems regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can make builds reproducible on any machine.
+2. Reach for Make first, and only then evaluate alternatives such as Gradle.
+3. Be careful with this one: slow full rebuilds.
+4. Write down why you chose Build Systems so the next person understands the decision.
+5. Do not skip targets; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to packaging software as well as to Build Systems in general.

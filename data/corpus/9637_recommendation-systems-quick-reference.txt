@@ -1,0 +1,15 @@
+Recommendation Systems Quick Reference
+
+A one-screen reminder for Recommendation Systems. Bookmark it and return when the details fade.
+
+What it is: systems that suggest items a user is likely to want.
+Key terms: collaborative filtering, content-based filtering, ranking, and the cold start problem.
+Typical uses: streaming services, online shops, and news feeds.
+Risks: feedback loops, popularity bias, and ignoring new users.
+Tools: Surprise, implicit, and TensorFlow Recommenders.
+
+Mental picture: a shopkeeper who remembers what similar customers liked.
+
+Habit to build: evaluate with held-out interactions, not training data.
+
+See also: Anomaly Detection, which sits close to Recommendation Systems in the area of AI Engineering and MLOps.

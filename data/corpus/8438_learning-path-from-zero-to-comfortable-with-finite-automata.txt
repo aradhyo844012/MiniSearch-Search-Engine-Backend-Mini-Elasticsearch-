@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Finite Automata
+
+This path is for a learner who has never studied Finite Automata before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Finite Automata is simple abstract machines that read input and move between a fixed set of states) and learn states and transitions.
+
+Stage 2, hands-on: install JFLAP, follow a tutorial, and build a small example involving tokenizers.
+
+Stage 3, depth: study accepting states and regular languages, then deliberately explore this problem: missing transitions.
+
+Stage 4, application: apply Finite Automata to pattern matching, compare Python dictionaries with regex engines, and write up your results.
+
+Stage 5, review: teach Finite Automata to someone else, and then move on to Floating-Point Arithmetic.

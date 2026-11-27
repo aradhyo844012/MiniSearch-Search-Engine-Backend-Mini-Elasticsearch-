@@ -1,0 +1,11 @@
+Scaling Considerations for Computer Vision Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Computer Vision Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding pixels and getting face detection right.
+
+Medium scale: problems start to appear. Watch for lighting changes and biased datasets, and measure with OpenCV before changing anything.
+
+Large scale: feature detection and classification move from background details to central design questions. Teams often revisit their choices around document scanning at this stage.
+
+Before you scale, visualize intermediate steps such as edges or masks. It is cheaper to build that habit early than to fix a crisis later.

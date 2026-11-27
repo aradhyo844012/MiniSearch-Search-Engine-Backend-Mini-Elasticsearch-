@@ -1,0 +1,13 @@
+Debugging Linux File Permissions: A Field Guide
+
+When something goes wrong around Linux File Permissions, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using chmod 777 as a quick fix, wrong ownership after copying files, and forgetting directory execute bits.
+Step 3: revisit owner, group and others and mode bits, since misunderstandings there cause many bugs.
+Step 4: use ls -l or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Linux File Permissions in work such as protecting private keys come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, grant the least permission that works. It prevents a surprising number of repeat problems.

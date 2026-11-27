@@ -1,0 +1,12 @@
+Questions to Ask About Information Theory and Entropy in Code Review
+
+Reviewing code that involves Information Theory and Entropy is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: misreading entropy values?
+- Is the Python math module used consistently, or are we mixing approaches?
+- Could we compute the entropy of a short text by hand?
+- Would a test catch ignoring noise if it appeared later?
+- Does this change respect bits, or does it work around it?
+- Is entropy clear to someone reading the code for the first time?
+
+Good reviews of work on Information Theory and Entropy are specific, kind and focused on compression limits, not on personal style.

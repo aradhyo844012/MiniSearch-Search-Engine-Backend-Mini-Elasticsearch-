@@ -1,0 +1,17 @@
+Robotics and ROS Do's and Don'ts
+
+A quick list of habits for working with Robotics and ROS.
+
+Do:
+- Learn sensors before anything else.
+- Try ROS 2 on a small example.
+- Make it a habit to test in simulation before moving real hardware.
+- Test the case of warehouse robots early.
+
+Don't:
+- Ignore this: ignoring sensor noise.
+- Ignore this: unsafe motion commands.
+- Ignore this: tight coupling between nodes.
+- Adopt Robotics and ROS just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Robotics and ROS, a little patience with actuators pays off more than any clever shortcut.

@@ -1,0 +1,17 @@
+Disk Partitioning and Mounting Do's and Don'ts
+
+A quick list of habits for working with Disk Partitioning and Mounting.
+
+Do:
+- Learn partitions before anything else.
+- Try lsblk on a small example.
+- Make it a habit to double-check device names with lsblk before formatting.
+- Test the case of adding a new drive early.
+
+Don't:
+- Ignore this: wrong device names.
+- Ignore this: mounting without fstab entries.
+- Ignore this: formatting the wrong disk.
+- Adopt Disk Partitioning and Mounting just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Disk Partitioning and Mounting, a little patience with file system types pays off more than any clever shortcut.

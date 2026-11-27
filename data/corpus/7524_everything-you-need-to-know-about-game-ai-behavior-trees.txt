@@ -1,0 +1,26 @@
+Everything You Need to Know About Game AI Behavior Trees
+
+This page collects the essentials about Game AI Behavior Trees in one place. In short, Game AI Behavior Trees is tree-shaped plans that decide what a computer-controlled character does.
+
+Core concepts:
+- selector nodes
+- sequence nodes
+- conditions
+- actions
+
+Where it is used:
+- enemy behavior
+- companion characters
+- simulated crowds
+
+Common problems:
+- trees that become tangled
+- expensive conditions checked every frame
+- no way to debug decisions
+
+Tools to know:
+- Unreal Engine behavior trees
+- py_trees
+- Behavior Designer
+
+Remember this above all: a flowchart a character consults every moment before acting is a good way to picture it, and the best habit is to visualize the tree while the game is running.

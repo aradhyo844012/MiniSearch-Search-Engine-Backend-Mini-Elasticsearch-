@@ -1,0 +1,11 @@
+Scaling Considerations for Linear Algebra for Programmers
+
+A design that works for a classroom project can behave very differently under real load. Here is how Linear Algebra for Programmers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding vectors and getting 3D graphics right.
+
+Medium scale: problems start to appear. Watch for mixing row and column conventions and shape mismatches, and measure with NumPy before changing anything.
+
+Large scale: dot products and eigenvalues move from background details to central design questions. Teams often revisit their choices around machine learning at this stage.
+
+Before you scale, check shapes before multiplying. It is cheaper to build that habit early than to fix a crisis later.

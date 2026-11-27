@@ -1,0 +1,12 @@
+Rasterization Glossary for Beginners
+
+New words can make Rasterization feel harder than it is. This glossary keeps the key ones in one place.
+
+Rasterization: converting shapes described by geometry into pixels on the screen.
+triangles: a core term, most visible in real-time games.
+pixel coverage: a core term that beginners often confuse with the depth buffer.
+the depth buffer: a core term that connects to interpolation.
+interpolation: a core term worth revisiting after you try a real example.
+OpenGL: a tool commonly used for user interfaces.
+
+Come back to this Rasterization list whenever documentation for Vulkan uses a word you do not recognize.

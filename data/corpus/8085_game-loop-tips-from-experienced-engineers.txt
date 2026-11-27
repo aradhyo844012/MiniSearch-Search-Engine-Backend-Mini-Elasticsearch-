@@ -1,0 +1,11 @@
+Game Loop Tips from Experienced Engineers
+
+Engineers who work with Game Loop regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit the update step before anything else.
+2. Test the case of running every real-time game early, before the design hardens.
+3. Be careful with this one: tying logic to frame rate.
+4. Reach for Unity first, and only then evaluate alternatives such as Godot.
+5. Make sure you can use delta time so speed does not depend on frame rate.
+
+None of these tips needs special equipment, and all of them apply to keeping animation smooth as well as to Game Loop in general.

@@ -1,0 +1,13 @@
+Teaching Smart Contracts to a Teammate
+
+Explaining Smart Contracts to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a vending machine that follows its rules with no clerk. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Smart Contracts is programs stored on a blockchain that run automatically when conditions are met. Avoid jargon at this stage.
+
+Walk through an example involving token systems, naming contract code and transactions as they come up.
+
+Ask your teammate to explain gas fees in Smart Contracts back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, bugs that cannot be patched, and suggest this habit: audit and test contracts thoroughly before deployment.

@@ -1,0 +1,11 @@
+Scaling Considerations for Robotics and ROS
+
+A design that works for a classroom project can behave very differently under real load. Here is how Robotics and ROS changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding sensors and getting warehouse robots right.
+
+Medium scale: problems start to appear. Watch for ignoring sensor noise and unsafe motion commands, and measure with ROS 2 before changing anything.
+
+Large scale: nodes and topics and control loops move from background details to central design questions. Teams often revisit their choices around drones at this stage.
+
+Before you scale, test in simulation before moving real hardware. It is cheaper to build that habit early than to fix a crisis later.

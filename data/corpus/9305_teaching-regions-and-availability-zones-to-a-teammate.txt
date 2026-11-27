@@ -1,0 +1,13 @@
+Teaching Regions and Availability Zones to a Teammate
+
+Explaining Regions and Availability Zones to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: branches of a bank in different cities and different buildings. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources. Avoid jargon at this stage.
+
+Walk through an example involving placing services near users, naming regions and availability zones as they come up.
+
+Ask your teammate to explain latency in Regions and Availability Zones back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, putting everything in one zone, and suggest this habit: spread critical services across at least two zones.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Model Drift and Monitoring
+
+This page collects the essentials about Model Drift and Monitoring in one place. In short, Model Drift and Monitoring is watching deployed models for changes in data or performance over time.
+
+Core concepts:
+- data drift
+- concept drift
+- performance metrics
+- alerts
+
+Where it is used:
+- catching degrading models
+- scheduling retraining
+- keeping predictions trustworthy
+
+Common problems:
+- monitoring only system health
+- having no ground truth labels
+- alert fatigue
+
+Tools to know:
+- Evidently
+- Prometheus
+- Grafana
+
+Remember this above all: checking a car's gauges on a long trip is a good way to picture it, and the best habit is to monitor input data as well as accuracy.

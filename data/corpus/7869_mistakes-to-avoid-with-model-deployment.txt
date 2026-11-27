@@ -1,0 +1,11 @@
+Mistakes to Avoid with Model Deployment
+
+Everyone learns Model Deployment partly through mistakes. Here are three worth avoiding.
+
+Mistake one: training-serving mismatch. It usually appears when someone skips serving APIs and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: slow cold starts. It tends to be noticed late, often during testing of recommendation endpoints. A short checklist during review catches it early.
+
+Mistake three: no fallback when the model fails. It is easy to miss because everything seems to work at first. Keep an eye on latency budgets to spot it.
+
+If you remember only one rule, make it this: log inputs and outputs so predictions can be audited.

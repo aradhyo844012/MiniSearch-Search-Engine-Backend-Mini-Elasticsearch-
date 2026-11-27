@@ -1,0 +1,11 @@
+API Gateways in Real Projects
+
+Reading about API Gateways is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: exposing microservices. Here, routing drives the main design choices, and the team needs to guard against a single point of failure.
+
+Scenario two: securing public APIs. This time authentication matters most, and tools such as Kong help keep things manageable.
+
+Scenario three: collecting usage metrics. The key idea is rate limits, and the biggest risk is business logic leaking into the gateway.
+
+Across all three scenarios, API Gateways stays the same idea: services that sit in front of APIs to handle routing, authentication and limits. Only the details change.

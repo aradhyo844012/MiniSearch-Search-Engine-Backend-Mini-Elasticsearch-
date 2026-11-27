@@ -1,0 +1,17 @@
+NAT for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover NAT.
+
+Learning goals:
+1. Explain NAT in your own words.
+2. Describe private addresses, translation tables, port mapping, and port forwarding.
+3. Give examples from home routers and sharing limited IPv4 addresses.
+4. Name three problems to watch for.
+
+Start with the definition: NAT is a technique that lets many devices share one public IP address by rewriting addresses. Then draw a receptionist who forwards calls for many desks through one phone number on paper and label the four terms from the goals above.
+
+Self-test questions: Why is breaking peer-to-peer connections a problem? How does translation tables relate to port mapping? When would you choose iptables or router admin pages?
+
+Study habit worth keeping: document every port forward you create.
+
+When you feel ready, compare NAT with VPNs and write down three differences.

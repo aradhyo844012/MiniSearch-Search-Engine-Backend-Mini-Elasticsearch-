@@ -1,0 +1,15 @@
+Biometric Authentication in 10 Minutes
+
+You have ten minutes, so here is the fast route through Biometric Authentication.
+
+Minutes 1 and 2, the definition: Biometric Authentication is verifying identity using traits such as fingerprints, faces or voices.
+
+Minutes 3 and 4, the vocabulary: learn enrollment, matching, false accept and false reject rates, and liveness detection.
+
+Minutes 5 and 6, the picture: imagine a door that recognizes you by your face instead of a key. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through phone unlock, building access, and payment approval.
+
+Minutes 9 and 10, the traps and the tools: watch for spoofing attacks and biased recognition, then try Android BiometricPrompt for a first experiment.
+
+If you have a spare minute, remember to offer a fallback method and protect the stored templates.

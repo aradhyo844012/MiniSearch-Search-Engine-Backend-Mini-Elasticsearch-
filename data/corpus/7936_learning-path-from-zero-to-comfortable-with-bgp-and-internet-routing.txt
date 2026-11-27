@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with BGP and Internet Routing
+
+This path is for a learner who has never studied BGP and Internet Routing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (BGP and Internet Routing is the protocol networks use to tell each other which addresses they can reach) and learn autonomous systems and route announcements.
+
+Stage 2, hands-on: install bgpq4, follow a tutorial, and build a small example involving connecting ISPs.
+
+Stage 3, depth: study peering and path selection, then deliberately explore this problem: route leaks.
+
+Stage 4, application: apply BGP and Internet Routing to directing traffic between large networks, compare BIRD with RIPE Stat, and write up your results.
+
+Stage 5, review: teach BGP and Internet Routing to someone else, and then move on to VPNs.

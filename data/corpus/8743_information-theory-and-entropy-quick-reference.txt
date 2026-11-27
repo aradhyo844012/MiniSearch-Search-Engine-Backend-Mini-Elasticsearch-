@@ -1,0 +1,15 @@
+Information Theory and Entropy Quick Reference
+
+A one-screen reminder for Information Theory and Entropy. Bookmark it and return when the details fade.
+
+What it is: the mathematics of measuring and compressing information.
+Key terms: bits, entropy, compression limits, and noise.
+Typical uses: data compression, error-correcting codes, and communication systems.
+Risks: confusing information with meaning, ignoring noise, and misreading entropy values.
+Tools: the Python math module, NumPy, and zlib.
+
+Mental picture: measuring how surprised you are by each new message.
+
+Habit to build: compute the entropy of a short text by hand.
+
+See also: Floating-Point Arithmetic, which sits close to Information Theory and Entropy in the area of Mathematics for Computing.

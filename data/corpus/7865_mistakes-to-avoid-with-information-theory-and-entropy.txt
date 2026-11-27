@@ -1,0 +1,11 @@
+Mistakes to Avoid with Information Theory and Entropy
+
+Everyone learns Information Theory and Entropy partly through mistakes. Here are three worth avoiding.
+
+Mistake one: confusing information with meaning. It usually appears when someone skips bits and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring noise. It tends to be noticed late, often during testing of data compression. A short checklist during review catches it early.
+
+Mistake three: misreading entropy values. It is easy to miss because everything seems to work at first. Keep an eye on noise to spot it.
+
+If you remember only one rule, make it this: compute the entropy of a short text by hand.

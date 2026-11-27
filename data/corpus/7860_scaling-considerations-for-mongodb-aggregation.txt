@@ -1,0 +1,11 @@
+Scaling Considerations for MongoDB Aggregation
+
+A design that works for a classroom project can behave very differently under real load. Here is how MongoDB Aggregation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding pipeline stages and getting summarizing orders right.
+
+Medium scale: problems start to appear. Watch for putting $match late and huge intermediate results, and measure with MongoDB Compass before changing anything.
+
+Large scale: projection and indexes move from background details to central design questions. Teams often revisit their choices around building analytics queries at this stage.
+
+Before you scale, filter with $match as early as possible. It is cheaper to build that habit early than to fix a crisis later.

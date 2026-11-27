@@ -1,0 +1,11 @@
+Is DHCP Right for Your Project?
+
+Before adopting DHCP, ask whether it fits the problem. Remember that DHCP is a service that automatically gives devices IP addresses and network settings.
+
+It is a good fit when your work involves home and office networks or guest Wi-Fi, and when your team understands leases.
+
+Be cautious when the project is very small, when deadlines leave no room to learn address pools, or when you cannot manage these risks: rogue DHCP servers, exhausted address pools, and conflicting static addresses.
+
+A simple decision test: write down the problem in one sentence, then check whether reservations and discover and offer messages are part of the answer. If they are, DHCP is probably worth a closer look.
+
+If you decide to go ahead, start small with booting machines over a network and reserve fixed addresses for servers and printers.

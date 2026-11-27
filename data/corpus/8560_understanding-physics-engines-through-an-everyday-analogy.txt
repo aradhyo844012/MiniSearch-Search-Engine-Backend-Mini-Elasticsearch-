@@ -1,0 +1,9 @@
+Understanding Physics Engines Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a stage manager who enforces gravity on every prop.
+
+In that picture, rigid bodies is the first rule you follow, forces and impulses is the next step, and constraints and fixed time steps keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Physics Engines is software that simulates forces, motion and collisions of objects, and it involves details such as variable time steps that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Box2D to learn the exact behavior. The same picture helps when you explain vehicles and ragdolls to a friend.

@@ -1,0 +1,17 @@
+Computer Vision Basics Do's and Don'ts
+
+A quick list of habits for working with Computer Vision Basics.
+
+Do:
+- Learn pixels before anything else.
+- Try OpenCV on a small example.
+- Make it a habit to visualize intermediate steps such as edges or masks.
+- Test the case of face detection early.
+
+Don't:
+- Ignore this: lighting changes.
+- Ignore this: biased datasets.
+- Ignore this: overfitting to a small set of photos.
+- Adopt Computer Vision Basics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Computer Vision Basics, a little patience with filters and edges pays off more than any clever shortcut.

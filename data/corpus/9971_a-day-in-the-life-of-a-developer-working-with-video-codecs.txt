@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Video Codecs
+
+This is a fictional but realistic day for a developer whose project relies on Video Codecs.
+
+Morning: Karthik starts by reviewing a ticket about streaming services. Before touching any code, Karthik re-reads the notes on frames to make sure the plan is sound.
+
+Midday: Karthik pairs with a teammate to explore motion compensation with FFmpeg. A small test exposes the problem of mismatched codec support, and they fix it together.
+
+Afternoon: the team discusses a new request involving video calls. Karthik sketches a flip book that only redraws what changed between pages on the whiteboard to help everyone follow the idea.
+
+End of day: Karthik writes a short note describing what changed and adds a reminder to test playback on the weakest target device.
+
+Days like this are typical. Video Codecs is not glamorous, but understanding it keeps small problems from growing.

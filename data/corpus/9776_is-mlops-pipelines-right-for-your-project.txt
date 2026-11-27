@@ -1,0 +1,11 @@
+Is MLOps Pipelines Right for Your Project?
+
+Before adopting MLOps Pipelines, ask whether it fits the problem. Remember that MLOps Pipelines is automated workflows that train, test, deploy and monitor machine learning models.
+
+It is a good fit when your work involves repeatable model releases or tracking experiments, and when your team understands data versioning.
+
+Be cautious when the project is very small, when deadlines leave no room to learn training pipelines, or when you cannot manage these risks: untracked data changes, manual deployment steps, and no testing of data.
+
+A simple decision test: write down the problem in one sentence, then check whether the model registry and continuous delivery are part of the answer. If they are, MLOps Pipelines is probably worth a closer look.
+
+If you decide to go ahead, start small with rolling back models and version both the code and the data.

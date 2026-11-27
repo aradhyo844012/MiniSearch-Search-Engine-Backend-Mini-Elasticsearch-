@@ -1,0 +1,15 @@
+Semantic Versioning Quick Reference
+
+A one-screen reminder for Semantic Versioning. Bookmark it and return when the details fade.
+
+What it is: a numbering scheme where major, minor and patch numbers signal how much changed.
+Key terms: major, minor and patch numbers, breaking changes, pre-release tags, and version ranges.
+Typical uses: publishing libraries, declaring dependencies, and planning upgrades.
+Risks: breaking changes in minor releases, overly loose ranges, and forgetting to document changes.
+Tools: semver.org, npm semver, and release notes.
+
+Mental picture: the edition number on a textbook that tells you whether you must relearn anything.
+
+Habit to build: write a changelog entry with every release.
+
+See also: Monorepos, which sits close to Semantic Versioning in the area of Developer Tooling and Build Systems.

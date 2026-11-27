@@ -1,0 +1,26 @@
+Everything You Need to Know About Shaders
+
+This page collects the essentials about Shaders in one place. In short, Shaders is small programs that run on the graphics card to control how things are drawn.
+
+Core concepts:
+- vertex shaders
+- fragment shaders
+- uniforms
+- GLSL
+
+Where it is used:
+- lighting effects
+- water and fire visuals
+- post-processing
+
+Common problems:
+- branches that slow the GPU
+- precision errors
+- platform differences
+
+Tools to know:
+- GLSL
+- Shadertoy
+- RenderDoc
+
+Remember this above all: a tiny painter that colors each pixel following your instructions is a good way to picture it, and the best habit is to start from a minimal shader and add one effect at a time.

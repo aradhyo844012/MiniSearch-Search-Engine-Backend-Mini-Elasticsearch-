@@ -1,0 +1,15 @@
+Cron Jobs and Scheduling in 10 Minutes
+
+You have ten minutes, so here is the fast route through Cron Jobs and Scheduling.
+
+Minutes 1 and 2, the definition: Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times.
+
+Minutes 3 and 4, the vocabulary: learn crontab syntax, schedule fields, environment differences, and output redirection.
+
+Minutes 5 and 6, the picture: imagine an alarm clock that starts chores for you. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through nightly backups, log rotation, and periodic reports.
+
+Minutes 9 and 10, the traps and the tools: watch for assuming cron has your shell environment and overlapping runs of slow jobs, then try crontab for a first experiment.
+
+If you have a spare minute, remember to redirect output to a log file and use absolute paths.

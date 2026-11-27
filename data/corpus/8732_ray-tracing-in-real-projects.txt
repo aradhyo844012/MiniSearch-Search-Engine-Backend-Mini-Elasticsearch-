@@ -1,0 +1,11 @@
+Ray Tracing in Real Projects
+
+Reading about Ray Tracing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: movie visuals. Here, rays drives the main design choices, and the team needs to guard against slow render times.
+
+Scenario two: architectural visualization. This time intersections matters most, and tools such as Blender Cycles help keep things manageable.
+
+Scenario three: realistic game lighting. The key idea is reflection and refraction, and the biggest risk is noise from too few samples.
+
+Across all three scenarios, Ray Tracing stays the same idea: a rendering technique that follows rays of light to produce realistic images. Only the details change.

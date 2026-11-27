@@ -1,0 +1,15 @@
+The Pros and Cons of Database Constraints
+
+No technology is free of trade-offs, and Database Constraints is no exception. Here is an honest summary.
+
+Advantages:
+- Supports preventing bad data
+- Makes protecting relationships easier
+- Helps with documenting business rules
+
+Drawbacks and risks:
+- Risk: skipping constraints for speed
+- Risk: missing indexes on foreign keys
+- Risk: rules enforced only in the app
+
+Weigh the two lists against your own project. If the advantages match your needs, such as preventing bad data, and you can manage the risks, Database Constraints is a sound choice. Whatever you decide, put critical rules in the database as well as in the app.

@@ -1,0 +1,11 @@
+Computability and the Halting Problem Tips from Experienced Engineers
+
+Engineers who work with Computability and the Halting Problem regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit decidability before anything else.
+2. Test the case of understanding the limits of tools early, before the design hardens.
+3. Do not skip Turing machines; everything else builds on it.
+4. Make sure you can learn the diagonal argument step by step.
+5. Be careful with this one: assuming everything is solvable.
+
+None of these tips needs special equipment, and all of them apply to proofs of impossibility as well as to Computability and the Halting Problem in general.

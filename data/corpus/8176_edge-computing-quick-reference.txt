@@ -1,0 +1,15 @@
+Edge Computing Quick Reference
+
+A one-screen reminder for Edge Computing. Bookmark it and return when the details fade.
+
+What it is: processing data close to where it is produced instead of in a distant data center.
+Key terms: edge nodes, latency, bandwidth savings, and synchronization.
+Typical uses: factory sensors, video analytics, and smart cities.
+Risks: hard-to-update devices, inconsistent hardware, and security at many sites.
+Tools: AWS IoT Greengrass, K3s, and Cloudflare Workers.
+
+Mental picture: a local branch office that handles tasks without calling headquarters.
+
+Habit to build: decide which data must stay local before designing the system.
+
+See also: Blockchain Fundamentals, which sits close to Edge Computing in the area of Emerging and Specialized Technology.

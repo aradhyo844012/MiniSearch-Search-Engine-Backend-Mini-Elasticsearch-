@@ -1,0 +1,12 @@
+Cron Jobs and Scheduling Glossary for Beginners
+
+New words can make Cron Jobs and Scheduling feel harder than it is. This glossary keeps the key ones in one place.
+
+Cron Jobs and Scheduling: a Unix tool that runs commands automatically at scheduled times.
+crontab syntax: a core term, most visible in nightly backups.
+schedule fields: a core term that beginners often confuse with environment differences.
+environment differences: a core term that connects to output redirection.
+output redirection: a core term worth revisiting after you try a real example.
+crontab: a tool commonly used for log rotation.
+
+Come back to this Cron Jobs and Scheduling list whenever documentation for systemd timers uses a word you do not recognize.

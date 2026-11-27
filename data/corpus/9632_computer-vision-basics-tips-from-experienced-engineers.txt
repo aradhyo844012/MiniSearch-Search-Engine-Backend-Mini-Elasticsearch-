@@ -1,0 +1,11 @@
+Computer Vision Basics Tips from Experienced Engineers
+
+Engineers who work with Computer Vision Basics regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Computer Vision Basics so the next person understands the decision.
+2. Test the case of face detection early, before the design hardens.
+3. Do not skip pixels; everything else builds on it.
+4. Reach for OpenCV first, and only then evaluate alternatives such as Pillow.
+5. When something behaves strangely, revisit filters and edges before anything else.
+
+None of these tips needs special equipment, and all of them apply to document scanning as well as to Computer Vision Basics in general.

@@ -1,0 +1,9 @@
+Understanding A* Pathfinding Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a hiker who prefers trails that seem to head toward the summit.
+
+In that picture, open and closed sets is the first rule you follow, cost so far is the next step, and heuristics and grids and graphs keep everything running smoothly.
+
+Every analogy breaks down eventually. Real A* Pathfinding is a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining, and it involves details such as overestimating the heuristic that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Unity NavMesh to learn the exact behavior. The same picture helps when you explain game characters to a friend.

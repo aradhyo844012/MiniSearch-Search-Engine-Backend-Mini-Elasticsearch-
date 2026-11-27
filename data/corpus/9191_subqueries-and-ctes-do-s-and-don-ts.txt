@@ -1,0 +1,17 @@
+Subqueries and CTEs Do's and Don'ts
+
+A quick list of habits for working with Subqueries and CTEs.
+
+Do:
+- Learn subqueries before anything else.
+- Try PostgreSQL on a small example.
+- Make it a habit to name each CTE after what it returns.
+- Test the case of breaking complex reports into steps early.
+
+Don't:
+- Ignore this: correlated subqueries that run slowly.
+- Ignore this: deep nesting.
+- Ignore this: assuming CTEs are always materialized.
+- Adopt Subqueries and CTEs just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Subqueries and CTEs, a little patience with WITH clauses pays off more than any clever shortcut.

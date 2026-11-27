@@ -1,0 +1,11 @@
+Graph Theory Basics Tips from Experienced Engineers
+
+Engineers who work with Graph Theory Basics regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: mixing directed and undirected graphs.
+2. Make sure you can draw a small example before writing code.
+3. Write down why you chose Graph Theory Basics so the next person understands the decision.
+4. Reach for NetworkX first, and only then evaluate alternatives such as Graphviz.
+5. Test the case of social networks early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to maps as well as to Graph Theory Basics in general.

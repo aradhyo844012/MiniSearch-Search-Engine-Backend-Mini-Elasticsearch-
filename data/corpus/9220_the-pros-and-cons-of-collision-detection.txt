@@ -1,0 +1,15 @@
+The Pros and Cons of Collision Detection
+
+No technology is free of trade-offs, and Collision Detection is no exception. Here is an honest summary.
+
+Advantages:
+- Supports platformers
+- Makes shooters easier
+- Helps with physics puzzles
+
+Drawbacks and risks:
+- Risk: tunneling through thin objects
+- Risk: checking every pair of objects
+- Risk: inconsistent hitboxes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as platformers, and you can manage the risks, Collision Detection is a sound choice. Whatever you decide, use simple shapes first and refine only when needed.

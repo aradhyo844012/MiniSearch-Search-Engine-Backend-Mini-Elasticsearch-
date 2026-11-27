@@ -1,0 +1,11 @@
+Database Schema Design for Beginners Tips from Experienced Engineers
+
+Engineers who work with Database Schema Design for Beginners regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit relationships before anything else.
+2. Reach for dbdiagram.io first, and only then evaluate alternatives such as draw.io.
+3. Do not skip entities; everything else builds on it.
+4. Make sure you can write down the main queries before finalizing the tables.
+5. Test the case of starting new projects early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to reviewing existing schemas as well as to Database Schema Design for Beginners in general.

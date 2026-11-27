@@ -1,0 +1,15 @@
+Elasticsearch Concepts Quick Reference
+
+A one-screen reminder for Elasticsearch Concepts. Bookmark it and return when the details fade.
+
+What it is: the building blocks of a distributed search engine that indexes and ranks documents.
+Key terms: indexes, shards, analyzers, and queries.
+Typical uses: site search, log analytics, and product catalogs.
+Risks: too many shards, mapping explosions, and treating it as a primary database.
+Tools: Elasticsearch, Kibana, and OpenSearch.
+
+Mental picture: a giant library with an index card for every word.
+
+Habit to build: define explicit mappings instead of relying on defaults.
+
+See also: Vector Databases, which sits close to Elasticsearch Concepts in the area of SQL and Data Practice.

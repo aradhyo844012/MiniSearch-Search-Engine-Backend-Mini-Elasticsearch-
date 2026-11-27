@@ -1,0 +1,10 @@
+Process Signals and Job Control: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Process Signals and Job Control with confidence. The subject itself is messages and shell features used to stop, pause and resume running programs.
+
+SIGTERM and SIGKILL: one of the building blocks of Process Signals and Job Control. Mixing it up with neighboring terms is a common source of confusion.
+foreground and background jobs: one of the building blocks of Process Signals and Job Control. Documentation for kill usually mentions it early.
+kill and trap: one of the building blocks of Process Signals and Job Control. Documentation for kill usually mentions it early.
+process groups: one of the building blocks of Process Signals and Job Control. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Process Signals and Job Control terms in sentences about shutting down gracefully. If the sentences feel natural, the vocabulary has stuck.

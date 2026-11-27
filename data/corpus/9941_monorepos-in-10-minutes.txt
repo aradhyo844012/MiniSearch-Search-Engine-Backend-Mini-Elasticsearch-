@@ -1,0 +1,15 @@
+Monorepos in 10 Minutes
+
+You have ten minutes, so here is the fast route through Monorepos.
+
+Minutes 1 and 2, the definition: Monorepos is single repositories that hold the code for many projects.
+
+Minutes 3 and 4, the vocabulary: learn shared tooling, code ownership, selective builds, and atomic changes.
+
+Minutes 5 and 6, the picture: imagine one big toolbox for the whole workshop. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through sharing libraries across apps, coordinated refactors, and consistent tooling.
+
+Minutes 9 and 10, the traps and the tools: watch for slow checkouts and unclear ownership, then try Nx for a first experiment.
+
+If you have a spare minute, remember to set up selective builds and tests early.

@@ -1,0 +1,9 @@
+Understanding Semantic Versioning Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture the edition number on a textbook that tells you whether you must relearn anything.
+
+In that picture, major, minor and patch numbers is the first rule you follow, breaking changes is the next step, and pre-release tags and version ranges keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed, and it involves details such as breaking changes in minor releases that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for semver.org to learn the exact behavior. The same picture helps when you explain publishing libraries to a friend.

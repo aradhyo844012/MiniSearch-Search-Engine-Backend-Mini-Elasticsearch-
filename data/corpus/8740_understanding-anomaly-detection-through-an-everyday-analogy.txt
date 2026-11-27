@@ -1,0 +1,9 @@
+Understanding Anomaly Detection Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a security guard who notices the one person acting differently.
+
+In that picture, baselines is the first rule you follow, thresholds is the next step, and isolation methods and false positives keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Anomaly Detection is finding data points or events that differ sharply from normal behavior, and it involves details such as too many false alarms that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for scikit-learn to learn the exact behavior. The same picture helps when you explain fraud detection to a friend.

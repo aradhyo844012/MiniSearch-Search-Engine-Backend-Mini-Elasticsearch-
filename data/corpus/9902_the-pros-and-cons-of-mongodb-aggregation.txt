@@ -1,0 +1,15 @@
+The Pros and Cons of MongoDB Aggregation
+
+No technology is free of trade-offs, and MongoDB Aggregation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports summarizing orders
+- Makes building analytics queries easier
+- Helps with reshaping documents
+
+Drawbacks and risks:
+- Risk: putting $match late
+- Risk: huge intermediate results
+- Risk: hitting memory limits
+
+Weigh the two lists against your own project. If the advantages match your needs, such as summarizing orders, and you can manage the risks, MongoDB Aggregation is a sound choice. Whatever you decide, filter with $match as early as possible.

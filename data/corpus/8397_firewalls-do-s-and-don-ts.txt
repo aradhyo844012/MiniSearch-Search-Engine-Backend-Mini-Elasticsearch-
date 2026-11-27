@@ -1,0 +1,17 @@
+Firewalls Do's and Don'ts
+
+A quick list of habits for working with Firewalls.
+
+Do:
+- Learn rules before anything else.
+- Try ufw on a small example.
+- Make it a habit to start with default deny and open only what you need.
+- Test the case of protecting servers early.
+
+Don't:
+- Ignore this: rules in the wrong order.
+- Ignore this: overly broad allow rules.
+- Ignore this: locking yourself out remotely.
+- Adopt Firewalls just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Firewalls, a little patience with stateful inspection pays off more than any clever shortcut.

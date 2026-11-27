@@ -1,0 +1,15 @@
+Entity Component Systems Quick Reference
+
+A one-screen reminder for Entity Component Systems. Bookmark it and return when the details fade.
+
+What it is: a game architecture that builds objects from data components processed by systems.
+Key terms: entities, components, systems, and queries.
+Typical uses: large simulations, games with thousands of objects, and flexible game design.
+Risks: overengineering small games, components that hold logic, and hard debugging of system order.
+Tools: Bevy, Unity DOTS, and EnTT.
+
+Mental picture: building characters from interchangeable parts snapped onto an ID tag.
+
+Habit to build: keep components as plain data.
+
+See also: Game AI Behavior Trees, which sits close to Entity Component Systems in the area of Game Development.

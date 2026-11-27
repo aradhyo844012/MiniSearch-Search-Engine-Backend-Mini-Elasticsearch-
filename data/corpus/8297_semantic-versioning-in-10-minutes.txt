@@ -1,0 +1,15 @@
+Semantic Versioning in 10 Minutes
+
+You have ten minutes, so here is the fast route through Semantic Versioning.
+
+Minutes 1 and 2, the definition: Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed.
+
+Minutes 3 and 4, the vocabulary: learn major, minor and patch numbers, breaking changes, pre-release tags, and version ranges.
+
+Minutes 5 and 6, the picture: imagine the edition number on a textbook that tells you whether you must relearn anything. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through publishing libraries, declaring dependencies, and planning upgrades.
+
+Minutes 9 and 10, the traps and the tools: watch for breaking changes in minor releases and overly loose ranges, then try semver.org for a first experiment.
+
+If you have a spare minute, remember to write a changelog entry with every release.

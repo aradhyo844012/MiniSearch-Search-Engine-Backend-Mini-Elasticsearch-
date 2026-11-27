@@ -1,0 +1,11 @@
+A* Pathfinding in Real Projects
+
+Reading about A* Pathfinding is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: game characters. Here, open and closed sets drives the main design choices, and the team needs to guard against overestimating the heuristic.
+
+Scenario two: robot navigation. This time cost so far matters most, and tools such as Unity NavMesh help keep things manageable.
+
+Scenario three: map routing. The key idea is heuristics, and the biggest risk is slow searches on huge maps.
+
+Across all three scenarios, A* Pathfinding stays the same idea: a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining. Only the details change.

@@ -1,0 +1,11 @@
+Practice Exercises for Fine-Tuning Models
+
+These exercises build real understanding of Fine-Tuning Models. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Fine-Tuning Models and include the term pretrained weights.
+Exercise 2: Compare PyTorch and LoRA libraries for improving accuracy on narrow problems and write down your conclusion.
+Exercise 3: Pick Hugging Face and complete its getting-started tutorial.
+Exercise 4: Create a small example that deliberately triggers this problem: overfitting on small datasets. Then fix it.
+Exercise 5: Explain how the learning rate and evaluation differ, using a drawing.
+
+When you finish, compare your answers with the definition: Fine-Tuning Models is adapting a pretrained model to a specific task with extra training on your own data.

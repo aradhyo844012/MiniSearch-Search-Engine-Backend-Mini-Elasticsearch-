@@ -1,0 +1,15 @@
+Cloud-Native Applications Quick Reference
+
+A one-screen reminder for Cloud-Native Applications. Bookmark it and return when the details fade.
+
+What it is: applications designed from the start to run in the cloud using containers and managed services.
+Key terms: containers, microservices, declarative configuration, and elastic scaling.
+Typical uses: web platforms, data-heavy services, and rapidly changing products.
+Risks: treating the cloud like a data center, too many services, and ignoring costs.
+Tools: Kubernetes, Docker, and Helm.
+
+Mental picture: a plant that grows best in the soil it was designed for.
+
+Habit to build: design every service to be stateless where possible.
+
+See also: Twelve-Factor Apps, which sits close to Cloud-Native Applications in the area of Cloud Platforms and Architecture.

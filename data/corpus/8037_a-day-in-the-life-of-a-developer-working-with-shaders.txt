@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Shaders
+
+This is a fictional but realistic day for a developer whose project relies on Shaders.
+
+Morning: Divya starts by reviewing a ticket about lighting effects. Before touching any code, Divya re-reads the notes on vertex shaders to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore fragment shaders with GLSL. A small test exposes the problem of branches that slow the GPU, and they fix it together.
+
+Afternoon: the team discusses a new request involving water and fire visuals. Divya sketches a tiny painter that colors each pixel following your instructions on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to start from a minimal shader and add one effect at a time.
+
+Days like this are typical. Shaders is not glamorous, but understanding it keeps small problems from growing.

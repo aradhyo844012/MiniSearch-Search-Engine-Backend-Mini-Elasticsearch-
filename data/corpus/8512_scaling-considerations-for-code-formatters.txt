@@ -1,0 +1,11 @@
+Scaling Considerations for Code Formatters
+
+A design that works for a classroom project can behave very differently under real load. Here is how Code Formatters changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding style rules and getting ending style debates right.
+
+Medium scale: problems start to appear. Watch for reformatting entire files at once and conflicting tool settings, and measure with Prettier before changing anything.
+
+Large scale: editor integration and pre-commit hooks move from background details to central design questions. Teams often revisit their choices around cleaner diffs at this stage.
+
+Before you scale, run the formatter in a pre-commit hook. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,12 @@
+HTTP/2 and HTTP/3 Glossary for Beginners
+
+New words can make HTTP/2 and HTTP/3 feel harder than it is. This glossary keeps the key ones in one place.
+
+HTTP/2 and HTTP/3: newer versions of the web protocol that load pages faster over fewer connections.
+multiplexing: a core term, most visible in faster page loads.
+header compression: a core term that beginners often confuse with QUIC.
+QUIC: a core term that connects to server push.
+server push: a core term worth revisiting after you try a real example.
+curl with HTTP/3 support: a tool commonly used for improving mobile performance.
+
+Come back to this HTTP/2 and HTTP/3 list whenever documentation for Chrome DevTools uses a word you do not recognize.

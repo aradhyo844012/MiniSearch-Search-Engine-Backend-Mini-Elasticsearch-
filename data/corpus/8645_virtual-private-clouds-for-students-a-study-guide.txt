@@ -1,0 +1,17 @@
+Virtual Private Clouds for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Virtual Private Clouds.
+
+Learning goals:
+1. Explain Virtual Private Clouds in your own words.
+2. Describe subnets, route tables, security groups, and gateways.
+3. Give examples from separating public and private services and connecting to offices.
+4. Name three problems to watch for.
+
+Start with the definition: Virtual Private Clouds is isolated private networks inside a cloud provider where you place your resources. Then draw a gated neighborhood inside a big city on paper and label the four terms from the goals above.
+
+Self-test questions: Why is overlapping address ranges a problem? How does route tables relate to security groups? When would you choose AWS VPC or Terraform?
+
+Study habit: keep databases in private subnets.
+
+When you feel ready, compare Virtual Private Clouds with Multi-Cloud Strategy and write down three differences.

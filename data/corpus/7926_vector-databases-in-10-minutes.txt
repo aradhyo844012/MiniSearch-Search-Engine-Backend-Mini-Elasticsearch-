@@ -1,0 +1,15 @@
+Vector Databases in 10 Minutes
+
+You have ten minutes, so here is the fast route through Vector Databases.
+
+Minutes 1 and 2, the definition: Vector Databases is databases built to store embeddings and find the most similar ones quickly.
+
+Minutes 3 and 4, the vocabulary: learn embeddings, approximate nearest neighbors, distance metrics, and metadata filters.
+
+Minutes 5 and 6, the picture: imagine a map where similar ideas sit near each other. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through semantic search, recommendations, and retrieval for AI assistants.
+
+Minutes 9 and 10, the traps and the tools: watch for mixing embedding models and ignoring recall trade-offs, then try FAISS for a first experiment.
+
+If you have a spare minute, remember to measure recall on a small labeled test set.

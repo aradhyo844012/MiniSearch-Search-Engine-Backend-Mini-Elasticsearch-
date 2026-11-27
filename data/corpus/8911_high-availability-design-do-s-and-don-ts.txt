@@ -1,0 +1,17 @@
+High Availability Design Do's and Don'ts
+
+A quick list of habits for working with High Availability Design.
+
+Do:
+- Learn redundancy before anything else.
+- Try load balancers on a small example.
+- Make it a habit to list every component and ask what happens if it dies.
+- Test the case of online stores early.
+
+Don't:
+- Ignore this: hidden single points of failure.
+- Ignore this: untested failover.
+- Ignore this: correlated failures.
+- Adopt High Availability Design just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with High Availability Design, a little patience with failover pays off more than any clever shortcut.

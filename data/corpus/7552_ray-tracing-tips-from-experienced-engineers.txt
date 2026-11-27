@@ -1,0 +1,11 @@
+Ray Tracing Tips from Experienced Engineers
+
+Engineers who work with Ray Tracing regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: slow render times.
+2. Reach for Blender Cycles first, and only then evaluate alternatives such as NVIDIA OptiX.
+3. Do not skip rays; everything else builds on it.
+4. Make sure you can start with spheres and a single light before adding features.
+5. Test the case of movie visuals early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to architectural visualization as well as to Ray Tracing in general.

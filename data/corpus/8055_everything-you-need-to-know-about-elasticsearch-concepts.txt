@@ -1,0 +1,26 @@
+Everything You Need to Know About Elasticsearch Concepts
+
+This page collects the essentials about Elasticsearch Concepts in one place. In short, Elasticsearch Concepts is the building blocks of a distributed search engine that indexes and ranks documents.
+
+Core concepts:
+- indexes
+- shards
+- analyzers
+- queries
+
+Where it is used:
+- site search
+- log analytics
+- product catalogs
+
+Common problems:
+- too many shards
+- mapping explosions
+- treating it as a primary database
+
+Tools to know:
+- Elasticsearch
+- Kibana
+- OpenSearch
+
+Remember this above all: a giant library with an index card for every word is a good way to picture it, and the best habit is to define explicit mappings instead of relying on defaults.

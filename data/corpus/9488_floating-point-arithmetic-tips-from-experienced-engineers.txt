@@ -1,0 +1,11 @@
+Floating-Point Arithmetic Tips from Experienced Engineers
+
+Engineers who work with Floating-Point Arithmetic regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit rounding before anything else.
+2. Test the case of scientific computing early, before the design hardens.
+3. Reach for Python decimal first, and only then evaluate alternatives such as NumPy.
+4. Make sure you can compare floats with a tolerance and use decimals for money.
+5. Do not skip mantissa and exponent; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to graphics as well as to Floating-Point Arithmetic in general.

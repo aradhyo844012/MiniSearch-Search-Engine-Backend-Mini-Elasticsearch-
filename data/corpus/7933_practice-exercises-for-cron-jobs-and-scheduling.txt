@@ -1,0 +1,11 @@
+Practice Exercises for Cron Jobs and Scheduling
+
+These exercises build real understanding of Cron Jobs and Scheduling. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble nightly backups or log rotation.
+Exercise 2: Create a small example that deliberately triggers this problem: assuming cron has your shell environment. Then fix it.
+Exercise 3: Compare systemd timers and flock for periodic reports and write down your conclusion.
+Exercise 4: Write a short paragraph describing Cron Jobs and Scheduling and include the term crontab syntax.
+Exercise 5: Explain how environment differences and output redirection differ, using a drawing.
+
+When you finish, compare your answers with the definition: Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times.

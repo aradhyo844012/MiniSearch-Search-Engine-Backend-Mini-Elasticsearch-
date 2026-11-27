@@ -1,0 +1,26 @@
+Everything You Need to Know About Disk Partitioning and Mounting
+
+This page collects the essentials about Disk Partitioning and Mounting in one place. In short, Disk Partitioning and Mounting is dividing storage into sections and attaching them to the file tree.
+
+Core concepts:
+- partitions
+- file system types
+- mount points
+- fstab
+
+Where it is used:
+- adding a new drive
+- separating data from the system
+- encrypting volumes
+
+Common problems:
+- wrong device names
+- mounting without fstab entries
+- formatting the wrong disk
+
+Tools to know:
+- lsblk
+- fdisk
+- mount
+
+Remember this above all: building rooms inside a warehouse and putting door numbers on them is a good way to picture it, and the best habit is to double-check device names with lsblk before formatting.

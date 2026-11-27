@@ -1,0 +1,12 @@
+Questions to Ask About Prompt Engineering in Code Review
+
+Reviewing code that involves Prompt Engineering is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect instructions, or does it work around it?
+- Could we specify the output format and include one or two examples?
+- Have we considered vague requests?
+- Is examples clear to someone reading the code for the first time?
+- Is model playgrounds used consistently, or are we mixing approaches?
+- Does the code handle the case of drafting content correctly?
+
+Good reviews of work on Prompt Engineering are specific, kind and focused on context, not on personal style.

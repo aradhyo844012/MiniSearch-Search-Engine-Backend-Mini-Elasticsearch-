@@ -1,0 +1,12 @@
+Questions to Ask About 3D Transformations in Code Review
+
+Reviewing code that involves 3D Transformations is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch gimbal lock if it appeared later?
+- Have we avoided this problem: mixing coordinate systems?
+- Have we considered wrong multiplication order?
+- Does this change respect translation, or does it work around it?
+- Does the code handle the case of games correctly?
+- Is rotation clear to someone reading the code for the first time?
+
+Good reviews of work on 3D Transformations are specific, kind and focused on scaling, not on personal style.

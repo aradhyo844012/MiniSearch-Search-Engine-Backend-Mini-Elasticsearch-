@@ -1,0 +1,15 @@
+Environment Variables Quick Reference
+
+A one-screen reminder for Environment Variables. Bookmark it and return when the details fade.
+
+What it is: named values the operating system gives to programs to configure their behavior.
+Key terms: variable names, scope, export, and shell startup files.
+Typical uses: storing configuration, selecting program paths, and passing settings to containers.
+Risks: committing secrets in dotfiles, variables not visible to child processes, and typos in names.
+Tools: env, printenv, and dotenv files.
+
+Mental picture: sticky notes attached to a program before it starts.
+
+Habit to build: print a variable to confirm its value before blaming the code.
+
+See also: systemd Services, which sits close to Environment Variables in the area of Linux and System Administration.

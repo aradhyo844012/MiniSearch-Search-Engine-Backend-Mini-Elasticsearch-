@@ -1,0 +1,11 @@
+Why Rasterization Matters for Developers
+
+Developers who understand Rasterization make better decisions, because Rasterization is converting shapes described by geometry into pixels on the screen.
+
+Three situations show why it matters. First, real-time games. Second, user interfaces. Third, CAD previews. In each case, a solid grasp of triangles and pixel coverage separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: aliasing along edges, overdraw, and depth fighting.
+
+You will not need to build everything yourself; OpenGL, Vulkan, and WebGL cover most needs.
+
+Connect Rasterization with Digital Audio to see the bigger picture of Graphics and Multimedia.

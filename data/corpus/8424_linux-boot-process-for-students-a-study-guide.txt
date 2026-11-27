@@ -1,0 +1,17 @@
+Linux Boot Process for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Linux Boot Process.
+
+Learning goals:
+1. Explain Linux Boot Process in your own words.
+2. Describe firmware, bootloader, kernel initialization, and the init system.
+3. Give examples from troubleshooting machines that do not start and configuring dual boot.
+4. Name three problems to watch for.
+
+Start with the definition: Linux Boot Process is the sequence of steps from powering on a machine to a running operating system. Then draw a theater crew setting the stage in order before the curtain rises on paper and label the four terms from the goals above.
+
+Self-test questions: Why is overwriting the bootloader a problem? How does bootloader relate to kernel initialization? When would you choose GRUB or dmesg?
+
+Study habit worth keeping: keep a recovery option available before editing boot settings.
+
+When you feel ready, compare Linux Boot Process with Environment Variables and write down three differences.

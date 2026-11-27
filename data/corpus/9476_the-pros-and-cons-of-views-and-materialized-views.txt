@@ -1,0 +1,15 @@
+The Pros and Cons of Views and Materialized Views
+
+No technology is free of trade-offs, and Views and Materialized Views is no exception. Here is an honest summary.
+
+Advantages:
+- Supports simplifying repeated queries
+- Makes hiding sensitive columns easier
+- Helps with speeding up reports
+
+Drawbacks and risks:
+- Risk: stale materialized data
+- Risk: views stacked on views
+- Risk: surprising performance costs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as simplifying repeated queries, and you can manage the risks, Views and Materialized Views is a sound choice. Whatever you decide, document how and when each materialized view is refreshed.

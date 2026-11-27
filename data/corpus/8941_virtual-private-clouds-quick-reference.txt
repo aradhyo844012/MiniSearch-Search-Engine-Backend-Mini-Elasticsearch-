@@ -1,0 +1,15 @@
+Virtual Private Clouds Quick Reference
+
+A one-screen reminder for Virtual Private Clouds. Bookmark it and return when the details fade.
+
+What it is: isolated private networks inside a cloud provider where you place your resources.
+Key terms: subnets, route tables, security groups, and gateways.
+Typical uses: separating public and private services, connecting to offices, and securing databases.
+Risks: overlapping address ranges, databases in public subnets, and missing routes.
+Tools: AWS VPC, Terraform, and VPC Flow Logs.
+
+Mental picture: a gated neighborhood inside a big city.
+
+Habit to build: keep databases in private subnets.
+
+See also: API Gateways, which sits close to Virtual Private Clouds in the area of Cloud Platforms and Architecture.

@@ -1,0 +1,11 @@
+Is BGP and Internet Routing Right for Your Project?
+
+Before adopting BGP and Internet Routing, ask whether it fits the problem. Remember that BGP and Internet Routing is the protocol networks use to tell each other which addresses they can reach.
+
+It is a good fit when your work involves connecting ISPs or directing traffic between large networks, and when your team understands autonomous systems.
+
+Be cautious when the project is very small, when deadlines leave no room to learn route announcements, or when you cannot manage these risks: route leaks, hijacked prefixes, and misconfigured filters.
+
+A simple decision test: write down the problem in one sentence, then check whether peering and path selection are part of the answer. If they are, BGP and Internet Routing is probably worth a closer look.
+
+If you decide to go ahead, start small with explaining internet outages and filter route announcements strictly.

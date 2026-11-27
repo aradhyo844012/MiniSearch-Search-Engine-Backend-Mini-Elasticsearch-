@@ -1,0 +1,26 @@
+Everything You Need to Know About Robotics and ROS
+
+This page collects the essentials about Robotics and ROS in one place. In short, Robotics and ROS is building machines that sense and act, often using the Robot Operating System to connect their software.
+
+Core concepts:
+- sensors
+- actuators
+- nodes and topics
+- control loops
+
+Where it is used:
+- warehouse robots
+- drones
+- educational robots
+
+Common problems:
+- ignoring sensor noise
+- unsafe motion commands
+- tight coupling between nodes
+
+Tools to know:
+- ROS 2
+- Gazebo
+- Arduino
+
+Remember this above all: a body with senses and muscles controlled by a nervous system of messages is a good way to picture it, and the best habit is to test in simulation before moving real hardware.

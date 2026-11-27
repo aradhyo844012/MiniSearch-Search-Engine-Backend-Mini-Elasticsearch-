@@ -1,0 +1,11 @@
+Scaling Considerations for Package Managers
+
+A design that works for a classroom project can behave very differently under real load. Here is how Package Managers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding repositories and getting installing system tools right.
+
+Medium scale: problems start to appear. Watch for mixing sources that conflict and ignoring signature checks, and measure with apt before changing anything.
+
+Large scale: versions and signed packages move from background details to central design questions. Teams often revisit their choices around keeping servers updated at this stage.
+
+Before you scale, update the package index before installing anything. It is cheaper to build that habit early than to fix a crisis later.

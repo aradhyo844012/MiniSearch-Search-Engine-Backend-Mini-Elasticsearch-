@@ -1,0 +1,15 @@
+systemd Services in 10 Minutes
+
+You have ten minutes, so here is the fast route through systemd Services.
+
+Minutes 1 and 2, the definition: systemd Services is the init system and service manager used by most modern Linux distributions.
+
+Minutes 3 and 4, the vocabulary: learn unit files, targets, service states, and journal logs.
+
+Minutes 5 and 6, the picture: imagine a building manager who opens each office in the right order every morning. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through starting services at boot, restarting crashed programs, and managing dependencies between services.
+
+Minutes 9 and 10, the traps and the tools: watch for editing unit files without reloading the daemon and missing restart policies, then try systemctl for a first experiment.
+
+If you have a spare minute, remember to run systemctl daemon-reload after every unit file change.

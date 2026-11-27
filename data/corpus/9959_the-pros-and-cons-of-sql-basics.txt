@@ -1,0 +1,15 @@
+The Pros and Cons of SQL Basics
+
+No technology is free of trade-offs, and SQL Basics is no exception. Here is an honest summary.
+
+Advantages:
+- Supports reading customer records
+- Makes building reports easier
+- Helps with changing stored data
+
+Drawbacks and risks:
+- Risk: forgetting the WHERE clause on updates
+- Risk: selecting every column
+- Risk: assuming row order without ORDER BY
+
+Weigh the two lists against your own project. If the advantages match your needs, such as reading customer records, and you can manage the risks, SQL Basics is a sound choice. Whatever you decide, run a SELECT with the same WHERE clause before any UPDATE or DELETE.

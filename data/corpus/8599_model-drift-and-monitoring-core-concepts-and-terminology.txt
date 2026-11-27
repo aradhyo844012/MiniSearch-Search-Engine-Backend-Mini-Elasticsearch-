@@ -1,0 +1,10 @@
+Model Drift and Monitoring: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Model Drift and Monitoring with confidence. The subject itself is watching deployed models for changes in data or performance over time.
+
+data drift: one of the building blocks of Model Drift and Monitoring. Mixing it up with neighboring terms is a common source of confusion.
+concept drift: one of the building blocks of Model Drift and Monitoring. Documentation for Evidently usually mentions it early.
+performance metrics: one of the building blocks of Model Drift and Monitoring. It shows up whenever you work on catching degrading models.
+alerts: one of the building blocks of Model Drift and Monitoring. Documentation for Evidently usually mentions it early.
+
+Practice using these four Model Drift and Monitoring terms in sentences about scheduling retraining. If the sentences feel natural, the vocabulary has stuck.

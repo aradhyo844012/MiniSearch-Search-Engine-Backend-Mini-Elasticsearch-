@@ -1,0 +1,17 @@
+Game Loop Do's and Don'ts
+
+A quick list of habits for working with Game Loop.
+
+Do:
+- Learn input handling before anything else.
+- Try Unity on a small example.
+- Make it a habit to use delta time so speed does not depend on frame rate.
+- Test the case of running every real-time game early.
+
+Don't:
+- Ignore this: tying logic to frame rate.
+- Ignore this: slow update steps.
+- Ignore this: ignoring delta time.
+- Adopt Game Loop just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Game Loop, a little patience with the update step pays off more than any clever shortcut.

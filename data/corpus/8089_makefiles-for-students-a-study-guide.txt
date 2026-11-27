@@ -1,0 +1,17 @@
+Makefiles for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Makefiles.
+
+Learning goals:
+1. Explain Makefiles in your own words.
+2. Describe targets, prerequisites, recipes, and phony targets.
+3. Give examples from compiling C projects and shortcuts for common commands.
+4. Name three problems to watch for.
+
+Start with the definition: Makefiles is plain files that describe how to build programs and run common tasks with the make tool. Then draw a to-do list that knows which steps must come first on paper and label the four terms from the goals above.
+
+Self-test questions: Why is tabs versus spaces a problem? How does prerequisites relate to recipes? When would you choose GNU Make or CMake?
+
+Study habit worth keeping: use phony targets for tasks like test and clean.
+
+When you feel ready, compare Makefiles with Monorepos and write down three differences.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Rasterization
+
+This path is for a learner who has never studied Rasterization before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Rasterization is converting shapes described by geometry into pixels on the screen) and learn triangles and pixel coverage.
+
+Stage 2, hands-on: install OpenGL, follow a tutorial, and build a small example involving real-time games.
+
+Stage 3, depth: study the depth buffer and interpolation, then deliberately explore this problem: aliasing along edges.
+
+Stage 4, application: apply Rasterization to user interfaces, compare Vulkan with WebGL, and write up your results.
+
+Stage 5, review: teach Rasterization to someone else, and then move on to Video Codecs.

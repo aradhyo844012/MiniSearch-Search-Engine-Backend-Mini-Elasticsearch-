@@ -1,0 +1,26 @@
+Everything You Need to Know About Rasterization
+
+This page collects the essentials about Rasterization in one place. In short, Rasterization is converting shapes described by geometry into pixels on the screen.
+
+Core concepts:
+- triangles
+- pixel coverage
+- the depth buffer
+- interpolation
+
+Where it is used:
+- real-time games
+- user interfaces
+- CAD previews
+
+Common problems:
+- aliasing along edges
+- overdraw
+- depth fighting
+
+Tools to know:
+- OpenGL
+- Vulkan
+- WebGL
+
+Remember this above all: coloring squares on graph paper to match a drawn outline is a good way to picture it, and the best habit is to draw simple shapes first to understand the pipeline.

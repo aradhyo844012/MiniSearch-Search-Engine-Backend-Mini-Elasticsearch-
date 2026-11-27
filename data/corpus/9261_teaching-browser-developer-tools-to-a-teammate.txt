@@ -1,0 +1,13 @@
+Teaching Browser Developer Tools to a Teammate
+
+Explaining Browser Developer Tools to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an X-ray machine for web pages. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Browser Developer Tools is built-in browser panels for inspecting, debugging and measuring web pages. Avoid jargon at this stage.
+
+Walk through an example involving debugging layouts, naming the elements panel and the console as they come up.
+
+Ask your teammate to explain the network panel in Browser Developer Tools back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, editing the page and forgetting to copy the changes, and suggest this habit: keep the network panel open while testing features.

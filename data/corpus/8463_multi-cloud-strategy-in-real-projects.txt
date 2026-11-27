@@ -1,0 +1,11 @@
+Multi-Cloud Strategy in Real Projects
+
+Reading about Multi-Cloud Strategy is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: avoiding single-provider risk. Here, portability drives the main design choices, and the team needs to guard against doubling operational complexity.
+
+Scenario two: meeting regional rules. This time vendor lock-in matters most, and tools such as Terraform help keep things manageable.
+
+Scenario three: using best-of-breed services. The key idea is abstraction layers, and the biggest risk is lowest-common-denominator designs.
+
+Across all three scenarios, Multi-Cloud Strategy stays the same idea: using services from more than one cloud provider on purpose. Only the details change.

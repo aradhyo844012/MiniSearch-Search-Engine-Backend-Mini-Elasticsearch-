@@ -1,0 +1,15 @@
+Fine-Tuning Models Quick Reference
+
+A one-screen reminder for Fine-Tuning Models. Bookmark it and return when the details fade.
+
+What it is: adapting a pretrained model to a specific task with extra training on your own data.
+Key terms: pretrained weights, training data, the learning rate, and evaluation.
+Typical uses: domain-specific language tasks, style adaptation, and improving accuracy on narrow problems.
+Risks: overfitting on small datasets, forgetting general abilities, and low-quality training data.
+Tools: Hugging Face, PyTorch, and LoRA libraries.
+
+Mental picture: teaching an experienced chef a new regional cuisine.
+
+Habit to build: start with a small, clean dataset and a held-out test set.
+
+See also: Speech Recognition, which sits close to Fine-Tuning Models in the area of AI Engineering and MLOps.

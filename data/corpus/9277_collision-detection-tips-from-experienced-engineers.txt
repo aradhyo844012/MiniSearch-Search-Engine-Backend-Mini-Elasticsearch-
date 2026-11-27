@@ -1,0 +1,11 @@
+Collision Detection Tips from Experienced Engineers
+
+Engineers who work with Collision Detection regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip bounding boxes; everything else builds on it.
+2. Write down why you chose Collision Detection so the next person understands the decision.
+3. Test the case of platformers early, before the design hardens.
+4. When something behaves strangely, revisit broad and narrow phases before anything else.
+5. Be careful with this one: tunneling through thin objects.
+
+None of these tips needs special equipment, and all of them apply to shooters as well as to Collision Detection in general.

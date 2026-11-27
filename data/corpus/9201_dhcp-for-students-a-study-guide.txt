@@ -1,0 +1,17 @@
+DHCP for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover DHCP.
+
+Learning goals:
+1. Explain DHCP in your own words.
+2. Describe leases, address pools, reservations, and discover and offer messages.
+3. Give examples from home and office networks and guest Wi-Fi.
+4. Name three problems to watch for.
+
+Start with the definition: DHCP is a service that automatically gives devices IP addresses and network settings. Then draw a hotel desk that hands out room numbers for a limited stay on paper and label the four terms from the goals above.
+
+Self-test questions: Why is rogue DHCP servers a problem? How does address pools relate to reservations? When would you choose dnsmasq or ISC Kea?
+
+Study habit worth keeping: reserve fixed addresses for servers and printers.
+
+When you feel ready, compare DHCP with HTTP/2 and HTTP/3 and write down three differences.

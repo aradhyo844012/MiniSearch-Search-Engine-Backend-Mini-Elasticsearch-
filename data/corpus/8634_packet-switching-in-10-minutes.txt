@@ -1,0 +1,15 @@
+Packet Switching in 10 Minutes
+
+You have ten minutes, so here is the fast route through Packet Switching.
+
+Minutes 1 and 2, the definition: Packet Switching is a method of sending data as small packets that travel independently across a network.
+
+Minutes 3 and 4, the vocabulary: learn packets, headers, routing, and reassembly.
+
+Minutes 5 and 6, the picture: imagine mailing a book one page per envelope and reassembling it on arrival. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through internet traffic, voice over IP, and file transfers.
+
+Minutes 9 and 10, the traps and the tools: watch for packet loss and out-of-order delivery, then try Wireshark for a first experiment.
+
+If you have a spare minute, remember to capture a few packets to see the headers for yourself.

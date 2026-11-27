@@ -1,0 +1,26 @@
+Everything You Need to Know About Environment Variables
+
+This page collects the essentials about Environment Variables in one place. In short, Environment Variables is named values the operating system gives to programs to configure their behavior.
+
+Core concepts:
+- variable names
+- scope
+- export
+- shell startup files
+
+Where it is used:
+- storing configuration
+- selecting program paths
+- passing settings to containers
+
+Common problems:
+- committing secrets in dotfiles
+- variables not visible to child processes
+- typos in names
+
+Tools to know:
+- env
+- printenv
+- dotenv files
+
+Remember this above all: sticky notes attached to a program before it starts is a good way to picture it, and the best habit is to print a variable to confirm its value before blaming the code.

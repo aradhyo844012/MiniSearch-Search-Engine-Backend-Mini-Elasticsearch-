@@ -1,0 +1,11 @@
+Is AWS IAM Roles and Policies Right for Your Project?
+
+Before adopting AWS IAM Roles and Policies, ask whether it fits the problem. Remember that AWS IAM Roles and Policies is the permission system that controls who can do what in an AWS account.
+
+It is a good fit when your work involves securing deployments or granting services access, and when your team understands users and roles.
+
+Be cautious when the project is very small, when deadlines leave no room to learn policies, or when you cannot manage these risks: wildcard permissions, long-lived access keys, and unused roles.
+
+A simple decision test: write down the problem in one sentence, then check whether least privilege and temporary credentials are part of the answer. If they are, AWS IAM Roles and Policies is probably worth a closer look.
+
+If you decide to go ahead, start small with auditing permissions and grant the narrowest policy that works and review it regularly.

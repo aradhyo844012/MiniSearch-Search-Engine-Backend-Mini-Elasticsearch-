@@ -1,0 +1,15 @@
+Model Deployment in 10 Minutes
+
+You have ten minutes, so here is the fast route through Model Deployment.
+
+Minutes 1 and 2, the definition: Model Deployment is making a trained model available to serve predictions in a real application.
+
+Minutes 3 and 4, the vocabulary: learn serving APIs, batch versus online inference, containers, and latency budgets.
+
+Minutes 5 and 6, the picture: imagine moving a recipe from the test kitchen into the restaurant. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through recommendation endpoints, fraud checks, and mobile app features.
+
+Minutes 9 and 10, the traps and the tools: watch for training-serving mismatch and slow cold starts, then try FastAPI for a first experiment.
+
+If you have a spare minute, remember to log inputs and outputs so predictions can be audited.

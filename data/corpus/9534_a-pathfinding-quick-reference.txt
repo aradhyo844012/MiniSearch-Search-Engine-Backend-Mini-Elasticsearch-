@@ -1,0 +1,15 @@
+A* Pathfinding Quick Reference
+
+A one-screen reminder for A* Pathfinding. Bookmark it and return when the details fade.
+
+What it is: a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+Key terms: open and closed sets, cost so far, heuristics, and grids and graphs.
+Typical uses: game characters, robot navigation, and map routing.
+Risks: overestimating the heuristic, slow searches on huge maps, and ignoring moving obstacles.
+Tools: Unity NavMesh, Python heapq, and Recast Navigation.
+
+Mental picture: a hiker who prefers trails that seem to head toward the summit.
+
+Habit to build: choose an admissible heuristic so paths stay optimal.
+
+See also: Sprite Animation, which sits close to A* Pathfinding in the area of Game Development.

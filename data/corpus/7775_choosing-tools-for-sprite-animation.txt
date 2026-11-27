@@ -1,0 +1,11 @@
+Choosing Tools for Sprite Animation
+
+There is no single best tool for Sprite Animation. The right choice depends on your project, your team and your timeline.
+
+Aseprite is a common first choice, especially for 2D platformers. Unity Animator suits teams that already work with similar technology, and Phaser is worth a look when you need something different.
+
+Judge any tool for Sprite Animation by four questions: Is the documentation clear? Is the community active? Does it handle user interface effects well? Can you leave it later if you need to?
+
+Whichever tool you pick for Sprite Animation, test it on a small problem first, and watch for this: inconsistent frame timing.
+
+As a rule of thumb, pack frames into one sprite sheet to reduce draw calls, no matter which tool you use.

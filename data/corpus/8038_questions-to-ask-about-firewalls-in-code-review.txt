@@ -1,0 +1,12 @@
+Questions to Ask About Firewalls in Code Review
+
+Reviewing code that involves Firewalls is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of protecting servers correctly?
+- Have we avoided this problem: locking yourself out remotely?
+- Have we considered rules in the wrong order?
+- Is ufw used consistently, or are we mixing approaches?
+- Is stateful inspection clear to someone reading the code for the first time?
+- Does this change respect rules, or does it work around it?
+
+Good reviews of work on Firewalls are specific, kind and focused on default deny, not on personal style.

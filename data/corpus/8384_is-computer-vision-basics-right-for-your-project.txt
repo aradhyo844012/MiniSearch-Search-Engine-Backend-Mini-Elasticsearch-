@@ -1,0 +1,11 @@
+Is Computer Vision Basics Right for Your Project?
+
+Before adopting Computer Vision Basics, ask whether it fits the problem. Remember that Computer Vision Basics is teaching computers to extract information from images and video.
+
+It is a good fit when your work involves face detection or document scanning, and when your team understands pixels.
+
+Be cautious when the project is very small, when deadlines leave no room to learn filters and edges, or when you cannot manage these risks: lighting changes, biased datasets, and overfitting to a small set of photos.
+
+A simple decision test: write down the problem in one sentence, then check whether feature detection and classification are part of the answer. If they are, Computer Vision Basics is probably worth a closer look.
+
+If you decide to go ahead, start small with quality inspection and visualize intermediate steps such as edges or masks.

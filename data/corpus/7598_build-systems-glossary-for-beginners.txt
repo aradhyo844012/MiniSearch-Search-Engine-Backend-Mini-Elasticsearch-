@@ -1,0 +1,12 @@
+Build Systems Glossary for Beginners
+
+New words can make Build Systems feel harder than it is. This glossary keeps the key ones in one place.
+
+Build Systems: tools that turn source code into runnable programs automatically.
+targets: a core term, most visible in compiling large projects.
+dependencies: a core term that beginners often confuse with incremental builds.
+incremental builds: a core term that connects to build caches.
+build caches: a core term worth revisiting after you try a real example.
+Make: a tool commonly used for packaging software.
+
+Come back to this Build Systems list whenever documentation for Gradle uses a word you do not recognize.

@@ -1,0 +1,15 @@
+Twelve-Factor Apps Quick Reference
+
+A one-screen reminder for Twelve-Factor Apps. Bookmark it and return when the details fade.
+
+What it is: a set of twelve guidelines for building apps that deploy and scale cleanly.
+Key terms: config in the environment, stateless processes, backing services, and disposability.
+Typical uses: building web services, deploying to platforms, and keeping environments consistent.
+Risks: storing state on local disks, hard-coded config, and long start-up times.
+Tools: Heroku, Docker, and Cloud Foundry.
+
+Mental picture: a checklist for packing a suitcase that fits any airline.
+
+Habit to build: keep config out of the code.
+
+See also: High Availability Design, which sits close to Twelve-Factor Apps in the area of Cloud Platforms and Architecture.

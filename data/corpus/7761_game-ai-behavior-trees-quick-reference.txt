@@ -1,0 +1,15 @@
+Game AI Behavior Trees Quick Reference
+
+A one-screen reminder for Game AI Behavior Trees. Bookmark it and return when the details fade.
+
+What it is: tree-shaped plans that decide what a computer-controlled character does.
+Key terms: selector nodes, sequence nodes, conditions, and actions.
+Typical uses: enemy behavior, companion characters, and simulated crowds.
+Risks: trees that become tangled, expensive conditions checked every frame, and no way to debug decisions.
+Tools: Unreal Engine behavior trees, py_trees, and Behavior Designer.
+
+Mental picture: a flowchart a character consults every moment before acting.
+
+Habit to build: visualize the tree while the game is running.
+
+See also: Sprite Animation, which sits close to Game AI Behavior Trees in the area of Game Development.

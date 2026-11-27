@@ -1,0 +1,11 @@
+Choosing Tools for Information Theory and Entropy
+
+There is no single best tool for Information Theory and Entropy. The right choice depends on your project, your team and your timeline.
+
+the Python math module is a common first choice, especially for data compression. NumPy suits teams that already work with similar technology, and zlib is worth a look when you need something different.
+
+Judge any tool for Information Theory and Entropy by four questions: Is the documentation clear? Is the community active? Does it handle error-correcting codes well? Can you leave it later if you need to?
+
+Whichever tool you pick for Information Theory and Entropy, test it on a small problem first, and watch for this: confusing information with meaning.
+
+As a rule of thumb, compute the entropy of a short text by hand, no matter which tool you use.

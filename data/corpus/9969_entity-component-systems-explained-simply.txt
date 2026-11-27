@@ -1,0 +1,13 @@
+Entity Component Systems Explained Simply
+
+If Entity Component Systems sounds intimidating, relax. It is a game architecture that builds objects from data components processed by systems, and the idea is simpler than the name suggests.
+
+Think of Entity Component Systems as building characters from interchangeable parts snapped onto an ID tag. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: entities, components, systems, and queries. You do not need to master them all at once. Start with entities, then add components.
+
+People reach for Entity Component Systems when they work on large simulations, games with thousands of objects, and flexible game design.
+
+One practical tip is to keep components as plain data.
+
+Once Entity Component Systems feels comfortable, read about Physics Engines, which lives in the same neighborhood of ideas.

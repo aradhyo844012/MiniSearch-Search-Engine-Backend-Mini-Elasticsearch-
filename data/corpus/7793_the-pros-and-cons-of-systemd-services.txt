@@ -1,0 +1,15 @@
+The Pros and Cons of systemd Services
+
+No technology is free of trade-offs, and systemd Services is no exception. Here is an honest summary.
+
+Advantages:
+- Supports starting services at boot
+- Makes restarting crashed programs easier
+- Helps with managing dependencies between services
+
+Drawbacks and risks:
+- Risk: editing unit files without reloading the daemon
+- Risk: missing restart policies
+- Risk: ignoring dependency ordering
+
+Weigh the two lists against your own project. If the advantages match your needs, such as starting services at boot, and you can manage the risks, systemd Services is a sound choice. Whatever you decide, run systemctl daemon-reload after every unit file change.

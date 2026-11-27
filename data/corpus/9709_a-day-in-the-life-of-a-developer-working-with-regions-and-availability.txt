@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Regions and Availability Zones
+
+This is a fictional but realistic day for a developer whose project relies on Regions and Availability Zones.
+
+Morning: Divya starts by reviewing a ticket about placing services near users. Before touching any code, Divya re-reads the notes on regions to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore availability zones with AWS Regions. A small test exposes the problem of putting everything in one zone, and they fix it together.
+
+Afternoon: the team discusses a new request involving surviving data center failures. Divya sketches branches of a bank in different cities and different buildings on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to spread critical services across at least two zones.
+
+Days like this are typical. Regions and Availability Zones is not glamorous, but understanding it keeps small problems from growing.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Number Theory and RSA
+
+This page collects the essentials about Number Theory and RSA in one place. In short, Number Theory and RSA is the study of integers, whose properties underpin much of modern encryption.
+
+Core concepts:
+- prime numbers
+- modular arithmetic
+- greatest common divisor
+- modular exponentiation
+
+Where it is used:
+- public key cryptography
+- hash functions
+- digital signatures
+
+Common problems:
+- using small primes
+- implementing crypto by hand in production
+- ignoring padding
+
+Tools to know:
+- Python pow
+- OpenSSL
+- SageMath
+
+Remember this above all: a clock whose numbers wrap around is a good way to picture it, and the best habit is to use vetted crypto libraries instead of writing your own.

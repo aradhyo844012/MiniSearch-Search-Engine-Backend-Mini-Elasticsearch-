@@ -1,0 +1,17 @@
+Game AI Behavior Trees Do's and Don'ts
+
+A quick list of habits for working with Game AI Behavior Trees.
+
+Do:
+- Learn selector nodes before anything else.
+- Try Unreal Engine behavior trees on a small example.
+- Make it a habit to visualize the tree while the game is running.
+- Test the case of enemy behavior early.
+
+Don't:
+- Ignore this: trees that become tangled.
+- Ignore this: expensive conditions checked every frame.
+- Ignore this: no way to debug decisions.
+- Adopt Game AI Behavior Trees just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Game AI Behavior Trees, a little patience with sequence nodes pays off more than any clever shortcut.

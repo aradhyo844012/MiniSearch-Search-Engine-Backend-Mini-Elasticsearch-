@@ -1,0 +1,11 @@
+Is SQL Basics Right for Your Project?
+
+Before adopting SQL Basics, ask whether it fits the problem. Remember that SQL Basics is the core SQL commands for reading and changing data in tables.
+
+It is a good fit when your work involves reading customer records or building reports, and when your team understands SELECT.
+
+Be cautious when the project is very small, when deadlines leave no room to learn WHERE, or when you cannot manage these risks: forgetting the WHERE clause on updates, selecting every column, and assuming row order without ORDER BY.
+
+A simple decision test: write down the problem in one sentence, then check whether ORDER BY and INSERT and UPDATE are part of the answer. If they are, SQL Basics is probably worth a closer look.
+
+If you decide to go ahead, start small with changing stored data and run a SELECT with the same WHERE clause before any UPDATE or DELETE.

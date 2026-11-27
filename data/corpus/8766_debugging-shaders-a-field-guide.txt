@@ -1,0 +1,13 @@
+Debugging Shaders: A Field Guide
+
+When something goes wrong around Shaders, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: branches that slow the GPU, precision errors, and platform differences.
+Step 3: revisit vertex shaders and fragment shaders, since misunderstandings there cause many bugs.
+Step 4: use GLSL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Shaders in work such as lighting effects come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start from a minimal shader and add one effect at a time. It prevents a surprising number of repeat problems.

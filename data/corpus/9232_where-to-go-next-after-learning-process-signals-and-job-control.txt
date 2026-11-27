@@ -1,0 +1,11 @@
+Where to Go Next After Learning Process Signals and Job Control
+
+You have met the basics of Process Signals and Job Control. Here is how to keep the momentum going.
+
+Go wider: read about systemd Services, which belongs to the same area as Process Signals and Job Control (Linux and System Administration) and often appears in the same projects.
+
+Go deeper: choose one of SIGTERM and SIGKILL, foreground and background jobs, kill and trap or process groups, and study it until you can explain it to a beginner.
+
+Go practical: build something around shutting down gracefully with kill, and note every problem you meet, starting with using kill -9 first.
+
+Go social: share what you learned. Explaining Process Signals and Job Control to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

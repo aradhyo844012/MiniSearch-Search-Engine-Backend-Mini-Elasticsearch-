@@ -1,0 +1,11 @@
+Entity Component Systems Tips from Experienced Engineers
+
+Engineers who work with Entity Component Systems regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: overengineering small games.
+2. When something behaves strangely, revisit components before anything else.
+3. Make sure you can keep components as plain data.
+4. Test the case of large simulations early, before the design hardens.
+5. Write down why you chose Entity Component Systems so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to games with thousands of objects as well as to Entity Component Systems in general.

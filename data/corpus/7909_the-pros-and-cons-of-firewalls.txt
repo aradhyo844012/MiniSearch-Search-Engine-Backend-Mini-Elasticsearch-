@@ -1,0 +1,15 @@
+The Pros and Cons of Firewalls
+
+No technology is free of trade-offs, and Firewalls is no exception. Here is an honest summary.
+
+Advantages:
+- Supports protecting servers
+- Makes segmenting networks easier
+- Helps with logging suspicious traffic
+
+Drawbacks and risks:
+- Risk: rules in the wrong order
+- Risk: overly broad allow rules
+- Risk: locking yourself out remotely
+
+Weigh the two lists against your own project. If the advantages match your needs, such as protecting servers, and you can manage the risks, Firewalls is a sound choice. Whatever you decide, start with default deny and open only what you need.

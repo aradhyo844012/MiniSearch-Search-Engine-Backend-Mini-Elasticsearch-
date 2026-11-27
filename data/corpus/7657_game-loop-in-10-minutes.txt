@@ -1,0 +1,15 @@
+Game Loop in 10 Minutes
+
+You have ten minutes, so here is the fast route through Game Loop.
+
+Minutes 1 and 2, the definition: Game Loop is the repeating cycle that processes input, updates the game state and draws each frame.
+
+Minutes 3 and 4, the vocabulary: learn input handling, the update step, rendering, and frame timing.
+
+Minutes 5 and 6, the picture: imagine a heartbeat that keeps the whole game alive. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through running every real-time game, keeping animation smooth, and simulating physics steadily.
+
+Minutes 9 and 10, the traps and the tools: watch for tying logic to frame rate and slow update steps, then try Unity for a first experiment.
+
+If you have a spare minute, remember to use delta time so speed does not depend on frame rate.

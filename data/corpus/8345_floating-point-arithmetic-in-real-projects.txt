@@ -1,0 +1,11 @@
+Floating-Point Arithmetic in Real Projects
+
+Reading about Floating-Point Arithmetic is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: scientific computing. Here, mantissa and exponent drives the main design choices, and the team needs to guard against comparing floats with equality.
+
+Scenario two: graphics. This time rounding matters most, and tools such as Python decimal help keep things manageable.
+
+Scenario three: financial calculations that need care. The key idea is precision, and the biggest risk is accumulated rounding errors.
+
+Across all three scenarios, Floating-Point Arithmetic stays the same idea: the way computers approximate real numbers with a fixed number of bits. Only the details change.

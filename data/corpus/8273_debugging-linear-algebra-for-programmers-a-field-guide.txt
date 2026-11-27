@@ -1,0 +1,13 @@
+Debugging Linear Algebra for Programmers: A Field Guide
+
+When something goes wrong around Linear Algebra for Programmers, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mixing row and column conventions, shape mismatches, and forgetting that matrix multiplication is not commutative.
+Step 3: revisit vectors and matrices, since misunderstandings there cause many bugs.
+Step 4: use NumPy or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Linear Algebra for Programmers in work such as 3D graphics come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, check shapes before multiplying. It prevents a surprising number of repeat problems.

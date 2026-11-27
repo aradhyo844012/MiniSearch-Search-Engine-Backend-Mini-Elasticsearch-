@@ -1,0 +1,15 @@
+Ray Tracing Quick Reference
+
+A one-screen reminder for Ray Tracing. Bookmark it and return when the details fade.
+
+What it is: a rendering technique that follows rays of light to produce realistic images.
+Key terms: rays, intersections, reflection and refraction, and shadows.
+Typical uses: movie visuals, architectural visualization, and realistic game lighting.
+Risks: slow render times, noise from too few samples, and numerical precision errors.
+Tools: Blender Cycles, NVIDIA OptiX, and POV-Ray.
+
+Mental picture: tracing a flashlight beam backward from your eye into the scene.
+
+Habit to build: start with spheres and a single light before adding features.
+
+See also: Digital Audio, which sits close to Ray Tracing in the area of Graphics and Multimedia.

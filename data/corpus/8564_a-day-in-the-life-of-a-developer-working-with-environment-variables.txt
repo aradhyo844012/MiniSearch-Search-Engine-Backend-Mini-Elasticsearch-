@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Environment Variables
+
+This is a fictional but realistic day for a developer whose project relies on Environment Variables.
+
+Morning: Arjun starts by reviewing a ticket about storing configuration. Before touching any code, Arjun re-reads the notes on variable names to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore scope with env. A small test exposes the problem of committing secrets in dotfiles, and they fix it together.
+
+Afternoon: the team discusses a new request involving selecting program paths. Arjun sketches sticky notes attached to a program before it starts on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to print a variable to confirm its value before blaming the code.
+
+Days like this are typical. Environment Variables is not glamorous, but understanding it keeps small problems from growing.

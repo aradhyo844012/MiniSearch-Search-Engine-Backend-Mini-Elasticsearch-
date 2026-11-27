@@ -1,0 +1,12 @@
+Questions to Ask About Bash Scripting in Code Review
+
+Reviewing code that involves Bash Scripting is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Bash used consistently, or are we mixing approaches?
+- Could we start scripts with set -euo pipefail and quote every variable?
+- Have we avoided this problem: scripts that are hard to read?
+- Does this change respect variables, or does it work around it?
+- Would a test catch ignoring errors in pipelines if it appeared later?
+- Have we considered unquoted variables?
+
+Good reviews of work on Bash Scripting are specific, kind and focused on exit codes, not on personal style.

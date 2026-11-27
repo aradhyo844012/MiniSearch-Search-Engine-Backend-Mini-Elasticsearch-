@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Reverse Proxies
+
+This path is for a learner who has never studied Reverse Proxies before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Reverse Proxies is servers that sit in front of applications and forward client requests to them) and learn upstream servers and proxy headers.
+
+Stage 2, hands-on: install NGINX, follow a tutorial, and build a small example involving hiding backend servers.
+
+Stage 3, depth: study TLS termination and caching, then deliberately explore this problem: losing the client IP address.
+
+Stage 4, application: apply Reverse Proxies to terminating HTTPS, compare Caddy with HAProxy, and write up your results.
+
+Stage 5, review: teach Reverse Proxies to someone else, and then move on to Wi-Fi Networks.

@@ -1,0 +1,15 @@
+SSH and Remote Access Quick Reference
+
+A one-screen reminder for SSH and Remote Access. Bookmark it and return when the details fade.
+
+What it is: a secure protocol for logging in to and controlling remote machines.
+Key terms: key pairs, host keys, port forwarding, and config files.
+Typical uses: administering servers, copying files securely, and tunneling to private services.
+Risks: password logins left enabled, sharing private keys, and ignoring host key warnings.
+Tools: OpenSSH, ssh-keygen, and scp.
+
+Mental picture: a private phone line with a secret handshake to a faraway office.
+
+Habit to build: use key-based login and disable password authentication.
+
+See also: Process Signals and Job Control, which sits close to SSH and Remote Access in the area of Linux and System Administration.

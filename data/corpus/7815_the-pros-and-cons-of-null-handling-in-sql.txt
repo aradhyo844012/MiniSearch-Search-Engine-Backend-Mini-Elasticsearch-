@@ -1,0 +1,15 @@
+The Pros and Cons of NULL Handling in SQL
+
+No technology is free of trade-offs, and NULL Handling in SQL is no exception. Here is an honest summary.
+
+Advantages:
+- Supports optional fields
+- Makes outer joins easier
+- Helps with data cleaning
+
+Drawbacks and risks:
+- Risk: comparing with equals instead of IS NULL
+- Risk: NOT IN with NULLs
+- Risk: forgetting NULLs in counts
+
+Weigh the two lists against your own project. If the advantages match your needs, such as optional fields, and you can manage the risks, NULL Handling in SQL is a sound choice. Whatever you decide, use IS NULL and COALESCE instead of comparing with equals.

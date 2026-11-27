@@ -1,0 +1,11 @@
+Practice Exercises for Linux File Permissions
+
+These exercises build real understanding of Linux File Permissions. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble protecting private keys or sharing project folders.
+Exercise 2: Compare chmod and setfacl for securing web server files and write down your conclusion.
+Exercise 3: Explain how chmod and chown and umask differ, using a drawing.
+Exercise 4: Create a small example that deliberately triggers this problem: using chmod 777 as a quick fix. Then fix it.
+Exercise 5: Write a short paragraph describing Linux File Permissions and include the term owner, group and others.
+
+When you finish, compare your answers with the definition: Linux File Permissions is the read, write and execute rules that control who can access each file.

@@ -1,0 +1,17 @@
+Subqueries and CTEs for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Subqueries and CTEs.
+
+Learning goals:
+1. Explain Subqueries and CTEs in your own words.
+2. Describe subqueries, WITH clauses, correlated queries, and readability.
+3. Give examples from breaking complex reports into steps and filtering with computed results.
+4. Name three problems to watch for.
+
+Start with the definition: Subqueries and CTEs is queries nested inside other queries or named as temporary result sets. Then draw solving a puzzle by writing down intermediate answers on paper and label the four terms from the goals above.
+
+Self-test questions: Why is correlated subqueries that run slowly a problem? How does WITH clauses relate to correlated queries? When would you choose PostgreSQL or SQLite?
+
+Study habit worth keeping: name each CTE after what it returns.
+
+When you feel ready, compare Subqueries and CTEs with Stored Procedures and Triggers and write down three differences.

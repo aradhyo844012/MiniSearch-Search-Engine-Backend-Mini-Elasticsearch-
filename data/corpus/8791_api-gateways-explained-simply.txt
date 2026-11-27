@@ -1,0 +1,13 @@
+API Gateways Explained Simply
+
+If API Gateways sounds intimidating, relax. It is services that sit in front of APIs to handle routing, authentication and limits, and the idea is simpler than the name suggests.
+
+Think of API Gateways as a reception desk that checks visitors and sends them to the right office. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: routing, authentication, rate limits, and request transformation. You do not need to master them all at once. Start with routing, then add authentication.
+
+You will meet API Gateways in work such as exposing microservices, securing public APIs, and collecting usage metrics.
+
+One practical tip is to keep the gateway thin and put business logic in services.
+
+Once API Gateways feels comfortable, read about Managed Kubernetes Services, which lives in the same neighborhood of ideas.

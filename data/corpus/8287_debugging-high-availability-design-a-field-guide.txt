@@ -1,0 +1,13 @@
+Debugging High Availability Design: A Field Guide
+
+When something goes wrong around High Availability Design, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: hidden single points of failure, untested failover, and correlated failures.
+Step 3: revisit redundancy and failover, since misunderstandings there cause many bugs.
+Step 4: use load balancers or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving High Availability Design in work such as online stores come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, list every component and ask what happens if it dies. It prevents a surprising number of repeat problems.

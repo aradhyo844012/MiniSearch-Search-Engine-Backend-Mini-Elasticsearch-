@@ -1,0 +1,17 @@
+Graph Theory Basics Do's and Don'ts
+
+A quick list of habits for working with Graph Theory Basics.
+
+Do:
+- Learn vertices and edges before anything else.
+- Try NetworkX on a small example.
+- Make it a habit to draw a small example before writing code.
+- Test the case of social networks early.
+
+Don't:
+- Ignore this: mixing directed and undirected graphs.
+- Ignore this: ignoring disconnected parts.
+- Ignore this: choosing the wrong representation for dense graphs.
+- Adopt Graph Theory Basics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Graph Theory Basics, a little patience with degree pays off more than any clever shortcut.

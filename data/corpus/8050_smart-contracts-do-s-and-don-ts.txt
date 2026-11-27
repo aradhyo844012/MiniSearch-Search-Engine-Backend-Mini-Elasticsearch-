@@ -1,0 +1,17 @@
+Smart Contracts Do's and Don'ts
+
+A quick list of habits for working with Smart Contracts.
+
+Do:
+- Learn contract code before anything else.
+- Try Solidity on a small example.
+- Make it a habit to audit and test contracts thoroughly before deployment.
+- Test the case of token systems early.
+
+Don't:
+- Ignore this: bugs that cannot be patched.
+- Ignore this: reentrancy attacks.
+- Ignore this: high gas costs.
+- Adopt Smart Contracts just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Smart Contracts, a little patience with transactions pays off more than any clever shortcut.

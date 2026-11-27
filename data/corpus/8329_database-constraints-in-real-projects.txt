@@ -1,0 +1,11 @@
+Database Constraints in Real Projects
+
+Reading about Database Constraints is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: preventing bad data. Here, primary keys drives the main design choices, and the team needs to guard against skipping constraints for speed.
+
+Scenario two: protecting relationships. This time foreign keys matters most, and tools such as PostgreSQL help keep things manageable.
+
+Scenario three: documenting business rules. The key idea is unique constraints, and the biggest risk is missing indexes on foreign keys.
+
+Across all three scenarios, Database Constraints stays the same idea: rules the database enforces to keep stored data valid. Only the details change.

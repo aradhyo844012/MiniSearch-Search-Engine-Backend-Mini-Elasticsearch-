@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with DHCP
+
+This is a fictional but realistic day for a developer whose project relies on DHCP.
+
+Morning: Asha starts by reviewing a ticket about home and office networks. Before touching any code, Asha re-reads the notes on leases to make sure the plan is sound.
+
+Midday: Asha pairs with a teammate to explore address pools with dnsmasq. A small test exposes the problem of rogue DHCP servers, and they fix it together.
+
+Afternoon: the team discusses a new request involving guest Wi-Fi. Asha sketches a hotel desk that hands out room numbers for a limited stay on the whiteboard to help everyone follow the idea.
+
+End of day: Asha writes a short note describing what changed and adds a reminder to reserve fixed addresses for servers and printers.
+
+Days like this are typical. DHCP is not glamorous, but understanding it keeps small problems from growing.

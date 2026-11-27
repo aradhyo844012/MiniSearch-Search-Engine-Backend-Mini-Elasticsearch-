@@ -1,0 +1,15 @@
+Image Compression Quick Reference
+
+A one-screen reminder for Image Compression. Bookmark it and return when the details fade.
+
+What it is: reducing the size of image files by removing redundancy or less visible detail.
+Key terms: lossy and lossless formats, quantization, transform coding, and quality settings.
+Typical uses: web images, photo storage, and sending pictures over slow networks.
+Risks: repeated recompression, the wrong format for graphics, and excessive quality loss.
+Tools: ImageMagick, mozjpeg, and Squoosh.
+
+Mental picture: packing a suitcase by folding clothes tightly.
+
+Habit to build: pick the format by content: photos versus flat graphics.
+
+See also: Rasterization, which sits close to Image Compression in the area of Graphics and Multimedia.

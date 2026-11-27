@@ -1,0 +1,26 @@
+Everything You Need to Know About Cloud-Native Applications
+
+This page collects the essentials about Cloud-Native Applications in one place. In short, Cloud-Native Applications is applications designed from the start to run in the cloud using containers and managed services.
+
+Core concepts:
+- containers
+- microservices
+- declarative configuration
+- elastic scaling
+
+Where it is used:
+- web platforms
+- data-heavy services
+- rapidly changing products
+
+Common problems:
+- treating the cloud like a data center
+- too many services
+- ignoring costs
+
+Tools to know:
+- Kubernetes
+- Docker
+- Helm
+
+Remember this above all: a plant that grows best in the soil it was designed for is a good way to picture it, and the best habit is to design every service to be stateless where possible.

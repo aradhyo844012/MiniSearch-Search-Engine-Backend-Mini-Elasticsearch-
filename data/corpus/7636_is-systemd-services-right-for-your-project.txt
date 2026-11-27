@@ -1,0 +1,11 @@
+Is systemd Services Right for Your Project?
+
+Before adopting systemd Services, ask whether it fits the problem. Remember that systemd Services is the init system and service manager used by most modern Linux distributions.
+
+It is a good fit when your work involves starting services at boot or restarting crashed programs, and when your team understands unit files.
+
+Be cautious when the project is very small, when deadlines leave no room to learn targets, or when you cannot manage these risks: editing unit files without reloading the daemon, missing restart policies, and ignoring dependency ordering.
+
+A simple decision test: write down the problem in one sentence, then check whether service states and journal logs are part of the answer. If they are, systemd Services is probably worth a closer look.
+
+If you decide to go ahead, start small with managing dependencies between services and run systemctl daemon-reload after every unit file change.

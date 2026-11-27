@@ -1,0 +1,9 @@
+Understanding Twelve-Factor Apps Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a checklist for packing a suitcase that fits any airline.
+
+In that picture, config in the environment is the first rule you follow, stateless processes is the next step, and backing services and disposability keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Twelve-Factor Apps is a set of twelve guidelines for building apps that deploy and scale cleanly, and it involves details such as storing state on local disks that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Heroku to learn the exact behavior. The same picture helps when you explain building web services to a friend.

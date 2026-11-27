@@ -1,0 +1,13 @@
+Teaching Monorepos to a Teammate
+
+Explaining Monorepos to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: one big toolbox for the whole workshop. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Monorepos is single repositories that hold the code for many projects. Avoid jargon at this stage.
+
+Walk through an example involving sharing libraries across apps, naming shared tooling and code ownership as they come up.
+
+Ask your teammate to explain selective builds in Monorepos back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow checkouts, and suggest this habit: set up selective builds and tests early.

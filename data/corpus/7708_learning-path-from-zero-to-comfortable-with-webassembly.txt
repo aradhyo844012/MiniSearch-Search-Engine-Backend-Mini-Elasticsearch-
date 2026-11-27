@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with WebAssembly
+
+This path is for a learner who has never studied WebAssembly before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (WebAssembly is a compact binary format that lets code written in many languages run fast in browsers) and learn modules and linear memory.
+
+Stage 2, hands-on: install Emscripten, follow a tutorial, and build a small example involving running heavy computation in the browser.
+
+Stage 3, depth: study imports and exports and the JavaScript bridge, then deliberately explore this problem: crossing the JavaScript boundary too often.
+
+Stage 4, application: apply WebAssembly to porting existing C or Rust code, compare wasm-pack with Wasmtime, and write up your results.
+
+Stage 5, review: teach WebAssembly to someone else, and then move on to Dev Containers.

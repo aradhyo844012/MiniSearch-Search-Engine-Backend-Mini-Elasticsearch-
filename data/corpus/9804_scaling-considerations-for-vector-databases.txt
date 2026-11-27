@@ -1,0 +1,11 @@
+Scaling Considerations for Vector Databases
+
+A design that works for a classroom project can behave very differently under real load. Here is how Vector Databases changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding embeddings and getting semantic search right.
+
+Medium scale: problems start to appear. Watch for mixing embedding models and ignoring recall trade-offs, and measure with FAISS before changing anything.
+
+Large scale: distance metrics and metadata filters move from background details to central design questions. Teams often revisit their choices around recommendations at this stage.
+
+Before you scale, measure recall on a small labeled test set. It is cheaper to build that habit early than to fix a crisis later.

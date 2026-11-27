@@ -1,0 +1,13 @@
+Teaching WebAssembly to a Teammate
+
+Explaining WebAssembly to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a fast engine installed in the corner of a web page. Ask your teammate what the picture suggests.
+
+Then give the plain definition: WebAssembly is a compact binary format that lets code written in many languages run fast in browsers. Avoid jargon at this stage.
+
+Walk through an example involving running heavy computation in the browser, naming modules and linear memory as they come up.
+
+Ask your teammate to explain imports and exports in WebAssembly back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, crossing the JavaScript boundary too often, and suggest this habit: measure before moving code to WebAssembly.

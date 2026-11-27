@@ -1,0 +1,11 @@
+Scaling Considerations for Font Rendering
+
+A design that works for a classroom project can behave very differently under real load. Here is how Font Rendering changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding glyphs and getting web pages right.
+
+Medium scale: problems start to appear. Watch for missing font fallbacks and blurry text from scaling, and measure with FreeType before changing anything.
+
+Large scale: anti-aliasing and kerning move from background details to central design questions. Teams often revisit their choices around operating systems at this stage.
+
+Before you scale, subset fonts to the characters you need. It is cheaper to build that habit early than to fix a crisis later.

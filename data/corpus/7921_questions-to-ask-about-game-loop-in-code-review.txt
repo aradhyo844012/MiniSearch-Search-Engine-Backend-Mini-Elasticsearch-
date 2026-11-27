@@ -1,0 +1,12 @@
+Questions to Ask About Game Loop in Code Review
+
+Reviewing code that involves Game Loop is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Unity used consistently, or are we mixing approaches?
+- Could we use delta time so speed does not depend on frame rate?
+- Does the code handle the case of running every real-time game correctly?
+- Have we considered tying logic to frame rate?
+- Does this change respect input handling, or does it work around it?
+- Is the update step clear to someone reading the code for the first time?
+
+Good reviews of work on Game Loop are specific, kind and focused on rendering, not on personal style.

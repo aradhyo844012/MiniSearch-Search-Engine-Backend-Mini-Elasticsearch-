@@ -1,0 +1,13 @@
+Skills to Build Around Process Signals and Job Control
+
+Knowing the definition of Process Signals and Job Control is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with SIGTERM and SIGKILL and foreground and background jobs, and able to explain them without notes.
+
+Hands-on practice: spend real time with kill on a Process Signals and Job Control task, and try at least one alternative such as jobs and fg.
+
+Judgment: learn to decide when Process Signals and Job Control fits a problem such as stopping runaway programs, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a traffic officer's hand signals for running programs.
+
+Habits: try SIGTERM before SIGKILL so programs can clean up, and write down what you learn after each project.

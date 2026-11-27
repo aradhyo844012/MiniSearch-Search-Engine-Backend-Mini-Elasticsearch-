@@ -1,0 +1,17 @@
+Vector Databases for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Vector Databases.
+
+Learning goals:
+1. Explain Vector Databases in your own words.
+2. Describe embeddings, approximate nearest neighbors, distance metrics, and metadata filters.
+3. Give examples from semantic search and recommendations.
+4. Name three problems to watch for.
+
+Start with the definition: Vector Databases is databases built to store embeddings and find the most similar ones quickly. Then draw a map where similar ideas sit near each other on paper and label the four terms from the goals above.
+
+Self-test questions: Why is mixing embedding models a problem? How does approximate nearest neighbors relate to distance metrics? When would you choose FAISS or pgvector?
+
+Study habit worth keeping: measure recall on a small labeled test set.
+
+When you feel ready, compare Vector Databases with NULL Handling in SQL and write down three differences.

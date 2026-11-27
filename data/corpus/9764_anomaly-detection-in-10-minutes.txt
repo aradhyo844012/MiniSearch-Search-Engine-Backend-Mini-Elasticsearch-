@@ -1,0 +1,15 @@
+Anomaly Detection in 10 Minutes
+
+You have ten minutes, so here is the fast route through Anomaly Detection.
+
+Minutes 1 and 2, the definition: Anomaly Detection is finding data points or events that differ sharply from normal behavior.
+
+Minutes 3 and 4, the vocabulary: learn baselines, thresholds, isolation methods, and false positives.
+
+Minutes 5 and 6, the picture: imagine a security guard who notices the one person acting differently. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through fraud detection, server monitoring, and manufacturing quality.
+
+Minutes 9 and 10, the traps and the tools: watch for too many false alarms and shifting baselines, then try scikit-learn for a first experiment.
+
+If you have a spare minute, remember to tune alerts using real examples of past incidents.

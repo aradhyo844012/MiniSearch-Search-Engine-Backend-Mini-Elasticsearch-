@@ -1,0 +1,15 @@
+SSH and Remote Access in 10 Minutes
+
+You have ten minutes, so here is the fast route through SSH and Remote Access.
+
+Minutes 1 and 2, the definition: SSH and Remote Access is a secure protocol for logging in to and controlling remote machines.
+
+Minutes 3 and 4, the vocabulary: learn key pairs, host keys, port forwarding, and config files.
+
+Minutes 5 and 6, the picture: imagine a private phone line with a secret handshake to a faraway office. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through administering servers, copying files securely, and tunneling to private services.
+
+Minutes 9 and 10, the traps and the tools: watch for password logins left enabled and sharing private keys, then try OpenSSH for a first experiment.
+
+If you have a spare minute, remember to use key-based login and disable password authentication.

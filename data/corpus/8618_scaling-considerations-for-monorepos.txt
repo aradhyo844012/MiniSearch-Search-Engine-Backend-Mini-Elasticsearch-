@@ -1,0 +1,11 @@
+Scaling Considerations for Monorepos
+
+A design that works for a classroom project can behave very differently under real load. Here is how Monorepos changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding shared tooling and getting sharing libraries across apps right.
+
+Medium scale: problems start to appear. Watch for slow checkouts and unclear ownership, and measure with Nx before changing anything.
+
+Large scale: selective builds and atomic changes move from background details to central design questions. Teams often revisit their choices around coordinated refactors at this stage.
+
+Before you scale, set up selective builds and tests early. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+Teaching Model Deployment to a Teammate
+
+Explaining Model Deployment to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: moving a recipe from the test kitchen into the restaurant. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Model Deployment is making a trained model available to serve predictions in a real application. Avoid jargon at this stage.
+
+Walk through an example involving recommendation endpoints, naming serving APIs and batch versus online inference as they come up.
+
+Ask your teammate to explain containers in Model Deployment back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, training-serving mismatch, and suggest this habit: log inputs and outputs so predictions can be audited.

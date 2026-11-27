@@ -1,0 +1,11 @@
+Why Floating-Point Arithmetic Matters for Developers
+
+Developers who understand Floating-Point Arithmetic make better decisions, because Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits.
+
+Three situations show why it matters. First, scientific computing. Second, graphics. Third, financial calculations that need care. In each case, a solid grasp of mantissa and exponent and rounding separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: comparing floats with equality, accumulated rounding errors, and using floats for money.
+
+You will not need to build everything yourself; Python decimal, NumPy, and IEEE 754 references cover most needs.
+
+Connect Floating-Point Arithmetic with Probability Basics to see the bigger picture of Mathematics for Computing.

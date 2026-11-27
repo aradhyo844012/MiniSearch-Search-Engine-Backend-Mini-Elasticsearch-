@@ -1,0 +1,11 @@
+MLOps Pipelines Tips from Experienced Engineers
+
+Engineers who work with MLOps Pipelines regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip data versioning; everything else builds on it.
+2. Write down why you chose MLOps Pipelines so the next person understands the decision.
+3. Test the case of repeatable model releases early, before the design hardens.
+4. When something behaves strangely, revisit training pipelines before anything else.
+5. Make sure you can version both the code and the data.
+
+None of these tips needs special equipment, and all of them apply to tracking experiments as well as to MLOps Pipelines in general.

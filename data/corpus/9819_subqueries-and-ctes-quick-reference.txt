@@ -1,0 +1,15 @@
+Subqueries and CTEs Quick Reference
+
+A one-screen reminder for Subqueries and CTEs. Bookmark it and return when the details fade.
+
+What it is: queries nested inside other queries or named as temporary result sets.
+Key terms: subqueries, WITH clauses, correlated queries, and readability.
+Typical uses: breaking complex reports into steps, filtering with computed results, and walking recursive hierarchies.
+Risks: correlated subqueries that run slowly, deep nesting, and assuming CTEs are always materialized.
+Tools: PostgreSQL, SQLite, and dbt.
+
+Mental picture: solving a puzzle by writing down intermediate answers.
+
+Habit to build: name each CTE after what it returns.
+
+See also: Vector Databases, which sits close to Subqueries and CTEs in the area of SQL and Data Practice.

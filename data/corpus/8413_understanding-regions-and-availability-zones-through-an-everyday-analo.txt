@@ -1,0 +1,9 @@
+Understanding Regions and Availability Zones Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture branches of a bank in different cities and different buildings.
+
+In that picture, regions is the first rule you follow, availability zones is the next step, and latency and data residency keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources, and it involves details such as putting everything in one zone that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for AWS Regions to learn the exact behavior. The same picture helps when you explain placing services near users to a friend.

@@ -1,0 +1,17 @@
+Rasterization Do's and Don'ts
+
+A quick list of habits for working with Rasterization.
+
+Do:
+- Learn triangles before anything else.
+- Try OpenGL on a small example.
+- Make it a habit to draw simple shapes first to understand the pipeline.
+- Test the case of real-time games early.
+
+Don't:
+- Ignore this: aliasing along edges.
+- Ignore this: overdraw.
+- Ignore this: depth fighting.
+- Adopt Rasterization just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Rasterization, a little patience with pixel coverage pays off more than any clever shortcut.

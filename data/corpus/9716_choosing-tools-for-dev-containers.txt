@@ -1,0 +1,11 @@
+Choosing Tools for Dev Containers
+
+There is no single best tool for Dev Containers. The right choice depends on your project, your team and your timeline.
+
+VS Code Dev Containers is a common first choice, especially for onboarding new developers. Docker suits teams that already work with similar technology, and GitHub Codespaces is worth a look when you need something different.
+
+Judge any tool for Dev Containers by four questions: Is the documentation clear? Is the community active? Does it handle matching production tools well? Can you leave it later if you need to?
+
+Whichever tool you pick for Dev Containers, test it on a small problem first, and watch for this: slow image builds.
+
+As a rule of thumb, pin tool versions inside the container definition, no matter which tool you use.

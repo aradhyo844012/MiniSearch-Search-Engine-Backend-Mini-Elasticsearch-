@@ -1,0 +1,10 @@
+API Gateways: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about API Gateways with confidence. The subject itself is services that sit in front of APIs to handle routing, authentication and limits.
+
+routing: one of the building blocks of API Gateways. It shows up whenever you work on exposing microservices.
+authentication: one of the building blocks of API Gateways. You should be able to explain it in a single sentence before moving on.
+rate limits: one of the building blocks of API Gateways. Mixing it up with neighboring terms is a common source of confusion.
+request transformation: one of the building blocks of API Gateways. Documentation for Kong usually mentions it early.
+
+Practice using these four API Gateways terms in sentences about securing public APIs. If the sentences feel natural, the vocabulary has stuck.

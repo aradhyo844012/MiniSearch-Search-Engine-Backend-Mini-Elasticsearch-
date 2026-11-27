@@ -1,0 +1,11 @@
+Is Color Spaces Right for Your Project?
+
+Before adopting Color Spaces, ask whether it fits the problem. Remember that Color Spaces is mathematical models for describing colors, such as RGB, HSL and CMYK.
+
+It is a good fit when your work involves web design or photo editing, and when your team understands RGB.
+
+Be cautious when the project is very small, when deadlines leave no room to learn HSL, or when you cannot manage these risks: ignoring gamma, mixing color spaces, and poor contrast choices.
+
+A simple decision test: write down the problem in one sentence, then check whether CMYK and gamma are part of the answer. If they are, Color Spaces is probably worth a closer look.
+
+If you decide to go ahead, start small with printing and work in one color space and convert only at the end.

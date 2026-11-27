@@ -1,0 +1,11 @@
+Scaling Considerations for Entity Component Systems
+
+A design that works for a classroom project can behave very differently under real load. Here is how Entity Component Systems changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding entities and getting large simulations right.
+
+Medium scale: problems start to appear. Watch for overengineering small games and components that hold logic, and measure with Bevy before changing anything.
+
+Large scale: systems and queries move from background details to central design questions. Teams often revisit their choices around games with thousands of objects at this stage.
+
+Before you scale, keep components as plain data. It is cheaper to build that habit early than to fix a crisis later.

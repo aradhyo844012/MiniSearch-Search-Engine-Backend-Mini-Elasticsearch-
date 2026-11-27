@@ -1,0 +1,15 @@
+Dev Containers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Dev Containers.
+
+Minutes 1 and 2, the definition: Dev Containers is containerized development environments that every teammate can start in the same way.
+
+Minutes 3 and 4, the vocabulary: learn devcontainer.json, images, mounted folders, and extensions.
+
+Minutes 5 and 6, the picture: imagine a ready-made workshop that opens identically for everyone. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through onboarding new developers, matching production tools, and trying projects safely.
+
+Minutes 9 and 10, the traps and the tools: watch for slow image builds and files owned by the wrong user, then try VS Code Dev Containers for a first experiment.
+
+If you have a spare minute, remember to pin tool versions inside the container definition.

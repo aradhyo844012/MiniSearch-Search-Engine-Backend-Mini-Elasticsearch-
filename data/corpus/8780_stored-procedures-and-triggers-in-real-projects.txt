@@ -1,0 +1,11 @@
+Stored Procedures and Triggers in Real Projects
+
+Reading about Stored Procedures and Triggers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: enforcing rules close to the data. Here, procedures drives the main design choices, and the team needs to guard against hidden logic that surprises developers.
+
+Scenario two: audit logging. This time triggers matters most, and tools such as PL/pgSQL help keep things manageable.
+
+Scenario three: batch updates. The key idea is parameters, and the biggest risk is hard-to-test code.
+
+Across all three scenarios, Stored Procedures and Triggers stays the same idea: code stored inside the database that runs on demand or automatically when data changes. Only the details change.

@@ -1,0 +1,15 @@
+The Pros and Cons of Regions and Availability Zones
+
+No technology is free of trade-offs, and Regions and Availability Zones is no exception. Here is an honest summary.
+
+Advantages:
+- Supports placing services near users
+- Makes surviving data center failures easier
+- Helps with meeting data laws
+
+Drawbacks and risks:
+- Risk: putting everything in one zone
+- Risk: cross-region transfer fees
+- Risk: forgetting data residency rules
+
+Weigh the two lists against your own project. If the advantages match your needs, such as placing services near users, and you can manage the risks, Regions and Availability Zones is a sound choice. Whatever you decide, spread critical services across at least two zones.

@@ -1,0 +1,11 @@
+Is Subqueries and CTEs Right for Your Project?
+
+Before adopting Subqueries and CTEs, ask whether it fits the problem. Remember that Subqueries and CTEs is queries nested inside other queries or named as temporary result sets.
+
+It is a good fit when your work involves breaking complex reports into steps or filtering with computed results, and when your team understands subqueries.
+
+Be cautious when the project is very small, when deadlines leave no room to learn WITH clauses, or when you cannot manage these risks: correlated subqueries that run slowly, deep nesting, and assuming CTEs are always materialized.
+
+A simple decision test: write down the problem in one sentence, then check whether correlated queries and readability are part of the answer. If they are, Subqueries and CTEs is probably worth a closer look.
+
+If you decide to go ahead, start small with walking recursive hierarchies and name each CTE after what it returns.

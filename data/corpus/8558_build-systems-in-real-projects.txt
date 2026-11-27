@@ -1,0 +1,11 @@
+Build Systems in Real Projects
+
+Reading about Build Systems is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: compiling large projects. Here, targets drives the main design choices, and the team needs to guard against slow full rebuilds.
+
+Scenario two: packaging software. This time dependencies matters most, and tools such as Make help keep things manageable.
+
+Scenario three: running repeatable pipelines. The key idea is incremental builds, and the biggest risk is undeclared dependencies.
+
+Across all three scenarios, Build Systems stays the same idea: tools that turn source code into runnable programs automatically. Only the details change.

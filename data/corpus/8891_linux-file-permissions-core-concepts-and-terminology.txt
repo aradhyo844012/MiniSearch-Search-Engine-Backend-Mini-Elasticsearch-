@@ -1,0 +1,10 @@
+Linux File Permissions: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Linux File Permissions with confidence. The subject itself is the read, write and execute rules that control who can access each file.
+
+owner, group and others: one of the building blocks of Linux File Permissions. Documentation for ls -l usually mentions it early.
+mode bits: one of the building blocks of Linux File Permissions. Documentation for ls -l usually mentions it early.
+chmod and chown: one of the building blocks of Linux File Permissions. You should be able to explain it in a single sentence before moving on.
+umask: one of the building blocks of Linux File Permissions. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Linux File Permissions terms in sentences about sharing project folders. If the sentences feel natural, the vocabulary has stuck.

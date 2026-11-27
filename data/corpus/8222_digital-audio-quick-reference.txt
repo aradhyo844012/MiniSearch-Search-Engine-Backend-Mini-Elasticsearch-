@@ -1,0 +1,15 @@
+Digital Audio Quick Reference
+
+A one-screen reminder for Digital Audio. Bookmark it and return when the details fade.
+
+What it is: representing sound as numbers by sampling it many times per second.
+Key terms: sampling rate, bit depth, waveforms, and the Nyquist limit.
+Typical uses: music production, voice calls, and podcasts.
+Risks: clipping from too high a level, aliasing at low sample rates, and mixing sample rates.
+Tools: Audacity, SoX, and the Web Audio API.
+
+Mental picture: taking rapid snapshots of a wave so it can be redrawn later.
+
+Habit to build: keep recordings below the clipping level.
+
+See also: Font Rendering, which sits close to Digital Audio in the area of Graphics and Multimedia.

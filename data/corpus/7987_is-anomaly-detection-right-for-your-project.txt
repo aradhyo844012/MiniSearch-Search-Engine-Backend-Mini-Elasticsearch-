@@ -1,0 +1,11 @@
+Is Anomaly Detection Right for Your Project?
+
+Before adopting Anomaly Detection, ask whether it fits the problem. Remember that Anomaly Detection is finding data points or events that differ sharply from normal behavior.
+
+It is a good fit when your work involves fraud detection or server monitoring, and when your team understands baselines.
+
+Be cautious when the project is very small, when deadlines leave no room to learn thresholds, or when you cannot manage these risks: too many false alarms, shifting baselines, and labeling normal data incorrectly.
+
+A simple decision test: write down the problem in one sentence, then check whether isolation methods and false positives are part of the answer. If they are, Anomaly Detection is probably worth a closer look.
+
+If you decide to go ahead, start small with manufacturing quality and tune alerts using real examples of past incidents.

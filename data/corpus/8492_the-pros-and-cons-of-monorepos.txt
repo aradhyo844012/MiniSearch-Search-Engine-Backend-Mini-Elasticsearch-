@@ -1,0 +1,15 @@
+The Pros and Cons of Monorepos
+
+No technology is free of trade-offs, and Monorepos is no exception. Here is an honest summary.
+
+Advantages:
+- Supports sharing libraries across apps
+- Makes coordinated refactors easier
+- Helps with consistent tooling
+
+Drawbacks and risks:
+- Risk: slow checkouts
+- Risk: unclear ownership
+- Risk: CI that rebuilds everything
+
+Weigh the two lists against your own project. If the advantages match your needs, such as sharing libraries across apps, and you can manage the risks, Monorepos is a sound choice. Whatever you decide, set up selective builds and tests early.

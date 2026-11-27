@@ -1,0 +1,15 @@
+The Pros and Cons of Build Systems
+
+No technology is free of trade-offs, and Build Systems is no exception. Here is an honest summary.
+
+Advantages:
+- Supports compiling large projects
+- Makes packaging software easier
+- Helps with running repeatable pipelines
+
+Drawbacks and risks:
+- Risk: slow full rebuilds
+- Risk: undeclared dependencies
+- Risk: machine-specific builds
+
+Weigh the two lists against your own project. If the advantages match your needs, such as compiling large projects, and you can manage the risks, Build Systems is a sound choice. Whatever you decide, make builds reproducible on any machine.

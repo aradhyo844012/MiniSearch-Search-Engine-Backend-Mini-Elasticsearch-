@@ -1,0 +1,15 @@
+The Pros and Cons of Process Signals and Job Control
+
+No technology is free of trade-offs, and Process Signals and Job Control is no exception. Here is an honest summary.
+
+Advantages:
+- Supports stopping runaway programs
+- Makes shutting down gracefully easier
+- Helps with running long tasks in the background
+
+Drawbacks and risks:
+- Risk: using kill -9 first
+- Risk: orphaned child processes
+- Risk: ignoring cleanup in handlers
+
+Weigh the two lists against your own project. If the advantages match your needs, such as stopping runaway programs, and you can manage the risks, Process Signals and Job Control is a sound choice. Whatever you decide, try SIGTERM before SIGKILL so programs can clean up.

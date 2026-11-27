@@ -1,0 +1,11 @@
+Is Computability and the Halting Problem Right for Your Project?
+
+Before adopting Computability and the Halting Problem, ask whether it fits the problem. Remember that Computability and the Halting Problem is the study of what problems computers can and cannot solve.
+
+It is a good fit when your work involves understanding the limits of tools or proofs of impossibility, and when your team understands Turing machines.
+
+Be cautious when the project is very small, when deadlines leave no room to learn decidability, or when you cannot manage these risks: assuming everything is solvable, confusing hard with undecidable, and hand-wavy proofs.
+
+A simple decision test: write down the problem in one sentence, then check whether the halting problem and reductions are part of the answer. If they are, Computability and the Halting Problem is probably worth a closer look.
+
+If you decide to go ahead, start small with theory courses and learn the diagonal argument step by step.

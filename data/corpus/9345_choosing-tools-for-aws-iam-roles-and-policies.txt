@@ -1,0 +1,11 @@
+Choosing Tools for AWS IAM Roles and Policies
+
+There is no single best tool for AWS IAM Roles and Policies. The right choice depends on your project, your team and your timeline.
+
+IAM Access Analyzer is a common first choice, especially for securing deployments. the AWS CLI suits teams that already work with similar technology, and Terraform is worth a look when you need something different.
+
+Judge any tool for AWS IAM Roles and Policies by four questions: Is the documentation clear? Is the community active? Does it handle granting services access well? Can you leave it later if you need to?
+
+Whichever tool you pick for AWS IAM Roles and Policies, test it on a small problem first, and watch for this: wildcard permissions.
+
+As a rule of thumb, grant the narrowest policy that works and review it regularly, no matter which tool you use.

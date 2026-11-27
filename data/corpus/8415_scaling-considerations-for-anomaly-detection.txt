@@ -1,0 +1,11 @@
+Scaling Considerations for Anomaly Detection
+
+A design that works for a classroom project can behave very differently under real load. Here is how Anomaly Detection changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding baselines and getting fraud detection right.
+
+Medium scale: problems start to appear. Watch for too many false alarms and shifting baselines, and measure with scikit-learn before changing anything.
+
+Large scale: isolation methods and false positives move from background details to central design questions. Teams often revisit their choices around server monitoring at this stage.
+
+Before you scale, tune alerts using real examples of past incidents. It is cheaper to build that habit early than to fix a crisis later.

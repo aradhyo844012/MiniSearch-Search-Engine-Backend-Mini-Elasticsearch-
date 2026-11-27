@@ -1,0 +1,11 @@
+Scaling Considerations for AWS IAM Roles and Policies
+
+A design that works for a classroom project can behave very differently under real load. Here is how AWS IAM Roles and Policies changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding users and roles and getting securing deployments right.
+
+Medium scale: problems start to appear. Watch for wildcard permissions and long-lived access keys, and measure with IAM Access Analyzer before changing anything.
+
+Large scale: least privilege and temporary credentials move from background details to central design questions. Teams often revisit their choices around granting services access at this stage.
+
+Before you scale, grant the narrowest policy that works and review it regularly. It is cheaper to build that habit early than to fix a crisis later.

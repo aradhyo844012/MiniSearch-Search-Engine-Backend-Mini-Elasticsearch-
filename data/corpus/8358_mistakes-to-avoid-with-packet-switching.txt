@@ -1,0 +1,11 @@
+Mistakes to Avoid with Packet Switching
+
+Everyone learns Packet Switching partly through mistakes. Here are three worth avoiding.
+
+Mistake one: packet loss. It usually appears when someone skips packets and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: out-of-order delivery. It tends to be noticed late, often during testing of internet traffic. A short checklist during review catches it early.
+
+Mistake three: large packets being fragmented. It is easy to miss because everything seems to work at first. Keep an eye on reassembly to spot it.
+
+If you remember only one rule, make it this: capture a few packets to see the headers for yourself.

@@ -1,0 +1,11 @@
+Choosing Tools for Video Codecs
+
+There is no single best tool for Video Codecs. The right choice depends on your project, your team and your timeline.
+
+FFmpeg is a common first choice, especially for streaming services. H.264 suits teams that already work with similar technology, and AV1 is worth a look when you need something different.
+
+Judge any tool for Video Codecs by four questions: Is the documentation clear? Is the community active? Does it handle video calls well? Can you leave it later if you need to?
+
+Whichever tool you pick for Video Codecs, test it on a small problem first, and watch for this: mismatched codec support.
+
+As a rule of thumb, test playback on the weakest target device, no matter which tool you use.

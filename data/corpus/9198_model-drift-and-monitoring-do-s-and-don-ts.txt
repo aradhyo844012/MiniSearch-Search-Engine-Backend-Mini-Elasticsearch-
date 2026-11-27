@@ -1,0 +1,17 @@
+Model Drift and Monitoring Do's and Don'ts
+
+A quick list of habits for working with Model Drift and Monitoring.
+
+Do:
+- Learn data drift before anything else.
+- Try Evidently on a small example.
+- Make it a habit to monitor input data as well as accuracy.
+- Test the case of catching degrading models early.
+
+Don't:
+- Ignore this: monitoring only system health.
+- Ignore this: having no ground truth labels.
+- Ignore this: alert fatigue.
+- Adopt Model Drift and Monitoring just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Model Drift and Monitoring, a little patience with concept drift pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Is Biometric Authentication Right for Your Project?
+
+Before adopting Biometric Authentication, ask whether it fits the problem. Remember that Biometric Authentication is verifying identity using traits such as fingerprints, faces or voices.
+
+It is a good fit when your work involves phone unlock or building access, and when your team understands enrollment.
+
+Be cautious when the project is very small, when deadlines leave no room to learn matching, or when you cannot manage these risks: spoofing attacks, biased recognition, and credentials that cannot be changed once leaked.
+
+A simple decision test: write down the problem in one sentence, then check whether false accept and false reject rates and liveness detection are part of the answer. If they are, Biometric Authentication is probably worth a closer look.
+
+If you decide to go ahead, start small with payment approval and offer a fallback method and protect the stored templates.

@@ -1,0 +1,11 @@
+Why Stored Procedures and Triggers Matters for Developers
+
+Developers who understand Stored Procedures and Triggers make better decisions, because Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes.
+
+Three situations show why it matters. First, enforcing rules close to the data. Second, audit logging. Third, batch updates. In each case, a solid grasp of procedures and triggers separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: hidden logic that surprises developers, hard-to-test code, and trigger chains.
+
+Good tools exist, including PL/pgSQL, MySQL Workbench, and pgTAP, so you rarely have to start from nothing.
+
+Connect Stored Procedures and Triggers with NULL Handling in SQL to see the bigger picture of SQL and Data Practice.

@@ -1,0 +1,12 @@
+Questions to Ask About Procedural Generation in Code Review
+
+Reviewing code that involves Procedural Generation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: bugs that cannot be reproduced without seeds?
+- Is noise functions clear to someone reading the code for the first time?
+- Is Perlin noise used consistently, or are we mixing approaches?
+- Would a test catch repetitive results if it appeared later?
+- Have we considered levels that are unfair or unwinnable?
+- Does this change respect random seeds, or does it work around it?
+
+Good reviews of work on Procedural Generation are specific, kind and focused on rules and constraints, not on personal style.

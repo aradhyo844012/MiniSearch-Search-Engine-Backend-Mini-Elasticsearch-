@@ -1,0 +1,12 @@
+A* Pathfinding Glossary for Beginners
+
+New words can make A* Pathfinding feel harder than it is. This glossary keeps the key ones in one place.
+
+A* Pathfinding: a search algorithm that finds short routes by combining distance traveled with an estimate of distance remaining.
+open and closed sets: a core term, most visible in game characters.
+cost so far: a core term that beginners often confuse with heuristics.
+heuristics: a core term that connects to grids and graphs.
+grids and graphs: a core term worth revisiting after you try a real example.
+Unity NavMesh: a tool commonly used for robot navigation.
+
+Come back to this A* Pathfinding list whenever documentation for Python heapq uses a word you do not recognize.

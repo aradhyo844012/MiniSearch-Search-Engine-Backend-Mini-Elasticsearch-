@@ -1,0 +1,15 @@
+Video Codecs Quick Reference
+
+A one-screen reminder for Video Codecs. Bookmark it and return when the details fade.
+
+What it is: programs that compress and decompress video so it can be stored and streamed.
+Key terms: frames, motion compensation, bitrate, and containers.
+Typical uses: streaming services, video calls, and archiving footage.
+Risks: mismatched codec support, too low a bitrate, and ignoring hardware decoding.
+Tools: FFmpeg, H.264, and AV1.
+
+Mental picture: a flip book that only redraws what changed between pages.
+
+Habit to build: test playback on the weakest target device.
+
+See also: Digital Audio, which sits close to Video Codecs in the area of Graphics and Multimedia.

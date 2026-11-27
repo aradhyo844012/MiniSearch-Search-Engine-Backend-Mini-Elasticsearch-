@@ -1,0 +1,11 @@
+WebAssembly Tips from Experienced Engineers
+
+Engineers who work with WebAssembly regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit linear memory before anything else.
+2. Reach for Emscripten first, and only then evaluate alternatives such as wasm-pack.
+3. Be careful with this one: crossing the JavaScript boundary too often.
+4. Make sure you can measure before moving code to WebAssembly.
+5. Write down why you chose WebAssembly so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to porting existing C or Rust code as well as to WebAssembly in general.

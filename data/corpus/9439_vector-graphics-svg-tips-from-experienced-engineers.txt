@@ -1,0 +1,11 @@
+Vector Graphics (SVG) Tips from Experienced Engineers
+
+Engineers who work with Vector Graphics (SVG) regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: overly complex paths.
+2. Test the case of logos early, before the design hardens.
+3. Reach for Inkscape first, and only then evaluate alternatives such as SVGO.
+4. Make sure you can set a viewBox so the image scales cleanly.
+5. Write down why you chose Vector Graphics (SVG) so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to icons as well as to Vector Graphics (SVG) in general.

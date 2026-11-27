@@ -1,0 +1,11 @@
+Is Packet Switching Right for Your Project?
+
+Before adopting Packet Switching, ask whether it fits the problem. Remember that Packet Switching is a method of sending data as small packets that travel independently across a network.
+
+It is a good fit when your work involves internet traffic or voice over IP, and when your team understands packets.
+
+Be cautious when the project is very small, when deadlines leave no room to learn headers, or when you cannot manage these risks: packet loss, out-of-order delivery, and large packets being fragmented.
+
+A simple decision test: write down the problem in one sentence, then check whether routing and reassembly are part of the answer. If they are, Packet Switching is probably worth a closer look.
+
+If you decide to go ahead, start small with file transfers and capture a few packets to see the headers for yourself.

@@ -1,0 +1,15 @@
+Disk Partitioning and Mounting in 10 Minutes
+
+You have ten minutes, so here is the fast route through Disk Partitioning and Mounting.
+
+Minutes 1 and 2, the definition: Disk Partitioning and Mounting is dividing storage into sections and attaching them to the file tree.
+
+Minutes 3 and 4, the vocabulary: learn partitions, file system types, mount points, and fstab.
+
+Minutes 5 and 6, the picture: imagine building rooms inside a warehouse and putting door numbers on them. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through adding a new drive, separating data from the system, and encrypting volumes.
+
+Minutes 9 and 10, the traps and the tools: watch for wrong device names and mounting without fstab entries, then try lsblk for a first experiment.
+
+If you have a spare minute, remember to double-check device names with lsblk before formatting.

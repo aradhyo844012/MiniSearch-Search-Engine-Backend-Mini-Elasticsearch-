@@ -1,0 +1,11 @@
+Monorepos Tips from Experienced Engineers
+
+Engineers who work with Monorepos regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Monorepos so the next person understands the decision.
+2. Reach for Nx first, and only then evaluate alternatives such as Bazel.
+3. When something behaves strangely, revisit code ownership before anything else.
+4. Do not skip shared tooling; everything else builds on it.
+5. Test the case of sharing libraries across apps early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to coordinated refactors as well as to Monorepos in general.

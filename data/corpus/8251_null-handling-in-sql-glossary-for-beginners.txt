@@ -1,0 +1,12 @@
+NULL Handling in SQL Glossary for Beginners
+
+New words can make NULL Handling in SQL feel harder than it is. This glossary keeps the key ones in one place.
+
+NULL Handling in SQL: understanding how missing or unknown values behave in queries.
+three-valued logic: a core term, most visible in optional fields.
+IS NULL: a core term that beginners often confuse with COALESCE.
+COALESCE: a core term that connects to NULL in aggregates.
+NULL in aggregates: a core term worth revisiting after you try a real example.
+PostgreSQL: a tool commonly used for outer joins.
+
+Come back to this NULL Handling in SQL list whenever documentation for SQLite uses a word you do not recognize.

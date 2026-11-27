@@ -1,0 +1,9 @@
+Understanding Vector Databases Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a map where similar ideas sit near each other.
+
+In that picture, embeddings is the first rule you follow, approximate nearest neighbors is the next step, and distance metrics and metadata filters keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Vector Databases is databases built to store embeddings and find the most similar ones quickly, and it involves details such as mixing embedding models that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for FAISS to learn the exact behavior. The same picture helps when you explain semantic search to a friend.

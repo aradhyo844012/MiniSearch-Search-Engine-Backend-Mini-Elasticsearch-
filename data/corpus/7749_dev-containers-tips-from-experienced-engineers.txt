@@ -1,0 +1,11 @@
+Dev Containers Tips from Experienced Engineers
+
+Engineers who work with Dev Containers regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: slow image builds.
+2. Do not skip devcontainer.json; everything else builds on it.
+3. Test the case of onboarding new developers early, before the design hardens.
+4. Make sure you can pin tool versions inside the container definition.
+5. When something behaves strangely, revisit images before anything else.
+
+None of these tips needs special equipment, and all of them apply to matching production tools as well as to Dev Containers in general.

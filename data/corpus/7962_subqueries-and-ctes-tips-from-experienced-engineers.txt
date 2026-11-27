@@ -1,0 +1,11 @@
+Subqueries and CTEs Tips from Experienced Engineers
+
+Engineers who work with Subqueries and CTEs regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip subqueries; everything else builds on it.
+2. Test the case of breaking complex reports into steps early, before the design hardens.
+3. Make sure you can name each CTE after what it returns.
+4. Be careful with this one: correlated subqueries that run slowly.
+5. When something behaves strangely, revisit WITH clauses before anything else.
+
+None of these tips needs special equipment, and all of them apply to filtering with computed results as well as to Subqueries and CTEs in general.

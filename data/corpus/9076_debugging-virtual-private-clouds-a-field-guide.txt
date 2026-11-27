@@ -1,0 +1,13 @@
+Debugging Virtual Private Clouds: A Field Guide
+
+When something goes wrong around Virtual Private Clouds, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: overlapping address ranges, databases in public subnets, and missing routes.
+Step 3: revisit subnets and route tables, since misunderstandings there cause many bugs.
+Step 4: use AWS VPC or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Virtual Private Clouds in work such as separating public and private services come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep databases in private subnets. It prevents a surprising number of repeat problems.

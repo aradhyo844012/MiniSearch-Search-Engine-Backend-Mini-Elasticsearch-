@@ -1,0 +1,11 @@
+Scaling Considerations for Fine-Tuning Models
+
+A design that works for a classroom project can behave very differently under real load. Here is how Fine-Tuning Models changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding pretrained weights and getting domain-specific language tasks right.
+
+Medium scale: problems start to appear. Watch for overfitting on small datasets and forgetting general abilities, and measure with Hugging Face before changing anything.
+
+Large scale: the learning rate and evaluation move from background details to central design questions. Teams often revisit their choices around style adaptation at this stage.
+
+Before you scale, start with a small, clean dataset and a held-out test set. It is cheaper to build that habit early than to fix a crisis later.

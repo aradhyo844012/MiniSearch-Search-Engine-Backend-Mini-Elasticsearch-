@@ -1,0 +1,17 @@
+VPNs Do's and Don'ts
+
+A quick list of habits for working with VPNs.
+
+Do:
+- Learn tunneling before anything else.
+- Try WireGuard on a small example.
+- Make it a habit to test for DNS leaks after connecting.
+- Test the case of remote work access early.
+
+Don't:
+- Ignore this: assuming it makes you anonymous.
+- Ignore this: slow routing through distant servers.
+- Ignore this: leaking DNS requests.
+- Adopt VPNs just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with VPNs, a little patience with encryption pays off more than any clever shortcut.

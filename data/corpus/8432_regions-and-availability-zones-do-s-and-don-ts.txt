@@ -1,0 +1,17 @@
+Regions and Availability Zones Do's and Don'ts
+
+A quick list of habits for working with Regions and Availability Zones.
+
+Do:
+- Learn regions before anything else.
+- Try AWS Regions on a small example.
+- Make it a habit to spread critical services across at least two zones.
+- Test the case of placing services near users early.
+
+Don't:
+- Ignore this: putting everything in one zone.
+- Ignore this: cross-region transfer fees.
+- Ignore this: forgetting data residency rules.
+- Adopt Regions and Availability Zones just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Regions and Availability Zones, a little patience with availability zones pays off more than any clever shortcut.

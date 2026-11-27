@@ -1,0 +1,11 @@
+Mistakes to Avoid with Vector Databases
+
+Everyone learns Vector Databases partly through mistakes. Here are three worth avoiding.
+
+Mistake one: mixing embedding models. It usually appears when someone skips embeddings and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring recall trade-offs. It tends to be noticed late, often during testing of semantic search. A short checklist during review catches it early.
+
+Mistake three: oversized vectors. It is easy to miss because everything seems to work at first. Keep an eye on metadata filters to spot it.
+
+If you remember only one rule, make it this: measure recall on a small labeled test set.

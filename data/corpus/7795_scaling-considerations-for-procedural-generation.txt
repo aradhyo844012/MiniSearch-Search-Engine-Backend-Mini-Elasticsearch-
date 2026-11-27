@@ -1,0 +1,11 @@
+Scaling Considerations for Procedural Generation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Procedural Generation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding random seeds and getting roguelike dungeons right.
+
+Medium scale: problems start to appear. Watch for levels that are unfair or unwinnable and repetitive results, and measure with Perlin noise before changing anything.
+
+Large scale: rules and constraints and reproducibility move from background details to central design questions. Teams often revisit their choices around infinite terrain at this stage.
+
+Before you scale, log the seed so any generated level can be reproduced. It is cheaper to build that habit early than to fix a crisis later.

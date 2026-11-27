@@ -1,0 +1,9 @@
+Understanding Collision Detection Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture two people checking whether their personal space bubbles overlap.
+
+In that picture, bounding boxes is the first rule you follow, broad and narrow phases is the next step, and spatial partitioning and collision response keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Collision Detection is the process of finding out when objects in a game touch or overlap, and it involves details such as tunneling through thin objects that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Box2D to learn the exact behavior. The same picture helps when you explain platformers to a friend.

@@ -1,0 +1,13 @@
+Teaching AI Agents to a Teammate
+
+Explaining AI Agents to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an assistant that makes a plan and uses a toolbox to carry it out. Ask your teammate what the picture suggests.
+
+Then give the plain definition: AI Agents is software systems that use a language model to plan steps and call tools to reach a goal. Avoid jargon at this stage.
+
+Walk through an example involving research assistants, naming planning and tool calls as they come up.
+
+Ask your teammate to explain memory in AI Agents back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, runaway loops, and suggest this habit: limit what tools the agent may use and log every action.

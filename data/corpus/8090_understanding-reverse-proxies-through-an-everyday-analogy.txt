@@ -1,0 +1,9 @@
+Understanding Reverse Proxies Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a hotel front desk that routes guests to the right room.
+
+In that picture, upstream servers is the first rule you follow, proxy headers is the next step, and TLS termination and caching keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Reverse Proxies is servers that sit in front of applications and forward client requests to them, and it involves details such as losing the client IP address that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for NGINX to learn the exact behavior. The same picture helps when you explain hiding backend servers to a friend.

@@ -1,0 +1,17 @@
+Collision Detection Do's and Don'ts
+
+A quick list of habits for working with Collision Detection.
+
+Do:
+- Learn bounding boxes before anything else.
+- Try Box2D on a small example.
+- Make it a habit to use simple shapes first and refine only when needed.
+- Test the case of platformers early.
+
+Don't:
+- Ignore this: tunneling through thin objects.
+- Ignore this: checking every pair of objects.
+- Ignore this: inconsistent hitboxes.
+- Adopt Collision Detection just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Collision Detection, a little patience with broad and narrow phases pays off more than any clever shortcut.

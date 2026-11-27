@@ -1,0 +1,17 @@
+Semantic Versioning Do's and Don'ts
+
+A quick list of habits for working with Semantic Versioning.
+
+Do:
+- Learn major, minor and patch numbers before anything else.
+- Try semver.org on a small example.
+- Make it a habit to write a changelog entry with every release.
+- Test the case of publishing libraries early.
+
+Don't:
+- Ignore this: breaking changes in minor releases.
+- Ignore this: overly loose ranges.
+- Ignore this: forgetting to document changes.
+- Adopt Semantic Versioning just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Semantic Versioning, a little patience with breaking changes pays off more than any clever shortcut.

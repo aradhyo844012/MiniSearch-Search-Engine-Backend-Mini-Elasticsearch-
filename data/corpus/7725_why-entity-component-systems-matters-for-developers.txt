@@ -1,0 +1,11 @@
+Why Entity Component Systems Matters for Developers
+
+Developers who understand Entity Component Systems make better decisions, because Entity Component Systems is a game architecture that builds objects from data components processed by systems.
+
+Three situations show why it matters. First, large simulations. Second, games with thousands of objects. Third, flexible game design. In each case, a solid grasp of entities and components separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: overengineering small games, components that hold logic, and hard debugging of system order.
+
+Good tools exist, including Bevy, Unity DOTS, and EnTT, so you rarely have to start from nothing.
+
+Connect Entity Component Systems with Procedural Generation to see the bigger picture of Game Development.

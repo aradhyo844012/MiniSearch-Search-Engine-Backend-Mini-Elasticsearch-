@@ -1,0 +1,11 @@
+Scaling Considerations for Makefiles
+
+A design that works for a classroom project can behave very differently under real load. Here is how Makefiles changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding targets and getting compiling C projects right.
+
+Medium scale: problems start to appear. Watch for tabs versus spaces and missing phony declarations, and measure with GNU Make before changing anything.
+
+Large scale: recipes and phony targets move from background details to central design questions. Teams often revisit their choices around shortcuts for common commands at this stage.
+
+Before you scale, use phony targets for tasks like test and clean. It is cheaper to build that habit early than to fix a crisis later.

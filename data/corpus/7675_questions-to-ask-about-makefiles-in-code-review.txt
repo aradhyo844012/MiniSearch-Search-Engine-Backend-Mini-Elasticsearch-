@@ -1,0 +1,12 @@
+Questions to Ask About Makefiles in Code Review
+
+Reviewing code that involves Makefiles is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch missing phony declarations if it appeared later?
+- Could we use phony targets for tasks like test and clean?
+- Is prerequisites clear to someone reading the code for the first time?
+- Is GNU Make used consistently, or are we mixing approaches?
+- Does the code handle the case of compiling C projects correctly?
+- Have we considered tabs versus spaces?
+
+Good reviews of work on Makefiles are specific, kind and focused on recipes, not on personal style.

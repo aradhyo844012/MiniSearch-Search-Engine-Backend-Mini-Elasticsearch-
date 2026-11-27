@@ -1,0 +1,11 @@
+Practice Exercises for Linux Boot Process
+
+These exercises build real understanding of Linux Boot Process. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble troubleshooting machines that do not start or configuring dual boot.
+Exercise 2: Explain how kernel initialization and the init system differ, using a drawing.
+Exercise 3: Pick GRUB and complete its getting-started tutorial.
+Exercise 4: Compare dmesg and journalctl -b for building custom images and write down your conclusion.
+Exercise 5: Write a short paragraph describing Linux Boot Process and include the term firmware.
+
+When you finish, compare your answers with the definition: Linux Boot Process is the sequence of steps from powering on a machine to a running operating system.

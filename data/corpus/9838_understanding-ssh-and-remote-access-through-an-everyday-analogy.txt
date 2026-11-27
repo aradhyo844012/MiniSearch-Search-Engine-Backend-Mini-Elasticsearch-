@@ -1,0 +1,9 @@
+Understanding SSH and Remote Access Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a private phone line with a secret handshake to a faraway office.
+
+In that picture, key pairs is the first rule you follow, host keys is the next step, and port forwarding and config files keep everything running smoothly.
+
+Every analogy breaks down eventually. Real SSH and Remote Access is a secure protocol for logging in to and controlling remote machines, and it involves details such as password logins left enabled that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for OpenSSH to learn the exact behavior. The same picture helps when you explain administering servers to a friend.

@@ -1,0 +1,11 @@
+Choosing Tools for npm and Package Registries
+
+There is no single best tool for npm and Package Registries. The right choice depends on your project, your team and your timeline.
+
+npm is a common first choice, especially for installing JavaScript libraries. Yarn suits teams that already work with similar technology, and pnpm is worth a look when you need something different.
+
+Judge any tool for npm and Package Registries by four questions: Is the documentation clear? Is the community active? Does it handle sharing internal packages well? Can you leave it later if you need to?
+
+Whichever tool you pick for npm and Package Registries, test it on a small problem first, and watch for this: unpinned versions.
+
+As a rule of thumb, commit your lock file, no matter which tool you use.

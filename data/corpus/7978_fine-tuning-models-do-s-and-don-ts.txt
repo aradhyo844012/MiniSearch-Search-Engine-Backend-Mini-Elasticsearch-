@@ -1,0 +1,17 @@
+Fine-Tuning Models Do's and Don'ts
+
+A quick list of habits for working with Fine-Tuning Models.
+
+Do:
+- Learn pretrained weights before anything else.
+- Try Hugging Face on a small example.
+- Make it a habit to start with a small, clean dataset and a held-out test set.
+- Test the case of domain-specific language tasks early.
+
+Don't:
+- Ignore this: overfitting on small datasets.
+- Ignore this: forgetting general abilities.
+- Ignore this: low-quality training data.
+- Adopt Fine-Tuning Models just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Fine-Tuning Models, a little patience with training data pays off more than any clever shortcut.

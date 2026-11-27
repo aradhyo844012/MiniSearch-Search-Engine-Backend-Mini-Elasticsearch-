@@ -1,0 +1,17 @@
+Speech Recognition Do's and Don'ts
+
+A quick list of habits for working with Speech Recognition.
+
+Do:
+- Learn audio features before anything else.
+- Try Whisper on a small example.
+- Make it a habit to measure word error rate on audio like your real users'.
+- Test the case of voice assistants early.
+
+Don't:
+- Ignore this: accents and background noise.
+- Ignore this: domain-specific vocabulary.
+- Ignore this: privacy of recordings.
+- Adopt Speech Recognition just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Speech Recognition, a little patience with acoustic models pays off more than any clever shortcut.

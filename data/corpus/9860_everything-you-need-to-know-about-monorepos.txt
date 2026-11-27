@@ -1,0 +1,26 @@
+Everything You Need to Know About Monorepos
+
+This page collects the essentials about Monorepos in one place. In short, Monorepos is single repositories that hold the code for many projects.
+
+Core concepts:
+- shared tooling
+- code ownership
+- selective builds
+- atomic changes
+
+Where it is used:
+- sharing libraries across apps
+- coordinated refactors
+- consistent tooling
+
+Common problems:
+- slow checkouts
+- unclear ownership
+- CI that rebuilds everything
+
+Tools to know:
+- Nx
+- Bazel
+- Turborepo
+
+Remember this above all: one big toolbox for the whole workshop is a good way to picture it, and the best habit is to set up selective builds and tests early.

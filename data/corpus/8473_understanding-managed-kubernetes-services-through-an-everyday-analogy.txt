@@ -1,0 +1,9 @@
+Understanding Managed Kubernetes Services Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture renting an apartment building where the landlord handles the plumbing.
+
+In that picture, the control plane is the first rule you follow, node pools is the next step, and upgrades and integrated load balancers keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Managed Kubernetes Services is cloud services that run the Kubernetes control plane for you, and it involves details such as neglecting version upgrades that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Amazon EKS to learn the exact behavior. The same picture helps when you explain running containerized apps to a friend.

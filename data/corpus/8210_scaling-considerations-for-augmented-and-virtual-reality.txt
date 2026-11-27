@@ -1,0 +1,11 @@
+Scaling Considerations for Augmented and Virtual Reality
+
+A design that works for a classroom project can behave very differently under real load. Here is how Augmented and Virtual Reality changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding head tracking and getting training simulations right.
+
+Medium scale: problems start to appear. Watch for motion sickness from low frame rates and heavy assets, and measure with Unity XR before changing anything.
+
+Large scale: spatial mapping and input methods move from background details to central design questions. Teams often revisit their choices around games at this stage.
+
+Before you scale, keep frame rates high and test comfort with real users. It is cheaper to build that habit early than to fix a crisis later.

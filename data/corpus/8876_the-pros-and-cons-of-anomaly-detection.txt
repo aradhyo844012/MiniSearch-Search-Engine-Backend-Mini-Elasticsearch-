@@ -1,0 +1,15 @@
+The Pros and Cons of Anomaly Detection
+
+No technology is free of trade-offs, and Anomaly Detection is no exception. Here is an honest summary.
+
+Advantages:
+- Supports fraud detection
+- Makes server monitoring easier
+- Helps with manufacturing quality
+
+Drawbacks and risks:
+- Risk: too many false alarms
+- Risk: shifting baselines
+- Risk: labeling normal data incorrectly
+
+Weigh the two lists against your own project. If the advantages match your needs, such as fraud detection, and you can manage the risks, Anomaly Detection is a sound choice. Whatever you decide, tune alerts using real examples of past incidents.

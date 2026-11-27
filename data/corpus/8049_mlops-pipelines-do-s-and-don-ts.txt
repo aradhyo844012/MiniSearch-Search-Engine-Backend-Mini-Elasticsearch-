@@ -1,0 +1,17 @@
+MLOps Pipelines Do's and Don'ts
+
+A quick list of habits for working with MLOps Pipelines.
+
+Do:
+- Learn data versioning before anything else.
+- Try MLflow on a small example.
+- Make it a habit to version both the code and the data.
+- Test the case of repeatable model releases early.
+
+Don't:
+- Ignore this: untracked data changes.
+- Ignore this: manual deployment steps.
+- Ignore this: no testing of data.
+- Adopt MLOps Pipelines just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with MLOps Pipelines, a little patience with training pipelines pays off more than any clever shortcut.

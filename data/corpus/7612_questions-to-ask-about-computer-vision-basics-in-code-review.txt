@@ -1,0 +1,12 @@
+Questions to Ask About Computer Vision Basics in Code Review
+
+Reviewing code that involves Computer Vision Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: overfitting to a small set of photos?
+- Is OpenCV used consistently, or are we mixing approaches?
+- Could we visualize intermediate steps such as edges or masks?
+- Is filters and edges clear to someone reading the code for the first time?
+- Have we considered lighting changes?
+- Does the code handle the case of face detection correctly?
+
+Good reviews of work on Computer Vision Basics are specific, kind and focused on feature detection, not on personal style.

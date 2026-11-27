@@ -1,0 +1,11 @@
+Choosing Tools for Makefiles
+
+There is no single best tool for Makefiles. The right choice depends on your project, your team and your timeline.
+
+GNU Make is a common first choice, especially for compiling C projects. CMake suits teams that already work with similar technology, and a text editor is worth a look when you need something different.
+
+Judge any tool for Makefiles by four questions: Is the documentation clear? Is the community active? Does it handle shortcuts for common commands well? Can you leave it later if you need to?
+
+Whichever tool you pick for Makefiles, test it on a small problem first, and watch for this: tabs versus spaces.
+
+As a rule of thumb, use phony targets for tasks like test and clean, no matter which tool you use.

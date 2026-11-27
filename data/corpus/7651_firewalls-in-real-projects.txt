@@ -1,0 +1,11 @@
+Firewalls in Real Projects
+
+Reading about Firewalls is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: protecting servers. Here, rules drives the main design choices, and the team needs to guard against rules in the wrong order.
+
+Scenario two: segmenting networks. This time stateful inspection matters most, and tools such as ufw help keep things manageable.
+
+Scenario three: logging suspicious traffic. The key idea is default deny, and the biggest risk is overly broad allow rules.
+
+Across all three scenarios, Firewalls stays the same idea: systems that allow or block network traffic according to rules. Only the details change.

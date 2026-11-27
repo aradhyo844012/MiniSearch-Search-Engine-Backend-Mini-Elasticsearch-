@@ -1,0 +1,15 @@
+The Pros and Cons of Environment Variables
+
+No technology is free of trade-offs, and Environment Variables is no exception. Here is an honest summary.
+
+Advantages:
+- Supports storing configuration
+- Makes selecting program paths easier
+- Helps with passing settings to containers
+
+Drawbacks and risks:
+- Risk: committing secrets in dotfiles
+- Risk: variables not visible to child processes
+- Risk: typos in names
+
+Weigh the two lists against your own project. If the advantages match your needs, such as storing configuration, and you can manage the risks, Environment Variables is a sound choice. Whatever you decide, print a variable to confirm its value before blaming the code.

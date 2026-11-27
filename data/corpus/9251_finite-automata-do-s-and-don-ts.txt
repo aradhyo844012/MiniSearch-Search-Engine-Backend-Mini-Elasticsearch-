@@ -1,0 +1,17 @@
+Finite Automata Do's and Don'ts
+
+A quick list of habits for working with Finite Automata.
+
+Do:
+- Learn states before anything else.
+- Try JFLAP on a small example.
+- Make it a habit to draw the state diagram before writing any code.
+- Test the case of tokenizers early.
+
+Don't:
+- Ignore this: missing transitions.
+- Ignore this: confusing deterministic and non-deterministic machines.
+- Ignore this: state explosion.
+- Adopt Finite Automata just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Finite Automata, a little patience with transitions pays off more than any clever shortcut.

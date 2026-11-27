@@ -1,0 +1,12 @@
+Environment Variables Glossary for Beginners
+
+New words can make Environment Variables feel harder than it is. This glossary keeps the key ones in one place.
+
+Environment Variables: named values the operating system gives to programs to configure their behavior.
+variable names: a core term, most visible in storing configuration.
+scope: a core term that beginners often confuse with export.
+export: a core term that connects to shell startup files.
+shell startup files: a core term worth revisiting after you try a real example.
+env: a tool commonly used for selecting program paths.
+
+Come back to this Environment Variables list whenever documentation for printenv uses a word you do not recognize.

@@ -1,0 +1,17 @@
+Multi-Cloud Strategy Do's and Don'ts
+
+A quick list of habits for working with Multi-Cloud Strategy.
+
+Do:
+- Learn portability before anything else.
+- Try Terraform on a small example.
+- Make it a habit to be clear about the problem multi-cloud is meant to solve.
+- Test the case of avoiding single-provider risk early.
+
+Don't:
+- Ignore this: doubling operational complexity.
+- Ignore this: lowest-common-denominator designs.
+- Ignore this: hidden data transfer costs.
+- Adopt Multi-Cloud Strategy just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Multi-Cloud Strategy, a little patience with vendor lock-in pays off more than any clever shortcut.

@@ -1,0 +1,12 @@
+Questions to Ask About Sprite Animation in Code Review
+
+Reviewing code that involves Sprite Animation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch huge uncompressed sheets if it appeared later?
+- Is frames clear to someone reading the code for the first time?
+- Have we avoided this problem: animation states that never end?
+- Is Aseprite used consistently, or are we mixing approaches?
+- Could we pack frames into one sprite sheet to reduce draw calls?
+- Have we considered inconsistent frame timing?
+
+Good reviews of work on Sprite Animation are specific, kind and focused on frame rate, not on personal style.

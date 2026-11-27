@@ -1,0 +1,9 @@
+Understanding Makefiles Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a to-do list that knows which steps must come first.
+
+In that picture, targets is the first rule you follow, prerequisites is the next step, and recipes and phony targets keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Makefiles is plain files that describe how to build programs and run common tasks with the make tool, and it involves details such as tabs versus spaces that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for GNU Make to learn the exact behavior. The same picture helps when you explain compiling C projects to a friend.

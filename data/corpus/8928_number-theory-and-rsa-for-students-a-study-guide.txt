@@ -1,0 +1,17 @@
+Number Theory and RSA for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Number Theory and RSA.
+
+Learning goals:
+1. Explain Number Theory and RSA in your own words.
+2. Describe prime numbers, modular arithmetic, greatest common divisor, and modular exponentiation.
+3. Give examples from public key cryptography and hash functions.
+4. Name three problems to watch for.
+
+Start with the definition: Number Theory and RSA is the study of integers, whose properties underpin much of modern encryption. Then draw a clock whose numbers wrap around on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using small primes a problem? How does modular arithmetic relate to greatest common divisor? When would you choose Python pow or OpenSSL?
+
+Study habit: use vetted crypto libraries instead of writing your own.
+
+When you feel ready, compare Number Theory and RSA with Floating-Point Arithmetic and write down three differences.

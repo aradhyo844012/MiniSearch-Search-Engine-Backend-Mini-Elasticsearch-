@@ -1,0 +1,11 @@
+Mistakes to Avoid with SQL Basics
+
+Everyone learns SQL Basics partly through mistakes. Here are three worth avoiding.
+
+Mistake one: forgetting the WHERE clause on updates. It usually appears when someone skips SELECT and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: selecting every column. It tends to be noticed late, often during testing of reading customer records. A short checklist during review catches it early.
+
+Mistake three: assuming row order without ORDER BY. It is easy to miss because everything seems to work at first. Keep an eye on INSERT and UPDATE to spot it.
+
+If you remember only one rule, make it this: run a SELECT with the same WHERE clause before any UPDATE or DELETE.

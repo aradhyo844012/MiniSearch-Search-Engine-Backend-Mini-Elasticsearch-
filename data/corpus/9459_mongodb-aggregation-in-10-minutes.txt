@@ -1,0 +1,15 @@
+MongoDB Aggregation in 10 Minutes
+
+You have ten minutes, so here is the fast route through MongoDB Aggregation.
+
+Minutes 1 and 2, the definition: MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+
+Minutes 3 and 4, the vocabulary: learn pipeline stages, $match and $group, projection, and indexes.
+
+Minutes 5 and 6, the picture: imagine an assembly line where each station filters or reshapes the parts. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through summarizing orders, building analytics queries, and reshaping documents.
+
+Minutes 9 and 10, the traps and the tools: watch for putting $match late and huge intermediate results, then try MongoDB Compass for a first experiment.
+
+If you have a spare minute, remember to filter with $match as early as possible.

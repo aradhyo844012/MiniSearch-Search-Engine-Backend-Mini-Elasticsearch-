@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Managed Kubernetes Services
+
+This path is for a learner who has never studied Managed Kubernetes Services before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Managed Kubernetes Services is cloud services that run the Kubernetes control plane for you) and learn the control plane and node pools.
+
+Stage 2, hands-on: install Amazon EKS, follow a tutorial, and build a small example involving running containerized apps.
+
+Stage 3, depth: study upgrades and integrated load balancers, then deliberately explore this problem: neglecting version upgrades.
+
+Stage 4, application: apply Managed Kubernetes Services to scaling services, compare Google GKE with Azure AKS, and write up your results.
+
+Stage 5, review: teach Managed Kubernetes Services to someone else, and then move on to Managed Cloud Databases.

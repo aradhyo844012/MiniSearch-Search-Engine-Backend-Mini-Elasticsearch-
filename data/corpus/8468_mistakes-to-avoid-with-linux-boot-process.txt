@@ -1,0 +1,11 @@
+Mistakes to Avoid with Linux Boot Process
+
+Everyone learns Linux Boot Process partly through mistakes. Here are three worth avoiding.
+
+Mistake one: overwriting the bootloader. It usually appears when someone skips firmware and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: wrong kernel parameters. It tends to be noticed late, often during testing of troubleshooting machines that do not start. A short checklist during review catches it early.
+
+Mistake three: ignoring recovery options. It is easy to miss because everything seems to work at first. Keep an eye on the init system to spot it.
+
+If you remember only one rule, make it this: keep a recovery option available before editing boot settings.

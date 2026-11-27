@@ -1,0 +1,11 @@
+Multi-Cloud Strategy Tips from Experienced Engineers
+
+Engineers who work with Multi-Cloud Strategy regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Terraform first, and only then evaluate alternatives such as Kubernetes.
+2. Write down why you chose Multi-Cloud Strategy so the next person understands the decision.
+3. Test the case of avoiding single-provider risk early, before the design hardens.
+4. Be careful with this one: doubling operational complexity.
+5. When something behaves strangely, revisit vendor lock-in before anything else.
+
+None of these tips needs special equipment, and all of them apply to meeting regional rules as well as to Multi-Cloud Strategy in general.

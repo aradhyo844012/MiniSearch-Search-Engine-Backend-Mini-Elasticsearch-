@@ -1,0 +1,11 @@
+Choosing Tools for Process Signals and Job Control
+
+There is no single best tool for Process Signals and Job Control. The right choice depends on your project, your team and your timeline.
+
+kill is a common first choice, especially for stopping runaway programs. jobs and fg suits teams that already work with similar technology, and nohup is worth a look when you need something different.
+
+Judge any tool for Process Signals and Job Control by four questions: Is the documentation clear? Is the community active? Does it handle shutting down gracefully well? Can you leave it later if you need to?
+
+Whichever tool you pick for Process Signals and Job Control, test it on a small problem first, and watch for this: using kill -9 first.
+
+As a rule of thumb, try SIGTERM before SIGKILL so programs can clean up, no matter which tool you use.

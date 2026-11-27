@@ -1,0 +1,12 @@
+Packet Switching Glossary for Beginners
+
+New words can make Packet Switching feel harder than it is. This glossary keeps the key ones in one place.
+
+Packet Switching: a method of sending data as small packets that travel independently across a network.
+packets: a core term, most visible in internet traffic.
+headers: a core term that beginners often confuse with routing.
+routing: a core term that connects to reassembly.
+reassembly: a core term worth revisiting after you try a real example.
+Wireshark: a tool commonly used for voice over IP.
+
+Come back to this Packet Switching list whenever documentation for tcpdump uses a word you do not recognize.

@@ -1,0 +1,11 @@
+Where to Go Next After Learning WebAssembly
+
+You have met the basics of WebAssembly. Here is how to keep the momentum going.
+
+Go wider: read about npm and Package Registries, which belongs to the same area as WebAssembly (Developer Tooling and Build Systems) and often appears in the same projects.
+
+Go deeper: choose one of modules, linear memory, imports and exports or the JavaScript bridge, and study it until you can explain it to a beginner.
+
+Go practical: build something around porting existing C or Rust code with Emscripten, and note every problem you meet, starting with crossing the JavaScript boundary too often.
+
+Go social: share what you learned. Explaining WebAssembly to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

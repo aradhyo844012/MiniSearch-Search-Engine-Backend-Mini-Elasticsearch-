@@ -1,0 +1,15 @@
+Package Managers Quick Reference
+
+A one-screen reminder for Package Managers. Bookmark it and return when the details fade.
+
+What it is: tools that install, update and remove software along with its dependencies.
+Key terms: repositories, dependency resolution, versions, and signed packages.
+Typical uses: installing system tools, keeping servers updated, and reproducing environments.
+Risks: mixing sources that conflict, ignoring signature checks, and upgrading without reading the changes.
+Tools: apt, dnf, and Homebrew.
+
+Mental picture: a supply store that delivers parts together with the parts they need.
+
+Habit to build: update the package index before installing anything.
+
+See also: Environment Variables, which sits close to Package Managers in the area of Linux and System Administration.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Speech Recognition
+
+This page collects the essentials about Speech Recognition in one place. In short, Speech Recognition is converting spoken language into text using machine learning.
+
+Core concepts:
+- audio features
+- acoustic models
+- language models
+- word error rate
+
+Where it is used:
+- voice assistants
+- captioning
+- dictation
+
+Common problems:
+- accents and background noise
+- domain-specific vocabulary
+- privacy of recordings
+
+Tools to know:
+- Whisper
+- Kaldi
+- cloud speech-to-text services
+
+Remember this above all: a stenographer who types as people talk is a good way to picture it, and the best habit is to measure word error rate on audio like your real users'.

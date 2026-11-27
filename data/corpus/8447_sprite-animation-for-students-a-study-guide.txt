@@ -1,0 +1,17 @@
+Sprite Animation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Sprite Animation.
+
+Learning goals:
+1. Explain Sprite Animation in your own words.
+2. Describe sprite sheets, frames, frame rate, and animation states.
+3. Give examples from 2D platformers and user interface effects.
+4. Name three problems to watch for.
+
+Start with the definition: Sprite Animation is showing a sequence of 2D images quickly to make a character appear to move. Then draw a flip book drawn one page at a time on paper and label the four terms from the goals above.
+
+Self-test questions: Why is inconsistent frame timing a problem? How does frames relate to frame rate? When would you choose Aseprite or Unity Animator?
+
+Study habit worth keeping: pack frames into one sprite sheet to reduce draw calls.
+
+When you feel ready, compare Sprite Animation with A* Pathfinding and write down three differences.

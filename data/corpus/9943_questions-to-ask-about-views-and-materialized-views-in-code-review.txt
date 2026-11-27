@@ -1,0 +1,12 @@
+Questions to Ask About Views and Materialized Views in Code Review
+
+Reviewing code that involves Views and Materialized Views is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we document how and when each materialized view is refreshed?
+- Does this change respect view definitions, or does it work around it?
+- Does the code handle the case of simplifying repeated queries correctly?
+- Is refresh strategies clear to someone reading the code for the first time?
+- Would a test catch views stacked on views if it appeared later?
+- Is PostgreSQL used consistently, or are we mixing approaches?
+
+Good reviews of work on Views and Materialized Views are specific, kind and focused on permissions, not on personal style.

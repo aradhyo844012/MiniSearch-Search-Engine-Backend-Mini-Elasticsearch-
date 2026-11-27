@@ -1,0 +1,12 @@
+Questions to Ask About Model Drift and Monitoring in Code Review
+
+Reviewing code that involves Model Drift and Monitoring is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Evidently used consistently, or are we mixing approaches?
+- Does this change respect data drift, or does it work around it?
+- Is concept drift clear to someone reading the code for the first time?
+- Have we avoided this problem: alert fatigue?
+- Have we considered monitoring only system health?
+- Does the code handle the case of catching degrading models correctly?
+
+Good reviews of work on Model Drift and Monitoring are specific, kind and focused on performance metrics, not on personal style.

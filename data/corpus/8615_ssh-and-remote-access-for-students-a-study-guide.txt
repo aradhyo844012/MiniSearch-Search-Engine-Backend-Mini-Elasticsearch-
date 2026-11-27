@@ -1,0 +1,17 @@
+SSH and Remote Access for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover SSH and Remote Access.
+
+Learning goals:
+1. Explain SSH and Remote Access in your own words.
+2. Describe key pairs, host keys, port forwarding, and config files.
+3. Give examples from administering servers and copying files securely.
+4. Name three problems to watch for.
+
+Start with the definition: SSH and Remote Access is a secure protocol for logging in to and controlling remote machines. Then draw a private phone line with a secret handshake to a faraway office on paper and label the four terms from the goals above.
+
+Self-test questions: Why is password logins left enabled a problem? How does host keys relate to port forwarding? When would you choose OpenSSH or ssh-keygen?
+
+Study habit worth keeping: use key-based login and disable password authentication.
+
+When you feel ready, compare SSH and Remote Access with systemd Services and write down three differences.

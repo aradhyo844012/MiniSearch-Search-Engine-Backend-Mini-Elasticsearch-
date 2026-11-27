@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Shaders
+
+This path is for a learner who has never studied Shaders before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Shaders is small programs that run on the graphics card to control how things are drawn) and learn vertex shaders and fragment shaders.
+
+Stage 2, hands-on: install GLSL, follow a tutorial, and build a small example involving lighting effects.
+
+Stage 3, depth: study uniforms and GLSL, then deliberately explore this problem: branches that slow the GPU.
+
+Stage 4, application: apply Shaders to water and fire visuals, compare Shadertoy with RenderDoc, and write up your results.
+
+Stage 5, review: teach Shaders to someone else, and then move on to Game Engines.

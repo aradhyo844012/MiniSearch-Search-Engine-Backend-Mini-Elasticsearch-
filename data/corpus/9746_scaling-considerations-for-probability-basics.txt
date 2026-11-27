@@ -1,0 +1,11 @@
+Scaling Considerations for Probability Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Probability Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding events and getting randomized algorithms right.
+
+Medium scale: problems start to appear. Watch for confusing independent and exclusive events and ignoring base rates, and measure with Python random before changing anything.
+
+Large scale: independence and expected value move from background details to central design questions. Teams often revisit their choices around machine learning at this stage.
+
+Before you scale, simulate the problem in code to check your reasoning. It is cheaper to build that habit early than to fix a crisis later.

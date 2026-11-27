@@ -1,0 +1,11 @@
+Scaling Considerations for Floating-Point Arithmetic
+
+A design that works for a classroom project can behave very differently under real load. Here is how Floating-Point Arithmetic changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding mantissa and exponent and getting scientific computing right.
+
+Medium scale: problems start to appear. Watch for comparing floats with equality and accumulated rounding errors, and measure with Python decimal before changing anything.
+
+Large scale: precision and special values move from background details to central design questions. Teams often revisit their choices around graphics at this stage.
+
+Before you scale, compare floats with a tolerance and use decimals for money. It is cheaper to build that habit early than to fix a crisis later.

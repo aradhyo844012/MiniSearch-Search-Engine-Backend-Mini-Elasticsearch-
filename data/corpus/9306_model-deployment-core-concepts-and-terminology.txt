@@ -1,0 +1,10 @@
+Model Deployment: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Model Deployment with confidence. The subject itself is making a trained model available to serve predictions in a real application.
+
+serving APIs: one of the building blocks of Model Deployment. Documentation for FastAPI usually mentions it early.
+batch versus online inference: one of the building blocks of Model Deployment. Documentation for FastAPI usually mentions it early.
+containers: one of the building blocks of Model Deployment. It shows up whenever you work on recommendation endpoints.
+latency budgets: one of the building blocks of Model Deployment. It shows up whenever you work on recommendation endpoints.
+
+Practice using these four Model Deployment terms in sentences about fraud checks. If the sentences feel natural, the vocabulary has stuck.

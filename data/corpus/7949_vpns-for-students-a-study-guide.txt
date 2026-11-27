@@ -1,0 +1,17 @@
+VPNs for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover VPNs.
+
+Learning goals:
+1. Explain VPNs in your own words.
+2. Describe tunneling, encryption, authentication, and split tunneling.
+3. Give examples from remote work access and linking offices.
+4. Name three problems to watch for.
+
+Start with the definition: VPNs is encrypted tunnels that connect devices or networks across the public internet. Then draw a private tunnel under a public road on paper and label the four terms from the goals above.
+
+Self-test questions: Why is assuming it makes you anonymous a problem? How does encryption relate to authentication? When would you choose WireGuard or OpenVPN?
+
+Study habit: test for DNS leaks after connecting.
+
+When you feel ready, compare VPNs with Reverse Proxies and write down three differences.

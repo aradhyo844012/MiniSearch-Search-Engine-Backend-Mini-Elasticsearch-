@@ -1,0 +1,12 @@
+Twelve-Factor Apps Glossary for Beginners
+
+New words can make Twelve-Factor Apps feel harder than it is. This glossary keeps the key ones in one place.
+
+Twelve-Factor Apps: a set of twelve guidelines for building apps that deploy and scale cleanly.
+config in the environment: a core term, most visible in building web services.
+stateless processes: a core term that beginners often confuse with backing services.
+backing services: a core term that connects to disposability.
+disposability: a core term worth revisiting after you try a real example.
+Heroku: a tool commonly used for deploying to platforms.
+
+Come back to this Twelve-Factor Apps list whenever documentation for Docker uses a word you do not recognize.

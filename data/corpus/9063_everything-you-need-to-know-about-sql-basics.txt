@@ -1,0 +1,26 @@
+Everything You Need to Know About SQL Basics
+
+This page collects the essentials about SQL Basics in one place. In short, SQL Basics is the core SQL commands for reading and changing data in tables.
+
+Core concepts:
+- SELECT
+- WHERE
+- ORDER BY
+- INSERT and UPDATE
+
+Where it is used:
+- reading customer records
+- building reports
+- changing stored data
+
+Common problems:
+- forgetting the WHERE clause on updates
+- selecting every column
+- assuming row order without ORDER BY
+
+Tools to know:
+- SQLite
+- PostgreSQL
+- DB Browser for SQLite
+
+Remember this above all: asking a very organized librarian for exactly the books you need is a good way to picture it, and the best habit is to run a SELECT with the same WHERE clause before any UPDATE or DELETE.

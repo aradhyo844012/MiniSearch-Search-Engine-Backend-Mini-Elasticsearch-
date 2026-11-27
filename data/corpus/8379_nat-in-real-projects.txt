@@ -1,0 +1,11 @@
+NAT in Real Projects
+
+Reading about NAT is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: home routers. Here, private addresses drives the main design choices, and the team needs to guard against breaking peer-to-peer connections.
+
+Scenario two: sharing limited IPv4 addresses. This time translation tables matters most, and tools such as iptables help keep things manageable.
+
+Scenario three: hiding internal networks. The key idea is port mapping, and the biggest risk is exhausted translation tables.
+
+Across all three scenarios, NAT stays the same idea: a technique that lets many devices share one public IP address by rewriting addresses. Only the details change.

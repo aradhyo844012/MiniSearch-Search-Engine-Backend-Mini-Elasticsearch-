@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Database Constraints
+
+This is a fictional but realistic day for a developer whose project relies on Database Constraints.
+
+Morning: Karthik starts by reviewing a ticket about preventing bad data. Before touching any code, Karthik re-reads the notes on primary keys to make sure the plan is sound.
+
+Midday: Karthik pairs with a teammate to explore foreign keys with PostgreSQL. A small test exposes the problem of skipping constraints for speed, and they fix it together.
+
+Afternoon: the team discusses a new request involving protecting relationships. Karthik sketches guard rails along a mountain road on the whiteboard to help everyone follow the idea.
+
+End of day: Karthik writes a short note describing what changed and adds a reminder to put critical rules in the database as well as in the app.
+
+Days like this are typical. Database Constraints is not glamorous, but understanding it keeps small problems from growing.

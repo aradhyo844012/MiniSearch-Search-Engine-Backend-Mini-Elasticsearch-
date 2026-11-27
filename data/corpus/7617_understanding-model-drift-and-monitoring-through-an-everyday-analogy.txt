@@ -1,0 +1,9 @@
+Understanding Model Drift and Monitoring Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture checking a car's gauges on a long trip.
+
+In that picture, data drift is the first rule you follow, concept drift is the next step, and performance metrics and alerts keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Model Drift and Monitoring is watching deployed models for changes in data or performance over time, and it involves details such as monitoring only system health that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Evidently to learn the exact behavior. The same picture helps when you explain catching degrading models to a friend.

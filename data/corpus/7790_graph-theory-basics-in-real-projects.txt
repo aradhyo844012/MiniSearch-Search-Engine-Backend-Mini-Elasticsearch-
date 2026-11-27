@@ -1,0 +1,11 @@
+Graph Theory Basics in Real Projects
+
+Reading about Graph Theory Basics is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: social networks. Here, vertices and edges drives the main design choices, and the team needs to guard against mixing directed and undirected graphs.
+
+Scenario two: maps. This time degree matters most, and tools such as NetworkX help keep things manageable.
+
+Scenario three: dependency analysis. The key idea is paths and cycles, and the biggest risk is ignoring disconnected parts.
+
+Across all three scenarios, Graph Theory Basics stays the same idea: the study of nodes and the connections between them. Only the details change.

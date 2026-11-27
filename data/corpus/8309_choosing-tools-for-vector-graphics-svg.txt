@@ -1,0 +1,11 @@
+Choosing Tools for Vector Graphics (SVG)
+
+There is no single best tool for Vector Graphics (SVG). The right choice depends on your project, your team and your timeline.
+
+Inkscape is a common first choice, especially for logos. SVGO suits teams that already work with similar technology, and Figma is worth a look when you need something different.
+
+Judge any tool for Vector Graphics (SVG) by four questions: Is the documentation clear? Is the community active? Does it handle icons well? Can you leave it later if you need to?
+
+Whichever tool you pick for Vector Graphics (SVG), test it on a small problem first, and watch for this: overly complex paths.
+
+As a rule of thumb, set a viewBox so the image scales cleanly, no matter which tool you use.

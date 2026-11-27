@@ -1,0 +1,11 @@
+Mistakes to Avoid with Managed Cloud Databases
+
+Everyone learns Managed Cloud Databases partly through mistakes. Here are three worth avoiding.
+
+Mistake one: surprise costs. It usually appears when someone skips automated backups and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: limited configuration control. It tends to be noticed late, often during testing of launching apps quickly. A short checklist during review catches it early.
+
+Mistake three: ignoring maintenance windows. It is easy to miss because everything seems to work at first. Keep an eye on scaling options to spot it.
+
+If you remember only one rule, make it this: test restoring a backup before you need it.

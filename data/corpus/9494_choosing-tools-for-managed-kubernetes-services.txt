@@ -1,0 +1,11 @@
+Choosing Tools for Managed Kubernetes Services
+
+There is no single best tool for Managed Kubernetes Services. The right choice depends on your project, your team and your timeline.
+
+Amazon EKS is a common first choice, especially for running containerized apps. Google GKE suits teams that already work with similar technology, and Azure AKS is worth a look when you need something different.
+
+Judge any tool for Managed Kubernetes Services by four questions: Is the documentation clear? Is the community active? Does it handle scaling services well? Can you leave it later if you need to?
+
+Whichever tool you pick for Managed Kubernetes Services, test it on a small problem first, and watch for this: neglecting version upgrades.
+
+As a rule of thumb, plan regular cluster upgrades, no matter which tool you use.

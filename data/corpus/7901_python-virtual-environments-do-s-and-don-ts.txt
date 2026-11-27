@@ -1,0 +1,17 @@
+Python Virtual Environments Do's and Don'ts
+
+A quick list of habits for working with Python Virtual Environments.
+
+Do:
+- Learn venv before anything else.
+- Try venv on a small example.
+- Make it a habit to create one environment per project and record its requirements.
+- Test the case of keeping projects separate early.
+
+Don't:
+- Ignore this: installing packages globally.
+- Ignore this: forgetting to activate.
+- Ignore this: committing the environment folder.
+- Adopt Python Virtual Environments just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Python Virtual Environments, a little patience with pip pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Package Managers Explained Simply
+
+If Package Managers sounds intimidating, relax. It is tools that install, update and remove software along with its dependencies, and the idea is simpler than the name suggests.
+
+Think of Package Managers as a supply store that delivers parts together with the parts they need. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: repositories, dependency resolution, versions, and signed packages. You do not need to master them all at once. Start with repositories, then add dependency resolution.
+
+People reach for Package Managers when they work on installing system tools, keeping servers updated, and reproducing environments.
+
+One practical tip is to update the package index before installing anything.
+
+Once Package Managers feels comfortable, read about Linux File Permissions, which lives in the same neighborhood of ideas.

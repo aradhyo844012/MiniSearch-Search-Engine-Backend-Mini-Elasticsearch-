@@ -1,0 +1,11 @@
+Scaling Considerations for Reverse Proxies
+
+A design that works for a classroom project can behave very differently under real load. Here is how Reverse Proxies changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding upstream servers and getting hiding backend servers right.
+
+Medium scale: problems start to appear. Watch for losing the client IP address and wrong timeouts, and measure with NGINX before changing anything.
+
+Large scale: TLS termination and caching move from background details to central design questions. Teams often revisit their choices around terminating HTTPS at this stage.
+
+Before you scale, forward the real client IP in a trusted header. It is cheaper to build that habit early than to fix a crisis later.

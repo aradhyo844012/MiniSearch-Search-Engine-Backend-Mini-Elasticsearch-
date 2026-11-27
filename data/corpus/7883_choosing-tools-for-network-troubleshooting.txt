@@ -1,0 +1,11 @@
+Choosing Tools for Network Troubleshooting
+
+There is no single best tool for Network Troubleshooting. The right choice depends on your project, your team and your timeline.
+
+ping is a common first choice, especially for fixing office connectivity. traceroute suits teams that already work with similar technology, and Wireshark is worth a look when you need something different.
+
+Judge any tool for Network Troubleshooting by four questions: Is the documentation clear? Is the community active? Does it handle diagnosing slow apps well? Can you leave it later if you need to?
+
+Whichever tool you pick for Network Troubleshooting, test it on a small problem first, and watch for this: changing several things at once.
+
+As a rule of thumb, work from the bottom layer upward, no matter which tool you use.

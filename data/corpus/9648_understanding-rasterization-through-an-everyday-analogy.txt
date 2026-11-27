@@ -1,0 +1,9 @@
+Understanding Rasterization Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture coloring squares on graph paper to match a drawn outline.
+
+In that picture, triangles is the first rule you follow, pixel coverage is the next step, and the depth buffer and interpolation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Rasterization is converting shapes described by geometry into pixels on the screen, and it involves details such as aliasing along edges that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for OpenGL to learn the exact behavior. The same picture helps when you explain real-time games to a friend.

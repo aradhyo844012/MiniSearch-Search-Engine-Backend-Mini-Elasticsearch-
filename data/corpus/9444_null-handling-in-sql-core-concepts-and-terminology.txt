@@ -1,0 +1,10 @@
+NULL Handling in SQL: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about NULL Handling in SQL with confidence. The subject itself is understanding how missing or unknown values behave in queries.
+
+three-valued logic: one of the building blocks of NULL Handling in SQL. Documentation for PostgreSQL usually mentions it early.
+IS NULL: one of the building blocks of NULL Handling in SQL. Documentation for PostgreSQL usually mentions it early.
+COALESCE: one of the building blocks of NULL Handling in SQL. Mixing it up with neighboring terms is a common source of confusion.
+NULL in aggregates: one of the building blocks of NULL Handling in SQL. It shows up whenever you work on optional fields.
+
+Practice using these four NULL Handling in SQL terms in sentences about outer joins. If the sentences feel natural, the vocabulary has stuck.

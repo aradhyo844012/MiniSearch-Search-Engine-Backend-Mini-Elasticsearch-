@@ -1,0 +1,11 @@
+Choosing Tools for High Availability Design
+
+There is no single best tool for High Availability Design. The right choice depends on your project, your team and your timeline.
+
+load balancers is a common first choice, especially for online stores. Kubernetes suits teams that already work with similar technology, and Patroni is worth a look when you need something different.
+
+Judge any tool for High Availability Design by four questions: Is the documentation clear? Is the community active? Does it handle banking systems well? Can you leave it later if you need to?
+
+Whichever tool you pick for High Availability Design, test it on a small problem first, and watch for this: hidden single points of failure.
+
+As a rule of thumb, list every component and ask what happens if it dies, no matter which tool you use.

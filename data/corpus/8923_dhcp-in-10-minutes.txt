@@ -1,0 +1,15 @@
+DHCP in 10 Minutes
+
+You have ten minutes, so here is the fast route through DHCP.
+
+Minutes 1 and 2, the definition: DHCP is a service that automatically gives devices IP addresses and network settings.
+
+Minutes 3 and 4, the vocabulary: learn leases, address pools, reservations, and discover and offer messages.
+
+Minutes 5 and 6, the picture: imagine a hotel desk that hands out room numbers for a limited stay. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through home and office networks, guest Wi-Fi, and booting machines over a network.
+
+Minutes 9 and 10, the traps and the tools: watch for rogue DHCP servers and exhausted address pools, then try dnsmasq for a first experiment.
+
+If you have a spare minute, remember to reserve fixed addresses for servers and printers.

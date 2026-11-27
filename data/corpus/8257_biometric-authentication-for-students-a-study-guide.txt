@@ -1,0 +1,17 @@
+Biometric Authentication for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Biometric Authentication.
+
+Learning goals:
+1. Explain Biometric Authentication in your own words.
+2. Describe enrollment, matching, false accept and false reject rates, and liveness detection.
+3. Give examples from phone unlock and building access.
+4. Name three problems to watch for.
+
+Start with the definition: Biometric Authentication is verifying identity using traits such as fingerprints, faces or voices. Then draw a door that recognizes you by your face instead of a key on paper and label the four terms from the goals above.
+
+Self-test questions: Why is spoofing attacks a problem? How does matching relate to false accept and false reject rates? When would you choose Android BiometricPrompt or Face ID APIs?
+
+Study habit worth keeping: offer a fallback method and protect the stored templates.
+
+When you feel ready, compare Biometric Authentication with Digital Twins and write down three differences.

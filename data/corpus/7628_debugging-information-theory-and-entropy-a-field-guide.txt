@@ -1,0 +1,13 @@
+Debugging Information Theory and Entropy: A Field Guide
+
+When something goes wrong around Information Theory and Entropy, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: confusing information with meaning, ignoring noise, and misreading entropy values.
+Step 3: revisit bits and entropy, since misunderstandings there cause many bugs.
+Step 4: use the Python math module or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Information Theory and Entropy in work such as data compression come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, compute the entropy of a short text by hand. It prevents a surprising number of repeat problems.

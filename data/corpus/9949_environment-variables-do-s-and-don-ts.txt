@@ -1,0 +1,17 @@
+Environment Variables Do's and Don'ts
+
+A quick list of habits for working with Environment Variables.
+
+Do:
+- Learn variable names before anything else.
+- Try env on a small example.
+- Make it a habit to print a variable to confirm its value before blaming the code.
+- Test the case of storing configuration early.
+
+Don't:
+- Ignore this: committing secrets in dotfiles.
+- Ignore this: variables not visible to child processes.
+- Ignore this: typos in names.
+- Adopt Environment Variables just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Environment Variables, a little patience with scope pays off more than any clever shortcut.

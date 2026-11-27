@@ -1,0 +1,15 @@
+Physics Engines Quick Reference
+
+A one-screen reminder for Physics Engines. Bookmark it and return when the details fade.
+
+What it is: software that simulates forces, motion and collisions of objects.
+Key terms: rigid bodies, forces and impulses, constraints, and fixed time steps.
+Typical uses: vehicles and ragdolls, puzzle games, and training simulations.
+Risks: variable time steps, unstable stacks of objects, and extreme mass ratios.
+Tools: Box2D, Bullet, and PhysX.
+
+Mental picture: a stage manager who enforces gravity on every prop.
+
+Habit to build: use a fixed time step for stable results.
+
+See also: Game AI Behavior Trees, which sits close to Physics Engines in the area of Game Development.

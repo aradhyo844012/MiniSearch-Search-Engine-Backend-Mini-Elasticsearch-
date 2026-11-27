@@ -1,0 +1,15 @@
+Managed Kubernetes Services in 10 Minutes
+
+You have ten minutes, so here is the fast route through Managed Kubernetes Services.
+
+Minutes 1 and 2, the definition: Managed Kubernetes Services is cloud services that run the Kubernetes control plane for you.
+
+Minutes 3 and 4, the vocabulary: learn the control plane, node pools, upgrades, and integrated load balancers.
+
+Minutes 5 and 6, the picture: imagine renting an apartment building where the landlord handles the plumbing. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through running containerized apps, scaling services, and reducing operations work.
+
+Minutes 9 and 10, the traps and the tools: watch for neglecting version upgrades and oversized node pools, then try Amazon EKS for a first experiment.
+
+If you have a spare minute, remember to plan regular cluster upgrades.

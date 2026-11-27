@@ -1,0 +1,26 @@
+Everything You Need to Know About Semantic Versioning
+
+This page collects the essentials about Semantic Versioning in one place. In short, Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed.
+
+Core concepts:
+- major, minor and patch numbers
+- breaking changes
+- pre-release tags
+- version ranges
+
+Where it is used:
+- publishing libraries
+- declaring dependencies
+- planning upgrades
+
+Common problems:
+- breaking changes in minor releases
+- overly loose ranges
+- forgetting to document changes
+
+Tools to know:
+- semver.org
+- npm semver
+- release notes
+
+Remember this above all: the edition number on a textbook that tells you whether you must relearn anything is a good way to picture it, and the best habit is to write a changelog entry with every release.

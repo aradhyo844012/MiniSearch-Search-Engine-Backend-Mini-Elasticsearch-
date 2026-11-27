@@ -1,0 +1,13 @@
+Teaching Anomaly Detection to a Teammate
+
+Explaining Anomaly Detection to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a security guard who notices the one person acting differently. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Anomaly Detection is finding data points or events that differ sharply from normal behavior. Avoid jargon at this stage.
+
+Walk through an example involving fraud detection, naming baselines and thresholds as they come up.
+
+Ask your teammate to explain isolation methods in Anomaly Detection back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, too many false alarms, and suggest this habit: tune alerts using real examples of past incidents.

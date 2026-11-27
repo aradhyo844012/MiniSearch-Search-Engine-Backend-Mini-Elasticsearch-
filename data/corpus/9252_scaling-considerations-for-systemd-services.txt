@@ -1,0 +1,11 @@
+Scaling Considerations for systemd Services
+
+A design that works for a classroom project can behave very differently under real load. Here is how systemd Services changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding unit files and getting starting services at boot right.
+
+Medium scale: problems start to appear. Watch for editing unit files without reloading the daemon and missing restart policies, and measure with systemctl before changing anything.
+
+Large scale: service states and journal logs move from background details to central design questions. Teams often revisit their choices around restarting crashed programs at this stage.
+
+Before you scale, run systemctl daemon-reload after every unit file change. It is cheaper to build that habit early than to fix a crisis later.

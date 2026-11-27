@@ -1,0 +1,11 @@
+Why Shaders Matters for Developers
+
+Developers who understand Shaders make better decisions, because Shaders is small programs that run on the graphics card to control how things are drawn.
+
+Three situations show why it matters. First, lighting effects. Second, water and fire visuals. Third, post-processing. In each case, a solid grasp of vertex shaders and fragment shaders separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: branches that slow the GPU, precision errors, and platform differences.
+
+You will not need to build everything yourself; GLSL, Shadertoy, and RenderDoc cover most needs.
+
+Connect Shaders with Physics Engines to see the bigger picture of Game Development.

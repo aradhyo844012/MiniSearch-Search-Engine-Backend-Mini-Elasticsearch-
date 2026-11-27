@@ -1,0 +1,11 @@
+Scaling Considerations for Database Constraints
+
+A design that works for a classroom project can behave very differently under real load. Here is how Database Constraints changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding primary keys and getting preventing bad data right.
+
+Medium scale: problems start to appear. Watch for skipping constraints for speed and missing indexes on foreign keys, and measure with PostgreSQL before changing anything.
+
+Large scale: unique constraints and check constraints move from background details to central design questions. Teams often revisit their choices around protecting relationships at this stage.
+
+Before you scale, put critical rules in the database as well as in the app. It is cheaper to build that habit early than to fix a crisis later.

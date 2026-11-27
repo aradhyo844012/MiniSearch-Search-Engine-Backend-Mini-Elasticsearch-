@@ -1,0 +1,11 @@
+Mistakes to Avoid with Cloud-Native Applications
+
+Everyone learns Cloud-Native Applications partly through mistakes. Here are three worth avoiding.
+
+Mistake one: treating the cloud like a data center. It usually appears when someone skips containers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: too many services. It tends to be noticed late, often during testing of web platforms. A short checklist during review catches it early.
+
+Mistake three: ignoring costs. It is easy to miss because everything seems to work at first. Keep an eye on elastic scaling to spot it.
+
+If you remember only one rule, make it this: design every service to be stateless where possible.

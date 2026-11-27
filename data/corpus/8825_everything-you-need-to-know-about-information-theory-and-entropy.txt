@@ -1,0 +1,26 @@
+Everything You Need to Know About Information Theory and Entropy
+
+This page collects the essentials about Information Theory and Entropy in one place. In short, Information Theory and Entropy is the mathematics of measuring and compressing information.
+
+Core concepts:
+- bits
+- entropy
+- compression limits
+- noise
+
+Where it is used:
+- data compression
+- error-correcting codes
+- communication systems
+
+Common problems:
+- confusing information with meaning
+- ignoring noise
+- misreading entropy values
+
+Tools to know:
+- the Python math module
+- NumPy
+- zlib
+
+Remember this above all: measuring how surprised you are by each new message is a good way to picture it, and the best habit is to compute the entropy of a short text by hand.

@@ -1,0 +1,26 @@
+Everything You Need to Know About HTTP/2 and HTTP/3
+
+This page collects the essentials about HTTP/2 and HTTP/3 in one place. In short, HTTP/2 and HTTP/3 is newer versions of the web protocol that load pages faster over fewer connections.
+
+Core concepts:
+- multiplexing
+- header compression
+- QUIC
+- server push
+
+Where it is used:
+- faster page loads
+- improving mobile performance
+- reducing connection overhead
+
+Common problems:
+- assuming old tricks like sprite sheets still help
+- middleboxes blocking UDP
+- misconfigured fallbacks
+
+Tools to know:
+- curl with HTTP/3 support
+- Chrome DevTools
+- NGINX
+
+Remember this above all: a multi-lane highway replacing a single-lane road is a good way to picture it, and the best habit is to keep a working HTTP/1.1 fallback.

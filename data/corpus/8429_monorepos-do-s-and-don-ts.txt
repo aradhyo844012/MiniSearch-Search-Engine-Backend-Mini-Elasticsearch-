@@ -1,0 +1,17 @@
+Monorepos Do's and Don'ts
+
+A quick list of habits for working with Monorepos.
+
+Do:
+- Learn shared tooling before anything else.
+- Try Nx on a small example.
+- Make it a habit to set up selective builds and tests early.
+- Test the case of sharing libraries across apps early.
+
+Don't:
+- Ignore this: slow checkouts.
+- Ignore this: unclear ownership.
+- Ignore this: CI that rebuilds everything.
+- Adopt Monorepos just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Monorepos, a little patience with code ownership pays off more than any clever shortcut.

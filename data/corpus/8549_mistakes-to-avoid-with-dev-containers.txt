@@ -1,0 +1,11 @@
+Mistakes to Avoid with Dev Containers
+
+Everyone learns Dev Containers partly through mistakes. Here are three worth avoiding.
+
+Mistake one: slow image builds. It usually appears when someone skips devcontainer.json and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: files owned by the wrong user. It tends to be noticed late, often during testing of onboarding new developers. A short checklist during review catches it early.
+
+Mistake three: forgetting to pin tool versions. It is easy to miss because everything seems to work at first. Keep an eye on extensions to spot it.
+
+If you remember only one rule, make it this: pin tool versions inside the container definition.

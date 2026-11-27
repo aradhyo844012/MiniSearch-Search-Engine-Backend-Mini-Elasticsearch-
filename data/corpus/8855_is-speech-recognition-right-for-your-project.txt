@@ -1,0 +1,11 @@
+Is Speech Recognition Right for Your Project?
+
+Before adopting Speech Recognition, ask whether it fits the problem. Remember that Speech Recognition is converting spoken language into text using machine learning.
+
+It is a good fit when your work involves voice assistants or captioning, and when your team understands audio features.
+
+Be cautious when the project is very small, when deadlines leave no room to learn acoustic models, or when you cannot manage these risks: accents and background noise, domain-specific vocabulary, and privacy of recordings.
+
+A simple decision test: write down the problem in one sentence, then check whether language models and word error rate are part of the answer. If they are, Speech Recognition is probably worth a closer look.
+
+If you decide to go ahead, start small with dictation and measure word error rate on audio like your real users'.

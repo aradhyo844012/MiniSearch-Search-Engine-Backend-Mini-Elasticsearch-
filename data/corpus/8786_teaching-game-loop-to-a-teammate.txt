@@ -1,0 +1,13 @@
+Teaching Game Loop to a Teammate
+
+Explaining Game Loop to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a heartbeat that keeps the whole game alive. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Game Loop is the repeating cycle that processes input, updates the game state and draws each frame. Avoid jargon at this stage.
+
+Walk through an example involving running every real-time game, naming input handling and the update step as they come up.
+
+Ask your teammate to explain rendering in Game Loop back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, tying logic to frame rate, and suggest this habit: use delta time so speed does not depend on frame rate.

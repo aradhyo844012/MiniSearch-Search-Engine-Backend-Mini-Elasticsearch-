@@ -1,0 +1,11 @@
+Choosing Tools for Robotics and ROS
+
+There is no single best tool for Robotics and ROS. The right choice depends on your project, your team and your timeline.
+
+ROS 2 is a common first choice, especially for warehouse robots. Gazebo suits teams that already work with similar technology, and Arduino is worth a look when you need something different.
+
+Judge any tool for Robotics and ROS by four questions: Is the documentation clear? Is the community active? Does it handle drones well? Can you leave it later if you need to?
+
+Whichever tool you pick for Robotics and ROS, test it on a small problem first, and watch for this: ignoring sensor noise.
+
+As a rule of thumb, test in simulation before moving real hardware, no matter which tool you use.

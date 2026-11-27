@@ -1,0 +1,26 @@
+Everything You Need to Know About Packet Switching
+
+This page collects the essentials about Packet Switching in one place. In short, Packet Switching is a method of sending data as small packets that travel independently across a network.
+
+Core concepts:
+- packets
+- headers
+- routing
+- reassembly
+
+Where it is used:
+- internet traffic
+- voice over IP
+- file transfers
+
+Common problems:
+- packet loss
+- out-of-order delivery
+- large packets being fragmented
+
+Tools to know:
+- Wireshark
+- tcpdump
+- iperf
+
+Remember this above all: mailing a book one page per envelope and reassembling it on arrival is a good way to picture it, and the best habit is to capture a few packets to see the headers for yourself.

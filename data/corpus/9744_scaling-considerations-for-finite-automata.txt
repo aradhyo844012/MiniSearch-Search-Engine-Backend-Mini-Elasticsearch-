@@ -1,0 +1,11 @@
+Scaling Considerations for Finite Automata
+
+A design that works for a classroom project can behave very differently under real load. Here is how Finite Automata changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding states and getting tokenizers right.
+
+Medium scale: problems start to appear. Watch for missing transitions and confusing deterministic and non-deterministic machines, and measure with JFLAP before changing anything.
+
+Large scale: accepting states and regular languages move from background details to central design questions. Teams often revisit their choices around pattern matching at this stage.
+
+Before you scale, draw the state diagram before writing any code. It is cheaper to build that habit early than to fix a crisis later.

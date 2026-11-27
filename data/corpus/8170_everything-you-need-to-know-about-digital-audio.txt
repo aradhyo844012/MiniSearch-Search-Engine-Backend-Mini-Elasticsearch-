@@ -1,0 +1,26 @@
+Everything You Need to Know About Digital Audio
+
+This page collects the essentials about Digital Audio in one place. In short, Digital Audio is representing sound as numbers by sampling it many times per second.
+
+Core concepts:
+- sampling rate
+- bit depth
+- waveforms
+- the Nyquist limit
+
+Where it is used:
+- music production
+- voice calls
+- podcasts
+
+Common problems:
+- clipping from too high a level
+- aliasing at low sample rates
+- mixing sample rates
+
+Tools to know:
+- Audacity
+- SoX
+- the Web Audio API
+
+Remember this above all: taking rapid snapshots of a wave so it can be redrawn later is a good way to picture it, and the best habit is to keep recordings below the clipping level.

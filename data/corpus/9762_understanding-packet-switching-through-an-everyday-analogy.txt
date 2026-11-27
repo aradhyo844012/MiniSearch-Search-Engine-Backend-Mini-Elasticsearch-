@@ -1,0 +1,9 @@
+Understanding Packet Switching Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture mailing a book one page per envelope and reassembling it on arrival.
+
+In that picture, packets is the first rule you follow, headers is the next step, and routing and reassembly keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Packet Switching is a method of sending data as small packets that travel independently across a network, and it involves details such as packet loss that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Wireshark to learn the exact behavior. The same picture helps when you explain internet traffic to a friend.

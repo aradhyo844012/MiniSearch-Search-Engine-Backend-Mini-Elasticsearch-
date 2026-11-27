@@ -1,0 +1,11 @@
+NULL Handling in SQL Tips from Experienced Engineers
+
+Engineers who work with NULL Handling in SQL regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of optional fields early, before the design hardens.
+2. Reach for PostgreSQL first, and only then evaluate alternatives such as SQLite.
+3. Write down why you chose NULL Handling in SQL so the next person understands the decision.
+4. When something behaves strangely, revisit IS NULL before anything else.
+5. Be careful with this one: comparing with equals instead of IS NULL.
+
+None of these tips needs special equipment, and all of them apply to outer joins as well as to NULL Handling in SQL in general.

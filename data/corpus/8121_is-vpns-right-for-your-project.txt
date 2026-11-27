@@ -1,0 +1,11 @@
+Is VPNs Right for Your Project?
+
+Before adopting VPNs, ask whether it fits the problem. Remember that VPNs is encrypted tunnels that connect devices or networks across the public internet.
+
+It is a good fit when your work involves remote work access or linking offices, and when your team understands tunneling.
+
+Be cautious when the project is very small, when deadlines leave no room to learn encryption, or when you cannot manage these risks: assuming it makes you anonymous, slow routing through distant servers, and leaking DNS requests.
+
+A simple decision test: write down the problem in one sentence, then check whether authentication and split tunneling are part of the answer. If they are, VPNs is probably worth a closer look.
+
+If you decide to go ahead, start small with protecting traffic on public Wi-Fi and test for DNS leaks after connecting.

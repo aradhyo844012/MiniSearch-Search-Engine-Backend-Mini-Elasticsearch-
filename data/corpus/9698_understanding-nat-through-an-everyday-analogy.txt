@@ -1,0 +1,9 @@
+Understanding NAT Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a receptionist who forwards calls for many desks through one phone number.
+
+In that picture, private addresses is the first rule you follow, translation tables is the next step, and port mapping and port forwarding keep everything running smoothly.
+
+Every analogy breaks down eventually. Real NAT is a technique that lets many devices share one public IP address by rewriting addresses, and it involves details such as breaking peer-to-peer connections that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for iptables to learn the exact behavior. The same picture helps when you explain home routers to a friend.

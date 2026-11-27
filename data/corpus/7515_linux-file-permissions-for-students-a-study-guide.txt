@@ -1,0 +1,17 @@
+Linux File Permissions for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Linux File Permissions.
+
+Learning goals:
+1. Explain Linux File Permissions in your own words.
+2. Describe owner, group and others, mode bits, chmod and chown, and umask.
+3. Give examples from protecting private keys and sharing project folders.
+4. Name three problems to watch for.
+
+Start with the definition: Linux File Permissions is the read, write and execute rules that control who can access each file. Then draw colored wristbands that decide which rooms each guest may enter on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using chmod 777 as a quick fix a problem? How does mode bits relate to chmod and chown? When would you choose ls -l or chmod?
+
+Study habit worth keeping: grant the least permission that works.
+
+When you feel ready, compare Linux File Permissions with Package Managers and write down three differences.

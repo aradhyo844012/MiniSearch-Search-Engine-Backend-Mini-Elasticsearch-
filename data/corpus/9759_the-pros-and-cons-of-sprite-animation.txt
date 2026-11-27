@@ -1,0 +1,15 @@
+The Pros and Cons of Sprite Animation
+
+No technology is free of trade-offs, and Sprite Animation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports 2D platformers
+- Makes user interface effects easier
+- Helps with visual novels
+
+Drawbacks and risks:
+- Risk: inconsistent frame timing
+- Risk: huge uncompressed sheets
+- Risk: animation states that never end
+
+Weigh the two lists against your own project. If the advantages match your needs, such as 2D platformers, and you can manage the risks, Sprite Animation is a sound choice. Whatever you decide, pack frames into one sprite sheet to reduce draw calls.

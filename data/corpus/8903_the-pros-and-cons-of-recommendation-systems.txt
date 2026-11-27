@@ -1,0 +1,15 @@
+The Pros and Cons of Recommendation Systems
+
+No technology is free of trade-offs, and Recommendation Systems is no exception. Here is an honest summary.
+
+Advantages:
+- Supports streaming services
+- Makes online shops easier
+- Helps with news feeds
+
+Drawbacks and risks:
+- Risk: feedback loops
+- Risk: popularity bias
+- Risk: ignoring new users
+
+Weigh the two lists against your own project. If the advantages match your needs, such as streaming services, and you can manage the risks, Recommendation Systems is a sound choice. Whatever you decide, evaluate with held-out interactions, not training data.

@@ -1,0 +1,11 @@
+Why npm and Package Registries Matters for Developers
+
+Developers who understand npm and Package Registries make better decisions, because npm and Package Registries is services and tools for publishing and installing reusable code packages.
+
+Three situations show why it matters. First, installing JavaScript libraries. Second, sharing internal packages. Third, reproducible builds. In each case, a solid grasp of package.json and semantic versions separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: unpinned versions, installing untrusted packages, and huge dependency trees.
+
+You will not need to build everything yourself; npm, Yarn, and pnpm cover most needs.
+
+Connect npm and Package Registries with Makefiles to see the bigger picture of Developer Tooling and Build Systems.

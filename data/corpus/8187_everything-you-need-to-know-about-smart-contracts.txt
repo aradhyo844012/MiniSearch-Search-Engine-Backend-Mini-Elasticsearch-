@@ -1,0 +1,26 @@
+Everything You Need to Know About Smart Contracts
+
+This page collects the essentials about Smart Contracts in one place. In short, Smart Contracts is programs stored on a blockchain that run automatically when conditions are met.
+
+Core concepts:
+- contract code
+- transactions
+- gas fees
+- immutability
+
+Where it is used:
+- token systems
+- automated escrow
+- decentralized applications
+
+Common problems:
+- bugs that cannot be patched
+- reentrancy attacks
+- high gas costs
+
+Tools to know:
+- Solidity
+- Hardhat
+- Remix
+
+Remember this above all: a vending machine that follows its rules with no clerk is a good way to picture it, and the best habit is to audit and test contracts thoroughly before deployment.

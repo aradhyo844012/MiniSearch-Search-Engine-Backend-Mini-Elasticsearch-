@@ -1,0 +1,11 @@
+Is Process Signals and Job Control Right for Your Project?
+
+Before adopting Process Signals and Job Control, ask whether it fits the problem. Remember that Process Signals and Job Control is messages and shell features used to stop, pause and resume running programs.
+
+It is a good fit when your work involves stopping runaway programs or shutting down gracefully, and when your team understands SIGTERM and SIGKILL.
+
+Be cautious when the project is very small, when deadlines leave no room to learn foreground and background jobs, or when you cannot manage these risks: using kill -9 first, orphaned child processes, and ignoring cleanup in handlers.
+
+A simple decision test: write down the problem in one sentence, then check whether kill and trap and process groups are part of the answer. If they are, Process Signals and Job Control is probably worth a closer look.
+
+If you decide to go ahead, start small with running long tasks in the background and try SIGTERM before SIGKILL so programs can clean up.

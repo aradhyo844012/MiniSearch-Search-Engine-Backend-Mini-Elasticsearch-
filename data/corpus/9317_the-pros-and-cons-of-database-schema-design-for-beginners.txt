@@ -1,0 +1,15 @@
+The Pros and Cons of Database Schema Design for Beginners
+
+No technology is free of trade-offs, and Database Schema Design for Beginners is no exception. Here is an honest summary.
+
+Advantages:
+- Supports starting new projects
+- Makes reviewing existing schemas easier
+- Helps with preparing for migrations
+
+Drawbacks and risks:
+- Risk: storing lists in a single column
+- Risk: unclear names
+- Risk: designing without thinking about queries
+
+Weigh the two lists against your own project. If the advantages match your needs, such as starting new projects, and you can manage the risks, Database Schema Design for Beginners is a sound choice. Whatever you decide, write down the main queries before finalizing the tables.

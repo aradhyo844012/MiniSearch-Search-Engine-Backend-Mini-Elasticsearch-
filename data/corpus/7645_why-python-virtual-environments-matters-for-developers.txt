@@ -1,0 +1,11 @@
+Why Python Virtual Environments Matters for Developers
+
+Developers who understand Python Virtual Environments make better decisions, because Python Virtual Environments is isolated folders that hold a project's own Python packages.
+
+Three situations show why it matters. First, keeping projects separate. Second, reproducing setups. Third, testing against different versions. In each case, a solid grasp of venv and pip separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: installing packages globally, forgetting to activate, and committing the environment folder.
+
+You will not need to build everything yourself; venv, pipx, and Poetry cover most needs.
+
+Connect Python Virtual Environments with Dev Containers to see the bigger picture of Developer Tooling and Build Systems.

@@ -1,0 +1,13 @@
+Makefiles Explained Simply
+
+Here is Makefiles without the jargon: it is plain files that describe how to build programs and run common tasks with the make tool.
+
+Think of Makefiles as a to-do list that knows which steps must come first. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: targets, prerequisites, recipes, and phony targets. You do not need to master them all at once. Start with targets, then add prerequisites.
+
+You will meet Makefiles in work such as compiling C projects, shortcuts for common commands, and automating documentation builds.
+
+One practical tip is to use phony targets for tasks like test and clean.
+
+Once Makefiles feels comfortable, read about Code Formatters, which lives in the same neighborhood of ideas.

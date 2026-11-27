@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with API Gateways
+
+This path is for a learner who has never studied API Gateways before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (API Gateways is services that sit in front of APIs to handle routing, authentication and limits) and learn routing and authentication.
+
+Stage 2, hands-on: install Kong, follow a tutorial, and build a small example involving exposing microservices.
+
+Stage 3, depth: study rate limits and request transformation, then deliberately explore this problem: a single point of failure.
+
+Stage 4, application: apply API Gateways to securing public APIs, compare AWS API Gateway with NGINX, and write up your results.
+
+Stage 5, review: teach API Gateways to someone else, and then move on to High Availability Design.

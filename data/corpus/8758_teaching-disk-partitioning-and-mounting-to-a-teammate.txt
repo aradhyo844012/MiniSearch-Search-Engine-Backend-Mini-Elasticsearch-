@@ -1,0 +1,13 @@
+Teaching Disk Partitioning and Mounting to a Teammate
+
+Explaining Disk Partitioning and Mounting to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: building rooms inside a warehouse and putting door numbers on them. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Disk Partitioning and Mounting is dividing storage into sections and attaching them to the file tree. Avoid jargon at this stage.
+
+Walk through an example involving adding a new drive, naming partitions and file system types as they come up.
+
+Ask your teammate to explain mount points in Disk Partitioning and Mounting back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, wrong device names, and suggest this habit: double-check device names with lsblk before formatting.

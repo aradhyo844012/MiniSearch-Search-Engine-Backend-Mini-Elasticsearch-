@@ -1,0 +1,12 @@
+Questions to Ask About Quantum Computing Basics in Code Review
+
+Reviewing code that involves Quantum Computing Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we start by simulating small circuits on a laptop?
+- Is superposition clear to someone reading the code for the first time?
+- Have we considered expecting speedups for every problem?
+- Does this change respect qubits, or does it work around it?
+- Would a test catch noise and errors if it appeared later?
+- Is Qiskit used consistently, or are we mixing approaches?
+
+Good reviews of work on Quantum Computing Basics are specific, kind and focused on entanglement, not on personal style.

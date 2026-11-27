@@ -1,0 +1,17 @@
+Number Theory and RSA Do's and Don'ts
+
+A quick list of habits for working with Number Theory and RSA.
+
+Do:
+- Learn prime numbers before anything else.
+- Try Python pow on a small example.
+- Make it a habit to use vetted crypto libraries instead of writing your own.
+- Test the case of public key cryptography early.
+
+Don't:
+- Ignore this: using small primes.
+- Ignore this: implementing crypto by hand in production.
+- Ignore this: ignoring padding.
+- Adopt Number Theory and RSA just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Number Theory and RSA, a little patience with modular arithmetic pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Debugging Robotics and ROS: A Field Guide
+
+When something goes wrong around Robotics and ROS, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: ignoring sensor noise, unsafe motion commands, and tight coupling between nodes.
+Step 3: revisit sensors and actuators, since misunderstandings there cause many bugs.
+Step 4: use ROS 2 or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Robotics and ROS in work such as warehouse robots come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, test in simulation before moving real hardware. It prevents a surprising number of repeat problems.

@@ -1,0 +1,11 @@
+Choosing Tools for A* Pathfinding
+
+There is no single best tool for A* Pathfinding. The right choice depends on your project, your team and your timeline.
+
+Unity NavMesh is a common first choice, especially for game characters. Python heapq suits teams that already work with similar technology, and Recast Navigation is worth a look when you need something different.
+
+Judge any tool for A* Pathfinding by four questions: Is the documentation clear? Is the community active? Does it handle robot navigation well? Can you leave it later if you need to?
+
+Whichever tool you pick for A* Pathfinding, test it on a small problem first, and watch for this: overestimating the heuristic.
+
+As a rule of thumb, choose an admissible heuristic so paths stay optimal, no matter which tool you use.

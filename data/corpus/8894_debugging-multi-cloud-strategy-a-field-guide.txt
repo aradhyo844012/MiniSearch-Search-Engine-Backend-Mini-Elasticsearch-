@@ -1,0 +1,13 @@
+Debugging Multi-Cloud Strategy: A Field Guide
+
+When something goes wrong around Multi-Cloud Strategy, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: doubling operational complexity, lowest-common-denominator designs, and hidden data transfer costs.
+Step 3: revisit portability and vendor lock-in, since misunderstandings there cause many bugs.
+Step 4: use Terraform or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Multi-Cloud Strategy in work such as avoiding single-provider risk come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, be clear about the problem multi-cloud is meant to solve. It prevents a surprising number of repeat problems.

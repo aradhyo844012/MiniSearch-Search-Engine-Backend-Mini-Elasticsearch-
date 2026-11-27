@@ -1,0 +1,15 @@
+The Pros and Cons of Disk Partitioning and Mounting
+
+No technology is free of trade-offs, and Disk Partitioning and Mounting is no exception. Here is an honest summary.
+
+Advantages:
+- Supports adding a new drive
+- Makes separating data from the system easier
+- Helps with encrypting volumes
+
+Drawbacks and risks:
+- Risk: wrong device names
+- Risk: mounting without fstab entries
+- Risk: formatting the wrong disk
+
+Weigh the two lists against your own project. If the advantages match your needs, such as adding a new drive, and you can manage the risks, Disk Partitioning and Mounting is a sound choice. Whatever you decide, double-check device names with lsblk before formatting.

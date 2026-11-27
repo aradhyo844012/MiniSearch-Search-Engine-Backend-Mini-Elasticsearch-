@@ -1,0 +1,11 @@
+Is MongoDB Aggregation Right for Your Project?
+
+Before adopting MongoDB Aggregation, ask whether it fits the problem. Remember that MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+
+It is a good fit when your work involves summarizing orders or building analytics queries, and when your team understands pipeline stages.
+
+Be cautious when the project is very small, when deadlines leave no room to learn $match and $group, or when you cannot manage these risks: putting $match late, huge intermediate results, and hitting memory limits.
+
+A simple decision test: write down the problem in one sentence, then check whether projection and indexes are part of the answer. If they are, MongoDB Aggregation is probably worth a closer look.
+
+If you decide to go ahead, start small with reshaping documents and filter with $match as early as possible.

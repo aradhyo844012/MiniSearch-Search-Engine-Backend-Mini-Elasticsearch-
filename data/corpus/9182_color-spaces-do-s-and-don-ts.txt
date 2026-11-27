@@ -1,0 +1,17 @@
+Color Spaces Do's and Don'ts
+
+A quick list of habits for working with Color Spaces.
+
+Do:
+- Learn RGB before anything else.
+- Try browser color pickers on a small example.
+- Make it a habit to work in one color space and convert only at the end.
+- Test the case of web design early.
+
+Don't:
+- Ignore this: ignoring gamma.
+- Ignore this: mixing color spaces.
+- Ignore this: poor contrast choices.
+- Adopt Color Spaces just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Color Spaces, a little patience with HSL pays off more than any clever shortcut.

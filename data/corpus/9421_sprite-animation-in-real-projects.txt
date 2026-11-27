@@ -1,0 +1,11 @@
+Sprite Animation in Real Projects
+
+Reading about Sprite Animation is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: 2D platformers. Here, sprite sheets drives the main design choices, and the team needs to guard against inconsistent frame timing.
+
+Scenario two: user interface effects. This time frames matters most, and tools such as Aseprite help keep things manageable.
+
+Scenario three: visual novels. The key idea is frame rate, and the biggest risk is huge uncompressed sheets.
+
+Across all three scenarios, Sprite Animation stays the same idea: showing a sequence of 2D images quickly to make a character appear to move. Only the details change.

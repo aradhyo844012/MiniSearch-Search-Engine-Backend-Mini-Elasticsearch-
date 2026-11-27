@@ -1,0 +1,9 @@
+Understanding Process Signals and Job Control Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a traffic officer's hand signals for running programs.
+
+In that picture, SIGTERM and SIGKILL is the first rule you follow, foreground and background jobs is the next step, and kill and trap and process groups keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Process Signals and Job Control is messages and shell features used to stop, pause and resume running programs, and it involves details such as using kill -9 first that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for kill to learn the exact behavior. The same picture helps when you explain stopping runaway programs to a friend.

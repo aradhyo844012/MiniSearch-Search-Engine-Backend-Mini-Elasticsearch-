@@ -1,0 +1,17 @@
+Regions and Availability Zones for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Regions and Availability Zones.
+
+Learning goals:
+1. Explain Regions and Availability Zones in your own words.
+2. Describe regions, availability zones, latency, and data residency.
+3. Give examples from placing services near users and surviving data center failures.
+4. Name three problems to watch for.
+
+Start with the definition: Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources. Then draw branches of a bank in different cities and different buildings on paper and label the four terms from the goals above.
+
+Self-test questions: Why is putting everything in one zone a problem? How does availability zones relate to latency? When would you choose AWS Regions or Azure regions?
+
+Study habit worth keeping: spread critical services across at least two zones.
+
+When you feel ready, compare Regions and Availability Zones with High Availability Design and write down three differences.

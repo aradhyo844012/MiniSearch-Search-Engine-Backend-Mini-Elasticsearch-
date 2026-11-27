@@ -1,0 +1,15 @@
+Vector Graphics (SVG) Quick Reference
+
+A one-screen reminder for Vector Graphics (SVG). Bookmark it and return when the details fade.
+
+What it is: images described by shapes and paths so they stay sharp at any size.
+Key terms: paths, the viewBox, fill and stroke, and transforms.
+Typical uses: logos, icons, and charts.
+Risks: overly complex paths, a missing viewBox, and inconsistent stroke widths.
+Tools: Inkscape, SVGO, and Figma.
+
+Mental picture: a recipe for drawing a picture rather than a photo of it.
+
+Habit to build: set a viewBox so the image scales cleanly.
+
+See also: Computer Vision Basics, which sits close to Vector Graphics (SVG) in the area of Graphics and Multimedia.

@@ -1,0 +1,12 @@
+Questions to Ask About Biometric Authentication in Code Review
+
+Reviewing code that involves Biometric Authentication is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of phone unlock correctly?
+- Have we avoided this problem: credentials that cannot be changed once leaked?
+- Is Android BiometricPrompt used consistently, or are we mixing approaches?
+- Could we offer a fallback method and protect the stored templates?
+- Is matching clear to someone reading the code for the first time?
+- Does this change respect enrollment, or does it work around it?
+
+Good reviews of work on Biometric Authentication are specific, kind and focused on false accept and false reject rates, not on personal style.

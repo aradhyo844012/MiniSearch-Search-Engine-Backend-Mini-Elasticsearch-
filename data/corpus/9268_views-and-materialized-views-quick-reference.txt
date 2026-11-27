@@ -1,0 +1,15 @@
+Views and Materialized Views Quick Reference
+
+A one-screen reminder for Views and Materialized Views. Bookmark it and return when the details fade.
+
+What it is: saved queries that behave like tables, with materialized views storing the results.
+Key terms: view definitions, refresh strategies, permissions, and dependencies.
+Typical uses: simplifying repeated queries, hiding sensitive columns, and speeding up reports.
+Risks: stale materialized data, views stacked on views, and surprising performance costs.
+Tools: PostgreSQL, MySQL, and Snowflake.
+
+Mental picture: a window cut into a wall that shows only part of the room.
+
+Habit to build: document how and when each materialized view is refreshed.
+
+See also: SQL Basics, which sits close to Views and Materialized Views in the area of SQL and Data Practice.

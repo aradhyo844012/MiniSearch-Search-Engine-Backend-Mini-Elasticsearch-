@@ -1,0 +1,15 @@
+Edge Computing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Edge Computing.
+
+Minutes 1 and 2, the definition: Edge Computing is processing data close to where it is produced instead of in a distant data center.
+
+Minutes 3 and 4, the vocabulary: learn edge nodes, latency, bandwidth savings, and synchronization.
+
+Minutes 5 and 6, the picture: imagine a local branch office that handles tasks without calling headquarters. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through factory sensors, video analytics, and smart cities.
+
+Minutes 9 and 10, the traps and the tools: watch for hard-to-update devices and inconsistent hardware, then try AWS IoT Greengrass for a first experiment.
+
+If you have a spare minute, remember to decide which data must stay local before designing the system.

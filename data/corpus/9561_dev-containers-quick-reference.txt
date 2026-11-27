@@ -1,0 +1,15 @@
+Dev Containers Quick Reference
+
+A one-screen reminder for Dev Containers. Bookmark it and return when the details fade.
+
+What it is: containerized development environments that every teammate can start in the same way.
+Key terms: devcontainer.json, images, mounted folders, and extensions.
+Typical uses: onboarding new developers, matching production tools, and trying projects safely.
+Risks: slow image builds, files owned by the wrong user, and forgetting to pin tool versions.
+Tools: VS Code Dev Containers, Docker, and GitHub Codespaces.
+
+Mental picture: a ready-made workshop that opens identically for everyone.
+
+Habit to build: pin tool versions inside the container definition.
+
+See also: Python Virtual Environments, which sits close to Dev Containers in the area of Developer Tooling and Build Systems.

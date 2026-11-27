@@ -1,0 +1,11 @@
+Bash Scripting Tips from Experienced Engineers
+
+Engineers who work with Bash Scripting regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit conditionals and loops before anything else.
+2. Be careful with this one: unquoted variables.
+3. Reach for Bash first, and only then evaluate alternatives such as ShellCheck.
+4. Make sure you can start scripts with set -euo pipefail and quote every variable.
+5. Do not skip variables; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to processing text files as well as to Bash Scripting in general.

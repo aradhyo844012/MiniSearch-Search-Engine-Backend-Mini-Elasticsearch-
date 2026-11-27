@@ -1,0 +1,26 @@
+Everything You Need to Know About Entity Component Systems
+
+This page collects the essentials about Entity Component Systems in one place. In short, Entity Component Systems is a game architecture that builds objects from data components processed by systems.
+
+Core concepts:
+- entities
+- components
+- systems
+- queries
+
+Where it is used:
+- large simulations
+- games with thousands of objects
+- flexible game design
+
+Common problems:
+- overengineering small games
+- components that hold logic
+- hard debugging of system order
+
+Tools to know:
+- Bevy
+- Unity DOTS
+- EnTT
+
+Remember this above all: building characters from interchangeable parts snapped onto an ID tag is a good way to picture it, and the best habit is to keep components as plain data.

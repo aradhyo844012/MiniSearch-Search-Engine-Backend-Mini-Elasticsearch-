@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Model Drift and Monitoring
+
+This is a fictional but realistic day for a developer whose project relies on Model Drift and Monitoring.
+
+Morning: Sneha starts by reviewing a ticket about catching degrading models. Before touching any code, Sneha re-reads the notes on data drift to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore concept drift with Evidently. A small test exposes the problem of monitoring only system health, and they fix it together.
+
+Afternoon: the team discusses a new request involving scheduling retraining. Sneha sketches checking a car's gauges on a long trip on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to monitor input data as well as accuracy.
+
+Days like this are typical. Model Drift and Monitoring is not glamorous, but understanding it keeps small problems from growing.

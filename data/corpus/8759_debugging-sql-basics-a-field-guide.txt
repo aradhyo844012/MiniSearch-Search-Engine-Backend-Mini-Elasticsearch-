@@ -1,0 +1,13 @@
+Debugging SQL Basics: A Field Guide
+
+When something goes wrong around SQL Basics, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: forgetting the WHERE clause on updates, selecting every column, and assuming row order without ORDER BY.
+Step 3: revisit SELECT and WHERE, since misunderstandings there cause many bugs.
+Step 4: use SQLite or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving SQL Basics in work such as reading customer records come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, run a SELECT with the same WHERE clause before any UPDATE or DELETE. It prevents a surprising number of repeat problems.

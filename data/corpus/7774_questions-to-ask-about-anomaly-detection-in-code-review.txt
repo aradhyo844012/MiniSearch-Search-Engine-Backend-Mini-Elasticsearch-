@@ -1,0 +1,12 @@
+Questions to Ask About Anomaly Detection in Code Review
+
+Reviewing code that involves Anomaly Detection is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is thresholds clear to someone reading the code for the first time?
+- Does this change respect baselines, or does it work around it?
+- Is scikit-learn used consistently, or are we mixing approaches?
+- Would a test catch shifting baselines if it appeared later?
+- Have we avoided this problem: labeling normal data incorrectly?
+- Have we considered too many false alarms?
+
+Good reviews of work on Anomaly Detection are specific, kind and focused on isolation methods, not on personal style.

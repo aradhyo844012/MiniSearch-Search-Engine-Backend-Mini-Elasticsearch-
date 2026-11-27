@@ -1,0 +1,17 @@
+Semantic Versioning for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Semantic Versioning.
+
+Learning goals:
+1. Explain Semantic Versioning in your own words.
+2. Describe major, minor and patch numbers, breaking changes, pre-release tags, and version ranges.
+3. Give examples from publishing libraries and declaring dependencies.
+4. Name three problems to watch for.
+
+Start with the definition: Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed. Then draw the edition number on a textbook that tells you whether you must relearn anything on paper and label the four terms from the goals above.
+
+Self-test questions: Why is breaking changes in minor releases a problem? How does breaking changes relate to pre-release tags? When would you choose semver.org or npm semver?
+
+Study habit: write a changelog entry with every release.
+
+When you feel ready, compare Semantic Versioning with Code Formatters and write down three differences.

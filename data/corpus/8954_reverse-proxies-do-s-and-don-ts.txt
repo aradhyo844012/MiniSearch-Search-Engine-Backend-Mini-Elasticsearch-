@@ -1,0 +1,17 @@
+Reverse Proxies Do's and Don'ts
+
+A quick list of habits for working with Reverse Proxies.
+
+Do:
+- Learn upstream servers before anything else.
+- Try NGINX on a small example.
+- Make it a habit to forward the real client IP in a trusted header.
+- Test the case of hiding backend servers early.
+
+Don't:
+- Ignore this: losing the client IP address.
+- Ignore this: wrong timeouts.
+- Ignore this: exposing internal paths.
+- Adopt Reverse Proxies just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Reverse Proxies, a little patience with proxy headers pays off more than any clever shortcut.

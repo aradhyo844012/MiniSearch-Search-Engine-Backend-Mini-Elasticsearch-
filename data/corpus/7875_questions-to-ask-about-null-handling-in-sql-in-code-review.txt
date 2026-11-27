@@ -1,0 +1,12 @@
+Questions to Ask About NULL Handling in SQL in Code Review
+
+Reviewing code that involves NULL Handling in SQL is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of optional fields correctly?
+- Does this change respect three-valued logic, or does it work around it?
+- Could we use IS NULL and COALESCE instead of comparing with equals?
+- Is PostgreSQL used consistently, or are we mixing approaches?
+- Have we considered comparing with equals instead of IS NULL?
+- Is IS NULL clear to someone reading the code for the first time?
+
+Good reviews of work on NULL Handling in SQL are specific, kind and focused on COALESCE, not on personal style.

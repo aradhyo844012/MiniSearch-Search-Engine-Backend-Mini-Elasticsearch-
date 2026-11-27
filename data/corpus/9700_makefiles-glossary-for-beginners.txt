@@ -1,0 +1,12 @@
+Makefiles Glossary for Beginners
+
+New words can make Makefiles feel harder than it is. This glossary keeps the key ones in one place.
+
+Makefiles: plain files that describe how to build programs and run common tasks with the make tool.
+targets: a core term, most visible in compiling C projects.
+prerequisites: a core term that beginners often confuse with recipes.
+recipes: a core term that connects to phony targets.
+phony targets: a core term worth revisiting after you try a real example.
+GNU Make: a tool commonly used for shortcuts for common commands.
+
+Come back to this Makefiles list whenever documentation for CMake uses a word you do not recognize.

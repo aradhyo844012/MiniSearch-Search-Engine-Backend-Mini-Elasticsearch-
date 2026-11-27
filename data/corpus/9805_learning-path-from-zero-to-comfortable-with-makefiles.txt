@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Makefiles
+
+This path is for a learner who has never studied Makefiles before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Makefiles is plain files that describe how to build programs and run common tasks with the make tool) and learn targets and prerequisites.
+
+Stage 2, hands-on: install GNU Make, follow a tutorial, and build a small example involving compiling C projects.
+
+Stage 3, depth: study recipes and phony targets, then deliberately explore this problem: tabs versus spaces.
+
+Stage 4, application: apply Makefiles to shortcuts for common commands, compare CMake with a text editor, and write up your results.
+
+Stage 5, review: teach Makefiles to someone else, and then move on to Dev Containers.

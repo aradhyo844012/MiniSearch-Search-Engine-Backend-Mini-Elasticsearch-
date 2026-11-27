@@ -1,0 +1,12 @@
+Model Deployment Glossary for Beginners
+
+New words can make Model Deployment feel harder than it is. This glossary keeps the key ones in one place.
+
+Model Deployment: making a trained model available to serve predictions in a real application.
+serving APIs: a core term, most visible in recommendation endpoints.
+batch versus online inference: a core term that beginners often confuse with containers.
+containers: a core term that connects to latency budgets.
+latency budgets: a core term worth revisiting after you try a real example.
+FastAPI: a tool commonly used for fraud checks.
+
+Come back to this Model Deployment list whenever documentation for TorchServe uses a word you do not recognize.

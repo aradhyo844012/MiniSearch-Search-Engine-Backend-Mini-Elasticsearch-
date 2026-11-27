@@ -1,0 +1,17 @@
+Stored Procedures and Triggers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Stored Procedures and Triggers.
+
+Learning goals:
+1. Explain Stored Procedures and Triggers in your own words.
+2. Describe procedures, triggers, parameters, and side effects.
+3. Give examples from enforcing rules close to the data and audit logging.
+4. Name three problems to watch for.
+
+Start with the definition: Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes. Then draw a house rule that fires automatically whenever something is placed on a shelf on paper and label the four terms from the goals above.
+
+Self-test questions: Why is hidden logic that surprises developers a problem? How does triggers relate to parameters? When would you choose PL/pgSQL or MySQL Workbench?
+
+Study habit: keep triggers small and well documented.
+
+When you feel ready, compare Stored Procedures and Triggers with Database Schema Design for Beginners and write down three differences.

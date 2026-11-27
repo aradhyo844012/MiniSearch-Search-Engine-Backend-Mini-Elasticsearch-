@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with NAT
+
+This is a fictional but realistic day for a developer whose project relies on NAT.
+
+Morning: Arjun starts by reviewing a ticket about home routers. Before touching any code, Arjun re-reads the notes on private addresses to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore translation tables with iptables. A small test exposes the problem of breaking peer-to-peer connections, and they fix it together.
+
+Afternoon: the team discusses a new request involving sharing limited IPv4 addresses. Arjun sketches a receptionist who forwards calls for many desks through one phone number on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to document every port forward you create.
+
+Days like this are typical. NAT is not glamorous, but understanding it keeps small problems from growing.

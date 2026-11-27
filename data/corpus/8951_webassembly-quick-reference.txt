@@ -1,0 +1,15 @@
+WebAssembly Quick Reference
+
+A one-screen reminder for WebAssembly. Bookmark it and return when the details fade.
+
+What it is: a compact binary format that lets code written in many languages run fast in browsers.
+Key terms: modules, linear memory, imports and exports, and the JavaScript bridge.
+Typical uses: running heavy computation in the browser, porting existing C or Rust code, and games and image tools.
+Risks: crossing the JavaScript boundary too often, large binaries, and limited access to browser APIs.
+Tools: Emscripten, wasm-pack, and Wasmtime.
+
+Mental picture: a fast engine installed in the corner of a web page.
+
+Habit to build: measure before moving code to WebAssembly.
+
+See also: Code Formatters, which sits close to WebAssembly in the area of Developer Tooling and Build Systems.

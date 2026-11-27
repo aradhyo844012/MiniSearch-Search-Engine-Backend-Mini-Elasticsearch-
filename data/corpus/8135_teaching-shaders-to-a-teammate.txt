@@ -1,0 +1,13 @@
+Teaching Shaders to a Teammate
+
+Explaining Shaders to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a tiny painter that colors each pixel following your instructions. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Shaders is small programs that run on the graphics card to control how things are drawn. Avoid jargon at this stage.
+
+Walk through an example involving lighting effects, naming vertex shaders and fragment shaders as they come up.
+
+Ask your teammate to explain uniforms in Shaders back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, branches that slow the GPU, and suggest this habit: start from a minimal shader and add one effect at a time.

@@ -1,0 +1,11 @@
+Information Theory and Entropy Tips from Experienced Engineers
+
+Engineers who work with Information Theory and Entropy regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of data compression early, before the design hardens.
+2. Reach for the Python math module first, and only then evaluate alternatives such as NumPy.
+3. Write down why you chose Information Theory and Entropy so the next person understands the decision.
+4. Make sure you can compute the entropy of a short text by hand.
+5. Be careful with this one: confusing information with meaning.
+
+None of these tips needs special equipment, and all of them apply to error-correcting codes as well as to Information Theory and Entropy in general.

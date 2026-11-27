@@ -1,0 +1,12 @@
+Questions to Ask About Probability Basics in Code Review
+
+Reviewing code that involves Probability Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect events, or does it work around it?
+- Does the code handle the case of randomized algorithms correctly?
+- Would a test catch ignoring base rates if it appeared later?
+- Have we considered confusing independent and exclusive events?
+- Have we avoided this problem: falling for the gambler's fallacy?
+- Could we simulate the problem in code to check your reasoning?
+
+Good reviews of work on Probability Basics are specific, kind and focused on independence, not on personal style.

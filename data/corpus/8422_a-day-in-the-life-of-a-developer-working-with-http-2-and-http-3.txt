@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with HTTP/2 and HTTP/3
+
+This is a fictional but realistic day for a developer whose project relies on HTTP/2 and HTTP/3.
+
+Morning: Sneha starts by reviewing a ticket about faster page loads. Before touching any code, Sneha re-reads the notes on multiplexing to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore header compression with curl with HTTP/3 support. A small test exposes the problem of assuming old tricks like sprite sheets still help, and they fix it together.
+
+Afternoon: the team discusses a new request involving improving mobile performance. Sneha sketches a multi-lane highway replacing a single-lane road on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to keep a working HTTP/1.1 fallback.
+
+Days like this are typical. HTTP/2 and HTTP/3 is not glamorous, but understanding it keeps small problems from growing.

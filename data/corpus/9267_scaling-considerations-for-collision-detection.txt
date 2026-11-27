@@ -1,0 +1,11 @@
+Scaling Considerations for Collision Detection
+
+A design that works for a classroom project can behave very differently under real load. Here is how Collision Detection changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding bounding boxes and getting platformers right.
+
+Medium scale: problems start to appear. Watch for tunneling through thin objects and checking every pair of objects, and measure with Box2D before changing anything.
+
+Large scale: spatial partitioning and collision response move from background details to central design questions. Teams often revisit their choices around shooters at this stage.
+
+Before you scale, use simple shapes first and refine only when needed. It is cheaper to build that habit early than to fix a crisis later.

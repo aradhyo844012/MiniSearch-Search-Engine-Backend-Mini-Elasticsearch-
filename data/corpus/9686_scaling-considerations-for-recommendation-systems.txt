@@ -1,0 +1,11 @@
+Scaling Considerations for Recommendation Systems
+
+A design that works for a classroom project can behave very differently under real load. Here is how Recommendation Systems changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding collaborative filtering and getting streaming services right.
+
+Medium scale: problems start to appear. Watch for feedback loops and popularity bias, and measure with Surprise before changing anything.
+
+Large scale: ranking and the cold start problem move from background details to central design questions. Teams often revisit their choices around online shops at this stage.
+
+Before you scale, evaluate with held-out interactions, not training data. It is cheaper to build that habit early than to fix a crisis later.

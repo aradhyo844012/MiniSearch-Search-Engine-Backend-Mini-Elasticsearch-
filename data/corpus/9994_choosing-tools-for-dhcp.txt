@@ -1,0 +1,11 @@
+Choosing Tools for DHCP
+
+There is no single best tool for DHCP. The right choice depends on your project, your team and your timeline.
+
+dnsmasq is a common first choice, especially for home and office networks. ISC Kea suits teams that already work with similar technology, and Wireshark is worth a look when you need something different.
+
+Judge any tool for DHCP by four questions: Is the documentation clear? Is the community active? Does it handle guest Wi-Fi well? Can you leave it later if you need to?
+
+Whichever tool you pick for DHCP, test it on a small problem first, and watch for this: rogue DHCP servers.
+
+As a rule of thumb, reserve fixed addresses for servers and printers, no matter which tool you use.

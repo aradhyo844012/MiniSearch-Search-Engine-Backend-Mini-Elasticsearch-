@@ -1,0 +1,9 @@
+Understanding MongoDB Aggregation Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an assembly line where each station filters or reshapes the parts.
+
+In that picture, pipeline stages is the first rule you follow, $match and $group is the next step, and projection and indexes keep everything running smoothly.
+
+Every analogy breaks down eventually. Real MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB, and it involves details such as putting $match late that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for MongoDB Compass to learn the exact behavior. The same picture helps when you explain summarizing orders to a friend.

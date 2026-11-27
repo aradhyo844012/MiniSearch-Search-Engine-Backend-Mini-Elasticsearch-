@@ -1,0 +1,11 @@
+Choosing Tools for Subqueries and CTEs
+
+There is no single best tool for Subqueries and CTEs. The right choice depends on your project, your team and your timeline.
+
+PostgreSQL is a common first choice, especially for breaking complex reports into steps. SQLite suits teams that already work with similar technology, and dbt is worth a look when you need something different.
+
+Judge any tool for Subqueries and CTEs by four questions: Is the documentation clear? Is the community active? Does it handle filtering with computed results well? Can you leave it later if you need to?
+
+Whichever tool you pick for Subqueries and CTEs, test it on a small problem first, and watch for this: correlated subqueries that run slowly.
+
+As a rule of thumb, name each CTE after what it returns, no matter which tool you use.

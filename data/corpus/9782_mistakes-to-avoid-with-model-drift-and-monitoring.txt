@@ -1,0 +1,11 @@
+Mistakes to Avoid with Model Drift and Monitoring
+
+Everyone learns Model Drift and Monitoring partly through mistakes. Here are three worth avoiding.
+
+Mistake one: monitoring only system health. It usually appears when someone skips data drift and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: having no ground truth labels. It tends to be noticed late, often during testing of catching degrading models. A short checklist during review catches it early.
+
+Mistake three: alert fatigue. It is easy to miss because everything seems to work at first. Keep an eye on alerts to spot it.
+
+If you remember only one rule, make it this: monitor input data as well as accuracy.

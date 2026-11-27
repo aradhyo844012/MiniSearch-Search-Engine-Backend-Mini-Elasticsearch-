@@ -1,0 +1,12 @@
+Questions to Ask About Game Engines in Code Review
+
+Reviewing code that involves Game Engines is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we build a tiny prototype in two engines before choosing?
+- Have we considered choosing an engine by hype?
+- Does this change respect scenes, or does it work around it?
+- Does the code handle the case of indie games correctly?
+- Is Unity used consistently, or are we mixing approaches?
+- Have we avoided this problem: ignoring platform limits?
+
+Good reviews of work on Game Engines are specific, kind and focused on scripting, not on personal style.

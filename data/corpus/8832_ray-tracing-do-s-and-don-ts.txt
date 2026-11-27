@@ -1,0 +1,17 @@
+Ray Tracing Do's and Don'ts
+
+A quick list of habits for working with Ray Tracing.
+
+Do:
+- Learn rays before anything else.
+- Try Blender Cycles on a small example.
+- Make it a habit to start with spheres and a single light before adding features.
+- Test the case of movie visuals early.
+
+Don't:
+- Ignore this: slow render times.
+- Ignore this: noise from too few samples.
+- Ignore this: numerical precision errors.
+- Adopt Ray Tracing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Ray Tracing, a little patience with intersections pays off more than any clever shortcut.

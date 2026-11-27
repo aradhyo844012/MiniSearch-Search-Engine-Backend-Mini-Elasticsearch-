@@ -1,0 +1,11 @@
+Rasterization in Real Projects
+
+Reading about Rasterization is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: real-time games. Here, triangles drives the main design choices, and the team needs to guard against aliasing along edges.
+
+Scenario two: user interfaces. This time pixel coverage matters most, and tools such as OpenGL help keep things manageable.
+
+Scenario three: CAD previews. The key idea is the depth buffer, and the biggest risk is overdraw.
+
+Across all three scenarios, Rasterization stays the same idea: converting shapes described by geometry into pixels on the screen. Only the details change.

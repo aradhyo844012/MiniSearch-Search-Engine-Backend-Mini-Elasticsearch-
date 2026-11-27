@@ -1,0 +1,17 @@
+Procedural Generation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Procedural Generation.
+
+Learning goals:
+1. Explain Procedural Generation in your own words.
+2. Describe random seeds, noise functions, rules and constraints, and reproducibility.
+3. Give examples from roguelike dungeons and infinite terrain.
+4. Name three problems to watch for.
+
+Start with the definition: Procedural Generation is creating game content such as levels and terrain automatically with algorithms. Then draw a chef inventing endless dishes from a fixed set of ingredients on paper and label the four terms from the goals above.
+
+Self-test questions: Why is levels that are unfair or unwinnable a problem? How does noise functions relate to rules and constraints? When would you choose Perlin noise or Wave Function Collapse?
+
+Study habit worth keeping: log the seed so any generated level can be reproduced.
+
+When you feel ready, compare Procedural Generation with Shaders and write down three differences.

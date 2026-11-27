@@ -1,0 +1,26 @@
+Everything You Need to Know About Computability and the Halting Problem
+
+This page collects the essentials about Computability and the Halting Problem in one place. In short, Computability and the Halting Problem is the study of what problems computers can and cannot solve.
+
+Core concepts:
+- Turing machines
+- decidability
+- the halting problem
+- reductions
+
+Where it is used:
+- understanding the limits of tools
+- proofs of impossibility
+- theory courses
+
+Common problems:
+- assuming everything is solvable
+- confusing hard with undecidable
+- hand-wavy proofs
+
+Tools to know:
+- Turing machine simulators
+- textbooks
+- proof sketches
+
+Remember this above all: asking a machine to predict whether any program will ever finish is a good way to picture it, and the best habit is to learn the diagonal argument step by step.

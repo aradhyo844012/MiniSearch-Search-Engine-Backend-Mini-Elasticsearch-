@@ -1,0 +1,11 @@
+Finite Automata Tips from Experienced Engineers
+
+Engineers who work with Finite Automata regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can draw the state diagram before writing any code.
+2. Write down why you chose Finite Automata so the next person understands the decision.
+3. Do not skip states; everything else builds on it.
+4. When something behaves strangely, revisit transitions before anything else.
+5. Reach for JFLAP first, and only then evaluate alternatives such as Python dictionaries.
+
+None of these tips needs special equipment, and all of them apply to pattern matching as well as to Finite Automata in general.

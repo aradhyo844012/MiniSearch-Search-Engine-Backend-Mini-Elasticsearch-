@@ -1,0 +1,12 @@
+Reverse Proxies Glossary for Beginners
+
+New words can make Reverse Proxies feel harder than it is. This glossary keeps the key ones in one place.
+
+Reverse Proxies: servers that sit in front of applications and forward client requests to them.
+upstream servers: a core term, most visible in hiding backend servers.
+proxy headers: a core term that beginners often confuse with TLS termination.
+TLS termination: a core term that connects to caching.
+caching: a core term worth revisiting after you try a real example.
+NGINX: a tool commonly used for terminating HTTPS.
+
+Come back to this Reverse Proxies list whenever documentation for Caddy uses a word you do not recognize.

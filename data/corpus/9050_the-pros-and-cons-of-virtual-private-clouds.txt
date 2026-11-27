@@ -1,0 +1,15 @@
+The Pros and Cons of Virtual Private Clouds
+
+No technology is free of trade-offs, and Virtual Private Clouds is no exception. Here is an honest summary.
+
+Advantages:
+- Supports separating public and private services
+- Makes connecting to offices easier
+- Helps with securing databases
+
+Drawbacks and risks:
+- Risk: overlapping address ranges
+- Risk: databases in public subnets
+- Risk: missing routes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as separating public and private services, and you can manage the risks, Virtual Private Clouds is a sound choice. Whatever you decide, keep databases in private subnets.

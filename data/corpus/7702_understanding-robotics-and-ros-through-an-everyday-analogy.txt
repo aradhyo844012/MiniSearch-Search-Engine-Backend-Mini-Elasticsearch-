@@ -1,0 +1,9 @@
+Understanding Robotics and ROS Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a body with senses and muscles controlled by a nervous system of messages.
+
+In that picture, sensors is the first rule you follow, actuators is the next step, and nodes and topics and control loops keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Robotics and ROS is building machines that sense and act, often using the Robot Operating System to connect their software, and it involves details such as ignoring sensor noise that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for ROS 2 to learn the exact behavior. The same picture helps when you explain warehouse robots to a friend.

@@ -1,0 +1,13 @@
+Teaching Build Systems to a Teammate
+
+Explaining Build Systems to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an assembly line that only rebuilds the parts that changed. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Build Systems is tools that turn source code into runnable programs automatically. Avoid jargon at this stage.
+
+Walk through an example involving compiling large projects, naming targets and dependencies as they come up.
+
+Ask your teammate to explain incremental builds in Build Systems back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow full rebuilds, and suggest this habit: make builds reproducible on any machine.

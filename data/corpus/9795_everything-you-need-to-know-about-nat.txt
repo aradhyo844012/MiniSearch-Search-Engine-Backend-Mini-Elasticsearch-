@@ -1,0 +1,26 @@
+Everything You Need to Know About NAT
+
+This page collects the essentials about NAT in one place. In short, NAT is a technique that lets many devices share one public IP address by rewriting addresses.
+
+Core concepts:
+- private addresses
+- translation tables
+- port mapping
+- port forwarding
+
+Where it is used:
+- home routers
+- sharing limited IPv4 addresses
+- hiding internal networks
+
+Common problems:
+- breaking peer-to-peer connections
+- exhausted translation tables
+- misconfigured port forwarding
+
+Tools to know:
+- iptables
+- router admin pages
+- conntrack
+
+Remember this above all: a receptionist who forwards calls for many desks through one phone number is a good way to picture it, and the best habit is to document every port forward you create.

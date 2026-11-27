@@ -1,0 +1,26 @@
+Everything You Need to Know About Subqueries and CTEs
+
+This page collects the essentials about Subqueries and CTEs in one place. In short, Subqueries and CTEs is queries nested inside other queries or named as temporary result sets.
+
+Core concepts:
+- subqueries
+- WITH clauses
+- correlated queries
+- readability
+
+Where it is used:
+- breaking complex reports into steps
+- filtering with computed results
+- walking recursive hierarchies
+
+Common problems:
+- correlated subqueries that run slowly
+- deep nesting
+- assuming CTEs are always materialized
+
+Tools to know:
+- PostgreSQL
+- SQLite
+- dbt
+
+Remember this above all: solving a puzzle by writing down intermediate answers is a good way to picture it, and the best habit is to name each CTE after what it returns.

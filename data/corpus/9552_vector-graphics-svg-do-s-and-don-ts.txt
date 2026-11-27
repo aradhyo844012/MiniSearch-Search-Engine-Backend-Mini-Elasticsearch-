@@ -1,0 +1,17 @@
+Vector Graphics (SVG) Do's and Don'ts
+
+A quick list of habits for working with Vector Graphics (SVG).
+
+Do:
+- Learn paths before anything else.
+- Try Inkscape on a small example.
+- Make it a habit to set a viewBox so the image scales cleanly.
+- Test the case of logos early.
+
+Don't:
+- Ignore this: overly complex paths.
+- Ignore this: a missing viewBox.
+- Ignore this: inconsistent stroke widths.
+- Adopt Vector Graphics (SVG) just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Vector Graphics (SVG), a little patience with the viewBox pays off more than any clever shortcut.

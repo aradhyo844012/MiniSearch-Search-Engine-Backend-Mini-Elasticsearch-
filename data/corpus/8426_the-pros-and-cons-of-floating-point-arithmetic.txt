@@ -1,0 +1,15 @@
+The Pros and Cons of Floating-Point Arithmetic
+
+No technology is free of trade-offs, and Floating-Point Arithmetic is no exception. Here is an honest summary.
+
+Advantages:
+- Supports scientific computing
+- Makes graphics easier
+- Helps with financial calculations that need care
+
+Drawbacks and risks:
+- Risk: comparing floats with equality
+- Risk: accumulated rounding errors
+- Risk: using floats for money
+
+Weigh the two lists against your own project. If the advantages match your needs, such as scientific computing, and you can manage the risks, Floating-Point Arithmetic is a sound choice. Whatever you decide, compare floats with a tolerance and use decimals for money.

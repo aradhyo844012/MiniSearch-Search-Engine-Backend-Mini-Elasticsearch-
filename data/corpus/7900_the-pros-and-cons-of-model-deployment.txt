@@ -1,0 +1,15 @@
+The Pros and Cons of Model Deployment
+
+No technology is free of trade-offs, and Model Deployment is no exception. Here is an honest summary.
+
+Advantages:
+- Supports recommendation endpoints
+- Makes fraud checks easier
+- Helps with mobile app features
+
+Drawbacks and risks:
+- Risk: training-serving mismatch
+- Risk: slow cold starts
+- Risk: no fallback when the model fails
+
+Weigh the two lists against your own project. If the advantages match your needs, such as recommendation endpoints, and you can manage the risks, Model Deployment is a sound choice. Whatever you decide, log inputs and outputs so predictions can be audited.

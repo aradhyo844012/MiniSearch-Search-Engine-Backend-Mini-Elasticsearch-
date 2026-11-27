@@ -1,0 +1,13 @@
+Teaching Firewalls to a Teammate
+
+Explaining Firewalls to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a security gate that checks each visitor against a list. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Firewalls is systems that allow or block network traffic according to rules. Avoid jargon at this stage.
+
+Walk through an example involving protecting servers, naming rules and stateful inspection as they come up.
+
+Ask your teammate to explain default deny in Firewalls back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, rules in the wrong order, and suggest this habit: start with default deny and open only what you need.

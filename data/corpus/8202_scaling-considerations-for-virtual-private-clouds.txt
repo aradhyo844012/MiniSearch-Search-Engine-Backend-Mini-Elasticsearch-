@@ -1,0 +1,11 @@
+Scaling Considerations for Virtual Private Clouds
+
+A design that works for a classroom project can behave very differently under real load. Here is how Virtual Private Clouds changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding subnets and getting separating public and private services right.
+
+Medium scale: problems start to appear. Watch for overlapping address ranges and databases in public subnets, and measure with AWS VPC before changing anything.
+
+Large scale: security groups and gateways move from background details to central design questions. Teams often revisit their choices around connecting to offices at this stage.
+
+Before you scale, keep databases in private subnets. It is cheaper to build that habit early than to fix a crisis later.

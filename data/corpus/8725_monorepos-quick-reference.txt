@@ -1,0 +1,15 @@
+Monorepos Quick Reference
+
+A one-screen reminder for Monorepos. Bookmark it and return when the details fade.
+
+What it is: single repositories that hold the code for many projects.
+Key terms: shared tooling, code ownership, selective builds, and atomic changes.
+Typical uses: sharing libraries across apps, coordinated refactors, and consistent tooling.
+Risks: slow checkouts, unclear ownership, and CI that rebuilds everything.
+Tools: Nx, Bazel, and Turborepo.
+
+Mental picture: one big toolbox for the whole workshop.
+
+Habit to build: set up selective builds and tests early.
+
+See also: Code Formatters, which sits close to Monorepos in the area of Developer Tooling and Build Systems.

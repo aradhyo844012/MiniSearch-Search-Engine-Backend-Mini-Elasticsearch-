@@ -1,0 +1,15 @@
+The Pros and Cons of High Availability Design
+
+No technology is free of trade-offs, and High Availability Design is no exception. Here is an honest summary.
+
+Advantages:
+- Supports online stores
+- Makes banking systems easier
+- Helps with healthcare software
+
+Drawbacks and risks:
+- Risk: hidden single points of failure
+- Risk: untested failover
+- Risk: correlated failures
+
+Weigh the two lists against your own project. If the advantages match your needs, such as online stores, and you can manage the risks, High Availability Design is a sound choice. Whatever you decide, list every component and ask what happens if it dies.

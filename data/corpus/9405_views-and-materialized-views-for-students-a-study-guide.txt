@@ -1,0 +1,17 @@
+Views and Materialized Views for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Views and Materialized Views.
+
+Learning goals:
+1. Explain Views and Materialized Views in your own words.
+2. Describe view definitions, refresh strategies, permissions, and dependencies.
+3. Give examples from simplifying repeated queries and hiding sensitive columns.
+4. Name three problems to watch for.
+
+Start with the definition: Views and Materialized Views is saved queries that behave like tables, with materialized views storing the results. Then draw a window cut into a wall that shows only part of the room on paper and label the four terms from the goals above.
+
+Self-test questions: Why is stale materialized data a problem? How does refresh strategies relate to permissions? When would you choose PostgreSQL or MySQL?
+
+Study habit worth keeping: document how and when each materialized view is refreshed.
+
+When you feel ready, compare Views and Materialized Views with NULL Handling in SQL and write down three differences.

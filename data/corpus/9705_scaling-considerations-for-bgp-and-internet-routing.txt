@@ -1,0 +1,11 @@
+Scaling Considerations for BGP and Internet Routing
+
+A design that works for a classroom project can behave very differently under real load. Here is how BGP and Internet Routing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding autonomous systems and getting connecting ISPs right.
+
+Medium scale: problems start to appear. Watch for route leaks and hijacked prefixes, and measure with bgpq4 before changing anything.
+
+Large scale: peering and path selection move from background details to central design questions. Teams often revisit their choices around directing traffic between large networks at this stage.
+
+Before you scale, filter route announcements strictly. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,15 @@
+Twelve-Factor Apps in 10 Minutes
+
+You have ten minutes, so here is the fast route through Twelve-Factor Apps.
+
+Minutes 1 and 2, the definition: Twelve-Factor Apps is a set of twelve guidelines for building apps that deploy and scale cleanly.
+
+Minutes 3 and 4, the vocabulary: learn config in the environment, stateless processes, backing services, and disposability.
+
+Minutes 5 and 6, the picture: imagine a checklist for packing a suitcase that fits any airline. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through building web services, deploying to platforms, and keeping environments consistent.
+
+Minutes 9 and 10, the traps and the tools: watch for storing state on local disks and hard-coded config, then try Heroku for a first experiment.
+
+If you have a spare minute, remember to keep config out of the code.

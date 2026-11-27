@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with NULL Handling in SQL
+
+This path is for a learner who has never studied NULL Handling in SQL before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (NULL Handling in SQL is understanding how missing or unknown values behave in queries) and learn three-valued logic and IS NULL.
+
+Stage 2, hands-on: install PostgreSQL, follow a tutorial, and build a small example involving optional fields.
+
+Stage 3, depth: study COALESCE and NULL in aggregates, then deliberately explore this problem: comparing with equals instead of IS NULL.
+
+Stage 4, application: apply NULL Handling in SQL to outer joins, compare SQLite with DBeaver, and write up your results.
+
+Stage 5, review: teach NULL Handling in SQL to someone else, and then move on to Vector Databases.

@@ -1,0 +1,13 @@
+Game Loop Explained Simply
+
+Here is Game Loop without the jargon: it is the repeating cycle that processes input, updates the game state and draws each frame.
+
+Think of Game Loop as a heartbeat that keeps the whole game alive. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: input handling, the update step, rendering, and frame timing. You do not need to master them all at once. Start with input handling, then add the update step.
+
+People reach for Game Loop when they work on running every real-time game, keeping animation smooth, and simulating physics steadily.
+
+One practical tip is to use delta time so speed does not depend on frame rate.
+
+After Game Loop, a natural next topic is Sprite Animation.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with HTTP/2 and HTTP/3
+
+This path is for a learner who has never studied HTTP/2 and HTTP/3 before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (HTTP/2 and HTTP/3 is newer versions of the web protocol that load pages faster over fewer connections) and learn multiplexing and header compression.
+
+Stage 2, hands-on: install curl with HTTP/3 support, follow a tutorial, and build a small example involving faster page loads.
+
+Stage 3, depth: study QUIC and server push, then deliberately explore this problem: assuming old tricks like sprite sheets still help.
+
+Stage 4, application: apply HTTP/2 and HTTP/3 to improving mobile performance, compare Chrome DevTools with NGINX, and write up your results.
+
+Stage 5, review: teach HTTP/2 and HTTP/3 to someone else, and then move on to Packet Switching.

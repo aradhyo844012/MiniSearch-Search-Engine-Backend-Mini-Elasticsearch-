@@ -1,0 +1,11 @@
+Package Managers Tips from Experienced Engineers
+
+Engineers who work with Package Managers regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit dependency resolution before anything else.
+2. Do not skip repositories; everything else builds on it.
+3. Test the case of installing system tools early, before the design hardens.
+4. Write down why you chose Package Managers so the next person understands the decision.
+5. Make sure you can update the package index before installing anything.
+
+None of these tips needs special equipment, and all of them apply to keeping servers updated as well as to Package Managers in general.

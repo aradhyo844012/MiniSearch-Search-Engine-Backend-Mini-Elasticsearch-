@@ -1,0 +1,13 @@
+Teaching Linear Algebra for Programmers to a Teammate
+
+Explaining Linear Algebra for Programmers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a set of arrows and stretching machines acting on space. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Linear Algebra for Programmers is the math of vectors and matrices used in graphics and machine learning. Avoid jargon at this stage.
+
+Walk through an example involving 3D graphics, naming vectors and matrices as they come up.
+
+Ask your teammate to explain dot products in Linear Algebra for Programmers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, mixing row and column conventions, and suggest this habit: check shapes before multiplying.

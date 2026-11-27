@@ -1,0 +1,15 @@
+MLOps Pipelines Quick Reference
+
+A one-screen reminder for MLOps Pipelines. Bookmark it and return when the details fade.
+
+What it is: automated workflows that train, test, deploy and monitor machine learning models.
+Key terms: data versioning, training pipelines, the model registry, and continuous delivery.
+Typical uses: repeatable model releases, tracking experiments, and rolling back models.
+Risks: untracked data changes, manual deployment steps, and no testing of data.
+Tools: MLflow, Kubeflow, and DVC.
+
+Mental picture: a factory line that turns data into a tested, packaged model.
+
+Habit to build: version both the code and the data.
+
+See also: Prompt Engineering, which sits close to MLOps Pipelines in the area of AI Engineering and MLOps.

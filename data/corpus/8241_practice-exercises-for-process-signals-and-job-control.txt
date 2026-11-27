@@ -1,0 +1,11 @@
+Practice Exercises for Process Signals and Job Control
+
+These exercises build real understanding of Process Signals and Job Control. Do them in order, and write down your answers.
+
+Exercise 1: Compare jobs and fg and nohup for running long tasks in the background and write down your conclusion.
+Exercise 2: Write a short paragraph describing Process Signals and Job Control and include the term SIGTERM and SIGKILL.
+Exercise 3: Pick kill and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble stopping runaway programs or shutting down gracefully.
+Exercise 5: Create a small example that deliberately triggers this problem: using kill -9 first. Then fix it.
+
+When you finish, compare your answers with the definition: Process Signals and Job Control is messages and shell features used to stop, pause and resume running programs.

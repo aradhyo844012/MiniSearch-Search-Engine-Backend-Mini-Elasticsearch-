@@ -1,0 +1,12 @@
+Questions to Ask About Discrete Mathematics in Code Review
+
+Reviewing code that involves Discrete Mathematics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered skipping proofs?
+- Have we avoided this problem: careless notation?
+- Is Python sets used consistently, or are we mixing approaches?
+- Is logic clear to someone reading the code for the first time?
+- Does this change respect sets, or does it work around it?
+- Could we practice writing small proofs by hand?
+
+Good reviews of work on Discrete Mathematics are specific, kind and focused on relations, not on personal style.

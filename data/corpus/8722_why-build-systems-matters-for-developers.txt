@@ -1,0 +1,11 @@
+Why Build Systems Matters for Developers
+
+Developers who understand Build Systems make better decisions, because Build Systems is tools that turn source code into runnable programs automatically.
+
+Three situations show why it matters. First, compiling large projects. Second, packaging software. Third, running repeatable pipelines. In each case, a solid grasp of targets and dependencies separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: slow full rebuilds, undeclared dependencies, and machine-specific builds.
+
+Good tools exist, including Make, Gradle, and Bazel, so you rarely have to start from nothing.
+
+Connect Build Systems with Dev Containers to see the bigger picture of Developer Tooling and Build Systems.

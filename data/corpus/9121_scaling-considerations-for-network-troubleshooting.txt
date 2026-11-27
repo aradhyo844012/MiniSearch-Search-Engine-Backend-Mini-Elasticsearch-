@@ -1,0 +1,11 @@
+Scaling Considerations for Network Troubleshooting
+
+A design that works for a classroom project can behave very differently under real load. Here is how Network Troubleshooting changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding protocol layers and getting fixing office connectivity right.
+
+Medium scale: problems start to appear. Watch for changing several things at once and blaming the application too early, and measure with ping before changing anything.
+
+Large scale: DNS checks and packet captures move from background details to central design questions. Teams often revisit their choices around diagnosing slow apps at this stage.
+
+Before you scale, work from the bottom layer upward. It is cheaper to build that habit early than to fix a crisis later.

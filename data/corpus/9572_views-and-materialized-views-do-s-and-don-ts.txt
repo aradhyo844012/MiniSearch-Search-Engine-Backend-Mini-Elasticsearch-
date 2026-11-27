@@ -1,0 +1,17 @@
+Views and Materialized Views Do's and Don'ts
+
+A quick list of habits for working with Views and Materialized Views.
+
+Do:
+- Learn view definitions before anything else.
+- Try PostgreSQL on a small example.
+- Make it a habit to document how and when each materialized view is refreshed.
+- Test the case of simplifying repeated queries early.
+
+Don't:
+- Ignore this: stale materialized data.
+- Ignore this: views stacked on views.
+- Ignore this: surprising performance costs.
+- Adopt Views and Materialized Views just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Views and Materialized Views, a little patience with refresh strategies pays off more than any clever shortcut.

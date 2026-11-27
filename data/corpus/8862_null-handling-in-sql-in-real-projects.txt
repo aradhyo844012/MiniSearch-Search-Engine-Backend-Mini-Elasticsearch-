@@ -1,0 +1,11 @@
+NULL Handling in SQL in Real Projects
+
+Reading about NULL Handling in SQL is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: optional fields. Here, three-valued logic drives the main design choices, and the team needs to guard against comparing with equals instead of IS NULL.
+
+Scenario two: outer joins. This time IS NULL matters most, and tools such as PostgreSQL help keep things manageable.
+
+Scenario three: data cleaning. The key idea is COALESCE, and the biggest risk is NOT IN with NULLs.
+
+Across all three scenarios, NULL Handling in SQL stays the same idea: understanding how missing or unknown values behave in queries. Only the details change.

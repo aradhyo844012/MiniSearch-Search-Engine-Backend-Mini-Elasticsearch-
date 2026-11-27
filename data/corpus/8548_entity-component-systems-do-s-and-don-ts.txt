@@ -1,0 +1,17 @@
+Entity Component Systems Do's and Don'ts
+
+A quick list of habits for working with Entity Component Systems.
+
+Do:
+- Learn entities before anything else.
+- Try Bevy on a small example.
+- Make it a habit to keep components as plain data.
+- Test the case of large simulations early.
+
+Don't:
+- Ignore this: overengineering small games.
+- Ignore this: components that hold logic.
+- Ignore this: hard debugging of system order.
+- Adopt Entity Component Systems just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Entity Component Systems, a little patience with components pays off more than any clever shortcut.

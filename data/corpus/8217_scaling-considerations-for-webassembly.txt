@@ -1,0 +1,11 @@
+Scaling Considerations for WebAssembly
+
+A design that works for a classroom project can behave very differently under real load. Here is how WebAssembly changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding modules and getting running heavy computation in the browser right.
+
+Medium scale: problems start to appear. Watch for crossing the JavaScript boundary too often and large binaries, and measure with Emscripten before changing anything.
+
+Large scale: imports and exports and the JavaScript bridge move from background details to central design questions. Teams often revisit their choices around porting existing C or Rust code at this stage.
+
+Before you scale, measure before moving code to WebAssembly. It is cheaper to build that habit early than to fix a crisis later.

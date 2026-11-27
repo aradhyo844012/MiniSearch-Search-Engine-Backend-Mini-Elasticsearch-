@@ -1,0 +1,17 @@
+Network Troubleshooting Do's and Don'ts
+
+A quick list of habits for working with Network Troubleshooting.
+
+Do:
+- Learn protocol layers before anything else.
+- Try ping on a small example.
+- Make it a habit to work from the bottom layer upward.
+- Test the case of fixing office connectivity early.
+
+Don't:
+- Ignore this: changing several things at once.
+- Ignore this: blaming the application too early.
+- Ignore this: ignoring DNS.
+- Adopt Network Troubleshooting just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Network Troubleshooting, a little patience with ping and traceroute pays off more than any clever shortcut.

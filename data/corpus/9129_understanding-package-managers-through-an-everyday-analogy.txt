@@ -1,0 +1,9 @@
+Understanding Package Managers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a supply store that delivers parts together with the parts they need.
+
+In that picture, repositories is the first rule you follow, dependency resolution is the next step, and versions and signed packages keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Package Managers is tools that install, update and remove software along with its dependencies, and it involves details such as mixing sources that conflict that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for apt to learn the exact behavior. The same picture helps when you explain installing system tools to a friend.

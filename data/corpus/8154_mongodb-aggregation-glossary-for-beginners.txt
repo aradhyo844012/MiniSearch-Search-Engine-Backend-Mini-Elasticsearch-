@@ -1,0 +1,12 @@
+MongoDB Aggregation Glossary for Beginners
+
+New words can make MongoDB Aggregation feel harder than it is. This glossary keeps the key ones in one place.
+
+MongoDB Aggregation: a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+pipeline stages: a core term, most visible in summarizing orders.
+$match and $group: a core term that beginners often confuse with projection.
+projection: a core term that connects to indexes.
+indexes: a core term worth revisiting after you try a real example.
+MongoDB Compass: a tool commonly used for building analytics queries.
+
+Come back to this MongoDB Aggregation list whenever documentation for mongosh uses a word you do not recognize.

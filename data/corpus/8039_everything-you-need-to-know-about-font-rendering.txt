@@ -1,0 +1,26 @@
+Everything You Need to Know About Font Rendering
+
+This page collects the essentials about Font Rendering in one place. In short, Font Rendering is turning font outlines into readable text on screen.
+
+Core concepts:
+- glyphs
+- hinting
+- anti-aliasing
+- kerning
+
+Where it is used:
+- web pages
+- operating systems
+- PDF viewers
+
+Common problems:
+- missing font fallbacks
+- blurry text from scaling
+- large font files
+
+Tools to know:
+- FreeType
+- Google Fonts
+- font inspector tools
+
+Remember this above all: a calligrapher tracing letter shapes onto a grid of pixels is a good way to picture it, and the best habit is to subset fonts to the characters you need.

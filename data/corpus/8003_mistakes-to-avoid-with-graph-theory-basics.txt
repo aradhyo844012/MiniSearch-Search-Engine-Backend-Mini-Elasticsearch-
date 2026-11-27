@@ -1,0 +1,11 @@
+Mistakes to Avoid with Graph Theory Basics
+
+Everyone learns Graph Theory Basics partly through mistakes. Here are three worth avoiding.
+
+Mistake one: mixing directed and undirected graphs. It usually appears when someone skips vertices and edges and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring disconnected parts. It tends to be noticed late, often during testing of social networks. A short checklist during review catches it early.
+
+Mistake three: choosing the wrong representation for dense graphs. It is easy to miss because everything seems to work at first. Keep an eye on connectivity to spot it.
+
+If you remember only one rule, make it this: draw a small example before writing code.

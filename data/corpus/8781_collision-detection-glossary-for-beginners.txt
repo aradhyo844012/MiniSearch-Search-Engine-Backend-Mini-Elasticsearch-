@@ -1,0 +1,12 @@
+Collision Detection Glossary for Beginners
+
+New words can make Collision Detection feel harder than it is. This glossary keeps the key ones in one place.
+
+Collision Detection: the process of finding out when objects in a game touch or overlap.
+bounding boxes: a core term, most visible in platformers.
+broad and narrow phases: a core term that beginners often confuse with spatial partitioning.
+spatial partitioning: a core term that connects to collision response.
+collision response: a core term worth revisiting after you try a real example.
+Box2D: a tool commonly used for shooters.
+
+Come back to this Collision Detection list whenever documentation for Unity colliders uses a word you do not recognize.

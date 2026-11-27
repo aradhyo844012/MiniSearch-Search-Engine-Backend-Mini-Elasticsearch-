@@ -1,0 +1,13 @@
+Debugging Managed Kubernetes Services: A Field Guide
+
+When something goes wrong around Managed Kubernetes Services, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: neglecting version upgrades, oversized node pools, and costly idle clusters.
+Step 3: revisit the control plane and node pools, since misunderstandings there cause many bugs.
+Step 4: use Amazon EKS or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Managed Kubernetes Services in work such as running containerized apps come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, plan regular cluster upgrades. It prevents a surprising number of repeat problems.

@@ -1,0 +1,17 @@
+Collision Detection for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Collision Detection.
+
+Learning goals:
+1. Explain Collision Detection in your own words.
+2. Describe bounding boxes, broad and narrow phases, spatial partitioning, and collision response.
+3. Give examples from platformers and shooters.
+4. Name three problems to watch for.
+
+Start with the definition: Collision Detection is the process of finding out when objects in a game touch or overlap. Then draw two people checking whether their personal space bubbles overlap on paper and label the four terms from the goals above.
+
+Self-test questions: Why is tunneling through thin objects a problem? How does broad and narrow phases relate to spatial partitioning? When would you choose Box2D or Unity colliders?
+
+Study habit worth keeping: use simple shapes first and refine only when needed.
+
+When you feel ready, compare Collision Detection with Game Loop and write down three differences.

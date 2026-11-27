@@ -1,0 +1,11 @@
+Mistakes to Avoid with Edge Computing
+
+Everyone learns Edge Computing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: hard-to-update devices. It usually appears when someone skips edge nodes and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: inconsistent hardware. It tends to be noticed late, often during testing of factory sensors. A short checklist during review catches it early.
+
+Mistake three: security at many sites. It is easy to miss because everything seems to work at first. Keep an eye on synchronization to spot it.
+
+If you remember only one rule, make it this: decide which data must stay local before designing the system.

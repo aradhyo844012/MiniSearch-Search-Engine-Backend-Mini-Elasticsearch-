@@ -1,0 +1,11 @@
+Why Physics Engines Matters for Developers
+
+Developers who understand Physics Engines make better decisions, because Physics Engines is software that simulates forces, motion and collisions of objects.
+
+Three situations show why it matters. First, vehicles and ragdolls. Second, puzzle games. Third, training simulations. In each case, a solid grasp of rigid bodies and forces and impulses separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: variable time steps, unstable stacks of objects, and extreme mass ratios.
+
+You will not need to build everything yourself; Box2D, Bullet, and PhysX cover most needs.
+
+Connect Physics Engines with Procedural Generation to see the bigger picture of Game Development.

@@ -1,0 +1,13 @@
+Debugging Database Schema Design for Beginners: A Field Guide
+
+When something goes wrong around Database Schema Design for Beginners, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: storing lists in a single column, unclear names, and designing without thinking about queries.
+Step 3: revisit entities and relationships, since misunderstandings there cause many bugs.
+Step 4: use dbdiagram.io or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Database Schema Design for Beginners in work such as starting new projects come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, write down the main queries before finalizing the tables. It prevents a surprising number of repeat problems.

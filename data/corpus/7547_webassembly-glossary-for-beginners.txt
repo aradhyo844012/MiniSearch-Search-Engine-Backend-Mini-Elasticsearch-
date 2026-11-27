@@ -1,0 +1,12 @@
+WebAssembly Glossary for Beginners
+
+New words can make WebAssembly feel harder than it is. This glossary keeps the key ones in one place.
+
+WebAssembly: a compact binary format that lets code written in many languages run fast in browsers.
+modules: a core term, most visible in running heavy computation in the browser.
+linear memory: a core term that beginners often confuse with imports and exports.
+imports and exports: a core term that connects to the JavaScript bridge.
+the JavaScript bridge: a core term worth revisiting after you try a real example.
+Emscripten: a tool commonly used for porting existing C or Rust code.
+
+Come back to this WebAssembly list whenever documentation for wasm-pack uses a word you do not recognize.

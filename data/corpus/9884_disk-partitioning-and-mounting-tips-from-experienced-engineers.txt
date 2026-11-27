@@ -1,0 +1,11 @@
+Disk Partitioning and Mounting Tips from Experienced Engineers
+
+Engineers who work with Disk Partitioning and Mounting regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: wrong device names.
+2. Write down why you chose Disk Partitioning and Mounting so the next person understands the decision.
+3. When something behaves strangely, revisit file system types before anything else.
+4. Reach for lsblk first, and only then evaluate alternatives such as fdisk.
+5. Do not skip partitions; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to separating data from the system as well as to Disk Partitioning and Mounting in general.

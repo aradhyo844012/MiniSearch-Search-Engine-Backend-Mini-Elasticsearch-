@@ -1,0 +1,11 @@
+Scaling Considerations for Regions and Availability Zones
+
+A design that works for a classroom project can behave very differently under real load. Here is how Regions and Availability Zones changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding regions and getting placing services near users right.
+
+Medium scale: problems start to appear. Watch for putting everything in one zone and cross-region transfer fees, and measure with AWS Regions before changing anything.
+
+Large scale: latency and data residency move from background details to central design questions. Teams often revisit their choices around surviving data center failures at this stage.
+
+Before you scale, spread critical services across at least two zones. It is cheaper to build that habit early than to fix a crisis later.

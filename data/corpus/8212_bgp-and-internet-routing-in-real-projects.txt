@@ -1,0 +1,11 @@
+BGP and Internet Routing in Real Projects
+
+Reading about BGP and Internet Routing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: connecting ISPs. Here, autonomous systems drives the main design choices, and the team needs to guard against route leaks.
+
+Scenario two: directing traffic between large networks. This time route announcements matters most, and tools such as bgpq4 help keep things manageable.
+
+Scenario three: explaining internet outages. The key idea is peering, and the biggest risk is hijacked prefixes.
+
+Across all three scenarios, BGP and Internet Routing stays the same idea: the protocol networks use to tell each other which addresses they can reach. Only the details change.

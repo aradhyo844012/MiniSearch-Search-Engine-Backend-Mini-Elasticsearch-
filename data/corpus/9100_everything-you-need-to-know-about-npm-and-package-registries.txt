@@ -1,0 +1,26 @@
+Everything You Need to Know About npm and Package Registries
+
+This page collects the essentials about npm and Package Registries in one place. In short, npm and Package Registries is services and tools for publishing and installing reusable code packages.
+
+Core concepts:
+- package.json
+- semantic versions
+- lock files
+- registries
+
+Where it is used:
+- installing JavaScript libraries
+- sharing internal packages
+- reproducible builds
+
+Common problems:
+- unpinned versions
+- installing untrusted packages
+- huge dependency trees
+
+Tools to know:
+- npm
+- Yarn
+- pnpm
+
+Remember this above all: a shared parts warehouse with a catalog is a good way to picture it, and the best habit is to commit your lock file.

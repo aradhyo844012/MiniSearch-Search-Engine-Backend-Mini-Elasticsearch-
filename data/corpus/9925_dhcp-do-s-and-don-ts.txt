@@ -1,0 +1,17 @@
+DHCP Do's and Don'ts
+
+A quick list of habits for working with DHCP.
+
+Do:
+- Learn leases before anything else.
+- Try dnsmasq on a small example.
+- Make it a habit to reserve fixed addresses for servers and printers.
+- Test the case of home and office networks early.
+
+Don't:
+- Ignore this: rogue DHCP servers.
+- Ignore this: exhausted address pools.
+- Ignore this: conflicting static addresses.
+- Adopt DHCP just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with DHCP, a little patience with address pools pays off more than any clever shortcut.

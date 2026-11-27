@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Firewalls
+
+This path is for a learner who has never studied Firewalls before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Firewalls is systems that allow or block network traffic according to rules) and learn rules and stateful inspection.
+
+Stage 2, hands-on: install ufw, follow a tutorial, and build a small example involving protecting servers.
+
+Stage 3, depth: study default deny and zones, then deliberately explore this problem: rules in the wrong order.
+
+Stage 4, application: apply Firewalls to segmenting networks, compare iptables with pfSense, and write up your results.
+
+Stage 5, review: teach Firewalls to someone else, and then move on to Reverse Proxies.

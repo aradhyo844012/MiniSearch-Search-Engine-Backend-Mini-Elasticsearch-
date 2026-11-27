@@ -1,0 +1,11 @@
+Environment Variables in Real Projects
+
+Reading about Environment Variables is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: storing configuration. Here, variable names drives the main design choices, and the team needs to guard against committing secrets in dotfiles.
+
+Scenario two: selecting program paths. This time scope matters most, and tools such as env help keep things manageable.
+
+Scenario three: passing settings to containers. The key idea is export, and the biggest risk is variables not visible to child processes.
+
+Across all three scenarios, Environment Variables stays the same idea: named values the operating system gives to programs to configure their behavior. Only the details change.

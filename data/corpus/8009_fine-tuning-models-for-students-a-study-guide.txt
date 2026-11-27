@@ -1,0 +1,17 @@
+Fine-Tuning Models for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Fine-Tuning Models.
+
+Learning goals:
+1. Explain Fine-Tuning Models in your own words.
+2. Describe pretrained weights, training data, the learning rate, and evaluation.
+3. Give examples from domain-specific language tasks and style adaptation.
+4. Name three problems to watch for.
+
+Start with the definition: Fine-Tuning Models is adapting a pretrained model to a specific task with extra training on your own data. Then draw teaching an experienced chef a new regional cuisine on paper and label the four terms from the goals above.
+
+Self-test questions: Why is overfitting on small datasets a problem? How does training data relate to the learning rate? When would you choose Hugging Face or PyTorch?
+
+Study habit: start with a small, clean dataset and a held-out test set.
+
+When you feel ready, compare Fine-Tuning Models with Prompt Engineering and write down three differences.

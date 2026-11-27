@@ -1,0 +1,11 @@
+Why Subqueries and CTEs Matters for Developers
+
+Developers who understand Subqueries and CTEs make better decisions, because Subqueries and CTEs is queries nested inside other queries or named as temporary result sets.
+
+Three situations show why it matters. First, breaking complex reports into steps. Second, filtering with computed results. Third, walking recursive hierarchies. In each case, a solid grasp of subqueries and WITH clauses separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: correlated subqueries that run slowly, deep nesting, and assuming CTEs are always materialized.
+
+Good tools exist, including PostgreSQL, SQLite, and dbt, so you rarely have to start from nothing.
+
+Connect Subqueries and CTEs with Database Schema Design for Beginners to see the bigger picture of SQL and Data Practice.

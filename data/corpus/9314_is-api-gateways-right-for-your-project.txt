@@ -1,0 +1,11 @@
+Is API Gateways Right for Your Project?
+
+Before adopting API Gateways, ask whether it fits the problem. Remember that API Gateways is services that sit in front of APIs to handle routing, authentication and limits.
+
+It is a good fit when your work involves exposing microservices or securing public APIs, and when your team understands routing.
+
+Be cautious when the project is very small, when deadlines leave no room to learn authentication, or when you cannot manage these risks: a single point of failure, business logic leaking into the gateway, and added latency.
+
+A simple decision test: write down the problem in one sentence, then check whether rate limits and request transformation are part of the answer. If they are, API Gateways is probably worth a closer look.
+
+If you decide to go ahead, start small with collecting usage metrics and keep the gateway thin and put business logic in services.

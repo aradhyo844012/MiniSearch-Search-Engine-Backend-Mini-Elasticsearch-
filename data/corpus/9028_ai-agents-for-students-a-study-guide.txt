@@ -1,0 +1,17 @@
+AI Agents for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover AI Agents.
+
+Learning goals:
+1. Explain AI Agents in your own words.
+2. Describe planning, tool calls, memory, and guardrails.
+3. Give examples from research assistants and workflow automation.
+4. Name three problems to watch for.
+
+Start with the definition: AI Agents is software systems that use a language model to plan steps and call tools to reach a goal. Then draw an assistant that makes a plan and uses a toolbox to carry it out on paper and label the four terms from the goals above.
+
+Self-test questions: Why is runaway loops a problem? How does tool calls relate to memory? When would you choose LangGraph or AutoGen?
+
+Study habit: limit what tools the agent may use and log every action.
+
+When you feel ready, compare AI Agents with Responsible AI and Bias and write down three differences.

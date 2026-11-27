@@ -1,0 +1,12 @@
+Questions to Ask About VPNs in Code Review
+
+Reviewing code that involves VPNs is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we test for DNS leaks after connecting?
+- Have we avoided this problem: leaking DNS requests?
+- Does the code handle the case of remote work access correctly?
+- Is WireGuard used consistently, or are we mixing approaches?
+- Have we considered assuming it makes you anonymous?
+- Would a test catch slow routing through distant servers if it appeared later?
+
+Good reviews of work on VPNs are specific, kind and focused on authentication, not on personal style.

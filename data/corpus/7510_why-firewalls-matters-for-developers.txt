@@ -1,0 +1,11 @@
+Why Firewalls Matters for Developers
+
+Developers who understand Firewalls make better decisions, because Firewalls is systems that allow or block network traffic according to rules.
+
+Three situations show why it matters. First, protecting servers. Second, segmenting networks. Third, logging suspicious traffic. In each case, a solid grasp of rules and stateful inspection separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: rules in the wrong order, overly broad allow rules, and locking yourself out remotely.
+
+You will not need to build everything yourself; ufw, iptables, and pfSense cover most needs.
+
+Connect Firewalls with NAT to see the bigger picture of Networking and Internet Infrastructure.

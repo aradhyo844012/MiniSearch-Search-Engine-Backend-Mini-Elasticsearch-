@@ -1,0 +1,11 @@
+Collision Detection in Real Projects
+
+Reading about Collision Detection is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: platformers. Here, bounding boxes drives the main design choices, and the team needs to guard against tunneling through thin objects.
+
+Scenario two: shooters. This time broad and narrow phases matters most, and tools such as Box2D help keep things manageable.
+
+Scenario three: physics puzzles. The key idea is spatial partitioning, and the biggest risk is checking every pair of objects.
+
+Across all three scenarios, Collision Detection stays the same idea: the process of finding out when objects in a game touch or overlap. Only the details change.

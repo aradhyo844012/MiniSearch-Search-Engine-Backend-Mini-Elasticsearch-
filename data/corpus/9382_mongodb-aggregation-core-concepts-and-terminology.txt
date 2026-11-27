@@ -1,0 +1,10 @@
+MongoDB Aggregation: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about MongoDB Aggregation with confidence. The subject itself is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+
+pipeline stages: one of the building blocks of MongoDB Aggregation. Documentation for MongoDB Compass usually mentions it early.
+$match and $group: one of the building blocks of MongoDB Aggregation. Mixing it up with neighboring terms is a common source of confusion.
+projection: one of the building blocks of MongoDB Aggregation. Mixing it up with neighboring terms is a common source of confusion.
+indexes: one of the building blocks of MongoDB Aggregation. It shows up whenever you work on summarizing orders.
+
+Practice using these four MongoDB Aggregation terms in sentences about building analytics queries. If the sentences feel natural, the vocabulary has stuck.

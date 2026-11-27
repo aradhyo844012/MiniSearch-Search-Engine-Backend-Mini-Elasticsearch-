@@ -1,0 +1,17 @@
+MongoDB Aggregation Do's and Don'ts
+
+A quick list of habits for working with MongoDB Aggregation.
+
+Do:
+- Learn pipeline stages before anything else.
+- Try MongoDB Compass on a small example.
+- Make it a habit to filter with $match as early as possible.
+- Test the case of summarizing orders early.
+
+Don't:
+- Ignore this: putting $match late.
+- Ignore this: huge intermediate results.
+- Ignore this: hitting memory limits.
+- Adopt MongoDB Aggregation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with MongoDB Aggregation, a little patience with $match and $group pays off more than any clever shortcut.

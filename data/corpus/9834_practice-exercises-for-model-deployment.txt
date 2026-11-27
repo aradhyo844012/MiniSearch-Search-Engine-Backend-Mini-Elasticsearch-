@@ -1,0 +1,11 @@
+Practice Exercises for Model Deployment
+
+These exercises build real understanding of Model Deployment. Do them in order, and write down your answers.
+
+Exercise 1: Compare TorchServe and BentoML for mobile app features and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: training-serving mismatch. Then fix it.
+Exercise 3: Explain how containers and latency budgets differ, using a drawing.
+Exercise 4: Pick FastAPI and complete its getting-started tutorial.
+Exercise 5: Write a short paragraph describing Model Deployment and include the term serving APIs.
+
+When you finish, compare your answers with the definition: Model Deployment is making a trained model available to serve predictions in a real application.

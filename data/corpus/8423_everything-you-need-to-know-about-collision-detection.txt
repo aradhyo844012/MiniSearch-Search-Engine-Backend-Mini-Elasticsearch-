@@ -1,0 +1,26 @@
+Everything You Need to Know About Collision Detection
+
+This page collects the essentials about Collision Detection in one place. In short, Collision Detection is the process of finding out when objects in a game touch or overlap.
+
+Core concepts:
+- bounding boxes
+- broad and narrow phases
+- spatial partitioning
+- collision response
+
+Where it is used:
+- platformers
+- shooters
+- physics puzzles
+
+Common problems:
+- tunneling through thin objects
+- checking every pair of objects
+- inconsistent hitboxes
+
+Tools to know:
+- Box2D
+- Unity colliders
+- quadtrees
+
+Remember this above all: two people checking whether their personal space bubbles overlap is a good way to picture it, and the best habit is to use simple shapes first and refine only when needed.

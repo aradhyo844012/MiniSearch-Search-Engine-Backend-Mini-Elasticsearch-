@@ -1,0 +1,17 @@
+Disk Partitioning and Mounting for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Disk Partitioning and Mounting.
+
+Learning goals:
+1. Explain Disk Partitioning and Mounting in your own words.
+2. Describe partitions, file system types, mount points, and fstab.
+3. Give examples from adding a new drive and separating data from the system.
+4. Name three problems to watch for.
+
+Start with the definition: Disk Partitioning and Mounting is dividing storage into sections and attaching them to the file tree. Then draw building rooms inside a warehouse and putting door numbers on them on paper and label the four terms from the goals above.
+
+Self-test questions: Why is wrong device names a problem? How does file system types relate to mount points? When would you choose lsblk or fdisk?
+
+Study habit: double-check device names with lsblk before formatting.
+
+When you feel ready, compare Disk Partitioning and Mounting with SSH and Remote Access and write down three differences.

@@ -1,0 +1,12 @@
+Anomaly Detection Glossary for Beginners
+
+New words can make Anomaly Detection feel harder than it is. This glossary keeps the key ones in one place.
+
+Anomaly Detection: finding data points or events that differ sharply from normal behavior.
+baselines: a core term, most visible in fraud detection.
+thresholds: a core term that beginners often confuse with isolation methods.
+isolation methods: a core term that connects to false positives.
+false positives: a core term worth revisiting after you try a real example.
+scikit-learn: a tool commonly used for server monitoring.
+
+Come back to this Anomaly Detection list whenever documentation for PyOD uses a word you do not recognize.

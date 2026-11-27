@@ -1,0 +1,15 @@
+Network Troubleshooting Quick Reference
+
+A one-screen reminder for Network Troubleshooting. Bookmark it and return when the details fade.
+
+What it is: a step-by-step process for finding out why a network connection fails or is slow.
+Key terms: protocol layers, ping and traceroute, DNS checks, and packet captures.
+Typical uses: fixing office connectivity, diagnosing slow apps, and verifying firewall changes.
+Risks: changing several things at once, blaming the application too early, and ignoring DNS.
+Tools: ping, traceroute, and Wireshark.
+
+Mental picture: a doctor who checks the heart, lungs and blood pressure in order.
+
+Habit to build: work from the bottom layer upward.
+
+See also: Reverse Proxies, which sits close to Network Troubleshooting in the area of Networking and Internet Infrastructure.

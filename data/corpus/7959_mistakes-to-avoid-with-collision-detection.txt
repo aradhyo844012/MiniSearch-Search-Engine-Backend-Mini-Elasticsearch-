@@ -1,0 +1,11 @@
+Mistakes to Avoid with Collision Detection
+
+Everyone learns Collision Detection partly through mistakes. Here are three worth avoiding.
+
+Mistake one: tunneling through thin objects. It usually appears when someone skips bounding boxes and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: checking every pair of objects. It tends to be noticed late, often during testing of platformers. A short checklist during review catches it early.
+
+Mistake three: inconsistent hitboxes. It is easy to miss because everything seems to work at first. Keep an eye on collision response to spot it.
+
+If you remember only one rule, make it this: use simple shapes first and refine only when needed.

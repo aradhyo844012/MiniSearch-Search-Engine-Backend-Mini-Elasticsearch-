@@ -1,0 +1,17 @@
+Smart Contracts for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Smart Contracts.
+
+Learning goals:
+1. Explain Smart Contracts in your own words.
+2. Describe contract code, transactions, gas fees, and immutability.
+3. Give examples from token systems and automated escrow.
+4. Name three problems to watch for.
+
+Start with the definition: Smart Contracts is programs stored on a blockchain that run automatically when conditions are met. Then draw a vending machine that follows its rules with no clerk on paper and label the four terms from the goals above.
+
+Self-test questions: Why is bugs that cannot be patched a problem? How does transactions relate to gas fees? When would you choose Solidity or Hardhat?
+
+Study habit worth keeping: audit and test contracts thoroughly before deployment.
+
+When you feel ready, compare Smart Contracts with 5G Networks and write down three differences.

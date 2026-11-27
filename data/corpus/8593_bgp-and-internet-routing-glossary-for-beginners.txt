@@ -1,0 +1,12 @@
+BGP and Internet Routing Glossary for Beginners
+
+New words can make BGP and Internet Routing feel harder than it is. This glossary keeps the key ones in one place.
+
+BGP and Internet Routing: the protocol networks use to tell each other which addresses they can reach.
+autonomous systems: a core term, most visible in connecting ISPs.
+route announcements: a core term that beginners often confuse with peering.
+peering: a core term that connects to path selection.
+path selection: a core term worth revisiting after you try a real example.
+bgpq4: a tool commonly used for directing traffic between large networks.
+
+Come back to this BGP and Internet Routing list whenever documentation for BIRD uses a word you do not recognize.

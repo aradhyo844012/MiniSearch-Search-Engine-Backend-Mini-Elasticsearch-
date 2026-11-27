@@ -1,0 +1,11 @@
+Scaling Considerations for 5G Networks
+
+A design that works for a classroom project can behave very differently under real load. Here is how 5G Networks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding spectrum bands and getting mobile broadband right.
+
+Medium scale: problems start to appear. Watch for limited coverage on the fastest bands and battery drain, and measure with speed test tools before changing anything.
+
+Large scale: network slicing and small cells move from background details to central design questions. Teams often revisit their choices around connected vehicles at this stage.
+
+Before you scale, test real-world coverage rather than trusting peak speeds. It is cheaper to build that habit early than to fix a crisis later.

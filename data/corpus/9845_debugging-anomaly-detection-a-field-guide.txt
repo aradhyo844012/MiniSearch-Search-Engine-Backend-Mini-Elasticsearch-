@@ -1,0 +1,13 @@
+Debugging Anomaly Detection: A Field Guide
+
+When something goes wrong around Anomaly Detection, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: too many false alarms, shifting baselines, and labeling normal data incorrectly.
+Step 3: revisit baselines and thresholds, since misunderstandings there cause many bugs.
+Step 4: use scikit-learn or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Anomaly Detection in work such as fraud detection come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, tune alerts using real examples of past incidents. It prevents a surprising number of repeat problems.

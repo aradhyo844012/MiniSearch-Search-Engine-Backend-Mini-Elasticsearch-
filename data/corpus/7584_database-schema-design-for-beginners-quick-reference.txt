@@ -1,0 +1,15 @@
+Database Schema Design for Beginners Quick Reference
+
+A one-screen reminder for Database Schema Design for Beginners. Bookmark it and return when the details fade.
+
+What it is: planning tables, columns and relationships before building an application.
+Key terms: entities, relationships, keys, and naming conventions.
+Typical uses: starting new projects, reviewing existing schemas, and preparing for migrations.
+Risks: storing lists in a single column, unclear names, and designing without thinking about queries.
+Tools: dbdiagram.io, draw.io, and PostgreSQL.
+
+Mental picture: drawing the floor plan before building the house.
+
+Habit to build: write down the main queries before finalizing the tables.
+
+See also: Vector Databases, which sits close to Database Schema Design for Beginners in the area of SQL and Data Practice.

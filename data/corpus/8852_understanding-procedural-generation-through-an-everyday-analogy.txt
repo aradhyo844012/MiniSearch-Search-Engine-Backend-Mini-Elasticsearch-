@@ -1,0 +1,9 @@
+Understanding Procedural Generation Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a chef inventing endless dishes from a fixed set of ingredients.
+
+In that picture, random seeds is the first rule you follow, noise functions is the next step, and rules and constraints and reproducibility keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Procedural Generation is creating game content such as levels and terrain automatically with algorithms, and it involves details such as levels that are unfair or unwinnable that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Perlin noise to learn the exact behavior. The same picture helps when you explain roguelike dungeons to a friend.

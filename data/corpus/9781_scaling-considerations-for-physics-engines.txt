@@ -1,0 +1,11 @@
+Scaling Considerations for Physics Engines
+
+A design that works for a classroom project can behave very differently under real load. Here is how Physics Engines changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding rigid bodies and getting vehicles and ragdolls right.
+
+Medium scale: problems start to appear. Watch for variable time steps and unstable stacks of objects, and measure with Box2D before changing anything.
+
+Large scale: constraints and fixed time steps move from background details to central design questions. Teams often revisit their choices around puzzle games at this stage.
+
+Before you scale, use a fixed time step for stable results. It is cheaper to build that habit early than to fix a crisis later.

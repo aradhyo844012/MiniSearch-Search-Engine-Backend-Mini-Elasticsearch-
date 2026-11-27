@@ -1,0 +1,11 @@
+Scaling Considerations for Model Drift and Monitoring
+
+A design that works for a classroom project can behave very differently under real load. Here is how Model Drift and Monitoring changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding data drift and getting catching degrading models right.
+
+Medium scale: problems start to appear. Watch for monitoring only system health and having no ground truth labels, and measure with Evidently before changing anything.
+
+Large scale: performance metrics and alerts move from background details to central design questions. Teams often revisit their choices around scheduling retraining at this stage.
+
+Before you scale, monitor input data as well as accuracy. It is cheaper to build that habit early than to fix a crisis later.

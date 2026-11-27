@@ -1,0 +1,15 @@
+Rasterization Quick Reference
+
+A one-screen reminder for Rasterization. Bookmark it and return when the details fade.
+
+What it is: converting shapes described by geometry into pixels on the screen.
+Key terms: triangles, pixel coverage, the depth buffer, and interpolation.
+Typical uses: real-time games, user interfaces, and CAD previews.
+Risks: aliasing along edges, overdraw, and depth fighting.
+Tools: OpenGL, Vulkan, and WebGL.
+
+Mental picture: coloring squares on graph paper to match a drawn outline.
+
+Habit to build: draw simple shapes first to understand the pipeline.
+
+See also: Image Compression, which sits close to Rasterization in the area of Graphics and Multimedia.

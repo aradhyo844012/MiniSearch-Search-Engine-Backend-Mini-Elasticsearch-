@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with MongoDB Aggregation
+
+This path is for a learner who has never studied MongoDB Aggregation before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (MongoDB Aggregation is a pipeline of stages for filtering, grouping and reshaping documents in MongoDB) and learn pipeline stages and $match and $group.
+
+Stage 2, hands-on: install MongoDB Compass, follow a tutorial, and build a small example involving summarizing orders.
+
+Stage 3, depth: study projection and indexes, then deliberately explore this problem: putting $match late.
+
+Stage 4, application: apply MongoDB Aggregation to building analytics queries, compare mongosh with PyMongo, and write up your results.
+
+Stage 5, review: teach MongoDB Aggregation to someone else, and then move on to NULL Handling in SQL.

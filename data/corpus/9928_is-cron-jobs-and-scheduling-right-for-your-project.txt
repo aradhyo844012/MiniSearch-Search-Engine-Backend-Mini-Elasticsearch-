@@ -1,0 +1,11 @@
+Is Cron Jobs and Scheduling Right for Your Project?
+
+Before adopting Cron Jobs and Scheduling, ask whether it fits the problem. Remember that Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times.
+
+It is a good fit when your work involves nightly backups or log rotation, and when your team understands crontab syntax.
+
+Be cautious when the project is very small, when deadlines leave no room to learn schedule fields, or when you cannot manage these risks: assuming cron has your shell environment, overlapping runs of slow jobs, and no logging of failures.
+
+A simple decision test: write down the problem in one sentence, then check whether environment differences and output redirection are part of the answer. If they are, Cron Jobs and Scheduling is probably worth a closer look.
+
+If you decide to go ahead, start small with periodic reports and redirect output to a log file and use absolute paths.

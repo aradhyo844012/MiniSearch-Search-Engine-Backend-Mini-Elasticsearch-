@@ -1,0 +1,12 @@
+Questions to Ask About Disk Partitioning and Mounting in Code Review
+
+Reviewing code that involves Disk Partitioning and Mounting is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch mounting without fstab entries if it appeared later?
+- Does the code handle the case of adding a new drive correctly?
+- Does this change respect partitions, or does it work around it?
+- Could we double-check device names with lsblk before formatting?
+- Is lsblk used consistently, or are we mixing approaches?
+- Is file system types clear to someone reading the code for the first time?
+
+Good reviews of work on Disk Partitioning and Mounting are specific, kind and focused on mount points, not on personal style.

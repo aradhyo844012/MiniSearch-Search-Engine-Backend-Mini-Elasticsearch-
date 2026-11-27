@@ -1,0 +1,15 @@
+The Pros and Cons of Number Theory and RSA
+
+No technology is free of trade-offs, and Number Theory and RSA is no exception. Here is an honest summary.
+
+Advantages:
+- Supports public key cryptography
+- Makes hash functions easier
+- Helps with digital signatures
+
+Drawbacks and risks:
+- Risk: using small primes
+- Risk: implementing crypto by hand in production
+- Risk: ignoring padding
+
+Weigh the two lists against your own project. If the advantages match your needs, such as public key cryptography, and you can manage the risks, Number Theory and RSA is a sound choice. Whatever you decide, use vetted crypto libraries instead of writing your own.

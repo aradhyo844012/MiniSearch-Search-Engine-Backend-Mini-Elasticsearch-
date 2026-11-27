@@ -1,0 +1,13 @@
+Debugging Regions and Availability Zones: A Field Guide
+
+When something goes wrong around Regions and Availability Zones, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: putting everything in one zone, cross-region transfer fees, and forgetting data residency rules.
+Step 3: revisit regions and availability zones, since misunderstandings there cause many bugs.
+Step 4: use AWS Regions or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Regions and Availability Zones in work such as placing services near users come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, spread critical services across at least two zones. It prevents a surprising number of repeat problems.

@@ -1,0 +1,17 @@
+Cron Jobs and Scheduling Do's and Don'ts
+
+A quick list of habits for working with Cron Jobs and Scheduling.
+
+Do:
+- Learn crontab syntax before anything else.
+- Try crontab on a small example.
+- Make it a habit to redirect output to a log file and use absolute paths.
+- Test the case of nightly backups early.
+
+Don't:
+- Ignore this: assuming cron has your shell environment.
+- Ignore this: overlapping runs of slow jobs.
+- Ignore this: no logging of failures.
+- Adopt Cron Jobs and Scheduling just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Cron Jobs and Scheduling, a little patience with schedule fields pays off more than any clever shortcut.

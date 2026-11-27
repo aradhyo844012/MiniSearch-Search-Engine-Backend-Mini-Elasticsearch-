@@ -1,0 +1,15 @@
+Anomaly Detection Quick Reference
+
+A one-screen reminder for Anomaly Detection. Bookmark it and return when the details fade.
+
+What it is: finding data points or events that differ sharply from normal behavior.
+Key terms: baselines, thresholds, isolation methods, and false positives.
+Typical uses: fraud detection, server monitoring, and manufacturing quality.
+Risks: too many false alarms, shifting baselines, and labeling normal data incorrectly.
+Tools: scikit-learn, PyOD, and Prometheus.
+
+Mental picture: a security guard who notices the one person acting differently.
+
+Habit to build: tune alerts using real examples of past incidents.
+
+See also: Prompt Engineering, which sits close to Anomaly Detection in the area of AI Engineering and MLOps.

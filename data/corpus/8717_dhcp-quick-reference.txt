@@ -1,0 +1,15 @@
+DHCP Quick Reference
+
+A one-screen reminder for DHCP. Bookmark it and return when the details fade.
+
+What it is: a service that automatically gives devices IP addresses and network settings.
+Key terms: leases, address pools, reservations, and discover and offer messages.
+Typical uses: home and office networks, guest Wi-Fi, and booting machines over a network.
+Risks: rogue DHCP servers, exhausted address pools, and conflicting static addresses.
+Tools: dnsmasq, ISC Kea, and Wireshark.
+
+Mental picture: a hotel desk that hands out room numbers for a limited stay.
+
+Habit to build: reserve fixed addresses for servers and printers.
+
+See also: Reverse Proxies, which sits close to DHCP in the area of Networking and Internet Infrastructure.

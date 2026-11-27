@@ -1,0 +1,11 @@
+Choosing Tools for Twelve-Factor Apps
+
+There is no single best tool for Twelve-Factor Apps. The right choice depends on your project, your team and your timeline.
+
+Heroku is a common first choice, especially for building web services. Docker suits teams that already work with similar technology, and Cloud Foundry is worth a look when you need something different.
+
+Judge any tool for Twelve-Factor Apps by four questions: Is the documentation clear? Is the community active? Does it handle deploying to platforms well? Can you leave it later if you need to?
+
+Whichever tool you pick for Twelve-Factor Apps, test it on a small problem first, and watch for this: storing state on local disks.
+
+As a rule of thumb, keep config out of the code, no matter which tool you use.

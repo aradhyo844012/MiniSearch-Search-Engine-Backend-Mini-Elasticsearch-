@@ -1,0 +1,15 @@
+Bash Scripting in 10 Minutes
+
+You have ten minutes, so here is the fast route through Bash Scripting.
+
+Minutes 1 and 2, the definition: Bash Scripting is writing shell scripts that automate tasks by chaining commands, variables and control flow.
+
+Minutes 3 and 4, the vocabulary: learn variables, conditionals and loops, exit codes, and functions.
+
+Minutes 5 and 6, the picture: imagine a recipe card that the computer follows without help. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through automating deployments, processing text files, and setting up developer machines.
+
+Minutes 9 and 10, the traps and the tools: watch for unquoted variables and ignoring errors in pipelines, then try Bash for a first experiment.
+
+If you have a spare minute, remember to start scripts with set -euo pipefail and quote every variable.

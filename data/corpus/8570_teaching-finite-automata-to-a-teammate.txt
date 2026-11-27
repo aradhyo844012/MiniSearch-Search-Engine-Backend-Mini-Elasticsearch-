@@ -1,0 +1,13 @@
+Teaching Finite Automata to a Teammate
+
+Explaining Finite Automata to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a turnstile that moves between locked and unlocked. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Finite Automata is simple abstract machines that read input and move between a fixed set of states. Avoid jargon at this stage.
+
+Walk through an example involving tokenizers, naming states and transitions as they come up.
+
+Ask your teammate to explain accepting states in Finite Automata back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, missing transitions, and suggest this habit: draw the state diagram before writing any code.

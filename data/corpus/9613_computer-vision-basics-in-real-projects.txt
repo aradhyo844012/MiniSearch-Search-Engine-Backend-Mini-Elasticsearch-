@@ -1,0 +1,11 @@
+Computer Vision Basics in Real Projects
+
+Reading about Computer Vision Basics is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: face detection. Here, pixels drives the main design choices, and the team needs to guard against lighting changes.
+
+Scenario two: document scanning. This time filters and edges matters most, and tools such as OpenCV help keep things manageable.
+
+Scenario three: quality inspection. The key idea is feature detection, and the biggest risk is biased datasets.
+
+Across all three scenarios, Computer Vision Basics stays the same idea: teaching computers to extract information from images and video. Only the details change.

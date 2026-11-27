@@ -1,0 +1,13 @@
+Debugging Network Troubleshooting: A Field Guide
+
+When something goes wrong around Network Troubleshooting, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: changing several things at once, blaming the application too early, and ignoring DNS.
+Step 3: revisit protocol layers and ping and traceroute, since misunderstandings there cause many bugs.
+Step 4: use ping or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Network Troubleshooting in work such as fixing office connectivity come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, work from the bottom layer upward. It prevents a surprising number of repeat problems.

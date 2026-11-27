@@ -1,0 +1,13 @@
+3D Transformations Explained Simply
+
+If 3D Transformations sounds intimidating, relax. It is the matrix operations that move, rotate and scale objects in 3D space, and the idea is simpler than the name suggests.
+
+Think of 3D Transformations as moving a toy around a table by sliding, turning and resizing it. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: translation, rotation, scaling, and matrices. You do not need to master them all at once. Start with translation, then add rotation.
+
+You will meet 3D Transformations in work such as games, modeling tools, and robotics.
+
+One practical tip is to write down the order of transformations before multiplying.
+
+After 3D Transformations, a natural next topic is Rasterization.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Semantic Versioning
+
+This is a fictional but realistic day for a developer whose project relies on Semantic Versioning.
+
+Morning: Arjun starts by reviewing a ticket about publishing libraries. Before touching any code, Arjun re-reads the notes on major, minor and patch numbers to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore breaking changes with semver.org. A small test exposes the problem of breaking changes in minor releases, and they fix it together.
+
+Afternoon: the team discusses a new request involving declaring dependencies. Arjun sketches the edition number on a textbook that tells you whether you must relearn anything on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to write a changelog entry with every release.
+
+Days like this are typical. Semantic Versioning is not glamorous, but understanding it keeps small problems from growing.

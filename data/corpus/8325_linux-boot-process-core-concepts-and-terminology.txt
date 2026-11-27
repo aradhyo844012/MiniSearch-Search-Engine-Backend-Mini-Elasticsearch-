@@ -1,0 +1,10 @@
+Linux Boot Process: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Linux Boot Process with confidence. The subject itself is the sequence of steps from powering on a machine to a running operating system.
+
+firmware: one of the building blocks of Linux Boot Process. It shows up whenever you work on troubleshooting machines that do not start.
+bootloader: one of the building blocks of Linux Boot Process. You should be able to explain it in a single sentence before moving on.
+kernel initialization: one of the building blocks of Linux Boot Process. Mixing it up with neighboring terms is a common source of confusion.
+the init system: one of the building blocks of Linux Boot Process. Documentation for GRUB usually mentions it early.
+
+Practice using these four Linux Boot Process terms in sentences about configuring dual boot. If the sentences feel natural, the vocabulary has stuck.

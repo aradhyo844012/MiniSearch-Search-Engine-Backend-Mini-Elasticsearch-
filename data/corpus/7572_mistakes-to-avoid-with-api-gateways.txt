@@ -1,0 +1,11 @@
+Mistakes to Avoid with API Gateways
+
+Everyone learns API Gateways partly through mistakes. Here are three worth avoiding.
+
+Mistake one: a single point of failure. It usually appears when someone skips routing and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: business logic leaking into the gateway. It tends to be noticed late, often during testing of exposing microservices. A short checklist during review catches it early.
+
+Mistake three: added latency. It is easy to miss because everything seems to work at first. Keep an eye on request transformation to spot it.
+
+If you remember only one rule, make it this: keep the gateway thin and put business logic in services.

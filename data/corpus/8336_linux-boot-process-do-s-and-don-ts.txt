@@ -1,0 +1,17 @@
+Linux Boot Process Do's and Don'ts
+
+A quick list of habits for working with Linux Boot Process.
+
+Do:
+- Learn firmware before anything else.
+- Try GRUB on a small example.
+- Make it a habit to keep a recovery option available before editing boot settings.
+- Test the case of troubleshooting machines that do not start early.
+
+Don't:
+- Ignore this: overwriting the bootloader.
+- Ignore this: wrong kernel parameters.
+- Ignore this: ignoring recovery options.
+- Adopt Linux Boot Process just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Linux Boot Process, a little patience with bootloader pays off more than any clever shortcut.

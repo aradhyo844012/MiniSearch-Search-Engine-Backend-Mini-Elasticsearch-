@@ -1,0 +1,15 @@
+HTTP/2 and HTTP/3 Quick Reference
+
+A one-screen reminder for HTTP/2 and HTTP/3. Bookmark it and return when the details fade.
+
+What it is: newer versions of the web protocol that load pages faster over fewer connections.
+Key terms: multiplexing, header compression, QUIC, and server push.
+Typical uses: faster page loads, improving mobile performance, and reducing connection overhead.
+Risks: assuming old tricks like sprite sheets still help, middleboxes blocking UDP, and misconfigured fallbacks.
+Tools: curl with HTTP/3 support, Chrome DevTools, and NGINX.
+
+Mental picture: a multi-lane highway replacing a single-lane road.
+
+Habit to build: keep a working HTTP/1.1 fallback.
+
+See also: Network Troubleshooting, which sits close to HTTP/2 and HTTP/3 in the area of Networking and Internet Infrastructure.

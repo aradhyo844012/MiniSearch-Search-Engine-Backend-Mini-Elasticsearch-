@@ -1,0 +1,17 @@
+Model Deployment Do's and Don'ts
+
+A quick list of habits for working with Model Deployment.
+
+Do:
+- Learn serving APIs before anything else.
+- Try FastAPI on a small example.
+- Make it a habit to log inputs and outputs so predictions can be audited.
+- Test the case of recommendation endpoints early.
+
+Don't:
+- Ignore this: training-serving mismatch.
+- Ignore this: slow cold starts.
+- Ignore this: no fallback when the model fails.
+- Adopt Model Deployment just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Model Deployment, a little patience with batch versus online inference pays off more than any clever shortcut.

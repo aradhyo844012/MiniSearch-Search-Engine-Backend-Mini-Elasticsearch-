@@ -1,0 +1,11 @@
+Combinatorics in Real Projects
+
+Reading about Combinatorics is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: analyzing algorithms. Here, permutations drives the main design choices, and the team needs to guard against double counting.
+
+Scenario two: probability. This time combinations matters most, and tools such as Python itertools help keep things manageable.
+
+Scenario three: estimating password strength. The key idea is the pigeonhole principle, and the biggest risk is mixing order and no-order cases.
+
+Across all three scenarios, Combinatorics stays the same idea: the art of counting arrangements and selections. Only the details change.

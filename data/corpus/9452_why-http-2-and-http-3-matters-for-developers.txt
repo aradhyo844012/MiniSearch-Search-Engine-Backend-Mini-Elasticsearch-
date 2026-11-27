@@ -1,0 +1,11 @@
+Why HTTP/2 and HTTP/3 Matters for Developers
+
+Developers who understand HTTP/2 and HTTP/3 make better decisions, because HTTP/2 and HTTP/3 is newer versions of the web protocol that load pages faster over fewer connections.
+
+Three situations show why it matters. First, faster page loads. Second, improving mobile performance. Third, reducing connection overhead. In each case, a solid grasp of multiplexing and header compression separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: assuming old tricks like sprite sheets still help, middleboxes blocking UDP, and misconfigured fallbacks.
+
+Good tools exist, including curl with HTTP/3 support, Chrome DevTools, and NGINX, so you rarely have to start from nothing.
+
+Connect HTTP/2 and HTTP/3 with NAT to see the bigger picture of Networking and Internet Infrastructure.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Biometric Authentication
+
+This is a fictional but realistic day for a developer whose project relies on Biometric Authentication.
+
+Morning: Asha starts by reviewing a ticket about phone unlock. Before touching any code, Asha re-reads the notes on enrollment to make sure the plan is sound.
+
+Midday: Asha pairs with a teammate to explore matching with Android BiometricPrompt. A small test exposes the problem of spoofing attacks, and they fix it together.
+
+Afternoon: the team discusses a new request involving building access. Asha sketches a door that recognizes you by your face instead of a key on the whiteboard to help everyone follow the idea.
+
+End of day: Asha writes a short note describing what changed and adds a reminder to offer a fallback method and protect the stored templates.
+
+Days like this are typical. Biometric Authentication is not glamorous, but understanding it keeps small problems from growing.

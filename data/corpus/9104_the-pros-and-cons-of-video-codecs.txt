@@ -1,0 +1,15 @@
+The Pros and Cons of Video Codecs
+
+No technology is free of trade-offs, and Video Codecs is no exception. Here is an honest summary.
+
+Advantages:
+- Supports streaming services
+- Makes video calls easier
+- Helps with archiving footage
+
+Drawbacks and risks:
+- Risk: mismatched codec support
+- Risk: too low a bitrate
+- Risk: ignoring hardware decoding
+
+Weigh the two lists against your own project. If the advantages match your needs, such as streaming services, and you can manage the risks, Video Codecs is a sound choice. Whatever you decide, test playback on the weakest target device.

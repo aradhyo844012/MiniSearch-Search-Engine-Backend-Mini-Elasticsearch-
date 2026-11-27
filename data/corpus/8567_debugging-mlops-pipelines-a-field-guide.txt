@@ -1,0 +1,13 @@
+Debugging MLOps Pipelines: A Field Guide
+
+When something goes wrong around MLOps Pipelines, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: untracked data changes, manual deployment steps, and no testing of data.
+Step 3: revisit data versioning and training pipelines, since misunderstandings there cause many bugs.
+Step 4: use MLflow or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving MLOps Pipelines in work such as repeatable model releases come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, version both the code and the data. It prevents a surprising number of repeat problems.

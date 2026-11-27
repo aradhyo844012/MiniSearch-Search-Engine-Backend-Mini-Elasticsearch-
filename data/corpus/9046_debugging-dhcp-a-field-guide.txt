@@ -1,0 +1,13 @@
+Debugging DHCP: A Field Guide
+
+When something goes wrong around DHCP, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: rogue DHCP servers, exhausted address pools, and conflicting static addresses.
+Step 3: revisit leases and address pools, since misunderstandings there cause many bugs.
+Step 4: use dnsmasq or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving DHCP in work such as home and office networks come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, reserve fixed addresses for servers and printers. It prevents a surprising number of repeat problems.

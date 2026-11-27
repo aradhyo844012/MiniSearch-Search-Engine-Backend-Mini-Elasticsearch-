@@ -1,0 +1,9 @@
+Understanding Monorepos Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture one big toolbox for the whole workshop.
+
+In that picture, shared tooling is the first rule you follow, code ownership is the next step, and selective builds and atomic changes keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Monorepos is single repositories that hold the code for many projects, and it involves details such as slow checkouts that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Nx to learn the exact behavior. The same picture helps when you explain sharing libraries across apps to a friend.

@@ -1,0 +1,13 @@
+Debugging Reverse Proxies: A Field Guide
+
+When something goes wrong around Reverse Proxies, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: losing the client IP address, wrong timeouts, and exposing internal paths.
+Step 3: revisit upstream servers and proxy headers, since misunderstandings there cause many bugs.
+Step 4: use NGINX or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Reverse Proxies in work such as hiding backend servers come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, forward the real client IP in a trusted header. It prevents a surprising number of repeat problems.

@@ -1,0 +1,12 @@
+Subqueries and CTEs Glossary for Beginners
+
+New words can make Subqueries and CTEs feel harder than it is. This glossary keeps the key ones in one place.
+
+Subqueries and CTEs: queries nested inside other queries or named as temporary result sets.
+subqueries: a core term, most visible in breaking complex reports into steps.
+WITH clauses: a core term that beginners often confuse with correlated queries.
+correlated queries: a core term that connects to readability.
+readability: a core term worth revisiting after you try a real example.
+PostgreSQL: a tool commonly used for filtering with computed results.
+
+Come back to this Subqueries and CTEs list whenever documentation for SQLite uses a word you do not recognize.

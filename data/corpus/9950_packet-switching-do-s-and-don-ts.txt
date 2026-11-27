@@ -1,0 +1,17 @@
+Packet Switching Do's and Don'ts
+
+A quick list of habits for working with Packet Switching.
+
+Do:
+- Learn packets before anything else.
+- Try Wireshark on a small example.
+- Make it a habit to capture a few packets to see the headers for yourself.
+- Test the case of internet traffic early.
+
+Don't:
+- Ignore this: packet loss.
+- Ignore this: out-of-order delivery.
+- Ignore this: large packets being fragmented.
+- Adopt Packet Switching just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Packet Switching, a little patience with headers pays off more than any clever shortcut.

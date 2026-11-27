@@ -1,0 +1,15 @@
+Fine-Tuning Models in 10 Minutes
+
+You have ten minutes, so here is the fast route through Fine-Tuning Models.
+
+Minutes 1 and 2, the definition: Fine-Tuning Models is adapting a pretrained model to a specific task with extra training on your own data.
+
+Minutes 3 and 4, the vocabulary: learn pretrained weights, training data, the learning rate, and evaluation.
+
+Minutes 5 and 6, the picture: imagine teaching an experienced chef a new regional cuisine. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through domain-specific language tasks, style adaptation, and improving accuracy on narrow problems.
+
+Minutes 9 and 10, the traps and the tools: watch for overfitting on small datasets and forgetting general abilities, then try Hugging Face for a first experiment.
+
+If you have a spare minute, remember to start with a small, clean dataset and a held-out test set.

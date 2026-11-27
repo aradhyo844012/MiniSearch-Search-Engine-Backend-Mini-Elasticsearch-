@@ -1,0 +1,26 @@
+Everything You Need to Know About Python Virtual Environments
+
+This page collects the essentials about Python Virtual Environments in one place. In short, Python Virtual Environments is isolated folders that hold a project's own Python packages.
+
+Core concepts:
+- venv
+- pip
+- requirements files
+- activation
+
+Where it is used:
+- keeping projects separate
+- reproducing setups
+- testing against different versions
+
+Common problems:
+- installing packages globally
+- forgetting to activate
+- committing the environment folder
+
+Tools to know:
+- venv
+- pipx
+- Poetry
+
+Remember this above all: a separate toolbox for each project is a good way to picture it, and the best habit is to create one environment per project and record its requirements.

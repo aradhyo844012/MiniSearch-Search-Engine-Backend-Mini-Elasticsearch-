@@ -1,0 +1,11 @@
+Practice Exercises for Environment Variables
+
+These exercises build real understanding of Environment Variables. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: committing secrets in dotfiles. Then fix it.
+Exercise 2: Pick env and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble storing configuration or selecting program paths.
+Exercise 4: Compare printenv and dotenv files for passing settings to containers and write down your conclusion.
+Exercise 5: Explain how export and shell startup files differ, using a drawing.
+
+When you finish, compare your answers with the definition: Environment Variables is named values the operating system gives to programs to configure their behavior.

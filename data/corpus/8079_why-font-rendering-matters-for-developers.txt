@@ -1,0 +1,11 @@
+Why Font Rendering Matters for Developers
+
+Developers who understand Font Rendering make better decisions, because Font Rendering is turning font outlines into readable text on screen.
+
+Three situations show why it matters. First, web pages. Second, operating systems. Third, PDF viewers. In each case, a solid grasp of glyphs and hinting separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: missing font fallbacks, blurry text from scaling, and large font files.
+
+You will not need to build everything yourself; FreeType, Google Fonts, and font inspector tools cover most needs.
+
+Connect Font Rendering with 3D Transformations to see the bigger picture of Graphics and Multimedia.

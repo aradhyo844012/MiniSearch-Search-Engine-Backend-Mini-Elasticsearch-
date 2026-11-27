@@ -1,0 +1,13 @@
+Teaching Model Drift and Monitoring to a Teammate
+
+Explaining Model Drift and Monitoring to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: checking a car's gauges on a long trip. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Model Drift and Monitoring is watching deployed models for changes in data or performance over time. Avoid jargon at this stage.
+
+Walk through an example involving catching degrading models, naming data drift and concept drift as they come up.
+
+Ask your teammate to explain performance metrics in Model Drift and Monitoring back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, monitoring only system health, and suggest this habit: monitor input data as well as accuracy.

@@ -1,0 +1,11 @@
+Practice Exercises for API Gateways
+
+These exercises build real understanding of API Gateways. Do them in order, and write down your answers.
+
+Exercise 1: Pick Kong and complete its getting-started tutorial.
+Exercise 2: Create a small example that deliberately triggers this problem: a single point of failure. Then fix it.
+Exercise 3: Compare AWS API Gateway and NGINX for collecting usage metrics and write down your conclusion.
+Exercise 4: Write a short paragraph describing API Gateways and include the term routing.
+Exercise 5: Explain how rate limits and request transformation differ, using a drawing.
+
+When you finish, compare your answers with the definition: API Gateways is services that sit in front of APIs to handle routing, authentication and limits.

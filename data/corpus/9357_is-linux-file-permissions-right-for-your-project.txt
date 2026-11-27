@@ -1,0 +1,11 @@
+Is Linux File Permissions Right for Your Project?
+
+Before adopting Linux File Permissions, ask whether it fits the problem. Remember that Linux File Permissions is the read, write and execute rules that control who can access each file.
+
+It is a good fit when your work involves protecting private keys or sharing project folders, and when your team understands owner, group and others.
+
+Be cautious when the project is very small, when deadlines leave no room to learn mode bits, or when you cannot manage these risks: using chmod 777 as a quick fix, wrong ownership after copying files, and forgetting directory execute bits.
+
+A simple decision test: write down the problem in one sentence, then check whether chmod and chown and umask are part of the answer. If they are, Linux File Permissions is probably worth a closer look.
+
+If you decide to go ahead, start small with securing web server files and grant the least permission that works.

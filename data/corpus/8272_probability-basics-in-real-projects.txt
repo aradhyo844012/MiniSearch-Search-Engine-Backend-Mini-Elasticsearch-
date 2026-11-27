@@ -1,0 +1,11 @@
+Probability Basics in Real Projects
+
+Reading about Probability Basics is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: randomized algorithms. Here, events drives the main design choices, and the team needs to guard against confusing independent and exclusive events.
+
+Scenario two: machine learning. This time conditional probability matters most, and tools such as Python random help keep things manageable.
+
+Scenario three: risk estimates. The key idea is independence, and the biggest risk is ignoring base rates.
+
+Across all three scenarios, Probability Basics stays the same idea: the study of how likely events are to happen. Only the details change.

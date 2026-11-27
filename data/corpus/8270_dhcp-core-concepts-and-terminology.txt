@@ -1,0 +1,10 @@
+DHCP: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about DHCP with confidence. The subject itself is a service that automatically gives devices IP addresses and network settings.
+
+leases: one of the building blocks of DHCP. Documentation for dnsmasq usually mentions it early.
+address pools: one of the building blocks of DHCP. Documentation for dnsmasq usually mentions it early.
+reservations: one of the building blocks of DHCP. Mixing it up with neighboring terms is a common source of confusion.
+discover and offer messages: one of the building blocks of DHCP. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four DHCP terms in sentences about guest Wi-Fi. If the sentences feel natural, the vocabulary has stuck.

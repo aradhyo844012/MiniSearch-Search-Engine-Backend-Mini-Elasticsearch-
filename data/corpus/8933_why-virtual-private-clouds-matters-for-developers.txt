@@ -1,0 +1,11 @@
+Why Virtual Private Clouds Matters for Developers
+
+Developers who understand Virtual Private Clouds make better decisions, because Virtual Private Clouds is isolated private networks inside a cloud provider where you place your resources.
+
+Three situations show why it matters. First, separating public and private services. Second, connecting to offices. Third, securing databases. In each case, a solid grasp of subnets and route tables separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: overlapping address ranges, databases in public subnets, and missing routes.
+
+Good tools exist, including AWS VPC, Terraform, and VPC Flow Logs, so you rarely have to start from nothing.
+
+Connect Virtual Private Clouds with Managed Kubernetes Services to see the bigger picture of Cloud Platforms and Architecture.

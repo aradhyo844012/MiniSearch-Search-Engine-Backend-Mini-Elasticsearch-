@@ -1,0 +1,15 @@
+Collision Detection in 10 Minutes
+
+You have ten minutes, so here is the fast route through Collision Detection.
+
+Minutes 1 and 2, the definition: Collision Detection is the process of finding out when objects in a game touch or overlap.
+
+Minutes 3 and 4, the vocabulary: learn bounding boxes, broad and narrow phases, spatial partitioning, and collision response.
+
+Minutes 5 and 6, the picture: imagine two people checking whether their personal space bubbles overlap. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through platformers, shooters, and physics puzzles.
+
+Minutes 9 and 10, the traps and the tools: watch for tunneling through thin objects and checking every pair of objects, then try Box2D for a first experiment.
+
+If you have a spare minute, remember to use simple shapes first and refine only when needed.

@@ -1,0 +1,13 @@
+Teaching Rasterization to a Teammate
+
+Explaining Rasterization to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: coloring squares on graph paper to match a drawn outline. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Rasterization is converting shapes described by geometry into pixels on the screen. Avoid jargon at this stage.
+
+Walk through an example involving real-time games, naming triangles and pixel coverage as they come up.
+
+Ask your teammate to explain the depth buffer in Rasterization back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, aliasing along edges, and suggest this habit: draw simple shapes first to understand the pipeline.

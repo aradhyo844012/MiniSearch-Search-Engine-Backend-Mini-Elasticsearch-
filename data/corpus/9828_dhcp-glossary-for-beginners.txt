@@ -1,0 +1,12 @@
+DHCP Glossary for Beginners
+
+New words can make DHCP feel harder than it is. This glossary keeps the key ones in one place.
+
+DHCP: a service that automatically gives devices IP addresses and network settings.
+leases: a core term, most visible in home and office networks.
+address pools: a core term that beginners often confuse with reservations.
+reservations: a core term that connects to discover and offer messages.
+discover and offer messages: a core term worth revisiting after you try a real example.
+dnsmasq: a tool commonly used for guest Wi-Fi.
+
+Come back to this DHCP list whenever documentation for ISC Kea uses a word you do not recognize.

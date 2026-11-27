@@ -1,0 +1,11 @@
+Scaling Considerations for Shaders
+
+A design that works for a classroom project can behave very differently under real load. Here is how Shaders changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding vertex shaders and getting lighting effects right.
+
+Medium scale: problems start to appear. Watch for branches that slow the GPU and precision errors, and measure with GLSL before changing anything.
+
+Large scale: uniforms and GLSL move from background details to central design questions. Teams often revisit their choices around water and fire visuals at this stage.
+
+Before you scale, start from a minimal shader and add one effect at a time. It is cheaper to build that habit early than to fix a crisis later.

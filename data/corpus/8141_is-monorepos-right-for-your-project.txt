@@ -1,0 +1,11 @@
+Is Monorepos Right for Your Project?
+
+Before adopting Monorepos, ask whether it fits the problem. Remember that Monorepos is single repositories that hold the code for many projects.
+
+It is a good fit when your work involves sharing libraries across apps or coordinated refactors, and when your team understands shared tooling.
+
+Be cautious when the project is very small, when deadlines leave no room to learn code ownership, or when you cannot manage these risks: slow checkouts, unclear ownership, and CI that rebuilds everything.
+
+A simple decision test: write down the problem in one sentence, then check whether selective builds and atomic changes are part of the answer. If they are, Monorepos is probably worth a closer look.
+
+If you decide to go ahead, start small with consistent tooling and set up selective builds and tests early.

@@ -1,0 +1,15 @@
+3D Transformations in 10 Minutes
+
+You have ten minutes, so here is the fast route through 3D Transformations.
+
+Minutes 1 and 2, the definition: 3D Transformations is the matrix operations that move, rotate and scale objects in 3D space.
+
+Minutes 3 and 4, the vocabulary: learn translation, rotation, scaling, and matrices.
+
+Minutes 5 and 6, the picture: imagine moving a toy around a table by sliding, turning and resizing it. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through games, modeling tools, and robotics.
+
+Minutes 9 and 10, the traps and the tools: watch for wrong multiplication order and gimbal lock, then try GLM for a first experiment.
+
+If you have a spare minute, remember to write down the order of transformations before multiplying.

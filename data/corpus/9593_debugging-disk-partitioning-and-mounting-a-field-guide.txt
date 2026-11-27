@@ -1,0 +1,13 @@
+Debugging Disk Partitioning and Mounting: A Field Guide
+
+When something goes wrong around Disk Partitioning and Mounting, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: wrong device names, mounting without fstab entries, and formatting the wrong disk.
+Step 3: revisit partitions and file system types, since misunderstandings there cause many bugs.
+Step 4: use lsblk or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Disk Partitioning and Mounting in work such as adding a new drive come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, double-check device names with lsblk before formatting. It prevents a surprising number of repeat problems.

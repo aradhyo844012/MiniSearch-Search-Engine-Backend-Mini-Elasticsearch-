@@ -1,0 +1,15 @@
+The Pros and Cons of Linear Algebra for Programmers
+
+No technology is free of trade-offs, and Linear Algebra for Programmers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports 3D graphics
+- Makes machine learning easier
+- Helps with recommendation systems
+
+Drawbacks and risks:
+- Risk: mixing row and column conventions
+- Risk: shape mismatches
+- Risk: forgetting that matrix multiplication is not commutative
+
+Weigh the two lists against your own project. If the advantages match your needs, such as 3D graphics, and you can manage the risks, Linear Algebra for Programmers is a sound choice. Whatever you decide, check shapes before multiplying.

@@ -1,0 +1,11 @@
+Choosing Tools for Monorepos
+
+There is no single best tool for Monorepos. The right choice depends on your project, your team and your timeline.
+
+Nx is a common first choice, especially for sharing libraries across apps. Bazel suits teams that already work with similar technology, and Turborepo is worth a look when you need something different.
+
+Judge any tool for Monorepos by four questions: Is the documentation clear? Is the community active? Does it handle coordinated refactors well? Can you leave it later if you need to?
+
+Whichever tool you pick for Monorepos, test it on a small problem first, and watch for this: slow checkouts.
+
+As a rule of thumb, set up selective builds and tests early, no matter which tool you use.

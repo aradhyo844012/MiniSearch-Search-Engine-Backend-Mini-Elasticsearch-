@@ -1,0 +1,13 @@
+AWS IAM Roles and Policies Explained Simply
+
+Here is AWS IAM Roles and Policies without the jargon: it is the permission system that controls who can do what in an AWS account.
+
+Think of AWS IAM Roles and Policies as key cards that open only the doors a person needs. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: users and roles, policies, least privilege, and temporary credentials. You do not need to master them all at once. Start with users and roles, then add policies.
+
+You will meet AWS IAM Roles and Policies in work such as securing deployments, granting services access, and auditing permissions.
+
+One practical tip is to grant the narrowest policy that works and review it regularly.
+
+Once AWS IAM Roles and Policies feels comfortable, read about Regions and Availability Zones, which lives in the same neighborhood of ideas.

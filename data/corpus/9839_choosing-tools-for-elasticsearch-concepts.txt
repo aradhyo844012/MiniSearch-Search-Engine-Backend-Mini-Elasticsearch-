@@ -1,0 +1,11 @@
+Choosing Tools for Elasticsearch Concepts
+
+There is no single best tool for Elasticsearch Concepts. The right choice depends on your project, your team and your timeline.
+
+Elasticsearch is a common first choice, especially for site search. Kibana suits teams that already work with similar technology, and OpenSearch is worth a look when you need something different.
+
+Judge any tool for Elasticsearch Concepts by four questions: Is the documentation clear? Is the community active? Does it handle log analytics well? Can you leave it later if you need to?
+
+Whichever tool you pick for Elasticsearch Concepts, test it on a small problem first, and watch for this: too many shards.
+
+As a rule of thumb, define explicit mappings instead of relying on defaults, no matter which tool you use.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with AWS IAM Roles and Policies
+
+This path is for a learner who has never studied AWS IAM Roles and Policies before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (AWS IAM Roles and Policies is the permission system that controls who can do what in an AWS account) and learn users and roles and policies.
+
+Stage 2, hands-on: install IAM Access Analyzer, follow a tutorial, and build a small example involving securing deployments.
+
+Stage 3, depth: study least privilege and temporary credentials, then deliberately explore this problem: wildcard permissions.
+
+Stage 4, application: apply AWS IAM Roles and Policies to granting services access, compare the AWS CLI with Terraform, and write up your results.
+
+Stage 5, review: teach AWS IAM Roles and Policies to someone else, and then move on to Multi-Cloud Strategy.

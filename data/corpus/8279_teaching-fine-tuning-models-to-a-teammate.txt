@@ -1,0 +1,13 @@
+Teaching Fine-Tuning Models to a Teammate
+
+Explaining Fine-Tuning Models to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: teaching an experienced chef a new regional cuisine. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Fine-Tuning Models is adapting a pretrained model to a specific task with extra training on your own data. Avoid jargon at this stage.
+
+Walk through an example involving domain-specific language tasks, naming pretrained weights and training data as they come up.
+
+Ask your teammate to explain the learning rate in Fine-Tuning Models back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, overfitting on small datasets, and suggest this habit: start with a small, clean dataset and a held-out test set.

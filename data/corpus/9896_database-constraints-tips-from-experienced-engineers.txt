@@ -1,0 +1,11 @@
+Database Constraints Tips from Experienced Engineers
+
+Engineers who work with Database Constraints regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip primary keys; everything else builds on it.
+2. Test the case of preventing bad data early, before the design hardens.
+3. When something behaves strangely, revisit foreign keys before anything else.
+4. Be careful with this one: skipping constraints for speed.
+5. Write down why you chose Database Constraints so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to protecting relationships as well as to Database Constraints in general.

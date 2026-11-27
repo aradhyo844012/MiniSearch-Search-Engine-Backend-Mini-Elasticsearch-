@@ -1,0 +1,11 @@
+Font Rendering in Real Projects
+
+Reading about Font Rendering is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: web pages. Here, glyphs drives the main design choices, and the team needs to guard against missing font fallbacks.
+
+Scenario two: operating systems. This time hinting matters most, and tools such as FreeType help keep things manageable.
+
+Scenario three: PDF viewers. The key idea is anti-aliasing, and the biggest risk is blurry text from scaling.
+
+Across all three scenarios, Font Rendering stays the same idea: turning font outlines into readable text on screen. Only the details change.

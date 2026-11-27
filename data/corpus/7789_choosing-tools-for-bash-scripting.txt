@@ -1,0 +1,11 @@
+Choosing Tools for Bash Scripting
+
+There is no single best tool for Bash Scripting. The right choice depends on your project, your team and your timeline.
+
+Bash is a common first choice, especially for automating deployments. ShellCheck suits teams that already work with similar technology, and shfmt is worth a look when you need something different.
+
+Judge any tool for Bash Scripting by four questions: Is the documentation clear? Is the community active? Does it handle processing text files well? Can you leave it later if you need to?
+
+Whichever tool you pick for Bash Scripting, test it on a small problem first, and watch for this: unquoted variables.
+
+As a rule of thumb, start scripts with set -euo pipefail and quote every variable, no matter which tool you use.

@@ -1,0 +1,11 @@
+Why BGP and Internet Routing Matters for Developers
+
+Developers who understand BGP and Internet Routing make better decisions, because BGP and Internet Routing is the protocol networks use to tell each other which addresses they can reach.
+
+Three situations show why it matters. First, connecting ISPs. Second, directing traffic between large networks. Third, explaining internet outages. In each case, a solid grasp of autonomous systems and route announcements separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: route leaks, hijacked prefixes, and misconfigured filters.
+
+You will not need to build everything yourself; bgpq4, BIRD, and RIPE Stat cover most needs.
+
+Connect BGP and Internet Routing with Firewalls to see the bigger picture of Networking and Internet Infrastructure.

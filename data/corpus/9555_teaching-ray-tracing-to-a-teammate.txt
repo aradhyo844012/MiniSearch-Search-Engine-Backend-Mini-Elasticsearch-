@@ -1,0 +1,13 @@
+Teaching Ray Tracing to a Teammate
+
+Explaining Ray Tracing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: tracing a flashlight beam backward from your eye into the scene. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Ray Tracing is a rendering technique that follows rays of light to produce realistic images. Avoid jargon at this stage.
+
+Walk through an example involving movie visuals, naming rays and intersections as they come up.
+
+Ask your teammate to explain reflection and refraction in Ray Tracing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow render times, and suggest this habit: start with spheres and a single light before adding features.

@@ -1,0 +1,15 @@
+The Pros and Cons of Package Managers
+
+No technology is free of trade-offs, and Package Managers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports installing system tools
+- Makes keeping servers updated easier
+- Helps with reproducing environments
+
+Drawbacks and risks:
+- Risk: mixing sources that conflict
+- Risk: ignoring signature checks
+- Risk: upgrading without reading the changes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as installing system tools, and you can manage the risks, Package Managers is a sound choice. Whatever you decide, update the package index before installing anything.

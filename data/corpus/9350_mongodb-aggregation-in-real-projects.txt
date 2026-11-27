@@ -1,0 +1,11 @@
+MongoDB Aggregation in Real Projects
+
+Reading about MongoDB Aggregation is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: summarizing orders. Here, pipeline stages drives the main design choices, and the team needs to guard against putting $match late.
+
+Scenario two: building analytics queries. This time $match and $group matters most, and tools such as MongoDB Compass help keep things manageable.
+
+Scenario three: reshaping documents. The key idea is projection, and the biggest risk is huge intermediate results.
+
+Across all three scenarios, MongoDB Aggregation stays the same idea: a pipeline of stages for filtering, grouping and reshaping documents in MongoDB. Only the details change.

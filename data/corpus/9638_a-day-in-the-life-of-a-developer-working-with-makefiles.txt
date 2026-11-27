@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Makefiles
+
+This is a fictional but realistic day for a developer whose project relies on Makefiles.
+
+Morning: Divya starts by reviewing a ticket about compiling C projects. Before touching any code, Divya re-reads the notes on targets to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore prerequisites with GNU Make. A small test exposes the problem of tabs versus spaces, and they fix it together.
+
+Afternoon: the team discusses a new request involving shortcuts for common commands. Divya sketches a to-do list that knows which steps must come first on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to use phony targets for tasks like test and clean.
+
+Days like this are typical. Makefiles is not glamorous, but understanding it keeps small problems from growing.

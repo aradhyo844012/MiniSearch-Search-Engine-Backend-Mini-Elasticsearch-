@@ -1,0 +1,13 @@
+Dev Containers Explained Simply
+
+If Dev Containers sounds intimidating, relax. It is containerized development environments that every teammate can start in the same way, and the idea is simpler than the name suggests.
+
+Think of Dev Containers as a ready-made workshop that opens identically for everyone. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: devcontainer.json, images, mounted folders, and extensions. You do not need to master them all at once. Start with devcontainer.json, then add images.
+
+People reach for Dev Containers when they work on onboarding new developers, matching production tools, and trying projects safely.
+
+One practical tip is to pin tool versions inside the container definition.
+
+Once Dev Containers feels comfortable, read about Makefiles, which lives in the same neighborhood of ideas.

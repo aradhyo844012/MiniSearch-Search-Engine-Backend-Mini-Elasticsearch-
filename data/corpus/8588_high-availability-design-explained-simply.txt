@@ -1,0 +1,13 @@
+High Availability Design Explained Simply
+
+Here is High Availability Design without the jargon: it is designing systems so they keep working when parts fail.
+
+Think of High Availability Design as a bridge with several cables so one breaking does not matter. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: redundancy, failover, health checks, and no single point of failure. You do not need to master them all at once. Start with redundancy, then add failover.
+
+You will meet High Availability Design in work such as online stores, banking systems, and healthcare software.
+
+One practical tip is to list every component and ask what happens if it dies.
+
+After High Availability Design, a natural next topic is Regions and Availability Zones.

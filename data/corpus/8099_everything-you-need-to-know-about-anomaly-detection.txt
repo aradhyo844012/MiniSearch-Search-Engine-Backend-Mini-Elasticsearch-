@@ -1,0 +1,26 @@
+Everything You Need to Know About Anomaly Detection
+
+This page collects the essentials about Anomaly Detection in one place. In short, Anomaly Detection is finding data points or events that differ sharply from normal behavior.
+
+Core concepts:
+- baselines
+- thresholds
+- isolation methods
+- false positives
+
+Where it is used:
+- fraud detection
+- server monitoring
+- manufacturing quality
+
+Common problems:
+- too many false alarms
+- shifting baselines
+- labeling normal data incorrectly
+
+Tools to know:
+- scikit-learn
+- PyOD
+- Prometheus
+
+Remember this above all: a security guard who notices the one person acting differently is a good way to picture it, and the best habit is to tune alerts using real examples of past incidents.

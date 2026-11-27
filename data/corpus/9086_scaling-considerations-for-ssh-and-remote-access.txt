@@ -1,0 +1,11 @@
+Scaling Considerations for SSH and Remote Access
+
+A design that works for a classroom project can behave very differently under real load. Here is how SSH and Remote Access changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding key pairs and getting administering servers right.
+
+Medium scale: problems start to appear. Watch for password logins left enabled and sharing private keys, and measure with OpenSSH before changing anything.
+
+Large scale: port forwarding and config files move from background details to central design questions. Teams often revisit their choices around copying files securely at this stage.
+
+Before you scale, use key-based login and disable password authentication. It is cheaper to build that habit early than to fix a crisis later.

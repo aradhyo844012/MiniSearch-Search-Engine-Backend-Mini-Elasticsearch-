@@ -1,0 +1,13 @@
+npm and Package Registries Explained Simply
+
+If npm and Package Registries sounds intimidating, relax. It is services and tools for publishing and installing reusable code packages, and the idea is simpler than the name suggests.
+
+Think of npm and Package Registries as a shared parts warehouse with a catalog. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: package.json, semantic versions, lock files, and registries. You do not need to master them all at once. Start with package.json, then add semantic versions.
+
+People reach for npm and Package Registries when they work on installing JavaScript libraries, sharing internal packages, and reproducible builds.
+
+One practical tip is to commit your lock file.
+
+After npm and Package Registries, a natural next topic is Code Formatters.

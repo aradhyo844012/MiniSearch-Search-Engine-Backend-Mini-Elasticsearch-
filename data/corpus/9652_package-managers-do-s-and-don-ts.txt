@@ -1,0 +1,17 @@
+Package Managers Do's and Don'ts
+
+A quick list of habits for working with Package Managers.
+
+Do:
+- Learn repositories before anything else.
+- Try apt on a small example.
+- Make it a habit to update the package index before installing anything.
+- Test the case of installing system tools early.
+
+Don't:
+- Ignore this: mixing sources that conflict.
+- Ignore this: ignoring signature checks.
+- Ignore this: upgrading without reading the changes.
+- Adopt Package Managers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Package Managers, a little patience with dependency resolution pays off more than any clever shortcut.

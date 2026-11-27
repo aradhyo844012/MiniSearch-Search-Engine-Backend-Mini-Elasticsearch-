@@ -1,0 +1,12 @@
+Questions to Ask About Monorepos in Code Review
+
+Reviewing code that involves Monorepos is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we set up selective builds and tests early?
+- Is code ownership clear to someone reading the code for the first time?
+- Have we avoided this problem: CI that rebuilds everything?
+- Does this change respect shared tooling, or does it work around it?
+- Would a test catch unclear ownership if it appeared later?
+- Does the code handle the case of sharing libraries across apps correctly?
+
+Good reviews of work on Monorepos are specific, kind and focused on selective builds, not on personal style.

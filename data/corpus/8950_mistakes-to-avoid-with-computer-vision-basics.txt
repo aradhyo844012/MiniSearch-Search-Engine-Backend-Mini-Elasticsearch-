@@ -1,0 +1,11 @@
+Mistakes to Avoid with Computer Vision Basics
+
+Everyone learns Computer Vision Basics partly through mistakes. Here are three worth avoiding.
+
+Mistake one: lighting changes. It usually appears when someone skips pixels and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: biased datasets. It tends to be noticed late, often during testing of face detection. A short checklist during review catches it early.
+
+Mistake three: overfitting to a small set of photos. It is easy to miss because everything seems to work at first. Keep an eye on classification to spot it.
+
+If you remember only one rule, make it this: visualize intermediate steps such as edges or masks.

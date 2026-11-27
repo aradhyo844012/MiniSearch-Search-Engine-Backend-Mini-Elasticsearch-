@@ -1,0 +1,15 @@
+AWS IAM Roles and Policies Quick Reference
+
+A one-screen reminder for AWS IAM Roles and Policies. Bookmark it and return when the details fade.
+
+What it is: the permission system that controls who can do what in an AWS account.
+Key terms: users and roles, policies, least privilege, and temporary credentials.
+Typical uses: securing deployments, granting services access, and auditing permissions.
+Risks: wildcard permissions, long-lived access keys, and unused roles.
+Tools: IAM Access Analyzer, the AWS CLI, and Terraform.
+
+Mental picture: key cards that open only the doors a person needs.
+
+Habit to build: grant the narrowest policy that works and review it regularly.
+
+See also: Cloud-Native Applications, which sits close to AWS IAM Roles and Policies in the area of Cloud Platforms and Architecture.

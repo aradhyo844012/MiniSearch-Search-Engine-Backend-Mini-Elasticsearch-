@@ -1,0 +1,17 @@
+Ray Tracing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Ray Tracing.
+
+Learning goals:
+1. Explain Ray Tracing in your own words.
+2. Describe rays, intersections, reflection and refraction, and shadows.
+3. Give examples from movie visuals and architectural visualization.
+4. Name three problems to watch for.
+
+Start with the definition: Ray Tracing is a rendering technique that follows rays of light to produce realistic images. Then draw tracing a flashlight beam backward from your eye into the scene on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow render times a problem? How does intersections relate to reflection and refraction? When would you choose Blender Cycles or NVIDIA OptiX?
+
+Study habit worth keeping: start with spheres and a single light before adding features.
+
+When you feel ready, compare Ray Tracing with Color Spaces and write down three differences.

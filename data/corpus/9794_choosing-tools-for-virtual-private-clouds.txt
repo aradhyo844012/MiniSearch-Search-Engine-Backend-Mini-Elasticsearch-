@@ -1,0 +1,11 @@
+Choosing Tools for Virtual Private Clouds
+
+There is no single best tool for Virtual Private Clouds. The right choice depends on your project, your team and your timeline.
+
+AWS VPC is a common first choice, especially for separating public and private services. Terraform suits teams that already work with similar technology, and VPC Flow Logs is worth a look when you need something different.
+
+Judge any tool for Virtual Private Clouds by four questions: Is the documentation clear? Is the community active? Does it handle connecting to offices well? Can you leave it later if you need to?
+
+Whichever tool you pick for Virtual Private Clouds, test it on a small problem first, and watch for this: overlapping address ranges.
+
+As a rule of thumb, keep databases in private subnets, no matter which tool you use.

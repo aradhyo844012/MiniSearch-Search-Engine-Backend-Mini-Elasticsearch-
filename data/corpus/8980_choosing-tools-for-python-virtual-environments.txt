@@ -1,0 +1,11 @@
+Choosing Tools for Python Virtual Environments
+
+There is no single best tool for Python Virtual Environments. The right choice depends on your project, your team and your timeline.
+
+venv is a common first choice, especially for keeping projects separate. pipx suits teams that already work with similar technology, and Poetry is worth a look when you need something different.
+
+Judge any tool for Python Virtual Environments by four questions: Is the documentation clear? Is the community active? Does it handle reproducing setups well? Can you leave it later if you need to?
+
+Whichever tool you pick for Python Virtual Environments, test it on a small problem first, and watch for this: installing packages globally.
+
+As a rule of thumb, create one environment per project and record its requirements, no matter which tool you use.

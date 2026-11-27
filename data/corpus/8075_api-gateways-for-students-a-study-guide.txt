@@ -1,0 +1,17 @@
+API Gateways for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover API Gateways.
+
+Learning goals:
+1. Explain API Gateways in your own words.
+2. Describe routing, authentication, rate limits, and request transformation.
+3. Give examples from exposing microservices and securing public APIs.
+4. Name three problems to watch for.
+
+Start with the definition: API Gateways is services that sit in front of APIs to handle routing, authentication and limits. Then draw a reception desk that checks visitors and sends them to the right office on paper and label the four terms from the goals above.
+
+Self-test questions: Why is a single point of failure a problem? How does authentication relate to rate limits? When would you choose Kong or AWS API Gateway?
+
+Study habit worth keeping: keep the gateway thin and put business logic in services.
+
+When you feel ready, compare API Gateways with Managed Kubernetes Services and write down three differences.

@@ -1,0 +1,13 @@
+Teaching High Availability Design to a Teammate
+
+Explaining High Availability Design to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a bridge with several cables so one breaking does not matter. Ask your teammate what the picture suggests.
+
+Then give the plain definition: High Availability Design is designing systems so they keep working when parts fail. Avoid jargon at this stage.
+
+Walk through an example involving online stores, naming redundancy and failover as they come up.
+
+Ask your teammate to explain health checks in High Availability Design back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, hidden single points of failure, and suggest this habit: list every component and ask what happens if it dies.

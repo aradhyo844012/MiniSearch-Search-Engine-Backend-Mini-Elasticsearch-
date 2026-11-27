@@ -1,0 +1,10 @@
+systemd Services: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about systemd Services with confidence. The subject itself is the init system and service manager used by most modern Linux distributions.
+
+unit files: one of the building blocks of systemd Services. Documentation for systemctl usually mentions it early.
+targets: one of the building blocks of systemd Services. It shows up whenever you work on starting services at boot.
+service states: one of the building blocks of systemd Services. It shows up whenever you work on starting services at boot.
+journal logs: one of the building blocks of systemd Services. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four systemd Services terms in sentences about restarting crashed programs. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Subqueries and CTEs
+
+This is a fictional but realistic day for a developer whose project relies on Subqueries and CTEs.
+
+Morning: Divya starts by reviewing a ticket about breaking complex reports into steps. Before touching any code, Divya re-reads the notes on subqueries to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore WITH clauses with PostgreSQL. A small test exposes the problem of correlated subqueries that run slowly, and they fix it together.
+
+Afternoon: the team discusses a new request involving filtering with computed results. Divya sketches solving a puzzle by writing down intermediate answers on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to name each CTE after what it returns.
+
+Days like this are typical. Subqueries and CTEs is not glamorous, but understanding it keeps small problems from growing.

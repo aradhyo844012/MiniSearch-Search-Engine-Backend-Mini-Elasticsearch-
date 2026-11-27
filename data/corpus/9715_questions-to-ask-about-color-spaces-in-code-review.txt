@@ -1,0 +1,12 @@
+Questions to Ask About Color Spaces in Code Review
+
+Reviewing code that involves Color Spaces is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of web design correctly?
+- Would a test catch mixing color spaces if it appeared later?
+- Is browser color pickers used consistently, or are we mixing approaches?
+- Is HSL clear to someone reading the code for the first time?
+- Have we considered ignoring gamma?
+- Could we work in one color space and convert only at the end?
+
+Good reviews of work on Color Spaces are specific, kind and focused on CMYK, not on personal style.

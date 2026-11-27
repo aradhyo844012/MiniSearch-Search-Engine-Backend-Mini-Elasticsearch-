@@ -1,0 +1,11 @@
+Scaling Considerations for 3D Transformations
+
+A design that works for a classroom project can behave very differently under real load. Here is how 3D Transformations changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding translation and getting games right.
+
+Medium scale: problems start to appear. Watch for wrong multiplication order and gimbal lock, and measure with GLM before changing anything.
+
+Large scale: scaling and matrices move from background details to central design questions. Teams often revisit their choices around modeling tools at this stage.
+
+Before you scale, write down the order of transformations before multiplying. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,15 @@
+The Pros and Cons of Code Formatters
+
+No technology is free of trade-offs, and Code Formatters is no exception. Here is an honest summary.
+
+Advantages:
+- Supports ending style debates
+- Makes cleaner diffs easier
+- Helps with onboarding contributors
+
+Drawbacks and risks:
+- Risk: reformatting entire files at once
+- Risk: conflicting tool settings
+- Risk: ignoring generated files
+
+Weigh the two lists against your own project. If the advantages match your needs, such as ending style debates, and you can manage the risks, Code Formatters is a sound choice. Whatever you decide, run the formatter in a pre-commit hook.

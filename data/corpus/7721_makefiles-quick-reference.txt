@@ -1,0 +1,15 @@
+Makefiles Quick Reference
+
+A one-screen reminder for Makefiles. Bookmark it and return when the details fade.
+
+What it is: plain files that describe how to build programs and run common tasks with the make tool.
+Key terms: targets, prerequisites, recipes, and phony targets.
+Typical uses: compiling C projects, shortcuts for common commands, and automating documentation builds.
+Risks: tabs versus spaces, missing phony declarations, and hidden environment assumptions.
+Tools: GNU Make, CMake, and a text editor.
+
+Mental picture: a to-do list that knows which steps must come first.
+
+Habit to build: use phony targets for tasks like test and clean.
+
+See also: Build Systems, which sits close to Makefiles in the area of Developer Tooling and Build Systems.

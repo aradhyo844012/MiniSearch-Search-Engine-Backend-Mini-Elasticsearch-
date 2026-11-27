@@ -1,0 +1,11 @@
+Choosing Tools for 3D Transformations
+
+There is no single best tool for 3D Transformations. The right choice depends on your project, your team and your timeline.
+
+GLM is a common first choice, especially for games. three.js suits teams that already work with similar technology, and Blender is worth a look when you need something different.
+
+Judge any tool for 3D Transformations by four questions: Is the documentation clear? Is the community active? Does it handle modeling tools well? Can you leave it later if you need to?
+
+Whichever tool you pick for 3D Transformations, test it on a small problem first, and watch for this: wrong multiplication order.
+
+As a rule of thumb, write down the order of transformations before multiplying, no matter which tool you use.

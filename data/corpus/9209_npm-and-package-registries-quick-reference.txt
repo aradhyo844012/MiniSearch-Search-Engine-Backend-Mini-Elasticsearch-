@@ -1,0 +1,15 @@
+npm and Package Registries Quick Reference
+
+A one-screen reminder for npm and Package Registries. Bookmark it and return when the details fade.
+
+What it is: services and tools for publishing and installing reusable code packages.
+Key terms: package.json, semantic versions, lock files, and registries.
+Typical uses: installing JavaScript libraries, sharing internal packages, and reproducible builds.
+Risks: unpinned versions, installing untrusted packages, and huge dependency trees.
+Tools: npm, Yarn, and pnpm.
+
+Mental picture: a shared parts warehouse with a catalog.
+
+Habit to build: commit your lock file.
+
+See also: Makefiles, which sits close to npm and Package Registries in the area of Developer Tooling and Build Systems.

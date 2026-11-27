@@ -1,0 +1,11 @@
+Scaling Considerations for Views and Materialized Views
+
+A design that works for a classroom project can behave very differently under real load. Here is how Views and Materialized Views changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding view definitions and getting simplifying repeated queries right.
+
+Medium scale: problems start to appear. Watch for stale materialized data and views stacked on views, and measure with PostgreSQL before changing anything.
+
+Large scale: permissions and dependencies move from background details to central design questions. Teams often revisit their choices around hiding sensitive columns at this stage.
+
+Before you scale, document how and when each materialized view is refreshed. It is cheaper to build that habit early than to fix a crisis later.

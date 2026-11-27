@@ -1,0 +1,11 @@
+Mistakes to Avoid with AI Agents
+
+Everyone learns AI Agents partly through mistakes. Here are three worth avoiding.
+
+Mistake one: runaway loops. It usually appears when someone skips planning and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: unchecked tool permissions. It tends to be noticed late, often during testing of research assistants. A short checklist during review catches it early.
+
+Mistake three: hard-to-debug behavior. It is easy to miss because everything seems to work at first. Keep an eye on guardrails to spot it.
+
+If you remember only one rule, make it this: limit what tools the agent may use and log every action.

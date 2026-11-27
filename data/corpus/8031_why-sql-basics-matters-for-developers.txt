@@ -1,0 +1,11 @@
+Why SQL Basics Matters for Developers
+
+Developers who understand SQL Basics make better decisions, because SQL Basics is the core SQL commands for reading and changing data in tables.
+
+Three situations show why it matters. First, reading customer records. Second, building reports. Third, changing stored data. In each case, a solid grasp of SELECT and WHERE separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: forgetting the WHERE clause on updates, selecting every column, and assuming row order without ORDER BY.
+
+Good tools exist, including SQLite, PostgreSQL, and DB Browser for SQLite, so you rarely have to start from nothing.
+
+Connect SQL Basics with MongoDB Aggregation to see the bigger picture of SQL and Data Practice.

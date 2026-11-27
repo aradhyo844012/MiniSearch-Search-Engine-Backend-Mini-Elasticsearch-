@@ -1,0 +1,11 @@
+Choosing Tools for Cloud-Native Applications
+
+There is no single best tool for Cloud-Native Applications. The right choice depends on your project, your team and your timeline.
+
+Kubernetes is a common first choice, especially for web platforms. Docker suits teams that already work with similar technology, and Helm is worth a look when you need something different.
+
+Judge any tool for Cloud-Native Applications by four questions: Is the documentation clear? Is the community active? Does it handle data-heavy services well? Can you leave it later if you need to?
+
+Whichever tool you pick for Cloud-Native Applications, test it on a small problem first, and watch for this: treating the cloud like a data center.
+
+As a rule of thumb, design every service to be stateless where possible, no matter which tool you use.

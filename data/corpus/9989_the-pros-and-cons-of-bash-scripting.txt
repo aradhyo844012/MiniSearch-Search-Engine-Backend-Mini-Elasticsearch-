@@ -1,0 +1,15 @@
+The Pros and Cons of Bash Scripting
+
+No technology is free of trade-offs, and Bash Scripting is no exception. Here is an honest summary.
+
+Advantages:
+- Supports automating deployments
+- Makes processing text files easier
+- Helps with setting up developer machines
+
+Drawbacks and risks:
+- Risk: unquoted variables
+- Risk: ignoring errors in pipelines
+- Risk: scripts that are hard to read
+
+Weigh the two lists against your own project. If the advantages match your needs, such as automating deployments, and you can manage the risks, Bash Scripting is a sound choice. Whatever you decide, start scripts with set -euo pipefail and quote every variable.

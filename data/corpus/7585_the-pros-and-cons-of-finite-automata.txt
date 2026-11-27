@@ -1,0 +1,15 @@
+The Pros and Cons of Finite Automata
+
+No technology is free of trade-offs, and Finite Automata is no exception. Here is an honest summary.
+
+Advantages:
+- Supports tokenizers
+- Makes pattern matching easier
+- Helps with protocol design
+
+Drawbacks and risks:
+- Risk: missing transitions
+- Risk: confusing deterministic and non-deterministic machines
+- Risk: state explosion
+
+Weigh the two lists against your own project. If the advantages match your needs, such as tokenizers, and you can manage the risks, Finite Automata is a sound choice. Whatever you decide, draw the state diagram before writing any code.

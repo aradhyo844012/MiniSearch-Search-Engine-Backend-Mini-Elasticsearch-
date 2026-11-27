@@ -1,0 +1,11 @@
+Scaling Considerations for Discrete Mathematics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Discrete Mathematics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding sets and getting algorithm analysis right.
+
+Medium scale: problems start to appear. Watch for skipping proofs and confusing sets with sequences, and measure with Python sets before changing anything.
+
+Large scale: relations and proofs move from background details to central design questions. Teams often revisit their choices around database theory at this stage.
+
+Before you scale, practice writing small proofs by hand. It is cheaper to build that habit early than to fix a crisis later.

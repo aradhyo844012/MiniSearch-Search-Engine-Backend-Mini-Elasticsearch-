@@ -1,0 +1,26 @@
+Everything You Need to Know About Computer Vision Basics
+
+This page collects the essentials about Computer Vision Basics in one place. In short, Computer Vision Basics is teaching computers to extract information from images and video.
+
+Core concepts:
+- pixels
+- filters and edges
+- feature detection
+- classification
+
+Where it is used:
+- face detection
+- document scanning
+- quality inspection
+
+Common problems:
+- lighting changes
+- biased datasets
+- overfitting to a small set of photos
+
+Tools to know:
+- OpenCV
+- Pillow
+- scikit-image
+
+Remember this above all: teaching a computer to notice shapes the way eyes do is a good way to picture it, and the best habit is to visualize intermediate steps such as edges or masks.

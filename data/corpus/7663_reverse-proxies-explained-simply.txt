@@ -1,0 +1,13 @@
+Reverse Proxies Explained Simply
+
+Here is Reverse Proxies without the jargon: it is servers that sit in front of applications and forward client requests to them.
+
+Think of Reverse Proxies as a hotel front desk that routes guests to the right room. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: upstream servers, proxy headers, TLS termination, and caching. You do not need to master them all at once. Start with upstream servers, then add proxy headers.
+
+You will meet Reverse Proxies in work such as hiding backend servers, terminating HTTPS, and routing requests to several apps.
+
+One practical tip is to forward the real client IP in a trusted header.
+
+After Reverse Proxies, a natural next topic is VPNs.

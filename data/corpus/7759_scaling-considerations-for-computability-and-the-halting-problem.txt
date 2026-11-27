@@ -1,0 +1,11 @@
+Scaling Considerations for Computability and the Halting Problem
+
+A design that works for a classroom project can behave very differently under real load. Here is how Computability and the Halting Problem changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding Turing machines and getting understanding the limits of tools right.
+
+Medium scale: problems start to appear. Watch for assuming everything is solvable and confusing hard with undecidable, and measure with Turing machine simulators before changing anything.
+
+Large scale: the halting problem and reductions move from background details to central design questions. Teams often revisit their choices around proofs of impossibility at this stage.
+
+Before you scale, learn the diagonal argument step by step. It is cheaper to build that habit early than to fix a crisis later.

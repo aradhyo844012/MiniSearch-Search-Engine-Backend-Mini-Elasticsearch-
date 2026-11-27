@@ -1,0 +1,15 @@
+Biometric Authentication Quick Reference
+
+A one-screen reminder for Biometric Authentication. Bookmark it and return when the details fade.
+
+What it is: verifying identity using traits such as fingerprints, faces or voices.
+Key terms: enrollment, matching, false accept and false reject rates, and liveness detection.
+Typical uses: phone unlock, building access, and payment approval.
+Risks: spoofing attacks, biased recognition, and credentials that cannot be changed once leaked.
+Tools: Android BiometricPrompt, Face ID APIs, and FIDO2.
+
+Mental picture: a door that recognizes you by your face instead of a key.
+
+Habit to build: offer a fallback method and protect the stored templates.
+
+See also: Smart Contracts, which sits close to Biometric Authentication in the area of Emerging and Specialized Technology.

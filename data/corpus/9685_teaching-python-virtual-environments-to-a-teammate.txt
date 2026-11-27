@@ -1,0 +1,13 @@
+Teaching Python Virtual Environments to a Teammate
+
+Explaining Python Virtual Environments to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a separate toolbox for each project. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Python Virtual Environments is isolated folders that hold a project's own Python packages. Avoid jargon at this stage.
+
+Walk through an example involving keeping projects separate, naming venv and pip as they come up.
+
+Ask your teammate to explain requirements files in Python Virtual Environments back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, installing packages globally, and suggest this habit: create one environment per project and record its requirements.

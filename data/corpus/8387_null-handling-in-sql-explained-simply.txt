@@ -1,0 +1,13 @@
+NULL Handling in SQL Explained Simply
+
+Here is NULL Handling in SQL without the jargon: it is understanding how missing or unknown values behave in queries.
+
+Think of NULL Handling in SQL as an empty box on a form that means unknown, not zero. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: three-valued logic, IS NULL, COALESCE, and NULL in aggregates. You do not need to master them all at once. Start with three-valued logic, then add IS NULL.
+
+You will meet NULL Handling in SQL in work such as optional fields, outer joins, and data cleaning.
+
+One practical tip is to use IS NULL and COALESCE instead of comparing with equals.
+
+After NULL Handling in SQL, a natural next topic is Elasticsearch Concepts.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Anomaly Detection
+
+Everyone learns Anomaly Detection partly through mistakes. Here are three worth avoiding.
+
+Mistake one: too many false alarms. It usually appears when someone skips baselines and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: shifting baselines. It tends to be noticed late, often during testing of fraud detection. A short checklist during review catches it early.
+
+Mistake three: labeling normal data incorrectly. It is easy to miss because everything seems to work at first. Keep an eye on false positives to spot it.
+
+If you remember only one rule, make it this: tune alerts using real examples of past incidents.

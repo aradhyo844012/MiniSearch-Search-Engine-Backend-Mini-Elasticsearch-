@@ -1,0 +1,26 @@
+Everything You Need to Know About Physics Engines
+
+This page collects the essentials about Physics Engines in one place. In short, Physics Engines is software that simulates forces, motion and collisions of objects.
+
+Core concepts:
+- rigid bodies
+- forces and impulses
+- constraints
+- fixed time steps
+
+Where it is used:
+- vehicles and ragdolls
+- puzzle games
+- training simulations
+
+Common problems:
+- variable time steps
+- unstable stacks of objects
+- extreme mass ratios
+
+Tools to know:
+- Box2D
+- Bullet
+- PhysX
+
+Remember this above all: a stage manager who enforces gravity on every prop is a good way to picture it, and the best habit is to use a fixed time step for stable results.

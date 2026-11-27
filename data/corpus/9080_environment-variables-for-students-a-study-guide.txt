@@ -1,0 +1,17 @@
+Environment Variables for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Environment Variables.
+
+Learning goals:
+1. Explain Environment Variables in your own words.
+2. Describe variable names, scope, export, and shell startup files.
+3. Give examples from storing configuration and selecting program paths.
+4. Name three problems to watch for.
+
+Start with the definition: Environment Variables is named values the operating system gives to programs to configure their behavior. Then draw sticky notes attached to a program before it starts on paper and label the four terms from the goals above.
+
+Self-test questions: Why is committing secrets in dotfiles a problem? How does scope relate to export? When would you choose env or printenv?
+
+Study habit worth keeping: print a variable to confirm its value before blaming the code.
+
+When you feel ready, compare Environment Variables with Package Managers and write down three differences.

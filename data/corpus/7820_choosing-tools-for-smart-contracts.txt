@@ -1,0 +1,11 @@
+Choosing Tools for Smart Contracts
+
+There is no single best tool for Smart Contracts. The right choice depends on your project, your team and your timeline.
+
+Solidity is a common first choice, especially for token systems. Hardhat suits teams that already work with similar technology, and Remix is worth a look when you need something different.
+
+Judge any tool for Smart Contracts by four questions: Is the documentation clear? Is the community active? Does it handle automated escrow well? Can you leave it later if you need to?
+
+Whichever tool you pick for Smart Contracts, test it on a small problem first, and watch for this: bugs that cannot be patched.
+
+As a rule of thumb, audit and test contracts thoroughly before deployment, no matter which tool you use.

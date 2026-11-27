@@ -1,0 +1,11 @@
+Scaling Considerations for Python Virtual Environments
+
+A design that works for a classroom project can behave very differently under real load. Here is how Python Virtual Environments changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding venv and getting keeping projects separate right.
+
+Medium scale: problems start to appear. Watch for installing packages globally and forgetting to activate, and measure with venv before changing anything.
+
+Large scale: requirements files and activation move from background details to central design questions. Teams often revisit their choices around reproducing setups at this stage.
+
+Before you scale, create one environment per project and record its requirements. It is cheaper to build that habit early than to fix a crisis later.

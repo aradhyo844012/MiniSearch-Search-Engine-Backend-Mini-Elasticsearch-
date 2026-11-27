@@ -1,0 +1,15 @@
+Managed Cloud Databases Quick Reference
+
+A one-screen reminder for Managed Cloud Databases. Bookmark it and return when the details fade.
+
+What it is: database services where the cloud provider handles backups, patching and failover.
+Key terms: automated backups, read replicas, maintenance windows, and scaling options.
+Typical uses: launching apps quickly, reducing database administration, and high availability setups.
+Risks: surprise costs, limited configuration control, and ignoring maintenance windows.
+Tools: Amazon RDS, Cloud SQL, and Azure Database.
+
+Mental picture: a restaurant that hires a kitchen crew to handle the cleaning.
+
+Habit to build: test restoring a backup before you need it.
+
+See also: AWS IAM Roles and Policies, which sits close to Managed Cloud Databases in the area of Cloud Platforms and Architecture.

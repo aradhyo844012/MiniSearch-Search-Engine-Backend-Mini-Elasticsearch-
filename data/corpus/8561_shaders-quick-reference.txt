@@ -1,0 +1,15 @@
+Shaders Quick Reference
+
+A one-screen reminder for Shaders. Bookmark it and return when the details fade.
+
+What it is: small programs that run on the graphics card to control how things are drawn.
+Key terms: vertex shaders, fragment shaders, uniforms, and GLSL.
+Typical uses: lighting effects, water and fire visuals, and post-processing.
+Risks: branches that slow the GPU, precision errors, and platform differences.
+Tools: GLSL, Shadertoy, and RenderDoc.
+
+Mental picture: a tiny painter that colors each pixel following your instructions.
+
+Habit to build: start from a minimal shader and add one effect at a time.
+
+See also: Procedural Generation, which sits close to Shaders in the area of Game Development.

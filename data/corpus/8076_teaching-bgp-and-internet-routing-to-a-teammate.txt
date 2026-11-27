@@ -1,0 +1,13 @@
+Teaching BGP and Internet Routing to a Teammate
+
+Explaining BGP and Internet Routing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: the postal service agreeing on which depot handles each region. Ask your teammate what the picture suggests.
+
+Then give the plain definition: BGP and Internet Routing is the protocol networks use to tell each other which addresses they can reach. Avoid jargon at this stage.
+
+Walk through an example involving connecting ISPs, naming autonomous systems and route announcements as they come up.
+
+Ask your teammate to explain peering in BGP and Internet Routing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, route leaks, and suggest this habit: filter route announcements strictly.

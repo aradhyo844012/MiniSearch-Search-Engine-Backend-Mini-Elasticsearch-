@@ -1,0 +1,11 @@
+Entity Component Systems in Real Projects
+
+Reading about Entity Component Systems is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: large simulations. Here, entities drives the main design choices, and the team needs to guard against overengineering small games.
+
+Scenario two: games with thousands of objects. This time components matters most, and tools such as Bevy help keep things manageable.
+
+Scenario three: flexible game design. The key idea is systems, and the biggest risk is components that hold logic.
+
+Across all three scenarios, Entity Component Systems stays the same idea: a game architecture that builds objects from data components processed by systems. Only the details change.

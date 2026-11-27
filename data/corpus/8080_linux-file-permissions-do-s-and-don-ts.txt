@@ -1,0 +1,17 @@
+Linux File Permissions Do's and Don'ts
+
+A quick list of habits for working with Linux File Permissions.
+
+Do:
+- Learn owner, group and others before anything else.
+- Try ls -l on a small example.
+- Make it a habit to grant the least permission that works.
+- Test the case of protecting private keys early.
+
+Don't:
+- Ignore this: using chmod 777 as a quick fix.
+- Ignore this: wrong ownership after copying files.
+- Ignore this: forgetting directory execute bits.
+- Adopt Linux File Permissions just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Linux File Permissions, a little patience with mode bits pays off more than any clever shortcut.

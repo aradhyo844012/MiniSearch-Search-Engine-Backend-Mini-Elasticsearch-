@@ -1,0 +1,11 @@
+Is Digital Audio Right for Your Project?
+
+Before adopting Digital Audio, ask whether it fits the problem. Remember that Digital Audio is representing sound as numbers by sampling it many times per second.
+
+It is a good fit when your work involves music production or voice calls, and when your team understands sampling rate.
+
+Be cautious when the project is very small, when deadlines leave no room to learn bit depth, or when you cannot manage these risks: clipping from too high a level, aliasing at low sample rates, and mixing sample rates.
+
+A simple decision test: write down the problem in one sentence, then check whether waveforms and the Nyquist limit are part of the answer. If they are, Digital Audio is probably worth a closer look.
+
+If you decide to go ahead, start small with podcasts and keep recordings below the clipping level.

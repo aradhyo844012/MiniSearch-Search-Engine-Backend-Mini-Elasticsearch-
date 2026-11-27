@@ -1,0 +1,26 @@
+Everything You Need to Know About MLOps Pipelines
+
+This page collects the essentials about MLOps Pipelines in one place. In short, MLOps Pipelines is automated workflows that train, test, deploy and monitor machine learning models.
+
+Core concepts:
+- data versioning
+- training pipelines
+- the model registry
+- continuous delivery
+
+Where it is used:
+- repeatable model releases
+- tracking experiments
+- rolling back models
+
+Common problems:
+- untracked data changes
+- manual deployment steps
+- no testing of data
+
+Tools to know:
+- MLflow
+- Kubeflow
+- DVC
+
+Remember this above all: a factory line that turns data into a tested, packaged model is a good way to picture it, and the best habit is to version both the code and the data.

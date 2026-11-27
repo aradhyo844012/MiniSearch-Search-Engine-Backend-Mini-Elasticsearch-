@@ -1,0 +1,11 @@
+Practice Exercises for systemd Services
+
+These exercises build real understanding of systemd Services. Do them in order, and write down your answers.
+
+Exercise 1: Explain how service states and journal logs differ, using a drawing.
+Exercise 2: Pick systemctl and complete its getting-started tutorial.
+Exercise 3: Compare journalctl and systemd-analyze for managing dependencies between services and write down your conclusion.
+Exercise 4: Create a small example that deliberately triggers this problem: editing unit files without reloading the daemon. Then fix it.
+Exercise 5: Write a short paragraph describing systemd Services and include the term unit files.
+
+When you finish, compare your answers with the definition: systemd Services is the init system and service manager used by most modern Linux distributions.

@@ -1,0 +1,11 @@
+Scaling Considerations for API Gateways
+
+A design that works for a classroom project can behave very differently under real load. Here is how API Gateways changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding routing and getting exposing microservices right.
+
+Medium scale: problems start to appear. Watch for a single point of failure and business logic leaking into the gateway, and measure with Kong before changing anything.
+
+Large scale: rate limits and request transformation move from background details to central design questions. Teams often revisit their choices around securing public APIs at this stage.
+
+Before you scale, keep the gateway thin and put business logic in services. It is cheaper to build that habit early than to fix a crisis later.

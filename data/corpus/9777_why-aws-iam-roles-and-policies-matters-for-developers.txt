@@ -1,0 +1,11 @@
+Why AWS IAM Roles and Policies Matters for Developers
+
+Developers who understand AWS IAM Roles and Policies make better decisions, because AWS IAM Roles and Policies is the permission system that controls who can do what in an AWS account.
+
+Three situations show why it matters. First, securing deployments. Second, granting services access. Third, auditing permissions. In each case, a solid grasp of users and roles and policies separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: wildcard permissions, long-lived access keys, and unused roles.
+
+You will not need to build everything yourself; IAM Access Analyzer, the AWS CLI, and Terraform cover most needs.
+
+Connect AWS IAM Roles and Policies with High Availability Design to see the bigger picture of Cloud Platforms and Architecture.

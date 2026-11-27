@@ -1,0 +1,15 @@
+Linear Algebra for Programmers Quick Reference
+
+A one-screen reminder for Linear Algebra for Programmers. Bookmark it and return when the details fade.
+
+What it is: the math of vectors and matrices used in graphics and machine learning.
+Key terms: vectors, matrices, dot products, and eigenvalues.
+Typical uses: 3D graphics, machine learning, and recommendation systems.
+Risks: mixing row and column conventions, shape mismatches, and forgetting that matrix multiplication is not commutative.
+Tools: NumPy, MATLAB, and the 3Blue1Brown video series.
+
+Mental picture: a set of arrows and stretching machines acting on space.
+
+Habit to build: check shapes before multiplying.
+
+See also: Information Theory and Entropy, which sits close to Linear Algebra for Programmers in the area of Mathematics for Computing.

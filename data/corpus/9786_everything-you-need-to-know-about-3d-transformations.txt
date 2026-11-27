@@ -1,0 +1,26 @@
+Everything You Need to Know About 3D Transformations
+
+This page collects the essentials about 3D Transformations in one place. In short, 3D Transformations is the matrix operations that move, rotate and scale objects in 3D space.
+
+Core concepts:
+- translation
+- rotation
+- scaling
+- matrices
+
+Where it is used:
+- games
+- modeling tools
+- robotics
+
+Common problems:
+- wrong multiplication order
+- gimbal lock
+- mixing coordinate systems
+
+Tools to know:
+- GLM
+- three.js
+- Blender
+
+Remember this above all: moving a toy around a table by sliding, turning and resizing it is a good way to picture it, and the best habit is to write down the order of transformations before multiplying.

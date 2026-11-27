@@ -1,0 +1,10 @@
+Vector Databases: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Vector Databases with confidence. The subject itself is databases built to store embeddings and find the most similar ones quickly.
+
+embeddings: one of the building blocks of Vector Databases. Documentation for FAISS usually mentions it early.
+approximate nearest neighbors: one of the building blocks of Vector Databases. It shows up whenever you work on semantic search.
+distance metrics: one of the building blocks of Vector Databases. Documentation for FAISS usually mentions it early.
+metadata filters: one of the building blocks of Vector Databases. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Vector Databases terms in sentences about recommendations. If the sentences feel natural, the vocabulary has stuck.

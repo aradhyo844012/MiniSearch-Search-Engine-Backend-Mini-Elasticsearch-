@@ -1,0 +1,11 @@
+Choosing Tools for Probability Basics
+
+There is no single best tool for Probability Basics. The right choice depends on your project, your team and your timeline.
+
+Python random is a common first choice, especially for randomized algorithms. NumPy suits teams that already work with similar technology, and simulation notebooks is worth a look when you need something different.
+
+Judge any tool for Probability Basics by four questions: Is the documentation clear? Is the community active? Does it handle machine learning well? Can you leave it later if you need to?
+
+Whichever tool you pick for Probability Basics, test it on a small problem first, and watch for this: confusing independent and exclusive events.
+
+As a rule of thumb, simulate the problem in code to check your reasoning, no matter which tool you use.

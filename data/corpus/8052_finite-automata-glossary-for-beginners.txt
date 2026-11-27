@@ -1,0 +1,12 @@
+Finite Automata Glossary for Beginners
+
+New words can make Finite Automata feel harder than it is. This glossary keeps the key ones in one place.
+
+Finite Automata: simple abstract machines that read input and move between a fixed set of states.
+states: a core term, most visible in tokenizers.
+transitions: a core term that beginners often confuse with accepting states.
+accepting states: a core term that connects to regular languages.
+regular languages: a core term worth revisiting after you try a real example.
+JFLAP: a tool commonly used for pattern matching.
+
+Come back to this Finite Automata list whenever documentation for Python dictionaries uses a word you do not recognize.

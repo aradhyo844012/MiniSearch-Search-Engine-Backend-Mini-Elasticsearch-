@@ -1,0 +1,13 @@
+Teaching Floating-Point Arithmetic to a Teammate
+
+Explaining Floating-Point Arithmetic to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: writing numbers in scientific notation with a limited number of digits. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits. Avoid jargon at this stage.
+
+Walk through an example involving scientific computing, naming mantissa and exponent and rounding as they come up.
+
+Ask your teammate to explain precision in Floating-Point Arithmetic back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, comparing floats with equality, and suggest this habit: compare floats with a tolerance and use decimals for money.

@@ -1,0 +1,17 @@
+Image Compression for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Image Compression.
+
+Learning goals:
+1. Explain Image Compression in your own words.
+2. Describe lossy and lossless formats, quantization, transform coding, and quality settings.
+3. Give examples from web images and photo storage.
+4. Name three problems to watch for.
+
+Start with the definition: Image Compression is reducing the size of image files by removing redundancy or less visible detail. Then draw packing a suitcase by folding clothes tightly on paper and label the four terms from the goals above.
+
+Self-test questions: Why is repeated recompression a problem? How does quantization relate to transform coding? When would you choose ImageMagick or mozjpeg?
+
+Study habit worth keeping: pick the format by content: photos versus flat graphics.
+
+When you feel ready, compare Image Compression with Computer Vision Basics and write down three differences.

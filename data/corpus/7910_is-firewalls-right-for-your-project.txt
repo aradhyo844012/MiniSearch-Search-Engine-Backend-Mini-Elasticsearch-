@@ -1,0 +1,11 @@
+Is Firewalls Right for Your Project?
+
+Before adopting Firewalls, ask whether it fits the problem. Remember that Firewalls is systems that allow or block network traffic according to rules.
+
+It is a good fit when your work involves protecting servers or segmenting networks, and when your team understands rules.
+
+Be cautious when the project is very small, when deadlines leave no room to learn stateful inspection, or when you cannot manage these risks: rules in the wrong order, overly broad allow rules, and locking yourself out remotely.
+
+A simple decision test: write down the problem in one sentence, then check whether default deny and zones are part of the answer. If they are, Firewalls is probably worth a closer look.
+
+If you decide to go ahead, start small with logging suspicious traffic and start with default deny and open only what you need.

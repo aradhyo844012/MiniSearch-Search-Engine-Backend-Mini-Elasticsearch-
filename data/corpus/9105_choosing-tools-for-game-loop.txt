@@ -1,0 +1,11 @@
+Choosing Tools for Game Loop
+
+There is no single best tool for Game Loop. The right choice depends on your project, your team and your timeline.
+
+Unity is a common first choice, especially for running every real-time game. Godot suits teams that already work with similar technology, and SDL is worth a look when you need something different.
+
+Judge any tool for Game Loop by four questions: Is the documentation clear? Is the community active? Does it handle keeping animation smooth well? Can you leave it later if you need to?
+
+Whichever tool you pick for Game Loop, test it on a small problem first, and watch for this: tying logic to frame rate.
+
+As a rule of thumb, use delta time so speed does not depend on frame rate, no matter which tool you use.

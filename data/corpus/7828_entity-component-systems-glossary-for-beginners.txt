@@ -1,0 +1,12 @@
+Entity Component Systems Glossary for Beginners
+
+New words can make Entity Component Systems feel harder than it is. This glossary keeps the key ones in one place.
+
+Entity Component Systems: a game architecture that builds objects from data components processed by systems.
+entities: a core term, most visible in large simulations.
+components: a core term that beginners often confuse with systems.
+systems: a core term that connects to queries.
+queries: a core term worth revisiting after you try a real example.
+Bevy: a tool commonly used for games with thousands of objects.
+
+Come back to this Entity Component Systems list whenever documentation for Unity DOTS uses a word you do not recognize.

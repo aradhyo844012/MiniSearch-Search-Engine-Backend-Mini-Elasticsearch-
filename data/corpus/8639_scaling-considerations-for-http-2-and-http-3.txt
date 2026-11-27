@@ -1,0 +1,11 @@
+Scaling Considerations for HTTP/2 and HTTP/3
+
+A design that works for a classroom project can behave very differently under real load. Here is how HTTP/2 and HTTP/3 changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding multiplexing and getting faster page loads right.
+
+Medium scale: problems start to appear. Watch for assuming old tricks like sprite sheets still help and middleboxes blocking UDP, and measure with curl with HTTP/3 support before changing anything.
+
+Large scale: QUIC and server push move from background details to central design questions. Teams often revisit their choices around improving mobile performance at this stage.
+
+Before you scale, keep a working HTTP/1.1 fallback. It is cheaper to build that habit early than to fix a crisis later.

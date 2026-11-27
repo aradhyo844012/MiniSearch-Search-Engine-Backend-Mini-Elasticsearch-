@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Game Loop
+
+This path is for a learner who has never studied Game Loop before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Game Loop is the repeating cycle that processes input, updates the game state and draws each frame) and learn input handling and the update step.
+
+Stage 2, hands-on: install Unity, follow a tutorial, and build a small example involving running every real-time game.
+
+Stage 3, depth: study rendering and frame timing, then deliberately explore this problem: tying logic to frame rate.
+
+Stage 4, application: apply Game Loop to keeping animation smooth, compare Godot with SDL, and write up your results.
+
+Stage 5, review: teach Game Loop to someone else, and then move on to A* Pathfinding.

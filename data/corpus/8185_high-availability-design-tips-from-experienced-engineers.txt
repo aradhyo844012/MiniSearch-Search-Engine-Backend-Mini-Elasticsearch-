@@ -1,0 +1,11 @@
+High Availability Design Tips from Experienced Engineers
+
+Engineers who work with High Availability Design regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip redundancy; everything else builds on it.
+2. Make sure you can list every component and ask what happens if it dies.
+3. Be careful with this one: hidden single points of failure.
+4. Test the case of online stores early, before the design hardens.
+5. When something behaves strangely, revisit failover before anything else.
+
+None of these tips needs special equipment, and all of them apply to banking systems as well as to High Availability Design in general.

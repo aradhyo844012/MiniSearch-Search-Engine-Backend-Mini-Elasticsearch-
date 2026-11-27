@@ -1,0 +1,11 @@
+Mistakes to Avoid with Game AI Behavior Trees
+
+Everyone learns Game AI Behavior Trees partly through mistakes. Here are three worth avoiding.
+
+Mistake one: trees that become tangled. It usually appears when someone skips selector nodes and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: expensive conditions checked every frame. It tends to be noticed late, often during testing of enemy behavior. A short checklist during review catches it early.
+
+Mistake three: no way to debug decisions. It is easy to miss because everything seems to work at first. Keep an eye on actions to spot it.
+
+If you remember only one rule, make it this: visualize the tree while the game is running.

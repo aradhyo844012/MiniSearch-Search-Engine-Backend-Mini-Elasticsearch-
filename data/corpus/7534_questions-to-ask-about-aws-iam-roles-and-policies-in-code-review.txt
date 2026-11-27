@@ -1,0 +1,12 @@
+Questions to Ask About AWS IAM Roles and Policies in Code Review
+
+Reviewing code that involves AWS IAM Roles and Policies is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: unused roles?
+- Is IAM Access Analyzer used consistently, or are we mixing approaches?
+- Have we considered wildcard permissions?
+- Would a test catch long-lived access keys if it appeared later?
+- Does the code handle the case of securing deployments correctly?
+- Is policies clear to someone reading the code for the first time?
+
+Good reviews of work on AWS IAM Roles and Policies are specific, kind and focused on least privilege, not on personal style.

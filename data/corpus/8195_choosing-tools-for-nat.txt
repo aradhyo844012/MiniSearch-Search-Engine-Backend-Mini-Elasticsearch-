@@ -1,0 +1,11 @@
+Choosing Tools for NAT
+
+There is no single best tool for NAT. The right choice depends on your project, your team and your timeline.
+
+iptables is a common first choice, especially for home routers. router admin pages suits teams that already work with similar technology, and conntrack is worth a look when you need something different.
+
+Judge any tool for NAT by four questions: Is the documentation clear? Is the community active? Does it handle sharing limited IPv4 addresses well? Can you leave it later if you need to?
+
+Whichever tool you pick for NAT, test it on a small problem first, and watch for this: breaking peer-to-peer connections.
+
+As a rule of thumb, document every port forward you create, no matter which tool you use.

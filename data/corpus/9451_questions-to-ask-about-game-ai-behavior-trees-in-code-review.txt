@@ -1,0 +1,12 @@
+Questions to Ask About Game AI Behavior Trees in Code Review
+
+Reviewing code that involves Game AI Behavior Trees is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect selector nodes, or does it work around it?
+- Is sequence nodes clear to someone reading the code for the first time?
+- Could we visualize the tree while the game is running?
+- Have we considered trees that become tangled?
+- Would a test catch expensive conditions checked every frame if it appeared later?
+- Have we avoided this problem: no way to debug decisions?
+
+Good reviews of work on Game AI Behavior Trees are specific, kind and focused on conditions, not on personal style.

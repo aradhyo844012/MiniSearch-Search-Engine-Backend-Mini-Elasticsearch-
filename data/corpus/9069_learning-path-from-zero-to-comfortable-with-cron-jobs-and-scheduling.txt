@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Cron Jobs and Scheduling
+
+This path is for a learner who has never studied Cron Jobs and Scheduling before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times) and learn crontab syntax and schedule fields.
+
+Stage 2, hands-on: install crontab, follow a tutorial, and build a small example involving nightly backups.
+
+Stage 3, depth: study environment differences and output redirection, then deliberately explore this problem: assuming cron has your shell environment.
+
+Stage 4, application: apply Cron Jobs and Scheduling to log rotation, compare systemd timers with flock, and write up your results.
+
+Stage 5, review: teach Cron Jobs and Scheduling to someone else, and then move on to Bash Scripting.

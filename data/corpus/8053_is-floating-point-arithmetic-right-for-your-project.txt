@@ -1,0 +1,11 @@
+Is Floating-Point Arithmetic Right for Your Project?
+
+Before adopting Floating-Point Arithmetic, ask whether it fits the problem. Remember that Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits.
+
+It is a good fit when your work involves scientific computing or graphics, and when your team understands mantissa and exponent.
+
+Be cautious when the project is very small, when deadlines leave no room to learn rounding, or when you cannot manage these risks: comparing floats with equality, accumulated rounding errors, and using floats for money.
+
+A simple decision test: write down the problem in one sentence, then check whether precision and special values are part of the answer. If they are, Floating-Point Arithmetic is probably worth a closer look.
+
+If you decide to go ahead, start small with financial calculations that need care and compare floats with a tolerance and use decimals for money.

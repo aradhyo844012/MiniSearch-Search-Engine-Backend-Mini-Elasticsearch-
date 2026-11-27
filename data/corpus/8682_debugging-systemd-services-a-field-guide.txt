@@ -1,0 +1,13 @@
+Debugging systemd Services: A Field Guide
+
+When something goes wrong around systemd Services, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: editing unit files without reloading the daemon, missing restart policies, and ignoring dependency ordering.
+Step 3: revisit unit files and targets, since misunderstandings there cause many bugs.
+Step 4: use systemctl or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving systemd Services in work such as starting services at boot come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, run systemctl daemon-reload after every unit file change. It prevents a surprising number of repeat problems.

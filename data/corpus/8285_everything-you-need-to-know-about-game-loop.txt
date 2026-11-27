@@ -1,0 +1,26 @@
+Everything You Need to Know About Game Loop
+
+This page collects the essentials about Game Loop in one place. In short, Game Loop is the repeating cycle that processes input, updates the game state and draws each frame.
+
+Core concepts:
+- input handling
+- the update step
+- rendering
+- frame timing
+
+Where it is used:
+- running every real-time game
+- keeping animation smooth
+- simulating physics steadily
+
+Common problems:
+- tying logic to frame rate
+- slow update steps
+- ignoring delta time
+
+Tools to know:
+- Unity
+- Godot
+- SDL
+
+Remember this above all: a heartbeat that keeps the whole game alive is a good way to picture it, and the best habit is to use delta time so speed does not depend on frame rate.

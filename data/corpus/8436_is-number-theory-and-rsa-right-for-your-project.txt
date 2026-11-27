@@ -1,0 +1,11 @@
+Is Number Theory and RSA Right for Your Project?
+
+Before adopting Number Theory and RSA, ask whether it fits the problem. Remember that Number Theory and RSA is the study of integers, whose properties underpin much of modern encryption.
+
+It is a good fit when your work involves public key cryptography or hash functions, and when your team understands prime numbers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn modular arithmetic, or when you cannot manage these risks: using small primes, implementing crypto by hand in production, and ignoring padding.
+
+A simple decision test: write down the problem in one sentence, then check whether greatest common divisor and modular exponentiation are part of the answer. If they are, Number Theory and RSA is probably worth a closer look.
+
+If you decide to go ahead, start small with digital signatures and use vetted crypto libraries instead of writing your own.

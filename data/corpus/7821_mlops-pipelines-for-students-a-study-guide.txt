@@ -1,0 +1,17 @@
+MLOps Pipelines for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover MLOps Pipelines.
+
+Learning goals:
+1. Explain MLOps Pipelines in your own words.
+2. Describe data versioning, training pipelines, the model registry, and continuous delivery.
+3. Give examples from repeatable model releases and tracking experiments.
+4. Name three problems to watch for.
+
+Start with the definition: MLOps Pipelines is automated workflows that train, test, deploy and monitor machine learning models. Then draw a factory line that turns data into a tested, packaged model on paper and label the four terms from the goals above.
+
+Self-test questions: Why is untracked data changes a problem? How does training pipelines relate to the model registry? When would you choose MLflow or Kubeflow?
+
+Study habit: version both the code and the data.
+
+When you feel ready, compare MLOps Pipelines with Speech Recognition and write down three differences.

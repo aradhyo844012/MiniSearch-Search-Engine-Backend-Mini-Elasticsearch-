@@ -1,0 +1,11 @@
+Information Theory and Entropy in Real Projects
+
+Reading about Information Theory and Entropy is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: data compression. Here, bits drives the main design choices, and the team needs to guard against confusing information with meaning.
+
+Scenario two: error-correcting codes. This time entropy matters most, and tools such as the Python math module help keep things manageable.
+
+Scenario three: communication systems. The key idea is compression limits, and the biggest risk is ignoring noise.
+
+Across all three scenarios, Information Theory and Entropy stays the same idea: the mathematics of measuring and compressing information. Only the details change.

@@ -1,0 +1,10 @@
+Rasterization: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Rasterization with confidence. The subject itself is converting shapes described by geometry into pixels on the screen.
+
+triangles: one of the building blocks of Rasterization. Mixing it up with neighboring terms is a common source of confusion.
+pixel coverage: one of the building blocks of Rasterization. Mixing it up with neighboring terms is a common source of confusion.
+the depth buffer: one of the building blocks of Rasterization. Documentation for OpenGL usually mentions it early.
+interpolation: one of the building blocks of Rasterization. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four Rasterization terms in sentences about user interfaces. If the sentences feel natural, the vocabulary has stuck.

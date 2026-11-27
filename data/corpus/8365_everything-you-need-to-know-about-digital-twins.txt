@@ -1,0 +1,26 @@
+Everything You Need to Know About Digital Twins
+
+This page collects the essentials about Digital Twins in one place. In short, Digital Twins is virtual copies of physical systems that are kept updated with real data.
+
+Core concepts:
+- sensor data
+- simulation models
+- synchronization
+- analytics
+
+Where it is used:
+- factory monitoring
+- building management
+- predictive maintenance
+
+Common problems:
+- stale data
+- over-detailed models
+- unclear goals
+
+Tools to know:
+- Azure Digital Twins
+- Unity
+- MQTT
+
+Remember this above all: a mirror image of a machine that moves when the machine moves is a good way to picture it, and the best habit is to define the question the twin must answer first.

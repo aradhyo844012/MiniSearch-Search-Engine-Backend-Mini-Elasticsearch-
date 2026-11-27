@@ -1,0 +1,17 @@
+Shaders Do's and Don'ts
+
+A quick list of habits for working with Shaders.
+
+Do:
+- Learn vertex shaders before anything else.
+- Try GLSL on a small example.
+- Make it a habit to start from a minimal shader and add one effect at a time.
+- Test the case of lighting effects early.
+
+Don't:
+- Ignore this: branches that slow the GPU.
+- Ignore this: precision errors.
+- Ignore this: platform differences.
+- Adopt Shaders just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Shaders, a little patience with fragment shaders pays off more than any clever shortcut.

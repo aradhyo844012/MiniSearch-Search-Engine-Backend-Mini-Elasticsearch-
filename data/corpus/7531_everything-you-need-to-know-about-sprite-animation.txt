@@ -1,0 +1,26 @@
+Everything You Need to Know About Sprite Animation
+
+This page collects the essentials about Sprite Animation in one place. In short, Sprite Animation is showing a sequence of 2D images quickly to make a character appear to move.
+
+Core concepts:
+- sprite sheets
+- frames
+- frame rate
+- animation states
+
+Where it is used:
+- 2D platformers
+- user interface effects
+- visual novels
+
+Common problems:
+- inconsistent frame timing
+- huge uncompressed sheets
+- animation states that never end
+
+Tools to know:
+- Aseprite
+- Unity Animator
+- Phaser
+
+Remember this above all: a flip book drawn one page at a time is a good way to picture it, and the best habit is to pack frames into one sprite sheet to reduce draw calls.

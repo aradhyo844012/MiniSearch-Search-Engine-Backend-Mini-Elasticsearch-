@@ -1,0 +1,12 @@
+AWS IAM Roles and Policies Glossary for Beginners
+
+New words can make AWS IAM Roles and Policies feel harder than it is. This glossary keeps the key ones in one place.
+
+AWS IAM Roles and Policies: the permission system that controls who can do what in an AWS account.
+users and roles: a core term, most visible in securing deployments.
+policies: a core term that beginners often confuse with least privilege.
+least privilege: a core term that connects to temporary credentials.
+temporary credentials: a core term worth revisiting after you try a real example.
+IAM Access Analyzer: a tool commonly used for granting services access.
+
+Come back to this AWS IAM Roles and Policies list whenever documentation for the AWS CLI uses a word you do not recognize.

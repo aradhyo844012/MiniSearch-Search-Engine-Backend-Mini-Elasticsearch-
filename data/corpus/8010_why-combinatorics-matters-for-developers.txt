@@ -1,0 +1,11 @@
+Why Combinatorics Matters for Developers
+
+Developers who understand Combinatorics make better decisions, because Combinatorics is the art of counting arrangements and selections.
+
+Three situations show why it matters. First, analyzing algorithms. Second, probability. Third, estimating password strength. In each case, a solid grasp of permutations and combinations separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: double counting, mixing order and no-order cases, and ignoring repetition.
+
+You will not need to build everything yourself; Python itertools, math.comb, and SymPy cover most needs.
+
+Connect Combinatorics with Finite Automata to see the bigger picture of Mathematics for Computing.

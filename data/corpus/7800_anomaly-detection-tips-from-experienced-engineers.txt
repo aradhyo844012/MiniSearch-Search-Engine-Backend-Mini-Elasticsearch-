@@ -1,0 +1,11 @@
+Anomaly Detection Tips from Experienced Engineers
+
+Engineers who work with Anomaly Detection regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can tune alerts using real examples of past incidents.
+2. Reach for scikit-learn first, and only then evaluate alternatives such as PyOD.
+3. Do not skip baselines; everything else builds on it.
+4. When something behaves strangely, revisit thresholds before anything else.
+5. Be careful with this one: too many false alarms.
+
+None of these tips needs special equipment, and all of them apply to server monitoring as well as to Anomaly Detection in general.

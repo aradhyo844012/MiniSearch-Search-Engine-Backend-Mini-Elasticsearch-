@@ -1,0 +1,13 @@
+Debugging Graph Theory Basics: A Field Guide
+
+When something goes wrong around Graph Theory Basics, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mixing directed and undirected graphs, ignoring disconnected parts, and choosing the wrong representation for dense graphs.
+Step 3: revisit vertices and edges and degree, since misunderstandings there cause many bugs.
+Step 4: use NetworkX or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Graph Theory Basics in work such as social networks come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, draw a small example before writing code. It prevents a surprising number of repeat problems.

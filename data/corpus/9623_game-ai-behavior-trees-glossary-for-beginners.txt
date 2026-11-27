@@ -1,0 +1,12 @@
+Game AI Behavior Trees Glossary for Beginners
+
+New words can make Game AI Behavior Trees feel harder than it is. This glossary keeps the key ones in one place.
+
+Game AI Behavior Trees: tree-shaped plans that decide what a computer-controlled character does.
+selector nodes: a core term, most visible in enemy behavior.
+sequence nodes: a core term that beginners often confuse with conditions.
+conditions: a core term that connects to actions.
+actions: a core term worth revisiting after you try a real example.
+Unreal Engine behavior trees: a tool commonly used for companion characters.
+
+Come back to this Game AI Behavior Trees list whenever documentation for py_trees uses a word you do not recognize.

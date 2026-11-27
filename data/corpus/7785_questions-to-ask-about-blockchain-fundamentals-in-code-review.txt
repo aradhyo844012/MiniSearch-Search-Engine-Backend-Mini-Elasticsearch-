@@ -1,0 +1,12 @@
+Questions to Ask About Blockchain Fundamentals in Code Review
+
+Reviewing code that involves Blockchain Fundamentals is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Bitcoin Core used consistently, or are we mixing approaches?
+- Have we considered treating it as a database replacement?
+- Does the code handle the case of digital currencies correctly?
+- Could we ask whether a normal database would solve the problem?
+- Have we avoided this problem: the energy use of some designs?
+- Is hashes clear to someone reading the code for the first time?
+
+Good reviews of work on Blockchain Fundamentals are specific, kind and focused on consensus, not on personal style.

@@ -1,0 +1,12 @@
+Questions to Ask About Managed Kubernetes Services in Code Review
+
+Reviewing code that involves Managed Kubernetes Services is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we plan regular cluster upgrades?
+- Is Amazon EKS used consistently, or are we mixing approaches?
+- Have we considered neglecting version upgrades?
+- Does this change respect the control plane, or does it work around it?
+- Does the code handle the case of running containerized apps correctly?
+- Have we avoided this problem: costly idle clusters?
+
+Good reviews of work on Managed Kubernetes Services are specific, kind and focused on upgrades, not on personal style.

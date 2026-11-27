@@ -1,0 +1,17 @@
+Managed Kubernetes Services Do's and Don'ts
+
+A quick list of habits for working with Managed Kubernetes Services.
+
+Do:
+- Learn the control plane before anything else.
+- Try Amazon EKS on a small example.
+- Make it a habit to plan regular cluster upgrades.
+- Test the case of running containerized apps early.
+
+Don't:
+- Ignore this: neglecting version upgrades.
+- Ignore this: oversized node pools.
+- Ignore this: costly idle clusters.
+- Adopt Managed Kubernetes Services just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Managed Kubernetes Services, a little patience with node pools pays off more than any clever shortcut.

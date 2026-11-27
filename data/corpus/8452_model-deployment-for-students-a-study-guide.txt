@@ -1,0 +1,17 @@
+Model Deployment for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Model Deployment.
+
+Learning goals:
+1. Explain Model Deployment in your own words.
+2. Describe serving APIs, batch versus online inference, containers, and latency budgets.
+3. Give examples from recommendation endpoints and fraud checks.
+4. Name three problems to watch for.
+
+Start with the definition: Model Deployment is making a trained model available to serve predictions in a real application. Then draw moving a recipe from the test kitchen into the restaurant on paper and label the four terms from the goals above.
+
+Self-test questions: Why is training-serving mismatch a problem? How does batch versus online inference relate to containers? When would you choose FastAPI or TorchServe?
+
+Study habit worth keeping: log inputs and outputs so predictions can be audited.
+
+When you feel ready, compare Model Deployment with AI Agents and write down three differences.

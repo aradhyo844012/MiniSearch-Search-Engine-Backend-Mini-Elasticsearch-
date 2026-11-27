@@ -1,0 +1,13 @@
+Teaching Biometric Authentication to a Teammate
+
+Explaining Biometric Authentication to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a door that recognizes you by your face instead of a key. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Biometric Authentication is verifying identity using traits such as fingerprints, faces or voices. Avoid jargon at this stage.
+
+Walk through an example involving phone unlock, naming enrollment and matching as they come up.
+
+Ask your teammate to explain false accept and false reject rates in Biometric Authentication back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, spoofing attacks, and suggest this habit: offer a fallback method and protect the stored templates.

@@ -1,0 +1,10 @@
+Reverse Proxies: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Reverse Proxies with confidence. The subject itself is servers that sit in front of applications and forward client requests to them.
+
+upstream servers: one of the building blocks of Reverse Proxies. Documentation for NGINX usually mentions it early.
+proxy headers: one of the building blocks of Reverse Proxies. Mixing it up with neighboring terms is a common source of confusion.
+TLS termination: one of the building blocks of Reverse Proxies. Mixing it up with neighboring terms is a common source of confusion.
+caching: one of the building blocks of Reverse Proxies. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four Reverse Proxies terms in sentences about terminating HTTPS. If the sentences feel natural, the vocabulary has stuck.

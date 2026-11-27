@@ -1,0 +1,17 @@
+Combinatorics Do's and Don'ts
+
+A quick list of habits for working with Combinatorics.
+
+Do:
+- Learn permutations before anything else.
+- Try Python itertools on a small example.
+- Make it a habit to test counting formulas on tiny cases first.
+- Test the case of analyzing algorithms early.
+
+Don't:
+- Ignore this: double counting.
+- Ignore this: mixing order and no-order cases.
+- Ignore this: ignoring repetition.
+- Adopt Combinatorics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Combinatorics, a little patience with combinations pays off more than any clever shortcut.

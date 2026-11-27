@@ -1,0 +1,11 @@
+Scaling Considerations for Disk Partitioning and Mounting
+
+A design that works for a classroom project can behave very differently under real load. Here is how Disk Partitioning and Mounting changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding partitions and getting adding a new drive right.
+
+Medium scale: problems start to appear. Watch for wrong device names and mounting without fstab entries, and measure with lsblk before changing anything.
+
+Large scale: mount points and fstab move from background details to central design questions. Teams often revisit their choices around separating data from the system at this stage.
+
+Before you scale, double-check device names with lsblk before formatting. It is cheaper to build that habit early than to fix a crisis later.

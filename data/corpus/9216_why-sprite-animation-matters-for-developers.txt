@@ -1,0 +1,11 @@
+Why Sprite Animation Matters for Developers
+
+Developers who understand Sprite Animation make better decisions, because Sprite Animation is showing a sequence of 2D images quickly to make a character appear to move.
+
+Three situations show why it matters. First, 2D platformers. Second, user interface effects. Third, visual novels. In each case, a solid grasp of sprite sheets and frames separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: inconsistent frame timing, huge uncompressed sheets, and animation states that never end.
+
+Good tools exist, including Aseprite, Unity Animator, and Phaser, so you rarely have to start from nothing.
+
+Connect Sprite Animation with Shaders to see the bigger picture of Game Development.

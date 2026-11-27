@@ -1,0 +1,11 @@
+Code Formatters in Real Projects
+
+Reading about Code Formatters is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: ending style debates. Here, style rules drives the main design choices, and the team needs to guard against reformatting entire files at once.
+
+Scenario two: cleaner diffs. This time configuration matters most, and tools such as Prettier help keep things manageable.
+
+Scenario three: onboarding contributors. The key idea is editor integration, and the biggest risk is conflicting tool settings.
+
+Across all three scenarios, Code Formatters stays the same idea: tools that automatically rewrite code to a consistent style. Only the details change.

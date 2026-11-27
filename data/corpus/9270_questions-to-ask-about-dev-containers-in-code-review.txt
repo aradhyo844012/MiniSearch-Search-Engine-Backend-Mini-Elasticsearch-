@@ -1,0 +1,12 @@
+Questions to Ask About Dev Containers in Code Review
+
+Reviewing code that involves Dev Containers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we pin tool versions inside the container definition?
+- Have we avoided this problem: forgetting to pin tool versions?
+- Does the code handle the case of onboarding new developers correctly?
+- Is images clear to someone reading the code for the first time?
+- Does this change respect devcontainer.json, or does it work around it?
+- Have we considered slow image builds?
+
+Good reviews of work on Dev Containers are specific, kind and focused on mounted folders, not on personal style.

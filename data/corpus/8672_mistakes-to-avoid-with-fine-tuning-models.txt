@@ -1,0 +1,11 @@
+Mistakes to Avoid with Fine-Tuning Models
+
+Everyone learns Fine-Tuning Models partly through mistakes. Here are three worth avoiding.
+
+Mistake one: overfitting on small datasets. It usually appears when someone skips pretrained weights and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: forgetting general abilities. It tends to be noticed late, often during testing of domain-specific language tasks. A short checklist during review catches it early.
+
+Mistake three: low-quality training data. It is easy to miss because everything seems to work at first. Keep an eye on evaluation to spot it.
+
+If you remember only one rule, make it this: start with a small, clean dataset and a held-out test set.

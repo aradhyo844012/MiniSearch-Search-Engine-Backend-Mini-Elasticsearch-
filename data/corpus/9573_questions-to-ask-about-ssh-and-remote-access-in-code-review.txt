@@ -1,0 +1,12 @@
+Questions to Ask About SSH and Remote Access in Code Review
+
+Reviewing code that involves SSH and Remote Access is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of administering servers correctly?
+- Could we use key-based login and disable password authentication?
+- Have we avoided this problem: ignoring host key warnings?
+- Would a test catch sharing private keys if it appeared later?
+- Have we considered password logins left enabled?
+- Is OpenSSH used consistently, or are we mixing approaches?
+
+Good reviews of work on SSH and Remote Access are specific, kind and focused on port forwarding, not on personal style.

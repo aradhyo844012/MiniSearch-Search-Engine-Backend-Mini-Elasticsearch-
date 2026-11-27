@@ -1,0 +1,11 @@
+Choosing Tools for Finite Automata
+
+There is no single best tool for Finite Automata. The right choice depends on your project, your team and your timeline.
+
+JFLAP is a common first choice, especially for tokenizers. Python dictionaries suits teams that already work with similar technology, and regex engines is worth a look when you need something different.
+
+Judge any tool for Finite Automata by four questions: Is the documentation clear? Is the community active? Does it handle pattern matching well? Can you leave it later if you need to?
+
+Whichever tool you pick for Finite Automata, test it on a small problem first, and watch for this: missing transitions.
+
+As a rule of thumb, draw the state diagram before writing any code, no matter which tool you use.

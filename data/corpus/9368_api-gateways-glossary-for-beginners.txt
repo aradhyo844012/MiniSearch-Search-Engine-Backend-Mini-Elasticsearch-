@@ -1,0 +1,12 @@
+API Gateways Glossary for Beginners
+
+New words can make API Gateways feel harder than it is. This glossary keeps the key ones in one place.
+
+API Gateways: services that sit in front of APIs to handle routing, authentication and limits.
+routing: a core term, most visible in exposing microservices.
+authentication: a core term that beginners often confuse with rate limits.
+rate limits: a core term that connects to request transformation.
+request transformation: a core term worth revisiting after you try a real example.
+Kong: a tool commonly used for securing public APIs.
+
+Come back to this API Gateways list whenever documentation for AWS API Gateway uses a word you do not recognize.

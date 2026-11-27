@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Views and Materialized Views
+
+This path is for a learner who has never studied Views and Materialized Views before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Views and Materialized Views is saved queries that behave like tables, with materialized views storing the results) and learn view definitions and refresh strategies.
+
+Stage 2, hands-on: install PostgreSQL, follow a tutorial, and build a small example involving simplifying repeated queries.
+
+Stage 3, depth: study permissions and dependencies, then deliberately explore this problem: stale materialized data.
+
+Stage 4, application: apply Views and Materialized Views to hiding sensitive columns, compare MySQL with Snowflake, and write up your results.
+
+Stage 5, review: teach Views and Materialized Views to someone else, and then move on to Database Schema Design for Beginners.

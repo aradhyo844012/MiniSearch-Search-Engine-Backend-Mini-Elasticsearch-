@@ -1,0 +1,15 @@
+Game Loop Quick Reference
+
+A one-screen reminder for Game Loop. Bookmark it and return when the details fade.
+
+What it is: the repeating cycle that processes input, updates the game state and draws each frame.
+Key terms: input handling, the update step, rendering, and frame timing.
+Typical uses: running every real-time game, keeping animation smooth, and simulating physics steadily.
+Risks: tying logic to frame rate, slow update steps, and ignoring delta time.
+Tools: Unity, Godot, and SDL.
+
+Mental picture: a heartbeat that keeps the whole game alive.
+
+Habit to build: use delta time so speed does not depend on frame rate.
+
+See also: A* Pathfinding, which sits close to Game Loop in the area of Game Development.

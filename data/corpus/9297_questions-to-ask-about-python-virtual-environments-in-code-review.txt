@@ -1,0 +1,12 @@
+Questions to Ask About Python Virtual Environments in Code Review
+
+Reviewing code that involves Python Virtual Environments is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered installing packages globally?
+- Have we avoided this problem: committing the environment folder?
+- Could we create one environment per project and record its requirements?
+- Is pip clear to someone reading the code for the first time?
+- Does the code handle the case of keeping projects separate correctly?
+- Would a test catch forgetting to activate if it appeared later?
+
+Good reviews of work on Python Virtual Environments are specific, kind and focused on requirements files, not on personal style.

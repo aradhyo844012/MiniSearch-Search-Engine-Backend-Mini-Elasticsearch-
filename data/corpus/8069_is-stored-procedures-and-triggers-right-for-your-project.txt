@@ -1,0 +1,11 @@
+Is Stored Procedures and Triggers Right for Your Project?
+
+Before adopting Stored Procedures and Triggers, ask whether it fits the problem. Remember that Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes.
+
+It is a good fit when your work involves enforcing rules close to the data or audit logging, and when your team understands procedures.
+
+Be cautious when the project is very small, when deadlines leave no room to learn triggers, or when you cannot manage these risks: hidden logic that surprises developers, hard-to-test code, and trigger chains.
+
+A simple decision test: write down the problem in one sentence, then check whether parameters and side effects are part of the answer. If they are, Stored Procedures and Triggers is probably worth a closer look.
+
+If you decide to go ahead, start small with batch updates and keep triggers small and well documented.

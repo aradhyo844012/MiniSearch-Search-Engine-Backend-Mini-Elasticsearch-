@@ -1,0 +1,11 @@
+Augmented and Virtual Reality Tips from Experienced Engineers
+
+Engineers who work with Augmented and Virtual Reality regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip head tracking; everything else builds on it.
+2. When something behaves strangely, revisit rendering at high frame rates before anything else.
+3. Be careful with this one: motion sickness from low frame rates.
+4. Make sure you can keep frame rates high and test comfort with real users.
+5. Test the case of training simulations early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to games as well as to Augmented and Virtual Reality in general.

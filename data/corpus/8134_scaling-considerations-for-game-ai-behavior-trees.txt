@@ -1,0 +1,11 @@
+Scaling Considerations for Game AI Behavior Trees
+
+A design that works for a classroom project can behave very differently under real load. Here is how Game AI Behavior Trees changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding selector nodes and getting enemy behavior right.
+
+Medium scale: problems start to appear. Watch for trees that become tangled and expensive conditions checked every frame, and measure with Unreal Engine behavior trees before changing anything.
+
+Large scale: conditions and actions move from background details to central design questions. Teams often revisit their choices around companion characters at this stage.
+
+Before you scale, visualize the tree while the game is running. It is cheaper to build that habit early than to fix a crisis later.

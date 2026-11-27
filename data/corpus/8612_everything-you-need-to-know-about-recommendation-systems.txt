@@ -1,0 +1,26 @@
+Everything You Need to Know About Recommendation Systems
+
+This page collects the essentials about Recommendation Systems in one place. In short, Recommendation Systems is systems that suggest items a user is likely to want.
+
+Core concepts:
+- collaborative filtering
+- content-based filtering
+- ranking
+- the cold start problem
+
+Where it is used:
+- streaming services
+- online shops
+- news feeds
+
+Common problems:
+- feedback loops
+- popularity bias
+- ignoring new users
+
+Tools to know:
+- Surprise
+- implicit
+- TensorFlow Recommenders
+
+Remember this above all: a shopkeeper who remembers what similar customers liked is a good way to picture it, and the best habit is to evaluate with held-out interactions, not training data.

@@ -1,0 +1,17 @@
+AWS IAM Roles and Policies for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover AWS IAM Roles and Policies.
+
+Learning goals:
+1. Explain AWS IAM Roles and Policies in your own words.
+2. Describe users and roles, policies, least privilege, and temporary credentials.
+3. Give examples from securing deployments and granting services access.
+4. Name three problems to watch for.
+
+Start with the definition: AWS IAM Roles and Policies is the permission system that controls who can do what in an AWS account. Then draw key cards that open only the doors a person needs on paper and label the four terms from the goals above.
+
+Self-test questions: Why is wildcard permissions a problem? How does policies relate to least privilege? When would you choose IAM Access Analyzer or the AWS CLI?
+
+Study habit worth keeping: grant the narrowest policy that works and review it regularly.
+
+When you feel ready, compare AWS IAM Roles and Policies with Twelve-Factor Apps and write down three differences.

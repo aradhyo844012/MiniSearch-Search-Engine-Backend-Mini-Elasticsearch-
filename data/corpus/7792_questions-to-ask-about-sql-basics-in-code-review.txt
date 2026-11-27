@@ -1,0 +1,12 @@
+Questions to Ask About SQL Basics in Code Review
+
+Reviewing code that involves SQL Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we run a SELECT with the same WHERE clause before any UPDATE or DELETE?
+- Does this change respect SELECT, or does it work around it?
+- Would a test catch selecting every column if it appeared later?
+- Is SQLite used consistently, or are we mixing approaches?
+- Have we avoided this problem: assuming row order without ORDER BY?
+- Is WHERE clear to someone reading the code for the first time?
+
+Good reviews of work on SQL Basics are specific, kind and focused on ORDER BY, not on personal style.

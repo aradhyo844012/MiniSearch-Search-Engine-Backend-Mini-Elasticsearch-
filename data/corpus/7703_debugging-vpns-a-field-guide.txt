@@ -1,0 +1,13 @@
+Debugging VPNs: A Field Guide
+
+When something goes wrong around VPNs, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: assuming it makes you anonymous, slow routing through distant servers, and leaking DNS requests.
+Step 3: revisit tunneling and encryption, since misunderstandings there cause many bugs.
+Step 4: use WireGuard or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving VPNs in work such as remote work access come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, test for DNS leaks after connecting. It prevents a surprising number of repeat problems.

@@ -1,0 +1,15 @@
+3D Transformations Quick Reference
+
+A one-screen reminder for 3D Transformations. Bookmark it and return when the details fade.
+
+What it is: the matrix operations that move, rotate and scale objects in 3D space.
+Key terms: translation, rotation, scaling, and matrices.
+Typical uses: games, modeling tools, and robotics.
+Risks: wrong multiplication order, gimbal lock, and mixing coordinate systems.
+Tools: GLM, three.js, and Blender.
+
+Mental picture: moving a toy around a table by sliding, turning and resizing it.
+
+Habit to build: write down the order of transformations before multiplying.
+
+See also: Rasterization, which sits close to 3D Transformations in the area of Graphics and Multimedia.

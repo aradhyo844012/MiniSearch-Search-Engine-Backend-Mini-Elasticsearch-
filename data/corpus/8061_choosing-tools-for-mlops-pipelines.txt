@@ -1,0 +1,11 @@
+Choosing Tools for MLOps Pipelines
+
+There is no single best tool for MLOps Pipelines. The right choice depends on your project, your team and your timeline.
+
+MLflow is a common first choice, especially for repeatable model releases. Kubeflow suits teams that already work with similar technology, and DVC is worth a look when you need something different.
+
+Judge any tool for MLOps Pipelines by four questions: Is the documentation clear? Is the community active? Does it handle tracking experiments well? Can you leave it later if you need to?
+
+Whichever tool you pick for MLOps Pipelines, test it on a small problem first, and watch for this: untracked data changes.
+
+As a rule of thumb, version both the code and the data, no matter which tool you use.

@@ -1,0 +1,13 @@
+Teaching Packet Switching to a Teammate
+
+Explaining Packet Switching to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: mailing a book one page per envelope and reassembling it on arrival. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Packet Switching is a method of sending data as small packets that travel independently across a network. Avoid jargon at this stage.
+
+Walk through an example involving internet traffic, naming packets and headers as they come up.
+
+Ask your teammate to explain routing in Packet Switching back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, packet loss, and suggest this habit: capture a few packets to see the headers for yourself.

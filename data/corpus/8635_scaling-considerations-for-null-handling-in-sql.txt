@@ -1,0 +1,11 @@
+Scaling Considerations for NULL Handling in SQL
+
+A design that works for a classroom project can behave very differently under real load. Here is how NULL Handling in SQL changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding three-valued logic and getting optional fields right.
+
+Medium scale: problems start to appear. Watch for comparing with equals instead of IS NULL and NOT IN with NULLs, and measure with PostgreSQL before changing anything.
+
+Large scale: COALESCE and NULL in aggregates move from background details to central design questions. Teams often revisit their choices around outer joins at this stage.
+
+Before you scale, use IS NULL and COALESCE instead of comparing with equals. It is cheaper to build that habit early than to fix a crisis later.

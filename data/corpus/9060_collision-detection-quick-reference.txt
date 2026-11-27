@@ -1,0 +1,15 @@
+Collision Detection Quick Reference
+
+A one-screen reminder for Collision Detection. Bookmark it and return when the details fade.
+
+What it is: the process of finding out when objects in a game touch or overlap.
+Key terms: bounding boxes, broad and narrow phases, spatial partitioning, and collision response.
+Typical uses: platformers, shooters, and physics puzzles.
+Risks: tunneling through thin objects, checking every pair of objects, and inconsistent hitboxes.
+Tools: Box2D, Unity colliders, and quadtrees.
+
+Mental picture: two people checking whether their personal space bubbles overlap.
+
+Habit to build: use simple shapes first and refine only when needed.
+
+See also: Game Loop, which sits close to Collision Detection in the area of Game Development.

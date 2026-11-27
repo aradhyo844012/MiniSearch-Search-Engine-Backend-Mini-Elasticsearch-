@@ -1,0 +1,15 @@
+NULL Handling in SQL Quick Reference
+
+A one-screen reminder for NULL Handling in SQL. Bookmark it and return when the details fade.
+
+What it is: understanding how missing or unknown values behave in queries.
+Key terms: three-valued logic, IS NULL, COALESCE, and NULL in aggregates.
+Typical uses: optional fields, outer joins, and data cleaning.
+Risks: comparing with equals instead of IS NULL, NOT IN with NULLs, and forgetting NULLs in counts.
+Tools: PostgreSQL, SQLite, and DBeaver.
+
+Mental picture: an empty box on a form that means unknown, not zero.
+
+Habit to build: use IS NULL and COALESCE instead of comparing with equals.
+
+See also: Views and Materialized Views, which sits close to NULL Handling in SQL in the area of SQL and Data Practice.

@@ -1,0 +1,13 @@
+Debugging Makefiles: A Field Guide
+
+When something goes wrong around Makefiles, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: tabs versus spaces, missing phony declarations, and hidden environment assumptions.
+Step 3: revisit targets and prerequisites, since misunderstandings there cause many bugs.
+Step 4: use GNU Make or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Makefiles in work such as compiling C projects come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use phony targets for tasks like test and clean. It prevents a surprising number of repeat problems.

@@ -1,0 +1,11 @@
+Scaling Considerations for Semantic Versioning
+
+A design that works for a classroom project can behave very differently under real load. Here is how Semantic Versioning changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding major, minor and patch numbers and getting publishing libraries right.
+
+Medium scale: problems start to appear. Watch for breaking changes in minor releases and overly loose ranges, and measure with semver.org before changing anything.
+
+Large scale: pre-release tags and version ranges move from background details to central design questions. Teams often revisit their choices around declaring dependencies at this stage.
+
+Before you scale, write a changelog entry with every release. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+SSH and Remote Access in Real Projects
+
+Reading about SSH and Remote Access is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: administering servers. Here, key pairs drives the main design choices, and the team needs to guard against password logins left enabled.
+
+Scenario two: copying files securely. This time host keys matters most, and tools such as OpenSSH help keep things manageable.
+
+Scenario three: tunneling to private services. The key idea is port forwarding, and the biggest risk is sharing private keys.
+
+Across all three scenarios, SSH and Remote Access stays the same idea: a secure protocol for logging in to and controlling remote machines. Only the details change.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with 3D Transformations
+
+Everyone learns 3D Transformations partly through mistakes. Here are three worth avoiding.
+
+Mistake one: wrong multiplication order. It usually appears when someone skips translation and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: gimbal lock. It tends to be noticed late, often during testing of games. A short checklist during review catches it early.
+
+Mistake three: mixing coordinate systems. It is easy to miss because everything seems to work at first. Keep an eye on matrices to spot it.
+
+If you remember only one rule, make it this: write down the order of transformations before multiplying.

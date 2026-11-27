@@ -1,0 +1,11 @@
+Is Video Codecs Right for Your Project?
+
+Before adopting Video Codecs, ask whether it fits the problem. Remember that Video Codecs is programs that compress and decompress video so it can be stored and streamed.
+
+It is a good fit when your work involves streaming services or video calls, and when your team understands frames.
+
+Be cautious when the project is very small, when deadlines leave no room to learn motion compensation, or when you cannot manage these risks: mismatched codec support, too low a bitrate, and ignoring hardware decoding.
+
+A simple decision test: write down the problem in one sentence, then check whether bitrate and containers are part of the answer. If they are, Video Codecs is probably worth a closer look.
+
+If you decide to go ahead, start small with archiving footage and test playback on the weakest target device.

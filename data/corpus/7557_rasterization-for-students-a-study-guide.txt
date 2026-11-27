@@ -1,0 +1,17 @@
+Rasterization for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Rasterization.
+
+Learning goals:
+1. Explain Rasterization in your own words.
+2. Describe triangles, pixel coverage, the depth buffer, and interpolation.
+3. Give examples from real-time games and user interfaces.
+4. Name three problems to watch for.
+
+Start with the definition: Rasterization is converting shapes described by geometry into pixels on the screen. Then draw coloring squares on graph paper to match a drawn outline on paper and label the four terms from the goals above.
+
+Self-test questions: Why is aliasing along edges a problem? How does pixel coverage relate to the depth buffer? When would you choose OpenGL or Vulkan?
+
+Study habit: draw simple shapes first to understand the pipeline.
+
+When you feel ready, compare Rasterization with Vector Graphics (SVG) and write down three differences.

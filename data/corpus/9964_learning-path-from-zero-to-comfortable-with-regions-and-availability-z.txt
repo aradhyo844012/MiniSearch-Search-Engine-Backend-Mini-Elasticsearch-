@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Regions and Availability Zones
+
+This path is for a learner who has never studied Regions and Availability Zones before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Regions and Availability Zones is the geographic locations and isolated data centers a cloud provider uses to host resources) and learn regions and availability zones.
+
+Stage 2, hands-on: install AWS Regions, follow a tutorial, and build a small example involving placing services near users.
+
+Stage 3, depth: study latency and data residency, then deliberately explore this problem: putting everything in one zone.
+
+Stage 4, application: apply Regions and Availability Zones to surviving data center failures, compare Azure regions with Google Cloud regions, and write up your results.
+
+Stage 5, review: teach Regions and Availability Zones to someone else, and then move on to Twelve-Factor Apps.

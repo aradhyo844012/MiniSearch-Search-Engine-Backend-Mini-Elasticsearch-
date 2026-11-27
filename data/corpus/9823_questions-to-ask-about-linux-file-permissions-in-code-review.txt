@@ -1,0 +1,12 @@
+Questions to Ask About Linux File Permissions in Code Review
+
+Reviewing code that involves Linux File Permissions is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: forgetting directory execute bits?
+- Is ls -l used consistently, or are we mixing approaches?
+- Does this change respect owner, group and others, or does it work around it?
+- Is mode bits clear to someone reading the code for the first time?
+- Would a test catch wrong ownership after copying files if it appeared later?
+- Could we grant the least permission that works?
+
+Good reviews of work on Linux File Permissions are specific, kind and focused on chmod and chown, not on personal style.

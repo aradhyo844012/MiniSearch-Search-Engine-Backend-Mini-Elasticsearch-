@@ -1,0 +1,11 @@
+Choosing Tools for Linux File Permissions
+
+There is no single best tool for Linux File Permissions. The right choice depends on your project, your team and your timeline.
+
+ls -l is a common first choice, especially for protecting private keys. chmod suits teams that already work with similar technology, and setfacl is worth a look when you need something different.
+
+Judge any tool for Linux File Permissions by four questions: Is the documentation clear? Is the community active? Does it handle sharing project folders well? Can you leave it later if you need to?
+
+Whichever tool you pick for Linux File Permissions, test it on a small problem first, and watch for this: using chmod 777 as a quick fix.
+
+As a rule of thumb, grant the least permission that works, no matter which tool you use.

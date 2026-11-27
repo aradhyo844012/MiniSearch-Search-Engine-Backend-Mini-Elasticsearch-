@@ -1,0 +1,15 @@
+Video Codecs in 10 Minutes
+
+You have ten minutes, so here is the fast route through Video Codecs.
+
+Minutes 1 and 2, the definition: Video Codecs is programs that compress and decompress video so it can be stored and streamed.
+
+Minutes 3 and 4, the vocabulary: learn frames, motion compensation, bitrate, and containers.
+
+Minutes 5 and 6, the picture: imagine a flip book that only redraws what changed between pages. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through streaming services, video calls, and archiving footage.
+
+Minutes 9 and 10, the traps and the tools: watch for mismatched codec support and too low a bitrate, then try FFmpeg for a first experiment.
+
+If you have a spare minute, remember to test playback on the weakest target device.

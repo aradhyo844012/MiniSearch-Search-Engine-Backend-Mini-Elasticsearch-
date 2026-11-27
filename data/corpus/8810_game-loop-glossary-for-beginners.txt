@@ -1,0 +1,12 @@
+Game Loop Glossary for Beginners
+
+New words can make Game Loop feel harder than it is. This glossary keeps the key ones in one place.
+
+Game Loop: the repeating cycle that processes input, updates the game state and draws each frame.
+input handling: a core term, most visible in running every real-time game.
+the update step: a core term that beginners often confuse with rendering.
+rendering: a core term that connects to frame timing.
+frame timing: a core term worth revisiting after you try a real example.
+Unity: a tool commonly used for keeping animation smooth.
+
+Come back to this Game Loop list whenever documentation for Godot uses a word you do not recognize.

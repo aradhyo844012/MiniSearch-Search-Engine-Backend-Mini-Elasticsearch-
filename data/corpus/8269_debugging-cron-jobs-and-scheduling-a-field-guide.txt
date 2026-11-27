@@ -1,0 +1,13 @@
+Debugging Cron Jobs and Scheduling: A Field Guide
+
+When something goes wrong around Cron Jobs and Scheduling, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: assuming cron has your shell environment, overlapping runs of slow jobs, and no logging of failures.
+Step 3: revisit crontab syntax and schedule fields, since misunderstandings there cause many bugs.
+Step 4: use crontab or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Cron Jobs and Scheduling in work such as nightly backups come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, redirect output to a log file and use absolute paths. It prevents a surprising number of repeat problems.

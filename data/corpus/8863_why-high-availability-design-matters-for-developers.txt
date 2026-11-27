@@ -1,0 +1,11 @@
+Why High Availability Design Matters for Developers
+
+Developers who understand High Availability Design make better decisions, because High Availability Design is designing systems so they keep working when parts fail.
+
+Three situations show why it matters. First, online stores. Second, banking systems. Third, healthcare software. In each case, a solid grasp of redundancy and failover separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: hidden single points of failure, untested failover, and correlated failures.
+
+You will not need to build everything yourself; load balancers, Kubernetes, and Patroni cover most needs.
+
+Connect High Availability Design with Managed Cloud Databases to see the bigger picture of Cloud Platforms and Architecture.

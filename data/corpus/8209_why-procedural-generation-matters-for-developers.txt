@@ -1,0 +1,11 @@
+Why Procedural Generation Matters for Developers
+
+Developers who understand Procedural Generation make better decisions, because Procedural Generation is creating game content such as levels and terrain automatically with algorithms.
+
+Three situations show why it matters. First, roguelike dungeons. Second, infinite terrain. Third, varied item drops. In each case, a solid grasp of random seeds and noise functions separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: levels that are unfair or unwinnable, repetitive results, and bugs that cannot be reproduced without seeds.
+
+Good tools exist, including Perlin noise, Wave Function Collapse, and Unity, so you rarely have to start from nothing.
+
+Connect Procedural Generation with Game Loop to see the bigger picture of Game Development.

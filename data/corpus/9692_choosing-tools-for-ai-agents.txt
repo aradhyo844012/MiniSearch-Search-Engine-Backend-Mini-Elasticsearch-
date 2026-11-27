@@ -1,0 +1,11 @@
+Choosing Tools for AI Agents
+
+There is no single best tool for AI Agents. The right choice depends on your project, your team and your timeline.
+
+LangGraph is a common first choice, especially for research assistants. AutoGen suits teams that already work with similar technology, and tool-calling APIs is worth a look when you need something different.
+
+Judge any tool for AI Agents by four questions: Is the documentation clear? Is the community active? Does it handle workflow automation well? Can you leave it later if you need to?
+
+Whichever tool you pick for AI Agents, test it on a small problem first, and watch for this: runaway loops.
+
+As a rule of thumb, limit what tools the agent may use and log every action, no matter which tool you use.

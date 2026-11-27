@@ -1,0 +1,12 @@
+Process Signals and Job Control Glossary for Beginners
+
+New words can make Process Signals and Job Control feel harder than it is. This glossary keeps the key ones in one place.
+
+Process Signals and Job Control: messages and shell features used to stop, pause and resume running programs.
+SIGTERM and SIGKILL: a core term, most visible in stopping runaway programs.
+foreground and background jobs: a core term that beginners often confuse with kill and trap.
+kill and trap: a core term that connects to process groups.
+process groups: a core term worth revisiting after you try a real example.
+kill: a tool commonly used for shutting down gracefully.
+
+Come back to this Process Signals and Job Control list whenever documentation for jobs and fg uses a word you do not recognize.

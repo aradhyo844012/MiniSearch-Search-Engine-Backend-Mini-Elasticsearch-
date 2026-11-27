@@ -1,0 +1,11 @@
+Scaling Considerations for Graph Theory Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Graph Theory Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding vertices and edges and getting social networks right.
+
+Medium scale: problems start to appear. Watch for mixing directed and undirected graphs and ignoring disconnected parts, and measure with NetworkX before changing anything.
+
+Large scale: paths and cycles and connectivity move from background details to central design questions. Teams often revisit their choices around maps at this stage.
+
+Before you scale, draw a small example before writing code. It is cheaper to build that habit early than to fix a crisis later.

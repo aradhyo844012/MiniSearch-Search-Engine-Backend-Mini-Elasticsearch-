@@ -1,0 +1,11 @@
+Is Shaders Right for Your Project?
+
+Before adopting Shaders, ask whether it fits the problem. Remember that Shaders is small programs that run on the graphics card to control how things are drawn.
+
+It is a good fit when your work involves lighting effects or water and fire visuals, and when your team understands vertex shaders.
+
+Be cautious when the project is very small, when deadlines leave no room to learn fragment shaders, or when you cannot manage these risks: branches that slow the GPU, precision errors, and platform differences.
+
+A simple decision test: write down the problem in one sentence, then check whether uniforms and GLSL are part of the answer. If they are, Shaders is probably worth a closer look.
+
+If you decide to go ahead, start small with post-processing and start from a minimal shader and add one effect at a time.

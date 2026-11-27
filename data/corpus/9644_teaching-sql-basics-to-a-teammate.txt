@@ -1,0 +1,13 @@
+Teaching SQL Basics to a Teammate
+
+Explaining SQL Basics to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: asking a very organized librarian for exactly the books you need. Ask your teammate what the picture suggests.
+
+Then give the plain definition: SQL Basics is the core SQL commands for reading and changing data in tables. Avoid jargon at this stage.
+
+Walk through an example involving reading customer records, naming SELECT and WHERE as they come up.
+
+Ask your teammate to explain ORDER BY in SQL Basics back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, forgetting the WHERE clause on updates, and suggest this habit: run a SELECT with the same WHERE clause before any UPDATE or DELETE.

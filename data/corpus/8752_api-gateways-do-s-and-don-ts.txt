@@ -1,0 +1,17 @@
+API Gateways Do's and Don'ts
+
+A quick list of habits for working with API Gateways.
+
+Do:
+- Learn routing before anything else.
+- Try Kong on a small example.
+- Make it a habit to keep the gateway thin and put business logic in services.
+- Test the case of exposing microservices early.
+
+Don't:
+- Ignore this: a single point of failure.
+- Ignore this: business logic leaking into the gateway.
+- Ignore this: added latency.
+- Adopt API Gateways just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with API Gateways, a little patience with authentication pays off more than any clever shortcut.

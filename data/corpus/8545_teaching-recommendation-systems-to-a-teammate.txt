@@ -1,0 +1,13 @@
+Teaching Recommendation Systems to a Teammate
+
+Explaining Recommendation Systems to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a shopkeeper who remembers what similar customers liked. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Recommendation Systems is systems that suggest items a user is likely to want. Avoid jargon at this stage.
+
+Walk through an example involving streaming services, naming collaborative filtering and content-based filtering as they come up.
+
+Ask your teammate to explain ranking in Recommendation Systems back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, feedback loops, and suggest this habit: evaluate with held-out interactions, not training data.

@@ -1,0 +1,15 @@
+Managed Kubernetes Services Quick Reference
+
+A one-screen reminder for Managed Kubernetes Services. Bookmark it and return when the details fade.
+
+What it is: cloud services that run the Kubernetes control plane for you.
+Key terms: the control plane, node pools, upgrades, and integrated load balancers.
+Typical uses: running containerized apps, scaling services, and reducing operations work.
+Risks: neglecting version upgrades, oversized node pools, and costly idle clusters.
+Tools: Amazon EKS, Google GKE, and Azure AKS.
+
+Mental picture: renting an apartment building where the landlord handles the plumbing.
+
+Habit to build: plan regular cluster upgrades.
+
+See also: Managed Cloud Databases, which sits close to Managed Kubernetes Services in the area of Cloud Platforms and Architecture.

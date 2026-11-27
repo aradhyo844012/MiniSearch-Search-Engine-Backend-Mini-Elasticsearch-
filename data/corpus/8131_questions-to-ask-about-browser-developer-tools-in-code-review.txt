@@ -1,0 +1,12 @@
+Questions to Ask About Browser Developer Tools in Code Review
+
+Reviewing code that involves Browser Developer Tools is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Chrome DevTools used consistently, or are we mixing approaches?
+- Could we keep the network panel open while testing features?
+- Does the code handle the case of debugging layouts correctly?
+- Is the console clear to someone reading the code for the first time?
+- Have we avoided this problem: ignoring console warnings?
+- Does this change respect the elements panel, or does it work around it?
+
+Good reviews of work on Browser Developer Tools are specific, kind and focused on the network panel, not on personal style.

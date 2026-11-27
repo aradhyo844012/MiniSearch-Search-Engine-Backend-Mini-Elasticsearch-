@@ -1,0 +1,15 @@
+The Pros and Cons of Rasterization
+
+No technology is free of trade-offs, and Rasterization is no exception. Here is an honest summary.
+
+Advantages:
+- Supports real-time games
+- Makes user interfaces easier
+- Helps with CAD previews
+
+Drawbacks and risks:
+- Risk: aliasing along edges
+- Risk: overdraw
+- Risk: depth fighting
+
+Weigh the two lists against your own project. If the advantages match your needs, such as real-time games, and you can manage the risks, Rasterization is a sound choice. Whatever you decide, draw simple shapes first to understand the pipeline.

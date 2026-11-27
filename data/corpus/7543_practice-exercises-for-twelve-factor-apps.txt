@@ -1,0 +1,11 @@
+Practice Exercises for Twelve-Factor Apps
+
+These exercises build real understanding of Twelve-Factor Apps. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Twelve-Factor Apps and include the term config in the environment.
+Exercise 2: Create a small example that deliberately triggers this problem: storing state on local disks. Then fix it.
+Exercise 3: Explain how backing services and disposability differ, using a drawing.
+Exercise 4: Compare Docker and Cloud Foundry for keeping environments consistent and write down your conclusion.
+Exercise 5: Pick Heroku and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Twelve-Factor Apps is a set of twelve guidelines for building apps that deploy and scale cleanly.

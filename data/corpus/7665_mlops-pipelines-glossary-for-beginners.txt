@@ -1,0 +1,12 @@
+MLOps Pipelines Glossary for Beginners
+
+New words can make MLOps Pipelines feel harder than it is. This glossary keeps the key ones in one place.
+
+MLOps Pipelines: automated workflows that train, test, deploy and monitor machine learning models.
+data versioning: a core term, most visible in repeatable model releases.
+training pipelines: a core term that beginners often confuse with the model registry.
+the model registry: a core term that connects to continuous delivery.
+continuous delivery: a core term worth revisiting after you try a real example.
+MLflow: a tool commonly used for tracking experiments.
+
+Come back to this MLOps Pipelines list whenever documentation for Kubeflow uses a word you do not recognize.

@@ -1,0 +1,12 @@
+Linux File Permissions Glossary for Beginners
+
+New words can make Linux File Permissions feel harder than it is. This glossary keeps the key ones in one place.
+
+Linux File Permissions: the read, write and execute rules that control who can access each file.
+owner, group and others: a core term, most visible in protecting private keys.
+mode bits: a core term that beginners often confuse with chmod and chown.
+chmod and chown: a core term that connects to umask.
+umask: a core term worth revisiting after you try a real example.
+ls -l: a tool commonly used for sharing project folders.
+
+Come back to this Linux File Permissions list whenever documentation for chmod uses a word you do not recognize.

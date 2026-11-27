@@ -1,0 +1,15 @@
+The Pros and Cons of Makefiles
+
+No technology is free of trade-offs, and Makefiles is no exception. Here is an honest summary.
+
+Advantages:
+- Supports compiling C projects
+- Makes shortcuts for common commands easier
+- Helps with automating documentation builds
+
+Drawbacks and risks:
+- Risk: tabs versus spaces
+- Risk: missing phony declarations
+- Risk: hidden environment assumptions
+
+Weigh the two lists against your own project. If the advantages match your needs, such as compiling C projects, and you can manage the risks, Makefiles is a sound choice. Whatever you decide, use phony targets for tasks like test and clean.

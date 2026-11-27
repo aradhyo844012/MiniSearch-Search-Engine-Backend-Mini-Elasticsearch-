@@ -1,0 +1,12 @@
+Questions to Ask About Code Formatters in Code Review
+
+Reviewing code that involves Code Formatters is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered reformatting entire files at once?
+- Is configuration clear to someone reading the code for the first time?
+- Could we run the formatter in a pre-commit hook?
+- Would a test catch conflicting tool settings if it appeared later?
+- Is Prettier used consistently, or are we mixing approaches?
+- Does this change respect style rules, or does it work around it?
+
+Good reviews of work on Code Formatters are specific, kind and focused on editor integration, not on personal style.

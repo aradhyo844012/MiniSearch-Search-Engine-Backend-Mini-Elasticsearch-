@@ -1,0 +1,11 @@
+Elasticsearch Concepts Tips from Experienced Engineers
+
+Engineers who work with Elasticsearch Concepts regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can define explicit mappings instead of relying on defaults.
+2. When something behaves strangely, revisit shards before anything else.
+3. Do not skip indexes; everything else builds on it.
+4. Test the case of site search early, before the design hardens.
+5. Reach for Elasticsearch first, and only then evaluate alternatives such as Kibana.
+
+None of these tips needs special equipment, and all of them apply to log analytics as well as to Elasticsearch Concepts in general.

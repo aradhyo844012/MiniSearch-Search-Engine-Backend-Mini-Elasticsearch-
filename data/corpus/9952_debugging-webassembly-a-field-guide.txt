@@ -1,0 +1,13 @@
+Debugging WebAssembly: A Field Guide
+
+When something goes wrong around WebAssembly, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: crossing the JavaScript boundary too often, large binaries, and limited access to browser APIs.
+Step 3: revisit modules and linear memory, since misunderstandings there cause many bugs.
+Step 4: use Emscripten or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving WebAssembly in work such as running heavy computation in the browser come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, measure before moving code to WebAssembly. It prevents a surprising number of repeat problems.

@@ -1,0 +1,13 @@
+Sprite Animation Explained Simply
+
+If Sprite Animation sounds intimidating, relax. It is showing a sequence of 2D images quickly to make a character appear to move, and the idea is simpler than the name suggests.
+
+Think of Sprite Animation as a flip book drawn one page at a time. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: sprite sheets, frames, frame rate, and animation states. You do not need to master them all at once. Start with sprite sheets, then add frames.
+
+People reach for Sprite Animation when they work on 2D platformers, user interface effects, and visual novels.
+
+One practical tip is to pack frames into one sprite sheet to reduce draw calls.
+
+After Sprite Animation, a natural next topic is Physics Engines.

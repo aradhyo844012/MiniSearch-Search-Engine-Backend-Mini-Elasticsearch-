@@ -1,0 +1,11 @@
+Physics Engines in Real Projects
+
+Reading about Physics Engines is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: vehicles and ragdolls. Here, rigid bodies drives the main design choices, and the team needs to guard against variable time steps.
+
+Scenario two: puzzle games. This time forces and impulses matters most, and tools such as Box2D help keep things manageable.
+
+Scenario three: training simulations. The key idea is constraints, and the biggest risk is unstable stacks of objects.
+
+Across all three scenarios, Physics Engines stays the same idea: software that simulates forces, motion and collisions of objects. Only the details change.

@@ -1,0 +1,15 @@
+The Pros and Cons of Physics Engines
+
+No technology is free of trade-offs, and Physics Engines is no exception. Here is an honest summary.
+
+Advantages:
+- Supports vehicles and ragdolls
+- Makes puzzle games easier
+- Helps with training simulations
+
+Drawbacks and risks:
+- Risk: variable time steps
+- Risk: unstable stacks of objects
+- Risk: extreme mass ratios
+
+Weigh the two lists against your own project. If the advantages match your needs, such as vehicles and ragdolls, and you can manage the risks, Physics Engines is a sound choice. Whatever you decide, use a fixed time step for stable results.

@@ -1,0 +1,11 @@
+Color Spaces in Real Projects
+
+Reading about Color Spaces is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: web design. Here, RGB drives the main design choices, and the team needs to guard against ignoring gamma.
+
+Scenario two: photo editing. This time HSL matters most, and tools such as browser color pickers help keep things manageable.
+
+Scenario three: printing. The key idea is CMYK, and the biggest risk is mixing color spaces.
+
+Across all three scenarios, Color Spaces stays the same idea: mathematical models for describing colors, such as RGB, HSL and CMYK. Only the details change.

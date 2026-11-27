@@ -1,0 +1,15 @@
+The Pros and Cons of Entity Component Systems
+
+No technology is free of trade-offs, and Entity Component Systems is no exception. Here is an honest summary.
+
+Advantages:
+- Supports large simulations
+- Makes games with thousands of objects easier
+- Helps with flexible game design
+
+Drawbacks and risks:
+- Risk: overengineering small games
+- Risk: components that hold logic
+- Risk: hard debugging of system order
+
+Weigh the two lists against your own project. If the advantages match your needs, such as large simulations, and you can manage the risks, Entity Component Systems is a sound choice. Whatever you decide, keep components as plain data.

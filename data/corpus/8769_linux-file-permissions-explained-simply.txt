@@ -1,0 +1,13 @@
+Linux File Permissions Explained Simply
+
+Here is Linux File Permissions without the jargon: it is the read, write and execute rules that control who can access each file.
+
+Think of Linux File Permissions as colored wristbands that decide which rooms each guest may enter. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: owner, group and others, mode bits, chmod and chown, and umask. You do not need to master them all at once. Start with owner, group and others, then add mode bits.
+
+People reach for Linux File Permissions when they work on protecting private keys, sharing project folders, and securing web server files.
+
+One practical tip is to grant the least permission that works.
+
+After Linux File Permissions, a natural next topic is systemd Services.

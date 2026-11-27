@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Anomaly Detection
+
+This path is for a learner who has never studied Anomaly Detection before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Anomaly Detection is finding data points or events that differ sharply from normal behavior) and learn baselines and thresholds.
+
+Stage 2, hands-on: install scikit-learn, follow a tutorial, and build a small example involving fraud detection.
+
+Stage 3, depth: study isolation methods and false positives, then deliberately explore this problem: too many false alarms.
+
+Stage 4, application: apply Anomaly Detection to server monitoring, compare PyOD with Prometheus, and write up your results.
+
+Stage 5, review: teach Anomaly Detection to someone else, and then move on to Recommendation Systems.

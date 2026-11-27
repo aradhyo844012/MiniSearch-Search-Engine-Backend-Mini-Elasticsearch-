@@ -1,0 +1,26 @@
+Everything You Need to Know About Stored Procedures and Triggers
+
+This page collects the essentials about Stored Procedures and Triggers in one place. In short, Stored Procedures and Triggers is code stored inside the database that runs on demand or automatically when data changes.
+
+Core concepts:
+- procedures
+- triggers
+- parameters
+- side effects
+
+Where it is used:
+- enforcing rules close to the data
+- audit logging
+- batch updates
+
+Common problems:
+- hidden logic that surprises developers
+- hard-to-test code
+- trigger chains
+
+Tools to know:
+- PL/pgSQL
+- MySQL Workbench
+- pgTAP
+
+Remember this above all: a house rule that fires automatically whenever something is placed on a shelf is a good way to picture it, and the best habit is to keep triggers small and well documented.

@@ -1,0 +1,11 @@
+DHCP in Real Projects
+
+Reading about DHCP is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: home and office networks. Here, leases drives the main design choices, and the team needs to guard against rogue DHCP servers.
+
+Scenario two: guest Wi-Fi. This time address pools matters most, and tools such as dnsmasq help keep things manageable.
+
+Scenario three: booting machines over a network. The key idea is reservations, and the biggest risk is exhausted address pools.
+
+Across all three scenarios, DHCP stays the same idea: a service that automatically gives devices IP addresses and network settings. Only the details change.

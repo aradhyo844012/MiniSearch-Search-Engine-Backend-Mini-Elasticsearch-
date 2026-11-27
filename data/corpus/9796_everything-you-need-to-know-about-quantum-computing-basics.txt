@@ -1,0 +1,26 @@
+Everything You Need to Know About Quantum Computing Basics
+
+This page collects the essentials about Quantum Computing Basics in one place. In short, Quantum Computing Basics is computing that uses qubits and the rules of quantum mechanics to solve certain problems.
+
+Core concepts:
+- qubits
+- superposition
+- entanglement
+- quantum gates
+
+Where it is used:
+- research on cryptography
+- simulating molecules
+- optimization studies
+
+Common problems:
+- expecting speedups for every problem
+- noise and errors
+- hype about current machines
+
+Tools to know:
+- Qiskit
+- Cirq
+- IBM Quantum
+
+Remember this above all: a coin spinning in the air before it lands is a good way to picture it, and the best habit is to start by simulating small circuits on a laptop.

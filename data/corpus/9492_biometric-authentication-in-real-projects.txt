@@ -1,0 +1,11 @@
+Biometric Authentication in Real Projects
+
+Reading about Biometric Authentication is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: phone unlock. Here, enrollment drives the main design choices, and the team needs to guard against spoofing attacks.
+
+Scenario two: building access. This time matching matters most, and tools such as Android BiometricPrompt help keep things manageable.
+
+Scenario three: payment approval. The key idea is false accept and false reject rates, and the biggest risk is biased recognition.
+
+Across all three scenarios, Biometric Authentication stays the same idea: verifying identity using traits such as fingerprints, faces or voices. Only the details change.

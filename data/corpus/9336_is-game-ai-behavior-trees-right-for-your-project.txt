@@ -1,0 +1,11 @@
+Is Game AI Behavior Trees Right for Your Project?
+
+Before adopting Game AI Behavior Trees, ask whether it fits the problem. Remember that Game AI Behavior Trees is tree-shaped plans that decide what a computer-controlled character does.
+
+It is a good fit when your work involves enemy behavior or companion characters, and when your team understands selector nodes.
+
+Be cautious when the project is very small, when deadlines leave no room to learn sequence nodes, or when you cannot manage these risks: trees that become tangled, expensive conditions checked every frame, and no way to debug decisions.
+
+A simple decision test: write down the problem in one sentence, then check whether conditions and actions are part of the answer. If they are, Game AI Behavior Trees is probably worth a closer look.
+
+If you decide to go ahead, start small with simulated crowds and visualize the tree while the game is running.

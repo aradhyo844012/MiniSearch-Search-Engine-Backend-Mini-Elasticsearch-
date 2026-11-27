@@ -1,0 +1,15 @@
+Speech Recognition Quick Reference
+
+A one-screen reminder for Speech Recognition. Bookmark it and return when the details fade.
+
+What it is: converting spoken language into text using machine learning.
+Key terms: audio features, acoustic models, language models, and word error rate.
+Typical uses: voice assistants, captioning, and dictation.
+Risks: accents and background noise, domain-specific vocabulary, and privacy of recordings.
+Tools: Whisper, Kaldi, and cloud speech-to-text services.
+
+Mental picture: a stenographer who types as people talk.
+
+Habit to build: measure word error rate on audio like your real users'.
+
+See also: Fine-Tuning Models, which sits close to Speech Recognition in the area of AI Engineering and MLOps.

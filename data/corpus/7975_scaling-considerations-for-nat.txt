@@ -1,0 +1,11 @@
+Scaling Considerations for NAT
+
+A design that works for a classroom project can behave very differently under real load. Here is how NAT changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding private addresses and getting home routers right.
+
+Medium scale: problems start to appear. Watch for breaking peer-to-peer connections and exhausted translation tables, and measure with iptables before changing anything.
+
+Large scale: port mapping and port forwarding move from background details to central design questions. Teams often revisit their choices around sharing limited IPv4 addresses at this stage.
+
+Before you scale, document every port forward you create. It is cheaper to build that habit early than to fix a crisis later.

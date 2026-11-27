@@ -1,0 +1,26 @@
+Everything You Need to Know About Image Compression
+
+This page collects the essentials about Image Compression in one place. In short, Image Compression is reducing the size of image files by removing redundancy or less visible detail.
+
+Core concepts:
+- lossy and lossless formats
+- quantization
+- transform coding
+- quality settings
+
+Where it is used:
+- web images
+- photo storage
+- sending pictures over slow networks
+
+Common problems:
+- repeated recompression
+- the wrong format for graphics
+- excessive quality loss
+
+Tools to know:
+- ImageMagick
+- mozjpeg
+- Squoosh
+
+Remember this above all: packing a suitcase by folding clothes tightly is a good way to picture it, and the best habit is to pick the format by content: photos versus flat graphics.

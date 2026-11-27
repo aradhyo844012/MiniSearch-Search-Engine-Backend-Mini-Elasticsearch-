@@ -1,0 +1,11 @@
+Mistakes to Avoid with HTTP/2 and HTTP/3
+
+Everyone learns HTTP/2 and HTTP/3 partly through mistakes. Here are three worth avoiding.
+
+Mistake one: assuming old tricks like sprite sheets still help. It usually appears when someone skips multiplexing and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: middleboxes blocking UDP. It tends to be noticed late, often during testing of faster page loads. A short checklist during review catches it early.
+
+Mistake three: misconfigured fallbacks. It is easy to miss because everything seems to work at first. Keep an eye on server push to spot it.
+
+If you remember only one rule, make it this: keep a working HTTP/1.1 fallback.

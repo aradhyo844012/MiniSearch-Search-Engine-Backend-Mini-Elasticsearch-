@@ -1,0 +1,17 @@
+BGP and Internet Routing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover BGP and Internet Routing.
+
+Learning goals:
+1. Explain BGP and Internet Routing in your own words.
+2. Describe autonomous systems, route announcements, peering, and path selection.
+3. Give examples from connecting ISPs and directing traffic between large networks.
+4. Name three problems to watch for.
+
+Start with the definition: BGP and Internet Routing is the protocol networks use to tell each other which addresses they can reach. Then draw the postal service agreeing on which depot handles each region on paper and label the four terms from the goals above.
+
+Self-test questions: Why is route leaks a problem? How does route announcements relate to peering? When would you choose bgpq4 or BIRD?
+
+Study habit worth keeping: filter route announcements strictly.
+
+When you feel ready, compare BGP and Internet Routing with Wi-Fi Networks and write down three differences.

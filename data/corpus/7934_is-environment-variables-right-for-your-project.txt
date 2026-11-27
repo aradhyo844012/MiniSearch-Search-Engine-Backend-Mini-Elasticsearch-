@@ -1,0 +1,11 @@
+Is Environment Variables Right for Your Project?
+
+Before adopting Environment Variables, ask whether it fits the problem. Remember that Environment Variables is named values the operating system gives to programs to configure their behavior.
+
+It is a good fit when your work involves storing configuration or selecting program paths, and when your team understands variable names.
+
+Be cautious when the project is very small, when deadlines leave no room to learn scope, or when you cannot manage these risks: committing secrets in dotfiles, variables not visible to child processes, and typos in names.
+
+A simple decision test: write down the problem in one sentence, then check whether export and shell startup files are part of the answer. If they are, Environment Variables is probably worth a closer look.
+
+If you decide to go ahead, start small with passing settings to containers and print a variable to confirm its value before blaming the code.

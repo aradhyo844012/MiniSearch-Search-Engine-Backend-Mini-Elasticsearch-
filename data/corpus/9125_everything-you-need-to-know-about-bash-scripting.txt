@@ -1,0 +1,26 @@
+Everything You Need to Know About Bash Scripting
+
+This page collects the essentials about Bash Scripting in one place. In short, Bash Scripting is writing shell scripts that automate tasks by chaining commands, variables and control flow.
+
+Core concepts:
+- variables
+- conditionals and loops
+- exit codes
+- functions
+
+Where it is used:
+- automating deployments
+- processing text files
+- setting up developer machines
+
+Common problems:
+- unquoted variables
+- ignoring errors in pipelines
+- scripts that are hard to read
+
+Tools to know:
+- Bash
+- ShellCheck
+- shfmt
+
+Remember this above all: a recipe card that the computer follows without help is a good way to picture it, and the best habit is to start scripts with set -euo pipefail and quote every variable.

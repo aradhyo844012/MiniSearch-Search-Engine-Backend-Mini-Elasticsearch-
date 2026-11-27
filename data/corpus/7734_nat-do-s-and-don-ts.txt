@@ -1,0 +1,17 @@
+NAT Do's and Don'ts
+
+A quick list of habits for working with NAT.
+
+Do:
+- Learn private addresses before anything else.
+- Try iptables on a small example.
+- Make it a habit to document every port forward you create.
+- Test the case of home routers early.
+
+Don't:
+- Ignore this: breaking peer-to-peer connections.
+- Ignore this: exhausted translation tables.
+- Ignore this: misconfigured port forwarding.
+- Adopt NAT just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with NAT, a little patience with translation tables pays off more than any clever shortcut.

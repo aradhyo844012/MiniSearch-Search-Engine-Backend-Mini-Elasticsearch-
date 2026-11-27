@@ -1,0 +1,13 @@
+Ray Tracing Explained Simply
+
+Here is Ray Tracing without the jargon: it is a rendering technique that follows rays of light to produce realistic images.
+
+Think of Ray Tracing as tracing a flashlight beam backward from your eye into the scene. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: rays, intersections, reflection and refraction, and shadows. You do not need to master them all at once. Start with rays, then add intersections.
+
+People reach for Ray Tracing when they work on movie visuals, architectural visualization, and realistic game lighting.
+
+One practical tip is to start with spheres and a single light before adding features.
+
+Once Ray Tracing feels comfortable, read about Video Codecs, which lives in the same neighborhood of ideas.

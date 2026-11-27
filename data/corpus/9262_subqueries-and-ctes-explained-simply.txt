@@ -1,0 +1,13 @@
+Subqueries and CTEs Explained Simply
+
+Here is Subqueries and CTEs without the jargon: it is queries nested inside other queries or named as temporary result sets.
+
+Think of Subqueries and CTEs as solving a puzzle by writing down intermediate answers. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: subqueries, WITH clauses, correlated queries, and readability. You do not need to master them all at once. Start with subqueries, then add WITH clauses.
+
+You will meet Subqueries and CTEs in work such as breaking complex reports into steps, filtering with computed results, and walking recursive hierarchies.
+
+One practical tip is to name each CTE after what it returns.
+
+After Subqueries and CTEs, a natural next topic is Stored Procedures and Triggers.

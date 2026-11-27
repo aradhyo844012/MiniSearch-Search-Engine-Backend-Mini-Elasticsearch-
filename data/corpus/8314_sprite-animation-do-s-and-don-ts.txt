@@ -1,0 +1,17 @@
+Sprite Animation Do's and Don'ts
+
+A quick list of habits for working with Sprite Animation.
+
+Do:
+- Learn sprite sheets before anything else.
+- Try Aseprite on a small example.
+- Make it a habit to pack frames into one sprite sheet to reduce draw calls.
+- Test the case of 2D platformers early.
+
+Don't:
+- Ignore this: inconsistent frame timing.
+- Ignore this: huge uncompressed sheets.
+- Ignore this: animation states that never end.
+- Adopt Sprite Animation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Sprite Animation, a little patience with frames pays off more than any clever shortcut.

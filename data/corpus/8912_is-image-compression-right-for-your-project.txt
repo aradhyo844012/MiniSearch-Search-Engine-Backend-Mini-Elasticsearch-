@@ -1,0 +1,11 @@
+Is Image Compression Right for Your Project?
+
+Before adopting Image Compression, ask whether it fits the problem. Remember that Image Compression is reducing the size of image files by removing redundancy or less visible detail.
+
+It is a good fit when your work involves web images or photo storage, and when your team understands lossy and lossless formats.
+
+Be cautious when the project is very small, when deadlines leave no room to learn quantization, or when you cannot manage these risks: repeated recompression, the wrong format for graphics, and excessive quality loss.
+
+A simple decision test: write down the problem in one sentence, then check whether transform coding and quality settings are part of the answer. If they are, Image Compression is probably worth a closer look.
+
+If you decide to go ahead, start small with sending pictures over slow networks and pick the format by content: photos versus flat graphics.

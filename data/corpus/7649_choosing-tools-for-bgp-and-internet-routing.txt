@@ -1,0 +1,11 @@
+Choosing Tools for BGP and Internet Routing
+
+There is no single best tool for BGP and Internet Routing. The right choice depends on your project, your team and your timeline.
+
+bgpq4 is a common first choice, especially for connecting ISPs. BIRD suits teams that already work with similar technology, and RIPE Stat is worth a look when you need something different.
+
+Judge any tool for BGP and Internet Routing by four questions: Is the documentation clear? Is the community active? Does it handle directing traffic between large networks well? Can you leave it later if you need to?
+
+Whichever tool you pick for BGP and Internet Routing, test it on a small problem first, and watch for this: route leaks.
+
+As a rule of thumb, filter route announcements strictly, no matter which tool you use.

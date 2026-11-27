@@ -1,0 +1,15 @@
+Robotics and ROS Quick Reference
+
+A one-screen reminder for Robotics and ROS. Bookmark it and return when the details fade.
+
+What it is: building machines that sense and act, often using the Robot Operating System to connect their software.
+Key terms: sensors, actuators, nodes and topics, and control loops.
+Typical uses: warehouse robots, drones, and educational robots.
+Risks: ignoring sensor noise, unsafe motion commands, and tight coupling between nodes.
+Tools: ROS 2, Gazebo, and Arduino.
+
+Mental picture: a body with senses and muscles controlled by a nervous system of messages.
+
+Habit to build: test in simulation before moving real hardware.
+
+See also: Biometric Authentication, which sits close to Robotics and ROS in the area of Emerging and Specialized Technology.

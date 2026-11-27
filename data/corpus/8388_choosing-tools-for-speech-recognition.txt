@@ -1,0 +1,11 @@
+Choosing Tools for Speech Recognition
+
+There is no single best tool for Speech Recognition. The right choice depends on your project, your team and your timeline.
+
+Whisper is a common first choice, especially for voice assistants. Kaldi suits teams that already work with similar technology, and cloud speech-to-text services is worth a look when you need something different.
+
+Judge any tool for Speech Recognition by four questions: Is the documentation clear? Is the community active? Does it handle captioning well? Can you leave it later if you need to?
+
+Whichever tool you pick for Speech Recognition, test it on a small problem first, and watch for this: accents and background noise.
+
+As a rule of thumb, measure word error rate on audio like your real users', no matter which tool you use.

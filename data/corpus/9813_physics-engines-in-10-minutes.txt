@@ -1,0 +1,15 @@
+Physics Engines in 10 Minutes
+
+You have ten minutes, so here is the fast route through Physics Engines.
+
+Minutes 1 and 2, the definition: Physics Engines is software that simulates forces, motion and collisions of objects.
+
+Minutes 3 and 4, the vocabulary: learn rigid bodies, forces and impulses, constraints, and fixed time steps.
+
+Minutes 5 and 6, the picture: imagine a stage manager who enforces gravity on every prop. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through vehicles and ragdolls, puzzle games, and training simulations.
+
+Minutes 9 and 10, the traps and the tools: watch for variable time steps and unstable stacks of objects, then try Box2D for a first experiment.
+
+If you have a spare minute, remember to use a fixed time step for stable results.

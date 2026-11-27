@@ -1,0 +1,11 @@
+Choosing Tools for Responsible AI and Bias
+
+There is no single best tool for Responsible AI and Bias. The right choice depends on your project, your team and your timeline.
+
+Fairlearn is a common first choice, especially for hiring tools. AI Fairness 360 suits teams that already work with similar technology, and model cards is worth a look when you need something different.
+
+Judge any tool for Responsible AI and Bias by four questions: Is the documentation clear? Is the community active? Does it handle lending models well? Can you leave it later if you need to?
+
+Whichever tool you pick for Responsible AI and Bias, test it on a small problem first, and watch for this: assuming data is neutral.
+
+As a rule of thumb, test performance separately for different groups, no matter which tool you use.

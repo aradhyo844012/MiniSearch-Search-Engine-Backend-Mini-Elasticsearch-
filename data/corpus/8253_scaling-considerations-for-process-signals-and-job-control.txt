@@ -1,0 +1,11 @@
+Scaling Considerations for Process Signals and Job Control
+
+A design that works for a classroom project can behave very differently under real load. Here is how Process Signals and Job Control changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding SIGTERM and SIGKILL and getting stopping runaway programs right.
+
+Medium scale: problems start to appear. Watch for using kill -9 first and orphaned child processes, and measure with kill before changing anything.
+
+Large scale: kill and trap and process groups move from background details to central design questions. Teams often revisit their choices around shutting down gracefully at this stage.
+
+Before you scale, try SIGTERM before SIGKILL so programs can clean up. It is cheaper to build that habit early than to fix a crisis later.

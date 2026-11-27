@@ -1,0 +1,10 @@
+Makefiles: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Makefiles with confidence. The subject itself is plain files that describe how to build programs and run common tasks with the make tool.
+
+targets: one of the building blocks of Makefiles. Documentation for GNU Make usually mentions it early.
+prerequisites: one of the building blocks of Makefiles. You should be able to explain it in a single sentence before moving on.
+recipes: one of the building blocks of Makefiles. You should be able to explain it in a single sentence before moving on.
+phony targets: one of the building blocks of Makefiles. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Makefiles terms in sentences about shortcuts for common commands. If the sentences feel natural, the vocabulary has stuck.

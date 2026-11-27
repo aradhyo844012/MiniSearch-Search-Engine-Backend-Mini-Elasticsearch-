@@ -1,0 +1,12 @@
+Questions to Ask About Multi-Cloud Strategy in Code Review
+
+Reviewing code that involves Multi-Cloud Strategy is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of avoiding single-provider risk correctly?
+- Is vendor lock-in clear to someone reading the code for the first time?
+- Have we avoided this problem: hidden data transfer costs?
+- Have we considered doubling operational complexity?
+- Does this change respect portability, or does it work around it?
+- Could we be clear about the problem multi-cloud is meant to solve?
+
+Good reviews of work on Multi-Cloud Strategy are specific, kind and focused on abstraction layers, not on personal style.

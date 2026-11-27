@@ -1,0 +1,12 @@
+Disk Partitioning and Mounting Glossary for Beginners
+
+New words can make Disk Partitioning and Mounting feel harder than it is. This glossary keeps the key ones in one place.
+
+Disk Partitioning and Mounting: dividing storage into sections and attaching them to the file tree.
+partitions: a core term, most visible in adding a new drive.
+file system types: a core term that beginners often confuse with mount points.
+mount points: a core term that connects to fstab.
+fstab: a core term worth revisiting after you try a real example.
+lsblk: a tool commonly used for separating data from the system.
+
+Come back to this Disk Partitioning and Mounting list whenever documentation for fdisk uses a word you do not recognize.

@@ -1,0 +1,11 @@
+Is Elasticsearch Concepts Right for Your Project?
+
+Before adopting Elasticsearch Concepts, ask whether it fits the problem. Remember that Elasticsearch Concepts is the building blocks of a distributed search engine that indexes and ranks documents.
+
+It is a good fit when your work involves site search or log analytics, and when your team understands indexes.
+
+Be cautious when the project is very small, when deadlines leave no room to learn shards, or when you cannot manage these risks: too many shards, mapping explosions, and treating it as a primary database.
+
+A simple decision test: write down the problem in one sentence, then check whether analyzers and queries are part of the answer. If they are, Elasticsearch Concepts is probably worth a closer look.
+
+If you decide to go ahead, start small with product catalogs and define explicit mappings instead of relying on defaults.

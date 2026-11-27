@@ -1,0 +1,26 @@
+Everything You Need to Know About Package Managers
+
+This page collects the essentials about Package Managers in one place. In short, Package Managers is tools that install, update and remove software along with its dependencies.
+
+Core concepts:
+- repositories
+- dependency resolution
+- versions
+- signed packages
+
+Where it is used:
+- installing system tools
+- keeping servers updated
+- reproducing environments
+
+Common problems:
+- mixing sources that conflict
+- ignoring signature checks
+- upgrading without reading the changes
+
+Tools to know:
+- apt
+- dnf
+- Homebrew
+
+Remember this above all: a supply store that delivers parts together with the parts they need is a good way to picture it, and the best habit is to update the package index before installing anything.

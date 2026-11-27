@@ -1,0 +1,11 @@
+Practice Exercises for High Availability Design
+
+These exercises build real understanding of High Availability Design. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing High Availability Design and include the term redundancy.
+Exercise 2: Pick load balancers and complete its getting-started tutorial.
+Exercise 3: Explain how health checks and no single point of failure differ, using a drawing.
+Exercise 4: Create a small example that deliberately triggers this problem: hidden single points of failure. Then fix it.
+Exercise 5: Compare Kubernetes and Patroni for healthcare software and write down your conclusion.
+
+When you finish, compare your answers with the definition: High Availability Design is designing systems so they keep working when parts fail.

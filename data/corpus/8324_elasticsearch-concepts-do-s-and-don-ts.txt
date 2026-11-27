@@ -1,0 +1,17 @@
+Elasticsearch Concepts Do's and Don'ts
+
+A quick list of habits for working with Elasticsearch Concepts.
+
+Do:
+- Learn indexes before anything else.
+- Try Elasticsearch on a small example.
+- Make it a habit to define explicit mappings instead of relying on defaults.
+- Test the case of site search early.
+
+Don't:
+- Ignore this: too many shards.
+- Ignore this: mapping explosions.
+- Ignore this: treating it as a primary database.
+- Adopt Elasticsearch Concepts just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Elasticsearch Concepts, a little patience with shards pays off more than any clever shortcut.

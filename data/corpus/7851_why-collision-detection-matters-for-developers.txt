@@ -1,0 +1,11 @@
+Why Collision Detection Matters for Developers
+
+Developers who understand Collision Detection make better decisions, because Collision Detection is the process of finding out when objects in a game touch or overlap.
+
+Three situations show why it matters. First, platformers. Second, shooters. Third, physics puzzles. In each case, a solid grasp of bounding boxes and broad and narrow phases separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: tunneling through thin objects, checking every pair of objects, and inconsistent hitboxes.
+
+You will not need to build everything yourself; Box2D, Unity colliders, and quadtrees cover most needs.
+
+Connect Collision Detection with Game Loop to see the bigger picture of Game Development.

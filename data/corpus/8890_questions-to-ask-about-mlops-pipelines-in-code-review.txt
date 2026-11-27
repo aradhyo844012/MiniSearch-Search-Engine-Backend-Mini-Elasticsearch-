@@ -1,0 +1,12 @@
+Questions to Ask About MLOps Pipelines in Code Review
+
+Reviewing code that involves MLOps Pipelines is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is MLflow used consistently, or are we mixing approaches?
+- Is training pipelines clear to someone reading the code for the first time?
+- Have we avoided this problem: no testing of data?
+- Have we considered untracked data changes?
+- Does the code handle the case of repeatable model releases correctly?
+- Could we version both the code and the data?
+
+Good reviews of work on MLOps Pipelines are specific, kind and focused on the model registry, not on personal style.

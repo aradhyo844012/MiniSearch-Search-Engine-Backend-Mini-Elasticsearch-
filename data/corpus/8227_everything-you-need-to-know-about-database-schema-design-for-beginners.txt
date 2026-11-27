@@ -1,0 +1,26 @@
+Everything You Need to Know About Database Schema Design for Beginners
+
+This page collects the essentials about Database Schema Design for Beginners in one place. In short, Database Schema Design for Beginners is planning tables, columns and relationships before building an application.
+
+Core concepts:
+- entities
+- relationships
+- keys
+- naming conventions
+
+Where it is used:
+- starting new projects
+- reviewing existing schemas
+- preparing for migrations
+
+Common problems:
+- storing lists in a single column
+- unclear names
+- designing without thinking about queries
+
+Tools to know:
+- dbdiagram.io
+- draw.io
+- PostgreSQL
+
+Remember this above all: drawing the floor plan before building the house is a good way to picture it, and the best habit is to write down the main queries before finalizing the tables.

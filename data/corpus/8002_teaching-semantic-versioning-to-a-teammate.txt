@@ -1,0 +1,13 @@
+Teaching Semantic Versioning to a Teammate
+
+Explaining Semantic Versioning to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: the edition number on a textbook that tells you whether you must relearn anything. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Semantic Versioning is a numbering scheme where major, minor and patch numbers signal how much changed. Avoid jargon at this stage.
+
+Walk through an example involving publishing libraries, naming major, minor and patch numbers and breaking changes as they come up.
+
+Ask your teammate to explain pre-release tags in Semantic Versioning back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, breaking changes in minor releases, and suggest this habit: write a changelog entry with every release.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Fine-Tuning Models
+
+This page collects the essentials about Fine-Tuning Models in one place. In short, Fine-Tuning Models is adapting a pretrained model to a specific task with extra training on your own data.
+
+Core concepts:
+- pretrained weights
+- training data
+- the learning rate
+- evaluation
+
+Where it is used:
+- domain-specific language tasks
+- style adaptation
+- improving accuracy on narrow problems
+
+Common problems:
+- overfitting on small datasets
+- forgetting general abilities
+- low-quality training data
+
+Tools to know:
+- Hugging Face
+- PyTorch
+- LoRA libraries
+
+Remember this above all: teaching an experienced chef a new regional cuisine is a good way to picture it, and the best habit is to start with a small, clean dataset and a held-out test set.

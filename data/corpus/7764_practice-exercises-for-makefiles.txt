@@ -1,0 +1,11 @@
+Practice Exercises for Makefiles
+
+These exercises build real understanding of Makefiles. Do them in order, and write down your answers.
+
+Exercise 1: Explain how recipes and phony targets differ, using a drawing.
+Exercise 2: Create a small example that deliberately triggers this problem: tabs versus spaces. Then fix it.
+Exercise 3: Write a short paragraph describing Makefiles and include the term targets.
+Exercise 4: Pick GNU Make and complete its getting-started tutorial.
+Exercise 5: List three situations from your own experience that resemble compiling C projects or shortcuts for common commands.
+
+When you finish, compare your answers with the definition: Makefiles is plain files that describe how to build programs and run common tasks with the make tool.

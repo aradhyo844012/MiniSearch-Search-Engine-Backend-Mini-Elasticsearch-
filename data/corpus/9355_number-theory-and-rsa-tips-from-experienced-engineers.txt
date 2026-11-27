@@ -1,0 +1,11 @@
+Number Theory and RSA Tips from Experienced Engineers
+
+Engineers who work with Number Theory and RSA regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can use vetted crypto libraries instead of writing your own.
+2. Do not skip prime numbers; everything else builds on it.
+3. Reach for Python pow first, and only then evaluate alternatives such as OpenSSL.
+4. Test the case of public key cryptography early, before the design hardens.
+5. When something behaves strangely, revisit modular arithmetic before anything else.
+
+None of these tips needs special equipment, and all of them apply to hash functions as well as to Number Theory and RSA in general.

@@ -1,0 +1,13 @@
+Debugging A* Pathfinding: A Field Guide
+
+When something goes wrong around A* Pathfinding, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: overestimating the heuristic, slow searches on huge maps, and ignoring moving obstacles.
+Step 3: revisit open and closed sets and cost so far, since misunderstandings there cause many bugs.
+Step 4: use Unity NavMesh or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving A* Pathfinding in work such as game characters come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, choose an admissible heuristic so paths stay optimal. It prevents a surprising number of repeat problems.

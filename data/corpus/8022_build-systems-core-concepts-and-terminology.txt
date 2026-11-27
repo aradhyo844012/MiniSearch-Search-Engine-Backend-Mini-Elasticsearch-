@@ -1,0 +1,10 @@
+Build Systems: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Build Systems with confidence. The subject itself is tools that turn source code into runnable programs automatically.
+
+targets: one of the building blocks of Build Systems. It shows up whenever you work on compiling large projects.
+dependencies: one of the building blocks of Build Systems. You should be able to explain it in a single sentence before moving on.
+incremental builds: one of the building blocks of Build Systems. Mixing it up with neighboring terms is a common source of confusion.
+build caches: one of the building blocks of Build Systems. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four Build Systems terms in sentences about packaging software. If the sentences feel natural, the vocabulary has stuck.

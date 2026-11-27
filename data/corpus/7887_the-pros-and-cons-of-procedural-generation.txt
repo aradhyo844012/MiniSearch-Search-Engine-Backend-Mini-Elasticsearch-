@@ -1,0 +1,15 @@
+The Pros and Cons of Procedural Generation
+
+No technology is free of trade-offs, and Procedural Generation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports roguelike dungeons
+- Makes infinite terrain easier
+- Helps with varied item drops
+
+Drawbacks and risks:
+- Risk: levels that are unfair or unwinnable
+- Risk: repetitive results
+- Risk: bugs that cannot be reproduced without seeds
+
+Weigh the two lists against your own project. If the advantages match your needs, such as roguelike dungeons, and you can manage the risks, Procedural Generation is a sound choice. Whatever you decide, log the seed so any generated level can be reproduced.

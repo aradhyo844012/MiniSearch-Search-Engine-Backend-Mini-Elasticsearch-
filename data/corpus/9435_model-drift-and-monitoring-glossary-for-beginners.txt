@@ -1,0 +1,12 @@
+Model Drift and Monitoring Glossary for Beginners
+
+New words can make Model Drift and Monitoring feel harder than it is. This glossary keeps the key ones in one place.
+
+Model Drift and Monitoring: watching deployed models for changes in data or performance over time.
+data drift: a core term, most visible in catching degrading models.
+concept drift: a core term that beginners often confuse with performance metrics.
+performance metrics: a core term that connects to alerts.
+alerts: a core term worth revisiting after you try a real example.
+Evidently: a tool commonly used for scheduling retraining.
+
+Come back to this Model Drift and Monitoring list whenever documentation for Prometheus uses a word you do not recognize.

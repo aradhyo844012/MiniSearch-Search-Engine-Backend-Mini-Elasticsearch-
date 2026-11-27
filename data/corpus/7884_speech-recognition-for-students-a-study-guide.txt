@@ -1,0 +1,17 @@
+Speech Recognition for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Speech Recognition.
+
+Learning goals:
+1. Explain Speech Recognition in your own words.
+2. Describe audio features, acoustic models, language models, and word error rate.
+3. Give examples from voice assistants and captioning.
+4. Name three problems to watch for.
+
+Start with the definition: Speech Recognition is converting spoken language into text using machine learning. Then draw a stenographer who types as people talk on paper and label the four terms from the goals above.
+
+Self-test questions: Why is accents and background noise a problem? How does acoustic models relate to language models? When would you choose Whisper or Kaldi?
+
+Study habit: measure word error rate on audio like your real users'.
+
+When you feel ready, compare Speech Recognition with Model Drift and Monitoring and write down three differences.

@@ -1,0 +1,11 @@
+Why Code Formatters Matters for Developers
+
+Developers who understand Code Formatters make better decisions, because Code Formatters is tools that automatically rewrite code to a consistent style.
+
+Three situations show why it matters. First, ending style debates. Second, cleaner diffs. Third, onboarding contributors. In each case, a solid grasp of style rules and configuration separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: reformatting entire files at once, conflicting tool settings, and ignoring generated files.
+
+You will not need to build everything yourself; Prettier, Black, and gofmt cover most needs.
+
+Connect Code Formatters with Dev Containers to see the bigger picture of Developer Tooling and Build Systems.

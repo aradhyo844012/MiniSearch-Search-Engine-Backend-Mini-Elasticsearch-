@@ -1,0 +1,11 @@
+Elasticsearch Concepts in Real Projects
+
+Reading about Elasticsearch Concepts is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: site search. Here, indexes drives the main design choices, and the team needs to guard against too many shards.
+
+Scenario two: log analytics. This time shards matters most, and tools such as Elasticsearch help keep things manageable.
+
+Scenario three: product catalogs. The key idea is analyzers, and the biggest risk is mapping explosions.
+
+Across all three scenarios, Elasticsearch Concepts stays the same idea: the building blocks of a distributed search engine that indexes and ranks documents. Only the details change.

@@ -1,0 +1,15 @@
+Database Constraints in 10 Minutes
+
+You have ten minutes, so here is the fast route through Database Constraints.
+
+Minutes 1 and 2, the definition: Database Constraints is rules the database enforces to keep stored data valid.
+
+Minutes 3 and 4, the vocabulary: learn primary keys, foreign keys, unique constraints, and check constraints.
+
+Minutes 5 and 6, the picture: imagine guard rails along a mountain road. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through preventing bad data, protecting relationships, and documenting business rules.
+
+Minutes 9 and 10, the traps and the tools: watch for skipping constraints for speed and missing indexes on foreign keys, then try PostgreSQL for a first experiment.
+
+If you have a spare minute, remember to put critical rules in the database as well as in the app.

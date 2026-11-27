@@ -1,0 +1,15 @@
+Model Drift and Monitoring in 10 Minutes
+
+You have ten minutes, so here is the fast route through Model Drift and Monitoring.
+
+Minutes 1 and 2, the definition: Model Drift and Monitoring is watching deployed models for changes in data or performance over time.
+
+Minutes 3 and 4, the vocabulary: learn data drift, concept drift, performance metrics, and alerts.
+
+Minutes 5 and 6, the picture: imagine checking a car's gauges on a long trip. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through catching degrading models, scheduling retraining, and keeping predictions trustworthy.
+
+Minutes 9 and 10, the traps and the tools: watch for monitoring only system health and having no ground truth labels, then try Evidently for a first experiment.
+
+If you have a spare minute, remember to monitor input data as well as accuracy.

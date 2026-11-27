@@ -1,0 +1,17 @@
+Anomaly Detection for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Anomaly Detection.
+
+Learning goals:
+1. Explain Anomaly Detection in your own words.
+2. Describe baselines, thresholds, isolation methods, and false positives.
+3. Give examples from fraud detection and server monitoring.
+4. Name three problems to watch for.
+
+Start with the definition: Anomaly Detection is finding data points or events that differ sharply from normal behavior. Then draw a security guard who notices the one person acting differently on paper and label the four terms from the goals above.
+
+Self-test questions: Why is too many false alarms a problem? How does thresholds relate to isolation methods? When would you choose scikit-learn or PyOD?
+
+Study habit worth keeping: tune alerts using real examples of past incidents.
+
+When you feel ready, compare Anomaly Detection with Fine-Tuning Models and write down three differences.

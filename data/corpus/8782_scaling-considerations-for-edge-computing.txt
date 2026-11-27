@@ -1,0 +1,11 @@
+Scaling Considerations for Edge Computing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Edge Computing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding edge nodes and getting factory sensors right.
+
+Medium scale: problems start to appear. Watch for hard-to-update devices and inconsistent hardware, and measure with AWS IoT Greengrass before changing anything.
+
+Large scale: bandwidth savings and synchronization move from background details to central design questions. Teams often revisit their choices around video analytics at this stage.
+
+Before you scale, decide which data must stay local before designing the system. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Scaling Considerations for Sprite Animation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Sprite Animation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding sprite sheets and getting 2D platformers right.
+
+Medium scale: problems start to appear. Watch for inconsistent frame timing and huge uncompressed sheets, and measure with Aseprite before changing anything.
+
+Large scale: frame rate and animation states move from background details to central design questions. Teams often revisit their choices around user interface effects at this stage.
+
+Before you scale, pack frames into one sprite sheet to reduce draw calls. It is cheaper to build that habit early than to fix a crisis later.

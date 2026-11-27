@@ -1,0 +1,12 @@
+Firewalls Glossary for Beginners
+
+New words can make Firewalls feel harder than it is. This glossary keeps the key ones in one place.
+
+Firewalls: systems that allow or block network traffic according to rules.
+rules: a core term, most visible in protecting servers.
+stateful inspection: a core term that beginners often confuse with default deny.
+default deny: a core term that connects to zones.
+zones: a core term worth revisiting after you try a real example.
+ufw: a tool commonly used for segmenting networks.
+
+Come back to this Firewalls list whenever documentation for iptables uses a word you do not recognize.

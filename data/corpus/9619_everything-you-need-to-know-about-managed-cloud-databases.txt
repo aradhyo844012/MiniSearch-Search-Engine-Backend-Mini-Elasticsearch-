@@ -1,0 +1,26 @@
+Everything You Need to Know About Managed Cloud Databases
+
+This page collects the essentials about Managed Cloud Databases in one place. In short, Managed Cloud Databases is database services where the cloud provider handles backups, patching and failover.
+
+Core concepts:
+- automated backups
+- read replicas
+- maintenance windows
+- scaling options
+
+Where it is used:
+- launching apps quickly
+- reducing database administration
+- high availability setups
+
+Common problems:
+- surprise costs
+- limited configuration control
+- ignoring maintenance windows
+
+Tools to know:
+- Amazon RDS
+- Cloud SQL
+- Azure Database
+
+Remember this above all: a restaurant that hires a kitchen crew to handle the cleaning is a good way to picture it, and the best habit is to test restoring a backup before you need it.

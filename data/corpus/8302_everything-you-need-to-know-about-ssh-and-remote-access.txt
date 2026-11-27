@@ -1,0 +1,26 @@
+Everything You Need to Know About SSH and Remote Access
+
+This page collects the essentials about SSH and Remote Access in one place. In short, SSH and Remote Access is a secure protocol for logging in to and controlling remote machines.
+
+Core concepts:
+- key pairs
+- host keys
+- port forwarding
+- config files
+
+Where it is used:
+- administering servers
+- copying files securely
+- tunneling to private services
+
+Common problems:
+- password logins left enabled
+- sharing private keys
+- ignoring host key warnings
+
+Tools to know:
+- OpenSSH
+- ssh-keygen
+- scp
+
+Remember this above all: a private phone line with a secret handshake to a faraway office is a good way to picture it, and the best habit is to use key-based login and disable password authentication.

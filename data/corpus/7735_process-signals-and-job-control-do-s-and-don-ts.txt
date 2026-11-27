@@ -1,0 +1,17 @@
+Process Signals and Job Control Do's and Don'ts
+
+A quick list of habits for working with Process Signals and Job Control.
+
+Do:
+- Learn SIGTERM and SIGKILL before anything else.
+- Try kill on a small example.
+- Make it a habit to try SIGTERM before SIGKILL so programs can clean up.
+- Test the case of stopping runaway programs early.
+
+Don't:
+- Ignore this: using kill -9 first.
+- Ignore this: orphaned child processes.
+- Ignore this: ignoring cleanup in handlers.
+- Adopt Process Signals and Job Control just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Process Signals and Job Control, a little patience with foreground and background jobs pays off more than any clever shortcut.

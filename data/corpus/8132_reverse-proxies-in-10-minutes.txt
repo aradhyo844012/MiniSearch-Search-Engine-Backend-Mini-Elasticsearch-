@@ -1,0 +1,15 @@
+Reverse Proxies in 10 Minutes
+
+You have ten minutes, so here is the fast route through Reverse Proxies.
+
+Minutes 1 and 2, the definition: Reverse Proxies is servers that sit in front of applications and forward client requests to them.
+
+Minutes 3 and 4, the vocabulary: learn upstream servers, proxy headers, TLS termination, and caching.
+
+Minutes 5 and 6, the picture: imagine a hotel front desk that routes guests to the right room. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through hiding backend servers, terminating HTTPS, and routing requests to several apps.
+
+Minutes 9 and 10, the traps and the tools: watch for losing the client IP address and wrong timeouts, then try NGINX for a first experiment.
+
+If you have a spare minute, remember to forward the real client IP in a trusted header.

@@ -1,0 +1,15 @@
+MongoDB Aggregation Quick Reference
+
+A one-screen reminder for MongoDB Aggregation. Bookmark it and return when the details fade.
+
+What it is: a pipeline of stages for filtering, grouping and reshaping documents in MongoDB.
+Key terms: pipeline stages, $match and $group, projection, and indexes.
+Typical uses: summarizing orders, building analytics queries, and reshaping documents.
+Risks: putting $match late, huge intermediate results, and hitting memory limits.
+Tools: MongoDB Compass, mongosh, and PyMongo.
+
+Mental picture: an assembly line where each station filters or reshapes the parts.
+
+Habit to build: filter with $match as early as possible.
+
+See also: SQL Basics, which sits close to MongoDB Aggregation in the area of SQL and Data Practice.

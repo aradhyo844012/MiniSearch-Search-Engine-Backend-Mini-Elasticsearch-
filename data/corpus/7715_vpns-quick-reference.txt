@@ -1,0 +1,15 @@
+VPNs Quick Reference
+
+A one-screen reminder for VPNs. Bookmark it and return when the details fade.
+
+What it is: encrypted tunnels that connect devices or networks across the public internet.
+Key terms: tunneling, encryption, authentication, and split tunneling.
+Typical uses: remote work access, linking offices, and protecting traffic on public Wi-Fi.
+Risks: assuming it makes you anonymous, slow routing through distant servers, and leaking DNS requests.
+Tools: WireGuard, OpenVPN, and Tailscale.
+
+Mental picture: a private tunnel under a public road.
+
+Habit to build: test for DNS leaks after connecting.
+
+See also: Reverse Proxies, which sits close to VPNs in the area of Networking and Internet Infrastructure.

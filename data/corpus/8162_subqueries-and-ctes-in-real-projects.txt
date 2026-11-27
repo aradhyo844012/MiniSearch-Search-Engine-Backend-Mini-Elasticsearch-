@@ -1,0 +1,11 @@
+Subqueries and CTEs in Real Projects
+
+Reading about Subqueries and CTEs is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: breaking complex reports into steps. Here, subqueries drives the main design choices, and the team needs to guard against correlated subqueries that run slowly.
+
+Scenario two: filtering with computed results. This time WITH clauses matters most, and tools such as PostgreSQL help keep things manageable.
+
+Scenario three: walking recursive hierarchies. The key idea is correlated queries, and the biggest risk is deep nesting.
+
+Across all three scenarios, Subqueries and CTEs stays the same idea: queries nested inside other queries or named as temporary result sets. Only the details change.

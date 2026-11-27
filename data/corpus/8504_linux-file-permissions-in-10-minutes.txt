@@ -1,0 +1,15 @@
+Linux File Permissions in 10 Minutes
+
+You have ten minutes, so here is the fast route through Linux File Permissions.
+
+Minutes 1 and 2, the definition: Linux File Permissions is the read, write and execute rules that control who can access each file.
+
+Minutes 3 and 4, the vocabulary: learn owner, group and others, mode bits, chmod and chown, and umask.
+
+Minutes 5 and 6, the picture: imagine colored wristbands that decide which rooms each guest may enter. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through protecting private keys, sharing project folders, and securing web server files.
+
+Minutes 9 and 10, the traps and the tools: watch for using chmod 777 as a quick fix and wrong ownership after copying files, then try ls -l for a first experiment.
+
+If you have a spare minute, remember to grant the least permission that works.

@@ -1,0 +1,17 @@
+Physics Engines for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Physics Engines.
+
+Learning goals:
+1. Explain Physics Engines in your own words.
+2. Describe rigid bodies, forces and impulses, constraints, and fixed time steps.
+3. Give examples from vehicles and ragdolls and puzzle games.
+4. Name three problems to watch for.
+
+Start with the definition: Physics Engines is software that simulates forces, motion and collisions of objects. Then draw a stage manager who enforces gravity on every prop on paper and label the four terms from the goals above.
+
+Self-test questions: Why is variable time steps a problem? How does forces and impulses relate to constraints? When would you choose Box2D or Bullet?
+
+Study habit: use a fixed time step for stable results.
+
+When you feel ready, compare Physics Engines with Game AI Behavior Trees and write down three differences.

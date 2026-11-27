@@ -1,0 +1,11 @@
+Fine-Tuning Models Tips from Experienced Engineers
+
+Engineers who work with Fine-Tuning Models regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit training data before anything else.
+2. Reach for Hugging Face first, and only then evaluate alternatives such as PyTorch.
+3. Do not skip pretrained weights; everything else builds on it.
+4. Write down why you chose Fine-Tuning Models so the next person understands the decision.
+5. Test the case of domain-specific language tasks early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to style adaptation as well as to Fine-Tuning Models in general.

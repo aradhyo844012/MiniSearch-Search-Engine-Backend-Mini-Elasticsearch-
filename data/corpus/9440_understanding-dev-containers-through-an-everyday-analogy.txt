@@ -1,0 +1,9 @@
+Understanding Dev Containers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a ready-made workshop that opens identically for everyone.
+
+In that picture, devcontainer.json is the first rule you follow, images is the next step, and mounted folders and extensions keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Dev Containers is containerized development environments that every teammate can start in the same way, and it involves details such as slow image builds that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for VS Code Dev Containers to learn the exact behavior. The same picture helps when you explain onboarding new developers to a friend.

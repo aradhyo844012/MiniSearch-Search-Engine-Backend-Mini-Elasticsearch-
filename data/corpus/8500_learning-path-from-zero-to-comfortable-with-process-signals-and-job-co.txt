@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Process Signals and Job Control
+
+This path is for a learner who has never studied Process Signals and Job Control before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Process Signals and Job Control is messages and shell features used to stop, pause and resume running programs) and learn SIGTERM and SIGKILL and foreground and background jobs.
+
+Stage 2, hands-on: install kill, follow a tutorial, and build a small example involving stopping runaway programs.
+
+Stage 3, depth: study kill and trap and process groups, then deliberately explore this problem: using kill -9 first.
+
+Stage 4, application: apply Process Signals and Job Control to shutting down gracefully, compare jobs and fg with nohup, and write up your results.
+
+Stage 5, review: teach Process Signals and Job Control to someone else, and then move on to systemd Services.

@@ -1,0 +1,15 @@
+The Pros and Cons of Reverse Proxies
+
+No technology is free of trade-offs, and Reverse Proxies is no exception. Here is an honest summary.
+
+Advantages:
+- Supports hiding backend servers
+- Makes terminating HTTPS easier
+- Helps with routing requests to several apps
+
+Drawbacks and risks:
+- Risk: losing the client IP address
+- Risk: wrong timeouts
+- Risk: exposing internal paths
+
+Weigh the two lists against your own project. If the advantages match your needs, such as hiding backend servers, and you can manage the risks, Reverse Proxies is a sound choice. Whatever you decide, forward the real client IP in a trusted header.

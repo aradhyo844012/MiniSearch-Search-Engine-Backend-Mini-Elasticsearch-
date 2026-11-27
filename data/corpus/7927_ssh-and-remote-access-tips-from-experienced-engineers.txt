@@ -1,0 +1,11 @@
+SSH and Remote Access Tips from Experienced Engineers
+
+Engineers who work with SSH and Remote Access regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can use key-based login and disable password authentication.
+2. Test the case of administering servers early, before the design hardens.
+3. When something behaves strangely, revisit host keys before anything else.
+4. Do not skip key pairs; everything else builds on it.
+5. Be careful with this one: password logins left enabled.
+
+None of these tips needs special equipment, and all of them apply to copying files securely as well as to SSH and Remote Access in general.

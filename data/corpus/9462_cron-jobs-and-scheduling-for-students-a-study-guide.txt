@@ -1,0 +1,17 @@
+Cron Jobs and Scheduling for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Cron Jobs and Scheduling.
+
+Learning goals:
+1. Explain Cron Jobs and Scheduling in your own words.
+2. Describe crontab syntax, schedule fields, environment differences, and output redirection.
+3. Give examples from nightly backups and log rotation.
+4. Name three problems to watch for.
+
+Start with the definition: Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times. Then draw an alarm clock that starts chores for you on paper and label the four terms from the goals above.
+
+Self-test questions: Why is assuming cron has your shell environment a problem? How does schedule fields relate to environment differences? When would you choose crontab or systemd timers?
+
+Study habit: redirect output to a log file and use absolute paths.
+
+When you feel ready, compare Cron Jobs and Scheduling with SSH and Remote Access and write down three differences.

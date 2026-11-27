@@ -1,0 +1,11 @@
+Choosing Tools for MongoDB Aggregation
+
+There is no single best tool for MongoDB Aggregation. The right choice depends on your project, your team and your timeline.
+
+MongoDB Compass is a common first choice, especially for summarizing orders. mongosh suits teams that already work with similar technology, and PyMongo is worth a look when you need something different.
+
+Judge any tool for MongoDB Aggregation by four questions: Is the documentation clear? Is the community active? Does it handle building analytics queries well? Can you leave it later if you need to?
+
+Whichever tool you pick for MongoDB Aggregation, test it on a small problem first, and watch for this: putting $match late.
+
+As a rule of thumb, filter with $match as early as possible, no matter which tool you use.

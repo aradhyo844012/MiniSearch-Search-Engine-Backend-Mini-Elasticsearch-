@@ -1,0 +1,11 @@
+Scaling Considerations for High Availability Design
+
+A design that works for a classroom project can behave very differently under real load. Here is how High Availability Design changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding redundancy and getting online stores right.
+
+Medium scale: problems start to appear. Watch for hidden single points of failure and untested failover, and measure with load balancers before changing anything.
+
+Large scale: health checks and no single point of failure move from background details to central design questions. Teams often revisit their choices around banking systems at this stage.
+
+Before you scale, list every component and ask what happens if it dies. It is cheaper to build that habit early than to fix a crisis later.

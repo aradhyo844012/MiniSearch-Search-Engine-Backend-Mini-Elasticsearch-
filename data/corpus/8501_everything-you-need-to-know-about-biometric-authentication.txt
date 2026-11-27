@@ -1,0 +1,26 @@
+Everything You Need to Know About Biometric Authentication
+
+This page collects the essentials about Biometric Authentication in one place. In short, Biometric Authentication is verifying identity using traits such as fingerprints, faces or voices.
+
+Core concepts:
+- enrollment
+- matching
+- false accept and false reject rates
+- liveness detection
+
+Where it is used:
+- phone unlock
+- building access
+- payment approval
+
+Common problems:
+- spoofing attacks
+- biased recognition
+- credentials that cannot be changed once leaked
+
+Tools to know:
+- Android BiometricPrompt
+- Face ID APIs
+- FIDO2
+
+Remember this above all: a door that recognizes you by your face instead of a key is a good way to picture it, and the best habit is to offer a fallback method and protect the stored templates.

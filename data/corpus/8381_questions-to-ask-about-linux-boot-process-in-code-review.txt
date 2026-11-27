@@ -1,0 +1,12 @@
+Questions to Ask About Linux Boot Process in Code Review
+
+Reviewing code that involves Linux Boot Process is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect firmware, or does it work around it?
+- Is bootloader clear to someone reading the code for the first time?
+- Could we keep a recovery option available before editing boot settings?
+- Would a test catch wrong kernel parameters if it appeared later?
+- Is GRUB used consistently, or are we mixing approaches?
+- Does the code handle the case of troubleshooting machines that do not start correctly?
+
+Good reviews of work on Linux Boot Process are specific, kind and focused on kernel initialization, not on personal style.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Cron Jobs and Scheduling
+
+This page collects the essentials about Cron Jobs and Scheduling in one place. In short, Cron Jobs and Scheduling is a Unix tool that runs commands automatically at scheduled times.
+
+Core concepts:
+- crontab syntax
+- schedule fields
+- environment differences
+- output redirection
+
+Where it is used:
+- nightly backups
+- log rotation
+- periodic reports
+
+Common problems:
+- assuming cron has your shell environment
+- overlapping runs of slow jobs
+- no logging of failures
+
+Tools to know:
+- crontab
+- systemd timers
+- flock
+
+Remember this above all: an alarm clock that starts chores for you is a good way to picture it, and the best habit is to redirect output to a log file and use absolute paths.

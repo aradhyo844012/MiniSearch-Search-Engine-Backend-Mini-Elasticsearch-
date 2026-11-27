@@ -1,0 +1,12 @@
+Questions to Ask About Font Rendering in Code Review
+
+Reviewing code that involves Font Rendering is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is FreeType used consistently, or are we mixing approaches?
+- Could we subset fonts to the characters you need?
+- Would a test catch blurry text from scaling if it appeared later?
+- Have we considered missing font fallbacks?
+- Does the code handle the case of web pages correctly?
+- Is hinting clear to someone reading the code for the first time?
+
+Good reviews of work on Font Rendering are specific, kind and focused on anti-aliasing, not on personal style.

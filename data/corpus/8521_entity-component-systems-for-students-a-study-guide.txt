@@ -1,0 +1,17 @@
+Entity Component Systems for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Entity Component Systems.
+
+Learning goals:
+1. Explain Entity Component Systems in your own words.
+2. Describe entities, components, systems, and queries.
+3. Give examples from large simulations and games with thousands of objects.
+4. Name three problems to watch for.
+
+Start with the definition: Entity Component Systems is a game architecture that builds objects from data components processed by systems. Then draw building characters from interchangeable parts snapped onto an ID tag on paper and label the four terms from the goals above.
+
+Self-test questions: Why is overengineering small games a problem? How does components relate to systems? When would you choose Bevy or Unity DOTS?
+
+Study habit: keep components as plain data.
+
+When you feel ready, compare Entity Component Systems with Collision Detection and write down three differences.

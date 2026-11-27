@@ -1,0 +1,11 @@
+Practice Exercises for Game Loop
+
+These exercises build real understanding of Game Loop. Do them in order, and write down your answers.
+
+Exercise 1: Pick Unity and complete its getting-started tutorial.
+Exercise 2: Explain how rendering and frame timing differ, using a drawing.
+Exercise 3: Create a small example that deliberately triggers this problem: tying logic to frame rate. Then fix it.
+Exercise 4: Compare Godot and SDL for simulating physics steadily and write down your conclusion.
+Exercise 5: List three situations from your own experience that resemble running every real-time game or keeping animation smooth.
+
+When you finish, compare your answers with the definition: Game Loop is the repeating cycle that processes input, updates the game state and draws each frame.

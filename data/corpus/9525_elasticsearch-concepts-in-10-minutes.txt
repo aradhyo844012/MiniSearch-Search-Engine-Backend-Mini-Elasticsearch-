@@ -1,0 +1,15 @@
+Elasticsearch Concepts in 10 Minutes
+
+You have ten minutes, so here is the fast route through Elasticsearch Concepts.
+
+Minutes 1 and 2, the definition: Elasticsearch Concepts is the building blocks of a distributed search engine that indexes and ranks documents.
+
+Minutes 3 and 4, the vocabulary: learn indexes, shards, analyzers, and queries.
+
+Minutes 5 and 6, the picture: imagine a giant library with an index card for every word. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through site search, log analytics, and product catalogs.
+
+Minutes 9 and 10, the traps and the tools: watch for too many shards and mapping explosions, then try Elasticsearch for a first experiment.
+
+If you have a spare minute, remember to define explicit mappings instead of relying on defaults.

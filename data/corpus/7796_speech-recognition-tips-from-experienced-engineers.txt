@@ -1,0 +1,11 @@
+Speech Recognition Tips from Experienced Engineers
+
+Engineers who work with Speech Recognition regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: accents and background noise.
+2. Reach for Whisper first, and only then evaluate alternatives such as Kaldi.
+3. Make sure you can measure word error rate on audio like your real users'.
+4. Test the case of voice assistants early, before the design hardens.
+5. Do not skip audio features; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to captioning as well as to Speech Recognition in general.

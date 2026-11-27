@@ -1,0 +1,12 @@
+NAT Glossary for Beginners
+
+New words can make NAT feel harder than it is. This glossary keeps the key ones in one place.
+
+NAT: a technique that lets many devices share one public IP address by rewriting addresses.
+private addresses: a core term, most visible in home routers.
+translation tables: a core term that beginners often confuse with port mapping.
+port mapping: a core term that connects to port forwarding.
+port forwarding: a core term worth revisiting after you try a real example.
+iptables: a tool commonly used for sharing limited IPv4 addresses.
+
+Come back to this NAT list whenever documentation for router admin pages uses a word you do not recognize.

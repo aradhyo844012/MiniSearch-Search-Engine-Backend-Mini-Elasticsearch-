@@ -1,0 +1,12 @@
+Questions to Ask About Packet Switching in Code Review
+
+Reviewing code that involves Packet Switching is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect packets, or does it work around it?
+- Is Wireshark used consistently, or are we mixing approaches?
+- Have we avoided this problem: large packets being fragmented?
+- Could we capture a few packets to see the headers for yourself?
+- Does the code handle the case of internet traffic correctly?
+- Would a test catch out-of-order delivery if it appeared later?
+
+Good reviews of work on Packet Switching are specific, kind and focused on routing, not on personal style.

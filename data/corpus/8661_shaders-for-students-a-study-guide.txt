@@ -1,0 +1,17 @@
+Shaders for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Shaders.
+
+Learning goals:
+1. Explain Shaders in your own words.
+2. Describe vertex shaders, fragment shaders, uniforms, and GLSL.
+3. Give examples from lighting effects and water and fire visuals.
+4. Name three problems to watch for.
+
+Start with the definition: Shaders is small programs that run on the graphics card to control how things are drawn. Then draw a tiny painter that colors each pixel following your instructions on paper and label the four terms from the goals above.
+
+Self-test questions: Why is branches that slow the GPU a problem? How does fragment shaders relate to uniforms? When would you choose GLSL or Shadertoy?
+
+Study habit: start from a minimal shader and add one effect at a time.
+
+When you feel ready, compare Shaders with Collision Detection and write down three differences.

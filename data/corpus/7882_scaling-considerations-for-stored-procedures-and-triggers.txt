@@ -1,0 +1,11 @@
+Scaling Considerations for Stored Procedures and Triggers
+
+A design that works for a classroom project can behave very differently under real load. Here is how Stored Procedures and Triggers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding procedures and getting enforcing rules close to the data right.
+
+Medium scale: problems start to appear. Watch for hidden logic that surprises developers and hard-to-test code, and measure with PL/pgSQL before changing anything.
+
+Large scale: parameters and side effects move from background details to central design questions. Teams often revisit their choices around audit logging at this stage.
+
+Before you scale, keep triggers small and well documented. It is cheaper to build that habit early than to fix a crisis later.

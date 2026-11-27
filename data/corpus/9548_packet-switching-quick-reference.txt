@@ -1,0 +1,15 @@
+Packet Switching Quick Reference
+
+A one-screen reminder for Packet Switching. Bookmark it and return when the details fade.
+
+What it is: a method of sending data as small packets that travel independently across a network.
+Key terms: packets, headers, routing, and reassembly.
+Typical uses: internet traffic, voice over IP, and file transfers.
+Risks: packet loss, out-of-order delivery, and large packets being fragmented.
+Tools: Wireshark, tcpdump, and iperf.
+
+Mental picture: mailing a book one page per envelope and reassembling it on arrival.
+
+Habit to build: capture a few packets to see the headers for yourself.
+
+See also: Network Troubleshooting, which sits close to Packet Switching in the area of Networking and Internet Infrastructure.

@@ -1,0 +1,11 @@
+Choosing Tools for HTTP/2 and HTTP/3
+
+There is no single best tool for HTTP/2 and HTTP/3. The right choice depends on your project, your team and your timeline.
+
+curl with HTTP/3 support is a common first choice, especially for faster page loads. Chrome DevTools suits teams that already work with similar technology, and NGINX is worth a look when you need something different.
+
+Judge any tool for HTTP/2 and HTTP/3 by four questions: Is the documentation clear? Is the community active? Does it handle improving mobile performance well? Can you leave it later if you need to?
+
+Whichever tool you pick for HTTP/2 and HTTP/3, test it on a small problem first, and watch for this: assuming old tricks like sprite sheets still help.
+
+As a rule of thumb, keep a working HTTP/1.1 fallback, no matter which tool you use.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Multi-Cloud Strategy
+
+Everyone learns Multi-Cloud Strategy partly through mistakes. Here are three worth avoiding.
+
+Mistake one: doubling operational complexity. It usually appears when someone skips portability and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: lowest-common-denominator designs. It tends to be noticed late, often during testing of avoiding single-provider risk. A short checklist during review catches it early.
+
+Mistake three: hidden data transfer costs. It is easy to miss because everything seems to work at first. Keep an eye on cost comparison to spot it.
+
+If you remember only one rule, make it this: be clear about the problem multi-cloud is meant to solve.

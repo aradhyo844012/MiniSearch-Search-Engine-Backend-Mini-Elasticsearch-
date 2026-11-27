@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Model Drift and Monitoring
+
+This path is for a learner who has never studied Model Drift and Monitoring before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Model Drift and Monitoring is watching deployed models for changes in data or performance over time) and learn data drift and concept drift.
+
+Stage 2, hands-on: install Evidently, follow a tutorial, and build a small example involving catching degrading models.
+
+Stage 3, depth: study performance metrics and alerts, then deliberately explore this problem: monitoring only system health.
+
+Stage 4, application: apply Model Drift and Monitoring to scheduling retraining, compare Prometheus with Grafana, and write up your results.
+
+Stage 5, review: teach Model Drift and Monitoring to someone else, and then move on to Model Deployment.

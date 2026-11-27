@@ -1,0 +1,17 @@
+Edge Computing Do's and Don'ts
+
+A quick list of habits for working with Edge Computing.
+
+Do:
+- Learn edge nodes before anything else.
+- Try AWS IoT Greengrass on a small example.
+- Make it a habit to decide which data must stay local before designing the system.
+- Test the case of factory sensors early.
+
+Don't:
+- Ignore this: hard-to-update devices.
+- Ignore this: inconsistent hardware.
+- Ignore this: security at many sites.
+- Adopt Edge Computing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Edge Computing, a little patience with latency pays off more than any clever shortcut.

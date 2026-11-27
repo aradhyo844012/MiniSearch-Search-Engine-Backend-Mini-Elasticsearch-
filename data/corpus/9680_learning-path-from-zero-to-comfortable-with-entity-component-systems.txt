@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Entity Component Systems
+
+This path is for a learner who has never studied Entity Component Systems before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Entity Component Systems is a game architecture that builds objects from data components processed by systems) and learn entities and components.
+
+Stage 2, hands-on: install Bevy, follow a tutorial, and build a small example involving large simulations.
+
+Stage 3, depth: study systems and queries, then deliberately explore this problem: overengineering small games.
+
+Stage 4, application: apply Entity Component Systems to games with thousands of objects, compare Unity DOTS with EnTT, and write up your results.
+
+Stage 5, review: teach Entity Component Systems to someone else, and then move on to Game AI Behavior Trees.

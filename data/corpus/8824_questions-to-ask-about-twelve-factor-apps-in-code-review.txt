@@ -1,0 +1,12 @@
+Questions to Ask About Twelve-Factor Apps in Code Review
+
+Reviewing code that involves Twelve-Factor Apps is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: long start-up times?
+- Is Heroku used consistently, or are we mixing approaches?
+- Could we keep config out of the code?
+- Does the code handle the case of building web services correctly?
+- Have we considered storing state on local disks?
+- Does this change respect config in the environment, or does it work around it?
+
+Good reviews of work on Twelve-Factor Apps are specific, kind and focused on backing services, not on personal style.

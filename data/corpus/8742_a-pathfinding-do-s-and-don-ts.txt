@@ -1,0 +1,17 @@
+A* Pathfinding Do's and Don'ts
+
+A quick list of habits for working with A* Pathfinding.
+
+Do:
+- Learn open and closed sets before anything else.
+- Try Unity NavMesh on a small example.
+- Make it a habit to choose an admissible heuristic so paths stay optimal.
+- Test the case of game characters early.
+
+Don't:
+- Ignore this: overestimating the heuristic.
+- Ignore this: slow searches on huge maps.
+- Ignore this: ignoring moving obstacles.
+- Adopt A* Pathfinding just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with A* Pathfinding, a little patience with cost so far pays off more than any clever shortcut.

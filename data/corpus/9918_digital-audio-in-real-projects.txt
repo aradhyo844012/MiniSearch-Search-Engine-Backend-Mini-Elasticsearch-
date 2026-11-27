@@ -1,0 +1,11 @@
+Digital Audio in Real Projects
+
+Reading about Digital Audio is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: music production. Here, sampling rate drives the main design choices, and the team needs to guard against clipping from too high a level.
+
+Scenario two: voice calls. This time bit depth matters most, and tools such as Audacity help keep things manageable.
+
+Scenario three: podcasts. The key idea is waveforms, and the biggest risk is aliasing at low sample rates.
+
+Across all three scenarios, Digital Audio stays the same idea: representing sound as numbers by sampling it many times per second. Only the details change.

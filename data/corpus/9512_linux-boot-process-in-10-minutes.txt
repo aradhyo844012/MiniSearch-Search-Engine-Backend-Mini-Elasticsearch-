@@ -1,0 +1,15 @@
+Linux Boot Process in 10 Minutes
+
+You have ten minutes, so here is the fast route through Linux Boot Process.
+
+Minutes 1 and 2, the definition: Linux Boot Process is the sequence of steps from powering on a machine to a running operating system.
+
+Minutes 3 and 4, the vocabulary: learn firmware, bootloader, kernel initialization, and the init system.
+
+Minutes 5 and 6, the picture: imagine a theater crew setting the stage in order before the curtain rises. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through troubleshooting machines that do not start, configuring dual boot, and building custom images.
+
+Minutes 9 and 10, the traps and the tools: watch for overwriting the bootloader and wrong kernel parameters, then try GRUB for a first experiment.
+
+If you have a spare minute, remember to keep a recovery option available before editing boot settings.

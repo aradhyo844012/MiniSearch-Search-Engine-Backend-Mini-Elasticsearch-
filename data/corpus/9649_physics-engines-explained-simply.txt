@@ -1,0 +1,13 @@
+Physics Engines Explained Simply
+
+If Physics Engines sounds intimidating, relax. It is software that simulates forces, motion and collisions of objects, and the idea is simpler than the name suggests.
+
+Think of Physics Engines as a stage manager who enforces gravity on every prop. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: rigid bodies, forces and impulses, constraints, and fixed time steps. You do not need to master them all at once. Start with rigid bodies, then add forces and impulses.
+
+You will meet Physics Engines in work such as vehicles and ragdolls, puzzle games, and training simulations.
+
+One practical tip is to use a fixed time step for stable results.
+
+After Physics Engines, a natural next topic is Sprite Animation.

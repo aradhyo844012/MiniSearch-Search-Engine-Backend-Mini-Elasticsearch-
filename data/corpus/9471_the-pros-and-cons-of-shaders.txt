@@ -1,0 +1,15 @@
+The Pros and Cons of Shaders
+
+No technology is free of trade-offs, and Shaders is no exception. Here is an honest summary.
+
+Advantages:
+- Supports lighting effects
+- Makes water and fire visuals easier
+- Helps with post-processing
+
+Drawbacks and risks:
+- Risk: branches that slow the GPU
+- Risk: precision errors
+- Risk: platform differences
+
+Weigh the two lists against your own project. If the advantages match your needs, such as lighting effects, and you can manage the risks, Shaders is a sound choice. Whatever you decide, start from a minimal shader and add one effect at a time.

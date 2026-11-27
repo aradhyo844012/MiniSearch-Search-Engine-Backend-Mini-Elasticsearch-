@@ -1,0 +1,11 @@
+Practice Exercises for NAT
+
+These exercises build real understanding of NAT. Do them in order, and write down your answers.
+
+Exercise 1: Pick iptables and complete its getting-started tutorial.
+Exercise 2: Explain how port mapping and port forwarding differ, using a drawing.
+Exercise 3: List three situations from your own experience that resemble home routers or sharing limited IPv4 addresses.
+Exercise 4: Create a small example that deliberately triggers this problem: breaking peer-to-peer connections. Then fix it.
+Exercise 5: Write a short paragraph describing NAT and include the term private addresses.
+
+When you finish, compare your answers with the definition: NAT is a technique that lets many devices share one public IP address by rewriting addresses.

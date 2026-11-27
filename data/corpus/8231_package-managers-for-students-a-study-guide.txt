@@ -1,0 +1,17 @@
+Package Managers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Package Managers.
+
+Learning goals:
+1. Explain Package Managers in your own words.
+2. Describe repositories, dependency resolution, versions, and signed packages.
+3. Give examples from installing system tools and keeping servers updated.
+4. Name three problems to watch for.
+
+Start with the definition: Package Managers is tools that install, update and remove software along with its dependencies. Then draw a supply store that delivers parts together with the parts they need on paper and label the four terms from the goals above.
+
+Self-test questions: Why is mixing sources that conflict a problem? How does dependency resolution relate to versions? When would you choose apt or dnf?
+
+Study habit: update the package index before installing anything.
+
+When you feel ready, compare Package Managers with Cron Jobs and Scheduling and write down three differences.

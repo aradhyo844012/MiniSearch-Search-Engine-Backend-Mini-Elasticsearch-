@@ -1,0 +1,11 @@
+Choosing Tools for Biometric Authentication
+
+There is no single best tool for Biometric Authentication. The right choice depends on your project, your team and your timeline.
+
+Android BiometricPrompt is a common first choice, especially for phone unlock. Face ID APIs suits teams that already work with similar technology, and FIDO2 is worth a look when you need something different.
+
+Judge any tool for Biometric Authentication by four questions: Is the documentation clear? Is the community active? Does it handle building access well? Can you leave it later if you need to?
+
+Whichever tool you pick for Biometric Authentication, test it on a small problem first, and watch for this: spoofing attacks.
+
+As a rule of thumb, offer a fallback method and protect the stored templates, no matter which tool you use.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Disk Partitioning and Mounting
+
+Everyone learns Disk Partitioning and Mounting partly through mistakes. Here are three worth avoiding.
+
+Mistake one: wrong device names. It usually appears when someone skips partitions and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: mounting without fstab entries. It tends to be noticed late, often during testing of adding a new drive. A short checklist during review catches it early.
+
+Mistake three: formatting the wrong disk. It is easy to miss because everything seems to work at first. Keep an eye on fstab to spot it.
+
+If you remember only one rule, make it this: double-check device names with lsblk before formatting.

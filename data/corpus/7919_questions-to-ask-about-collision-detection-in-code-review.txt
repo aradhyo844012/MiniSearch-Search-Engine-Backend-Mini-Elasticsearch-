@@ -1,0 +1,12 @@
+Questions to Ask About Collision Detection in Code Review
+
+Reviewing code that involves Collision Detection is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: inconsistent hitboxes?
+- Would a test catch checking every pair of objects if it appeared later?
+- Could we use simple shapes first and refine only when needed?
+- Does the code handle the case of platformers correctly?
+- Does this change respect bounding boxes, or does it work around it?
+- Is broad and narrow phases clear to someone reading the code for the first time?
+
+Good reviews of work on Collision Detection are specific, kind and focused on spatial partitioning, not on personal style.

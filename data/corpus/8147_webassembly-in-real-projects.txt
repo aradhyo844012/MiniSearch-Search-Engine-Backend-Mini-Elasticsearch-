@@ -1,0 +1,11 @@
+WebAssembly in Real Projects
+
+Reading about WebAssembly is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: running heavy computation in the browser. Here, modules drives the main design choices, and the team needs to guard against crossing the JavaScript boundary too often.
+
+Scenario two: porting existing C or Rust code. This time linear memory matters most, and tools such as Emscripten help keep things manageable.
+
+Scenario three: games and image tools. The key idea is imports and exports, and the biggest risk is large binaries.
+
+Across all three scenarios, WebAssembly stays the same idea: a compact binary format that lets code written in many languages run fast in browsers. Only the details change.

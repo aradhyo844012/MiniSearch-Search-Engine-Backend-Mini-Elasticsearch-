@@ -1,0 +1,11 @@
+Scaling Considerations for Video Codecs
+
+A design that works for a classroom project can behave very differently under real load. Here is how Video Codecs changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding frames and getting streaming services right.
+
+Medium scale: problems start to appear. Watch for mismatched codec support and too low a bitrate, and measure with FFmpeg before changing anything.
+
+Large scale: bitrate and containers move from background details to central design questions. Teams often revisit their choices around video calls at this stage.
+
+Before you scale, test playback on the weakest target device. It is cheaper to build that habit early than to fix a crisis later.

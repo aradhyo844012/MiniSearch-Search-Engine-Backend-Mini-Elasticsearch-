@@ -1,0 +1,26 @@
+Everything You Need to Know About Floating-Point Arithmetic
+
+This page collects the essentials about Floating-Point Arithmetic in one place. In short, Floating-Point Arithmetic is the way computers approximate real numbers with a fixed number of bits.
+
+Core concepts:
+- mantissa and exponent
+- rounding
+- precision
+- special values
+
+Where it is used:
+- scientific computing
+- graphics
+- financial calculations that need care
+
+Common problems:
+- comparing floats with equality
+- accumulated rounding errors
+- using floats for money
+
+Tools to know:
+- Python decimal
+- NumPy
+- IEEE 754 references
+
+Remember this above all: writing numbers in scientific notation with a limited number of digits is a good way to picture it, and the best habit is to compare floats with a tolerance and use decimals for money.

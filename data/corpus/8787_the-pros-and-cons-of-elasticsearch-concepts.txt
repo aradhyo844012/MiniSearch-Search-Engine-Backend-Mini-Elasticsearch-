@@ -1,0 +1,15 @@
+The Pros and Cons of Elasticsearch Concepts
+
+No technology is free of trade-offs, and Elasticsearch Concepts is no exception. Here is an honest summary.
+
+Advantages:
+- Supports site search
+- Makes log analytics easier
+- Helps with product catalogs
+
+Drawbacks and risks:
+- Risk: too many shards
+- Risk: mapping explosions
+- Risk: treating it as a primary database
+
+Weigh the two lists against your own project. If the advantages match your needs, such as site search, and you can manage the risks, Elasticsearch Concepts is a sound choice. Whatever you decide, define explicit mappings instead of relying on defaults.

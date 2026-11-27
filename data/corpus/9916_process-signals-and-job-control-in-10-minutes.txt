@@ -1,0 +1,15 @@
+Process Signals and Job Control in 10 Minutes
+
+You have ten minutes, so here is the fast route through Process Signals and Job Control.
+
+Minutes 1 and 2, the definition: Process Signals and Job Control is messages and shell features used to stop, pause and resume running programs.
+
+Minutes 3 and 4, the vocabulary: learn SIGTERM and SIGKILL, foreground and background jobs, kill and trap, and process groups.
+
+Minutes 5 and 6, the picture: imagine a traffic officer's hand signals for running programs. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through stopping runaway programs, shutting down gracefully, and running long tasks in the background.
+
+Minutes 9 and 10, the traps and the tools: watch for using kill -9 first and orphaned child processes, then try kill for a first experiment.
+
+If you have a spare minute, remember to try SIGTERM before SIGKILL so programs can clean up.
