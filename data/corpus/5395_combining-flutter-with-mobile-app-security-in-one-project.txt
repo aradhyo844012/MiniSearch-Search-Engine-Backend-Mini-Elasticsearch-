@@ -1,0 +1,15 @@
+Combining Flutter with Mobile App Security in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Flutter and Mobile App Security can work together in a single project.
+
+Flutter is a toolkit for building natively compiled apps from a single Dart codebase. Mobile App Security is practices that protect mobile apps and their data from attacks.
+
+Imagine a project that involves cross-platform mobile apps and banking apps. Flutter brings widgets, while Mobile App Security brings secure storage.
+
+A sensible plan is to start with Dart for the Flutter part and OWASP MASVS for the Mobile App Security part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor state organization on one side, and hard-coded API keys on the other.
+
+Picture the whole as a box of customizable building blocks drawn by its own engine, working alongside locking an app's valuables in a hotel safe.
+
+Two habits help: first, split big widgets into small reusable ones; second, store secrets in the platform keychain or keystore.

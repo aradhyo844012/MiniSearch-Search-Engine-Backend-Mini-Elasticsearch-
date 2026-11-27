@@ -1,0 +1,13 @@
+Event-Driven Architecture vs Software Estimation: Which One Should You Learn First?
+
+Learners often ask whether to study Event-Driven Architecture or Software Estimation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers. Software Estimation, by contrast, is predicting how much time and effort a piece of work will take, and it is closely tied to story points and ranges.
+
+Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications. Choose Software Estimation first if you care about sprint planning or setting deadlines.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it, and of Software Estimation as forecasting the weather rather than reading a timetable. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event-Driven Architecture, avoid hard-to-trace flows. With Software Estimation, avoid treating estimates as promises.
+
+A good habit for Event-Driven Architecture is to document every event name and schema. A good habit for Software Estimation is to give ranges instead of single numbers.

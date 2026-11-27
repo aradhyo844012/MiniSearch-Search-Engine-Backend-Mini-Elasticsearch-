@@ -1,0 +1,11 @@
+Mistakes to Avoid with Instruction Pipelines
+
+Everyone learns Instruction Pipelines partly through mistakes. Here are three worth avoiding.
+
+Mistake one: unpredictable branches. It usually appears when someone skips fetch, decode and execute stages and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: dependency chains. It tends to be noticed late, often during testing of explaining CPU speed. A short checklist during review catches it early.
+
+Mistake three: assuming each instruction takes one step. It is easy to miss because everything seems to work at first. Keep an eye on stalls to spot it.
+
+If you remember only one rule, make it this: avoid unpredictable branches in hot loops.

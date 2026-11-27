@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with CAP Theorem
+
+This path is for a learner who has never studied CAP Theorem before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once) and learn consistency and availability.
+
+Stage 2, hands-on: install Apache Cassandra, follow a tutorial, and build a small example involving choosing database types.
+
+Stage 3, depth: study partition tolerance and trade-offs, then deliberately explore this problem: treating it as a three-way menu.
+
+Stage 4, application: apply CAP Theorem to designing multi-region services, compare etcd with ZooKeeper, and write up your results.
+
+Stage 5, review: teach CAP Theorem to someone else, and then move on to Leader Election.

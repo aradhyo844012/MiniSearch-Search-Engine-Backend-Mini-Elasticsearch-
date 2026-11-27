@@ -1,0 +1,15 @@
+React Hooks in 10 Minutes
+
+You have ten minutes, so here is the fast route through React Hooks.
+
+Minutes 1 and 2, the definition: React Hooks is functions that let components use state and lifecycle features without writing classes.
+
+Minutes 3 and 4, the vocabulary: learn useState, useEffect, dependency arrays, and custom hooks.
+
+Minutes 5 and 6, the picture: imagine sticky notes a component keeps between redraws. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through managing form input, fetching data on load, and sharing logic between components.
+
+Minutes 9 and 10, the traps and the tools: watch for missing dependencies in effects and calling hooks conditionally, then try React DevTools for a first experiment.
+
+If you have a spare minute, remember to enable the hooks lint rules from the start.

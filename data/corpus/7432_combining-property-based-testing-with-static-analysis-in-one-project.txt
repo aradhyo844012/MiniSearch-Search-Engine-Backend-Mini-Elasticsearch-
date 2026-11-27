@@ -1,0 +1,15 @@
+Combining Property-Based Testing with Static Analysis in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Property-Based Testing and Static Analysis can work together in a single project.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Static Analysis is automated checking of source code for bugs and style problems without running it.
+
+Imagine a project that involves testing parsers and catching bugs early. Property-Based Testing brings properties, while Static Analysis brings linters.
+
+A sensible plan is to start with Hypothesis for the Property-Based Testing part and ESLint for the Static Analysis part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow generators on one side, and too many noisy rules on the other.
+
+Picture the whole as a robot tester trying thousands of odd inputs, working alongside a spell checker for code.
+
+Two habits help: first, save failing examples as regular tests; second, run it in CI so problems never reach the main branch.

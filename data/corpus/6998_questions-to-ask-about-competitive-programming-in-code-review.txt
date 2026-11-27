@@ -1,0 +1,12 @@
+Questions to Ask About Competitive Programming in Code Review
+
+Reviewing code that involves Competitive Programming is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered memorizing solutions without understanding?
+- Does this change respect problem patterns, or does it work around it?
+- Would a test catch skipping fundamentals if it appeared later?
+- Does the code handle the case of interview preparation correctly?
+- Have we avoided this problem: burning out?
+- Is time limits clear to someone reading the code for the first time?
+
+Good reviews of work on Competitive Programming are specific, kind and focused on contests, not on personal style.

@@ -1,0 +1,11 @@
+Disaster Recovery in Real Projects
+
+Reading about Disaster Recovery is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: surviving regional outages. Here, recovery time objective drives the main design choices, and the team needs to guard against untested plans.
+
+Scenario two: meeting compliance needs. This time recovery point objective matters most, and tools such as AWS Backup help keep things manageable.
+
+Scenario three: protecting critical data. The key idea is failover regions, and the biggest risk is outdated runbooks.
+
+Across all three scenarios, Disaster Recovery stays the same idea: the plans and systems that restore services after major failures. Only the details change.

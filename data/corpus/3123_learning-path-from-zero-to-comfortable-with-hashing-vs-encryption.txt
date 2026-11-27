@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Hashing vs Encryption
+
+This path is for a learner who has never studied Hashing vs Encryption before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Hashing vs Encryption is the difference between one-way digests and reversible protection of data) and learn one-way functions and keys.
+
+Stage 2, hands-on: install SHA-256, follow a tutorial, and build a small example involving storing passwords.
+
+Stage 3, depth: study collision resistance and reversibility, then deliberately explore this problem: encrypting passwords instead of hashing them.
+
+Stage 4, application: apply Hashing vs Encryption to verifying file integrity, compare AES with OpenSSL, and write up your results.
+
+Stage 5, review: teach Hashing vs Encryption to someone else, and then move on to Dependency Vulnerabilities.

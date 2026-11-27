@@ -1,0 +1,11 @@
+Garbage Collection in Real Projects
+
+Reading about Garbage Collection is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: managed languages like Java and Python. Here, reachability drives the main design choices, and the team needs to guard against creating huge numbers of short-lived objects.
+
+Scenario two: reducing memory bugs. This time generations matters most, and tools such as JVM GC logs help keep things manageable.
+
+Scenario three: long-running services. The key idea is mark and sweep, and the biggest risk is holding references longer than needed.
+
+Across all three scenarios, Garbage Collection stays the same idea: automatic memory management that finds and frees objects a program no longer uses. Only the details change.

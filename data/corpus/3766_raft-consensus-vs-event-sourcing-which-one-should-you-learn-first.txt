@@ -1,0 +1,13 @@
+Raft Consensus vs Event Sourcing: Which One Should You Learn First?
+
+Learners often ask whether to study Raft Consensus or Event Sourcing first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication. Event Sourcing, by contrast, is a design in which every change is stored as an immutable event and state is rebuilt from them, and it is closely tied to event log and projections.
+
+Choose Raft Consensus first if you care about configuration stores or distributed locks. Choose Event Sourcing first if you care about audit trails or financial ledgers.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm, and of Event Sourcing as a bank statement that lists every transaction instead of only the balance. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raft Consensus, avoid even-sized clusters. With Event Sourcing, avoid changing event formats carelessly.
+
+A good habit for Raft Consensus is to use an odd number of nodes. A good habit for Event Sourcing is to version your events from the first day.

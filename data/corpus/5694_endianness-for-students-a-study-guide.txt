@@ -1,0 +1,17 @@
+Endianness for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Endianness.
+
+Learning goals:
+1. Explain Endianness in your own words.
+2. Describe big-endian, little-endian, byte order marks, and network byte order.
+3. Give examples from network protocols and binary file formats.
+4. Name three problems to watch for.
+
+Start with the definition: Endianness is the order in which a computer stores the bytes of a multi-byte number. Then draw writing a date as day-month-year or as year-month-day on paper and label the four terms from the goals above.
+
+Self-test questions: Why is mixing byte orders a problem? How does little-endian relate to byte order marks? When would you choose Python struct or htons and ntohl?
+
+Study habit worth keeping: always specify byte order in file and protocol formats.
+
+When you feel ready, compare Endianness with Instruction Pipelines and write down three differences.

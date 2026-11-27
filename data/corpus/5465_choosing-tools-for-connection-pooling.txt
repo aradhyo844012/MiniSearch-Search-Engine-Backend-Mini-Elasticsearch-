@@ -1,0 +1,11 @@
+Choosing Tools for Connection Pooling
+
+There is no single best tool for Connection Pooling. The right choice depends on your project, your team and your timeline.
+
+PgBouncer is a common first choice, especially for web backends. HikariCP suits teams that already work with similar technology, and SQLAlchemy pools is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle serverless functions that call databases well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: pools larger than the database allows.
+
+As a rule of thumb, always return connections in a finally block, no matter which tool you use.

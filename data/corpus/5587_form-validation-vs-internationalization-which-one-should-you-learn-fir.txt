@@ -1,0 +1,13 @@
+Form Validation vs Internationalization: Which One Should You Learn First?
+
+Learners often ask whether to study Form Validation or Internationalization first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Form Validation is checking user input for correctness before it is accepted, and it is closely tied to client-side checks and server-side checks. Internationalization, by contrast, is designing software so it can be adapted to different languages and regions, and it is closely tied to locale detection and translation files.
+
+Choose Form Validation first if you care about sign-up forms or payment pages. Choose Internationalization first if you care about global products or multi-language websites.
+
+Think of Form Validation as a proofreader checking a form before it is submitted, and of Internationalization as a stage set where the backdrop can be swapped for each audience. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Form Validation, avoid validating only on the client. With Internationalization, avoid hard-coded strings.
+
+A good habit for Form Validation is to validate on the server even when the browser checks too. A good habit for Internationalization is to move every user-facing string into translation files from the first day.

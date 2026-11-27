@@ -1,0 +1,15 @@
+The Pros and Cons of System Calls
+
+No technology is free of trade-offs, and System Calls is no exception. Here is an honest summary.
+
+Advantages:
+- Supports reading and writing files
+- Makes creating processes easier
+- Helps with using network sockets
+
+Drawbacks and risks:
+- Risk: ignoring error codes
+- Risk: making too many small calls
+- Risk: unsafe assumptions about blocking
+
+Weigh the two lists against your own project. If the advantages match your needs, such as reading and writing files, and you can manage the risks, System Calls is a sound choice. Whatever you decide, use strace to see what your program really asks the kernel to do.

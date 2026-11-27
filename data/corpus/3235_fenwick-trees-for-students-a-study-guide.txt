@@ -1,0 +1,17 @@
+Fenwick Trees for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Fenwick Trees.
+
+Learning goals:
+1. Explain Fenwick Trees in your own words.
+2. Describe binary indexed trees, lowest set bit, prefix sums, and point updates.
+3. Give examples from counting inversions and maintaining running totals.
+4. Name three problems to watch for.
+
+Start with the definition: Fenwick Trees is a compact structure for prefix sums that supports fast updates. Then draw a set of running subtotals where each one covers a block of entries on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using zero-based indexes by mistake a problem? How does lowest set bit relate to prefix sums? When would you choose C++ vectors or Python lists?
+
+Study habit worth keeping: start indexing from one to keep the bit tricks simple.
+
+When you feel ready, compare Fenwick Trees with Topological Sorting and write down three differences.

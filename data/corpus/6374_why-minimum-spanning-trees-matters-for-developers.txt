@@ -1,0 +1,11 @@
+Why Minimum Spanning Trees Matters for Developers
+
+Developers who understand Minimum Spanning Trees make better decisions, because Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight.
+
+Three situations show why it matters. First, designing cable networks. Second, clustering data. Third, reducing infrastructure cost. In each case, a solid grasp of weighted graphs and Kruskal's algorithm separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: using it on directed graphs, forgetting that the graph must be connected, and treating ties as errors.
+
+You will not need to build everything yourself; NetworkX, SciPy, and Graphviz cover most needs.
+
+Connect Minimum Spanning Trees with Topological Sorting to see the bigger picture of Algorithms in Practice.

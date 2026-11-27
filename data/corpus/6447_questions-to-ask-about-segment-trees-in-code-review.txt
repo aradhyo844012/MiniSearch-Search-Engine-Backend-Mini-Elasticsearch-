@@ -1,0 +1,12 @@
+Questions to Ask About Segment Trees in Code Review
+
+Reviewing code that involves Segment Trees is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch wrong tree size allocation if it appeared later?
+- Could we test your tree against a slow brute-force version on small inputs?
+- Have we avoided this problem: forgetting to push lazy updates?
+- Is range queries clear to someone reading the code for the first time?
+- Does the code handle the case of range sum queries correctly?
+- Have we considered off-by-one errors in ranges?
+
+Good reviews of work on Segment Trees are specific, kind and focused on point updates, not on personal style.

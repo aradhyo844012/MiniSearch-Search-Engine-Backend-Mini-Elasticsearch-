@@ -1,0 +1,15 @@
+Memory Hierarchy in 10 Minutes
+
+You have ten minutes, so here is the fast route through Memory Hierarchy.
+
+Minutes 1 and 2, the definition: Memory Hierarchy is the layers of storage from registers to disks, trading speed for size.
+
+Minutes 3 and 4, the vocabulary: learn registers, cache, main memory, and disk.
+
+Minutes 5 and 6, the picture: imagine a kitchen with a spice rack, a pantry and a warehouse. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through designing efficient programs, explaining slow I/O, and choosing data structures.
+
+Minutes 9 and 10, the traps and the tools: watch for ignoring locality and excessive paging, then try lscpu for a first experiment.
+
+If you have a spare minute, remember to reduce how often your program goes down to the slower layers.

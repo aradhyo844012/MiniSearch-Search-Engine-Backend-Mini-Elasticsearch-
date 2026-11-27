@@ -1,0 +1,26 @@
+Everything You Need to Know About Canary Releases
+
+This page collects the essentials about Canary Releases in one place. In short, Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+
+Core concepts:
+- traffic percentages
+- health metrics
+- automatic rollback
+- progressive rollout
+
+Where it is used:
+- safer releases
+- testing with real traffic
+- reducing the blast radius of bugs
+
+Common problems:
+- too little traffic to reveal problems
+- no clear success metrics
+- manual promotion mistakes
+
+Tools to know:
+- Argo Rollouts
+- Istio
+- Flagger
+
+Remember this above all: a canary in a coal mine warning miners before the danger spreads is a good way to picture it, and the best habit is to define rollback conditions before starting the rollout.

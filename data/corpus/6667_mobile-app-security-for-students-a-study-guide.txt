@@ -1,0 +1,17 @@
+Mobile App Security for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Mobile App Security.
+
+Learning goals:
+1. Explain Mobile App Security in your own words.
+2. Describe secure storage, certificate pinning, obfuscation, and permissions.
+3. Give examples from banking apps and health apps.
+4. Name three problems to watch for.
+
+Start with the definition: Mobile App Security is practices that protect mobile apps and their data from attacks. Then draw locking an app's valuables in a hotel safe on paper and label the four terms from the goals above.
+
+Self-test questions: Why is storing tokens in plain text a problem? How does certificate pinning relate to obfuscation? When would you choose OWASP MASVS or Android Keystore?
+
+Study habit worth keeping: store secrets in the platform keychain or keystore.
+
+When you feel ready, compare Mobile App Security with Embedded Systems and write down three differences.

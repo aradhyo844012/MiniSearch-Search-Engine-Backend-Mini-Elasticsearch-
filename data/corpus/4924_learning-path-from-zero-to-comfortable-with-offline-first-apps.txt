@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Offline-First Apps
+
+This path is for a learner who has never studied Offline-First Apps before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Offline-First Apps is apps designed to work without a network and sync when a connection returns) and learn local storage and sync queues.
+
+Stage 2, hands-on: install SQLite, follow a tutorial, and build a small example involving field service tools.
+
+Stage 3, depth: study conflict resolution and optimistic updates, then deliberately explore this problem: unresolved sync conflicts.
+
+Stage 4, application: apply Offline-First Apps to note-taking apps, compare PouchDB with Room, and write up your results.
+
+Stage 5, review: teach Offline-First Apps to someone else, and then move on to Push Notifications.

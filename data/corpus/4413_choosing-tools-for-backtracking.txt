@@ -1,0 +1,11 @@
+Choosing Tools for Backtracking
+
+There is no single best tool for Backtracking. The right choice depends on your project, your team and your timeline.
+
+Python recursion is a common first choice, especially for solving Sudoku. itertools suits teams that already work with similar technology, and debuggers is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle generating permutations well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: forgetting to undo changes.
+
+As a rule of thumb, prune as early as possible because the savings multiply, no matter which tool you use.

@@ -1,0 +1,13 @@
+Teaching Disaster Recovery to a Teammate
+
+Explaining Disaster Recovery to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a fire drill for a whole system. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Disaster Recovery is the plans and systems that restore services after major failures. Avoid jargon at this stage.
+
+Walk through an example involving surviving regional outages, naming recovery time objective and recovery point objective as they come up.
+
+Ask your teammate to explain failover regions in Disaster Recovery back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, untested plans, and suggest this habit: run a failover exercise on a regular schedule.

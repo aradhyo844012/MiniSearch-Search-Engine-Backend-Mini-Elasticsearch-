@@ -1,0 +1,13 @@
+Union-Find vs Greedy Algorithms: Which One Should You Learn First?
+
+Learners often ask whether to study Union-Find or Greedy Algorithms first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly, and it is closely tied to parent pointers and union operation. Greedy Algorithms, by contrast, is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure.
+
+Choose Union-Find first if you care about detecting connected components or building minimum spanning trees. Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding.
+
+Think of Union-Find as a set of club rosters where two clubs can merge into one, and of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Union-Find, avoid forgetting path compression. With Greedy Algorithms, avoid assuming greedy always works.
+
+A good habit for Union-Find is to implement path compression and union by rank together. A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it.

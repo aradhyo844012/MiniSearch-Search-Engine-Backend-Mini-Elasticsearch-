@@ -1,0 +1,9 @@
+Understanding Vector Clocks Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture each person in a group chat keeping a tally of messages seen from everyone.
+
+In that picture, logical time is the first rule you follow, per-process counters is the next step, and the happened-before relation and conflict detection keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Vector Clocks is counters that let distributed processes track the order of events without a shared clock, and it involves details such as clocks that grow with many nodes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Riak to learn the exact behavior. The same picture helps when you explain detecting concurrent edits to a friend.

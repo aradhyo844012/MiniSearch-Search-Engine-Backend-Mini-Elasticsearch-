@@ -1,0 +1,15 @@
+Internationalization Quick Reference
+
+A one-screen reminder for Internationalization. Bookmark it and return when the details fade.
+
+What it is: designing software so it can be adapted to different languages and regions.
+Key terms: locale detection, translation files, pluralization, and date and number formatting.
+Typical uses: global products, multi-language websites, and regional pricing.
+Risks: hard-coded strings, text that overflows layouts, and assuming left-to-right text.
+Tools: i18next, the Intl API, and Crowdin.
+
+Mental picture: a stage set where the backdrop can be swapped for each audience.
+
+Habit to build: move every user-facing string into translation files from the first day.
+
+See also: CSS Variables, which sits close to Internationalization in the area of Frontend Engineering.

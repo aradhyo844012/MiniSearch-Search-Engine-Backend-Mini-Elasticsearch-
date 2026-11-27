@@ -1,0 +1,11 @@
+Scaling Considerations for Rust Ownership
+
+A design that works for a classroom project can behave very differently under real load. Here is how Rust Ownership changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding ownership and getting systems programming right.
+
+Medium scale: problems start to appear. Watch for fighting the borrow checker with needless clones and confusing moves and copies, and measure with Cargo before changing anything.
+
+Large scale: lifetimes and moves move from background details to central design questions. Teams often revisit their choices around command line tools at this stage.
+
+Before you scale, read the compiler's error messages closely because they often explain the fix. It is cheaper to build that habit early than to fix a crisis later.

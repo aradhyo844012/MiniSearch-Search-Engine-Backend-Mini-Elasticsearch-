@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Data Augmentation
+
+This is a fictional but realistic day for a developer whose project relies on Data Augmentation.
+
+Morning: Arjun starts by reviewing a ticket about image models. Before touching any code, Arjun re-reads the notes on transformations to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore label preservation with Albumentations. A small test exposes the problem of changes that alter the label, and they fix it together.
+
+Afternoon: the team discusses a new request involving text classification. Arjun sketches practicing a sport in different weather and on different fields on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to augment only the training data.
+
+Days like this are typical. Data Augmentation is not glamorous, but understanding it keeps small problems from growing.

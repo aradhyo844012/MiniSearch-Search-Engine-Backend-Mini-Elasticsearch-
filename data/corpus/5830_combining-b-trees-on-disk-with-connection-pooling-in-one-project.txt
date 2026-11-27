@@ -1,0 +1,15 @@
+Combining B-Trees on Disk with Connection Pooling in One Project
+
+Real projects rarely use one idea in isolation. This article shows how B-Trees on Disk and Connection Pooling can work together in a single project.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request.
+
+Imagine a project that involves database indexes and web backends. B-Trees on Disk brings pages, while Connection Pooling brings pool size.
+
+A sensible plan is to start with PostgreSQL for the B-Trees on Disk part and PgBouncer for the Connection Pooling part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: oversized keys on one side, and leaked connections on the other.
+
+Picture the whole as a filing cabinet where each drawer tells you which drawer to open next, working alongside a rental desk that lends a few shared bikes instead of buying one per visitor.
+
+Two habits help: first, keep indexed keys short so more of them fit on a page; second, always return connections in a finally block.

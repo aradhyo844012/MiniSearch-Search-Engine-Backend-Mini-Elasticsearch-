@@ -1,0 +1,13 @@
+Debugging Greedy Algorithms: A Field Guide
+
+When something goes wrong around Greedy Algorithms, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: assuming greedy always works, missing counterexamples, and skipping the correctness proof.
+Step 3: revisit greedy choice property and optimal substructure, since misunderstandings there cause many bugs.
+Step 4: use pen and paper proofs or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Greedy Algorithms in work such as interval scheduling come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, try to break your greedy idea with a small counterexample before trusting it. It prevents a surprising number of repeat problems.

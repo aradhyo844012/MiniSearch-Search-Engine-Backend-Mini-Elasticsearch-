@@ -1,0 +1,15 @@
+Boolean Logic and Gates Quick Reference
+
+A one-screen reminder for Boolean Logic and Gates. Bookmark it and return when the details fade.
+
+What it is: the basic true-or-false operations that digital circuits and program conditions are built from.
+Key terms: AND, OR and NOT, truth tables, De Morgan's laws, and logic gates.
+Typical uses: writing conditions, designing circuits, and simplifying expressions.
+Risks: operator precedence mistakes, forgetting short-circuit behavior, and negating complex conditions incorrectly.
+Tools: Logisim, Python bitwise operators, and Karnaugh maps.
+
+Mental picture: light switches wired in series or in parallel.
+
+Habit to build: write a truth table whenever a condition feels confusing.
+
+See also: Endianness, which sits close to Boolean Logic and Gates in the area of Computer Systems.

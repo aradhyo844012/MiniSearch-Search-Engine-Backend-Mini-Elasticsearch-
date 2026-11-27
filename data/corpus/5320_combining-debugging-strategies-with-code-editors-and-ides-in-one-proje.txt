@@ -1,0 +1,15 @@
+Combining Debugging Strategies with Code Editors and IDEs in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Debugging Strategies and Code Editors and IDEs can work together in a single project.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Code Editors and IDEs is tools for writing, navigating and debugging code.
+
+Imagine a project that involves fixing production issues and daily development. Debugging Strategies brings reproducing the bug, while Code Editors and IDEs brings syntax highlighting.
+
+A sensible plan is to start with debuggers for the Debugging Strategies part and VS Code for the Code Editors and IDEs part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: guessing without evidence on one side, and ignoring keyboard shortcuts on the other.
+
+Picture the whole as a detective narrowing down suspects, working alongside a well-organized workbench.
+
+Two habits help: first, change one thing at a time and record the result; second, learn the shortcuts for the actions you repeat most.

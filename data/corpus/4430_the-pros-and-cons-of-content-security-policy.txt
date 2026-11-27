@@ -1,0 +1,15 @@
+The Pros and Cons of Content Security Policy
+
+No technology is free of trade-offs, and Content Security Policy is no exception. Here is an honest summary.
+
+Advantages:
+- Supports reducing the impact of XSS
+- Makes blocking unwanted scripts easier
+- Helps with monitoring policy violations
+
+Drawbacks and risks:
+- Risk: allowing unsafe-inline
+- Risk: policies too broad to help
+- Risk: breaking third-party widgets
+
+Weigh the two lists against your own project. If the advantages match your needs, such as reducing the impact of XSS, and you can manage the risks, Content Security Policy is a sound choice. Whatever you decide, start in report-only mode to learn what would break.

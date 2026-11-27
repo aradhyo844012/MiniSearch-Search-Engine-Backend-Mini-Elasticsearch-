@@ -1,0 +1,13 @@
+A/B Testing vs Star Schema Modeling: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or Star Schema Modeling first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. Star Schema Modeling, by contrast, is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it is closely tied to fact tables and dimension tables.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose Star Schema Modeling first if you care about business intelligence reports or data warehouses.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With Star Schema Modeling, avoid mixing different grains.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for Star Schema Modeling is to state the grain of the fact table before designing anything else.

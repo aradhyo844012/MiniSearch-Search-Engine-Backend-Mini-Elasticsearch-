@@ -1,0 +1,13 @@
+gRPC Explained Simply
+
+If gRPC sounds intimidating, relax. It is a framework for fast remote procedure calls using typed contracts, and the idea is simpler than the name suggests.
+
+Think of gRPC as a phone line with a pre-agreed script for every call. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: protocol buffers, service definitions, streaming, and HTTP/2. You do not need to master them all at once. Start with protocol buffers, then add service definitions.
+
+People reach for gRPC when they work on service-to-service calls, low-latency APIs, and streaming data.
+
+One practical tip is to never reuse or renumber field numbers in a proto file.
+
+Once gRPC feels comfortable, read about Logging Best Practices, which lives in the same neighborhood of ideas.

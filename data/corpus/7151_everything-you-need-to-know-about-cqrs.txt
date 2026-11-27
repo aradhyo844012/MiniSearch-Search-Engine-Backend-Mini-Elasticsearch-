@@ -1,0 +1,26 @@
+Everything You Need to Know About CQRS
+
+This page collects the essentials about CQRS in one place. In short, CQRS is a pattern that separates the models used to change data from the models used to read it.
+
+Core concepts:
+- commands
+- queries
+- read models
+- eventual consistency
+
+Where it is used:
+- high-read dashboards
+- complex domains
+- scaling reads independently
+
+Common problems:
+- adding it to simple apps
+- read models drifting out of sync
+- duplicated logic
+
+Tools to know:
+- Axon Framework
+- MediatR
+- Apache Kafka
+
+Remember this above all: a restaurant with one counter for orders and another for pickup is a good way to picture it, and the best habit is to start with a single model and split only when reads and writes truly diverge.

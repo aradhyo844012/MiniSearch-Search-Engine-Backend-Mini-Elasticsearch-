@@ -1,0 +1,11 @@
+Choosing Tools for Static Analysis
+
+There is no single best tool for Static Analysis. The right choice depends on your project, your team and your timeline.
+
+ESLint is a common first choice, especially for catching bugs early. Pylint suits teams that already work with similar technology, and SonarQube is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle enforcing team style well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: ignoring warnings.
+
+As a rule of thumb, run it in CI so problems never reach the main branch, no matter which tool you use.

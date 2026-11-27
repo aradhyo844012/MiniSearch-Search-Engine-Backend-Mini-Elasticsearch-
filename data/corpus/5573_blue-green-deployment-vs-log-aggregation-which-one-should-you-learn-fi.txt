@@ -1,0 +1,13 @@
+Blue-Green Deployment vs Log Aggregation: Which One Should You Learn First?
+
+Learners often ask whether to study Blue-Green Deployment or Log Aggregation first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one, and it is closely tied to blue and green environments and traffic switching. Log Aggregation, by contrast, is collecting logs from many machines into one searchable place, and it is closely tied to shippers and indexing.
+
+Choose Blue-Green Deployment first if you care about zero-downtime releases or quick rollbacks. Choose Log Aggregation first if you care about troubleshooting across services or security investigations.
+
+Think of Blue-Green Deployment as swapping to a fully prepared spare stage while the show goes on, and of Log Aggregation as gathering notes from every desk into a single searchable binder. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Blue-Green Deployment, avoid database schema mismatches. With Log Aggregation, avoid unbounded storage growth.
+
+A good habit for Blue-Green Deployment is to keep the old environment running until the new one is proven. A good habit for Log Aggregation is to use structured JSON logs so that fields are searchable.

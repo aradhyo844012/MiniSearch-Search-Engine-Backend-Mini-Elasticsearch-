@@ -1,0 +1,17 @@
+Fenwick Trees Do's and Don'ts
+
+A quick list of habits for working with Fenwick Trees.
+
+Do:
+- Learn binary indexed trees before anything else.
+- Try C++ vectors on a small example.
+- Make it a habit to start indexing from one to keep the bit tricks simple.
+- Test the case of counting inversions early.
+
+Don't:
+- Ignore this: using zero-based indexes by mistake.
+- Ignore this: forgetting that nodes store partial sums.
+- Ignore this: using it for operations that cannot be reversed.
+- Adopt Fenwick Trees just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Fenwick Trees, a little patience with lowest set bit pays off more than any clever shortcut.

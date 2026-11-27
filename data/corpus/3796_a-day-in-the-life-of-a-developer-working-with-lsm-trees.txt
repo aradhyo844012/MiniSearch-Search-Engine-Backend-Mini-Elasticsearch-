@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with LSM Trees
+
+This is a fictional but realistic day for a developer whose project relies on LSM Trees.
+
+Morning: Arjun starts by reviewing a ticket about write-heavy databases. Before touching any code, Arjun re-reads the notes on memtable to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore sorted string tables with RocksDB. A small test exposes the problem of read amplification, and they fix it together.
+
+Afternoon: the team discusses a new request involving time-ordered data. Arjun sketches a mail room that sorts incoming letters in batches rather than one by one on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to watch compaction metrics before blaming the application.
+
+Days like this are typical. LSM Trees is not glamorous, but understanding it keeps small problems from growing.

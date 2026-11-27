@@ -1,0 +1,13 @@
+Pagination vs Background Jobs: Which One Should You Learn First?
+
+Learners often ask whether to study Pagination or Background Jobs first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time, and it is closely tied to offset pagination and cursor pagination. Background Jobs, by contrast, is tasks that run outside the request cycle so users do not have to wait for them, and it is closely tied to queues and workers.
+
+Choose Pagination first if you care about search results or activity feeds. Choose Background Jobs first if you care about sending emails or resizing images.
+
+Think of Pagination as reading a long book one chapter at a time with a bookmark, and of Background Jobs as dropping laundry at a service and collecting it later. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Pagination, avoid offsets getting slow on huge tables. With Background Jobs, avoid jobs that are not idempotent.
+
+A good habit for Pagination is to prefer cursors for large or fast-changing data. A good habit for Background Jobs is to give every job a timeout and a retry limit.

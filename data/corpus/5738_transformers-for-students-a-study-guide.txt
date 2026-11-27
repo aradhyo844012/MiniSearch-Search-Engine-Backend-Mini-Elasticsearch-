@@ -1,0 +1,17 @@
+Transformers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Transformers.
+
+Learning goals:
+1. Explain Transformers in your own words.
+2. Describe self-attention, positional encoding, encoder and decoder blocks, and tokens.
+3. Give examples from language translation and text generation.
+4. Name three problems to watch for.
+
+Start with the definition: Transformers is neural network architectures that use attention to relate all parts of an input to each other. Then draw a reader who can look back at any word of a paragraph while reading each new word on paper and label the four terms from the goals above.
+
+Self-test questions: Why is huge compute requirements a problem? How does positional encoding relate to encoder and decoder blocks? When would you choose Hugging Face or PyTorch?
+
+Study habit: begin with small pretrained models.
+
+When you feel ready, compare Transformers with Reinforcement Learning and write down three differences.

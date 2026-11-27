@@ -1,0 +1,13 @@
+Encryption at Rest vs Security Headers: Which One Should You Learn First?
+
+Learners often ask whether to study Encryption at Rest or Security Headers first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Encryption at Rest is protecting stored data by encrypting it on disk or in a database, and it is closely tied to symmetric keys and key management. Security Headers, by contrast, is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options.
+
+Choose Encryption at Rest first if you care about protecting backups or meeting compliance rules. Choose Security Headers first if you care about hardening websites or reducing clickjacking.
+
+Think of Encryption at Rest as a locked safe inside a locked room, and of Security Headers as safety instructions printed on the packaging of every page. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Encryption at Rest, avoid storing keys next to the data. With Security Headers, avoid setting headers on only some routes.
+
+A good habit for Encryption at Rest is to keep keys in a separate service from the data. A good habit for Security Headers is to test the headers on every environment.

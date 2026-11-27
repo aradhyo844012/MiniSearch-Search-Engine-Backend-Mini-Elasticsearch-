@@ -1,0 +1,17 @@
+Memory Hierarchy for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Memory Hierarchy.
+
+Learning goals:
+1. Explain Memory Hierarchy in your own words.
+2. Describe registers, cache, main memory, and disk.
+3. Give examples from designing efficient programs and explaining slow I/O.
+4. Name three problems to watch for.
+
+Start with the definition: Memory Hierarchy is the layers of storage from registers to disks, trading speed for size. Then draw a kitchen with a spice rack, a pantry and a warehouse on paper and label the four terms from the goals above.
+
+Self-test questions: Why is ignoring locality a problem? How does cache relate to main memory? When would you choose lscpu or vmstat?
+
+Study habit: reduce how often your program goes down to the slower layers.
+
+When you feel ready, compare Memory Hierarchy with Endianness and write down three differences.

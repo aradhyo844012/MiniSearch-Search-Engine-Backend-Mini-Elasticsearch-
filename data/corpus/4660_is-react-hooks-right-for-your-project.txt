@@ -1,0 +1,11 @@
+Is React Hooks Right for Your Project?
+
+Before adopting React Hooks, ask whether it fits the problem. Remember that React Hooks is functions that let components use state and lifecycle features without writing classes.
+
+It is a good fit when your work involves managing form input or fetching data on load, and when your team understands useState.
+
+Be cautious when the project is very small, when deadlines leave no room to learn useEffect, or when you cannot manage these risks: missing dependencies in effects, calling hooks conditionally, and stale closures.
+
+A simple decision test: write down the problem in one sentence, then check whether dependency arrays and custom hooks are part of the answer. If they are, React Hooks is probably worth a closer look.
+
+If you decide to go ahead, start small with sharing logic between components and enable the hooks lint rules from the start.

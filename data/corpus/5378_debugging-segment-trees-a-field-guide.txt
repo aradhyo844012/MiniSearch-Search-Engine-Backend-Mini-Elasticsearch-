@@ -1,0 +1,13 @@
+Debugging Segment Trees: A Field Guide
+
+When something goes wrong around Segment Trees, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: off-by-one errors in ranges, wrong tree size allocation, and forgetting to push lazy updates.
+Step 3: revisit tree nodes covering ranges and range queries, since misunderstandings there cause many bugs.
+Step 4: use C++ arrays or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Segment Trees in work such as range sum queries come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, test your tree against a slow brute-force version on small inputs. It prevents a surprising number of repeat problems.

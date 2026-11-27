@@ -1,0 +1,26 @@
+Everything You Need to Know About Load Testing
+
+This page collects the essentials about Load Testing in one place. In short, Load Testing is measuring how a system behaves under expected and heavy traffic.
+
+Core concepts:
+- virtual users
+- throughput
+- latency percentiles
+- ramp-up
+
+Where it is used:
+- capacity planning
+- finding bottlenecks
+- validating autoscaling
+
+Common problems:
+- testing unrealistic traffic
+- ignoring warm-up
+- using average latency only
+
+Tools to know:
+- k6
+- Locust
+- Apache JMeter
+
+Remember this above all: a stress test that fills a stadium to see how the exits cope is a good way to picture it, and the best habit is to report p95 and p99 latency, not only averages.

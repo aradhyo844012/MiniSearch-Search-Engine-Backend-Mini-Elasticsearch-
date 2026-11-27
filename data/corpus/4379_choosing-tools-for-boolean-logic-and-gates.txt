@@ -1,0 +1,11 @@
+Choosing Tools for Boolean Logic and Gates
+
+There is no single best tool for Boolean Logic and Gates. The right choice depends on your project, your team and your timeline.
+
+Logisim is a common first choice, especially for writing conditions. Python bitwise operators suits teams that already work with similar technology, and Karnaugh maps is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle designing circuits well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: operator precedence mistakes.
+
+As a rule of thumb, write a truth table whenever a condition feels confusing, no matter which tool you use.

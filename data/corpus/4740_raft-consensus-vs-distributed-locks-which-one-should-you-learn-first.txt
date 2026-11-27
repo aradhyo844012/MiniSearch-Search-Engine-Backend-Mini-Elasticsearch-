@@ -1,0 +1,13 @@
+Raft Consensus vs Distributed Locks: Which One Should You Learn First?
+
+Learners often ask whether to study Raft Consensus or Distributed Locks first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication. Distributed Locks, by contrast, is mechanisms that ensure only one process at a time performs a critical action across machines, and it is closely tied to lease times and fencing tokens.
+
+Choose Raft Consensus first if you care about configuration stores or distributed locks. Choose Distributed Locks first if you care about running scheduled jobs once or protecting shared resources.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm, and of Distributed Locks as a single key to a shared meeting room that expires automatically. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raft Consensus, avoid even-sized clusters. With Distributed Locks, avoid locks that never expire.
+
+A good habit for Raft Consensus is to use an odd number of nodes. A good habit for Distributed Locks is to always use a timeout together with a fencing token.

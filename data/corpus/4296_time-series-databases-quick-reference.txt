@@ -1,0 +1,15 @@
+Time-Series Databases Quick Reference
+
+A one-screen reminder for Time-Series Databases. Bookmark it and return when the details fade.
+
+What it is: databases optimized for storing and querying data points ordered by time.
+Key terms: timestamps, retention policies, downsampling, and tags and fields.
+Typical uses: server metrics, sensor readings, and financial tick data.
+Risks: high-cardinality tags, keeping raw data forever, and querying without time bounds.
+Tools: InfluxDB, TimescaleDB, and Prometheus.
+
+Mental picture: a long logbook where every line starts with the time.
+
+Habit to build: include a time range in every query.
+
+See also: Write-Ahead Logging, which sits close to Time-Series Databases in the area of Storage Engines and Databases.

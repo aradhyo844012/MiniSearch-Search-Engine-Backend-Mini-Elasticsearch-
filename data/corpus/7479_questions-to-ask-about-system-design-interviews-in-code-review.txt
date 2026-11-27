@@ -1,0 +1,12 @@
+Questions to Ask About System Design Interviews in Code Review
+
+Reviewing code that involves System Design Interviews is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we clarify requirements and scale before drawing boxes?
+- Does this change respect requirements, or does it work around it?
+- Have we considered jumping into solutions before clarifying requirements?
+- Does the code handle the case of preparing for senior roles correctly?
+- Have we avoided this problem: overcomplicating designs?
+- Is scaling estimates clear to someone reading the code for the first time?
+
+Good reviews of work on System Design Interviews are specific, kind and focused on trade-offs, not on personal style.

@@ -1,0 +1,13 @@
+Teaching GraphQL to a Teammate
+
+Explaining GraphQL to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: ordering a la carte instead of picking a fixed set menu. Ask your teammate what the picture suggests.
+
+Then give the plain definition: GraphQL is a query language for APIs that lets clients ask for exactly the fields they need. Avoid jargon at this stage.
+
+Walk through an example involving mobile apps with limited bandwidth, naming schema and queries and mutations as they come up.
+
+Ask your teammate to explain resolvers in GraphQL back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, the N+1 query problem, and suggest this habit: use a data loader to avoid N+1 queries.

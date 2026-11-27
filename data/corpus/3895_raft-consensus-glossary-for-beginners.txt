@@ -1,0 +1,12 @@
+Raft Consensus Glossary for Beginners
+
+New words can make Raft Consensus feel harder than it is. This glossary keeps the key ones in one place.
+
+Raft Consensus: an algorithm that lets a group of servers agree on a shared log of operations.
+leader election: a core term, most visible in configuration stores.
+log replication: a core term that beginners often confuse with terms.
+terms: a core term that connects to majority quorum.
+majority quorum: a core term worth revisiting after you try a real example.
+etcd: a tool commonly used for distributed locks.
+
+Come back to this Raft Consensus list whenever documentation for Consul uses a word you do not recognize.

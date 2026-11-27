@@ -1,0 +1,15 @@
+Combining MQTT with Bluetooth Low Energy in One Project
+
+Real projects rarely use one idea in isolation. This article shows how MQTT and Bluetooth Low Energy can work together in a single project.
+
+MQTT is a lightweight messaging protocol designed for small devices and unreliable networks. Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+Imagine a project that involves sensor networks and fitness trackers. MQTT brings publish and subscribe, while Bluetooth Low Energy brings advertising.
+
+A sensible plan is to start with Mosquitto for the MQTT part and nRF Connect for the Bluetooth Low Energy part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: messy topic names on one side, and weak pairing security on the other.
+
+Picture the whole as a radio station with channels that devices can tune into, working alongside a whisper between two nearby devices that barely uses any energy.
+
+Two habits help: first, design topic names like a clear folder structure; second, test with several phone models.

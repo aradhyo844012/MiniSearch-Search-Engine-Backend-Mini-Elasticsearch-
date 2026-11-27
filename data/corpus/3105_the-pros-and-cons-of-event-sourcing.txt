@@ -1,0 +1,15 @@
+The Pros and Cons of Event Sourcing
+
+No technology is free of trade-offs, and Event Sourcing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports audit trails
+- Makes financial ledgers easier
+- Helps with rebuilding read models
+
+Drawbacks and risks:
+- Risk: changing event formats carelessly
+- Risk: unbounded replay times
+- Risk: using it for simple CRUD apps
+
+Weigh the two lists against your own project. If the advantages match your needs, such as audit trails, and you can manage the risks, Event Sourcing is a sound choice. Whatever you decide, version your events from the first day.

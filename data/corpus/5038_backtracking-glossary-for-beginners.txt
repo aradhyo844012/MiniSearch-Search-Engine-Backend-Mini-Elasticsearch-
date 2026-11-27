@@ -1,0 +1,12 @@
+Backtracking Glossary for Beginners
+
+New words can make Backtracking feel harder than it is. This glossary keeps the key ones in one place.
+
+Backtracking: a search technique that builds solutions step by step and undoes steps that lead to dead ends.
+decision tree: a core term, most visible in solving Sudoku.
+pruning: a core term that beginners often confuse with state restoration.
+state restoration: a core term that connects to constraint checking.
+constraint checking: a core term worth revisiting after you try a real example.
+Python recursion: a tool commonly used for generating permutations.
+
+Come back to this Backtracking list whenever documentation for itertools uses a word you do not recognize.

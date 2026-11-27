@@ -1,0 +1,12 @@
+Questions to Ask About Database Migrations in Code Review
+
+Reviewing code that involves Database Migrations is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered locking large tables?
+- Does this change respect up and down scripts, or does it work around it?
+- Could we split risky changes into small steps that can each be rolled back?
+- Is version tables clear to someone reading the code for the first time?
+- Have we avoided this problem: data loss on rollbacks?
+- Does the code handle the case of adding columns safely correctly?
+
+Good reviews of work on Database Migrations are specific, kind and focused on backward compatibility, not on personal style.

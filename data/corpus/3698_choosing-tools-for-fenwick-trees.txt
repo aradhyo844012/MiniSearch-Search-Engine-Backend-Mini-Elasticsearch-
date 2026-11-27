@@ -1,0 +1,11 @@
+Choosing Tools for Fenwick Trees
+
+There is no single best tool for Fenwick Trees. The right choice depends on your project, your team and your timeline.
+
+C++ vectors is a common first choice, especially for counting inversions. Python lists suits teams that already work with similar technology, and LeetCode practice problems is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle maintaining running totals well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: using zero-based indexes by mistake.
+
+As a rule of thumb, start indexing from one to keep the bit tricks simple, no matter which tool you use.

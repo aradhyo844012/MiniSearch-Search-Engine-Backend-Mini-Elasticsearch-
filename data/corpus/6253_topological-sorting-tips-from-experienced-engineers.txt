@@ -1,0 +1,11 @@
+Topological Sorting Tips from Experienced Engineers
+
+Engineers who work with Topological Sorting regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit in-degree counts before anything else.
+2. Reach for Python graphlib first, and only then evaluate alternatives such as NetworkX.
+3. Make sure you can check for cycles first so you can report a clear error.
+4. Test the case of build systems early, before the design hardens.
+5. Write down why you chose Topological Sorting so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to course prerequisite planning as well.

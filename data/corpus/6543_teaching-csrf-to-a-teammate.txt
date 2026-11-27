@@ -1,0 +1,13 @@
+Teaching CSRF to a Teammate
+
+Explaining CSRF to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a forged letter that a bank clerk stamps because your ID is already on file. Ask your teammate what the picture suggests.
+
+Then give the plain definition: CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site. Avoid jargon at this stage.
+
+Walk through an example involving protecting forms, naming session cookies and anti-CSRF tokens as they come up.
+
+Ask your teammate to explain SameSite cookies in CSRF back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, using GET requests for state changes, and suggest this habit: combine SameSite cookies with anti-CSRF tokens.

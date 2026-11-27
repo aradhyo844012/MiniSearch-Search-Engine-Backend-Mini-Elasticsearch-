@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Dependency Vulnerabilities
+
+This path is for a learner who has never studied Dependency Vulnerabilities before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses) and learn CVE identifiers and version pinning.
+
+Stage 2, hands-on: install Dependabot, follow a tutorial, and build a small example involving auditing projects.
+
+Stage 3, depth: study transitive dependencies and software bills of materials, then deliberately explore this problem: ignoring transitive dependencies.
+
+Stage 4, application: apply Dependency Vulnerabilities to automating updates, compare pip-audit with npm audit, and write up your results.
+
+Stage 5, review: teach Dependency Vulnerabilities to someone else, and then move on to Zero Trust Security.

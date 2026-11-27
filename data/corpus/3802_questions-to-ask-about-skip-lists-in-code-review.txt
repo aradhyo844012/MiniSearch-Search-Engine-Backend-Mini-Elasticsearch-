@@ -1,0 +1,12 @@
+Questions to Ask About Skip Lists in Code Review
+
+Reviewing code that involves Skip Lists is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect multiple levels, or does it work around it?
+- Is random level assignment clear to someone reading the code for the first time?
+- Would a test catch memory overhead if it appeared later?
+- Is Redis sorted sets used consistently, or are we mixing approaches?
+- Have we avoided this problem: harder debugging than arrays?
+- Does the code handle the case of ordered in-memory indexes correctly?
+
+Good reviews of work on Skip Lists are specific, kind and focused on forward pointers, not on personal style.

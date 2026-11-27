@@ -1,0 +1,11 @@
+Apache Spark in Real Projects
+
+Reading about Apache Spark is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: large ETL jobs. Here, DataFrames drives the main design choices, and the team needs to guard against data skew.
+
+Scenario two: machine learning on big data. This time transformations and actions matters most, and tools such as PySpark help keep things manageable.
+
+Scenario three: log analysis. The key idea is partitions, and the biggest risk is too many small partitions.
+
+Across all three scenarios, Apache Spark stays the same idea: a distributed engine for processing large datasets across many machines. Only the details change.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Time-Series Databases
+
+Everyone learns Time-Series Databases partly through mistakes. Here are three worth avoiding.
+
+Mistake one: high-cardinality tags. It usually appears when someone skips timestamps and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: keeping raw data forever. It tends to be noticed late, often during testing of server metrics. A short checklist during review catches it early.
+
+Mistake three: querying without time bounds. It is easy to miss because everything seems to work at first. Keep an eye on tags and fields to spot it.
+
+If you remember only one rule, make it this: include a time range in every query.

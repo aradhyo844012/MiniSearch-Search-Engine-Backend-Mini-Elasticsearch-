@@ -1,0 +1,9 @@
+Understanding Configuration Management Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture the settings dial on a machine that stays the same on every site.
+
+In that picture, environment variables is the first rule you follow, config files is the next step, and defaults and secrets handling keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Configuration Management is keeping application settings separate from code so they can change per environment, and it involves details such as committing secrets that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for dotenv to learn the exact behavior. The same picture helps when you explain separating development and production to a friend.

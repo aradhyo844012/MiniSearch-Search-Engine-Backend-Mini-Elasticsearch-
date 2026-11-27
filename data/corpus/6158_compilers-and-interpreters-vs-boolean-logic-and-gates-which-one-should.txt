@@ -1,0 +1,13 @@
+Compilers and Interpreters vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study Compilers and Interpreters or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Compilers and Interpreters is programs that translate or run source code written in a high-level language, and it is closely tied to lexing and parsing. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose Compilers and Interpreters first if you care about running Python and JavaScript or building native programs. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of Compilers and Interpreters as a translator who either translates a whole book first or interprets sentence by sentence, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Compilers and Interpreters, avoid assuming interpreted means slow without measuring. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for Compilers and Interpreters is to turn on compiler warnings and treat them seriously. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

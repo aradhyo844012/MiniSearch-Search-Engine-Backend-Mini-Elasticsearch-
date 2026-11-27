@@ -1,0 +1,11 @@
+Instruction Pipelines in Real Projects
+
+Reading about Instruction Pipelines is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: explaining CPU speed. Here, fetch, decode and execute stages drives the main design choices, and the team needs to guard against unpredictable branches.
+
+Scenario two: understanding branch costs. This time hazards matters most, and tools such as perf help keep things manageable.
+
+Scenario three: optimizing tight loops. The key idea is branch prediction, and the biggest risk is dependency chains.
+
+Across all three scenarios, Instruction Pipelines stays the same idea: a technique where a processor overlaps the stages of several instructions. Only the details change.

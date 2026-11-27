@@ -1,0 +1,13 @@
+Dijkstra's Algorithm Explained Simply
+
+Here is Dijkstra's Algorithm without the jargon: it is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+Think of Dijkstra's Algorithm as a GPS that keeps expanding to the nearest unvisited intersection. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: priority queue, distance table, edge relaxation, and visited set. You do not need to master them all at once. Start with priority queue, then add distance table.
+
+People reach for Dijkstra's Algorithm when they work on route planning, network routing, and game pathfinding.
+
+One practical tip is to stop as soon as the destination is popped from the queue.
+
+Once Dijkstra's Algorithm feels comfortable, read about Topological Sorting, which lives in the same neighborhood of ideas.

@@ -1,0 +1,15 @@
+Combining Connection Pooling with Database Backups and Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Connection Pooling and Database Backups and Recovery can work together in a single project.
+
+Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request. Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Imagine a project that involves web backends and recovering deleted tables. Connection Pooling brings pool size, while Database Backups and Recovery brings full and incremental backups.
+
+A sensible plan is to start with PgBouncer for the Connection Pooling part and pg_dump for the Database Backups and Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: leaked connections on one side, and storing backups on the same disk on the other.
+
+Picture the whole as a rental desk that lends a few shared bikes instead of buying one per visitor, working alongside a spare house key kept at a trusted neighbor's home.
+
+Two habits help: first, always return connections in a finally block; second, schedule a restore drill on a regular basis.

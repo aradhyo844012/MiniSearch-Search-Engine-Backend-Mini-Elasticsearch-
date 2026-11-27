@@ -1,0 +1,13 @@
+Debugging Threat Modeling: A Field Guide
+
+When something goes wrong around Threat Modeling, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: doing it once and never again, ignoring data flows, and focusing only on technical threats.
+Step 3: revisit assets and attackers, since misunderstandings there cause many bugs.
+Step 4: use STRIDE or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Threat Modeling in work such as designing new features come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, draw the data flow diagram first. It prevents a surprising number of repeat problems.

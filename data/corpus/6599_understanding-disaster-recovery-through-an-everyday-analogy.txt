@@ -1,0 +1,9 @@
+Understanding Disaster Recovery Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a fire drill for a whole system.
+
+In that picture, recovery time objective is the first rule you follow, recovery point objective is the next step, and failover regions and runbooks keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Disaster Recovery is the plans and systems that restore services after major failures, and it involves details such as untested plans that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for AWS Backup to learn the exact behavior. The same picture helps when you explain surviving regional outages to a friend.

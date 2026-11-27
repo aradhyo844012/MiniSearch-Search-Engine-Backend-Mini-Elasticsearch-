@@ -1,0 +1,13 @@
+Support Vector Machines vs Transformers: Which One Should You Learn First?
+
+Learners often ask whether to study Support Vector Machines or Transformers first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors. Transformers, by contrast, is neural network architectures that use attention to relate all parts of an input to each other, and it is closely tied to self-attention and positional encoding.
+
+Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets. Choose Transformers first if you care about language translation or text generation.
+
+Think of Support Vector Machines as drawing the widest road between two neighborhoods, and of Transformers as a reader who can look back at any word of a paragraph while reading each new word. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Support Vector Machines, avoid slow training on large data. With Transformers, avoid huge compute requirements.
+
+A good habit for Support Vector Machines is to scale features and try a linear kernel first. A good habit for Transformers is to begin with small pretrained models.

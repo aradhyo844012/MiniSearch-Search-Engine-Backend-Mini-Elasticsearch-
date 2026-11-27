@@ -1,0 +1,9 @@
+Understanding Chaos Engineering Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a fire drill where you secretly block one exit.
+
+In that picture, steady state is the first rule you follow, hypotheses is the next step, and blast radius and fault injection keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Chaos Engineering is deliberately causing failures in a system to learn how it responds, and it involves details such as experimenting without safeguards that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Chaos Monkey to learn the exact behavior. The same picture helps when you explain testing resilience to a friend.

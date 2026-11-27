@@ -1,0 +1,11 @@
+Practice Exercises for Hyperparameter Tuning
+
+These exercises build real understanding of Hyperparameter Tuning. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: tuning on the test set. Then fix it.
+Exercise 2: Compare scikit-learn GridSearchCV and Ray Tune for running automated experiments and write down your conclusion.
+Exercise 3: Pick Optuna and complete its getting-started tutorial.
+Exercise 4: Explain how random search and validation scores differ, using a drawing.
+Exercise 5: Write a short paragraph describing Hyperparameter Tuning and include the term search spaces.
+
+When you finish, compare your answers with the definition: Hyperparameter Tuning is the process of searching for the best settings that control how a model learns.

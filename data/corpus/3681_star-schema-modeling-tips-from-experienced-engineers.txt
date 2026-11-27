@@ -1,0 +1,11 @@
+Star Schema Modeling Tips from Experienced Engineers
+
+Engineers who work with Star Schema Modeling regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Star Schema Modeling so the next person understands the decision.
+2. Be careful with this one: mixing different grains.
+3. When something behaves strangely, revisit dimension tables before anything else.
+4. Test the case of business intelligence reports early, before the design hardens.
+5. Make sure you can state the grain of the fact table before designing anything else.
+
+None of these tips needs special equipment, and all of them apply to data warehouses as well.

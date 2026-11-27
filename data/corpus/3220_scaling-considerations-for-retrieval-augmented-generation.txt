@@ -1,0 +1,11 @@
+Scaling Considerations for Retrieval-Augmented Generation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Retrieval-Augmented Generation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding retrieval and getting company knowledge assistants right.
+
+Medium scale: problems start to appear. Watch for poor chunking and irrelevant retrieved text, and measure with LangChain before changing anything.
+
+Large scale: prompts with context and grounding move from background details to central design questions. Teams often revisit their choices around question answering over documents at this stage.
+
+Before you scale, evaluate retrieval quality separately from answer quality. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+LSM Trees vs B-Trees on Disk: Which One Should You Learn First?
+
+Learners often ask whether to study LSM Trees or B-Trees on Disk first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk, and it is closely tied to memtable and sorted string tables. B-Trees on Disk, by contrast, is balanced tree structures designed to read large blocks from disk efficiently, and it is closely tied to pages and branching factor.
+
+Choose LSM Trees first if you care about write-heavy databases or time-ordered data. Choose B-Trees on Disk first if you care about database indexes or file system directories.
+
+Think of LSM Trees as a mail room that sorts incoming letters in batches rather than one by one, and of B-Trees on Disk as a filing cabinet where each drawer tells you which drawer to open next. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With LSM Trees, avoid read amplification. With B-Trees on Disk, avoid random writes on fragmented pages.
+
+A good habit for LSM Trees is to watch compaction metrics before blaming the application. A good habit for B-Trees on Disk is to keep indexed keys short so more of them fit on a page.

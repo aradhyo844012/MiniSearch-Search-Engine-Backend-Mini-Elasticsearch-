@@ -1,0 +1,12 @@
+Questions to Ask About Code Documentation in Code Review
+
+Reviewing code that involves Code Documentation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered outdated docs?
+- Have we avoided this problem: missing examples?
+- Does the code handle the case of onboarding new developers correctly?
+- Would a test catch comments that repeat the code if it appeared later?
+- Is docstrings clear to someone reading the code for the first time?
+- Is Sphinx used consistently, or are we mixing approaches?
+
+Good reviews of work on Code Documentation are specific, kind and focused on architecture notes, not on personal style.

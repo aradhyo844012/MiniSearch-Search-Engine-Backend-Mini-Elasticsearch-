@@ -1,0 +1,13 @@
+Retrieval-Augmented Generation vs Hyperparameter Tuning: Which One Should You Learn First?
+
+Learners often ask whether to study Retrieval-Augmented Generation or Hyperparameter Tuning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers, and it is closely tied to retrieval and chunking. Hyperparameter Tuning, by contrast, is the process of searching for the best settings that control how a model learns, and it is closely tied to search spaces and grid search.
+
+Choose Retrieval-Augmented Generation first if you care about company knowledge assistants or question answering over documents. Choose Hyperparameter Tuning first if you care about improving model accuracy or comparing algorithms.
+
+Think of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages, and of Hyperparameter Tuning as adjusting the knobs on a radio until the signal is clear. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Retrieval-Augmented Generation, avoid poor chunking. With Hyperparameter Tuning, avoid tuning on the test set.
+
+A good habit for Retrieval-Augmented Generation is to evaluate retrieval quality separately from answer quality. A good habit for Hyperparameter Tuning is to try random search before anything fancier.

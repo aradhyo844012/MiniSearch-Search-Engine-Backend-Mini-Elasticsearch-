@@ -1,0 +1,15 @@
+The Pros and Cons of Data Anonymization
+
+No technology is free of trade-offs, and Data Anonymization is no exception. Here is an honest summary.
+
+Advantages:
+- Supports sharing datasets with researchers
+- Makes testing with production-like data easier
+- Helps with meeting privacy rules
+
+Drawbacks and risks:
+- Risk: re-identification through combined fields
+- Risk: removing too little
+- Risk: destroying usefulness by removing too much
+
+Weigh the two lists against your own project. If the advantages match your needs, such as sharing datasets with researchers, and you can manage the risks, Data Anonymization is a sound choice. Whatever you decide, test whether combining fields could identify a person.

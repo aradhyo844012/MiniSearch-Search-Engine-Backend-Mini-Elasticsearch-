@@ -1,0 +1,15 @@
+Integration Testing Quick Reference
+
+A one-screen reminder for Integration Testing. Bookmark it and return when the details fade.
+
+What it is: tests that check how several parts of a system work together.
+Key terms: test databases, service boundaries, fixtures, and test environments.
+Typical uses: verifying API and database interaction, catching contract mismatches, and testing third-party integrations.
+Risks: slow suites, flaky external dependencies, and unclear failures.
+Tools: Testcontainers, pytest, and Postman.
+
+Mental picture: checking that the gears of a watch mesh before closing the case.
+
+Habit to build: use disposable containers for test dependencies.
+
+See also: Load Testing, which sits close to Integration Testing in the area of Testing and Quality.

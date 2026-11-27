@@ -1,0 +1,15 @@
+Configuration Management Quick Reference
+
+A one-screen reminder for Configuration Management. Bookmark it and return when the details fade.
+
+What it is: keeping application settings separate from code so they can change per environment.
+Key terms: environment variables, config files, defaults, and secrets handling.
+Typical uses: separating development and production, toggling features, and deploying the same build everywhere.
+Risks: committing secrets, inconsistent defaults, and undocumented settings.
+Tools: dotenv, Pydantic settings, and HashiCorp Consul.
+
+Mental picture: the settings dial on a machine that stays the same on every site.
+
+Habit to build: fail fast at startup if a required setting is missing.
+
+See also: Background Jobs, which sits close to Configuration Management in the area of Backend Engineering.

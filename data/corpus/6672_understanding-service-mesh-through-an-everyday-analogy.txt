@@ -1,0 +1,9 @@
+Understanding Service Mesh Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a postal system that applies delivery rules between buildings.
+
+In that picture, sidecar proxies is the first rule you follow, mutual TLS is the next step, and traffic policies and observability keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Service Mesh is an infrastructure layer that manages communication between services through proxies, and it involves details such as added latency and complexity that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Istio to learn the exact behavior. The same picture helps when you explain securing service traffic to a friend.

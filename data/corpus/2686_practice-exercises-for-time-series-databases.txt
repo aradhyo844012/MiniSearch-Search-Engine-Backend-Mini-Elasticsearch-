@@ -1,0 +1,11 @@
+Practice Exercises for Time-Series Databases
+
+These exercises build real understanding of Time-Series Databases. Do them in order, and write down your answers.
+
+Exercise 1: Explain how downsampling and tags and fields differ, using a drawing.
+Exercise 2: List three situations from your own experience that resemble server metrics or sensor readings.
+Exercise 3: Compare TimescaleDB and Prometheus for financial tick data and write down your conclusion.
+Exercise 4: Pick InfluxDB and complete its getting-started tutorial.
+Exercise 5: Write a short paragraph describing Time-Series Databases and include the term timestamps.
+
+When you finish, compare your answers with the definition: Time-Series Databases is databases optimized for storing and querying data points ordered by time.

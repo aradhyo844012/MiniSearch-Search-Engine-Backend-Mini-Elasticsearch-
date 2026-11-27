@@ -1,0 +1,13 @@
+Push Notifications vs Mobile App Security: Which One Should You Learn First?
+
+Learners often ask whether to study Push Notifications or Mobile App Security first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed, and it is closely tied to device tokens and push services. Mobile App Security, by contrast, is practices that protect mobile apps and their data from attacks, and it is closely tied to secure storage and certificate pinning.
+
+Choose Push Notifications first if you care about order updates or chat alerts. Choose Mobile App Security first if you care about banking apps or health apps.
+
+Think of Push Notifications as a courier who knocks on your door when a package arrives, and of Mobile App Security as locking an app's valuables in a hotel safe. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Push Notifications, avoid asking for permission too early. With Mobile App Security, avoid storing tokens in plain text.
+
+A good habit for Push Notifications is to ask for permission at a moment when the user understands the value. A good habit for Mobile App Security is to store secrets in the platform keychain or keystore.

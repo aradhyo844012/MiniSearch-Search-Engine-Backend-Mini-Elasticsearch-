@@ -1,0 +1,15 @@
+Combining CAP Theorem with Idempotency in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CAP Theorem and Idempotency can work together in a single project.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once. Idempotency is the property that repeating an operation gives the same result as doing it once.
+
+Imagine a project that involves choosing database types and payment APIs. CAP Theorem brings consistency, while Idempotency brings idempotency keys.
+
+A sensible plan is to start with Apache Cassandra for the CAP Theorem part and Stripe idempotency keys for the Idempotency part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring latency trade-offs in normal operation on one side, and side effects outside the guarded step on the other.
+
+Picture the whole as a phone tree that must choose between giving old information or staying silent when a line is cut, working alongside pressing an elevator call button many times and still getting one elevator.
+
+Two habits help: first, ask what your users prefer during a failure: stale answers or errors; second, store the result with the key so retries return the same response.

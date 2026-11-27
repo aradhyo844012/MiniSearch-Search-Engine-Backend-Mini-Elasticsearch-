@@ -1,0 +1,17 @@
+Consistent Hashing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Consistent Hashing.
+
+Learning goals:
+1. Explain Consistent Hashing in your own words.
+2. Describe hash ring, virtual nodes, key placement, and rebalancing.
+3. Give examples from distributed caches and sharded databases.
+4. Name three problems to watch for.
+
+Start with the definition: Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys. Then draw seats around a round table where a new guest only displaces their neighbor on paper and label the four terms from the goals above.
+
+Self-test questions: Why is too few virtual nodes a problem? How does virtual nodes relate to key placement? When would you choose Redis Cluster or Memcached clients?
+
+Study habit: use many virtual nodes per server to even out the load.
+
+When you feel ready, compare Consistent Hashing with Vector Clocks and write down three differences.

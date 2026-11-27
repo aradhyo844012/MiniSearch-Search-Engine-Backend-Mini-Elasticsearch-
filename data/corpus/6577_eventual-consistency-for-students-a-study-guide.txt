@@ -1,0 +1,17 @@
+Eventual Consistency for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Eventual Consistency.
+
+Learning goals:
+1. Explain Eventual Consistency in your own words.
+2. Describe replication delay, conflict resolution, read-your-writes, and convergence.
+3. Give examples from global social feeds and shopping cart services.
+4. Name three problems to watch for.
+
+Start with the definition: Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough. Then draw news spreading through a village until everyone has heard it on paper and label the four terms from the goals above.
+
+Self-test questions: Why is assuming reads are always fresh a problem? How does conflict resolution relate to read-your-writes? When would you choose Amazon DynamoDB or Apache Cassandra?
+
+Study habit: decide up front how your app handles stale reads.
+
+When you feel ready, compare Eventual Consistency with Column-Oriented Storage and write down three differences.

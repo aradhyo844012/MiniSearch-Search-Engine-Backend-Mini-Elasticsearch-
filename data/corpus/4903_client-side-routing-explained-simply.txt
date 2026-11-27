@@ -1,0 +1,13 @@
+Client-Side Routing Explained Simply
+
+If Client-Side Routing sounds intimidating, relax. It is changing the visible page in the browser without a full page reload, and the idea is simpler than the name suggests.
+
+Think of Client-Side Routing as swapping the picture in a frame without replacing the frame. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: history API, route matching, nested routes, and route guards. You do not need to master them all at once. Start with history API, then add route matching.
+
+People reach for Client-Side Routing when they work on single-page apps, dashboards, and multi-step flows.
+
+One practical tip is to test refreshing the page on every route.
+
+Once Client-Side Routing feels comfortable, read about Service Workers, which lives in the same neighborhood of ideas.

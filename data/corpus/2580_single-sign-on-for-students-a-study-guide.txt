@@ -1,0 +1,17 @@
+Single Sign-On for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Single Sign-On.
+
+Learning goals:
+1. Explain Single Sign-On in your own words.
+2. Describe identity provider, SAML, OpenID Connect, and session lifetime.
+3. Give examples from company intranets and reducing password fatigue.
+4. Name three problems to watch for.
+
+Start with the definition: Single Sign-On is letting users log in once and access several applications. Then draw a festival wristband that opens every gate on paper and label the four terms from the goals above.
+
+Self-test questions: Why is a single point of failure a problem? How does SAML relate to OpenID Connect? When would you choose Okta or Keycloak?
+
+Study habit worth keeping: plan for identity provider outages.
+
+When you feel ready, compare Single Sign-On with Security Headers and write down three differences.

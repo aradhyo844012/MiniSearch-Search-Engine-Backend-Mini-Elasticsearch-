@@ -1,0 +1,13 @@
+Debugging Backtracking: A Field Guide
+
+When something goes wrong around Backtracking, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: forgetting to undo changes, missing pruning rules, and copying large state at every step.
+Step 3: revisit decision tree and pruning, since misunderstandings there cause many bugs.
+Step 4: use Python recursion or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Backtracking in work such as solving Sudoku come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, prune as early as possible because the savings multiply. It prevents a surprising number of repeat problems.

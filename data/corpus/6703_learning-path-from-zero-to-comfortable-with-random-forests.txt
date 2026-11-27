@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Random Forests
+
+This path is for a learner who has never studied Random Forests before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Random Forests is ensembles of many decision trees whose predictions are combined) and learn bagging and feature randomness.
+
+Stage 2, hands-on: install scikit-learn, follow a tutorial, and build a small example involving tabular predictions.
+
+Stage 3, depth: study voting and out-of-bag error, then deliberately explore this problem: treating importance scores as causes.
+
+Stage 4, application: apply Random Forests to feature importance ranking, compare XGBoost with LightGBM, and write up your results.
+
+Stage 5, review: teach Random Forests to someone else, and then move on to Hyperparameter Tuning.

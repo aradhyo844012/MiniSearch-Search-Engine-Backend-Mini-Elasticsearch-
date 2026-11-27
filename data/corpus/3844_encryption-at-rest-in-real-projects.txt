@@ -1,0 +1,11 @@
+Encryption at Rest in Real Projects
+
+Reading about Encryption at Rest is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: protecting backups. Here, symmetric keys drives the main design choices, and the team needs to guard against storing keys next to the data.
+
+Scenario two: meeting compliance rules. This time key management matters most, and tools such as LUKS help keep things manageable.
+
+Scenario three: securing laptops. The key idea is disk encryption, and the biggest risk is no key rotation.
+
+Across all three scenarios, Encryption at Rest stays the same idea: protecting stored data by encrypting it on disk or in a database. Only the details change.

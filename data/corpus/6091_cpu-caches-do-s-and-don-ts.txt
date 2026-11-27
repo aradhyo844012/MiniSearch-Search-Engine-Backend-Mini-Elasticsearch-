@@ -1,0 +1,17 @@
+CPU Caches Do's and Don'ts
+
+A quick list of habits for working with CPU Caches.
+
+Do:
+- Learn cache lines before anything else.
+- Try perf on a small example.
+- Make it a habit to access arrays in the order they are stored.
+- Test the case of speeding up loops early.
+
+Don't:
+- Ignore this: false sharing.
+- Ignore this: poor access patterns.
+- Ignore this: assuming memory is uniformly fast.
+- Adopt CPU Caches just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with CPU Caches, a little patience with hit and miss rates pays off more than any clever shortcut.

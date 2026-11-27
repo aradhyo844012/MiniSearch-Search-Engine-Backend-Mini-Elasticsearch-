@@ -1,0 +1,11 @@
+Is K-Means Clustering Right for Your Project?
+
+Before adopting K-Means Clustering, ask whether it fits the problem. Remember that K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points.
+
+It is a good fit when your work involves customer segmentation or image compression, and when your team understands centroids.
+
+Be cautious when the project is very small, when deadlines leave no room to learn distance measures, or when you cannot manage these risks: choosing k blindly, unscaled features, and sensitivity to starting points.
+
+A simple decision test: write down the problem in one sentence, then check whether choosing k and iterations are part of the answer. If they are, K-Means Clustering is probably worth a closer look.
+
+If you decide to go ahead, start small with grouping documents and scale features before clustering.

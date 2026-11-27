@@ -1,0 +1,15 @@
+CPU Caches Quick Reference
+
+A one-screen reminder for CPU Caches. Bookmark it and return when the details fade.
+
+What it is: small, fast memory close to the processor that stores recently used data.
+Key terms: cache lines, hit and miss rates, levels L1 to L3, and locality.
+Typical uses: speeding up loops, explaining performance differences, and designing data layouts.
+Risks: false sharing, poor access patterns, and assuming memory is uniformly fast.
+Tools: perf, Valgrind cachegrind, and Intel VTune.
+
+Mental picture: keeping your most-used books on your desk instead of in the library.
+
+Habit to build: access arrays in the order they are stored.
+
+See also: Memory Hierarchy, which sits close to CPU Caches in the area of Computer Systems.

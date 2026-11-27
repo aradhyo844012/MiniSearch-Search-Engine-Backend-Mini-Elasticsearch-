@@ -1,0 +1,12 @@
+Questions to Ask About Modular Monoliths in Code Review
+
+Reviewing code that involves Modular Monoliths is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is public interfaces clear to someone reading the code for the first time?
+- Have we considered modules reaching into each other's tables?
+- Could we enforce boundaries with automated checks?
+- Would a test catch no enforced boundaries if it appeared later?
+- Have we avoided this problem: treating modules as just folders?
+- Is ArchUnit used consistently, or are we mixing approaches?
+
+Good reviews of work on Modular Monoliths are specific, kind and focused on shared database rules, not on personal style.

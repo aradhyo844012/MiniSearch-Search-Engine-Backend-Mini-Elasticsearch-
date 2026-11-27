@@ -1,0 +1,13 @@
+Teaching GPUs and Parallelism to a Teammate
+
+Explaining GPUs and Parallelism to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a stadium of workers each doing one small identical task. Ask your teammate what the picture suggests.
+
+Then give the plain definition: GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once. Avoid jargon at this stage.
+
+Walk through an example involving training neural networks, naming threads and blocks and kernels as they come up.
+
+Ask your teammate to explain memory transfers in GPUs and Parallelism back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow data transfers, and suggest this habit: minimize copies between CPU and GPU memory.

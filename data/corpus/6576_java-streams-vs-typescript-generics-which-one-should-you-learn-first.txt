@@ -1,0 +1,13 @@
+Java Streams vs TypeScript Generics: Which One Should You Learn First?
+
+Learners often ask whether to study Java Streams or TypeScript Generics first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Java Streams is a way of processing collections with chains of declarative operations, and it is closely tied to map and filter. TypeScript Generics, by contrast, is a feature that lets functions and types work with many types while keeping type safety, and it is closely tied to type parameters and constraints.
+
+Choose Java Streams first if you care about transforming lists or aggregating records. Choose TypeScript Generics first if you care about reusable utility functions or typed API clients.
+
+Think of Java Streams as a conveyor belt where each station changes the item before passing it on, and of TypeScript Generics as a labeled box whose label type is filled in when you use it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Java Streams, avoid reusing a consumed stream. With TypeScript Generics, avoid overusing any.
+
+A good habit for Java Streams is to keep each stream step small and readable. A good habit for TypeScript Generics is to add constraints so that error messages become clearer.

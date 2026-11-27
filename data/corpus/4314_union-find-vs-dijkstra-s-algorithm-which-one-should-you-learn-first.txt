@@ -1,0 +1,13 @@
+Union-Find vs Dijkstra's Algorithm: Which One Should You Learn First?
+
+Learners often ask whether to study Union-Find or Dijkstra's Algorithm first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly, and it is closely tied to parent pointers and union operation. Dijkstra's Algorithm, by contrast, is a method for finding the shortest path from one node to all others in a graph with non-negative weights, and it is closely tied to priority queue and distance table.
+
+Choose Union-Find first if you care about detecting connected components or building minimum spanning trees. Choose Dijkstra's Algorithm first if you care about route planning or network routing.
+
+Think of Union-Find as a set of club rosters where two clubs can merge into one, and of Dijkstra's Algorithm as a GPS that keeps expanding to the nearest unvisited intersection. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Union-Find, avoid forgetting path compression. With Dijkstra's Algorithm, avoid using it with negative edge weights.
+
+A good habit for Union-Find is to implement path compression and union by rank together. A good habit for Dijkstra's Algorithm is to stop as soon as the destination is popped from the queue.

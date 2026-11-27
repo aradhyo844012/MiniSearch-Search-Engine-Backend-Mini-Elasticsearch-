@@ -1,0 +1,15 @@
+Combining C Pointers with Regular Expressions in One Project
+
+Real projects rarely use one idea in isolation. This article shows how C Pointers and Regular Expressions can work together in a single project.
+
+C Pointers is variables that store the memory address of another value. Regular Expressions is compact patterns for matching and extracting text.
+
+Imagine a project that involves dynamic memory allocation and validating input. C Pointers brings addresses, while Regular Expressions brings character classes.
+
+A sensible plan is to start with GCC for the C Pointers part and the Python re module for the Regular Expressions part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: memory leaks on one side, and patterns that are too greedy on the other.
+
+Picture the whole as a street address written on a card instead of the house itself, working alongside a stencil that only lets certain shapes of text show through.
+
+Two habits help: first, set pointers to NULL after freeing them; second, build patterns in small steps and test each one.

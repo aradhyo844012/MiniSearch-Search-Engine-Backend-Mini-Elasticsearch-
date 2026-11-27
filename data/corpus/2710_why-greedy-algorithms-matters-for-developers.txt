@@ -1,0 +1,11 @@
+Why Greedy Algorithms Matters for Developers
+
+Developers who understand Greedy Algorithms make better decisions, because Greedy Algorithms is algorithms that build a solution by always taking the locally best choice.
+
+Three situations show why it matters. First, interval scheduling. Second, Huffman coding. Third, making change with standard coins. In each case, a solid grasp of greedy choice property and optimal substructure separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: assuming greedy always works, missing counterexamples, and skipping the correctness proof.
+
+You will not need to build everything yourself; pen and paper proofs, Python sorted, and unit tests cover most needs.
+
+Connect Greedy Algorithms with Dijkstra's Algorithm to see the bigger picture of Algorithms in Practice.

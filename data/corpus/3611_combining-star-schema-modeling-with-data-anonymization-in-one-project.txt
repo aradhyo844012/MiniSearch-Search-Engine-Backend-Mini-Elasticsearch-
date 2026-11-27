@@ -1,0 +1,15 @@
+Combining Star Schema Modeling with Data Anonymization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Star Schema Modeling and Data Anonymization can work together in a single project.
+
+Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables. Data Anonymization is removing or altering personal details in data so people cannot be identified.
+
+Imagine a project that involves business intelligence reports and sharing datasets with researchers. Star Schema Modeling brings fact tables, while Data Anonymization brings masking.
+
+A sensible plan is to start with dbt for the Star Schema Modeling part and ARX for the Data Anonymization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: over-normalized dimensions on one side, and removing too little on the other.
+
+Picture the whole as a wheel with a hub of numbers and spokes of descriptions, working alongside blurring faces in a crowd photo while keeping the scene.
+
+Two habits help: first, state the grain of the fact table before designing anything else; second, test whether combining fields could identify a person.

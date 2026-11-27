@@ -1,0 +1,11 @@
+Scaling Considerations for CSRF
+
+A design that works for a classroom project can behave very differently under real load. Here is how CSRF changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding session cookies and getting protecting forms right.
+
+Medium scale: problems start to appear. Watch for using GET requests for state changes and skipping tokens on cookie-based APIs, and measure with Django CSRF middleware before changing anything.
+
+Large scale: SameSite cookies and state-changing requests move from background details to central design questions. Teams often revisit their choices around securing account settings at this stage.
+
+Before you scale, combine SameSite cookies with anti-CSRF tokens. It is cheaper to build that habit early than to fix a crisis later.

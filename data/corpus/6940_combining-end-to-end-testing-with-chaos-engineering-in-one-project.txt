@@ -1,0 +1,15 @@
+Combining End-to-End Testing with Chaos Engineering in One Project
+
+Real projects rarely use one idea in isolation. This article shows how End-to-End Testing and Chaos Engineering can work together in a single project.
+
+End-to-End Testing is tests that drive an application through a real user journey from start to finish. Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Imagine a project that involves checking login and checkout flows and testing resilience. End-to-End Testing brings browser automation, while Chaos Engineering brings steady state.
+
+A sensible plan is to start with Playwright for the End-to-End Testing part and Chaos Monkey for the Chaos Engineering part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow runs on one side, and having no steady-state metrics on the other.
+
+Picture the whole as a test drive of the whole car on a real road, working alongside a fire drill where you secretly block one exit.
+
+Two habits help: first, cover only the most important user journeys; second, start with small experiments in a test environment.

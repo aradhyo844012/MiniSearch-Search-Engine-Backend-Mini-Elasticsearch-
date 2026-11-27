@@ -1,0 +1,13 @@
+Content Security Policy vs Threat Modeling: Which One Should You Learn First?
+
+Learners often ask whether to study Content Security Policy or Threat Modeling first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load, and it is closely tied to directives and nonces. Threat Modeling, by contrast, is a structured way of identifying what could go wrong in a system and how to prevent it, and it is closely tied to assets and attackers.
+
+Choose Content Security Policy first if you care about reducing the impact of XSS or blocking unwanted scripts. Choose Threat Modeling first if you care about designing new features or reviewing architecture.
+
+Think of Content Security Policy as a guest list at the door of a building, and of Threat Modeling as walking around a house asking where a burglar might get in. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Content Security Policy, avoid allowing unsafe-inline. With Threat Modeling, avoid doing it once and never again.
+
+A good habit for Content Security Policy is to start in report-only mode to learn what would break. A good habit for Threat Modeling is to draw the data flow diagram first.

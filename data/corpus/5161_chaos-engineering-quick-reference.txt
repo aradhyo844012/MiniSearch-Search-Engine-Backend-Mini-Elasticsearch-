@@ -1,0 +1,15 @@
+Chaos Engineering Quick Reference
+
+A one-screen reminder for Chaos Engineering. Bookmark it and return when the details fade.
+
+What it is: deliberately causing failures in a system to learn how it responds.
+Key terms: steady state, hypotheses, blast radius, and fault injection.
+Typical uses: testing resilience, validating failover, and preparing teams for incidents.
+Risks: experimenting without safeguards, having no steady-state metrics, and running first in production.
+Tools: Chaos Monkey, Gremlin, and LitmusChaos.
+
+Mental picture: a fire drill where you secretly block one exit.
+
+Habit to build: start with small experiments in a test environment.
+
+See also: Static Analysis, which sits close to Chaos Engineering in the area of Testing and Quality.

@@ -1,0 +1,12 @@
+Questions to Ask About Embedded Systems in Code Review
+
+Reviewing code that involves Embedded Systems is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: ignoring power use?
+- Does this change respect microcontrollers, or does it work around it?
+- Would a test catch no plan for updates if it appeared later?
+- Could we plan how firmware updates will be delivered from the start?
+- Is C used consistently, or are we mixing approaches?
+- Have we considered memory leaks on tiny devices?
+
+Good reviews of work on Embedded Systems are specific, kind and focused on real-time constraints, not on personal style.

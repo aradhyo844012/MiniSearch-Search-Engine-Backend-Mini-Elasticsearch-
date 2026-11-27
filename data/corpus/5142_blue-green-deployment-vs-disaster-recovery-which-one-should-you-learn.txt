@@ -1,0 +1,13 @@
+Blue-Green Deployment vs Disaster Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Blue-Green Deployment or Disaster Recovery first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one, and it is closely tied to blue and green environments and traffic switching. Disaster Recovery, by contrast, is the plans and systems that restore services after major failures, and it is closely tied to recovery time objective and recovery point objective.
+
+Choose Blue-Green Deployment first if you care about zero-downtime releases or quick rollbacks. Choose Disaster Recovery first if you care about surviving regional outages or meeting compliance needs.
+
+Think of Blue-Green Deployment as swapping to a fully prepared spare stage while the show goes on, and of Disaster Recovery as a fire drill for a whole system. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Blue-Green Deployment, avoid database schema mismatches. With Disaster Recovery, avoid untested plans.
+
+A good habit for Blue-Green Deployment is to keep the old environment running until the new one is proven. A good habit for Disaster Recovery is to run a failover exercise on a regular schedule.

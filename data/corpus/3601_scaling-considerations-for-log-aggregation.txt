@@ -1,0 +1,11 @@
+Scaling Considerations for Log Aggregation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Log Aggregation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding shippers and getting troubleshooting across services right.
+
+Medium scale: problems start to appear. Watch for unbounded storage growth and unstructured logs, and measure with Elasticsearch before changing anything.
+
+Large scale: retention and search queries move from background details to central design questions. Teams often revisit their choices around security investigations at this stage.
+
+Before you scale, use structured JSON logs so that fields are searchable. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Webhooks
+
+Everyone learns Webhooks partly through mistakes. Here are three worth avoiding.
+
+Mistake one: not verifying signatures. It usually appears when someone skips event payloads and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: slow handlers causing timeouts. It tends to be noticed late, often during testing of payment notifications. A short checklist during review catches it early.
+
+Mistake three: processing duplicate events. It is easy to miss because everything seems to work at first. Keep an eye on endpoints to spot it.
+
+If you remember only one rule, make it this: respond quickly and process the event in a background job.

@@ -1,0 +1,17 @@
+Client-Side Routing Do's and Don'ts
+
+A quick list of habits for working with Client-Side Routing.
+
+Do:
+- Learn history API before anything else.
+- Try React Router on a small example.
+- Make it a habit to test refreshing the page on every route.
+- Test the case of single-page apps early.
+
+Don't:
+- Ignore this: broken deep links.
+- Ignore this: unhandled 404 pages.
+- Ignore this: lost scroll position.
+- Adopt Client-Side Routing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Client-Side Routing, a little patience with route matching pays off more than any clever shortcut.

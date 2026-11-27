@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Transformers
+
+This path is for a learner who has never studied Transformers before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Transformers is neural network architectures that use attention to relate all parts of an input to each other) and learn self-attention and positional encoding.
+
+Stage 2, hands-on: install Hugging Face, follow a tutorial, and build a small example involving language translation.
+
+Stage 3, depth: study encoder and decoder blocks and tokens, then deliberately explore this problem: huge compute requirements.
+
+Stage 4, application: apply Transformers to text generation, compare PyTorch with TensorFlow, and write up your results.
+
+Stage 5, review: teach Transformers to someone else, and then move on to Data Augmentation.

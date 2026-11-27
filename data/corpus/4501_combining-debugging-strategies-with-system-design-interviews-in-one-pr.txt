@@ -1,0 +1,15 @@
+Combining Debugging Strategies with System Design Interviews in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Debugging Strategies and System Design Interviews can work together in a single project.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. System Design Interviews is discussions in which candidates design a large software system and explain their choices.
+
+Imagine a project that involves fixing production issues and preparing for senior roles. Debugging Strategies brings reproducing the bug, while System Design Interviews brings requirements.
+
+A sensible plan is to start with debuggers for the Debugging Strategies part and whiteboard sketches for the System Design Interviews part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: guessing without evidence on one side, and ignoring trade-offs on the other.
+
+Picture the whole as a detective narrowing down suspects, working alongside sketching the blueprint of a city while explaining why each road exists.
+
+Two habits help: first, change one thing at a time and record the result; second, clarify requirements and scale before drawing boxes.

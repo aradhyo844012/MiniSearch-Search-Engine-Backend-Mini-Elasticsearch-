@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Embeddings
+
+This is a fictional but realistic day for a developer whose project relies on Embeddings.
+
+Morning: Arjun starts by reviewing a ticket about semantic search. Before touching any code, Arjun re-reads the notes on vectors to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore cosine similarity with sentence-transformers. A small test exposes the problem of mixing models between indexing and querying, and they fix it together.
+
+Afternoon: the team discusses a new request involving recommendations. Arjun sketches coordinates on a map where similar places are close together on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to use the same embedding model for indexing and querying.
+
+Days like this are typical. Embeddings is not glamorous, but understanding it keeps small problems from growing.

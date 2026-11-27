@@ -1,0 +1,13 @@
+GPUs and Parallelism vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study GPUs and Parallelism or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once, and it is closely tied to threads and blocks and kernels. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose GPUs and Parallelism first if you care about training neural networks or rendering graphics. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of GPUs and Parallelism as a stadium of workers each doing one small identical task, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With GPUs and Parallelism, avoid slow data transfers. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for GPUs and Parallelism is to minimize copies between CPU and GPU memory. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

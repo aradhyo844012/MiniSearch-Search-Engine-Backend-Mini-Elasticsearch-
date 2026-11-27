@@ -1,0 +1,13 @@
+Teaching Python Asyncio to a Teammate
+
+Explaining Python Asyncio to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a chef who starts several dishes and checks each one when its timer rings. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Python Asyncio is a library for running many waiting tasks concurrently on a single thread. Avoid jargon at this stage.
+
+Walk through an example involving calling many APIs at once, naming event loop and coroutines as they come up.
+
+Ask your teammate to explain await in Python Asyncio back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, blocking calls inside coroutines, and suggest this habit: never call blocking code directly inside a coroutine.

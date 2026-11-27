@@ -1,0 +1,15 @@
+Combining Embedded Systems with Bluetooth Low Energy in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Embedded Systems and Bluetooth Low Energy can work together in a single project.
+
+Embedded Systems is computers built into devices to perform dedicated tasks within tight limits. Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+Imagine a project that involves appliances and fitness trackers. Embedded Systems brings microcontrollers, while Bluetooth Low Energy brings advertising.
+
+A sensible plan is to start with C for the Embedded Systems part and nRF Connect for the Bluetooth Low Energy part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no plan for updates on one side, and weak pairing security on the other.
+
+Picture the whole as a small brain inside an appliance that only knows one job, working alongside a whisper between two nearby devices that barely uses any energy.
+
+Two habits help: first, plan how firmware updates will be delivered from the start; second, test with several phone models.

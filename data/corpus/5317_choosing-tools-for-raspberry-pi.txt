@@ -1,0 +1,11 @@
+Choosing Tools for Raspberry Pi
+
+There is no single best tool for Raspberry Pi. The right choice depends on your project, your team and your timeline.
+
+Raspberry Pi OS is a common first choice, especially for home automation. Python GPIO libraries suits teams that already work with similar technology, and SSH is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle learning Linux well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: SD card corruption.
+
+As a rule of thumb, use a quality power supply and a reliable memory card, no matter which tool you use.

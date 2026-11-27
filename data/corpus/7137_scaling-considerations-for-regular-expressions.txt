@@ -1,0 +1,11 @@
+Scaling Considerations for Regular Expressions
+
+A design that works for a classroom project can behave very differently under real load. Here is how Regular Expressions changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding character classes and getting validating input right.
+
+Medium scale: problems start to appear. Watch for catastrophic backtracking and patterns that are too greedy, and measure with the Python re module before changing anything.
+
+Large scale: groups and anchors move from background details to central design questions. Teams often revisit their choices around searching logs at this stage.
+
+Before you scale, build patterns in small steps and test each one. It is cheaper to build that habit early than to fix a crisis later.

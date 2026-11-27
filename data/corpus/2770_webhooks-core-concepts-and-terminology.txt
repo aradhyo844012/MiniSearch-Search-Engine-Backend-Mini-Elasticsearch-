@@ -1,0 +1,10 @@
+Webhooks: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Webhooks with confidence. The subject itself is HTTP callbacks that let one service notify another when an event happens.
+
+event payloads: one of the building blocks of Webhooks. It shows up whenever you work on payment notifications.
+signature verification: one of the building blocks of Webhooks. You should be able to explain it in a single sentence before moving on.
+retries: one of the building blocks of Webhooks. Mixing it up with neighboring terms is a common source of confusion.
+endpoints: one of the building blocks of Webhooks. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about CI triggers. If the sentences feel natural, the vocabulary has stuck.

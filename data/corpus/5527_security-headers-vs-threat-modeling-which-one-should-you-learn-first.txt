@@ -1,0 +1,13 @@
+Security Headers vs Threat Modeling: Which One Should You Learn First?
+
+Learners often ask whether to study Security Headers or Threat Modeling first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Security Headers is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options. Threat Modeling, by contrast, is a structured way of identifying what could go wrong in a system and how to prevent it, and it is closely tied to assets and attackers.
+
+Choose Security Headers first if you care about hardening websites or reducing clickjacking. Choose Threat Modeling first if you care about designing new features or reviewing architecture.
+
+Think of Security Headers as safety instructions printed on the packaging of every page, and of Threat Modeling as walking around a house asking where a burglar might get in. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Security Headers, avoid setting headers on only some routes. With Threat Modeling, avoid doing it once and never again.
+
+A good habit for Security Headers is to test the headers on every environment. A good habit for Threat Modeling is to draw the data flow diagram first.

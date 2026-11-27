@@ -1,0 +1,13 @@
+Teaching Data Quality Checks to a Teammate
+
+Explaining Data Quality Checks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a quality inspector at the end of an assembly line. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Data Quality Checks is automated tests that verify data is complete, valid and consistent. Avoid jargon at this stage.
+
+Walk through an example involving protecting dashboards, naming null checks and uniqueness as they come up.
+
+Ask your teammate to explain freshness in Data Quality Checks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, alerts nobody reads, and suggest this habit: check data as early as it enters the pipeline.

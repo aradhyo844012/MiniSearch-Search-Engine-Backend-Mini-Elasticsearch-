@@ -1,0 +1,12 @@
+Questions to Ask About Code Editors and IDEs in Code Review
+
+Reviewing code that involves Code Editors and IDEs is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect syntax highlighting, or does it work around it?
+- Does the code handle the case of daily development correctly?
+- Have we avoided this problem: relying on autocomplete blindly?
+- Is VS Code used consistently, or are we mixing approaches?
+- Would a test catch ignoring keyboard shortcuts if it appeared later?
+- Could we learn the shortcuts for the actions you repeat most?
+
+Good reviews of work on Code Editors and IDEs are specific, kind and focused on debugger integration, not on personal style.

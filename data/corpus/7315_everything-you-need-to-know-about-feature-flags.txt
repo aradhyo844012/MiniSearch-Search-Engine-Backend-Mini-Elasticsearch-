@@ -1,0 +1,26 @@
+Everything You Need to Know About Feature Flags
+
+This page collects the essentials about Feature Flags in one place. In short, Feature Flags is switches in configuration that turn features on or off without redeploying code.
+
+Core concepts:
+- flag evaluation
+- targeting rules
+- gradual rollout
+- flag cleanup
+
+Where it is used:
+- dark launches
+- A/B tests
+- emergency kill switches
+
+Common problems:
+- never removing old flags
+- flags that depend on each other
+- untested flag combinations
+
+Tools to know:
+- LaunchDarkly
+- Unleash
+- OpenFeature
+
+Remember this above all: light switches wired to every room of a house is a good way to picture it, and the best habit is to give every flag an owner and a removal date.

@@ -1,0 +1,15 @@
+Mocking and Stubbing Quick Reference
+
+A one-screen reminder for Mocking and Stubbing. Bookmark it and return when the details fade.
+
+What it is: replacing real dependencies with controlled fakes during tests.
+Key terms: mocks, stubs, spies, and fakes.
+Typical uses: isolating units, simulating failures, and avoiding network calls.
+Risks: over-mocking, tests that mirror the implementation, and mocks that drift from reality.
+Tools: unittest.mock, Mockito, and Sinon.js.
+
+Mental picture: a crash test dummy standing in for a real passenger.
+
+Habit to build: prefer simple fakes over deep mock chains.
+
+See also: Property-Based Testing, which sits close to Mocking and Stubbing in the area of Testing and Quality.

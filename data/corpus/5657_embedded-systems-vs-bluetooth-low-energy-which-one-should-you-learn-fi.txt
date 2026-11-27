@@ -1,0 +1,13 @@
+Embedded Systems vs Bluetooth Low Energy: Which One Should You Learn First?
+
+Learners often ask whether to study Embedded Systems or Bluetooth Low Energy first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Embedded Systems is computers built into devices to perform dedicated tasks within tight limits, and it is closely tied to microcontrollers and firmware. Bluetooth Low Energy, by contrast, is a short-range wireless technology designed for very low power use, and it is closely tied to advertising and GATT services.
+
+Choose Embedded Systems first if you care about appliances or medical devices. Choose Bluetooth Low Energy first if you care about fitness trackers or smart locks.
+
+Think of Embedded Systems as a small brain inside an appliance that only knows one job, and of Bluetooth Low Energy as a whisper between two nearby devices that barely uses any energy. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Embedded Systems, avoid memory leaks on tiny devices. With Bluetooth Low Energy, avoid ignoring connection limits.
+
+A good habit for Embedded Systems is to plan how firmware updates will be delivered from the start. A good habit for Bluetooth Low Energy is to test with several phone models.

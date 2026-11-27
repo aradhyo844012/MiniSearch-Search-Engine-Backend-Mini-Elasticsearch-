@@ -1,0 +1,13 @@
+Leader Election vs Saga Pattern: Which One Should You Learn First?
+
+Learners often ask whether to study Leader Election or Saga Pattern first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Leader Election is a process by which nodes in a cluster choose one node to coordinate the work, and it is closely tied to heartbeats and terms or epochs. Saga Pattern, by contrast, is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions.
+
+Choose Leader Election first if you care about database primaries or job schedulers. Choose Saga Pattern first if you care about order processing or travel bookings.
+
+Think of Leader Election as a classroom picking a monitor when the teacher leaves, and of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Leader Election, avoid split brain. With Saga Pattern, avoid missing compensations.
+
+A good habit for Leader Election is to tune heartbeat intervals against real network delays. A good habit for Saga Pattern is to make every step and its compensation idempotent.

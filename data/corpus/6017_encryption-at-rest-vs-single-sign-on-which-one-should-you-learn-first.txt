@@ -1,0 +1,13 @@
+Encryption at Rest vs Single Sign-On: Which One Should You Learn First?
+
+Learners often ask whether to study Encryption at Rest or Single Sign-On first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Encryption at Rest is protecting stored data by encrypting it on disk or in a database, and it is closely tied to symmetric keys and key management. Single Sign-On, by contrast, is letting users log in once and access several applications, and it is closely tied to identity provider and SAML.
+
+Choose Encryption at Rest first if you care about protecting backups or meeting compliance rules. Choose Single Sign-On first if you care about company intranets or reducing password fatigue.
+
+Think of Encryption at Rest as a locked safe inside a locked room, and of Single Sign-On as a festival wristband that opens every gate. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Encryption at Rest, avoid storing keys next to the data. With Single Sign-On, avoid a single point of failure.
+
+A good habit for Encryption at Rest is to keep keys in a separate service from the data. A good habit for Single Sign-On is to plan for identity provider outages.

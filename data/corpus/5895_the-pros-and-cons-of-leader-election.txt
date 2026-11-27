@@ -1,0 +1,15 @@
+The Pros and Cons of Leader Election
+
+No technology is free of trade-offs, and Leader Election is no exception. Here is an honest summary.
+
+Advantages:
+- Supports database primaries
+- Makes job schedulers easier
+- Helps with cluster managers
+
+Drawbacks and risks:
+- Risk: split brain
+- Risk: flapping leaders
+- Risk: slow failure detection
+
+Weigh the two lists against your own project. If the advantages match your needs, such as database primaries, and you can manage the risks, Leader Election is a sound choice. Whatever you decide, tune heartbeat intervals against real network delays.

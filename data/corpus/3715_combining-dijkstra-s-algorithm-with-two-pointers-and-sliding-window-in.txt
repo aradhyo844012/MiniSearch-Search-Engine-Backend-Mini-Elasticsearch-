@@ -1,0 +1,15 @@
+Combining Dijkstra's Algorithm with Two Pointers and Sliding Window in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Dijkstra's Algorithm and Two Pointers and Sliding Window can work together in a single project.
+
+Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights. Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Imagine a project that involves route planning and finding pairs with a given sum. Dijkstra's Algorithm brings priority queue, while Two Pointers and Sliding Window brings left and right pointers.
+
+A sensible plan is to start with Python heapq for the Dijkstra's Algorithm part and Python lists for the Two Pointers and Sliding Window part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: skipping the priority queue and getting slow code on one side, and forgetting empty inputs on the other.
+
+Picture the whole as a GPS that keeps expanding to the nearest unvisited intersection, working alongside a small frame that slides along a line of text.
+
+Two habits help: first, stop as soon as the destination is popped from the queue; second, write down the window invariant before coding the loop.

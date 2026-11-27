@@ -1,0 +1,15 @@
+Combining Cloud Cost Optimization with Log Aggregation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Cloud Cost Optimization and Log Aggregation can work together in a single project.
+
+Cloud Cost Optimization is the practice of reducing cloud spending while keeping performance and reliability. Log Aggregation is collecting logs from many machines into one searchable place.
+
+Imagine a project that involves cutting idle resources and troubleshooting across services. Cloud Cost Optimization brings right-sizing, while Log Aggregation brings shippers.
+
+A sensible plan is to start with AWS Cost Explorer for the Cloud Cost Optimization part and Elasticsearch for the Log Aggregation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: over-provisioned databases on one side, and unstructured logs on the other.
+
+Picture the whole as turning off the lights in rooms nobody is using, working alongside gathering notes from every desk into a single searchable binder.
+
+Two habits help: first, tag every resource with an owner; second, use structured JSON logs so that fields are searchable.

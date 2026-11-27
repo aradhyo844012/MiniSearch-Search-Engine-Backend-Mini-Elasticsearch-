@@ -1,0 +1,9 @@
+Understanding Mocking and Stubbing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a crash test dummy standing in for a real passenger.
+
+In that picture, mocks is the first rule you follow, stubs is the next step, and spies and fakes keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Mocking and Stubbing is replacing real dependencies with controlled fakes during tests, and it involves details such as over-mocking that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for unittest.mock to learn the exact behavior. The same picture helps when you explain isolating units to a friend.

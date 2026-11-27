@@ -1,0 +1,11 @@
+Why Database Backups and Recovery Matters for Developers
+
+Developers who understand Database Backups and Recovery make better decisions, because Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Three situations show why it matters. First, recovering deleted tables. Second, migrating servers. Third, meeting compliance rules. In each case, a solid grasp of full and incremental backups and recovery point objective separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: never testing restores, storing backups on the same disk, and keeping credentials inside backup scripts.
+
+You will not need to build everything yourself; pg_dump, mysqldump, and AWS Backup cover most needs.
+
+Connect Database Backups and Recovery with Time-Series Databases to see the bigger picture of Storage Engines and Databases.

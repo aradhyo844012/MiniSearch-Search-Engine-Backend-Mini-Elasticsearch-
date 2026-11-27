@@ -1,0 +1,15 @@
+Hashing vs Encryption Quick Reference
+
+A one-screen reminder for Hashing vs Encryption. Bookmark it and return when the details fade.
+
+What it is: the difference between one-way digests and reversible protection of data.
+Key terms: one-way functions, keys, collision resistance, and reversibility.
+Typical uses: storing passwords, verifying file integrity, and protecting data in transit.
+Risks: encrypting passwords instead of hashing them, using broken hash functions, and confusing encoding with encryption.
+Tools: SHA-256, AES, and OpenSSL.
+
+Mental picture: a paper shredder compared with a locked suitcase.
+
+Habit to build: ask whether you will ever need the original value back.
+
+See also: Single Sign-On, which sits close to Hashing vs Encryption in the area of Application Security.

@@ -1,0 +1,13 @@
+Memory Hierarchy vs System Calls: Which One Should You Learn First?
+
+Learners often ask whether to study Memory Hierarchy or System Calls first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Memory Hierarchy is the layers of storage from registers to disks, trading speed for size, and it is closely tied to registers and cache. System Calls, by contrast, is the controlled doorway through which programs ask the operating system to do privileged work, and it is closely tied to user mode and kernel mode and syscall numbers.
+
+Choose Memory Hierarchy first if you care about designing efficient programs or explaining slow I/O. Choose System Calls first if you care about reading and writing files or creating processes.
+
+Think of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse, and of System Calls as a service window where a customer asks staff to do things in the back office. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Memory Hierarchy, avoid ignoring locality. With System Calls, avoid ignoring error codes.
+
+A good habit for Memory Hierarchy is to reduce how often your program goes down to the slower layers. A good habit for System Calls is to use strace to see what your program really asks the kernel to do.

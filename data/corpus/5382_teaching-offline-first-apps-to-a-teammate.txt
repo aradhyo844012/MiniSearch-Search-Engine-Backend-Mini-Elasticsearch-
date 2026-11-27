@@ -1,0 +1,13 @@
+Teaching Offline-First Apps to a Teammate
+
+Explaining Offline-First Apps to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: writing in a notebook and mailing the pages later. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Offline-First Apps is apps designed to work without a network and sync when a connection returns. Avoid jargon at this stage.
+
+Walk through an example involving field service tools, naming local storage and sync queues as they come up.
+
+Ask your teammate to explain conflict resolution in Offline-First Apps back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, unresolved sync conflicts, and suggest this habit: show users which changes have not synced yet.

@@ -1,0 +1,13 @@
+Software Estimation vs Pair Programming: Which One Should You Learn First?
+
+Learners often ask whether to study Software Estimation or Pair Programming first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Software Estimation is predicting how much time and effort a piece of work will take, and it is closely tied to story points and ranges. Pair Programming, by contrast, is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation.
+
+Choose Software Estimation first if you care about sprint planning or setting deadlines. Choose Pair Programming first if you care about teaching new teammates or solving hard bugs.
+
+Think of Software Estimation as forecasting the weather rather than reading a timetable, and of Pair Programming as a pilot and co-pilot who check each other's decisions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Software Estimation, avoid treating estimates as promises. With Pair Programming, avoid one person dominating.
+
+A good habit for Software Estimation is to give ranges instead of single numbers. A good habit for Pair Programming is to swap roles every twenty to thirty minutes.

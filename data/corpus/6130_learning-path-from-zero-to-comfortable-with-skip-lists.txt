@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Skip Lists
+
+This path is for a learner who has never studied Skip Lists before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Skip Lists is layered linked lists that allow fast searching by skipping over many elements) and learn multiple levels and random level assignment.
+
+Stage 2, hands-on: install Redis sorted sets, follow a tutorial, and build a small example involving ordered in-memory indexes.
+
+Stage 3, depth: study forward pointers and expected logarithmic time, then deliberately explore this problem: poor random number choices.
+
+Stage 4, application: apply Skip Lists to sorted sets in caches, compare Java ConcurrentSkipListMap with LevelDB, and write up your results.
+
+Stage 5, review: teach Skip Lists to someone else, and then move on to Segment Trees.

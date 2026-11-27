@@ -1,0 +1,11 @@
+Mistakes to Avoid with Content Security Policy
+
+Everyone learns Content Security Policy partly through mistakes. Here are three worth avoiding.
+
+Mistake one: allowing unsafe-inline. It usually appears when someone skips directives and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: policies too broad to help. It tends to be noticed late, often during testing of reducing the impact of XSS. A short checklist during review catches it early.
+
+Mistake three: breaking third-party widgets. It is easy to miss because everything seems to work at first. Keep an eye on trusted sources to spot it.
+
+If you remember only one rule, make it this: start in report-only mode to learn what would break.

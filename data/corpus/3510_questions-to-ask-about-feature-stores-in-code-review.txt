@@ -1,0 +1,12 @@
+Questions to Ask About Feature Stores in Code Review
+
+Reviewing code that involves Feature Stores is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered leaking future data?
+- Would a test catch duplicate definitions if it appeared later?
+- Does the code handle the case of sharing features across models correctly?
+- Does this change respect offline store, or does it work around it?
+- Have we avoided this problem: stale online values?
+- Is online store clear to someone reading the code for the first time?
+
+Good reviews of work on Feature Stores are specific, kind and focused on point-in-time correctness, not on personal style.

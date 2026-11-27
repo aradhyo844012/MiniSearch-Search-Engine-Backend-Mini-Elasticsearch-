@@ -1,0 +1,11 @@
+Rust Ownership Tips from Experienced Engineers
+
+Engineers who work with Rust Ownership regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip ownership; everything else builds on it.
+2. Write down why you chose Rust Ownership so the next person understands the decision.
+3. Make sure you can read the compiler's error messages closely because they often explain the fix.
+4. When something behaves strangely, revisit borrowing before anything else.
+5. Be careful with this one: fighting the borrow checker with needless clones.
+
+None of these tips needs special equipment, and all of them apply to command line tools as well.

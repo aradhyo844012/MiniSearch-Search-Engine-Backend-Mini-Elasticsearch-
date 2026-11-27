@@ -1,0 +1,11 @@
+Practice Exercises for LSM Trees
+
+These exercises build real understanding of LSM Trees. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: read amplification. Then fix it.
+Exercise 2: Write a short paragraph describing LSM Trees and include the term memtable.
+Exercise 3: Pick RocksDB and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble write-heavy databases or time-ordered data.
+Exercise 5: Explain how compaction and write amplification differ, using a drawing.
+
+When you finish, compare your answers with the definition: LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk.

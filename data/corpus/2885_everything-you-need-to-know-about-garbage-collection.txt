@@ -1,0 +1,26 @@
+Everything You Need to Know About Garbage Collection
+
+This page collects the essentials about Garbage Collection in one place. In short, Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.
+
+Core concepts:
+- reachability
+- generations
+- mark and sweep
+- pause times
+
+Where it is used:
+- managed languages like Java and Python
+- reducing memory bugs
+- long-running services
+
+Common problems:
+- creating huge numbers of short-lived objects
+- holding references longer than needed
+- ignoring pause times in latency-sensitive code
+
+Tools to know:
+- JVM GC logs
+- the Python gc module
+- VisualVM
+
+Remember this above all: a cleaner who removes items nobody has touched in a while is a good way to picture it, and the best habit is to measure allocation rates before tuning collector settings.

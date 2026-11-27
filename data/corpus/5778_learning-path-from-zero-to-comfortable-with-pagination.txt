@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Pagination
+
+This path is for a learner who has never studied Pagination before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Pagination is splitting large result sets into smaller pages that clients request one at a time) and learn offset pagination and cursor pagination.
+
+Stage 2, hands-on: install SQL LIMIT and OFFSET, follow a tutorial, and build a small example involving search results.
+
+Stage 3, depth: study page size and stable ordering, then deliberately explore this problem: offsets getting slow on huge tables.
+
+Stage 4, application: apply Pagination to activity feeds, compare keyset queries with Django REST Framework, and write up your results.
+
+Stage 5, review: teach Pagination to someone else, and then move on to Logging Best Practices.

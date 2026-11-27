@@ -1,0 +1,12 @@
+Data Augmentation Glossary for Beginners
+
+New words can make Data Augmentation feel harder than it is. This glossary keeps the key ones in one place.
+
+Data Augmentation: creating modified copies of training data to help models generalize.
+transformations: a core term, most visible in image models.
+label preservation: a core term that beginners often confuse with synthetic samples.
+synthetic samples: a core term that connects to augmentation pipelines.
+augmentation pipelines: a core term worth revisiting after you try a real example.
+Albumentations: a tool commonly used for text classification.
+
+Come back to this Data Augmentation list whenever documentation for torchvision uses a word you do not recognize.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Security Headers
+
+Everyone learns Security Headers partly through mistakes. Here are three worth avoiding.
+
+Mistake one: setting headers on only some routes. It usually appears when someone skips Strict-Transport-Security and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: breaking embeds. It tends to be noticed late, often during testing of hardening websites. A short checklist during review catches it early.
+
+Mistake three: copying configurations without understanding them. It is easy to miss because everything seems to work at first. Keep an eye on referrer policy to spot it.
+
+If you remember only one rule, make it this: test the headers on every environment.

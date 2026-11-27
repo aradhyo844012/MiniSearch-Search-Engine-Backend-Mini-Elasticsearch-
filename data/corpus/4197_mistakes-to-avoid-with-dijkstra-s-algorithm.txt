@@ -1,0 +1,11 @@
+Mistakes to Avoid with Dijkstra's Algorithm
+
+Everyone learns Dijkstra's Algorithm partly through mistakes. Here are three worth avoiding.
+
+Mistake one: using it with negative edge weights. It usually appears when someone skips priority queue and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: skipping the priority queue and getting slow code. It tends to be noticed late, often during testing of route planning. A short checklist during review catches it early.
+
+Mistake three: not stopping early when only one target is needed. It is easy to miss because everything seems to work at first. Keep an eye on visited set to spot it.
+
+If you remember only one rule, make it this: stop as soon as the destination is popped from the queue.

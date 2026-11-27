@@ -1,0 +1,15 @@
+Combining CPU Caches with Memory Hierarchy in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CPU Caches and Memory Hierarchy can work together in a single project.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data. Memory Hierarchy is the layers of storage from registers to disks, trading speed for size.
+
+Imagine a project that involves speeding up loops and designing efficient programs. CPU Caches brings cache lines, while Memory Hierarchy brings registers.
+
+A sensible plan is to start with perf for the CPU Caches part and lscpu for the Memory Hierarchy part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor access patterns on one side, and excessive paging on the other.
+
+Picture the whole as keeping your most-used books on your desk instead of in the library, working alongside a kitchen with a spice rack, a pantry and a warehouse.
+
+Two habits help: first, access arrays in the order they are stored; second, reduce how often your program goes down to the slower layers.

@@ -1,0 +1,11 @@
+Scaling Considerations for Garbage Collection
+
+A design that works for a classroom project can behave very differently under real load. Here is how Garbage Collection changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding reachability and getting managed languages like Java and Python right.
+
+Medium scale: problems start to appear. Watch for creating huge numbers of short-lived objects and holding references longer than needed, and measure with JVM GC logs before changing anything.
+
+Large scale: mark and sweep and pause times move from background details to central design questions. Teams often revisit their choices around reducing memory bugs at this stage.
+
+Before you scale, measure allocation rates before tuning collector settings. It is cheaper to build that habit early than to fix a crisis later.

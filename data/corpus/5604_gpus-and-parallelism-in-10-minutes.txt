@@ -1,0 +1,15 @@
+GPUs and Parallelism in 10 Minutes
+
+You have ten minutes, so here is the fast route through GPUs and Parallelism.
+
+Minutes 1 and 2, the definition: GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Minutes 3 and 4, the vocabulary: learn threads and blocks, kernels, memory transfers, and SIMD.
+
+Minutes 5 and 6, the picture: imagine a stadium of workers each doing one small identical task. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through training neural networks, rendering graphics, and scientific simulations.
+
+Minutes 9 and 10, the traps and the tools: watch for slow data transfers and branch-heavy code, then try CUDA for a first experiment.
+
+If you have a spare minute, remember to minimize copies between CPU and GPU memory.

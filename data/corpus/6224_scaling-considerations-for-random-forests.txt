@@ -1,0 +1,11 @@
+Scaling Considerations for Random Forests
+
+A design that works for a classroom project can behave very differently under real load. Here is how Random Forests changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding bagging and getting tabular predictions right.
+
+Medium scale: problems start to appear. Watch for treating importance scores as causes and very large forests being slow, and measure with scikit-learn before changing anything.
+
+Large scale: voting and out-of-bag error move from background details to central design questions. Teams often revisit their choices around feature importance ranking at this stage.
+
+Before you scale, tune the number of trees only after the basics work. It is cheaper to build that habit early than to fix a crisis later.

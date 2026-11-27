@@ -1,0 +1,13 @@
+Debugging Penetration Testing: A Field Guide
+
+When something goes wrong around Penetration Testing, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: testing without written permission, ignoring the findings afterward, and relying only on automated scans.
+Step 3: revisit scoping and reconnaissance, since misunderstandings there cause many bugs.
+Step 4: use OWASP ZAP or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Penetration Testing in work such as pre-launch security checks come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, get written authorization before any test. It prevents a surprising number of repeat problems.

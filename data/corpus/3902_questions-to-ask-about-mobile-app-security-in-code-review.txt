@@ -1,0 +1,12 @@
+Questions to Ask About Mobile App Security in Code Review
+
+Reviewing code that involves Mobile App Security is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of banking apps correctly?
+- Have we considered storing tokens in plain text?
+- Does this change respect secure storage, or does it work around it?
+- Could we store secrets in the platform keychain or keystore?
+- Would a test catch hard-coded API keys if it appeared later?
+- Is OWASP MASVS used consistently, or are we mixing approaches?
+
+Good reviews of work on Mobile App Security are specific, kind and focused on obfuscation, not on personal style.

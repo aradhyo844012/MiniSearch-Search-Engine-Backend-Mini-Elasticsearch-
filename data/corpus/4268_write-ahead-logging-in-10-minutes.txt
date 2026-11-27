@@ -1,0 +1,15 @@
+Write-Ahead Logging in 10 Minutes
+
+You have ten minutes, so here is the fast route through Write-Ahead Logging.
+
+Minutes 1 and 2, the definition: Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.
+
+Minutes 3 and 4, the vocabulary: learn log records, checkpoints, crash recovery, and fsync.
+
+Minutes 5 and 6, the picture: imagine writing a plan in a notebook before changing the real blueprint. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through surviving crashes, feeding replication streams, and point-in-time recovery.
+
+Minutes 9 and 10, the traps and the tools: watch for disabling fsync for speed and log files filling the disk, then try PostgreSQL WAL for a first experiment.
+
+If you have a spare minute, remember to test crash recovery by killing the process on purpose.

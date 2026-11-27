@@ -1,0 +1,15 @@
+MQTT in 10 Minutes
+
+You have ten minutes, so here is the fast route through MQTT.
+
+Minutes 1 and 2, the definition: MQTT is a lightweight messaging protocol designed for small devices and unreliable networks.
+
+Minutes 3 and 4, the vocabulary: learn publish and subscribe, topics, brokers, and quality of service levels.
+
+Minutes 5 and 6, the picture: imagine a radio station with channels that devices can tune into. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through sensor networks, smart home devices, and telemetry.
+
+Minutes 9 and 10, the traps and the tools: watch for unsecured brokers and messy topic names, then try Mosquitto for a first experiment.
+
+If you have a spare minute, remember to design topic names like a clear folder structure.

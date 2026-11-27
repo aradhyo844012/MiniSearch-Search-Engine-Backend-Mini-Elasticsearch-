@@ -1,0 +1,15 @@
+LSM Trees Quick Reference
+
+A one-screen reminder for LSM Trees. Bookmark it and return when the details fade.
+
+What it is: storage structures that buffer writes in memory and merge them into sorted files on disk.
+Key terms: memtable, sorted string tables, compaction, and write amplification.
+Typical uses: write-heavy databases, time-ordered data, and key-value stores.
+Risks: read amplification, compaction stalls, and poor bloom filter tuning.
+Tools: RocksDB, LevelDB, and Apache Cassandra.
+
+Mental picture: a mail room that sorts incoming letters in batches rather than one by one.
+
+Habit to build: watch compaction metrics before blaming the application.
+
+See also: B-Trees on Disk, which sits close to LSM Trees in the area of Storage Engines and Databases.

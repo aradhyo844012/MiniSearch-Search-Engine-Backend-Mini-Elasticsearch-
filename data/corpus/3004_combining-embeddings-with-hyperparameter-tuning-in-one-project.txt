@@ -1,0 +1,15 @@
+Combining Embeddings with Hyperparameter Tuning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Embeddings and Hyperparameter Tuning can work together in a single project.
+
+Embeddings is lists of numbers that represent words, images or items so that similar things sit close together. Hyperparameter Tuning is the process of searching for the best settings that control how a model learns.
+
+Imagine a project that involves semantic search and improving model accuracy. Embeddings brings vectors, while Hyperparameter Tuning brings search spaces.
+
+A sensible plan is to start with sentence-transformers for the Embeddings part and Optuna for the Hyperparameter Tuning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring normalization on one side, and searching too many options on the other.
+
+Picture the whole as coordinates on a map where similar places are close together, working alongside adjusting the knobs on a radio until the signal is clear.
+
+Two habits help: first, use the same embedding model for indexing and querying; second, try random search before anything fancier.

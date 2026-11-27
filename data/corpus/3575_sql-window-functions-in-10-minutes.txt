@@ -1,0 +1,15 @@
+SQL Window Functions in 10 Minutes
+
+You have ten minutes, so here is the fast route through SQL Window Functions.
+
+Minutes 1 and 2, the definition: SQL Window Functions is SQL features that calculate values across related rows without collapsing them.
+
+Minutes 3 and 4, the vocabulary: learn the OVER clause, partitions, ordering, and frames.
+
+Minutes 5 and 6, the picture: imagine looking at the neighbors in a line without leaving your place. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through running totals, ranking rows, and comparing a row with the previous one.
+
+Minutes 9 and 10, the traps and the tools: watch for forgetting ORDER BY inside the window and confusing them with GROUP BY, then try PostgreSQL for a first experiment.
+
+If you have a spare minute, remember to start with ROW_NUMBER and LAG on a small table.

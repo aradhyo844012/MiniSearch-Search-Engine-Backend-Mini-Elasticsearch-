@@ -1,0 +1,12 @@
+CAP Theorem Glossary for Beginners
+
+New words can make CAP Theorem feel harder than it is. This glossary keeps the key ones in one place.
+
+CAP Theorem: a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.
+consistency: a core term, most visible in choosing database types.
+availability: a core term that beginners often confuse with partition tolerance.
+partition tolerance: a core term that connects to trade-offs.
+trade-offs: a core term worth revisiting after you try a real example.
+Apache Cassandra: a tool commonly used for designing multi-region services.
+
+Come back to this CAP Theorem list whenever documentation for etcd uses a word you do not recognize.

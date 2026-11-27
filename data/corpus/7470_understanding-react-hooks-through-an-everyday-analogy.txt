@@ -1,0 +1,9 @@
+Understanding React Hooks Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture sticky notes a component keeps between redraws.
+
+In that picture, useState is the first rule you follow, useEffect is the next step, and dependency arrays and custom hooks keep everything running smoothly.
+
+Every analogy breaks down eventually. Real React Hooks is functions that let components use state and lifecycle features without writing classes, and it involves details such as missing dependencies in effects that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for React DevTools to learn the exact behavior. The same picture helps when you explain managing form input to a friend.

@@ -1,0 +1,15 @@
+CPU Caches in 10 Minutes
+
+You have ten minutes, so here is the fast route through CPU Caches.
+
+Minutes 1 and 2, the definition: CPU Caches is small, fast memory close to the processor that stores recently used data.
+
+Minutes 3 and 4, the vocabulary: learn cache lines, hit and miss rates, levels L1 to L3, and locality.
+
+Minutes 5 and 6, the picture: imagine keeping your most-used books on your desk instead of in the library. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through speeding up loops, explaining performance differences, and designing data layouts.
+
+Minutes 9 and 10, the traps and the tools: watch for false sharing and poor access patterns, then try perf for a first experiment.
+
+If you have a spare minute, remember to access arrays in the order they are stored.

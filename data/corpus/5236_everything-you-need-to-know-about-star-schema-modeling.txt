@@ -1,0 +1,26 @@
+Everything You Need to Know About Star Schema Modeling
+
+This page collects the essentials about Star Schema Modeling in one place. In short, Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.
+
+Core concepts:
+- fact tables
+- dimension tables
+- surrogate keys
+- grain
+
+Where it is used:
+- business intelligence reports
+- data warehouses
+- fast aggregations
+
+Common problems:
+- mixing different grains
+- over-normalized dimensions
+- missing date dimensions
+
+Tools to know:
+- dbt
+- Snowflake
+- Kimball techniques
+
+Remember this above all: a wheel with a hub of numbers and spokes of descriptions is a good way to picture it, and the best habit is to state the grain of the fact table before designing anything else.

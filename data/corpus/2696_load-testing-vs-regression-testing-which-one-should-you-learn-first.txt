@@ -1,0 +1,13 @@
+Load Testing vs Regression Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Load Testing or Regression Testing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Load Testing is measuring how a system behaves under expected and heavy traffic, and it is closely tied to virtual users and throughput. Regression Testing, by contrast, is re-running tests after changes to make sure old features still work, and it is closely tied to test suites and automation.
+
+Choose Load Testing first if you care about capacity planning or finding bottlenecks. Choose Regression Testing first if you care about protecting releases or verifying bug fixes.
+
+Think of Load Testing as a stress test that fills a stadium to see how the exits cope, and of Regression Testing as rechecking the old keys after cutting a new lock. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Load Testing, avoid testing unrealistic traffic. With Regression Testing, avoid slow suites that nobody runs.
+
+A good habit for Load Testing is to report p95 and p99 latency, not only averages. A good habit for Regression Testing is to add a test for every bug you fix.

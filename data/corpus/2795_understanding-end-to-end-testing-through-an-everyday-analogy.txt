@@ -1,0 +1,9 @@
+Understanding End-to-End Testing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a test drive of the whole car on a real road.
+
+In that picture, browser automation is the first rule you follow, user flows is the next step, and test data and selectors keep everything running smoothly.
+
+Every analogy breaks down eventually. Real End-to-End Testing is tests that drive an application through a real user journey from start to finish, and it involves details such as flaky tests that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Playwright to learn the exact behavior. The same picture helps when you explain checking login and checkout flows to a friend.

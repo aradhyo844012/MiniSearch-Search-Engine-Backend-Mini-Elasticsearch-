@@ -1,0 +1,9 @@
+Understanding CPU Caches Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture keeping your most-used books on your desk instead of in the library.
+
+In that picture, cache lines is the first rule you follow, hit and miss rates is the next step, and levels L1 to L3 and locality keep everything running smoothly.
+
+Every analogy breaks down eventually. Real CPU Caches is small, fast memory close to the processor that stores recently used data, and it involves details such as false sharing that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for perf to learn the exact behavior. The same picture helps when you explain speeding up loops to a friend.

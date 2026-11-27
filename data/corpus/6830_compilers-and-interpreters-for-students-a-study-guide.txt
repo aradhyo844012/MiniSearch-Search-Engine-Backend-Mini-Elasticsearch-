@@ -1,0 +1,17 @@
+Compilers and Interpreters for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Compilers and Interpreters.
+
+Learning goals:
+1. Explain Compilers and Interpreters in your own words.
+2. Describe lexing, parsing, code generation, and bytecode.
+3. Give examples from running Python and JavaScript and building native programs.
+4. Name three problems to watch for.
+
+Start with the definition: Compilers and Interpreters is programs that translate or run source code written in a high-level language. Then draw a translator who either translates a whole book first or interprets sentence by sentence on paper and label the four terms from the goals above.
+
+Self-test questions: Why is assuming interpreted means slow without measuring a problem? How does parsing relate to code generation? When would you choose GCC or LLVM?
+
+Study habit worth keeping: turn on compiler warnings and treat them seriously.
+
+When you feel ready, compare Compilers and Interpreters with Boolean Logic and Gates and write down three differences.

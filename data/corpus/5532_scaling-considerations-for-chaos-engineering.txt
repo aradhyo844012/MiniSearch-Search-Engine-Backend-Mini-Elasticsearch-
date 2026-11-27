@@ -1,0 +1,11 @@
+Scaling Considerations for Chaos Engineering
+
+A design that works for a classroom project can behave very differently under real load. Here is how Chaos Engineering changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding steady state and getting testing resilience right.
+
+Medium scale: problems start to appear. Watch for experimenting without safeguards and having no steady-state metrics, and measure with Chaos Monkey before changing anything.
+
+Large scale: blast radius and fault injection move from background details to central design questions. Teams often revisit their choices around validating failover at this stage.
+
+Before you scale, start with small experiments in a test environment. It is cheaper to build that habit early than to fix a crisis later.

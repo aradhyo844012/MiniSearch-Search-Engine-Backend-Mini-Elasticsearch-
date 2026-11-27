@@ -1,0 +1,15 @@
+Combining State Management with Progressive Web Apps in One Project
+
+Real projects rarely use one idea in isolation. This article shows how State Management and Progressive Web Apps can work together in a single project.
+
+State Management is the practice of organizing where an application keeps and updates its data. Progressive Web Apps is web applications that can be installed and work offline like native apps.
+
+Imagine a project that involves large single-page apps and offline-friendly tools. State Management brings single source of truth, while Progressive Web Apps brings web app manifest.
+
+A sensible plan is to start with Redux for the State Management part and Lighthouse for the Progressive Web Apps part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: duplicated state that drifts apart on one side, and poor offline fallbacks on the other.
+
+Picture the whole as a shared whiteboard that everyone updates through the same rules, working alongside a website that packs its own suitcase so it still works when the network is gone.
+
+Two habits help: first, keep state as close as possible to where it is used; second, test the app in airplane mode.

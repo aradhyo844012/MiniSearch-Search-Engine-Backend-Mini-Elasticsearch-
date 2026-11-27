@@ -1,0 +1,13 @@
+Teaching Data Augmentation to a Teammate
+
+Explaining Data Augmentation to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: practicing a sport in different weather and on different fields. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Data Augmentation is creating modified copies of training data to help models generalize. Avoid jargon at this stage.
+
+Walk through an example involving image models, naming transformations and label preservation as they come up.
+
+Ask your teammate to explain synthetic samples in Data Augmentation back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, changes that alter the label, and suggest this habit: augment only the training data.

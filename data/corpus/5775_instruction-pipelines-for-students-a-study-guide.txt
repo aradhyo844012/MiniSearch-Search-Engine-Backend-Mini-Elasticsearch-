@@ -1,0 +1,17 @@
+Instruction Pipelines for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Instruction Pipelines.
+
+Learning goals:
+1. Explain Instruction Pipelines in your own words.
+2. Describe fetch, decode and execute stages, hazards, branch prediction, and stalls.
+3. Give examples from explaining CPU speed and understanding branch costs.
+4. Name three problems to watch for.
+
+Start with the definition: Instruction Pipelines is a technique where a processor overlaps the stages of several instructions. Then draw an assembly line where several cars are in different stages at once on paper and label the four terms from the goals above.
+
+Self-test questions: Why is unpredictable branches a problem? How does hazards relate to branch prediction? When would you choose perf or Compiler Explorer?
+
+Study habit: avoid unpredictable branches in hot loops.
+
+When you feel ready, compare Instruction Pipelines with Endianness and write down three differences.

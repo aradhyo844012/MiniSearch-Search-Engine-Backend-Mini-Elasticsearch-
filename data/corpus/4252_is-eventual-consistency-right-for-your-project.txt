@@ -1,0 +1,11 @@
+Is Eventual Consistency Right for Your Project?
+
+Before adopting Eventual Consistency, ask whether it fits the problem. Remember that Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+It is a good fit when your work involves global social feeds or shopping cart services, and when your team understands replication delay.
+
+Be cautious when the project is very small, when deadlines leave no room to learn conflict resolution, or when you cannot manage these risks: assuming reads are always fresh, unresolved write conflicts, and no user feedback during delays.
+
+A simple decision test: write down the problem in one sentence, then check whether read-your-writes and convergence are part of the answer. If they are, Eventual Consistency is probably worth a closer look.
+
+If you decide to go ahead, start small with DNS records and decide up front how your app handles stale reads.

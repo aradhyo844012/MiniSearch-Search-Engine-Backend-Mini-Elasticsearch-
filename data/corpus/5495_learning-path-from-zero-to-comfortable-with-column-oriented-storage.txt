@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Column-Oriented Storage
+
+This path is for a learner who has never studied Column-Oriented Storage before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics) and learn column chunks and compression.
+
+Stage 2, hands-on: install Apache Parquet, follow a tutorial, and build a small example involving analytics dashboards.
+
+Stage 3, depth: study vectorized scans and predicate pushdown, then deliberately explore this problem: slow single-row lookups.
+
+Stage 4, application: apply Column-Oriented Storage to large aggregations, compare ClickHouse with DuckDB, and write up your results.
+
+Stage 5, review: teach Column-Oriented Storage to someone else, and then move on to Time-Series Databases.

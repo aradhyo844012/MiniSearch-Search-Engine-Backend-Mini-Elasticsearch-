@@ -1,0 +1,13 @@
+Memory Hierarchy Explained Simply
+
+If Memory Hierarchy sounds intimidating, relax. It is the layers of storage from registers to disks, trading speed for size, and the idea is simpler than the name suggests.
+
+Think of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: registers, cache, main memory, and disk. You do not need to master them all at once. Start with registers, then add cache.
+
+You will meet Memory Hierarchy in work such as designing efficient programs, explaining slow I/O, and choosing data structures.
+
+One practical tip is to reduce how often your program goes down to the slower layers.
+
+After Memory Hierarchy, a natural next topic is Interrupts.

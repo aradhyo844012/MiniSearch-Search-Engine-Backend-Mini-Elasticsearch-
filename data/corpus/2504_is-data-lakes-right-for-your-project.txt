@@ -1,0 +1,11 @@
+Is Data Lakes Right for Your Project?
+
+Before adopting Data Lakes, ask whether it fits the problem. Remember that Data Lakes is large storage systems that keep raw data in its original format until it is needed.
+
+It is a good fit when your work involves storing logs and events or machine learning datasets, and when your team understands raw storage.
+
+Be cautious when the project is very small, when deadlines leave no room to learn schema on read, or when you cannot manage these risks: turning into a data swamp, no catalog or ownership, and poor access controls.
+
+A simple decision test: write down the problem in one sentence, then check whether partitioning and metadata catalogs are part of the answer. If they are, Data Lakes is probably worth a closer look.
+
+If you decide to go ahead, start small with analytics across many sources and register every dataset in a catalog with an owner.

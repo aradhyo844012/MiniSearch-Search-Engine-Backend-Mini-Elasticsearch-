@@ -1,0 +1,12 @@
+Questions to Ask About Data Augmentation in Code Review
+
+Reviewing code that involves Data Augmentation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered changes that alter the label?
+- Would a test catch augmenting the test set if it appeared later?
+- Is Albumentations used consistently, or are we mixing approaches?
+- Is label preservation clear to someone reading the code for the first time?
+- Could we augment only the training data?
+- Have we avoided this problem: unrealistic transformations?
+
+Good reviews of work on Data Augmentation are specific, kind and focused on synthetic samples, not on personal style.

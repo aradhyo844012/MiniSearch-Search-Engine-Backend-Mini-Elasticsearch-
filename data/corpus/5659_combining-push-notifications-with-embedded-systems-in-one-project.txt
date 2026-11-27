@@ -1,0 +1,15 @@
+Combining Push Notifications with Embedded Systems in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Push Notifications and Embedded Systems can work together in a single project.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed. Embedded Systems is computers built into devices to perform dedicated tasks within tight limits.
+
+Imagine a project that involves order updates and appliances. Push Notifications brings device tokens, while Embedded Systems brings microcontrollers.
+
+A sensible plan is to start with Firebase Cloud Messaging for the Push Notifications part and C for the Embedded Systems part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: sending too many messages on one side, and no plan for updates on the other.
+
+Picture the whole as a courier who knocks on your door when a package arrives, working alongside a small brain inside an appliance that only knows one job.
+
+Two habits help: first, ask for permission at a moment when the user understands the value; second, plan how firmware updates will be delivered from the start.

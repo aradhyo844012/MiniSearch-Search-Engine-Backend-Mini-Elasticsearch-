@@ -1,0 +1,13 @@
+Debugging SQL Window Functions: A Field Guide
+
+When something goes wrong around SQL Window Functions, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: forgetting ORDER BY inside the window, confusing them with GROUP BY, and slow sorts on huge partitions.
+Step 3: revisit the OVER clause and partitions, since misunderstandings there cause many bugs.
+Step 4: use PostgreSQL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving SQL Window Functions in work such as running totals come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start with ROW_NUMBER and LAG on a small table. It prevents a surprising number of repeat problems.

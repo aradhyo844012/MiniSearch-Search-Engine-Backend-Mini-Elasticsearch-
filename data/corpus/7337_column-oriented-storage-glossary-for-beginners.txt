@@ -1,0 +1,12 @@
+Column-Oriented Storage Glossary for Beginners
+
+New words can make Column-Oriented Storage feel harder than it is. This glossary keeps the key ones in one place.
+
+Column-Oriented Storage: a way of storing table data by column instead of by row to speed up analytics.
+column chunks: a core term, most visible in analytics dashboards.
+compression: a core term that beginners often confuse with vectorized scans.
+vectorized scans: a core term that connects to predicate pushdown.
+predicate pushdown: a core term worth revisiting after you try a real example.
+Apache Parquet: a tool commonly used for large aggregations.
+
+Come back to this Column-Oriented Storage list whenever documentation for ClickHouse uses a word you do not recognize.

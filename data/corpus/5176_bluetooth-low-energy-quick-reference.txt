@@ -1,0 +1,15 @@
+Bluetooth Low Energy Quick Reference
+
+A one-screen reminder for Bluetooth Low Energy. Bookmark it and return when the details fade.
+
+What it is: a short-range wireless technology designed for very low power use.
+Key terms: advertising, GATT services, characteristics, and pairing.
+Typical uses: fitness trackers, smart locks, and proximity beacons.
+Risks: ignoring connection limits, weak pairing security, and assuming long range.
+Tools: nRF Connect, BlueZ, and Android Bluetooth APIs.
+
+Mental picture: a whisper between two nearby devices that barely uses any energy.
+
+Habit to build: test with several phone models.
+
+See also: MQTT, which sits close to Bluetooth Low Energy in the area of Mobile, Embedded and IoT.

@@ -1,0 +1,17 @@
+Data Anonymization for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Data Anonymization.
+
+Learning goals:
+1. Explain Data Anonymization in your own words.
+2. Describe masking, generalization, k-anonymity, and differential privacy.
+3. Give examples from sharing datasets with researchers and testing with production-like data.
+4. Name three problems to watch for.
+
+Start with the definition: Data Anonymization is removing or altering personal details in data so people cannot be identified. Then draw blurring faces in a crowd photo while keeping the scene on paper and label the four terms from the goals above.
+
+Self-test questions: Why is re-identification through combined fields a problem? How does generalization relate to k-anonymity? When would you choose ARX or Faker?
+
+Study habit worth keeping: test whether combining fields could identify a person.
+
+When you feel ready, compare Data Anonymization with SQL Window Functions and write down three differences.

@@ -1,0 +1,17 @@
+Greedy Algorithms Do's and Don'ts
+
+A quick list of habits for working with Greedy Algorithms.
+
+Do:
+- Learn greedy choice property before anything else.
+- Try pen and paper proofs on a small example.
+- Make it a habit to try to break your greedy idea with a small counterexample before trusting it.
+- Test the case of interval scheduling early.
+
+Don't:
+- Ignore this: assuming greedy always works.
+- Ignore this: missing counterexamples.
+- Ignore this: skipping the correctness proof.
+- Adopt Greedy Algorithms just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Greedy Algorithms, a little patience with optimal substructure pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Is Compilers and Interpreters Right for Your Project?
+
+Before adopting Compilers and Interpreters, ask whether it fits the problem. Remember that Compilers and Interpreters is programs that translate or run source code written in a high-level language.
+
+It is a good fit when your work involves running Python and JavaScript or building native programs, and when your team understands lexing.
+
+Be cautious when the project is very small, when deadlines leave no room to learn parsing, or when you cannot manage these risks: assuming interpreted means slow without measuring, ignoring compiler warnings, and confusing compile-time and run-time errors.
+
+A simple decision test: write down the problem in one sentence, then check whether code generation and bytecode are part of the answer. If they are, Compilers and Interpreters is probably worth a closer look.
+
+If you decide to go ahead, start small with creating tools like linters and turn on compiler warnings and treat them seriously.

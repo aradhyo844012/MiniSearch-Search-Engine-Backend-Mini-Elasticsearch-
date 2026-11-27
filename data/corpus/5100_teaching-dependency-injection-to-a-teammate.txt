@@ -1,0 +1,13 @@
+Teaching Dependency Injection to a Teammate
+
+Explaining Dependency Injection to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a chef who is handed ingredients instead of shopping for them. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Dependency Injection is a design approach where objects receive their dependencies instead of creating them. Avoid jargon at this stage.
+
+Walk through an example involving easier unit testing, naming constructor injection and interfaces as they come up.
+
+Ask your teammate to explain containers in Dependency Injection back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, hiding too much behind containers, and suggest this habit: inject interfaces so tests can use simple fakes.

@@ -1,0 +1,11 @@
+Scaling Considerations for Hyperparameter Tuning
+
+A design that works for a classroom project can behave very differently under real load. Here is how Hyperparameter Tuning changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding search spaces and getting improving model accuracy right.
+
+Medium scale: problems start to appear. Watch for tuning on the test set and searching too many options, and measure with Optuna before changing anything.
+
+Large scale: random search and validation scores move from background details to central design questions. Teams often revisit their choices around comparing algorithms at this stage.
+
+Before you scale, try random search before anything fancier. It is cheaper to build that habit early than to fix a crisis later.

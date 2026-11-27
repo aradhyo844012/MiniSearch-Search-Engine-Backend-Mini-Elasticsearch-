@@ -1,0 +1,17 @@
+SQL Window Functions for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover SQL Window Functions.
+
+Learning goals:
+1. Explain SQL Window Functions in your own words.
+2. Describe the OVER clause, partitions, ordering, and frames.
+3. Give examples from running totals and ranking rows.
+4. Name three problems to watch for.
+
+Start with the definition: SQL Window Functions is SQL features that calculate values across related rows without collapsing them. Then draw looking at the neighbors in a line without leaving your place on paper and label the four terms from the goals above.
+
+Self-test questions: Why is forgetting ORDER BY inside the window a problem? How does partitions relate to ordering? When would you choose PostgreSQL or SQLite?
+
+Study habit: start with ROW_NUMBER and LAG on a small table.
+
+When you feel ready, compare SQL Window Functions with Jupyter Notebooks and write down three differences.

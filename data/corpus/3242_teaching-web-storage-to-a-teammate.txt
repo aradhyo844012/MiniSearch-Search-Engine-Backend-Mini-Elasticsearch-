@@ -1,0 +1,13 @@
+Teaching Web Storage to a Teammate
+
+Explaining Web Storage to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a sticky note on the fridge that only your household can read. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Web Storage is browser features for keeping small amounts of data on the user's device. Avoid jargon at this stage.
+
+Walk through an example involving saving user preferences, naming localStorage and sessionStorage as they come up.
+
+Ask your teammate to explain cookies in Web Storage back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, storing sensitive data, and suggest this habit: wrap every read and write in error handling.

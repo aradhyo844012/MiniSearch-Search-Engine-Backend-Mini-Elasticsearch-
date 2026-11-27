@@ -1,0 +1,11 @@
+Web Components in Real Projects
+
+Reading about Web Components is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: design system components. Here, custom elements drives the main design choices, and the team needs to guard against styling surprises across the shadow boundary.
+
+Scenario two: widgets reused across frameworks. This time shadow DOM matters most, and tools such as Lit help keep things manageable.
+
+Scenario three: embeddable tools. The key idea is templates, and the biggest risk is poor accessibility.
+
+Across all three scenarios, Web Components stays the same idea: browser-native custom elements with their own markup, style and behavior. Only the details change.

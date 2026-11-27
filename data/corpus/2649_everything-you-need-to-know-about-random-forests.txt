@@ -1,0 +1,26 @@
+Everything You Need to Know About Random Forests
+
+This page collects the essentials about Random Forests in one place. In short, Random Forests is ensembles of many decision trees whose predictions are combined.
+
+Core concepts:
+- bagging
+- feature randomness
+- voting
+- out-of-bag error
+
+Where it is used:
+- tabular predictions
+- feature importance ranking
+- strong baseline models
+
+Common problems:
+- treating importance scores as causes
+- very large forests being slow
+- ignoring class imbalance
+
+Tools to know:
+- scikit-learn
+- XGBoost
+- LightGBM
+
+Remember this above all: asking many different experts and taking the majority view is a good way to picture it, and the best habit is to tune the number of trees only after the basics work.

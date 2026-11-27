@@ -1,0 +1,13 @@
+Teaching Transformers to a Teammate
+
+Explaining Transformers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a reader who can look back at any word of a paragraph while reading each new word. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Transformers is neural network architectures that use attention to relate all parts of an input to each other. Avoid jargon at this stage.
+
+Walk through an example involving language translation, naming self-attention and positional encoding as they come up.
+
+Ask your teammate to explain encoder and decoder blocks in Transformers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, huge compute requirements, and suggest this habit: begin with small pretrained models.

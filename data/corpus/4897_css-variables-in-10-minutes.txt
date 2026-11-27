@@ -1,0 +1,15 @@
+CSS Variables in 10 Minutes
+
+You have ten minutes, so here is the fast route through CSS Variables.
+
+Minutes 1 and 2, the definition: CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles.
+
+Minutes 3 and 4, the vocabulary: learn custom properties, the var function, inheritance, and fallback values.
+
+Minutes 5 and 6, the picture: imagine labeled paint buckets you refill once to recolor a whole house. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through theme switching, design systems, and spacing scales.
+
+Minutes 9 and 10, the traps and the tools: watch for missing fallbacks and overriding at the wrong scope, then try browser DevTools for a first experiment.
+
+If you have a spare minute, remember to define theme values on the root element.

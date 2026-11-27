@@ -1,0 +1,13 @@
+API Design Principles Explained Simply
+
+Here is API Design Principles without the jargon: it is guidelines for making APIs consistent, predictable and easy to use.
+
+Think of API Design Principles as the controls of a car that behave the same in every model. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: consistent naming, clear errors, idempotent operations, and documentation. You do not need to master them all at once. Start with consistent naming, then add clear errors.
+
+People reach for API Design Principles when they work on public platforms, internal service contracts, and mobile backends.
+
+One practical tip is to write the documentation before the implementation.
+
+After API Design Principles, a natural next topic is Test-Driven Development.

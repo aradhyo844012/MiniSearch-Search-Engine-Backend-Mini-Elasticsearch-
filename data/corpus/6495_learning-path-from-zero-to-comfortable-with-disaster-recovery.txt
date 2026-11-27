@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Disaster Recovery
+
+This path is for a learner who has never studied Disaster Recovery before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Disaster Recovery is the plans and systems that restore services after major failures) and learn recovery time objective and recovery point objective.
+
+Stage 2, hands-on: install AWS Backup, follow a tutorial, and build a small example involving surviving regional outages.
+
+Stage 3, depth: study failover regions and runbooks, then deliberately explore this problem: untested plans.
+
+Stage 4, application: apply Disaster Recovery to meeting compliance needs, compare Terraform with Route 53 failover, and write up your results.
+
+Stage 5, review: teach Disaster Recovery to someone else, and then move on to Blue-Green Deployment.

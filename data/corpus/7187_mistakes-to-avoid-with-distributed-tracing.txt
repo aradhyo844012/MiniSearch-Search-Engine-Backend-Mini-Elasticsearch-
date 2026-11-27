@@ -1,0 +1,11 @@
+Mistakes to Avoid with Distributed Tracing
+
+Everyone learns Distributed Tracing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: missing context propagation. It usually appears when someone skips spans and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: sampling too aggressively. It tends to be noticed late, often during testing of finding slow services. A short checklist during review catches it early.
+
+Mistake three: overhead from too many spans. It is easy to miss because everything seems to work at first. Keep an eye on sampling to spot it.
+
+If you remember only one rule, make it this: propagate trace IDs through every outgoing call.

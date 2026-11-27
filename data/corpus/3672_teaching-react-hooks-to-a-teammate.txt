@@ -1,0 +1,13 @@
+Teaching React Hooks to a Teammate
+
+Explaining React Hooks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: sticky notes a component keeps between redraws. Ask your teammate what the picture suggests.
+
+Then give the plain definition: React Hooks is functions that let components use state and lifecycle features without writing classes. Avoid jargon at this stage.
+
+Walk through an example involving managing form input, naming useState and useEffect as they come up.
+
+Ask your teammate to explain dependency arrays in React Hooks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, missing dependencies in effects, and suggest this habit: enable the hooks lint rules from the start.

@@ -1,0 +1,15 @@
+The Pros and Cons of Two Pointers and Sliding Window
+
+No technology is free of trade-offs, and Two Pointers and Sliding Window is no exception. Here is an honest summary.
+
+Advantages:
+- Supports finding pairs with a given sum
+- Makes longest substring problems easier
+- Helps with merging sorted arrays
+
+Drawbacks and risks:
+- Risk: moving the wrong pointer
+- Risk: forgetting empty inputs
+- Risk: breaking the invariant
+
+Weigh the two lists against your own project. If the advantages match your needs, such as finding pairs with a given sum, and you can manage the risks, Two Pointers and Sliding Window is a sound choice. Whatever you decide, write down the window invariant before coding the loop.

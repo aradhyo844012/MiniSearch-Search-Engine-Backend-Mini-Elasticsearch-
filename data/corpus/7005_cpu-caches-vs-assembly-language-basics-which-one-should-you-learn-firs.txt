@@ -1,0 +1,13 @@
+CPU Caches vs Assembly Language Basics: Which One Should You Learn First?
+
+Learners often ask whether to study CPU Caches or Assembly Language Basics first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data, and it is closely tied to cache lines and hit and miss rates. Assembly Language Basics, by contrast, is low-level instructions that map closely to what a processor actually executes, and it is closely tied to registers and instructions.
+
+Choose CPU Caches first if you care about speeding up loops or explaining performance differences. Choose Assembly Language Basics first if you care about understanding compiled code or debugging crashes.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library, and of Assembly Language Basics as the individual muscle movements behind a simple action. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CPU Caches, avoid false sharing. With Assembly Language Basics, avoid wrong calling conventions.
+
+A good habit for CPU Caches is to access arrays in the order they are stored. A good habit for Assembly Language Basics is to read the assembly of a tiny C function to see what the compiler does.

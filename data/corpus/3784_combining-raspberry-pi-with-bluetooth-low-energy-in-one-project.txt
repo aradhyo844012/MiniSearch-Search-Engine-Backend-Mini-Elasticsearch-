@@ -1,0 +1,15 @@
+Combining Raspberry Pi with Bluetooth Low Energy in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Raspberry Pi and Bluetooth Low Energy can work together in a single project.
+
+Raspberry Pi is a small, low-cost computer popular for learning, prototypes and home projects. Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+Imagine a project that involves home automation and fitness trackers. Raspberry Pi brings GPIO pins, while Bluetooth Low Energy brings advertising.
+
+A sensible plan is to start with Raspberry Pi OS for the Raspberry Pi part and nRF Connect for the Bluetooth Low Energy part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: inadequate power supplies on one side, and weak pairing security on the other.
+
+Picture the whole as a pocket-sized workshop for experiments, working alongside a whisper between two nearby devices that barely uses any energy.
+
+Two habits help: first, use a quality power supply and a reliable memory card; second, test with several phone models.

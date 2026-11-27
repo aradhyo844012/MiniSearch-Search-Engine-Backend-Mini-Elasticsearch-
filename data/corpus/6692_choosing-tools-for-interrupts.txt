@@ -1,0 +1,11 @@
+Choosing Tools for Interrupts
+
+There is no single best tool for Interrupts. The right choice depends on your project, your team and your timeline.
+
+Linux /proc/interrupts is a common first choice, especially for keyboard and mouse input. logic analyzers suits teams that already work with similar technology, and embedded debuggers is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle timers well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: long handlers.
+
+As a rule of thumb, keep interrupt handlers short and defer the heavy work, no matter which tool you use.

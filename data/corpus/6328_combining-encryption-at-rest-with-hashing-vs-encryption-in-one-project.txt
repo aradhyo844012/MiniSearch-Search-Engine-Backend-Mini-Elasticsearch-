@@ -1,0 +1,15 @@
+Combining Encryption at Rest with Hashing vs Encryption in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Encryption at Rest and Hashing vs Encryption can work together in a single project.
+
+Encryption at Rest is protecting stored data by encrypting it on disk or in a database. Hashing vs Encryption is the difference between one-way digests and reversible protection of data.
+
+Imagine a project that involves protecting backups and storing passwords. Encryption at Rest brings symmetric keys, while Hashing vs Encryption brings one-way functions.
+
+A sensible plan is to start with LUKS for the Encryption at Rest part and SHA-256 for the Hashing vs Encryption part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no key rotation on one side, and using broken hash functions on the other.
+
+Picture the whole as a locked safe inside a locked room, working alongside a paper shredder compared with a locked suitcase.
+
+Two habits help: first, keep keys in a separate service from the data; second, ask whether you will ever need the original value back.

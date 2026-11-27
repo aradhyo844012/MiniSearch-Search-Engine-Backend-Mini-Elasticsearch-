@@ -1,0 +1,11 @@
+Practice Exercises for Compilers and Interpreters
+
+These exercises build real understanding of Compilers and Interpreters. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: assuming interpreted means slow without measuring. Then fix it.
+Exercise 2: List three situations from your own experience that resemble running Python and JavaScript or building native programs.
+Exercise 3: Compare LLVM and CPython for creating tools like linters and write down your conclusion.
+Exercise 4: Explain how code generation and bytecode differ, using a drawing.
+Exercise 5: Pick GCC and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Compilers and Interpreters is programs that translate or run source code written in a high-level language.

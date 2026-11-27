@@ -1,0 +1,15 @@
+Combining Web Components with Internationalization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Web Components and Internationalization can work together in a single project.
+
+Web Components is browser-native custom elements with their own markup, style and behavior. Internationalization is designing software so it can be adapted to different languages and regions.
+
+Imagine a project that involves design system components and global products. Web Components brings custom elements, while Internationalization brings locale detection.
+
+A sensible plan is to start with Lit for the Web Components part and i18next for the Internationalization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor accessibility on one side, and text that overflows layouts on the other.
+
+Picture the whole as a Lego brick in its own sealed packaging, working alongside a stage set where the backdrop can be swapped for each audience.
+
+Two habits help: first, document the attributes and events like a public API; second, move every user-facing string into translation files from the first day.

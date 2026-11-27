@@ -1,0 +1,10 @@
+Go Goroutines: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Go Goroutines with confidence. The subject itself is lightweight threads managed by the Go runtime that run functions concurrently.
+
+goroutines: one of the building blocks of Go Goroutines. You should be able to explain it in a single sentence before moving on.
+channels: one of the building blocks of Go Goroutines. Documentation for the go command usually mentions it early.
+select statements: one of the building blocks of Go Goroutines. Documentation for the go command usually mentions it early.
+wait groups: one of the building blocks of Go Goroutines. Documentation for the go command usually mentions it early.
+
+Practice using these four terms in sentences about parallel data processing. If the sentences feel natural, the vocabulary has stuck.

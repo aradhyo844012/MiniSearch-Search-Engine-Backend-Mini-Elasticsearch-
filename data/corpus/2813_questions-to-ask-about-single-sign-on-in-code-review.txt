@@ -1,0 +1,12 @@
+Questions to Ask About Single Sign-On in Code Review
+
+Reviewing code that involves Single Sign-On is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch misconfigured redirects if it appeared later?
+- Is Okta used consistently, or are we mixing approaches?
+- Could we plan for identity provider outages?
+- Have we considered a single point of failure?
+- Have we avoided this problem: long sessions on shared devices?
+- Is SAML clear to someone reading the code for the first time?
+
+Good reviews of work on Single Sign-On are specific, kind and focused on OpenID Connect, not on personal style.

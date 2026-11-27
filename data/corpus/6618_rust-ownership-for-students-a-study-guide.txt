@@ -1,0 +1,17 @@
+Rust Ownership for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Rust Ownership.
+
+Learning goals:
+1. Explain Rust Ownership in your own words.
+2. Describe ownership, borrowing, lifetimes, and moves.
+3. Give examples from systems programming and command line tools.
+4. Name three problems to watch for.
+
+Start with the definition: Rust Ownership is a set of rules that lets Rust manage memory safely without a garbage collector. Then draw a single house key that you can hand over or lend out but never copy on paper and label the four terms from the goals above.
+
+Self-test questions: Why is fighting the borrow checker with needless clones a problem? How does borrowing relate to lifetimes? When would you choose Cargo or rustc?
+
+Study habit: read the compiler's error messages closely because they often explain the fix.
+
+When you feel ready, compare Rust Ownership with Python Asyncio and write down three differences.

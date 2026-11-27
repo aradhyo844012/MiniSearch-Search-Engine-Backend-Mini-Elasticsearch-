@@ -1,0 +1,9 @@
+Understanding Fenwick Trees Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a set of running subtotals where each one covers a block of entries.
+
+In that picture, binary indexed trees is the first rule you follow, lowest set bit is the next step, and prefix sums and point updates keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Fenwick Trees is a compact structure for prefix sums that supports fast updates, and it involves details such as using zero-based indexes by mistake that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for C++ vectors to learn the exact behavior. The same picture helps when you explain counting inversions to a friend.

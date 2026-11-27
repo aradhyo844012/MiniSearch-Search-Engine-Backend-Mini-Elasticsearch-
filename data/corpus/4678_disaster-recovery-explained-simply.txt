@@ -1,0 +1,13 @@
+Disaster Recovery Explained Simply
+
+Here is Disaster Recovery without the jargon: it is the plans and systems that restore services after major failures.
+
+Think of Disaster Recovery as a fire drill for a whole system. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: recovery time objective, recovery point objective, failover regions, and runbooks. You do not need to master them all at once. Start with recovery time objective, then add recovery point objective.
+
+People reach for Disaster Recovery when they work on surviving regional outages, meeting compliance needs, and protecting critical data.
+
+One practical tip is to run a failover exercise on a regular schedule.
+
+Once Disaster Recovery feels comfortable, read about Autoscaling, which lives in the same neighborhood of ideas.

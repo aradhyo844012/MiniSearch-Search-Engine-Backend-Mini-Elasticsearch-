@@ -1,0 +1,11 @@
+Modular Monoliths in Real Projects
+
+Reading about Modular Monoliths is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: small teams. Here, module boundaries drives the main design choices, and the team needs to guard against modules reaching into each other's tables.
+
+Scenario two: early-stage products. This time public interfaces matters most, and tools such as ArchUnit help keep things manageable.
+
+Scenario three: preparing for later service extraction. The key idea is shared database rules, and the biggest risk is no enforced boundaries.
+
+Across all three scenarios, Modular Monoliths stays the same idea: single deployable applications built from well-separated internal modules. Only the details change.

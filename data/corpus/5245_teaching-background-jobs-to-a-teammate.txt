@@ -1,0 +1,13 @@
+Teaching Background Jobs to a Teammate
+
+Explaining Background Jobs to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: dropping laundry at a service and collecting it later. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Background Jobs is tasks that run outside the request cycle so users do not have to wait for them. Avoid jargon at this stage.
+
+Walk through an example involving sending emails, naming queues and workers as they come up.
+
+Ask your teammate to explain retries in Background Jobs back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, jobs that are not idempotent, and suggest this habit: give every job a timeout and a retry limit.

@@ -1,0 +1,15 @@
+The Pros and Cons of CSRF
+
+No technology is free of trade-offs, and CSRF is no exception. Here is an honest summary.
+
+Advantages:
+- Supports protecting forms
+- Makes securing account settings easier
+- Helps with hardening admin panels
+
+Drawbacks and risks:
+- Risk: using GET requests for state changes
+- Risk: skipping tokens on cookie-based APIs
+- Risk: misconfigured SameSite settings
+
+Weigh the two lists against your own project. If the advantages match your needs, such as protecting forms, and you can manage the risks, CSRF is a sound choice. Whatever you decide, combine SameSite cookies with anti-CSRF tokens.

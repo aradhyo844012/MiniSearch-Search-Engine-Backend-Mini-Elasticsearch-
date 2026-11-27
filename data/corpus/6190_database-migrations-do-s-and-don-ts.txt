@@ -1,0 +1,17 @@
+Database Migrations Do's and Don'ts
+
+A quick list of habits for working with Database Migrations.
+
+Do:
+- Learn up and down scripts before anything else.
+- Try Alembic on a small example.
+- Make it a habit to split risky changes into small steps that can each be rolled back.
+- Test the case of adding columns safely early.
+
+Don't:
+- Ignore this: locking large tables.
+- Ignore this: editing old migrations.
+- Ignore this: data loss on rollbacks.
+- Adopt Database Migrations just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Database Migrations, a little patience with version tables pays off more than any clever shortcut.

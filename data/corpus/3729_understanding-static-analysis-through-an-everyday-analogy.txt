@@ -1,0 +1,9 @@
+Understanding Static Analysis Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a spell checker for code.
+
+In that picture, linters is the first rule you follow, type checkers is the next step, and rule sets and false positives keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Static Analysis is automated checking of source code for bugs and style problems without running it, and it involves details such as ignoring warnings that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for ESLint to learn the exact behavior. The same picture helps when you explain catching bugs early to a friend.

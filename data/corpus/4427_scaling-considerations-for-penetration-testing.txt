@@ -1,0 +1,11 @@
+Scaling Considerations for Penetration Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Penetration Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding scoping and getting pre-launch security checks right.
+
+Medium scale: problems start to appear. Watch for testing without written permission and ignoring the findings afterward, and measure with OWASP ZAP before changing anything.
+
+Large scale: exploitation and reporting move from background details to central design questions. Teams often revisit their choices around compliance audits at this stage.
+
+Before you scale, get written authorization before any test. It is cheaper to build that habit early than to fix a crisis later.

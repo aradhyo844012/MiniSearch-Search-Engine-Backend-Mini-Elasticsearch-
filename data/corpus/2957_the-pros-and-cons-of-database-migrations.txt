@@ -1,0 +1,15 @@
+The Pros and Cons of Database Migrations
+
+No technology is free of trade-offs, and Database Migrations is no exception. Here is an honest summary.
+
+Advantages:
+- Supports adding columns safely
+- Makes renaming tables easier
+- Helps with keeping environments in sync
+
+Drawbacks and risks:
+- Risk: locking large tables
+- Risk: editing old migrations
+- Risk: data loss on rollbacks
+
+Weigh the two lists against your own project. If the advantages match your needs, such as adding columns safely, and you can manage the risks, Database Migrations is a sound choice. Whatever you decide, split risky changes into small steps that can each be rolled back.

@@ -1,0 +1,11 @@
+Practice Exercises for Encryption at Rest
+
+These exercises build real understanding of Encryption at Rest. Do them in order, and write down your answers.
+
+Exercise 1: Pick LUKS and complete its getting-started tutorial.
+Exercise 2: Explain how disk encryption and envelope encryption differ, using a drawing.
+Exercise 3: Write a short paragraph describing Encryption at Rest and include the term symmetric keys.
+Exercise 4: Create a small example that deliberately triggers this problem: storing keys next to the data. Then fix it.
+Exercise 5: Compare AWS KMS and BitLocker for securing laptops and write down your conclusion.
+
+When you finish, compare your answers with the definition: Encryption at Rest is protecting stored data by encrypting it on disk or in a database.

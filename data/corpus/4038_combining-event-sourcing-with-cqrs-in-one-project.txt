@@ -1,0 +1,15 @@
+Combining Event Sourcing with CQRS in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Event Sourcing and CQRS can work together in a single project.
+
+Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them. CQRS is a pattern that separates the models used to change data from the models used to read it.
+
+Imagine a project that involves audit trails and high-read dashboards. Event Sourcing brings event log, while CQRS brings commands.
+
+A sensible plan is to start with Apache Kafka for the Event Sourcing part and Axon Framework for the CQRS part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded replay times on one side, and read models drifting out of sync on the other.
+
+Picture the whole as a bank statement that lists every transaction instead of only the balance, working alongside a restaurant with one counter for orders and another for pickup.
+
+Two habits help: first, version your events from the first day; second, start with a single model and split only when reads and writes truly diverge.

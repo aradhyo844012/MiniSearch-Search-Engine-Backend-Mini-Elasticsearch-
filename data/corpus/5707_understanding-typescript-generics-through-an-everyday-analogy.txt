@@ -1,0 +1,9 @@
+Understanding TypeScript Generics Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a labeled box whose label type is filled in when you use it.
+
+In that picture, type parameters is the first rule you follow, constraints is the next step, and type inference and generic interfaces keep everything running smoothly.
+
+Every analogy breaks down eventually. Real TypeScript Generics is a feature that lets functions and types work with many types while keeping type safety, and it involves details such as overusing any that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for tsc to learn the exact behavior. The same picture helps when you explain reusable utility functions to a friend.

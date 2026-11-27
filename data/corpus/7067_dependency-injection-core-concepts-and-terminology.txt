@@ -1,0 +1,10 @@
+Dependency Injection: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Dependency Injection with confidence. The subject itself is a design approach where objects receive their dependencies instead of creating them.
+
+constructor injection: one of the building blocks of Dependency Injection. You should be able to explain it in a single sentence before moving on.
+interfaces: one of the building blocks of Dependency Injection. It shows up whenever you work on easier unit testing.
+containers: one of the building blocks of Dependency Injection. You should be able to explain it in a single sentence before moving on.
+inversion of control: one of the building blocks of Dependency Injection. It shows up whenever you work on easier unit testing.
+
+Practice using these four terms in sentences about swapping implementations. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,11 @@
+Modular Monoliths Tips from Experienced Engineers
+
+Engineers who work with Modular Monoliths regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit public interfaces before anything else.
+2. Do not skip module boundaries; everything else builds on it.
+3. Be careful with this one: modules reaching into each other's tables.
+4. Make sure you can enforce boundaries with automated checks.
+5. Reach for ArchUnit first, and only then evaluate alternatives such as import-linter.
+
+None of these tips needs special equipment, and all of them apply to early-stage products as well.

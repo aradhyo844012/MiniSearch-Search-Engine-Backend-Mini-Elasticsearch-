@@ -1,0 +1,11 @@
+Is Dependency Vulnerabilities Right for Your Project?
+
+Before adopting Dependency Vulnerabilities, ask whether it fits the problem. Remember that Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+It is a good fit when your work involves auditing projects or automating updates, and when your team understands CVE identifiers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn version pinning, or when you cannot manage these risks: ignoring transitive dependencies, never updating, and trusting packages without checking them.
+
+A simple decision test: write down the problem in one sentence, then check whether transitive dependencies and software bills of materials are part of the answer. If they are, Dependency Vulnerabilities is probably worth a closer look.
+
+If you decide to go ahead, start small with meeting supply chain requirements and automate update pull requests.

@@ -1,0 +1,17 @@
+Idempotency Do's and Don'ts
+
+A quick list of habits for working with Idempotency.
+
+Do:
+- Learn idempotency keys before anything else.
+- Try Stripe idempotency keys on a small example.
+- Make it a habit to store the result with the key so retries return the same response.
+- Test the case of payment APIs early.
+
+Don't:
+- Ignore this: keys that expire too soon.
+- Ignore this: side effects outside the guarded step.
+- Ignore this: reusing keys for different requests.
+- Adopt Idempotency just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Idempotency, a little patience with safe retries pays off more than any clever shortcut.

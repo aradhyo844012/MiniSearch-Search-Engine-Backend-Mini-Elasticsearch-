@@ -1,0 +1,13 @@
+Statistical Significance vs Star Schema Modeling: Which One Should You Learn First?
+
+Learners often ask whether to study Statistical Significance or Star Schema Modeling first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Statistical Significance is a measure of how unlikely a result would be if there were no real effect, and it is closely tied to p-values and the null hypothesis. Star Schema Modeling, by contrast, is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it is closely tied to fact tables and dimension tables.
+
+Choose Statistical Significance first if you care about judging experiment results or comparing model performance. Choose Star Schema Modeling first if you care about business intelligence reports or data warehouses.
+
+Think of Statistical Significance as asking how surprised you should be if a coin were actually fair, and of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Statistical Significance, avoid mistaking significance for importance. With Star Schema Modeling, avoid mixing different grains.
+
+A good habit for Statistical Significance is to always report the effect size alongside the p-value. A good habit for Star Schema Modeling is to state the grain of the fact table before designing anything else.

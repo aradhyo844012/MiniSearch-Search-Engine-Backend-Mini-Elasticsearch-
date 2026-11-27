@@ -1,0 +1,26 @@
+Everything You Need to Know About Autoscaling
+
+This page collects the essentials about Autoscaling in one place. In short, Autoscaling is automatically adding or removing computing resources as demand changes.
+
+Core concepts:
+- scaling metrics
+- cooldown periods
+- minimum and maximum limits
+- horizontal scaling
+
+Where it is used:
+- handling traffic spikes
+- saving money overnight
+- keeping latency steady
+
+Common problems:
+- scaling too slowly
+- flapping because of short spikes
+- ignoring database limits
+
+Tools to know:
+- Kubernetes HPA
+- AWS Auto Scaling
+- KEDA
+
+Remember this above all: a restaurant opening extra tables when a crowd arrives is a good way to picture it, and the best habit is to load test the system to find realistic thresholds.

@@ -1,0 +1,11 @@
+CSRF in Real Projects
+
+Reading about CSRF is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: protecting forms. Here, session cookies drives the main design choices, and the team needs to guard against using GET requests for state changes.
+
+Scenario two: securing account settings. This time anti-CSRF tokens matters most, and tools such as Django CSRF middleware help keep things manageable.
+
+Scenario three: hardening admin panels. The key idea is SameSite cookies, and the biggest risk is skipping tokens on cookie-based APIs.
+
+Across all three scenarios, CSRF stays the same idea: an attack that tricks a logged-in user's browser into sending unwanted requests to a site. Only the details change.

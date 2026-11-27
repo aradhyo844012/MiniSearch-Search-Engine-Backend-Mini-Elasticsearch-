@@ -1,0 +1,11 @@
+Why Endianness Matters for Developers
+
+Developers who understand Endianness make better decisions, because Endianness is the order in which a computer stores the bytes of a multi-byte number.
+
+Three situations show why it matters. First, network protocols. Second, binary file formats. Third, cross-platform data exchange. In each case, a solid grasp of big-endian and little-endian separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: mixing byte orders, assuming all machines are alike, and forgetting to convert before sending.
+
+Good tools exist, including Python struct, htons and ntohl, and hexdump, so you rarely have to start from nothing.
+
+Connect Endianness with Instruction Pipelines to see the bigger picture of Computer Systems.

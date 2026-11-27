@@ -1,0 +1,15 @@
+Combining Canary Releases with Autoscaling in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Canary Releases and Autoscaling can work together in a single project.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it. Autoscaling is automatically adding or removing computing resources as demand changes.
+
+Imagine a project that involves safer releases and handling traffic spikes. Canary Releases brings traffic percentages, while Autoscaling brings scaling metrics.
+
+A sensible plan is to start with Argo Rollouts for the Canary Releases part and Kubernetes HPA for the Autoscaling part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no clear success metrics on one side, and flapping because of short spikes on the other.
+
+Picture the whole as a canary in a coal mine warning miners before the danger spreads, working alongside a restaurant opening extra tables when a crowd arrives.
+
+Two habits help: first, define rollback conditions before starting the rollout; second, load test the system to find realistic thresholds.

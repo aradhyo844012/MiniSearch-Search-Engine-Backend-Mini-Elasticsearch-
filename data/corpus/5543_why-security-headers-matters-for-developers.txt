@@ -1,0 +1,11 @@
+Why Security Headers Matters for Developers
+
+Developers who understand Security Headers make better decisions, because Security Headers is HTTP response headers that tell browsers to enforce extra protections.
+
+Three situations show why it matters. First, hardening websites. Second, reducing clickjacking. Third, enforcing HTTPS. In each case, a solid grasp of Strict-Transport-Security and X-Content-Type-Options separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: setting headers on only some routes, breaking embeds, and copying configurations without understanding them.
+
+You will not need to build everything yourself; securityheaders.com, Helmet.js, and Mozilla Observatory cover most needs.
+
+Connect Security Headers with CSRF to see the bigger picture of Application Security.

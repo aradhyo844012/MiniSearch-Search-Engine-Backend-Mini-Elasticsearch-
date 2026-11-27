@@ -1,0 +1,11 @@
+Two Pointers and Sliding Window in Real Projects
+
+Reading about Two Pointers and Sliding Window is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: finding pairs with a given sum. Here, left and right pointers drives the main design choices, and the team needs to guard against moving the wrong pointer.
+
+Scenario two: longest substring problems. This time window boundaries matters most, and tools such as Python lists help keep things manageable.
+
+Scenario three: merging sorted arrays. The key idea is invariants, and the biggest risk is forgetting empty inputs.
+
+Across all three scenarios, Two Pointers and Sliding Window stays the same idea: techniques that scan arrays with two moving positions to avoid nested loops. Only the details change.

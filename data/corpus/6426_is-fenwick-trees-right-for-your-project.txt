@@ -1,0 +1,11 @@
+Is Fenwick Trees Right for Your Project?
+
+Before adopting Fenwick Trees, ask whether it fits the problem. Remember that Fenwick Trees is a compact structure for prefix sums that supports fast updates.
+
+It is a good fit when your work involves counting inversions or maintaining running totals, and when your team understands binary indexed trees.
+
+Be cautious when the project is very small, when deadlines leave no room to learn lowest set bit, or when you cannot manage these risks: using zero-based indexes by mistake, forgetting that nodes store partial sums, and using it for operations that cannot be reversed.
+
+A simple decision test: write down the problem in one sentence, then check whether prefix sums and point updates are part of the answer. If they are, Fenwick Trees is probably worth a closer look.
+
+If you decide to go ahead, start small with building frequency tables and start indexing from one to keep the bit tricks simple.

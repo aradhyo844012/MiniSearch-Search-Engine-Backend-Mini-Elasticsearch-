@@ -1,0 +1,9 @@
+Understanding API Versioning Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture keeping old editions of a textbook available while a new one is published.
+
+In that picture, version in the URL is the first rule you follow, header versioning is the next step, and deprecation and backward compatibility keep everything running smoothly.
+
+Every analogy breaks down eventually. Real API Versioning is the practice of evolving an API without breaking existing clients, and it involves details such as versioning too often that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for OpenAPI to learn the exact behavior. The same picture helps when you explain public APIs to a friend.

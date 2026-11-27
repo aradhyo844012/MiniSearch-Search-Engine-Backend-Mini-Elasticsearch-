@@ -1,0 +1,13 @@
+Debugging API Versioning: A Field Guide
+
+When something goes wrong around API Versioning, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: versioning too often, removing fields without notice, and having no deprecation schedule.
+Step 3: revisit version in the URL and header versioning, since misunderstandings there cause many bugs.
+Step 4: use OpenAPI or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving API Versioning in work such as public APIs come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, announce deprecations with a clear sunset date. It prevents a surprising number of repeat problems.

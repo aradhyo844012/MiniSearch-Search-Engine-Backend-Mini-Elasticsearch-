@@ -1,0 +1,11 @@
+Retrieval-Augmented Generation in Real Projects
+
+Reading about Retrieval-Augmented Generation is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: company knowledge assistants. Here, retrieval drives the main design choices, and the team needs to guard against poor chunking.
+
+Scenario two: question answering over documents. This time chunking matters most, and tools such as LangChain help keep things manageable.
+
+Scenario three: support bots. The key idea is prompts with context, and the biggest risk is irrelevant retrieved text.
+
+Across all three scenarios, Retrieval-Augmented Generation stays the same idea: a technique that gives a language model relevant documents to read before it answers. Only the details change.

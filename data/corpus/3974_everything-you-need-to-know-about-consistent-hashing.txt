@@ -1,0 +1,26 @@
+Everything You Need to Know About Consistent Hashing
+
+This page collects the essentials about Consistent Hashing in one place. In short, Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys.
+
+Core concepts:
+- hash ring
+- virtual nodes
+- key placement
+- rebalancing
+
+Where it is used:
+- distributed caches
+- sharded databases
+- load balancing
+
+Common problems:
+- too few virtual nodes
+- uneven load
+- hot keys
+
+Tools to know:
+- Redis Cluster
+- Memcached clients
+- Apache Cassandra
+
+Remember this above all: seats around a round table where a new guest only displaces their neighbor is a good way to picture it, and the best habit is to use many virtual nodes per server to even out the load.

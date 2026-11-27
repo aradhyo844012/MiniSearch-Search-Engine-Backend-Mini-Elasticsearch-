@@ -1,0 +1,13 @@
+Data Anonymization vs SQL Window Functions: Which One Should You Learn First?
+
+Learners often ask whether to study Data Anonymization or SQL Window Functions first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Anonymization is removing or altering personal details in data so people cannot be identified, and it is closely tied to masking and generalization. SQL Window Functions, by contrast, is SQL features that calculate values across related rows without collapsing them, and it is closely tied to the OVER clause and partitions.
+
+Choose Data Anonymization first if you care about sharing datasets with researchers or testing with production-like data. Choose SQL Window Functions first if you care about running totals or ranking rows.
+
+Think of Data Anonymization as blurring faces in a crowd photo while keeping the scene, and of SQL Window Functions as looking at the neighbors in a line without leaving your place. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Anonymization, avoid re-identification through combined fields. With SQL Window Functions, avoid forgetting ORDER BY inside the window.
+
+A good habit for Data Anonymization is to test whether combining fields could identify a person. A good habit for SQL Window Functions is to start with ROW_NUMBER and LAG on a small table.

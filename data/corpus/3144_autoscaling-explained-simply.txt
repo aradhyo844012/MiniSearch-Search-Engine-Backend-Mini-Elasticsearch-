@@ -1,0 +1,13 @@
+Autoscaling Explained Simply
+
+Here is Autoscaling without the jargon: it is automatically adding or removing computing resources as demand changes.
+
+Think of Autoscaling as a restaurant opening extra tables when a crowd arrives. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: scaling metrics, cooldown periods, minimum and maximum limits, and horizontal scaling. You do not need to master them all at once. Start with scaling metrics, then add cooldown periods.
+
+People reach for Autoscaling when they work on handling traffic spikes, saving money overnight, and keeping latency steady.
+
+One practical tip is to load test the system to find realistic thresholds.
+
+After Autoscaling, a natural next topic is Service Mesh.

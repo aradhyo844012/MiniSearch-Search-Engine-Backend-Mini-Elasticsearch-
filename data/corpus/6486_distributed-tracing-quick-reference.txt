@@ -1,0 +1,15 @@
+Distributed Tracing Quick Reference
+
+A one-screen reminder for Distributed Tracing. Bookmark it and return when the details fade.
+
+What it is: following a single request as it passes through many services.
+Key terms: spans, trace IDs, context propagation, and sampling.
+Typical uses: finding slow services, understanding dependencies, and debugging errors across services.
+Risks: missing context propagation, sampling too aggressively, and overhead from too many spans.
+Tools: OpenTelemetry, Jaeger, and Zipkin.
+
+Mental picture: a parcel tracking page that shows every stop on the route.
+
+Habit to build: propagate trace IDs through every outgoing call.
+
+See also: Autoscaling, which sits close to Distributed Tracing in the area of DevOps and Cloud.

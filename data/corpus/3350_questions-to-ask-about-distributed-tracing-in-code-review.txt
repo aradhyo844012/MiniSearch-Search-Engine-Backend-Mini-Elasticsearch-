@@ -1,0 +1,12 @@
+Questions to Ask About Distributed Tracing in Code Review
+
+Reviewing code that involves Distributed Tracing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is trace IDs clear to someone reading the code for the first time?
+- Does the code handle the case of finding slow services correctly?
+- Have we avoided this problem: overhead from too many spans?
+- Does this change respect spans, or does it work around it?
+- Could we propagate trace IDs through every outgoing call?
+- Would a test catch sampling too aggressively if it appeared later?
+
+Good reviews of work on Distributed Tracing are specific, kind and focused on context propagation, not on personal style.

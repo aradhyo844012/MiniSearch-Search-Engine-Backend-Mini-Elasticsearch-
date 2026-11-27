@@ -1,0 +1,13 @@
+Raft Consensus vs Saga Pattern: Which One Should You Learn First?
+
+Learners often ask whether to study Raft Consensus or Saga Pattern first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication. Saga Pattern, by contrast, is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions.
+
+Choose Raft Consensus first if you care about configuration stores or distributed locks. Choose Saga Pattern first if you care about order processing or travel bookings.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm, and of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raft Consensus, avoid even-sized clusters. With Saga Pattern, avoid missing compensations.
+
+A good habit for Raft Consensus is to use an odd number of nodes. A good habit for Saga Pattern is to make every step and its compensation idempotent.

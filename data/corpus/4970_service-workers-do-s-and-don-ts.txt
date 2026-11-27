@@ -1,0 +1,17 @@
+Service Workers Do's and Don'ts
+
+A quick list of habits for working with Service Workers.
+
+Do:
+- Learn registration before anything else.
+- Try Workbox on a small example.
+- Make it a habit to version your caches so old files can be removed.
+- Test the case of offline support early.
+
+Don't:
+- Ignore this: caching stale files forever.
+- Ignore this: bugs surviving across deployments.
+- Ignore this: forgetting that HTTPS is required.
+- Adopt Service Workers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Service Workers, a little patience with install and activate events pays off more than any clever shortcut.

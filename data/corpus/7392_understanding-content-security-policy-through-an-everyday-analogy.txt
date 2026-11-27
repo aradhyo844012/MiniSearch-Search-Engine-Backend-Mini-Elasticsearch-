@@ -1,0 +1,9 @@
+Understanding Content Security Policy Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a guest list at the door of a building.
+
+In that picture, directives is the first rule you follow, nonces is the next step, and report-only mode and trusted sources keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Content Security Policy is a browser feature that limits which scripts and resources a page may load, and it involves details such as allowing unsafe-inline that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for browser DevTools to learn the exact behavior. The same picture helps when you explain reducing the impact of XSS to a friend.

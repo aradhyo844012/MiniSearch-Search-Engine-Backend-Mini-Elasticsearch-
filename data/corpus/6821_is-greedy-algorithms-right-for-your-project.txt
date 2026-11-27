@@ -1,0 +1,11 @@
+Is Greedy Algorithms Right for Your Project?
+
+Before adopting Greedy Algorithms, ask whether it fits the problem. Remember that Greedy Algorithms is algorithms that build a solution by always taking the locally best choice.
+
+It is a good fit when your work involves interval scheduling or Huffman coding, and when your team understands greedy choice property.
+
+Be cautious when the project is very small, when deadlines leave no room to learn optimal substructure, or when you cannot manage these risks: assuming greedy always works, missing counterexamples, and skipping the correctness proof.
+
+A simple decision test: write down the problem in one sentence, then check whether exchange arguments and local versus global optimum are part of the answer. If they are, Greedy Algorithms is probably worth a closer look.
+
+If you decide to go ahead, start small with making change with standard coins and try to break your greedy idea with a small counterexample before trusting it.

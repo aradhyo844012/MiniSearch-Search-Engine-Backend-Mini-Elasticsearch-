@@ -1,0 +1,15 @@
+Combining LSM Trees with Database Migrations in One Project
+
+Real projects rarely use one idea in isolation. This article shows how LSM Trees and Database Migrations can work together in a single project.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way.
+
+Imagine a project that involves write-heavy databases and adding columns safely. LSM Trees brings memtable, while Database Migrations brings up and down scripts.
+
+A sensible plan is to start with RocksDB for the LSM Trees part and Alembic for the Database Migrations part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: compaction stalls on one side, and editing old migrations on the other.
+
+Picture the whole as a mail room that sorts incoming letters in batches rather than one by one, working alongside a numbered set of renovation steps applied to a building in order.
+
+Two habits help: first, watch compaction metrics before blaming the application; second, split risky changes into small steps that can each be rolled back.

@@ -1,0 +1,13 @@
+Debugging Convolutional Neural Networks: A Field Guide
+
+When something goes wrong around Convolutional Neural Networks, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: too little training data, ignoring data augmentation, and overly deep models for simple tasks.
+Step 3: revisit filters and pooling, since misunderstandings there cause many bugs.
+Step 4: use PyTorch or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Convolutional Neural Networks in work such as image classification come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start from a pretrained model. It prevents a surprising number of repeat problems.

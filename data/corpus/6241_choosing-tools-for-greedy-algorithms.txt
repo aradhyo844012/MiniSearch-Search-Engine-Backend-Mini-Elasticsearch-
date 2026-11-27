@@ -1,0 +1,11 @@
+Choosing Tools for Greedy Algorithms
+
+There is no single best tool for Greedy Algorithms. The right choice depends on your project, your team and your timeline.
+
+pen and paper proofs is a common first choice, especially for interval scheduling. Python sorted suits teams that already work with similar technology, and unit tests is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle Huffman coding well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: assuming greedy always works.
+
+As a rule of thumb, try to break your greedy idea with a small counterexample before trusting it, no matter which tool you use.

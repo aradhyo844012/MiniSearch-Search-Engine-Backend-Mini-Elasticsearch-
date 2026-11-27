@@ -1,0 +1,26 @@
+Everything You Need to Know About gRPC
+
+This page collects the essentials about gRPC in one place. In short, gRPC is a framework for fast remote procedure calls using typed contracts.
+
+Core concepts:
+- protocol buffers
+- service definitions
+- streaming
+- HTTP/2
+
+Where it is used:
+- service-to-service calls
+- low-latency APIs
+- streaming data
+
+Common problems:
+- breaking changes in message fields
+- poor browser support without a proxy
+- harder manual debugging
+
+Tools to know:
+- protoc
+- grpcurl
+- Envoy
+
+Remember this above all: a phone line with a pre-agreed script for every call is a good way to picture it, and the best habit is to never reuse or renumber field numbers in a proto file.

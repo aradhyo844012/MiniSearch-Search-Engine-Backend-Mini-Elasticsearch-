@@ -1,0 +1,11 @@
+Progressive Web Apps in Real Projects
+
+Reading about Progressive Web Apps is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: offline-friendly tools. Here, web app manifest drives the main design choices, and the team needs to guard against ignoring platform limitations.
+
+Scenario two: lightweight alternatives to native apps. This time service worker matters most, and tools such as Lighthouse help keep things manageable.
+
+Scenario three: low-bandwidth markets. The key idea is installability, and the biggest risk is poor offline fallbacks.
+
+Across all three scenarios, Progressive Web Apps stays the same idea: web applications that can be installed and work offline like native apps. Only the details change.

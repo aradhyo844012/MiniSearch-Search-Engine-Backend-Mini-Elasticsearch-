@@ -1,0 +1,17 @@
+Internationalization for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Internationalization.
+
+Learning goals:
+1. Explain Internationalization in your own words.
+2. Describe locale detection, translation files, pluralization, and date and number formatting.
+3. Give examples from global products and multi-language websites.
+4. Name three problems to watch for.
+
+Start with the definition: Internationalization is designing software so it can be adapted to different languages and regions. Then draw a stage set where the backdrop can be swapped for each audience on paper and label the four terms from the goals above.
+
+Self-test questions: Why is hard-coded strings a problem? How does translation files relate to pluralization? When would you choose i18next or the Intl API?
+
+Study habit: move every user-facing string into translation files from the first day.
+
+When you feel ready, compare Internationalization with Web Components and write down three differences.

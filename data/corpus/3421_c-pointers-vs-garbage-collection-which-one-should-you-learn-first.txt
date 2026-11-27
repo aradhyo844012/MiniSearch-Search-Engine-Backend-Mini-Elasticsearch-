@@ -1,0 +1,13 @@
+C Pointers vs Garbage Collection: Which One Should You Learn First?
+
+Learners often ask whether to study C Pointers or Garbage Collection first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+C Pointers is variables that store the memory address of another value, and it is closely tied to addresses and dereferencing. Garbage Collection, by contrast, is automatic memory management that finds and frees objects a program no longer uses, and it is closely tied to reachability and generations.
+
+Choose C Pointers first if you care about dynamic memory allocation or passing large data efficiently. Choose Garbage Collection first if you care about managed languages like Java and Python or reducing memory bugs.
+
+Think of C Pointers as a street address written on a card instead of the house itself, and of Garbage Collection as a cleaner who removes items nobody has touched in a while. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With C Pointers, avoid dereferencing null pointers. With Garbage Collection, avoid creating huge numbers of short-lived objects.
+
+A good habit for C Pointers is to set pointers to NULL after freeing them. A good habit for Garbage Collection is to measure allocation rates before tuning collector settings.

@@ -1,0 +1,12 @@
+Configuration Management Glossary for Beginners
+
+New words can make Configuration Management feel harder than it is. This glossary keeps the key ones in one place.
+
+Configuration Management: keeping application settings separate from code so they can change per environment.
+environment variables: a core term, most visible in separating development and production.
+config files: a core term that beginners often confuse with defaults.
+defaults: a core term that connects to secrets handling.
+secrets handling: a core term worth revisiting after you try a real example.
+dotenv: a tool commonly used for toggling features.
+
+Come back to this Configuration Management list whenever documentation for Pydantic settings uses a word you do not recognize.

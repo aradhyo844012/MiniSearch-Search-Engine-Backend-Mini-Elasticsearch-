@@ -1,0 +1,13 @@
+Pair Programming vs Test-Driven Development: Which One Should You Learn First?
+
+Learners often ask whether to study Pair Programming or Test-Driven Development first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Pair Programming is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation. Test-Driven Development, by contrast, is a workflow where you write a failing test first and then write code to make it pass, and it is closely tied to red, green, refactor and small steps.
+
+Choose Pair Programming first if you care about teaching new teammates or solving hard bugs. Choose Test-Driven Development first if you care about designing small modules or preventing regressions.
+
+Think of Pair Programming as a pilot and co-pilot who check each other's decisions, and of Test-Driven Development as writing the exam questions before teaching the lesson. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Pair Programming, avoid one person dominating. With Test-Driven Development, avoid writing tests that are too large.
+
+A good habit for Pair Programming is to swap roles every twenty to thirty minutes. A good habit for Test-Driven Development is to keep each red-green cycle to a few minutes.

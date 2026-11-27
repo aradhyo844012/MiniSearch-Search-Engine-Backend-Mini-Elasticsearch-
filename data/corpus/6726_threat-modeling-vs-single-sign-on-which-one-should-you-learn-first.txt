@@ -1,0 +1,13 @@
+Threat Modeling vs Single Sign-On: Which One Should You Learn First?
+
+Learners often ask whether to study Threat Modeling or Single Sign-On first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it, and it is closely tied to assets and attackers. Single Sign-On, by contrast, is letting users log in once and access several applications, and it is closely tied to identity provider and SAML.
+
+Choose Threat Modeling first if you care about designing new features or reviewing architecture. Choose Single Sign-On first if you care about company intranets or reducing password fatigue.
+
+Think of Threat Modeling as walking around a house asking where a burglar might get in, and of Single Sign-On as a festival wristband that opens every gate. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Threat Modeling, avoid doing it once and never again. With Single Sign-On, avoid a single point of failure.
+
+A good habit for Threat Modeling is to draw the data flow diagram first. A good habit for Single Sign-On is to plan for identity provider outages.

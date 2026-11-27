@@ -1,0 +1,13 @@
+K-Means Clustering vs Transformers: Which One Should You Learn First?
+
+Learners often ask whether to study K-Means Clustering or Transformers first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points, and it is closely tied to centroids and distance measures. Transformers, by contrast, is neural network architectures that use attention to relate all parts of an input to each other, and it is closely tied to self-attention and positional encoding.
+
+Choose K-Means Clustering first if you care about customer segmentation or image compression. Choose Transformers first if you care about language translation or text generation.
+
+Think of K-Means Clustering as dividing students into study groups around the most central member, and of Transformers as a reader who can look back at any word of a paragraph while reading each new word. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With K-Means Clustering, avoid choosing k blindly. With Transformers, avoid huge compute requirements.
+
+A good habit for K-Means Clustering is to scale features before clustering. A good habit for Transformers is to begin with small pretrained models.

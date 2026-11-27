@@ -1,0 +1,12 @@
+Questions to Ask About System Calls in Code Review
+
+Reviewing code that involves System Calls is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is syscall numbers clear to someone reading the code for the first time?
+- Would a test catch making too many small calls if it appeared later?
+- Does this change respect user mode and kernel mode, or does it work around it?
+- Could we use strace to see what your program really asks the kernel to do?
+- Have we considered ignoring error codes?
+- Have we avoided this problem: unsafe assumptions about blocking?
+
+Good reviews of work on System Calls are specific, kind and focused on file descriptors, not on personal style.

@@ -1,0 +1,12 @@
+Questions to Ask About Write-Ahead Logging in Code Review
+
+Reviewing code that involves Write-Ahead Logging is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is checkpoints clear to someone reading the code for the first time?
+- Would a test catch log files filling the disk if it appeared later?
+- Have we considered disabling fsync for speed?
+- Does this change respect log records, or does it work around it?
+- Could we test crash recovery by killing the process on purpose?
+- Have we avoided this problem: forgetting to archive logs?
+
+Good reviews of work on Write-Ahead Logging are specific, kind and focused on crash recovery, not on personal style.

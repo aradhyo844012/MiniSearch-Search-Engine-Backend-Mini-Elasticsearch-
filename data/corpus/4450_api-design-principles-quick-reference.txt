@@ -1,0 +1,15 @@
+API Design Principles Quick Reference
+
+A one-screen reminder for API Design Principles. Bookmark it and return when the details fade.
+
+What it is: guidelines for making APIs consistent, predictable and easy to use.
+Key terms: consistent naming, clear errors, idempotent operations, and documentation.
+Typical uses: public platforms, internal service contracts, and mobile backends.
+Risks: leaking internal details, inconsistent responses, and undocumented behavior.
+Tools: OpenAPI, Postman, and Stoplight.
+
+Mental picture: the controls of a car that behave the same in every model.
+
+Habit to build: write the documentation before the implementation.
+
+See also: Modular Monoliths, which sits close to API Design Principles in the area of Software Design.

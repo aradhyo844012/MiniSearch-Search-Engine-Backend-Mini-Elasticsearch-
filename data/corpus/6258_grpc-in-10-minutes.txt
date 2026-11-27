@@ -1,0 +1,15 @@
+gRPC in 10 Minutes
+
+You have ten minutes, so here is the fast route through gRPC.
+
+Minutes 1 and 2, the definition: gRPC is a framework for fast remote procedure calls using typed contracts.
+
+Minutes 3 and 4, the vocabulary: learn protocol buffers, service definitions, streaming, and HTTP/2.
+
+Minutes 5 and 6, the picture: imagine a phone line with a pre-agreed script for every call. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through service-to-service calls, low-latency APIs, and streaming data.
+
+Minutes 9 and 10, the traps and the tools: watch for breaking changes in message fields and poor browser support without a proxy, then try protoc for a first experiment.
+
+If you have a spare minute, remember to never reuse or renumber field numbers in a proto file.

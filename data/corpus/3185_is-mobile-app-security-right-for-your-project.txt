@@ -1,0 +1,11 @@
+Is Mobile App Security Right for Your Project?
+
+Before adopting Mobile App Security, ask whether it fits the problem. Remember that Mobile App Security is practices that protect mobile apps and their data from attacks.
+
+It is a good fit when your work involves banking apps or health apps, and when your team understands secure storage.
+
+Be cautious when the project is very small, when deadlines leave no room to learn certificate pinning, or when you cannot manage these risks: storing tokens in plain text, hard-coded API keys, and requesting unnecessary permissions.
+
+A simple decision test: write down the problem in one sentence, then check whether obfuscation and permissions are part of the answer. If they are, Mobile App Security is probably worth a closer look.
+
+If you decide to go ahead, start small with enterprise apps and store secrets in the platform keychain or keystore.

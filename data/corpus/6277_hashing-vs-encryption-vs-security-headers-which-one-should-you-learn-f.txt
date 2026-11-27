@@ -1,0 +1,13 @@
+Hashing vs Encryption vs Security Headers: Which One Should You Learn First?
+
+Learners often ask whether to study Hashing vs Encryption or Security Headers first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Hashing vs Encryption is the difference between one-way digests and reversible protection of data, and it is closely tied to one-way functions and keys. Security Headers, by contrast, is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options.
+
+Choose Hashing vs Encryption first if you care about storing passwords or verifying file integrity. Choose Security Headers first if you care about hardening websites or reducing clickjacking.
+
+Think of Hashing vs Encryption as a paper shredder compared with a locked suitcase, and of Security Headers as safety instructions printed on the packaging of every page. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hashing vs Encryption, avoid encrypting passwords instead of hashing them. With Security Headers, avoid setting headers on only some routes.
+
+A good habit for Hashing vs Encryption is to ask whether you will ever need the original value back. A good habit for Security Headers is to test the headers on every environment.

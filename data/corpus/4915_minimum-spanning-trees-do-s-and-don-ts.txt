@@ -1,0 +1,17 @@
+Minimum Spanning Trees Do's and Don'ts
+
+A quick list of habits for working with Minimum Spanning Trees.
+
+Do:
+- Learn weighted graphs before anything else.
+- Try NetworkX on a small example.
+- Make it a habit to sort the edges once and reuse the order when testing variations.
+- Test the case of designing cable networks early.
+
+Don't:
+- Ignore this: using it on directed graphs.
+- Ignore this: forgetting that the graph must be connected.
+- Ignore this: treating ties as errors.
+- Adopt Minimum Spanning Trees just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Minimum Spanning Trees, a little patience with Kruskal's algorithm pays off more than any clever shortcut.

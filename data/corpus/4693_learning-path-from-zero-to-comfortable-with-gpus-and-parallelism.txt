@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with GPUs and Parallelism
+
+This path is for a learner who has never studied GPUs and Parallelism before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once) and learn threads and blocks and kernels.
+
+Stage 2, hands-on: install CUDA, follow a tutorial, and build a small example involving training neural networks.
+
+Stage 3, depth: study memory transfers and SIMD, then deliberately explore this problem: slow data transfers.
+
+Stage 4, application: apply GPUs and Parallelism to rendering graphics, compare PyTorch with OpenCL, and write up your results.
+
+Stage 5, review: teach GPUs and Parallelism to someone else, and then move on to Assembly Language Basics.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Memory Hierarchy
+
+This is a fictional but realistic day for a developer whose project relies on Memory Hierarchy.
+
+Morning: Divya starts by reviewing a ticket about designing efficient programs. Before touching any code, Divya re-reads the notes on registers to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore cache with lscpu. A small test exposes the problem of ignoring locality, and they fix it together.
+
+Afternoon: the team discusses a new request involving explaining slow I/O. Divya sketches a kitchen with a spice rack, a pantry and a warehouse on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to reduce how often your program goes down to the slower layers.
+
+Days like this are typical. Memory Hierarchy is not glamorous, but understanding it keeps small problems from growing.

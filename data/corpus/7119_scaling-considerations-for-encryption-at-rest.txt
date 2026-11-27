@@ -1,0 +1,11 @@
+Scaling Considerations for Encryption at Rest
+
+A design that works for a classroom project can behave very differently under real load. Here is how Encryption at Rest changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding symmetric keys and getting protecting backups right.
+
+Medium scale: problems start to appear. Watch for storing keys next to the data and no key rotation, and measure with LUKS before changing anything.
+
+Large scale: disk encryption and envelope encryption move from background details to central design questions. Teams often revisit their choices around meeting compliance rules at this stage.
+
+Before you scale, keep keys in a separate service from the data. It is cheaper to build that habit early than to fix a crisis later.

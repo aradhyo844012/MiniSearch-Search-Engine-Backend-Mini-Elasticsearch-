@@ -1,0 +1,15 @@
+Hexagonal Architecture Quick Reference
+
+A one-screen reminder for Hexagonal Architecture. Bookmark it and return when the details fade.
+
+What it is: a design that keeps core logic separate from outside systems through ports and adapters.
+Key terms: ports, adapters, the core domain, and dependency direction.
+Typical uses: testable business logic, swapping databases, and supporting several interfaces.
+Risks: too many layers for small apps, leaking framework types into the core, and confusing ports with adapters.
+Tools: Spring, FastAPI, and pytest.
+
+Mental picture: a power strip that lets any plug connect to the same core.
+
+Habit to build: keep framework imports out of the core domain.
+
+See also: Software Estimation, which sits close to Hexagonal Architecture in the area of Software Design.

@@ -1,0 +1,13 @@
+SQL Window Functions Explained Simply
+
+If SQL Window Functions sounds intimidating, relax. It is SQL features that calculate values across related rows without collapsing them, and the idea is simpler than the name suggests.
+
+Think of SQL Window Functions as looking at the neighbors in a line without leaving your place. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: the OVER clause, partitions, ordering, and frames. You do not need to master them all at once. Start with the OVER clause, then add partitions.
+
+You will meet SQL Window Functions in work such as running totals, ranking rows, and comparing a row with the previous one.
+
+One practical tip is to start with ROW_NUMBER and LAG on a small table.
+
+Once SQL Window Functions feels comfortable, read about Data Quality Checks, which lives in the same neighborhood of ideas.

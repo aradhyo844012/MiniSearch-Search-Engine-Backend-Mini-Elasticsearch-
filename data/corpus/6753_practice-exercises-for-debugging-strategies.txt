@@ -1,0 +1,11 @@
+Practice Exercises for Debugging Strategies
+
+These exercises build real understanding of Debugging Strategies. Do them in order, and write down your answers.
+
+Exercise 1: Compare logging and git bisect for reducing repeat bugs and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: changing many things at once. Then fix it.
+Exercise 3: Explain how forming hypotheses and binary search through code differ, using a drawing.
+Exercise 4: Write a short paragraph describing Debugging Strategies and include the term reproducing the bug.
+Exercise 5: List three situations from your own experience that resemble fixing production issues or learning unfamiliar code.
+
+When you finish, compare your answers with the definition: Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior.

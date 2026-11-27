@@ -1,0 +1,12 @@
+Distributed Tracing Glossary for Beginners
+
+New words can make Distributed Tracing feel harder than it is. This glossary keeps the key ones in one place.
+
+Distributed Tracing: following a single request as it passes through many services.
+spans: a core term, most visible in finding slow services.
+trace IDs: a core term that beginners often confuse with context propagation.
+context propagation: a core term that connects to sampling.
+sampling: a core term worth revisiting after you try a real example.
+OpenTelemetry: a tool commonly used for understanding dependencies.
+
+Come back to this Distributed Tracing list whenever documentation for Jaeger uses a word you do not recognize.

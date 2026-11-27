@@ -1,0 +1,17 @@
+Eventual Consistency Do's and Don'ts
+
+A quick list of habits for working with Eventual Consistency.
+
+Do:
+- Learn replication delay before anything else.
+- Try Amazon DynamoDB on a small example.
+- Make it a habit to decide up front how your app handles stale reads.
+- Test the case of global social feeds early.
+
+Don't:
+- Ignore this: assuming reads are always fresh.
+- Ignore this: unresolved write conflicts.
+- Ignore this: no user feedback during delays.
+- Adopt Eventual Consistency just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Eventual Consistency, a little patience with conflict resolution pays off more than any clever shortcut.

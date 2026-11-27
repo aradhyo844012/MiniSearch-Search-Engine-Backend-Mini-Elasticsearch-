@@ -1,0 +1,13 @@
+Consistent Hashing vs Saga Pattern: Which One Should You Learn First?
+
+Learners often ask whether to study Consistent Hashing or Saga Pattern first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys, and it is closely tied to hash ring and virtual nodes. Saga Pattern, by contrast, is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions.
+
+Choose Consistent Hashing first if you care about distributed caches or sharded databases. Choose Saga Pattern first if you care about order processing or travel bookings.
+
+Think of Consistent Hashing as seats around a round table where a new guest only displaces their neighbor, and of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Consistent Hashing, avoid too few virtual nodes. With Saga Pattern, avoid missing compensations.
+
+A good habit for Consistent Hashing is to use many virtual nodes per server to even out the load. A good habit for Saga Pattern is to make every step and its compensation idempotent.

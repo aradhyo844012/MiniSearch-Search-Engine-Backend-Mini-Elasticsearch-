@@ -1,0 +1,13 @@
+Debugging Canary Releases: A Field Guide
+
+When something goes wrong around Canary Releases, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: too little traffic to reveal problems, no clear success metrics, and manual promotion mistakes.
+Step 3: revisit traffic percentages and health metrics, since misunderstandings there cause many bugs.
+Step 4: use Argo Rollouts or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Canary Releases in work such as safer releases come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, define rollback conditions before starting the rollout. It prevents a surprising number of repeat problems.

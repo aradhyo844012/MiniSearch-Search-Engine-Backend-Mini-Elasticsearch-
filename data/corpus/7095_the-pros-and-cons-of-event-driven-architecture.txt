@@ -1,0 +1,15 @@
+The Pros and Cons of Event-Driven Architecture
+
+No technology is free of trade-offs, and Event-Driven Architecture is no exception. Here is an honest summary.
+
+Advantages:
+- Supports order pipelines
+- Makes real-time notifications easier
+- Helps with integrating many services
+
+Drawbacks and risks:
+- Risk: hard-to-trace flows
+- Risk: duplicate events
+- Risk: unclear event ownership
+
+Weigh the two lists against your own project. If the advantages match your needs, such as order pipelines, and you can manage the risks, Event-Driven Architecture is a sound choice. Whatever you decide, document every event name and schema.

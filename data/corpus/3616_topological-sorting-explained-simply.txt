@@ -1,0 +1,13 @@
+Topological Sorting Explained Simply
+
+Here is Topological Sorting without the jargon: it is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+
+Think of Topological Sorting as a recipe that must list every step after the steps it depends on. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: directed acyclic graphs, in-degree counts, Kahn's algorithm, and cycle detection. You do not need to master them all at once. Start with directed acyclic graphs, then add in-degree counts.
+
+People reach for Topological Sorting when they work on build systems, course prerequisite planning, and task scheduling.
+
+One practical tip is to check for cycles first so you can report a clear error.
+
+Once Topological Sorting feels comfortable, read about Backtracking, which lives in the same neighborhood of ideas.

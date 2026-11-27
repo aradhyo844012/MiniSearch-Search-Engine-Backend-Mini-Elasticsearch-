@@ -1,0 +1,15 @@
+The Pros and Cons of Debugging Strategies
+
+No technology is free of trade-offs, and Debugging Strategies is no exception. Here is an honest summary.
+
+Advantages:
+- Supports fixing production issues
+- Makes learning unfamiliar code easier
+- Helps with reducing repeat bugs
+
+Drawbacks and risks:
+- Risk: changing many things at once
+- Risk: guessing without evidence
+- Risk: not writing a test afterward
+
+Weigh the two lists against your own project. If the advantages match your needs, such as fixing production issues, and you can manage the risks, Debugging Strategies is a sound choice. Whatever you decide, change one thing at a time and record the result.

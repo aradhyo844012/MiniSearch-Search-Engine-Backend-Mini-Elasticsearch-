@@ -1,0 +1,13 @@
+Debugging Webhooks: A Field Guide
+
+When something goes wrong around Webhooks, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: not verifying signatures, slow handlers causing timeouts, and processing duplicate events.
+Step 3: revisit event payloads and signature verification, since misunderstandings there cause many bugs.
+Step 4: use ngrok or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Webhooks in work such as payment notifications come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, respond quickly and process the event in a background job. It prevents a surprising number of repeat problems.

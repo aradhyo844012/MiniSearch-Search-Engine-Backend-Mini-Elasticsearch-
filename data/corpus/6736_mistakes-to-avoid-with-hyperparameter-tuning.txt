@@ -1,0 +1,11 @@
+Mistakes to Avoid with Hyperparameter Tuning
+
+Everyone learns Hyperparameter Tuning partly through mistakes. Here are three worth avoiding.
+
+Mistake one: tuning on the test set. It usually appears when someone skips search spaces and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: searching too many options. It tends to be noticed late, often during testing of improving model accuracy. A short checklist during review catches it early.
+
+Mistake three: ignoring training cost. It is easy to miss because everything seems to work at first. Keep an eye on validation scores to spot it.
+
+If you remember only one rule, make it this: try random search before anything fancier.

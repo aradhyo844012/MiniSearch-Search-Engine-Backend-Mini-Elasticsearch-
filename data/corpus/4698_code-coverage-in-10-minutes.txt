@@ -1,0 +1,15 @@
+Code Coverage in 10 Minutes
+
+You have ten minutes, so here is the fast route through Code Coverage.
+
+Minutes 1 and 2, the definition: Code Coverage is a measure of how much of the code is run by tests.
+
+Minutes 3 and 4, the vocabulary: learn line coverage, branch coverage, coverage reports, and thresholds.
+
+Minutes 5 and 6, the picture: imagine a map showing which rooms a security guard has walked through. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through finding untested code, setting quality gates, and tracking test progress.
+
+Minutes 9 and 10, the traps and the tools: watch for chasing 100 percent and treating coverage as quality, then try coverage.py for a first experiment.
+
+If you have a spare minute, remember to use coverage to find gaps, not to judge quality.

@@ -1,0 +1,17 @@
+Hyperparameter Tuning Do's and Don'ts
+
+A quick list of habits for working with Hyperparameter Tuning.
+
+Do:
+- Learn search spaces before anything else.
+- Try Optuna on a small example.
+- Make it a habit to try random search before anything fancier.
+- Test the case of improving model accuracy early.
+
+Don't:
+- Ignore this: tuning on the test set.
+- Ignore this: searching too many options.
+- Ignore this: ignoring training cost.
+- Adopt Hyperparameter Tuning just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Hyperparameter Tuning, a little patience with grid search pays off more than any clever shortcut.

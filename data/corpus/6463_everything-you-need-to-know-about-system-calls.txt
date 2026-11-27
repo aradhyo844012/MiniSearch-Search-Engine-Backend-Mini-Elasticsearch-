@@ -1,0 +1,26 @@
+Everything You Need to Know About System Calls
+
+This page collects the essentials about System Calls in one place. In short, System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+Core concepts:
+- user mode and kernel mode
+- syscall numbers
+- file descriptors
+- libc wrappers
+
+Where it is used:
+- reading and writing files
+- creating processes
+- using network sockets
+
+Common problems:
+- ignoring error codes
+- making too many small calls
+- unsafe assumptions about blocking
+
+Tools to know:
+- strace
+- man pages
+- libc
+
+Remember this above all: a service window where a customer asks staff to do things in the back office is a good way to picture it, and the best habit is to use strace to see what your program really asks the kernel to do.

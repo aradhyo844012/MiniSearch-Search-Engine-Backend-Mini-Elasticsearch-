@@ -1,0 +1,13 @@
+Debugging Mobile App Security: A Field Guide
+
+When something goes wrong around Mobile App Security, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: storing tokens in plain text, hard-coded API keys, and requesting unnecessary permissions.
+Step 3: revisit secure storage and certificate pinning, since misunderstandings there cause many bugs.
+Step 4: use OWASP MASVS or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Mobile App Security in work such as banking apps come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, store secrets in the platform keychain or keystore. It prevents a surprising number of repeat problems.

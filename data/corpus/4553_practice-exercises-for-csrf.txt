@@ -1,0 +1,11 @@
+Practice Exercises for CSRF
+
+These exercises build real understanding of CSRF. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble protecting forms or securing account settings.
+Exercise 2: Write a short paragraph describing CSRF and include the term session cookies.
+Exercise 3: Compare Flask-WTF and OWASP guides for hardening admin panels and write down your conclusion.
+Exercise 4: Pick Django CSRF middleware and complete its getting-started tutorial.
+Exercise 5: Explain how SameSite cookies and state-changing requests differ, using a drawing.
+
+When you finish, compare your answers with the definition: CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site.

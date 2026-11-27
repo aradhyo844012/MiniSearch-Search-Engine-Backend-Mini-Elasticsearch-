@@ -1,0 +1,13 @@
+Database Backups and Recovery Explained Simply
+
+If Database Backups and Recovery sounds intimidating, relax. It is the practice of copying data regularly so that it can be restored after failures, and the idea is simpler than the name suggests.
+
+Think of Database Backups and Recovery as a spare house key kept at a trusted neighbor's home. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: full and incremental backups, recovery point objective, recovery time objective, and restore testing. You do not need to master them all at once. Start with full and incremental backups, then add recovery point objective.
+
+You will meet Database Backups and Recovery in work such as recovering deleted tables, migrating servers, and meeting compliance rules.
+
+One practical tip is to schedule a restore drill on a regular basis.
+
+After Database Backups and Recovery, a natural next topic is Column-Oriented Storage.

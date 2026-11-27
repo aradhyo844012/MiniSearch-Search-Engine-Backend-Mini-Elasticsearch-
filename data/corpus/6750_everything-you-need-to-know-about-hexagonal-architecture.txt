@@ -1,0 +1,26 @@
+Everything You Need to Know About Hexagonal Architecture
+
+This page collects the essentials about Hexagonal Architecture in one place. In short, Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters.
+
+Core concepts:
+- ports
+- adapters
+- the core domain
+- dependency direction
+
+Where it is used:
+- testable business logic
+- swapping databases
+- supporting several interfaces
+
+Common problems:
+- too many layers for small apps
+- leaking framework types into the core
+- confusing ports with adapters
+
+Tools to know:
+- Spring
+- FastAPI
+- pytest
+
+Remember this above all: a power strip that lets any plug connect to the same core is a good way to picture it, and the best habit is to keep framework imports out of the core domain.

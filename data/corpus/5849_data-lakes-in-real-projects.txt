@@ -1,0 +1,11 @@
+Data Lakes in Real Projects
+
+Reading about Data Lakes is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: storing logs and events. Here, raw storage drives the main design choices, and the team needs to guard against turning into a data swamp.
+
+Scenario two: machine learning datasets. This time schema on read matters most, and tools such as Amazon S3 help keep things manageable.
+
+Scenario three: analytics across many sources. The key idea is partitioning, and the biggest risk is no catalog or ownership.
+
+Across all three scenarios, Data Lakes stays the same idea: large storage systems that keep raw data in its original format until it is needed. Only the details change.

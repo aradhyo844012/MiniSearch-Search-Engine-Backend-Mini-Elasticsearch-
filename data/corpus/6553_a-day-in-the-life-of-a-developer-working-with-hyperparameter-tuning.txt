@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Hyperparameter Tuning
+
+This is a fictional but realistic day for a developer whose project relies on Hyperparameter Tuning.
+
+Morning: Sneha starts by reviewing a ticket about improving model accuracy. Before touching any code, Sneha re-reads the notes on search spaces to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore grid search with Optuna. A small test exposes the problem of tuning on the test set, and they fix it together.
+
+Afternoon: the team discusses a new request involving comparing algorithms. Sneha sketches adjusting the knobs on a radio until the signal is clear on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to try random search before anything fancier.
+
+Days like this are typical. Hyperparameter Tuning is not glamorous, but understanding it keeps small problems from growing.

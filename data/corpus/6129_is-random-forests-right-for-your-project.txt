@@ -1,0 +1,11 @@
+Is Random Forests Right for Your Project?
+
+Before adopting Random Forests, ask whether it fits the problem. Remember that Random Forests is ensembles of many decision trees whose predictions are combined.
+
+It is a good fit when your work involves tabular predictions or feature importance ranking, and when your team understands bagging.
+
+Be cautious when the project is very small, when deadlines leave no room to learn feature randomness, or when you cannot manage these risks: treating importance scores as causes, very large forests being slow, and ignoring class imbalance.
+
+A simple decision test: write down the problem in one sentence, then check whether voting and out-of-bag error are part of the answer. If they are, Random Forests is probably worth a closer look.
+
+If you decide to go ahead, start small with strong baseline models and tune the number of trees only after the basics work.

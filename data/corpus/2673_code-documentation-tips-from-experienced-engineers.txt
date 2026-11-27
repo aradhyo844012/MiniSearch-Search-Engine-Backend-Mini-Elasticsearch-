@@ -1,0 +1,11 @@
+Code Documentation Tips from Experienced Engineers
+
+Engineers who work with Code Documentation regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Code Documentation so the next person understands the decision.
+2. Make sure you can keep documentation in the same repository as the code.
+3. Reach for Sphinx first, and only then evaluate alternatives such as MkDocs.
+4. Be careful with this one: outdated docs.
+5. Test the case of onboarding new developers early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to describing APIs as well.

@@ -1,0 +1,11 @@
+Practice Exercises for SQL Window Functions
+
+These exercises build real understanding of SQL Window Functions. Do them in order, and write down your answers.
+
+Exercise 1: Explain how ordering and frames differ, using a drawing.
+Exercise 2: Create a small example that deliberately triggers this problem: forgetting ORDER BY inside the window. Then fix it.
+Exercise 3: List three situations from your own experience that resemble running totals or ranking rows.
+Exercise 4: Compare SQLite and BigQuery for comparing a row with the previous one and write down your conclusion.
+Exercise 5: Pick PostgreSQL and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: SQL Window Functions is SQL features that calculate values across related rows without collapsing them.

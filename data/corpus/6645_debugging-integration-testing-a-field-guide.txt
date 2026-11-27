@@ -1,0 +1,13 @@
+Debugging Integration Testing: A Field Guide
+
+When something goes wrong around Integration Testing, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: slow suites, flaky external dependencies, and unclear failures.
+Step 3: revisit test databases and service boundaries, since misunderstandings there cause many bugs.
+Step 4: use Testcontainers or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Integration Testing in work such as verifying API and database interaction come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use disposable containers for test dependencies. It prevents a surprising number of repeat problems.

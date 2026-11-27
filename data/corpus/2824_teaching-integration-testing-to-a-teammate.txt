@@ -1,0 +1,13 @@
+Teaching Integration Testing to a Teammate
+
+Explaining Integration Testing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: checking that the gears of a watch mesh before closing the case. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Integration Testing is tests that check how several parts of a system work together. Avoid jargon at this stage.
+
+Walk through an example involving verifying API and database interaction, naming test databases and service boundaries as they come up.
+
+Ask your teammate to explain fixtures in Integration Testing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow suites, and suggest this habit: use disposable containers for test dependencies.

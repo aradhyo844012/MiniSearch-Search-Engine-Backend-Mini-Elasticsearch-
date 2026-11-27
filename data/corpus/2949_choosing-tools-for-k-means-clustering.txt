@@ -1,0 +1,11 @@
+Choosing Tools for K-Means Clustering
+
+There is no single best tool for K-Means Clustering. The right choice depends on your project, your team and your timeline.
+
+scikit-learn is a common first choice, especially for customer segmentation. NumPy suits teams that already work with similar technology, and matplotlib is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle image compression well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: choosing k blindly.
+
+As a rule of thumb, scale features before clustering, no matter which tool you use.

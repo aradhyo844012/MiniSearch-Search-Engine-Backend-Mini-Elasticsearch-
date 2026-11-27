@@ -1,0 +1,11 @@
+Practice Exercises for Event Sourcing
+
+These exercises build real understanding of Event Sourcing. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: changing event formats carelessly. Then fix it.
+Exercise 2: Pick Apache Kafka and complete its getting-started tutorial.
+Exercise 3: Compare EventStoreDB and PostgreSQL for rebuilding read models and write down your conclusion.
+Exercise 4: Write a short paragraph describing Event Sourcing and include the term event log.
+Exercise 5: List three situations from your own experience that resemble audit trails or financial ledgers.
+
+When you finish, compare your answers with the definition: Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them.

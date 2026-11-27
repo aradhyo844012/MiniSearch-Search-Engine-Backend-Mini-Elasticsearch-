@@ -1,0 +1,13 @@
+Teaching Write-Ahead Logging to a Teammate
+
+Explaining Write-Ahead Logging to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: writing a plan in a notebook before changing the real blueprint. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data. Avoid jargon at this stage.
+
+Walk through an example involving surviving crashes, naming log records and checkpoints as they come up.
+
+Ask your teammate to explain crash recovery in Write-Ahead Logging back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, disabling fsync for speed, and suggest this habit: test crash recovery by killing the process on purpose.

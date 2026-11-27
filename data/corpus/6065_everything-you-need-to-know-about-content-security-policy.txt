@@ -1,0 +1,26 @@
+Everything You Need to Know About Content Security Policy
+
+This page collects the essentials about Content Security Policy in one place. In short, Content Security Policy is a browser feature that limits which scripts and resources a page may load.
+
+Core concepts:
+- directives
+- nonces
+- report-only mode
+- trusted sources
+
+Where it is used:
+- reducing the impact of XSS
+- blocking unwanted scripts
+- monitoring policy violations
+
+Common problems:
+- allowing unsafe-inline
+- policies too broad to help
+- breaking third-party widgets
+
+Tools to know:
+- browser DevTools
+- CSP Evaluator
+- Report URI
+
+Remember this above all: a guest list at the door of a building is a good way to picture it, and the best habit is to start in report-only mode to learn what would break.

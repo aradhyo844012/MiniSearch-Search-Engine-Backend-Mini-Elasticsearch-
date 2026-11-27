@@ -1,0 +1,26 @@
+Everything You Need to Know About Service Mesh
+
+This page collects the essentials about Service Mesh in one place. In short, Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+Core concepts:
+- sidecar proxies
+- mutual TLS
+- traffic policies
+- observability
+
+Where it is used:
+- securing service traffic
+- retries and timeouts
+- fine-grained routing
+
+Common problems:
+- added latency and complexity
+- adopting it too early
+- hard-to-debug proxy configs
+
+Tools to know:
+- Istio
+- Linkerd
+- Envoy
+
+Remember this above all: a postal system that applies delivery rules between buildings is a good way to picture it, and the best habit is to adopt it only once the number of services makes manual setup painful.

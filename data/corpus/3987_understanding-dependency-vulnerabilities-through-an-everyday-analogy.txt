@@ -1,0 +1,9 @@
+Understanding Dependency Vulnerabilities Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture checking every ingredient supplier for recalls.
+
+In that picture, CVE identifiers is the first rule you follow, version pinning is the next step, and transitive dependencies and software bills of materials keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses, and it involves details such as ignoring transitive dependencies that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Dependabot to learn the exact behavior. The same picture helps when you explain auditing projects to a friend.

@@ -1,0 +1,13 @@
+Skills to Build Around Saga Pattern
+
+Knowing the definition of Saga Pattern is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with local transactions and compensating actions, and able to explain them without notes.
+
+Hands-on practice: spend real time with Temporal on a Saga Pattern task, and try at least one alternative such as Camunda.
+
+Judgment: learn to decide when Saga Pattern fits a problem such as order processing, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example booking a trip with separate hotel, flight and car reservations that can each be cancelled.
+
+Habits: make every step and its compensation idempotent, and write down what you learn after each project.

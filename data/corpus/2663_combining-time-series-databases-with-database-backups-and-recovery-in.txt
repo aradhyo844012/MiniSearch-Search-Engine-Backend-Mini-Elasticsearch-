@@ -1,0 +1,15 @@
+Combining Time-Series Databases with Database Backups and Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Time-Series Databases and Database Backups and Recovery can work together in a single project.
+
+Time-Series Databases is databases optimized for storing and querying data points ordered by time. Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Imagine a project that involves server metrics and recovering deleted tables. Time-Series Databases brings timestamps, while Database Backups and Recovery brings full and incremental backups.
+
+A sensible plan is to start with InfluxDB for the Time-Series Databases part and pg_dump for the Database Backups and Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: keeping raw data forever on one side, and storing backups on the same disk on the other.
+
+Picture the whole as a long logbook where every line starts with the time, working alongside a spare house key kept at a trusted neighbor's home.
+
+Two habits help: first, include a time range in every query; second, schedule a restore drill on a regular basis.

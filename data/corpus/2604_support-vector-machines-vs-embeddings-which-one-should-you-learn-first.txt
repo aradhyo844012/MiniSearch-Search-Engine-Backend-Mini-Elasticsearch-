@@ -1,0 +1,13 @@
+Support Vector Machines vs Embeddings: Which One Should You Learn First?
+
+Learners often ask whether to study Support Vector Machines or Embeddings first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors. Embeddings, by contrast, is lists of numbers that represent words, images or items so that similar things sit close together, and it is closely tied to vectors and cosine similarity.
+
+Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets. Choose Embeddings first if you care about semantic search or recommendations.
+
+Think of Support Vector Machines as drawing the widest road between two neighborhoods, and of Embeddings as coordinates on a map where similar places are close together. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Support Vector Machines, avoid slow training on large data. With Embeddings, avoid mixing models between indexing and querying.
+
+A good habit for Support Vector Machines is to scale features and try a linear kernel first. A good habit for Embeddings is to use the same embedding model for indexing and querying.

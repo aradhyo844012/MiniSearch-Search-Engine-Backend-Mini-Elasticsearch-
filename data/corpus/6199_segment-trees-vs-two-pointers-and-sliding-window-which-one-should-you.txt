@@ -1,0 +1,13 @@
+Segment Trees vs Two Pointers and Sliding Window: Which One Should You Learn First?
+
+Learners often ask whether to study Segment Trees or Two Pointers and Sliding Window first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time, and it is closely tied to tree nodes covering ranges and range queries. Two Pointers and Sliding Window, by contrast, is techniques that scan arrays with two moving positions to avoid nested loops, and it is closely tied to left and right pointers and window boundaries.
+
+Choose Segment Trees first if you care about range sum queries or finding minimums in a window. Choose Two Pointers and Sliding Window first if you care about finding pairs with a given sum or longest substring problems.
+
+Think of Segment Trees as a tournament bracket that remembers the winner of every group of players, and of Two Pointers and Sliding Window as a small frame that slides along a line of text. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Segment Trees, avoid off-by-one errors in ranges. With Two Pointers and Sliding Window, avoid moving the wrong pointer.
+
+A good habit for Segment Trees is to test your tree against a slow brute-force version on small inputs. A good habit for Two Pointers and Sliding Window is to write down the window invariant before coding the loop.

@@ -1,0 +1,11 @@
+Choosing Tools for Vector Clocks
+
+There is no single best tool for Vector Clocks. The right choice depends on your project, your team and your timeline.
+
+Riak is a common first choice, especially for detecting concurrent edits. the Amazon Dynamo paper suits teams that already work with similar technology, and CRDT libraries is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle replicated databases well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: clocks that grow with many nodes.
+
+As a rule of thumb, compare clocks entry by entry to detect true concurrency, no matter which tool you use.

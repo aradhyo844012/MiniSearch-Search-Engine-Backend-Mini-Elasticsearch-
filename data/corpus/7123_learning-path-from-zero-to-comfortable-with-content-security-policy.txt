@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Content Security Policy
+
+This path is for a learner who has never studied Content Security Policy before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Content Security Policy is a browser feature that limits which scripts and resources a page may load) and learn directives and nonces.
+
+Stage 2, hands-on: install browser DevTools, follow a tutorial, and build a small example involving reducing the impact of XSS.
+
+Stage 3, depth: study report-only mode and trusted sources, then deliberately explore this problem: allowing unsafe-inline.
+
+Stage 4, application: apply Content Security Policy to blocking unwanted scripts, compare CSP Evaluator with Report URI, and write up your results.
+
+Stage 5, review: teach Content Security Policy to someone else, and then move on to Threat Modeling.

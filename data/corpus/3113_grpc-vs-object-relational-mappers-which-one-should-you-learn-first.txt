@@ -1,0 +1,13 @@
+gRPC vs Object-Relational Mappers: Which One Should You Learn First?
+
+Learners often ask whether to study gRPC or Object-Relational Mappers first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+gRPC is a framework for fast remote procedure calls using typed contracts, and it is closely tied to protocol buffers and service definitions. Object-Relational Mappers, by contrast, is libraries that map database tables to objects in code, and it is closely tied to models and queries.
+
+Choose gRPC first if you care about service-to-service calls or low-latency APIs. Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases.
+
+Think of gRPC as a phone line with a pre-agreed script for every call, and of Object-Relational Mappers as a translator between the language of tables and the language of objects. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With gRPC, avoid breaking changes in message fields. With Object-Relational Mappers, avoid N+1 queries.
+
+A good habit for gRPC is to never reuse or renumber field numbers in a proto file. A good habit for Object-Relational Mappers is to log the generated SQL during development.

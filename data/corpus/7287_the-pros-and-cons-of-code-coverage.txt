@@ -1,0 +1,15 @@
+The Pros and Cons of Code Coverage
+
+No technology is free of trade-offs, and Code Coverage is no exception. Here is an honest summary.
+
+Advantages:
+- Supports finding untested code
+- Makes setting quality gates easier
+- Helps with tracking test progress
+
+Drawbacks and risks:
+- Risk: chasing 100 percent
+- Risk: treating coverage as quality
+- Risk: ignoring branch coverage
+
+Weigh the two lists against your own project. If the advantages match your needs, such as finding untested code, and you can manage the risks, Code Coverage is a sound choice. Whatever you decide, use coverage to find gaps, not to judge quality.

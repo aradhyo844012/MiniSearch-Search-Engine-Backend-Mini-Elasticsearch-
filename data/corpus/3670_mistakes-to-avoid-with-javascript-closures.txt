@@ -1,0 +1,11 @@
+Mistakes to Avoid with JavaScript Closures
+
+Everyone learns JavaScript Closures partly through mistakes. Here are three worth avoiding.
+
+Mistake one: loop variables captured by mistake. It usually appears when someone skips lexical scope and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: memory leaks from long-lived closures. It tends to be noticed late, often during testing of keeping private state in modules. A short checklist during review catches it early.
+
+Mistake three: accidentally sharing mutable state. It is easy to miss because everything seems to work at first. Keep an eye on memory retention to spot it.
+
+If you remember only one rule, make it this: use let instead of var inside loops.

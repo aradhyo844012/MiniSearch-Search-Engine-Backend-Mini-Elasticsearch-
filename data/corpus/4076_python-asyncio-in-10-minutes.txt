@@ -1,0 +1,15 @@
+Python Asyncio in 10 Minutes
+
+You have ten minutes, so here is the fast route through Python Asyncio.
+
+Minutes 1 and 2, the definition: Python Asyncio is a library for running many waiting tasks concurrently on a single thread.
+
+Minutes 3 and 4, the vocabulary: learn event loop, coroutines, await, and tasks.
+
+Minutes 5 and 6, the picture: imagine a chef who starts several dishes and checks each one when its timer rings. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through calling many APIs at once, web servers, and network clients.
+
+Minutes 9 and 10, the traps and the tools: watch for blocking calls inside coroutines and forgetting to await, then try asyncio for a first experiment.
+
+If you have a spare minute, remember to never call blocking code directly inside a coroutine.

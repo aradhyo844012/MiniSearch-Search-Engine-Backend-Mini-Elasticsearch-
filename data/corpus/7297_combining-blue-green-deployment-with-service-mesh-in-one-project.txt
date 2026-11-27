@@ -1,0 +1,15 @@
+Combining Blue-Green Deployment with Service Mesh in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Blue-Green Deployment and Service Mesh can work together in a single project.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+Imagine a project that involves zero-downtime releases and securing service traffic. Blue-Green Deployment brings blue and green environments, while Service Mesh brings sidecar proxies.
+
+A sensible plan is to start with AWS CodeDeploy for the Blue-Green Deployment part and Istio for the Service Mesh part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: doubling infrastructure costs on one side, and adopting it too early on the other.
+
+Picture the whole as swapping to a fully prepared spare stage while the show goes on, working alongside a postal system that applies delivery rules between buildings.
+
+Two habits help: first, keep the old environment running until the new one is proven; second, adopt it only once the number of services makes manual setup painful.

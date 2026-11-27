@@ -1,0 +1,11 @@
+Scaling Considerations for Command Line Productivity
+
+A design that works for a classroom project can behave very differently under real load. Here is how Command Line Productivity changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding aliases and getting automating repetitive tasks right.
+
+Medium scale: problems start to appear. Watch for copying commands without understanding them and dangerous wildcard use, and measure with bash before changing anything.
+
+Large scale: history search and scripts move from background details to central design questions. Teams often revisit their choices around exploring files and logs at this stage.
+
+Before you scale, turn commands you repeat into small scripts. It is cheaper to build that habit early than to fix a crisis later.

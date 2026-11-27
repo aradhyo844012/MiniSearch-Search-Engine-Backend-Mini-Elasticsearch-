@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Time-Series Databases
+
+This path is for a learner who has never studied Time-Series Databases before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Time-Series Databases is databases optimized for storing and querying data points ordered by time) and learn timestamps and retention policies.
+
+Stage 2, hands-on: install InfluxDB, follow a tutorial, and build a small example involving server metrics.
+
+Stage 3, depth: study downsampling and tags and fields, then deliberately explore this problem: high-cardinality tags.
+
+Stage 4, application: apply Time-Series Databases to sensor readings, compare TimescaleDB with Prometheus, and write up your results.
+
+Stage 5, review: teach Time-Series Databases to someone else, and then move on to LSM Trees.

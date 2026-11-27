@@ -1,0 +1,15 @@
+Combining LSM Trees with Column-Oriented Storage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how LSM Trees and Column-Oriented Storage can work together in a single project.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Imagine a project that involves write-heavy databases and analytics dashboards. LSM Trees brings memtable, while Column-Oriented Storage brings column chunks.
+
+A sensible plan is to start with RocksDB for the LSM Trees part and Apache Parquet for the Column-Oriented Storage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: compaction stalls on one side, and many small writes on the other.
+
+Picture the whole as a mail room that sorts incoming letters in batches rather than one by one, working alongside a spreadsheet kept as separate lists per column so you can read just one.
+
+Two habits help: first, watch compaction metrics before blaming the application; second, select only the columns you really need.

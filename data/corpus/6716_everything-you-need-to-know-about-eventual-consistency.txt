@@ -1,0 +1,26 @@
+Everything You Need to Know About Eventual Consistency
+
+This page collects the essentials about Eventual Consistency in one place. In short, Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+Core concepts:
+- replication delay
+- conflict resolution
+- read-your-writes
+- convergence
+
+Where it is used:
+- global social feeds
+- shopping cart services
+- DNS records
+
+Common problems:
+- assuming reads are always fresh
+- unresolved write conflicts
+- no user feedback during delays
+
+Tools to know:
+- Amazon DynamoDB
+- Apache Cassandra
+- CRDT libraries
+
+Remember this above all: news spreading through a village until everyone has heard it is a good way to picture it, and the best habit is to decide up front how your app handles stale reads.

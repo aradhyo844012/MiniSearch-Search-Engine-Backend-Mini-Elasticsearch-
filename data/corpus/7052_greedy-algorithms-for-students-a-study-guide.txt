@@ -1,0 +1,17 @@
+Greedy Algorithms for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Greedy Algorithms.
+
+Learning goals:
+1. Explain Greedy Algorithms in your own words.
+2. Describe greedy choice property, optimal substructure, exchange arguments, and local versus global optimum.
+3. Give examples from interval scheduling and Huffman coding.
+4. Name three problems to watch for.
+
+Start with the definition: Greedy Algorithms is algorithms that build a solution by always taking the locally best choice. Then draw picking the closest open parking spot at every junction and hoping it works out on paper and label the four terms from the goals above.
+
+Self-test questions: Why is assuming greedy always works a problem? How does optimal substructure relate to exchange arguments? When would you choose pen and paper proofs or Python sorted?
+
+Study habit: try to break your greedy idea with a small counterexample before trusting it.
+
+When you feel ready, compare Greedy Algorithms with Topological Sorting and write down three differences.

@@ -1,0 +1,11 @@
+Where to Go Next After Learning Connection Pooling
+
+You have met the basics of Connection Pooling. Here is how to keep the momentum going.
+
+Go wider: read about LSM Trees, which belongs to the same area as Connection Pooling (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of pool size, idle connections, timeouts or connection leaks, and study it until you can explain it to a beginner.
+
+Go practical: build something around serverless functions that call databases with PgBouncer, and note every problem you meet, starting with pools larger than the database allows.
+
+Go social: share what you learned. Explaining Connection Pooling to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

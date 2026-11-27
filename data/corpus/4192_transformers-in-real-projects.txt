@@ -1,0 +1,11 @@
+Transformers in Real Projects
+
+Reading about Transformers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: language translation. Here, self-attention drives the main design choices, and the team needs to guard against huge compute requirements.
+
+Scenario two: text generation. This time positional encoding matters most, and tools such as Hugging Face help keep things manageable.
+
+Scenario three: code assistance. The key idea is encoder and decoder blocks, and the biggest risk is limited context windows.
+
+Across all three scenarios, Transformers stays the same idea: neural network architectures that use attention to relate all parts of an input to each other. Only the details change.

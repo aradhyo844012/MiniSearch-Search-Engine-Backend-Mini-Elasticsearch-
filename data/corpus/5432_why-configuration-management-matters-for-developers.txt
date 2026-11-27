@@ -1,0 +1,11 @@
+Why Configuration Management Matters for Developers
+
+Developers who understand Configuration Management make better decisions, because Configuration Management is keeping application settings separate from code so they can change per environment.
+
+Three situations show why it matters. First, separating development and production. Second, toggling features. Third, deploying the same build everywhere. In each case, a solid grasp of environment variables and config files separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: committing secrets, inconsistent defaults, and undocumented settings.
+
+You will not need to build everything yourself; dotenv, Pydantic settings, and HashiCorp Consul cover most needs.
+
+Connect Configuration Management with Logging Best Practices to see the bigger picture of Backend Engineering.

@@ -1,0 +1,11 @@
+Scaling Considerations for Data Quality Checks
+
+A design that works for a classroom project can behave very differently under real load. Here is how Data Quality Checks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding null checks and getting protecting dashboards right.
+
+Medium scale: problems start to appear. Watch for alerts nobody reads and checks only at the end of pipelines, and measure with Great Expectations before changing anything.
+
+Large scale: freshness and schema validation move from background details to central design questions. Teams often revisit their choices around validating ingestion at this stage.
+
+Before you scale, check data as early as it enters the pipeline. It is cheaper to build that habit early than to fix a crisis later.

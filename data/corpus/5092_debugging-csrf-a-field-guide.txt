@@ -1,0 +1,13 @@
+Debugging CSRF: A Field Guide
+
+When something goes wrong around CSRF, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using GET requests for state changes, skipping tokens on cookie-based APIs, and misconfigured SameSite settings.
+Step 3: revisit session cookies and anti-CSRF tokens, since misunderstandings there cause many bugs.
+Step 4: use Django CSRF middleware or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving CSRF in work such as protecting forms come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, combine SameSite cookies with anti-CSRF tokens. It prevents a surprising number of repeat problems.

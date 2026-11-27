@@ -1,0 +1,12 @@
+Questions to Ask About Endianness in Code Review
+
+Reviewing code that involves Endianness is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is little-endian clear to someone reading the code for the first time?
+- Have we considered mixing byte orders?
+- Have we avoided this problem: forgetting to convert before sending?
+- Would a test catch assuming all machines are alike if it appeared later?
+- Does the code handle the case of network protocols correctly?
+- Is Python struct used consistently, or are we mixing approaches?
+
+Good reviews of work on Endianness are specific, kind and focused on byte order marks, not on personal style.

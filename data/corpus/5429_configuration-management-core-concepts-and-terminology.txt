@@ -1,0 +1,10 @@
+Configuration Management: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Configuration Management with confidence. The subject itself is keeping application settings separate from code so they can change per environment.
+
+environment variables: one of the building blocks of Configuration Management. It shows up whenever you work on separating development and production.
+config files: one of the building blocks of Configuration Management. It shows up whenever you work on separating development and production.
+defaults: one of the building blocks of Configuration Management. It shows up whenever you work on separating development and production.
+secrets handling: one of the building blocks of Configuration Management. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about toggling features. If the sentences feel natural, the vocabulary has stuck.

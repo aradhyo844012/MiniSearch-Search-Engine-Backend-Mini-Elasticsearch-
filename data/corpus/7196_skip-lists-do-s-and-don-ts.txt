@@ -1,0 +1,17 @@
+Skip Lists Do's and Don'ts
+
+A quick list of habits for working with Skip Lists.
+
+Do:
+- Learn multiple levels before anything else.
+- Try Redis sorted sets on a small example.
+- Make it a habit to draw several levels by hand to see how a search moves down.
+- Test the case of ordered in-memory indexes early.
+
+Don't:
+- Ignore this: poor random number choices.
+- Ignore this: memory overhead.
+- Ignore this: harder debugging than arrays.
+- Adopt Skip Lists just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Skip Lists, a little patience with random level assignment pays off more than any clever shortcut.

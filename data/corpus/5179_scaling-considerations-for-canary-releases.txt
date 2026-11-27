@@ -1,0 +1,11 @@
+Scaling Considerations for Canary Releases
+
+A design that works for a classroom project can behave very differently under real load. Here is how Canary Releases changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding traffic percentages and getting safer releases right.
+
+Medium scale: problems start to appear. Watch for too little traffic to reveal problems and no clear success metrics, and measure with Argo Rollouts before changing anything.
+
+Large scale: automatic rollback and progressive rollout move from background details to central design questions. Teams often revisit their choices around testing with real traffic at this stage.
+
+Before you scale, define rollback conditions before starting the rollout. It is cheaper to build that habit early than to fix a crisis later.

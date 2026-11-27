@@ -1,0 +1,11 @@
+Scaling Considerations for Go Goroutines
+
+A design that works for a classroom project can behave very differently under real load. Here is how Go Goroutines changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding goroutines and getting servers handling many connections right.
+
+Medium scale: problems start to appear. Watch for goroutine leaks and data races, and measure with the go command before changing anything.
+
+Large scale: select statements and wait groups move from background details to central design questions. Teams often revisit their choices around parallel data processing at this stage.
+
+Before you scale, run your tests with the race detector turned on. It is cheaper to build that habit early than to fix a crisis later.

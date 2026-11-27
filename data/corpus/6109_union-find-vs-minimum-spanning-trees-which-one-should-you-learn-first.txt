@@ -1,0 +1,13 @@
+Union-Find vs Minimum Spanning Trees: Which One Should You Learn First?
+
+Learners often ask whether to study Union-Find or Minimum Spanning Trees first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly, and it is closely tied to parent pointers and union operation. Minimum Spanning Trees, by contrast, is a set of edges that connects every node in a graph with the smallest possible total weight, and it is closely tied to weighted graphs and Kruskal's algorithm.
+
+Choose Union-Find first if you care about detecting connected components or building minimum spanning trees. Choose Minimum Spanning Trees first if you care about designing cable networks or clustering data.
+
+Think of Union-Find as a set of club rosters where two clubs can merge into one, and of Minimum Spanning Trees as laying the cheapest set of roads that still links every town. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Union-Find, avoid forgetting path compression. With Minimum Spanning Trees, avoid using it on directed graphs.
+
+A good habit for Union-Find is to implement path compression and union by rank together. A good habit for Minimum Spanning Trees is to sort the edges once and reuse the order when testing variations.

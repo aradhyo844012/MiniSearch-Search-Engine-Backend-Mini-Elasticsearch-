@@ -1,0 +1,13 @@
+Debugging Statistical Significance: A Field Guide
+
+When something goes wrong around Statistical Significance, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mistaking significance for importance, p-hacking, and ignoring sample size.
+Step 3: revisit p-values and the null hypothesis, since misunderstandings there cause many bugs.
+Step 4: use SciPy or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Statistical Significance in work such as judging experiment results come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, always report the effect size alongside the p-value. It prevents a surprising number of repeat problems.

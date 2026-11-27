@@ -1,0 +1,11 @@
+Choosing Tools for Offline-First Apps
+
+There is no single best tool for Offline-First Apps. The right choice depends on your project, your team and your timeline.
+
+SQLite is a common first choice, especially for field service tools. PouchDB suits teams that already work with similar technology, and Room is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle note-taking apps well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: unresolved sync conflicts.
+
+As a rule of thumb, show users which changes have not synced yet, no matter which tool you use.

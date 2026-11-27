@@ -1,0 +1,15 @@
+gRPC Quick Reference
+
+A one-screen reminder for gRPC. Bookmark it and return when the details fade.
+
+What it is: a framework for fast remote procedure calls using typed contracts.
+Key terms: protocol buffers, service definitions, streaming, and HTTP/2.
+Typical uses: service-to-service calls, low-latency APIs, and streaming data.
+Risks: breaking changes in message fields, poor browser support without a proxy, and harder manual debugging.
+Tools: protoc, grpcurl, and Envoy.
+
+Mental picture: a phone line with a pre-agreed script for every call.
+
+Habit to build: never reuse or renumber field numbers in a proto file.
+
+See also: Webhooks, which sits close to gRPC in the area of Backend Engineering.

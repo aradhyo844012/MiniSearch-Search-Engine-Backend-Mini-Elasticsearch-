@@ -1,0 +1,15 @@
+Idempotency Quick Reference
+
+A one-screen reminder for Idempotency. Bookmark it and return when the details fade.
+
+What it is: the property that repeating an operation gives the same result as doing it once.
+Key terms: idempotency keys, safe retries, deduplication, and at-least-once delivery.
+Typical uses: payment APIs, message processing, and retrying failed requests.
+Risks: keys that expire too soon, side effects outside the guarded step, and reusing keys for different requests.
+Tools: Stripe idempotency keys, Redis, and database unique constraints.
+
+Mental picture: pressing an elevator call button many times and still getting one elevator.
+
+Habit to build: store the result with the key so retries return the same response.
+
+See also: CQRS, which sits close to Idempotency in the area of Distributed Systems.

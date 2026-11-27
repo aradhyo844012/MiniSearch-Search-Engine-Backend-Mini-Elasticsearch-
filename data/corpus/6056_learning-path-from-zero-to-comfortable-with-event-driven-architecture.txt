@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Event-Driven Architecture
+
+This path is for a learner who has never studied Event-Driven Architecture before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them) and learn producers and consumers and event brokers.
+
+Stage 2, hands-on: install Apache Kafka, follow a tutorial, and build a small example involving order pipelines.
+
+Stage 3, depth: study loose coupling and asynchronous handling, then deliberately explore this problem: hard-to-trace flows.
+
+Stage 4, application: apply Event-Driven Architecture to real-time notifications, compare RabbitMQ with AWS EventBridge, and write up your results.
+
+Stage 5, review: teach Event-Driven Architecture to someone else, and then move on to Pair Programming.

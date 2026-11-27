@@ -1,0 +1,13 @@
+Canary Releases vs Disaster Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Canary Releases or Disaster Recovery first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it is closely tied to traffic percentages and health metrics. Disaster Recovery, by contrast, is the plans and systems that restore services after major failures, and it is closely tied to recovery time objective and recovery point objective.
+
+Choose Canary Releases first if you care about safer releases or testing with real traffic. Choose Disaster Recovery first if you care about surviving regional outages or meeting compliance needs.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads, and of Disaster Recovery as a fire drill for a whole system. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Canary Releases, avoid too little traffic to reveal problems. With Disaster Recovery, avoid untested plans.
+
+A good habit for Canary Releases is to define rollback conditions before starting the rollout. A good habit for Disaster Recovery is to run a failover exercise on a regular schedule.

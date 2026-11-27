@@ -1,0 +1,11 @@
+Is State Management Right for Your Project?
+
+Before adopting State Management, ask whether it fits the problem. Remember that State Management is the practice of organizing where an application keeps and updates its data.
+
+It is a good fit when your work involves large single-page apps or shared shopping carts, and when your team understands single source of truth.
+
+Be cautious when the project is very small, when deadlines leave no room to learn actions, or when you cannot manage these risks: putting everything in global state, duplicated state that drifts apart, and unclear update paths.
+
+A simple decision test: write down the problem in one sentence, then check whether reducers and derived state are part of the answer. If they are, State Management is probably worth a closer look.
+
+If you decide to go ahead, start small with multi-step form wizards and keep state as close as possible to where it is used.

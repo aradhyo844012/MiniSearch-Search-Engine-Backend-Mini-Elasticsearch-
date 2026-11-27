@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Topological Sorting
+
+This is a fictional but realistic day for a developer whose project relies on Topological Sorting.
+
+Morning: Asha starts by reviewing a ticket about build systems. Before touching any code, Asha re-reads the notes on directed acyclic graphs to make sure the plan is sound.
+
+Midday: Asha pairs with a teammate to explore in-degree counts with Python graphlib. A small test exposes the problem of ignoring cycles, and they fix it together.
+
+Afternoon: the team discusses a new request involving course prerequisite planning. Asha sketches a recipe that must list every step after the steps it depends on on the whiteboard to help everyone follow the idea.
+
+End of day: Asha writes a short note describing what changed and adds a reminder to check for cycles first so you can report a clear error.
+
+Days like this are typical. Topological Sorting is not glamorous, but understanding it keeps small problems from growing.

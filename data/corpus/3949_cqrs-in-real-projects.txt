@@ -1,0 +1,11 @@
+CQRS in Real Projects
+
+Reading about CQRS is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: high-read dashboards. Here, commands drives the main design choices, and the team needs to guard against adding it to simple apps.
+
+Scenario two: complex domains. This time queries matters most, and tools such as Axon Framework help keep things manageable.
+
+Scenario three: scaling reads independently. The key idea is read models, and the biggest risk is read models drifting out of sync.
+
+Across all three scenarios, CQRS stays the same idea: a pattern that separates the models used to change data from the models used to read it. Only the details change.

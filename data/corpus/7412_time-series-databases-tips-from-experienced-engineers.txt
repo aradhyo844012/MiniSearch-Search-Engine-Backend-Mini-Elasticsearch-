@@ -1,0 +1,11 @@
+Time-Series Databases Tips from Experienced Engineers
+
+Engineers who work with Time-Series Databases regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip timestamps; everything else builds on it.
+2. When something behaves strangely, revisit retention policies before anything else.
+3. Reach for InfluxDB first, and only then evaluate alternatives such as TimescaleDB.
+4. Test the case of server metrics early, before the design hardens.
+5. Make sure you can include a time range in every query.
+
+None of these tips needs special equipment, and all of them apply to sensor readings as well.

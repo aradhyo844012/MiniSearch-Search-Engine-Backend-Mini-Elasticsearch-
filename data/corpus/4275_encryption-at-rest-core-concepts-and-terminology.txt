@@ -1,0 +1,10 @@
+Encryption at Rest: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Encryption at Rest with confidence. The subject itself is protecting stored data by encrypting it on disk or in a database.
+
+symmetric keys: one of the building blocks of Encryption at Rest. It shows up whenever you work on protecting backups.
+key management: one of the building blocks of Encryption at Rest. Mixing it up with neighboring terms is a common source of confusion.
+disk encryption: one of the building blocks of Encryption at Rest. Documentation for LUKS usually mentions it early.
+envelope encryption: one of the building blocks of Encryption at Rest. Documentation for LUKS usually mentions it early.
+
+Practice using these four terms in sentences about meeting compliance rules. If the sentences feel natural, the vocabulary has stuck.

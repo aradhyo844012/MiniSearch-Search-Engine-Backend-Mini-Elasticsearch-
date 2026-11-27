@@ -1,0 +1,11 @@
+Scaling Considerations for Test-Driven Development
+
+A design that works for a classroom project can behave very differently under real load. Here is how Test-Driven Development changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding red, green, refactor and getting designing small modules right.
+
+Medium scale: problems start to appear. Watch for writing tests that are too large and skipping the refactor step, and measure with pytest before changing anything.
+
+Large scale: test first and fast feedback move from background details to central design questions. Teams often revisit their choices around preventing regressions at this stage.
+
+Before you scale, keep each red-green cycle to a few minutes. It is cheaper to build that habit early than to fix a crisis later.

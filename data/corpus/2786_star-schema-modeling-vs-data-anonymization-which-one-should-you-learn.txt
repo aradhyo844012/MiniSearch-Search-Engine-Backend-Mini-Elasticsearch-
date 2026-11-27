@@ -1,0 +1,13 @@
+Star Schema Modeling vs Data Anonymization: Which One Should You Learn First?
+
+Learners often ask whether to study Star Schema Modeling or Data Anonymization first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it is closely tied to fact tables and dimension tables. Data Anonymization, by contrast, is removing or altering personal details in data so people cannot be identified, and it is closely tied to masking and generalization.
+
+Choose Star Schema Modeling first if you care about business intelligence reports or data warehouses. Choose Data Anonymization first if you care about sharing datasets with researchers or testing with production-like data.
+
+Think of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions, and of Data Anonymization as blurring faces in a crowd photo while keeping the scene. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Star Schema Modeling, avoid mixing different grains. With Data Anonymization, avoid re-identification through combined fields.
+
+A good habit for Star Schema Modeling is to state the grain of the fact table before designing anything else. A good habit for Data Anonymization is to test whether combining fields could identify a person.

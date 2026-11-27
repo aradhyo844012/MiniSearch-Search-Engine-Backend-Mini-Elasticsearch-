@@ -1,0 +1,13 @@
+API Versioning vs Dependency Injection: Which One Should You Learn First?
+
+Learners often ask whether to study API Versioning or Dependency Injection first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+API Versioning is the practice of evolving an API without breaking existing clients, and it is closely tied to version in the URL and header versioning. Dependency Injection, by contrast, is a design approach where objects receive their dependencies instead of creating them, and it is closely tied to constructor injection and interfaces.
+
+Choose API Versioning first if you care about public APIs or mobile apps that cannot update instantly. Choose Dependency Injection first if you care about easier unit testing or swapping implementations.
+
+Think of API Versioning as keeping old editions of a textbook available while a new one is published, and of Dependency Injection as a chef who is handed ingredients instead of shopping for them. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With API Versioning, avoid versioning too often. With Dependency Injection, avoid hiding too much behind containers.
+
+A good habit for API Versioning is to announce deprecations with a clear sunset date. A good habit for Dependency Injection is to inject interfaces so tests can use simple fakes.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with CSRF
+
+This path is for a learner who has never studied CSRF before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site) and learn session cookies and anti-CSRF tokens.
+
+Stage 2, hands-on: install Django CSRF middleware, follow a tutorial, and build a small example involving protecting forms.
+
+Stage 3, depth: study SameSite cookies and state-changing requests, then deliberately explore this problem: using GET requests for state changes.
+
+Stage 4, application: apply CSRF to securing account settings, compare Flask-WTF with OWASP guides, and write up your results.
+
+Stage 5, review: teach CSRF to someone else, and then move on to Hashing vs Encryption.

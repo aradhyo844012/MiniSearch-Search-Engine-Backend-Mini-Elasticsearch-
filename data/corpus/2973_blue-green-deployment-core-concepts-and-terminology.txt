@@ -1,0 +1,10 @@
+Blue-Green Deployment: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Blue-Green Deployment with confidence. The subject itself is a release method that keeps two identical environments and switches traffic from the old one to the new one.
+
+blue and green environments: one of the building blocks of Blue-Green Deployment. You should be able to explain it in a single sentence before moving on.
+traffic switching: one of the building blocks of Blue-Green Deployment. Documentation for AWS CodeDeploy usually mentions it early.
+rollback: one of the building blocks of Blue-Green Deployment. Mixing it up with neighboring terms is a common source of confusion.
+database compatibility: one of the building blocks of Blue-Green Deployment. It shows up whenever you work on zero-downtime releases.
+
+Practice using these four terms in sentences about quick rollbacks. If the sentences feel natural, the vocabulary has stuck.

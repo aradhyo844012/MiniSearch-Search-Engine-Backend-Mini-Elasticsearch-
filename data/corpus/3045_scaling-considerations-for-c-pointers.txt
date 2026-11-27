@@ -1,0 +1,11 @@
+Scaling Considerations for C Pointers
+
+A design that works for a classroom project can behave very differently under real load. Here is how C Pointers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding addresses and getting dynamic memory allocation right.
+
+Medium scale: problems start to appear. Watch for dereferencing null pointers and memory leaks, and measure with GCC before changing anything.
+
+Large scale: pointer arithmetic and null pointers move from background details to central design questions. Teams often revisit their choices around passing large data efficiently at this stage.
+
+Before you scale, set pointers to NULL after freeing them. It is cheaper to build that habit early than to fix a crisis later.

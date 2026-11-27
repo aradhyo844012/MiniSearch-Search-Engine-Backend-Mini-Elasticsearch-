@@ -1,0 +1,13 @@
+Debugging Code Editors and IDEs: A Field Guide
+
+When something goes wrong around Code Editors and IDEs, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: installing too many extensions, ignoring keyboard shortcuts, and relying on autocomplete blindly.
+Step 3: revisit syntax highlighting and autocomplete, since misunderstandings there cause many bugs.
+Step 4: use VS Code or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Code Editors and IDEs in work such as daily development come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, learn the shortcuts for the actions you repeat most. It prevents a surprising number of repeat problems.

@@ -1,0 +1,13 @@
+Teaching Internationalization to a Teammate
+
+Explaining Internationalization to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a stage set where the backdrop can be swapped for each audience. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Internationalization is designing software so it can be adapted to different languages and regions. Avoid jargon at this stage.
+
+Walk through an example involving global products, naming locale detection and translation files as they come up.
+
+Ask your teammate to explain pluralization in Internationalization back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, hard-coded strings, and suggest this habit: move every user-facing string into translation files from the first day.

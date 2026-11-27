@@ -1,0 +1,10 @@
+Fenwick Trees: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Fenwick Trees with confidence. The subject itself is a compact structure for prefix sums that supports fast updates.
+
+binary indexed trees: one of the building blocks of Fenwick Trees. It shows up whenever you work on counting inversions.
+lowest set bit: one of the building blocks of Fenwick Trees. Mixing it up with neighboring terms is a common source of confusion.
+prefix sums: one of the building blocks of Fenwick Trees. Mixing it up with neighboring terms is a common source of confusion.
+point updates: one of the building blocks of Fenwick Trees. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about maintaining running totals. If the sentences feel natural, the vocabulary has stuck.

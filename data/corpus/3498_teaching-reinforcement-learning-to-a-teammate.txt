@@ -1,0 +1,13 @@
+Teaching Reinforcement Learning to a Teammate
+
+Explaining Reinforcement Learning to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: training a dog with treats for good behavior. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes. Avoid jargon at this stage.
+
+Walk through an example involving game playing, naming agent and environment as they come up.
+
+Ask your teammate to explain reward in Reinforcement Learning back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, badly designed rewards, and suggest this habit: start with simple environments.

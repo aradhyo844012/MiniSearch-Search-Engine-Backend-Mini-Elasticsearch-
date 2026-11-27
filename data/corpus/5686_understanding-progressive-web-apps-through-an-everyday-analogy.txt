@@ -1,0 +1,9 @@
+Understanding Progressive Web Apps Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a website that packs its own suitcase so it still works when the network is gone.
+
+In that picture, web app manifest is the first rule you follow, service worker is the next step, and installability and responsive design keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Progressive Web Apps is web applications that can be installed and work offline like native apps, and it involves details such as ignoring platform limitations that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Lighthouse to learn the exact behavior. The same picture helps when you explain offline-friendly tools to a friend.

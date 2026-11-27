@@ -1,0 +1,11 @@
+Practice Exercises for Mocking and Stubbing
+
+These exercises build real understanding of Mocking and Stubbing. Do them in order, and write down your answers.
+
+Exercise 1: Explain how spies and fakes differ, using a drawing.
+Exercise 2: Compare Mockito and Sinon.js for avoiding network calls and write down your conclusion.
+Exercise 3: List three situations from your own experience that resemble isolating units or simulating failures.
+Exercise 4: Pick unittest.mock and complete its getting-started tutorial.
+Exercise 5: Create a small example that deliberately triggers this problem: over-mocking. Then fix it.
+
+When you finish, compare your answers with the definition: Mocking and Stubbing is replacing real dependencies with controlled fakes during tests.

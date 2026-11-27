@@ -1,0 +1,9 @@
+Understanding Java Streams Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a conveyor belt where each station changes the item before passing it on.
+
+In that picture, map is the first rule you follow, filter is the next step, and reduce and lazy evaluation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Java Streams is a way of processing collections with chains of declarative operations, and it involves details such as reusing a consumed stream that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for OpenJDK to learn the exact behavior. The same picture helps when you explain transforming lists to a friend.

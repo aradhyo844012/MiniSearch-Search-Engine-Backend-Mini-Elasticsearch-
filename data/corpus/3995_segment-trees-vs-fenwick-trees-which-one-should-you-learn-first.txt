@@ -1,0 +1,13 @@
+Segment Trees vs Fenwick Trees: Which One Should You Learn First?
+
+Learners often ask whether to study Segment Trees or Fenwick Trees first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time, and it is closely tied to tree nodes covering ranges and range queries. Fenwick Trees, by contrast, is a compact structure for prefix sums that supports fast updates, and it is closely tied to binary indexed trees and lowest set bit.
+
+Choose Segment Trees first if you care about range sum queries or finding minimums in a window. Choose Fenwick Trees first if you care about counting inversions or maintaining running totals.
+
+Think of Segment Trees as a tournament bracket that remembers the winner of every group of players, and of Fenwick Trees as a set of running subtotals where each one covers a block of entries. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Segment Trees, avoid off-by-one errors in ranges. With Fenwick Trees, avoid using zero-based indexes by mistake.
+
+A good habit for Segment Trees is to test your tree against a slow brute-force version on small inputs. A good habit for Fenwick Trees is to start indexing from one to keep the bit tricks simple.

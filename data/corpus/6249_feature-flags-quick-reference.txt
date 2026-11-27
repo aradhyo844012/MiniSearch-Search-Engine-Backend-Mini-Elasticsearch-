@@ -1,0 +1,15 @@
+Feature Flags Quick Reference
+
+A one-screen reminder for Feature Flags. Bookmark it and return when the details fade.
+
+What it is: switches in configuration that turn features on or off without redeploying code.
+Key terms: flag evaluation, targeting rules, gradual rollout, and flag cleanup.
+Typical uses: dark launches, A/B tests, and emergency kill switches.
+Risks: never removing old flags, flags that depend on each other, and untested flag combinations.
+Tools: LaunchDarkly, Unleash, and OpenFeature.
+
+Mental picture: light switches wired to every room of a house.
+
+Habit to build: give every flag an owner and a removal date.
+
+See also: Disaster Recovery, which sits close to Feature Flags in the area of DevOps and Cloud.

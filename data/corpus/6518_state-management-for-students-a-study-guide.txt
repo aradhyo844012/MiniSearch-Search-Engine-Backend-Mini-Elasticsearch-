@@ -1,0 +1,17 @@
+State Management for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover State Management.
+
+Learning goals:
+1. Explain State Management in your own words.
+2. Describe single source of truth, actions, reducers, and derived state.
+3. Give examples from large single-page apps and shared shopping carts.
+4. Name three problems to watch for.
+
+Start with the definition: State Management is the practice of organizing where an application keeps and updates its data. Then draw a shared whiteboard that everyone updates through the same rules on paper and label the four terms from the goals above.
+
+Self-test questions: Why is putting everything in global state a problem? How does actions relate to reducers? When would you choose Redux or Zustand?
+
+Study habit worth keeping: keep state as close as possible to where it is used.
+
+When you feel ready, compare State Management with Internationalization and write down three differences.

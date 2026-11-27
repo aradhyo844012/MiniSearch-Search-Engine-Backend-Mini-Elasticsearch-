@@ -1,0 +1,15 @@
+Combining Zero Trust Security with Penetration Testing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Zero Trust Security and Penetration Testing can work together in a single project.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified. Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do.
+
+Imagine a project that involves remote work access and pre-launch security checks. Zero Trust Security brings identity verification, while Penetration Testing brings scoping.
+
+A sensible plan is to start with Okta for the Zero Trust Security part and OWASP ZAP for the Penetration Testing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor identity hygiene on one side, and ignoring the findings afterward on the other.
+
+Picture the whole as a building where every door checks your badge, not just the front entrance, working alongside hiring a locksmith to test your doors.
+
+Two habits help: first, start with strong identity and device checks; second, get written authorization before any test.

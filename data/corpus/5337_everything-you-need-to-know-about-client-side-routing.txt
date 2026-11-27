@@ -1,0 +1,26 @@
+Everything You Need to Know About Client-Side Routing
+
+This page collects the essentials about Client-Side Routing in one place. In short, Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Core concepts:
+- history API
+- route matching
+- nested routes
+- route guards
+
+Where it is used:
+- single-page apps
+- dashboards
+- multi-step flows
+
+Common problems:
+- broken deep links
+- unhandled 404 pages
+- lost scroll position
+
+Tools to know:
+- React Router
+- Vue Router
+- Next.js
+
+Remember this above all: swapping the picture in a frame without replacing the frame is a good way to picture it, and the best habit is to test refreshing the page on every route.

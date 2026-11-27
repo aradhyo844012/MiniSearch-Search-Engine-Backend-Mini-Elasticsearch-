@@ -1,0 +1,11 @@
+Scaling Considerations for React Hooks
+
+A design that works for a classroom project can behave very differently under real load. Here is how React Hooks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding useState and getting managing form input right.
+
+Medium scale: problems start to appear. Watch for missing dependencies in effects and calling hooks conditionally, and measure with React DevTools before changing anything.
+
+Large scale: dependency arrays and custom hooks move from background details to central design questions. Teams often revisit their choices around fetching data on load at this stage.
+
+Before you scale, enable the hooks lint rules from the start. It is cheaper to build that habit early than to fix a crisis later.

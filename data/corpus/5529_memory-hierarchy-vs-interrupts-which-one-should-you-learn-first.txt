@@ -1,0 +1,13 @@
+Memory Hierarchy vs Interrupts: Which One Should You Learn First?
+
+Learners often ask whether to study Memory Hierarchy or Interrupts first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Memory Hierarchy is the layers of storage from registers to disks, trading speed for size, and it is closely tied to registers and cache. Interrupts, by contrast, is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors.
+
+Choose Memory Hierarchy first if you care about designing efficient programs or explaining slow I/O. Choose Interrupts first if you care about keyboard and mouse input or timers.
+
+Think of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse, and of Interrupts as a phone call interrupting your reading. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Memory Hierarchy, avoid ignoring locality. With Interrupts, avoid long handlers.
+
+A good habit for Memory Hierarchy is to reduce how often your program goes down to the slower layers. A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work.

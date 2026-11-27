@@ -1,0 +1,12 @@
+Minimum Spanning Trees Glossary for Beginners
+
+New words can make Minimum Spanning Trees feel harder than it is. This glossary keeps the key ones in one place.
+
+Minimum Spanning Trees: a set of edges that connects every node in a graph with the smallest possible total weight.
+weighted graphs: a core term, most visible in designing cable networks.
+Kruskal's algorithm: a core term that beginners often confuse with Prim's algorithm.
+Prim's algorithm: a core term that connects to the cut property.
+the cut property: a core term worth revisiting after you try a real example.
+NetworkX: a tool commonly used for clustering data.
+
+Come back to this Minimum Spanning Trees list whenever documentation for SciPy uses a word you do not recognize.

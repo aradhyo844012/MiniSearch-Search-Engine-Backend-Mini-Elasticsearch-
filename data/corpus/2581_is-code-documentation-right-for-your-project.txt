@@ -1,0 +1,11 @@
+Is Code Documentation Right for Your Project?
+
+Before adopting Code Documentation, ask whether it fits the problem. Remember that Code Documentation is written explanations that help others understand and use code.
+
+It is a good fit when your work involves onboarding new developers or describing APIs, and when your team understands README files.
+
+Be cautious when the project is very small, when deadlines leave no room to learn docstrings, or when you cannot manage these risks: outdated docs, comments that repeat the code, and missing examples.
+
+A simple decision test: write down the problem in one sentence, then check whether architecture notes and examples are part of the answer. If they are, Code Documentation is probably worth a closer look.
+
+If you decide to go ahead, start small with recording design decisions and keep documentation in the same repository as the code.

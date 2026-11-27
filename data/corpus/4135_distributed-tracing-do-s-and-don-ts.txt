@@ -1,0 +1,17 @@
+Distributed Tracing Do's and Don'ts
+
+A quick list of habits for working with Distributed Tracing.
+
+Do:
+- Learn spans before anything else.
+- Try OpenTelemetry on a small example.
+- Make it a habit to propagate trace IDs through every outgoing call.
+- Test the case of finding slow services early.
+
+Don't:
+- Ignore this: missing context propagation.
+- Ignore this: sampling too aggressively.
+- Ignore this: overhead from too many spans.
+- Adopt Distributed Tracing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Distributed Tracing, a little patience with trace IDs pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Skills to Build Around B-Trees on Disk
+
+Knowing the definition of B-Trees on Disk is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with pages and branching factor, and able to explain them without notes.
+
+Hands-on practice: spend real time with PostgreSQL on a B-Trees on Disk task, and try at least one alternative such as SQLite.
+
+Judgment: learn to decide when B-Trees on Disk fits a problem such as database indexes, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a filing cabinet where each drawer tells you which drawer to open next.
+
+Habits: keep indexed keys short so more of them fit on a page, and write down what you learn after each project.

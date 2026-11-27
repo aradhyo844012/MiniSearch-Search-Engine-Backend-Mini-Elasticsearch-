@@ -1,0 +1,11 @@
+Property-Based Testing in Real Projects
+
+Reading about Property-Based Testing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: testing parsers. Here, properties drives the main design choices, and the team needs to guard against vague properties.
+
+Scenario two: checking sorting and math functions. This time generators matters most, and tools such as Hypothesis help keep things manageable.
+
+Scenario three: finding edge cases. The key idea is shrinking, and the biggest risk is slow generators.
+
+Across all three scenarios, Property-Based Testing stays the same idea: testing with many automatically generated inputs to check that general rules always hold. Only the details change.

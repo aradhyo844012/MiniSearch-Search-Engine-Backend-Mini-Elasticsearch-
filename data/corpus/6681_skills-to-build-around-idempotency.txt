@@ -1,0 +1,13 @@
+Skills to Build Around Idempotency
+
+Knowing the definition of Idempotency is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with idempotency keys and safe retries, and able to explain them without notes.
+
+Hands-on practice: spend real time with Stripe idempotency keys on a Idempotency task, and try at least one alternative such as Redis.
+
+Judgment: learn to decide when Idempotency fits a problem such as payment APIs, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example pressing an elevator call button many times and still getting one elevator.
+
+Habits: store the result with the key so retries return the same response, and write down what you learn after each project.

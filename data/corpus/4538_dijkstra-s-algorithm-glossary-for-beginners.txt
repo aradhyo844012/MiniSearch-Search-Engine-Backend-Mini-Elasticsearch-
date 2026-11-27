@@ -1,0 +1,12 @@
+Dijkstra's Algorithm Glossary for Beginners
+
+New words can make Dijkstra's Algorithm feel harder than it is. This glossary keeps the key ones in one place.
+
+Dijkstra's Algorithm: a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+priority queue: a core term, most visible in route planning.
+distance table: a core term that beginners often confuse with edge relaxation.
+edge relaxation: a core term that connects to visited set.
+visited set: a core term worth revisiting after you try a real example.
+Python heapq: a tool commonly used for network routing.
+
+Come back to this Dijkstra's Algorithm list whenever documentation for NetworkX uses a word you do not recognize.

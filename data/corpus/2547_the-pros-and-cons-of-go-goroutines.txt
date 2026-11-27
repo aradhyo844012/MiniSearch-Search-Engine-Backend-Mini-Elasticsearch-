@@ -1,0 +1,15 @@
+The Pros and Cons of Go Goroutines
+
+No technology is free of trade-offs, and Go Goroutines is no exception. Here is an honest summary.
+
+Advantages:
+- Supports servers handling many connections
+- Makes parallel data processing easier
+- Helps with background workers
+
+Drawbacks and risks:
+- Risk: goroutine leaks
+- Risk: data races
+- Risk: unbuffered channels causing deadlocks
+
+Weigh the two lists against your own project. If the advantages match your needs, such as servers handling many connections, and you can manage the risks, Go Goroutines is a sound choice. Whatever you decide, run your tests with the race detector turned on.

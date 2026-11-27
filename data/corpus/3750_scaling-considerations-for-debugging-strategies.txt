@@ -1,0 +1,11 @@
+Scaling Considerations for Debugging Strategies
+
+A design that works for a classroom project can behave very differently under real load. Here is how Debugging Strategies changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding reproducing the bug and getting fixing production issues right.
+
+Medium scale: problems start to appear. Watch for changing many things at once and guessing without evidence, and measure with debuggers before changing anything.
+
+Large scale: forming hypotheses and binary search through code move from background details to central design questions. Teams often revisit their choices around learning unfamiliar code at this stage.
+
+Before you scale, change one thing at a time and record the result. It is cheaper to build that habit early than to fix a crisis later.

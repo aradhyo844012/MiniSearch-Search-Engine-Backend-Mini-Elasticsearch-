@@ -1,0 +1,15 @@
+Combining Greedy Algorithms with Skip Lists in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Greedy Algorithms and Skip Lists can work together in a single project.
+
+Greedy Algorithms is algorithms that build a solution by always taking the locally best choice. Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+Imagine a project that involves interval scheduling and ordered in-memory indexes. Greedy Algorithms brings greedy choice property, while Skip Lists brings multiple levels.
+
+A sensible plan is to start with pen and paper proofs for the Greedy Algorithms part and Redis sorted sets for the Skip Lists part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: missing counterexamples on one side, and memory overhead on the other.
+
+Picture the whole as picking the closest open parking spot at every junction and hoping it works out, working alongside an express train line layered over a local train line.
+
+Two habits help: first, try to break your greedy idea with a small counterexample before trusting it; second, draw several levels by hand to see how a search moves down.

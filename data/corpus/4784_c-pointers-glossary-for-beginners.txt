@@ -1,0 +1,12 @@
+C Pointers Glossary for Beginners
+
+New words can make C Pointers feel harder than it is. This glossary keeps the key ones in one place.
+
+C Pointers: variables that store the memory address of another value.
+addresses: a core term, most visible in dynamic memory allocation.
+dereferencing: a core term that beginners often confuse with pointer arithmetic.
+pointer arithmetic: a core term that connects to null pointers.
+null pointers: a core term worth revisiting after you try a real example.
+GCC: a tool commonly used for passing large data efficiently.
+
+Come back to this C Pointers list whenever documentation for Valgrind uses a word you do not recognize.

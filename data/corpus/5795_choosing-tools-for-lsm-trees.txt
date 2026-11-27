@@ -1,0 +1,11 @@
+Choosing Tools for LSM Trees
+
+There is no single best tool for LSM Trees. The right choice depends on your project, your team and your timeline.
+
+RocksDB is a common first choice, especially for write-heavy databases. LevelDB suits teams that already work with similar technology, and Apache Cassandra is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle time-ordered data well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: read amplification.
+
+As a rule of thumb, watch compaction metrics before blaming the application, no matter which tool you use.

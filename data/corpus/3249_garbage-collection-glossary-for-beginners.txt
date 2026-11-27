@@ -1,0 +1,12 @@
+Garbage Collection Glossary for Beginners
+
+New words can make Garbage Collection feel harder than it is. This glossary keeps the key ones in one place.
+
+Garbage Collection: automatic memory management that finds and frees objects a program no longer uses.
+reachability: a core term, most visible in managed languages like Java and Python.
+generations: a core term that beginners often confuse with mark and sweep.
+mark and sweep: a core term that connects to pause times.
+pause times: a core term worth revisiting after you try a real example.
+JVM GC logs: a tool commonly used for reducing memory bugs.
+
+Come back to this Garbage Collection list whenever documentation for the Python gc module uses a word you do not recognize.

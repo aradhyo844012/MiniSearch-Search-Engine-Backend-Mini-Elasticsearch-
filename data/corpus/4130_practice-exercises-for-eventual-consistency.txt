@@ -1,0 +1,11 @@
+Practice Exercises for Eventual Consistency
+
+These exercises build real understanding of Eventual Consistency. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Eventual Consistency and include the term replication delay.
+Exercise 2: Pick Amazon DynamoDB and complete its getting-started tutorial.
+Exercise 3: Create a small example that deliberately triggers this problem: assuming reads are always fresh. Then fix it.
+Exercise 4: Explain how read-your-writes and convergence differ, using a drawing.
+Exercise 5: List three situations from your own experience that resemble global social feeds or shopping cart services.
+
+When you finish, compare your answers with the definition: Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.

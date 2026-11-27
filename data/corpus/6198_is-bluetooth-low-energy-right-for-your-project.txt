@@ -1,0 +1,11 @@
+Is Bluetooth Low Energy Right for Your Project?
+
+Before adopting Bluetooth Low Energy, ask whether it fits the problem. Remember that Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+It is a good fit when your work involves fitness trackers or smart locks, and when your team understands advertising.
+
+Be cautious when the project is very small, when deadlines leave no room to learn GATT services, or when you cannot manage these risks: ignoring connection limits, weak pairing security, and assuming long range.
+
+A simple decision test: write down the problem in one sentence, then check whether characteristics and pairing are part of the answer. If they are, Bluetooth Low Energy is probably worth a closer look.
+
+If you decide to go ahead, start small with proximity beacons and test with several phone models.

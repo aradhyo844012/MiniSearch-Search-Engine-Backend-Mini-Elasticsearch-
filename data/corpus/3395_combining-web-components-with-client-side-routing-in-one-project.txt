@@ -1,0 +1,15 @@
+Combining Web Components with Client-Side Routing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Web Components and Client-Side Routing can work together in a single project.
+
+Web Components is browser-native custom elements with their own markup, style and behavior. Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Imagine a project that involves design system components and single-page apps. Web Components brings custom elements, while Client-Side Routing brings history API.
+
+A sensible plan is to start with Lit for the Web Components part and React Router for the Client-Side Routing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor accessibility on one side, and unhandled 404 pages on the other.
+
+Picture the whole as a Lego brick in its own sealed packaging, working alongside swapping the picture in a frame without replacing the frame.
+
+Two habits help: first, document the attributes and events like a public API; second, test refreshing the page on every route.

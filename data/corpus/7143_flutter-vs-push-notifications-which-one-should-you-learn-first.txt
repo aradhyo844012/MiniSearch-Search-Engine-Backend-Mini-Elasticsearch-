@@ -1,0 +1,13 @@
+Flutter vs Push Notifications: Which One Should You Learn First?
+
+Learners often ask whether to study Flutter or Push Notifications first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Flutter is a toolkit for building natively compiled apps from a single Dart codebase, and it is closely tied to widgets and state. Push Notifications, by contrast, is messages sent to a user's device from a server even when the app is closed, and it is closely tied to device tokens and push services.
+
+Choose Flutter first if you care about cross-platform mobile apps or desktop apps. Choose Push Notifications first if you care about order updates or chat alerts.
+
+Think of Flutter as a box of customizable building blocks drawn by its own engine, and of Push Notifications as a courier who knocks on your door when a package arrives. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Flutter, avoid deep widget trees. With Push Notifications, avoid asking for permission too early.
+
+A good habit for Flutter is to split big widgets into small reusable ones. A good habit for Push Notifications is to ask for permission at a moment when the user understands the value.

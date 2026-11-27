@@ -1,0 +1,13 @@
+Teaching Test-Driven Development to a Teammate
+
+Explaining Test-Driven Development to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: writing the exam questions before teaching the lesson. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass. Avoid jargon at this stage.
+
+Walk through an example involving designing small modules, naming red, green, refactor and small steps as they come up.
+
+Ask your teammate to explain test first in Test-Driven Development back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, writing tests that are too large, and suggest this habit: keep each red-green cycle to a few minutes.

@@ -1,0 +1,15 @@
+The Pros and Cons of CQRS
+
+No technology is free of trade-offs, and CQRS is no exception. Here is an honest summary.
+
+Advantages:
+- Supports high-read dashboards
+- Makes complex domains easier
+- Helps with scaling reads independently
+
+Drawbacks and risks:
+- Risk: adding it to simple apps
+- Risk: read models drifting out of sync
+- Risk: duplicated logic
+
+Weigh the two lists against your own project. If the advantages match your needs, such as high-read dashboards, and you can manage the risks, CQRS is a sound choice. Whatever you decide, start with a single model and split only when reads and writes truly diverge.

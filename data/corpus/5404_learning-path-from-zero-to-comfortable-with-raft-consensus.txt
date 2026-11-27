@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Raft Consensus
+
+This path is for a learner who has never studied Raft Consensus before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations) and learn leader election and log replication.
+
+Stage 2, hands-on: install etcd, follow a tutorial, and build a small example involving configuration stores.
+
+Stage 3, depth: study terms and majority quorum, then deliberately explore this problem: even-sized clusters.
+
+Stage 4, application: apply Raft Consensus to distributed locks, compare Consul with HashiCorp Raft library, and write up your results.
+
+Stage 5, review: teach Raft Consensus to someone else, and then move on to CAP Theorem.

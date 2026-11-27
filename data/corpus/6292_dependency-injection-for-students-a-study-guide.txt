@@ -1,0 +1,17 @@
+Dependency Injection for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Dependency Injection.
+
+Learning goals:
+1. Explain Dependency Injection in your own words.
+2. Describe constructor injection, interfaces, containers, and inversion of control.
+3. Give examples from easier unit testing and swapping implementations.
+4. Name three problems to watch for.
+
+Start with the definition: Dependency Injection is a design approach where objects receive their dependencies instead of creating them. Then draw a chef who is handed ingredients instead of shopping for them on paper and label the four terms from the goals above.
+
+Self-test questions: Why is hiding too much behind containers a problem? How does interfaces relate to containers? When would you choose Spring or FastAPI Depends?
+
+Study habit worth keeping: inject interfaces so tests can use simple fakes.
+
+When you feel ready, compare Dependency Injection with Configuration Management and write down three differences.

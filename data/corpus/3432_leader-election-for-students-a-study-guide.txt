@@ -1,0 +1,17 @@
+Leader Election for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Leader Election.
+
+Learning goals:
+1. Explain Leader Election in your own words.
+2. Describe heartbeats, terms or epochs, candidates, and failover.
+3. Give examples from database primaries and job schedulers.
+4. Name three problems to watch for.
+
+Start with the definition: Leader Election is a process by which nodes in a cluster choose one node to coordinate the work. Then draw a classroom picking a monitor when the teacher leaves on paper and label the four terms from the goals above.
+
+Self-test questions: Why is split brain a problem? How does terms or epochs relate to candidates? When would you choose ZooKeeper or etcd?
+
+Study habit worth keeping: tune heartbeat intervals against real network delays.
+
+When you feel ready, compare Leader Election with Idempotency and write down three differences.

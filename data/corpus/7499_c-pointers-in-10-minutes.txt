@@ -1,0 +1,15 @@
+C Pointers in 10 Minutes
+
+You have ten minutes, so here is the fast route through C Pointers.
+
+Minutes 1 and 2, the definition: C Pointers is variables that store the memory address of another value.
+
+Minutes 3 and 4, the vocabulary: learn addresses, dereferencing, pointer arithmetic, and null pointers.
+
+Minutes 5 and 6, the picture: imagine a street address written on a card instead of the house itself. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through dynamic memory allocation, passing large data efficiently, and building linked structures.
+
+Minutes 9 and 10, the traps and the tools: watch for dereferencing null pointers and memory leaks, then try GCC for a first experiment.
+
+If you have a spare minute, remember to set pointers to NULL after freeing them.

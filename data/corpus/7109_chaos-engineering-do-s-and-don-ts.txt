@@ -1,0 +1,17 @@
+Chaos Engineering Do's and Don'ts
+
+A quick list of habits for working with Chaos Engineering.
+
+Do:
+- Learn steady state before anything else.
+- Try Chaos Monkey on a small example.
+- Make it a habit to start with small experiments in a test environment.
+- Test the case of testing resilience early.
+
+Don't:
+- Ignore this: experimenting without safeguards.
+- Ignore this: having no steady-state metrics.
+- Ignore this: running first in production.
+- Adopt Chaos Engineering just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Chaos Engineering, a little patience with hypotheses pays off more than any clever shortcut.

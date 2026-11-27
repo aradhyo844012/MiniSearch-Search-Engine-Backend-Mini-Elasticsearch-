@@ -1,0 +1,11 @@
+Practice Exercises for Hashing vs Encryption
+
+These exercises build real understanding of Hashing vs Encryption. Do them in order, and write down your answers.
+
+Exercise 1: Compare AES and OpenSSL for protecting data in transit and write down your conclusion.
+Exercise 2: Write a short paragraph describing Hashing vs Encryption and include the term one-way functions.
+Exercise 3: Explain how collision resistance and reversibility differ, using a drawing.
+Exercise 4: List three situations from your own experience that resemble storing passwords or verifying file integrity.
+Exercise 5: Create a small example that deliberately triggers this problem: encrypting passwords instead of hashing them. Then fix it.
+
+When you finish, compare your answers with the definition: Hashing vs Encryption is the difference between one-way digests and reversible protection of data.

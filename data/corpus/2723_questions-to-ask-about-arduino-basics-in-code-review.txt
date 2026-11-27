@@ -1,0 +1,12 @@
+Questions to Ask About Arduino Basics in Code Review
+
+Reviewing code that involves Arduino Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: insufficient power for motors?
+- Is Arduino IDE used consistently, or are we mixing approaches?
+- Could we test each sensor on its own before combining them?
+- Have we considered wiring errors?
+- Is digital and analog pins clear to someone reading the code for the first time?
+- Does this change respect sketches, or does it work around it?
+
+Good reviews of work on Arduino Basics are specific, kind and focused on setup and loop functions, not on personal style.

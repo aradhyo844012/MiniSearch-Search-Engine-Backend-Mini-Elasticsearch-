@@ -1,0 +1,15 @@
+Combining Topological Sorting with Minimum Spanning Trees in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Topological Sorting and Minimum Spanning Trees can work together in a single project.
+
+Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on. Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight.
+
+Imagine a project that involves build systems and designing cable networks. Topological Sorting brings directed acyclic graphs, while Minimum Spanning Trees brings weighted graphs.
+
+A sensible plan is to start with Python graphlib for the Topological Sorting part and NetworkX for the Minimum Spanning Trees part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: assuming the order is unique on one side, and forgetting that the graph must be connected on the other.
+
+Picture the whole as a recipe that must list every step after the steps it depends on, working alongside laying the cheapest set of roads that still links every town.
+
+Two habits help: first, check for cycles first so you can report a clear error; second, sort the edges once and reuse the order when testing variations.

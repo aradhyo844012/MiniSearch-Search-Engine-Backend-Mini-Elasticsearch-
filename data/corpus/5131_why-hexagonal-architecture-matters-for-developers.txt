@@ -1,0 +1,11 @@
+Why Hexagonal Architecture Matters for Developers
+
+Developers who understand Hexagonal Architecture make better decisions, because Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters.
+
+Three situations show why it matters. First, testable business logic. Second, swapping databases. Third, supporting several interfaces. In each case, a solid grasp of ports and adapters separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: too many layers for small apps, leaking framework types into the core, and confusing ports with adapters.
+
+Good tools exist, including Spring, FastAPI, and pytest, so you rarely have to start from nothing.
+
+Connect Hexagonal Architecture with API Design Principles to see the bigger picture of Software Design.

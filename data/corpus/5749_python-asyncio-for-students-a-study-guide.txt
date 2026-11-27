@@ -1,0 +1,17 @@
+Python Asyncio for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Python Asyncio.
+
+Learning goals:
+1. Explain Python Asyncio in your own words.
+2. Describe event loop, coroutines, await, and tasks.
+3. Give examples from calling many APIs at once and web servers.
+4. Name three problems to watch for.
+
+Start with the definition: Python Asyncio is a library for running many waiting tasks concurrently on a single thread. Then draw a chef who starts several dishes and checks each one when its timer rings on paper and label the four terms from the goals above.
+
+Self-test questions: Why is blocking calls inside coroutines a problem? How does coroutines relate to await? When would you choose asyncio or aiohttp?
+
+Study habit worth keeping: never call blocking code directly inside a coroutine.
+
+When you feel ready, compare Python Asyncio with JavaScript Closures and write down three differences.

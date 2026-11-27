@@ -1,0 +1,17 @@
+Time-Series Databases for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Time-Series Databases.
+
+Learning goals:
+1. Explain Time-Series Databases in your own words.
+2. Describe timestamps, retention policies, downsampling, and tags and fields.
+3. Give examples from server metrics and sensor readings.
+4. Name three problems to watch for.
+
+Start with the definition: Time-Series Databases is databases optimized for storing and querying data points ordered by time. Then draw a long logbook where every line starts with the time on paper and label the four terms from the goals above.
+
+Self-test questions: Why is high-cardinality tags a problem? How does retention policies relate to downsampling? When would you choose InfluxDB or TimescaleDB?
+
+Study habit: include a time range in every query.
+
+When you feel ready, compare Time-Series Databases with Write-Ahead Logging and write down three differences.

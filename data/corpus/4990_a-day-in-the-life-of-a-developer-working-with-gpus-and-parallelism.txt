@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with GPUs and Parallelism
+
+This is a fictional but realistic day for a developer whose project relies on GPUs and Parallelism.
+
+Morning: Karthik starts by reviewing a ticket about training neural networks. Before touching any code, Karthik re-reads the notes on threads and blocks to make sure the plan is sound.
+
+Midday: Karthik pairs with a teammate to explore kernels with CUDA. A small test exposes the problem of slow data transfers, and they fix it together.
+
+Afternoon: the team discusses a new request involving rendering graphics. Karthik sketches a stadium of workers each doing one small identical task on the whiteboard to help everyone follow the idea.
+
+End of day: Karthik writes a short note describing what changed and adds a reminder to minimize copies between CPU and GPU memory.
+
+Days like this are typical. GPUs and Parallelism is not glamorous, but understanding it keeps small problems from growing.

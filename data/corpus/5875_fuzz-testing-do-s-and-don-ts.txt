@@ -1,0 +1,17 @@
+Fuzz Testing Do's and Don'ts
+
+A quick list of habits for working with Fuzz Testing.
+
+Do:
+- Learn input generation before anything else.
+- Try AFL++ on a small example.
+- Make it a habit to keep every crashing input as a regression test.
+- Test the case of testing parsers early.
+
+Don't:
+- Ignore this: running without sanitizers.
+- Ignore this: crashes that cannot be reproduced.
+- Ignore this: ignoring slow inputs.
+- Adopt Fuzz Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Fuzz Testing, a little patience with coverage guidance pays off more than any clever shortcut.

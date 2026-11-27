@@ -1,0 +1,26 @@
+Everything You Need to Know About Data Lakes
+
+This page collects the essentials about Data Lakes in one place. In short, Data Lakes is large storage systems that keep raw data in its original format until it is needed.
+
+Core concepts:
+- raw storage
+- schema on read
+- partitioning
+- metadata catalogs
+
+Where it is used:
+- storing logs and events
+- machine learning datasets
+- analytics across many sources
+
+Common problems:
+- turning into a data swamp
+- no catalog or ownership
+- poor access controls
+
+Tools to know:
+- Amazon S3
+- Delta Lake
+- Apache Iceberg
+
+Remember this above all: a big reservoir where water from many rivers is stored before treatment is a good way to picture it, and the best habit is to register every dataset in a catalog with an owner.

@@ -1,0 +1,17 @@
+MQTT Do's and Don'ts
+
+A quick list of habits for working with MQTT.
+
+Do:
+- Learn publish and subscribe before anything else.
+- Try Mosquitto on a small example.
+- Make it a habit to design topic names like a clear folder structure.
+- Test the case of sensor networks early.
+
+Don't:
+- Ignore this: unsecured brokers.
+- Ignore this: messy topic names.
+- Ignore this: wrong quality of service choices.
+- Adopt MQTT just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with MQTT, a little patience with topics pays off more than any clever shortcut.

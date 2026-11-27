@@ -1,0 +1,15 @@
+Combining Graph Databases with Eventual Consistency in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Graph Databases and Eventual Consistency can work together in a single project.
+
+Graph Databases is databases that store data as nodes and relationships and query connections directly. Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+Imagine a project that involves social networks and global social feeds. Graph Databases brings nodes, while Eventual Consistency brings replication delay.
+
+A sensible plan is to start with Neo4j for the Graph Databases part and Amazon DynamoDB for the Eventual Consistency part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded traversals on one side, and unresolved write conflicts on the other.
+
+Picture the whole as a city map where intersections are records and roads are relationships, working alongside news spreading through a village until everyone has heard it.
+
+Two habits help: first, limit traversal depth in every exploratory query; second, decide up front how your app handles stale reads.

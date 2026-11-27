@@ -1,0 +1,11 @@
+Code Coverage Tips from Experienced Engineers
+
+Engineers who work with Code Coverage regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit branch coverage before anything else.
+2. Reach for coverage.py first, and only then evaluate alternatives such as JaCoCo.
+3. Be careful with this one: chasing 100 percent.
+4. Test the case of finding untested code early, before the design hardens.
+5. Write down why you chose Code Coverage so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to setting quality gates as well.

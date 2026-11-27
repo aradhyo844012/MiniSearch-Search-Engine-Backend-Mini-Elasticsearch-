@@ -1,0 +1,11 @@
+Scaling Considerations for React Native
+
+A design that works for a classroom project can behave very differently under real load. Here is how React Native changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding components and getting cross-platform apps right.
+
+Medium scale: problems start to appear. Watch for heavy re-renders and poorly tuned lists, and measure with Expo before changing anything.
+
+Large scale: styling with flexbox and navigation move from background details to central design questions. Teams often revisit their choices around rapid prototypes at this stage.
+
+Before you scale, test on real devices for both platforms. It is cheaper to build that habit early than to fix a crisis later.

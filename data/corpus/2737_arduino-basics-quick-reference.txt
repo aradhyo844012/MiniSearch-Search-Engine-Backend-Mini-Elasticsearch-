@@ -1,0 +1,15 @@
+Arduino Basics Quick Reference
+
+A one-screen reminder for Arduino Basics. Bookmark it and return when the details fade.
+
+What it is: a beginner-friendly microcontroller platform for reading sensors and controlling devices.
+Key terms: sketches, digital and analog pins, setup and loop functions, and the serial monitor.
+Typical uses: reading sensors, driving motors and LEDs, and learning electronics.
+Risks: wiring errors, blocking delays in the loop, and insufficient power for motors.
+Tools: Arduino IDE, PlatformIO, and Tinkercad.
+
+Mental picture: a tiny brain that watches inputs and flips switches.
+
+Habit to build: test each sensor on its own before combining them.
+
+See also: Flutter, which sits close to Arduino Basics in the area of Mobile, Embedded and IoT.

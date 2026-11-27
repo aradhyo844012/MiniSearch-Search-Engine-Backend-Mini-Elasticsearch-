@@ -1,0 +1,17 @@
+Code Coverage Do's and Don'ts
+
+A quick list of habits for working with Code Coverage.
+
+Do:
+- Learn line coverage before anything else.
+- Try coverage.py on a small example.
+- Make it a habit to use coverage to find gaps, not to judge quality.
+- Test the case of finding untested code early.
+
+Don't:
+- Ignore this: chasing 100 percent.
+- Ignore this: treating coverage as quality.
+- Ignore this: ignoring branch coverage.
+- Adopt Code Coverage just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Code Coverage, a little patience with branch coverage pays off more than any clever shortcut.

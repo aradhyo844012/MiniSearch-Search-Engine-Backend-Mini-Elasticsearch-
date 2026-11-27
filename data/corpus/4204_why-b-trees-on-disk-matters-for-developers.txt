@@ -1,0 +1,11 @@
+Why B-Trees on Disk Matters for Developers
+
+Developers who understand B-Trees on Disk make better decisions, because B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently.
+
+Three situations show why it matters. First, database indexes. Second, file system directories. Third, range scans. In each case, a solid grasp of pages and branching factor separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: random writes on fragmented pages, oversized keys, and ignoring page fill factor.
+
+Good tools exist, including PostgreSQL, SQLite, and MySQL InnoDB, so you rarely have to start from nothing.
+
+Connect B-Trees on Disk with Time-Series Databases to see the bigger picture of Storage Engines and Databases.

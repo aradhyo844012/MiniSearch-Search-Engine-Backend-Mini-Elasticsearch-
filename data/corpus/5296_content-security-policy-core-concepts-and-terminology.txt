@@ -1,0 +1,10 @@
+Content Security Policy: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Content Security Policy with confidence. The subject itself is a browser feature that limits which scripts and resources a page may load.
+
+directives: one of the building blocks of Content Security Policy. You should be able to explain it in a single sentence before moving on.
+nonces: one of the building blocks of Content Security Policy. Documentation for browser DevTools usually mentions it early.
+report-only mode: one of the building blocks of Content Security Policy. Documentation for browser DevTools usually mentions it early.
+trusted sources: one of the building blocks of Content Security Policy. Documentation for browser DevTools usually mentions it early.
+
+Practice using these four terms in sentences about blocking unwanted scripts. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,11 @@
+GPUs and Parallelism Tips from Experienced Engineers
+
+Engineers who work with GPUs and Parallelism regularly tend to repeat the same advice. Here it is.
+
+1. Reach for CUDA first, and only then evaluate alternatives such as PyTorch.
+2. When something behaves strangely, revisit kernels before anything else.
+3. Make sure you can minimize copies between CPU and GPU memory.
+4. Do not skip threads and blocks; everything else builds on it.
+5. Be careful with this one: slow data transfers.
+
+None of these tips needs special equipment, and all of them apply to rendering graphics as well.

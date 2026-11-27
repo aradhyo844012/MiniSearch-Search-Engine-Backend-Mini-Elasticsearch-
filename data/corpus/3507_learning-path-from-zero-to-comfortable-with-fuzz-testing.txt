@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Fuzz Testing
+
+This path is for a learner who has never studied Fuzz Testing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Fuzz Testing is feeding programs random or malformed input to uncover crashes and security bugs) and learn input generation and coverage guidance.
+
+Stage 2, hands-on: install AFL++, follow a tutorial, and build a small example involving testing parsers.
+
+Stage 3, depth: study crash triage and corpora, then deliberately explore this problem: running without sanitizers.
+
+Stage 4, application: apply Fuzz Testing to finding memory bugs, compare libFuzzer with Atheris, and write up your results.
+
+Stage 5, review: teach Fuzz Testing to someone else, and then move on to Static Analysis.

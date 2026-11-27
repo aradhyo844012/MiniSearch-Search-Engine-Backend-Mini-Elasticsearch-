@@ -1,0 +1,11 @@
+Database Migrations in Real Projects
+
+Reading about Database Migrations is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: adding columns safely. Here, up and down scripts drives the main design choices, and the team needs to guard against locking large tables.
+
+Scenario two: renaming tables. This time version tables matters most, and tools such as Alembic help keep things manageable.
+
+Scenario three: keeping environments in sync. The key idea is backward compatibility, and the biggest risk is editing old migrations.
+
+Across all three scenarios, Database Migrations stays the same idea: versioned scripts that change a database schema in a controlled and repeatable way. Only the details change.

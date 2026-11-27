@@ -1,0 +1,9 @@
+Understanding Skip Lists Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an express train line layered over a local train line.
+
+In that picture, multiple levels is the first rule you follow, random level assignment is the next step, and forward pointers and expected logarithmic time keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Skip Lists is layered linked lists that allow fast searching by skipping over many elements, and it involves details such as poor random number choices that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Redis sorted sets to learn the exact behavior. The same picture helps when you explain ordered in-memory indexes to a friend.

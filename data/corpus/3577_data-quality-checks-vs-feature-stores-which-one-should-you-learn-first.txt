@@ -1,0 +1,13 @@
+Data Quality Checks vs Feature Stores: Which One Should You Learn First?
+
+Learners often ask whether to study Data Quality Checks or Feature Stores first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Quality Checks is automated tests that verify data is complete, valid and consistent, and it is closely tied to null checks and uniqueness. Feature Stores, by contrast, is systems that store and serve the input variables used by machine learning models, and it is closely tied to offline store and online store.
+
+Choose Data Quality Checks first if you care about protecting dashboards or validating ingestion. Choose Feature Stores first if you care about sharing features across models or serving real-time predictions.
+
+Think of Data Quality Checks as a quality inspector at the end of an assembly line, and of Feature Stores as a shared pantry of prepared ingredients for many recipes. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Quality Checks, avoid alerts nobody reads. With Feature Stores, avoid leaking future data.
+
+A good habit for Data Quality Checks is to check data as early as it enters the pipeline. A good habit for Feature Stores is to define each feature once and reuse it in training and serving.

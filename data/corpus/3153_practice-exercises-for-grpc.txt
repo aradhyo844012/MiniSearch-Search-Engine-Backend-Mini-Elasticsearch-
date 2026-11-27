@@ -1,0 +1,11 @@
+Practice Exercises for gRPC
+
+These exercises build real understanding of gRPC. Do them in order, and write down your answers.
+
+Exercise 1: Pick protoc and complete its getting-started tutorial.
+Exercise 2: Create a small example that deliberately triggers this problem: breaking changes in message fields. Then fix it.
+Exercise 3: Write a short paragraph describing gRPC and include the term protocol buffers.
+Exercise 4: List three situations from your own experience that resemble service-to-service calls or low-latency APIs.
+Exercise 5: Compare grpcurl and Envoy for streaming data and write down your conclusion.
+
+When you finish, compare your answers with the definition: gRPC is a framework for fast remote procedure calls using typed contracts.

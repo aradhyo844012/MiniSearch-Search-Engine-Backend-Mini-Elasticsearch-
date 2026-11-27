@@ -1,0 +1,15 @@
+The Pros and Cons of Client-Side Routing
+
+No technology is free of trade-offs, and Client-Side Routing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports single-page apps
+- Makes dashboards easier
+- Helps with multi-step flows
+
+Drawbacks and risks:
+- Risk: broken deep links
+- Risk: unhandled 404 pages
+- Risk: lost scroll position
+
+Weigh the two lists against your own project. If the advantages match your needs, such as single-page apps, and you can manage the risks, Client-Side Routing is a sound choice. Whatever you decide, test refreshing the page on every route.

@@ -1,0 +1,13 @@
+Teaching Segment Trees to a Teammate
+
+Explaining Segment Trees to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a tournament bracket that remembers the winner of every group of players. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time. Avoid jargon at this stage.
+
+Walk through an example involving range sum queries, naming tree nodes covering ranges and range queries as they come up.
+
+Ask your teammate to explain point updates in Segment Trees back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, off-by-one errors in ranges, and suggest this habit: test your tree against a slow brute-force version on small inputs.

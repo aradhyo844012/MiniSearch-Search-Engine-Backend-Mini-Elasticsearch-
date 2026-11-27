@@ -1,0 +1,15 @@
+Combining Embeddings with Data Augmentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Embeddings and Data Augmentation can work together in a single project.
+
+Embeddings is lists of numbers that represent words, images or items so that similar things sit close together. Data Augmentation is creating modified copies of training data to help models generalize.
+
+Imagine a project that involves semantic search and image models. Embeddings brings vectors, while Data Augmentation brings transformations.
+
+A sensible plan is to start with sentence-transformers for the Embeddings part and Albumentations for the Data Augmentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring normalization on one side, and augmenting the test set on the other.
+
+Picture the whole as coordinates on a map where similar places are close together, working alongside practicing a sport in different weather and on different fields.
+
+Two habits help: first, use the same embedding model for indexing and querying; second, augment only the training data.

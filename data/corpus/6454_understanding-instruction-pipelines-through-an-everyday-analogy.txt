@@ -1,0 +1,9 @@
+Understanding Instruction Pipelines Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an assembly line where several cars are in different stages at once.
+
+In that picture, fetch, decode and execute stages is the first rule you follow, hazards is the next step, and branch prediction and stalls keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Instruction Pipelines is a technique where a processor overlaps the stages of several instructions, and it involves details such as unpredictable branches that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for perf to learn the exact behavior. The same picture helps when you explain explaining CPU speed to a friend.

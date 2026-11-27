@@ -1,0 +1,13 @@
+Teaching Pagination to a Teammate
+
+Explaining Pagination to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: reading a long book one chapter at a time with a bookmark. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Pagination is splitting large result sets into smaller pages that clients request one at a time. Avoid jargon at this stage.
+
+Walk through an example involving search results, naming offset pagination and cursor pagination as they come up.
+
+Ask your teammate to explain page size in Pagination back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, offsets getting slow on huge tables, and suggest this habit: prefer cursors for large or fast-changing data.

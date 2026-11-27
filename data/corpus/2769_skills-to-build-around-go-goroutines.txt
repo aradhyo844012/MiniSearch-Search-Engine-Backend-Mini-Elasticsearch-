@@ -1,0 +1,13 @@
+Skills to Build Around Go Goroutines
+
+Knowing the definition of Go Goroutines is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with goroutines and channels, and able to explain them without notes.
+
+Hands-on practice: spend real time with the go command on a Go Goroutines task, and try at least one alternative such as the race detector.
+
+Judgment: learn to decide when Go Goroutines fits a problem such as servers handling many connections, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a small crew of waiters passing notes through a serving hatch.
+
+Habits: run your tests with the race detector turned on, and write down what you learn after each project.

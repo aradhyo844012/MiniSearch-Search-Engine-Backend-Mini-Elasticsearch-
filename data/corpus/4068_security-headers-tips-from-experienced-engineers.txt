@@ -1,0 +1,11 @@
+Security Headers Tips from Experienced Engineers
+
+Engineers who work with Security Headers regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can test the headers on every environment.
+2. Write down why you chose Security Headers so the next person understands the decision.
+3. When something behaves strangely, revisit X-Content-Type-Options before anything else.
+4. Be careful with this one: setting headers on only some routes.
+5. Do not skip Strict-Transport-Security; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to reducing clickjacking as well.

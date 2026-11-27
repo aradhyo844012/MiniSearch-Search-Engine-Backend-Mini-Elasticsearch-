@@ -1,0 +1,13 @@
+CAP Theorem vs CQRS: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or CQRS first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. CQRS, by contrast, is a pattern that separates the models used to change data from the models used to read it, and it is closely tied to commands and queries.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose CQRS first if you care about high-read dashboards or complex domains.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of CQRS as a restaurant with one counter for orders and another for pickup. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With CQRS, avoid adding it to simple apps.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for CQRS is to start with a single model and split only when reads and writes truly diverge.

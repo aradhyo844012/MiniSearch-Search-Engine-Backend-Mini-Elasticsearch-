@@ -1,0 +1,13 @@
+Hexagonal Architecture vs Modular Monoliths: Which One Should You Learn First?
+
+Learners often ask whether to study Hexagonal Architecture or Modular Monoliths first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters, and it is closely tied to ports and adapters. Modular Monoliths, by contrast, is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces.
+
+Choose Hexagonal Architecture first if you care about testable business logic or swapping databases. Choose Modular Monoliths first if you care about small teams or early-stage products.
+
+Think of Hexagonal Architecture as a power strip that lets any plug connect to the same core, and of Modular Monoliths as an apartment building with separate flats under one roof. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hexagonal Architecture, avoid too many layers for small apps. With Modular Monoliths, avoid modules reaching into each other's tables.
+
+A good habit for Hexagonal Architecture is to keep framework imports out of the core domain. A good habit for Modular Monoliths is to enforce boundaries with automated checks.

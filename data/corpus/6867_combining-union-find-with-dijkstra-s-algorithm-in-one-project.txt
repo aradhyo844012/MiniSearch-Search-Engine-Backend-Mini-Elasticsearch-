@@ -1,0 +1,15 @@
+Combining Union-Find with Dijkstra's Algorithm in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Union-Find and Dijkstra's Algorithm can work together in a single project.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly. Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+Imagine a project that involves detecting connected components and route planning. Union-Find brings parent pointers, while Dijkstra's Algorithm brings priority queue.
+
+A sensible plan is to start with Python lists for the Union-Find part and Python heapq for the Dijkstra's Algorithm part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: merging without checking roots on one side, and skipping the priority queue and getting slow code on the other.
+
+Picture the whole as a set of club rosters where two clubs can merge into one, working alongside a GPS that keeps expanding to the nearest unvisited intersection.
+
+Two habits help: first, implement path compression and union by rank together; second, stop as soon as the destination is popped from the queue.

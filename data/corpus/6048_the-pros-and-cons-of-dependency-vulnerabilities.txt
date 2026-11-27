@@ -1,0 +1,15 @@
+The Pros and Cons of Dependency Vulnerabilities
+
+No technology is free of trade-offs, and Dependency Vulnerabilities is no exception. Here is an honest summary.
+
+Advantages:
+- Supports auditing projects
+- Makes automating updates easier
+- Helps with meeting supply chain requirements
+
+Drawbacks and risks:
+- Risk: ignoring transitive dependencies
+- Risk: never updating
+- Risk: trusting packages without checking them
+
+Weigh the two lists against your own project. If the advantages match your needs, such as auditing projects, and you can manage the risks, Dependency Vulnerabilities is a sound choice. Whatever you decide, automate update pull requests.

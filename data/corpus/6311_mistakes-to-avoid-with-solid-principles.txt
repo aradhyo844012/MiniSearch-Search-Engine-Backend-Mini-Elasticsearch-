@@ -1,0 +1,11 @@
+Mistakes to Avoid with SOLID Principles
+
+Everyone learns SOLID Principles partly through mistakes. Here are three worth avoiding.
+
+Mistake one: applying them rigidly to tiny scripts. It usually appears when someone skips single responsibility and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: creating too many tiny classes. It tends to be noticed late, often during testing of structuring classes. A short checklist during review catches it early.
+
+Mistake three: confusing interfaces with inheritance. It is easy to miss because everything seems to work at first. Keep an eye on dependency inversion to spot it.
+
+If you remember only one rule, make it this: apply them when a design starts to hurt, not before.

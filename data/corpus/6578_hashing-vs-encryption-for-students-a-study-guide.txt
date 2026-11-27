@@ -1,0 +1,17 @@
+Hashing vs Encryption for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Hashing vs Encryption.
+
+Learning goals:
+1. Explain Hashing vs Encryption in your own words.
+2. Describe one-way functions, keys, collision resistance, and reversibility.
+3. Give examples from storing passwords and verifying file integrity.
+4. Name three problems to watch for.
+
+Start with the definition: Hashing vs Encryption is the difference between one-way digests and reversible protection of data. Then draw a paper shredder compared with a locked suitcase on paper and label the four terms from the goals above.
+
+Self-test questions: Why is encrypting passwords instead of hashing them a problem? How does keys relate to collision resistance? When would you choose SHA-256 or AES?
+
+Study habit: ask whether you will ever need the original value back.
+
+When you feel ready, compare Hashing vs Encryption with Encryption at Rest and write down three differences.

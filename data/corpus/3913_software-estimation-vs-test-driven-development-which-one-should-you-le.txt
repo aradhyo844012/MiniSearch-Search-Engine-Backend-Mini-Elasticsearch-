@@ -1,0 +1,13 @@
+Software Estimation vs Test-Driven Development: Which One Should You Learn First?
+
+Learners often ask whether to study Software Estimation or Test-Driven Development first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Software Estimation is predicting how much time and effort a piece of work will take, and it is closely tied to story points and ranges. Test-Driven Development, by contrast, is a workflow where you write a failing test first and then write code to make it pass, and it is closely tied to red, green, refactor and small steps.
+
+Choose Software Estimation first if you care about sprint planning or setting deadlines. Choose Test-Driven Development first if you care about designing small modules or preventing regressions.
+
+Think of Software Estimation as forecasting the weather rather than reading a timetable, and of Test-Driven Development as writing the exam questions before teaching the lesson. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Software Estimation, avoid treating estimates as promises. With Test-Driven Development, avoid writing tests that are too large.
+
+A good habit for Software Estimation is to give ranges instead of single numbers. A good habit for Test-Driven Development is to keep each red-green cycle to a few minutes.

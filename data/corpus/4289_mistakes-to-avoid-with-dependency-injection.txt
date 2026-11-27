@@ -1,0 +1,11 @@
+Mistakes to Avoid with Dependency Injection
+
+Everyone learns Dependency Injection partly through mistakes. Here are three worth avoiding.
+
+Mistake one: hiding too much behind containers. It usually appears when someone skips constructor injection and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: circular dependencies. It tends to be noticed late, often during testing of easier unit testing. A short checklist during review catches it early.
+
+Mistake three: injecting too many dependencies. It is easy to miss because everything seems to work at first. Keep an eye on inversion of control to spot it.
+
+If you remember only one rule, make it this: inject interfaces so tests can use simple fakes.

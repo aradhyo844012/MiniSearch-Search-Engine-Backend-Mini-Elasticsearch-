@@ -1,0 +1,15 @@
+Combining Write-Ahead Logging with Time-Series Databases in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Write-Ahead Logging and Time-Series Databases can work together in a single project.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data. Time-Series Databases is databases optimized for storing and querying data points ordered by time.
+
+Imagine a project that involves surviving crashes and server metrics. Write-Ahead Logging brings log records, while Time-Series Databases brings timestamps.
+
+A sensible plan is to start with PostgreSQL WAL for the Write-Ahead Logging part and InfluxDB for the Time-Series Databases part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: log files filling the disk on one side, and keeping raw data forever on the other.
+
+Picture the whole as writing a plan in a notebook before changing the real blueprint, working alongside a long logbook where every line starts with the time.
+
+Two habits help: first, test crash recovery by killing the process on purpose; second, include a time range in every query.

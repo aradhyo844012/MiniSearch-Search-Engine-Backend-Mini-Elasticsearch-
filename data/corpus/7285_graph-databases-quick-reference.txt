@@ -1,0 +1,15 @@
+Graph Databases Quick Reference
+
+A one-screen reminder for Graph Databases. Bookmark it and return when the details fade.
+
+What it is: databases that store data as nodes and relationships and query connections directly.
+Key terms: nodes, edges, properties, and traversal queries.
+Typical uses: social networks, recommendation engines, and fraud detection.
+Risks: using them for simple tabular data, unbounded traversals, and supernodes with millions of edges.
+Tools: Neo4j, Cypher, and Amazon Neptune.
+
+Mental picture: a city map where intersections are records and roads are relationships.
+
+Habit to build: limit traversal depth in every exploratory query.
+
+See also: Database Backups and Recovery, which sits close to Graph Databases in the area of Storage Engines and Databases.

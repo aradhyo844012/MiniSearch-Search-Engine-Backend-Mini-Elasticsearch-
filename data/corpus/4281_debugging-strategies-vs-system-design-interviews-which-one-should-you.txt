@@ -1,0 +1,13 @@
+Debugging Strategies vs System Design Interviews: Which One Should You Learn First?
+
+Learners often ask whether to study Debugging Strategies or System Design Interviews first. Both sit in the area of Developer Career and Tools, so the honest answer is that it depends on your goals.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior, and it is closely tied to reproducing the bug and isolating the cause. System Design Interviews, by contrast, is discussions in which candidates design a large software system and explain their choices, and it is closely tied to requirements and scaling estimates.
+
+Choose Debugging Strategies first if you care about fixing production issues or learning unfamiliar code. Choose System Design Interviews first if you care about preparing for senior roles or practicing architectural thinking.
+
+Think of Debugging Strategies as a detective narrowing down suspects, and of System Design Interviews as sketching the blueprint of a city while explaining why each road exists. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Debugging Strategies, avoid changing many things at once. With System Design Interviews, avoid jumping into solutions before clarifying requirements.
+
+A good habit for Debugging Strategies is to change one thing at a time and record the result. A good habit for System Design Interviews is to clarify requirements and scale before drawing boxes.

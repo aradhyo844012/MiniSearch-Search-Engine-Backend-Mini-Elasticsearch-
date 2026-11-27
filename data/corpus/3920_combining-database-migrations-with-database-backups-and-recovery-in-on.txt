@@ -1,0 +1,15 @@
+Combining Database Migrations with Database Backups and Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Database Migrations and Database Backups and Recovery can work together in a single project.
+
+Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way. Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Imagine a project that involves adding columns safely and recovering deleted tables. Database Migrations brings up and down scripts, while Database Backups and Recovery brings full and incremental backups.
+
+A sensible plan is to start with Alembic for the Database Migrations part and pg_dump for the Database Backups and Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: editing old migrations on one side, and storing backups on the same disk on the other.
+
+Picture the whole as a numbered set of renovation steps applied to a building in order, working alongside a spare house key kept at a trusted neighbor's home.
+
+Two habits help: first, split risky changes into small steps that can each be rolled back; second, schedule a restore drill on a regular basis.

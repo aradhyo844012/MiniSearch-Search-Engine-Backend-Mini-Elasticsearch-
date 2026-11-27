@@ -1,0 +1,9 @@
+Understanding Distributed Locks Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a single key to a shared meeting room that expires automatically.
+
+In that picture, lease times is the first rule you follow, fencing tokens is the next step, and lock owners and timeouts keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines, and it involves details such as locks that never expire that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Redis to learn the exact behavior. The same picture helps when you explain running scheduled jobs once to a friend.

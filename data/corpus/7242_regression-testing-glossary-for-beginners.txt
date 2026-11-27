@@ -1,0 +1,12 @@
+Regression Testing Glossary for Beginners
+
+New words can make Regression Testing feel harder than it is. This glossary keeps the key ones in one place.
+
+Regression Testing: re-running tests after changes to make sure old features still work.
+test suites: a core term, most visible in protecting releases.
+automation: a core term that beginners often confuse with test selection.
+test selection: a core term that connects to bug reproduction tests.
+bug reproduction tests: a core term worth revisiting after you try a real example.
+pytest: a tool commonly used for verifying bug fixes.
+
+Come back to this Regression Testing list whenever documentation for GitHub Actions uses a word you do not recognize.

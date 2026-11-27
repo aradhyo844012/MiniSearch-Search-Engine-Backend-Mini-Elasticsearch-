@@ -1,0 +1,9 @@
+Understanding C Pointers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a street address written on a card instead of the house itself.
+
+In that picture, addresses is the first rule you follow, dereferencing is the next step, and pointer arithmetic and null pointers keep everything running smoothly.
+
+Every analogy breaks down eventually. Real C Pointers is variables that store the memory address of another value, and it involves details such as dereferencing null pointers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for GCC to learn the exact behavior. The same picture helps when you explain dynamic memory allocation to a friend.

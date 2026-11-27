@@ -1,0 +1,15 @@
+Dependency Injection Quick Reference
+
+A one-screen reminder for Dependency Injection. Bookmark it and return when the details fade.
+
+What it is: a design approach where objects receive their dependencies instead of creating them.
+Key terms: constructor injection, interfaces, containers, and inversion of control.
+Typical uses: easier unit testing, swapping implementations, and configuring services.
+Risks: hiding too much behind containers, circular dependencies, and injecting too many dependencies.
+Tools: Spring, FastAPI Depends, and Dagger.
+
+Mental picture: a chef who is handed ingredients instead of shopping for them.
+
+Habit to build: inject interfaces so tests can use simple fakes.
+
+See also: Webhooks, which sits close to Dependency Injection in the area of Backend Engineering.

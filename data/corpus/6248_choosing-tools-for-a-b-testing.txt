@@ -1,0 +1,11 @@
+Choosing Tools for A/B Testing
+
+There is no single best tool for A/B Testing. The right choice depends on your project, your team and your timeline.
+
+Optimizely is a common first choice, especially for testing page designs. GrowthBook suits teams that already work with similar technology, and statsmodels is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle comparing ranking algorithms well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: stopping tests early.
+
+As a rule of thumb, decide the success metric and sample size before you begin, no matter which tool you use.

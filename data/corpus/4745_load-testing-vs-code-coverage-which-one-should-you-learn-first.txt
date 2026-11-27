@@ -1,0 +1,13 @@
+Load Testing vs Code Coverage: Which One Should You Learn First?
+
+Learners often ask whether to study Load Testing or Code Coverage first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Load Testing is measuring how a system behaves under expected and heavy traffic, and it is closely tied to virtual users and throughput. Code Coverage, by contrast, is a measure of how much of the code is run by tests, and it is closely tied to line coverage and branch coverage.
+
+Choose Load Testing first if you care about capacity planning or finding bottlenecks. Choose Code Coverage first if you care about finding untested code or setting quality gates.
+
+Think of Load Testing as a stress test that fills a stadium to see how the exits cope, and of Code Coverage as a map showing which rooms a security guard has walked through. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Load Testing, avoid testing unrealistic traffic. With Code Coverage, avoid chasing 100 percent.
+
+A good habit for Load Testing is to report p95 and p99 latency, not only averages. A good habit for Code Coverage is to use coverage to find gaps, not to judge quality.

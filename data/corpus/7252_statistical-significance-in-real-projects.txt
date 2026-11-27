@@ -1,0 +1,11 @@
+Statistical Significance in Real Projects
+
+Reading about Statistical Significance is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: judging experiment results. Here, p-values drives the main design choices, and the team needs to guard against mistaking significance for importance.
+
+Scenario two: comparing model performance. This time the null hypothesis matters most, and tools such as SciPy help keep things manageable.
+
+Scenario three: reporting research findings. The key idea is confidence intervals, and the biggest risk is p-hacking.
+
+Across all three scenarios, Statistical Significance stays the same idea: a measure of how unlikely a result would be if there were no real effect. Only the details change.

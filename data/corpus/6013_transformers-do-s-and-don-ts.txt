@@ -1,0 +1,17 @@
+Transformers Do's and Don'ts
+
+A quick list of habits for working with Transformers.
+
+Do:
+- Learn self-attention before anything else.
+- Try Hugging Face on a small example.
+- Make it a habit to begin with small pretrained models.
+- Test the case of language translation early.
+
+Don't:
+- Ignore this: huge compute requirements.
+- Ignore this: limited context windows.
+- Ignore this: biased training data.
+- Adopt Transformers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Transformers, a little patience with positional encoding pays off more than any clever shortcut.

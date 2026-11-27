@@ -1,0 +1,11 @@
+Dependency Vulnerabilities Tips from Experienced Engineers
+
+Engineers who work with Dependency Vulnerabilities regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can automate update pull requests.
+2. When something behaves strangely, revisit version pinning before anything else.
+3. Write down why you chose Dependency Vulnerabilities so the next person understands the decision.
+4. Reach for Dependabot first, and only then evaluate alternatives such as pip-audit.
+5. Test the case of auditing projects early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to automating updates as well.

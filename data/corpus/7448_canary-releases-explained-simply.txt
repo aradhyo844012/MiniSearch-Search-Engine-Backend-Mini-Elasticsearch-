@@ -1,0 +1,13 @@
+Canary Releases Explained Simply
+
+Here is Canary Releases without the jargon: it is a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: traffic percentages, health metrics, automatic rollback, and progressive rollout. You do not need to master them all at once. Start with traffic percentages, then add health metrics.
+
+People reach for Canary Releases when they work on safer releases, testing with real traffic, and reducing the blast radius of bugs.
+
+One practical tip is to define rollback conditions before starting the rollout.
+
+After Canary Releases, a natural next topic is Log Aggregation.

@@ -1,0 +1,13 @@
+Endianness vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study Endianness or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number, and it is closely tied to big-endian and little-endian. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose Endianness first if you care about network protocols or binary file formats. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of Endianness as writing a date as day-month-year or as year-month-day, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Endianness, avoid mixing byte orders. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for Endianness is to always specify byte order in file and protocol formats. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

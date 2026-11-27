@@ -1,0 +1,11 @@
+System Calls Tips from Experienced Engineers
+
+Engineers who work with System Calls regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of reading and writing files early, before the design hardens.
+2. Reach for strace first, and only then evaluate alternatives such as man pages.
+3. Be careful with this one: ignoring error codes.
+4. Make sure you can use strace to see what your program really asks the kernel to do.
+5. Do not skip user mode and kernel mode; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to creating processes as well.

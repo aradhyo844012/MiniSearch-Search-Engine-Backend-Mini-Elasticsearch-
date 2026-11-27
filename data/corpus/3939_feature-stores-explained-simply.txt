@@ -1,0 +1,13 @@
+Feature Stores Explained Simply
+
+If Feature Stores sounds intimidating, relax. It is systems that store and serve the input variables used by machine learning models, and the idea is simpler than the name suggests.
+
+Think of Feature Stores as a shared pantry of prepared ingredients for many recipes. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: offline store, online store, point-in-time correctness, and feature definitions. You do not need to master them all at once. Start with offline store, then add online store.
+
+You will meet Feature Stores in work such as sharing features across models, serving real-time predictions, and avoiding training-serving skew.
+
+One practical tip is to define each feature once and reuse it in training and serving.
+
+After Feature Stores, a natural next topic is Jupyter Notebooks.

@@ -1,0 +1,12 @@
+Security Headers Glossary for Beginners
+
+New words can make Security Headers feel harder than it is. This glossary keeps the key ones in one place.
+
+Security Headers: HTTP response headers that tell browsers to enforce extra protections.
+Strict-Transport-Security: a core term, most visible in hardening websites.
+X-Content-Type-Options: a core term that beginners often confuse with frame protections.
+frame protections: a core term that connects to referrer policy.
+referrer policy: a core term worth revisiting after you try a real example.
+securityheaders.com: a tool commonly used for reducing clickjacking.
+
+Come back to this Security Headers list whenever documentation for Helmet.js uses a word you do not recognize.

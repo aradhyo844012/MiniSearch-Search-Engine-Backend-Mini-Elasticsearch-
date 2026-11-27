@@ -1,0 +1,15 @@
+Combining Service Mesh with Log Aggregation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Service Mesh and Log Aggregation can work together in a single project.
+
+Service Mesh is an infrastructure layer that manages communication between services through proxies. Log Aggregation is collecting logs from many machines into one searchable place.
+
+Imagine a project that involves securing service traffic and troubleshooting across services. Service Mesh brings sidecar proxies, while Log Aggregation brings shippers.
+
+A sensible plan is to start with Istio for the Service Mesh part and Elasticsearch for the Log Aggregation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: adopting it too early on one side, and unstructured logs on the other.
+
+Picture the whole as a postal system that applies delivery rules between buildings, working alongside gathering notes from every desk into a single searchable binder.
+
+Two habits help: first, adopt it only once the number of services makes manual setup painful; second, use structured JSON logs so that fields are searchable.

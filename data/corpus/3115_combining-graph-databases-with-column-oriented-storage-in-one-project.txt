@@ -1,0 +1,15 @@
+Combining Graph Databases with Column-Oriented Storage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Graph Databases and Column-Oriented Storage can work together in a single project.
+
+Graph Databases is databases that store data as nodes and relationships and query connections directly. Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Imagine a project that involves social networks and analytics dashboards. Graph Databases brings nodes, while Column-Oriented Storage brings column chunks.
+
+A sensible plan is to start with Neo4j for the Graph Databases part and Apache Parquet for the Column-Oriented Storage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded traversals on one side, and many small writes on the other.
+
+Picture the whole as a city map where intersections are records and roads are relationships, working alongside a spreadsheet kept as separate lists per column so you can read just one.
+
+Two habits help: first, limit traversal depth in every exploratory query; second, select only the columns you really need.

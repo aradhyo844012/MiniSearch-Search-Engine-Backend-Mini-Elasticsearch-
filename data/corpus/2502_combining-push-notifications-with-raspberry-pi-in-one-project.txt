@@ -1,0 +1,15 @@
+Combining Push Notifications with Raspberry Pi in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Push Notifications and Raspberry Pi can work together in a single project.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed. Raspberry Pi is a small, low-cost computer popular for learning, prototypes and home projects.
+
+Imagine a project that involves order updates and home automation. Push Notifications brings device tokens, while Raspberry Pi brings GPIO pins.
+
+A sensible plan is to start with Firebase Cloud Messaging for the Push Notifications part and Raspberry Pi OS for the Raspberry Pi part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: sending too many messages on one side, and inadequate power supplies on the other.
+
+Picture the whole as a courier who knocks on your door when a package arrives, working alongside a pocket-sized workshop for experiments.
+
+Two habits help: first, ask for permission at a moment when the user understands the value; second, use a quality power supply and a reliable memory card.

@@ -1,0 +1,12 @@
+Questions to Ask About Zero Trust Security in Code Review
+
+Reviewing code that involves Zero Trust Security is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Okta used consistently, or are we mixing approaches?
+- Have we considered treating it as a product to buy?
+- Could we start with strong identity and device checks?
+- Have we avoided this problem: breaking usability?
+- Does the code handle the case of remote work access correctly?
+- Is least privilege clear to someone reading the code for the first time?
+
+Good reviews of work on Zero Trust Security are specific, kind and focused on micro-segmentation, not on personal style.

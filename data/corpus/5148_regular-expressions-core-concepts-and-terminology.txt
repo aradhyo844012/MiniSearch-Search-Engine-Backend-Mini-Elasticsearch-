@@ -1,0 +1,10 @@
+Regular Expressions: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Regular Expressions with confidence. The subject itself is compact patterns for matching and extracting text.
+
+character classes: one of the building blocks of Regular Expressions. Documentation for the Python re module usually mentions it early.
+quantifiers: one of the building blocks of Regular Expressions. You should be able to explain it in a single sentence before moving on.
+groups: one of the building blocks of Regular Expressions. Mixing it up with neighboring terms is a common source of confusion.
+anchors: one of the building blocks of Regular Expressions. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about searching logs. If the sentences feel natural, the vocabulary has stuck.

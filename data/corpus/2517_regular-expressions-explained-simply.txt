@@ -1,0 +1,13 @@
+Regular Expressions Explained Simply
+
+If Regular Expressions sounds intimidating, relax. It is compact patterns for matching and extracting text, and the idea is simpler than the name suggests.
+
+Think of Regular Expressions as a stencil that only lets certain shapes of text show through. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: character classes, quantifiers, groups, and anchors. You do not need to master them all at once. Start with character classes, then add quantifiers.
+
+People reach for Regular Expressions when they work on validating input, searching logs, and extracting fields from text.
+
+One practical tip is to build patterns in small steps and test each one.
+
+Once Regular Expressions feels comfortable, read about Rust Ownership, which lives in the same neighborhood of ideas.

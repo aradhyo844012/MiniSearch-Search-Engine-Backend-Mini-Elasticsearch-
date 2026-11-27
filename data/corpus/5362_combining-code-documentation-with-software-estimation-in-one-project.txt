@@ -1,0 +1,15 @@
+Combining Code Documentation with Software Estimation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Code Documentation and Software Estimation can work together in a single project.
+
+Code Documentation is written explanations that help others understand and use code. Software Estimation is predicting how much time and effort a piece of work will take.
+
+Imagine a project that involves onboarding new developers and sprint planning. Code Documentation brings README files, while Software Estimation brings story points.
+
+A sensible plan is to start with Sphinx for the Code Documentation part and planning poker for the Software Estimation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: comments that repeat the code on one side, and ignoring unknowns on the other.
+
+Picture the whole as a map left for the next traveler, working alongside forecasting the weather rather than reading a timetable.
+
+Two habits help: first, keep documentation in the same repository as the code; second, give ranges instead of single numbers.

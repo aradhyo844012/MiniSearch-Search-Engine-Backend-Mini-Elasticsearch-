@@ -1,0 +1,13 @@
+API Design Principles vs Pair Programming: Which One Should You Learn First?
+
+Learners often ask whether to study API Design Principles or Pair Programming first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+API Design Principles is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors. Pair Programming, by contrast, is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation.
+
+Choose API Design Principles first if you care about public platforms or internal service contracts. Choose Pair Programming first if you care about teaching new teammates or solving hard bugs.
+
+Think of API Design Principles as the controls of a car that behave the same in every model, and of Pair Programming as a pilot and co-pilot who check each other's decisions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With API Design Principles, avoid leaking internal details. With Pair Programming, avoid one person dominating.
+
+A good habit for API Design Principles is to write the documentation before the implementation. A good habit for Pair Programming is to swap roles every twenty to thirty minutes.

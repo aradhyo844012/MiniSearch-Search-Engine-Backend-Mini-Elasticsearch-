@@ -1,0 +1,26 @@
+Everything You Need to Know About GPUs and Parallelism
+
+This page collects the essentials about GPUs and Parallelism in one place. In short, GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Core concepts:
+- threads and blocks
+- kernels
+- memory transfers
+- SIMD
+
+Where it is used:
+- training neural networks
+- rendering graphics
+- scientific simulations
+
+Common problems:
+- slow data transfers
+- branch-heavy code
+- launching tiny workloads
+
+Tools to know:
+- CUDA
+- PyTorch
+- OpenCL
+
+Remember this above all: a stadium of workers each doing one small identical task is a good way to picture it, and the best habit is to minimize copies between CPU and GPU memory.

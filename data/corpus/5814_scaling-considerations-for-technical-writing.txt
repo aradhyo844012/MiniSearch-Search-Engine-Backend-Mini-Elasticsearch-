@@ -1,0 +1,11 @@
+Scaling Considerations for Technical Writing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Technical Writing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding audience and getting documentation right.
+
+Medium scale: problems start to appear. Watch for assuming too much knowledge and burying the main point, and measure with Markdown before changing anything.
+
+Large scale: examples and editing move from background details to central design questions. Teams often revisit their choices around blog posts at this stage.
+
+Before you scale, state the main point in the first two sentences. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Is Security Headers Right for Your Project?
+
+Before adopting Security Headers, ask whether it fits the problem. Remember that Security Headers is HTTP response headers that tell browsers to enforce extra protections.
+
+It is a good fit when your work involves hardening websites or reducing clickjacking, and when your team understands Strict-Transport-Security.
+
+Be cautious when the project is very small, when deadlines leave no room to learn X-Content-Type-Options, or when you cannot manage these risks: setting headers on only some routes, breaking embeds, and copying configurations without understanding them.
+
+A simple decision test: write down the problem in one sentence, then check whether frame protections and referrer policy are part of the answer. If they are, Security Headers is probably worth a closer look.
+
+If you decide to go ahead, start small with enforcing HTTPS and test the headers on every environment.

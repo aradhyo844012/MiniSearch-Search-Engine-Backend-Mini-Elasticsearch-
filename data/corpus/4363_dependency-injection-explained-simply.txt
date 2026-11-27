@@ -1,0 +1,13 @@
+Dependency Injection Explained Simply
+
+If Dependency Injection sounds intimidating, relax. It is a design approach where objects receive their dependencies instead of creating them, and the idea is simpler than the name suggests.
+
+Think of Dependency Injection as a chef who is handed ingredients instead of shopping for them. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: constructor injection, interfaces, containers, and inversion of control. You do not need to master them all at once. Start with constructor injection, then add interfaces.
+
+People reach for Dependency Injection when they work on easier unit testing, swapping implementations, and configuring services.
+
+One practical tip is to inject interfaces so tests can use simple fakes.
+
+Once Dependency Injection feels comfortable, read about API Versioning, which lives in the same neighborhood of ideas.

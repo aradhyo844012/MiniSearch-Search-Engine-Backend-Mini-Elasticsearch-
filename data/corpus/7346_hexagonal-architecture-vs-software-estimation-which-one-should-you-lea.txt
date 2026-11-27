@@ -1,0 +1,13 @@
+Hexagonal Architecture vs Software Estimation: Which One Should You Learn First?
+
+Learners often ask whether to study Hexagonal Architecture or Software Estimation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters, and it is closely tied to ports and adapters. Software Estimation, by contrast, is predicting how much time and effort a piece of work will take, and it is closely tied to story points and ranges.
+
+Choose Hexagonal Architecture first if you care about testable business logic or swapping databases. Choose Software Estimation first if you care about sprint planning or setting deadlines.
+
+Think of Hexagonal Architecture as a power strip that lets any plug connect to the same core, and of Software Estimation as forecasting the weather rather than reading a timetable. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hexagonal Architecture, avoid too many layers for small apps. With Software Estimation, avoid treating estimates as promises.
+
+A good habit for Hexagonal Architecture is to keep framework imports out of the core domain. A good habit for Software Estimation is to give ranges instead of single numbers.

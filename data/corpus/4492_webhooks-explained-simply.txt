@@ -1,0 +1,13 @@
+Webhooks Explained Simply
+
+Here is Webhooks without the jargon: it is HTTP callbacks that let one service notify another when an event happens.
+
+Think of Webhooks as a doorbell that rings when a delivery arrives instead of you checking the porch. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: event payloads, signature verification, retries, and endpoints. You do not need to master them all at once. Start with event payloads, then add signature verification.
+
+People reach for Webhooks when they work on payment notifications, CI triggers, and chat integrations.
+
+One practical tip is to respond quickly and process the event in a background job.
+
+After Webhooks, a natural next topic is Background Jobs.

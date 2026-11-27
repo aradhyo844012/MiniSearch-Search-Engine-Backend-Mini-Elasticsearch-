@@ -1,0 +1,11 @@
+Choosing Tools for Autoscaling
+
+There is no single best tool for Autoscaling. The right choice depends on your project, your team and your timeline.
+
+Kubernetes HPA is a common first choice, especially for handling traffic spikes. AWS Auto Scaling suits teams that already work with similar technology, and KEDA is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle saving money overnight well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: scaling too slowly.
+
+As a rule of thumb, load test the system to find realistic thresholds, no matter which tool you use.

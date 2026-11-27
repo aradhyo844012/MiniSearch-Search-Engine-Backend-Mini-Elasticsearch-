@@ -1,0 +1,15 @@
+Feature Flags in 10 Minutes
+
+You have ten minutes, so here is the fast route through Feature Flags.
+
+Minutes 1 and 2, the definition: Feature Flags is switches in configuration that turn features on or off without redeploying code.
+
+Minutes 3 and 4, the vocabulary: learn flag evaluation, targeting rules, gradual rollout, and flag cleanup.
+
+Minutes 5 and 6, the picture: imagine light switches wired to every room of a house. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through dark launches, A/B tests, and emergency kill switches.
+
+Minutes 9 and 10, the traps and the tools: watch for never removing old flags and flags that depend on each other, then try LaunchDarkly for a first experiment.
+
+If you have a spare minute, remember to give every flag an owner and a removal date.

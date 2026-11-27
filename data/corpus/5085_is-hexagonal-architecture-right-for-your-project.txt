@@ -1,0 +1,11 @@
+Is Hexagonal Architecture Right for Your Project?
+
+Before adopting Hexagonal Architecture, ask whether it fits the problem. Remember that Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters.
+
+It is a good fit when your work involves testable business logic or swapping databases, and when your team understands ports.
+
+Be cautious when the project is very small, when deadlines leave no room to learn adapters, or when you cannot manage these risks: too many layers for small apps, leaking framework types into the core, and confusing ports with adapters.
+
+A simple decision test: write down the problem in one sentence, then check whether the core domain and dependency direction are part of the answer. If they are, Hexagonal Architecture is probably worth a closer look.
+
+If you decide to go ahead, start small with supporting several interfaces and keep framework imports out of the core domain.

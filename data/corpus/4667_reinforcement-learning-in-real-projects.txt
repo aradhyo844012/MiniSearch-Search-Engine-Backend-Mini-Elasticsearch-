@@ -1,0 +1,11 @@
+Reinforcement Learning in Real Projects
+
+Reading about Reinforcement Learning is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: game playing. Here, agent drives the main design choices, and the team needs to guard against badly designed rewards.
+
+Scenario two: robot control. This time environment matters most, and tools such as Gymnasium help keep things manageable.
+
+Scenario three: recommendation strategies. The key idea is reward, and the biggest risk is slow training.
+
+Across all three scenarios, Reinforcement Learning stays the same idea: a way of training agents to choose actions by rewarding good outcomes. Only the details change.

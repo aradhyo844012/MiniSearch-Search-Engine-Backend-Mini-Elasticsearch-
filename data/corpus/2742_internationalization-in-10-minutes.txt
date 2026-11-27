@@ -1,0 +1,15 @@
+Internationalization in 10 Minutes
+
+You have ten minutes, so here is the fast route through Internationalization.
+
+Minutes 1 and 2, the definition: Internationalization is designing software so it can be adapted to different languages and regions.
+
+Minutes 3 and 4, the vocabulary: learn locale detection, translation files, pluralization, and date and number formatting.
+
+Minutes 5 and 6, the picture: imagine a stage set where the backdrop can be swapped for each audience. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through global products, multi-language websites, and regional pricing.
+
+Minutes 9 and 10, the traps and the tools: watch for hard-coded strings and text that overflows layouts, then try i18next for a first experiment.
+
+If you have a spare minute, remember to move every user-facing string into translation files from the first day.

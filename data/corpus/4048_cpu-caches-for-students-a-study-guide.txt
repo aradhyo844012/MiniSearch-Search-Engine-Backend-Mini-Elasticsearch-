@@ -1,0 +1,17 @@
+CPU Caches for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover CPU Caches.
+
+Learning goals:
+1. Explain CPU Caches in your own words.
+2. Describe cache lines, hit and miss rates, levels L1 to L3, and locality.
+3. Give examples from speeding up loops and explaining performance differences.
+4. Name three problems to watch for.
+
+Start with the definition: CPU Caches is small, fast memory close to the processor that stores recently used data. Then draw keeping your most-used books on your desk instead of in the library on paper and label the four terms from the goals above.
+
+Self-test questions: Why is false sharing a problem? How does hit and miss rates relate to levels L1 to L3? When would you choose perf or Valgrind cachegrind?
+
+Study habit worth keeping: access arrays in the order they are stored.
+
+When you feel ready, compare CPU Caches with Boolean Logic and Gates and write down three differences.

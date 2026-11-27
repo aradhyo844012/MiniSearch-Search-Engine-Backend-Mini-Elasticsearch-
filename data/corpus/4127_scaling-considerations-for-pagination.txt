@@ -1,0 +1,11 @@
+Scaling Considerations for Pagination
+
+A design that works for a classroom project can behave very differently under real load. Here is how Pagination changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding offset pagination and getting search results right.
+
+Medium scale: problems start to appear. Watch for offsets getting slow on huge tables and unstable sort order, and measure with SQL LIMIT and OFFSET before changing anything.
+
+Large scale: page size and stable ordering move from background details to central design questions. Teams often revisit their choices around activity feeds at this stage.
+
+Before you scale, prefer cursors for large or fast-changing data. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,9 @@
+Understanding Internationalization Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a stage set where the backdrop can be swapped for each audience.
+
+In that picture, locale detection is the first rule you follow, translation files is the next step, and pluralization and date and number formatting keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Internationalization is designing software so it can be adapted to different languages and regions, and it involves details such as hard-coded strings that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for i18next to learn the exact behavior. The same picture helps when you explain global products to a friend.

@@ -1,0 +1,11 @@
+B-Trees on Disk Tips from Experienced Engineers
+
+Engineers who work with B-Trees on Disk regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip pages; everything else builds on it.
+2. When something behaves strangely, revisit branching factor before anything else.
+3. Make sure you can keep indexed keys short so more of them fit on a page.
+4. Be careful with this one: random writes on fragmented pages.
+5. Test the case of database indexes early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to file system directories as well.

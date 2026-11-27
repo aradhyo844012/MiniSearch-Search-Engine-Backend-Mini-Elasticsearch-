@@ -1,0 +1,13 @@
+Idempotency Explained Simply
+
+Here is Idempotency without the jargon: it is the property that repeating an operation gives the same result as doing it once.
+
+Think of Idempotency as pressing an elevator call button many times and still getting one elevator. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: idempotency keys, safe retries, deduplication, and at-least-once delivery. You do not need to master them all at once. Start with idempotency keys, then add safe retries.
+
+People reach for Idempotency when they work on payment APIs, message processing, and retrying failed requests.
+
+One practical tip is to store the result with the key so retries return the same response.
+
+After Idempotency, a natural next topic is Event Sourcing.

@@ -1,0 +1,17 @@
+Java Streams Do's and Don'ts
+
+A quick list of habits for working with Java Streams.
+
+Do:
+- Learn map before anything else.
+- Try OpenJDK on a small example.
+- Make it a habit to keep each stream step small and readable.
+- Test the case of transforming lists early.
+
+Don't:
+- Ignore this: reusing a consumed stream.
+- Ignore this: side effects inside lambdas.
+- Ignore this: using parallel streams without measuring.
+- Adopt Java Streams just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Java Streams, a little patience with filter pays off more than any clever shortcut.

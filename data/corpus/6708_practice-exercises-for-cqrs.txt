@@ -1,0 +1,11 @@
+Practice Exercises for CQRS
+
+These exercises build real understanding of CQRS. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble high-read dashboards or complex domains.
+Exercise 2: Pick Axon Framework and complete its getting-started tutorial.
+Exercise 3: Explain how read models and eventual consistency differ, using a drawing.
+Exercise 4: Compare MediatR and Apache Kafka for scaling reads independently and write down your conclusion.
+Exercise 5: Create a small example that deliberately triggers this problem: adding it to simple apps. Then fix it.
+
+When you finish, compare your answers with the definition: CQRS is a pattern that separates the models used to change data from the models used to read it.

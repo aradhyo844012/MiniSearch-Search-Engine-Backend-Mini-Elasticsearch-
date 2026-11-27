@@ -1,0 +1,11 @@
+Backtracking Tips from Experienced Engineers
+
+Engineers who work with Backtracking regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can prune as early as possible because the savings multiply.
+2. Be careful with this one: forgetting to undo changes.
+3. Do not skip decision tree; everything else builds on it.
+4. Reach for Python recursion first, and only then evaluate alternatives such as itertools.
+5. Write down why you chose Backtracking so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to generating permutations as well.

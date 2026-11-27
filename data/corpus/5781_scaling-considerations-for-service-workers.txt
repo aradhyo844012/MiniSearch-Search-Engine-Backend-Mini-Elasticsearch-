@@ -1,0 +1,11 @@
+Scaling Considerations for Service Workers
+
+A design that works for a classroom project can behave very differently under real load. Here is how Service Workers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding registration and getting offline support right.
+
+Medium scale: problems start to appear. Watch for caching stale files forever and bugs surviving across deployments, and measure with Workbox before changing anything.
+
+Large scale: cache storage and fetch handlers move from background details to central design questions. Teams often revisit their choices around faster repeat visits at this stage.
+
+Before you scale, version your caches so old files can be removed. It is cheaper to build that habit early than to fix a crisis later.

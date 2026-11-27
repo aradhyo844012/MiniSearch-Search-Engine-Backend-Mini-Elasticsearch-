@@ -1,0 +1,13 @@
+Debugging Chaos Engineering: A Field Guide
+
+When something goes wrong around Chaos Engineering, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: experimenting without safeguards, having no steady-state metrics, and running first in production.
+Step 3: revisit steady state and hypotheses, since misunderstandings there cause many bugs.
+Step 4: use Chaos Monkey or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Chaos Engineering in work such as testing resilience come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start with small experiments in a test environment. It prevents a surprising number of repeat problems.

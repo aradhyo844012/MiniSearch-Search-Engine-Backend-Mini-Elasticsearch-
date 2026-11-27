@@ -1,0 +1,15 @@
+Regular Expressions Quick Reference
+
+A one-screen reminder for Regular Expressions. Bookmark it and return when the details fade.
+
+What it is: compact patterns for matching and extracting text.
+Key terms: character classes, quantifiers, groups, and anchors.
+Typical uses: validating input, searching logs, and extracting fields from text.
+Risks: catastrophic backtracking, patterns that are too greedy, and using them to parse HTML.
+Tools: the Python re module, regex101, and grep.
+
+Mental picture: a stencil that only lets certain shapes of text show through.
+
+Habit to build: build patterns in small steps and test each one.
+
+See also: C Pointers, which sits close to Regular Expressions in the area of Programming Languages.

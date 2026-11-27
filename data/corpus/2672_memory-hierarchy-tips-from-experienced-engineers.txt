@@ -1,0 +1,11 @@
+Memory Hierarchy Tips from Experienced Engineers
+
+Engineers who work with Memory Hierarchy regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip registers; everything else builds on it.
+2. Make sure you can reduce how often your program goes down to the slower layers.
+3. Reach for lscpu first, and only then evaluate alternatives such as vmstat.
+4. Be careful with this one: ignoring locality.
+5. Write down why you chose Memory Hierarchy so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to explaining slow I/O as well.

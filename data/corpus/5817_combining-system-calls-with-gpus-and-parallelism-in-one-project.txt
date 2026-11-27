@@ -1,0 +1,15 @@
+Combining System Calls with GPUs and Parallelism in One Project
+
+Real projects rarely use one idea in isolation. This article shows how System Calls and GPUs and Parallelism can work together in a single project.
+
+System Calls is the controlled doorway through which programs ask the operating system to do privileged work. GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Imagine a project that involves reading and writing files and training neural networks. System Calls brings user mode and kernel mode, while GPUs and Parallelism brings threads and blocks.
+
+A sensible plan is to start with strace for the System Calls part and CUDA for the GPUs and Parallelism part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: making too many small calls on one side, and branch-heavy code on the other.
+
+Picture the whole as a service window where a customer asks staff to do things in the back office, working alongside a stadium of workers each doing one small identical task.
+
+Two habits help: first, use strace to see what your program really asks the kernel to do; second, minimize copies between CPU and GPU memory.

@@ -1,0 +1,15 @@
+The Pros and Cons of Data Augmentation
+
+No technology is free of trade-offs, and Data Augmentation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports image models
+- Makes text classification easier
+- Helps with small datasets
+
+Drawbacks and risks:
+- Risk: changes that alter the label
+- Risk: augmenting the test set
+- Risk: unrealistic transformations
+
+Weigh the two lists against your own project. If the advantages match your needs, such as image models, and you can manage the risks, Data Augmentation is a sound choice. Whatever you decide, augment only the training data.

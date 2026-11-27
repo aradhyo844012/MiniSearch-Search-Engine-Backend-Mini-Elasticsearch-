@@ -1,0 +1,12 @@
+Questions to Ask About Software Estimation in Code Review
+
+Reviewing code that involves Software Estimation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered treating estimates as promises?
+- Is ranges clear to someone reading the code for the first time?
+- Does this change respect story points, or does it work around it?
+- Would a test catch ignoring unknowns if it appeared later?
+- Does the code handle the case of sprint planning correctly?
+- Have we avoided this problem: estimating alone?
+
+Good reviews of work on Software Estimation are specific, kind and focused on uncertainty, not on personal style.

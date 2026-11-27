@@ -1,0 +1,15 @@
+Combining Python Asyncio with Java Streams in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Python Asyncio and Java Streams can work together in a single project.
+
+Python Asyncio is a library for running many waiting tasks concurrently on a single thread. Java Streams is a way of processing collections with chains of declarative operations.
+
+Imagine a project that involves calling many APIs at once and transforming lists. Python Asyncio brings event loop, while Java Streams brings map.
+
+A sensible plan is to start with asyncio for the Python Asyncio part and OpenJDK for the Java Streams part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting to await on one side, and side effects inside lambdas on the other.
+
+Picture the whole as a chef who starts several dishes and checks each one when its timer rings, working alongside a conveyor belt where each station changes the item before passing it on.
+
+Two habits help: first, never call blocking code directly inside a coroutine; second, keep each stream step small and readable.

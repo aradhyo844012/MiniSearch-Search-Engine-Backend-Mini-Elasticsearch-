@@ -1,0 +1,11 @@
+Choosing Tools for Zero Trust Security
+
+There is no single best tool for Zero Trust Security. The right choice depends on your project, your team and your timeline.
+
+Okta is a common first choice, especially for remote work access. Tailscale suits teams that already work with similar technology, and identity-aware proxies is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle protecting internal services well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: treating it as a product to buy.
+
+As a rule of thumb, start with strong identity and device checks, no matter which tool you use.

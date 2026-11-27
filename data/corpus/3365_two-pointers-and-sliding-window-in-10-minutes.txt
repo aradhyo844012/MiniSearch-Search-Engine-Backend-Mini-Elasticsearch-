@@ -1,0 +1,15 @@
+Two Pointers and Sliding Window in 10 Minutes
+
+You have ten minutes, so here is the fast route through Two Pointers and Sliding Window.
+
+Minutes 1 and 2, the definition: Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Minutes 3 and 4, the vocabulary: learn left and right pointers, window boundaries, invariants, and shrinking and expanding.
+
+Minutes 5 and 6, the picture: imagine a small frame that slides along a line of text. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through finding pairs with a given sum, longest substring problems, and merging sorted arrays.
+
+Minutes 9 and 10, the traps and the tools: watch for moving the wrong pointer and forgetting empty inputs, then try Python lists for a first experiment.
+
+If you have a spare minute, remember to write down the window invariant before coding the loop.

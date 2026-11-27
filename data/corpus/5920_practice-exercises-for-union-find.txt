@@ -1,0 +1,11 @@
+Practice Exercises for Union-Find
+
+These exercises build real understanding of Union-Find. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: forgetting path compression. Then fix it.
+Exercise 2: Explain how find operation and path compression differ, using a drawing.
+Exercise 3: Write a short paragraph describing Union-Find and include the term parent pointers.
+Exercise 4: Pick Python lists and complete its getting-started tutorial.
+Exercise 5: List three situations from your own experience that resemble detecting connected components or building minimum spanning trees.
+
+When you finish, compare your answers with the definition: Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly.

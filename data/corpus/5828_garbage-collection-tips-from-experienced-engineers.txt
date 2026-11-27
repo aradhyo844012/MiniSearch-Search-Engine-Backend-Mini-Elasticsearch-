@@ -1,0 +1,11 @@
+Garbage Collection Tips from Experienced Engineers
+
+Engineers who work with Garbage Collection regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can measure allocation rates before tuning collector settings.
+2. Write down why you chose Garbage Collection so the next person understands the decision.
+3. Reach for JVM GC logs first, and only then evaluate alternatives such as the Python gc module.
+4. Test the case of managed languages like Java and Python early, before the design hardens.
+5. When something behaves strangely, revisit generations before anything else.
+
+None of these tips needs special equipment, and all of them apply to reducing memory bugs as well.

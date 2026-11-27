@@ -1,0 +1,13 @@
+API Versioning Explained Simply
+
+Here is API Versioning without the jargon: it is the practice of evolving an API without breaking existing clients.
+
+Think of API Versioning as keeping old editions of a textbook available while a new one is published. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: version in the URL, header versioning, deprecation, and backward compatibility. You do not need to master them all at once. Start with version in the URL, then add header versioning.
+
+You will meet API Versioning in work such as public APIs, mobile apps that cannot update instantly, and partner integrations.
+
+One practical tip is to announce deprecations with a clear sunset date.
+
+After API Versioning, a natural next topic is Pagination.

@@ -1,0 +1,13 @@
+Debugging CAP Theorem: A Field Guide
+
+When something goes wrong around CAP Theorem, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: treating it as a three-way menu, ignoring latency trade-offs in normal operation, and assuming partitions never happen.
+Step 3: revisit consistency and availability, since misunderstandings there cause many bugs.
+Step 4: use Apache Cassandra or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving CAP Theorem in work such as choosing database types come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, ask what your users prefer during a failure: stale answers or errors. It prevents a surprising number of repeat problems.

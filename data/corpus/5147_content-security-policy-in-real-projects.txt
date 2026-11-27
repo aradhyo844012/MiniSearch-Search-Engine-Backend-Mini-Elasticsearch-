@@ -1,0 +1,11 @@
+Content Security Policy in Real Projects
+
+Reading about Content Security Policy is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: reducing the impact of XSS. Here, directives drives the main design choices, and the team needs to guard against allowing unsafe-inline.
+
+Scenario two: blocking unwanted scripts. This time nonces matters most, and tools such as browser DevTools help keep things manageable.
+
+Scenario three: monitoring policy violations. The key idea is report-only mode, and the biggest risk is policies too broad to help.
+
+Across all three scenarios, Content Security Policy stays the same idea: a browser feature that limits which scripts and resources a page may load. Only the details change.

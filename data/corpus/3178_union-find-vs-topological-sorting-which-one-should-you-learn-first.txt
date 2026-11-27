@@ -1,0 +1,13 @@
+Union-Find vs Topological Sorting: Which One Should You Learn First?
+
+Learners often ask whether to study Union-Find or Topological Sorting first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly, and it is closely tied to parent pointers and union operation. Topological Sorting, by contrast, is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on, and it is closely tied to directed acyclic graphs and in-degree counts.
+
+Choose Union-Find first if you care about detecting connected components or building minimum spanning trees. Choose Topological Sorting first if you care about build systems or course prerequisite planning.
+
+Think of Union-Find as a set of club rosters where two clubs can merge into one, and of Topological Sorting as a recipe that must list every step after the steps it depends on. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Union-Find, avoid forgetting path compression. With Topological Sorting, avoid ignoring cycles.
+
+A good habit for Union-Find is to implement path compression and union by rank together. A good habit for Topological Sorting is to check for cycles first so you can report a clear error.

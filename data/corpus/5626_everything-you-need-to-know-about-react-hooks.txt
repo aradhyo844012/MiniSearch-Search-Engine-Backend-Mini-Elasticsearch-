@@ -1,0 +1,26 @@
+Everything You Need to Know About React Hooks
+
+This page collects the essentials about React Hooks in one place. In short, React Hooks is functions that let components use state and lifecycle features without writing classes.
+
+Core concepts:
+- useState
+- useEffect
+- dependency arrays
+- custom hooks
+
+Where it is used:
+- managing form input
+- fetching data on load
+- sharing logic between components
+
+Common problems:
+- missing dependencies in effects
+- calling hooks conditionally
+- stale closures
+
+Tools to know:
+- React DevTools
+- Vite
+- the ESLint hooks plugin
+
+Remember this above all: sticky notes a component keeps between redraws is a good way to picture it, and the best habit is to enable the hooks lint rules from the start.

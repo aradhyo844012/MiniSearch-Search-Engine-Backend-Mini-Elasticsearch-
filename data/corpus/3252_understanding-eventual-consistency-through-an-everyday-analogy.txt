@@ -1,0 +1,9 @@
+Understanding Eventual Consistency Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture news spreading through a village until everyone has heard it.
+
+In that picture, replication delay is the first rule you follow, conflict resolution is the next step, and read-your-writes and convergence keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough, and it involves details such as assuming reads are always fresh that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Amazon DynamoDB to learn the exact behavior. The same picture helps when you explain global social feeds to a friend.

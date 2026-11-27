@@ -1,0 +1,13 @@
+CSRF vs Encryption at Rest: Which One Should You Learn First?
+
+Learners often ask whether to study CSRF or Encryption at Rest first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site, and it is closely tied to session cookies and anti-CSRF tokens. Encryption at Rest, by contrast, is protecting stored data by encrypting it on disk or in a database, and it is closely tied to symmetric keys and key management.
+
+Choose CSRF first if you care about protecting forms or securing account settings. Choose Encryption at Rest first if you care about protecting backups or meeting compliance rules.
+
+Think of CSRF as a forged letter that a bank clerk stamps because your ID is already on file, and of Encryption at Rest as a locked safe inside a locked room. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CSRF, avoid using GET requests for state changes. With Encryption at Rest, avoid storing keys next to the data.
+
+A good habit for CSRF is to combine SameSite cookies with anti-CSRF tokens. A good habit for Encryption at Rest is to keep keys in a separate service from the data.

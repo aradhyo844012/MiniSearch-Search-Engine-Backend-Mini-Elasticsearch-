@@ -1,0 +1,15 @@
+The Pros and Cons of SQL Window Functions
+
+No technology is free of trade-offs, and SQL Window Functions is no exception. Here is an honest summary.
+
+Advantages:
+- Supports running totals
+- Makes ranking rows easier
+- Helps with comparing a row with the previous one
+
+Drawbacks and risks:
+- Risk: forgetting ORDER BY inside the window
+- Risk: confusing them with GROUP BY
+- Risk: slow sorts on huge partitions
+
+Weigh the two lists against your own project. If the advantages match your needs, such as running totals, and you can manage the risks, SQL Window Functions is a sound choice. Whatever you decide, start with ROW_NUMBER and LAG on a small table.

@@ -1,0 +1,11 @@
+Background Jobs in Real Projects
+
+Reading about Background Jobs is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: sending emails. Here, queues drives the main design choices, and the team needs to guard against jobs that are not idempotent.
+
+Scenario two: resizing images. This time workers matters most, and tools such as Celery help keep things manageable.
+
+Scenario three: generating reports. The key idea is retries, and the biggest risk is unbounded retries.
+
+Across all three scenarios, Background Jobs stays the same idea: tasks that run outside the request cycle so users do not have to wait for them. Only the details change.

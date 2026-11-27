@@ -1,0 +1,13 @@
+Load Testing Explained Simply
+
+If Load Testing sounds intimidating, relax. It is measuring how a system behaves under expected and heavy traffic, and the idea is simpler than the name suggests.
+
+Think of Load Testing as a stress test that fills a stadium to see how the exits cope. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: virtual users, throughput, latency percentiles, and ramp-up. You do not need to master them all at once. Start with virtual users, then add throughput.
+
+People reach for Load Testing when they work on capacity planning, finding bottlenecks, and validating autoscaling.
+
+One practical tip is to report p95 and p99 latency, not only averages.
+
+After Load Testing, a natural next topic is Code Coverage.

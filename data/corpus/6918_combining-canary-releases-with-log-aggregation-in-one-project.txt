@@ -1,0 +1,15 @@
+Combining Canary Releases with Log Aggregation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Canary Releases and Log Aggregation can work together in a single project.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it. Log Aggregation is collecting logs from many machines into one searchable place.
+
+Imagine a project that involves safer releases and troubleshooting across services. Canary Releases brings traffic percentages, while Log Aggregation brings shippers.
+
+A sensible plan is to start with Argo Rollouts for the Canary Releases part and Elasticsearch for the Log Aggregation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no clear success metrics on one side, and unstructured logs on the other.
+
+Picture the whole as a canary in a coal mine warning miners before the danger spreads, working alongside gathering notes from every desk into a single searchable binder.
+
+Two habits help: first, define rollback conditions before starting the rollout; second, use structured JSON logs so that fields are searchable.

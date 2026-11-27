@@ -1,0 +1,17 @@
+Reinforcement Learning Do's and Don'ts
+
+A quick list of habits for working with Reinforcement Learning.
+
+Do:
+- Learn agent before anything else.
+- Try Gymnasium on a small example.
+- Make it a habit to start with simple environments.
+- Test the case of game playing early.
+
+Don't:
+- Ignore this: badly designed rewards.
+- Ignore this: slow training.
+- Ignore this: unstable results across runs.
+- Adopt Reinforcement Learning just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Reinforcement Learning, a little patience with environment pays off more than any clever shortcut.

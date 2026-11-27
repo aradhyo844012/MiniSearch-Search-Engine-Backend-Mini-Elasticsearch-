@@ -1,0 +1,9 @@
+Understanding Feature Flags Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture light switches wired to every room of a house.
+
+In that picture, flag evaluation is the first rule you follow, targeting rules is the next step, and gradual rollout and flag cleanup keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Feature Flags is switches in configuration that turn features on or off without redeploying code, and it involves details such as never removing old flags that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for LaunchDarkly to learn the exact behavior. The same picture helps when you explain dark launches to a friend.

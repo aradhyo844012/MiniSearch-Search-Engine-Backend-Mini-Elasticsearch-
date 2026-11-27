@@ -1,0 +1,12 @@
+Time-Series Databases Glossary for Beginners
+
+New words can make Time-Series Databases feel harder than it is. This glossary keeps the key ones in one place.
+
+Time-Series Databases: databases optimized for storing and querying data points ordered by time.
+timestamps: a core term, most visible in server metrics.
+retention policies: a core term that beginners often confuse with downsampling.
+downsampling: a core term that connects to tags and fields.
+tags and fields: a core term worth revisiting after you try a real example.
+InfluxDB: a tool commonly used for sensor readings.
+
+Come back to this Time-Series Databases list whenever documentation for TimescaleDB uses a word you do not recognize.

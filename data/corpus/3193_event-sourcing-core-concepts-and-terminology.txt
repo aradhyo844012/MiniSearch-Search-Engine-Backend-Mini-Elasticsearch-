@@ -1,0 +1,10 @@
+Event Sourcing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Event Sourcing with confidence. The subject itself is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+event log: one of the building blocks of Event Sourcing. Mixing it up with neighboring terms is a common source of confusion.
+projections: one of the building blocks of Event Sourcing. You should be able to explain it in a single sentence before moving on.
+snapshots: one of the building blocks of Event Sourcing. It shows up whenever you work on audit trails.
+replay: one of the building blocks of Event Sourcing. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about financial ledgers. If the sentences feel natural, the vocabulary has stuck.

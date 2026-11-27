@@ -1,0 +1,11 @@
+Scaling Considerations for Modular Monoliths
+
+A design that works for a classroom project can behave very differently under real load. Here is how Modular Monoliths changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding module boundaries and getting small teams right.
+
+Medium scale: problems start to appear. Watch for modules reaching into each other's tables and no enforced boundaries, and measure with ArchUnit before changing anything.
+
+Large scale: shared database rules and dependency checks move from background details to central design questions. Teams often revisit their choices around early-stage products at this stage.
+
+Before you scale, enforce boundaries with automated checks. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Two Pointers and Sliding Window
+
+Everyone learns Two Pointers and Sliding Window partly through mistakes. Here are three worth avoiding.
+
+Mistake one: moving the wrong pointer. It usually appears when someone skips left and right pointers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: forgetting empty inputs. It tends to be noticed late, often during testing of finding pairs with a given sum. A short checklist during review catches it early.
+
+Mistake three: breaking the invariant. It is easy to miss because everything seems to work at first. Keep an eye on shrinking and expanding to spot it.
+
+If you remember only one rule, make it this: write down the window invariant before coding the loop.

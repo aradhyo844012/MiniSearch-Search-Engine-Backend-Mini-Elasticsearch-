@@ -1,0 +1,13 @@
+Canary Releases vs Service Mesh: Which One Should You Learn First?
+
+Learners often ask whether to study Canary Releases or Service Mesh first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it is closely tied to traffic percentages and health metrics. Service Mesh, by contrast, is an infrastructure layer that manages communication between services through proxies, and it is closely tied to sidecar proxies and mutual TLS.
+
+Choose Canary Releases first if you care about safer releases or testing with real traffic. Choose Service Mesh first if you care about securing service traffic or retries and timeouts.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads, and of Service Mesh as a postal system that applies delivery rules between buildings. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Canary Releases, avoid too little traffic to reveal problems. With Service Mesh, avoid added latency and complexity.
+
+A good habit for Canary Releases is to define rollback conditions before starting the rollout. A good habit for Service Mesh is to adopt it only once the number of services makes manual setup painful.

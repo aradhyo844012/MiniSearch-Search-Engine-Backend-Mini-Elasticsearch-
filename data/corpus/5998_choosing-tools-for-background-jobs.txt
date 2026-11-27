@@ -1,0 +1,11 @@
+Choosing Tools for Background Jobs
+
+There is no single best tool for Background Jobs. The right choice depends on your project, your team and your timeline.
+
+Celery is a common first choice, especially for sending emails. Sidekiq suits teams that already work with similar technology, and BullMQ is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle resizing images well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: jobs that are not idempotent.
+
+As a rule of thumb, give every job a timeout and a retry limit, no matter which tool you use.

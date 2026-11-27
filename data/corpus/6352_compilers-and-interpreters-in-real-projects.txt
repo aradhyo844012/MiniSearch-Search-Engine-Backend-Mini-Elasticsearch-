@@ -1,0 +1,11 @@
+Compilers and Interpreters in Real Projects
+
+Reading about Compilers and Interpreters is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: running Python and JavaScript. Here, lexing drives the main design choices, and the team needs to guard against assuming interpreted means slow without measuring.
+
+Scenario two: building native programs. This time parsing matters most, and tools such as GCC help keep things manageable.
+
+Scenario three: creating tools like linters. The key idea is code generation, and the biggest risk is ignoring compiler warnings.
+
+Across all three scenarios, Compilers and Interpreters stays the same idea: programs that translate or run source code written in a high-level language. Only the details change.

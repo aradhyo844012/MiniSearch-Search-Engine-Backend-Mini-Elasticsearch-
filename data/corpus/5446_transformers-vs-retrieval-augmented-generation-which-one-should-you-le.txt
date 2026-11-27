@@ -1,0 +1,13 @@
+Transformers vs Retrieval-Augmented Generation: Which One Should You Learn First?
+
+Learners often ask whether to study Transformers or Retrieval-Augmented Generation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Transformers is neural network architectures that use attention to relate all parts of an input to each other, and it is closely tied to self-attention and positional encoding. Retrieval-Augmented Generation, by contrast, is a technique that gives a language model relevant documents to read before it answers, and it is closely tied to retrieval and chunking.
+
+Choose Transformers first if you care about language translation or text generation. Choose Retrieval-Augmented Generation first if you care about company knowledge assistants or question answering over documents.
+
+Think of Transformers as a reader who can look back at any word of a paragraph while reading each new word, and of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Transformers, avoid huge compute requirements. With Retrieval-Augmented Generation, avoid poor chunking.
+
+A good habit for Transformers is to begin with small pretrained models. A good habit for Retrieval-Augmented Generation is to evaluate retrieval quality separately from answer quality.

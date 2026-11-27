@@ -1,0 +1,12 @@
+Questions to Ask About Garbage Collection in Code Review
+
+Reviewing code that involves Garbage Collection is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered creating huge numbers of short-lived objects?
+- Have we avoided this problem: ignoring pause times in latency-sensitive code?
+- Is JVM GC logs used consistently, or are we mixing approaches?
+- Does the code handle the case of managed languages like Java and Python correctly?
+- Would a test catch holding references longer than needed if it appeared later?
+- Is generations clear to someone reading the code for the first time?
+
+Good reviews of work on Garbage Collection are specific, kind and focused on mark and sweep, not on personal style.

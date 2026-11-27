@@ -1,0 +1,11 @@
+Choosing Tools for Test-Driven Development
+
+There is no single best tool for Test-Driven Development. The right choice depends on your project, your team and your timeline.
+
+pytest is a common first choice, especially for designing small modules. JUnit suits teams that already work with similar technology, and Jest is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle preventing regressions well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: writing tests that are too large.
+
+As a rule of thumb, keep each red-green cycle to a few minutes, no matter which tool you use.

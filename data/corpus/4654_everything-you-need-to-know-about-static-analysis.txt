@@ -1,0 +1,26 @@
+Everything You Need to Know About Static Analysis
+
+This page collects the essentials about Static Analysis in one place. In short, Static Analysis is automated checking of source code for bugs and style problems without running it.
+
+Core concepts:
+- linters
+- type checkers
+- rule sets
+- false positives
+
+Where it is used:
+- catching bugs early
+- enforcing team style
+- improving security
+
+Common problems:
+- ignoring warnings
+- too many noisy rules
+- disabling checks permanently
+
+Tools to know:
+- ESLint
+- Pylint
+- SonarQube
+
+Remember this above all: a spell checker for code is a good way to picture it, and the best habit is to run it in CI so problems never reach the main branch.

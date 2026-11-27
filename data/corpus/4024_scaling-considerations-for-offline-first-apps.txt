@@ -1,0 +1,11 @@
+Scaling Considerations for Offline-First Apps
+
+A design that works for a classroom project can behave very differently under real load. Here is how Offline-First Apps changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding local storage and getting field service tools right.
+
+Medium scale: problems start to appear. Watch for unresolved sync conflicts and unbounded local data, and measure with SQLite before changing anything.
+
+Large scale: conflict resolution and optimistic updates move from background details to central design questions. Teams often revisit their choices around note-taking apps at this stage.
+
+Before you scale, show users which changes have not synced yet. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+Debugging Idempotency: A Field Guide
+
+When something goes wrong around Idempotency, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: keys that expire too soon, side effects outside the guarded step, and reusing keys for different requests.
+Step 3: revisit idempotency keys and safe retries, since misunderstandings there cause many bugs.
+Step 4: use Stripe idempotency keys or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Idempotency in work such as payment APIs come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, store the result with the key so retries return the same response. It prevents a surprising number of repeat problems.

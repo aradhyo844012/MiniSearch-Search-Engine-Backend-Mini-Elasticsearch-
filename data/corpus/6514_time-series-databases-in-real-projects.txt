@@ -1,0 +1,11 @@
+Time-Series Databases in Real Projects
+
+Reading about Time-Series Databases is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: server metrics. Here, timestamps drives the main design choices, and the team needs to guard against high-cardinality tags.
+
+Scenario two: sensor readings. This time retention policies matters most, and tools such as InfluxDB help keep things manageable.
+
+Scenario three: financial tick data. The key idea is downsampling, and the biggest risk is keeping raw data forever.
+
+Across all three scenarios, Time-Series Databases stays the same idea: databases optimized for storing and querying data points ordered by time. Only the details change.

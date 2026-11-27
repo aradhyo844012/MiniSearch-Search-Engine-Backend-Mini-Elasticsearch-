@@ -1,0 +1,12 @@
+Questions to Ask About Raft Consensus in Code Review
+
+Reviewing code that involves Raft Consensus is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch slow disks causing elections if it appeared later?
+- Have we avoided this problem: network delays above election timeouts?
+- Have we considered even-sized clusters?
+- Is log replication clear to someone reading the code for the first time?
+- Is etcd used consistently, or are we mixing approaches?
+- Does the code handle the case of configuration stores correctly?
+
+Good reviews of work on Raft Consensus are specific, kind and focused on terms, not on personal style.

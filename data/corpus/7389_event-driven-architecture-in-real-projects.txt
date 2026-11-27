@@ -1,0 +1,11 @@
+Event-Driven Architecture in Real Projects
+
+Reading about Event-Driven Architecture is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: order pipelines. Here, producers and consumers drives the main design choices, and the team needs to guard against hard-to-trace flows.
+
+Scenario two: real-time notifications. This time event brokers matters most, and tools such as Apache Kafka help keep things manageable.
+
+Scenario three: integrating many services. The key idea is loose coupling, and the biggest risk is duplicate events.
+
+Across all three scenarios, Event-Driven Architecture stays the same idea: a style in which components communicate by publishing events and reacting to them. Only the details change.

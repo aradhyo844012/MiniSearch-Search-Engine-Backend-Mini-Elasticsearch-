@@ -1,0 +1,17 @@
+Go Goroutines Do's and Don'ts
+
+A quick list of habits for working with Go Goroutines.
+
+Do:
+- Learn goroutines before anything else.
+- Try the go command on a small example.
+- Make it a habit to run your tests with the race detector turned on.
+- Test the case of servers handling many connections early.
+
+Don't:
+- Ignore this: goroutine leaks.
+- Ignore this: data races.
+- Ignore this: unbuffered channels causing deadlocks.
+- Adopt Go Goroutines just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Go Goroutines, a little patience with channels pays off more than any clever shortcut.

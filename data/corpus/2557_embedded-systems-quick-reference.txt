@@ -1,0 +1,15 @@
+Embedded Systems Quick Reference
+
+A one-screen reminder for Embedded Systems. Bookmark it and return when the details fade.
+
+What it is: computers built into devices to perform dedicated tasks within tight limits.
+Key terms: microcontrollers, firmware, real-time constraints, and memory limits.
+Typical uses: appliances, medical devices, and vehicles.
+Risks: memory leaks on tiny devices, no plan for updates, and ignoring power use.
+Tools: C, FreeRTOS, and PlatformIO.
+
+Mental picture: a small brain inside an appliance that only knows one job.
+
+Habit to build: plan how firmware updates will be delivered from the start.
+
+See also: React Native, which sits close to Embedded Systems in the area of Mobile, Embedded and IoT.

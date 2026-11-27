@@ -1,0 +1,9 @@
+Understanding Star Schema Modeling Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a wheel with a hub of numbers and spokes of descriptions.
+
+In that picture, fact tables is the first rule you follow, dimension tables is the next step, and surrogate keys and grain keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it involves details such as mixing different grains that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for dbt to learn the exact behavior. The same picture helps when you explain business intelligence reports to a friend.

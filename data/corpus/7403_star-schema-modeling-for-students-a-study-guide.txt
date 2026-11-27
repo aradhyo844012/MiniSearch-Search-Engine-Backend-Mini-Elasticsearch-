@@ -1,0 +1,17 @@
+Star Schema Modeling for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Star Schema Modeling.
+
+Learning goals:
+1. Explain Star Schema Modeling in your own words.
+2. Describe fact tables, dimension tables, surrogate keys, and grain.
+3. Give examples from business intelligence reports and data warehouses.
+4. Name three problems to watch for.
+
+Start with the definition: Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables. Then draw a wheel with a hub of numbers and spokes of descriptions on paper and label the four terms from the goals above.
+
+Self-test questions: Why is mixing different grains a problem? How does dimension tables relate to surrogate keys? When would you choose dbt or Snowflake?
+
+Study habit worth keeping: state the grain of the fact table before designing anything else.
+
+When you feel ready, compare Star Schema Modeling with Data Quality Checks and write down three differences.

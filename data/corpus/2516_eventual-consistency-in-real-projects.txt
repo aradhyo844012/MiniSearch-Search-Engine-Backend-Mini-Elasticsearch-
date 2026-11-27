@@ -1,0 +1,11 @@
+Eventual Consistency in Real Projects
+
+Reading about Eventual Consistency is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: global social feeds. Here, replication delay drives the main design choices, and the team needs to guard against assuming reads are always fresh.
+
+Scenario two: shopping cart services. This time conflict resolution matters most, and tools such as Amazon DynamoDB help keep things manageable.
+
+Scenario three: DNS records. The key idea is read-your-writes, and the biggest risk is unresolved write conflicts.
+
+Across all three scenarios, Eventual Consistency stays the same idea: a guarantee that replicas will agree on the same value if updates stop for long enough. Only the details change.

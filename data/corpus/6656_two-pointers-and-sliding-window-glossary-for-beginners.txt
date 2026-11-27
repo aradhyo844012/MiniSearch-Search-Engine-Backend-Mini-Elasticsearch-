@@ -1,0 +1,12 @@
+Two Pointers and Sliding Window Glossary for Beginners
+
+New words can make Two Pointers and Sliding Window feel harder than it is. This glossary keeps the key ones in one place.
+
+Two Pointers and Sliding Window: techniques that scan arrays with two moving positions to avoid nested loops.
+left and right pointers: a core term, most visible in finding pairs with a given sum.
+window boundaries: a core term that beginners often confuse with invariants.
+invariants: a core term that connects to shrinking and expanding.
+shrinking and expanding: a core term worth revisiting after you try a real example.
+Python lists: a tool commonly used for longest substring problems.
+
+Come back to this Two Pointers and Sliding Window list whenever documentation for collections.deque uses a word you do not recognize.

@@ -1,0 +1,13 @@
+Skills to Build Around Dijkstra's Algorithm
+
+Knowing the definition of Dijkstra's Algorithm is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with priority queue and distance table, and able to explain them without notes.
+
+Hands-on practice: spend real time with Python heapq on a Dijkstra's Algorithm task, and try at least one alternative such as NetworkX.
+
+Judgment: learn to decide when Dijkstra's Algorithm fits a problem such as route planning, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a GPS that keeps expanding to the nearest unvisited intersection.
+
+Habits: stop as soon as the destination is popped from the queue, and write down what you learn after each project.

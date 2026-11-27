@@ -1,0 +1,12 @@
+Questions to Ask About Idempotency in Code Review
+
+Reviewing code that involves Idempotency is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered keys that expire too soon?
+- Is Stripe idempotency keys used consistently, or are we mixing approaches?
+- Would a test catch side effects outside the guarded step if it appeared later?
+- Does the code handle the case of payment APIs correctly?
+- Is safe retries clear to someone reading the code for the first time?
+- Could we store the result with the key so retries return the same response?
+
+Good reviews of work on Idempotency are specific, kind and focused on deduplication, not on personal style.

@@ -1,0 +1,13 @@
+Property-Based Testing Explained Simply
+
+If Property-Based Testing sounds intimidating, relax. It is testing with many automatically generated inputs to check that general rules always hold, and the idea is simpler than the name suggests.
+
+Think of Property-Based Testing as a robot tester trying thousands of odd inputs. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: properties, generators, shrinking, and invariants. You do not need to master them all at once. Start with properties, then add generators.
+
+You will meet Property-Based Testing in work such as testing parsers, checking sorting and math functions, and finding edge cases.
+
+One practical tip is to save failing examples as regular tests.
+
+After Property-Based Testing, a natural next topic is Fuzz Testing.

@@ -1,0 +1,15 @@
+Combining A/B Testing with Statistical Significance in One Project
+
+Real projects rarely use one idea in isolation. This article shows how A/B Testing and Statistical Significance can work together in a single project.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better. Statistical Significance is a measure of how unlikely a result would be if there were no real effect.
+
+Imagine a project that involves testing page designs and judging experiment results. A/B Testing brings control and variant, while Statistical Significance brings p-values.
+
+A sensible plan is to start with Optimizely for the A/B Testing part and SciPy for the Statistical Significance part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: testing too many variants on one side, and p-hacking on the other.
+
+Picture the whole as taste-testing two recipes on randomly chosen guests, working alongside asking how surprised you should be if a coin were actually fair.
+
+Two habits help: first, decide the success metric and sample size before you begin; second, always report the effect size alongside the p-value.

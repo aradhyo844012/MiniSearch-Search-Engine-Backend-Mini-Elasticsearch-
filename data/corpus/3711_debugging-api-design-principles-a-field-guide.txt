@@ -1,0 +1,13 @@
+Debugging API Design Principles: A Field Guide
+
+When something goes wrong around API Design Principles, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: leaking internal details, inconsistent responses, and undocumented behavior.
+Step 3: revisit consistent naming and clear errors, since misunderstandings there cause many bugs.
+Step 4: use OpenAPI or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving API Design Principles in work such as public platforms come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, write the documentation before the implementation. It prevents a surprising number of repeat problems.

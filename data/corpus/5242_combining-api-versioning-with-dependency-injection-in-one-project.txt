@@ -1,0 +1,15 @@
+Combining API Versioning with Dependency Injection in One Project
+
+Real projects rarely use one idea in isolation. This article shows how API Versioning and Dependency Injection can work together in a single project.
+
+API Versioning is the practice of evolving an API without breaking existing clients. Dependency Injection is a design approach where objects receive their dependencies instead of creating them.
+
+Imagine a project that involves public APIs and easier unit testing. API Versioning brings version in the URL, while Dependency Injection brings constructor injection.
+
+A sensible plan is to start with OpenAPI for the API Versioning part and Spring for the Dependency Injection part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: removing fields without notice on one side, and circular dependencies on the other.
+
+Picture the whole as keeping old editions of a textbook available while a new one is published, working alongside a chef who is handed ingredients instead of shopping for them.
+
+Two habits help: first, announce deprecations with a clear sunset date; second, inject interfaces so tests can use simple fakes.

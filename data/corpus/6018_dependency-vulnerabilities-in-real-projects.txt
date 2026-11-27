@@ -1,0 +1,11 @@
+Dependency Vulnerabilities in Real Projects
+
+Reading about Dependency Vulnerabilities is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: auditing projects. Here, CVE identifiers drives the main design choices, and the team needs to guard against ignoring transitive dependencies.
+
+Scenario two: automating updates. This time version pinning matters most, and tools such as Dependabot help keep things manageable.
+
+Scenario three: meeting supply chain requirements. The key idea is transitive dependencies, and the biggest risk is never updating.
+
+Across all three scenarios, Dependency Vulnerabilities stays the same idea: security weaknesses that come from third-party libraries a project uses. Only the details change.

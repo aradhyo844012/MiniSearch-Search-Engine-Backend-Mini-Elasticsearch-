@@ -1,0 +1,9 @@
+Understanding State Management Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a shared whiteboard that everyone updates through the same rules.
+
+In that picture, single source of truth is the first rule you follow, actions is the next step, and reducers and derived state keep everything running smoothly.
+
+Every analogy breaks down eventually. Real State Management is the practice of organizing where an application keeps and updates its data, and it involves details such as putting everything in global state that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Redux to learn the exact behavior. The same picture helps when you explain large single-page apps to a friend.

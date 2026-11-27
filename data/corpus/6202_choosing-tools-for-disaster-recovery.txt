@@ -1,0 +1,11 @@
+Choosing Tools for Disaster Recovery
+
+There is no single best tool for Disaster Recovery. The right choice depends on your project, your team and your timeline.
+
+AWS Backup is a common first choice, especially for surviving regional outages. Terraform suits teams that already work with similar technology, and Route 53 failover is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle meeting compliance needs well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: untested plans.
+
+As a rule of thumb, run a failover exercise on a regular schedule, no matter which tool you use.

@@ -1,0 +1,11 @@
+Scaling Considerations for Write-Ahead Logging
+
+A design that works for a classroom project can behave very differently under real load. Here is how Write-Ahead Logging changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding log records and getting surviving crashes right.
+
+Medium scale: problems start to appear. Watch for disabling fsync for speed and log files filling the disk, and measure with PostgreSQL WAL before changing anything.
+
+Large scale: crash recovery and fsync move from background details to central design questions. Teams often revisit their choices around feeding replication streams at this stage.
+
+Before you scale, test crash recovery by killing the process on purpose. It is cheaper to build that habit early than to fix a crisis later.

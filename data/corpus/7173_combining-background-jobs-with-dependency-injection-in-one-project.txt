@@ -1,0 +1,15 @@
+Combining Background Jobs with Dependency Injection in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Background Jobs and Dependency Injection can work together in a single project.
+
+Background Jobs is tasks that run outside the request cycle so users do not have to wait for them. Dependency Injection is a design approach where objects receive their dependencies instead of creating them.
+
+Imagine a project that involves sending emails and easier unit testing. Background Jobs brings queues, while Dependency Injection brings constructor injection.
+
+A sensible plan is to start with Celery for the Background Jobs part and Spring for the Dependency Injection part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded retries on one side, and circular dependencies on the other.
+
+Picture the whole as dropping laundry at a service and collecting it later, working alongside a chef who is handed ingredients instead of shopping for them.
+
+Two habits help: first, give every job a timeout and a retry limit; second, inject interfaces so tests can use simple fakes.

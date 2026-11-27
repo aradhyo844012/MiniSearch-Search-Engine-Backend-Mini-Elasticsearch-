@@ -1,0 +1,13 @@
+Teaching Content Security Policy to a Teammate
+
+Explaining Content Security Policy to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a guest list at the door of a building. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Content Security Policy is a browser feature that limits which scripts and resources a page may load. Avoid jargon at this stage.
+
+Walk through an example involving reducing the impact of XSS, naming directives and nonces as they come up.
+
+Ask your teammate to explain report-only mode in Content Security Policy back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, allowing unsafe-inline, and suggest this habit: start in report-only mode to learn what would break.

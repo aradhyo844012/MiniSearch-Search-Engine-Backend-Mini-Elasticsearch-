@@ -1,0 +1,12 @@
+Python Asyncio Glossary for Beginners
+
+New words can make Python Asyncio feel harder than it is. This glossary keeps the key ones in one place.
+
+Python Asyncio: a library for running many waiting tasks concurrently on a single thread.
+event loop: a core term, most visible in calling many APIs at once.
+coroutines: a core term that beginners often confuse with await.
+await: a core term that connects to tasks.
+tasks: a core term worth revisiting after you try a real example.
+asyncio: a tool commonly used for web servers.
+
+Come back to this Python Asyncio list whenever documentation for aiohttp uses a word you do not recognize.

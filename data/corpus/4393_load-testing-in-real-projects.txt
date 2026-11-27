@@ -1,0 +1,11 @@
+Load Testing in Real Projects
+
+Reading about Load Testing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: capacity planning. Here, virtual users drives the main design choices, and the team needs to guard against testing unrealistic traffic.
+
+Scenario two: finding bottlenecks. This time throughput matters most, and tools such as k6 help keep things manageable.
+
+Scenario three: validating autoscaling. The key idea is latency percentiles, and the biggest risk is ignoring warm-up.
+
+Across all three scenarios, Load Testing stays the same idea: measuring how a system behaves under expected and heavy traffic. Only the details change.

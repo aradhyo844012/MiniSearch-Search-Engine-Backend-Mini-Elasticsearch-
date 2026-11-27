@@ -1,0 +1,11 @@
+Scaling Considerations for Distributed Locks
+
+A design that works for a classroom project can behave very differently under real load. Here is how Distributed Locks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding lease times and getting running scheduled jobs once right.
+
+Medium scale: problems start to appear. Watch for locks that never expire and clock drift, and measure with Redis before changing anything.
+
+Large scale: lock owners and timeouts move from background details to central design questions. Teams often revisit their choices around protecting shared resources at this stage.
+
+Before you scale, always use a timeout together with a fencing token. It is cheaper to build that habit early than to fix a crisis later.

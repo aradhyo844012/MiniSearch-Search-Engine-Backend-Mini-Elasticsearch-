@@ -1,0 +1,13 @@
+Skills to Build Around Rust Ownership
+
+Knowing the definition of Rust Ownership is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with ownership and borrowing, and able to explain them without notes.
+
+Hands-on practice: spend real time with Cargo on a Rust Ownership task, and try at least one alternative such as rustc.
+
+Judgment: learn to decide when Rust Ownership fits a problem such as systems programming, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a single house key that you can hand over or lend out but never copy.
+
+Habits: read the compiler's error messages closely because they often explain the fix, and write down what you learn after each project.

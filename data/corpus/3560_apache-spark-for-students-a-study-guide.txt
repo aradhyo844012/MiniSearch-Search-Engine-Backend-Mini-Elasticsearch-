@@ -1,0 +1,17 @@
+Apache Spark for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Apache Spark.
+
+Learning goals:
+1. Explain Apache Spark in your own words.
+2. Describe DataFrames, transformations and actions, partitions, and lazy execution.
+3. Give examples from large ETL jobs and machine learning on big data.
+4. Name three problems to watch for.
+
+Start with the definition: Apache Spark is a distributed engine for processing large datasets across many machines. Then draw a team of workers each processing a share of a huge pile of papers on paper and label the four terms from the goals above.
+
+Self-test questions: Why is data skew a problem? How does transformations and actions relate to partitions? When would you choose PySpark or Databricks?
+
+Study habit worth keeping: avoid collecting large results onto a single machine.
+
+When you feel ready, compare Apache Spark with Data Lakes and write down three differences.

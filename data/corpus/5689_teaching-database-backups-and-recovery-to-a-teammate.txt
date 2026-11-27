@@ -1,0 +1,13 @@
+Teaching Database Backups and Recovery to a Teammate
+
+Explaining Database Backups and Recovery to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a spare house key kept at a trusted neighbor's home. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures. Avoid jargon at this stage.
+
+Walk through an example involving recovering deleted tables, naming full and incremental backups and recovery point objective as they come up.
+
+Ask your teammate to explain recovery time objective in Database Backups and Recovery back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, never testing restores, and suggest this habit: schedule a restore drill on a regular basis.

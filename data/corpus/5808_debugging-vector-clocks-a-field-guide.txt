@@ -1,0 +1,13 @@
+Debugging Vector Clocks: A Field Guide
+
+When something goes wrong around Vector Clocks, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: clocks that grow with many nodes, confusing them with wall-clock time, and never pruning old entries.
+Step 3: revisit logical time and per-process counters, since misunderstandings there cause many bugs.
+Step 4: use Riak or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Vector Clocks in work such as detecting concurrent edits come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, compare clocks entry by entry to detect true concurrency. It prevents a surprising number of repeat problems.

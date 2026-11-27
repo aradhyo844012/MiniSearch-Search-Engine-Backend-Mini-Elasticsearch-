@@ -1,0 +1,17 @@
+Convolutional Neural Networks for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Convolutional Neural Networks.
+
+Learning goals:
+1. Explain Convolutional Neural Networks in your own words.
+2. Describe filters, pooling, feature maps, and stride.
+3. Give examples from image classification and medical image analysis.
+4. Name three problems to watch for.
+
+Start with the definition: Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns. Then draw a magnifying glass sweeping across a photo looking for edges and shapes on paper and label the four terms from the goals above.
+
+Self-test questions: Why is too little training data a problem? How does pooling relate to feature maps? When would you choose PyTorch or TensorFlow?
+
+Study habit: start from a pretrained model.
+
+When you feel ready, compare Convolutional Neural Networks with Random Forests and write down three differences.

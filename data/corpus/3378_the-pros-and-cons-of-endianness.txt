@@ -1,0 +1,15 @@
+The Pros and Cons of Endianness
+
+No technology is free of trade-offs, and Endianness is no exception. Here is an honest summary.
+
+Advantages:
+- Supports network protocols
+- Makes binary file formats easier
+- Helps with cross-platform data exchange
+
+Drawbacks and risks:
+- Risk: mixing byte orders
+- Risk: assuming all machines are alike
+- Risk: forgetting to convert before sending
+
+Weigh the two lists against your own project. If the advantages match your needs, such as network protocols, and you can manage the risks, Endianness is a sound choice. Whatever you decide, always specify byte order in file and protocol formats.

@@ -1,0 +1,11 @@
+Vector Clocks in Real Projects
+
+Reading about Vector Clocks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: detecting concurrent edits. Here, logical time drives the main design choices, and the team needs to guard against clocks that grow with many nodes.
+
+Scenario two: replicated databases. This time per-process counters matters most, and tools such as Riak help keep things manageable.
+
+Scenario three: collaborative tools. The key idea is the happened-before relation, and the biggest risk is confusing them with wall-clock time.
+
+Across all three scenarios, Vector Clocks stays the same idea: counters that let distributed processes track the order of events without a shared clock. Only the details change.

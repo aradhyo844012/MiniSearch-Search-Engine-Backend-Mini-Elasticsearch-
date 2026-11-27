@@ -1,0 +1,17 @@
+Load Testing Do's and Don'ts
+
+A quick list of habits for working with Load Testing.
+
+Do:
+- Learn virtual users before anything else.
+- Try k6 on a small example.
+- Make it a habit to report p95 and p99 latency, not only averages.
+- Test the case of capacity planning early.
+
+Don't:
+- Ignore this: testing unrealistic traffic.
+- Ignore this: ignoring warm-up.
+- Ignore this: using average latency only.
+- Adopt Load Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Load Testing, a little patience with throughput pays off more than any clever shortcut.

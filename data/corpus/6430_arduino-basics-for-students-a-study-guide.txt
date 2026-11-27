@@ -1,0 +1,17 @@
+Arduino Basics for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Arduino Basics.
+
+Learning goals:
+1. Explain Arduino Basics in your own words.
+2. Describe sketches, digital and analog pins, setup and loop functions, and the serial monitor.
+3. Give examples from reading sensors and driving motors and LEDs.
+4. Name three problems to watch for.
+
+Start with the definition: Arduino Basics is a beginner-friendly microcontroller platform for reading sensors and controlling devices. Then draw a tiny brain that watches inputs and flips switches on paper and label the four terms from the goals above.
+
+Self-test questions: Why is wiring errors a problem? How does digital and analog pins relate to setup and loop functions? When would you choose Arduino IDE or PlatformIO?
+
+Study habit worth keeping: test each sensor on its own before combining them.
+
+When you feel ready, compare Arduino Basics with Bluetooth Low Energy and write down three differences.

@@ -1,0 +1,11 @@
+Scaling Considerations for Skip Lists
+
+A design that works for a classroom project can behave very differently under real load. Here is how Skip Lists changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding multiple levels and getting ordered in-memory indexes right.
+
+Medium scale: problems start to appear. Watch for poor random number choices and memory overhead, and measure with Redis sorted sets before changing anything.
+
+Large scale: forward pointers and expected logarithmic time move from background details to central design questions. Teams often revisit their choices around sorted sets in caches at this stage.
+
+Before you scale, draw several levels by hand to see how a search moves down. It is cheaper to build that habit early than to fix a crisis later.

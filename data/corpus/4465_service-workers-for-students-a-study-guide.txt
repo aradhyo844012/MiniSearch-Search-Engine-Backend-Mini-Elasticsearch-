@@ -1,0 +1,17 @@
+Service Workers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Service Workers.
+
+Learning goals:
+1. Explain Service Workers in your own words.
+2. Describe registration, install and activate events, cache storage, and fetch handlers.
+3. Give examples from offline support and faster repeat visits.
+4. Name three problems to watch for.
+
+Start with the definition: Service Workers is scripts that run in the background of a browser and intercept network requests. Then draw a receptionist who answers common requests before they reach the manager on paper and label the four terms from the goals above.
+
+Self-test questions: Why is caching stale files forever a problem? How does install and activate events relate to cache storage? When would you choose Workbox or the Chrome DevTools Application panel?
+
+Study habit: version your caches so old files can be removed.
+
+When you feel ready, compare Service Workers with State Management and write down three differences.

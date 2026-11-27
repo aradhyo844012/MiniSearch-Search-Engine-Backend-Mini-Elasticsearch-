@@ -1,0 +1,13 @@
+Teaching Event Sourcing to a Teammate
+
+Explaining Event Sourcing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a bank statement that lists every transaction instead of only the balance. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them. Avoid jargon at this stage.
+
+Walk through an example involving audit trails, naming event log and projections as they come up.
+
+Ask your teammate to explain snapshots in Event Sourcing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, changing event formats carelessly, and suggest this habit: version your events from the first day.

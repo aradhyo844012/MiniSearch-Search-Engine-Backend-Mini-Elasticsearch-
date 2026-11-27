@@ -1,0 +1,11 @@
+Data Anonymization in Real Projects
+
+Reading about Data Anonymization is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: sharing datasets with researchers. Here, masking drives the main design choices, and the team needs to guard against re-identification through combined fields.
+
+Scenario two: testing with production-like data. This time generalization matters most, and tools such as ARX help keep things manageable.
+
+Scenario three: meeting privacy rules. The key idea is k-anonymity, and the biggest risk is removing too little.
+
+Across all three scenarios, Data Anonymization stays the same idea: removing or altering personal details in data so people cannot be identified. Only the details change.

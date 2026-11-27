@@ -1,0 +1,13 @@
+Mobile App Security vs Embedded Systems: Which One Should You Learn First?
+
+Learners often ask whether to study Mobile App Security or Embedded Systems first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Mobile App Security is practices that protect mobile apps and their data from attacks, and it is closely tied to secure storage and certificate pinning. Embedded Systems, by contrast, is computers built into devices to perform dedicated tasks within tight limits, and it is closely tied to microcontrollers and firmware.
+
+Choose Mobile App Security first if you care about banking apps or health apps. Choose Embedded Systems first if you care about appliances or medical devices.
+
+Think of Mobile App Security as locking an app's valuables in a hotel safe, and of Embedded Systems as a small brain inside an appliance that only knows one job. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mobile App Security, avoid storing tokens in plain text. With Embedded Systems, avoid memory leaks on tiny devices.
+
+A good habit for Mobile App Security is to store secrets in the platform keychain or keystore. A good habit for Embedded Systems is to plan how firmware updates will be delivered from the start.

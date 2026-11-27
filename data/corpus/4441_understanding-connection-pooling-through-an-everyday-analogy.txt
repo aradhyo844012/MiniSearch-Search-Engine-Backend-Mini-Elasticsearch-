@@ -1,0 +1,9 @@
+Understanding Connection Pooling Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a rental desk that lends a few shared bikes instead of buying one per visitor.
+
+In that picture, pool size is the first rule you follow, idle connections is the next step, and timeouts and connection leaks keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request, and it involves details such as pools larger than the database allows that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PgBouncer to learn the exact behavior. The same picture helps when you explain web backends to a friend.

@@ -1,0 +1,15 @@
+The Pros and Cons of Canary Releases
+
+No technology is free of trade-offs, and Canary Releases is no exception. Here is an honest summary.
+
+Advantages:
+- Supports safer releases
+- Makes testing with real traffic easier
+- Helps with reducing the blast radius of bugs
+
+Drawbacks and risks:
+- Risk: too little traffic to reveal problems
+- Risk: no clear success metrics
+- Risk: manual promotion mistakes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as safer releases, and you can manage the risks, Canary Releases is a sound choice. Whatever you decide, define rollback conditions before starting the rollout.

@@ -1,0 +1,13 @@
+Static Analysis Explained Simply
+
+If Static Analysis sounds intimidating, relax. It is automated checking of source code for bugs and style problems without running it, and the idea is simpler than the name suggests.
+
+Think of Static Analysis as a spell checker for code. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: linters, type checkers, rule sets, and false positives. You do not need to master them all at once. Start with linters, then add type checkers.
+
+You will meet Static Analysis in work such as catching bugs early, enforcing team style, and improving security.
+
+One practical tip is to run it in CI so problems never reach the main branch.
+
+After Static Analysis, a natural next topic is Load Testing.

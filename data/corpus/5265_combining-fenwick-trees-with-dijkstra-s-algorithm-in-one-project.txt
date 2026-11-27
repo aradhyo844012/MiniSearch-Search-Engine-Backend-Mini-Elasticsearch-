@@ -1,0 +1,15 @@
+Combining Fenwick Trees with Dijkstra's Algorithm in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Fenwick Trees and Dijkstra's Algorithm can work together in a single project.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates. Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+Imagine a project that involves counting inversions and route planning. Fenwick Trees brings binary indexed trees, while Dijkstra's Algorithm brings priority queue.
+
+A sensible plan is to start with C++ vectors for the Fenwick Trees part and Python heapq for the Dijkstra's Algorithm part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that nodes store partial sums on one side, and skipping the priority queue and getting slow code on the other.
+
+Picture the whole as a set of running subtotals where each one covers a block of entries, working alongside a GPS that keeps expanding to the nearest unvisited intersection.
+
+Two habits help: first, start indexing from one to keep the bit tricks simple; second, stop as soon as the destination is popped from the queue.

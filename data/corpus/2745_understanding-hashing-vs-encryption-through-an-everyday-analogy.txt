@@ -1,0 +1,9 @@
+Understanding Hashing vs Encryption Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a paper shredder compared with a locked suitcase.
+
+In that picture, one-way functions is the first rule you follow, keys is the next step, and collision resistance and reversibility keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Hashing vs Encryption is the difference between one-way digests and reversible protection of data, and it involves details such as encrypting passwords instead of hashing them that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for SHA-256 to learn the exact behavior. The same picture helps when you explain storing passwords to a friend.

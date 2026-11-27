@@ -1,0 +1,13 @@
+Teaching Single Sign-On to a Teammate
+
+Explaining Single Sign-On to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a festival wristband that opens every gate. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Single Sign-On is letting users log in once and access several applications. Avoid jargon at this stage.
+
+Walk through an example involving company intranets, naming identity provider and SAML as they come up.
+
+Ask your teammate to explain OpenID Connect in Single Sign-On back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, a single point of failure, and suggest this habit: plan for identity provider outages.

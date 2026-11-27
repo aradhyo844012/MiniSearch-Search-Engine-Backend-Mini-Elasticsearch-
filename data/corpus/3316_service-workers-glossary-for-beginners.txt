@@ -1,0 +1,12 @@
+Service Workers Glossary for Beginners
+
+New words can make Service Workers feel harder than it is. This glossary keeps the key ones in one place.
+
+Service Workers: scripts that run in the background of a browser and intercept network requests.
+registration: a core term, most visible in offline support.
+install and activate events: a core term that beginners often confuse with cache storage.
+cache storage: a core term that connects to fetch handlers.
+fetch handlers: a core term worth revisiting after you try a real example.
+Workbox: a tool commonly used for faster repeat visits.
+
+Come back to this Service Workers list whenever documentation for the Chrome DevTools Application panel uses a word you do not recognize.

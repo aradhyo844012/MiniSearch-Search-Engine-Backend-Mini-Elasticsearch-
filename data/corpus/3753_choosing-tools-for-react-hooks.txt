@@ -1,0 +1,11 @@
+Choosing Tools for React Hooks
+
+There is no single best tool for React Hooks. The right choice depends on your project, your team and your timeline.
+
+React DevTools is a common first choice, especially for managing form input. Vite suits teams that already work with similar technology, and the ESLint hooks plugin is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle fetching data on load well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: missing dependencies in effects.
+
+As a rule of thumb, enable the hooks lint rules from the start, no matter which tool you use.

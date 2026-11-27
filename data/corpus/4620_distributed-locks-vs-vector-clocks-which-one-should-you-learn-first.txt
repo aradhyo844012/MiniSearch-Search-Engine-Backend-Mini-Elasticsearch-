@@ -1,0 +1,13 @@
+Distributed Locks vs Vector Clocks: Which One Should You Learn First?
+
+Learners often ask whether to study Distributed Locks or Vector Clocks first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines, and it is closely tied to lease times and fencing tokens. Vector Clocks, by contrast, is counters that let distributed processes track the order of events without a shared clock, and it is closely tied to logical time and per-process counters.
+
+Choose Distributed Locks first if you care about running scheduled jobs once or protecting shared resources. Choose Vector Clocks first if you care about detecting concurrent edits or replicated databases.
+
+Think of Distributed Locks as a single key to a shared meeting room that expires automatically, and of Vector Clocks as each person in a group chat keeping a tally of messages seen from everyone. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Distributed Locks, avoid locks that never expire. With Vector Clocks, avoid clocks that grow with many nodes.
+
+A good habit for Distributed Locks is to always use a timeout together with a fencing token. A good habit for Vector Clocks is to compare clocks entry by entry to detect true concurrency.

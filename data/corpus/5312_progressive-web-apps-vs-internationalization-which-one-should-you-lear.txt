@@ -1,0 +1,13 @@
+Progressive Web Apps vs Internationalization: Which One Should You Learn First?
+
+Learners often ask whether to study Progressive Web Apps or Internationalization first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps, and it is closely tied to web app manifest and service worker. Internationalization, by contrast, is designing software so it can be adapted to different languages and regions, and it is closely tied to locale detection and translation files.
+
+Choose Progressive Web Apps first if you care about offline-friendly tools or lightweight alternatives to native apps. Choose Internationalization first if you care about global products or multi-language websites.
+
+Think of Progressive Web Apps as a website that packs its own suitcase so it still works when the network is gone, and of Internationalization as a stage set where the backdrop can be swapped for each audience. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Progressive Web Apps, avoid ignoring platform limitations. With Internationalization, avoid hard-coded strings.
+
+A good habit for Progressive Web Apps is to test the app in airplane mode. A good habit for Internationalization is to move every user-facing string into translation files from the first day.

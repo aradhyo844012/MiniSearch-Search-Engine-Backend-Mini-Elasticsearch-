@@ -1,0 +1,17 @@
+Support Vector Machines Do's and Don'ts
+
+A quick list of habits for working with Support Vector Machines.
+
+Do:
+- Learn margin before anything else.
+- Try scikit-learn on a small example.
+- Make it a habit to scale features and try a linear kernel first.
+- Test the case of text classification early.
+
+Don't:
+- Ignore this: slow training on large data.
+- Ignore this: poor kernel choices.
+- Ignore this: unscaled features.
+- Adopt Support Vector Machines just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Support Vector Machines, a little patience with support vectors pays off more than any clever shortcut.

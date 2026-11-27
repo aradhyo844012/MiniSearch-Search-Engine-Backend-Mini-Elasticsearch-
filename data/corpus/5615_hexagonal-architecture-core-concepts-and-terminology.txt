@@ -1,0 +1,10 @@
+Hexagonal Architecture: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Hexagonal Architecture with confidence. The subject itself is a design that keeps core logic separate from outside systems through ports and adapters.
+
+ports: one of the building blocks of Hexagonal Architecture. You should be able to explain it in a single sentence before moving on.
+adapters: one of the building blocks of Hexagonal Architecture. You should be able to explain it in a single sentence before moving on.
+the core domain: one of the building blocks of Hexagonal Architecture. It shows up whenever you work on testable business logic.
+dependency direction: one of the building blocks of Hexagonal Architecture. Documentation for Spring usually mentions it early.
+
+Practice using these four terms in sentences about swapping databases. If the sentences feel natural, the vocabulary has stuck.

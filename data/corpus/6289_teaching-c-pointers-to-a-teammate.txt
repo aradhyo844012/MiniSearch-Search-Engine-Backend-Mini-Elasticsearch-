@@ -1,0 +1,13 @@
+Teaching C Pointers to a Teammate
+
+Explaining C Pointers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a street address written on a card instead of the house itself. Ask your teammate what the picture suggests.
+
+Then give the plain definition: C Pointers is variables that store the memory address of another value. Avoid jargon at this stage.
+
+Walk through an example involving dynamic memory allocation, naming addresses and dereferencing as they come up.
+
+Ask your teammate to explain pointer arithmetic in C Pointers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, dereferencing null pointers, and suggest this habit: set pointers to NULL after freeing them.

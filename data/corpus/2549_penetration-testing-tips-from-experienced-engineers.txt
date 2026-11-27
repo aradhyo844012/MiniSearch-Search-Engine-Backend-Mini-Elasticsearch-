@@ -1,0 +1,11 @@
+Penetration Testing Tips from Experienced Engineers
+
+Engineers who work with Penetration Testing regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of pre-launch security checks early, before the design hardens.
+2. Write down why you chose Penetration Testing so the next person understands the decision.
+3. Reach for OWASP ZAP first, and only then evaluate alternatives such as Burp Suite.
+4. Be careful with this one: testing without written permission.
+5. Do not skip scoping; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to compliance audits as well.

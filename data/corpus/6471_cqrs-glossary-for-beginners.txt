@@ -1,0 +1,12 @@
+CQRS Glossary for Beginners
+
+New words can make CQRS feel harder than it is. This glossary keeps the key ones in one place.
+
+CQRS: a pattern that separates the models used to change data from the models used to read it.
+commands: a core term, most visible in high-read dashboards.
+queries: a core term that beginners often confuse with read models.
+read models: a core term that connects to eventual consistency.
+eventual consistency: a core term worth revisiting after you try a real example.
+Axon Framework: a tool commonly used for complex domains.
+
+Come back to this CQRS list whenever documentation for MediatR uses a word you do not recognize.

@@ -1,0 +1,13 @@
+SOLID Principles vs Domain-Driven Design: Which One Should You Learn First?
+
+Learners often ask whether to study SOLID Principles or Domain-Driven Design first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change, and it is closely tied to single responsibility and the open-closed principle. Domain-Driven Design, by contrast, is an approach to software that models the code around the real business domain, and it is closely tied to ubiquitous language and bounded contexts.
+
+Choose SOLID Principles first if you care about structuring classes or reviewing designs. Choose Domain-Driven Design first if you care about complex business systems or aligning developers with domain experts.
+
+Think of SOLID Principles as house rules that keep a shared kitchen tidy, and of Domain-Driven Design as writing software in the same vocabulary the business speaks. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With SOLID Principles, avoid applying them rigidly to tiny scripts. With Domain-Driven Design, avoid using it for simple CRUD apps.
+
+A good habit for SOLID Principles is to apply them when a design starts to hurt, not before. A good habit for Domain-Driven Design is to agree on shared terms with domain experts before drawing classes.

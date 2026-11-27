@@ -1,0 +1,15 @@
+Combining LSM Trees with Connection Pooling in One Project
+
+Real projects rarely use one idea in isolation. This article shows how LSM Trees and Connection Pooling can work together in a single project.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request.
+
+Imagine a project that involves write-heavy databases and web backends. LSM Trees brings memtable, while Connection Pooling brings pool size.
+
+A sensible plan is to start with RocksDB for the LSM Trees part and PgBouncer for the Connection Pooling part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: compaction stalls on one side, and leaked connections on the other.
+
+Picture the whole as a mail room that sorts incoming letters in batches rather than one by one, working alongside a rental desk that lends a few shared bikes instead of buying one per visitor.
+
+Two habits help: first, watch compaction metrics before blaming the application; second, always return connections in a finally block.

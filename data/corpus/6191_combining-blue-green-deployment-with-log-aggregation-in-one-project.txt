@@ -1,0 +1,15 @@
+Combining Blue-Green Deployment with Log Aggregation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Blue-Green Deployment and Log Aggregation can work together in a single project.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Log Aggregation is collecting logs from many machines into one searchable place.
+
+Imagine a project that involves zero-downtime releases and troubleshooting across services. Blue-Green Deployment brings blue and green environments, while Log Aggregation brings shippers.
+
+A sensible plan is to start with AWS CodeDeploy for the Blue-Green Deployment part and Elasticsearch for the Log Aggregation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: doubling infrastructure costs on one side, and unstructured logs on the other.
+
+Picture the whole as swapping to a fully prepared spare stage while the show goes on, working alongside gathering notes from every desk into a single searchable binder.
+
+Two habits help: first, keep the old environment running until the new one is proven; second, use structured JSON logs so that fields are searchable.

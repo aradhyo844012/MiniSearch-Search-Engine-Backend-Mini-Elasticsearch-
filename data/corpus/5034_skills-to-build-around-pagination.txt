@@ -1,0 +1,13 @@
+Skills to Build Around Pagination
+
+Knowing the definition of Pagination is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with offset pagination and cursor pagination, and able to explain them without notes.
+
+Hands-on practice: spend real time with SQL LIMIT and OFFSET on a Pagination task, and try at least one alternative such as keyset queries.
+
+Judgment: learn to decide when Pagination fits a problem such as search results, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example reading a long book one chapter at a time with a bookmark.
+
+Habits: prefer cursors for large or fast-changing data, and write down what you learn after each project.

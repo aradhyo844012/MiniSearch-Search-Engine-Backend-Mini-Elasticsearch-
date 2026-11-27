@@ -1,0 +1,11 @@
+Is Support Vector Machines Right for Your Project?
+
+Before adopting Support Vector Machines, ask whether it fits the problem. Remember that Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes.
+
+It is a good fit when your work involves text classification or small high-dimensional datasets, and when your team understands margin.
+
+Be cautious when the project is very small, when deadlines leave no room to learn support vectors, or when you cannot manage these risks: slow training on large data, poor kernel choices, and unscaled features.
+
+A simple decision test: write down the problem in one sentence, then check whether kernels and regularization are part of the answer. If they are, Support Vector Machines is probably worth a closer look.
+
+If you decide to go ahead, start small with image recognition baselines and scale features and try a linear kernel first.

@@ -1,0 +1,11 @@
+Is CSS Variables Right for Your Project?
+
+Before adopting CSS Variables, ask whether it fits the problem. Remember that CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles.
+
+It is a good fit when your work involves theme switching or design systems, and when your team understands custom properties.
+
+Be cautious when the project is very small, when deadlines leave no room to learn the var function, or when you cannot manage these risks: missing fallbacks, overriding at the wrong scope, and expecting preprocessor features.
+
+A simple decision test: write down the problem in one sentence, then check whether inheritance and fallback values are part of the answer. If they are, CSS Variables is probably worth a closer look.
+
+If you decide to go ahead, start small with spacing scales and define theme values on the root element.

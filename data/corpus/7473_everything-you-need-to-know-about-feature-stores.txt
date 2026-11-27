@@ -1,0 +1,26 @@
+Everything You Need to Know About Feature Stores
+
+This page collects the essentials about Feature Stores in one place. In short, Feature Stores is systems that store and serve the input variables used by machine learning models.
+
+Core concepts:
+- offline store
+- online store
+- point-in-time correctness
+- feature definitions
+
+Where it is used:
+- sharing features across models
+- serving real-time predictions
+- avoiding training-serving skew
+
+Common problems:
+- leaking future data
+- duplicate definitions
+- stale online values
+
+Tools to know:
+- Feast
+- Tecton
+- Databricks Feature Store
+
+Remember this above all: a shared pantry of prepared ingredients for many recipes is a good way to picture it, and the best habit is to define each feature once and reuse it in training and serving.

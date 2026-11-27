@@ -1,0 +1,15 @@
+Column-Oriented Storage in 10 Minutes
+
+You have ten minutes, so here is the fast route through Column-Oriented Storage.
+
+Minutes 1 and 2, the definition: Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Minutes 3 and 4, the vocabulary: learn column chunks, compression, vectorized scans, and predicate pushdown.
+
+Minutes 5 and 6, the picture: imagine a spreadsheet kept as separate lists per column so you can read just one. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through analytics dashboards, large aggregations, and data warehouses.
+
+Minutes 9 and 10, the traps and the tools: watch for slow single-row lookups and many small writes, then try Apache Parquet for a first experiment.
+
+If you have a spare minute, remember to select only the columns you really need.

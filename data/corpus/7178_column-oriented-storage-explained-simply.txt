@@ -1,0 +1,13 @@
+Column-Oriented Storage Explained Simply
+
+Here is Column-Oriented Storage without the jargon: it is a way of storing table data by column instead of by row to speed up analytics.
+
+Think of Column-Oriented Storage as a spreadsheet kept as separate lists per column so you can read just one. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: column chunks, compression, vectorized scans, and predicate pushdown. You do not need to master them all at once. Start with column chunks, then add compression.
+
+People reach for Column-Oriented Storage when they work on analytics dashboards, large aggregations, and data warehouses.
+
+One practical tip is to select only the columns you really need.
+
+After Column-Oriented Storage, a natural next topic is Eventual Consistency.

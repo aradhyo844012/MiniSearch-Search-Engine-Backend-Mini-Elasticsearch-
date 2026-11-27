@@ -1,0 +1,15 @@
+Combining Fenwick Trees with Greedy Algorithms in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Fenwick Trees and Greedy Algorithms can work together in a single project.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates. Greedy Algorithms is algorithms that build a solution by always taking the locally best choice.
+
+Imagine a project that involves counting inversions and interval scheduling. Fenwick Trees brings binary indexed trees, while Greedy Algorithms brings greedy choice property.
+
+A sensible plan is to start with C++ vectors for the Fenwick Trees part and pen and paper proofs for the Greedy Algorithms part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that nodes store partial sums on one side, and missing counterexamples on the other.
+
+Picture the whole as a set of running subtotals where each one covers a block of entries, working alongside picking the closest open parking spot at every junction and hoping it works out.
+
+Two habits help: first, start indexing from one to keep the bit tricks simple; second, try to break your greedy idea with a small counterexample before trusting it.

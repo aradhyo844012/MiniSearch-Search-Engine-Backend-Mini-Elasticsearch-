@@ -1,0 +1,15 @@
+Raft Consensus in 10 Minutes
+
+You have ten minutes, so here is the fast route through Raft Consensus.
+
+Minutes 1 and 2, the definition: Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations.
+
+Minutes 3 and 4, the vocabulary: learn leader election, log replication, terms, and majority quorum.
+
+Minutes 5 and 6, the picture: imagine a committee that elects a chair and only records decisions most members confirm. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through configuration stores, distributed locks, and replicated state machines.
+
+Minutes 9 and 10, the traps and the tools: watch for even-sized clusters and slow disks causing elections, then try etcd for a first experiment.
+
+If you have a spare minute, remember to use an odd number of nodes.

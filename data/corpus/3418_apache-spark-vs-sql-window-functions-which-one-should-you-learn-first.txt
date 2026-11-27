@@ -1,0 +1,13 @@
+Apache Spark vs SQL Window Functions: Which One Should You Learn First?
+
+Learners often ask whether to study Apache Spark or SQL Window Functions first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Apache Spark is a distributed engine for processing large datasets across many machines, and it is closely tied to DataFrames and transformations and actions. SQL Window Functions, by contrast, is SQL features that calculate values across related rows without collapsing them, and it is closely tied to the OVER clause and partitions.
+
+Choose Apache Spark first if you care about large ETL jobs or machine learning on big data. Choose SQL Window Functions first if you care about running totals or ranking rows.
+
+Think of Apache Spark as a team of workers each processing a share of a huge pile of papers, and of SQL Window Functions as looking at the neighbors in a line without leaving your place. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Apache Spark, avoid data skew. With SQL Window Functions, avoid forgetting ORDER BY inside the window.
+
+A good habit for Apache Spark is to avoid collecting large results onto a single machine. A good habit for SQL Window Functions is to start with ROW_NUMBER and LAG on a small table.

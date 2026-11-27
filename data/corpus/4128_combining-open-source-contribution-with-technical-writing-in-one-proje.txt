@@ -1,0 +1,15 @@
+Combining Open Source Contribution with Technical Writing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Open Source Contribution and Technical Writing can work together in a single project.
+
+Open Source Contribution is helping improve public software projects by fixing bugs, writing documentation or adding features. Technical Writing is explaining technical ideas clearly in writing for a chosen audience.
+
+Imagine a project that involves building a portfolio and documentation. Open Source Contribution brings forks, while Technical Writing brings audience.
+
+A sensible plan is to start with GitHub for the Open Source Contribution part and Markdown for the Technical Writing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring contribution rules on one side, and burying the main point on the other.
+
+Picture the whole as helping repair a shared public library, working alongside giving directions to a stranger.
+
+Two habits help: first, start with documentation fixes or small bugs; second, state the main point in the first two sentences.

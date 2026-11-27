@@ -1,0 +1,11 @@
+Practice Exercises for Content Security Policy
+
+These exercises build real understanding of Content Security Policy. Do them in order, and write down your answers.
+
+Exercise 1: Pick browser DevTools and complete its getting-started tutorial.
+Exercise 2: Create a small example that deliberately triggers this problem: allowing unsafe-inline. Then fix it.
+Exercise 3: Compare CSP Evaluator and Report URI for monitoring policy violations and write down your conclusion.
+Exercise 4: List three situations from your own experience that resemble reducing the impact of XSS or blocking unwanted scripts.
+Exercise 5: Write a short paragraph describing Content Security Policy and include the term directives.
+
+When you finish, compare your answers with the definition: Content Security Policy is a browser feature that limits which scripts and resources a page may load.

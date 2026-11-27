@@ -1,0 +1,9 @@
+Understanding Debugging Strategies Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a detective narrowing down suspects.
+
+In that picture, reproducing the bug is the first rule you follow, isolating the cause is the next step, and forming hypotheses and binary search through code keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior, and it involves details such as changing many things at once that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for debuggers to learn the exact behavior. The same picture helps when you explain fixing production issues to a friend.

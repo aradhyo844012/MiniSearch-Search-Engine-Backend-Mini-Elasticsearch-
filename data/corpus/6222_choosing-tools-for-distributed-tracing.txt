@@ -1,0 +1,11 @@
+Choosing Tools for Distributed Tracing
+
+There is no single best tool for Distributed Tracing. The right choice depends on your project, your team and your timeline.
+
+OpenTelemetry is a common first choice, especially for finding slow services. Jaeger suits teams that already work with similar technology, and Zipkin is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle understanding dependencies well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: missing context propagation.
+
+As a rule of thumb, propagate trace IDs through every outgoing call, no matter which tool you use.

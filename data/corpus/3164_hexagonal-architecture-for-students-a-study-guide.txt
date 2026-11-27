@@ -1,0 +1,17 @@
+Hexagonal Architecture for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Hexagonal Architecture.
+
+Learning goals:
+1. Explain Hexagonal Architecture in your own words.
+2. Describe ports, adapters, the core domain, and dependency direction.
+3. Give examples from testable business logic and swapping databases.
+4. Name three problems to watch for.
+
+Start with the definition: Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters. Then draw a power strip that lets any plug connect to the same core on paper and label the four terms from the goals above.
+
+Self-test questions: Why is too many layers for small apps a problem? How does adapters relate to the core domain? When would you choose Spring or FastAPI?
+
+Study habit: keep framework imports out of the core domain.
+
+When you feel ready, compare Hexagonal Architecture with Event-Driven Architecture and write down three differences.

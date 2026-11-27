@@ -1,0 +1,13 @@
+Skills to Build Around Write-Ahead Logging
+
+Knowing the definition of Write-Ahead Logging is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with log records and checkpoints, and able to explain them without notes.
+
+Hands-on practice: spend real time with PostgreSQL WAL on a Write-Ahead Logging task, and try at least one alternative such as SQLite journal.
+
+Judgment: learn to decide when Write-Ahead Logging fits a problem such as surviving crashes, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example writing a plan in a notebook before changing the real blueprint.
+
+Habits: test crash recovery by killing the process on purpose, and write down what you learn after each project.

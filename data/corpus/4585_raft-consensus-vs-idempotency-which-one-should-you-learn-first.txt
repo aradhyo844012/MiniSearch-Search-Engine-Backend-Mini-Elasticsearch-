@@ -1,0 +1,13 @@
+Raft Consensus vs Idempotency: Which One Should You Learn First?
+
+Learners often ask whether to study Raft Consensus or Idempotency first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication. Idempotency, by contrast, is the property that repeating an operation gives the same result as doing it once, and it is closely tied to idempotency keys and safe retries.
+
+Choose Raft Consensus first if you care about configuration stores or distributed locks. Choose Idempotency first if you care about payment APIs or message processing.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm, and of Idempotency as pressing an elevator call button many times and still getting one elevator. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raft Consensus, avoid even-sized clusters. With Idempotency, avoid keys that expire too soon.
+
+A good habit for Raft Consensus is to use an odd number of nodes. A good habit for Idempotency is to store the result with the key so retries return the same response.

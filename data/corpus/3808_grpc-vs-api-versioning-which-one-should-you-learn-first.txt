@@ -1,0 +1,13 @@
+gRPC vs API Versioning: Which One Should You Learn First?
+
+Learners often ask whether to study gRPC or API Versioning first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+gRPC is a framework for fast remote procedure calls using typed contracts, and it is closely tied to protocol buffers and service definitions. API Versioning, by contrast, is the practice of evolving an API without breaking existing clients, and it is closely tied to version in the URL and header versioning.
+
+Choose gRPC first if you care about service-to-service calls or low-latency APIs. Choose API Versioning first if you care about public APIs or mobile apps that cannot update instantly.
+
+Think of gRPC as a phone line with a pre-agreed script for every call, and of API Versioning as keeping old editions of a textbook available while a new one is published. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With gRPC, avoid breaking changes in message fields. With API Versioning, avoid versioning too often.
+
+A good habit for gRPC is to never reuse or renumber field numbers in a proto file. A good habit for API Versioning is to announce deprecations with a clear sunset date.

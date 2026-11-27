@@ -1,0 +1,13 @@
+Random Forests Explained Simply
+
+If Random Forests sounds intimidating, relax. It is ensembles of many decision trees whose predictions are combined, and the idea is simpler than the name suggests.
+
+Think of Random Forests as asking many different experts and taking the majority view. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: bagging, feature randomness, voting, and out-of-bag error. You do not need to master them all at once. Start with bagging, then add feature randomness.
+
+People reach for Random Forests when they work on tabular predictions, feature importance ranking, and strong baseline models.
+
+One practical tip is to tune the number of trees only after the basics work.
+
+After Random Forests, a natural next topic is Support Vector Machines.

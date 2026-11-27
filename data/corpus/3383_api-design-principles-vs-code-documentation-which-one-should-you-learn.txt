@@ -1,0 +1,13 @@
+API Design Principles vs Code Documentation: Which One Should You Learn First?
+
+Learners often ask whether to study API Design Principles or Code Documentation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+API Design Principles is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors. Code Documentation, by contrast, is written explanations that help others understand and use code, and it is closely tied to README files and docstrings.
+
+Choose API Design Principles first if you care about public platforms or internal service contracts. Choose Code Documentation first if you care about onboarding new developers or describing APIs.
+
+Think of API Design Principles as the controls of a car that behave the same in every model, and of Code Documentation as a map left for the next traveler. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With API Design Principles, avoid leaking internal details. With Code Documentation, avoid outdated docs.
+
+A good habit for API Design Principles is to write the documentation before the implementation. A good habit for Code Documentation is to keep documentation in the same repository as the code.

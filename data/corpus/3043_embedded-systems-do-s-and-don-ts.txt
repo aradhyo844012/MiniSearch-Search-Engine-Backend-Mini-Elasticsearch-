@@ -1,0 +1,17 @@
+Embedded Systems Do's and Don'ts
+
+A quick list of habits for working with Embedded Systems.
+
+Do:
+- Learn microcontrollers before anything else.
+- Try C on a small example.
+- Make it a habit to plan how firmware updates will be delivered from the start.
+- Test the case of appliances early.
+
+Don't:
+- Ignore this: memory leaks on tiny devices.
+- Ignore this: no plan for updates.
+- Ignore this: ignoring power use.
+- Adopt Embedded Systems just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Embedded Systems, a little patience with firmware pays off more than any clever shortcut.

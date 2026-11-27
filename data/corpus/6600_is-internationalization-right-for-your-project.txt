@@ -1,0 +1,11 @@
+Is Internationalization Right for Your Project?
+
+Before adopting Internationalization, ask whether it fits the problem. Remember that Internationalization is designing software so it can be adapted to different languages and regions.
+
+It is a good fit when your work involves global products or multi-language websites, and when your team understands locale detection.
+
+Be cautious when the project is very small, when deadlines leave no room to learn translation files, or when you cannot manage these risks: hard-coded strings, text that overflows layouts, and assuming left-to-right text.
+
+A simple decision test: write down the problem in one sentence, then check whether pluralization and date and number formatting are part of the answer. If they are, Internationalization is probably worth a closer look.
+
+If you decide to go ahead, start small with regional pricing and move every user-facing string into translation files from the first day.

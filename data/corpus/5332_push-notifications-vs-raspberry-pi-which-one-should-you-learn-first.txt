@@ -1,0 +1,13 @@
+Push Notifications vs Raspberry Pi: Which One Should You Learn First?
+
+Learners often ask whether to study Push Notifications or Raspberry Pi first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed, and it is closely tied to device tokens and push services. Raspberry Pi, by contrast, is a small, low-cost computer popular for learning, prototypes and home projects, and it is closely tied to GPIO pins and Linux.
+
+Choose Push Notifications first if you care about order updates or chat alerts. Choose Raspberry Pi first if you care about home automation or learning Linux.
+
+Think of Push Notifications as a courier who knocks on your door when a package arrives, and of Raspberry Pi as a pocket-sized workshop for experiments. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Push Notifications, avoid asking for permission too early. With Raspberry Pi, avoid SD card corruption.
+
+A good habit for Push Notifications is to ask for permission at a moment when the user understands the value. A good habit for Raspberry Pi is to use a quality power supply and a reliable memory card.

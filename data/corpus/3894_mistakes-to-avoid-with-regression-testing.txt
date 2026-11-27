@@ -1,0 +1,11 @@
+Mistakes to Avoid with Regression Testing
+
+Everyone learns Regression Testing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: slow suites that nobody runs. It usually appears when someone skips test suites and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: missing tests for fixed bugs. It tends to be noticed late, often during testing of protecting releases. A short checklist during review catches it early.
+
+Mistake three: ignoring flaky failures. It is easy to miss because everything seems to work at first. Keep an eye on bug reproduction tests to spot it.
+
+If you remember only one rule, make it this: add a test for every bug you fix.

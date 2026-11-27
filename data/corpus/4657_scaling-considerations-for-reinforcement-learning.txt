@@ -1,0 +1,11 @@
+Scaling Considerations for Reinforcement Learning
+
+A design that works for a classroom project can behave very differently under real load. Here is how Reinforcement Learning changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding agent and getting game playing right.
+
+Medium scale: problems start to appear. Watch for badly designed rewards and slow training, and measure with Gymnasium before changing anything.
+
+Large scale: reward and policy move from background details to central design questions. Teams often revisit their choices around robot control at this stage.
+
+Before you scale, start with simple environments. It is cheaper to build that habit early than to fix a crisis later.

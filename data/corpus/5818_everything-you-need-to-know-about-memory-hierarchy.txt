@@ -1,0 +1,26 @@
+Everything You Need to Know About Memory Hierarchy
+
+This page collects the essentials about Memory Hierarchy in one place. In short, Memory Hierarchy is the layers of storage from registers to disks, trading speed for size.
+
+Core concepts:
+- registers
+- cache
+- main memory
+- disk
+
+Where it is used:
+- designing efficient programs
+- explaining slow I/O
+- choosing data structures
+
+Common problems:
+- ignoring locality
+- excessive paging
+- treating all memory accesses as equal
+
+Tools to know:
+- lscpu
+- vmstat
+- Linux perf
+
+Remember this above all: a kitchen with a spice rack, a pantry and a warehouse is a good way to picture it, and the best habit is to reduce how often your program goes down to the slower layers.

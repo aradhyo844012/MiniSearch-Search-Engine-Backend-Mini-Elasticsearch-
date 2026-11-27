@@ -1,0 +1,13 @@
+Debugging Memory Hierarchy: A Field Guide
+
+When something goes wrong around Memory Hierarchy, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: ignoring locality, excessive paging, and treating all memory accesses as equal.
+Step 3: revisit registers and cache, since misunderstandings there cause many bugs.
+Step 4: use lscpu or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Memory Hierarchy in work such as designing efficient programs come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, reduce how often your program goes down to the slower layers. It prevents a surprising number of repeat problems.

@@ -1,0 +1,13 @@
+Chaos Engineering Explained Simply
+
+Here is Chaos Engineering without the jargon: it is deliberately causing failures in a system to learn how it responds.
+
+Think of Chaos Engineering as a fire drill where you secretly block one exit. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: steady state, hypotheses, blast radius, and fault injection. You do not need to master them all at once. Start with steady state, then add hypotheses.
+
+You will meet Chaos Engineering in work such as testing resilience, validating failover, and preparing teams for incidents.
+
+One practical tip is to start with small experiments in a test environment.
+
+After Chaos Engineering, a natural next topic is End-to-End Testing.

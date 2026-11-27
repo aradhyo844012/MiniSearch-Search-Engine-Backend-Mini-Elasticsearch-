@@ -1,0 +1,26 @@
+Everything You Need to Know About Assembly Language Basics
+
+This page collects the essentials about Assembly Language Basics in one place. In short, Assembly Language Basics is low-level instructions that map closely to what a processor actually executes.
+
+Core concepts:
+- registers
+- instructions
+- memory addressing
+- the stack
+
+Where it is used:
+- understanding compiled code
+- debugging crashes
+- writing tiny boot code
+
+Common problems:
+- wrong calling conventions
+- stack corruption
+- platform differences
+
+Tools to know:
+- GDB
+- objdump
+- Compiler Explorer
+
+Remember this above all: the individual muscle movements behind a simple action is a good way to picture it, and the best habit is to read the assembly of a tiny C function to see what the compiler does.

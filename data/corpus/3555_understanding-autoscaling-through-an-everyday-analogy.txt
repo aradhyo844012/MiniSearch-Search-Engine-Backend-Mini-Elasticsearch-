@@ -1,0 +1,9 @@
+Understanding Autoscaling Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a restaurant opening extra tables when a crowd arrives.
+
+In that picture, scaling metrics is the first rule you follow, cooldown periods is the next step, and minimum and maximum limits and horizontal scaling keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Autoscaling is automatically adding or removing computing resources as demand changes, and it involves details such as scaling too slowly that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Kubernetes HPA to learn the exact behavior. The same picture helps when you explain handling traffic spikes to a friend.

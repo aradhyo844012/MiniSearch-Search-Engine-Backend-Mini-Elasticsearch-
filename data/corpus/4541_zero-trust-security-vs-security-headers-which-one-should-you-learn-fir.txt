@@ -1,0 +1,13 @@
+Zero Trust Security vs Security Headers: Which One Should You Learn First?
+
+Learners often ask whether to study Zero Trust Security or Security Headers first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified, and it is closely tied to identity verification and least privilege. Security Headers, by contrast, is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options.
+
+Choose Zero Trust Security first if you care about remote work access or protecting internal services. Choose Security Headers first if you care about hardening websites or reducing clickjacking.
+
+Think of Zero Trust Security as a building where every door checks your badge, not just the front entrance, and of Security Headers as safety instructions printed on the packaging of every page. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Zero Trust Security, avoid treating it as a product to buy. With Security Headers, avoid setting headers on only some routes.
+
+A good habit for Zero Trust Security is to start with strong identity and device checks. A good habit for Security Headers is to test the headers on every environment.

@@ -1,0 +1,12 @@
+Questions to Ask About Eventual Consistency in Code Review
+
+Reviewing code that involves Eventual Consistency is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered assuming reads are always fresh?
+- Does the code handle the case of global social feeds correctly?
+- Is conflict resolution clear to someone reading the code for the first time?
+- Is Amazon DynamoDB used consistently, or are we mixing approaches?
+- Could we decide up front how your app handles stale reads?
+- Have we avoided this problem: no user feedback during delays?
+
+Good reviews of work on Eventual Consistency are specific, kind and focused on read-your-writes, not on personal style.

@@ -1,0 +1,15 @@
+Combining Statistical Significance with Jupyter Notebooks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Statistical Significance and Jupyter Notebooks can work together in a single project.
+
+Statistical Significance is a measure of how unlikely a result would be if there were no real effect. Jupyter Notebooks is interactive documents that combine code, results and notes.
+
+Imagine a project that involves judging experiment results and exploring data. Statistical Significance brings p-values, while Jupyter Notebooks brings cells.
+
+A sensible plan is to start with SciPy for the Statistical Significance part and JupyterLab for the Jupyter Notebooks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: p-hacking on one side, and hidden state on the other.
+
+Picture the whole as asking how surprised you should be if a coin were actually fair, working alongside a lab notebook that can run its own experiments.
+
+Two habits help: first, always report the effect size alongside the p-value; second, restart the kernel and run all cells before sharing.

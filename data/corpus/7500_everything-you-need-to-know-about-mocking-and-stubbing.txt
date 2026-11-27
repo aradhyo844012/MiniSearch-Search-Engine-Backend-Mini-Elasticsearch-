@@ -1,0 +1,26 @@
+Everything You Need to Know About Mocking and Stubbing
+
+This page collects the essentials about Mocking and Stubbing in one place. In short, Mocking and Stubbing is replacing real dependencies with controlled fakes during tests.
+
+Core concepts:
+- mocks
+- stubs
+- spies
+- fakes
+
+Where it is used:
+- isolating units
+- simulating failures
+- avoiding network calls
+
+Common problems:
+- over-mocking
+- tests that mirror the implementation
+- mocks that drift from reality
+
+Tools to know:
+- unittest.mock
+- Mockito
+- Sinon.js
+
+Remember this above all: a crash test dummy standing in for a real passenger is a good way to picture it, and the best habit is to prefer simple fakes over deep mock chains.

@@ -1,0 +1,11 @@
+Choosing Tools for Union-Find
+
+There is no single best tool for Union-Find. The right choice depends on your project, your team and your timeline.
+
+Python lists is a common first choice, especially for detecting connected components. scipy.sparse.csgraph suits teams that already work with similar technology, and NetworkX is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle building minimum spanning trees well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: forgetting path compression.
+
+As a rule of thumb, implement path compression and union by rank together, no matter which tool you use.

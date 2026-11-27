@@ -1,0 +1,15 @@
+The Pros and Cons of Service Workers
+
+No technology is free of trade-offs, and Service Workers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports offline support
+- Makes faster repeat visits easier
+- Helps with push notifications
+
+Drawbacks and risks:
+- Risk: caching stale files forever
+- Risk: bugs surviving across deployments
+- Risk: forgetting that HTTPS is required
+
+Weigh the two lists against your own project. If the advantages match your needs, such as offline support, and you can manage the risks, Service Workers is a sound choice. Whatever you decide, version your caches so old files can be removed.

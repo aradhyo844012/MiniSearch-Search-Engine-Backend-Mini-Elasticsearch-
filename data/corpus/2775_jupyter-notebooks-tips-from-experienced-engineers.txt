@@ -1,0 +1,11 @@
+Jupyter Notebooks Tips from Experienced Engineers
+
+Engineers who work with Jupyter Notebooks regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: running cells out of order.
+2. When something behaves strangely, revisit kernels before anything else.
+3. Write down why you chose Jupyter Notebooks so the next person understands the decision.
+4. Do not skip cells; everything else builds on it.
+5. Make sure you can restart the kernel and run all cells before sharing.
+
+None of these tips needs special equipment, and all of them apply to teaching and demos as well.

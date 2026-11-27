@@ -1,0 +1,15 @@
+Convolutional Neural Networks in 10 Minutes
+
+You have ten minutes, so here is the fast route through Convolutional Neural Networks.
+
+Minutes 1 and 2, the definition: Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns.
+
+Minutes 3 and 4, the vocabulary: learn filters, pooling, feature maps, and stride.
+
+Minutes 5 and 6, the picture: imagine a magnifying glass sweeping across a photo looking for edges and shapes. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through image classification, medical image analysis, and object detection.
+
+Minutes 9 and 10, the traps and the tools: watch for too little training data and ignoring data augmentation, then try PyTorch for a first experiment.
+
+If you have a spare minute, remember to start from a pretrained model.

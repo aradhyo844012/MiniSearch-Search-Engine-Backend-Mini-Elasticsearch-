@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Database Migrations: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Database Migrations first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Database Migrations, by contrast, is versioned scripts that change a database schema in a controlled and repeatable way, and it is closely tied to up and down scripts and version tables.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Database Migrations first if you care about adding columns safely or renaming tables.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Database Migrations as a numbered set of renovation steps applied to a building in order. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Database Migrations, avoid locking large tables.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Database Migrations is to split risky changes into small steps that can each be rolled back.

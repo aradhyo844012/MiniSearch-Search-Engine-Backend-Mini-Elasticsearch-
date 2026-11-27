@@ -1,0 +1,12 @@
+Dependency Injection Glossary for Beginners
+
+New words can make Dependency Injection feel harder than it is. This glossary keeps the key ones in one place.
+
+Dependency Injection: a design approach where objects receive their dependencies instead of creating them.
+constructor injection: a core term, most visible in easier unit testing.
+interfaces: a core term that beginners often confuse with containers.
+containers: a core term that connects to inversion of control.
+inversion of control: a core term worth revisiting after you try a real example.
+Spring: a tool commonly used for swapping implementations.
+
+Come back to this Dependency Injection list whenever documentation for FastAPI Depends uses a word you do not recognize.

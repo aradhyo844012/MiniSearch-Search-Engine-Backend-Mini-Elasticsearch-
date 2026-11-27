@@ -1,0 +1,15 @@
+The Pros and Cons of Autoscaling
+
+No technology is free of trade-offs, and Autoscaling is no exception. Here is an honest summary.
+
+Advantages:
+- Supports handling traffic spikes
+- Makes saving money overnight easier
+- Helps with keeping latency steady
+
+Drawbacks and risks:
+- Risk: scaling too slowly
+- Risk: flapping because of short spikes
+- Risk: ignoring database limits
+
+Weigh the two lists against your own project. If the advantages match your needs, such as handling traffic spikes, and you can manage the risks, Autoscaling is a sound choice. Whatever you decide, load test the system to find realistic thresholds.

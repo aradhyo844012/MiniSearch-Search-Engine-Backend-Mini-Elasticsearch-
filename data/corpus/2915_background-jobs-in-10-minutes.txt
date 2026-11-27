@@ -1,0 +1,15 @@
+Background Jobs in 10 Minutes
+
+You have ten minutes, so here is the fast route through Background Jobs.
+
+Minutes 1 and 2, the definition: Background Jobs is tasks that run outside the request cycle so users do not have to wait for them.
+
+Minutes 3 and 4, the vocabulary: learn queues, workers, retries, and scheduling.
+
+Minutes 5 and 6, the picture: imagine dropping laundry at a service and collecting it later. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through sending emails, resizing images, and generating reports.
+
+Minutes 9 and 10, the traps and the tools: watch for jobs that are not idempotent and unbounded retries, then try Celery for a first experiment.
+
+If you have a spare minute, remember to give every job a timeout and a retry limit.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Retrieval-Augmented Generation
+
+Everyone learns Retrieval-Augmented Generation partly through mistakes. Here are three worth avoiding.
+
+Mistake one: poor chunking. It usually appears when someone skips retrieval and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: irrelevant retrieved text. It tends to be noticed late, often during testing of company knowledge assistants. A short checklist during review catches it early.
+
+Mistake three: no evaluation of the answers. It is easy to miss because everything seems to work at first. Keep an eye on grounding to spot it.
+
+If you remember only one rule, make it this: evaluate retrieval quality separately from answer quality.

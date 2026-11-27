@@ -1,0 +1,15 @@
+Disaster Recovery Quick Reference
+
+A one-screen reminder for Disaster Recovery. Bookmark it and return when the details fade.
+
+What it is: the plans and systems that restore services after major failures.
+Key terms: recovery time objective, recovery point objective, failover regions, and runbooks.
+Typical uses: surviving regional outages, meeting compliance needs, and protecting critical data.
+Risks: untested plans, outdated runbooks, and dependencies missed in the plan.
+Tools: AWS Backup, Terraform, and Route 53 failover.
+
+Mental picture: a fire drill for a whole system.
+
+Habit to build: run a failover exercise on a regular schedule.
+
+See also: Feature Flags, which sits close to Disaster Recovery in the area of DevOps and Cloud.

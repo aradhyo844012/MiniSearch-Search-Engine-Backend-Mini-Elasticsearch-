@@ -1,0 +1,12 @@
+Questions to Ask About LSM Trees in Code Review
+
+Reviewing code that involves LSM Trees is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch compaction stalls if it appeared later?
+- Is RocksDB used consistently, or are we mixing approaches?
+- Could we watch compaction metrics before blaming the application?
+- Is sorted string tables clear to someone reading the code for the first time?
+- Have we considered read amplification?
+- Does the code handle the case of write-heavy databases correctly?
+
+Good reviews of work on LSM Trees are specific, kind and focused on compaction, not on personal style.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Leader Election
+
+Everyone learns Leader Election partly through mistakes. Here are three worth avoiding.
+
+Mistake one: split brain. It usually appears when someone skips heartbeats and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: flapping leaders. It tends to be noticed late, often during testing of database primaries. A short checklist during review catches it early.
+
+Mistake three: slow failure detection. It is easy to miss because everything seems to work at first. Keep an eye on failover to spot it.
+
+If you remember only one rule, make it this: tune heartbeat intervals against real network delays.

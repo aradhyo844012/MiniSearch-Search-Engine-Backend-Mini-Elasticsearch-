@@ -1,0 +1,12 @@
+Vector Clocks Glossary for Beginners
+
+New words can make Vector Clocks feel harder than it is. This glossary keeps the key ones in one place.
+
+Vector Clocks: counters that let distributed processes track the order of events without a shared clock.
+logical time: a core term, most visible in detecting concurrent edits.
+per-process counters: a core term that beginners often confuse with the happened-before relation.
+the happened-before relation: a core term that connects to conflict detection.
+conflict detection: a core term worth revisiting after you try a real example.
+Riak: a tool commonly used for replicated databases.
+
+Come back to this Vector Clocks list whenever documentation for the Amazon Dynamo paper uses a word you do not recognize.

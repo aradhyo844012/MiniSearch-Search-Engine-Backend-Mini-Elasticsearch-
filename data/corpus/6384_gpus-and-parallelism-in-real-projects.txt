@@ -1,0 +1,11 @@
+GPUs and Parallelism in Real Projects
+
+Reading about GPUs and Parallelism is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: training neural networks. Here, threads and blocks drives the main design choices, and the team needs to guard against slow data transfers.
+
+Scenario two: rendering graphics. This time kernels matters most, and tools such as CUDA help keep things manageable.
+
+Scenario three: scientific simulations. The key idea is memory transfers, and the biggest risk is branch-heavy code.
+
+Across all three scenarios, GPUs and Parallelism stays the same idea: processors with thousands of small cores that handle many similar calculations at once. Only the details change.

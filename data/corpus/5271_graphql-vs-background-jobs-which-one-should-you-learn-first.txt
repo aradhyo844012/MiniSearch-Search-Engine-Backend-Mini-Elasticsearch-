@@ -1,0 +1,13 @@
+GraphQL vs Background Jobs: Which One Should You Learn First?
+
+Learners often ask whether to study GraphQL or Background Jobs first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need, and it is closely tied to schema and queries and mutations. Background Jobs, by contrast, is tasks that run outside the request cycle so users do not have to wait for them, and it is closely tied to queues and workers.
+
+Choose GraphQL first if you care about mobile apps with limited bandwidth or aggregating many services. Choose Background Jobs first if you care about sending emails or resizing images.
+
+Think of GraphQL as ordering a la carte instead of picking a fixed set menu, and of Background Jobs as dropping laundry at a service and collecting it later. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With GraphQL, avoid the N+1 query problem. With Background Jobs, avoid jobs that are not idempotent.
+
+A good habit for GraphQL is to use a data loader to avoid N+1 queries. A good habit for Background Jobs is to give every job a timeout and a retry limit.

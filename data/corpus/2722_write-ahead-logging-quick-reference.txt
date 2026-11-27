@@ -1,0 +1,15 @@
+Write-Ahead Logging Quick Reference
+
+A one-screen reminder for Write-Ahead Logging. Bookmark it and return when the details fade.
+
+What it is: a technique that records changes in a log before they are applied to the main data.
+Key terms: log records, checkpoints, crash recovery, and fsync.
+Typical uses: surviving crashes, feeding replication streams, and point-in-time recovery.
+Risks: disabling fsync for speed, log files filling the disk, and forgetting to archive logs.
+Tools: PostgreSQL WAL, SQLite journal, and Apache Kafka.
+
+Mental picture: writing a plan in a notebook before changing the real blueprint.
+
+Habit to build: test crash recovery by killing the process on purpose.
+
+See also: Time-Series Databases, which sits close to Write-Ahead Logging in the area of Storage Engines and Databases.

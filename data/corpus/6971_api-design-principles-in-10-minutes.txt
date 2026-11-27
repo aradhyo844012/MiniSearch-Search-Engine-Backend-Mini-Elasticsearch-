@@ -1,0 +1,15 @@
+API Design Principles in 10 Minutes
+
+You have ten minutes, so here is the fast route through API Design Principles.
+
+Minutes 1 and 2, the definition: API Design Principles is guidelines for making APIs consistent, predictable and easy to use.
+
+Minutes 3 and 4, the vocabulary: learn consistent naming, clear errors, idempotent operations, and documentation.
+
+Minutes 5 and 6, the picture: imagine the controls of a car that behave the same in every model. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through public platforms, internal service contracts, and mobile backends.
+
+Minutes 9 and 10, the traps and the tools: watch for leaking internal details and inconsistent responses, then try OpenAPI for a first experiment.
+
+If you have a spare minute, remember to write the documentation before the implementation.

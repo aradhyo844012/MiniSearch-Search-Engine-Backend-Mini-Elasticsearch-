@@ -1,0 +1,17 @@
+Assembly Language Basics for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Assembly Language Basics.
+
+Learning goals:
+1. Explain Assembly Language Basics in your own words.
+2. Describe registers, instructions, memory addressing, and the stack.
+3. Give examples from understanding compiled code and debugging crashes.
+4. Name three problems to watch for.
+
+Start with the definition: Assembly Language Basics is low-level instructions that map closely to what a processor actually executes. Then draw the individual muscle movements behind a simple action on paper and label the four terms from the goals above.
+
+Self-test questions: Why is wrong calling conventions a problem? How does instructions relate to memory addressing? When would you choose GDB or objdump?
+
+Study habit: read the assembly of a tiny C function to see what the compiler does.
+
+When you feel ready, compare Assembly Language Basics with Boolean Logic and Gates and write down three differences.

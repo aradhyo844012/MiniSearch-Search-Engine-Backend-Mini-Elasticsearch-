@@ -1,0 +1,11 @@
+Dependency Injection in Real Projects
+
+Reading about Dependency Injection is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: easier unit testing. Here, constructor injection drives the main design choices, and the team needs to guard against hiding too much behind containers.
+
+Scenario two: swapping implementations. This time interfaces matters most, and tools such as Spring help keep things manageable.
+
+Scenario three: configuring services. The key idea is containers, and the biggest risk is circular dependencies.
+
+Across all three scenarios, Dependency Injection stays the same idea: a design approach where objects receive their dependencies instead of creating them. Only the details change.

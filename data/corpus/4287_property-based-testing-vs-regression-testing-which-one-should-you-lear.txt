@@ -1,0 +1,13 @@
+Property-Based Testing vs Regression Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Property-Based Testing or Regression Testing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold, and it is closely tied to properties and generators. Regression Testing, by contrast, is re-running tests after changes to make sure old features still work, and it is closely tied to test suites and automation.
+
+Choose Property-Based Testing first if you care about testing parsers or checking sorting and math functions. Choose Regression Testing first if you care about protecting releases or verifying bug fixes.
+
+Think of Property-Based Testing as a robot tester trying thousands of odd inputs, and of Regression Testing as rechecking the old keys after cutting a new lock. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Property-Based Testing, avoid vague properties. With Regression Testing, avoid slow suites that nobody runs.
+
+A good habit for Property-Based Testing is to save failing examples as regular tests. A good habit for Regression Testing is to add a test for every bug you fix.

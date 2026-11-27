@@ -1,0 +1,17 @@
+Property-Based Testing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Property-Based Testing.
+
+Learning goals:
+1. Explain Property-Based Testing in your own words.
+2. Describe properties, generators, shrinking, and invariants.
+3. Give examples from testing parsers and checking sorting and math functions.
+4. Name three problems to watch for.
+
+Start with the definition: Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Then draw a robot tester trying thousands of odd inputs on paper and label the four terms from the goals above.
+
+Self-test questions: Why is vague properties a problem? How does generators relate to shrinking? When would you choose Hypothesis or QuickCheck?
+
+Study habit worth keeping: save failing examples as regular tests.
+
+When you feel ready, compare Property-Based Testing with Code Coverage and write down three differences.

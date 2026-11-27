@@ -1,0 +1,15 @@
+The Pros and Cons of GPUs and Parallelism
+
+No technology is free of trade-offs, and GPUs and Parallelism is no exception. Here is an honest summary.
+
+Advantages:
+- Supports training neural networks
+- Makes rendering graphics easier
+- Helps with scientific simulations
+
+Drawbacks and risks:
+- Risk: slow data transfers
+- Risk: branch-heavy code
+- Risk: launching tiny workloads
+
+Weigh the two lists against your own project. If the advantages match your needs, such as training neural networks, and you can manage the risks, GPUs and Parallelism is a sound choice. Whatever you decide, minimize copies between CPU and GPU memory.

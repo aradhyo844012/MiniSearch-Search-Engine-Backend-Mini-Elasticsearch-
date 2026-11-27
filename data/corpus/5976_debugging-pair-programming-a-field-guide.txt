@@ -1,0 +1,13 @@
+Debugging Pair Programming: A Field Guide
+
+When something goes wrong around Pair Programming, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: one person dominating, fatigue from long sessions, and pairing on every task.
+Step 3: revisit driver and navigator and rotation, since misunderstandings there cause many bugs.
+Step 4: use VS Code Live Share or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Pair Programming in work such as teaching new teammates come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, swap roles every twenty to thirty minutes. It prevents a surprising number of repeat problems.

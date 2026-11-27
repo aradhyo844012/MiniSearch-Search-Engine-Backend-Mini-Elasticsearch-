@@ -1,0 +1,15 @@
+Combining Integration Testing with Static Analysis in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Integration Testing and Static Analysis can work together in a single project.
+
+Integration Testing is tests that check how several parts of a system work together. Static Analysis is automated checking of source code for bugs and style problems without running it.
+
+Imagine a project that involves verifying API and database interaction and catching bugs early. Integration Testing brings test databases, while Static Analysis brings linters.
+
+A sensible plan is to start with Testcontainers for the Integration Testing part and ESLint for the Static Analysis part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flaky external dependencies on one side, and too many noisy rules on the other.
+
+Picture the whole as checking that the gears of a watch mesh before closing the case, working alongside a spell checker for code.
+
+Two habits help: first, use disposable containers for test dependencies; second, run it in CI so problems never reach the main branch.

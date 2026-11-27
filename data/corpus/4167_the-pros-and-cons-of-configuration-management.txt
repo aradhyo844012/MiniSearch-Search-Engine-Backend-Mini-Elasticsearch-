@@ -1,0 +1,15 @@
+The Pros and Cons of Configuration Management
+
+No technology is free of trade-offs, and Configuration Management is no exception. Here is an honest summary.
+
+Advantages:
+- Supports separating development and production
+- Makes toggling features easier
+- Helps with deploying the same build everywhere
+
+Drawbacks and risks:
+- Risk: committing secrets
+- Risk: inconsistent defaults
+- Risk: undocumented settings
+
+Weigh the two lists against your own project. If the advantages match your needs, such as separating development and production, and you can manage the risks, Configuration Management is a sound choice. Whatever you decide, fail fast at startup if a required setting is missing.

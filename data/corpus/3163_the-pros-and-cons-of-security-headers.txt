@@ -1,0 +1,15 @@
+The Pros and Cons of Security Headers
+
+No technology is free of trade-offs, and Security Headers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports hardening websites
+- Makes reducing clickjacking easier
+- Helps with enforcing HTTPS
+
+Drawbacks and risks:
+- Risk: setting headers on only some routes
+- Risk: breaking embeds
+- Risk: copying configurations without understanding them
+
+Weigh the two lists against your own project. If the advantages match your needs, such as hardening websites, and you can manage the risks, Security Headers is a sound choice. Whatever you decide, test the headers on every environment.

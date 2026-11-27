@@ -1,0 +1,15 @@
+Dependency Vulnerabilities Quick Reference
+
+A one-screen reminder for Dependency Vulnerabilities. Bookmark it and return when the details fade.
+
+What it is: security weaknesses that come from third-party libraries a project uses.
+Key terms: CVE identifiers, version pinning, transitive dependencies, and software bills of materials.
+Typical uses: auditing projects, automating updates, and meeting supply chain requirements.
+Risks: ignoring transitive dependencies, never updating, and trusting packages without checking them.
+Tools: Dependabot, pip-audit, and npm audit.
+
+Mental picture: checking every ingredient supplier for recalls.
+
+Habit to build: automate update pull requests.
+
+See also: Hashing vs Encryption, which sits close to Dependency Vulnerabilities in the area of Application Security.

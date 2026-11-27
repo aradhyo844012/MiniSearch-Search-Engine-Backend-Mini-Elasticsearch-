@@ -1,0 +1,15 @@
+The Pros and Cons of MQTT
+
+No technology is free of trade-offs, and MQTT is no exception. Here is an honest summary.
+
+Advantages:
+- Supports sensor networks
+- Makes smart home devices easier
+- Helps with telemetry
+
+Drawbacks and risks:
+- Risk: unsecured brokers
+- Risk: messy topic names
+- Risk: wrong quality of service choices
+
+Weigh the two lists against your own project. If the advantages match your needs, such as sensor networks, and you can manage the risks, MQTT is a sound choice. Whatever you decide, design topic names like a clear folder structure.

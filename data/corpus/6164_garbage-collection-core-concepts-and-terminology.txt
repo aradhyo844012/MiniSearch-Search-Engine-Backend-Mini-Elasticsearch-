@@ -1,0 +1,10 @@
+Garbage Collection: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Garbage Collection with confidence. The subject itself is automatic memory management that finds and frees objects a program no longer uses.
+
+reachability: one of the building blocks of Garbage Collection. You should be able to explain it in a single sentence before moving on.
+generations: one of the building blocks of Garbage Collection. You should be able to explain it in a single sentence before moving on.
+mark and sweep: one of the building blocks of Garbage Collection. Documentation for JVM GC logs usually mentions it early.
+pause times: one of the building blocks of Garbage Collection. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about reducing memory bugs. If the sentences feel natural, the vocabulary has stuck.

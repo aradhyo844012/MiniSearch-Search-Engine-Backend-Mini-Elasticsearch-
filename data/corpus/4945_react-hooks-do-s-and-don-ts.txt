@@ -1,0 +1,17 @@
+React Hooks Do's and Don'ts
+
+A quick list of habits for working with React Hooks.
+
+Do:
+- Learn useState before anything else.
+- Try React DevTools on a small example.
+- Make it a habit to enable the hooks lint rules from the start.
+- Test the case of managing form input early.
+
+Don't:
+- Ignore this: missing dependencies in effects.
+- Ignore this: calling hooks conditionally.
+- Ignore this: stale closures.
+- Adopt React Hooks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with React Hooks, a little patience with useEffect pays off more than any clever shortcut.

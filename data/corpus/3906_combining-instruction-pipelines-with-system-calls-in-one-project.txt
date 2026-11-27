@@ -1,0 +1,15 @@
+Combining Instruction Pipelines with System Calls in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Instruction Pipelines and System Calls can work together in a single project.
+
+Instruction Pipelines is a technique where a processor overlaps the stages of several instructions. System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+Imagine a project that involves explaining CPU speed and reading and writing files. Instruction Pipelines brings fetch, decode and execute stages, while System Calls brings user mode and kernel mode.
+
+A sensible plan is to start with perf for the Instruction Pipelines part and strace for the System Calls part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: dependency chains on one side, and making too many small calls on the other.
+
+Picture the whole as an assembly line where several cars are in different stages at once, working alongside a service window where a customer asks staff to do things in the back office.
+
+Two habits help: first, avoid unpredictable branches in hot loops; second, use strace to see what your program really asks the kernel to do.

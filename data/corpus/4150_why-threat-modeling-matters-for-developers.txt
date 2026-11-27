@@ -1,0 +1,11 @@
+Why Threat Modeling Matters for Developers
+
+Developers who understand Threat Modeling make better decisions, because Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it.
+
+Three situations show why it matters. First, designing new features. Second, reviewing architecture. Third, prioritizing security work. In each case, a solid grasp of assets and attackers separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: doing it once and never again, ignoring data flows, and focusing only on technical threats.
+
+You will not need to build everything yourself; STRIDE, OWASP Threat Dragon, and data flow diagrams cover most needs.
+
+Connect Threat Modeling with Content Security Policy to see the bigger picture of Application Security.

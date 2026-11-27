@@ -1,0 +1,12 @@
+Database Migrations Glossary for Beginners
+
+New words can make Database Migrations feel harder than it is. This glossary keeps the key ones in one place.
+
+Database Migrations: versioned scripts that change a database schema in a controlled and repeatable way.
+up and down scripts: a core term, most visible in adding columns safely.
+version tables: a core term that beginners often confuse with backward compatibility.
+backward compatibility: a core term that connects to zero-downtime changes.
+zero-downtime changes: a core term worth revisiting after you try a real example.
+Alembic: a tool commonly used for renaming tables.
+
+Come back to this Database Migrations list whenever documentation for Flyway uses a word you do not recognize.

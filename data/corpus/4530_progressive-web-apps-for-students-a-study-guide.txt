@@ -1,0 +1,17 @@
+Progressive Web Apps for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Progressive Web Apps.
+
+Learning goals:
+1. Explain Progressive Web Apps in your own words.
+2. Describe web app manifest, service worker, installability, and responsive design.
+3. Give examples from offline-friendly tools and lightweight alternatives to native apps.
+4. Name three problems to watch for.
+
+Start with the definition: Progressive Web Apps is web applications that can be installed and work offline like native apps. Then draw a website that packs its own suitcase so it still works when the network is gone on paper and label the four terms from the goals above.
+
+Self-test questions: Why is ignoring platform limitations a problem? How does service worker relate to installability? When would you choose Lighthouse or Workbox?
+
+Study habit worth keeping: test the app in airplane mode.
+
+When you feel ready, compare Progressive Web Apps with Internationalization and write down three differences.

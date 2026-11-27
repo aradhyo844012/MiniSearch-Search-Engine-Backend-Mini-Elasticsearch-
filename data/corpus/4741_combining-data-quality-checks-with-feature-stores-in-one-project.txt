@@ -1,0 +1,15 @@
+Combining Data Quality Checks with Feature Stores in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Quality Checks and Feature Stores can work together in a single project.
+
+Data Quality Checks is automated tests that verify data is complete, valid and consistent. Feature Stores is systems that store and serve the input variables used by machine learning models.
+
+Imagine a project that involves protecting dashboards and sharing features across models. Data Quality Checks brings null checks, while Feature Stores brings offline store.
+
+A sensible plan is to start with Great Expectations for the Data Quality Checks part and Feast for the Feature Stores part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: checks only at the end of pipelines on one side, and duplicate definitions on the other.
+
+Picture the whole as a quality inspector at the end of an assembly line, working alongside a shared pantry of prepared ingredients for many recipes.
+
+Two habits help: first, check data as early as it enters the pipeline; second, define each feature once and reuse it in training and serving.

@@ -1,0 +1,9 @@
+Understanding Data Quality Checks Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a quality inspector at the end of an assembly line.
+
+In that picture, null checks is the first rule you follow, uniqueness is the next step, and freshness and schema validation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Data Quality Checks is automated tests that verify data is complete, valid and consistent, and it involves details such as alerts nobody reads that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Great Expectations to learn the exact behavior. The same picture helps when you explain protecting dashboards to a friend.

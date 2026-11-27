@@ -1,0 +1,26 @@
+Everything You Need to Know About Distributed Locks
+
+This page collects the essentials about Distributed Locks in one place. In short, Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines.
+
+Core concepts:
+- lease times
+- fencing tokens
+- lock owners
+- timeouts
+
+Where it is used:
+- running scheduled jobs once
+- protecting shared resources
+- selecting a leader
+
+Common problems:
+- locks that never expire
+- clock drift
+- assuming the lock holder is still alive
+
+Tools to know:
+- Redis
+- ZooKeeper
+- etcd
+
+Remember this above all: a single key to a shared meeting room that expires automatically is a good way to picture it, and the best habit is to always use a timeout together with a fencing token.

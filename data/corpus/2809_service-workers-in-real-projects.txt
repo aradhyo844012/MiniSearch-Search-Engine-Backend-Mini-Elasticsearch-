@@ -1,0 +1,11 @@
+Service Workers in Real Projects
+
+Reading about Service Workers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: offline support. Here, registration drives the main design choices, and the team needs to guard against caching stale files forever.
+
+Scenario two: faster repeat visits. This time install and activate events matters most, and tools such as Workbox help keep things manageable.
+
+Scenario three: push notifications. The key idea is cache storage, and the biggest risk is bugs surviving across deployments.
+
+Across all three scenarios, Service Workers stays the same idea: scripts that run in the background of a browser and intercept network requests. Only the details change.

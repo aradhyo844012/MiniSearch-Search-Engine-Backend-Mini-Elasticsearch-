@@ -1,0 +1,15 @@
+Combining Technical Writing with Debugging Strategies in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Technical Writing and Debugging Strategies can work together in a single project.
+
+Technical Writing is explaining technical ideas clearly in writing for a chosen audience. Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior.
+
+Imagine a project that involves documentation and fixing production issues. Technical Writing brings audience, while Debugging Strategies brings reproducing the bug.
+
+A sensible plan is to start with Markdown for the Technical Writing part and debuggers for the Debugging Strategies part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: burying the main point on one side, and guessing without evidence on the other.
+
+Picture the whole as giving directions to a stranger, working alongside a detective narrowing down suspects.
+
+Two habits help: first, state the main point in the first two sentences; second, change one thing at a time and record the result.

@@ -1,0 +1,11 @@
+Practice Exercises for Consistent Hashing
+
+These exercises build real understanding of Consistent Hashing. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble distributed caches or sharded databases.
+Exercise 2: Write a short paragraph describing Consistent Hashing and include the term hash ring.
+Exercise 3: Explain how key placement and rebalancing differ, using a drawing.
+Exercise 4: Pick Redis Cluster and complete its getting-started tutorial.
+Exercise 5: Create a small example that deliberately triggers this problem: too few virtual nodes. Then fix it.
+
+When you finish, compare your answers with the definition: Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys.

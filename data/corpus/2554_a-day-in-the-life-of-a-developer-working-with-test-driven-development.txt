@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Test-Driven Development
+
+This is a fictional but realistic day for a developer whose project relies on Test-Driven Development.
+
+Morning: Arjun starts by reviewing a ticket about designing small modules. Before touching any code, Arjun re-reads the notes on red, green, refactor to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore small steps with pytest. A small test exposes the problem of writing tests that are too large, and they fix it together.
+
+Afternoon: the team discusses a new request involving preventing regressions. Arjun sketches writing the exam questions before teaching the lesson on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to keep each red-green cycle to a few minutes.
+
+Days like this are typical. Test-Driven Development is not glamorous, but understanding it keeps small problems from growing.

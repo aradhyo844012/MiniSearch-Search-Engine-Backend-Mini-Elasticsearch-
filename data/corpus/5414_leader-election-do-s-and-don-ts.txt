@@ -1,0 +1,17 @@
+Leader Election Do's and Don'ts
+
+A quick list of habits for working with Leader Election.
+
+Do:
+- Learn heartbeats before anything else.
+- Try ZooKeeper on a small example.
+- Make it a habit to tune heartbeat intervals against real network delays.
+- Test the case of database primaries early.
+
+Don't:
+- Ignore this: split brain.
+- Ignore this: flapping leaders.
+- Ignore this: slow failure detection.
+- Adopt Leader Election just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Leader Election, a little patience with terms or epochs pays off more than any clever shortcut.

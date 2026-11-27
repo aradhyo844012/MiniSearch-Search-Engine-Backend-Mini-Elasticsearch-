@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Single Sign-On
+
+This path is for a learner who has never studied Single Sign-On before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Single Sign-On is letting users log in once and access several applications) and learn identity provider and SAML.
+
+Stage 2, hands-on: install Okta, follow a tutorial, and build a small example involving company intranets.
+
+Stage 3, depth: study OpenID Connect and session lifetime, then deliberately explore this problem: a single point of failure.
+
+Stage 4, application: apply Single Sign-On to reducing password fatigue, compare Keycloak with Azure AD, and write up your results.
+
+Stage 5, review: teach Single Sign-On to someone else, and then move on to Encryption at Rest.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Web Storage
+
+Everyone learns Web Storage partly through mistakes. Here are three worth avoiding.
+
+Mistake one: storing sensitive data. It usually appears when someone skips localStorage and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: assuming storage is always available. It tends to be noticed late, often during testing of saving user preferences. A short checklist during review catches it early.
+
+Mistake three: hitting size limits. It is easy to miss because everything seems to work at first. Keep an eye on IndexedDB to spot it.
+
+If you remember only one rule, make it this: wrap every read and write in error handling.

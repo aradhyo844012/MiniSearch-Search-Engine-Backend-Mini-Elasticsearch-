@@ -1,0 +1,13 @@
+Instruction Pipelines Explained Simply
+
+Here is Instruction Pipelines without the jargon: it is a technique where a processor overlaps the stages of several instructions.
+
+Think of Instruction Pipelines as an assembly line where several cars are in different stages at once. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: fetch, decode and execute stages, hazards, branch prediction, and stalls. You do not need to master them all at once. Start with fetch, decode and execute stages, then add hazards.
+
+You will meet Instruction Pipelines in work such as explaining CPU speed, understanding branch costs, and optimizing tight loops.
+
+One practical tip is to avoid unpredictable branches in hot loops.
+
+Once Instruction Pipelines feels comfortable, read about GPUs and Parallelism, which lives in the same neighborhood of ideas.

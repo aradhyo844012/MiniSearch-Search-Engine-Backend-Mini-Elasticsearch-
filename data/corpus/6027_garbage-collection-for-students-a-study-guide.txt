@@ -1,0 +1,17 @@
+Garbage Collection for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Garbage Collection.
+
+Learning goals:
+1. Explain Garbage Collection in your own words.
+2. Describe reachability, generations, mark and sweep, and pause times.
+3. Give examples from managed languages like Java and Python and reducing memory bugs.
+4. Name three problems to watch for.
+
+Start with the definition: Garbage Collection is automatic memory management that finds and frees objects a program no longer uses. Then draw a cleaner who removes items nobody has touched in a while on paper and label the four terms from the goals above.
+
+Self-test questions: Why is creating huge numbers of short-lived objects a problem? How does generations relate to mark and sweep? When would you choose JVM GC logs or the Python gc module?
+
+Study habit: measure allocation rates before tuning collector settings.
+
+When you feel ready, compare Garbage Collection with Rust Ownership and write down three differences.

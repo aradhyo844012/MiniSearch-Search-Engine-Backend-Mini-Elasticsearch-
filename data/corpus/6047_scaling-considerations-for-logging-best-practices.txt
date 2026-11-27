@@ -1,0 +1,11 @@
+Scaling Considerations for Logging Best Practices
+
+A design that works for a classroom project can behave very differently under real load. Here is how Logging Best Practices changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding log levels and getting debugging production issues right.
+
+Medium scale: problems start to appear. Watch for logging sensitive data and too much noise, and measure with the Python logging module before changing anything.
+
+Large scale: correlation IDs and log rotation move from background details to central design questions. Teams often revisit their choices around auditing actions at this stage.
+
+Before you scale, include a request ID in every log line. It is cheaper to build that habit early than to fix a crisis later.

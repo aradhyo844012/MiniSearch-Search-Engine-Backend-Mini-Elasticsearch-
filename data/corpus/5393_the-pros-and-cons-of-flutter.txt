@@ -1,0 +1,15 @@
+The Pros and Cons of Flutter
+
+No technology is free of trade-offs, and Flutter is no exception. Here is an honest summary.
+
+Advantages:
+- Supports cross-platform mobile apps
+- Makes desktop apps easier
+- Helps with custom user interfaces
+
+Drawbacks and risks:
+- Risk: deep widget trees
+- Risk: poor state organization
+- Risk: large app sizes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as cross-platform mobile apps, and you can manage the risks, Flutter is a sound choice. Whatever you decide, split big widgets into small reusable ones.

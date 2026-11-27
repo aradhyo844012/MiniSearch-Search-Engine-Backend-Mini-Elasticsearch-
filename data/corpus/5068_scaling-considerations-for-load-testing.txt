@@ -1,0 +1,11 @@
+Scaling Considerations for Load Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Load Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding virtual users and getting capacity planning right.
+
+Medium scale: problems start to appear. Watch for testing unrealistic traffic and ignoring warm-up, and measure with k6 before changing anything.
+
+Large scale: latency percentiles and ramp-up move from background details to central design questions. Teams often revisit their choices around finding bottlenecks at this stage.
+
+Before you scale, report p95 and p99 latency, not only averages. It is cheaper to build that habit early than to fix a crisis later.

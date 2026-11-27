@@ -1,0 +1,10 @@
+Compilers and Interpreters: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Compilers and Interpreters with confidence. The subject itself is programs that translate or run source code written in a high-level language.
+
+lexing: one of the building blocks of Compilers and Interpreters. It shows up whenever you work on running Python and JavaScript.
+parsing: one of the building blocks of Compilers and Interpreters. Mixing it up with neighboring terms is a common source of confusion.
+code generation: one of the building blocks of Compilers and Interpreters. Documentation for GCC usually mentions it early.
+bytecode: one of the building blocks of Compilers and Interpreters. It shows up whenever you work on running Python and JavaScript.
+
+Practice using these four terms in sentences about building native programs. If the sentences feel natural, the vocabulary has stuck.

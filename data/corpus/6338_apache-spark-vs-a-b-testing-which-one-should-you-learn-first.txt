@@ -1,0 +1,13 @@
+Apache Spark vs A/B Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Apache Spark or A/B Testing first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Apache Spark is a distributed engine for processing large datasets across many machines, and it is closely tied to DataFrames and transformations and actions. A/B Testing, by contrast, is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment.
+
+Choose Apache Spark first if you care about large ETL jobs or machine learning on big data. Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms.
+
+Think of Apache Spark as a team of workers each processing a share of a huge pile of papers, and of A/B Testing as taste-testing two recipes on randomly chosen guests. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Apache Spark, avoid data skew. With A/B Testing, avoid stopping tests early.
+
+A good habit for Apache Spark is to avoid collecting large results onto a single machine. A good habit for A/B Testing is to decide the success metric and sample size before you begin.

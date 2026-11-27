@@ -1,0 +1,11 @@
+Why Code Coverage Matters for Developers
+
+Developers who understand Code Coverage make better decisions, because Code Coverage is a measure of how much of the code is run by tests.
+
+Three situations show why it matters. First, finding untested code. Second, setting quality gates. Third, tracking test progress. In each case, a solid grasp of line coverage and branch coverage separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: chasing 100 percent, treating coverage as quality, and ignoring branch coverage.
+
+You will not need to build everything yourself; coverage.py, JaCoCo, and Istanbul cover most needs.
+
+Connect Code Coverage with Property-Based Testing to see the bigger picture of Testing and Quality.

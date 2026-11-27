@@ -1,0 +1,17 @@
+Object-Relational Mappers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Object-Relational Mappers.
+
+Learning goals:
+1. Explain Object-Relational Mappers in your own words.
+2. Describe models, queries, relationships, and migrations.
+3. Give examples from building CRUD apps quickly and switching databases.
+4. Name three problems to watch for.
+
+Start with the definition: Object-Relational Mappers is libraries that map database tables to objects in code. Then draw a translator between the language of tables and the language of objects on paper and label the four terms from the goals above.
+
+Self-test questions: Why is N+1 queries a problem? How does queries relate to relationships? When would you choose SQLAlchemy or the Django ORM?
+
+Study habit worth keeping: log the generated SQL during development.
+
+When you feel ready, compare Object-Relational Mappers with Dependency Injection and write down three differences.

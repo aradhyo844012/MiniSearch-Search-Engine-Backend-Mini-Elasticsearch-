@@ -1,0 +1,13 @@
+End-to-End Testing vs Property-Based Testing: Which One Should You Learn First?
+
+Learners often ask whether to study End-to-End Testing or Property-Based Testing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+End-to-End Testing is tests that drive an application through a real user journey from start to finish, and it is closely tied to browser automation and user flows. Property-Based Testing, by contrast, is testing with many automatically generated inputs to check that general rules always hold, and it is closely tied to properties and generators.
+
+Choose End-to-End Testing first if you care about checking login and checkout flows or release verification. Choose Property-Based Testing first if you care about testing parsers or checking sorting and math functions.
+
+Think of End-to-End Testing as a test drive of the whole car on a real road, and of Property-Based Testing as a robot tester trying thousands of odd inputs. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With End-to-End Testing, avoid flaky tests. With Property-Based Testing, avoid vague properties.
+
+A good habit for End-to-End Testing is to cover only the most important user journeys. A good habit for Property-Based Testing is to save failing examples as regular tests.

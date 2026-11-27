@@ -1,0 +1,11 @@
+Scaling Considerations for Segment Trees
+
+A design that works for a classroom project can behave very differently under real load. Here is how Segment Trees changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding tree nodes covering ranges and getting range sum queries right.
+
+Medium scale: problems start to appear. Watch for off-by-one errors in ranges and wrong tree size allocation, and measure with C++ arrays before changing anything.
+
+Large scale: point updates and lazy propagation move from background details to central design questions. Teams often revisit their choices around finding minimums in a window at this stage.
+
+Before you scale, test your tree against a slow brute-force version on small inputs. It is cheaper to build that habit early than to fix a crisis later.

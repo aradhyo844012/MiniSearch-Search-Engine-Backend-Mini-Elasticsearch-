@@ -1,0 +1,17 @@
+Arduino Basics Do's and Don'ts
+
+A quick list of habits for working with Arduino Basics.
+
+Do:
+- Learn sketches before anything else.
+- Try Arduino IDE on a small example.
+- Make it a habit to test each sensor on its own before combining them.
+- Test the case of reading sensors early.
+
+Don't:
+- Ignore this: wiring errors.
+- Ignore this: blocking delays in the loop.
+- Ignore this: insufficient power for motors.
+- Adopt Arduino Basics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Arduino Basics, a little patience with digital and analog pins pays off more than any clever shortcut.

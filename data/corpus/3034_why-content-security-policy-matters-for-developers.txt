@@ -1,0 +1,11 @@
+Why Content Security Policy Matters for Developers
+
+Developers who understand Content Security Policy make better decisions, because Content Security Policy is a browser feature that limits which scripts and resources a page may load.
+
+Three situations show why it matters. First, reducing the impact of XSS. Second, blocking unwanted scripts. Third, monitoring policy violations. In each case, a solid grasp of directives and nonces separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: allowing unsafe-inline, policies too broad to help, and breaking third-party widgets.
+
+You will not need to build everything yourself; browser DevTools, CSP Evaluator, and Report URI cover most needs.
+
+Connect Content Security Policy with Encryption at Rest to see the bigger picture of Application Security.

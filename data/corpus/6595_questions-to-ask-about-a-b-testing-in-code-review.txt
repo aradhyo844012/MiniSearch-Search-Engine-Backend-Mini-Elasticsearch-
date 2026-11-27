@@ -1,0 +1,12 @@
+Questions to Ask About A/B Testing in Code Review
+
+Reviewing code that involves A/B Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: ignoring sample size?
+- Could we decide the success metric and sample size before you begin?
+- Is random assignment clear to someone reading the code for the first time?
+- Is Optimizely used consistently, or are we mixing approaches?
+- Does the code handle the case of testing page designs correctly?
+- Have we considered stopping tests early?
+
+Good reviews of work on A/B Testing are specific, kind and focused on metrics, not on personal style.

@@ -1,0 +1,11 @@
+Is Data Augmentation Right for Your Project?
+
+Before adopting Data Augmentation, ask whether it fits the problem. Remember that Data Augmentation is creating modified copies of training data to help models generalize.
+
+It is a good fit when your work involves image models or text classification, and when your team understands transformations.
+
+Be cautious when the project is very small, when deadlines leave no room to learn label preservation, or when you cannot manage these risks: changes that alter the label, augmenting the test set, and unrealistic transformations.
+
+A simple decision test: write down the problem in one sentence, then check whether synthetic samples and augmentation pipelines are part of the answer. If they are, Data Augmentation is probably worth a closer look.
+
+If you decide to go ahead, start small with small datasets and augment only the training data.

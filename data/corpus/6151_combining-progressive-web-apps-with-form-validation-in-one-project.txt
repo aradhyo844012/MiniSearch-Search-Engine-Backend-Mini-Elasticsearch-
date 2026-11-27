@@ -1,0 +1,15 @@
+Combining Progressive Web Apps with Form Validation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Progressive Web Apps and Form Validation can work together in a single project.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps. Form Validation is checking user input for correctness before it is accepted.
+
+Imagine a project that involves offline-friendly tools and sign-up forms. Progressive Web Apps brings web app manifest, while Form Validation brings client-side checks.
+
+A sensible plan is to start with Lighthouse for the Progressive Web Apps part and HTML constraint validation for the Form Validation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor offline fallbacks on one side, and vague error messages on the other.
+
+Picture the whole as a website that packs its own suitcase so it still works when the network is gone, working alongside a proofreader checking a form before it is submitted.
+
+Two habits help: first, test the app in airplane mode; second, validate on the server even when the browser checks too.

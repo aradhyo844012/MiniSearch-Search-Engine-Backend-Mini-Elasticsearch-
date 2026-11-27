@@ -1,0 +1,13 @@
+Data Lakes Explained Simply
+
+If Data Lakes sounds intimidating, relax. It is large storage systems that keep raw data in its original format until it is needed, and the idea is simpler than the name suggests.
+
+Think of Data Lakes as a big reservoir where water from many rivers is stored before treatment. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: raw storage, schema on read, partitioning, and metadata catalogs. You do not need to master them all at once. Start with raw storage, then add schema on read.
+
+You will meet Data Lakes in work such as storing logs and events, machine learning datasets, and analytics across many sources.
+
+One practical tip is to register every dataset in a catalog with an owner.
+
+After Data Lakes, a natural next topic is Data Anonymization.

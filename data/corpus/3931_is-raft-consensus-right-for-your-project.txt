@@ -1,0 +1,11 @@
+Is Raft Consensus Right for Your Project?
+
+Before adopting Raft Consensus, ask whether it fits the problem. Remember that Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations.
+
+It is a good fit when your work involves configuration stores or distributed locks, and when your team understands leader election.
+
+Be cautious when the project is very small, when deadlines leave no room to learn log replication, or when you cannot manage these risks: even-sized clusters, slow disks causing elections, and network delays above election timeouts.
+
+A simple decision test: write down the problem in one sentence, then check whether terms and majority quorum are part of the answer. If they are, Raft Consensus is probably worth a closer look.
+
+If you decide to go ahead, start small with replicated state machines and use an odd number of nodes.

@@ -1,0 +1,17 @@
+Form Validation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Form Validation.
+
+Learning goals:
+1. Explain Form Validation in your own words.
+2. Describe client-side checks, server-side checks, error messages, and constraint attributes.
+3. Give examples from sign-up forms and payment pages.
+4. Name three problems to watch for.
+
+Start with the definition: Form Validation is checking user input for correctness before it is accepted. Then draw a proofreader checking a form before it is submitted on paper and label the four terms from the goals above.
+
+Self-test questions: Why is validating only on the client a problem? How does server-side checks relate to error messages? When would you choose HTML constraint validation or Zod?
+
+Study habit worth keeping: validate on the server even when the browser checks too.
+
+When you feel ready, compare Form Validation with State Management and write down three differences.

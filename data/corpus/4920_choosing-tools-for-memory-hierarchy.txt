@@ -1,0 +1,11 @@
+Choosing Tools for Memory Hierarchy
+
+There is no single best tool for Memory Hierarchy. The right choice depends on your project, your team and your timeline.
+
+lscpu is a common first choice, especially for designing efficient programs. vmstat suits teams that already work with similar technology, and Linux perf is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle explaining slow I/O well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: ignoring locality.
+
+As a rule of thumb, reduce how often your program goes down to the slower layers, no matter which tool you use.

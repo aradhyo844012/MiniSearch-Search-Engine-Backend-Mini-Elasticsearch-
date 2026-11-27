@@ -1,0 +1,13 @@
+Endianness vs GPUs and Parallelism: Which One Should You Learn First?
+
+Learners often ask whether to study Endianness or GPUs and Parallelism first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number, and it is closely tied to big-endian and little-endian. GPUs and Parallelism, by contrast, is processors with thousands of small cores that handle many similar calculations at once, and it is closely tied to threads and blocks and kernels.
+
+Choose Endianness first if you care about network protocols or binary file formats. Choose GPUs and Parallelism first if you care about training neural networks or rendering graphics.
+
+Think of Endianness as writing a date as day-month-year or as year-month-day, and of GPUs and Parallelism as a stadium of workers each doing one small identical task. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Endianness, avoid mixing byte orders. With GPUs and Parallelism, avoid slow data transfers.
+
+A good habit for Endianness is to always specify byte order in file and protocol formats. A good habit for GPUs and Parallelism is to minimize copies between CPU and GPU memory.

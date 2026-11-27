@@ -1,0 +1,11 @@
+Why Java Streams Matters for Developers
+
+Developers who understand Java Streams make better decisions, because Java Streams is a way of processing collections with chains of declarative operations.
+
+Three situations show why it matters. First, transforming lists. Second, aggregating records. Third, processing data in parallel. In each case, a solid grasp of map and filter separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: reusing a consumed stream, side effects inside lambdas, and using parallel streams without measuring.
+
+You will not need to build everything yourself; OpenJDK, IntelliJ IDEA, and JUnit cover most needs.
+
+Connect Java Streams with JavaScript Closures to see the bigger picture of Programming Languages.

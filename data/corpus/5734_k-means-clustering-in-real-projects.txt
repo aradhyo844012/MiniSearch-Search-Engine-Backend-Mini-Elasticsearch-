@@ -1,0 +1,11 @@
+K-Means Clustering in Real Projects
+
+Reading about K-Means Clustering is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: customer segmentation. Here, centroids drives the main design choices, and the team needs to guard against choosing k blindly.
+
+Scenario two: image compression. This time distance measures matters most, and tools such as scikit-learn help keep things manageable.
+
+Scenario three: grouping documents. The key idea is choosing k, and the biggest risk is unscaled features.
+
+Across all three scenarios, K-Means Clustering stays the same idea: an algorithm that groups data points into a chosen number of clusters around central points. Only the details change.

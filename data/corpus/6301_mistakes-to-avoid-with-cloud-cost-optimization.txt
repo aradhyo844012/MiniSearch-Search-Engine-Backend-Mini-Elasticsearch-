@@ -1,0 +1,11 @@
+Mistakes to Avoid with Cloud Cost Optimization
+
+Everyone learns Cloud Cost Optimization partly through mistakes. Here are three worth avoiding.
+
+Mistake one: forgotten test environments. It usually appears when someone skips right-sizing and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: over-provisioned databases. It tends to be noticed late, often during testing of cutting idle resources. A short checklist during review catches it early.
+
+Mistake three: surprise data transfer charges. It is easy to miss because everything seems to work at first. Keep an eye on usage reports to spot it.
+
+If you remember only one rule, make it this: tag every resource with an owner.

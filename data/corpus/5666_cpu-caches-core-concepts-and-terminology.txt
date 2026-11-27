@@ -1,0 +1,10 @@
+CPU Caches: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about CPU Caches with confidence. The subject itself is small, fast memory close to the processor that stores recently used data.
+
+cache lines: one of the building blocks of CPU Caches. It shows up whenever you work on speeding up loops.
+hit and miss rates: one of the building blocks of CPU Caches. You should be able to explain it in a single sentence before moving on.
+levels L1 to L3: one of the building blocks of CPU Caches. Mixing it up with neighboring terms is a common source of confusion.
+locality: one of the building blocks of CPU Caches. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about explaining performance differences. If the sentences feel natural, the vocabulary has stuck.

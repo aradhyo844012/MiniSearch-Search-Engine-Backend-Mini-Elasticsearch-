@@ -1,0 +1,12 @@
+Questions to Ask About Web Storage in Code Review
+
+Reviewing code that involves Web Storage is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is browser DevTools used consistently, or are we mixing approaches?
+- Does this change respect localStorage, or does it work around it?
+- Does the code handle the case of saving user preferences correctly?
+- Have we avoided this problem: hitting size limits?
+- Have we considered storing sensitive data?
+- Would a test catch assuming storage is always available if it appeared later?
+
+Good reviews of work on Web Storage are specific, kind and focused on cookies, not on personal style.

@@ -1,0 +1,11 @@
+Where to Go Next After Learning Distributed Tracing
+
+You have met the basics of Distributed Tracing. Here is how to keep the momentum going.
+
+Go wider: read about Log Aggregation, which belongs to the same area as Distributed Tracing (DevOps and Cloud) and often appears in the same projects.
+
+Go deeper: choose one of spans, trace IDs, context propagation or sampling, and study it until you can explain it to a beginner.
+
+Go practical: build something around understanding dependencies with OpenTelemetry, and note every problem you meet, starting with missing context propagation.
+
+Go social: share what you learned. Explaining Distributed Tracing to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

@@ -1,0 +1,13 @@
+Zero Trust Security vs Single Sign-On: Which One Should You Learn First?
+
+Learners often ask whether to study Zero Trust Security or Single Sign-On first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified, and it is closely tied to identity verification and least privilege. Single Sign-On, by contrast, is letting users log in once and access several applications, and it is closely tied to identity provider and SAML.
+
+Choose Zero Trust Security first if you care about remote work access or protecting internal services. Choose Single Sign-On first if you care about company intranets or reducing password fatigue.
+
+Think of Zero Trust Security as a building where every door checks your badge, not just the front entrance, and of Single Sign-On as a festival wristband that opens every gate. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Zero Trust Security, avoid treating it as a product to buy. With Single Sign-On, avoid a single point of failure.
+
+A good habit for Zero Trust Security is to start with strong identity and device checks. A good habit for Single Sign-On is to plan for identity provider outages.

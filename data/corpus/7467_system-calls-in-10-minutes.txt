@@ -1,0 +1,15 @@
+System Calls in 10 Minutes
+
+You have ten minutes, so here is the fast route through System Calls.
+
+Minutes 1 and 2, the definition: System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+Minutes 3 and 4, the vocabulary: learn user mode and kernel mode, syscall numbers, file descriptors, and libc wrappers.
+
+Minutes 5 and 6, the picture: imagine a service window where a customer asks staff to do things in the back office. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through reading and writing files, creating processes, and using network sockets.
+
+Minutes 9 and 10, the traps and the tools: watch for ignoring error codes and making too many small calls, then try strace for a first experiment.
+
+If you have a spare minute, remember to use strace to see what your program really asks the kernel to do.

@@ -1,0 +1,13 @@
+Debugging CSS Variables: A Field Guide
+
+When something goes wrong around CSS Variables, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: missing fallbacks, overriding at the wrong scope, and expecting preprocessor features.
+Step 3: revisit custom properties and the var function, since misunderstandings there cause many bugs.
+Step 4: use browser DevTools or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving CSS Variables in work such as theme switching come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, define theme values on the root element. It prevents a surprising number of repeat problems.

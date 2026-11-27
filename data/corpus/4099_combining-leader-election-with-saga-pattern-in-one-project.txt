@@ -1,0 +1,15 @@
+Combining Leader Election with Saga Pattern in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Leader Election and Saga Pattern can work together in a single project.
+
+Leader Election is a process by which nodes in a cluster choose one node to coordinate the work. Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+Imagine a project that involves database primaries and order processing. Leader Election brings heartbeats, while Saga Pattern brings local transactions.
+
+A sensible plan is to start with ZooKeeper for the Leader Election part and Temporal for the Saga Pattern part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flapping leaders on one side, and steps that are not idempotent on the other.
+
+Picture the whole as a classroom picking a monitor when the teacher leaves, working alongside booking a trip with separate hotel, flight and car reservations that can each be cancelled.
+
+Two habits help: first, tune heartbeat intervals against real network delays; second, make every step and its compensation idempotent.

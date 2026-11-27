@@ -1,0 +1,15 @@
+Combining State Management with Internationalization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how State Management and Internationalization can work together in a single project.
+
+State Management is the practice of organizing where an application keeps and updates its data. Internationalization is designing software so it can be adapted to different languages and regions.
+
+Imagine a project that involves large single-page apps and global products. State Management brings single source of truth, while Internationalization brings locale detection.
+
+A sensible plan is to start with Redux for the State Management part and i18next for the Internationalization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: duplicated state that drifts apart on one side, and text that overflows layouts on the other.
+
+Picture the whole as a shared whiteboard that everyone updates through the same rules, working alongside a stage set where the backdrop can be swapped for each audience.
+
+Two habits help: first, keep state as close as possible to where it is used; second, move every user-facing string into translation files from the first day.

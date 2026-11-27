@@ -1,0 +1,12 @@
+Questions to Ask About Webhooks in Code Review
+
+Reviewing code that involves Webhooks is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we respond quickly and process the event in a background job?
+- Have we considered not verifying signatures?
+- Would a test catch slow handlers causing timeouts if it appeared later?
+- Does this change respect event payloads, or does it work around it?
+- Have we avoided this problem: processing duplicate events?
+- Is ngrok used consistently, or are we mixing approaches?
+
+Good reviews of work on Webhooks are specific, kind and focused on retries, not on personal style.

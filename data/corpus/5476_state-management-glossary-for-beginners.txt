@@ -1,0 +1,12 @@
+State Management Glossary for Beginners
+
+New words can make State Management feel harder than it is. This glossary keeps the key ones in one place.
+
+State Management: the practice of organizing where an application keeps and updates its data.
+single source of truth: a core term, most visible in large single-page apps.
+actions: a core term that beginners often confuse with reducers.
+reducers: a core term that connects to derived state.
+derived state: a core term worth revisiting after you try a real example.
+Redux: a tool commonly used for shared shopping carts.
+
+Come back to this State Management list whenever documentation for Zustand uses a word you do not recognize.

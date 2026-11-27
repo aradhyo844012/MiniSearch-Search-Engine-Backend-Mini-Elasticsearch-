@@ -1,0 +1,17 @@
+Regression Testing Do's and Don'ts
+
+A quick list of habits for working with Regression Testing.
+
+Do:
+- Learn test suites before anything else.
+- Try pytest on a small example.
+- Make it a habit to add a test for every bug you fix.
+- Test the case of protecting releases early.
+
+Don't:
+- Ignore this: slow suites that nobody runs.
+- Ignore this: missing tests for fixed bugs.
+- Ignore this: ignoring flaky failures.
+- Adopt Regression Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Regression Testing, a little patience with automation pays off more than any clever shortcut.

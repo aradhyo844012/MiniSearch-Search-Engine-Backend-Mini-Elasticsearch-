@@ -1,0 +1,15 @@
+Combining Progressive Web Apps with Web Components in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Progressive Web Apps and Web Components can work together in a single project.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps. Web Components is browser-native custom elements with their own markup, style and behavior.
+
+Imagine a project that involves offline-friendly tools and design system components. Progressive Web Apps brings web app manifest, while Web Components brings custom elements.
+
+A sensible plan is to start with Lighthouse for the Progressive Web Apps part and Lit for the Web Components part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor offline fallbacks on one side, and poor accessibility on the other.
+
+Picture the whole as a website that packs its own suitcase so it still works when the network is gone, working alongside a Lego brick in its own sealed packaging.
+
+Two habits help: first, test the app in airplane mode; second, document the attributes and events like a public API.

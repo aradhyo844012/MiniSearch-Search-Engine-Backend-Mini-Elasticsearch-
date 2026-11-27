@@ -1,0 +1,13 @@
+Debugging Write-Ahead Logging: A Field Guide
+
+When something goes wrong around Write-Ahead Logging, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: disabling fsync for speed, log files filling the disk, and forgetting to archive logs.
+Step 3: revisit log records and checkpoints, since misunderstandings there cause many bugs.
+Step 4: use PostgreSQL WAL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Write-Ahead Logging in work such as surviving crashes come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, test crash recovery by killing the process on purpose. It prevents a surprising number of repeat problems.

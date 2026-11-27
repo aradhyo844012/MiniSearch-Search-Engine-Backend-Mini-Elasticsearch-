@@ -1,0 +1,10 @@
+CQRS: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about CQRS with confidence. The subject itself is a pattern that separates the models used to change data from the models used to read it.
+
+commands: one of the building blocks of CQRS. You should be able to explain it in a single sentence before moving on.
+queries: one of the building blocks of CQRS. Mixing it up with neighboring terms is a common source of confusion.
+read models: one of the building blocks of CQRS. Documentation for Axon Framework usually mentions it early.
+eventual consistency: one of the building blocks of CQRS. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about complex domains. If the sentences feel natural, the vocabulary has stuck.

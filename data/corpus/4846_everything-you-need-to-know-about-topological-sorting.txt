@@ -1,0 +1,26 @@
+Everything You Need to Know About Topological Sorting
+
+This page collects the essentials about Topological Sorting in one place. In short, Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+
+Core concepts:
+- directed acyclic graphs
+- in-degree counts
+- Kahn's algorithm
+- cycle detection
+
+Where it is used:
+- build systems
+- course prerequisite planning
+- task scheduling
+
+Common problems:
+- ignoring cycles
+- assuming the order is unique
+- mixing up edge directions
+
+Tools to know:
+- Python graphlib
+- NetworkX
+- Make
+
+Remember this above all: a recipe that must list every step after the steps it depends on is a good way to picture it, and the best habit is to check for cycles first so you can report a clear error.

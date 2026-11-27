@@ -1,0 +1,17 @@
+Interrupts Do's and Don'ts
+
+A quick list of habits for working with Interrupts.
+
+Do:
+- Learn interrupt handlers before anything else.
+- Try Linux /proc/interrupts on a small example.
+- Make it a habit to keep interrupt handlers short and defer the heavy work.
+- Test the case of keyboard and mouse input early.
+
+Don't:
+- Ignore this: long handlers.
+- Ignore this: race conditions with shared data.
+- Ignore this: lost interrupts.
+- Adopt Interrupts just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Interrupts, a little patience with interrupt vectors pays off more than any clever shortcut.

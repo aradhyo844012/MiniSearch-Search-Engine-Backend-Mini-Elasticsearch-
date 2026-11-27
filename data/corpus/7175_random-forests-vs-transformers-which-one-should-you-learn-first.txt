@@ -1,0 +1,13 @@
+Random Forests vs Transformers: Which One Should You Learn First?
+
+Learners often ask whether to study Random Forests or Transformers first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Random Forests is ensembles of many decision trees whose predictions are combined, and it is closely tied to bagging and feature randomness. Transformers, by contrast, is neural network architectures that use attention to relate all parts of an input to each other, and it is closely tied to self-attention and positional encoding.
+
+Choose Random Forests first if you care about tabular predictions or feature importance ranking. Choose Transformers first if you care about language translation or text generation.
+
+Think of Random Forests as asking many different experts and taking the majority view, and of Transformers as a reader who can look back at any word of a paragraph while reading each new word. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Random Forests, avoid treating importance scores as causes. With Transformers, avoid huge compute requirements.
+
+A good habit for Random Forests is to tune the number of trees only after the basics work. A good habit for Transformers is to begin with small pretrained models.

@@ -1,0 +1,13 @@
+Teaching Load Testing to a Teammate
+
+Explaining Load Testing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a stress test that fills a stadium to see how the exits cope. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Load Testing is measuring how a system behaves under expected and heavy traffic. Avoid jargon at this stage.
+
+Walk through an example involving capacity planning, naming virtual users and throughput as they come up.
+
+Ask your teammate to explain latency percentiles in Load Testing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, testing unrealistic traffic, and suggest this habit: report p95 and p99 latency, not only averages.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Column-Oriented Storage
+
+This page collects the essentials about Column-Oriented Storage in one place. In short, Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Core concepts:
+- column chunks
+- compression
+- vectorized scans
+- predicate pushdown
+
+Where it is used:
+- analytics dashboards
+- large aggregations
+- data warehouses
+
+Common problems:
+- slow single-row lookups
+- many small writes
+- wide tables with unused columns
+
+Tools to know:
+- Apache Parquet
+- ClickHouse
+- DuckDB
+
+Remember this above all: a spreadsheet kept as separate lists per column so you can read just one is a good way to picture it, and the best habit is to select only the columns you really need.

@@ -1,0 +1,13 @@
+Domain-Driven Design vs Hexagonal Architecture: Which One Should You Learn First?
+
+Learners often ask whether to study Domain-Driven Design or Hexagonal Architecture first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain, and it is closely tied to ubiquitous language and bounded contexts. Hexagonal Architecture, by contrast, is a design that keeps core logic separate from outside systems through ports and adapters, and it is closely tied to ports and adapters.
+
+Choose Domain-Driven Design first if you care about complex business systems or aligning developers with domain experts. Choose Hexagonal Architecture first if you care about testable business logic or swapping databases.
+
+Think of Domain-Driven Design as writing software in the same vocabulary the business speaks, and of Hexagonal Architecture as a power strip that lets any plug connect to the same core. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Domain-Driven Design, avoid using it for simple CRUD apps. With Hexagonal Architecture, avoid too many layers for small apps.
+
+A good habit for Domain-Driven Design is to agree on shared terms with domain experts before drawing classes. A good habit for Hexagonal Architecture is to keep framework imports out of the core domain.

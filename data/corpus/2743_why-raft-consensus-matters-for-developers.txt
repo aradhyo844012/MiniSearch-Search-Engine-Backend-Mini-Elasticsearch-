@@ -1,0 +1,11 @@
+Why Raft Consensus Matters for Developers
+
+Developers who understand Raft Consensus make better decisions, because Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations.
+
+Three situations show why it matters. First, configuration stores. Second, distributed locks. Third, replicated state machines. In each case, a solid grasp of leader election and log replication separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: even-sized clusters, slow disks causing elections, and network delays above election timeouts.
+
+Good tools exist, including etcd, Consul, and HashiCorp Raft library, so you rarely have to start from nothing.
+
+Connect Raft Consensus with Leader Election to see the bigger picture of Distributed Systems.

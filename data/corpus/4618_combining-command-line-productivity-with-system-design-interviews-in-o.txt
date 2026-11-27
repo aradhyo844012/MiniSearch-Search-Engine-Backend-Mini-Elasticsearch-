@@ -1,0 +1,15 @@
+Combining Command Line Productivity with System Design Interviews in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Command Line Productivity and System Design Interviews can work together in a single project.
+
+Command Line Productivity is using shell tools and shortcuts to complete tasks faster. System Design Interviews is discussions in which candidates design a large software system and explain their choices.
+
+Imagine a project that involves automating repetitive tasks and preparing for senior roles. Command Line Productivity brings aliases, while System Design Interviews brings requirements.
+
+A sensible plan is to start with bash for the Command Line Productivity part and whiteboard sketches for the System Design Interviews part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: dangerous wildcard use on one side, and ignoring trade-offs on the other.
+
+Picture the whole as learning the shortcuts on a well-used road, working alongside sketching the blueprint of a city while explaining why each road exists.
+
+Two habits help: first, turn commands you repeat into small scripts; second, clarify requirements and scale before drawing boxes.

@@ -1,0 +1,12 @@
+Object-Relational Mappers Glossary for Beginners
+
+New words can make Object-Relational Mappers feel harder than it is. This glossary keeps the key ones in one place.
+
+Object-Relational Mappers: libraries that map database tables to objects in code.
+models: a core term, most visible in building CRUD apps quickly.
+queries: a core term that beginners often confuse with relationships.
+relationships: a core term that connects to migrations.
+migrations: a core term worth revisiting after you try a real example.
+SQLAlchemy: a tool commonly used for switching databases.
+
+Come back to this Object-Relational Mappers list whenever documentation for the Django ORM uses a word you do not recognize.

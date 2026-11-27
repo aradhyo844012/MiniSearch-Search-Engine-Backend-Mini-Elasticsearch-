@@ -1,0 +1,11 @@
+Code Documentation in Real Projects
+
+Reading about Code Documentation is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: onboarding new developers. Here, README files drives the main design choices, and the team needs to guard against outdated docs.
+
+Scenario two: describing APIs. This time docstrings matters most, and tools such as Sphinx help keep things manageable.
+
+Scenario three: recording design decisions. The key idea is architecture notes, and the biggest risk is comments that repeat the code.
+
+Across all three scenarios, Code Documentation stays the same idea: written explanations that help others understand and use code. Only the details change.

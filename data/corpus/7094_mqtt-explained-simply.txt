@@ -1,0 +1,13 @@
+MQTT Explained Simply
+
+If MQTT sounds intimidating, relax. It is a lightweight messaging protocol designed for small devices and unreliable networks, and the idea is simpler than the name suggests.
+
+Think of MQTT as a radio station with channels that devices can tune into. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: publish and subscribe, topics, brokers, and quality of service levels. You do not need to master them all at once. Start with publish and subscribe, then add topics.
+
+You will meet MQTT in work such as sensor networks, smart home devices, and telemetry.
+
+One practical tip is to design topic names like a clear folder structure.
+
+After MQTT, a natural next topic is Arduino Basics.

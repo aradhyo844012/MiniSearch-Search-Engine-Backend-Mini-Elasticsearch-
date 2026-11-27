@@ -1,0 +1,13 @@
+Event-Driven Architecture vs API Design Principles: Which One Should You Learn First?
+
+Learners often ask whether to study Event-Driven Architecture or API Design Principles first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers. API Design Principles, by contrast, is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors.
+
+Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications. Choose API Design Principles first if you care about public platforms or internal service contracts.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it, and of API Design Principles as the controls of a car that behave the same in every model. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event-Driven Architecture, avoid hard-to-trace flows. With API Design Principles, avoid leaking internal details.
+
+A good habit for Event-Driven Architecture is to document every event name and schema. A good habit for API Design Principles is to write the documentation before the implementation.

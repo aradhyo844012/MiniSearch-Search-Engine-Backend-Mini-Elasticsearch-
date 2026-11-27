@@ -1,0 +1,13 @@
+Teaching Debugging Strategies to a Teammate
+
+Explaining Debugging Strategies to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a detective narrowing down suspects. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Avoid jargon at this stage.
+
+Walk through an example involving fixing production issues, naming reproducing the bug and isolating the cause as they come up.
+
+Ask your teammate to explain forming hypotheses in Debugging Strategies back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, changing many things at once, and suggest this habit: change one thing at a time and record the result.

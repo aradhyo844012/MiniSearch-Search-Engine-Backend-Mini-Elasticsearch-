@@ -1,0 +1,15 @@
+The Pros and Cons of Retrieval-Augmented Generation
+
+No technology is free of trade-offs, and Retrieval-Augmented Generation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports company knowledge assistants
+- Makes question answering over documents easier
+- Helps with support bots
+
+Drawbacks and risks:
+- Risk: poor chunking
+- Risk: irrelevant retrieved text
+- Risk: no evaluation of the answers
+
+Weigh the two lists against your own project. If the advantages match your needs, such as company knowledge assistants, and you can manage the risks, Retrieval-Augmented Generation is a sound choice. Whatever you decide, evaluate retrieval quality separately from answer quality.

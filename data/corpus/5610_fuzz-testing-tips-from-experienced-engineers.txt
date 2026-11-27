@@ -1,0 +1,11 @@
+Fuzz Testing Tips from Experienced Engineers
+
+Engineers who work with Fuzz Testing regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: running without sanitizers.
+2. When something behaves strangely, revisit coverage guidance before anything else.
+3. Reach for AFL++ first, and only then evaluate alternatives such as libFuzzer.
+4. Write down why you chose Fuzz Testing so the next person understands the decision.
+5. Make sure you can keep every crashing input as a regression test.
+
+None of these tips needs special equipment, and all of them apply to finding memory bugs as well.

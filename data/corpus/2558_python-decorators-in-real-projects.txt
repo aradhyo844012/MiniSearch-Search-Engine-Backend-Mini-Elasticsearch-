@@ -1,0 +1,11 @@
+Python Decorators in Real Projects
+
+Reading about Python Decorators is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: logging calls. Here, higher-order functions drives the main design choices, and the team needs to guard against losing function metadata.
+
+Scenario two: caching results. This time wrapper functions matters most, and tools such as functools help keep things manageable.
+
+Scenario three: checking permissions. The key idea is functools.wraps, and the biggest risk is stacking decorators in the wrong order.
+
+Across all three scenarios, Python Decorators stays the same idea: functions that wrap other functions to add behavior without changing their code. Only the details change.

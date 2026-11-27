@@ -1,0 +1,10 @@
+Canary Releases: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Canary Releases with confidence. The subject itself is a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+
+traffic percentages: one of the building blocks of Canary Releases. You should be able to explain it in a single sentence before moving on.
+health metrics: one of the building blocks of Canary Releases. You should be able to explain it in a single sentence before moving on.
+automatic rollback: one of the building blocks of Canary Releases. Documentation for Argo Rollouts usually mentions it early.
+progressive rollout: one of the building blocks of Canary Releases. It shows up whenever you work on safer releases.
+
+Practice using these four terms in sentences about testing with real traffic. If the sentences feel natural, the vocabulary has stuck.

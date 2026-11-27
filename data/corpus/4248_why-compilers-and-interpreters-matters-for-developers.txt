@@ -1,0 +1,11 @@
+Why Compilers and Interpreters Matters for Developers
+
+Developers who understand Compilers and Interpreters make better decisions, because Compilers and Interpreters is programs that translate or run source code written in a high-level language.
+
+Three situations show why it matters. First, running Python and JavaScript. Second, building native programs. Third, creating tools like linters. In each case, a solid grasp of lexing and parsing separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: assuming interpreted means slow without measuring, ignoring compiler warnings, and confusing compile-time and run-time errors.
+
+You will not need to build everything yourself; GCC, LLVM, and CPython cover most needs.
+
+Connect Compilers and Interpreters with CPU Caches to see the bigger picture of Computer Systems.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with C Pointers
+
+This path is for a learner who has never studied C Pointers before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (C Pointers is variables that store the memory address of another value) and learn addresses and dereferencing.
+
+Stage 2, hands-on: install GCC, follow a tutorial, and build a small example involving dynamic memory allocation.
+
+Stage 3, depth: study pointer arithmetic and null pointers, then deliberately explore this problem: dereferencing null pointers.
+
+Stage 4, application: apply C Pointers to passing large data efficiently, compare Valgrind with AddressSanitizer, and write up your results.
+
+Stage 5, review: teach C Pointers to someone else, and then move on to Java Streams.

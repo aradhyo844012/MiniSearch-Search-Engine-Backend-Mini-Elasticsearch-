@@ -1,0 +1,13 @@
+Feature Stores vs Jupyter Notebooks: Which One Should You Learn First?
+
+Learners often ask whether to study Feature Stores or Jupyter Notebooks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Feature Stores is systems that store and serve the input variables used by machine learning models, and it is closely tied to offline store and online store. Jupyter Notebooks, by contrast, is interactive documents that combine code, results and notes, and it is closely tied to cells and kernels.
+
+Choose Feature Stores first if you care about sharing features across models or serving real-time predictions. Choose Jupyter Notebooks first if you care about exploring data or teaching and demos.
+
+Think of Feature Stores as a shared pantry of prepared ingredients for many recipes, and of Jupyter Notebooks as a lab notebook that can run its own experiments. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Feature Stores, avoid leaking future data. With Jupyter Notebooks, avoid running cells out of order.
+
+A good habit for Feature Stores is to define each feature once and reuse it in training and serving. A good habit for Jupyter Notebooks is to restart the kernel and run all cells before sharing.

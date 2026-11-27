@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Eventual Consistency
+
+This path is for a learner who has never studied Eventual Consistency before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough) and learn replication delay and conflict resolution.
+
+Stage 2, hands-on: install Amazon DynamoDB, follow a tutorial, and build a small example involving global social feeds.
+
+Stage 3, depth: study read-your-writes and convergence, then deliberately explore this problem: assuming reads are always fresh.
+
+Stage 4, application: apply Eventual Consistency to shopping cart services, compare Apache Cassandra with CRDT libraries, and write up your results.
+
+Stage 5, review: teach Eventual Consistency to someone else, and then move on to Write-Ahead Logging.

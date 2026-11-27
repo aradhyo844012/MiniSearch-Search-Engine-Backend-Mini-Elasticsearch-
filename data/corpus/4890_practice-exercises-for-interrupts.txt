@@ -1,0 +1,11 @@
+Practice Exercises for Interrupts
+
+These exercises build real understanding of Interrupts. Do them in order, and write down your answers.
+
+Exercise 1: Compare logic analyzers and embedded debuggers for network packets arriving and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: long handlers. Then fix it.
+Exercise 3: Explain how priorities and context saving differ, using a drawing.
+Exercise 4: Pick Linux /proc/interrupts and complete its getting-started tutorial.
+Exercise 5: List three situations from your own experience that resemble keyboard and mouse input or timers.
+
+When you finish, compare your answers with the definition: Interrupts is signals that make a processor pause its work to handle an urgent event.

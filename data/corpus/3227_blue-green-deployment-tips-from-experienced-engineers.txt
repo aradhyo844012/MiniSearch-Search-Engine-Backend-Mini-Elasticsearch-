@@ -1,0 +1,11 @@
+Blue-Green Deployment Tips from Experienced Engineers
+
+Engineers who work with Blue-Green Deployment regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of zero-downtime releases early, before the design hardens.
+2. Do not skip blue and green environments; everything else builds on it.
+3. Write down why you chose Blue-Green Deployment so the next person understands the decision.
+4. Be careful with this one: database schema mismatches.
+5. Make sure you can keep the old environment running until the new one is proven.
+
+None of these tips needs special equipment, and all of them apply to quick rollbacks as well.

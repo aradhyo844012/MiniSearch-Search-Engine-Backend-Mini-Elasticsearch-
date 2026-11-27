@@ -1,0 +1,10 @@
+JavaScript Closures: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about JavaScript Closures with confidence. The subject itself is functions that remember the variables from the place where they were created.
+
+lexical scope: one of the building blocks of JavaScript Closures. It shows up whenever you work on keeping private state in modules.
+captured variables: one of the building blocks of JavaScript Closures. You should be able to explain it in a single sentence before moving on.
+function factories: one of the building blocks of JavaScript Closures. Mixing it up with neighboring terms is a common source of confusion.
+memory retention: one of the building blocks of JavaScript Closures. It shows up whenever you work on keeping private state in modules.
+
+Practice using these four terms in sentences about event handlers that need context. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Pagination
+
+This page collects the essentials about Pagination in one place. In short, Pagination is splitting large result sets into smaller pages that clients request one at a time.
+
+Core concepts:
+- offset pagination
+- cursor pagination
+- page size
+- stable ordering
+
+Where it is used:
+- search results
+- activity feeds
+- admin tables
+
+Common problems:
+- offsets getting slow on huge tables
+- unstable sort order
+- missing total counts when users need them
+
+Tools to know:
+- SQL LIMIT and OFFSET
+- keyset queries
+- Django REST Framework
+
+Remember this above all: reading a long book one chapter at a time with a bookmark is a good way to picture it, and the best habit is to prefer cursors for large or fast-changing data.

@@ -1,0 +1,13 @@
+State Management vs Client-Side Routing: Which One Should You Learn First?
+
+Learners often ask whether to study State Management or Client-Side Routing first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+State Management is the practice of organizing where an application keeps and updates its data, and it is closely tied to single source of truth and actions. Client-Side Routing, by contrast, is changing the visible page in the browser without a full page reload, and it is closely tied to history API and route matching.
+
+Choose State Management first if you care about large single-page apps or shared shopping carts. Choose Client-Side Routing first if you care about single-page apps or dashboards.
+
+Think of State Management as a shared whiteboard that everyone updates through the same rules, and of Client-Side Routing as swapping the picture in a frame without replacing the frame. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With State Management, avoid putting everything in global state. With Client-Side Routing, avoid broken deep links.
+
+A good habit for State Management is to keep state as close as possible to where it is used. A good habit for Client-Side Routing is to test refreshing the page on every route.

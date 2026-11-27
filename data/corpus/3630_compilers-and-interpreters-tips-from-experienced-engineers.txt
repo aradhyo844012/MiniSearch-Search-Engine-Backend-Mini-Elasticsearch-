@@ -1,0 +1,11 @@
+Compilers and Interpreters Tips from Experienced Engineers
+
+Engineers who work with Compilers and Interpreters regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of running Python and JavaScript early, before the design hardens.
+2. Be careful with this one: assuming interpreted means slow without measuring.
+3. Make sure you can turn on compiler warnings and treat them seriously.
+4. Write down why you chose Compilers and Interpreters so the next person understands the decision.
+5. Do not skip lexing; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to building native programs as well.

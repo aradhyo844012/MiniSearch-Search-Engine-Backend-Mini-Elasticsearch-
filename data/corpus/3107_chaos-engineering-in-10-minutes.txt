@@ -1,0 +1,15 @@
+Chaos Engineering in 10 Minutes
+
+You have ten minutes, so here is the fast route through Chaos Engineering.
+
+Minutes 1 and 2, the definition: Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Minutes 3 and 4, the vocabulary: learn steady state, hypotheses, blast radius, and fault injection.
+
+Minutes 5 and 6, the picture: imagine a fire drill where you secretly block one exit. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through testing resilience, validating failover, and preparing teams for incidents.
+
+Minutes 9 and 10, the traps and the tools: watch for experimenting without safeguards and having no steady-state metrics, then try Chaos Monkey for a first experiment.
+
+If you have a spare minute, remember to start with small experiments in a test environment.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Idempotency
+
+This path is for a learner who has never studied Idempotency before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Idempotency is the property that repeating an operation gives the same result as doing it once) and learn idempotency keys and safe retries.
+
+Stage 2, hands-on: install Stripe idempotency keys, follow a tutorial, and build a small example involving payment APIs.
+
+Stage 3, depth: study deduplication and at-least-once delivery, then deliberately explore this problem: keys that expire too soon.
+
+Stage 4, application: apply Idempotency to message processing, compare Redis with database unique constraints, and write up your results.
+
+Stage 5, review: teach Idempotency to someone else, and then move on to Vector Clocks.

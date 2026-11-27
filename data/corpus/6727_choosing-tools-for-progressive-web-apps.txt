@@ -1,0 +1,11 @@
+Choosing Tools for Progressive Web Apps
+
+There is no single best tool for Progressive Web Apps. The right choice depends on your project, your team and your timeline.
+
+Lighthouse is a common first choice, especially for offline-friendly tools. Workbox suits teams that already work with similar technology, and PWABuilder is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle lightweight alternatives to native apps well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: ignoring platform limitations.
+
+As a rule of thumb, test the app in airplane mode, no matter which tool you use.

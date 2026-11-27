@@ -1,0 +1,15 @@
+Blue-Green Deployment in 10 Minutes
+
+You have ten minutes, so here is the fast route through Blue-Green Deployment.
+
+Minutes 1 and 2, the definition: Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one.
+
+Minutes 3 and 4, the vocabulary: learn blue and green environments, traffic switching, rollback, and database compatibility.
+
+Minutes 5 and 6, the picture: imagine swapping to a fully prepared spare stage while the show goes on. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through zero-downtime releases, quick rollbacks, and testing in production-like settings.
+
+Minutes 9 and 10, the traps and the tools: watch for database schema mismatches and doubling infrastructure costs, then try AWS CodeDeploy for a first experiment.
+
+If you have a spare minute, remember to keep the old environment running until the new one is proven.

@@ -1,0 +1,11 @@
+Why Distributed Tracing Matters for Developers
+
+Developers who understand Distributed Tracing make better decisions, because Distributed Tracing is following a single request as it passes through many services.
+
+Three situations show why it matters. First, finding slow services. Second, understanding dependencies. Third, debugging errors across services. In each case, a solid grasp of spans and trace IDs separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: missing context propagation, sampling too aggressively, and overhead from too many spans.
+
+Good tools exist, including OpenTelemetry, Jaeger, and Zipkin, so you rarely have to start from nothing.
+
+Connect Distributed Tracing with Autoscaling to see the bigger picture of DevOps and Cloud.

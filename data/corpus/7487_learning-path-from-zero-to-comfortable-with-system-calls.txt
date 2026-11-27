@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with System Calls
+
+This path is for a learner who has never studied System Calls before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (System Calls is the controlled doorway through which programs ask the operating system to do privileged work) and learn user mode and kernel mode and syscall numbers.
+
+Stage 2, hands-on: install strace, follow a tutorial, and build a small example involving reading and writing files.
+
+Stage 3, depth: study file descriptors and libc wrappers, then deliberately explore this problem: ignoring error codes.
+
+Stage 4, application: apply System Calls to creating processes, compare man pages with libc, and write up your results.
+
+Stage 5, review: teach System Calls to someone else, and then move on to Memory Hierarchy.

@@ -1,0 +1,17 @@
+System Calls Do's and Don'ts
+
+A quick list of habits for working with System Calls.
+
+Do:
+- Learn user mode and kernel mode before anything else.
+- Try strace on a small example.
+- Make it a habit to use strace to see what your program really asks the kernel to do.
+- Test the case of reading and writing files early.
+
+Don't:
+- Ignore this: ignoring error codes.
+- Ignore this: making too many small calls.
+- Ignore this: unsafe assumptions about blocking.
+- Adopt System Calls just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with System Calls, a little patience with syscall numbers pays off more than any clever shortcut.

@@ -1,0 +1,12 @@
+Questions to Ask About Regular Expressions in Code Review
+
+Reviewing code that involves Regular Expressions is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect character classes, or does it work around it?
+- Have we considered catastrophic backtracking?
+- Does the code handle the case of validating input correctly?
+- Is quantifiers clear to someone reading the code for the first time?
+- Is the Python re module used consistently, or are we mixing approaches?
+- Could we build patterns in small steps and test each one?
+
+Good reviews of work on Regular Expressions are specific, kind and focused on groups, not on personal style.

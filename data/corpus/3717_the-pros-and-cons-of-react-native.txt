@@ -1,0 +1,15 @@
+The Pros and Cons of React Native
+
+No technology is free of trade-offs, and React Native is no exception. Here is an honest summary.
+
+Advantages:
+- Supports cross-platform apps
+- Makes rapid prototypes easier
+- Helps with sharing code with web teams
+
+Drawbacks and risks:
+- Risk: heavy re-renders
+- Risk: poorly tuned lists
+- Risk: relying on outdated native modules
+
+Weigh the two lists against your own project. If the advantages match your needs, such as cross-platform apps, and you can manage the risks, React Native is a sound choice. Whatever you decide, test on real devices for both platforms.

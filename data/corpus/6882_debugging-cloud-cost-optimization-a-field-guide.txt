@@ -1,0 +1,13 @@
+Debugging Cloud Cost Optimization: A Field Guide
+
+When something goes wrong around Cloud Cost Optimization, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: forgotten test environments, over-provisioned databases, and surprise data transfer charges.
+Step 3: revisit right-sizing and reserved capacity, since misunderstandings there cause many bugs.
+Step 4: use AWS Cost Explorer or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Cloud Cost Optimization in work such as cutting idle resources come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, tag every resource with an owner. It prevents a surprising number of repeat problems.

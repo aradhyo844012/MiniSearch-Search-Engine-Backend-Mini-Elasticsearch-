@@ -1,0 +1,11 @@
+Why Service Workers Matters for Developers
+
+Developers who understand Service Workers make better decisions, because Service Workers is scripts that run in the background of a browser and intercept network requests.
+
+Three situations show why it matters. First, offline support. Second, faster repeat visits. Third, push notifications. In each case, a solid grasp of registration and install and activate events separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: caching stale files forever, bugs surviving across deployments, and forgetting that HTTPS is required.
+
+You will not need to build everything yourself; Workbox, the Chrome DevTools Application panel, and Lighthouse cover most needs.
+
+Connect Service Workers with React Hooks to see the bigger picture of Frontend Engineering.

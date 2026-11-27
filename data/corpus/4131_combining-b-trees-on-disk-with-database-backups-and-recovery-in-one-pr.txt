@@ -1,0 +1,15 @@
+Combining B-Trees on Disk with Database Backups and Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how B-Trees on Disk and Database Backups and Recovery can work together in a single project.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Imagine a project that involves database indexes and recovering deleted tables. B-Trees on Disk brings pages, while Database Backups and Recovery brings full and incremental backups.
+
+A sensible plan is to start with PostgreSQL for the B-Trees on Disk part and pg_dump for the Database Backups and Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: oversized keys on one side, and storing backups on the same disk on the other.
+
+Picture the whole as a filing cabinet where each drawer tells you which drawer to open next, working alongside a spare house key kept at a trusted neighbor's home.
+
+Two habits help: first, keep indexed keys short so more of them fit on a page; second, schedule a restore drill on a regular basis.

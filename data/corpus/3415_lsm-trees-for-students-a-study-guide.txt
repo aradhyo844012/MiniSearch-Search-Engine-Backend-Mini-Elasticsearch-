@@ -1,0 +1,17 @@
+LSM Trees for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover LSM Trees.
+
+Learning goals:
+1. Explain LSM Trees in your own words.
+2. Describe memtable, sorted string tables, compaction, and write amplification.
+3. Give examples from write-heavy databases and time-ordered data.
+4. Name three problems to watch for.
+
+Start with the definition: LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Then draw a mail room that sorts incoming letters in batches rather than one by one on paper and label the four terms from the goals above.
+
+Self-test questions: Why is read amplification a problem? How does sorted string tables relate to compaction? When would you choose RocksDB or LevelDB?
+
+Study habit: watch compaction metrics before blaming the application.
+
+When you feel ready, compare LSM Trees with Column-Oriented Storage and write down three differences.

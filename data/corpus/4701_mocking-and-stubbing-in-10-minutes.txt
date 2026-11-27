@@ -1,0 +1,15 @@
+Mocking and Stubbing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Mocking and Stubbing.
+
+Minutes 1 and 2, the definition: Mocking and Stubbing is replacing real dependencies with controlled fakes during tests.
+
+Minutes 3 and 4, the vocabulary: learn mocks, stubs, spies, and fakes.
+
+Minutes 5 and 6, the picture: imagine a crash test dummy standing in for a real passenger. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through isolating units, simulating failures, and avoiding network calls.
+
+Minutes 9 and 10, the traps and the tools: watch for over-mocking and tests that mirror the implementation, then try unittest.mock for a first experiment.
+
+If you have a spare minute, remember to prefer simple fakes over deep mock chains.

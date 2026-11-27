@@ -1,0 +1,13 @@
+Database Migrations vs Database Backups and Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Database Migrations or Database Backups and Recovery first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way, and it is closely tied to up and down scripts and version tables. Database Backups and Recovery, by contrast, is the practice of copying data regularly so that it can be restored after failures, and it is closely tied to full and incremental backups and recovery point objective.
+
+Choose Database Migrations first if you care about adding columns safely or renaming tables. Choose Database Backups and Recovery first if you care about recovering deleted tables or migrating servers.
+
+Think of Database Migrations as a numbered set of renovation steps applied to a building in order, and of Database Backups and Recovery as a spare house key kept at a trusted neighbor's home. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Database Migrations, avoid locking large tables. With Database Backups and Recovery, avoid never testing restores.
+
+A good habit for Database Migrations is to split risky changes into small steps that can each be rolled back. A good habit for Database Backups and Recovery is to schedule a restore drill on a regular basis.

@@ -1,0 +1,11 @@
+Scaling Considerations for Two Pointers and Sliding Window
+
+A design that works for a classroom project can behave very differently under real load. Here is how Two Pointers and Sliding Window changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding left and right pointers and getting finding pairs with a given sum right.
+
+Medium scale: problems start to appear. Watch for moving the wrong pointer and forgetting empty inputs, and measure with Python lists before changing anything.
+
+Large scale: invariants and shrinking and expanding move from background details to central design questions. Teams often revisit their choices around longest substring problems at this stage.
+
+Before you scale, write down the window invariant before coding the loop. It is cheaper to build that habit early than to fix a crisis later.

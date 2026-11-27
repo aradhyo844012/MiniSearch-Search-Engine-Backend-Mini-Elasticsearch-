@@ -1,0 +1,11 @@
+Practice Exercises for Distributed Locks
+
+These exercises build real understanding of Distributed Locks. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: locks that never expire. Then fix it.
+Exercise 2: Write a short paragraph describing Distributed Locks and include the term lease times.
+Exercise 3: Explain how lock owners and timeouts differ, using a drawing.
+Exercise 4: Pick Redis and complete its getting-started tutorial.
+Exercise 5: Compare ZooKeeper and etcd for selecting a leader and write down your conclusion.
+
+When you finish, compare your answers with the definition: Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines.

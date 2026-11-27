@@ -1,0 +1,9 @@
+Understanding Single Sign-On Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a festival wristband that opens every gate.
+
+In that picture, identity provider is the first rule you follow, SAML is the next step, and OpenID Connect and session lifetime keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Single Sign-On is letting users log in once and access several applications, and it involves details such as a single point of failure that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Okta to learn the exact behavior. The same picture helps when you explain company intranets to a friend.

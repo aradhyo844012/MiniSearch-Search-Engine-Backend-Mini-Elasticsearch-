@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Log Aggregation
+
+This path is for a learner who has never studied Log Aggregation before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Log Aggregation is collecting logs from many machines into one searchable place) and learn shippers and indexing.
+
+Stage 2, hands-on: install Elasticsearch, follow a tutorial, and build a small example involving troubleshooting across services.
+
+Stage 3, depth: study retention and search queries, then deliberately explore this problem: unbounded storage growth.
+
+Stage 4, application: apply Log Aggregation to security investigations, compare Fluent Bit with Grafana Loki, and write up your results.
+
+Stage 5, review: teach Log Aggregation to someone else, and then move on to Blue-Green Deployment.

@@ -1,0 +1,15 @@
+System Calls Quick Reference
+
+A one-screen reminder for System Calls. Bookmark it and return when the details fade.
+
+What it is: the controlled doorway through which programs ask the operating system to do privileged work.
+Key terms: user mode and kernel mode, syscall numbers, file descriptors, and libc wrappers.
+Typical uses: reading and writing files, creating processes, and using network sockets.
+Risks: ignoring error codes, making too many small calls, and unsafe assumptions about blocking.
+Tools: strace, man pages, and libc.
+
+Mental picture: a service window where a customer asks staff to do things in the back office.
+
+Habit to build: use strace to see what your program really asks the kernel to do.
+
+See also: GPUs and Parallelism, which sits close to System Calls in the area of Computer Systems.

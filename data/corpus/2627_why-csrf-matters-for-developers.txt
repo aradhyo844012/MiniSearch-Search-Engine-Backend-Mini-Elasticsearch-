@@ -1,0 +1,11 @@
+Why CSRF Matters for Developers
+
+Developers who understand CSRF make better decisions, because CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site.
+
+Three situations show why it matters. First, protecting forms. Second, securing account settings. Third, hardening admin panels. In each case, a solid grasp of session cookies and anti-CSRF tokens separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: using GET requests for state changes, skipping tokens on cookie-based APIs, and misconfigured SameSite settings.
+
+Good tools exist, including Django CSRF middleware, Flask-WTF, and OWASP guides, so you rarely have to start from nothing.
+
+Connect CSRF with Threat Modeling to see the bigger picture of Application Security.

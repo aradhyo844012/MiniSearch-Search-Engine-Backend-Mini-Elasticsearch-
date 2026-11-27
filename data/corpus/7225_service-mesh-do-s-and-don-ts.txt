@@ -1,0 +1,17 @@
+Service Mesh Do's and Don'ts
+
+A quick list of habits for working with Service Mesh.
+
+Do:
+- Learn sidecar proxies before anything else.
+- Try Istio on a small example.
+- Make it a habit to adopt it only once the number of services makes manual setup painful.
+- Test the case of securing service traffic early.
+
+Don't:
+- Ignore this: added latency and complexity.
+- Ignore this: adopting it too early.
+- Ignore this: hard-to-debug proxy configs.
+- Adopt Service Mesh just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Service Mesh, a little patience with mutual TLS pays off more than any clever shortcut.

@@ -1,0 +1,15 @@
+Data Lakes Quick Reference
+
+A one-screen reminder for Data Lakes. Bookmark it and return when the details fade.
+
+What it is: large storage systems that keep raw data in its original format until it is needed.
+Key terms: raw storage, schema on read, partitioning, and metadata catalogs.
+Typical uses: storing logs and events, machine learning datasets, and analytics across many sources.
+Risks: turning into a data swamp, no catalog or ownership, and poor access controls.
+Tools: Amazon S3, Delta Lake, and Apache Iceberg.
+
+Mental picture: a big reservoir where water from many rivers is stored before treatment.
+
+Habit to build: register every dataset in a catalog with an owner.
+
+See also: Apache Spark, which sits close to Data Lakes in the area of Data and Analytics.

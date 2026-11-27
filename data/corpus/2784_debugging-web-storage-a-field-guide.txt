@@ -1,0 +1,13 @@
+Debugging Web Storage: A Field Guide
+
+When something goes wrong around Web Storage, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: storing sensitive data, assuming storage is always available, and hitting size limits.
+Step 3: revisit localStorage and sessionStorage, since misunderstandings there cause many bugs.
+Step 4: use browser DevTools or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Web Storage in work such as saving user preferences come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, wrap every read and write in error handling. It prevents a surprising number of repeat problems.

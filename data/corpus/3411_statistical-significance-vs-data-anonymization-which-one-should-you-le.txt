@@ -1,0 +1,13 @@
+Statistical Significance vs Data Anonymization: Which One Should You Learn First?
+
+Learners often ask whether to study Statistical Significance or Data Anonymization first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Statistical Significance is a measure of how unlikely a result would be if there were no real effect, and it is closely tied to p-values and the null hypothesis. Data Anonymization, by contrast, is removing or altering personal details in data so people cannot be identified, and it is closely tied to masking and generalization.
+
+Choose Statistical Significance first if you care about judging experiment results or comparing model performance. Choose Data Anonymization first if you care about sharing datasets with researchers or testing with production-like data.
+
+Think of Statistical Significance as asking how surprised you should be if a coin were actually fair, and of Data Anonymization as blurring faces in a crowd photo while keeping the scene. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Statistical Significance, avoid mistaking significance for importance. With Data Anonymization, avoid re-identification through combined fields.
+
+A good habit for Statistical Significance is to always report the effect size alongside the p-value. A good habit for Data Anonymization is to test whether combining fields could identify a person.

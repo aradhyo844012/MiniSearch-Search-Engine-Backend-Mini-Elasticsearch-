@@ -1,0 +1,13 @@
+GraphQL Explained Simply
+
+Here is GraphQL without the jargon: it is a query language for APIs that lets clients ask for exactly the fields they need.
+
+Think of GraphQL as ordering a la carte instead of picking a fixed set menu. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: schema, queries and mutations, resolvers, and types. You do not need to master them all at once. Start with schema, then add queries and mutations.
+
+You will meet GraphQL in work such as mobile apps with limited bandwidth, aggregating many services, and flexible dashboards.
+
+One practical tip is to use a data loader to avoid N+1 queries.
+
+After GraphQL, a natural next topic is gRPC.

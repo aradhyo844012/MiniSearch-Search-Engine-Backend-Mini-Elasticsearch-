@@ -1,0 +1,13 @@
+Teaching Canary Releases to a Teammate
+
+Explaining Canary Releases to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a canary in a coal mine warning miners before the danger spreads. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it. Avoid jargon at this stage.
+
+Walk through an example involving safer releases, naming traffic percentages and health metrics as they come up.
+
+Ask your teammate to explain automatic rollback in Canary Releases back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, too little traffic to reveal problems, and suggest this habit: define rollback conditions before starting the rollout.

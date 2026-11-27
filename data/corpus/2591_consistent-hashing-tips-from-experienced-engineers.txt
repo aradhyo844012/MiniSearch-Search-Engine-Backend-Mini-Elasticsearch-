@@ -1,0 +1,11 @@
+Consistent Hashing Tips from Experienced Engineers
+
+Engineers who work with Consistent Hashing regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip hash ring; everything else builds on it.
+2. Make sure you can use many virtual nodes per server to even out the load.
+3. Write down why you chose Consistent Hashing so the next person understands the decision.
+4. Reach for Redis Cluster first, and only then evaluate alternatives such as Memcached clients.
+5. When something behaves strangely, revisit virtual nodes before anything else.
+
+None of these tips needs special equipment, and all of them apply to sharded databases as well.

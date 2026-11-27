@@ -1,0 +1,15 @@
+Combining Encryption at Rest with Security Headers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Encryption at Rest and Security Headers can work together in a single project.
+
+Encryption at Rest is protecting stored data by encrypting it on disk or in a database. Security Headers is HTTP response headers that tell browsers to enforce extra protections.
+
+Imagine a project that involves protecting backups and hardening websites. Encryption at Rest brings symmetric keys, while Security Headers brings Strict-Transport-Security.
+
+A sensible plan is to start with LUKS for the Encryption at Rest part and securityheaders.com for the Security Headers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no key rotation on one side, and breaking embeds on the other.
+
+Picture the whole as a locked safe inside a locked room, working alongside safety instructions printed on the packaging of every page.
+
+Two habits help: first, keep keys in a separate service from the data; second, test the headers on every environment.

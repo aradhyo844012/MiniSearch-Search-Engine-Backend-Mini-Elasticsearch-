@@ -1,0 +1,13 @@
+Teaching Vector Clocks to a Teammate
+
+Explaining Vector Clocks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: each person in a group chat keeping a tally of messages seen from everyone. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Vector Clocks is counters that let distributed processes track the order of events without a shared clock. Avoid jargon at this stage.
+
+Walk through an example involving detecting concurrent edits, naming logical time and per-process counters as they come up.
+
+Ask your teammate to explain the happened-before relation in Vector Clocks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, clocks that grow with many nodes, and suggest this habit: compare clocks entry by entry to detect true concurrency.

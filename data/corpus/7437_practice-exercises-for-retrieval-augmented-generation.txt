@@ -1,0 +1,11 @@
+Practice Exercises for Retrieval-Augmented Generation
+
+These exercises build real understanding of Retrieval-Augmented Generation. Do them in order, and write down your answers.
+
+Exercise 1: Compare FAISS and Elasticsearch for support bots and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: poor chunking. Then fix it.
+Exercise 3: Explain how prompts with context and grounding differ, using a drawing.
+Exercise 4: Pick LangChain and complete its getting-started tutorial.
+Exercise 5: List three situations from your own experience that resemble company knowledge assistants or question answering over documents.
+
+When you finish, compare your answers with the definition: Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers.

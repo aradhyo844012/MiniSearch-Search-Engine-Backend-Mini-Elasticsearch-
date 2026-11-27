@@ -1,0 +1,13 @@
+Support Vector Machines vs Retrieval-Augmented Generation: Which One Should You Learn First?
+
+Learners often ask whether to study Support Vector Machines or Retrieval-Augmented Generation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors. Retrieval-Augmented Generation, by contrast, is a technique that gives a language model relevant documents to read before it answers, and it is closely tied to retrieval and chunking.
+
+Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets. Choose Retrieval-Augmented Generation first if you care about company knowledge assistants or question answering over documents.
+
+Think of Support Vector Machines as drawing the widest road between two neighborhoods, and of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Support Vector Machines, avoid slow training on large data. With Retrieval-Augmented Generation, avoid poor chunking.
+
+A good habit for Support Vector Machines is to scale features and try a linear kernel first. A good habit for Retrieval-Augmented Generation is to evaluate retrieval quality separately from answer quality.

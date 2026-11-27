@@ -1,0 +1,11 @@
+Mistakes to Avoid with Idempotency
+
+Everyone learns Idempotency partly through mistakes. Here are three worth avoiding.
+
+Mistake one: keys that expire too soon. It usually appears when someone skips idempotency keys and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: side effects outside the guarded step. It tends to be noticed late, often during testing of payment APIs. A short checklist during review catches it early.
+
+Mistake three: reusing keys for different requests. It is easy to miss because everything seems to work at first. Keep an eye on at-least-once delivery to spot it.
+
+If you remember only one rule, make it this: store the result with the key so retries return the same response.

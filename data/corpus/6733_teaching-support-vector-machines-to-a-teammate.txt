@@ -1,0 +1,13 @@
+Teaching Support Vector Machines to a Teammate
+
+Explaining Support Vector Machines to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: drawing the widest road between two neighborhoods. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes. Avoid jargon at this stage.
+
+Walk through an example involving text classification, naming margin and support vectors as they come up.
+
+Ask your teammate to explain kernels in Support Vector Machines back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow training on large data, and suggest this habit: scale features and try a linear kernel first.

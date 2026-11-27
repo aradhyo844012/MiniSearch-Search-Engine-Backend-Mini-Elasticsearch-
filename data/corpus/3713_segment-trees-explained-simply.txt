@@ -1,0 +1,13 @@
+Segment Trees Explained Simply
+
+Here is Segment Trees without the jargon: it is a tree structure that answers range queries and handles updates in logarithmic time.
+
+Think of Segment Trees as a tournament bracket that remembers the winner of every group of players. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: tree nodes covering ranges, range queries, point updates, and lazy propagation. You do not need to master them all at once. Start with tree nodes covering ranges, then add range queries.
+
+You will meet Segment Trees in work such as range sum queries, finding minimums in a window, and competitive programming problems.
+
+One practical tip is to test your tree against a slow brute-force version on small inputs.
+
+After Segment Trees, a natural next topic is Union-Find.

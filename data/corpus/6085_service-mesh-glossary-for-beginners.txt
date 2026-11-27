@@ -1,0 +1,12 @@
+Service Mesh Glossary for Beginners
+
+New words can make Service Mesh feel harder than it is. This glossary keeps the key ones in one place.
+
+Service Mesh: an infrastructure layer that manages communication between services through proxies.
+sidecar proxies: a core term, most visible in securing service traffic.
+mutual TLS: a core term that beginners often confuse with traffic policies.
+traffic policies: a core term that connects to observability.
+observability: a core term worth revisiting after you try a real example.
+Istio: a tool commonly used for retries and timeouts.
+
+Come back to this Service Mesh list whenever documentation for Linkerd uses a word you do not recognize.

@@ -1,0 +1,15 @@
+Combining SOLID Principles with Event-Driven Architecture in One Project
+
+Real projects rarely use one idea in isolation. This article shows how SOLID Principles and Event-Driven Architecture can work together in a single project.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change. Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them.
+
+Imagine a project that involves structuring classes and order pipelines. SOLID Principles brings single responsibility, while Event-Driven Architecture brings producers and consumers.
+
+A sensible plan is to start with UML diagrams for the SOLID Principles part and Apache Kafka for the Event-Driven Architecture part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: creating too many tiny classes on one side, and duplicate events on the other.
+
+Picture the whole as house rules that keep a shared kitchen tidy, working alongside a notice board where people post news and others react when they see it.
+
+Two habits help: first, apply them when a design starts to hurt, not before; second, document every event name and schema.

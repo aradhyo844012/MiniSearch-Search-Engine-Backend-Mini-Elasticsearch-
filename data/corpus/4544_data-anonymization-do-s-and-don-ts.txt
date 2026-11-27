@@ -1,0 +1,17 @@
+Data Anonymization Do's and Don'ts
+
+A quick list of habits for working with Data Anonymization.
+
+Do:
+- Learn masking before anything else.
+- Try ARX on a small example.
+- Make it a habit to test whether combining fields could identify a person.
+- Test the case of sharing datasets with researchers early.
+
+Don't:
+- Ignore this: re-identification through combined fields.
+- Ignore this: removing too little.
+- Ignore this: destroying usefulness by removing too much.
+- Adopt Data Anonymization just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Data Anonymization, a little patience with generalization pays off more than any clever shortcut.

@@ -1,0 +1,17 @@
+Web Components for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Web Components.
+
+Learning goals:
+1. Explain Web Components in your own words.
+2. Describe custom elements, shadow DOM, templates, and slots.
+3. Give examples from design system components and widgets reused across frameworks.
+4. Name three problems to watch for.
+
+Start with the definition: Web Components is browser-native custom elements with their own markup, style and behavior. Then draw a Lego brick in its own sealed packaging on paper and label the four terms from the goals above.
+
+Self-test questions: Why is styling surprises across the shadow boundary a problem? How does shadow DOM relate to templates? When would you choose Lit or Stencil?
+
+Study habit worth keeping: document the attributes and events like a public API.
+
+When you feel ready, compare Web Components with Service Workers and write down three differences.

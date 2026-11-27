@@ -1,0 +1,12 @@
+Questions to Ask About gRPC in Code Review
+
+Reviewing code that involves gRPC is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is protoc used consistently, or are we mixing approaches?
+- Would a test catch poor browser support without a proxy if it appeared later?
+- Could we never reuse or renumber field numbers in a proto file?
+- Does this change respect protocol buffers, or does it work around it?
+- Have we avoided this problem: harder manual debugging?
+- Does the code handle the case of service-to-service calls correctly?
+
+Good reviews of work on gRPC are specific, kind and focused on streaming, not on personal style.

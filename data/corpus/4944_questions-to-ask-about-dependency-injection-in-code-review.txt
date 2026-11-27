@@ -1,0 +1,12 @@
+Questions to Ask About Dependency Injection in Code Review
+
+Reviewing code that involves Dependency Injection is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we inject interfaces so tests can use simple fakes?
+- Is interfaces clear to someone reading the code for the first time?
+- Does this change respect constructor injection, or does it work around it?
+- Is Spring used consistently, or are we mixing approaches?
+- Would a test catch circular dependencies if it appeared later?
+- Have we considered hiding too much behind containers?
+
+Good reviews of work on Dependency Injection are specific, kind and focused on containers, not on personal style.

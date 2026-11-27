@@ -1,0 +1,11 @@
+Why GPUs and Parallelism Matters for Developers
+
+Developers who understand GPUs and Parallelism make better decisions, because GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Three situations show why it matters. First, training neural networks. Second, rendering graphics. Third, scientific simulations. In each case, a solid grasp of threads and blocks and kernels separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: slow data transfers, branch-heavy code, and launching tiny workloads.
+
+You will not need to build everything yourself; CUDA, PyTorch, and OpenCL cover most needs.
+
+Connect GPUs and Parallelism with Memory Hierarchy to see the bigger picture of Computer Systems.

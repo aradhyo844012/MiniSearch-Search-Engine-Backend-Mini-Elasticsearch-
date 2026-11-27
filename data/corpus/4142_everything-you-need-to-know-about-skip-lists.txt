@@ -1,0 +1,26 @@
+Everything You Need to Know About Skip Lists
+
+This page collects the essentials about Skip Lists in one place. In short, Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+Core concepts:
+- multiple levels
+- random level assignment
+- forward pointers
+- expected logarithmic time
+
+Where it is used:
+- ordered in-memory indexes
+- sorted sets in caches
+- concurrent ordered maps
+
+Common problems:
+- poor random number choices
+- memory overhead
+- harder debugging than arrays
+
+Tools to know:
+- Redis sorted sets
+- Java ConcurrentSkipListMap
+- LevelDB
+
+Remember this above all: an express train line layered over a local train line is a good way to picture it, and the best habit is to draw several levels by hand to see how a search moves down.

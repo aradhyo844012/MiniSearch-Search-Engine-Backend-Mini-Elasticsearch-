@@ -1,0 +1,10 @@
+Hyperparameter Tuning: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Hyperparameter Tuning with confidence. The subject itself is the process of searching for the best settings that control how a model learns.
+
+search spaces: one of the building blocks of Hyperparameter Tuning. You should be able to explain it in a single sentence before moving on.
+grid search: one of the building blocks of Hyperparameter Tuning. Mixing it up with neighboring terms is a common source of confusion.
+random search: one of the building blocks of Hyperparameter Tuning. It shows up whenever you work on improving model accuracy.
+validation scores: one of the building blocks of Hyperparameter Tuning. Documentation for Optuna usually mentions it early.
+
+Practice using these four terms in sentences about comparing algorithms. If the sentences feel natural, the vocabulary has stuck.

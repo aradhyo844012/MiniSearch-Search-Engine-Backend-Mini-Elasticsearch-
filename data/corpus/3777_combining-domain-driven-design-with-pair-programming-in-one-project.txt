@@ -1,0 +1,15 @@
+Combining Domain-Driven Design with Pair Programming in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Domain-Driven Design and Pair Programming can work together in a single project.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain. Pair Programming is two developers working together at one computer on the same code.
+
+Imagine a project that involves complex business systems and teaching new teammates. Domain-Driven Design brings ubiquitous language, while Pair Programming brings driver and navigator.
+
+A sensible plan is to start with event storming for the Domain-Driven Design part and VS Code Live Share for the Pair Programming part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: models that never match the business on one side, and fatigue from long sessions on the other.
+
+Picture the whole as writing software in the same vocabulary the business speaks, working alongside a pilot and co-pilot who check each other's decisions.
+
+Two habits help: first, agree on shared terms with domain experts before drawing classes; second, swap roles every twenty to thirty minutes.

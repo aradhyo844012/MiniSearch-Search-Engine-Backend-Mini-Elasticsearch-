@@ -1,0 +1,11 @@
+Why CSS Variables Matters for Developers
+
+Developers who understand CSS Variables make better decisions, because CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles.
+
+Three situations show why it matters. First, theme switching. Second, design systems. Third, spacing scales. In each case, a solid grasp of custom properties and the var function separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: missing fallbacks, overriding at the wrong scope, and expecting preprocessor features.
+
+You will not need to build everything yourself; browser DevTools, Sass, and PostCSS cover most needs.
+
+Connect CSS Variables with Internationalization to see the bigger picture of Frontend Engineering.

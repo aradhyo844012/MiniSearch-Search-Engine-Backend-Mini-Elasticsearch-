@@ -1,0 +1,17 @@
+Consistent Hashing Do's and Don'ts
+
+A quick list of habits for working with Consistent Hashing.
+
+Do:
+- Learn hash ring before anything else.
+- Try Redis Cluster on a small example.
+- Make it a habit to use many virtual nodes per server to even out the load.
+- Test the case of distributed caches early.
+
+Don't:
+- Ignore this: too few virtual nodes.
+- Ignore this: uneven load.
+- Ignore this: hot keys.
+- Adopt Consistent Hashing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Consistent Hashing, a little patience with virtual nodes pays off more than any clever shortcut.

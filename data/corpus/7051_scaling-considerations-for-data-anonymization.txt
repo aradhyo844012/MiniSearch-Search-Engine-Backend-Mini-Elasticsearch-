@@ -1,0 +1,11 @@
+Scaling Considerations for Data Anonymization
+
+A design that works for a classroom project can behave very differently under real load. Here is how Data Anonymization changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding masking and getting sharing datasets with researchers right.
+
+Medium scale: problems start to appear. Watch for re-identification through combined fields and removing too little, and measure with ARX before changing anything.
+
+Large scale: k-anonymity and differential privacy move from background details to central design questions. Teams often revisit their choices around testing with production-like data at this stage.
+
+Before you scale, test whether combining fields could identify a person. It is cheaper to build that habit early than to fix a crisis later.

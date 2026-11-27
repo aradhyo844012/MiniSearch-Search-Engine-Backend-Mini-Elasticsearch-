@@ -1,0 +1,15 @@
+Combining CSS Variables with Service Workers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CSS Variables and Service Workers can work together in a single project.
+
+CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles. Service Workers is scripts that run in the background of a browser and intercept network requests.
+
+Imagine a project that involves theme switching and offline support. CSS Variables brings custom properties, while Service Workers brings registration.
+
+A sensible plan is to start with browser DevTools for the CSS Variables part and Workbox for the Service Workers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: overriding at the wrong scope on one side, and bugs surviving across deployments on the other.
+
+Picture the whole as labeled paint buckets you refill once to recolor a whole house, working alongside a receptionist who answers common requests before they reach the manager.
+
+Two habits help: first, define theme values on the root element; second, version your caches so old files can be removed.

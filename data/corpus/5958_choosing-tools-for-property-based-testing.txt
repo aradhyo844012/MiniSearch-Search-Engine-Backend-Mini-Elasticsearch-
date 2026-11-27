@@ -1,0 +1,11 @@
+Choosing Tools for Property-Based Testing
+
+There is no single best tool for Property-Based Testing. The right choice depends on your project, your team and your timeline.
+
+Hypothesis is a common first choice, especially for testing parsers. QuickCheck suits teams that already work with similar technology, and fast-check is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle checking sorting and math functions well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: vague properties.
+
+As a rule of thumb, save failing examples as regular tests, no matter which tool you use.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Union-Find
+
+This path is for a learner who has never studied Union-Find before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly) and learn parent pointers and union operation.
+
+Stage 2, hands-on: install Python lists, follow a tutorial, and build a small example involving detecting connected components.
+
+Stage 3, depth: study find operation and path compression, then deliberately explore this problem: forgetting path compression.
+
+Stage 4, application: apply Union-Find to building minimum spanning trees, compare scipy.sparse.csgraph with NetworkX, and write up your results.
+
+Stage 5, review: teach Union-Find to someone else, and then move on to Two Pointers and Sliding Window.

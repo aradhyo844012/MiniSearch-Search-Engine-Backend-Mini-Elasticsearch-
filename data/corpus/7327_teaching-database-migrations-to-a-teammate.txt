@@ -1,0 +1,13 @@
+Teaching Database Migrations to a Teammate
+
+Explaining Database Migrations to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a numbered set of renovation steps applied to a building in order. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way. Avoid jargon at this stage.
+
+Walk through an example involving adding columns safely, naming up and down scripts and version tables as they come up.
+
+Ask your teammate to explain backward compatibility in Database Migrations back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, locking large tables, and suggest this habit: split risky changes into small steps that can each be rolled back.

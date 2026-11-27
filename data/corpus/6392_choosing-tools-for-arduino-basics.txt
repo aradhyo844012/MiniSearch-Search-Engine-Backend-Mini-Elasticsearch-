@@ -1,0 +1,11 @@
+Choosing Tools for Arduino Basics
+
+There is no single best tool for Arduino Basics. The right choice depends on your project, your team and your timeline.
+
+Arduino IDE is a common first choice, especially for reading sensors. PlatformIO suits teams that already work with similar technology, and Tinkercad is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle driving motors and LEDs well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: wiring errors.
+
+As a rule of thumb, test each sensor on its own before combining them, no matter which tool you use.

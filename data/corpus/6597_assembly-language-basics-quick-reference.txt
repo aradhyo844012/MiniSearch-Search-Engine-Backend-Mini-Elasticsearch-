@@ -1,0 +1,15 @@
+Assembly Language Basics Quick Reference
+
+A one-screen reminder for Assembly Language Basics. Bookmark it and return when the details fade.
+
+What it is: low-level instructions that map closely to what a processor actually executes.
+Key terms: registers, instructions, memory addressing, and the stack.
+Typical uses: understanding compiled code, debugging crashes, and writing tiny boot code.
+Risks: wrong calling conventions, stack corruption, and platform differences.
+Tools: GDB, objdump, and Compiler Explorer.
+
+Mental picture: the individual muscle movements behind a simple action.
+
+Habit to build: read the assembly of a tiny C function to see what the compiler does.
+
+See also: Boolean Logic and Gates, which sits close to Assembly Language Basics in the area of Computer Systems.

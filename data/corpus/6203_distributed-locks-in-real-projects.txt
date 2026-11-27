@@ -1,0 +1,11 @@
+Distributed Locks in Real Projects
+
+Reading about Distributed Locks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: running scheduled jobs once. Here, lease times drives the main design choices, and the team needs to guard against locks that never expire.
+
+Scenario two: protecting shared resources. This time fencing tokens matters most, and tools such as Redis help keep things manageable.
+
+Scenario three: selecting a leader. The key idea is lock owners, and the biggest risk is clock drift.
+
+Across all three scenarios, Distributed Locks stays the same idea: mechanisms that ensure only one process at a time performs a critical action across machines. Only the details change.

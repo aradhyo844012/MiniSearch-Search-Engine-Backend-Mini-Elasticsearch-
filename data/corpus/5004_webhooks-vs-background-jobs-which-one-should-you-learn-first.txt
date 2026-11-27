@@ -1,0 +1,13 @@
+Webhooks vs Background Jobs: Which One Should You Learn First?
+
+Learners often ask whether to study Webhooks or Background Jobs first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Webhooks is HTTP callbacks that let one service notify another when an event happens, and it is closely tied to event payloads and signature verification. Background Jobs, by contrast, is tasks that run outside the request cycle so users do not have to wait for them, and it is closely tied to queues and workers.
+
+Choose Webhooks first if you care about payment notifications or CI triggers. Choose Background Jobs first if you care about sending emails or resizing images.
+
+Think of Webhooks as a doorbell that rings when a delivery arrives instead of you checking the porch, and of Background Jobs as dropping laundry at a service and collecting it later. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Webhooks, avoid not verifying signatures. With Background Jobs, avoid jobs that are not idempotent.
+
+A good habit for Webhooks is to respond quickly and process the event in a background job. A good habit for Background Jobs is to give every job a timeout and a retry limit.

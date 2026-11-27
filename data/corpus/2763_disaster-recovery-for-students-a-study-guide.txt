@@ -1,0 +1,17 @@
+Disaster Recovery for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Disaster Recovery.
+
+Learning goals:
+1. Explain Disaster Recovery in your own words.
+2. Describe recovery time objective, recovery point objective, failover regions, and runbooks.
+3. Give examples from surviving regional outages and meeting compliance needs.
+4. Name three problems to watch for.
+
+Start with the definition: Disaster Recovery is the plans and systems that restore services after major failures. Then draw a fire drill for a whole system on paper and label the four terms from the goals above.
+
+Self-test questions: Why is untested plans a problem? How does recovery point objective relate to failover regions? When would you choose AWS Backup or Terraform?
+
+Study habit: run a failover exercise on a regular schedule.
+
+When you feel ready, compare Disaster Recovery with Cloud Cost Optimization and write down three differences.

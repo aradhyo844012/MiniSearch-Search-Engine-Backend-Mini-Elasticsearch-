@@ -1,0 +1,15 @@
+Mobile App Security Quick Reference
+
+A one-screen reminder for Mobile App Security. Bookmark it and return when the details fade.
+
+What it is: practices that protect mobile apps and their data from attacks.
+Key terms: secure storage, certificate pinning, obfuscation, and permissions.
+Typical uses: banking apps, health apps, and enterprise apps.
+Risks: storing tokens in plain text, hard-coded API keys, and requesting unnecessary permissions.
+Tools: OWASP MASVS, Android Keystore, and iOS Keychain.
+
+Mental picture: locking an app's valuables in a hotel safe.
+
+Habit to build: store secrets in the platform keychain or keystore.
+
+See also: Arduino Basics, which sits close to Mobile App Security in the area of Mobile, Embedded and IoT.

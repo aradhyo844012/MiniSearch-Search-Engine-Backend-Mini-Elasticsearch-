@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Load Testing
+
+This is a fictional but realistic day for a developer whose project relies on Load Testing.
+
+Morning: Rahul starts by reviewing a ticket about capacity planning. Before touching any code, Rahul re-reads the notes on virtual users to make sure the plan is sound.
+
+Midday: Rahul pairs with a teammate to explore throughput with k6. A small test exposes the problem of testing unrealistic traffic, and they fix it together.
+
+Afternoon: the team discusses a new request involving finding bottlenecks. Rahul sketches a stress test that fills a stadium to see how the exits cope on the whiteboard to help everyone follow the idea.
+
+End of day: Rahul writes a short note describing what changed and adds a reminder to report p95 and p99 latency, not only averages.
+
+Days like this are typical. Load Testing is not glamorous, but understanding it keeps small problems from growing.

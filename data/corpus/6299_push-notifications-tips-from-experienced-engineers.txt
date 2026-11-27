@@ -1,0 +1,11 @@
+Push Notifications Tips from Experienced Engineers
+
+Engineers who work with Push Notifications regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Firebase Cloud Messaging first, and only then evaluate alternatives such as Apple Push Notification service.
+2. Write down why you chose Push Notifications so the next person understands the decision.
+3. Be careful with this one: asking for permission too early.
+4. Make sure you can ask for permission at a moment when the user understands the value.
+5. Test the case of order updates early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to chat alerts as well.

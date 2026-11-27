@@ -1,0 +1,13 @@
+Webhooks vs Logging Best Practices: Which One Should You Learn First?
+
+Learners often ask whether to study Webhooks or Logging Best Practices first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Webhooks is HTTP callbacks that let one service notify another when an event happens, and it is closely tied to event payloads and signature verification. Logging Best Practices, by contrast, is recording useful, structured information about what an application is doing, and it is closely tied to log levels and structured logs.
+
+Choose Webhooks first if you care about payment notifications or CI triggers. Choose Logging Best Practices first if you care about debugging production issues or auditing actions.
+
+Think of Webhooks as a doorbell that rings when a delivery arrives instead of you checking the porch, and of Logging Best Practices as a ship's logbook that explains what happened and when. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Webhooks, avoid not verifying signatures. With Logging Best Practices, avoid logging sensitive data.
+
+A good habit for Webhooks is to respond quickly and process the event in a background job. A good habit for Logging Best Practices is to include a request ID in every log line.

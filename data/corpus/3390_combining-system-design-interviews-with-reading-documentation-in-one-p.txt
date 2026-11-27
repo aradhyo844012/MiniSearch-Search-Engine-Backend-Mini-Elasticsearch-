@@ -1,0 +1,15 @@
+Combining System Design Interviews with Reading Documentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how System Design Interviews and Reading Documentation can work together in a single project.
+
+System Design Interviews is discussions in which candidates design a large software system and explain their choices. Reading Documentation is the skill of finding accurate answers in official guides and references.
+
+Imagine a project that involves preparing for senior roles and learning new libraries. System Design Interviews brings requirements, while Reading Documentation brings search.
+
+A sensible plan is to start with whiteboard sketches for the System Design Interviews part and MDN Web Docs for the Reading Documentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring trade-offs on one side, and skipping the overview on the other.
+
+Picture the whole as sketching the blueprint of a city while explaining why each road exists, working alongside reading the manual before assembling the furniture.
+
+Two habits help: first, clarify requirements and scale before drawing boxes; second, check that the documentation version matches your installed version.

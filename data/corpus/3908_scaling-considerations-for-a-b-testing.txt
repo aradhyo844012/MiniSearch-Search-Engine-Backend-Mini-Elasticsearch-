@@ -1,0 +1,11 @@
+Scaling Considerations for A/B Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how A/B Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding control and variant and getting testing page designs right.
+
+Medium scale: problems start to appear. Watch for stopping tests early and testing too many variants, and measure with Optimizely before changing anything.
+
+Large scale: metrics and sample size move from background details to central design questions. Teams often revisit their choices around comparing ranking algorithms at this stage.
+
+Before you scale, decide the success metric and sample size before you begin. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,15 @@
+GPUs and Parallelism Quick Reference
+
+A one-screen reminder for GPUs and Parallelism. Bookmark it and return when the details fade.
+
+What it is: processors with thousands of small cores that handle many similar calculations at once.
+Key terms: threads and blocks, kernels, memory transfers, and SIMD.
+Typical uses: training neural networks, rendering graphics, and scientific simulations.
+Risks: slow data transfers, branch-heavy code, and launching tiny workloads.
+Tools: CUDA, PyTorch, and OpenCL.
+
+Mental picture: a stadium of workers each doing one small identical task.
+
+Habit to build: minimize copies between CPU and GPU memory.
+
+See also: Assembly Language Basics, which sits close to GPUs and Parallelism in the area of Computer Systems.

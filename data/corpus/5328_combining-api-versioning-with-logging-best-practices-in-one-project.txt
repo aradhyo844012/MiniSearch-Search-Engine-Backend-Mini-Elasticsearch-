@@ -1,0 +1,15 @@
+Combining API Versioning with Logging Best Practices in One Project
+
+Real projects rarely use one idea in isolation. This article shows how API Versioning and Logging Best Practices can work together in a single project.
+
+API Versioning is the practice of evolving an API without breaking existing clients. Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Imagine a project that involves public APIs and debugging production issues. API Versioning brings version in the URL, while Logging Best Practices brings log levels.
+
+A sensible plan is to start with OpenAPI for the API Versioning part and the Python logging module for the Logging Best Practices part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: removing fields without notice on one side, and too much noise on the other.
+
+Picture the whole as keeping old editions of a textbook available while a new one is published, working alongside a ship's logbook that explains what happened and when.
+
+Two habits help: first, announce deprecations with a clear sunset date; second, include a request ID in every log line.

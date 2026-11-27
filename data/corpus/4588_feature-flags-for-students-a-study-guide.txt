@@ -1,0 +1,17 @@
+Feature Flags for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Feature Flags.
+
+Learning goals:
+1. Explain Feature Flags in your own words.
+2. Describe flag evaluation, targeting rules, gradual rollout, and flag cleanup.
+3. Give examples from dark launches and A/B tests.
+4. Name three problems to watch for.
+
+Start with the definition: Feature Flags is switches in configuration that turn features on or off without redeploying code. Then draw light switches wired to every room of a house on paper and label the four terms from the goals above.
+
+Self-test questions: Why is never removing old flags a problem? How does targeting rules relate to gradual rollout? When would you choose LaunchDarkly or Unleash?
+
+Study habit worth keeping: give every flag an owner and a removal date.
+
+When you feel ready, compare Feature Flags with Disaster Recovery and write down three differences.

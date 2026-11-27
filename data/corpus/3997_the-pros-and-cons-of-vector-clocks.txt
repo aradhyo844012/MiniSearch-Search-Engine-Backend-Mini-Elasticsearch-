@@ -1,0 +1,15 @@
+The Pros and Cons of Vector Clocks
+
+No technology is free of trade-offs, and Vector Clocks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports detecting concurrent edits
+- Makes replicated databases easier
+- Helps with collaborative tools
+
+Drawbacks and risks:
+- Risk: clocks that grow with many nodes
+- Risk: confusing them with wall-clock time
+- Risk: never pruning old entries
+
+Weigh the two lists against your own project. If the advantages match your needs, such as detecting concurrent edits, and you can manage the risks, Vector Clocks is a sound choice. Whatever you decide, compare clocks entry by entry to detect true concurrency.

@@ -1,0 +1,11 @@
+Scaling Considerations for Union-Find
+
+A design that works for a classroom project can behave very differently under real load. Here is how Union-Find changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding parent pointers and getting detecting connected components right.
+
+Medium scale: problems start to appear. Watch for forgetting path compression and merging without checking roots, and measure with Python lists before changing anything.
+
+Large scale: find operation and path compression move from background details to central design questions. Teams often revisit their choices around building minimum spanning trees at this stage.
+
+Before you scale, implement path compression and union by rank together. It is cheaper to build that habit early than to fix a crisis later.

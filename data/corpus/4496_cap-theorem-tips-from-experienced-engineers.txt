@@ -1,0 +1,11 @@
+CAP Theorem Tips from Experienced Engineers
+
+Engineers who work with CAP Theorem regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Apache Cassandra first, and only then evaluate alternatives such as etcd.
+2. Test the case of choosing database types early, before the design hardens.
+3. Write down why you chose CAP Theorem so the next person understands the decision.
+4. Be careful with this one: treating it as a three-way menu.
+5. Make sure you can ask what your users prefer during a failure: stale answers or errors.
+
+None of these tips needs special equipment, and all of them apply to designing multi-region services as well.

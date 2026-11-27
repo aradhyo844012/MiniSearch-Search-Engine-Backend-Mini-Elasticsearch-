@@ -1,0 +1,11 @@
+Mistakes to Avoid with System Calls
+
+Everyone learns System Calls partly through mistakes. Here are three worth avoiding.
+
+Mistake one: ignoring error codes. It usually appears when someone skips user mode and kernel mode and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: making too many small calls. It tends to be noticed late, often during testing of reading and writing files. A short checklist during review catches it early.
+
+Mistake three: unsafe assumptions about blocking. It is easy to miss because everything seems to work at first. Keep an eye on libc wrappers to spot it.
+
+If you remember only one rule, make it this: use strace to see what your program really asks the kernel to do.

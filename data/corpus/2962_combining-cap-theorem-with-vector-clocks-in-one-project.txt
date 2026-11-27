@@ -1,0 +1,15 @@
+Combining CAP Theorem with Vector Clocks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CAP Theorem and Vector Clocks can work together in a single project.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once. Vector Clocks is counters that let distributed processes track the order of events without a shared clock.
+
+Imagine a project that involves choosing database types and detecting concurrent edits. CAP Theorem brings consistency, while Vector Clocks brings logical time.
+
+A sensible plan is to start with Apache Cassandra for the CAP Theorem part and Riak for the Vector Clocks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring latency trade-offs in normal operation on one side, and confusing them with wall-clock time on the other.
+
+Picture the whole as a phone tree that must choose between giving old information or staying silent when a line is cut, working alongside each person in a group chat keeping a tally of messages seen from everyone.
+
+Two habits help: first, ask what your users prefer during a failure: stale answers or errors; second, compare clocks entry by entry to detect true concurrency.

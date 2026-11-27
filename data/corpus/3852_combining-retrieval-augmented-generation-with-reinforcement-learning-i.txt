@@ -1,0 +1,15 @@
+Combining Retrieval-Augmented Generation with Reinforcement Learning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Retrieval-Augmented Generation and Reinforcement Learning can work together in a single project.
+
+Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers. Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes.
+
+Imagine a project that involves company knowledge assistants and game playing. Retrieval-Augmented Generation brings retrieval, while Reinforcement Learning brings agent.
+
+A sensible plan is to start with LangChain for the Retrieval-Augmented Generation part and Gymnasium for the Reinforcement Learning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: irrelevant retrieved text on one side, and slow training on the other.
+
+Picture the whole as an open-book exam where the student first looks up the right pages, working alongside training a dog with treats for good behavior.
+
+Two habits help: first, evaluate retrieval quality separately from answer quality; second, start with simple environments.

@@ -1,0 +1,10 @@
+Integration Testing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Integration Testing with confidence. The subject itself is tests that check how several parts of a system work together.
+
+test databases: one of the building blocks of Integration Testing. Mixing it up with neighboring terms is a common source of confusion.
+service boundaries: one of the building blocks of Integration Testing. It shows up whenever you work on verifying API and database interaction.
+fixtures: one of the building blocks of Integration Testing. Documentation for Testcontainers usually mentions it early.
+test environments: one of the building blocks of Integration Testing. Documentation for Testcontainers usually mentions it early.
+
+Practice using these four terms in sentences about catching contract mismatches. If the sentences feel natural, the vocabulary has stuck.

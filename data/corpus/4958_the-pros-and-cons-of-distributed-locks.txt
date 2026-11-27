@@ -1,0 +1,15 @@
+The Pros and Cons of Distributed Locks
+
+No technology is free of trade-offs, and Distributed Locks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports running scheduled jobs once
+- Makes protecting shared resources easier
+- Helps with selecting a leader
+
+Drawbacks and risks:
+- Risk: locks that never expire
+- Risk: clock drift
+- Risk: assuming the lock holder is still alive
+
+Weigh the two lists against your own project. If the advantages match your needs, such as running scheduled jobs once, and you can manage the risks, Distributed Locks is a sound choice. Whatever you decide, always use a timeout together with a fencing token.

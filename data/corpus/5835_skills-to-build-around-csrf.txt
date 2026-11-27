@@ -1,0 +1,13 @@
+Skills to Build Around CSRF
+
+Knowing the definition of CSRF is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with session cookies and anti-CSRF tokens, and able to explain them without notes.
+
+Hands-on practice: spend real time with Django CSRF middleware on a CSRF task, and try at least one alternative such as Flask-WTF.
+
+Judgment: learn to decide when CSRF fits a problem such as protecting forms, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a forged letter that a bank clerk stamps because your ID is already on file.
+
+Habits: combine SameSite cookies with anti-CSRF tokens, and write down what you learn after each project.

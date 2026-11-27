@@ -1,0 +1,9 @@
+Understanding Reinforcement Learning Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture training a dog with treats for good behavior.
+
+In that picture, agent is the first rule you follow, environment is the next step, and reward and policy keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes, and it involves details such as badly designed rewards that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Gymnasium to learn the exact behavior. The same picture helps when you explain game playing to a friend.

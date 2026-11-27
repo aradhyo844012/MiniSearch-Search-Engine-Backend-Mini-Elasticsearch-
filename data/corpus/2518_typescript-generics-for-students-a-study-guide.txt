@@ -1,0 +1,17 @@
+TypeScript Generics for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover TypeScript Generics.
+
+Learning goals:
+1. Explain TypeScript Generics in your own words.
+2. Describe type parameters, constraints, type inference, and generic interfaces.
+3. Give examples from reusable utility functions and typed API clients.
+4. Name three problems to watch for.
+
+Start with the definition: TypeScript Generics is a feature that lets functions and types work with many types while keeping type safety. Then draw a labeled box whose label type is filled in when you use it on paper and label the four terms from the goals above.
+
+Self-test questions: Why is overusing any a problem? How does constraints relate to type inference? When would you choose tsc or the TypeScript Playground?
+
+Study habit worth keeping: add constraints so that error messages become clearer.
+
+When you feel ready, compare TypeScript Generics with C Pointers and write down three differences.

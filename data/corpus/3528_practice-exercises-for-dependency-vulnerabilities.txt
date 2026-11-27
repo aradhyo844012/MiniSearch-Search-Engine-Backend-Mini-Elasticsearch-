@@ -1,0 +1,11 @@
+Practice Exercises for Dependency Vulnerabilities
+
+These exercises build real understanding of Dependency Vulnerabilities. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: ignoring transitive dependencies. Then fix it.
+Exercise 2: Compare pip-audit and npm audit for meeting supply chain requirements and write down your conclusion.
+Exercise 3: List three situations from your own experience that resemble auditing projects or automating updates.
+Exercise 4: Pick Dependabot and complete its getting-started tutorial.
+Exercise 5: Explain how transitive dependencies and software bills of materials differ, using a drawing.
+
+When you finish, compare your answers with the definition: Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.

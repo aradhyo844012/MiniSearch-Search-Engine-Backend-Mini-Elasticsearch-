@@ -1,0 +1,11 @@
+Scaling Considerations for CQRS
+
+A design that works for a classroom project can behave very differently under real load. Here is how CQRS changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding commands and getting high-read dashboards right.
+
+Medium scale: problems start to appear. Watch for adding it to simple apps and read models drifting out of sync, and measure with Axon Framework before changing anything.
+
+Large scale: read models and eventual consistency move from background details to central design questions. Teams often revisit their choices around complex domains at this stage.
+
+Before you scale, start with a single model and split only when reads and writes truly diverge. It is cheaper to build that habit early than to fix a crisis later.

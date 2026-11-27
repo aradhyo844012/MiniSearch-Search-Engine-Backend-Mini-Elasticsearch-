@@ -1,0 +1,11 @@
+Service Mesh in Real Projects
+
+Reading about Service Mesh is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: securing service traffic. Here, sidecar proxies drives the main design choices, and the team needs to guard against added latency and complexity.
+
+Scenario two: retries and timeouts. This time mutual TLS matters most, and tools such as Istio help keep things manageable.
+
+Scenario three: fine-grained routing. The key idea is traffic policies, and the biggest risk is adopting it too early.
+
+Across all three scenarios, Service Mesh stays the same idea: an infrastructure layer that manages communication between services through proxies. Only the details change.

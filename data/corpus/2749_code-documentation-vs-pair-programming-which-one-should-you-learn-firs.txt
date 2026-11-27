@@ -1,0 +1,13 @@
+Code Documentation vs Pair Programming: Which One Should You Learn First?
+
+Learners often ask whether to study Code Documentation or Pair Programming first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Code Documentation is written explanations that help others understand and use code, and it is closely tied to README files and docstrings. Pair Programming, by contrast, is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation.
+
+Choose Code Documentation first if you care about onboarding new developers or describing APIs. Choose Pair Programming first if you care about teaching new teammates or solving hard bugs.
+
+Think of Code Documentation as a map left for the next traveler, and of Pair Programming as a pilot and co-pilot who check each other's decisions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Code Documentation, avoid outdated docs. With Pair Programming, avoid one person dominating.
+
+A good habit for Code Documentation is to keep documentation in the same repository as the code. A good habit for Pair Programming is to swap roles every twenty to thirty minutes.

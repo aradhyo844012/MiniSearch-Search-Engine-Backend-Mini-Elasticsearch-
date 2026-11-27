@@ -1,0 +1,13 @@
+Data Lakes vs Jupyter Notebooks: Which One Should You Learn First?
+
+Learners often ask whether to study Data Lakes or Jupyter Notebooks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed, and it is closely tied to raw storage and schema on read. Jupyter Notebooks, by contrast, is interactive documents that combine code, results and notes, and it is closely tied to cells and kernels.
+
+Choose Data Lakes first if you care about storing logs and events or machine learning datasets. Choose Jupyter Notebooks first if you care about exploring data or teaching and demos.
+
+Think of Data Lakes as a big reservoir where water from many rivers is stored before treatment, and of Jupyter Notebooks as a lab notebook that can run its own experiments. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Lakes, avoid turning into a data swamp. With Jupyter Notebooks, avoid running cells out of order.
+
+A good habit for Data Lakes is to register every dataset in a catalog with an owner. A good habit for Jupyter Notebooks is to restart the kernel and run all cells before sharing.

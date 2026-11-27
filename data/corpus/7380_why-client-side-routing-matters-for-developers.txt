@@ -1,0 +1,11 @@
+Why Client-Side Routing Matters for Developers
+
+Developers who understand Client-Side Routing make better decisions, because Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Three situations show why it matters. First, single-page apps. Second, dashboards. Third, multi-step flows. In each case, a solid grasp of history API and route matching separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: broken deep links, unhandled 404 pages, and lost scroll position.
+
+You will not need to build everything yourself; React Router, Vue Router, and Next.js cover most needs.
+
+Connect Client-Side Routing with Form Validation to see the bigger picture of Frontend Engineering.

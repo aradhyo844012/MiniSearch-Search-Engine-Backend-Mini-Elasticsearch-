@@ -1,0 +1,11 @@
+Is Domain-Driven Design Right for Your Project?
+
+Before adopting Domain-Driven Design, ask whether it fits the problem. Remember that Domain-Driven Design is an approach to software that models the code around the real business domain.
+
+It is a good fit when your work involves complex business systems or aligning developers with domain experts, and when your team understands ubiquitous language.
+
+Be cautious when the project is very small, when deadlines leave no room to learn bounded contexts, or when you cannot manage these risks: using it for simple CRUD apps, models that never match the business, and ignoring context boundaries.
+
+A simple decision test: write down the problem in one sentence, then check whether aggregates and entities and value objects are part of the answer. If they are, Domain-Driven Design is probably worth a closer look.
+
+If you decide to go ahead, start small with splitting large systems and agree on shared terms with domain experts before drawing classes.

@@ -1,0 +1,15 @@
+Combining Go Goroutines with Garbage Collection in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Go Goroutines and Garbage Collection can work together in a single project.
+
+Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently. Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.
+
+Imagine a project that involves servers handling many connections and managed languages like Java and Python. Go Goroutines brings goroutines, while Garbage Collection brings reachability.
+
+A sensible plan is to start with the go command for the Go Goroutines part and JVM GC logs for the Garbage Collection part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: data races on one side, and holding references longer than needed on the other.
+
+Picture the whole as a small crew of waiters passing notes through a serving hatch, working alongside a cleaner who removes items nobody has touched in a while.
+
+Two habits help: first, run your tests with the race detector turned on; second, measure allocation rates before tuning collector settings.

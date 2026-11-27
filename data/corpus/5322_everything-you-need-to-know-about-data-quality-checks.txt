@@ -1,0 +1,26 @@
+Everything You Need to Know About Data Quality Checks
+
+This page collects the essentials about Data Quality Checks in one place. In short, Data Quality Checks is automated tests that verify data is complete, valid and consistent.
+
+Core concepts:
+- null checks
+- uniqueness
+- freshness
+- schema validation
+
+Where it is used:
+- protecting dashboards
+- validating ingestion
+- catching pipeline bugs
+
+Common problems:
+- alerts nobody reads
+- checks only at the end of pipelines
+- no ownership of failures
+
+Tools to know:
+- Great Expectations
+- dbt tests
+- Deequ
+
+Remember this above all: a quality inspector at the end of an assembly line is a good way to picture it, and the best habit is to check data as early as it enters the pipeline.

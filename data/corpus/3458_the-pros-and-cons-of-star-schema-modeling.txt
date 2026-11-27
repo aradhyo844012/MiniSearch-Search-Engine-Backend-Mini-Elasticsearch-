@@ -1,0 +1,15 @@
+The Pros and Cons of Star Schema Modeling
+
+No technology is free of trade-offs, and Star Schema Modeling is no exception. Here is an honest summary.
+
+Advantages:
+- Supports business intelligence reports
+- Makes data warehouses easier
+- Helps with fast aggregations
+
+Drawbacks and risks:
+- Risk: mixing different grains
+- Risk: over-normalized dimensions
+- Risk: missing date dimensions
+
+Weigh the two lists against your own project. If the advantages match your needs, such as business intelligence reports, and you can manage the risks, Star Schema Modeling is a sound choice. Whatever you decide, state the grain of the fact table before designing anything else.

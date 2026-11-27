@@ -1,0 +1,12 @@
+Integration Testing Glossary for Beginners
+
+New words can make Integration Testing feel harder than it is. This glossary keeps the key ones in one place.
+
+Integration Testing: tests that check how several parts of a system work together.
+test databases: a core term, most visible in verifying API and database interaction.
+service boundaries: a core term that beginners often confuse with fixtures.
+fixtures: a core term that connects to test environments.
+test environments: a core term worth revisiting after you try a real example.
+Testcontainers: a tool commonly used for catching contract mismatches.
+
+Come back to this Integration Testing list whenever documentation for pytest uses a word you do not recognize.

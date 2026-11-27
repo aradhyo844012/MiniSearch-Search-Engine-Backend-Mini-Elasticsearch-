@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Embeddings
+
+This path is for a learner who has never studied Embeddings before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Embeddings is lists of numbers that represent words, images or items so that similar things sit close together) and learn vectors and cosine similarity.
+
+Stage 2, hands-on: install sentence-transformers, follow a tutorial, and build a small example involving semantic search.
+
+Stage 3, depth: study dimensionality and nearest neighbor search, then deliberately explore this problem: mixing models between indexing and querying.
+
+Stage 4, application: apply Embeddings to recommendations, compare FAISS with Word2Vec, and write up your results.
+
+Stage 5, review: teach Embeddings to someone else, and then move on to Hyperparameter Tuning.

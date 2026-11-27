@@ -1,0 +1,11 @@
+Practice Exercises for JavaScript Closures
+
+These exercises build real understanding of JavaScript Closures. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing JavaScript Closures and include the term lexical scope.
+Exercise 2: List three situations from your own experience that resemble keeping private state in modules or event handlers that need context.
+Exercise 3: Compare Node.js and ESLint for callbacks that remember settings and write down your conclusion.
+Exercise 4: Explain how function factories and memory retention differ, using a drawing.
+Exercise 5: Create a small example that deliberately triggers this problem: loop variables captured by mistake. Then fix it.
+
+When you finish, compare your answers with the definition: JavaScript Closures is functions that remember the variables from the place where they were created.

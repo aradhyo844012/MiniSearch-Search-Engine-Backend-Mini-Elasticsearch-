@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Hashing vs Encryption
+
+This is a fictional but realistic day for a developer whose project relies on Hashing vs Encryption.
+
+Morning: Divya starts by reviewing a ticket about storing passwords. Before touching any code, Divya re-reads the notes on one-way functions to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore keys with SHA-256. A small test exposes the problem of encrypting passwords instead of hashing them, and they fix it together.
+
+Afternoon: the team discusses a new request involving verifying file integrity. Divya sketches a paper shredder compared with a locked suitcase on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to ask whether you will ever need the original value back.
+
+Days like this are typical. Hashing vs Encryption is not glamorous, but understanding it keeps small problems from growing.

@@ -1,0 +1,12 @@
+Questions to Ask About Internationalization in Code Review
+
+Reviewing code that involves Internationalization is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is translation files clear to someone reading the code for the first time?
+- Could we move every user-facing string into translation files from the first day?
+- Does this change respect locale detection, or does it work around it?
+- Would a test catch text that overflows layouts if it appeared later?
+- Is i18next used consistently, or are we mixing approaches?
+- Have we avoided this problem: assuming left-to-right text?
+
+Good reviews of work on Internationalization are specific, kind and focused on pluralization, not on personal style.

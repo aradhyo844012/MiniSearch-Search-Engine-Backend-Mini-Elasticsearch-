@@ -1,0 +1,11 @@
+Data Augmentation Tips from Experienced Engineers
+
+Engineers who work with Data Augmentation regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Albumentations first, and only then evaluate alternatives such as torchvision.
+2. Make sure you can augment only the training data.
+3. Write down why you chose Data Augmentation so the next person understands the decision.
+4. Do not skip transformations; everything else builds on it.
+5. Be careful with this one: changes that alter the label.
+
+None of these tips needs special equipment, and all of them apply to text classification as well.

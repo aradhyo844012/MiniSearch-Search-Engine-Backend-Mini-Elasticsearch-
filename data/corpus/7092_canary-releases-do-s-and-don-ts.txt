@@ -1,0 +1,17 @@
+Canary Releases Do's and Don'ts
+
+A quick list of habits for working with Canary Releases.
+
+Do:
+- Learn traffic percentages before anything else.
+- Try Argo Rollouts on a small example.
+- Make it a habit to define rollback conditions before starting the rollout.
+- Test the case of safer releases early.
+
+Don't:
+- Ignore this: too little traffic to reveal problems.
+- Ignore this: no clear success metrics.
+- Ignore this: manual promotion mistakes.
+- Adopt Canary Releases just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Canary Releases, a little patience with health metrics pays off more than any clever shortcut.

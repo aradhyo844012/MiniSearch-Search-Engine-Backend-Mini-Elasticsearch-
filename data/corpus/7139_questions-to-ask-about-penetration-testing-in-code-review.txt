@@ -1,0 +1,12 @@
+Questions to Ask About Penetration Testing in Code Review
+
+Reviewing code that involves Penetration Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we get written authorization before any test?
+- Is reconnaissance clear to someone reading the code for the first time?
+- Does the code handle the case of pre-launch security checks correctly?
+- Is OWASP ZAP used consistently, or are we mixing approaches?
+- Would a test catch ignoring the findings afterward if it appeared later?
+- Does this change respect scoping, or does it work around it?
+
+Good reviews of work on Penetration Testing are specific, kind and focused on exploitation, not on personal style.

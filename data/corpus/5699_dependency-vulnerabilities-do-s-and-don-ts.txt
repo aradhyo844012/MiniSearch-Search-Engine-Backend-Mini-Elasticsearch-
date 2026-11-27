@@ -1,0 +1,17 @@
+Dependency Vulnerabilities Do's and Don'ts
+
+A quick list of habits for working with Dependency Vulnerabilities.
+
+Do:
+- Learn CVE identifiers before anything else.
+- Try Dependabot on a small example.
+- Make it a habit to automate update pull requests.
+- Test the case of auditing projects early.
+
+Don't:
+- Ignore this: ignoring transitive dependencies.
+- Ignore this: never updating.
+- Ignore this: trusting packages without checking them.
+- Adopt Dependency Vulnerabilities just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Dependency Vulnerabilities, a little patience with version pinning pays off more than any clever shortcut.

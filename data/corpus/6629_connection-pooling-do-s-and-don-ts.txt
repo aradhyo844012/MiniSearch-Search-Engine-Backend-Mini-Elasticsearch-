@@ -1,0 +1,17 @@
+Connection Pooling Do's and Don'ts
+
+A quick list of habits for working with Connection Pooling.
+
+Do:
+- Learn pool size before anything else.
+- Try PgBouncer on a small example.
+- Make it a habit to always return connections in a finally block.
+- Test the case of web backends early.
+
+Don't:
+- Ignore this: pools larger than the database allows.
+- Ignore this: leaked connections.
+- Ignore this: long transactions that hold connections.
+- Adopt Connection Pooling just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Connection Pooling, a little patience with idle connections pays off more than any clever shortcut.

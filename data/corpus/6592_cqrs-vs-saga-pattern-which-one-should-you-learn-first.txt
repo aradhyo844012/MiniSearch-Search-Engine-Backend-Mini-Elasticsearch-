@@ -1,0 +1,13 @@
+CQRS vs Saga Pattern: Which One Should You Learn First?
+
+Learners often ask whether to study CQRS or Saga Pattern first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CQRS is a pattern that separates the models used to change data from the models used to read it, and it is closely tied to commands and queries. Saga Pattern, by contrast, is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions.
+
+Choose CQRS first if you care about high-read dashboards or complex domains. Choose Saga Pattern first if you care about order processing or travel bookings.
+
+Think of CQRS as a restaurant with one counter for orders and another for pickup, and of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CQRS, avoid adding it to simple apps. With Saga Pattern, avoid missing compensations.
+
+A good habit for CQRS is to start with a single model and split only when reads and writes truly diverge. A good habit for Saga Pattern is to make every step and its compensation idempotent.

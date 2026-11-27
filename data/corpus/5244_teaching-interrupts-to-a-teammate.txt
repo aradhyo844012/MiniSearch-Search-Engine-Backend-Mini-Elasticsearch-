@@ -1,0 +1,13 @@
+Teaching Interrupts to a Teammate
+
+Explaining Interrupts to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a phone call interrupting your reading. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Interrupts is signals that make a processor pause its work to handle an urgent event. Avoid jargon at this stage.
+
+Walk through an example involving keyboard and mouse input, naming interrupt handlers and interrupt vectors as they come up.
+
+Ask your teammate to explain priorities in Interrupts back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, long handlers, and suggest this habit: keep interrupt handlers short and defer the heavy work.

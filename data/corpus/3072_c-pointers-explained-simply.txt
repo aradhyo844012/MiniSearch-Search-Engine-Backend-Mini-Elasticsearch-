@@ -1,0 +1,13 @@
+C Pointers Explained Simply
+
+If C Pointers sounds intimidating, relax. It is variables that store the memory address of another value, and the idea is simpler than the name suggests.
+
+Think of C Pointers as a street address written on a card instead of the house itself. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: addresses, dereferencing, pointer arithmetic, and null pointers. You do not need to master them all at once. Start with addresses, then add dereferencing.
+
+People reach for C Pointers when they work on dynamic memory allocation, passing large data efficiently, and building linked structures.
+
+One practical tip is to set pointers to NULL after freeing them.
+
+Once C Pointers feels comfortable, read about Garbage Collection, which lives in the same neighborhood of ideas.

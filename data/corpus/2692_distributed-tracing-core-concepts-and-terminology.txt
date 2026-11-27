@@ -1,0 +1,10 @@
+Distributed Tracing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Distributed Tracing with confidence. The subject itself is following a single request as it passes through many services.
+
+spans: one of the building blocks of Distributed Tracing. You should be able to explain it in a single sentence before moving on.
+trace IDs: one of the building blocks of Distributed Tracing. Mixing it up with neighboring terms is a common source of confusion.
+context propagation: one of the building blocks of Distributed Tracing. It shows up whenever you work on finding slow services.
+sampling: one of the building blocks of Distributed Tracing. Documentation for OpenTelemetry usually mentions it early.
+
+Practice using these four terms in sentences about understanding dependencies. If the sentences feel natural, the vocabulary has stuck.

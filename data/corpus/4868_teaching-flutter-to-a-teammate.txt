@@ -1,0 +1,13 @@
+Teaching Flutter to a Teammate
+
+Explaining Flutter to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a box of customizable building blocks drawn by its own engine. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Flutter is a toolkit for building natively compiled apps from a single Dart codebase. Avoid jargon at this stage.
+
+Walk through an example involving cross-platform mobile apps, naming widgets and state as they come up.
+
+Ask your teammate to explain hot reload in Flutter back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, deep widget trees, and suggest this habit: split big widgets into small reusable ones.

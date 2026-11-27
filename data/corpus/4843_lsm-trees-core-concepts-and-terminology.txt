@@ -1,0 +1,10 @@
+LSM Trees: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about LSM Trees with confidence. The subject itself is storage structures that buffer writes in memory and merge them into sorted files on disk.
+
+memtable: one of the building blocks of LSM Trees. It shows up whenever you work on write-heavy databases.
+sorted string tables: one of the building blocks of LSM Trees. Documentation for RocksDB usually mentions it early.
+compaction: one of the building blocks of LSM Trees. You should be able to explain it in a single sentence before moving on.
+write amplification: one of the building blocks of LSM Trees. It shows up whenever you work on write-heavy databases.
+
+Practice using these four terms in sentences about time-ordered data. If the sentences feel natural, the vocabulary has stuck.

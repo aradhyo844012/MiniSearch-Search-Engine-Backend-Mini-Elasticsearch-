@@ -1,0 +1,13 @@
+GraphQL vs Dependency Injection: Which One Should You Learn First?
+
+Learners often ask whether to study GraphQL or Dependency Injection first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need, and it is closely tied to schema and queries and mutations. Dependency Injection, by contrast, is a design approach where objects receive their dependencies instead of creating them, and it is closely tied to constructor injection and interfaces.
+
+Choose GraphQL first if you care about mobile apps with limited bandwidth or aggregating many services. Choose Dependency Injection first if you care about easier unit testing or swapping implementations.
+
+Think of GraphQL as ordering a la carte instead of picking a fixed set menu, and of Dependency Injection as a chef who is handed ingredients instead of shopping for them. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With GraphQL, avoid the N+1 query problem. With Dependency Injection, avoid hiding too much behind containers.
+
+A good habit for GraphQL is to use a data loader to avoid N+1 queries. A good habit for Dependency Injection is to inject interfaces so tests can use simple fakes.

@@ -1,0 +1,11 @@
+Is Write-Ahead Logging Right for Your Project?
+
+Before adopting Write-Ahead Logging, ask whether it fits the problem. Remember that Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.
+
+It is a good fit when your work involves surviving crashes or feeding replication streams, and when your team understands log records.
+
+Be cautious when the project is very small, when deadlines leave no room to learn checkpoints, or when you cannot manage these risks: disabling fsync for speed, log files filling the disk, and forgetting to archive logs.
+
+A simple decision test: write down the problem in one sentence, then check whether crash recovery and fsync are part of the answer. If they are, Write-Ahead Logging is probably worth a closer look.
+
+If you decide to go ahead, start small with point-in-time recovery and test crash recovery by killing the process on purpose.

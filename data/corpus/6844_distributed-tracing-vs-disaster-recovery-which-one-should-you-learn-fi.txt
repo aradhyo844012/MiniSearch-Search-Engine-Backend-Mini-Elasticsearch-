@@ -1,0 +1,13 @@
+Distributed Tracing vs Disaster Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Distributed Tracing or Disaster Recovery first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Distributed Tracing is following a single request as it passes through many services, and it is closely tied to spans and trace IDs. Disaster Recovery, by contrast, is the plans and systems that restore services after major failures, and it is closely tied to recovery time objective and recovery point objective.
+
+Choose Distributed Tracing first if you care about finding slow services or understanding dependencies. Choose Disaster Recovery first if you care about surviving regional outages or meeting compliance needs.
+
+Think of Distributed Tracing as a parcel tracking page that shows every stop on the route, and of Disaster Recovery as a fire drill for a whole system. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Distributed Tracing, avoid missing context propagation. With Disaster Recovery, avoid untested plans.
+
+A good habit for Distributed Tracing is to propagate trace IDs through every outgoing call. A good habit for Disaster Recovery is to run a failover exercise on a regular schedule.

@@ -1,0 +1,11 @@
+Distributed Tracing in Real Projects
+
+Reading about Distributed Tracing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: finding slow services. Here, spans drives the main design choices, and the team needs to guard against missing context propagation.
+
+Scenario two: understanding dependencies. This time trace IDs matters most, and tools such as OpenTelemetry help keep things manageable.
+
+Scenario three: debugging errors across services. The key idea is context propagation, and the biggest risk is sampling too aggressively.
+
+Across all three scenarios, Distributed Tracing stays the same idea: following a single request as it passes through many services. Only the details change.

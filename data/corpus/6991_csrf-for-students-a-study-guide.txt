@@ -1,0 +1,17 @@
+CSRF for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover CSRF.
+
+Learning goals:
+1. Explain CSRF in your own words.
+2. Describe session cookies, anti-CSRF tokens, SameSite cookies, and state-changing requests.
+3. Give examples from protecting forms and securing account settings.
+4. Name three problems to watch for.
+
+Start with the definition: CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site. Then draw a forged letter that a bank clerk stamps because your ID is already on file on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using GET requests for state changes a problem? How does anti-CSRF tokens relate to SameSite cookies? When would you choose Django CSRF middleware or Flask-WTF?
+
+Study habit: combine SameSite cookies with anti-CSRF tokens.
+
+When you feel ready, compare CSRF with Single Sign-On and write down three differences.

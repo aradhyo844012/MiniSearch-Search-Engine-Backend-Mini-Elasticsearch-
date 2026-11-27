@@ -1,0 +1,11 @@
+Choosing Tools for Form Validation
+
+There is no single best tool for Form Validation. The right choice depends on your project, your team and your timeline.
+
+HTML constraint validation is a common first choice, especially for sign-up forms. Zod suits teams that already work with similar technology, and Yup is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle payment pages well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: validating only on the client.
+
+As a rule of thumb, validate on the server even when the browser checks too, no matter which tool you use.

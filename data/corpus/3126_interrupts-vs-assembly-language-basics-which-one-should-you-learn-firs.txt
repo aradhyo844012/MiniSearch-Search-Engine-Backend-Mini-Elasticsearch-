@@ -1,0 +1,13 @@
+Interrupts vs Assembly Language Basics: Which One Should You Learn First?
+
+Learners often ask whether to study Interrupts or Assembly Language Basics first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Interrupts is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors. Assembly Language Basics, by contrast, is low-level instructions that map closely to what a processor actually executes, and it is closely tied to registers and instructions.
+
+Choose Interrupts first if you care about keyboard and mouse input or timers. Choose Assembly Language Basics first if you care about understanding compiled code or debugging crashes.
+
+Think of Interrupts as a phone call interrupting your reading, and of Assembly Language Basics as the individual muscle movements behind a simple action. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Interrupts, avoid long handlers. With Assembly Language Basics, avoid wrong calling conventions.
+
+A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work. A good habit for Assembly Language Basics is to read the assembly of a tiny C function to see what the compiler does.

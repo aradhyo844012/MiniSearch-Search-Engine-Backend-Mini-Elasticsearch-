@@ -1,0 +1,15 @@
+The Pros and Cons of Code Documentation
+
+No technology is free of trade-offs, and Code Documentation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports onboarding new developers
+- Makes describing APIs easier
+- Helps with recording design decisions
+
+Drawbacks and risks:
+- Risk: outdated docs
+- Risk: comments that repeat the code
+- Risk: missing examples
+
+Weigh the two lists against your own project. If the advantages match your needs, such as onboarding new developers, and you can manage the risks, Code Documentation is a sound choice. Whatever you decide, keep documentation in the same repository as the code.

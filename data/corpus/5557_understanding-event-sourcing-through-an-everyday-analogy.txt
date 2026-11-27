@@ -1,0 +1,9 @@
+Understanding Event Sourcing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a bank statement that lists every transaction instead of only the balance.
+
+In that picture, event log is the first rule you follow, projections is the next step, and snapshots and replay keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them, and it involves details such as changing event formats carelessly that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Apache Kafka to learn the exact behavior. The same picture helps when you explain audit trails to a friend.

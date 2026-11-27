@@ -1,0 +1,17 @@
+Configuration Management for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Configuration Management.
+
+Learning goals:
+1. Explain Configuration Management in your own words.
+2. Describe environment variables, config files, defaults, and secrets handling.
+3. Give examples from separating development and production and toggling features.
+4. Name three problems to watch for.
+
+Start with the definition: Configuration Management is keeping application settings separate from code so they can change per environment. Then draw the settings dial on a machine that stays the same on every site on paper and label the four terms from the goals above.
+
+Self-test questions: Why is committing secrets a problem? How does config files relate to defaults? When would you choose dotenv or Pydantic settings?
+
+Study habit: fail fast at startup if a required setting is missing.
+
+When you feel ready, compare Configuration Management with API Versioning and write down three differences.

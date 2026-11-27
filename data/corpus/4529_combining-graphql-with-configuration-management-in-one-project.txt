@@ -1,0 +1,15 @@
+Combining GraphQL with Configuration Management in One Project
+
+Real projects rarely use one idea in isolation. This article shows how GraphQL and Configuration Management can work together in a single project.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need. Configuration Management is keeping application settings separate from code so they can change per environment.
+
+Imagine a project that involves mobile apps with limited bandwidth and separating development and production. GraphQL brings schema, while Configuration Management brings environment variables.
+
+A sensible plan is to start with Apollo for the GraphQL part and dotenv for the Configuration Management part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded query depth on one side, and inconsistent defaults on the other.
+
+Picture the whole as ordering a la carte instead of picking a fixed set menu, working alongside the settings dial on a machine that stays the same on every site.
+
+Two habits help: first, use a data loader to avoid N+1 queries; second, fail fast at startup if a required setting is missing.

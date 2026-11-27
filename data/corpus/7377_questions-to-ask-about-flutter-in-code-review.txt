@@ -1,0 +1,12 @@
+Questions to Ask About Flutter in Code Review
+
+Reviewing code that involves Flutter is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Dart used consistently, or are we mixing approaches?
+- Have we avoided this problem: large app sizes?
+- Would a test catch poor state organization if it appeared later?
+- Does the code handle the case of cross-platform mobile apps correctly?
+- Have we considered deep widget trees?
+- Does this change respect widgets, or does it work around it?
+
+Good reviews of work on Flutter are specific, kind and focused on hot reload, not on personal style.

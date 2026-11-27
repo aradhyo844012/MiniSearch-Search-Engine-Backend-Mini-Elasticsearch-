@@ -1,0 +1,17 @@
+Connection Pooling for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Connection Pooling.
+
+Learning goals:
+1. Explain Connection Pooling in your own words.
+2. Describe pool size, idle connections, timeouts, and connection leaks.
+3. Give examples from web backends and serverless functions that call databases.
+4. Name three problems to watch for.
+
+Start with the definition: Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request. Then draw a rental desk that lends a few shared bikes instead of buying one per visitor on paper and label the four terms from the goals above.
+
+Self-test questions: Why is pools larger than the database allows a problem? How does idle connections relate to timeouts? When would you choose PgBouncer or HikariCP?
+
+Study habit worth keeping: always return connections in a finally block.
+
+When you feel ready, compare Connection Pooling with Graph Databases and write down three differences.

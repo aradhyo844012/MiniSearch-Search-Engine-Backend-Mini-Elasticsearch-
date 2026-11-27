@@ -1,0 +1,17 @@
+Garbage Collection Do's and Don'ts
+
+A quick list of habits for working with Garbage Collection.
+
+Do:
+- Learn reachability before anything else.
+- Try JVM GC logs on a small example.
+- Make it a habit to measure allocation rates before tuning collector settings.
+- Test the case of managed languages like Java and Python early.
+
+Don't:
+- Ignore this: creating huge numbers of short-lived objects.
+- Ignore this: holding references longer than needed.
+- Ignore this: ignoring pause times in latency-sensitive code.
+- Adopt Garbage Collection just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Garbage Collection, a little patience with generations pays off more than any clever shortcut.

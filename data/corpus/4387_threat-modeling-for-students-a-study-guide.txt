@@ -1,0 +1,17 @@
+Threat Modeling for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Threat Modeling.
+
+Learning goals:
+1. Explain Threat Modeling in your own words.
+2. Describe assets, attackers, trust boundaries, and mitigations.
+3. Give examples from designing new features and reviewing architecture.
+4. Name three problems to watch for.
+
+Start with the definition: Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it. Then draw walking around a house asking where a burglar might get in on paper and label the four terms from the goals above.
+
+Self-test questions: Why is doing it once and never again a problem? How does attackers relate to trust boundaries? When would you choose STRIDE or OWASP Threat Dragon?
+
+Study habit: draw the data flow diagram first.
+
+When you feel ready, compare Threat Modeling with CSRF and write down three differences.

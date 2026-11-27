@@ -1,0 +1,11 @@
+Scaling Considerations for Convolutional Neural Networks
+
+A design that works for a classroom project can behave very differently under real load. Here is how Convolutional Neural Networks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding filters and getting image classification right.
+
+Medium scale: problems start to appear. Watch for too little training data and ignoring data augmentation, and measure with PyTorch before changing anything.
+
+Large scale: feature maps and stride move from background details to central design questions. Teams often revisit their choices around medical image analysis at this stage.
+
+Before you scale, start from a pretrained model. It is cheaper to build that habit early than to fix a crisis later.

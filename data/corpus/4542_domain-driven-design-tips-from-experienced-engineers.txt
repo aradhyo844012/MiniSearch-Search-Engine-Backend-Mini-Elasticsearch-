@@ -1,0 +1,11 @@
+Domain-Driven Design Tips from Experienced Engineers
+
+Engineers who work with Domain-Driven Design regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip ubiquitous language; everything else builds on it.
+2. Reach for event storming first, and only then evaluate alternatives such as UML.
+3. Test the case of complex business systems early, before the design hardens.
+4. Make sure you can agree on shared terms with domain experts before drawing classes.
+5. Write down why you chose Domain-Driven Design so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to aligning developers with domain experts as well.

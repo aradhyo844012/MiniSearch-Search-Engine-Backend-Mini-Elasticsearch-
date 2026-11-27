@@ -1,0 +1,13 @@
+Teaching Compilers and Interpreters to a Teammate
+
+Explaining Compilers and Interpreters to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a translator who either translates a whole book first or interprets sentence by sentence. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Compilers and Interpreters is programs that translate or run source code written in a high-level language. Avoid jargon at this stage.
+
+Walk through an example involving running Python and JavaScript, naming lexing and parsing as they come up.
+
+Ask your teammate to explain code generation in Compilers and Interpreters back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, assuming interpreted means slow without measuring, and suggest this habit: turn on compiler warnings and treat them seriously.

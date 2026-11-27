@@ -1,0 +1,11 @@
+Write-Ahead Logging in Real Projects
+
+Reading about Write-Ahead Logging is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: surviving crashes. Here, log records drives the main design choices, and the team needs to guard against disabling fsync for speed.
+
+Scenario two: feeding replication streams. This time checkpoints matters most, and tools such as PostgreSQL WAL help keep things manageable.
+
+Scenario three: point-in-time recovery. The key idea is crash recovery, and the biggest risk is log files filling the disk.
+
+Across all three scenarios, Write-Ahead Logging stays the same idea: a technique that records changes in a log before they are applied to the main data. Only the details change.

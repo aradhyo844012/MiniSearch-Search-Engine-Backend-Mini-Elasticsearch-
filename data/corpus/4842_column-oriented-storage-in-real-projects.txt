@@ -1,0 +1,11 @@
+Column-Oriented Storage in Real Projects
+
+Reading about Column-Oriented Storage is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: analytics dashboards. Here, column chunks drives the main design choices, and the team needs to guard against slow single-row lookups.
+
+Scenario two: large aggregations. This time compression matters most, and tools such as Apache Parquet help keep things manageable.
+
+Scenario three: data warehouses. The key idea is vectorized scans, and the biggest risk is many small writes.
+
+Across all three scenarios, Column-Oriented Storage stays the same idea: a way of storing table data by column instead of by row to speed up analytics. Only the details change.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Vector Clocks
+
+This page collects the essentials about Vector Clocks in one place. In short, Vector Clocks is counters that let distributed processes track the order of events without a shared clock.
+
+Core concepts:
+- logical time
+- per-process counters
+- the happened-before relation
+- conflict detection
+
+Where it is used:
+- detecting concurrent edits
+- replicated databases
+- collaborative tools
+
+Common problems:
+- clocks that grow with many nodes
+- confusing them with wall-clock time
+- never pruning old entries
+
+Tools to know:
+- Riak
+- the Amazon Dynamo paper
+- CRDT libraries
+
+Remember this above all: each person in a group chat keeping a tally of messages seen from everyone is a good way to picture it, and the best habit is to compare clocks entry by entry to detect true concurrency.

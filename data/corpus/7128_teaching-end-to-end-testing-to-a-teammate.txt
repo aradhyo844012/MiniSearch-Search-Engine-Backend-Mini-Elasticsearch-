@@ -1,0 +1,13 @@
+Teaching End-to-End Testing to a Teammate
+
+Explaining End-to-End Testing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a test drive of the whole car on a real road. Ask your teammate what the picture suggests.
+
+Then give the plain definition: End-to-End Testing is tests that drive an application through a real user journey from start to finish. Avoid jargon at this stage.
+
+Walk through an example involving checking login and checkout flows, naming browser automation and user flows as they come up.
+
+Ask your teammate to explain test data in End-to-End Testing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, flaky tests, and suggest this habit: cover only the most important user journeys.

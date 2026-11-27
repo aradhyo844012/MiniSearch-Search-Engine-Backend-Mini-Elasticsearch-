@@ -1,0 +1,13 @@
+CAP Theorem vs Saga Pattern: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or Saga Pattern first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. Saga Pattern, by contrast, is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose Saga Pattern first if you care about order processing or travel bookings.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With Saga Pattern, avoid missing compensations.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for Saga Pattern is to make every step and its compensation idempotent.

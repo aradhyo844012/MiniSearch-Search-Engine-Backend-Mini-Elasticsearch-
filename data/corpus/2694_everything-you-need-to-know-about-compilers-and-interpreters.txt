@@ -1,0 +1,26 @@
+Everything You Need to Know About Compilers and Interpreters
+
+This page collects the essentials about Compilers and Interpreters in one place. In short, Compilers and Interpreters is programs that translate or run source code written in a high-level language.
+
+Core concepts:
+- lexing
+- parsing
+- code generation
+- bytecode
+
+Where it is used:
+- running Python and JavaScript
+- building native programs
+- creating tools like linters
+
+Common problems:
+- assuming interpreted means slow without measuring
+- ignoring compiler warnings
+- confusing compile-time and run-time errors
+
+Tools to know:
+- GCC
+- LLVM
+- CPython
+
+Remember this above all: a translator who either translates a whole book first or interprets sentence by sentence is a good way to picture it, and the best habit is to turn on compiler warnings and treat them seriously.

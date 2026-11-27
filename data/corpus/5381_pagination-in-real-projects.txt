@@ -1,0 +1,11 @@
+Pagination in Real Projects
+
+Reading about Pagination is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: search results. Here, offset pagination drives the main design choices, and the team needs to guard against offsets getting slow on huge tables.
+
+Scenario two: activity feeds. This time cursor pagination matters most, and tools such as SQL LIMIT and OFFSET help keep things manageable.
+
+Scenario three: admin tables. The key idea is page size, and the biggest risk is unstable sort order.
+
+Across all three scenarios, Pagination stays the same idea: splitting large result sets into smaller pages that clients request one at a time. Only the details change.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Web Components
+
+This page collects the essentials about Web Components in one place. In short, Web Components is browser-native custom elements with their own markup, style and behavior.
+
+Core concepts:
+- custom elements
+- shadow DOM
+- templates
+- slots
+
+Where it is used:
+- design system components
+- widgets reused across frameworks
+- embeddable tools
+
+Common problems:
+- styling surprises across the shadow boundary
+- poor accessibility
+- heavy polyfills
+
+Tools to know:
+- Lit
+- Stencil
+- browser DevTools
+
+Remember this above all: a Lego brick in its own sealed packaging is a good way to picture it, and the best habit is to document the attributes and events like a public API.

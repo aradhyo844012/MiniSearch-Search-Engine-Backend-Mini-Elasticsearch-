@@ -1,0 +1,13 @@
+LSM Trees vs Time-Series Databases: Which One Should You Learn First?
+
+Learners often ask whether to study LSM Trees or Time-Series Databases first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk, and it is closely tied to memtable and sorted string tables. Time-Series Databases, by contrast, is databases optimized for storing and querying data points ordered by time, and it is closely tied to timestamps and retention policies.
+
+Choose LSM Trees first if you care about write-heavy databases or time-ordered data. Choose Time-Series Databases first if you care about server metrics or sensor readings.
+
+Think of LSM Trees as a mail room that sorts incoming letters in batches rather than one by one, and of Time-Series Databases as a long logbook where every line starts with the time. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With LSM Trees, avoid read amplification. With Time-Series Databases, avoid high-cardinality tags.
+
+A good habit for LSM Trees is to watch compaction metrics before blaming the application. A good habit for Time-Series Databases is to include a time range in every query.

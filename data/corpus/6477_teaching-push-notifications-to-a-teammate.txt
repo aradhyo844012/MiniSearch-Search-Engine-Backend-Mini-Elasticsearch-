@@ -1,0 +1,13 @@
+Teaching Push Notifications to a Teammate
+
+Explaining Push Notifications to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a courier who knocks on your door when a package arrives. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Push Notifications is messages sent to a user's device from a server even when the app is closed. Avoid jargon at this stage.
+
+Walk through an example involving order updates, naming device tokens and push services as they come up.
+
+Ask your teammate to explain payloads in Push Notifications back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, asking for permission too early, and suggest this habit: ask for permission at a moment when the user understands the value.

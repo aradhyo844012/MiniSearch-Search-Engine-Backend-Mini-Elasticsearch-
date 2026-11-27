@@ -1,0 +1,15 @@
+Property-Based Testing Quick Reference
+
+A one-screen reminder for Property-Based Testing. Bookmark it and return when the details fade.
+
+What it is: testing with many automatically generated inputs to check that general rules always hold.
+Key terms: properties, generators, shrinking, and invariants.
+Typical uses: testing parsers, checking sorting and math functions, and finding edge cases.
+Risks: vague properties, slow generators, and ignoring random seed reports.
+Tools: Hypothesis, QuickCheck, and fast-check.
+
+Mental picture: a robot tester trying thousands of odd inputs.
+
+Habit to build: save failing examples as regular tests.
+
+See also: Integration Testing, which sits close to Property-Based Testing in the area of Testing and Quality.

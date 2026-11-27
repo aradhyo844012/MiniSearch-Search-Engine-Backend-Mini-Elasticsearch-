@@ -1,0 +1,13 @@
+Greedy Algorithms vs Two Pointers and Sliding Window: Which One Should You Learn First?
+
+Learners often ask whether to study Greedy Algorithms or Two Pointers and Sliding Window first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Greedy Algorithms is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure. Two Pointers and Sliding Window, by contrast, is techniques that scan arrays with two moving positions to avoid nested loops, and it is closely tied to left and right pointers and window boundaries.
+
+Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding. Choose Two Pointers and Sliding Window first if you care about finding pairs with a given sum or longest substring problems.
+
+Think of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out, and of Two Pointers and Sliding Window as a small frame that slides along a line of text. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Greedy Algorithms, avoid assuming greedy always works. With Two Pointers and Sliding Window, avoid moving the wrong pointer.
+
+A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it. A good habit for Two Pointers and Sliding Window is to write down the window invariant before coding the loop.

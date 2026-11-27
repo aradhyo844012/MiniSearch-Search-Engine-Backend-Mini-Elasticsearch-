@@ -1,0 +1,17 @@
+Data Augmentation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Data Augmentation.
+
+Learning goals:
+1. Explain Data Augmentation in your own words.
+2. Describe transformations, label preservation, synthetic samples, and augmentation pipelines.
+3. Give examples from image models and text classification.
+4. Name three problems to watch for.
+
+Start with the definition: Data Augmentation is creating modified copies of training data to help models generalize. Then draw practicing a sport in different weather and on different fields on paper and label the four terms from the goals above.
+
+Self-test questions: Why is changes that alter the label a problem? How does label preservation relate to synthetic samples? When would you choose Albumentations or torchvision?
+
+Study habit worth keeping: augment only the training data.
+
+When you feel ready, compare Data Augmentation with Hyperparameter Tuning and write down three differences.

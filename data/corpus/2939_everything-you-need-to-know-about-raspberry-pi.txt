@@ -1,0 +1,26 @@
+Everything You Need to Know About Raspberry Pi
+
+This page collects the essentials about Raspberry Pi in one place. In short, Raspberry Pi is a small, low-cost computer popular for learning, prototypes and home projects.
+
+Core concepts:
+- GPIO pins
+- Linux
+- SD card storage
+- headless setup
+
+Where it is used:
+- home automation
+- learning Linux
+- small servers
+
+Common problems:
+- SD card corruption
+- inadequate power supplies
+- exposing the device without hardening
+
+Tools to know:
+- Raspberry Pi OS
+- Python GPIO libraries
+- SSH
+
+Remember this above all: a pocket-sized workshop for experiments is a good way to picture it, and the best habit is to use a quality power supply and a reliable memory card.

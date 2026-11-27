@@ -1,0 +1,11 @@
+Choosing Tools for Domain-Driven Design
+
+There is no single best tool for Domain-Driven Design. The right choice depends on your project, your team and your timeline.
+
+event storming is a common first choice, especially for complex business systems. UML suits teams that already work with similar technology, and Miro is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle aligning developers with domain experts well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: using it for simple CRUD apps.
+
+As a rule of thumb, agree on shared terms with domain experts before drawing classes, no matter which tool you use.

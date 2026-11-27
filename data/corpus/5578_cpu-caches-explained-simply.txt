@@ -1,0 +1,13 @@
+CPU Caches Explained Simply
+
+If CPU Caches sounds intimidating, relax. It is small, fast memory close to the processor that stores recently used data, and the idea is simpler than the name suggests.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: cache lines, hit and miss rates, levels L1 to L3, and locality. You do not need to master them all at once. Start with cache lines, then add hit and miss rates.
+
+People reach for CPU Caches when they work on speeding up loops, explaining performance differences, and designing data layouts.
+
+One practical tip is to access arrays in the order they are stored.
+
+After CPU Caches, a natural next topic is Memory Hierarchy.

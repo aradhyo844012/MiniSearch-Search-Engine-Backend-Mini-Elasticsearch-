@@ -1,0 +1,11 @@
+Scaling Considerations for Software Estimation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Software Estimation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding story points and getting sprint planning right.
+
+Medium scale: problems start to appear. Watch for treating estimates as promises and ignoring unknowns, and measure with planning poker before changing anything.
+
+Large scale: uncertainty and velocity move from background details to central design questions. Teams often revisit their choices around setting deadlines at this stage.
+
+Before you scale, give ranges instead of single numbers. It is cheaper to build that habit early than to fix a crisis later.

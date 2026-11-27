@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Endianness
+
+This path is for a learner who has never studied Endianness before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Endianness is the order in which a computer stores the bytes of a multi-byte number) and learn big-endian and little-endian.
+
+Stage 2, hands-on: install Python struct, follow a tutorial, and build a small example involving network protocols.
+
+Stage 3, depth: study byte order marks and network byte order, then deliberately explore this problem: mixing byte orders.
+
+Stage 4, application: apply Endianness to binary file formats, compare htons and ntohl with hexdump, and write up your results.
+
+Stage 5, review: teach Endianness to someone else, and then move on to Compilers and Interpreters.

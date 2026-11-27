@@ -1,0 +1,17 @@
+Write-Ahead Logging Do's and Don'ts
+
+A quick list of habits for working with Write-Ahead Logging.
+
+Do:
+- Learn log records before anything else.
+- Try PostgreSQL WAL on a small example.
+- Make it a habit to test crash recovery by killing the process on purpose.
+- Test the case of surviving crashes early.
+
+Don't:
+- Ignore this: disabling fsync for speed.
+- Ignore this: log files filling the disk.
+- Ignore this: forgetting to archive logs.
+- Adopt Write-Ahead Logging just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Write-Ahead Logging, a little patience with checkpoints pays off more than any clever shortcut.

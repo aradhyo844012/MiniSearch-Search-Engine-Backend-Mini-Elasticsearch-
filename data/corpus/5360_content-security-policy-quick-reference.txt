@@ -1,0 +1,15 @@
+Content Security Policy Quick Reference
+
+A one-screen reminder for Content Security Policy. Bookmark it and return when the details fade.
+
+What it is: a browser feature that limits which scripts and resources a page may load.
+Key terms: directives, nonces, report-only mode, and trusted sources.
+Typical uses: reducing the impact of XSS, blocking unwanted scripts, and monitoring policy violations.
+Risks: allowing unsafe-inline, policies too broad to help, and breaking third-party widgets.
+Tools: browser DevTools, CSP Evaluator, and Report URI.
+
+Mental picture: a guest list at the door of a building.
+
+Habit to build: start in report-only mode to learn what would break.
+
+See also: Encryption at Rest, which sits close to Content Security Policy in the area of Application Security.

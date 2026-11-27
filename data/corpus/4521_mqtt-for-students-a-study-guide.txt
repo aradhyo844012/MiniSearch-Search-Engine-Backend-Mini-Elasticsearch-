@@ -1,0 +1,17 @@
+MQTT for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover MQTT.
+
+Learning goals:
+1. Explain MQTT in your own words.
+2. Describe publish and subscribe, topics, brokers, and quality of service levels.
+3. Give examples from sensor networks and smart home devices.
+4. Name three problems to watch for.
+
+Start with the definition: MQTT is a lightweight messaging protocol designed for small devices and unreliable networks. Then draw a radio station with channels that devices can tune into on paper and label the four terms from the goals above.
+
+Self-test questions: Why is unsecured brokers a problem? How does topics relate to brokers? When would you choose Mosquitto or paho-mqtt?
+
+Study habit: design topic names like a clear folder structure.
+
+When you feel ready, compare MQTT with Push Notifications and write down three differences.

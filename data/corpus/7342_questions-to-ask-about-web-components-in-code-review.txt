@@ -1,0 +1,12 @@
+Questions to Ask About Web Components in Code Review
+
+Reviewing code that involves Web Components is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered styling surprises across the shadow boundary?
+- Is shadow DOM clear to someone reading the code for the first time?
+- Could we document the attributes and events like a public API?
+- Does the code handle the case of design system components correctly?
+- Does this change respect custom elements, or does it work around it?
+- Is Lit used consistently, or are we mixing approaches?
+
+Good reviews of work on Web Components are specific, kind and focused on templates, not on personal style.

@@ -1,0 +1,17 @@
+GPUs and Parallelism Do's and Don'ts
+
+A quick list of habits for working with GPUs and Parallelism.
+
+Do:
+- Learn threads and blocks before anything else.
+- Try CUDA on a small example.
+- Make it a habit to minimize copies between CPU and GPU memory.
+- Test the case of training neural networks early.
+
+Don't:
+- Ignore this: slow data transfers.
+- Ignore this: branch-heavy code.
+- Ignore this: launching tiny workloads.
+- Adopt GPUs and Parallelism just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with GPUs and Parallelism, a little patience with kernels pays off more than any clever shortcut.

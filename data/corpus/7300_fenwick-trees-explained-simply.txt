@@ -1,0 +1,13 @@
+Fenwick Trees Explained Simply
+
+If Fenwick Trees sounds intimidating, relax. It is a compact structure for prefix sums that supports fast updates, and the idea is simpler than the name suggests.
+
+Think of Fenwick Trees as a set of running subtotals where each one covers a block of entries. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: binary indexed trees, lowest set bit, prefix sums, and point updates. You do not need to master them all at once. Start with binary indexed trees, then add lowest set bit.
+
+You will meet Fenwick Trees in work such as counting inversions, maintaining running totals, and building frequency tables.
+
+One practical tip is to start indexing from one to keep the bit tricks simple.
+
+Once Fenwick Trees feels comfortable, read about Topological Sorting, which lives in the same neighborhood of ideas.

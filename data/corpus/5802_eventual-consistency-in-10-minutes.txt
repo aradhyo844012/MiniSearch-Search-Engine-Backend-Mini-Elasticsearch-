@@ -1,0 +1,15 @@
+Eventual Consistency in 10 Minutes
+
+You have ten minutes, so here is the fast route through Eventual Consistency.
+
+Minutes 1 and 2, the definition: Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+Minutes 3 and 4, the vocabulary: learn replication delay, conflict resolution, read-your-writes, and convergence.
+
+Minutes 5 and 6, the picture: imagine news spreading through a village until everyone has heard it. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through global social feeds, shopping cart services, and DNS records.
+
+Minutes 9 and 10, the traps and the tools: watch for assuming reads are always fresh and unresolved write conflicts, then try Amazon DynamoDB for a first experiment.
+
+If you have a spare minute, remember to decide up front how your app handles stale reads.

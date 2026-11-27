@@ -1,0 +1,15 @@
+Load Testing Quick Reference
+
+A one-screen reminder for Load Testing. Bookmark it and return when the details fade.
+
+What it is: measuring how a system behaves under expected and heavy traffic.
+Key terms: virtual users, throughput, latency percentiles, and ramp-up.
+Typical uses: capacity planning, finding bottlenecks, and validating autoscaling.
+Risks: testing unrealistic traffic, ignoring warm-up, and using average latency only.
+Tools: k6, Locust, and Apache JMeter.
+
+Mental picture: a stress test that fills a stadium to see how the exits cope.
+
+Habit to build: report p95 and p99 latency, not only averages.
+
+See also: Property-Based Testing, which sits close to Load Testing in the area of Testing and Quality.

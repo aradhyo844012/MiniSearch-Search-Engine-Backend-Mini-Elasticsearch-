@@ -1,0 +1,11 @@
+Webhooks in Real Projects
+
+Reading about Webhooks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: payment notifications. Here, event payloads drives the main design choices, and the team needs to guard against not verifying signatures.
+
+Scenario two: CI triggers. This time signature verification matters most, and tools such as ngrok help keep things manageable.
+
+Scenario three: chat integrations. The key idea is retries, and the biggest risk is slow handlers causing timeouts.
+
+Across all three scenarios, Webhooks stays the same idea: HTTP callbacks that let one service notify another when an event happens. Only the details change.

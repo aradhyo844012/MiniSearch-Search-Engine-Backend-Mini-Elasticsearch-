@@ -1,0 +1,12 @@
+Property-Based Testing Glossary for Beginners
+
+New words can make Property-Based Testing feel harder than it is. This glossary keeps the key ones in one place.
+
+Property-Based Testing: testing with many automatically generated inputs to check that general rules always hold.
+properties: a core term, most visible in testing parsers.
+generators: a core term that beginners often confuse with shrinking.
+shrinking: a core term that connects to invariants.
+invariants: a core term worth revisiting after you try a real example.
+Hypothesis: a tool commonly used for checking sorting and math functions.
+
+Come back to this Property-Based Testing list whenever documentation for QuickCheck uses a word you do not recognize.

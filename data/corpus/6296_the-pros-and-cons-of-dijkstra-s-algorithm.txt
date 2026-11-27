@@ -1,0 +1,15 @@
+The Pros and Cons of Dijkstra's Algorithm
+
+No technology is free of trade-offs, and Dijkstra's Algorithm is no exception. Here is an honest summary.
+
+Advantages:
+- Supports route planning
+- Makes network routing easier
+- Helps with game pathfinding
+
+Drawbacks and risks:
+- Risk: using it with negative edge weights
+- Risk: skipping the priority queue and getting slow code
+- Risk: not stopping early when only one target is needed
+
+Weigh the two lists against your own project. If the advantages match your needs, such as route planning, and you can manage the risks, Dijkstra's Algorithm is a sound choice. Whatever you decide, stop as soon as the destination is popped from the queue.

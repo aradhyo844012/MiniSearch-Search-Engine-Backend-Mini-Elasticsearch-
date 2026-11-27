@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with CSRF
+
+This is a fictional but realistic day for a developer whose project relies on CSRF.
+
+Morning: Divya starts by reviewing a ticket about protecting forms. Before touching any code, Divya re-reads the notes on session cookies to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore anti-CSRF tokens with Django CSRF middleware. A small test exposes the problem of using GET requests for state changes, and they fix it together.
+
+Afternoon: the team discusses a new request involving securing account settings. Divya sketches a forged letter that a bank clerk stamps because your ID is already on file on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to combine SameSite cookies with anti-CSRF tokens.
+
+Days like this are typical. CSRF is not glamorous, but understanding it keeps small problems from growing.

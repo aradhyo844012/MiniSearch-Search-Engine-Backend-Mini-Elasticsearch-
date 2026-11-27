@@ -1,0 +1,15 @@
+Logging Best Practices Quick Reference
+
+A one-screen reminder for Logging Best Practices. Bookmark it and return when the details fade.
+
+What it is: recording useful, structured information about what an application is doing.
+Key terms: log levels, structured logs, correlation IDs, and log rotation.
+Typical uses: debugging production issues, auditing actions, and measuring usage.
+Risks: logging sensitive data, too much noise, and missing context.
+Tools: the Python logging module, the ELK stack, and Grafana Loki.
+
+Mental picture: a ship's logbook that explains what happened and when.
+
+Habit to build: include a request ID in every log line.
+
+See also: Configuration Management, which sits close to Logging Best Practices in the area of Backend Engineering.

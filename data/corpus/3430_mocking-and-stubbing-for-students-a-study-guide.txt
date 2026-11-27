@@ -1,0 +1,17 @@
+Mocking and Stubbing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Mocking and Stubbing.
+
+Learning goals:
+1. Explain Mocking and Stubbing in your own words.
+2. Describe mocks, stubs, spies, and fakes.
+3. Give examples from isolating units and simulating failures.
+4. Name three problems to watch for.
+
+Start with the definition: Mocking and Stubbing is replacing real dependencies with controlled fakes during tests. Then draw a crash test dummy standing in for a real passenger on paper and label the four terms from the goals above.
+
+Self-test questions: Why is over-mocking a problem? How does stubs relate to spies? When would you choose unittest.mock or Mockito?
+
+Study habit: prefer simple fakes over deep mock chains.
+
+When you feel ready, compare Mocking and Stubbing with Chaos Engineering and write down three differences.

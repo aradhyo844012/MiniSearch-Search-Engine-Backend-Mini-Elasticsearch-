@@ -1,0 +1,15 @@
+Segment Trees Quick Reference
+
+A one-screen reminder for Segment Trees. Bookmark it and return when the details fade.
+
+What it is: a tree structure that answers range queries and handles updates in logarithmic time.
+Key terms: tree nodes covering ranges, range queries, point updates, and lazy propagation.
+Typical uses: range sum queries, finding minimums in a window, and competitive programming problems.
+Risks: off-by-one errors in ranges, wrong tree size allocation, and forgetting to push lazy updates.
+Tools: C++ arrays, Python lists, and Codeforces problem sets.
+
+Mental picture: a tournament bracket that remembers the winner of every group of players.
+
+Habit to build: test your tree against a slow brute-force version on small inputs.
+
+See also: Topological Sorting, which sits close to Segment Trees in the area of Algorithms in Practice.

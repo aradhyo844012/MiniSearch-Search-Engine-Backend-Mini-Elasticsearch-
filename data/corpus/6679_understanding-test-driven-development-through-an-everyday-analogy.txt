@@ -1,0 +1,9 @@
+Understanding Test-Driven Development Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture writing the exam questions before teaching the lesson.
+
+In that picture, red, green, refactor is the first rule you follow, small steps is the next step, and test first and fast feedback keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass, and it involves details such as writing tests that are too large that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for pytest to learn the exact behavior. The same picture helps when you explain designing small modules to a friend.

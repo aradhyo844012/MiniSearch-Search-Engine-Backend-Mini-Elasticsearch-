@@ -1,0 +1,15 @@
+MQTT Quick Reference
+
+A one-screen reminder for MQTT. Bookmark it and return when the details fade.
+
+What it is: a lightweight messaging protocol designed for small devices and unreliable networks.
+Key terms: publish and subscribe, topics, brokers, and quality of service levels.
+Typical uses: sensor networks, smart home devices, and telemetry.
+Risks: unsecured brokers, messy topic names, and wrong quality of service choices.
+Tools: Mosquitto, paho-mqtt, and MQTT Explorer.
+
+Mental picture: a radio station with channels that devices can tune into.
+
+Habit to build: design topic names like a clear folder structure.
+
+See also: Push Notifications, which sits close to MQTT in the area of Mobile, Embedded and IoT.

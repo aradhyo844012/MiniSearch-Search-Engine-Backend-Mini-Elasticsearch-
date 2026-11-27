@@ -1,0 +1,11 @@
+Endianness in Real Projects
+
+Reading about Endianness is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: network protocols. Here, big-endian drives the main design choices, and the team needs to guard against mixing byte orders.
+
+Scenario two: binary file formats. This time little-endian matters most, and tools such as Python struct help keep things manageable.
+
+Scenario three: cross-platform data exchange. The key idea is byte order marks, and the biggest risk is assuming all machines are alike.
+
+Across all three scenarios, Endianness stays the same idea: the order in which a computer stores the bytes of a multi-byte number. Only the details change.

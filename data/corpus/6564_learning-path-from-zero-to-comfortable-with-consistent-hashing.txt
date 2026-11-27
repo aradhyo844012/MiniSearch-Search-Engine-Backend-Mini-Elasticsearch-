@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Consistent Hashing
+
+This path is for a learner who has never studied Consistent Hashing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys) and learn hash ring and virtual nodes.
+
+Stage 2, hands-on: install Redis Cluster, follow a tutorial, and build a small example involving distributed caches.
+
+Stage 3, depth: study key placement and rebalancing, then deliberately explore this problem: too few virtual nodes.
+
+Stage 4, application: apply Consistent Hashing to sharded databases, compare Memcached clients with Apache Cassandra, and write up your results.
+
+Stage 5, review: teach Consistent Hashing to someone else, and then move on to CQRS.

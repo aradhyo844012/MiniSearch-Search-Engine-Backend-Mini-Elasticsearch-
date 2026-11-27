@@ -1,0 +1,11 @@
+Choosing Tools for Object-Relational Mappers
+
+There is no single best tool for Object-Relational Mappers. The right choice depends on your project, your team and your timeline.
+
+SQLAlchemy is a common first choice, especially for building CRUD apps quickly. the Django ORM suits teams that already work with similar technology, and Hibernate is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle switching databases well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: N+1 queries.
+
+As a rule of thumb, log the generated SQL during development, no matter which tool you use.

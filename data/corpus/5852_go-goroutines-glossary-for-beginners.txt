@@ -1,0 +1,12 @@
+Go Goroutines Glossary for Beginners
+
+New words can make Go Goroutines feel harder than it is. This glossary keeps the key ones in one place.
+
+Go Goroutines: lightweight threads managed by the Go runtime that run functions concurrently.
+goroutines: a core term, most visible in servers handling many connections.
+channels: a core term that beginners often confuse with select statements.
+select statements: a core term that connects to wait groups.
+wait groups: a core term worth revisiting after you try a real example.
+the go command: a tool commonly used for parallel data processing.
+
+Come back to this Go Goroutines list whenever documentation for the race detector uses a word you do not recognize.

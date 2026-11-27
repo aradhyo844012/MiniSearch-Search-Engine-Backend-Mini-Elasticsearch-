@@ -1,0 +1,12 @@
+GraphQL Glossary for Beginners
+
+New words can make GraphQL feel harder than it is. This glossary keeps the key ones in one place.
+
+GraphQL: a query language for APIs that lets clients ask for exactly the fields they need.
+schema: a core term, most visible in mobile apps with limited bandwidth.
+queries and mutations: a core term that beginners often confuse with resolvers.
+resolvers: a core term that connects to types.
+types: a core term worth revisiting after you try a real example.
+Apollo: a tool commonly used for aggregating many services.
+
+Come back to this GraphQL list whenever documentation for GraphQL Playground uses a word you do not recognize.

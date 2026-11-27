@@ -1,0 +1,15 @@
+Support Vector Machines Quick Reference
+
+A one-screen reminder for Support Vector Machines. Bookmark it and return when the details fade.
+
+What it is: models that classify data by finding the boundary with the widest margin between classes.
+Key terms: margin, support vectors, kernels, and regularization.
+Typical uses: text classification, small high-dimensional datasets, and image recognition baselines.
+Risks: slow training on large data, poor kernel choices, and unscaled features.
+Tools: scikit-learn, LIBSVM, and NumPy.
+
+Mental picture: drawing the widest road between two neighborhoods.
+
+Habit to build: scale features and try a linear kernel first.
+
+See also: Reinforcement Learning, which sits close to Support Vector Machines in the area of AI and Machine Learning.

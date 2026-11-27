@@ -1,0 +1,26 @@
+Everything You Need to Know About Reinforcement Learning
+
+This page collects the essentials about Reinforcement Learning in one place. In short, Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes.
+
+Core concepts:
+- agent
+- environment
+- reward
+- policy
+
+Where it is used:
+- game playing
+- robot control
+- recommendation strategies
+
+Common problems:
+- badly designed rewards
+- slow training
+- unstable results across runs
+
+Tools to know:
+- Gymnasium
+- Stable-Baselines3
+- PyTorch
+
+Remember this above all: training a dog with treats for good behavior is a good way to picture it, and the best habit is to start with simple environments.

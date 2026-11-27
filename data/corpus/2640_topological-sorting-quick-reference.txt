@@ -1,0 +1,15 @@
+Topological Sorting Quick Reference
+
+A one-screen reminder for Topological Sorting. Bookmark it and return when the details fade.
+
+What it is: an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+Key terms: directed acyclic graphs, in-degree counts, Kahn's algorithm, and cycle detection.
+Typical uses: build systems, course prerequisite planning, and task scheduling.
+Risks: ignoring cycles, assuming the order is unique, and mixing up edge directions.
+Tools: Python graphlib, NetworkX, and Make.
+
+Mental picture: a recipe that must list every step after the steps it depends on.
+
+Habit to build: check for cycles first so you can report a clear error.
+
+See also: Greedy Algorithms, which sits close to Topological Sorting in the area of Algorithms in Practice.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Modular Monoliths
+
+This page collects the essentials about Modular Monoliths in one place. In short, Modular Monoliths is single deployable applications built from well-separated internal modules.
+
+Core concepts:
+- module boundaries
+- public interfaces
+- shared database rules
+- dependency checks
+
+Where it is used:
+- small teams
+- early-stage products
+- preparing for later service extraction
+
+Common problems:
+- modules reaching into each other's tables
+- no enforced boundaries
+- treating modules as just folders
+
+Tools to know:
+- ArchUnit
+- import-linter
+- Gradle modules
+
+Remember this above all: an apartment building with separate flats under one roof is a good way to picture it, and the best habit is to enforce boundaries with automated checks.

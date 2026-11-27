@@ -1,0 +1,13 @@
+Database Migrations vs Column-Oriented Storage: Which One Should You Learn First?
+
+Learners often ask whether to study Database Migrations or Column-Oriented Storage first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way, and it is closely tied to up and down scripts and version tables. Column-Oriented Storage, by contrast, is a way of storing table data by column instead of by row to speed up analytics, and it is closely tied to column chunks and compression.
+
+Choose Database Migrations first if you care about adding columns safely or renaming tables. Choose Column-Oriented Storage first if you care about analytics dashboards or large aggregations.
+
+Think of Database Migrations as a numbered set of renovation steps applied to a building in order, and of Column-Oriented Storage as a spreadsheet kept as separate lists per column so you can read just one. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Database Migrations, avoid locking large tables. With Column-Oriented Storage, avoid slow single-row lookups.
+
+A good habit for Database Migrations is to split risky changes into small steps that can each be rolled back. A good habit for Column-Oriented Storage is to select only the columns you really need.

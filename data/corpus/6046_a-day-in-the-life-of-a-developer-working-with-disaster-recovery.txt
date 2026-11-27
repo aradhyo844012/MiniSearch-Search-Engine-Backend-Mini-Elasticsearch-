@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Disaster Recovery
+
+This is a fictional but realistic day for a developer whose project relies on Disaster Recovery.
+
+Morning: Arjun starts by reviewing a ticket about surviving regional outages. Before touching any code, Arjun re-reads the notes on recovery time objective to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore recovery point objective with AWS Backup. A small test exposes the problem of untested plans, and they fix it together.
+
+Afternoon: the team discusses a new request involving meeting compliance needs. Arjun sketches a fire drill for a whole system on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to run a failover exercise on a regular schedule.
+
+Days like this are typical. Disaster Recovery is not glamorous, but understanding it keeps small problems from growing.

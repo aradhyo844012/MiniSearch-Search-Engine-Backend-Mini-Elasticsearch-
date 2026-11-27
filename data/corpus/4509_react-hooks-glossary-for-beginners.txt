@@ -1,0 +1,12 @@
+React Hooks Glossary for Beginners
+
+New words can make React Hooks feel harder than it is. This glossary keeps the key ones in one place.
+
+React Hooks: functions that let components use state and lifecycle features without writing classes.
+useState: a core term, most visible in managing form input.
+useEffect: a core term that beginners often confuse with dependency arrays.
+dependency arrays: a core term that connects to custom hooks.
+custom hooks: a core term worth revisiting after you try a real example.
+React DevTools: a tool commonly used for fetching data on load.
+
+Come back to this React Hooks list whenever documentation for Vite uses a word you do not recognize.

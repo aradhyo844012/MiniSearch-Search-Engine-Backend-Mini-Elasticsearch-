@@ -1,0 +1,13 @@
+Pagination Explained Simply
+
+If Pagination sounds intimidating, relax. It is splitting large result sets into smaller pages that clients request one at a time, and the idea is simpler than the name suggests.
+
+Think of Pagination as reading a long book one chapter at a time with a bookmark. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: offset pagination, cursor pagination, page size, and stable ordering. You do not need to master them all at once. Start with offset pagination, then add cursor pagination.
+
+People reach for Pagination when they work on search results, activity feeds, and admin tables.
+
+One practical tip is to prefer cursors for large or fast-changing data.
+
+Once Pagination feels comfortable, read about API Versioning, which lives in the same neighborhood of ideas.

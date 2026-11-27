@@ -1,0 +1,10 @@
+Saga Pattern: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Saga Pattern with confidence. The subject itself is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+local transactions: one of the building blocks of Saga Pattern. Documentation for Temporal usually mentions it early.
+compensating actions: one of the building blocks of Saga Pattern. Documentation for Temporal usually mentions it early.
+orchestration: one of the building blocks of Saga Pattern. You should be able to explain it in a single sentence before moving on.
+choreography: one of the building blocks of Saga Pattern. Documentation for Temporal usually mentions it early.
+
+Practice using these four terms in sentences about travel bookings. If the sentences feel natural, the vocabulary has stuck.

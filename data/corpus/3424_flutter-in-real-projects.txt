@@ -1,0 +1,11 @@
+Flutter in Real Projects
+
+Reading about Flutter is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: cross-platform mobile apps. Here, widgets drives the main design choices, and the team needs to guard against deep widget trees.
+
+Scenario two: desktop apps. This time state matters most, and tools such as Dart help keep things manageable.
+
+Scenario three: custom user interfaces. The key idea is hot reload, and the biggest risk is poor state organization.
+
+Across all three scenarios, Flutter stays the same idea: a toolkit for building natively compiled apps from a single Dart codebase. Only the details change.

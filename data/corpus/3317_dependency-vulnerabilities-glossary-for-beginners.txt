@@ -1,0 +1,12 @@
+Dependency Vulnerabilities Glossary for Beginners
+
+New words can make Dependency Vulnerabilities feel harder than it is. This glossary keeps the key ones in one place.
+
+Dependency Vulnerabilities: security weaknesses that come from third-party libraries a project uses.
+CVE identifiers: a core term, most visible in auditing projects.
+version pinning: a core term that beginners often confuse with transitive dependencies.
+transitive dependencies: a core term that connects to software bills of materials.
+software bills of materials: a core term worth revisiting after you try a real example.
+Dependabot: a tool commonly used for automating updates.
+
+Come back to this Dependency Vulnerabilities list whenever documentation for pip-audit uses a word you do not recognize.

@@ -1,0 +1,15 @@
+Hyperparameter Tuning Quick Reference
+
+A one-screen reminder for Hyperparameter Tuning. Bookmark it and return when the details fade.
+
+What it is: the process of searching for the best settings that control how a model learns.
+Key terms: search spaces, grid search, random search, and validation scores.
+Typical uses: improving model accuracy, comparing algorithms, and running automated experiments.
+Risks: tuning on the test set, searching too many options, and ignoring training cost.
+Tools: Optuna, scikit-learn GridSearchCV, and Ray Tune.
+
+Mental picture: adjusting the knobs on a radio until the signal is clear.
+
+Habit to build: try random search before anything fancier.
+
+See also: Support Vector Machines, which sits close to Hyperparameter Tuning in the area of AI and Machine Learning.

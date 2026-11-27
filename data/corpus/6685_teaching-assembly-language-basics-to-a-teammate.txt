@@ -1,0 +1,13 @@
+Teaching Assembly Language Basics to a Teammate
+
+Explaining Assembly Language Basics to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: the individual muscle movements behind a simple action. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Assembly Language Basics is low-level instructions that map closely to what a processor actually executes. Avoid jargon at this stage.
+
+Walk through an example involving understanding compiled code, naming registers and instructions as they come up.
+
+Ask your teammate to explain memory addressing in Assembly Language Basics back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, wrong calling conventions, and suggest this habit: read the assembly of a tiny C function to see what the compiler does.

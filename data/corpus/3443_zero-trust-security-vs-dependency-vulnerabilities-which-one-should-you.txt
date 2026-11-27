@@ -1,0 +1,13 @@
+Zero Trust Security vs Dependency Vulnerabilities: Which One Should You Learn First?
+
+Learners often ask whether to study Zero Trust Security or Dependency Vulnerabilities first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified, and it is closely tied to identity verification and least privilege. Dependency Vulnerabilities, by contrast, is security weaknesses that come from third-party libraries a project uses, and it is closely tied to CVE identifiers and version pinning.
+
+Choose Zero Trust Security first if you care about remote work access or protecting internal services. Choose Dependency Vulnerabilities first if you care about auditing projects or automating updates.
+
+Think of Zero Trust Security as a building where every door checks your badge, not just the front entrance, and of Dependency Vulnerabilities as checking every ingredient supplier for recalls. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Zero Trust Security, avoid treating it as a product to buy. With Dependency Vulnerabilities, avoid ignoring transitive dependencies.
+
+A good habit for Zero Trust Security is to start with strong identity and device checks. A good habit for Dependency Vulnerabilities is to automate update pull requests.

@@ -1,0 +1,13 @@
+Background Jobs vs Dependency Injection: Which One Should You Learn First?
+
+Learners often ask whether to study Background Jobs or Dependency Injection first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Background Jobs is tasks that run outside the request cycle so users do not have to wait for them, and it is closely tied to queues and workers. Dependency Injection, by contrast, is a design approach where objects receive their dependencies instead of creating them, and it is closely tied to constructor injection and interfaces.
+
+Choose Background Jobs first if you care about sending emails or resizing images. Choose Dependency Injection first if you care about easier unit testing or swapping implementations.
+
+Think of Background Jobs as dropping laundry at a service and collecting it later, and of Dependency Injection as a chef who is handed ingredients instead of shopping for them. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Background Jobs, avoid jobs that are not idempotent. With Dependency Injection, avoid hiding too much behind containers.
+
+A good habit for Background Jobs is to give every job a timeout and a retry limit. A good habit for Dependency Injection is to inject interfaces so tests can use simple fakes.

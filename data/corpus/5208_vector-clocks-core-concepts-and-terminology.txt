@@ -1,0 +1,10 @@
+Vector Clocks: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Vector Clocks with confidence. The subject itself is counters that let distributed processes track the order of events without a shared clock.
+
+logical time: one of the building blocks of Vector Clocks. You should be able to explain it in a single sentence before moving on.
+per-process counters: one of the building blocks of Vector Clocks. Documentation for Riak usually mentions it early.
+the happened-before relation: one of the building blocks of Vector Clocks. Mixing it up with neighboring terms is a common source of confusion.
+conflict detection: one of the building blocks of Vector Clocks. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about replicated databases. If the sentences feel natural, the vocabulary has stuck.

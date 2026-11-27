@@ -1,0 +1,11 @@
+Practice Exercises for Column-Oriented Storage
+
+These exercises build real understanding of Column-Oriented Storage. Do them in order, and write down your answers.
+
+Exercise 1: Pick Apache Parquet and complete its getting-started tutorial.
+Exercise 2: Write a short paragraph describing Column-Oriented Storage and include the term column chunks.
+Exercise 3: Compare ClickHouse and DuckDB for data warehouses and write down your conclusion.
+Exercise 4: Explain how vectorized scans and predicate pushdown differ, using a drawing.
+Exercise 5: List three situations from your own experience that resemble analytics dashboards or large aggregations.
+
+When you finish, compare your answers with the definition: Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.

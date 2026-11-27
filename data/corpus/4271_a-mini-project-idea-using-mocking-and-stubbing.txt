@@ -1,0 +1,16 @@
+A Mini Project Idea Using Mocking and Stubbing
+
+A small project is the fastest way to make Mocking and Stubbing stick. This one takes a weekend and needs only a laptop.
+
+The goal is to build a tiny program or demo that shows Mocking and Stubbing at work on isolating units. Keep the scope small enough to finish.
+
+Milestones:
+1. Read about mocks and stubs.
+2. Set up unittest.mock and run a hello-world example.
+3. Add the core feature.
+4. Handle one failure case, such as over-mocking.
+5. Write a short README explaining what you learned.
+
+Stretch goals: extend the demo to cover simulating failures, or compare Mockito with Sinon.js.
+
+Finish by recording what surprised you. Writing it down is how knowledge about Mocking and Stubbing turns into something you can show others.

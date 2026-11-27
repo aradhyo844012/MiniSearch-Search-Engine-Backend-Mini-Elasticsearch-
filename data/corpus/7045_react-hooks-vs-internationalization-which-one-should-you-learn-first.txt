@@ -1,0 +1,13 @@
+React Hooks vs Internationalization: Which One Should You Learn First?
+
+Learners often ask whether to study React Hooks or Internationalization first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+React Hooks is functions that let components use state and lifecycle features without writing classes, and it is closely tied to useState and useEffect. Internationalization, by contrast, is designing software so it can be adapted to different languages and regions, and it is closely tied to locale detection and translation files.
+
+Choose React Hooks first if you care about managing form input or fetching data on load. Choose Internationalization first if you care about global products or multi-language websites.
+
+Think of React Hooks as sticky notes a component keeps between redraws, and of Internationalization as a stage set where the backdrop can be swapped for each audience. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With React Hooks, avoid missing dependencies in effects. With Internationalization, avoid hard-coded strings.
+
+A good habit for React Hooks is to enable the hooks lint rules from the start. A good habit for Internationalization is to move every user-facing string into translation files from the first day.

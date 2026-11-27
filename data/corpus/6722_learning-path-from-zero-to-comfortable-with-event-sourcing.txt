@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Event Sourcing
+
+This path is for a learner who has never studied Event Sourcing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them) and learn event log and projections.
+
+Stage 2, hands-on: install Apache Kafka, follow a tutorial, and build a small example involving audit trails.
+
+Stage 3, depth: study snapshots and replay, then deliberately explore this problem: changing event formats carelessly.
+
+Stage 4, application: apply Event Sourcing to financial ledgers, compare EventStoreDB with PostgreSQL, and write up your results.
+
+Stage 5, review: teach Event Sourcing to someone else, and then move on to Vector Clocks.

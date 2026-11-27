@@ -1,0 +1,11 @@
+Scaling Considerations for K-Means Clustering
+
+A design that works for a classroom project can behave very differently under real load. Here is how K-Means Clustering changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding centroids and getting customer segmentation right.
+
+Medium scale: problems start to appear. Watch for choosing k blindly and unscaled features, and measure with scikit-learn before changing anything.
+
+Large scale: choosing k and iterations move from background details to central design questions. Teams often revisit their choices around image compression at this stage.
+
+Before you scale, scale features before clustering. It is cheaper to build that habit early than to fix a crisis later.

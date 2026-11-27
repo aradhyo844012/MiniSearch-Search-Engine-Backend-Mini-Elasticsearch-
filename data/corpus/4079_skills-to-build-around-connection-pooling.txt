@@ -1,0 +1,13 @@
+Skills to Build Around Connection Pooling
+
+Knowing the definition of Connection Pooling is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with pool size and idle connections, and able to explain them without notes.
+
+Hands-on practice: spend real time with PgBouncer on a Connection Pooling task, and try at least one alternative such as HikariCP.
+
+Judgment: learn to decide when Connection Pooling fits a problem such as web backends, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a rental desk that lends a few shared bikes instead of buying one per visitor.
+
+Habits: always return connections in a finally block, and write down what you learn after each project.

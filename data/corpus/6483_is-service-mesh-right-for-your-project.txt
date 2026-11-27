@@ -1,0 +1,11 @@
+Is Service Mesh Right for Your Project?
+
+Before adopting Service Mesh, ask whether it fits the problem. Remember that Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+It is a good fit when your work involves securing service traffic or retries and timeouts, and when your team understands sidecar proxies.
+
+Be cautious when the project is very small, when deadlines leave no room to learn mutual TLS, or when you cannot manage these risks: added latency and complexity, adopting it too early, and hard-to-debug proxy configs.
+
+A simple decision test: write down the problem in one sentence, then check whether traffic policies and observability are part of the answer. If they are, Service Mesh is probably worth a closer look.
+
+If you decide to go ahead, start small with fine-grained routing and adopt it only once the number of services makes manual setup painful.

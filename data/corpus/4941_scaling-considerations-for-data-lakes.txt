@@ -1,0 +1,11 @@
+Scaling Considerations for Data Lakes
+
+A design that works for a classroom project can behave very differently under real load. Here is how Data Lakes changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding raw storage and getting storing logs and events right.
+
+Medium scale: problems start to appear. Watch for turning into a data swamp and no catalog or ownership, and measure with Amazon S3 before changing anything.
+
+Large scale: partitioning and metadata catalogs move from background details to central design questions. Teams often revisit their choices around machine learning datasets at this stage.
+
+Before you scale, register every dataset in a catalog with an owner. It is cheaper to build that habit early than to fix a crisis later.

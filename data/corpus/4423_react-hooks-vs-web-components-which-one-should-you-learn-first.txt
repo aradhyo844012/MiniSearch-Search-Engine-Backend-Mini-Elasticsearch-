@@ -1,0 +1,13 @@
+React Hooks vs Web Components: Which One Should You Learn First?
+
+Learners often ask whether to study React Hooks or Web Components first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+React Hooks is functions that let components use state and lifecycle features without writing classes, and it is closely tied to useState and useEffect. Web Components, by contrast, is browser-native custom elements with their own markup, style and behavior, and it is closely tied to custom elements and shadow DOM.
+
+Choose React Hooks first if you care about managing form input or fetching data on load. Choose Web Components first if you care about design system components or widgets reused across frameworks.
+
+Think of React Hooks as sticky notes a component keeps between redraws, and of Web Components as a Lego brick in its own sealed packaging. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With React Hooks, avoid missing dependencies in effects. With Web Components, avoid styling surprises across the shadow boundary.
+
+A good habit for React Hooks is to enable the hooks lint rules from the start. A good habit for Web Components is to document the attributes and events like a public API.

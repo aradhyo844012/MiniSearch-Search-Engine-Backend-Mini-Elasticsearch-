@@ -1,0 +1,13 @@
+Teaching Idempotency to a Teammate
+
+Explaining Idempotency to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: pressing an elevator call button many times and still getting one elevator. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Idempotency is the property that repeating an operation gives the same result as doing it once. Avoid jargon at this stage.
+
+Walk through an example involving payment APIs, naming idempotency keys and safe retries as they come up.
+
+Ask your teammate to explain deduplication in Idempotency back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, keys that expire too soon, and suggest this habit: store the result with the key so retries return the same response.

@@ -1,0 +1,13 @@
+SOLID Principles vs Modular Monoliths: Which One Should You Learn First?
+
+Learners often ask whether to study SOLID Principles or Modular Monoliths first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change, and it is closely tied to single responsibility and the open-closed principle. Modular Monoliths, by contrast, is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces.
+
+Choose SOLID Principles first if you care about structuring classes or reviewing designs. Choose Modular Monoliths first if you care about small teams or early-stage products.
+
+Think of SOLID Principles as house rules that keep a shared kitchen tidy, and of Modular Monoliths as an apartment building with separate flats under one roof. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With SOLID Principles, avoid applying them rigidly to tiny scripts. With Modular Monoliths, avoid modules reaching into each other's tables.
+
+A good habit for SOLID Principles is to apply them when a design starts to hurt, not before. A good habit for Modular Monoliths is to enforce boundaries with automated checks.

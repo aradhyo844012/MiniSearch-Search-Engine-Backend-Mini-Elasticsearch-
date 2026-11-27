@@ -1,0 +1,11 @@
+Practice Exercises for Support Vector Machines
+
+These exercises build real understanding of Support Vector Machines. Do them in order, and write down your answers.
+
+Exercise 1: Compare LIBSVM and NumPy for image recognition baselines and write down your conclusion.
+Exercise 2: Pick scikit-learn and complete its getting-started tutorial.
+Exercise 3: Explain how kernels and regularization differ, using a drawing.
+Exercise 4: List three situations from your own experience that resemble text classification or small high-dimensional datasets.
+Exercise 5: Create a small example that deliberately triggers this problem: slow training on large data. Then fix it.
+
+When you finish, compare your answers with the definition: Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes.

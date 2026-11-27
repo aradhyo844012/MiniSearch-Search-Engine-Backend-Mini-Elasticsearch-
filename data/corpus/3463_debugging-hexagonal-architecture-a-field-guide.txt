@@ -1,0 +1,13 @@
+Debugging Hexagonal Architecture: A Field Guide
+
+When something goes wrong around Hexagonal Architecture, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: too many layers for small apps, leaking framework types into the core, and confusing ports with adapters.
+Step 3: revisit ports and adapters, since misunderstandings there cause many bugs.
+Step 4: use Spring or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Hexagonal Architecture in work such as testable business logic come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep framework imports out of the core domain. It prevents a surprising number of repeat problems.

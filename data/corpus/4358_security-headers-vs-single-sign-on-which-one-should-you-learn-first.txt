@@ -1,0 +1,13 @@
+Security Headers vs Single Sign-On: Which One Should You Learn First?
+
+Learners often ask whether to study Security Headers or Single Sign-On first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Security Headers is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options. Single Sign-On, by contrast, is letting users log in once and access several applications, and it is closely tied to identity provider and SAML.
+
+Choose Security Headers first if you care about hardening websites or reducing clickjacking. Choose Single Sign-On first if you care about company intranets or reducing password fatigue.
+
+Think of Security Headers as safety instructions printed on the packaging of every page, and of Single Sign-On as a festival wristband that opens every gate. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Security Headers, avoid setting headers on only some routes. With Single Sign-On, avoid a single point of failure.
+
+A good habit for Security Headers is to test the headers on every environment. A good habit for Single Sign-On is to plan for identity provider outages.

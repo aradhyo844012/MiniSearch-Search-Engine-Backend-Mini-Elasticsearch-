@@ -1,0 +1,17 @@
+Bluetooth Low Energy Do's and Don'ts
+
+A quick list of habits for working with Bluetooth Low Energy.
+
+Do:
+- Learn advertising before anything else.
+- Try nRF Connect on a small example.
+- Make it a habit to test with several phone models.
+- Test the case of fitness trackers early.
+
+Don't:
+- Ignore this: ignoring connection limits.
+- Ignore this: weak pairing security.
+- Ignore this: assuming long range.
+- Adopt Bluetooth Low Energy just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Bluetooth Low Energy, a little patience with GATT services pays off more than any clever shortcut.

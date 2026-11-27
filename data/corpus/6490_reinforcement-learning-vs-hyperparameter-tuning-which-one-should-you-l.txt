@@ -1,0 +1,13 @@
+Reinforcement Learning vs Hyperparameter Tuning: Which One Should You Learn First?
+
+Learners often ask whether to study Reinforcement Learning or Hyperparameter Tuning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment. Hyperparameter Tuning, by contrast, is the process of searching for the best settings that control how a model learns, and it is closely tied to search spaces and grid search.
+
+Choose Reinforcement Learning first if you care about game playing or robot control. Choose Hyperparameter Tuning first if you care about improving model accuracy or comparing algorithms.
+
+Think of Reinforcement Learning as training a dog with treats for good behavior, and of Hyperparameter Tuning as adjusting the knobs on a radio until the signal is clear. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Reinforcement Learning, avoid badly designed rewards. With Hyperparameter Tuning, avoid tuning on the test set.
+
+A good habit for Reinforcement Learning is to start with simple environments. A good habit for Hyperparameter Tuning is to try random search before anything fancier.

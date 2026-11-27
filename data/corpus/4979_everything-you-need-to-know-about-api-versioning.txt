@@ -1,0 +1,26 @@
+Everything You Need to Know About API Versioning
+
+This page collects the essentials about API Versioning in one place. In short, API Versioning is the practice of evolving an API without breaking existing clients.
+
+Core concepts:
+- version in the URL
+- header versioning
+- deprecation
+- backward compatibility
+
+Where it is used:
+- public APIs
+- mobile apps that cannot update instantly
+- partner integrations
+
+Common problems:
+- versioning too often
+- removing fields without notice
+- having no deprecation schedule
+
+Tools to know:
+- OpenAPI
+- Swagger UI
+- Postman
+
+Remember this above all: keeping old editions of a textbook available while a new one is published is a good way to picture it, and the best habit is to announce deprecations with a clear sunset date.

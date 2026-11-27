@@ -1,0 +1,12 @@
+LSM Trees Glossary for Beginners
+
+New words can make LSM Trees feel harder than it is. This glossary keeps the key ones in one place.
+
+LSM Trees: storage structures that buffer writes in memory and merge them into sorted files on disk.
+memtable: a core term, most visible in write-heavy databases.
+sorted string tables: a core term that beginners often confuse with compaction.
+compaction: a core term that connects to write amplification.
+write amplification: a core term worth revisiting after you try a real example.
+RocksDB: a tool commonly used for time-ordered data.
+
+Come back to this LSM Trees list whenever documentation for LevelDB uses a word you do not recognize.

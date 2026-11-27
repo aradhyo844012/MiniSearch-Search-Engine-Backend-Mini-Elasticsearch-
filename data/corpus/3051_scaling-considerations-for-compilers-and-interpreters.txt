@@ -1,0 +1,11 @@
+Scaling Considerations for Compilers and Interpreters
+
+A design that works for a classroom project can behave very differently under real load. Here is how Compilers and Interpreters changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding lexing and getting running Python and JavaScript right.
+
+Medium scale: problems start to appear. Watch for assuming interpreted means slow without measuring and ignoring compiler warnings, and measure with GCC before changing anything.
+
+Large scale: code generation and bytecode move from background details to central design questions. Teams often revisit their choices around building native programs at this stage.
+
+Before you scale, turn on compiler warnings and treat them seriously. It is cheaper to build that habit early than to fix a crisis later.

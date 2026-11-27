@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Leader Election
+
+This path is for a learner who has never studied Leader Election before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Leader Election is a process by which nodes in a cluster choose one node to coordinate the work) and learn heartbeats and terms or epochs.
+
+Stage 2, hands-on: install ZooKeeper, follow a tutorial, and build a small example involving database primaries.
+
+Stage 3, depth: study candidates and failover, then deliberately explore this problem: split brain.
+
+Stage 4, application: apply Leader Election to job schedulers, compare etcd with Kubernetes leases, and write up your results.
+
+Stage 5, review: teach Leader Election to someone else, and then move on to CQRS.

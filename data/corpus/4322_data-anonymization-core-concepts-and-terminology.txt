@@ -1,0 +1,10 @@
+Data Anonymization: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Data Anonymization with confidence. The subject itself is removing or altering personal details in data so people cannot be identified.
+
+masking: one of the building blocks of Data Anonymization. You should be able to explain it in a single sentence before moving on.
+generalization: one of the building blocks of Data Anonymization. Documentation for ARX usually mentions it early.
+k-anonymity: one of the building blocks of Data Anonymization. Mixing it up with neighboring terms is a common source of confusion.
+differential privacy: one of the building blocks of Data Anonymization. Documentation for ARX usually mentions it early.
+
+Practice using these four terms in sentences about testing with production-like data. If the sentences feel natural, the vocabulary has stuck.

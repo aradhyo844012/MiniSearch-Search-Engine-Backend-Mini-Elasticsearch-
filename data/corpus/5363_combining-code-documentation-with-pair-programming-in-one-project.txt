@@ -1,0 +1,15 @@
+Combining Code Documentation with Pair Programming in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Code Documentation and Pair Programming can work together in a single project.
+
+Code Documentation is written explanations that help others understand and use code. Pair Programming is two developers working together at one computer on the same code.
+
+Imagine a project that involves onboarding new developers and teaching new teammates. Code Documentation brings README files, while Pair Programming brings driver and navigator.
+
+A sensible plan is to start with Sphinx for the Code Documentation part and VS Code Live Share for the Pair Programming part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: comments that repeat the code on one side, and fatigue from long sessions on the other.
+
+Picture the whole as a map left for the next traveler, working alongside a pilot and co-pilot who check each other's decisions.
+
+Two habits help: first, keep documentation in the same repository as the code; second, swap roles every twenty to thirty minutes.

@@ -1,0 +1,13 @@
+Debugging Data Lakes: A Field Guide
+
+When something goes wrong around Data Lakes, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: turning into a data swamp, no catalog or ownership, and poor access controls.
+Step 3: revisit raw storage and schema on read, since misunderstandings there cause many bugs.
+Step 4: use Amazon S3 or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Data Lakes in work such as storing logs and events come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, register every dataset in a catalog with an owner. It prevents a surprising number of repeat problems.

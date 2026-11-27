@@ -1,0 +1,11 @@
+Log Aggregation in Real Projects
+
+Reading about Log Aggregation is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: troubleshooting across services. Here, shippers drives the main design choices, and the team needs to guard against unbounded storage growth.
+
+Scenario two: security investigations. This time indexing matters most, and tools such as Elasticsearch help keep things manageable.
+
+Scenario three: usage analysis. The key idea is retention, and the biggest risk is unstructured logs.
+
+Across all three scenarios, Log Aggregation stays the same idea: collecting logs from many machines into one searchable place. Only the details change.

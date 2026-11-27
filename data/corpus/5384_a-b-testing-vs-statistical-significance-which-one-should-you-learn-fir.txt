@@ -1,0 +1,13 @@
+A/B Testing vs Statistical Significance: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or Statistical Significance first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. Statistical Significance, by contrast, is a measure of how unlikely a result would be if there were no real effect, and it is closely tied to p-values and the null hypothesis.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose Statistical Significance first if you care about judging experiment results or comparing model performance.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of Statistical Significance as asking how surprised you should be if a coin were actually fair. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With Statistical Significance, avoid mistaking significance for importance.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for Statistical Significance is to always report the effect size alongside the p-value.

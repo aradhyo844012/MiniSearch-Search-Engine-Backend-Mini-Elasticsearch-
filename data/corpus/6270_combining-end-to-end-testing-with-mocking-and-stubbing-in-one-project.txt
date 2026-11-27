@@ -1,0 +1,15 @@
+Combining End-to-End Testing with Mocking and Stubbing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how End-to-End Testing and Mocking and Stubbing can work together in a single project.
+
+End-to-End Testing is tests that drive an application through a real user journey from start to finish. Mocking and Stubbing is replacing real dependencies with controlled fakes during tests.
+
+Imagine a project that involves checking login and checkout flows and isolating units. End-to-End Testing brings browser automation, while Mocking and Stubbing brings mocks.
+
+A sensible plan is to start with Playwright for the End-to-End Testing part and unittest.mock for the Mocking and Stubbing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow runs on one side, and tests that mirror the implementation on the other.
+
+Picture the whole as a test drive of the whole car on a real road, working alongside a crash test dummy standing in for a real passenger.
+
+Two habits help: first, cover only the most important user journeys; second, prefer simple fakes over deep mock chains.

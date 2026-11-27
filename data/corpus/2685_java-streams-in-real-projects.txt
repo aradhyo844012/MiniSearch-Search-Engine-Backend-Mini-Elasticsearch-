@@ -1,0 +1,11 @@
+Java Streams in Real Projects
+
+Reading about Java Streams is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: transforming lists. Here, map drives the main design choices, and the team needs to guard against reusing a consumed stream.
+
+Scenario two: aggregating records. This time filter matters most, and tools such as OpenJDK help keep things manageable.
+
+Scenario three: processing data in parallel. The key idea is reduce, and the biggest risk is side effects inside lambdas.
+
+Across all three scenarios, Java Streams stays the same idea: a way of processing collections with chains of declarative operations. Only the details change.

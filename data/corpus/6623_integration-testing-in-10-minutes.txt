@@ -1,0 +1,15 @@
+Integration Testing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Integration Testing.
+
+Minutes 1 and 2, the definition: Integration Testing is tests that check how several parts of a system work together.
+
+Minutes 3 and 4, the vocabulary: learn test databases, service boundaries, fixtures, and test environments.
+
+Minutes 5 and 6, the picture: imagine checking that the gears of a watch mesh before closing the case. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through verifying API and database interaction, catching contract mismatches, and testing third-party integrations.
+
+Minutes 9 and 10, the traps and the tools: watch for slow suites and flaky external dependencies, then try Testcontainers for a first experiment.
+
+If you have a spare minute, remember to use disposable containers for test dependencies.

@@ -1,0 +1,15 @@
+Combining CSS Variables with Client-Side Routing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CSS Variables and Client-Side Routing can work together in a single project.
+
+CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles. Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Imagine a project that involves theme switching and single-page apps. CSS Variables brings custom properties, while Client-Side Routing brings history API.
+
+A sensible plan is to start with browser DevTools for the CSS Variables part and React Router for the Client-Side Routing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: overriding at the wrong scope on one side, and unhandled 404 pages on the other.
+
+Picture the whole as labeled paint buckets you refill once to recolor a whole house, working alongside swapping the picture in a frame without replacing the frame.
+
+Two habits help: first, define theme values on the root element; second, test refreshing the page on every route.

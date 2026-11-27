@@ -1,0 +1,11 @@
+Practice Exercises for B-Trees on Disk
+
+These exercises build real understanding of B-Trees on Disk. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: random writes on fragmented pages. Then fix it.
+Exercise 2: Explain how node splits and sorted keys differ, using a drawing.
+Exercise 3: List three situations from your own experience that resemble database indexes or file system directories.
+Exercise 4: Compare SQLite and MySQL InnoDB for range scans and write down your conclusion.
+Exercise 5: Write a short paragraph describing B-Trees on Disk and include the term pages.
+
+When you finish, compare your answers with the definition: B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently.

@@ -1,0 +1,15 @@
+Combining Blue-Green Deployment with Cloud Cost Optimization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Blue-Green Deployment and Cloud Cost Optimization can work together in a single project.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Cloud Cost Optimization is the practice of reducing cloud spending while keeping performance and reliability.
+
+Imagine a project that involves zero-downtime releases and cutting idle resources. Blue-Green Deployment brings blue and green environments, while Cloud Cost Optimization brings right-sizing.
+
+A sensible plan is to start with AWS CodeDeploy for the Blue-Green Deployment part and AWS Cost Explorer for the Cloud Cost Optimization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: doubling infrastructure costs on one side, and over-provisioned databases on the other.
+
+Picture the whole as swapping to a fully prepared spare stage while the show goes on, working alongside turning off the lights in rooms nobody is using.
+
+Two habits help: first, keep the old environment running until the new one is proven; second, tag every resource with an owner.

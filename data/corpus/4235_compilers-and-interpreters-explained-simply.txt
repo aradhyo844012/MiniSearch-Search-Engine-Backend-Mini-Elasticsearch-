@@ -1,0 +1,13 @@
+Compilers and Interpreters Explained Simply
+
+If Compilers and Interpreters sounds intimidating, relax. It is programs that translate or run source code written in a high-level language, and the idea is simpler than the name suggests.
+
+Think of Compilers and Interpreters as a translator who either translates a whole book first or interprets sentence by sentence. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: lexing, parsing, code generation, and bytecode. You do not need to master them all at once. Start with lexing, then add parsing.
+
+People reach for Compilers and Interpreters when they work on running Python and JavaScript, building native programs, and creating tools like linters.
+
+One practical tip is to turn on compiler warnings and treat them seriously.
+
+After Compilers and Interpreters, a natural next topic is Boolean Logic and Gates.

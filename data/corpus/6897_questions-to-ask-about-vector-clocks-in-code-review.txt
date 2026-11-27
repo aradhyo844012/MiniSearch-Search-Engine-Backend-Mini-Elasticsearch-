@@ -1,0 +1,12 @@
+Questions to Ask About Vector Clocks in Code Review
+
+Reviewing code that involves Vector Clocks is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is per-process counters clear to someone reading the code for the first time?
+- Could we compare clocks entry by entry to detect true concurrency?
+- Have we considered clocks that grow with many nodes?
+- Does this change respect logical time, or does it work around it?
+- Would a test catch confusing them with wall-clock time if it appeared later?
+- Have we avoided this problem: never pruning old entries?
+
+Good reviews of work on Vector Clocks are specific, kind and focused on the happened-before relation, not on personal style.

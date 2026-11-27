@@ -1,0 +1,13 @@
+Modular Monoliths vs Software Estimation: Which One Should You Learn First?
+
+Learners often ask whether to study Modular Monoliths or Software Estimation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Modular Monoliths is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces. Software Estimation, by contrast, is predicting how much time and effort a piece of work will take, and it is closely tied to story points and ranges.
+
+Choose Modular Monoliths first if you care about small teams or early-stage products. Choose Software Estimation first if you care about sprint planning or setting deadlines.
+
+Think of Modular Monoliths as an apartment building with separate flats under one roof, and of Software Estimation as forecasting the weather rather than reading a timetable. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Modular Monoliths, avoid modules reaching into each other's tables. With Software Estimation, avoid treating estimates as promises.
+
+A good habit for Modular Monoliths is to enforce boundaries with automated checks. A good habit for Software Estimation is to give ranges instead of single numbers.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Leader Election
+
+This page collects the essentials about Leader Election in one place. In short, Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.
+
+Core concepts:
+- heartbeats
+- terms or epochs
+- candidates
+- failover
+
+Where it is used:
+- database primaries
+- job schedulers
+- cluster managers
+
+Common problems:
+- split brain
+- flapping leaders
+- slow failure detection
+
+Tools to know:
+- ZooKeeper
+- etcd
+- Kubernetes leases
+
+Remember this above all: a classroom picking a monitor when the teacher leaves is a good way to picture it, and the best habit is to tune heartbeat intervals against real network delays.

@@ -1,0 +1,15 @@
+Combining Transformers with Reinforcement Learning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Transformers and Reinforcement Learning can work together in a single project.
+
+Transformers is neural network architectures that use attention to relate all parts of an input to each other. Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes.
+
+Imagine a project that involves language translation and game playing. Transformers brings self-attention, while Reinforcement Learning brings agent.
+
+A sensible plan is to start with Hugging Face for the Transformers part and Gymnasium for the Reinforcement Learning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: limited context windows on one side, and slow training on the other.
+
+Picture the whole as a reader who can look back at any word of a paragraph while reading each new word, working alongside training a dog with treats for good behavior.
+
+Two habits help: first, begin with small pretrained models; second, start with simple environments.

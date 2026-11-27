@@ -1,0 +1,17 @@
+Python Decorators Do's and Don'ts
+
+A quick list of habits for working with Python Decorators.
+
+Do:
+- Learn higher-order functions before anything else.
+- Try functools on a small example.
+- Make it a habit to always apply functools.wraps inside your decorator.
+- Test the case of logging calls early.
+
+Don't:
+- Ignore this: losing function metadata.
+- Ignore this: stacking decorators in the wrong order.
+- Ignore this: hiding side effects.
+- Adopt Python Decorators just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Python Decorators, a little patience with wrapper functions pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Scaling Considerations for Hashing vs Encryption
+
+A design that works for a classroom project can behave very differently under real load. Here is how Hashing vs Encryption changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding one-way functions and getting storing passwords right.
+
+Medium scale: problems start to appear. Watch for encrypting passwords instead of hashing them and using broken hash functions, and measure with SHA-256 before changing anything.
+
+Large scale: collision resistance and reversibility move from background details to central design questions. Teams often revisit their choices around verifying file integrity at this stage.
+
+Before you scale, ask whether you will ever need the original value back. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,17 @@
+Distributed Locks Do's and Don'ts
+
+A quick list of habits for working with Distributed Locks.
+
+Do:
+- Learn lease times before anything else.
+- Try Redis on a small example.
+- Make it a habit to always use a timeout together with a fencing token.
+- Test the case of running scheduled jobs once early.
+
+Don't:
+- Ignore this: locks that never expire.
+- Ignore this: clock drift.
+- Ignore this: assuming the lock holder is still alive.
+- Adopt Distributed Locks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Distributed Locks, a little patience with fencing tokens pays off more than any clever shortcut.

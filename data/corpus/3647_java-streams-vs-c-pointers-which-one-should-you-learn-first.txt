@@ -1,0 +1,13 @@
+Java Streams vs C Pointers: Which One Should You Learn First?
+
+Learners often ask whether to study Java Streams or C Pointers first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Java Streams is a way of processing collections with chains of declarative operations, and it is closely tied to map and filter. C Pointers, by contrast, is variables that store the memory address of another value, and it is closely tied to addresses and dereferencing.
+
+Choose Java Streams first if you care about transforming lists or aggregating records. Choose C Pointers first if you care about dynamic memory allocation or passing large data efficiently.
+
+Think of Java Streams as a conveyor belt where each station changes the item before passing it on, and of C Pointers as a street address written on a card instead of the house itself. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Java Streams, avoid reusing a consumed stream. With C Pointers, avoid dereferencing null pointers.
+
+A good habit for Java Streams is to keep each stream step small and readable. A good habit for C Pointers is to set pointers to NULL after freeing them.

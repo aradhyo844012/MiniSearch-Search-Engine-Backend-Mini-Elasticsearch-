@@ -1,0 +1,15 @@
+Combining Debugging Strategies with Command Line Productivity in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Debugging Strategies and Command Line Productivity can work together in a single project.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Command Line Productivity is using shell tools and shortcuts to complete tasks faster.
+
+Imagine a project that involves fixing production issues and automating repetitive tasks. Debugging Strategies brings reproducing the bug, while Command Line Productivity brings aliases.
+
+A sensible plan is to start with debuggers for the Debugging Strategies part and bash for the Command Line Productivity part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: guessing without evidence on one side, and dangerous wildcard use on the other.
+
+Picture the whole as a detective narrowing down suspects, working alongside learning the shortcuts on a well-used road.
+
+Two habits help: first, change one thing at a time and record the result; second, turn commands you repeat into small scripts.

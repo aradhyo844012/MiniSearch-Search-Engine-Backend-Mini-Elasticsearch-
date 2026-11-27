@@ -1,0 +1,13 @@
+Skills to Build Around Endianness
+
+Knowing the definition of Endianness is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with big-endian and little-endian, and able to explain them without notes.
+
+Hands-on practice: spend real time with Python struct on a Endianness task, and try at least one alternative such as htons and ntohl.
+
+Judgment: learn to decide when Endianness fits a problem such as network protocols, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example writing a date as day-month-year or as year-month-day.
+
+Habits: always specify byte order in file and protocol formats, and write down what you learn after each project.

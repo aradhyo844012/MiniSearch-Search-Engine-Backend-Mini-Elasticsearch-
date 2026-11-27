@@ -1,0 +1,11 @@
+Scaling Considerations for Feature Flags
+
+A design that works for a classroom project can behave very differently under real load. Here is how Feature Flags changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding flag evaluation and getting dark launches right.
+
+Medium scale: problems start to appear. Watch for never removing old flags and flags that depend on each other, and measure with LaunchDarkly before changing anything.
+
+Large scale: gradual rollout and flag cleanup move from background details to central design questions. Teams often revisit their choices around A/B tests at this stage.
+
+Before you scale, give every flag an owner and a removal date. It is cheaper to build that habit early than to fix a crisis later.

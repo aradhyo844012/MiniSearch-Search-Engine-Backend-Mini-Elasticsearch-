@@ -1,0 +1,26 @@
+Everything You Need to Know About Property-Based Testing
+
+This page collects the essentials about Property-Based Testing in one place. In short, Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold.
+
+Core concepts:
+- properties
+- generators
+- shrinking
+- invariants
+
+Where it is used:
+- testing parsers
+- checking sorting and math functions
+- finding edge cases
+
+Common problems:
+- vague properties
+- slow generators
+- ignoring random seed reports
+
+Tools to know:
+- Hypothesis
+- QuickCheck
+- fast-check
+
+Remember this above all: a robot tester trying thousands of odd inputs is a good way to picture it, and the best habit is to save failing examples as regular tests.

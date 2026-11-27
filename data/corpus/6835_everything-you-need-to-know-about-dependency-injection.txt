@@ -1,0 +1,26 @@
+Everything You Need to Know About Dependency Injection
+
+This page collects the essentials about Dependency Injection in one place. In short, Dependency Injection is a design approach where objects receive their dependencies instead of creating them.
+
+Core concepts:
+- constructor injection
+- interfaces
+- containers
+- inversion of control
+
+Where it is used:
+- easier unit testing
+- swapping implementations
+- configuring services
+
+Common problems:
+- hiding too much behind containers
+- circular dependencies
+- injecting too many dependencies
+
+Tools to know:
+- Spring
+- FastAPI Depends
+- Dagger
+
+Remember this above all: a chef who is handed ingredients instead of shopping for them is a good way to picture it, and the best habit is to inject interfaces so tests can use simple fakes.

@@ -1,0 +1,12 @@
+Threat Modeling Glossary for Beginners
+
+New words can make Threat Modeling feel harder than it is. This glossary keeps the key ones in one place.
+
+Threat Modeling: a structured way of identifying what could go wrong in a system and how to prevent it.
+assets: a core term, most visible in designing new features.
+attackers: a core term that beginners often confuse with trust boundaries.
+trust boundaries: a core term that connects to mitigations.
+mitigations: a core term worth revisiting after you try a real example.
+STRIDE: a tool commonly used for reviewing architecture.
+
+Come back to this Threat Modeling list whenever documentation for OWASP Threat Dragon uses a word you do not recognize.

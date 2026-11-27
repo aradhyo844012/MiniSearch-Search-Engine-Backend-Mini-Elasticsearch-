@@ -1,0 +1,12 @@
+Questions to Ask About Domain-Driven Design in Code Review
+
+Reviewing code that involves Domain-Driven Design is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect ubiquitous language, or does it work around it?
+- Is event storming used consistently, or are we mixing approaches?
+- Is bounded contexts clear to someone reading the code for the first time?
+- Would a test catch models that never match the business if it appeared later?
+- Have we considered using it for simple CRUD apps?
+- Could we agree on shared terms with domain experts before drawing classes?
+
+Good reviews of work on Domain-Driven Design are specific, kind and focused on aggregates, not on personal style.

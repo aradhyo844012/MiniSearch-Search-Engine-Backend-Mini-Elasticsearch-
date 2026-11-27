@@ -1,0 +1,11 @@
+Regression Testing in Real Projects
+
+Reading about Regression Testing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: protecting releases. Here, test suites drives the main design choices, and the team needs to guard against slow suites that nobody runs.
+
+Scenario two: verifying bug fixes. This time automation matters most, and tools such as pytest help keep things manageable.
+
+Scenario three: refactoring safely. The key idea is test selection, and the biggest risk is missing tests for fixed bugs.
+
+Across all three scenarios, Regression Testing stays the same idea: re-running tests after changes to make sure old features still work. Only the details change.

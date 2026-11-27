@@ -1,0 +1,15 @@
+React Hooks Quick Reference
+
+A one-screen reminder for React Hooks. Bookmark it and return when the details fade.
+
+What it is: functions that let components use state and lifecycle features without writing classes.
+Key terms: useState, useEffect, dependency arrays, and custom hooks.
+Typical uses: managing form input, fetching data on load, and sharing logic between components.
+Risks: missing dependencies in effects, calling hooks conditionally, and stale closures.
+Tools: React DevTools, Vite, and the ESLint hooks plugin.
+
+Mental picture: sticky notes a component keeps between redraws.
+
+Habit to build: enable the hooks lint rules from the start.
+
+See also: CSS Variables, which sits close to React Hooks in the area of Frontend Engineering.

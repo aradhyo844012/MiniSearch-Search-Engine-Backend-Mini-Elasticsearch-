@@ -1,0 +1,13 @@
+Jupyter Notebooks vs SQL Window Functions: Which One Should You Learn First?
+
+Learners often ask whether to study Jupyter Notebooks or SQL Window Functions first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Jupyter Notebooks is interactive documents that combine code, results and notes, and it is closely tied to cells and kernels. SQL Window Functions, by contrast, is SQL features that calculate values across related rows without collapsing them, and it is closely tied to the OVER clause and partitions.
+
+Choose Jupyter Notebooks first if you care about exploring data or teaching and demos. Choose SQL Window Functions first if you care about running totals or ranking rows.
+
+Think of Jupyter Notebooks as a lab notebook that can run its own experiments, and of SQL Window Functions as looking at the neighbors in a line without leaving your place. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Jupyter Notebooks, avoid running cells out of order. With SQL Window Functions, avoid forgetting ORDER BY inside the window.
+
+A good habit for Jupyter Notebooks is to restart the kernel and run all cells before sharing. A good habit for SQL Window Functions is to start with ROW_NUMBER and LAG on a small table.

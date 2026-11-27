@@ -1,0 +1,11 @@
+Feature Flags in Real Projects
+
+Reading about Feature Flags is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: dark launches. Here, flag evaluation drives the main design choices, and the team needs to guard against never removing old flags.
+
+Scenario two: A/B tests. This time targeting rules matters most, and tools such as LaunchDarkly help keep things manageable.
+
+Scenario three: emergency kill switches. The key idea is gradual rollout, and the biggest risk is flags that depend on each other.
+
+Across all three scenarios, Feature Flags stays the same idea: switches in configuration that turn features on or off without redeploying code. Only the details change.

@@ -1,0 +1,15 @@
+Apache Spark in 10 Minutes
+
+You have ten minutes, so here is the fast route through Apache Spark.
+
+Minutes 1 and 2, the definition: Apache Spark is a distributed engine for processing large datasets across many machines.
+
+Minutes 3 and 4, the vocabulary: learn DataFrames, transformations and actions, partitions, and lazy execution.
+
+Minutes 5 and 6, the picture: imagine a team of workers each processing a share of a huge pile of papers. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through large ETL jobs, machine learning on big data, and log analysis.
+
+Minutes 9 and 10, the traps and the tools: watch for data skew and too many small partitions, then try PySpark for a first experiment.
+
+If you have a spare minute, remember to avoid collecting large results onto a single machine.

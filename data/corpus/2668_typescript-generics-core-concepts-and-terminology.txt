@@ -1,0 +1,10 @@
+TypeScript Generics: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about TypeScript Generics with confidence. The subject itself is a feature that lets functions and types work with many types while keeping type safety.
+
+type parameters: one of the building blocks of TypeScript Generics. Documentation for tsc usually mentions it early.
+constraints: one of the building blocks of TypeScript Generics. Documentation for tsc usually mentions it early.
+type inference: one of the building blocks of TypeScript Generics. You should be able to explain it in a single sentence before moving on.
+generic interfaces: one of the building blocks of TypeScript Generics. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about typed API clients. If the sentences feel natural, the vocabulary has stuck.

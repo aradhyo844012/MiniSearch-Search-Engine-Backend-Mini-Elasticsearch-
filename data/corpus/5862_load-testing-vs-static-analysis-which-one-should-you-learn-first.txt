@@ -1,0 +1,13 @@
+Load Testing vs Static Analysis: Which One Should You Learn First?
+
+Learners often ask whether to study Load Testing or Static Analysis first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Load Testing is measuring how a system behaves under expected and heavy traffic, and it is closely tied to virtual users and throughput. Static Analysis, by contrast, is automated checking of source code for bugs and style problems without running it, and it is closely tied to linters and type checkers.
+
+Choose Load Testing first if you care about capacity planning or finding bottlenecks. Choose Static Analysis first if you care about catching bugs early or enforcing team style.
+
+Think of Load Testing as a stress test that fills a stadium to see how the exits cope, and of Static Analysis as a spell checker for code. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Load Testing, avoid testing unrealistic traffic. With Static Analysis, avoid ignoring warnings.
+
+A good habit for Load Testing is to report p95 and p99 latency, not only averages. A good habit for Static Analysis is to run it in CI so problems never reach the main branch.

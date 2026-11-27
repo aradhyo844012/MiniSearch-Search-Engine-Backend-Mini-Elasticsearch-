@@ -1,0 +1,17 @@
+Retrieval-Augmented Generation Do's and Don'ts
+
+A quick list of habits for working with Retrieval-Augmented Generation.
+
+Do:
+- Learn retrieval before anything else.
+- Try LangChain on a small example.
+- Make it a habit to evaluate retrieval quality separately from answer quality.
+- Test the case of company knowledge assistants early.
+
+Don't:
+- Ignore this: poor chunking.
+- Ignore this: irrelevant retrieved text.
+- Ignore this: no evaluation of the answers.
+- Adopt Retrieval-Augmented Generation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Retrieval-Augmented Generation, a little patience with chunking pays off more than any clever shortcut.

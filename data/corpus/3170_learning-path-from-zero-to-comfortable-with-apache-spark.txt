@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Apache Spark
+
+This path is for a learner who has never studied Apache Spark before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Apache Spark is a distributed engine for processing large datasets across many machines) and learn DataFrames and transformations and actions.
+
+Stage 2, hands-on: install PySpark, follow a tutorial, and build a small example involving large ETL jobs.
+
+Stage 3, depth: study partitions and lazy execution, then deliberately explore this problem: data skew.
+
+Stage 4, application: apply Apache Spark to machine learning on big data, compare Databricks with the Spark UI, and write up your results.
+
+Stage 5, review: teach Apache Spark to someone else, and then move on to SQL Window Functions.

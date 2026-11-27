@@ -1,0 +1,13 @@
+Progressive Web Apps vs Web Components: Which One Should You Learn First?
+
+Learners often ask whether to study Progressive Web Apps or Web Components first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps, and it is closely tied to web app manifest and service worker. Web Components, by contrast, is browser-native custom elements with their own markup, style and behavior, and it is closely tied to custom elements and shadow DOM.
+
+Choose Progressive Web Apps first if you care about offline-friendly tools or lightweight alternatives to native apps. Choose Web Components first if you care about design system components or widgets reused across frameworks.
+
+Think of Progressive Web Apps as a website that packs its own suitcase so it still works when the network is gone, and of Web Components as a Lego brick in its own sealed packaging. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Progressive Web Apps, avoid ignoring platform limitations. With Web Components, avoid styling surprises across the shadow boundary.
+
+A good habit for Progressive Web Apps is to test the app in airplane mode. A good habit for Web Components is to document the attributes and events like a public API.

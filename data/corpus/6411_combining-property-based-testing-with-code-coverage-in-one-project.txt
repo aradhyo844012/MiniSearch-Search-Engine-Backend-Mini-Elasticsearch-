@@ -1,0 +1,15 @@
+Combining Property-Based Testing with Code Coverage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Property-Based Testing and Code Coverage can work together in a single project.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Code Coverage is a measure of how much of the code is run by tests.
+
+Imagine a project that involves testing parsers and finding untested code. Property-Based Testing brings properties, while Code Coverage brings line coverage.
+
+A sensible plan is to start with Hypothesis for the Property-Based Testing part and coverage.py for the Code Coverage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow generators on one side, and treating coverage as quality on the other.
+
+Picture the whole as a robot tester trying thousands of odd inputs, working alongside a map showing which rooms a security guard has walked through.
+
+Two habits help: first, save failing examples as regular tests; second, use coverage to find gaps, not to judge quality.

@@ -1,0 +1,15 @@
+Combining Hexagonal Architecture with Test-Driven Development in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Hexagonal Architecture and Test-Driven Development can work together in a single project.
+
+Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters. Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass.
+
+Imagine a project that involves testable business logic and designing small modules. Hexagonal Architecture brings ports, while Test-Driven Development brings red, green, refactor.
+
+A sensible plan is to start with Spring for the Hexagonal Architecture part and pytest for the Test-Driven Development part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: leaking framework types into the core on one side, and skipping the refactor step on the other.
+
+Picture the whole as a power strip that lets any plug connect to the same core, working alongside writing the exam questions before teaching the lesson.
+
+Two habits help: first, keep framework imports out of the core domain; second, keep each red-green cycle to a few minutes.

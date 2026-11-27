@@ -1,0 +1,15 @@
+Combining B-Trees on Disk with Write-Ahead Logging in One Project
+
+Real projects rarely use one idea in isolation. This article shows how B-Trees on Disk and Write-Ahead Logging can work together in a single project.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.
+
+Imagine a project that involves database indexes and surviving crashes. B-Trees on Disk brings pages, while Write-Ahead Logging brings log records.
+
+A sensible plan is to start with PostgreSQL for the B-Trees on Disk part and PostgreSQL WAL for the Write-Ahead Logging part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: oversized keys on one side, and log files filling the disk on the other.
+
+Picture the whole as a filing cabinet where each drawer tells you which drawer to open next, working alongside writing a plan in a notebook before changing the real blueprint.
+
+Two habits help: first, keep indexed keys short so more of them fit on a page; second, test crash recovery by killing the process on purpose.

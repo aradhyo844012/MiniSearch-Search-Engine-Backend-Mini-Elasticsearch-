@@ -1,0 +1,11 @@
+Embedded Systems Tips from Experienced Engineers
+
+Engineers who work with Embedded Systems regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Embedded Systems so the next person understands the decision.
+2. Do not skip microcontrollers; everything else builds on it.
+3. Make sure you can plan how firmware updates will be delivered from the start.
+4. Test the case of appliances early, before the design hardens.
+5. Reach for C first, and only then evaluate alternatives such as FreeRTOS.
+
+None of these tips needs special equipment, and all of them apply to medical devices as well.

@@ -1,0 +1,15 @@
+API Versioning Quick Reference
+
+A one-screen reminder for API Versioning. Bookmark it and return when the details fade.
+
+What it is: the practice of evolving an API without breaking existing clients.
+Key terms: version in the URL, header versioning, deprecation, and backward compatibility.
+Typical uses: public APIs, mobile apps that cannot update instantly, and partner integrations.
+Risks: versioning too often, removing fields without notice, and having no deprecation schedule.
+Tools: OpenAPI, Swagger UI, and Postman.
+
+Mental picture: keeping old editions of a textbook available while a new one is published.
+
+Habit to build: announce deprecations with a clear sunset date.
+
+See also: gRPC, which sits close to API Versioning in the area of Backend Engineering.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Data Lakes
+
+This path is for a learner who has never studied Data Lakes before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Data Lakes is large storage systems that keep raw data in its original format until it is needed) and learn raw storage and schema on read.
+
+Stage 2, hands-on: install Amazon S3, follow a tutorial, and build a small example involving storing logs and events.
+
+Stage 3, depth: study partitioning and metadata catalogs, then deliberately explore this problem: turning into a data swamp.
+
+Stage 4, application: apply Data Lakes to machine learning datasets, compare Delta Lake with Apache Iceberg, and write up your results.
+
+Stage 5, review: teach Data Lakes to someone else, and then move on to Data Quality Checks.

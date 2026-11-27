@@ -1,0 +1,11 @@
+Practice Exercises for Security Headers
+
+These exercises build real understanding of Security Headers. Do them in order, and write down your answers.
+
+Exercise 1: Compare Helmet.js and Mozilla Observatory for enforcing HTTPS and write down your conclusion.
+Exercise 2: Pick securityheaders.com and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble hardening websites or reducing clickjacking.
+Exercise 4: Create a small example that deliberately triggers this problem: setting headers on only some routes. Then fix it.
+Exercise 5: Explain how frame protections and referrer policy differ, using a drawing.
+
+When you finish, compare your answers with the definition: Security Headers is HTTP response headers that tell browsers to enforce extra protections.

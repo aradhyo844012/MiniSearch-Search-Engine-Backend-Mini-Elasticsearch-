@@ -1,0 +1,11 @@
+Scaling Considerations for Endianness
+
+A design that works for a classroom project can behave very differently under real load. Here is how Endianness changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding big-endian and getting network protocols right.
+
+Medium scale: problems start to appear. Watch for mixing byte orders and assuming all machines are alike, and measure with Python struct before changing anything.
+
+Large scale: byte order marks and network byte order move from background details to central design questions. Teams often revisit their choices around binary file formats at this stage.
+
+Before you scale, always specify byte order in file and protocol formats. It is cheaper to build that habit early than to fix a crisis later.

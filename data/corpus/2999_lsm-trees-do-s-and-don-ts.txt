@@ -1,0 +1,17 @@
+LSM Trees Do's and Don'ts
+
+A quick list of habits for working with LSM Trees.
+
+Do:
+- Learn memtable before anything else.
+- Try RocksDB on a small example.
+- Make it a habit to watch compaction metrics before blaming the application.
+- Test the case of write-heavy databases early.
+
+Don't:
+- Ignore this: read amplification.
+- Ignore this: compaction stalls.
+- Ignore this: poor bloom filter tuning.
+- Adopt LSM Trees just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with LSM Trees, a little patience with sorted string tables pays off more than any clever shortcut.

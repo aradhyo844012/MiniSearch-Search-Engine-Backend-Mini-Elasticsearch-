@@ -1,0 +1,17 @@
+Embeddings Do's and Don'ts
+
+A quick list of habits for working with Embeddings.
+
+Do:
+- Learn vectors before anything else.
+- Try sentence-transformers on a small example.
+- Make it a habit to use the same embedding model for indexing and querying.
+- Test the case of semantic search early.
+
+Don't:
+- Ignore this: mixing models between indexing and querying.
+- Ignore this: ignoring normalization.
+- Ignore this: stale embeddings after data changes.
+- Adopt Embeddings just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Embeddings, a little patience with cosine similarity pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Debugging Developer Portfolios: A Field Guide
+
+When something goes wrong around Developer Portfolios, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: too many unfinished projects, no explanation of decisions, and broken demo links.
+Step 3: revisit projects and README quality, since misunderstandings there cause many bugs.
+Step 4: use GitHub Pages or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Developer Portfolios in work such as applying for internships come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, feature a few polished projects rather than many half-finished ones. It prevents a surprising number of repeat problems.

@@ -1,0 +1,10 @@
+Leader Election: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Leader Election with confidence. The subject itself is a process by which nodes in a cluster choose one node to coordinate the work.
+
+heartbeats: one of the building blocks of Leader Election. Documentation for ZooKeeper usually mentions it early.
+terms or epochs: one of the building blocks of Leader Election. Mixing it up with neighboring terms is a common source of confusion.
+candidates: one of the building blocks of Leader Election. Mixing it up with neighboring terms is a common source of confusion.
+failover: one of the building blocks of Leader Election. It shows up whenever you work on database primaries.
+
+Practice using these four terms in sentences about job schedulers. If the sentences feel natural, the vocabulary has stuck.

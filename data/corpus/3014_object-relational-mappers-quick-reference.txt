@@ -1,0 +1,15 @@
+Object-Relational Mappers Quick Reference
+
+A one-screen reminder for Object-Relational Mappers. Bookmark it and return when the details fade.
+
+What it is: libraries that map database tables to objects in code.
+Key terms: models, queries, relationships, and migrations.
+Typical uses: building CRUD apps quickly, switching databases, and keeping schema and code aligned.
+Risks: N+1 queries, loading entire tables, and hiding slow SQL.
+Tools: SQLAlchemy, the Django ORM, and Hibernate.
+
+Mental picture: a translator between the language of tables and the language of objects.
+
+Habit to build: log the generated SQL during development.
+
+See also: GraphQL, which sits close to Object-Relational Mappers in the area of Backend Engineering.

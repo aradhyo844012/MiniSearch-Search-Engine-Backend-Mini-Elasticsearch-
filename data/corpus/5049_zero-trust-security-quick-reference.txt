@@ -1,0 +1,15 @@
+Zero Trust Security Quick Reference
+
+A one-screen reminder for Zero Trust Security. Bookmark it and return when the details fade.
+
+What it is: a model that treats every request as untrusted until it is verified.
+Key terms: identity verification, least privilege, micro-segmentation, and continuous checks.
+Typical uses: remote work access, protecting internal services, and limiting breach damage.
+Risks: treating it as a product to buy, poor identity hygiene, and breaking usability.
+Tools: Okta, Tailscale, and identity-aware proxies.
+
+Mental picture: a building where every door checks your badge, not just the front entrance.
+
+Habit to build: start with strong identity and device checks.
+
+See also: Penetration Testing, which sits close to Zero Trust Security in the area of Application Security.

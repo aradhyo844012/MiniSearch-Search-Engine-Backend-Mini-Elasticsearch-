@@ -1,0 +1,11 @@
+Choosing Tools for Endianness
+
+There is no single best tool for Endianness. The right choice depends on your project, your team and your timeline.
+
+Python struct is a common first choice, especially for network protocols. htons and ntohl suits teams that already work with similar technology, and hexdump is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle binary file formats well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: mixing byte orders.
+
+As a rule of thumb, always specify byte order in file and protocol formats, no matter which tool you use.

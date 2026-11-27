@@ -1,0 +1,12 @@
+Random Forests Glossary for Beginners
+
+New words can make Random Forests feel harder than it is. This glossary keeps the key ones in one place.
+
+Random Forests: ensembles of many decision trees whose predictions are combined.
+bagging: a core term, most visible in tabular predictions.
+feature randomness: a core term that beginners often confuse with voting.
+voting: a core term that connects to out-of-bag error.
+out-of-bag error: a core term worth revisiting after you try a real example.
+scikit-learn: a tool commonly used for feature importance ranking.
+
+Come back to this Random Forests list whenever documentation for XGBoost uses a word you do not recognize.

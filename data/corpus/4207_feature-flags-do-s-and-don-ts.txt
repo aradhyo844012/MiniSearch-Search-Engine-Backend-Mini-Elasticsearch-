@@ -1,0 +1,17 @@
+Feature Flags Do's and Don'ts
+
+A quick list of habits for working with Feature Flags.
+
+Do:
+- Learn flag evaluation before anything else.
+- Try LaunchDarkly on a small example.
+- Make it a habit to give every flag an owner and a removal date.
+- Test the case of dark launches early.
+
+Don't:
+- Ignore this: never removing old flags.
+- Ignore this: flags that depend on each other.
+- Ignore this: untested flag combinations.
+- Adopt Feature Flags just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Feature Flags, a little patience with targeting rules pays off more than any clever shortcut.

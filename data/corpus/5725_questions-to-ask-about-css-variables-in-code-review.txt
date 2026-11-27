@@ -1,0 +1,12 @@
+Questions to Ask About CSS Variables in Code Review
+
+Reviewing code that involves CSS Variables is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch overriding at the wrong scope if it appeared later?
+- Could we define theme values on the root element?
+- Does the code handle the case of theme switching correctly?
+- Have we avoided this problem: expecting preprocessor features?
+- Does this change respect custom properties, or does it work around it?
+- Is the var function clear to someone reading the code for the first time?
+
+Good reviews of work on CSS Variables are specific, kind and focused on inheritance, not on personal style.

@@ -1,0 +1,15 @@
+The Pros and Cons of Raft Consensus
+
+No technology is free of trade-offs, and Raft Consensus is no exception. Here is an honest summary.
+
+Advantages:
+- Supports configuration stores
+- Makes distributed locks easier
+- Helps with replicated state machines
+
+Drawbacks and risks:
+- Risk: even-sized clusters
+- Risk: slow disks causing elections
+- Risk: network delays above election timeouts
+
+Weigh the two lists against your own project. If the advantages match your needs, such as configuration stores, and you can manage the risks, Raft Consensus is a sound choice. Whatever you decide, use an odd number of nodes.

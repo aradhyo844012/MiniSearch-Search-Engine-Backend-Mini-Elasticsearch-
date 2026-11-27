@@ -1,0 +1,15 @@
+Union-Find in 10 Minutes
+
+You have ten minutes, so here is the fast route through Union-Find.
+
+Minutes 1 and 2, the definition: Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly.
+
+Minutes 3 and 4, the vocabulary: learn parent pointers, union operation, find operation, and path compression.
+
+Minutes 5 and 6, the picture: imagine a set of club rosters where two clubs can merge into one. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through detecting connected components, building minimum spanning trees, and grouping equivalent items.
+
+Minutes 9 and 10, the traps and the tools: watch for forgetting path compression and merging without checking roots, then try Python lists for a first experiment.
+
+If you have a spare minute, remember to implement path compression and union by rank together.

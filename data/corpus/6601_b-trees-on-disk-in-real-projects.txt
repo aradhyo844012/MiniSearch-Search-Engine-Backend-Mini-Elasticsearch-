@@ -1,0 +1,11 @@
+B-Trees on Disk in Real Projects
+
+Reading about B-Trees on Disk is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: database indexes. Here, pages drives the main design choices, and the team needs to guard against random writes on fragmented pages.
+
+Scenario two: file system directories. This time branching factor matters most, and tools such as PostgreSQL help keep things manageable.
+
+Scenario three: range scans. The key idea is node splits, and the biggest risk is oversized keys.
+
+Across all three scenarios, B-Trees on Disk stays the same idea: balanced tree structures designed to read large blocks from disk efficiently. Only the details change.

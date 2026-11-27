@@ -1,0 +1,15 @@
+The Pros and Cons of Test-Driven Development
+
+No technology is free of trade-offs, and Test-Driven Development is no exception. Here is an honest summary.
+
+Advantages:
+- Supports designing small modules
+- Makes preventing regressions easier
+- Helps with gaining confidence for refactoring
+
+Drawbacks and risks:
+- Risk: writing tests that are too large
+- Risk: skipping the refactor step
+- Risk: testing implementation details
+
+Weigh the two lists against your own project. If the advantages match your needs, such as designing small modules, and you can manage the risks, Test-Driven Development is a sound choice. Whatever you decide, keep each red-green cycle to a few minutes.

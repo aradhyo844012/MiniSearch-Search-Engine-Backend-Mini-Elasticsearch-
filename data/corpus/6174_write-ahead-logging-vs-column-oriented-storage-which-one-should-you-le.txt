@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Column-Oriented Storage: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Column-Oriented Storage first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Column-Oriented Storage, by contrast, is a way of storing table data by column instead of by row to speed up analytics, and it is closely tied to column chunks and compression.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Column-Oriented Storage first if you care about analytics dashboards or large aggregations.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Column-Oriented Storage as a spreadsheet kept as separate lists per column so you can read just one. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Column-Oriented Storage, avoid slow single-row lookups.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Column-Oriented Storage is to select only the columns you really need.

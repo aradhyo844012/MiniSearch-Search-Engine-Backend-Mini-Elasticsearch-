@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Mocking and Stubbing
+
+This path is for a learner who has never studied Mocking and Stubbing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Mocking and Stubbing is replacing real dependencies with controlled fakes during tests) and learn mocks and stubs.
+
+Stage 2, hands-on: install unittest.mock, follow a tutorial, and build a small example involving isolating units.
+
+Stage 3, depth: study spies and fakes, then deliberately explore this problem: over-mocking.
+
+Stage 4, application: apply Mocking and Stubbing to simulating failures, compare Mockito with Sinon.js, and write up your results.
+
+Stage 5, review: teach Mocking and Stubbing to someone else, and then move on to Integration Testing.

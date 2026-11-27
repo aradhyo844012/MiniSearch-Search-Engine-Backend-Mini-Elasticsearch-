@@ -1,0 +1,15 @@
+Backtracking Quick Reference
+
+A one-screen reminder for Backtracking. Bookmark it and return when the details fade.
+
+What it is: a search technique that builds solutions step by step and undoes steps that lead to dead ends.
+Key terms: decision tree, pruning, state restoration, and constraint checking.
+Typical uses: solving Sudoku, generating permutations, and N-Queens puzzles.
+Risks: forgetting to undo changes, missing pruning rules, and copying large state at every step.
+Tools: Python recursion, itertools, and debuggers.
+
+Mental picture: walking a maze and returning to the last fork whenever you hit a wall.
+
+Habit to build: prune as early as possible because the savings multiply.
+
+See also: Segment Trees, which sits close to Backtracking in the area of Algorithms in Practice.

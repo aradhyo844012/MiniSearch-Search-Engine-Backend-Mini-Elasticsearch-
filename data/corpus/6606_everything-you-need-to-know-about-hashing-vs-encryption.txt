@@ -1,0 +1,26 @@
+Everything You Need to Know About Hashing vs Encryption
+
+This page collects the essentials about Hashing vs Encryption in one place. In short, Hashing vs Encryption is the difference between one-way digests and reversible protection of data.
+
+Core concepts:
+- one-way functions
+- keys
+- collision resistance
+- reversibility
+
+Where it is used:
+- storing passwords
+- verifying file integrity
+- protecting data in transit
+
+Common problems:
+- encrypting passwords instead of hashing them
+- using broken hash functions
+- confusing encoding with encryption
+
+Tools to know:
+- SHA-256
+- AES
+- OpenSSL
+
+Remember this above all: a paper shredder compared with a locked suitcase is a good way to picture it, and the best habit is to ask whether you will ever need the original value back.

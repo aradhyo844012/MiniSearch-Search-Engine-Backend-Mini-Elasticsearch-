@@ -1,0 +1,10 @@
+Python Decorators: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Python Decorators with confidence. The subject itself is functions that wrap other functions to add behavior without changing their code.
+
+higher-order functions: one of the building blocks of Python Decorators. Documentation for functools usually mentions it early.
+wrapper functions: one of the building blocks of Python Decorators. Mixing it up with neighboring terms is a common source of confusion.
+functools.wraps: one of the building blocks of Python Decorators. You should be able to explain it in a single sentence before moving on.
+decorator arguments: one of the building blocks of Python Decorators. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about caching results. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,17 @@
+GraphQL Do's and Don'ts
+
+A quick list of habits for working with GraphQL.
+
+Do:
+- Learn schema before anything else.
+- Try Apollo on a small example.
+- Make it a habit to use a data loader to avoid N+1 queries.
+- Test the case of mobile apps with limited bandwidth early.
+
+Don't:
+- Ignore this: the N+1 query problem.
+- Ignore this: unbounded query depth.
+- Ignore this: weak caching.
+- Adopt GraphQL just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with GraphQL, a little patience with queries and mutations pays off more than any clever shortcut.

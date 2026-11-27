@@ -1,0 +1,13 @@
+CPU Caches vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study CPU Caches or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data, and it is closely tied to cache lines and hit and miss rates. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose CPU Caches first if you care about speeding up loops or explaining performance differences. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CPU Caches, avoid false sharing. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for CPU Caches is to access arrays in the order they are stored. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

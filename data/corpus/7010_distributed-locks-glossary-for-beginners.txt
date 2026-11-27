@@ -1,0 +1,12 @@
+Distributed Locks Glossary for Beginners
+
+New words can make Distributed Locks feel harder than it is. This glossary keeps the key ones in one place.
+
+Distributed Locks: mechanisms that ensure only one process at a time performs a critical action across machines.
+lease times: a core term, most visible in running scheduled jobs once.
+fencing tokens: a core term that beginners often confuse with lock owners.
+lock owners: a core term that connects to timeouts.
+timeouts: a core term worth revisiting after you try a real example.
+Redis: a tool commonly used for protecting shared resources.
+
+Come back to this Distributed Locks list whenever documentation for ZooKeeper uses a word you do not recognize.

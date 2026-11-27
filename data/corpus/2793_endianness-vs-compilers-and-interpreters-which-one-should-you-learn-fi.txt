@@ -1,0 +1,13 @@
+Endianness vs Compilers and Interpreters: Which One Should You Learn First?
+
+Learners often ask whether to study Endianness or Compilers and Interpreters first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number, and it is closely tied to big-endian and little-endian. Compilers and Interpreters, by contrast, is programs that translate or run source code written in a high-level language, and it is closely tied to lexing and parsing.
+
+Choose Endianness first if you care about network protocols or binary file formats. Choose Compilers and Interpreters first if you care about running Python and JavaScript or building native programs.
+
+Think of Endianness as writing a date as day-month-year or as year-month-day, and of Compilers and Interpreters as a translator who either translates a whole book first or interprets sentence by sentence. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Endianness, avoid mixing byte orders. With Compilers and Interpreters, avoid assuming interpreted means slow without measuring.
+
+A good habit for Endianness is to always specify byte order in file and protocol formats. A good habit for Compilers and Interpreters is to turn on compiler warnings and treat them seriously.

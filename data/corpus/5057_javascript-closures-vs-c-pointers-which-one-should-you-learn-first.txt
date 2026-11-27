@@ -1,0 +1,13 @@
+JavaScript Closures vs C Pointers: Which One Should You Learn First?
+
+Learners often ask whether to study JavaScript Closures or C Pointers first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+JavaScript Closures is functions that remember the variables from the place where they were created, and it is closely tied to lexical scope and captured variables. C Pointers, by contrast, is variables that store the memory address of another value, and it is closely tied to addresses and dereferencing.
+
+Choose JavaScript Closures first if you care about keeping private state in modules or event handlers that need context. Choose C Pointers first if you care about dynamic memory allocation or passing large data efficiently.
+
+Think of JavaScript Closures as a backpack a function carries with everything it needs from home, and of C Pointers as a street address written on a card instead of the house itself. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With JavaScript Closures, avoid loop variables captured by mistake. With C Pointers, avoid dereferencing null pointers.
+
+A good habit for JavaScript Closures is to use let instead of var inside loops. A good habit for C Pointers is to set pointers to NULL after freeing them.

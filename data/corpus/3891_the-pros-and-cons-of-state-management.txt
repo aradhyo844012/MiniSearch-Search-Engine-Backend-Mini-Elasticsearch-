@@ -1,0 +1,15 @@
+The Pros and Cons of State Management
+
+No technology is free of trade-offs, and State Management is no exception. Here is an honest summary.
+
+Advantages:
+- Supports large single-page apps
+- Makes shared shopping carts easier
+- Helps with multi-step form wizards
+
+Drawbacks and risks:
+- Risk: putting everything in global state
+- Risk: duplicated state that drifts apart
+- Risk: unclear update paths
+
+Weigh the two lists against your own project. If the advantages match your needs, such as large single-page apps, and you can manage the risks, State Management is a sound choice. Whatever you decide, keep state as close as possible to where it is used.

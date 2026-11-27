@@ -1,0 +1,11 @@
+Scaling Considerations for Hexagonal Architecture
+
+A design that works for a classroom project can behave very differently under real load. Here is how Hexagonal Architecture changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding ports and getting testable business logic right.
+
+Medium scale: problems start to appear. Watch for too many layers for small apps and leaking framework types into the core, and measure with Spring before changing anything.
+
+Large scale: the core domain and dependency direction move from background details to central design questions. Teams often revisit their choices around swapping databases at this stage.
+
+Before you scale, keep framework imports out of the core domain. It is cheaper to build that habit early than to fix a crisis later.

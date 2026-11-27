@@ -1,0 +1,15 @@
+Regression Testing Quick Reference
+
+A one-screen reminder for Regression Testing. Bookmark it and return when the details fade.
+
+What it is: re-running tests after changes to make sure old features still work.
+Key terms: test suites, automation, test selection, and bug reproduction tests.
+Typical uses: protecting releases, verifying bug fixes, and refactoring safely.
+Risks: slow suites that nobody runs, missing tests for fixed bugs, and ignoring flaky failures.
+Tools: pytest, GitHub Actions, and Jenkins.
+
+Mental picture: rechecking the old keys after cutting a new lock.
+
+Habit to build: add a test for every bug you fix.
+
+See also: Property-Based Testing, which sits close to Regression Testing in the area of Testing and Quality.

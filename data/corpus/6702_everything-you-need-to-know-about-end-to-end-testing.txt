@@ -1,0 +1,26 @@
+Everything You Need to Know About End-to-End Testing
+
+This page collects the essentials about End-to-End Testing in one place. In short, End-to-End Testing is tests that drive an application through a real user journey from start to finish.
+
+Core concepts:
+- browser automation
+- user flows
+- test data
+- selectors
+
+Where it is used:
+- checking login and checkout flows
+- release verification
+- cross-browser checks
+
+Common problems:
+- flaky tests
+- slow runs
+- brittle selectors
+
+Tools to know:
+- Playwright
+- Cypress
+- Selenium
+
+Remember this above all: a test drive of the whole car on a real road is a good way to picture it, and the best habit is to cover only the most important user journeys.

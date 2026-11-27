@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with C Pointers
+
+This is a fictional but realistic day for a developer whose project relies on C Pointers.
+
+Morning: Sneha starts by reviewing a ticket about dynamic memory allocation. Before touching any code, Sneha re-reads the notes on addresses to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore dereferencing with GCC. A small test exposes the problem of dereferencing null pointers, and they fix it together.
+
+Afternoon: the team discusses a new request involving passing large data efficiently. Sneha sketches a street address written on a card instead of the house itself on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to set pointers to NULL after freeing them.
+
+Days like this are typical. C Pointers is not glamorous, but understanding it keeps small problems from growing.

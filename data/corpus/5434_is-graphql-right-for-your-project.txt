@@ -1,0 +1,11 @@
+Is GraphQL Right for Your Project?
+
+Before adopting GraphQL, ask whether it fits the problem. Remember that GraphQL is a query language for APIs that lets clients ask for exactly the fields they need.
+
+It is a good fit when your work involves mobile apps with limited bandwidth or aggregating many services, and when your team understands schema.
+
+Be cautious when the project is very small, when deadlines leave no room to learn queries and mutations, or when you cannot manage these risks: the N+1 query problem, unbounded query depth, and weak caching.
+
+A simple decision test: write down the problem in one sentence, then check whether resolvers and types are part of the answer. If they are, GraphQL is probably worth a closer look.
+
+If you decide to go ahead, start small with flexible dashboards and use a data loader to avoid N+1 queries.

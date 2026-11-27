@@ -1,0 +1,12 @@
+Write-Ahead Logging Glossary for Beginners
+
+New words can make Write-Ahead Logging feel harder than it is. This glossary keeps the key ones in one place.
+
+Write-Ahead Logging: a technique that records changes in a log before they are applied to the main data.
+log records: a core term, most visible in surviving crashes.
+checkpoints: a core term that beginners often confuse with crash recovery.
+crash recovery: a core term that connects to fsync.
+fsync: a core term worth revisiting after you try a real example.
+PostgreSQL WAL: a tool commonly used for feeding replication streams.
+
+Come back to this Write-Ahead Logging list whenever documentation for SQLite journal uses a word you do not recognize.

@@ -1,0 +1,17 @@
+Push Notifications Do's and Don'ts
+
+A quick list of habits for working with Push Notifications.
+
+Do:
+- Learn device tokens before anything else.
+- Try Firebase Cloud Messaging on a small example.
+- Make it a habit to ask for permission at a moment when the user understands the value.
+- Test the case of order updates early.
+
+Don't:
+- Ignore this: asking for permission too early.
+- Ignore this: sending too many messages.
+- Ignore this: ignoring token refresh.
+- Adopt Push Notifications just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Push Notifications, a little patience with push services pays off more than any clever shortcut.

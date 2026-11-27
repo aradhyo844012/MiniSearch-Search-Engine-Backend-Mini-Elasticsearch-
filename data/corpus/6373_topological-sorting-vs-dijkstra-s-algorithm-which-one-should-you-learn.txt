@@ -1,0 +1,13 @@
+Topological Sorting vs Dijkstra's Algorithm: Which One Should You Learn First?
+
+Learners often ask whether to study Topological Sorting or Dijkstra's Algorithm first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on, and it is closely tied to directed acyclic graphs and in-degree counts. Dijkstra's Algorithm, by contrast, is a method for finding the shortest path from one node to all others in a graph with non-negative weights, and it is closely tied to priority queue and distance table.
+
+Choose Topological Sorting first if you care about build systems or course prerequisite planning. Choose Dijkstra's Algorithm first if you care about route planning or network routing.
+
+Think of Topological Sorting as a recipe that must list every step after the steps it depends on, and of Dijkstra's Algorithm as a GPS that keeps expanding to the nearest unvisited intersection. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Topological Sorting, avoid ignoring cycles. With Dijkstra's Algorithm, avoid using it with negative edge weights.
+
+A good habit for Topological Sorting is to check for cycles first so you can report a clear error. A good habit for Dijkstra's Algorithm is to stop as soon as the destination is popped from the queue.

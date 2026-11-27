@@ -1,0 +1,13 @@
+Hexagonal Architecture vs Test-Driven Development: Which One Should You Learn First?
+
+Learners often ask whether to study Hexagonal Architecture or Test-Driven Development first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters, and it is closely tied to ports and adapters. Test-Driven Development, by contrast, is a workflow where you write a failing test first and then write code to make it pass, and it is closely tied to red, green, refactor and small steps.
+
+Choose Hexagonal Architecture first if you care about testable business logic or swapping databases. Choose Test-Driven Development first if you care about designing small modules or preventing regressions.
+
+Think of Hexagonal Architecture as a power strip that lets any plug connect to the same core, and of Test-Driven Development as writing the exam questions before teaching the lesson. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hexagonal Architecture, avoid too many layers for small apps. With Test-Driven Development, avoid writing tests that are too large.
+
+A good habit for Hexagonal Architecture is to keep framework imports out of the core domain. A good habit for Test-Driven Development is to keep each red-green cycle to a few minutes.

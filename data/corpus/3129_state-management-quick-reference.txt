@@ -1,0 +1,15 @@
+State Management Quick Reference
+
+A one-screen reminder for State Management. Bookmark it and return when the details fade.
+
+What it is: the practice of organizing where an application keeps and updates its data.
+Key terms: single source of truth, actions, reducers, and derived state.
+Typical uses: large single-page apps, shared shopping carts, and multi-step form wizards.
+Risks: putting everything in global state, duplicated state that drifts apart, and unclear update paths.
+Tools: Redux, Zustand, and Vue Pinia.
+
+Mental picture: a shared whiteboard that everyone updates through the same rules.
+
+Habit to build: keep state as close as possible to where it is used.
+
+See also: Form Validation, which sits close to State Management in the area of Frontend Engineering.

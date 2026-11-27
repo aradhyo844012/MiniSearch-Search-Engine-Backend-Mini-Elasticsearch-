@@ -1,0 +1,11 @@
+Is Configuration Management Right for Your Project?
+
+Before adopting Configuration Management, ask whether it fits the problem. Remember that Configuration Management is keeping application settings separate from code so they can change per environment.
+
+It is a good fit when your work involves separating development and production or toggling features, and when your team understands environment variables.
+
+Be cautious when the project is very small, when deadlines leave no room to learn config files, or when you cannot manage these risks: committing secrets, inconsistent defaults, and undocumented settings.
+
+A simple decision test: write down the problem in one sentence, then check whether defaults and secrets handling are part of the answer. If they are, Configuration Management is probably worth a closer look.
+
+If you decide to go ahead, start small with deploying the same build everywhere and fail fast at startup if a required setting is missing.

@@ -1,0 +1,17 @@
+Property-Based Testing Do's and Don'ts
+
+A quick list of habits for working with Property-Based Testing.
+
+Do:
+- Learn properties before anything else.
+- Try Hypothesis on a small example.
+- Make it a habit to save failing examples as regular tests.
+- Test the case of testing parsers early.
+
+Don't:
+- Ignore this: vague properties.
+- Ignore this: slow generators.
+- Ignore this: ignoring random seed reports.
+- Adopt Property-Based Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Property-Based Testing, a little patience with generators pays off more than any clever shortcut.

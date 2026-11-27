@@ -1,0 +1,9 @@
+Understanding Blue-Green Deployment Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture swapping to a fully prepared spare stage while the show goes on.
+
+In that picture, blue and green environments is the first rule you follow, traffic switching is the next step, and rollback and database compatibility keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one, and it involves details such as database schema mismatches that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for AWS CodeDeploy to learn the exact behavior. The same picture helps when you explain zero-downtime releases to a friend.

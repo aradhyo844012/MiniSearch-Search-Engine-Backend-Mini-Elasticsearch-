@@ -1,0 +1,26 @@
+Everything You Need to Know About Union-Find
+
+This page collects the essentials about Union-Find in one place. In short, Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly.
+
+Core concepts:
+- parent pointers
+- union operation
+- find operation
+- path compression
+
+Where it is used:
+- detecting connected components
+- building minimum spanning trees
+- grouping equivalent items
+
+Common problems:
+- forgetting path compression
+- merging without checking roots
+- using it when deletions are required
+
+Tools to know:
+- Python lists
+- scipy.sparse.csgraph
+- NetworkX
+
+Remember this above all: a set of club rosters where two clubs can merge into one is a good way to picture it, and the best habit is to implement path compression and union by rank together.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Mobile App Security
+
+This page collects the essentials about Mobile App Security in one place. In short, Mobile App Security is practices that protect mobile apps and their data from attacks.
+
+Core concepts:
+- secure storage
+- certificate pinning
+- obfuscation
+- permissions
+
+Where it is used:
+- banking apps
+- health apps
+- enterprise apps
+
+Common problems:
+- storing tokens in plain text
+- hard-coded API keys
+- requesting unnecessary permissions
+
+Tools to know:
+- OWASP MASVS
+- Android Keystore
+- iOS Keychain
+
+Remember this above all: locking an app's valuables in a hotel safe is a good way to picture it, and the best habit is to store secrets in the platform keychain or keystore.

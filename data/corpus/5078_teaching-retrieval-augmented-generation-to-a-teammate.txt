@@ -1,0 +1,13 @@
+Teaching Retrieval-Augmented Generation to a Teammate
+
+Explaining Retrieval-Augmented Generation to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an open-book exam where the student first looks up the right pages. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers. Avoid jargon at this stage.
+
+Walk through an example involving company knowledge assistants, naming retrieval and chunking as they come up.
+
+Ask your teammate to explain prompts with context in Retrieval-Augmented Generation back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, poor chunking, and suggest this habit: evaluate retrieval quality separately from answer quality.

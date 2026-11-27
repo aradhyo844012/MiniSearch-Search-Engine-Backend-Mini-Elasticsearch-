@@ -1,0 +1,15 @@
+Combining Content Security Policy with Security Headers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Content Security Policy and Security Headers can work together in a single project.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load. Security Headers is HTTP response headers that tell browsers to enforce extra protections.
+
+Imagine a project that involves reducing the impact of XSS and hardening websites. Content Security Policy brings directives, while Security Headers brings Strict-Transport-Security.
+
+A sensible plan is to start with browser DevTools for the Content Security Policy part and securityheaders.com for the Security Headers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: policies too broad to help on one side, and breaking embeds on the other.
+
+Picture the whole as a guest list at the door of a building, working alongside safety instructions printed on the packaging of every page.
+
+Two habits help: first, start in report-only mode to learn what would break; second, test the headers on every environment.

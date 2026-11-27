@@ -1,0 +1,11 @@
+Is Transformers Right for Your Project?
+
+Before adopting Transformers, ask whether it fits the problem. Remember that Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+It is a good fit when your work involves language translation or text generation, and when your team understands self-attention.
+
+Be cautious when the project is very small, when deadlines leave no room to learn positional encoding, or when you cannot manage these risks: huge compute requirements, limited context windows, and biased training data.
+
+A simple decision test: write down the problem in one sentence, then check whether encoder and decoder blocks and tokens are part of the answer. If they are, Transformers is probably worth a closer look.
+
+If you decide to go ahead, start small with code assistance and begin with small pretrained models.

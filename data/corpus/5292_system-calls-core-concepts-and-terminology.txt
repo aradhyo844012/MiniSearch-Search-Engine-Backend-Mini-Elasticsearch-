@@ -1,0 +1,10 @@
+System Calls: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about System Calls with confidence. The subject itself is the controlled doorway through which programs ask the operating system to do privileged work.
+
+user mode and kernel mode: one of the building blocks of System Calls. Documentation for strace usually mentions it early.
+syscall numbers: one of the building blocks of System Calls. It shows up whenever you work on reading and writing files.
+file descriptors: one of the building blocks of System Calls. It shows up whenever you work on reading and writing files.
+libc wrappers: one of the building blocks of System Calls. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about creating processes. If the sentences feel natural, the vocabulary has stuck.

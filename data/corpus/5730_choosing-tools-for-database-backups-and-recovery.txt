@@ -1,0 +1,11 @@
+Choosing Tools for Database Backups and Recovery
+
+There is no single best tool for Database Backups and Recovery. The right choice depends on your project, your team and your timeline.
+
+pg_dump is a common first choice, especially for recovering deleted tables. mysqldump suits teams that already work with similar technology, and AWS Backup is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle migrating servers well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: never testing restores.
+
+As a rule of thumb, schedule a restore drill on a regular basis, no matter which tool you use.

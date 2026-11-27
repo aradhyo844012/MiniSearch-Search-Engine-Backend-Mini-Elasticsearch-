@@ -1,0 +1,9 @@
+Understanding Graph Databases Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a city map where intersections are records and roads are relationships.
+
+In that picture, nodes is the first rule you follow, edges is the next step, and properties and traversal queries keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Graph Databases is databases that store data as nodes and relationships and query connections directly, and it involves details such as using them for simple tabular data that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Neo4j to learn the exact behavior. The same picture helps when you explain social networks to a friend.

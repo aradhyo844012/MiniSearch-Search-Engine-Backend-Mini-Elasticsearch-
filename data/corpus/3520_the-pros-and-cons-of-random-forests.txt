@@ -1,0 +1,15 @@
+The Pros and Cons of Random Forests
+
+No technology is free of trade-offs, and Random Forests is no exception. Here is an honest summary.
+
+Advantages:
+- Supports tabular predictions
+- Makes feature importance ranking easier
+- Helps with strong baseline models
+
+Drawbacks and risks:
+- Risk: treating importance scores as causes
+- Risk: very large forests being slow
+- Risk: ignoring class imbalance
+
+Weigh the two lists against your own project. If the advantages match your needs, such as tabular predictions, and you can manage the risks, Random Forests is a sound choice. Whatever you decide, tune the number of trees only after the basics work.

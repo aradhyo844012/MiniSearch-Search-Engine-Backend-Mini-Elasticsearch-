@@ -1,0 +1,11 @@
+gRPC in Real Projects
+
+Reading about gRPC is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: service-to-service calls. Here, protocol buffers drives the main design choices, and the team needs to guard against breaking changes in message fields.
+
+Scenario two: low-latency APIs. This time service definitions matters most, and tools such as protoc help keep things manageable.
+
+Scenario three: streaming data. The key idea is streaming, and the biggest risk is poor browser support without a proxy.
+
+Across all three scenarios, gRPC stays the same idea: a framework for fast remote procedure calls using typed contracts. Only the details change.

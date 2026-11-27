@@ -1,0 +1,11 @@
+Scaling Considerations for JavaScript Closures
+
+A design that works for a classroom project can behave very differently under real load. Here is how JavaScript Closures changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding lexical scope and getting keeping private state in modules right.
+
+Medium scale: problems start to appear. Watch for loop variables captured by mistake and memory leaks from long-lived closures, and measure with Chrome DevTools before changing anything.
+
+Large scale: function factories and memory retention move from background details to central design questions. Teams often revisit their choices around event handlers that need context at this stage.
+
+Before you scale, use let instead of var inside loops. It is cheaper to build that habit early than to fix a crisis later.

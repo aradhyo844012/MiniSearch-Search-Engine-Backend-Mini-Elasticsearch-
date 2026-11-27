@@ -1,0 +1,11 @@
+Distributed Tracing Tips from Experienced Engineers
+
+Engineers who work with Distributed Tracing regularly tend to repeat the same advice. Here it is.
+
+1. Reach for OpenTelemetry first, and only then evaluate alternatives such as Jaeger.
+2. Do not skip spans; everything else builds on it.
+3. Be careful with this one: missing context propagation.
+4. When something behaves strangely, revisit trace IDs before anything else.
+5. Write down why you chose Distributed Tracing so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to understanding dependencies as well.

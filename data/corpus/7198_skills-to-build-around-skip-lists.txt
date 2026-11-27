@@ -1,0 +1,13 @@
+Skills to Build Around Skip Lists
+
+Knowing the definition of Skip Lists is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with multiple levels and random level assignment, and able to explain them without notes.
+
+Hands-on practice: spend real time with Redis sorted sets on a Skip Lists task, and try at least one alternative such as Java ConcurrentSkipListMap.
+
+Judgment: learn to decide when Skip Lists fits a problem such as ordered in-memory indexes, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example an express train line layered over a local train line.
+
+Habits: draw several levels by hand to see how a search moves down, and write down what you learn after each project.

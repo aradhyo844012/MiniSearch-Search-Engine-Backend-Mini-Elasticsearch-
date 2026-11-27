@@ -1,0 +1,11 @@
+Choosing Tools for Idempotency
+
+There is no single best tool for Idempotency. The right choice depends on your project, your team and your timeline.
+
+Stripe idempotency keys is a common first choice, especially for payment APIs. Redis suits teams that already work with similar technology, and database unique constraints is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle message processing well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: keys that expire too soon.
+
+As a rule of thumb, store the result with the key so retries return the same response, no matter which tool you use.

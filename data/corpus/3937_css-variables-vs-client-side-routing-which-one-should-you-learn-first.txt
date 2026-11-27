@@ -1,0 +1,13 @@
+CSS Variables vs Client-Side Routing: Which One Should You Learn First?
+
+Learners often ask whether to study CSS Variables or Client-Side Routing first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles, and it is closely tied to custom properties and the var function. Client-Side Routing, by contrast, is changing the visible page in the browser without a full page reload, and it is closely tied to history API and route matching.
+
+Choose CSS Variables first if you care about theme switching or design systems. Choose Client-Side Routing first if you care about single-page apps or dashboards.
+
+Think of CSS Variables as labeled paint buckets you refill once to recolor a whole house, and of Client-Side Routing as swapping the picture in a frame without replacing the frame. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CSS Variables, avoid missing fallbacks. With Client-Side Routing, avoid broken deep links.
+
+A good habit for CSS Variables is to define theme values on the root element. A good habit for Client-Side Routing is to test refreshing the page on every route.

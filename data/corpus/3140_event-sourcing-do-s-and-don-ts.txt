@@ -1,0 +1,17 @@
+Event Sourcing Do's and Don'ts
+
+A quick list of habits for working with Event Sourcing.
+
+Do:
+- Learn event log before anything else.
+- Try Apache Kafka on a small example.
+- Make it a habit to version your events from the first day.
+- Test the case of audit trails early.
+
+Don't:
+- Ignore this: changing event formats carelessly.
+- Ignore this: unbounded replay times.
+- Ignore this: using it for simple CRUD apps.
+- Adopt Event Sourcing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Event Sourcing, a little patience with projections pays off more than any clever shortcut.

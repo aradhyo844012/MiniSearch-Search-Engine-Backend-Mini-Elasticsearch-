@@ -1,0 +1,26 @@
+Everything You Need to Know About Connection Pooling
+
+This page collects the essentials about Connection Pooling in one place. In short, Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request.
+
+Core concepts:
+- pool size
+- idle connections
+- timeouts
+- connection leaks
+
+Where it is used:
+- web backends
+- serverless functions that call databases
+- high-traffic APIs
+
+Common problems:
+- pools larger than the database allows
+- leaked connections
+- long transactions that hold connections
+
+Tools to know:
+- PgBouncer
+- HikariCP
+- SQLAlchemy pools
+
+Remember this above all: a rental desk that lends a few shared bikes instead of buying one per visitor is a good way to picture it, and the best habit is to always return connections in a finally block.

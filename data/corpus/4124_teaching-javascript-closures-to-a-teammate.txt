@@ -1,0 +1,13 @@
+Teaching JavaScript Closures to a Teammate
+
+Explaining JavaScript Closures to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a backpack a function carries with everything it needs from home. Ask your teammate what the picture suggests.
+
+Then give the plain definition: JavaScript Closures is functions that remember the variables from the place where they were created. Avoid jargon at this stage.
+
+Walk through an example involving keeping private state in modules, naming lexical scope and captured variables as they come up.
+
+Ask your teammate to explain function factories in JavaScript Closures back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, loop variables captured by mistake, and suggest this habit: use let instead of var inside loops.

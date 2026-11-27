@@ -1,0 +1,13 @@
+Random Forests vs Reinforcement Learning: Which One Should You Learn First?
+
+Learners often ask whether to study Random Forests or Reinforcement Learning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Random Forests is ensembles of many decision trees whose predictions are combined, and it is closely tied to bagging and feature randomness. Reinforcement Learning, by contrast, is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment.
+
+Choose Random Forests first if you care about tabular predictions or feature importance ranking. Choose Reinforcement Learning first if you care about game playing or robot control.
+
+Think of Random Forests as asking many different experts and taking the majority view, and of Reinforcement Learning as training a dog with treats for good behavior. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Random Forests, avoid treating importance scores as causes. With Reinforcement Learning, avoid badly designed rewards.
+
+A good habit for Random Forests is to tune the number of trees only after the basics work. A good habit for Reinforcement Learning is to start with simple environments.

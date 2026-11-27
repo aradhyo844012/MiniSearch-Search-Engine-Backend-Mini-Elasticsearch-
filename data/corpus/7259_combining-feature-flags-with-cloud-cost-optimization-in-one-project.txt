@@ -1,0 +1,15 @@
+Combining Feature Flags with Cloud Cost Optimization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Feature Flags and Cloud Cost Optimization can work together in a single project.
+
+Feature Flags is switches in configuration that turn features on or off without redeploying code. Cloud Cost Optimization is the practice of reducing cloud spending while keeping performance and reliability.
+
+Imagine a project that involves dark launches and cutting idle resources. Feature Flags brings flag evaluation, while Cloud Cost Optimization brings right-sizing.
+
+A sensible plan is to start with LaunchDarkly for the Feature Flags part and AWS Cost Explorer for the Cloud Cost Optimization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flags that depend on each other on one side, and over-provisioned databases on the other.
+
+Picture the whole as light switches wired to every room of a house, working alongside turning off the lights in rooms nobody is using.
+
+Two habits help: first, give every flag an owner and a removal date; second, tag every resource with an owner.

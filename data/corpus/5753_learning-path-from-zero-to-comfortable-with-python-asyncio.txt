@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Python Asyncio
+
+This path is for a learner who has never studied Python Asyncio before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Python Asyncio is a library for running many waiting tasks concurrently on a single thread) and learn event loop and coroutines.
+
+Stage 2, hands-on: install asyncio, follow a tutorial, and build a small example involving calling many APIs at once.
+
+Stage 3, depth: study await and tasks, then deliberately explore this problem: blocking calls inside coroutines.
+
+Stage 4, application: apply Python Asyncio to web servers, compare aiohttp with FastAPI, and write up your results.
+
+Stage 5, review: teach Python Asyncio to someone else, and then move on to Java Streams.

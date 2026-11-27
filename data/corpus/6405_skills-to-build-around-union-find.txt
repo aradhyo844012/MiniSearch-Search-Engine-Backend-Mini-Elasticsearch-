@@ -1,0 +1,13 @@
+Skills to Build Around Union-Find
+
+Knowing the definition of Union-Find is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with parent pointers and union operation, and able to explain them without notes.
+
+Hands-on practice: spend real time with Python lists on a Union-Find task, and try at least one alternative such as scipy.sparse.csgraph.
+
+Judgment: learn to decide when Union-Find fits a problem such as detecting connected components, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a set of club rosters where two clubs can merge into one.
+
+Habits: implement path compression and union by rank together, and write down what you learn after each project.

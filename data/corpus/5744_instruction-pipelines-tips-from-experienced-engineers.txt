@@ -1,0 +1,11 @@
+Instruction Pipelines Tips from Experienced Engineers
+
+Engineers who work with Instruction Pipelines regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: unpredictable branches.
+2. Test the case of explaining CPU speed early, before the design hardens.
+3. Write down why you chose Instruction Pipelines so the next person understands the decision.
+4. When something behaves strangely, revisit hazards before anything else.
+5. Reach for perf first, and only then evaluate alternatives such as Compiler Explorer.
+
+None of these tips needs special equipment, and all of them apply to understanding branch costs as well.

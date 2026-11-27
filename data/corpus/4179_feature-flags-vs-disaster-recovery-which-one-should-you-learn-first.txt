@@ -1,0 +1,13 @@
+Feature Flags vs Disaster Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Feature Flags or Disaster Recovery first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Feature Flags is switches in configuration that turn features on or off without redeploying code, and it is closely tied to flag evaluation and targeting rules. Disaster Recovery, by contrast, is the plans and systems that restore services after major failures, and it is closely tied to recovery time objective and recovery point objective.
+
+Choose Feature Flags first if you care about dark launches or A/B tests. Choose Disaster Recovery first if you care about surviving regional outages or meeting compliance needs.
+
+Think of Feature Flags as light switches wired to every room of a house, and of Disaster Recovery as a fire drill for a whole system. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Feature Flags, avoid never removing old flags. With Disaster Recovery, avoid untested plans.
+
+A good habit for Feature Flags is to give every flag an owner and a removal date. A good habit for Disaster Recovery is to run a failover exercise on a regular schedule.

@@ -1,0 +1,11 @@
+Scaling Considerations for Threat Modeling
+
+A design that works for a classroom project can behave very differently under real load. Here is how Threat Modeling changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding assets and getting designing new features right.
+
+Medium scale: problems start to appear. Watch for doing it once and never again and ignoring data flows, and measure with STRIDE before changing anything.
+
+Large scale: trust boundaries and mitigations move from background details to central design questions. Teams often revisit their choices around reviewing architecture at this stage.
+
+Before you scale, draw the data flow diagram first. It is cheaper to build that habit early than to fix a crisis later.

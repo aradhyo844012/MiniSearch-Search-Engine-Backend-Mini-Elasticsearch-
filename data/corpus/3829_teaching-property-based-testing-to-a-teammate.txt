@@ -1,0 +1,13 @@
+Teaching Property-Based Testing to a Teammate
+
+Explaining Property-Based Testing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a robot tester trying thousands of odd inputs. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Avoid jargon at this stage.
+
+Walk through an example involving testing parsers, naming properties and generators as they come up.
+
+Ask your teammate to explain shrinking in Property-Based Testing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, vague properties, and suggest this habit: save failing examples as regular tests.

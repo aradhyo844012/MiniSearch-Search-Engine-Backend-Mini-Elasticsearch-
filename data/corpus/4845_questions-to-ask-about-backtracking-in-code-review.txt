@@ -1,0 +1,12 @@
+Questions to Ask About Backtracking in Code Review
+
+Reviewing code that involves Backtracking is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect decision tree, or does it work around it?
+- Could we prune as early as possible because the savings multiply?
+- Have we avoided this problem: copying large state at every step?
+- Would a test catch missing pruning rules if it appeared later?
+- Is pruning clear to someone reading the code for the first time?
+- Is Python recursion used consistently, or are we mixing approaches?
+
+Good reviews of work on Backtracking are specific, kind and focused on state restoration, not on personal style.

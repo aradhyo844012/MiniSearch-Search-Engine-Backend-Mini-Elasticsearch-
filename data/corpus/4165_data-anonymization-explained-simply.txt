@@ -1,0 +1,13 @@
+Data Anonymization Explained Simply
+
+If Data Anonymization sounds intimidating, relax. It is removing or altering personal details in data so people cannot be identified, and the idea is simpler than the name suggests.
+
+Think of Data Anonymization as blurring faces in a crowd photo while keeping the scene. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: masking, generalization, k-anonymity, and differential privacy. You do not need to master them all at once. Start with masking, then add generalization.
+
+People reach for Data Anonymization when they work on sharing datasets with researchers, testing with production-like data, and meeting privacy rules.
+
+One practical tip is to test whether combining fields could identify a person.
+
+After Data Anonymization, a natural next topic is Jupyter Notebooks.

@@ -1,0 +1,11 @@
+Scaling Considerations for Code Editors and IDEs
+
+A design that works for a classroom project can behave very differently under real load. Here is how Code Editors and IDEs changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding syntax highlighting and getting daily development right.
+
+Medium scale: problems start to appear. Watch for installing too many extensions and ignoring keyboard shortcuts, and measure with VS Code before changing anything.
+
+Large scale: debugger integration and extensions move from background details to central design questions. Teams often revisit their choices around navigating large codebases at this stage.
+
+Before you scale, learn the shortcuts for the actions you repeat most. It is cheaper to build that habit early than to fix a crisis later.

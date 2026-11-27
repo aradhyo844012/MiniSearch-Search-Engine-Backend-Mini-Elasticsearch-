@@ -1,0 +1,15 @@
+The Pros and Cons of Idempotency
+
+No technology is free of trade-offs, and Idempotency is no exception. Here is an honest summary.
+
+Advantages:
+- Supports payment APIs
+- Makes message processing easier
+- Helps with retrying failed requests
+
+Drawbacks and risks:
+- Risk: keys that expire too soon
+- Risk: side effects outside the guarded step
+- Risk: reusing keys for different requests
+
+Weigh the two lists against your own project. If the advantages match your needs, such as payment APIs, and you can manage the risks, Idempotency is a sound choice. Whatever you decide, store the result with the key so retries return the same response.

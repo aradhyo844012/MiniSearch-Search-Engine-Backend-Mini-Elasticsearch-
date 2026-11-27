@@ -1,0 +1,11 @@
+Is Chaos Engineering Right for Your Project?
+
+Before adopting Chaos Engineering, ask whether it fits the problem. Remember that Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+It is a good fit when your work involves testing resilience or validating failover, and when your team understands steady state.
+
+Be cautious when the project is very small, when deadlines leave no room to learn hypotheses, or when you cannot manage these risks: experimenting without safeguards, having no steady-state metrics, and running first in production.
+
+A simple decision test: write down the problem in one sentence, then check whether blast radius and fault injection are part of the answer. If they are, Chaos Engineering is probably worth a closer look.
+
+If you decide to go ahead, start small with preparing teams for incidents and start with small experiments in a test environment.

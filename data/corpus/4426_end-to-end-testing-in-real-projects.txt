@@ -1,0 +1,11 @@
+End-to-End Testing in Real Projects
+
+Reading about End-to-End Testing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: checking login and checkout flows. Here, browser automation drives the main design choices, and the team needs to guard against flaky tests.
+
+Scenario two: release verification. This time user flows matters most, and tools such as Playwright help keep things manageable.
+
+Scenario three: cross-browser checks. The key idea is test data, and the biggest risk is slow runs.
+
+Across all three scenarios, End-to-End Testing stays the same idea: tests that drive an application through a real user journey from start to finish. Only the details change.

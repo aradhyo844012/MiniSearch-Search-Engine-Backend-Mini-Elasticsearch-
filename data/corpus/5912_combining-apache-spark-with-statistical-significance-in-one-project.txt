@@ -1,0 +1,15 @@
+Combining Apache Spark with Statistical Significance in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Apache Spark and Statistical Significance can work together in a single project.
+
+Apache Spark is a distributed engine for processing large datasets across many machines. Statistical Significance is a measure of how unlikely a result would be if there were no real effect.
+
+Imagine a project that involves large ETL jobs and judging experiment results. Apache Spark brings DataFrames, while Statistical Significance brings p-values.
+
+A sensible plan is to start with PySpark for the Apache Spark part and SciPy for the Statistical Significance part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: too many small partitions on one side, and p-hacking on the other.
+
+Picture the whole as a team of workers each processing a share of a huge pile of papers, working alongside asking how surprised you should be if a coin were actually fair.
+
+Two habits help: first, avoid collecting large results onto a single machine; second, always report the effect size alongside the p-value.

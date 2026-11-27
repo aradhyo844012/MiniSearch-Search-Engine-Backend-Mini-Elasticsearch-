@@ -1,0 +1,15 @@
+Raft Consensus Quick Reference
+
+A one-screen reminder for Raft Consensus. Bookmark it and return when the details fade.
+
+What it is: an algorithm that lets a group of servers agree on a shared log of operations.
+Key terms: leader election, log replication, terms, and majority quorum.
+Typical uses: configuration stores, distributed locks, and replicated state machines.
+Risks: even-sized clusters, slow disks causing elections, and network delays above election timeouts.
+Tools: etcd, Consul, and HashiCorp Raft library.
+
+Mental picture: a committee that elects a chair and only records decisions most members confirm.
+
+Habit to build: use an odd number of nodes.
+
+See also: Consistent Hashing, which sits close to Raft Consensus in the area of Distributed Systems.

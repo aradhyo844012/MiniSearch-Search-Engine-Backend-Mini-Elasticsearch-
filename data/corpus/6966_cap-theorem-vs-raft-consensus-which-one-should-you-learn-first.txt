@@ -1,0 +1,13 @@
+CAP Theorem vs Raft Consensus: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or Raft Consensus first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. Raft Consensus, by contrast, is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose Raft Consensus first if you care about configuration stores or distributed locks.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of Raft Consensus as a committee that elects a chair and only records decisions most members confirm. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With Raft Consensus, avoid even-sized clusters.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for Raft Consensus is to use an odd number of nodes.

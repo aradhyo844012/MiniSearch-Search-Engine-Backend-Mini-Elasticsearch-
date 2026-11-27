@@ -1,0 +1,13 @@
+Feature Flags Explained Simply
+
+If Feature Flags sounds intimidating, relax. It is switches in configuration that turn features on or off without redeploying code, and the idea is simpler than the name suggests.
+
+Think of Feature Flags as light switches wired to every room of a house. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: flag evaluation, targeting rules, gradual rollout, and flag cleanup. You do not need to master them all at once. Start with flag evaluation, then add targeting rules.
+
+You will meet Feature Flags in work such as dark launches, A/B tests, and emergency kill switches.
+
+One practical tip is to give every flag an owner and a removal date.
+
+Once Feature Flags feels comfortable, read about Autoscaling, which lives in the same neighborhood of ideas.

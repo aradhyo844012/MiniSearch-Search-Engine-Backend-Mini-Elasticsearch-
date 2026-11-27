@@ -1,0 +1,13 @@
+Teaching gRPC to a Teammate
+
+Explaining gRPC to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a phone line with a pre-agreed script for every call. Ask your teammate what the picture suggests.
+
+Then give the plain definition: gRPC is a framework for fast remote procedure calls using typed contracts. Avoid jargon at this stage.
+
+Walk through an example involving service-to-service calls, naming protocol buffers and service definitions as they come up.
+
+Ask your teammate to explain streaming in gRPC back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, breaking changes in message fields, and suggest this habit: never reuse or renumber field numbers in a proto file.

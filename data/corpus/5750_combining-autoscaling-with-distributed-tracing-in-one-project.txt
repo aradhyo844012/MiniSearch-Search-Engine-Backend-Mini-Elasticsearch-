@@ -1,0 +1,15 @@
+Combining Autoscaling with Distributed Tracing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Autoscaling and Distributed Tracing can work together in a single project.
+
+Autoscaling is automatically adding or removing computing resources as demand changes. Distributed Tracing is following a single request as it passes through many services.
+
+Imagine a project that involves handling traffic spikes and finding slow services. Autoscaling brings scaling metrics, while Distributed Tracing brings spans.
+
+A sensible plan is to start with Kubernetes HPA for the Autoscaling part and OpenTelemetry for the Distributed Tracing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flapping because of short spikes on one side, and sampling too aggressively on the other.
+
+Picture the whole as a restaurant opening extra tables when a crowd arrives, working alongside a parcel tracking page that shows every stop on the route.
+
+Two habits help: first, load test the system to find realistic thresholds; second, propagate trace IDs through every outgoing call.

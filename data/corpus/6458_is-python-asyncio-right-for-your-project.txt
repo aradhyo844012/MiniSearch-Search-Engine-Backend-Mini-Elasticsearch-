@@ -1,0 +1,11 @@
+Is Python Asyncio Right for Your Project?
+
+Before adopting Python Asyncio, ask whether it fits the problem. Remember that Python Asyncio is a library for running many waiting tasks concurrently on a single thread.
+
+It is a good fit when your work involves calling many APIs at once or web servers, and when your team understands event loop.
+
+Be cautious when the project is very small, when deadlines leave no room to learn coroutines, or when you cannot manage these risks: blocking calls inside coroutines, forgetting to await, and mixing threads and event loops carelessly.
+
+A simple decision test: write down the problem in one sentence, then check whether await and tasks are part of the answer. If they are, Python Asyncio is probably worth a closer look.
+
+If you decide to go ahead, start small with network clients and never call blocking code directly inside a coroutine.

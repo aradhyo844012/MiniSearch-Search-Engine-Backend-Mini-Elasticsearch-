@@ -1,0 +1,15 @@
+Retrieval-Augmented Generation Quick Reference
+
+A one-screen reminder for Retrieval-Augmented Generation. Bookmark it and return when the details fade.
+
+What it is: a technique that gives a language model relevant documents to read before it answers.
+Key terms: retrieval, chunking, prompts with context, and grounding.
+Typical uses: company knowledge assistants, question answering over documents, and support bots.
+Risks: poor chunking, irrelevant retrieved text, and no evaluation of the answers.
+Tools: LangChain, FAISS, and Elasticsearch.
+
+Mental picture: an open-book exam where the student first looks up the right pages.
+
+Habit to build: evaluate retrieval quality separately from answer quality.
+
+See also: Hyperparameter Tuning, which sits close to Retrieval-Augmented Generation in the area of AI and Machine Learning.

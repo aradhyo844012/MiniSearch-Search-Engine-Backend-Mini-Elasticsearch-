@@ -1,0 +1,9 @@
+Understanding gRPC Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a phone line with a pre-agreed script for every call.
+
+In that picture, protocol buffers is the first rule you follow, service definitions is the next step, and streaming and HTTP/2 keep everything running smoothly.
+
+Every analogy breaks down eventually. Real gRPC is a framework for fast remote procedure calls using typed contracts, and it involves details such as breaking changes in message fields that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for protoc to learn the exact behavior. The same picture helps when you explain service-to-service calls to a friend.

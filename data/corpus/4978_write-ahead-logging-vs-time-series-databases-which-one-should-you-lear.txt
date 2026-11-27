@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Time-Series Databases: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Time-Series Databases first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Time-Series Databases, by contrast, is databases optimized for storing and querying data points ordered by time, and it is closely tied to timestamps and retention policies.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Time-Series Databases first if you care about server metrics or sensor readings.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Time-Series Databases as a long logbook where every line starts with the time. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Time-Series Databases, avoid high-cardinality tags.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Time-Series Databases is to include a time range in every query.

@@ -1,0 +1,11 @@
+Is Go Goroutines Right for Your Project?
+
+Before adopting Go Goroutines, ask whether it fits the problem. Remember that Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.
+
+It is a good fit when your work involves servers handling many connections or parallel data processing, and when your team understands goroutines.
+
+Be cautious when the project is very small, when deadlines leave no room to learn channels, or when you cannot manage these risks: goroutine leaks, data races, and unbuffered channels causing deadlocks.
+
+A simple decision test: write down the problem in one sentence, then check whether select statements and wait groups are part of the answer. If they are, Go Goroutines is probably worth a closer look.
+
+If you decide to go ahead, start small with background workers and run your tests with the race detector turned on.

@@ -1,0 +1,15 @@
+Combining Zero Trust Security with Single Sign-On in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Zero Trust Security and Single Sign-On can work together in a single project.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified. Single Sign-On is letting users log in once and access several applications.
+
+Imagine a project that involves remote work access and company intranets. Zero Trust Security brings identity verification, while Single Sign-On brings identity provider.
+
+A sensible plan is to start with Okta for the Zero Trust Security part and Okta for the Single Sign-On part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor identity hygiene on one side, and misconfigured redirects on the other.
+
+Picture the whole as a building where every door checks your badge, not just the front entrance, working alongside a festival wristband that opens every gate.
+
+Two habits help: first, start with strong identity and device checks; second, plan for identity provider outages.

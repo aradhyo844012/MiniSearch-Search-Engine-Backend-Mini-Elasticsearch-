@@ -1,0 +1,11 @@
+Scaling Considerations for Arduino Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Arduino Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding sketches and getting reading sensors right.
+
+Medium scale: problems start to appear. Watch for wiring errors and blocking delays in the loop, and measure with Arduino IDE before changing anything.
+
+Large scale: setup and loop functions and the serial monitor move from background details to central design questions. Teams often revisit their choices around driving motors and LEDs at this stage.
+
+Before you scale, test each sensor on its own before combining them. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Choosing Tools for TypeScript Generics
+
+There is no single best tool for TypeScript Generics. The right choice depends on your project, your team and your timeline.
+
+tsc is a common first choice, especially for reusable utility functions. the TypeScript Playground suits teams that already work with similar technology, and ESLint is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle typed API clients well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: overusing any.
+
+As a rule of thumb, add constraints so that error messages become clearer, no matter which tool you use.

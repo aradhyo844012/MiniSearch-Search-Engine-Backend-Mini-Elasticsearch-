@@ -1,0 +1,9 @@
+Understanding Encryption at Rest Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a locked safe inside a locked room.
+
+In that picture, symmetric keys is the first rule you follow, key management is the next step, and disk encryption and envelope encryption keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Encryption at Rest is protecting stored data by encrypting it on disk or in a database, and it involves details such as storing keys next to the data that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for LUKS to learn the exact behavior. The same picture helps when you explain protecting backups to a friend.

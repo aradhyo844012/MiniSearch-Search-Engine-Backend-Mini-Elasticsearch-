@@ -1,0 +1,11 @@
+Is Logging Best Practices Right for Your Project?
+
+Before adopting Logging Best Practices, ask whether it fits the problem. Remember that Logging Best Practices is recording useful, structured information about what an application is doing.
+
+It is a good fit when your work involves debugging production issues or auditing actions, and when your team understands log levels.
+
+Be cautious when the project is very small, when deadlines leave no room to learn structured logs, or when you cannot manage these risks: logging sensitive data, too much noise, and missing context.
+
+A simple decision test: write down the problem in one sentence, then check whether correlation IDs and log rotation are part of the answer. If they are, Logging Best Practices is probably worth a closer look.
+
+If you decide to go ahead, start small with measuring usage and include a request ID in every log line.

@@ -1,0 +1,11 @@
+Is Graph Databases Right for Your Project?
+
+Before adopting Graph Databases, ask whether it fits the problem. Remember that Graph Databases is databases that store data as nodes and relationships and query connections directly.
+
+It is a good fit when your work involves social networks or recommendation engines, and when your team understands nodes.
+
+Be cautious when the project is very small, when deadlines leave no room to learn edges, or when you cannot manage these risks: using them for simple tabular data, unbounded traversals, and supernodes with millions of edges.
+
+A simple decision test: write down the problem in one sentence, then check whether properties and traversal queries are part of the answer. If they are, Graph Databases is probably worth a closer look.
+
+If you decide to go ahead, start small with fraud detection and limit traversal depth in every exploratory query.

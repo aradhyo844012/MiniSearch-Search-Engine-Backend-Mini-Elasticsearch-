@@ -1,0 +1,13 @@
+Raspberry Pi vs Embedded Systems: Which One Should You Learn First?
+
+Learners often ask whether to study Raspberry Pi or Embedded Systems first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Raspberry Pi is a small, low-cost computer popular for learning, prototypes and home projects, and it is closely tied to GPIO pins and Linux. Embedded Systems, by contrast, is computers built into devices to perform dedicated tasks within tight limits, and it is closely tied to microcontrollers and firmware.
+
+Choose Raspberry Pi first if you care about home automation or learning Linux. Choose Embedded Systems first if you care about appliances or medical devices.
+
+Think of Raspberry Pi as a pocket-sized workshop for experiments, and of Embedded Systems as a small brain inside an appliance that only knows one job. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raspberry Pi, avoid SD card corruption. With Embedded Systems, avoid memory leaks on tiny devices.
+
+A good habit for Raspberry Pi is to use a quality power supply and a reliable memory card. A good habit for Embedded Systems is to plan how firmware updates will be delivered from the start.

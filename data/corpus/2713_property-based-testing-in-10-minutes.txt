@@ -1,0 +1,15 @@
+Property-Based Testing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Property-Based Testing.
+
+Minutes 1 and 2, the definition: Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold.
+
+Minutes 3 and 4, the vocabulary: learn properties, generators, shrinking, and invariants.
+
+Minutes 5 and 6, the picture: imagine a robot tester trying thousands of odd inputs. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through testing parsers, checking sorting and math functions, and finding edge cases.
+
+Minutes 9 and 10, the traps and the tools: watch for vague properties and slow generators, then try Hypothesis for a first experiment.
+
+If you have a spare minute, remember to save failing examples as regular tests.

@@ -1,0 +1,13 @@
+Star Schema Modeling Explained Simply
+
+If Star Schema Modeling sounds intimidating, relax. It is a way of organizing analytics data into a central fact table surrounded by dimension tables, and the idea is simpler than the name suggests.
+
+Think of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: fact tables, dimension tables, surrogate keys, and grain. You do not need to master them all at once. Start with fact tables, then add dimension tables.
+
+People reach for Star Schema Modeling when they work on business intelligence reports, data warehouses, and fast aggregations.
+
+One practical tip is to state the grain of the fact table before designing anything else.
+
+Once Star Schema Modeling feels comfortable, read about Feature Stores, which lives in the same neighborhood of ideas.

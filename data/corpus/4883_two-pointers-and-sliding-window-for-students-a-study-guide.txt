@@ -1,0 +1,17 @@
+Two Pointers and Sliding Window for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Two Pointers and Sliding Window.
+
+Learning goals:
+1. Explain Two Pointers and Sliding Window in your own words.
+2. Describe left and right pointers, window boundaries, invariants, and shrinking and expanding.
+3. Give examples from finding pairs with a given sum and longest substring problems.
+4. Name three problems to watch for.
+
+Start with the definition: Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops. Then draw a small frame that slides along a line of text on paper and label the four terms from the goals above.
+
+Self-test questions: Why is moving the wrong pointer a problem? How does window boundaries relate to invariants? When would you choose Python lists or collections.deque?
+
+Study habit worth keeping: write down the window invariant before coding the loop.
+
+When you feel ready, compare Two Pointers and Sliding Window with Fenwick Trees and write down three differences.

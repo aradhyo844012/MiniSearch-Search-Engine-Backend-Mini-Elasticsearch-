@@ -1,0 +1,13 @@
+Event Sourcing Explained Simply
+
+Here is Event Sourcing without the jargon: it is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+Think of Event Sourcing as a bank statement that lists every transaction instead of only the balance. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: event log, projections, snapshots, and replay. You do not need to master them all at once. Start with event log, then add projections.
+
+People reach for Event Sourcing when they work on audit trails, financial ledgers, and rebuilding read models.
+
+One practical tip is to version your events from the first day.
+
+After Event Sourcing, a natural next topic is Distributed Locks.

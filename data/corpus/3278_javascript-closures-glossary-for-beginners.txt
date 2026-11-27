@@ -1,0 +1,12 @@
+JavaScript Closures Glossary for Beginners
+
+New words can make JavaScript Closures feel harder than it is. This glossary keeps the key ones in one place.
+
+JavaScript Closures: functions that remember the variables from the place where they were created.
+lexical scope: a core term, most visible in keeping private state in modules.
+captured variables: a core term that beginners often confuse with function factories.
+function factories: a core term that connects to memory retention.
+memory retention: a core term worth revisiting after you try a real example.
+Chrome DevTools: a tool commonly used for event handlers that need context.
+
+Come back to this JavaScript Closures list whenever documentation for Node.js uses a word you do not recognize.

@@ -1,0 +1,15 @@
+The Pros and Cons of Apache Spark
+
+No technology is free of trade-offs, and Apache Spark is no exception. Here is an honest summary.
+
+Advantages:
+- Supports large ETL jobs
+- Makes machine learning on big data easier
+- Helps with log analysis
+
+Drawbacks and risks:
+- Risk: data skew
+- Risk: too many small partitions
+- Risk: collecting huge results onto the driver
+
+Weigh the two lists against your own project. If the advantages match your needs, such as large ETL jobs, and you can manage the risks, Apache Spark is a sound choice. Whatever you decide, avoid collecting large results onto a single machine.

@@ -1,0 +1,13 @@
+Garbage Collection vs Regular Expressions: Which One Should You Learn First?
+
+Learners often ask whether to study Garbage Collection or Regular Expressions first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Garbage Collection is automatic memory management that finds and frees objects a program no longer uses, and it is closely tied to reachability and generations. Regular Expressions, by contrast, is compact patterns for matching and extracting text, and it is closely tied to character classes and quantifiers.
+
+Choose Garbage Collection first if you care about managed languages like Java and Python or reducing memory bugs. Choose Regular Expressions first if you care about validating input or searching logs.
+
+Think of Garbage Collection as a cleaner who removes items nobody has touched in a while, and of Regular Expressions as a stencil that only lets certain shapes of text show through. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Garbage Collection, avoid creating huge numbers of short-lived objects. With Regular Expressions, avoid catastrophic backtracking.
+
+A good habit for Garbage Collection is to measure allocation rates before tuning collector settings. A good habit for Regular Expressions is to build patterns in small steps and test each one.

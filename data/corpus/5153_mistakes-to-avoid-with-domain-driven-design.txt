@@ -1,0 +1,11 @@
+Mistakes to Avoid with Domain-Driven Design
+
+Everyone learns Domain-Driven Design partly through mistakes. Here are three worth avoiding.
+
+Mistake one: using it for simple CRUD apps. It usually appears when someone skips ubiquitous language and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: models that never match the business. It tends to be noticed late, often during testing of complex business systems. A short checklist during review catches it early.
+
+Mistake three: ignoring context boundaries. It is easy to miss because everything seems to work at first. Keep an eye on entities and value objects to spot it.
+
+If you remember only one rule, make it this: agree on shared terms with domain experts before drawing classes.

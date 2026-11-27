@@ -1,0 +1,13 @@
+CSRF Explained Simply
+
+Here is CSRF without the jargon: it is an attack that tricks a logged-in user's browser into sending unwanted requests to a site.
+
+Think of CSRF as a forged letter that a bank clerk stamps because your ID is already on file. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: session cookies, anti-CSRF tokens, SameSite cookies, and state-changing requests. You do not need to master them all at once. Start with session cookies, then add anti-CSRF tokens.
+
+People reach for CSRF when they work on protecting forms, securing account settings, and hardening admin panels.
+
+One practical tip is to combine SameSite cookies with anti-CSRF tokens.
+
+After CSRF, a natural next topic is Content Security Policy.

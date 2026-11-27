@@ -1,0 +1,11 @@
+Fenwick Trees in Real Projects
+
+Reading about Fenwick Trees is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: counting inversions. Here, binary indexed trees drives the main design choices, and the team needs to guard against using zero-based indexes by mistake.
+
+Scenario two: maintaining running totals. This time lowest set bit matters most, and tools such as C++ vectors help keep things manageable.
+
+Scenario three: building frequency tables. The key idea is prefix sums, and the biggest risk is forgetting that nodes store partial sums.
+
+Across all three scenarios, Fenwick Trees stays the same idea: a compact structure for prefix sums that supports fast updates. Only the details change.

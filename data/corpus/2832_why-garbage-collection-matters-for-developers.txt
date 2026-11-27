@@ -1,0 +1,11 @@
+Why Garbage Collection Matters for Developers
+
+Developers who understand Garbage Collection make better decisions, because Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.
+
+Three situations show why it matters. First, managed languages like Java and Python. Second, reducing memory bugs. Third, long-running services. In each case, a solid grasp of reachability and generations separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: creating huge numbers of short-lived objects, holding references longer than needed, and ignoring pause times in latency-sensitive code.
+
+You will not need to build everything yourself; JVM GC logs, the Python gc module, and VisualVM cover most needs.
+
+Connect Garbage Collection with Rust Ownership to see the bigger picture of Programming Languages.

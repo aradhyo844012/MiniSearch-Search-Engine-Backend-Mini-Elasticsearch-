@@ -1,0 +1,9 @@
+Understanding Write-Ahead Logging Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture writing a plan in a notebook before changing the real blueprint.
+
+In that picture, log records is the first rule you follow, checkpoints is the next step, and crash recovery and fsync keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it involves details such as disabling fsync for speed that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PostgreSQL WAL to learn the exact behavior. The same picture helps when you explain surviving crashes to a friend.

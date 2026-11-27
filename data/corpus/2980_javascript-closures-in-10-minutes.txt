@@ -1,0 +1,15 @@
+JavaScript Closures in 10 Minutes
+
+You have ten minutes, so here is the fast route through JavaScript Closures.
+
+Minutes 1 and 2, the definition: JavaScript Closures is functions that remember the variables from the place where they were created.
+
+Minutes 3 and 4, the vocabulary: learn lexical scope, captured variables, function factories, and memory retention.
+
+Minutes 5 and 6, the picture: imagine a backpack a function carries with everything it needs from home. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through keeping private state in modules, event handlers that need context, and callbacks that remember settings.
+
+Minutes 9 and 10, the traps and the tools: watch for loop variables captured by mistake and memory leaks from long-lived closures, then try Chrome DevTools for a first experiment.
+
+If you have a spare minute, remember to use let instead of var inside loops.

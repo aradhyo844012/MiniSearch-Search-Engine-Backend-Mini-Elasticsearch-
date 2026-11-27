@@ -1,0 +1,11 @@
+Practice Exercises for Python Decorators
+
+These exercises build real understanding of Python Decorators. Do them in order, and write down your answers.
+
+Exercise 1: Compare Flask routes and pytest fixtures for checking permissions and write down your conclusion.
+Exercise 2: List three situations from your own experience that resemble logging calls or caching results.
+Exercise 3: Explain how functools.wraps and decorator arguments differ, using a drawing.
+Exercise 4: Pick functools and complete its getting-started tutorial.
+Exercise 5: Create a small example that deliberately triggers this problem: losing function metadata. Then fix it.
+
+When you finish, compare your answers with the definition: Python Decorators is functions that wrap other functions to add behavior without changing their code.

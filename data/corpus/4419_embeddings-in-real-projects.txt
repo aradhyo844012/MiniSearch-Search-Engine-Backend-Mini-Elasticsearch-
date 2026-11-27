@@ -1,0 +1,11 @@
+Embeddings in Real Projects
+
+Reading about Embeddings is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: semantic search. Here, vectors drives the main design choices, and the team needs to guard against mixing models between indexing and querying.
+
+Scenario two: recommendations. This time cosine similarity matters most, and tools such as sentence-transformers help keep things manageable.
+
+Scenario three: clustering text. The key idea is dimensionality, and the biggest risk is ignoring normalization.
+
+Across all three scenarios, Embeddings stays the same idea: lists of numbers that represent words, images or items so that similar things sit close together. Only the details change.

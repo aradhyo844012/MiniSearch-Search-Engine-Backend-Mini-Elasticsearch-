@@ -1,0 +1,9 @@
+Understanding Data Lakes Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a big reservoir where water from many rivers is stored before treatment.
+
+In that picture, raw storage is the first rule you follow, schema on read is the next step, and partitioning and metadata catalogs keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Data Lakes is large storage systems that keep raw data in its original format until it is needed, and it involves details such as turning into a data swamp that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Amazon S3 to learn the exact behavior. The same picture helps when you explain storing logs and events to a friend.

@@ -1,0 +1,11 @@
+API Versioning Tips from Experienced Engineers
+
+Engineers who work with API Versioning regularly tend to repeat the same advice. Here it is.
+
+1. Reach for OpenAPI first, and only then evaluate alternatives such as Swagger UI.
+2. Test the case of public APIs early, before the design hardens.
+3. Make sure you can announce deprecations with a clear sunset date.
+4. Be careful with this one: versioning too often.
+5. When something behaves strangely, revisit header versioning before anything else.
+
+None of these tips needs special equipment, and all of them apply to mobile apps that cannot update instantly as well.

@@ -1,0 +1,10 @@
+Union-Find: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Union-Find with confidence. The subject itself is a data structure that tracks which items belong to the same group and merges groups quickly.
+
+parent pointers: one of the building blocks of Union-Find. You should be able to explain it in a single sentence before moving on.
+union operation: one of the building blocks of Union-Find. It shows up whenever you work on detecting connected components.
+find operation: one of the building blocks of Union-Find. It shows up whenever you work on detecting connected components.
+path compression: one of the building blocks of Union-Find. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about building minimum spanning trees. If the sentences feel natural, the vocabulary has stuck.

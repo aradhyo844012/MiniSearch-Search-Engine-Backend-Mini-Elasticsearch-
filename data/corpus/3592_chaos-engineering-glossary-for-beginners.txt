@@ -1,0 +1,12 @@
+Chaos Engineering Glossary for Beginners
+
+New words can make Chaos Engineering feel harder than it is. This glossary keeps the key ones in one place.
+
+Chaos Engineering: deliberately causing failures in a system to learn how it responds.
+steady state: a core term, most visible in testing resilience.
+hypotheses: a core term that beginners often confuse with blast radius.
+blast radius: a core term that connects to fault injection.
+fault injection: a core term worth revisiting after you try a real example.
+Chaos Monkey: a tool commonly used for validating failover.
+
+Come back to this Chaos Engineering list whenever documentation for Gremlin uses a word you do not recognize.

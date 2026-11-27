@@ -1,0 +1,11 @@
+Is Leader Election Right for Your Project?
+
+Before adopting Leader Election, ask whether it fits the problem. Remember that Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.
+
+It is a good fit when your work involves database primaries or job schedulers, and when your team understands heartbeats.
+
+Be cautious when the project is very small, when deadlines leave no room to learn terms or epochs, or when you cannot manage these risks: split brain, flapping leaders, and slow failure detection.
+
+A simple decision test: write down the problem in one sentence, then check whether candidates and failover are part of the answer. If they are, Leader Election is probably worth a closer look.
+
+If you decide to go ahead, start small with cluster managers and tune heartbeat intervals against real network delays.

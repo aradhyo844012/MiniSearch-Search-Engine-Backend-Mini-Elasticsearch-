@@ -1,0 +1,15 @@
+Object-Relational Mappers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Object-Relational Mappers.
+
+Minutes 1 and 2, the definition: Object-Relational Mappers is libraries that map database tables to objects in code.
+
+Minutes 3 and 4, the vocabulary: learn models, queries, relationships, and migrations.
+
+Minutes 5 and 6, the picture: imagine a translator between the language of tables and the language of objects. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through building CRUD apps quickly, switching databases, and keeping schema and code aligned.
+
+Minutes 9 and 10, the traps and the tools: watch for N+1 queries and loading entire tables, then try SQLAlchemy for a first experiment.
+
+If you have a spare minute, remember to log the generated SQL during development.

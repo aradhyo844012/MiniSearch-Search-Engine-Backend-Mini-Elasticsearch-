@@ -1,0 +1,17 @@
+Memory Hierarchy Do's and Don'ts
+
+A quick list of habits for working with Memory Hierarchy.
+
+Do:
+- Learn registers before anything else.
+- Try lscpu on a small example.
+- Make it a habit to reduce how often your program goes down to the slower layers.
+- Test the case of designing efficient programs early.
+
+Don't:
+- Ignore this: ignoring locality.
+- Ignore this: excessive paging.
+- Ignore this: treating all memory accesses as equal.
+- Adopt Memory Hierarchy just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Memory Hierarchy, a little patience with cache pays off more than any clever shortcut.

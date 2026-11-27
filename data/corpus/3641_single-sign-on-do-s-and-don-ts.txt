@@ -1,0 +1,17 @@
+Single Sign-On Do's and Don'ts
+
+A quick list of habits for working with Single Sign-On.
+
+Do:
+- Learn identity provider before anything else.
+- Try Okta on a small example.
+- Make it a habit to plan for identity provider outages.
+- Test the case of company intranets early.
+
+Don't:
+- Ignore this: a single point of failure.
+- Ignore this: misconfigured redirects.
+- Ignore this: long sessions on shared devices.
+- Adopt Single Sign-On just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Single Sign-On, a little patience with SAML pays off more than any clever shortcut.

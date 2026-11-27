@@ -1,0 +1,15 @@
+Combining Domain-Driven Design with Modular Monoliths in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Domain-Driven Design and Modular Monoliths can work together in a single project.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain. Modular Monoliths is single deployable applications built from well-separated internal modules.
+
+Imagine a project that involves complex business systems and small teams. Domain-Driven Design brings ubiquitous language, while Modular Monoliths brings module boundaries.
+
+A sensible plan is to start with event storming for the Domain-Driven Design part and ArchUnit for the Modular Monoliths part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: models that never match the business on one side, and no enforced boundaries on the other.
+
+Picture the whole as writing software in the same vocabulary the business speaks, working alongside an apartment building with separate flats under one roof.
+
+Two habits help: first, agree on shared terms with domain experts before drawing classes; second, enforce boundaries with automated checks.

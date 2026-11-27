@@ -1,0 +1,13 @@
+Distributed Locks vs Idempotency: Which One Should You Learn First?
+
+Learners often ask whether to study Distributed Locks or Idempotency first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines, and it is closely tied to lease times and fencing tokens. Idempotency, by contrast, is the property that repeating an operation gives the same result as doing it once, and it is closely tied to idempotency keys and safe retries.
+
+Choose Distributed Locks first if you care about running scheduled jobs once or protecting shared resources. Choose Idempotency first if you care about payment APIs or message processing.
+
+Think of Distributed Locks as a single key to a shared meeting room that expires automatically, and of Idempotency as pressing an elevator call button many times and still getting one elevator. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Distributed Locks, avoid locks that never expire. With Idempotency, avoid keys that expire too soon.
+
+A good habit for Distributed Locks is to always use a timeout together with a fencing token. A good habit for Idempotency is to store the result with the key so retries return the same response.

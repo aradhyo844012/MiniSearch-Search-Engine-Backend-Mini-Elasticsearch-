@@ -1,0 +1,11 @@
+Choosing Tools for Debugging Strategies
+
+There is no single best tool for Debugging Strategies. The right choice depends on your project, your team and your timeline.
+
+debuggers is a common first choice, especially for fixing production issues. logging suits teams that already work with similar technology, and git bisect is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle learning unfamiliar code well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: changing many things at once.
+
+As a rule of thumb, change one thing at a time and record the result, no matter which tool you use.

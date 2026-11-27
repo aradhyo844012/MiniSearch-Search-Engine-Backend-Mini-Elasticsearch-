@@ -1,0 +1,11 @@
+Mistakes to Avoid with B-Trees on Disk
+
+Everyone learns B-Trees on Disk partly through mistakes. Here are three worth avoiding.
+
+Mistake one: random writes on fragmented pages. It usually appears when someone skips pages and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: oversized keys. It tends to be noticed late, often during testing of database indexes. A short checklist during review catches it early.
+
+Mistake three: ignoring page fill factor. It is easy to miss because everything seems to work at first. Keep an eye on sorted keys to spot it.
+
+If you remember only one rule, make it this: keep indexed keys short so more of them fit on a page.

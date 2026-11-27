@@ -1,0 +1,13 @@
+Debugging System Calls: A Field Guide
+
+When something goes wrong around System Calls, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: ignoring error codes, making too many small calls, and unsafe assumptions about blocking.
+Step 3: revisit user mode and kernel mode and syscall numbers, since misunderstandings there cause many bugs.
+Step 4: use strace or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving System Calls in work such as reading and writing files come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use strace to see what your program really asks the kernel to do. It prevents a surprising number of repeat problems.

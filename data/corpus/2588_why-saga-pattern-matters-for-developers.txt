@@ -1,0 +1,11 @@
+Why Saga Pattern Matters for Developers
+
+Developers who understand Saga Pattern make better decisions, because Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+Three situations show why it matters. First, order processing. Second, travel bookings. Third, payment workflows. In each case, a solid grasp of local transactions and compensating actions separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: missing compensations, steps that are not idempotent, and flows that are hard to trace.
+
+You will not need to build everything yourself; Temporal, Camunda, and Apache Kafka cover most needs.
+
+Connect Saga Pattern with Event Sourcing to see the bigger picture of Distributed Systems.

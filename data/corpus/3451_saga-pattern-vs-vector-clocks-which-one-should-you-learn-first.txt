@@ -1,0 +1,13 @@
+Saga Pattern vs Vector Clocks: Which One Should You Learn First?
+
+Learners often ask whether to study Saga Pattern or Vector Clocks first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions. Vector Clocks, by contrast, is counters that let distributed processes track the order of events without a shared clock, and it is closely tied to logical time and per-process counters.
+
+Choose Saga Pattern first if you care about order processing or travel bookings. Choose Vector Clocks first if you care about detecting concurrent edits or replicated databases.
+
+Think of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled, and of Vector Clocks as each person in a group chat keeping a tally of messages seen from everyone. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Saga Pattern, avoid missing compensations. With Vector Clocks, avoid clocks that grow with many nodes.
+
+A good habit for Saga Pattern is to make every step and its compensation idempotent. A good habit for Vector Clocks is to compare clocks entry by entry to detect true concurrency.

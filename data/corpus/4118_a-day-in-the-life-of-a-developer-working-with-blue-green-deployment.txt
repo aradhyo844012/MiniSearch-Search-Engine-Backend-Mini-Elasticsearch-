@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Blue-Green Deployment
+
+This is a fictional but realistic day for a developer whose project relies on Blue-Green Deployment.
+
+Morning: Rahul starts by reviewing a ticket about zero-downtime releases. Before touching any code, Rahul re-reads the notes on blue and green environments to make sure the plan is sound.
+
+Midday: Rahul pairs with a teammate to explore traffic switching with AWS CodeDeploy. A small test exposes the problem of database schema mismatches, and they fix it together.
+
+Afternoon: the team discusses a new request involving quick rollbacks. Rahul sketches swapping to a fully prepared spare stage while the show goes on on the whiteboard to help everyone follow the idea.
+
+End of day: Rahul writes a short note describing what changed and adds a reminder to keep the old environment running until the new one is proven.
+
+Days like this are typical. Blue-Green Deployment is not glamorous, but understanding it keeps small problems from growing.

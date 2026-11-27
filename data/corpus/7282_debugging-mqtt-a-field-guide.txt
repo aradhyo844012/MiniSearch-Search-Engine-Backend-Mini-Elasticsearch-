@@ -1,0 +1,13 @@
+Debugging MQTT: A Field Guide
+
+When something goes wrong around MQTT, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: unsecured brokers, messy topic names, and wrong quality of service choices.
+Step 3: revisit publish and subscribe and topics, since misunderstandings there cause many bugs.
+Step 4: use Mosquitto or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving MQTT in work such as sensor networks come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, design topic names like a clear folder structure. It prevents a surprising number of repeat problems.

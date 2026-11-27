@@ -1,0 +1,13 @@
+K-Means Clustering vs Support Vector Machines: Which One Should You Learn First?
+
+Learners often ask whether to study K-Means Clustering or Support Vector Machines first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points, and it is closely tied to centroids and distance measures. Support Vector Machines, by contrast, is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors.
+
+Choose K-Means Clustering first if you care about customer segmentation or image compression. Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets.
+
+Think of K-Means Clustering as dividing students into study groups around the most central member, and of Support Vector Machines as drawing the widest road between two neighborhoods. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With K-Means Clustering, avoid choosing k blindly. With Support Vector Machines, avoid slow training on large data.
+
+A good habit for K-Means Clustering is to scale features before clustering. A good habit for Support Vector Machines is to scale features and try a linear kernel first.

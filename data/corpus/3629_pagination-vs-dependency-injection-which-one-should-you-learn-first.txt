@@ -1,0 +1,13 @@
+Pagination vs Dependency Injection: Which One Should You Learn First?
+
+Learners often ask whether to study Pagination or Dependency Injection first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time, and it is closely tied to offset pagination and cursor pagination. Dependency Injection, by contrast, is a design approach where objects receive their dependencies instead of creating them, and it is closely tied to constructor injection and interfaces.
+
+Choose Pagination first if you care about search results or activity feeds. Choose Dependency Injection first if you care about easier unit testing or swapping implementations.
+
+Think of Pagination as reading a long book one chapter at a time with a bookmark, and of Dependency Injection as a chef who is handed ingredients instead of shopping for them. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Pagination, avoid offsets getting slow on huge tables. With Dependency Injection, avoid hiding too much behind containers.
+
+A good habit for Pagination is to prefer cursors for large or fast-changing data. A good habit for Dependency Injection is to inject interfaces so tests can use simple fakes.

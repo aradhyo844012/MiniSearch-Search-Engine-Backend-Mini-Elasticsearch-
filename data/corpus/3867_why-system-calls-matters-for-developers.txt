@@ -1,0 +1,11 @@
+Why System Calls Matters for Developers
+
+Developers who understand System Calls make better decisions, because System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+Three situations show why it matters. First, reading and writing files. Second, creating processes. Third, using network sockets. In each case, a solid grasp of user mode and kernel mode and syscall numbers separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: ignoring error codes, making too many small calls, and unsafe assumptions about blocking.
+
+You will not need to build everything yourself; strace, man pages, and libc cover most needs.
+
+Connect System Calls with Compilers and Interpreters to see the bigger picture of Computer Systems.

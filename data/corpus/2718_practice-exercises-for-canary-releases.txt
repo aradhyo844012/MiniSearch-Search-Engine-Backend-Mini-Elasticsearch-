@@ -1,0 +1,11 @@
+Practice Exercises for Canary Releases
+
+These exercises build real understanding of Canary Releases. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Canary Releases and include the term traffic percentages.
+Exercise 2: Pick Argo Rollouts and complete its getting-started tutorial.
+Exercise 3: Create a small example that deliberately triggers this problem: too little traffic to reveal problems. Then fix it.
+Exercise 4: Compare Istio and Flagger for reducing the blast radius of bugs and write down your conclusion.
+Exercise 5: Explain how automatic rollback and progressive rollout differ, using a drawing.
+
+When you finish, compare your answers with the definition: Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it.

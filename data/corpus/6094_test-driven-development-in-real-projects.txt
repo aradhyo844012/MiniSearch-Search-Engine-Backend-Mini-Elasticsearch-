@@ -1,0 +1,11 @@
+Test-Driven Development in Real Projects
+
+Reading about Test-Driven Development is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: designing small modules. Here, red, green, refactor drives the main design choices, and the team needs to guard against writing tests that are too large.
+
+Scenario two: preventing regressions. This time small steps matters most, and tools such as pytest help keep things manageable.
+
+Scenario three: gaining confidence for refactoring. The key idea is test first, and the biggest risk is skipping the refactor step.
+
+Across all three scenarios, Test-Driven Development stays the same idea: a workflow where you write a failing test first and then write code to make it pass. Only the details change.

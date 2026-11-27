@@ -1,0 +1,11 @@
+GraphQL Tips from Experienced Engineers
+
+Engineers who work with GraphQL regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip schema; everything else builds on it.
+2. Write down why you chose GraphQL so the next person understands the decision.
+3. Reach for Apollo first, and only then evaluate alternatives such as GraphQL Playground.
+4. Make sure you can use a data loader to avoid N+1 queries.
+5. Be careful with this one: the N+1 query problem.
+
+None of these tips needs special equipment, and all of them apply to aggregating many services as well.

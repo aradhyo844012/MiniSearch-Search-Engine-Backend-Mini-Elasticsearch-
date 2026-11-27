@@ -1,0 +1,17 @@
+Integration Testing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Integration Testing.
+
+Learning goals:
+1. Explain Integration Testing in your own words.
+2. Describe test databases, service boundaries, fixtures, and test environments.
+3. Give examples from verifying API and database interaction and catching contract mismatches.
+4. Name three problems to watch for.
+
+Start with the definition: Integration Testing is tests that check how several parts of a system work together. Then draw checking that the gears of a watch mesh before closing the case on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow suites a problem? How does service boundaries relate to fixtures? When would you choose Testcontainers or pytest?
+
+Study habit worth keeping: use disposable containers for test dependencies.
+
+When you feel ready, compare Integration Testing with Fuzz Testing and write down three differences.

@@ -1,0 +1,11 @@
+Scaling Considerations for Bluetooth Low Energy
+
+A design that works for a classroom project can behave very differently under real load. Here is how Bluetooth Low Energy changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding advertising and getting fitness trackers right.
+
+Medium scale: problems start to appear. Watch for ignoring connection limits and weak pairing security, and measure with nRF Connect before changing anything.
+
+Large scale: characteristics and pairing move from background details to central design questions. Teams often revisit their choices around smart locks at this stage.
+
+Before you scale, test with several phone models. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+C Pointers Tips from Experienced Engineers
+
+Engineers who work with C Pointers regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit dereferencing before anything else.
+2. Do not skip addresses; everything else builds on it.
+3. Make sure you can set pointers to NULL after freeing them.
+4. Be careful with this one: dereferencing null pointers.
+5. Test the case of dynamic memory allocation early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to passing large data efficiently as well.

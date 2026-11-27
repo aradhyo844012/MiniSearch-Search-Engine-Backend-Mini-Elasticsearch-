@@ -1,0 +1,11 @@
+Is Star Schema Modeling Right for Your Project?
+
+Before adopting Star Schema Modeling, ask whether it fits the problem. Remember that Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.
+
+It is a good fit when your work involves business intelligence reports or data warehouses, and when your team understands fact tables.
+
+Be cautious when the project is very small, when deadlines leave no room to learn dimension tables, or when you cannot manage these risks: mixing different grains, over-normalized dimensions, and missing date dimensions.
+
+A simple decision test: write down the problem in one sentence, then check whether surrogate keys and grain are part of the answer. If they are, Star Schema Modeling is probably worth a closer look.
+
+If you decide to go ahead, start small with fast aggregations and state the grain of the fact table before designing anything else.

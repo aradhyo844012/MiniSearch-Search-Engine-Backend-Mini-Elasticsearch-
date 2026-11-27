@@ -1,0 +1,12 @@
+Questions to Ask About Mocking and Stubbing in Code Review
+
+Reviewing code that involves Mocking and Stubbing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is stubs clear to someone reading the code for the first time?
+- Does this change respect mocks, or does it work around it?
+- Is unittest.mock used consistently, or are we mixing approaches?
+- Have we avoided this problem: mocks that drift from reality?
+- Could we prefer simple fakes over deep mock chains?
+- Would a test catch tests that mirror the implementation if it appeared later?
+
+Good reviews of work on Mocking and Stubbing are specific, kind and focused on spies, not on personal style.

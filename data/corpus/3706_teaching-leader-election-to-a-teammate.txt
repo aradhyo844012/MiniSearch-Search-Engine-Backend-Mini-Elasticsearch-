@@ -1,0 +1,13 @@
+Teaching Leader Election to a Teammate
+
+Explaining Leader Election to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a classroom picking a monitor when the teacher leaves. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Leader Election is a process by which nodes in a cluster choose one node to coordinate the work. Avoid jargon at this stage.
+
+Walk through an example involving database primaries, naming heartbeats and terms or epochs as they come up.
+
+Ask your teammate to explain candidates in Leader Election back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, split brain, and suggest this habit: tune heartbeat intervals against real network delays.

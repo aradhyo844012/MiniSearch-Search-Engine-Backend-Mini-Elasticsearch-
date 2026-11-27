@@ -1,0 +1,10 @@
+CAP Theorem: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about CAP Theorem with confidence. The subject itself is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.
+
+consistency: one of the building blocks of CAP Theorem. Documentation for Apache Cassandra usually mentions it early.
+availability: one of the building blocks of CAP Theorem. Mixing it up with neighboring terms is a common source of confusion.
+partition tolerance: one of the building blocks of CAP Theorem. You should be able to explain it in a single sentence before moving on.
+trade-offs: one of the building blocks of CAP Theorem. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about designing multi-region services. If the sentences feel natural, the vocabulary has stuck.

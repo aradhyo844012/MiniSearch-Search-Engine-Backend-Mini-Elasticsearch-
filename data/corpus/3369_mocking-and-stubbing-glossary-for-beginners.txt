@@ -1,0 +1,12 @@
+Mocking and Stubbing Glossary for Beginners
+
+New words can make Mocking and Stubbing feel harder than it is. This glossary keeps the key ones in one place.
+
+Mocking and Stubbing: replacing real dependencies with controlled fakes during tests.
+mocks: a core term, most visible in isolating units.
+stubs: a core term that beginners often confuse with spies.
+spies: a core term that connects to fakes.
+fakes: a core term worth revisiting after you try a real example.
+unittest.mock: a tool commonly used for simulating failures.
+
+Come back to this Mocking and Stubbing list whenever documentation for Mockito uses a word you do not recognize.

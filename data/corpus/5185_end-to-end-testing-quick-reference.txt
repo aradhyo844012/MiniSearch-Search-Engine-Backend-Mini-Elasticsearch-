@@ -1,0 +1,15 @@
+End-to-End Testing Quick Reference
+
+A one-screen reminder for End-to-End Testing. Bookmark it and return when the details fade.
+
+What it is: tests that drive an application through a real user journey from start to finish.
+Key terms: browser automation, user flows, test data, and selectors.
+Typical uses: checking login and checkout flows, release verification, and cross-browser checks.
+Risks: flaky tests, slow runs, and brittle selectors.
+Tools: Playwright, Cypress, and Selenium.
+
+Mental picture: a test drive of the whole car on a real road.
+
+Habit to build: cover only the most important user journeys.
+
+See also: Property-Based Testing, which sits close to End-to-End Testing in the area of Testing and Quality.

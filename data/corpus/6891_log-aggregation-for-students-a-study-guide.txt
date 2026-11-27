@@ -1,0 +1,17 @@
+Log Aggregation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Log Aggregation.
+
+Learning goals:
+1. Explain Log Aggregation in your own words.
+2. Describe shippers, indexing, retention, and search queries.
+3. Give examples from troubleshooting across services and security investigations.
+4. Name three problems to watch for.
+
+Start with the definition: Log Aggregation is collecting logs from many machines into one searchable place. Then draw gathering notes from every desk into a single searchable binder on paper and label the four terms from the goals above.
+
+Self-test questions: Why is unbounded storage growth a problem? How does indexing relate to retention? When would you choose Elasticsearch or Fluent Bit?
+
+Study habit: use structured JSON logs so that fields are searchable.
+
+When you feel ready, compare Log Aggregation with Distributed Tracing and write down three differences.

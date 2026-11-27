@@ -1,0 +1,9 @@
+Understanding Canary Releases Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a canary in a coal mine warning miners before the danger spreads.
+
+In that picture, traffic percentages is the first rule you follow, health metrics is the next step, and automatic rollback and progressive rollout keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it involves details such as too little traffic to reveal problems that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Argo Rollouts to learn the exact behavior. The same picture helps when you explain safer releases to a friend.

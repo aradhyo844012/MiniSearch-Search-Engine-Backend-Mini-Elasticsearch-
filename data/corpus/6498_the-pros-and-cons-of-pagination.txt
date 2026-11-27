@@ -1,0 +1,15 @@
+The Pros and Cons of Pagination
+
+No technology is free of trade-offs, and Pagination is no exception. Here is an honest summary.
+
+Advantages:
+- Supports search results
+- Makes activity feeds easier
+- Helps with admin tables
+
+Drawbacks and risks:
+- Risk: offsets getting slow on huge tables
+- Risk: unstable sort order
+- Risk: missing total counts when users need them
+
+Weigh the two lists against your own project. If the advantages match your needs, such as search results, and you can manage the risks, Pagination is a sound choice. Whatever you decide, prefer cursors for large or fast-changing data.

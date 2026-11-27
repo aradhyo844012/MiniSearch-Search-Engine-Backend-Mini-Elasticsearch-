@@ -1,0 +1,17 @@
+CSS Variables Do's and Don'ts
+
+A quick list of habits for working with CSS Variables.
+
+Do:
+- Learn custom properties before anything else.
+- Try browser DevTools on a small example.
+- Make it a habit to define theme values on the root element.
+- Test the case of theme switching early.
+
+Don't:
+- Ignore this: missing fallbacks.
+- Ignore this: overriding at the wrong scope.
+- Ignore this: expecting preprocessor features.
+- Adopt CSS Variables just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with CSS Variables, a little patience with the var function pays off more than any clever shortcut.

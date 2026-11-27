@@ -1,0 +1,11 @@
+Scaling Considerations for Blue-Green Deployment
+
+A design that works for a classroom project can behave very differently under real load. Here is how Blue-Green Deployment changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding blue and green environments and getting zero-downtime releases right.
+
+Medium scale: problems start to appear. Watch for database schema mismatches and doubling infrastructure costs, and measure with AWS CodeDeploy before changing anything.
+
+Large scale: rollback and database compatibility move from background details to central design questions. Teams often revisit their choices around quick rollbacks at this stage.
+
+Before you scale, keep the old environment running until the new one is proven. It is cheaper to build that habit early than to fix a crisis later.

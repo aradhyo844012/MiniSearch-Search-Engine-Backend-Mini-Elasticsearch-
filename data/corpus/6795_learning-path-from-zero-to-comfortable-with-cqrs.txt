@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with CQRS
+
+This path is for a learner who has never studied CQRS before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (CQRS is a pattern that separates the models used to change data from the models used to read it) and learn commands and queries.
+
+Stage 2, hands-on: install Axon Framework, follow a tutorial, and build a small example involving high-read dashboards.
+
+Stage 3, depth: study read models and eventual consistency, then deliberately explore this problem: adding it to simple apps.
+
+Stage 4, application: apply CQRS to complex domains, compare MediatR with Apache Kafka, and write up your results.
+
+Stage 5, review: teach CQRS to someone else, and then move on to Distributed Locks.

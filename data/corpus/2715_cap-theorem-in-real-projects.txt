@@ -1,0 +1,11 @@
+CAP Theorem in Real Projects
+
+Reading about CAP Theorem is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: choosing database types. Here, consistency drives the main design choices, and the team needs to guard against treating it as a three-way menu.
+
+Scenario two: designing multi-region services. This time availability matters most, and tools such as Apache Cassandra help keep things manageable.
+
+Scenario three: explaining system behavior in interviews. The key idea is partition tolerance, and the biggest risk is ignoring latency trade-offs in normal operation.
+
+Across all three scenarios, CAP Theorem stays the same idea: a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once. Only the details change.

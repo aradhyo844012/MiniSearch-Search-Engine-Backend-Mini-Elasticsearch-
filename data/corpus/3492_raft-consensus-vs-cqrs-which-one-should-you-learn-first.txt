@@ -1,0 +1,13 @@
+Raft Consensus vs CQRS: Which One Should You Learn First?
+
+Learners often ask whether to study Raft Consensus or CQRS first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication. CQRS, by contrast, is a pattern that separates the models used to change data from the models used to read it, and it is closely tied to commands and queries.
+
+Choose Raft Consensus first if you care about configuration stores or distributed locks. Choose CQRS first if you care about high-read dashboards or complex domains.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm, and of CQRS as a restaurant with one counter for orders and another for pickup. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raft Consensus, avoid even-sized clusters. With CQRS, avoid adding it to simple apps.
+
+A good habit for Raft Consensus is to use an odd number of nodes. A good habit for CQRS is to start with a single model and split only when reads and writes truly diverge.

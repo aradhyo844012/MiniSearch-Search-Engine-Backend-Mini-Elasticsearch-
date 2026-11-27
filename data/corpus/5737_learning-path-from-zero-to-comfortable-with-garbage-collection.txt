@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Garbage Collection
+
+This path is for a learner who has never studied Garbage Collection before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Garbage Collection is automatic memory management that finds and frees objects a program no longer uses) and learn reachability and generations.
+
+Stage 2, hands-on: install JVM GC logs, follow a tutorial, and build a small example involving managed languages like Java and Python.
+
+Stage 3, depth: study mark and sweep and pause times, then deliberately explore this problem: creating huge numbers of short-lived objects.
+
+Stage 4, application: apply Garbage Collection to reducing memory bugs, compare the Python gc module with VisualVM, and write up your results.
+
+Stage 5, review: teach Garbage Collection to someone else, and then move on to Java Streams.

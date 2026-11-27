@@ -1,0 +1,15 @@
+Combining Endianness with GPUs and Parallelism in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Endianness and GPUs and Parallelism can work together in a single project.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number. GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Imagine a project that involves network protocols and training neural networks. Endianness brings big-endian, while GPUs and Parallelism brings threads and blocks.
+
+A sensible plan is to start with Python struct for the Endianness part and CUDA for the GPUs and Parallelism part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: assuming all machines are alike on one side, and branch-heavy code on the other.
+
+Picture the whole as writing a date as day-month-year or as year-month-day, working alongside a stadium of workers each doing one small identical task.
+
+Two habits help: first, always specify byte order in file and protocol formats; second, minimize copies between CPU and GPU memory.

@@ -1,0 +1,13 @@
+Apache Spark vs Star Schema Modeling: Which One Should You Learn First?
+
+Learners often ask whether to study Apache Spark or Star Schema Modeling first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Apache Spark is a distributed engine for processing large datasets across many machines, and it is closely tied to DataFrames and transformations and actions. Star Schema Modeling, by contrast, is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it is closely tied to fact tables and dimension tables.
+
+Choose Apache Spark first if you care about large ETL jobs or machine learning on big data. Choose Star Schema Modeling first if you care about business intelligence reports or data warehouses.
+
+Think of Apache Spark as a team of workers each processing a share of a huge pile of papers, and of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Apache Spark, avoid data skew. With Star Schema Modeling, avoid mixing different grains.
+
+A good habit for Apache Spark is to avoid collecting large results onto a single machine. A good habit for Star Schema Modeling is to state the grain of the fact table before designing anything else.

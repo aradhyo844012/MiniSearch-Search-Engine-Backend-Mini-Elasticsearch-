@@ -1,0 +1,11 @@
+Is Client-Side Routing Right for Your Project?
+
+Before adopting Client-Side Routing, ask whether it fits the problem. Remember that Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+It is a good fit when your work involves single-page apps or dashboards, and when your team understands history API.
+
+Be cautious when the project is very small, when deadlines leave no room to learn route matching, or when you cannot manage these risks: broken deep links, unhandled 404 pages, and lost scroll position.
+
+A simple decision test: write down the problem in one sentence, then check whether nested routes and route guards are part of the answer. If they are, Client-Side Routing is probably worth a closer look.
+
+If you decide to go ahead, start small with multi-step flows and test refreshing the page on every route.

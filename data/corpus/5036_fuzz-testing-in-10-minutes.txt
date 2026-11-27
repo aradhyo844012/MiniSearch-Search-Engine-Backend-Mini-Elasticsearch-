@@ -1,0 +1,15 @@
+Fuzz Testing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Fuzz Testing.
+
+Minutes 1 and 2, the definition: Fuzz Testing is feeding programs random or malformed input to uncover crashes and security bugs.
+
+Minutes 3 and 4, the vocabulary: learn input generation, coverage guidance, crash triage, and corpora.
+
+Minutes 5 and 6, the picture: imagine shaking a machine hard to see what rattles loose. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through testing parsers, finding memory bugs, and security research.
+
+Minutes 9 and 10, the traps and the tools: watch for running without sanitizers and crashes that cannot be reproduced, then try AFL++ for a first experiment.
+
+If you have a spare minute, remember to keep every crashing input as a regression test.

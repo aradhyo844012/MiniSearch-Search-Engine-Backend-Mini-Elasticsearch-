@@ -1,0 +1,9 @@
+Understanding Embedded Systems Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a small brain inside an appliance that only knows one job.
+
+In that picture, microcontrollers is the first rule you follow, firmware is the next step, and real-time constraints and memory limits keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Embedded Systems is computers built into devices to perform dedicated tasks within tight limits, and it involves details such as memory leaks on tiny devices that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for C to learn the exact behavior. The same picture helps when you explain appliances to a friend.

@@ -1,0 +1,13 @@
+Teaching Threat Modeling to a Teammate
+
+Explaining Threat Modeling to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: walking around a house asking where a burglar might get in. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it. Avoid jargon at this stage.
+
+Walk through an example involving designing new features, naming assets and attackers as they come up.
+
+Ask your teammate to explain trust boundaries in Threat Modeling back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, doing it once and never again, and suggest this habit: draw the data flow diagram first.

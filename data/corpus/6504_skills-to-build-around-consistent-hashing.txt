@@ -1,0 +1,13 @@
+Skills to Build Around Consistent Hashing
+
+Knowing the definition of Consistent Hashing is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with hash ring and virtual nodes, and able to explain them without notes.
+
+Hands-on practice: spend real time with Redis Cluster on a Consistent Hashing task, and try at least one alternative such as Memcached clients.
+
+Judgment: learn to decide when Consistent Hashing fits a problem such as distributed caches, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example seats around a round table where a new guest only displaces their neighbor.
+
+Habits: use many virtual nodes per server to even out the load, and write down what you learn after each project.

@@ -1,0 +1,12 @@
+Questions to Ask About Fenwick Trees in Code Review
+
+Reviewing code that involves Fenwick Trees is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch forgetting that nodes store partial sums if it appeared later?
+- Could we start indexing from one to keep the bit tricks simple?
+- Is C++ vectors used consistently, or are we mixing approaches?
+- Have we considered using zero-based indexes by mistake?
+- Does the code handle the case of counting inversions correctly?
+- Does this change respect binary indexed trees, or does it work around it?
+
+Good reviews of work on Fenwick Trees are specific, kind and focused on prefix sums, not on personal style.

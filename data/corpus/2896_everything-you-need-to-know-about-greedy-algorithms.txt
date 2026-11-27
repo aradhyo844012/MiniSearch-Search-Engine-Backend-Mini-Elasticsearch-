@@ -1,0 +1,26 @@
+Everything You Need to Know About Greedy Algorithms
+
+This page collects the essentials about Greedy Algorithms in one place. In short, Greedy Algorithms is algorithms that build a solution by always taking the locally best choice.
+
+Core concepts:
+- greedy choice property
+- optimal substructure
+- exchange arguments
+- local versus global optimum
+
+Where it is used:
+- interval scheduling
+- Huffman coding
+- making change with standard coins
+
+Common problems:
+- assuming greedy always works
+- missing counterexamples
+- skipping the correctness proof
+
+Tools to know:
+- pen and paper proofs
+- Python sorted
+- unit tests
+
+Remember this above all: picking the closest open parking spot at every junction and hoping it works out is a good way to picture it, and the best habit is to try to break your greedy idea with a small counterexample before trusting it.

@@ -1,0 +1,17 @@
+Security Headers Do's and Don'ts
+
+A quick list of habits for working with Security Headers.
+
+Do:
+- Learn Strict-Transport-Security before anything else.
+- Try securityheaders.com on a small example.
+- Make it a habit to test the headers on every environment.
+- Test the case of hardening websites early.
+
+Don't:
+- Ignore this: setting headers on only some routes.
+- Ignore this: breaking embeds.
+- Ignore this: copying configurations without understanding them.
+- Adopt Security Headers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Security Headers, a little patience with X-Content-Type-Options pays off more than any clever shortcut.

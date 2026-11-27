@@ -1,0 +1,13 @@
+Debugging Event-Driven Architecture: A Field Guide
+
+When something goes wrong around Event-Driven Architecture, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: hard-to-trace flows, duplicate events, and unclear event ownership.
+Step 3: revisit producers and consumers and event brokers, since misunderstandings there cause many bugs.
+Step 4: use Apache Kafka or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Event-Driven Architecture in work such as order pipelines come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, document every event name and schema. It prevents a surprising number of repeat problems.

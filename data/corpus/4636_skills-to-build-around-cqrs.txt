@@ -1,0 +1,13 @@
+Skills to Build Around CQRS
+
+Knowing the definition of CQRS is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with commands and queries, and able to explain them without notes.
+
+Hands-on practice: spend real time with Axon Framework on a CQRS task, and try at least one alternative such as MediatR.
+
+Judgment: learn to decide when CQRS fits a problem such as high-read dashboards, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a restaurant with one counter for orders and another for pickup.
+
+Habits: start with a single model and split only when reads and writes truly diverge, and write down what you learn after each project.

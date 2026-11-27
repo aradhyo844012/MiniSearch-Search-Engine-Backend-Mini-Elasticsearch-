@@ -1,0 +1,9 @@
+Understanding Time-Series Databases Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a long logbook where every line starts with the time.
+
+In that picture, timestamps is the first rule you follow, retention policies is the next step, and downsampling and tags and fields keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Time-Series Databases is databases optimized for storing and querying data points ordered by time, and it involves details such as high-cardinality tags that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for InfluxDB to learn the exact behavior. The same picture helps when you explain server metrics to a friend.

@@ -1,0 +1,15 @@
+Python Decorators Quick Reference
+
+A one-screen reminder for Python Decorators. Bookmark it and return when the details fade.
+
+What it is: functions that wrap other functions to add behavior without changing their code.
+Key terms: higher-order functions, wrapper functions, functools.wraps, and decorator arguments.
+Typical uses: logging calls, caching results, and checking permissions.
+Risks: losing function metadata, stacking decorators in the wrong order, and hiding side effects.
+Tools: functools, Flask routes, and pytest fixtures.
+
+Mental picture: gift wrapping that adds a bow without changing the present.
+
+Habit to build: always apply functools.wraps inside your decorator.
+
+See also: Regular Expressions, which sits close to Python Decorators in the area of Programming Languages.

@@ -1,0 +1,11 @@
+Scaling Considerations for Greedy Algorithms
+
+A design that works for a classroom project can behave very differently under real load. Here is how Greedy Algorithms changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding greedy choice property and getting interval scheduling right.
+
+Medium scale: problems start to appear. Watch for assuming greedy always works and missing counterexamples, and measure with pen and paper proofs before changing anything.
+
+Large scale: exchange arguments and local versus global optimum move from background details to central design questions. Teams often revisit their choices around Huffman coding at this stage.
+
+Before you scale, try to break your greedy idea with a small counterexample before trusting it. It is cheaper to build that habit early than to fix a crisis later.

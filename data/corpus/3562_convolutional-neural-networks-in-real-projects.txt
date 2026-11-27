@@ -1,0 +1,11 @@
+Convolutional Neural Networks in Real Projects
+
+Reading about Convolutional Neural Networks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: image classification. Here, filters drives the main design choices, and the team needs to guard against too little training data.
+
+Scenario two: medical image analysis. This time pooling matters most, and tools such as PyTorch help keep things manageable.
+
+Scenario three: object detection. The key idea is feature maps, and the biggest risk is ignoring data augmentation.
+
+Across all three scenarios, Convolutional Neural Networks stays the same idea: neural networks that scan images with small filters to detect patterns. Only the details change.

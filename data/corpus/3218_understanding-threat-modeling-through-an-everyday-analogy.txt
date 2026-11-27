@@ -1,0 +1,9 @@
+Understanding Threat Modeling Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture walking around a house asking where a burglar might get in.
+
+In that picture, assets is the first rule you follow, attackers is the next step, and trust boundaries and mitigations keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it, and it involves details such as doing it once and never again that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for STRIDE to learn the exact behavior. The same picture helps when you explain designing new features to a friend.

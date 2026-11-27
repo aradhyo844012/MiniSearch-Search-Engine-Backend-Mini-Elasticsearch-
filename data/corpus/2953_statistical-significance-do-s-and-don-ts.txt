@@ -1,0 +1,17 @@
+Statistical Significance Do's and Don'ts
+
+A quick list of habits for working with Statistical Significance.
+
+Do:
+- Learn p-values before anything else.
+- Try SciPy on a small example.
+- Make it a habit to always report the effect size alongside the p-value.
+- Test the case of judging experiment results early.
+
+Don't:
+- Ignore this: mistaking significance for importance.
+- Ignore this: p-hacking.
+- Ignore this: ignoring sample size.
+- Adopt Statistical Significance just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Statistical Significance, a little patience with the null hypothesis pays off more than any clever shortcut.

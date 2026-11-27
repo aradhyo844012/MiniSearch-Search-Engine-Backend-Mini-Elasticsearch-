@@ -1,0 +1,15 @@
+Combining Blue-Green Deployment with Feature Flags in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Blue-Green Deployment and Feature Flags can work together in a single project.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Feature Flags is switches in configuration that turn features on or off without redeploying code.
+
+Imagine a project that involves zero-downtime releases and dark launches. Blue-Green Deployment brings blue and green environments, while Feature Flags brings flag evaluation.
+
+A sensible plan is to start with AWS CodeDeploy for the Blue-Green Deployment part and LaunchDarkly for the Feature Flags part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: doubling infrastructure costs on one side, and flags that depend on each other on the other.
+
+Picture the whole as swapping to a fully prepared spare stage while the show goes on, working alongside light switches wired to every room of a house.
+
+Two habits help: first, keep the old environment running until the new one is proven; second, give every flag an owner and a removal date.

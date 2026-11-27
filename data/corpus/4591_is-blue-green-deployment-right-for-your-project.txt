@@ -1,0 +1,11 @@
+Is Blue-Green Deployment Right for Your Project?
+
+Before adopting Blue-Green Deployment, ask whether it fits the problem. Remember that Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one.
+
+It is a good fit when your work involves zero-downtime releases or quick rollbacks, and when your team understands blue and green environments.
+
+Be cautious when the project is very small, when deadlines leave no room to learn traffic switching, or when you cannot manage these risks: database schema mismatches, doubling infrastructure costs, and forgetting to drain old connections.
+
+A simple decision test: write down the problem in one sentence, then check whether rollback and database compatibility are part of the answer. If they are, Blue-Green Deployment is probably worth a closer look.
+
+If you decide to go ahead, start small with testing in production-like settings and keep the old environment running until the new one is proven.

@@ -1,0 +1,11 @@
+Integration Testing in Real Projects
+
+Reading about Integration Testing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: verifying API and database interaction. Here, test databases drives the main design choices, and the team needs to guard against slow suites.
+
+Scenario two: catching contract mismatches. This time service boundaries matters most, and tools such as Testcontainers help keep things manageable.
+
+Scenario three: testing third-party integrations. The key idea is fixtures, and the biggest risk is flaky external dependencies.
+
+Across all three scenarios, Integration Testing stays the same idea: tests that check how several parts of a system work together. Only the details change.

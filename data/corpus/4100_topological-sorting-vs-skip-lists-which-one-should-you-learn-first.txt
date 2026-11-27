@@ -1,0 +1,13 @@
+Topological Sorting vs Skip Lists: Which One Should You Learn First?
+
+Learners often ask whether to study Topological Sorting or Skip Lists first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on, and it is closely tied to directed acyclic graphs and in-degree counts. Skip Lists, by contrast, is layered linked lists that allow fast searching by skipping over many elements, and it is closely tied to multiple levels and random level assignment.
+
+Choose Topological Sorting first if you care about build systems or course prerequisite planning. Choose Skip Lists first if you care about ordered in-memory indexes or sorted sets in caches.
+
+Think of Topological Sorting as a recipe that must list every step after the steps it depends on, and of Skip Lists as an express train line layered over a local train line. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Topological Sorting, avoid ignoring cycles. With Skip Lists, avoid poor random number choices.
+
+A good habit for Topological Sorting is to check for cycles first so you can report a clear error. A good habit for Skip Lists is to draw several levels by hand to see how a search moves down.

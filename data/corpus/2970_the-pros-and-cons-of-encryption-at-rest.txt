@@ -1,0 +1,15 @@
+The Pros and Cons of Encryption at Rest
+
+No technology is free of trade-offs, and Encryption at Rest is no exception. Here is an honest summary.
+
+Advantages:
+- Supports protecting backups
+- Makes meeting compliance rules easier
+- Helps with securing laptops
+
+Drawbacks and risks:
+- Risk: storing keys next to the data
+- Risk: no key rotation
+- Risk: assuming it stops every kind of attack
+
+Weigh the two lists against your own project. If the advantages match your needs, such as protecting backups, and you can manage the risks, Encryption at Rest is a sound choice. Whatever you decide, keep keys in a separate service from the data.

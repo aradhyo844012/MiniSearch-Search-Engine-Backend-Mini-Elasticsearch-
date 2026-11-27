@@ -1,0 +1,15 @@
+Webhooks in 10 Minutes
+
+You have ten minutes, so here is the fast route through Webhooks.
+
+Minutes 1 and 2, the definition: Webhooks is HTTP callbacks that let one service notify another when an event happens.
+
+Minutes 3 and 4, the vocabulary: learn event payloads, signature verification, retries, and endpoints.
+
+Minutes 5 and 6, the picture: imagine a doorbell that rings when a delivery arrives instead of you checking the porch. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through payment notifications, CI triggers, and chat integrations.
+
+Minutes 9 and 10, the traps and the tools: watch for not verifying signatures and slow handlers causing timeouts, then try ngrok for a first experiment.
+
+If you have a spare minute, remember to respond quickly and process the event in a background job.

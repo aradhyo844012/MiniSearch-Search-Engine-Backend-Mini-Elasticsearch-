@@ -1,0 +1,15 @@
+Data Lakes in 10 Minutes
+
+You have ten minutes, so here is the fast route through Data Lakes.
+
+Minutes 1 and 2, the definition: Data Lakes is large storage systems that keep raw data in its original format until it is needed.
+
+Minutes 3 and 4, the vocabulary: learn raw storage, schema on read, partitioning, and metadata catalogs.
+
+Minutes 5 and 6, the picture: imagine a big reservoir where water from many rivers is stored before treatment. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through storing logs and events, machine learning datasets, and analytics across many sources.
+
+Minutes 9 and 10, the traps and the tools: watch for turning into a data swamp and no catalog or ownership, then try Amazon S3 for a first experiment.
+
+If you have a spare minute, remember to register every dataset in a catalog with an owner.

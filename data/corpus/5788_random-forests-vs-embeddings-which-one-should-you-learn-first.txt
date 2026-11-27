@@ -1,0 +1,13 @@
+Random Forests vs Embeddings: Which One Should You Learn First?
+
+Learners often ask whether to study Random Forests or Embeddings first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Random Forests is ensembles of many decision trees whose predictions are combined, and it is closely tied to bagging and feature randomness. Embeddings, by contrast, is lists of numbers that represent words, images or items so that similar things sit close together, and it is closely tied to vectors and cosine similarity.
+
+Choose Random Forests first if you care about tabular predictions or feature importance ranking. Choose Embeddings first if you care about semantic search or recommendations.
+
+Think of Random Forests as asking many different experts and taking the majority view, and of Embeddings as coordinates on a map where similar places are close together. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Random Forests, avoid treating importance scores as causes. With Embeddings, avoid mixing models between indexing and querying.
+
+A good habit for Random Forests is to tune the number of trees only after the basics work. A good habit for Embeddings is to use the same embedding model for indexing and querying.

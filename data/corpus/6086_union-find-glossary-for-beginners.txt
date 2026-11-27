@@ -1,0 +1,12 @@
+Union-Find Glossary for Beginners
+
+New words can make Union-Find feel harder than it is. This glossary keeps the key ones in one place.
+
+Union-Find: a data structure that tracks which items belong to the same group and merges groups quickly.
+parent pointers: a core term, most visible in detecting connected components.
+union operation: a core term that beginners often confuse with find operation.
+find operation: a core term that connects to path compression.
+path compression: a core term worth revisiting after you try a real example.
+Python lists: a tool commonly used for building minimum spanning trees.
+
+Come back to this Union-Find list whenever documentation for scipy.sparse.csgraph uses a word you do not recognize.

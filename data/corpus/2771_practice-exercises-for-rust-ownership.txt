@@ -1,0 +1,11 @@
+Practice Exercises for Rust Ownership
+
+These exercises build real understanding of Rust Ownership. Do them in order, and write down your answers.
+
+Exercise 1: Compare rustc and rust-analyzer for safe concurrent code and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: fighting the borrow checker with needless clones. Then fix it.
+Exercise 3: List three situations from your own experience that resemble systems programming or command line tools.
+Exercise 4: Explain how lifetimes and moves differ, using a drawing.
+Exercise 5: Pick Cargo and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Rust Ownership is a set of rules that lets Rust manage memory safely without a garbage collector.

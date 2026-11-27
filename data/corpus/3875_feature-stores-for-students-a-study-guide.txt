@@ -1,0 +1,17 @@
+Feature Stores for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Feature Stores.
+
+Learning goals:
+1. Explain Feature Stores in your own words.
+2. Describe offline store, online store, point-in-time correctness, and feature definitions.
+3. Give examples from sharing features across models and serving real-time predictions.
+4. Name three problems to watch for.
+
+Start with the definition: Feature Stores is systems that store and serve the input variables used by machine learning models. Then draw a shared pantry of prepared ingredients for many recipes on paper and label the four terms from the goals above.
+
+Self-test questions: Why is leaking future data a problem? How does online store relate to point-in-time correctness? When would you choose Feast or Tecton?
+
+Study habit worth keeping: define each feature once and reuse it in training and serving.
+
+When you feel ready, compare Feature Stores with Data Lakes and write down three differences.

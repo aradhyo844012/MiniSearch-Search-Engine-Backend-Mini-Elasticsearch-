@@ -1,0 +1,13 @@
+B-Trees on Disk vs Eventual Consistency: Which One Should You Learn First?
+
+Learners often ask whether to study B-Trees on Disk or Eventual Consistency first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently, and it is closely tied to pages and branching factor. Eventual Consistency, by contrast, is a guarantee that replicas will agree on the same value if updates stop for long enough, and it is closely tied to replication delay and conflict resolution.
+
+Choose B-Trees on Disk first if you care about database indexes or file system directories. Choose Eventual Consistency first if you care about global social feeds or shopping cart services.
+
+Think of B-Trees on Disk as a filing cabinet where each drawer tells you which drawer to open next, and of Eventual Consistency as news spreading through a village until everyone has heard it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With B-Trees on Disk, avoid random writes on fragmented pages. With Eventual Consistency, avoid assuming reads are always fresh.
+
+A good habit for B-Trees on Disk is to keep indexed keys short so more of them fit on a page. A good habit for Eventual Consistency is to decide up front how your app handles stale reads.

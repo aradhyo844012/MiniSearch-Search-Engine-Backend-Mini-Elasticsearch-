@@ -1,0 +1,15 @@
+Star Schema Modeling in 10 Minutes
+
+You have ten minutes, so here is the fast route through Star Schema Modeling.
+
+Minutes 1 and 2, the definition: Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.
+
+Minutes 3 and 4, the vocabulary: learn fact tables, dimension tables, surrogate keys, and grain.
+
+Minutes 5 and 6, the picture: imagine a wheel with a hub of numbers and spokes of descriptions. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through business intelligence reports, data warehouses, and fast aggregations.
+
+Minutes 9 and 10, the traps and the tools: watch for mixing different grains and over-normalized dimensions, then try dbt for a first experiment.
+
+If you have a spare minute, remember to state the grain of the fact table before designing anything else.

@@ -1,0 +1,15 @@
+Combining Command Line Productivity with Code Editors and IDEs in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Command Line Productivity and Code Editors and IDEs can work together in a single project.
+
+Command Line Productivity is using shell tools and shortcuts to complete tasks faster. Code Editors and IDEs is tools for writing, navigating and debugging code.
+
+Imagine a project that involves automating repetitive tasks and daily development. Command Line Productivity brings aliases, while Code Editors and IDEs brings syntax highlighting.
+
+A sensible plan is to start with bash for the Command Line Productivity part and VS Code for the Code Editors and IDEs part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: dangerous wildcard use on one side, and ignoring keyboard shortcuts on the other.
+
+Picture the whole as learning the shortcuts on a well-used road, working alongside a well-organized workbench.
+
+Two habits help: first, turn commands you repeat into small scripts; second, learn the shortcuts for the actions you repeat most.

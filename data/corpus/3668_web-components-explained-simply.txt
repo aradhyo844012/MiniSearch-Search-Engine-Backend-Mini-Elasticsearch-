@@ -1,0 +1,13 @@
+Web Components Explained Simply
+
+If Web Components sounds intimidating, relax. It is browser-native custom elements with their own markup, style and behavior, and the idea is simpler than the name suggests.
+
+Think of Web Components as a Lego brick in its own sealed packaging. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: custom elements, shadow DOM, templates, and slots. You do not need to master them all at once. Start with custom elements, then add shadow DOM.
+
+You will meet Web Components in work such as design system components, widgets reused across frameworks, and embeddable tools.
+
+One practical tip is to document the attributes and events like a public API.
+
+After Web Components, a natural next topic is Client-Side Routing.

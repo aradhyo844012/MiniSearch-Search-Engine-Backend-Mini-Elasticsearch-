@@ -1,0 +1,13 @@
+Teaching SOLID Principles to a Teammate
+
+Explaining SOLID Principles to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: house rules that keep a shared kitchen tidy. Ask your teammate what the picture suggests.
+
+Then give the plain definition: SOLID Principles is five guidelines for designing object-oriented code that is easy to change. Avoid jargon at this stage.
+
+Walk through an example involving structuring classes, naming single responsibility and the open-closed principle as they come up.
+
+Ask your teammate to explain Liskov substitution in SOLID Principles back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, applying them rigidly to tiny scripts, and suggest this habit: apply them when a design starts to hurt, not before.

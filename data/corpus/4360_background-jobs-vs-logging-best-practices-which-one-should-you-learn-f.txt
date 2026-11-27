@@ -1,0 +1,13 @@
+Background Jobs vs Logging Best Practices: Which One Should You Learn First?
+
+Learners often ask whether to study Background Jobs or Logging Best Practices first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Background Jobs is tasks that run outside the request cycle so users do not have to wait for them, and it is closely tied to queues and workers. Logging Best Practices, by contrast, is recording useful, structured information about what an application is doing, and it is closely tied to log levels and structured logs.
+
+Choose Background Jobs first if you care about sending emails or resizing images. Choose Logging Best Practices first if you care about debugging production issues or auditing actions.
+
+Think of Background Jobs as dropping laundry at a service and collecting it later, and of Logging Best Practices as a ship's logbook that explains what happened and when. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Background Jobs, avoid jobs that are not idempotent. With Logging Best Practices, avoid logging sensitive data.
+
+A good habit for Background Jobs is to give every job a timeout and a retry limit. A good habit for Logging Best Practices is to include a request ID in every log line.

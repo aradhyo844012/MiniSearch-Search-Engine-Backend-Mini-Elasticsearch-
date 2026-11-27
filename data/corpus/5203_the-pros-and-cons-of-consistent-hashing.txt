@@ -1,0 +1,15 @@
+The Pros and Cons of Consistent Hashing
+
+No technology is free of trade-offs, and Consistent Hashing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports distributed caches
+- Makes sharded databases easier
+- Helps with load balancing
+
+Drawbacks and risks:
+- Risk: too few virtual nodes
+- Risk: uneven load
+- Risk: hot keys
+
+Weigh the two lists against your own project. If the advantages match your needs, such as distributed caches, and you can manage the risks, Consistent Hashing is a sound choice. Whatever you decide, use many virtual nodes per server to even out the load.

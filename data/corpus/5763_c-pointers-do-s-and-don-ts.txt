@@ -1,0 +1,17 @@
+C Pointers Do's and Don'ts
+
+A quick list of habits for working with C Pointers.
+
+Do:
+- Learn addresses before anything else.
+- Try GCC on a small example.
+- Make it a habit to set pointers to NULL after freeing them.
+- Test the case of dynamic memory allocation early.
+
+Don't:
+- Ignore this: dereferencing null pointers.
+- Ignore this: memory leaks.
+- Ignore this: dangling pointers.
+- Adopt C Pointers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with C Pointers, a little patience with dereferencing pays off more than any clever shortcut.

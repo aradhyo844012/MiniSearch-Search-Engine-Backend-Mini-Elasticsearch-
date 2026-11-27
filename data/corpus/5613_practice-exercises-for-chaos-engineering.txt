@@ -1,0 +1,11 @@
+Practice Exercises for Chaos Engineering
+
+These exercises build real understanding of Chaos Engineering. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Chaos Engineering and include the term steady state.
+Exercise 2: Pick Chaos Monkey and complete its getting-started tutorial.
+Exercise 3: Explain how blast radius and fault injection differ, using a drawing.
+Exercise 4: List three situations from your own experience that resemble testing resilience or validating failover.
+Exercise 5: Create a small example that deliberately triggers this problem: experimenting without safeguards. Then fix it.
+
+When you finish, compare your answers with the definition: Chaos Engineering is deliberately causing failures in a system to learn how it responds.

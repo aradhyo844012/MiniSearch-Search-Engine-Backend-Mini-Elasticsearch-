@@ -1,0 +1,26 @@
+Everything You Need to Know About Test-Driven Development
+
+This page collects the essentials about Test-Driven Development in one place. In short, Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass.
+
+Core concepts:
+- red, green, refactor
+- small steps
+- test first
+- fast feedback
+
+Where it is used:
+- designing small modules
+- preventing regressions
+- gaining confidence for refactoring
+
+Common problems:
+- writing tests that are too large
+- skipping the refactor step
+- testing implementation details
+
+Tools to know:
+- pytest
+- JUnit
+- Jest
+
+Remember this above all: writing the exam questions before teaching the lesson is a good way to picture it, and the best habit is to keep each red-green cycle to a few minutes.

@@ -1,0 +1,15 @@
+Topological Sorting in 10 Minutes
+
+You have ten minutes, so here is the fast route through Topological Sorting.
+
+Minutes 1 and 2, the definition: Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+
+Minutes 3 and 4, the vocabulary: learn directed acyclic graphs, in-degree counts, Kahn's algorithm, and cycle detection.
+
+Minutes 5 and 6, the picture: imagine a recipe that must list every step after the steps it depends on. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through build systems, course prerequisite planning, and task scheduling.
+
+Minutes 9 and 10, the traps and the tools: watch for ignoring cycles and assuming the order is unique, then try Python graphlib for a first experiment.
+
+If you have a spare minute, remember to check for cycles first so you can report a clear error.

@@ -1,0 +1,15 @@
+Combining Flutter with Push Notifications in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Flutter and Push Notifications can work together in a single project.
+
+Flutter is a toolkit for building natively compiled apps from a single Dart codebase. Push Notifications is messages sent to a user's device from a server even when the app is closed.
+
+Imagine a project that involves cross-platform mobile apps and order updates. Flutter brings widgets, while Push Notifications brings device tokens.
+
+A sensible plan is to start with Dart for the Flutter part and Firebase Cloud Messaging for the Push Notifications part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor state organization on one side, and sending too many messages on the other.
+
+Picture the whole as a box of customizable building blocks drawn by its own engine, working alongside a courier who knocks on your door when a package arrives.
+
+Two habits help: first, split big widgets into small reusable ones; second, ask for permission at a moment when the user understands the value.

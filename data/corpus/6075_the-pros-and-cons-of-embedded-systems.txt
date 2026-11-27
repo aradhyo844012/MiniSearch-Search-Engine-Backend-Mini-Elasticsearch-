@@ -1,0 +1,15 @@
+The Pros and Cons of Embedded Systems
+
+No technology is free of trade-offs, and Embedded Systems is no exception. Here is an honest summary.
+
+Advantages:
+- Supports appliances
+- Makes medical devices easier
+- Helps with vehicles
+
+Drawbacks and risks:
+- Risk: memory leaks on tiny devices
+- Risk: no plan for updates
+- Risk: ignoring power use
+
+Weigh the two lists against your own project. If the advantages match your needs, such as appliances, and you can manage the risks, Embedded Systems is a sound choice. Whatever you decide, plan how firmware updates will be delivered from the start.

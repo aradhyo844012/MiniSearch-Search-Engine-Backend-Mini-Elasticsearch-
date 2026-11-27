@@ -1,0 +1,26 @@
+Everything You Need to Know About Threat Modeling
+
+This page collects the essentials about Threat Modeling in one place. In short, Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it.
+
+Core concepts:
+- assets
+- attackers
+- trust boundaries
+- mitigations
+
+Where it is used:
+- designing new features
+- reviewing architecture
+- prioritizing security work
+
+Common problems:
+- doing it once and never again
+- ignoring data flows
+- focusing only on technical threats
+
+Tools to know:
+- STRIDE
+- OWASP Threat Dragon
+- data flow diagrams
+
+Remember this above all: walking around a house asking where a burglar might get in is a good way to picture it, and the best habit is to draw the data flow diagram first.

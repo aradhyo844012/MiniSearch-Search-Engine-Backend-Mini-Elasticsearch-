@@ -1,0 +1,15 @@
+The Pros and Cons of CSS Variables
+
+No technology is free of trade-offs, and CSS Variables is no exception. Here is an honest summary.
+
+Advantages:
+- Supports theme switching
+- Makes design systems easier
+- Helps with spacing scales
+
+Drawbacks and risks:
+- Risk: missing fallbacks
+- Risk: overriding at the wrong scope
+- Risk: expecting preprocessor features
+
+Weigh the two lists against your own project. If the advantages match your needs, such as theme switching, and you can manage the risks, CSS Variables is a sound choice. Whatever you decide, define theme values on the root element.

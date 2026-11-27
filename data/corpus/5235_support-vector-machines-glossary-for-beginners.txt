@@ -1,0 +1,12 @@
+Support Vector Machines Glossary for Beginners
+
+New words can make Support Vector Machines feel harder than it is. This glossary keeps the key ones in one place.
+
+Support Vector Machines: models that classify data by finding the boundary with the widest margin between classes.
+margin: a core term, most visible in text classification.
+support vectors: a core term that beginners often confuse with kernels.
+kernels: a core term that connects to regularization.
+regularization: a core term worth revisiting after you try a real example.
+scikit-learn: a tool commonly used for small high-dimensional datasets.
+
+Come back to this Support Vector Machines list whenever documentation for LIBSVM uses a word you do not recognize.

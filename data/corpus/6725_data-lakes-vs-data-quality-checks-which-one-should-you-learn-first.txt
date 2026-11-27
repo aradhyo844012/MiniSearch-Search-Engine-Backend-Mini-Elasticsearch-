@@ -1,0 +1,13 @@
+Data Lakes vs Data Quality Checks: Which One Should You Learn First?
+
+Learners often ask whether to study Data Lakes or Data Quality Checks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed, and it is closely tied to raw storage and schema on read. Data Quality Checks, by contrast, is automated tests that verify data is complete, valid and consistent, and it is closely tied to null checks and uniqueness.
+
+Choose Data Lakes first if you care about storing logs and events or machine learning datasets. Choose Data Quality Checks first if you care about protecting dashboards or validating ingestion.
+
+Think of Data Lakes as a big reservoir where water from many rivers is stored before treatment, and of Data Quality Checks as a quality inspector at the end of an assembly line. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Lakes, avoid turning into a data swamp. With Data Quality Checks, avoid alerts nobody reads.
+
+A good habit for Data Lakes is to register every dataset in a catalog with an owner. A good habit for Data Quality Checks is to check data as early as it enters the pipeline.

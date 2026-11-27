@@ -1,0 +1,13 @@
+Regression Testing Explained Simply
+
+Here is Regression Testing without the jargon: it is re-running tests after changes to make sure old features still work.
+
+Think of Regression Testing as rechecking the old keys after cutting a new lock. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: test suites, automation, test selection, and bug reproduction tests. You do not need to master them all at once. Start with test suites, then add automation.
+
+People reach for Regression Testing when they work on protecting releases, verifying bug fixes, and refactoring safely.
+
+One practical tip is to add a test for every bug you fix.
+
+After Regression Testing, a natural next topic is Chaos Engineering.

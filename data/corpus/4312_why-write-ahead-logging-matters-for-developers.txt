@@ -1,0 +1,11 @@
+Why Write-Ahead Logging Matters for Developers
+
+Developers who understand Write-Ahead Logging make better decisions, because Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.
+
+Three situations show why it matters. First, surviving crashes. Second, feeding replication streams. Third, point-in-time recovery. In each case, a solid grasp of log records and checkpoints separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: disabling fsync for speed, log files filling the disk, and forgetting to archive logs.
+
+Good tools exist, including PostgreSQL WAL, SQLite journal, and Apache Kafka, so you rarely have to start from nothing.
+
+Connect Write-Ahead Logging with B-Trees on Disk to see the bigger picture of Storage Engines and Databases.

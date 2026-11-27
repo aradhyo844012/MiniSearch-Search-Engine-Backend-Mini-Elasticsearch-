@@ -1,0 +1,15 @@
+The Pros and Cons of Hashing vs Encryption
+
+No technology is free of trade-offs, and Hashing vs Encryption is no exception. Here is an honest summary.
+
+Advantages:
+- Supports storing passwords
+- Makes verifying file integrity easier
+- Helps with protecting data in transit
+
+Drawbacks and risks:
+- Risk: encrypting passwords instead of hashing them
+- Risk: using broken hash functions
+- Risk: confusing encoding with encryption
+
+Weigh the two lists against your own project. If the advantages match your needs, such as storing passwords, and you can manage the risks, Hashing vs Encryption is a sound choice. Whatever you decide, ask whether you will ever need the original value back.

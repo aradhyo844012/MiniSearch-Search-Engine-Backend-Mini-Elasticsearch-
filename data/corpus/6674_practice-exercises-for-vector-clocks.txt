@@ -1,0 +1,11 @@
+Practice Exercises for Vector Clocks
+
+These exercises build real understanding of Vector Clocks. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Vector Clocks and include the term logical time.
+Exercise 2: Compare the Amazon Dynamo paper and CRDT libraries for collaborative tools and write down your conclusion.
+Exercise 3: Explain how the happened-before relation and conflict detection differ, using a drawing.
+Exercise 4: Create a small example that deliberately triggers this problem: clocks that grow with many nodes. Then fix it.
+Exercise 5: List three situations from your own experience that resemble detecting concurrent edits or replicated databases.
+
+When you finish, compare your answers with the definition: Vector Clocks is counters that let distributed processes track the order of events without a shared clock.

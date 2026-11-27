@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Leader Election
+
+This is a fictional but realistic day for a developer whose project relies on Leader Election.
+
+Morning: Rahul starts by reviewing a ticket about database primaries. Before touching any code, Rahul re-reads the notes on heartbeats to make sure the plan is sound.
+
+Midday: Rahul pairs with a teammate to explore terms or epochs with ZooKeeper. A small test exposes the problem of split brain, and they fix it together.
+
+Afternoon: the team discusses a new request involving job schedulers. Rahul sketches a classroom picking a monitor when the teacher leaves on the whiteboard to help everyone follow the idea.
+
+End of day: Rahul writes a short note describing what changed and adds a reminder to tune heartbeat intervals against real network delays.
+
+Days like this are typical. Leader Election is not glamorous, but understanding it keeps small problems from growing.

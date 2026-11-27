@@ -1,0 +1,13 @@
+Memory Hierarchy vs Endianness: Which One Should You Learn First?
+
+Learners often ask whether to study Memory Hierarchy or Endianness first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Memory Hierarchy is the layers of storage from registers to disks, trading speed for size, and it is closely tied to registers and cache. Endianness, by contrast, is the order in which a computer stores the bytes of a multi-byte number, and it is closely tied to big-endian and little-endian.
+
+Choose Memory Hierarchy first if you care about designing efficient programs or explaining slow I/O. Choose Endianness first if you care about network protocols or binary file formats.
+
+Think of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse, and of Endianness as writing a date as day-month-year or as year-month-day. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Memory Hierarchy, avoid ignoring locality. With Endianness, avoid mixing byte orders.
+
+A good habit for Memory Hierarchy is to reduce how often your program goes down to the slower layers. A good habit for Endianness is to always specify byte order in file and protocol formats.

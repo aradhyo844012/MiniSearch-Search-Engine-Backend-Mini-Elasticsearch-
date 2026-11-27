@@ -1,0 +1,11 @@
+Practice Exercises for Feature Stores
+
+These exercises build real understanding of Feature Stores. Do them in order, and write down your answers.
+
+Exercise 1: Compare Tecton and Databricks Feature Store for avoiding training-serving skew and write down your conclusion.
+Exercise 2: Pick Feast and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble sharing features across models or serving real-time predictions.
+Exercise 4: Explain how point-in-time correctness and feature definitions differ, using a drawing.
+Exercise 5: Write a short paragraph describing Feature Stores and include the term offline store.
+
+When you finish, compare your answers with the definition: Feature Stores is systems that store and serve the input variables used by machine learning models.

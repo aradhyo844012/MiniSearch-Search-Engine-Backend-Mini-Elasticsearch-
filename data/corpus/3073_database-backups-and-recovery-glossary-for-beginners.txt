@@ -1,0 +1,12 @@
+Database Backups and Recovery Glossary for Beginners
+
+New words can make Database Backups and Recovery feel harder than it is. This glossary keeps the key ones in one place.
+
+Database Backups and Recovery: the practice of copying data regularly so that it can be restored after failures.
+full and incremental backups: a core term, most visible in recovering deleted tables.
+recovery point objective: a core term that beginners often confuse with recovery time objective.
+recovery time objective: a core term that connects to restore testing.
+restore testing: a core term worth revisiting after you try a real example.
+pg_dump: a tool commonly used for migrating servers.
+
+Come back to this Database Backups and Recovery list whenever documentation for mysqldump uses a word you do not recognize.

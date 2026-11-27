@@ -1,0 +1,11 @@
+Choosing Tools for Content Security Policy
+
+There is no single best tool for Content Security Policy. The right choice depends on your project, your team and your timeline.
+
+browser DevTools is a common first choice, especially for reducing the impact of XSS. CSP Evaluator suits teams that already work with similar technology, and Report URI is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle blocking unwanted scripts well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: allowing unsafe-inline.
+
+As a rule of thumb, start in report-only mode to learn what would break, no matter which tool you use.

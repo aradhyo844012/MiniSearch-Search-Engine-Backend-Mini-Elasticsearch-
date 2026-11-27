@@ -1,0 +1,15 @@
+The Pros and Cons of Graph Databases
+
+No technology is free of trade-offs, and Graph Databases is no exception. Here is an honest summary.
+
+Advantages:
+- Supports social networks
+- Makes recommendation engines easier
+- Helps with fraud detection
+
+Drawbacks and risks:
+- Risk: using them for simple tabular data
+- Risk: unbounded traversals
+- Risk: supernodes with millions of edges
+
+Weigh the two lists against your own project. If the advantages match your needs, such as social networks, and you can manage the risks, Graph Databases is a sound choice. Whatever you decide, limit traversal depth in every exploratory query.

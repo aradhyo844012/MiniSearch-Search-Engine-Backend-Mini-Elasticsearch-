@@ -1,0 +1,11 @@
+Is Feature Stores Right for Your Project?
+
+Before adopting Feature Stores, ask whether it fits the problem. Remember that Feature Stores is systems that store and serve the input variables used by machine learning models.
+
+It is a good fit when your work involves sharing features across models or serving real-time predictions, and when your team understands offline store.
+
+Be cautious when the project is very small, when deadlines leave no room to learn online store, or when you cannot manage these risks: leaking future data, duplicate definitions, and stale online values.
+
+A simple decision test: write down the problem in one sentence, then check whether point-in-time correctness and feature definitions are part of the answer. If they are, Feature Stores is probably worth a closer look.
+
+If you decide to go ahead, start small with avoiding training-serving skew and define each feature once and reuse it in training and serving.

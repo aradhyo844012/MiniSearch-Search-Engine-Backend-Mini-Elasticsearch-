@@ -1,0 +1,12 @@
+Questions to Ask About Database Backups and Recovery in Code Review
+
+Reviewing code that involves Database Backups and Recovery is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is recovery point objective clear to someone reading the code for the first time?
+- Does this change respect full and incremental backups, or does it work around it?
+- Is pg_dump used consistently, or are we mixing approaches?
+- Have we considered never testing restores?
+- Does the code handle the case of recovering deleted tables correctly?
+- Have we avoided this problem: keeping credentials inside backup scripts?
+
+Good reviews of work on Database Backups and Recovery are specific, kind and focused on recovery time objective, not on personal style.

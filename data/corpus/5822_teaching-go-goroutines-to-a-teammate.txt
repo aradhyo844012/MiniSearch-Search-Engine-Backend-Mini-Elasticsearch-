@@ -1,0 +1,13 @@
+Teaching Go Goroutines to a Teammate
+
+Explaining Go Goroutines to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a small crew of waiters passing notes through a serving hatch. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently. Avoid jargon at this stage.
+
+Walk through an example involving servers handling many connections, naming goroutines and channels as they come up.
+
+Ask your teammate to explain select statements in Go Goroutines back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, goroutine leaks, and suggest this habit: run your tests with the race detector turned on.

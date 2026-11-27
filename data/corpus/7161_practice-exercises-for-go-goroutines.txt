@@ -1,0 +1,11 @@
+Practice Exercises for Go Goroutines
+
+These exercises build real understanding of Go Goroutines. Do them in order, and write down your answers.
+
+Exercise 1: Explain how select statements and wait groups differ, using a drawing.
+Exercise 2: List three situations from your own experience that resemble servers handling many connections or parallel data processing.
+Exercise 3: Create a small example that deliberately triggers this problem: goroutine leaks. Then fix it.
+Exercise 4: Write a short paragraph describing Go Goroutines and include the term goroutines.
+Exercise 5: Pick the go command and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.

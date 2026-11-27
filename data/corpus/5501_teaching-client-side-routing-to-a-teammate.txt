@@ -1,0 +1,13 @@
+Teaching Client-Side Routing to a Teammate
+
+Explaining Client-Side Routing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: swapping the picture in a frame without replacing the frame. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Client-Side Routing is changing the visible page in the browser without a full page reload. Avoid jargon at this stage.
+
+Walk through an example involving single-page apps, naming history API and route matching as they come up.
+
+Ask your teammate to explain nested routes in Client-Side Routing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, broken deep links, and suggest this habit: test refreshing the page on every route.

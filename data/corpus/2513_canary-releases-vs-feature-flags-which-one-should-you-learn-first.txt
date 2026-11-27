@@ -1,0 +1,13 @@
+Canary Releases vs Feature Flags: Which One Should You Learn First?
+
+Learners often ask whether to study Canary Releases or Feature Flags first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it is closely tied to traffic percentages and health metrics. Feature Flags, by contrast, is switches in configuration that turn features on or off without redeploying code, and it is closely tied to flag evaluation and targeting rules.
+
+Choose Canary Releases first if you care about safer releases or testing with real traffic. Choose Feature Flags first if you care about dark launches or A/B tests.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads, and of Feature Flags as light switches wired to every room of a house. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Canary Releases, avoid too little traffic to reveal problems. With Feature Flags, avoid never removing old flags.
+
+A good habit for Canary Releases is to define rollback conditions before starting the rollout. A good habit for Feature Flags is to give every flag an owner and a removal date.

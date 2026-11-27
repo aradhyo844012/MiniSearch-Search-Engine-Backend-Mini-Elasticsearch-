@@ -1,0 +1,11 @@
+Mistakes to Avoid with Regular Expressions
+
+Everyone learns Regular Expressions partly through mistakes. Here are three worth avoiding.
+
+Mistake one: catastrophic backtracking. It usually appears when someone skips character classes and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: patterns that are too greedy. It tends to be noticed late, often during testing of validating input. A short checklist during review catches it early.
+
+Mistake three: using them to parse HTML. It is easy to miss because everything seems to work at first. Keep an eye on anchors to spot it.
+
+If you remember only one rule, make it this: build patterns in small steps and test each one.

@@ -1,0 +1,13 @@
+Security Headers vs Dependency Vulnerabilities: Which One Should You Learn First?
+
+Learners often ask whether to study Security Headers or Dependency Vulnerabilities first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Security Headers is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options. Dependency Vulnerabilities, by contrast, is security weaknesses that come from third-party libraries a project uses, and it is closely tied to CVE identifiers and version pinning.
+
+Choose Security Headers first if you care about hardening websites or reducing clickjacking. Choose Dependency Vulnerabilities first if you care about auditing projects or automating updates.
+
+Think of Security Headers as safety instructions printed on the packaging of every page, and of Dependency Vulnerabilities as checking every ingredient supplier for recalls. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Security Headers, avoid setting headers on only some routes. With Dependency Vulnerabilities, avoid ignoring transitive dependencies.
+
+A good habit for Security Headers is to test the headers on every environment. A good habit for Dependency Vulnerabilities is to automate update pull requests.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Load Testing
+
+Everyone learns Load Testing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: testing unrealistic traffic. It usually appears when someone skips virtual users and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring warm-up. It tends to be noticed late, often during testing of capacity planning. A short checklist during review catches it early.
+
+Mistake three: using average latency only. It is easy to miss because everything seems to work at first. Keep an eye on ramp-up to spot it.
+
+If you remember only one rule, make it this: report p95 and p99 latency, not only averages.

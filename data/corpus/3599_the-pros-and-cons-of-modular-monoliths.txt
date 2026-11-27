@@ -1,0 +1,15 @@
+The Pros and Cons of Modular Monoliths
+
+No technology is free of trade-offs, and Modular Monoliths is no exception. Here is an honest summary.
+
+Advantages:
+- Supports small teams
+- Makes early-stage products easier
+- Helps with preparing for later service extraction
+
+Drawbacks and risks:
+- Risk: modules reaching into each other's tables
+- Risk: no enforced boundaries
+- Risk: treating modules as just folders
+
+Weigh the two lists against your own project. If the advantages match your needs, such as small teams, and you can manage the risks, Modular Monoliths is a sound choice. Whatever you decide, enforce boundaries with automated checks.

@@ -1,0 +1,11 @@
+Choosing Tools for Skip Lists
+
+There is no single best tool for Skip Lists. The right choice depends on your project, your team and your timeline.
+
+Redis sorted sets is a common first choice, especially for ordered in-memory indexes. Java ConcurrentSkipListMap suits teams that already work with similar technology, and LevelDB is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle sorted sets in caches well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: poor random number choices.
+
+As a rule of thumb, draw several levels by hand to see how a search moves down, no matter which tool you use.

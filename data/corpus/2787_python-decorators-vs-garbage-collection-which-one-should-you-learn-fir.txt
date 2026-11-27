@@ -1,0 +1,13 @@
+Python Decorators vs Garbage Collection: Which One Should You Learn First?
+
+Learners often ask whether to study Python Decorators or Garbage Collection first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Python Decorators is functions that wrap other functions to add behavior without changing their code, and it is closely tied to higher-order functions and wrapper functions. Garbage Collection, by contrast, is automatic memory management that finds and frees objects a program no longer uses, and it is closely tied to reachability and generations.
+
+Choose Python Decorators first if you care about logging calls or caching results. Choose Garbage Collection first if you care about managed languages like Java and Python or reducing memory bugs.
+
+Think of Python Decorators as gift wrapping that adds a bow without changing the present, and of Garbage Collection as a cleaner who removes items nobody has touched in a while. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Python Decorators, avoid losing function metadata. With Garbage Collection, avoid creating huge numbers of short-lived objects.
+
+A good habit for Python Decorators is to always apply functools.wraps inside your decorator. A good habit for Garbage Collection is to measure allocation rates before tuning collector settings.

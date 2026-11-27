@@ -1,0 +1,11 @@
+Scaling Considerations for Star Schema Modeling
+
+A design that works for a classroom project can behave very differently under real load. Here is how Star Schema Modeling changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding fact tables and getting business intelligence reports right.
+
+Medium scale: problems start to appear. Watch for mixing different grains and over-normalized dimensions, and measure with dbt before changing anything.
+
+Large scale: surrogate keys and grain move from background details to central design questions. Teams often revisit their choices around data warehouses at this stage.
+
+Before you scale, state the grain of the fact table before designing anything else. It is cheaper to build that habit early than to fix a crisis later.

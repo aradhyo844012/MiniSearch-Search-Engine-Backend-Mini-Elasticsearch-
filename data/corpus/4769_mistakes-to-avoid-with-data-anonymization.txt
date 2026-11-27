@@ -1,0 +1,11 @@
+Mistakes to Avoid with Data Anonymization
+
+Everyone learns Data Anonymization partly through mistakes. Here are three worth avoiding.
+
+Mistake one: re-identification through combined fields. It usually appears when someone skips masking and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: removing too little. It tends to be noticed late, often during testing of sharing datasets with researchers. A short checklist during review catches it early.
+
+Mistake three: destroying usefulness by removing too much. It is easy to miss because everything seems to work at first. Keep an eye on differential privacy to spot it.
+
+If you remember only one rule, make it this: test whether combining fields could identify a person.

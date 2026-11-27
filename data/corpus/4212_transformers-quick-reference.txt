@@ -1,0 +1,15 @@
+Transformers Quick Reference
+
+A one-screen reminder for Transformers. Bookmark it and return when the details fade.
+
+What it is: neural network architectures that use attention to relate all parts of an input to each other.
+Key terms: self-attention, positional encoding, encoder and decoder blocks, and tokens.
+Typical uses: language translation, text generation, and code assistance.
+Risks: huge compute requirements, limited context windows, and biased training data.
+Tools: Hugging Face, PyTorch, and TensorFlow.
+
+Mental picture: a reader who can look back at any word of a paragraph while reading each new word.
+
+Habit to build: begin with small pretrained models.
+
+See also: Hyperparameter Tuning, which sits close to Transformers in the area of AI and Machine Learning.

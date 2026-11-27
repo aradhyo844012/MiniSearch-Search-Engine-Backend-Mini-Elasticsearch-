@@ -1,0 +1,17 @@
+Database Backups and Recovery for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Database Backups and Recovery.
+
+Learning goals:
+1. Explain Database Backups and Recovery in your own words.
+2. Describe full and incremental backups, recovery point objective, recovery time objective, and restore testing.
+3. Give examples from recovering deleted tables and migrating servers.
+4. Name three problems to watch for.
+
+Start with the definition: Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures. Then draw a spare house key kept at a trusted neighbor's home on paper and label the four terms from the goals above.
+
+Self-test questions: Why is never testing restores a problem? How does recovery point objective relate to recovery time objective? When would you choose pg_dump or mysqldump?
+
+Study habit: schedule a restore drill on a regular basis.
+
+When you feel ready, compare Database Backups and Recovery with LSM Trees and write down three differences.

@@ -1,0 +1,9 @@
+Understanding Interrupts Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a phone call interrupting your reading.
+
+In that picture, interrupt handlers is the first rule you follow, interrupt vectors is the next step, and priorities and context saving keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Interrupts is signals that make a processor pause its work to handle an urgent event, and it involves details such as long handlers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Linux /proc/interrupts to learn the exact behavior. The same picture helps when you explain keyboard and mouse input to a friend.

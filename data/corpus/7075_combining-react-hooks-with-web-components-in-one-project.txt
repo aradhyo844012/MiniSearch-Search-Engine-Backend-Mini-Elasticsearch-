@@ -1,0 +1,15 @@
+Combining React Hooks with Web Components in One Project
+
+Real projects rarely use one idea in isolation. This article shows how React Hooks and Web Components can work together in a single project.
+
+React Hooks is functions that let components use state and lifecycle features without writing classes. Web Components is browser-native custom elements with their own markup, style and behavior.
+
+Imagine a project that involves managing form input and design system components. React Hooks brings useState, while Web Components brings custom elements.
+
+A sensible plan is to start with React DevTools for the React Hooks part and Lit for the Web Components part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: calling hooks conditionally on one side, and poor accessibility on the other.
+
+Picture the whole as sticky notes a component keeps between redraws, working alongside a Lego brick in its own sealed packaging.
+
+Two habits help: first, enable the hooks lint rules from the start; second, document the attributes and events like a public API.

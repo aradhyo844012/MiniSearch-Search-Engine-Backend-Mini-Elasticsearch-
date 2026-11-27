@@ -1,0 +1,10 @@
+Segment Trees: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Segment Trees with confidence. The subject itself is a tree structure that answers range queries and handles updates in logarithmic time.
+
+tree nodes covering ranges: one of the building blocks of Segment Trees. Documentation for C++ arrays usually mentions it early.
+range queries: one of the building blocks of Segment Trees. It shows up whenever you work on range sum queries.
+point updates: one of the building blocks of Segment Trees. Documentation for C++ arrays usually mentions it early.
+lazy propagation: one of the building blocks of Segment Trees. Documentation for C++ arrays usually mentions it early.
+
+Practice using these four terms in sentences about finding minimums in a window. If the sentences feel natural, the vocabulary has stuck.

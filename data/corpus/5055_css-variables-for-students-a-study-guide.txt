@@ -1,0 +1,17 @@
+CSS Variables for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover CSS Variables.
+
+Learning goals:
+1. Explain CSS Variables in your own words.
+2. Describe custom properties, the var function, inheritance, and fallback values.
+3. Give examples from theme switching and design systems.
+4. Name three problems to watch for.
+
+Start with the definition: CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles. Then draw labeled paint buckets you refill once to recolor a whole house on paper and label the four terms from the goals above.
+
+Self-test questions: Why is missing fallbacks a problem? How does the var function relate to inheritance? When would you choose browser DevTools or Sass?
+
+Study habit: define theme values on the root element.
+
+When you feel ready, compare CSS Variables with State Management and write down three differences.

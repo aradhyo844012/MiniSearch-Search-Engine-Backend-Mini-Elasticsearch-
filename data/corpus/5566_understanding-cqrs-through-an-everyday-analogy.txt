@@ -1,0 +1,9 @@
+Understanding CQRS Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a restaurant with one counter for orders and another for pickup.
+
+In that picture, commands is the first rule you follow, queries is the next step, and read models and eventual consistency keep everything running smoothly.
+
+Every analogy breaks down eventually. Real CQRS is a pattern that separates the models used to change data from the models used to read it, and it involves details such as adding it to simple apps that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Axon Framework to learn the exact behavior. The same picture helps when you explain high-read dashboards to a friend.

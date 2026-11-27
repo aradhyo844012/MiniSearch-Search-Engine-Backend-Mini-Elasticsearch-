@@ -1,0 +1,12 @@
+gRPC Glossary for Beginners
+
+New words can make gRPC feel harder than it is. This glossary keeps the key ones in one place.
+
+gRPC: a framework for fast remote procedure calls using typed contracts.
+protocol buffers: a core term, most visible in service-to-service calls.
+service definitions: a core term that beginners often confuse with streaming.
+streaming: a core term that connects to HTTP/2.
+HTTP/2: a core term worth revisiting after you try a real example.
+protoc: a tool commonly used for low-latency APIs.
+
+Come back to this gRPC list whenever documentation for grpcurl uses a word you do not recognize.

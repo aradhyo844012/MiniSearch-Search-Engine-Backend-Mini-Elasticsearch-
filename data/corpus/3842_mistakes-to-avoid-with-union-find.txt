@@ -1,0 +1,11 @@
+Mistakes to Avoid with Union-Find
+
+Everyone learns Union-Find partly through mistakes. Here are three worth avoiding.
+
+Mistake one: forgetting path compression. It usually appears when someone skips parent pointers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: merging without checking roots. It tends to be noticed late, often during testing of detecting connected components. A short checklist during review catches it early.
+
+Mistake three: using it when deletions are required. It is easy to miss because everything seems to work at first. Keep an eye on path compression to spot it.
+
+If you remember only one rule, make it this: implement path compression and union by rank together.

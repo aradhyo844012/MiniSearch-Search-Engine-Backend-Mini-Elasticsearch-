@@ -1,0 +1,15 @@
+Debugging Strategies Quick Reference
+
+A one-screen reminder for Debugging Strategies. Bookmark it and return when the details fade.
+
+What it is: systematic ways of finding and fixing the cause of unexpected program behavior.
+Key terms: reproducing the bug, isolating the cause, forming hypotheses, and binary search through code.
+Typical uses: fixing production issues, learning unfamiliar code, and reducing repeat bugs.
+Risks: changing many things at once, guessing without evidence, and not writing a test afterward.
+Tools: debuggers, logging, and git bisect.
+
+Mental picture: a detective narrowing down suspects.
+
+Habit to build: change one thing at a time and record the result.
+
+See also: Command Line Productivity, which sits close to Debugging Strategies in the area of Developer Career and Tools.

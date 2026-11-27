@@ -1,0 +1,11 @@
+Scaling Considerations for Memory Hierarchy
+
+A design that works for a classroom project can behave very differently under real load. Here is how Memory Hierarchy changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding registers and getting designing efficient programs right.
+
+Medium scale: problems start to appear. Watch for ignoring locality and excessive paging, and measure with lscpu before changing anything.
+
+Large scale: main memory and disk move from background details to central design questions. Teams often revisit their choices around explaining slow I/O at this stage.
+
+Before you scale, reduce how often your program goes down to the slower layers. It is cheaper to build that habit early than to fix a crisis later.

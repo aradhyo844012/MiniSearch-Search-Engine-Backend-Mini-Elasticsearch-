@@ -1,0 +1,17 @@
+Client-Side Routing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Client-Side Routing.
+
+Learning goals:
+1. Explain Client-Side Routing in your own words.
+2. Describe history API, route matching, nested routes, and route guards.
+3. Give examples from single-page apps and dashboards.
+4. Name three problems to watch for.
+
+Start with the definition: Client-Side Routing is changing the visible page in the browser without a full page reload. Then draw swapping the picture in a frame without replacing the frame on paper and label the four terms from the goals above.
+
+Self-test questions: Why is broken deep links a problem? How does route matching relate to nested routes? When would you choose React Router or Vue Router?
+
+Study habit worth keeping: test refreshing the page on every route.
+
+When you feel ready, compare Client-Side Routing with Internationalization and write down three differences.

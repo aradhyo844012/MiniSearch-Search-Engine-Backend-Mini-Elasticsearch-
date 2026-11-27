@@ -1,0 +1,13 @@
+Teaching Mobile App Security to a Teammate
+
+Explaining Mobile App Security to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: locking an app's valuables in a hotel safe. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Mobile App Security is practices that protect mobile apps and their data from attacks. Avoid jargon at this stage.
+
+Walk through an example involving banking apps, naming secure storage and certificate pinning as they come up.
+
+Ask your teammate to explain obfuscation in Mobile App Security back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, storing tokens in plain text, and suggest this habit: store secrets in the platform keychain or keystore.

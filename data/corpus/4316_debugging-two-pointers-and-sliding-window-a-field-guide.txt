@@ -1,0 +1,13 @@
+Debugging Two Pointers and Sliding Window: A Field Guide
+
+When something goes wrong around Two Pointers and Sliding Window, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: moving the wrong pointer, forgetting empty inputs, and breaking the invariant.
+Step 3: revisit left and right pointers and window boundaries, since misunderstandings there cause many bugs.
+Step 4: use Python lists or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Two Pointers and Sliding Window in work such as finding pairs with a given sum come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, write down the window invariant before coding the loop. It prevents a surprising number of repeat problems.

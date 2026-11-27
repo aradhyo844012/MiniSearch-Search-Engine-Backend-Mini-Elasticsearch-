@@ -1,0 +1,15 @@
+Combining Java Streams with TypeScript Generics in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Java Streams and TypeScript Generics can work together in a single project.
+
+Java Streams is a way of processing collections with chains of declarative operations. TypeScript Generics is a feature that lets functions and types work with many types while keeping type safety.
+
+Imagine a project that involves transforming lists and reusable utility functions. Java Streams brings map, while TypeScript Generics brings type parameters.
+
+A sensible plan is to start with OpenJDK for the Java Streams part and tsc for the TypeScript Generics part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: side effects inside lambdas on one side, and overly complex generic types on the other.
+
+Picture the whole as a conveyor belt where each station changes the item before passing it on, working alongside a labeled box whose label type is filled in when you use it.
+
+Two habits help: first, keep each stream step small and readable; second, add constraints so that error messages become clearer.

@@ -1,0 +1,9 @@
+Understanding Column-Oriented Storage Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a spreadsheet kept as separate lists per column so you can read just one.
+
+In that picture, column chunks is the first rule you follow, compression is the next step, and vectorized scans and predicate pushdown keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics, and it involves details such as slow single-row lookups that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Apache Parquet to learn the exact behavior. The same picture helps when you explain analytics dashboards to a friend.

@@ -1,0 +1,17 @@
+Hyperparameter Tuning for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Hyperparameter Tuning.
+
+Learning goals:
+1. Explain Hyperparameter Tuning in your own words.
+2. Describe search spaces, grid search, random search, and validation scores.
+3. Give examples from improving model accuracy and comparing algorithms.
+4. Name three problems to watch for.
+
+Start with the definition: Hyperparameter Tuning is the process of searching for the best settings that control how a model learns. Then draw adjusting the knobs on a radio until the signal is clear on paper and label the four terms from the goals above.
+
+Self-test questions: Why is tuning on the test set a problem? How does grid search relate to random search? When would you choose Optuna or scikit-learn GridSearchCV?
+
+Study habit: try random search before anything fancier.
+
+When you feel ready, compare Hyperparameter Tuning with Random Forests and write down three differences.

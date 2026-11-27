@@ -1,0 +1,15 @@
+Combining B-Trees on Disk with Database Migrations in One Project
+
+Real projects rarely use one idea in isolation. This article shows how B-Trees on Disk and Database Migrations can work together in a single project.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way.
+
+Imagine a project that involves database indexes and adding columns safely. B-Trees on Disk brings pages, while Database Migrations brings up and down scripts.
+
+A sensible plan is to start with PostgreSQL for the B-Trees on Disk part and Alembic for the Database Migrations part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: oversized keys on one side, and editing old migrations on the other.
+
+Picture the whole as a filing cabinet where each drawer tells you which drawer to open next, working alongside a numbered set of renovation steps applied to a building in order.
+
+Two habits help: first, keep indexed keys short so more of them fit on a page; second, split risky changes into small steps that can each be rolled back.

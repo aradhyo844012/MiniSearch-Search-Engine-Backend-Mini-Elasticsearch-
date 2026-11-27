@@ -1,0 +1,11 @@
+Blue-Green Deployment in Real Projects
+
+Reading about Blue-Green Deployment is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: zero-downtime releases. Here, blue and green environments drives the main design choices, and the team needs to guard against database schema mismatches.
+
+Scenario two: quick rollbacks. This time traffic switching matters most, and tools such as AWS CodeDeploy help keep things manageable.
+
+Scenario three: testing in production-like settings. The key idea is rollback, and the biggest risk is doubling infrastructure costs.
+
+Across all three scenarios, Blue-Green Deployment stays the same idea: a release method that keeps two identical environments and switches traffic from the old one to the new one. Only the details change.

@@ -1,0 +1,15 @@
+The Pros and Cons of Assembly Language Basics
+
+No technology is free of trade-offs, and Assembly Language Basics is no exception. Here is an honest summary.
+
+Advantages:
+- Supports understanding compiled code
+- Makes debugging crashes easier
+- Helps with writing tiny boot code
+
+Drawbacks and risks:
+- Risk: wrong calling conventions
+- Risk: stack corruption
+- Risk: platform differences
+
+Weigh the two lists against your own project. If the advantages match your needs, such as understanding compiled code, and you can manage the risks, Assembly Language Basics is a sound choice. Whatever you decide, read the assembly of a tiny C function to see what the compiler does.

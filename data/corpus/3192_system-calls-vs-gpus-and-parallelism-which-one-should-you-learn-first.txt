@@ -1,0 +1,13 @@
+System Calls vs GPUs and Parallelism: Which One Should You Learn First?
+
+Learners often ask whether to study System Calls or GPUs and Parallelism first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+System Calls is the controlled doorway through which programs ask the operating system to do privileged work, and it is closely tied to user mode and kernel mode and syscall numbers. GPUs and Parallelism, by contrast, is processors with thousands of small cores that handle many similar calculations at once, and it is closely tied to threads and blocks and kernels.
+
+Choose System Calls first if you care about reading and writing files or creating processes. Choose GPUs and Parallelism first if you care about training neural networks or rendering graphics.
+
+Think of System Calls as a service window where a customer asks staff to do things in the back office, and of GPUs and Parallelism as a stadium of workers each doing one small identical task. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With System Calls, avoid ignoring error codes. With GPUs and Parallelism, avoid slow data transfers.
+
+A good habit for System Calls is to use strace to see what your program really asks the kernel to do. A good habit for GPUs and Parallelism is to minimize copies between CPU and GPU memory.

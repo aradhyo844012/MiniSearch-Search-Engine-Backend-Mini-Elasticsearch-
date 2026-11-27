@@ -1,0 +1,17 @@
+Debugging Strategies for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Debugging Strategies.
+
+Learning goals:
+1. Explain Debugging Strategies in your own words.
+2. Describe reproducing the bug, isolating the cause, forming hypotheses, and binary search through code.
+3. Give examples from fixing production issues and learning unfamiliar code.
+4. Name three problems to watch for.
+
+Start with the definition: Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Then draw a detective narrowing down suspects on paper and label the four terms from the goals above.
+
+Self-test questions: Why is changing many things at once a problem? How does isolating the cause relate to forming hypotheses? When would you choose debuggers or logging?
+
+Study habit: change one thing at a time and record the result.
+
+When you feel ready, compare Debugging Strategies with Code Editors and IDEs and write down three differences.

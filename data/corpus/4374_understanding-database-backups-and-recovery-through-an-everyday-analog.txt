@@ -1,0 +1,9 @@
+Understanding Database Backups and Recovery Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a spare house key kept at a trusted neighbor's home.
+
+In that picture, full and incremental backups is the first rule you follow, recovery point objective is the next step, and recovery time objective and restore testing keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures, and it involves details such as never testing restores that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for pg_dump to learn the exact behavior. The same picture helps when you explain recovering deleted tables to a friend.

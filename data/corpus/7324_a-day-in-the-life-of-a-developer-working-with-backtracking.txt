@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Backtracking
+
+This is a fictional but realistic day for a developer whose project relies on Backtracking.
+
+Morning: Meera starts by reviewing a ticket about solving Sudoku. Before touching any code, Meera re-reads the notes on decision tree to make sure the plan is sound.
+
+Midday: Meera pairs with a teammate to explore pruning with Python recursion. A small test exposes the problem of forgetting to undo changes, and they fix it together.
+
+Afternoon: the team discusses a new request involving generating permutations. Meera sketches walking a maze and returning to the last fork whenever you hit a wall on the whiteboard to help everyone follow the idea.
+
+End of day: Meera writes a short note describing what changed and adds a reminder to prune as early as possible because the savings multiply.
+
+Days like this are typical. Backtracking is not glamorous, but understanding it keeps small problems from growing.

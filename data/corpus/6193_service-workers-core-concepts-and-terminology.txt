@@ -1,0 +1,10 @@
+Service Workers: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Service Workers with confidence. The subject itself is scripts that run in the background of a browser and intercept network requests.
+
+registration: one of the building blocks of Service Workers. Documentation for Workbox usually mentions it early.
+install and activate events: one of the building blocks of Service Workers. You should be able to explain it in a single sentence before moving on.
+cache storage: one of the building blocks of Service Workers. It shows up whenever you work on offline support.
+fetch handlers: one of the building blocks of Service Workers. It shows up whenever you work on offline support.
+
+Practice using these four terms in sentences about faster repeat visits. If the sentences feel natural, the vocabulary has stuck.

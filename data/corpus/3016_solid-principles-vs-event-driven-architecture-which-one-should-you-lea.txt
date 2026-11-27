@@ -1,0 +1,13 @@
+SOLID Principles vs Event-Driven Architecture: Which One Should You Learn First?
+
+Learners often ask whether to study SOLID Principles or Event-Driven Architecture first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change, and it is closely tied to single responsibility and the open-closed principle. Event-Driven Architecture, by contrast, is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers.
+
+Choose SOLID Principles first if you care about structuring classes or reviewing designs. Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications.
+
+Think of SOLID Principles as house rules that keep a shared kitchen tidy, and of Event-Driven Architecture as a notice board where people post news and others react when they see it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With SOLID Principles, avoid applying them rigidly to tiny scripts. With Event-Driven Architecture, avoid hard-to-trace flows.
+
+A good habit for SOLID Principles is to apply them when a design starts to hurt, not before. A good habit for Event-Driven Architecture is to document every event name and schema.

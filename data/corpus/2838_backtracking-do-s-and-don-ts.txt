@@ -1,0 +1,17 @@
+Backtracking Do's and Don'ts
+
+A quick list of habits for working with Backtracking.
+
+Do:
+- Learn decision tree before anything else.
+- Try Python recursion on a small example.
+- Make it a habit to prune as early as possible because the savings multiply.
+- Test the case of solving Sudoku early.
+
+Don't:
+- Ignore this: forgetting to undo changes.
+- Ignore this: missing pruning rules.
+- Ignore this: copying large state at every step.
+- Adopt Backtracking just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Backtracking, a little patience with pruning pays off more than any clever shortcut.

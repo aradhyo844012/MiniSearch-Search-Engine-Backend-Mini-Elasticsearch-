@@ -1,0 +1,9 @@
+Understanding Load Testing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a stress test that fills a stadium to see how the exits cope.
+
+In that picture, virtual users is the first rule you follow, throughput is the next step, and latency percentiles and ramp-up keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Load Testing is measuring how a system behaves under expected and heavy traffic, and it involves details such as testing unrealistic traffic that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for k6 to learn the exact behavior. The same picture helps when you explain capacity planning to a friend.

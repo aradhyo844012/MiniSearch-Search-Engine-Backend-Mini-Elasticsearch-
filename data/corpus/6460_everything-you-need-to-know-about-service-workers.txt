@@ -1,0 +1,26 @@
+Everything You Need to Know About Service Workers
+
+This page collects the essentials about Service Workers in one place. In short, Service Workers is scripts that run in the background of a browser and intercept network requests.
+
+Core concepts:
+- registration
+- install and activate events
+- cache storage
+- fetch handlers
+
+Where it is used:
+- offline support
+- faster repeat visits
+- push notifications
+
+Common problems:
+- caching stale files forever
+- bugs surviving across deployments
+- forgetting that HTTPS is required
+
+Tools to know:
+- Workbox
+- the Chrome DevTools Application panel
+- Lighthouse
+
+Remember this above all: a receptionist who answers common requests before they reach the manager is a good way to picture it, and the best habit is to version your caches so old files can be removed.

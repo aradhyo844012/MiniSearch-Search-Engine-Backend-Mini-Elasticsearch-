@@ -1,0 +1,13 @@
+Debugging Embeddings: A Field Guide
+
+When something goes wrong around Embeddings, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mixing models between indexing and querying, ignoring normalization, and stale embeddings after data changes.
+Step 3: revisit vectors and cosine similarity, since misunderstandings there cause many bugs.
+Step 4: use sentence-transformers or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Embeddings in work such as semantic search come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, use the same embedding model for indexing and querying. It prevents a surprising number of repeat problems.

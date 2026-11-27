@@ -1,0 +1,13 @@
+Fenwick Trees vs Backtracking: Which One Should You Learn First?
+
+Learners often ask whether to study Fenwick Trees or Backtracking first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates, and it is closely tied to binary indexed trees and lowest set bit. Backtracking, by contrast, is a search technique that builds solutions step by step and undoes steps that lead to dead ends, and it is closely tied to decision tree and pruning.
+
+Choose Fenwick Trees first if you care about counting inversions or maintaining running totals. Choose Backtracking first if you care about solving Sudoku or generating permutations.
+
+Think of Fenwick Trees as a set of running subtotals where each one covers a block of entries, and of Backtracking as walking a maze and returning to the last fork whenever you hit a wall. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Fenwick Trees, avoid using zero-based indexes by mistake. With Backtracking, avoid forgetting to undo changes.
+
+A good habit for Fenwick Trees is to start indexing from one to keep the bit tricks simple. A good habit for Backtracking is to prune as early as possible because the savings multiply.

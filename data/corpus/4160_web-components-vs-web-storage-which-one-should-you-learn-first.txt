@@ -1,0 +1,13 @@
+Web Components vs Web Storage: Which One Should You Learn First?
+
+Learners often ask whether to study Web Components or Web Storage first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Web Components is browser-native custom elements with their own markup, style and behavior, and it is closely tied to custom elements and shadow DOM. Web Storage, by contrast, is browser features for keeping small amounts of data on the user's device, and it is closely tied to localStorage and sessionStorage.
+
+Choose Web Components first if you care about design system components or widgets reused across frameworks. Choose Web Storage first if you care about saving user preferences or remembering form drafts.
+
+Think of Web Components as a Lego brick in its own sealed packaging, and of Web Storage as a sticky note on the fridge that only your household can read. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Web Components, avoid styling surprises across the shadow boundary. With Web Storage, avoid storing sensitive data.
+
+A good habit for Web Components is to document the attributes and events like a public API. A good habit for Web Storage is to wrap every read and write in error handling.

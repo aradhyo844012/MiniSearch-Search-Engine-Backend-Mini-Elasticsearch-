@@ -1,0 +1,13 @@
+Debugging Feature Stores: A Field Guide
+
+When something goes wrong around Feature Stores, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: leaking future data, duplicate definitions, and stale online values.
+Step 3: revisit offline store and online store, since misunderstandings there cause many bugs.
+Step 4: use Feast or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Feature Stores in work such as sharing features across models come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, define each feature once and reuse it in training and serving. It prevents a surprising number of repeat problems.

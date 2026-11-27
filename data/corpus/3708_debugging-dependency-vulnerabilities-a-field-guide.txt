@@ -1,0 +1,13 @@
+Debugging Dependency Vulnerabilities: A Field Guide
+
+When something goes wrong around Dependency Vulnerabilities, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: ignoring transitive dependencies, never updating, and trusting packages without checking them.
+Step 3: revisit CVE identifiers and version pinning, since misunderstandings there cause many bugs.
+Step 4: use Dependabot or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Dependency Vulnerabilities in work such as auditing projects come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, automate update pull requests. It prevents a surprising number of repeat problems.

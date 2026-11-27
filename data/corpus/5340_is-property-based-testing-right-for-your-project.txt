@@ -1,0 +1,11 @@
+Is Property-Based Testing Right for Your Project?
+
+Before adopting Property-Based Testing, ask whether it fits the problem. Remember that Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold.
+
+It is a good fit when your work involves testing parsers or checking sorting and math functions, and when your team understands properties.
+
+Be cautious when the project is very small, when deadlines leave no room to learn generators, or when you cannot manage these risks: vague properties, slow generators, and ignoring random seed reports.
+
+A simple decision test: write down the problem in one sentence, then check whether shrinking and invariants are part of the answer. If they are, Property-Based Testing is probably worth a closer look.
+
+If you decide to go ahead, start small with finding edge cases and save failing examples as regular tests.

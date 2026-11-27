@@ -1,0 +1,13 @@
+Memory Hierarchy vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study Memory Hierarchy or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Memory Hierarchy is the layers of storage from registers to disks, trading speed for size, and it is closely tied to registers and cache. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose Memory Hierarchy first if you care about designing efficient programs or explaining slow I/O. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Memory Hierarchy, avoid ignoring locality. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for Memory Hierarchy is to reduce how often your program goes down to the slower layers. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

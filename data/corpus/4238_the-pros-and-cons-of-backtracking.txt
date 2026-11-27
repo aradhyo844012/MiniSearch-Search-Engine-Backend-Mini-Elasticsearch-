@@ -1,0 +1,15 @@
+The Pros and Cons of Backtracking
+
+No technology is free of trade-offs, and Backtracking is no exception. Here is an honest summary.
+
+Advantages:
+- Supports solving Sudoku
+- Makes generating permutations easier
+- Helps with N-Queens puzzles
+
+Drawbacks and risks:
+- Risk: forgetting to undo changes
+- Risk: missing pruning rules
+- Risk: copying large state at every step
+
+Weigh the two lists against your own project. If the advantages match your needs, such as solving Sudoku, and you can manage the risks, Backtracking is a sound choice. Whatever you decide, prune as early as possible because the savings multiply.

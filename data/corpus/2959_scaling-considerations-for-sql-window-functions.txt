@@ -1,0 +1,11 @@
+Scaling Considerations for SQL Window Functions
+
+A design that works for a classroom project can behave very differently under real load. Here is how SQL Window Functions changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding the OVER clause and getting running totals right.
+
+Medium scale: problems start to appear. Watch for forgetting ORDER BY inside the window and confusing them with GROUP BY, and measure with PostgreSQL before changing anything.
+
+Large scale: ordering and frames move from background details to central design questions. Teams often revisit their choices around ranking rows at this stage.
+
+Before you scale, start with ROW_NUMBER and LAG on a small table. It is cheaper to build that habit early than to fix a crisis later.

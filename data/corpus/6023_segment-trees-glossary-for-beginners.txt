@@ -1,0 +1,12 @@
+Segment Trees Glossary for Beginners
+
+New words can make Segment Trees feel harder than it is. This glossary keeps the key ones in one place.
+
+Segment Trees: a tree structure that answers range queries and handles updates in logarithmic time.
+tree nodes covering ranges: a core term, most visible in range sum queries.
+range queries: a core term that beginners often confuse with point updates.
+point updates: a core term that connects to lazy propagation.
+lazy propagation: a core term worth revisiting after you try a real example.
+C++ arrays: a tool commonly used for finding minimums in a window.
+
+Come back to this Segment Trees list whenever documentation for Python lists uses a word you do not recognize.

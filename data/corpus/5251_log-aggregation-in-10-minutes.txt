@@ -1,0 +1,15 @@
+Log Aggregation in 10 Minutes
+
+You have ten minutes, so here is the fast route through Log Aggregation.
+
+Minutes 1 and 2, the definition: Log Aggregation is collecting logs from many machines into one searchable place.
+
+Minutes 3 and 4, the vocabulary: learn shippers, indexing, retention, and search queries.
+
+Minutes 5 and 6, the picture: imagine gathering notes from every desk into a single searchable binder. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through troubleshooting across services, security investigations, and usage analysis.
+
+Minutes 9 and 10, the traps and the tools: watch for unbounded storage growth and unstructured logs, then try Elasticsearch for a first experiment.
+
+If you have a spare minute, remember to use structured JSON logs so that fields are searchable.

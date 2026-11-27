@@ -1,0 +1,17 @@
+Pagination for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Pagination.
+
+Learning goals:
+1. Explain Pagination in your own words.
+2. Describe offset pagination, cursor pagination, page size, and stable ordering.
+3. Give examples from search results and activity feeds.
+4. Name three problems to watch for.
+
+Start with the definition: Pagination is splitting large result sets into smaller pages that clients request one at a time. Then draw reading a long book one chapter at a time with a bookmark on paper and label the four terms from the goals above.
+
+Self-test questions: Why is offsets getting slow on huge tables a problem? How does cursor pagination relate to page size? When would you choose SQL LIMIT and OFFSET or keyset queries?
+
+Study habit: prefer cursors for large or fast-changing data.
+
+When you feel ready, compare Pagination with Dependency Injection and write down three differences.

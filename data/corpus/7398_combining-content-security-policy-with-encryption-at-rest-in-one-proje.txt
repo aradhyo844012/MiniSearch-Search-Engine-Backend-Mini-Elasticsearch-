@@ -1,0 +1,15 @@
+Combining Content Security Policy with Encryption at Rest in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Content Security Policy and Encryption at Rest can work together in a single project.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load. Encryption at Rest is protecting stored data by encrypting it on disk or in a database.
+
+Imagine a project that involves reducing the impact of XSS and protecting backups. Content Security Policy brings directives, while Encryption at Rest brings symmetric keys.
+
+A sensible plan is to start with browser DevTools for the Content Security Policy part and LUKS for the Encryption at Rest part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: policies too broad to help on one side, and no key rotation on the other.
+
+Picture the whole as a guest list at the door of a building, working alongside a locked safe inside a locked room.
+
+Two habits help: first, start in report-only mode to learn what would break; second, keep keys in a separate service from the data.

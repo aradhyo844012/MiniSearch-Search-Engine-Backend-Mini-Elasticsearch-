@@ -1,0 +1,13 @@
+Transformers vs Hyperparameter Tuning: Which One Should You Learn First?
+
+Learners often ask whether to study Transformers or Hyperparameter Tuning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Transformers is neural network architectures that use attention to relate all parts of an input to each other, and it is closely tied to self-attention and positional encoding. Hyperparameter Tuning, by contrast, is the process of searching for the best settings that control how a model learns, and it is closely tied to search spaces and grid search.
+
+Choose Transformers first if you care about language translation or text generation. Choose Hyperparameter Tuning first if you care about improving model accuracy or comparing algorithms.
+
+Think of Transformers as a reader who can look back at any word of a paragraph while reading each new word, and of Hyperparameter Tuning as adjusting the knobs on a radio until the signal is clear. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Transformers, avoid huge compute requirements. With Hyperparameter Tuning, avoid tuning on the test set.
+
+A good habit for Transformers is to begin with small pretrained models. A good habit for Hyperparameter Tuning is to try random search before anything fancier.

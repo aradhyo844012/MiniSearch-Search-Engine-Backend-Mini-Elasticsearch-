@@ -1,0 +1,12 @@
+Questions to Ask About Bluetooth Low Energy in Code Review
+
+Reviewing code that involves Bluetooth Low Energy is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: assuming long range?
+- Could we test with several phone models?
+- Does the code handle the case of fitness trackers correctly?
+- Would a test catch weak pairing security if it appeared later?
+- Is GATT services clear to someone reading the code for the first time?
+- Have we considered ignoring connection limits?
+
+Good reviews of work on Bluetooth Low Energy are specific, kind and focused on characteristics, not on personal style.

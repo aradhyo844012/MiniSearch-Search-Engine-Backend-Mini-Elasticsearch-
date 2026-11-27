@@ -1,0 +1,15 @@
+Threat Modeling Quick Reference
+
+A one-screen reminder for Threat Modeling. Bookmark it and return when the details fade.
+
+What it is: a structured way of identifying what could go wrong in a system and how to prevent it.
+Key terms: assets, attackers, trust boundaries, and mitigations.
+Typical uses: designing new features, reviewing architecture, and prioritizing security work.
+Risks: doing it once and never again, ignoring data flows, and focusing only on technical threats.
+Tools: STRIDE, OWASP Threat Dragon, and data flow diagrams.
+
+Mental picture: walking around a house asking where a burglar might get in.
+
+Habit to build: draw the data flow diagram first.
+
+See also: Penetration Testing, which sits close to Threat Modeling in the area of Application Security.

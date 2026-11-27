@@ -1,0 +1,17 @@
+Database Backups and Recovery Do's and Don'ts
+
+A quick list of habits for working with Database Backups and Recovery.
+
+Do:
+- Learn full and incremental backups before anything else.
+- Try pg_dump on a small example.
+- Make it a habit to schedule a restore drill on a regular basis.
+- Test the case of recovering deleted tables early.
+
+Don't:
+- Ignore this: never testing restores.
+- Ignore this: storing backups on the same disk.
+- Ignore this: keeping credentials inside backup scripts.
+- Adopt Database Backups and Recovery just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Database Backups and Recovery, a little patience with recovery point objective pays off more than any clever shortcut.

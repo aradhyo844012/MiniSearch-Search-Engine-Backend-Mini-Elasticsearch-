@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with LSM Trees
+
+This path is for a learner who has never studied LSM Trees before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk) and learn memtable and sorted string tables.
+
+Stage 2, hands-on: install RocksDB, follow a tutorial, and build a small example involving write-heavy databases.
+
+Stage 3, depth: study compaction and write amplification, then deliberately explore this problem: read amplification.
+
+Stage 4, application: apply LSM Trees to time-ordered data, compare LevelDB with Apache Cassandra, and write up your results.
+
+Stage 5, review: teach LSM Trees to someone else, and then move on to Database Backups and Recovery.

@@ -1,0 +1,17 @@
+JavaScript Closures Do's and Don'ts
+
+A quick list of habits for working with JavaScript Closures.
+
+Do:
+- Learn lexical scope before anything else.
+- Try Chrome DevTools on a small example.
+- Make it a habit to use let instead of var inside loops.
+- Test the case of keeping private state in modules early.
+
+Don't:
+- Ignore this: loop variables captured by mistake.
+- Ignore this: memory leaks from long-lived closures.
+- Ignore this: accidentally sharing mutable state.
+- Adopt JavaScript Closures just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with JavaScript Closures, a little patience with captured variables pays off more than any clever shortcut.

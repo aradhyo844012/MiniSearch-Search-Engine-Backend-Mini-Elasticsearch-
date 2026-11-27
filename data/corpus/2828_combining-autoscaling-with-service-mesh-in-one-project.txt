@@ -1,0 +1,15 @@
+Combining Autoscaling with Service Mesh in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Autoscaling and Service Mesh can work together in a single project.
+
+Autoscaling is automatically adding or removing computing resources as demand changes. Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+Imagine a project that involves handling traffic spikes and securing service traffic. Autoscaling brings scaling metrics, while Service Mesh brings sidecar proxies.
+
+A sensible plan is to start with Kubernetes HPA for the Autoscaling part and Istio for the Service Mesh part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flapping because of short spikes on one side, and adopting it too early on the other.
+
+Picture the whole as a restaurant opening extra tables when a crowd arrives, working alongside a postal system that applies delivery rules between buildings.
+
+Two habits help: first, load test the system to find realistic thresholds; second, adopt it only once the number of services makes manual setup painful.

@@ -1,0 +1,26 @@
+Everything You Need to Know About CAP Theorem
+
+This page collects the essentials about CAP Theorem in one place. In short, CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.
+
+Core concepts:
+- consistency
+- availability
+- partition tolerance
+- trade-offs
+
+Where it is used:
+- choosing database types
+- designing multi-region services
+- explaining system behavior in interviews
+
+Common problems:
+- treating it as a three-way menu
+- ignoring latency trade-offs in normal operation
+- assuming partitions never happen
+
+Tools to know:
+- Apache Cassandra
+- etcd
+- ZooKeeper
+
+Remember this above all: a phone tree that must choose between giving old information or staying silent when a line is cut is a good way to picture it, and the best habit is to ask what your users prefer during a failure: stale answers or errors.

@@ -1,0 +1,13 @@
+SOLID Principles vs Test-Driven Development: Which One Should You Learn First?
+
+Learners often ask whether to study SOLID Principles or Test-Driven Development first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change, and it is closely tied to single responsibility and the open-closed principle. Test-Driven Development, by contrast, is a workflow where you write a failing test first and then write code to make it pass, and it is closely tied to red, green, refactor and small steps.
+
+Choose SOLID Principles first if you care about structuring classes or reviewing designs. Choose Test-Driven Development first if you care about designing small modules or preventing regressions.
+
+Think of SOLID Principles as house rules that keep a shared kitchen tidy, and of Test-Driven Development as writing the exam questions before teaching the lesson. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With SOLID Principles, avoid applying them rigidly to tiny scripts. With Test-Driven Development, avoid writing tests that are too large.
+
+A good habit for SOLID Principles is to apply them when a design starts to hurt, not before. A good habit for Test-Driven Development is to keep each red-green cycle to a few minutes.

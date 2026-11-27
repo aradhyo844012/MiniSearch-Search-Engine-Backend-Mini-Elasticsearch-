@@ -1,0 +1,13 @@
+Content Security Policy vs Security Headers: Which One Should You Learn First?
+
+Learners often ask whether to study Content Security Policy or Security Headers first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load, and it is closely tied to directives and nonces. Security Headers, by contrast, is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options.
+
+Choose Content Security Policy first if you care about reducing the impact of XSS or blocking unwanted scripts. Choose Security Headers first if you care about hardening websites or reducing clickjacking.
+
+Think of Content Security Policy as a guest list at the door of a building, and of Security Headers as safety instructions printed on the packaging of every page. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Content Security Policy, avoid allowing unsafe-inline. With Security Headers, avoid setting headers on only some routes.
+
+A good habit for Content Security Policy is to start in report-only mode to learn what would break. A good habit for Security Headers is to test the headers on every environment.

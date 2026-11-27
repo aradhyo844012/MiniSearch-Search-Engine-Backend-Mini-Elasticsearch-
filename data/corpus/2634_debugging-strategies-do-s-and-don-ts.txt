@@ -1,0 +1,17 @@
+Debugging Strategies Do's and Don'ts
+
+A quick list of habits for working with Debugging Strategies.
+
+Do:
+- Learn reproducing the bug before anything else.
+- Try debuggers on a small example.
+- Make it a habit to change one thing at a time and record the result.
+- Test the case of fixing production issues early.
+
+Don't:
+- Ignore this: changing many things at once.
+- Ignore this: guessing without evidence.
+- Ignore this: not writing a test afterward.
+- Adopt Debugging Strategies just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Debugging Strategies, a little patience with isolating the cause pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Go Goroutines Tips from Experienced Engineers
+
+Engineers who work with Go Goroutines regularly tend to repeat the same advice. Here it is.
+
+1. Reach for the go command first, and only then evaluate alternatives such as the race detector.
+2. Do not skip goroutines; everything else builds on it.
+3. Make sure you can run your tests with the race detector turned on.
+4. When something behaves strangely, revisit channels before anything else.
+5. Test the case of servers handling many connections early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to parallel data processing as well.

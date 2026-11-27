@@ -1,0 +1,17 @@
+Rust Ownership Do's and Don'ts
+
+A quick list of habits for working with Rust Ownership.
+
+Do:
+- Learn ownership before anything else.
+- Try Cargo on a small example.
+- Make it a habit to read the compiler's error messages closely because they often explain the fix.
+- Test the case of systems programming early.
+
+Don't:
+- Ignore this: fighting the borrow checker with needless clones.
+- Ignore this: confusing moves and copies.
+- Ignore this: overly complex lifetime annotations.
+- Adopt Rust Ownership just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Rust Ownership, a little patience with borrowing pays off more than any clever shortcut.

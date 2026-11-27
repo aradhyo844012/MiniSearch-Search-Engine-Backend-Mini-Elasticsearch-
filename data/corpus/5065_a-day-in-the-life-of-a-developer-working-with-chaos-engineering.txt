@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Chaos Engineering
+
+This is a fictional but realistic day for a developer whose project relies on Chaos Engineering.
+
+Morning: Sneha starts by reviewing a ticket about testing resilience. Before touching any code, Sneha re-reads the notes on steady state to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore hypotheses with Chaos Monkey. A small test exposes the problem of experimenting without safeguards, and they fix it together.
+
+Afternoon: the team discusses a new request involving validating failover. Sneha sketches a fire drill where you secretly block one exit on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to start with small experiments in a test environment.
+
+Days like this are typical. Chaos Engineering is not glamorous, but understanding it keeps small problems from growing.

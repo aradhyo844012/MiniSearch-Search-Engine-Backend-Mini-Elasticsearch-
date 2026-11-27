@@ -1,0 +1,15 @@
+Client-Side Routing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Client-Side Routing.
+
+Minutes 1 and 2, the definition: Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Minutes 3 and 4, the vocabulary: learn history API, route matching, nested routes, and route guards.
+
+Minutes 5 and 6, the picture: imagine swapping the picture in a frame without replacing the frame. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through single-page apps, dashboards, and multi-step flows.
+
+Minutes 9 and 10, the traps and the tools: watch for broken deep links and unhandled 404 pages, then try React Router for a first experiment.
+
+If you have a spare minute, remember to test refreshing the page on every route.

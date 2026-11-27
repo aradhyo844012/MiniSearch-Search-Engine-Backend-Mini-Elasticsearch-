@@ -1,0 +1,12 @@
+Questions to Ask About Static Analysis in Code Review
+
+Reviewing code that involves Static Analysis is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is ESLint used consistently, or are we mixing approaches?
+- Is type checkers clear to someone reading the code for the first time?
+- Have we avoided this problem: disabling checks permanently?
+- Could we run it in CI so problems never reach the main branch?
+- Would a test catch too many noisy rules if it appeared later?
+- Have we considered ignoring warnings?
+
+Good reviews of work on Static Analysis are specific, kind and focused on rule sets, not on personal style.

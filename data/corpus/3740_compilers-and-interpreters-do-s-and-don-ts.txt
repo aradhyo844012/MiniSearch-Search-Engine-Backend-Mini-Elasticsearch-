@@ -1,0 +1,17 @@
+Compilers and Interpreters Do's and Don'ts
+
+A quick list of habits for working with Compilers and Interpreters.
+
+Do:
+- Learn lexing before anything else.
+- Try GCC on a small example.
+- Make it a habit to turn on compiler warnings and treat them seriously.
+- Test the case of running Python and JavaScript early.
+
+Don't:
+- Ignore this: assuming interpreted means slow without measuring.
+- Ignore this: ignoring compiler warnings.
+- Ignore this: confusing compile-time and run-time errors.
+- Adopt Compilers and Interpreters just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Compilers and Interpreters, a little patience with parsing pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Code Coverage
+
+Everyone learns Code Coverage partly through mistakes. Here are three worth avoiding.
+
+Mistake one: chasing 100 percent. It usually appears when someone skips line coverage and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: treating coverage as quality. It tends to be noticed late, often during testing of finding untested code. A short checklist during review catches it early.
+
+Mistake three: ignoring branch coverage. It is easy to miss because everything seems to work at first. Keep an eye on thresholds to spot it.
+
+If you remember only one rule, make it this: use coverage to find gaps, not to judge quality.

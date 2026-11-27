@@ -1,0 +1,15 @@
+Data Anonymization in 10 Minutes
+
+You have ten minutes, so here is the fast route through Data Anonymization.
+
+Minutes 1 and 2, the definition: Data Anonymization is removing or altering personal details in data so people cannot be identified.
+
+Minutes 3 and 4, the vocabulary: learn masking, generalization, k-anonymity, and differential privacy.
+
+Minutes 5 and 6, the picture: imagine blurring faces in a crowd photo while keeping the scene. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through sharing datasets with researchers, testing with production-like data, and meeting privacy rules.
+
+Minutes 9 and 10, the traps and the tools: watch for re-identification through combined fields and removing too little, then try ARX for a first experiment.
+
+If you have a spare minute, remember to test whether combining fields could identify a person.

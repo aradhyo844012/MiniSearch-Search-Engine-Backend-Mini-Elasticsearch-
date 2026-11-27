@@ -1,0 +1,10 @@
+Security Headers: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Security Headers with confidence. The subject itself is HTTP response headers that tell browsers to enforce extra protections.
+
+Strict-Transport-Security: one of the building blocks of Security Headers. Documentation for securityheaders.com usually mentions it early.
+X-Content-Type-Options: one of the building blocks of Security Headers. Documentation for securityheaders.com usually mentions it early.
+frame protections: one of the building blocks of Security Headers. You should be able to explain it in a single sentence before moving on.
+referrer policy: one of the building blocks of Security Headers. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about reducing clickjacking. If the sentences feel natural, the vocabulary has stuck.

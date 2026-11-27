@@ -1,0 +1,11 @@
+Where to Go Next After Learning GPUs and Parallelism
+
+You have met the basics of GPUs and Parallelism. Here is how to keep the momentum going.
+
+Go wider: read about Assembly Language Basics, which belongs to the same area as GPUs and Parallelism (Computer Systems) and often appears in the same projects.
+
+Go deeper: choose one of threads and blocks, kernels, memory transfers or SIMD, and study it until you can explain it to a beginner.
+
+Go practical: build something around rendering graphics with CUDA, and note every problem you meet, starting with slow data transfers.
+
+Go social: share what you learned. Explaining GPUs and Parallelism to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

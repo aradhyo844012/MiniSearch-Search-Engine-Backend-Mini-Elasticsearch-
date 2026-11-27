@@ -1,0 +1,13 @@
+Debugging Autoscaling: A Field Guide
+
+When something goes wrong around Autoscaling, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: scaling too slowly, flapping because of short spikes, and ignoring database limits.
+Step 3: revisit scaling metrics and cooldown periods, since misunderstandings there cause many bugs.
+Step 4: use Kubernetes HPA or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Autoscaling in work such as handling traffic spikes come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, load test the system to find realistic thresholds. It prevents a surprising number of repeat problems.

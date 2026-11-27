@@ -1,0 +1,17 @@
+Retrieval-Augmented Generation for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Retrieval-Augmented Generation.
+
+Learning goals:
+1. Explain Retrieval-Augmented Generation in your own words.
+2. Describe retrieval, chunking, prompts with context, and grounding.
+3. Give examples from company knowledge assistants and question answering over documents.
+4. Name three problems to watch for.
+
+Start with the definition: Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers. Then draw an open-book exam where the student first looks up the right pages on paper and label the four terms from the goals above.
+
+Self-test questions: Why is poor chunking a problem? How does chunking relate to prompts with context? When would you choose LangChain or FAISS?
+
+Study habit: evaluate retrieval quality separately from answer quality.
+
+When you feel ready, compare Retrieval-Augmented Generation with Support Vector Machines and write down three differences.

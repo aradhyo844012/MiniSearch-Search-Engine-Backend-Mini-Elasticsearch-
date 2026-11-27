@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Retrieval-Augmented Generation
+
+This path is for a learner who has never studied Retrieval-Augmented Generation before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers) and learn retrieval and chunking.
+
+Stage 2, hands-on: install LangChain, follow a tutorial, and build a small example involving company knowledge assistants.
+
+Stage 3, depth: study prompts with context and grounding, then deliberately explore this problem: poor chunking.
+
+Stage 4, application: apply Retrieval-Augmented Generation to question answering over documents, compare FAISS with Elasticsearch, and write up your results.
+
+Stage 5, review: teach Retrieval-Augmented Generation to someone else, and then move on to Transformers.

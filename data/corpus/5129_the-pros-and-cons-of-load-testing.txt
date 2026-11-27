@@ -1,0 +1,15 @@
+The Pros and Cons of Load Testing
+
+No technology is free of trade-offs, and Load Testing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports capacity planning
+- Makes finding bottlenecks easier
+- Helps with validating autoscaling
+
+Drawbacks and risks:
+- Risk: testing unrealistic traffic
+- Risk: ignoring warm-up
+- Risk: using average latency only
+
+Weigh the two lists against your own project. If the advantages match your needs, such as capacity planning, and you can manage the risks, Load Testing is a sound choice. Whatever you decide, report p95 and p99 latency, not only averages.

@@ -1,0 +1,17 @@
+B-Trees on Disk Do's and Don'ts
+
+A quick list of habits for working with B-Trees on Disk.
+
+Do:
+- Learn pages before anything else.
+- Try PostgreSQL on a small example.
+- Make it a habit to keep indexed keys short so more of them fit on a page.
+- Test the case of database indexes early.
+
+Don't:
+- Ignore this: random writes on fragmented pages.
+- Ignore this: oversized keys.
+- Ignore this: ignoring page fill factor.
+- Adopt B-Trees on Disk just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with B-Trees on Disk, a little patience with branching factor pays off more than any clever shortcut.

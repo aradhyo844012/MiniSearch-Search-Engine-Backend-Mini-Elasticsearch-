@@ -1,0 +1,13 @@
+Teaching Saga Pattern to a Teammate
+
+Explaining Saga Pattern to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: booking a trip with separate hotel, flight and car reservations that can each be cancelled. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions. Avoid jargon at this stage.
+
+Walk through an example involving order processing, naming local transactions and compensating actions as they come up.
+
+Ask your teammate to explain orchestration in Saga Pattern back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, missing compensations, and suggest this habit: make every step and its compensation idempotent.

@@ -1,0 +1,13 @@
+GraphQL vs Logging Best Practices: Which One Should You Learn First?
+
+Learners often ask whether to study GraphQL or Logging Best Practices first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need, and it is closely tied to schema and queries and mutations. Logging Best Practices, by contrast, is recording useful, structured information about what an application is doing, and it is closely tied to log levels and structured logs.
+
+Choose GraphQL first if you care about mobile apps with limited bandwidth or aggregating many services. Choose Logging Best Practices first if you care about debugging production issues or auditing actions.
+
+Think of GraphQL as ordering a la carte instead of picking a fixed set menu, and of Logging Best Practices as a ship's logbook that explains what happened and when. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With GraphQL, avoid the N+1 query problem. With Logging Best Practices, avoid logging sensitive data.
+
+A good habit for GraphQL is to use a data loader to avoid N+1 queries. A good habit for Logging Best Practices is to include a request ID in every log line.

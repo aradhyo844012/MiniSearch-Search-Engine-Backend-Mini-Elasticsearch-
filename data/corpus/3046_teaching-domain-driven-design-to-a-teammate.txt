@@ -1,0 +1,13 @@
+Teaching Domain-Driven Design to a Teammate
+
+Explaining Domain-Driven Design to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: writing software in the same vocabulary the business speaks. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Domain-Driven Design is an approach to software that models the code around the real business domain. Avoid jargon at this stage.
+
+Walk through an example involving complex business systems, naming ubiquitous language and bounded contexts as they come up.
+
+Ask your teammate to explain aggregates in Domain-Driven Design back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, using it for simple CRUD apps, and suggest this habit: agree on shared terms with domain experts before drawing classes.

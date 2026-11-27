@@ -1,0 +1,15 @@
+The Pros and Cons of JavaScript Closures
+
+No technology is free of trade-offs, and JavaScript Closures is no exception. Here is an honest summary.
+
+Advantages:
+- Supports keeping private state in modules
+- Makes event handlers that need context easier
+- Helps with callbacks that remember settings
+
+Drawbacks and risks:
+- Risk: loop variables captured by mistake
+- Risk: memory leaks from long-lived closures
+- Risk: accidentally sharing mutable state
+
+Weigh the two lists against your own project. If the advantages match your needs, such as keeping private state in modules, and you can manage the risks, JavaScript Closures is a sound choice. Whatever you decide, use let instead of var inside loops.

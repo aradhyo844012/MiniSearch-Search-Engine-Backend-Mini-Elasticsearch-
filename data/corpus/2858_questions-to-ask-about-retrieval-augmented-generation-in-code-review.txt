@@ -1,0 +1,12 @@
+Questions to Ask About Retrieval-Augmented Generation in Code Review
+
+Reviewing code that involves Retrieval-Augmented Generation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered poor chunking?
+- Is LangChain used consistently, or are we mixing approaches?
+- Would a test catch irrelevant retrieved text if it appeared later?
+- Could we evaluate retrieval quality separately from answer quality?
+- Have we avoided this problem: no evaluation of the answers?
+- Does this change respect retrieval, or does it work around it?
+
+Good reviews of work on Retrieval-Augmented Generation are specific, kind and focused on prompts with context, not on personal style.

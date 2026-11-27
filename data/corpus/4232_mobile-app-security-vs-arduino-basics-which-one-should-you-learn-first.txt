@@ -1,0 +1,13 @@
+Mobile App Security vs Arduino Basics: Which One Should You Learn First?
+
+Learners often ask whether to study Mobile App Security or Arduino Basics first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Mobile App Security is practices that protect mobile apps and their data from attacks, and it is closely tied to secure storage and certificate pinning. Arduino Basics, by contrast, is a beginner-friendly microcontroller platform for reading sensors and controlling devices, and it is closely tied to sketches and digital and analog pins.
+
+Choose Mobile App Security first if you care about banking apps or health apps. Choose Arduino Basics first if you care about reading sensors or driving motors and LEDs.
+
+Think of Mobile App Security as locking an app's valuables in a hotel safe, and of Arduino Basics as a tiny brain that watches inputs and flips switches. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mobile App Security, avoid storing tokens in plain text. With Arduino Basics, avoid wiring errors.
+
+A good habit for Mobile App Security is to store secrets in the platform keychain or keystore. A good habit for Arduino Basics is to test each sensor on its own before combining them.

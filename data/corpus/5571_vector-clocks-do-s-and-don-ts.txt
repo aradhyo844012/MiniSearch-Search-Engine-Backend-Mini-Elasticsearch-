@@ -1,0 +1,17 @@
+Vector Clocks Do's and Don'ts
+
+A quick list of habits for working with Vector Clocks.
+
+Do:
+- Learn logical time before anything else.
+- Try Riak on a small example.
+- Make it a habit to compare clocks entry by entry to detect true concurrency.
+- Test the case of detecting concurrent edits early.
+
+Don't:
+- Ignore this: clocks that grow with many nodes.
+- Ignore this: confusing them with wall-clock time.
+- Ignore this: never pruning old entries.
+- Adopt Vector Clocks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Vector Clocks, a little patience with per-process counters pays off more than any clever shortcut.

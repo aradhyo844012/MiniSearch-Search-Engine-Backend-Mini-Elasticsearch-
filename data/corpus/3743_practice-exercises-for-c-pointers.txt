@@ -1,0 +1,11 @@
+Practice Exercises for C Pointers
+
+These exercises build real understanding of C Pointers. Do them in order, and write down your answers.
+
+Exercise 1: Compare Valgrind and AddressSanitizer for building linked structures and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: dereferencing null pointers. Then fix it.
+Exercise 3: Write a short paragraph describing C Pointers and include the term addresses.
+Exercise 4: Explain how pointer arithmetic and null pointers differ, using a drawing.
+Exercise 5: Pick GCC and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: C Pointers is variables that store the memory address of another value.

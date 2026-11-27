@@ -1,0 +1,15 @@
+Combining JavaScript Closures with C Pointers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how JavaScript Closures and C Pointers can work together in a single project.
+
+JavaScript Closures is functions that remember the variables from the place where they were created. C Pointers is variables that store the memory address of another value.
+
+Imagine a project that involves keeping private state in modules and dynamic memory allocation. JavaScript Closures brings lexical scope, while C Pointers brings addresses.
+
+A sensible plan is to start with Chrome DevTools for the JavaScript Closures part and GCC for the C Pointers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: memory leaks from long-lived closures on one side, and memory leaks on the other.
+
+Picture the whole as a backpack a function carries with everything it needs from home, working alongside a street address written on a card instead of the house itself.
+
+Two habits help: first, use let instead of var inside loops; second, set pointers to NULL after freeing them.

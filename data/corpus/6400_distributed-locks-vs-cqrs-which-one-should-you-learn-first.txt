@@ -1,0 +1,13 @@
+Distributed Locks vs CQRS: Which One Should You Learn First?
+
+Learners often ask whether to study Distributed Locks or CQRS first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines, and it is closely tied to lease times and fencing tokens. CQRS, by contrast, is a pattern that separates the models used to change data from the models used to read it, and it is closely tied to commands and queries.
+
+Choose Distributed Locks first if you care about running scheduled jobs once or protecting shared resources. Choose CQRS first if you care about high-read dashboards or complex domains.
+
+Think of Distributed Locks as a single key to a shared meeting room that expires automatically, and of CQRS as a restaurant with one counter for orders and another for pickup. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Distributed Locks, avoid locks that never expire. With CQRS, avoid adding it to simple apps.
+
+A good habit for Distributed Locks is to always use a timeout together with a fencing token. A good habit for CQRS is to start with a single model and split only when reads and writes truly diverge.

@@ -1,0 +1,13 @@
+Debugging Configuration Management: A Field Guide
+
+When something goes wrong around Configuration Management, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: committing secrets, inconsistent defaults, and undocumented settings.
+Step 3: revisit environment variables and config files, since misunderstandings there cause many bugs.
+Step 4: use dotenv or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Configuration Management in work such as separating development and production come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, fail fast at startup if a required setting is missing. It prevents a surprising number of repeat problems.

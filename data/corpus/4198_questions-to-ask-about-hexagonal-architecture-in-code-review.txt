@@ -1,0 +1,12 @@
+Questions to Ask About Hexagonal Architecture in Code Review
+
+Reviewing code that involves Hexagonal Architecture is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect ports, or does it work around it?
+- Would a test catch leaking framework types into the core if it appeared later?
+- Is adapters clear to someone reading the code for the first time?
+- Does the code handle the case of testable business logic correctly?
+- Could we keep framework imports out of the core domain?
+- Have we avoided this problem: confusing ports with adapters?
+
+Good reviews of work on Hexagonal Architecture are specific, kind and focused on the core domain, not on personal style.

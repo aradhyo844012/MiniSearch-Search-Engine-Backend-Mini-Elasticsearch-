@@ -1,0 +1,12 @@
+Questions to Ask About Rust Ownership in Code Review
+
+Reviewing code that involves Rust Ownership is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is borrowing clear to someone reading the code for the first time?
+- Would a test catch confusing moves and copies if it appeared later?
+- Have we avoided this problem: overly complex lifetime annotations?
+- Have we considered fighting the borrow checker with needless clones?
+- Could we read the compiler's error messages closely because they often explain the fix?
+- Is Cargo used consistently, or are we mixing approaches?
+
+Good reviews of work on Rust Ownership are specific, kind and focused on lifetimes, not on personal style.

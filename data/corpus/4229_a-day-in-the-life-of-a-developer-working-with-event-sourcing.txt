@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Event Sourcing
+
+This is a fictional but realistic day for a developer whose project relies on Event Sourcing.
+
+Morning: Rahul starts by reviewing a ticket about audit trails. Before touching any code, Rahul re-reads the notes on event log to make sure the plan is sound.
+
+Midday: Rahul pairs with a teammate to explore projections with Apache Kafka. A small test exposes the problem of changing event formats carelessly, and they fix it together.
+
+Afternoon: the team discusses a new request involving financial ledgers. Rahul sketches a bank statement that lists every transaction instead of only the balance on the whiteboard to help everyone follow the idea.
+
+End of day: Rahul writes a short note describing what changed and adds a reminder to version your events from the first day.
+
+Days like this are typical. Event Sourcing is not glamorous, but understanding it keeps small problems from growing.

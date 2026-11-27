@@ -1,0 +1,11 @@
+Form Validation in Real Projects
+
+Reading about Form Validation is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: sign-up forms. Here, client-side checks drives the main design choices, and the team needs to guard against validating only on the client.
+
+Scenario two: payment pages. This time server-side checks matters most, and tools such as HTML constraint validation help keep things manageable.
+
+Scenario three: search filters. The key idea is error messages, and the biggest risk is vague error messages.
+
+Across all three scenarios, Form Validation stays the same idea: checking user input for correctness before it is accepted. Only the details change.

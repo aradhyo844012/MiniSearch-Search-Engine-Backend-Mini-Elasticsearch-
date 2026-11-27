@@ -1,0 +1,15 @@
+The Pros and Cons of API Versioning
+
+No technology is free of trade-offs, and API Versioning is no exception. Here is an honest summary.
+
+Advantages:
+- Supports public APIs
+- Makes mobile apps that cannot update instantly easier
+- Helps with partner integrations
+
+Drawbacks and risks:
+- Risk: versioning too often
+- Risk: removing fields without notice
+- Risk: having no deprecation schedule
+
+Weigh the two lists against your own project. If the advantages match your needs, such as public APIs, and you can manage the risks, API Versioning is a sound choice. Whatever you decide, announce deprecations with a clear sunset date.

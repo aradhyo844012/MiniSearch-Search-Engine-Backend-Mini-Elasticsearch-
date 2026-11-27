@@ -1,0 +1,26 @@
+Everything You Need to Know About Segment Trees
+
+This page collects the essentials about Segment Trees in one place. In short, Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time.
+
+Core concepts:
+- tree nodes covering ranges
+- range queries
+- point updates
+- lazy propagation
+
+Where it is used:
+- range sum queries
+- finding minimums in a window
+- competitive programming problems
+
+Common problems:
+- off-by-one errors in ranges
+- wrong tree size allocation
+- forgetting to push lazy updates
+
+Tools to know:
+- C++ arrays
+- Python lists
+- Codeforces problem sets
+
+Remember this above all: a tournament bracket that remembers the winner of every group of players is a good way to picture it, and the best habit is to test your tree against a slow brute-force version on small inputs.

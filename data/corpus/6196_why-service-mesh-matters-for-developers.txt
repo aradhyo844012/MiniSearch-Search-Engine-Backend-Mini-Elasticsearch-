@@ -1,0 +1,11 @@
+Why Service Mesh Matters for Developers
+
+Developers who understand Service Mesh make better decisions, because Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+Three situations show why it matters. First, securing service traffic. Second, retries and timeouts. Third, fine-grained routing. In each case, a solid grasp of sidecar proxies and mutual TLS separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: added latency and complexity, adopting it too early, and hard-to-debug proxy configs.
+
+You will not need to build everything yourself; Istio, Linkerd, and Envoy cover most needs.
+
+Connect Service Mesh with Distributed Tracing to see the bigger picture of DevOps and Cloud.

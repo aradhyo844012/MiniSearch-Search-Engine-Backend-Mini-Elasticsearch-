@@ -1,0 +1,15 @@
+Combining Connection Pooling with Column-Oriented Storage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Connection Pooling and Column-Oriented Storage can work together in a single project.
+
+Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request. Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Imagine a project that involves web backends and analytics dashboards. Connection Pooling brings pool size, while Column-Oriented Storage brings column chunks.
+
+A sensible plan is to start with PgBouncer for the Connection Pooling part and Apache Parquet for the Column-Oriented Storage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: leaked connections on one side, and many small writes on the other.
+
+Picture the whole as a rental desk that lends a few shared bikes instead of buying one per visitor, working alongside a spreadsheet kept as separate lists per column so you can read just one.
+
+Two habits help: first, always return connections in a finally block; second, select only the columns you really need.

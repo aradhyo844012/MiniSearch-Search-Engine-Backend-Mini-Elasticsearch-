@@ -1,0 +1,13 @@
+Teaching Service Workers to a Teammate
+
+Explaining Service Workers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a receptionist who answers common requests before they reach the manager. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Service Workers is scripts that run in the background of a browser and intercept network requests. Avoid jargon at this stage.
+
+Walk through an example involving offline support, naming registration and install and activate events as they come up.
+
+Ask your teammate to explain cache storage in Service Workers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, caching stale files forever, and suggest this habit: version your caches so old files can be removed.

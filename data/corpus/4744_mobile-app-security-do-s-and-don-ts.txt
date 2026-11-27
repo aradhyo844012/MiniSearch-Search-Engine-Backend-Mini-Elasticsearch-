@@ -1,0 +1,17 @@
+Mobile App Security Do's and Don'ts
+
+A quick list of habits for working with Mobile App Security.
+
+Do:
+- Learn secure storage before anything else.
+- Try OWASP MASVS on a small example.
+- Make it a habit to store secrets in the platform keychain or keystore.
+- Test the case of banking apps early.
+
+Don't:
+- Ignore this: storing tokens in plain text.
+- Ignore this: hard-coded API keys.
+- Ignore this: requesting unnecessary permissions.
+- Adopt Mobile App Security just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Mobile App Security, a little patience with certificate pinning pays off more than any clever shortcut.

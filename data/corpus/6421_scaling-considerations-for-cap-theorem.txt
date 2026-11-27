@@ -1,0 +1,11 @@
+Scaling Considerations for CAP Theorem
+
+A design that works for a classroom project can behave very differently under real load. Here is how CAP Theorem changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding consistency and getting choosing database types right.
+
+Medium scale: problems start to appear. Watch for treating it as a three-way menu and ignoring latency trade-offs in normal operation, and measure with Apache Cassandra before changing anything.
+
+Large scale: partition tolerance and trade-offs move from background details to central design questions. Teams often revisit their choices around designing multi-region services at this stage.
+
+Before you scale, ask what your users prefer during a failure: stale answers or errors. It is cheaper to build that habit early than to fix a crisis later.

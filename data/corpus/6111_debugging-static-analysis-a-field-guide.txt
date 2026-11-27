@@ -1,0 +1,13 @@
+Debugging Static Analysis: A Field Guide
+
+When something goes wrong around Static Analysis, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: ignoring warnings, too many noisy rules, and disabling checks permanently.
+Step 3: revisit linters and type checkers, since misunderstandings there cause many bugs.
+Step 4: use ESLint or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Static Analysis in work such as catching bugs early come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, run it in CI so problems never reach the main branch. It prevents a surprising number of repeat problems.

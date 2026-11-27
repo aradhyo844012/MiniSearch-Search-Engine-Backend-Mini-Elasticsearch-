@@ -1,0 +1,15 @@
+Data Quality Checks Quick Reference
+
+A one-screen reminder for Data Quality Checks. Bookmark it and return when the details fade.
+
+What it is: automated tests that verify data is complete, valid and consistent.
+Key terms: null checks, uniqueness, freshness, and schema validation.
+Typical uses: protecting dashboards, validating ingestion, and catching pipeline bugs.
+Risks: alerts nobody reads, checks only at the end of pipelines, and no ownership of failures.
+Tools: Great Expectations, dbt tests, and Deequ.
+
+Mental picture: a quality inspector at the end of an assembly line.
+
+Habit to build: check data as early as it enters the pipeline.
+
+See also: Data Anonymization, which sits close to Data Quality Checks in the area of Data and Analytics.

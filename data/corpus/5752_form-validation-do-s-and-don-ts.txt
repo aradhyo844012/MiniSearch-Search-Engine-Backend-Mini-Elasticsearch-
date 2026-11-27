@@ -1,0 +1,17 @@
+Form Validation Do's and Don'ts
+
+A quick list of habits for working with Form Validation.
+
+Do:
+- Learn client-side checks before anything else.
+- Try HTML constraint validation on a small example.
+- Make it a habit to validate on the server even when the browser checks too.
+- Test the case of sign-up forms early.
+
+Don't:
+- Ignore this: validating only on the client.
+- Ignore this: vague error messages.
+- Ignore this: rejecting valid but unusual input.
+- Adopt Form Validation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Form Validation, a little patience with server-side checks pays off more than any clever shortcut.

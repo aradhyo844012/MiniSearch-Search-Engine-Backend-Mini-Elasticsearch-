@@ -1,0 +1,13 @@
+Connection Pooling vs Time-Series Databases: Which One Should You Learn First?
+
+Learners often ask whether to study Connection Pooling or Time-Series Databases first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request, and it is closely tied to pool size and idle connections. Time-Series Databases, by contrast, is databases optimized for storing and querying data points ordered by time, and it is closely tied to timestamps and retention policies.
+
+Choose Connection Pooling first if you care about web backends or serverless functions that call databases. Choose Time-Series Databases first if you care about server metrics or sensor readings.
+
+Think of Connection Pooling as a rental desk that lends a few shared bikes instead of buying one per visitor, and of Time-Series Databases as a long logbook where every line starts with the time. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Connection Pooling, avoid pools larger than the database allows. With Time-Series Databases, avoid high-cardinality tags.
+
+A good habit for Connection Pooling is to always return connections in a finally block. A good habit for Time-Series Databases is to include a time range in every query.

@@ -1,0 +1,13 @@
+Python Decorators Explained Simply
+
+If Python Decorators sounds intimidating, relax. It is functions that wrap other functions to add behavior without changing their code, and the idea is simpler than the name suggests.
+
+Think of Python Decorators as gift wrapping that adds a bow without changing the present. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: higher-order functions, wrapper functions, functools.wraps, and decorator arguments. You do not need to master them all at once. Start with higher-order functions, then add wrapper functions.
+
+You will meet Python Decorators in work such as logging calls, caching results, and checking permissions.
+
+One practical tip is to always apply functools.wraps inside your decorator.
+
+Once Python Decorators feels comfortable, read about Regular Expressions, which lives in the same neighborhood of ideas.

@@ -1,0 +1,13 @@
+Teaching Chaos Engineering to a Teammate
+
+Explaining Chaos Engineering to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a fire drill where you secretly block one exit. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Chaos Engineering is deliberately causing failures in a system to learn how it responds. Avoid jargon at this stage.
+
+Walk through an example involving testing resilience, naming steady state and hypotheses as they come up.
+
+Ask your teammate to explain blast radius in Chaos Engineering back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, experimenting without safeguards, and suggest this habit: start with small experiments in a test environment.

@@ -1,0 +1,12 @@
+Modular Monoliths Glossary for Beginners
+
+New words can make Modular Monoliths feel harder than it is. This glossary keeps the key ones in one place.
+
+Modular Monoliths: single deployable applications built from well-separated internal modules.
+module boundaries: a core term, most visible in small teams.
+public interfaces: a core term that beginners often confuse with shared database rules.
+shared database rules: a core term that connects to dependency checks.
+dependency checks: a core term worth revisiting after you try a real example.
+ArchUnit: a tool commonly used for early-stage products.
+
+Come back to this Modular Monoliths list whenever documentation for import-linter uses a word you do not recognize.

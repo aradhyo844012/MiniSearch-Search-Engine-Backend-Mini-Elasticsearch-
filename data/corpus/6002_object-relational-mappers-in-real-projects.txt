@@ -1,0 +1,11 @@
+Object-Relational Mappers in Real Projects
+
+Reading about Object-Relational Mappers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: building CRUD apps quickly. Here, models drives the main design choices, and the team needs to guard against N+1 queries.
+
+Scenario two: switching databases. This time queries matters most, and tools such as SQLAlchemy help keep things manageable.
+
+Scenario three: keeping schema and code aligned. The key idea is relationships, and the biggest risk is loading entire tables.
+
+Across all three scenarios, Object-Relational Mappers stays the same idea: libraries that map database tables to objects in code. Only the details change.

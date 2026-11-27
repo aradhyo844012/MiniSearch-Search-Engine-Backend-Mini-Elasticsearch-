@@ -1,0 +1,26 @@
+Everything You Need to Know About Form Validation
+
+This page collects the essentials about Form Validation in one place. In short, Form Validation is checking user input for correctness before it is accepted.
+
+Core concepts:
+- client-side checks
+- server-side checks
+- error messages
+- constraint attributes
+
+Where it is used:
+- sign-up forms
+- payment pages
+- search filters
+
+Common problems:
+- validating only on the client
+- vague error messages
+- rejecting valid but unusual input
+
+Tools to know:
+- HTML constraint validation
+- Zod
+- Yup
+
+Remember this above all: a proofreader checking a form before it is submitted is a good way to picture it, and the best habit is to validate on the server even when the browser checks too.

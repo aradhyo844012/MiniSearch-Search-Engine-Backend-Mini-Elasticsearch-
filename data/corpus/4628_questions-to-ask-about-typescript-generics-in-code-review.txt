@@ -1,0 +1,12 @@
+Questions to Ask About TypeScript Generics in Code Review
+
+Reviewing code that involves TypeScript Generics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: forgetting constraints?
+- Could we add constraints so that error messages become clearer?
+- Is tsc used consistently, or are we mixing approaches?
+- Does the code handle the case of reusable utility functions correctly?
+- Does this change respect type parameters, or does it work around it?
+- Would a test catch overly complex generic types if it appeared later?
+
+Good reviews of work on TypeScript Generics are specific, kind and focused on type inference, not on personal style.

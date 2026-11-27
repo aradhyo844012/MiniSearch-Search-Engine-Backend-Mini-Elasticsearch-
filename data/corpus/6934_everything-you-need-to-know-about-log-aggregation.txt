@@ -1,0 +1,26 @@
+Everything You Need to Know About Log Aggregation
+
+This page collects the essentials about Log Aggregation in one place. In short, Log Aggregation is collecting logs from many machines into one searchable place.
+
+Core concepts:
+- shippers
+- indexing
+- retention
+- search queries
+
+Where it is used:
+- troubleshooting across services
+- security investigations
+- usage analysis
+
+Common problems:
+- unbounded storage growth
+- unstructured logs
+- missing timestamps
+
+Tools to know:
+- Elasticsearch
+- Fluent Bit
+- Grafana Loki
+
+Remember this above all: gathering notes from every desk into a single searchable binder is a good way to picture it, and the best habit is to use structured JSON logs so that fields are searchable.

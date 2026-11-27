@@ -1,0 +1,13 @@
+B-Trees on Disk vs Connection Pooling: Which One Should You Learn First?
+
+Learners often ask whether to study B-Trees on Disk or Connection Pooling first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently, and it is closely tied to pages and branching factor. Connection Pooling, by contrast, is reusing a limited set of open database connections instead of opening a new one for every request, and it is closely tied to pool size and idle connections.
+
+Choose B-Trees on Disk first if you care about database indexes or file system directories. Choose Connection Pooling first if you care about web backends or serverless functions that call databases.
+
+Think of B-Trees on Disk as a filing cabinet where each drawer tells you which drawer to open next, and of Connection Pooling as a rental desk that lends a few shared bikes instead of buying one per visitor. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With B-Trees on Disk, avoid random writes on fragmented pages. With Connection Pooling, avoid pools larger than the database allows.
+
+A good habit for B-Trees on Disk is to keep indexed keys short so more of them fit on a page. A good habit for Connection Pooling is to always return connections in a finally block.

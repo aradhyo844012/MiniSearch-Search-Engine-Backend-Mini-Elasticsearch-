@@ -1,0 +1,12 @@
+Pagination Glossary for Beginners
+
+New words can make Pagination feel harder than it is. This glossary keeps the key ones in one place.
+
+Pagination: splitting large result sets into smaller pages that clients request one at a time.
+offset pagination: a core term, most visible in search results.
+cursor pagination: a core term that beginners often confuse with page size.
+page size: a core term that connects to stable ordering.
+stable ordering: a core term worth revisiting after you try a real example.
+SQL LIMIT and OFFSET: a tool commonly used for activity feeds.
+
+Come back to this Pagination list whenever documentation for keyset queries uses a word you do not recognize.

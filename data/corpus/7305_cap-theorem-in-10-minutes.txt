@@ -1,0 +1,15 @@
+CAP Theorem in 10 Minutes
+
+You have ten minutes, so here is the fast route through CAP Theorem.
+
+Minutes 1 and 2, the definition: CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.
+
+Minutes 3 and 4, the vocabulary: learn consistency, availability, partition tolerance, and trade-offs.
+
+Minutes 5 and 6, the picture: imagine a phone tree that must choose between giving old information or staying silent when a line is cut. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through choosing database types, designing multi-region services, and explaining system behavior in interviews.
+
+Minutes 9 and 10, the traps and the tools: watch for treating it as a three-way menu and ignoring latency trade-offs in normal operation, then try Apache Cassandra for a first experiment.
+
+If you have a spare minute, remember to ask what your users prefer during a failure: stale answers or errors.

@@ -1,0 +1,11 @@
+Is Pagination Right for Your Project?
+
+Before adopting Pagination, ask whether it fits the problem. Remember that Pagination is splitting large result sets into smaller pages that clients request one at a time.
+
+It is a good fit when your work involves search results or activity feeds, and when your team understands offset pagination.
+
+Be cautious when the project is very small, when deadlines leave no room to learn cursor pagination, or when you cannot manage these risks: offsets getting slow on huge tables, unstable sort order, and missing total counts when users need them.
+
+A simple decision test: write down the problem in one sentence, then check whether page size and stable ordering are part of the answer. If they are, Pagination is probably worth a closer look.
+
+If you decide to go ahead, start small with admin tables and prefer cursors for large or fast-changing data.

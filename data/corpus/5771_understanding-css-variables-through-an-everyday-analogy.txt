@@ -1,0 +1,9 @@
+Understanding CSS Variables Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture labeled paint buckets you refill once to recolor a whole house.
+
+In that picture, custom properties is the first rule you follow, the var function is the next step, and inheritance and fallback values keep everything running smoothly.
+
+Every analogy breaks down eventually. Real CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles, and it involves details such as missing fallbacks that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for browser DevTools to learn the exact behavior. The same picture helps when you explain theme switching to a friend.

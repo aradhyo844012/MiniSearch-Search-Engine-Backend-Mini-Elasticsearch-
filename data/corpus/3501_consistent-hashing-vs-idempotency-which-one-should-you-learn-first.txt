@@ -1,0 +1,13 @@
+Consistent Hashing vs Idempotency: Which One Should You Learn First?
+
+Learners often ask whether to study Consistent Hashing or Idempotency first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys, and it is closely tied to hash ring and virtual nodes. Idempotency, by contrast, is the property that repeating an operation gives the same result as doing it once, and it is closely tied to idempotency keys and safe retries.
+
+Choose Consistent Hashing first if you care about distributed caches or sharded databases. Choose Idempotency first if you care about payment APIs or message processing.
+
+Think of Consistent Hashing as seats around a round table where a new guest only displaces their neighbor, and of Idempotency as pressing an elevator call button many times and still getting one elevator. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Consistent Hashing, avoid too few virtual nodes. With Idempotency, avoid keys that expire too soon.
+
+A good habit for Consistent Hashing is to use many virtual nodes per server to even out the load. A good habit for Idempotency is to store the result with the key so retries return the same response.

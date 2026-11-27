@@ -1,0 +1,11 @@
+Graph Databases in Real Projects
+
+Reading about Graph Databases is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: social networks. Here, nodes drives the main design choices, and the team needs to guard against using them for simple tabular data.
+
+Scenario two: recommendation engines. This time edges matters most, and tools such as Neo4j help keep things manageable.
+
+Scenario three: fraud detection. The key idea is properties, and the biggest risk is unbounded traversals.
+
+Across all three scenarios, Graph Databases stays the same idea: databases that store data as nodes and relationships and query connections directly. Only the details change.

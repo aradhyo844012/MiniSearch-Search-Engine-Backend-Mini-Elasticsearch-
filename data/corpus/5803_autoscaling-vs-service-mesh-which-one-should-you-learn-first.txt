@@ -1,0 +1,13 @@
+Autoscaling vs Service Mesh: Which One Should You Learn First?
+
+Learners often ask whether to study Autoscaling or Service Mesh first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Autoscaling is automatically adding or removing computing resources as demand changes, and it is closely tied to scaling metrics and cooldown periods. Service Mesh, by contrast, is an infrastructure layer that manages communication between services through proxies, and it is closely tied to sidecar proxies and mutual TLS.
+
+Choose Autoscaling first if you care about handling traffic spikes or saving money overnight. Choose Service Mesh first if you care about securing service traffic or retries and timeouts.
+
+Think of Autoscaling as a restaurant opening extra tables when a crowd arrives, and of Service Mesh as a postal system that applies delivery rules between buildings. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Autoscaling, avoid scaling too slowly. With Service Mesh, avoid added latency and complexity.
+
+A good habit for Autoscaling is to load test the system to find realistic thresholds. A good habit for Service Mesh is to adopt it only once the number of services makes manual setup painful.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Support Vector Machines
+
+This path is for a learner who has never studied Support Vector Machines before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes) and learn margin and support vectors.
+
+Stage 2, hands-on: install scikit-learn, follow a tutorial, and build a small example involving text classification.
+
+Stage 3, depth: study kernels and regularization, then deliberately explore this problem: slow training on large data.
+
+Stage 4, application: apply Support Vector Machines to small high-dimensional datasets, compare LIBSVM with NumPy, and write up your results.
+
+Stage 5, review: teach Support Vector Machines to someone else, and then move on to K-Means Clustering.

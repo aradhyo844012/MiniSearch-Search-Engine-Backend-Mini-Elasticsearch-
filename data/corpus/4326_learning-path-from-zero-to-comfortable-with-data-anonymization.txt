@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Data Anonymization
+
+This path is for a learner who has never studied Data Anonymization before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Data Anonymization is removing or altering personal details in data so people cannot be identified) and learn masking and generalization.
+
+Stage 2, hands-on: install ARX, follow a tutorial, and build a small example involving sharing datasets with researchers.
+
+Stage 3, depth: study k-anonymity and differential privacy, then deliberately explore this problem: re-identification through combined fields.
+
+Stage 4, application: apply Data Anonymization to testing with production-like data, compare Faker with Google's differential privacy library, and write up your results.
+
+Stage 5, review: teach Data Anonymization to someone else, and then move on to Data Lakes.

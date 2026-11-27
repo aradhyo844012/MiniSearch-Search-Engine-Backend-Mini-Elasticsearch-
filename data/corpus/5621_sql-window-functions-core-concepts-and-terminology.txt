@@ -1,0 +1,10 @@
+SQL Window Functions: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about SQL Window Functions with confidence. The subject itself is SQL features that calculate values across related rows without collapsing them.
+
+the OVER clause: one of the building blocks of SQL Window Functions. Mixing it up with neighboring terms is a common source of confusion.
+partitions: one of the building blocks of SQL Window Functions. Documentation for PostgreSQL usually mentions it early.
+ordering: one of the building blocks of SQL Window Functions. You should be able to explain it in a single sentence before moving on.
+frames: one of the building blocks of SQL Window Functions. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about ranking rows. If the sentences feel natural, the vocabulary has stuck.

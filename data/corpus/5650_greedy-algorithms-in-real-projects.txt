@@ -1,0 +1,11 @@
+Greedy Algorithms in Real Projects
+
+Reading about Greedy Algorithms is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: interval scheduling. Here, greedy choice property drives the main design choices, and the team needs to guard against assuming greedy always works.
+
+Scenario two: Huffman coding. This time optimal substructure matters most, and tools such as pen and paper proofs help keep things manageable.
+
+Scenario three: making change with standard coins. The key idea is exchange arguments, and the biggest risk is missing counterexamples.
+
+Across all three scenarios, Greedy Algorithms stays the same idea: algorithms that build a solution by always taking the locally best choice. Only the details change.

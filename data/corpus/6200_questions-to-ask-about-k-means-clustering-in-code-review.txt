@@ -1,0 +1,12 @@
+Questions to Ask About K-Means Clustering in Code Review
+
+Reviewing code that involves K-Means Clustering is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect centroids, or does it work around it?
+- Does the code handle the case of customer segmentation correctly?
+- Would a test catch unscaled features if it appeared later?
+- Have we avoided this problem: sensitivity to starting points?
+- Is distance measures clear to someone reading the code for the first time?
+- Is scikit-learn used consistently, or are we mixing approaches?
+
+Good reviews of work on K-Means Clustering are specific, kind and focused on choosing k, not on personal style.

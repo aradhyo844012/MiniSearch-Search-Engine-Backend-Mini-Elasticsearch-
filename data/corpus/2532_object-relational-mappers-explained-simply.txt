@@ -1,0 +1,13 @@
+Object-Relational Mappers Explained Simply
+
+If Object-Relational Mappers sounds intimidating, relax. It is libraries that map database tables to objects in code, and the idea is simpler than the name suggests.
+
+Think of Object-Relational Mappers as a translator between the language of tables and the language of objects. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: models, queries, relationships, and migrations. You do not need to master them all at once. Start with models, then add queries.
+
+You will meet Object-Relational Mappers in work such as building CRUD apps quickly, switching databases, and keeping schema and code aligned.
+
+One practical tip is to log the generated SQL during development.
+
+Once Object-Relational Mappers feels comfortable, read about Dependency Injection, which lives in the same neighborhood of ideas.

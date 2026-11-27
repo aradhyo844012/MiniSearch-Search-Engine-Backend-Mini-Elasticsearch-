@@ -1,0 +1,11 @@
+Where to Go Next After Learning Saga Pattern
+
+You have met the basics of Saga Pattern. Here is how to keep the momentum going.
+
+Go wider: read about CQRS, which belongs to the same area as Saga Pattern (Distributed Systems) and often appears in the same projects.
+
+Go deeper: choose one of local transactions, compensating actions, orchestration or choreography, and study it until you can explain it to a beginner.
+
+Go practical: build something around travel bookings with Temporal, and note every problem you meet, starting with missing compensations.
+
+Go social: share what you learned. Explaining Saga Pattern to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

@@ -1,0 +1,13 @@
+Debugging Offline-First Apps: A Field Guide
+
+When something goes wrong around Offline-First Apps, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: unresolved sync conflicts, unbounded local data, and poor feedback about pending changes.
+Step 3: revisit local storage and sync queues, since misunderstandings there cause many bugs.
+Step 4: use SQLite or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Offline-First Apps in work such as field service tools come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, show users which changes have not synced yet. It prevents a surprising number of repeat problems.

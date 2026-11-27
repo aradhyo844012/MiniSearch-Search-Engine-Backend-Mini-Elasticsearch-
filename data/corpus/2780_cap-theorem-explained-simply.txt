@@ -1,0 +1,13 @@
+CAP Theorem Explained Simply
+
+If CAP Theorem sounds intimidating, relax. It is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and the idea is simpler than the name suggests.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: consistency, availability, partition tolerance, and trade-offs. You do not need to master them all at once. Start with consistency, then add availability.
+
+People reach for CAP Theorem when they work on choosing database types, designing multi-region services, and explaining system behavior in interviews.
+
+One practical tip is to ask what your users prefer during a failure: stale answers or errors.
+
+Once CAP Theorem feels comfortable, read about CQRS, which lives in the same neighborhood of ideas.

@@ -1,0 +1,9 @@
+Understanding Offline-First Apps Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture writing in a notebook and mailing the pages later.
+
+In that picture, local storage is the first rule you follow, sync queues is the next step, and conflict resolution and optimistic updates keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Offline-First Apps is apps designed to work without a network and sync when a connection returns, and it involves details such as unresolved sync conflicts that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for SQLite to learn the exact behavior. The same picture helps when you explain field service tools to a friend.

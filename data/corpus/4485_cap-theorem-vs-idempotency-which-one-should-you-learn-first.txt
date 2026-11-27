@@ -1,0 +1,13 @@
+CAP Theorem vs Idempotency: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or Idempotency first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. Idempotency, by contrast, is the property that repeating an operation gives the same result as doing it once, and it is closely tied to idempotency keys and safe retries.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose Idempotency first if you care about payment APIs or message processing.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of Idempotency as pressing an elevator call button many times and still getting one elevator. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With Idempotency, avoid keys that expire too soon.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for Idempotency is to store the result with the key so retries return the same response.

@@ -1,0 +1,9 @@
+Understanding Random Forests Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture asking many different experts and taking the majority view.
+
+In that picture, bagging is the first rule you follow, feature randomness is the next step, and voting and out-of-bag error keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Random Forests is ensembles of many decision trees whose predictions are combined, and it involves details such as treating importance scores as causes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for scikit-learn to learn the exact behavior. The same picture helps when you explain tabular predictions to a friend.

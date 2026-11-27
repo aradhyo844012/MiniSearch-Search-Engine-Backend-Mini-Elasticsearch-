@@ -1,0 +1,26 @@
+Everything You Need to Know About Dependency Vulnerabilities
+
+This page collects the essentials about Dependency Vulnerabilities in one place. In short, Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+Core concepts:
+- CVE identifiers
+- version pinning
+- transitive dependencies
+- software bills of materials
+
+Where it is used:
+- auditing projects
+- automating updates
+- meeting supply chain requirements
+
+Common problems:
+- ignoring transitive dependencies
+- never updating
+- trusting packages without checking them
+
+Tools to know:
+- Dependabot
+- pip-audit
+- npm audit
+
+Remember this above all: checking every ingredient supplier for recalls is a good way to picture it, and the best habit is to automate update pull requests.

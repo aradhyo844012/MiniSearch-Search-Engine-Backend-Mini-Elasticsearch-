@@ -1,0 +1,11 @@
+Scaling Considerations for Open Source Contribution
+
+A design that works for a classroom project can behave very differently under real load. Here is how Open Source Contribution changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding forks and getting building a portfolio right.
+
+Medium scale: problems start to appear. Watch for opening huge pull requests and ignoring contribution rules, and measure with GitHub before changing anything.
+
+Large scale: issues and contributing guides move from background details to central design questions. Teams often revisit their choices around learning from experienced maintainers at this stage.
+
+Before you scale, start with documentation fixes or small bugs. It is cheaper to build that habit early than to fix a crisis later.

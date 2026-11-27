@@ -1,0 +1,15 @@
+Compilers and Interpreters Quick Reference
+
+A one-screen reminder for Compilers and Interpreters. Bookmark it and return when the details fade.
+
+What it is: programs that translate or run source code written in a high-level language.
+Key terms: lexing, parsing, code generation, and bytecode.
+Typical uses: running Python and JavaScript, building native programs, and creating tools like linters.
+Risks: assuming interpreted means slow without measuring, ignoring compiler warnings, and confusing compile-time and run-time errors.
+Tools: GCC, LLVM, and CPython.
+
+Mental picture: a translator who either translates a whole book first or interprets sentence by sentence.
+
+Habit to build: turn on compiler warnings and treat them seriously.
+
+See also: CPU Caches, which sits close to Compilers and Interpreters in the area of Computer Systems.

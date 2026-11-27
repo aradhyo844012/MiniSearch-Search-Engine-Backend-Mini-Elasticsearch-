@@ -1,0 +1,13 @@
+Zero Trust Security vs Penetration Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Zero Trust Security or Penetration Testing first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified, and it is closely tied to identity verification and least privilege. Penetration Testing, by contrast, is authorized attempts to find and exploit weaknesses in a system before real attackers do, and it is closely tied to scoping and reconnaissance.
+
+Choose Zero Trust Security first if you care about remote work access or protecting internal services. Choose Penetration Testing first if you care about pre-launch security checks or compliance audits.
+
+Think of Zero Trust Security as a building where every door checks your badge, not just the front entrance, and of Penetration Testing as hiring a locksmith to test your doors. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Zero Trust Security, avoid treating it as a product to buy. With Penetration Testing, avoid testing without written permission.
+
+A good habit for Zero Trust Security is to start with strong identity and device checks. A good habit for Penetration Testing is to get written authorization before any test.

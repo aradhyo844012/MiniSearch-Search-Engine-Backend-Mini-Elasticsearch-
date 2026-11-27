@@ -1,0 +1,11 @@
+Is Encryption at Rest Right for Your Project?
+
+Before adopting Encryption at Rest, ask whether it fits the problem. Remember that Encryption at Rest is protecting stored data by encrypting it on disk or in a database.
+
+It is a good fit when your work involves protecting backups or meeting compliance rules, and when your team understands symmetric keys.
+
+Be cautious when the project is very small, when deadlines leave no room to learn key management, or when you cannot manage these risks: storing keys next to the data, no key rotation, and assuming it stops every kind of attack.
+
+A simple decision test: write down the problem in one sentence, then check whether disk encryption and envelope encryption are part of the answer. If they are, Encryption at Rest is probably worth a closer look.
+
+If you decide to go ahead, start small with securing laptops and keep keys in a separate service from the data.

@@ -1,0 +1,15 @@
+Web Components Quick Reference
+
+A one-screen reminder for Web Components. Bookmark it and return when the details fade.
+
+What it is: browser-native custom elements with their own markup, style and behavior.
+Key terms: custom elements, shadow DOM, templates, and slots.
+Typical uses: design system components, widgets reused across frameworks, and embeddable tools.
+Risks: styling surprises across the shadow boundary, poor accessibility, and heavy polyfills.
+Tools: Lit, Stencil, and browser DevTools.
+
+Mental picture: a Lego brick in its own sealed packaging.
+
+Habit to build: document the attributes and events like a public API.
+
+See also: Client-Side Routing, which sits close to Web Components in the area of Frontend Engineering.

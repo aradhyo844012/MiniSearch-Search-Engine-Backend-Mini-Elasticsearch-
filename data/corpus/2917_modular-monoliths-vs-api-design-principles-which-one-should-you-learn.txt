@@ -1,0 +1,13 @@
+Modular Monoliths vs API Design Principles: Which One Should You Learn First?
+
+Learners often ask whether to study Modular Monoliths or API Design Principles first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Modular Monoliths is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces. API Design Principles, by contrast, is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors.
+
+Choose Modular Monoliths first if you care about small teams or early-stage products. Choose API Design Principles first if you care about public platforms or internal service contracts.
+
+Think of Modular Monoliths as an apartment building with separate flats under one roof, and of API Design Principles as the controls of a car that behave the same in every model. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Modular Monoliths, avoid modules reaching into each other's tables. With API Design Principles, avoid leaking internal details.
+
+A good habit for Modular Monoliths is to enforce boundaries with automated checks. A good habit for API Design Principles is to write the documentation before the implementation.

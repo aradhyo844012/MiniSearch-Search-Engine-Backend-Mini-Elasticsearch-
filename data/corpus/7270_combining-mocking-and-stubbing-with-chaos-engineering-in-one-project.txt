@@ -1,0 +1,15 @@
+Combining Mocking and Stubbing with Chaos Engineering in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Mocking and Stubbing and Chaos Engineering can work together in a single project.
+
+Mocking and Stubbing is replacing real dependencies with controlled fakes during tests. Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Imagine a project that involves isolating units and testing resilience. Mocking and Stubbing brings mocks, while Chaos Engineering brings steady state.
+
+A sensible plan is to start with unittest.mock for the Mocking and Stubbing part and Chaos Monkey for the Chaos Engineering part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: tests that mirror the implementation on one side, and having no steady-state metrics on the other.
+
+Picture the whole as a crash test dummy standing in for a real passenger, working alongside a fire drill where you secretly block one exit.
+
+Two habits help: first, prefer simple fakes over deep mock chains; second, start with small experiments in a test environment.

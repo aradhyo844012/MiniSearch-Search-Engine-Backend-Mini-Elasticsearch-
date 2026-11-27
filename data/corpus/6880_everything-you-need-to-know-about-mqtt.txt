@@ -1,0 +1,26 @@
+Everything You Need to Know About MQTT
+
+This page collects the essentials about MQTT in one place. In short, MQTT is a lightweight messaging protocol designed for small devices and unreliable networks.
+
+Core concepts:
+- publish and subscribe
+- topics
+- brokers
+- quality of service levels
+
+Where it is used:
+- sensor networks
+- smart home devices
+- telemetry
+
+Common problems:
+- unsecured brokers
+- messy topic names
+- wrong quality of service choices
+
+Tools to know:
+- Mosquitto
+- paho-mqtt
+- MQTT Explorer
+
+Remember this above all: a radio station with channels that devices can tune into is a good way to picture it, and the best habit is to design topic names like a clear folder structure.

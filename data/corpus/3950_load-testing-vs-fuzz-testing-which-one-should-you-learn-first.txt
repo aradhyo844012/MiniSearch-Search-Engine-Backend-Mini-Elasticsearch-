@@ -1,0 +1,13 @@
+Load Testing vs Fuzz Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Load Testing or Fuzz Testing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Load Testing is measuring how a system behaves under expected and heavy traffic, and it is closely tied to virtual users and throughput. Fuzz Testing, by contrast, is feeding programs random or malformed input to uncover crashes and security bugs, and it is closely tied to input generation and coverage guidance.
+
+Choose Load Testing first if you care about capacity planning or finding bottlenecks. Choose Fuzz Testing first if you care about testing parsers or finding memory bugs.
+
+Think of Load Testing as a stress test that fills a stadium to see how the exits cope, and of Fuzz Testing as shaking a machine hard to see what rattles loose. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Load Testing, avoid testing unrealistic traffic. With Fuzz Testing, avoid running without sanitizers.
+
+A good habit for Load Testing is to report p95 and p99 latency, not only averages. A good habit for Fuzz Testing is to keep every crashing input as a regression test.

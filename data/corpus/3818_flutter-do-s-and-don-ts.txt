@@ -1,0 +1,17 @@
+Flutter Do's and Don'ts
+
+A quick list of habits for working with Flutter.
+
+Do:
+- Learn widgets before anything else.
+- Try Dart on a small example.
+- Make it a habit to split big widgets into small reusable ones.
+- Test the case of cross-platform mobile apps early.
+
+Don't:
+- Ignore this: deep widget trees.
+- Ignore this: poor state organization.
+- Ignore this: large app sizes.
+- Adopt Flutter just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Flutter, a little patience with state pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+B-Trees on Disk Explained Simply
+
+Here is B-Trees on Disk without the jargon: it is balanced tree structures designed to read large blocks from disk efficiently.
+
+Think of B-Trees on Disk as a filing cabinet where each drawer tells you which drawer to open next. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: pages, branching factor, node splits, and sorted keys. You do not need to master them all at once. Start with pages, then add branching factor.
+
+You will meet B-Trees on Disk in work such as database indexes, file system directories, and range scans.
+
+One practical tip is to keep indexed keys short so more of them fit on a page.
+
+Once B-Trees on Disk feels comfortable, read about Eventual Consistency, which lives in the same neighborhood of ideas.

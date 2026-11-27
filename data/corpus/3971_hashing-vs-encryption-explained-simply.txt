@@ -1,0 +1,13 @@
+Hashing vs Encryption Explained Simply
+
+Here is Hashing vs Encryption without the jargon: it is the difference between one-way digests and reversible protection of data.
+
+Think of Hashing vs Encryption as a paper shredder compared with a locked suitcase. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: one-way functions, keys, collision resistance, and reversibility. You do not need to master them all at once. Start with one-way functions, then add keys.
+
+People reach for Hashing vs Encryption when they work on storing passwords, verifying file integrity, and protecting data in transit.
+
+One practical tip is to ask whether you will ever need the original value back.
+
+Once Hashing vs Encryption feels comfortable, read about Dependency Vulnerabilities, which lives in the same neighborhood of ideas.

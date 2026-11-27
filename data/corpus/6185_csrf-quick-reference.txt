@@ -1,0 +1,15 @@
+CSRF Quick Reference
+
+A one-screen reminder for CSRF. Bookmark it and return when the details fade.
+
+What it is: an attack that tricks a logged-in user's browser into sending unwanted requests to a site.
+Key terms: session cookies, anti-CSRF tokens, SameSite cookies, and state-changing requests.
+Typical uses: protecting forms, securing account settings, and hardening admin panels.
+Risks: using GET requests for state changes, skipping tokens on cookie-based APIs, and misconfigured SameSite settings.
+Tools: Django CSRF middleware, Flask-WTF, and OWASP guides.
+
+Mental picture: a forged letter that a bank clerk stamps because your ID is already on file.
+
+Habit to build: combine SameSite cookies with anti-CSRF tokens.
+
+See also: Content Security Policy, which sits close to CSRF in the area of Application Security.

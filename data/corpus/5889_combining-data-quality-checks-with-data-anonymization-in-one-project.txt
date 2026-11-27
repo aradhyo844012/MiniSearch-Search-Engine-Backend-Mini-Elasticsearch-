@@ -1,0 +1,15 @@
+Combining Data Quality Checks with Data Anonymization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Quality Checks and Data Anonymization can work together in a single project.
+
+Data Quality Checks is automated tests that verify data is complete, valid and consistent. Data Anonymization is removing or altering personal details in data so people cannot be identified.
+
+Imagine a project that involves protecting dashboards and sharing datasets with researchers. Data Quality Checks brings null checks, while Data Anonymization brings masking.
+
+A sensible plan is to start with Great Expectations for the Data Quality Checks part and ARX for the Data Anonymization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: checks only at the end of pipelines on one side, and removing too little on the other.
+
+Picture the whole as a quality inspector at the end of an assembly line, working alongside blurring faces in a crowd photo while keeping the scene.
+
+Two habits help: first, check data as early as it enters the pipeline; second, test whether combining fields could identify a person.

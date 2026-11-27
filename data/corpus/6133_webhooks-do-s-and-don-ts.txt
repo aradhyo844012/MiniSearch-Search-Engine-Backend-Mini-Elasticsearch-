@@ -1,0 +1,17 @@
+Webhooks Do's and Don'ts
+
+A quick list of habits for working with Webhooks.
+
+Do:
+- Learn event payloads before anything else.
+- Try ngrok on a small example.
+- Make it a habit to respond quickly and process the event in a background job.
+- Test the case of payment notifications early.
+
+Don't:
+- Ignore this: not verifying signatures.
+- Ignore this: slow handlers causing timeouts.
+- Ignore this: processing duplicate events.
+- Adopt Webhooks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Webhooks, a little patience with signature verification pays off more than any clever shortcut.

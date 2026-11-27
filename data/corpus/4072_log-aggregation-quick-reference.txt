@@ -1,0 +1,15 @@
+Log Aggregation Quick Reference
+
+A one-screen reminder for Log Aggregation. Bookmark it and return when the details fade.
+
+What it is: collecting logs from many machines into one searchable place.
+Key terms: shippers, indexing, retention, and search queries.
+Typical uses: troubleshooting across services, security investigations, and usage analysis.
+Risks: unbounded storage growth, unstructured logs, and missing timestamps.
+Tools: Elasticsearch, Fluent Bit, and Grafana Loki.
+
+Mental picture: gathering notes from every desk into a single searchable binder.
+
+Habit to build: use structured JSON logs so that fields are searchable.
+
+See also: Autoscaling, which sits close to Log Aggregation in the area of DevOps and Cloud.

@@ -1,0 +1,11 @@
+Boolean Logic and Gates Tips from Experienced Engineers
+
+Engineers who work with Boolean Logic and Gates regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit truth tables before anything else.
+2. Do not skip AND, OR and NOT; everything else builds on it.
+3. Reach for Logisim first, and only then evaluate alternatives such as Python bitwise operators.
+4. Write down why you chose Boolean Logic and Gates so the next person understands the decision.
+5. Test the case of writing conditions early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to designing circuits as well.

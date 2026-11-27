@@ -1,0 +1,11 @@
+Why Regular Expressions Matters for Developers
+
+Developers who understand Regular Expressions make better decisions, because Regular Expressions is compact patterns for matching and extracting text.
+
+Three situations show why it matters. First, validating input. Second, searching logs. Third, extracting fields from text. In each case, a solid grasp of character classes and quantifiers separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: catastrophic backtracking, patterns that are too greedy, and using them to parse HTML.
+
+You will not need to build everything yourself; the Python re module, regex101, and grep cover most needs.
+
+Connect Regular Expressions with TypeScript Generics to see the bigger picture of Programming Languages.

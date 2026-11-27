@@ -1,0 +1,15 @@
+Combining Raft Consensus with Vector Clocks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Raft Consensus and Vector Clocks can work together in a single project.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations. Vector Clocks is counters that let distributed processes track the order of events without a shared clock.
+
+Imagine a project that involves configuration stores and detecting concurrent edits. Raft Consensus brings leader election, while Vector Clocks brings logical time.
+
+A sensible plan is to start with etcd for the Raft Consensus part and Riak for the Vector Clocks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow disks causing elections on one side, and confusing them with wall-clock time on the other.
+
+Picture the whole as a committee that elects a chair and only records decisions most members confirm, working alongside each person in a group chat keeping a tally of messages seen from everyone.
+
+Two habits help: first, use an odd number of nodes; second, compare clocks entry by entry to detect true concurrency.

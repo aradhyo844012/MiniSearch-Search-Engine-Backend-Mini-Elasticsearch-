@@ -1,0 +1,15 @@
+Combining Fenwick Trees with Two Pointers and Sliding Window in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Fenwick Trees and Two Pointers and Sliding Window can work together in a single project.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates. Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Imagine a project that involves counting inversions and finding pairs with a given sum. Fenwick Trees brings binary indexed trees, while Two Pointers and Sliding Window brings left and right pointers.
+
+A sensible plan is to start with C++ vectors for the Fenwick Trees part and Python lists for the Two Pointers and Sliding Window part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that nodes store partial sums on one side, and forgetting empty inputs on the other.
+
+Picture the whole as a set of running subtotals where each one covers a block of entries, working alongside a small frame that slides along a line of text.
+
+Two habits help: first, start indexing from one to keep the bit tricks simple; second, write down the window invariant before coding the loop.

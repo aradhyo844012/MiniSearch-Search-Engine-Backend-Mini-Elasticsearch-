@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Logging Best Practices
+
+This is a fictional but realistic day for a developer whose project relies on Logging Best Practices.
+
+Morning: Divya starts by reviewing a ticket about debugging production issues. Before touching any code, Divya re-reads the notes on log levels to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore structured logs with the Python logging module. A small test exposes the problem of logging sensitive data, and they fix it together.
+
+Afternoon: the team discusses a new request involving auditing actions. Divya sketches a ship's logbook that explains what happened and when on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to include a request ID in every log line.
+
+Days like this are typical. Logging Best Practices is not glamorous, but understanding it keeps small problems from growing.

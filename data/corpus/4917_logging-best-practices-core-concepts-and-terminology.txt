@@ -1,0 +1,10 @@
+Logging Best Practices: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Logging Best Practices with confidence. The subject itself is recording useful, structured information about what an application is doing.
+
+log levels: one of the building blocks of Logging Best Practices. Documentation for the Python logging module usually mentions it early.
+structured logs: one of the building blocks of Logging Best Practices. You should be able to explain it in a single sentence before moving on.
+correlation IDs: one of the building blocks of Logging Best Practices. It shows up whenever you work on debugging production issues.
+log rotation: one of the building blocks of Logging Best Practices. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about auditing actions. If the sentences feel natural, the vocabulary has stuck.

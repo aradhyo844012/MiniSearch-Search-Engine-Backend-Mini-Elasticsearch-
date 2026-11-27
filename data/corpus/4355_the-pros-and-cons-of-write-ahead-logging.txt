@@ -1,0 +1,15 @@
+The Pros and Cons of Write-Ahead Logging
+
+No technology is free of trade-offs, and Write-Ahead Logging is no exception. Here is an honest summary.
+
+Advantages:
+- Supports surviving crashes
+- Makes feeding replication streams easier
+- Helps with point-in-time recovery
+
+Drawbacks and risks:
+- Risk: disabling fsync for speed
+- Risk: log files filling the disk
+- Risk: forgetting to archive logs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as surviving crashes, and you can manage the risks, Write-Ahead Logging is a sound choice. Whatever you decide, test crash recovery by killing the process on purpose.

@@ -1,0 +1,11 @@
+Why Encryption at Rest Matters for Developers
+
+Developers who understand Encryption at Rest make better decisions, because Encryption at Rest is protecting stored data by encrypting it on disk or in a database.
+
+Three situations show why it matters. First, protecting backups. Second, meeting compliance rules. Third, securing laptops. In each case, a solid grasp of symmetric keys and key management separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: storing keys next to the data, no key rotation, and assuming it stops every kind of attack.
+
+You will not need to build everything yourself; LUKS, AWS KMS, and BitLocker cover most needs.
+
+Connect Encryption at Rest with Penetration Testing to see the bigger picture of Application Security.

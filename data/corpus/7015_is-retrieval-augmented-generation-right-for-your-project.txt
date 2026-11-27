@@ -1,0 +1,11 @@
+Is Retrieval-Augmented Generation Right for Your Project?
+
+Before adopting Retrieval-Augmented Generation, ask whether it fits the problem. Remember that Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers.
+
+It is a good fit when your work involves company knowledge assistants or question answering over documents, and when your team understands retrieval.
+
+Be cautious when the project is very small, when deadlines leave no room to learn chunking, or when you cannot manage these risks: poor chunking, irrelevant retrieved text, and no evaluation of the answers.
+
+A simple decision test: write down the problem in one sentence, then check whether prompts with context and grounding are part of the answer. If they are, Retrieval-Augmented Generation is probably worth a closer look.
+
+If you decide to go ahead, start small with support bots and evaluate retrieval quality separately from answer quality.

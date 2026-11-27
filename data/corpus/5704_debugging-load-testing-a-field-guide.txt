@@ -1,0 +1,13 @@
+Debugging Load Testing: A Field Guide
+
+When something goes wrong around Load Testing, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: testing unrealistic traffic, ignoring warm-up, and using average latency only.
+Step 3: revisit virtual users and throughput, since misunderstandings there cause many bugs.
+Step 4: use k6 or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Load Testing in work such as capacity planning come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, report p95 and p99 latency, not only averages. It prevents a surprising number of repeat problems.

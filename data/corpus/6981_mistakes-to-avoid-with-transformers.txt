@@ -1,0 +1,11 @@
+Mistakes to Avoid with Transformers
+
+Everyone learns Transformers partly through mistakes. Here are three worth avoiding.
+
+Mistake one: huge compute requirements. It usually appears when someone skips self-attention and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: limited context windows. It tends to be noticed late, often during testing of language translation. A short checklist during review catches it early.
+
+Mistake three: biased training data. It is easy to miss because everything seems to work at first. Keep an eye on tokens to spot it.
+
+If you remember only one rule, make it this: begin with small pretrained models.

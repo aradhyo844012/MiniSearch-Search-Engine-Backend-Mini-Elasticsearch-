@@ -1,0 +1,11 @@
+Where to Go Next After Learning Time-Series Databases
+
+You have met the basics of Time-Series Databases. Here is how to keep the momentum going.
+
+Go wider: read about LSM Trees, which belongs to the same area as Time-Series Databases (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of timestamps, retention policies, downsampling or tags and fields, and study it until you can explain it to a beginner.
+
+Go practical: build something around sensor readings with InfluxDB, and note every problem you meet, starting with high-cardinality tags.
+
+Go social: share what you learned. Explaining Time-Series Databases to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

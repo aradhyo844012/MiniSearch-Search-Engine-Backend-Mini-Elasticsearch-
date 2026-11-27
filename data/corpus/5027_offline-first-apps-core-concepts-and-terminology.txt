@@ -1,0 +1,10 @@
+Offline-First Apps: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Offline-First Apps with confidence. The subject itself is apps designed to work without a network and sync when a connection returns.
+
+local storage: one of the building blocks of Offline-First Apps. Documentation for SQLite usually mentions it early.
+sync queues: one of the building blocks of Offline-First Apps. Mixing it up with neighboring terms is a common source of confusion.
+conflict resolution: one of the building blocks of Offline-First Apps. Documentation for SQLite usually mentions it early.
+optimistic updates: one of the building blocks of Offline-First Apps. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about note-taking apps. If the sentences feel natural, the vocabulary has stuck.

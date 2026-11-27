@@ -1,0 +1,11 @@
+Is Regression Testing Right for Your Project?
+
+Before adopting Regression Testing, ask whether it fits the problem. Remember that Regression Testing is re-running tests after changes to make sure old features still work.
+
+It is a good fit when your work involves protecting releases or verifying bug fixes, and when your team understands test suites.
+
+Be cautious when the project is very small, when deadlines leave no room to learn automation, or when you cannot manage these risks: slow suites that nobody runs, missing tests for fixed bugs, and ignoring flaky failures.
+
+A simple decision test: write down the problem in one sentence, then check whether test selection and bug reproduction tests are part of the answer. If they are, Regression Testing is probably worth a closer look.
+
+If you decide to go ahead, start small with refactoring safely and add a test for every bug you fix.

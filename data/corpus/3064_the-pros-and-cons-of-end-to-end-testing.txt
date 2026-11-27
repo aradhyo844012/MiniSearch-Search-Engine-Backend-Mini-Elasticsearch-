@@ -1,0 +1,15 @@
+The Pros and Cons of End-to-End Testing
+
+No technology is free of trade-offs, and End-to-End Testing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports checking login and checkout flows
+- Makes release verification easier
+- Helps with cross-browser checks
+
+Drawbacks and risks:
+- Risk: flaky tests
+- Risk: slow runs
+- Risk: brittle selectors
+
+Weigh the two lists against your own project. If the advantages match your needs, such as checking login and checkout flows, and you can manage the risks, End-to-End Testing is a sound choice. Whatever you decide, cover only the most important user journeys.

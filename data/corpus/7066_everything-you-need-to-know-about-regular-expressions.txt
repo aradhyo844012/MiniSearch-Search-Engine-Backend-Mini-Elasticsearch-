@@ -1,0 +1,26 @@
+Everything You Need to Know About Regular Expressions
+
+This page collects the essentials about Regular Expressions in one place. In short, Regular Expressions is compact patterns for matching and extracting text.
+
+Core concepts:
+- character classes
+- quantifiers
+- groups
+- anchors
+
+Where it is used:
+- validating input
+- searching logs
+- extracting fields from text
+
+Common problems:
+- catastrophic backtracking
+- patterns that are too greedy
+- using them to parse HTML
+
+Tools to know:
+- the Python re module
+- regex101
+- grep
+
+Remember this above all: a stencil that only lets certain shapes of text show through is a good way to picture it, and the best habit is to build patterns in small steps and test each one.

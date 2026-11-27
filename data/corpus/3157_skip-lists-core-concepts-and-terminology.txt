@@ -1,0 +1,10 @@
+Skip Lists: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Skip Lists with confidence. The subject itself is layered linked lists that allow fast searching by skipping over many elements.
+
+multiple levels: one of the building blocks of Skip Lists. Documentation for Redis sorted sets usually mentions it early.
+random level assignment: one of the building blocks of Skip Lists. It shows up whenever you work on ordered in-memory indexes.
+forward pointers: one of the building blocks of Skip Lists. Documentation for Redis sorted sets usually mentions it early.
+expected logarithmic time: one of the building blocks of Skip Lists. Documentation for Redis sorted sets usually mentions it early.
+
+Practice using these four terms in sentences about sorted sets in caches. If the sentences feel natural, the vocabulary has stuck.

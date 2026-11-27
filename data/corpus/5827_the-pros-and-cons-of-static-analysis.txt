@@ -1,0 +1,15 @@
+The Pros and Cons of Static Analysis
+
+No technology is free of trade-offs, and Static Analysis is no exception. Here is an honest summary.
+
+Advantages:
+- Supports catching bugs early
+- Makes enforcing team style easier
+- Helps with improving security
+
+Drawbacks and risks:
+- Risk: ignoring warnings
+- Risk: too many noisy rules
+- Risk: disabling checks permanently
+
+Weigh the two lists against your own project. If the advantages match your needs, such as catching bugs early, and you can manage the risks, Static Analysis is a sound choice. Whatever you decide, run it in CI so problems never reach the main branch.

@@ -1,0 +1,15 @@
+Combining Event Sourcing with Vector Clocks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Event Sourcing and Vector Clocks can work together in a single project.
+
+Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them. Vector Clocks is counters that let distributed processes track the order of events without a shared clock.
+
+Imagine a project that involves audit trails and detecting concurrent edits. Event Sourcing brings event log, while Vector Clocks brings logical time.
+
+A sensible plan is to start with Apache Kafka for the Event Sourcing part and Riak for the Vector Clocks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded replay times on one side, and confusing them with wall-clock time on the other.
+
+Picture the whole as a bank statement that lists every transaction instead of only the balance, working alongside each person in a group chat keeping a tally of messages seen from everyone.
+
+Two habits help: first, version your events from the first day; second, compare clocks entry by entry to detect true concurrency.

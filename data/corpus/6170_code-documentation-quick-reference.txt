@@ -1,0 +1,15 @@
+Code Documentation Quick Reference
+
+A one-screen reminder for Code Documentation. Bookmark it and return when the details fade.
+
+What it is: written explanations that help others understand and use code.
+Key terms: README files, docstrings, architecture notes, and examples.
+Typical uses: onboarding new developers, describing APIs, and recording design decisions.
+Risks: outdated docs, comments that repeat the code, and missing examples.
+Tools: Sphinx, MkDocs, and Javadoc.
+
+Mental picture: a map left for the next traveler.
+
+Habit to build: keep documentation in the same repository as the code.
+
+See also: Pair Programming, which sits close to Code Documentation in the area of Software Design.

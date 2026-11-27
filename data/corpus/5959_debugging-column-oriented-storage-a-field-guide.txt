@@ -1,0 +1,13 @@
+Debugging Column-Oriented Storage: A Field Guide
+
+When something goes wrong around Column-Oriented Storage, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: slow single-row lookups, many small writes, and wide tables with unused columns.
+Step 3: revisit column chunks and compression, since misunderstandings there cause many bugs.
+Step 4: use Apache Parquet or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Column-Oriented Storage in work such as analytics dashboards come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, select only the columns you really need. It prevents a surprising number of repeat problems.

@@ -1,0 +1,13 @@
+Hashing vs Encryption vs Single Sign-On: Which One Should You Learn First?
+
+Learners often ask whether to study Hashing vs Encryption or Single Sign-On first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Hashing vs Encryption is the difference between one-way digests and reversible protection of data, and it is closely tied to one-way functions and keys. Single Sign-On, by contrast, is letting users log in once and access several applications, and it is closely tied to identity provider and SAML.
+
+Choose Hashing vs Encryption first if you care about storing passwords or verifying file integrity. Choose Single Sign-On first if you care about company intranets or reducing password fatigue.
+
+Think of Hashing vs Encryption as a paper shredder compared with a locked suitcase, and of Single Sign-On as a festival wristband that opens every gate. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hashing vs Encryption, avoid encrypting passwords instead of hashing them. With Single Sign-On, avoid a single point of failure.
+
+A good habit for Hashing vs Encryption is to ask whether you will ever need the original value back. A good habit for Single Sign-On is to plan for identity provider outages.

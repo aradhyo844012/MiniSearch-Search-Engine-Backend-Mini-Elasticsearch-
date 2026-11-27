@@ -1,0 +1,13 @@
+Skills to Build Around Event Sourcing
+
+Knowing the definition of Event Sourcing is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with event log and projections, and able to explain them without notes.
+
+Hands-on practice: spend real time with Apache Kafka on a Event Sourcing task, and try at least one alternative such as EventStoreDB.
+
+Judgment: learn to decide when Event Sourcing fits a problem such as audit trails, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a bank statement that lists every transaction instead of only the balance.
+
+Habits: version your events from the first day, and write down what you learn after each project.

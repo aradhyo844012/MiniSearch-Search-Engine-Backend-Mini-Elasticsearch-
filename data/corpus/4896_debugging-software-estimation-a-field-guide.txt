@@ -1,0 +1,13 @@
+Debugging Software Estimation: A Field Guide
+
+When something goes wrong around Software Estimation, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: treating estimates as promises, ignoring unknowns, and estimating alone.
+Step 3: revisit story points and ranges, since misunderstandings there cause many bugs.
+Step 4: use planning poker or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Software Estimation in work such as sprint planning come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, give ranges instead of single numbers. It prevents a surprising number of repeat problems.

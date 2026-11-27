@@ -1,0 +1,9 @@
+Understanding Saga Pattern Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture booking a trip with separate hotel, flight and car reservations that can each be cancelled.
+
+In that picture, local transactions is the first rule you follow, compensating actions is the next step, and orchestration and choreography keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it involves details such as missing compensations that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Temporal to learn the exact behavior. The same picture helps when you explain order processing to a friend.

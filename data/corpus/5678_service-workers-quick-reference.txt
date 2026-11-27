@@ -1,0 +1,15 @@
+Service Workers Quick Reference
+
+A one-screen reminder for Service Workers. Bookmark it and return when the details fade.
+
+What it is: scripts that run in the background of a browser and intercept network requests.
+Key terms: registration, install and activate events, cache storage, and fetch handlers.
+Typical uses: offline support, faster repeat visits, and push notifications.
+Risks: caching stale files forever, bugs surviving across deployments, and forgetting that HTTPS is required.
+Tools: Workbox, the Chrome DevTools Application panel, and Lighthouse.
+
+Mental picture: a receptionist who answers common requests before they reach the manager.
+
+Habit to build: version your caches so old files can be removed.
+
+See also: CSS Variables, which sits close to Service Workers in the area of Frontend Engineering.

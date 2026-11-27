@@ -1,0 +1,13 @@
+Teaching Security Headers to a Teammate
+
+Explaining Security Headers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: safety instructions printed on the packaging of every page. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Security Headers is HTTP response headers that tell browsers to enforce extra protections. Avoid jargon at this stage.
+
+Walk through an example involving hardening websites, naming Strict-Transport-Security and X-Content-Type-Options as they come up.
+
+Ask your teammate to explain frame protections in Security Headers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, setting headers on only some routes, and suggest this habit: test the headers on every environment.

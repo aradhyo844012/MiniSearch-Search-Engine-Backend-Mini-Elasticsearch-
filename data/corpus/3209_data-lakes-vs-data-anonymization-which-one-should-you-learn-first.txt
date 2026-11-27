@@ -1,0 +1,13 @@
+Data Lakes vs Data Anonymization: Which One Should You Learn First?
+
+Learners often ask whether to study Data Lakes or Data Anonymization first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed, and it is closely tied to raw storage and schema on read. Data Anonymization, by contrast, is removing or altering personal details in data so people cannot be identified, and it is closely tied to masking and generalization.
+
+Choose Data Lakes first if you care about storing logs and events or machine learning datasets. Choose Data Anonymization first if you care about sharing datasets with researchers or testing with production-like data.
+
+Think of Data Lakes as a big reservoir where water from many rivers is stored before treatment, and of Data Anonymization as blurring faces in a crowd photo while keeping the scene. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Lakes, avoid turning into a data swamp. With Data Anonymization, avoid re-identification through combined fields.
+
+A good habit for Data Lakes is to register every dataset in a catalog with an owner. A good habit for Data Anonymization is to test whether combining fields could identify a person.

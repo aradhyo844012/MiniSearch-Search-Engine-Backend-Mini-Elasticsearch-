@@ -1,0 +1,11 @@
+Practice Exercises for Memory Hierarchy
+
+These exercises build real understanding of Memory Hierarchy. Do them in order, and write down your answers.
+
+Exercise 1: Compare vmstat and Linux perf for choosing data structures and write down your conclusion.
+Exercise 2: Write a short paragraph describing Memory Hierarchy and include the term registers.
+Exercise 3: Explain how main memory and disk differ, using a drawing.
+Exercise 4: Create a small example that deliberately triggers this problem: ignoring locality. Then fix it.
+Exercise 5: List three situations from your own experience that resemble designing efficient programs or explaining slow I/O.
+
+When you finish, compare your answers with the definition: Memory Hierarchy is the layers of storage from registers to disks, trading speed for size.

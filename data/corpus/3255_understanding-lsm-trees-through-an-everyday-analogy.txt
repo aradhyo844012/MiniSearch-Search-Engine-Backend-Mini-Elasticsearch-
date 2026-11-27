@@ -1,0 +1,9 @@
+Understanding LSM Trees Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a mail room that sorts incoming letters in batches rather than one by one.
+
+In that picture, memtable is the first rule you follow, sorted string tables is the next step, and compaction and write amplification keep everything running smoothly.
+
+Every analogy breaks down eventually. Real LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk, and it involves details such as read amplification that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for RocksDB to learn the exact behavior. The same picture helps when you explain write-heavy databases to a friend.

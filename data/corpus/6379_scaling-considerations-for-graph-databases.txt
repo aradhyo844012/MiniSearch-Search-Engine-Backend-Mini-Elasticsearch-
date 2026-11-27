@@ -1,0 +1,11 @@
+Scaling Considerations for Graph Databases
+
+A design that works for a classroom project can behave very differently under real load. Here is how Graph Databases changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding nodes and getting social networks right.
+
+Medium scale: problems start to appear. Watch for using them for simple tabular data and unbounded traversals, and measure with Neo4j before changing anything.
+
+Large scale: properties and traversal queries move from background details to central design questions. Teams often revisit their choices around recommendation engines at this stage.
+
+Before you scale, limit traversal depth in every exploratory query. It is cheaper to build that habit early than to fix a crisis later.

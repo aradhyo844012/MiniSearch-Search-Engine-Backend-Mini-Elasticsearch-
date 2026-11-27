@@ -1,0 +1,11 @@
+Mistakes to Avoid with Form Validation
+
+Everyone learns Form Validation partly through mistakes. Here are three worth avoiding.
+
+Mistake one: validating only on the client. It usually appears when someone skips client-side checks and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: vague error messages. It tends to be noticed late, often during testing of sign-up forms. A short checklist during review catches it early.
+
+Mistake three: rejecting valid but unusual input. It is easy to miss because everything seems to work at first. Keep an eye on constraint attributes to spot it.
+
+If you remember only one rule, make it this: validate on the server even when the browser checks too.

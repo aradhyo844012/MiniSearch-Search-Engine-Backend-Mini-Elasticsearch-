@@ -1,0 +1,17 @@
+K-Means Clustering Do's and Don'ts
+
+A quick list of habits for working with K-Means Clustering.
+
+Do:
+- Learn centroids before anything else.
+- Try scikit-learn on a small example.
+- Make it a habit to scale features before clustering.
+- Test the case of customer segmentation early.
+
+Don't:
+- Ignore this: choosing k blindly.
+- Ignore this: unscaled features.
+- Ignore this: sensitivity to starting points.
+- Adopt K-Means Clustering just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with K-Means Clustering, a little patience with distance measures pays off more than any clever shortcut.

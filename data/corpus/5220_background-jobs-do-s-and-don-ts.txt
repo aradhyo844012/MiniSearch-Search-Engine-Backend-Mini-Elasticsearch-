@@ -1,0 +1,17 @@
+Background Jobs Do's and Don'ts
+
+A quick list of habits for working with Background Jobs.
+
+Do:
+- Learn queues before anything else.
+- Try Celery on a small example.
+- Make it a habit to give every job a timeout and a retry limit.
+- Test the case of sending emails early.
+
+Don't:
+- Ignore this: jobs that are not idempotent.
+- Ignore this: unbounded retries.
+- Ignore this: losing jobs on restarts.
+- Adopt Background Jobs just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Background Jobs, a little patience with workers pays off more than any clever shortcut.

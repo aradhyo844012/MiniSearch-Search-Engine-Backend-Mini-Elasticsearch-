@@ -1,0 +1,15 @@
+Go Goroutines Quick Reference
+
+A one-screen reminder for Go Goroutines. Bookmark it and return when the details fade.
+
+What it is: lightweight threads managed by the Go runtime that run functions concurrently.
+Key terms: goroutines, channels, select statements, and wait groups.
+Typical uses: servers handling many connections, parallel data processing, and background workers.
+Risks: goroutine leaks, data races, and unbuffered channels causing deadlocks.
+Tools: the go command, the race detector, and pprof.
+
+Mental picture: a small crew of waiters passing notes through a serving hatch.
+
+Habit to build: run your tests with the race detector turned on.
+
+See also: Python Decorators, which sits close to Go Goroutines in the area of Programming Languages.

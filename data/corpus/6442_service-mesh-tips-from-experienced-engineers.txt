@@ -1,0 +1,11 @@
+Service Mesh Tips from Experienced Engineers
+
+Engineers who work with Service Mesh regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Istio first, and only then evaluate alternatives such as Linkerd.
+2. When something behaves strangely, revisit mutual TLS before anything else.
+3. Write down why you chose Service Mesh so the next person understands the decision.
+4. Do not skip sidecar proxies; everything else builds on it.
+5. Be careful with this one: added latency and complexity.
+
+None of these tips needs special equipment, and all of them apply to retries and timeouts as well.

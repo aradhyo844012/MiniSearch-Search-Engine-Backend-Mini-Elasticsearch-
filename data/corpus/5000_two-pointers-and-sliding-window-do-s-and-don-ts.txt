@@ -1,0 +1,17 @@
+Two Pointers and Sliding Window Do's and Don'ts
+
+A quick list of habits for working with Two Pointers and Sliding Window.
+
+Do:
+- Learn left and right pointers before anything else.
+- Try Python lists on a small example.
+- Make it a habit to write down the window invariant before coding the loop.
+- Test the case of finding pairs with a given sum early.
+
+Don't:
+- Ignore this: moving the wrong pointer.
+- Ignore this: forgetting empty inputs.
+- Ignore this: breaking the invariant.
+- Adopt Two Pointers and Sliding Window just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Two Pointers and Sliding Window, a little patience with window boundaries pays off more than any clever shortcut.

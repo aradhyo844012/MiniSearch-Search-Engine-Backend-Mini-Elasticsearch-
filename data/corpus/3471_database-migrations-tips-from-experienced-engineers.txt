@@ -1,0 +1,11 @@
+Database Migrations Tips from Experienced Engineers
+
+Engineers who work with Database Migrations regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of adding columns safely early, before the design hardens.
+2. Do not skip up and down scripts; everything else builds on it.
+3. Write down why you chose Database Migrations so the next person understands the decision.
+4. Make sure you can split risky changes into small steps that can each be rolled back.
+5. Be careful with this one: locking large tables.
+
+None of these tips needs special equipment, and all of them apply to renaming tables as well.

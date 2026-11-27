@@ -1,0 +1,11 @@
+Scaling Considerations for Fuzz Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Fuzz Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding input generation and getting testing parsers right.
+
+Medium scale: problems start to appear. Watch for running without sanitizers and crashes that cannot be reproduced, and measure with AFL++ before changing anything.
+
+Large scale: crash triage and corpora move from background details to central design questions. Teams often revisit their choices around finding memory bugs at this stage.
+
+Before you scale, keep every crashing input as a regression test. It is cheaper to build that habit early than to fix a crisis later.

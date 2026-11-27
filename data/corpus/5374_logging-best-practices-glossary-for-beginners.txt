@@ -1,0 +1,12 @@
+Logging Best Practices Glossary for Beginners
+
+New words can make Logging Best Practices feel harder than it is. This glossary keeps the key ones in one place.
+
+Logging Best Practices: recording useful, structured information about what an application is doing.
+log levels: a core term, most visible in debugging production issues.
+structured logs: a core term that beginners often confuse with correlation IDs.
+correlation IDs: a core term that connects to log rotation.
+log rotation: a core term worth revisiting after you try a real example.
+the Python logging module: a tool commonly used for auditing actions.
+
+Come back to this Logging Best Practices list whenever documentation for the ELK stack uses a word you do not recognize.

@@ -1,0 +1,12 @@
+Questions to Ask About Service Mesh in Code Review
+
+Reviewing code that involves Service Mesh is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is mutual TLS clear to someone reading the code for the first time?
+- Would a test catch adopting it too early if it appeared later?
+- Is Istio used consistently, or are we mixing approaches?
+- Does this change respect sidecar proxies, or does it work around it?
+- Have we avoided this problem: hard-to-debug proxy configs?
+- Does the code handle the case of securing service traffic correctly?
+
+Good reviews of work on Service Mesh are specific, kind and focused on traffic policies, not on personal style.

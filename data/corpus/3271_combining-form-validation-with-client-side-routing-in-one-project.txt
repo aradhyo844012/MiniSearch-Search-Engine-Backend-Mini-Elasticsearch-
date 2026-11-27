@@ -1,0 +1,15 @@
+Combining Form Validation with Client-Side Routing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Form Validation and Client-Side Routing can work together in a single project.
+
+Form Validation is checking user input for correctness before it is accepted. Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Imagine a project that involves sign-up forms and single-page apps. Form Validation brings client-side checks, while Client-Side Routing brings history API.
+
+A sensible plan is to start with HTML constraint validation for the Form Validation part and React Router for the Client-Side Routing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: vague error messages on one side, and unhandled 404 pages on the other.
+
+Picture the whole as a proofreader checking a form before it is submitted, working alongside swapping the picture in a frame without replacing the frame.
+
+Two habits help: first, validate on the server even when the browser checks too; second, test refreshing the page on every route.

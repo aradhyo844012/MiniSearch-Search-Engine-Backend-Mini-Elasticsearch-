@@ -1,0 +1,9 @@
+Understanding GraphQL Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture ordering a la carte instead of picking a fixed set menu.
+
+In that picture, schema is the first rule you follow, queries and mutations is the next step, and resolvers and types keep everything running smoothly.
+
+Every analogy breaks down eventually. Real GraphQL is a query language for APIs that lets clients ask for exactly the fields they need, and it involves details such as the N+1 query problem that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Apollo to learn the exact behavior. The same picture helps when you explain mobile apps with limited bandwidth to a friend.

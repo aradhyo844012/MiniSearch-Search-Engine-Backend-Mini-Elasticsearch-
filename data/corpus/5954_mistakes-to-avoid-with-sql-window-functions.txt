@@ -1,0 +1,11 @@
+Mistakes to Avoid with SQL Window Functions
+
+Everyone learns SQL Window Functions partly through mistakes. Here are three worth avoiding.
+
+Mistake one: forgetting ORDER BY inside the window. It usually appears when someone skips the OVER clause and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: confusing them with GROUP BY. It tends to be noticed late, often during testing of running totals. A short checklist during review catches it early.
+
+Mistake three: slow sorts on huge partitions. It is easy to miss because everything seems to work at first. Keep an eye on frames to spot it.
+
+If you remember only one rule, make it this: start with ROW_NUMBER and LAG on a small table.

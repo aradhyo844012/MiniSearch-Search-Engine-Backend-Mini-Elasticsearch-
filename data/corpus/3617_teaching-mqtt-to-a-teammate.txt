@@ -1,0 +1,13 @@
+Teaching MQTT to a Teammate
+
+Explaining MQTT to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a radio station with channels that devices can tune into. Ask your teammate what the picture suggests.
+
+Then give the plain definition: MQTT is a lightweight messaging protocol designed for small devices and unreliable networks. Avoid jargon at this stage.
+
+Walk through an example involving sensor networks, naming publish and subscribe and topics as they come up.
+
+Ask your teammate to explain brokers in MQTT back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, unsecured brokers, and suggest this habit: design topic names like a clear folder structure.

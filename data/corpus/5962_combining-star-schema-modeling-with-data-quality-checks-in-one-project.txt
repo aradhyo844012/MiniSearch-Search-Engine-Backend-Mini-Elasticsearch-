@@ -1,0 +1,15 @@
+Combining Star Schema Modeling with Data Quality Checks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Star Schema Modeling and Data Quality Checks can work together in a single project.
+
+Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables. Data Quality Checks is automated tests that verify data is complete, valid and consistent.
+
+Imagine a project that involves business intelligence reports and protecting dashboards. Star Schema Modeling brings fact tables, while Data Quality Checks brings null checks.
+
+A sensible plan is to start with dbt for the Star Schema Modeling part and Great Expectations for the Data Quality Checks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: over-normalized dimensions on one side, and checks only at the end of pipelines on the other.
+
+Picture the whole as a wheel with a hub of numbers and spokes of descriptions, working alongside a quality inspector at the end of an assembly line.
+
+Two habits help: first, state the grain of the fact table before designing anything else; second, check data as early as it enters the pipeline.

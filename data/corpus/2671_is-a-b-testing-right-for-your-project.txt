@@ -1,0 +1,11 @@
+Is A/B Testing Right for Your Project?
+
+Before adopting A/B Testing, ask whether it fits the problem. Remember that A/B Testing is an experiment that compares two versions of something to see which performs better.
+
+It is a good fit when your work involves testing page designs or comparing ranking algorithms, and when your team understands control and variant.
+
+Be cautious when the project is very small, when deadlines leave no room to learn random assignment, or when you cannot manage these risks: stopping tests early, testing too many variants, and ignoring sample size.
+
+A simple decision test: write down the problem in one sentence, then check whether metrics and sample size are part of the answer. If they are, A/B Testing is probably worth a closer look.
+
+If you decide to go ahead, start small with evaluating new features and decide the success metric and sample size before you begin.

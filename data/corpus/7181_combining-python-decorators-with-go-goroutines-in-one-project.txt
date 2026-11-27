@@ -1,0 +1,15 @@
+Combining Python Decorators with Go Goroutines in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Python Decorators and Go Goroutines can work together in a single project.
+
+Python Decorators is functions that wrap other functions to add behavior without changing their code. Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.
+
+Imagine a project that involves logging calls and servers handling many connections. Python Decorators brings higher-order functions, while Go Goroutines brings goroutines.
+
+A sensible plan is to start with functools for the Python Decorators part and the go command for the Go Goroutines part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: stacking decorators in the wrong order on one side, and data races on the other.
+
+Picture the whole as gift wrapping that adds a bow without changing the present, working alongside a small crew of waiters passing notes through a serving hatch.
+
+Two habits help: first, always apply functools.wraps inside your decorator; second, run your tests with the race detector turned on.

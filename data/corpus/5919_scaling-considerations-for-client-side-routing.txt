@@ -1,0 +1,11 @@
+Scaling Considerations for Client-Side Routing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Client-Side Routing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding history API and getting single-page apps right.
+
+Medium scale: problems start to appear. Watch for broken deep links and unhandled 404 pages, and measure with React Router before changing anything.
+
+Large scale: nested routes and route guards move from background details to central design questions. Teams often revisit their choices around dashboards at this stage.
+
+Before you scale, test refreshing the page on every route. It is cheaper to build that habit early than to fix a crisis later.

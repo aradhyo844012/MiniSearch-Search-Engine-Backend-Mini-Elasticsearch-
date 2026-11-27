@@ -1,0 +1,13 @@
+CAP Theorem vs Leader Election: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or Leader Election first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. Leader Election, by contrast, is a process by which nodes in a cluster choose one node to coordinate the work, and it is closely tied to heartbeats and terms or epochs.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose Leader Election first if you care about database primaries or job schedulers.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of Leader Election as a classroom picking a monitor when the teacher leaves. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With Leader Election, avoid split brain.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for Leader Election is to tune heartbeat intervals against real network delays.

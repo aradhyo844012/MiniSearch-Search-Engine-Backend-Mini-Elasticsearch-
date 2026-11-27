@@ -1,0 +1,11 @@
+Choosing Tools for Modular Monoliths
+
+There is no single best tool for Modular Monoliths. The right choice depends on your project, your team and your timeline.
+
+ArchUnit is a common first choice, especially for small teams. import-linter suits teams that already work with similar technology, and Gradle modules is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle early-stage products well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: modules reaching into each other's tables.
+
+As a rule of thumb, enforce boundaries with automated checks, no matter which tool you use.

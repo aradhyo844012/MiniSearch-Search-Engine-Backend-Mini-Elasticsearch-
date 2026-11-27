@@ -1,0 +1,9 @@
+Understanding Web Components Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a Lego brick in its own sealed packaging.
+
+In that picture, custom elements is the first rule you follow, shadow DOM is the next step, and templates and slots keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Web Components is browser-native custom elements with their own markup, style and behavior, and it involves details such as styling surprises across the shadow boundary that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Lit to learn the exact behavior. The same picture helps when you explain design system components to a friend.

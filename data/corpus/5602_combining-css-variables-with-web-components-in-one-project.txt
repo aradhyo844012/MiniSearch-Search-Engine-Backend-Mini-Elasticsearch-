@@ -1,0 +1,15 @@
+Combining CSS Variables with Web Components in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CSS Variables and Web Components can work together in a single project.
+
+CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles. Web Components is browser-native custom elements with their own markup, style and behavior.
+
+Imagine a project that involves theme switching and design system components. CSS Variables brings custom properties, while Web Components brings custom elements.
+
+A sensible plan is to start with browser DevTools for the CSS Variables part and Lit for the Web Components part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: overriding at the wrong scope on one side, and poor accessibility on the other.
+
+Picture the whole as labeled paint buckets you refill once to recolor a whole house, working alongside a Lego brick in its own sealed packaging.
+
+Two habits help: first, define theme values on the root element; second, document the attributes and events like a public API.

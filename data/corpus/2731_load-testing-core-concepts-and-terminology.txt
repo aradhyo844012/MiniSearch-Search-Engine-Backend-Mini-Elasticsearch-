@@ -1,0 +1,10 @@
+Load Testing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Load Testing with confidence. The subject itself is measuring how a system behaves under expected and heavy traffic.
+
+virtual users: one of the building blocks of Load Testing. You should be able to explain it in a single sentence before moving on.
+throughput: one of the building blocks of Load Testing. Documentation for k6 usually mentions it early.
+latency percentiles: one of the building blocks of Load Testing. Documentation for k6 usually mentions it early.
+ramp-up: one of the building blocks of Load Testing. It shows up whenever you work on capacity planning.
+
+Practice using these four terms in sentences about finding bottlenecks. If the sentences feel natural, the vocabulary has stuck.

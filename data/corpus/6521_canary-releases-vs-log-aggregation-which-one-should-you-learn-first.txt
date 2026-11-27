@@ -1,0 +1,13 @@
+Canary Releases vs Log Aggregation: Which One Should You Learn First?
+
+Learners often ask whether to study Canary Releases or Log Aggregation first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it is closely tied to traffic percentages and health metrics. Log Aggregation, by contrast, is collecting logs from many machines into one searchable place, and it is closely tied to shippers and indexing.
+
+Choose Canary Releases first if you care about safer releases or testing with real traffic. Choose Log Aggregation first if you care about troubleshooting across services or security investigations.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads, and of Log Aggregation as gathering notes from every desk into a single searchable binder. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Canary Releases, avoid too little traffic to reveal problems. With Log Aggregation, avoid unbounded storage growth.
+
+A good habit for Canary Releases is to define rollback conditions before starting the rollout. A good habit for Log Aggregation is to use structured JSON logs so that fields are searchable.

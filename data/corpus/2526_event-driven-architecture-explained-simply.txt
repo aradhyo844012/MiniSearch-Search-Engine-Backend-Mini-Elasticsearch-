@@ -1,0 +1,13 @@
+Event-Driven Architecture Explained Simply
+
+Here is Event-Driven Architecture without the jargon: it is a style in which components communicate by publishing events and reacting to them.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: producers and consumers, event brokers, loose coupling, and asynchronous handling. You do not need to master them all at once. Start with producers and consumers, then add event brokers.
+
+You will meet Event-Driven Architecture in work such as order pipelines, real-time notifications, and integrating many services.
+
+One practical tip is to document every event name and schema.
+
+After Event-Driven Architecture, a natural next topic is Pair Programming.

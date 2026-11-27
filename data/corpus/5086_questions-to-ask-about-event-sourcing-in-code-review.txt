@@ -1,0 +1,12 @@
+Questions to Ask About Event Sourcing in Code Review
+
+Reviewing code that involves Event Sourcing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered changing event formats carelessly?
+- Could we version your events from the first day?
+- Would a test catch unbounded replay times if it appeared later?
+- Does this change respect event log, or does it work around it?
+- Have we avoided this problem: using it for simple CRUD apps?
+- Is projections clear to someone reading the code for the first time?
+
+Good reviews of work on Event Sourcing are specific, kind and focused on snapshots, not on personal style.

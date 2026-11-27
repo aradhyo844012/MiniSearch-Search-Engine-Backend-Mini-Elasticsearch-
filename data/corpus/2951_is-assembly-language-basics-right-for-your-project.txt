@@ -1,0 +1,11 @@
+Is Assembly Language Basics Right for Your Project?
+
+Before adopting Assembly Language Basics, ask whether it fits the problem. Remember that Assembly Language Basics is low-level instructions that map closely to what a processor actually executes.
+
+It is a good fit when your work involves understanding compiled code or debugging crashes, and when your team understands registers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn instructions, or when you cannot manage these risks: wrong calling conventions, stack corruption, and platform differences.
+
+A simple decision test: write down the problem in one sentence, then check whether memory addressing and the stack are part of the answer. If they are, Assembly Language Basics is probably worth a closer look.
+
+If you decide to go ahead, start small with writing tiny boot code and read the assembly of a tiny C function to see what the compiler does.

@@ -1,0 +1,13 @@
+Cloud Cost Optimization vs Distributed Tracing: Which One Should You Learn First?
+
+Learners often ask whether to study Cloud Cost Optimization or Distributed Tracing first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Cloud Cost Optimization is the practice of reducing cloud spending while keeping performance and reliability, and it is closely tied to right-sizing and reserved capacity. Distributed Tracing, by contrast, is following a single request as it passes through many services, and it is closely tied to spans and trace IDs.
+
+Choose Cloud Cost Optimization first if you care about cutting idle resources or budgeting by team. Choose Distributed Tracing first if you care about finding slow services or understanding dependencies.
+
+Think of Cloud Cost Optimization as turning off the lights in rooms nobody is using, and of Distributed Tracing as a parcel tracking page that shows every stop on the route. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Cloud Cost Optimization, avoid forgotten test environments. With Distributed Tracing, avoid missing context propagation.
+
+A good habit for Cloud Cost Optimization is to tag every resource with an owner. A good habit for Distributed Tracing is to propagate trace IDs through every outgoing call.

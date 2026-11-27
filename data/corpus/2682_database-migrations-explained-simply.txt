@@ -1,0 +1,13 @@
+Database Migrations Explained Simply
+
+If Database Migrations sounds intimidating, relax. It is versioned scripts that change a database schema in a controlled and repeatable way, and the idea is simpler than the name suggests.
+
+Think of Database Migrations as a numbered set of renovation steps applied to a building in order. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: up and down scripts, version tables, backward compatibility, and zero-downtime changes. You do not need to master them all at once. Start with up and down scripts, then add version tables.
+
+People reach for Database Migrations when they work on adding columns safely, renaming tables, and keeping environments in sync.
+
+One practical tip is to split risky changes into small steps that can each be rolled back.
+
+Once Database Migrations feels comfortable, read about LSM Trees, which lives in the same neighborhood of ideas.

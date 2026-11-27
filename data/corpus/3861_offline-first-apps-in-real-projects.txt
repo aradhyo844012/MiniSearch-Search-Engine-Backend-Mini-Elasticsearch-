@@ -1,0 +1,11 @@
+Offline-First Apps in Real Projects
+
+Reading about Offline-First Apps is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: field service tools. Here, local storage drives the main design choices, and the team needs to guard against unresolved sync conflicts.
+
+Scenario two: note-taking apps. This time sync queues matters most, and tools such as SQLite help keep things manageable.
+
+Scenario three: apps for low-connectivity regions. The key idea is conflict resolution, and the biggest risk is unbounded local data.
+
+Across all three scenarios, Offline-First Apps stays the same idea: apps designed to work without a network and sync when a connection returns. Only the details change.

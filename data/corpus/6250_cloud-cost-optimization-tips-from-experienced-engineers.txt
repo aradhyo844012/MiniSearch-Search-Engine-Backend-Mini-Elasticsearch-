@@ -1,0 +1,11 @@
+Cloud Cost Optimization Tips from Experienced Engineers
+
+Engineers who work with Cloud Cost Optimization regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Cloud Cost Optimization so the next person understands the decision.
+2. Make sure you can tag every resource with an owner.
+3. Reach for AWS Cost Explorer first, and only then evaluate alternatives such as Infracost.
+4. Test the case of cutting idle resources early, before the design hardens.
+5. Be careful with this one: forgotten test environments.
+
+None of these tips needs special equipment, and all of them apply to budgeting by team as well.

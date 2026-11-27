@@ -1,0 +1,11 @@
+Load Testing Tips from Experienced Engineers
+
+Engineers who work with Load Testing regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Load Testing so the next person understands the decision.
+2. When something behaves strangely, revisit throughput before anything else.
+3. Do not skip virtual users; everything else builds on it.
+4. Test the case of capacity planning early, before the design hardens.
+5. Make sure you can report p95 and p99 latency, not only averages.
+
+None of these tips needs special equipment, and all of them apply to finding bottlenecks as well.

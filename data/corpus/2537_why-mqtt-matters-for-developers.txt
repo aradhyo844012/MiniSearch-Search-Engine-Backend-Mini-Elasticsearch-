@@ -1,0 +1,11 @@
+Why MQTT Matters for Developers
+
+Developers who understand MQTT make better decisions, because MQTT is a lightweight messaging protocol designed for small devices and unreliable networks.
+
+Three situations show why it matters. First, sensor networks. Second, smart home devices. Third, telemetry. In each case, a solid grasp of publish and subscribe and topics separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: unsecured brokers, messy topic names, and wrong quality of service choices.
+
+Good tools exist, including Mosquitto, paho-mqtt, and MQTT Explorer, so you rarely have to start from nothing.
+
+Connect MQTT with Embedded Systems to see the bigger picture of Mobile, Embedded and IoT.

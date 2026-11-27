@@ -1,0 +1,11 @@
+Scaling Considerations for Connection Pooling
+
+A design that works for a classroom project can behave very differently under real load. Here is how Connection Pooling changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding pool size and getting web backends right.
+
+Medium scale: problems start to appear. Watch for pools larger than the database allows and leaked connections, and measure with PgBouncer before changing anything.
+
+Large scale: timeouts and connection leaks move from background details to central design questions. Teams often revisit their choices around serverless functions that call databases at this stage.
+
+Before you scale, always return connections in a finally block. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,15 @@
+Consistent Hashing Quick Reference
+
+A one-screen reminder for Consistent Hashing. Bookmark it and return when the details fade.
+
+What it is: a way of mapping keys to servers so that adding or removing servers moves very few keys.
+Key terms: hash ring, virtual nodes, key placement, and rebalancing.
+Typical uses: distributed caches, sharded databases, and load balancing.
+Risks: too few virtual nodes, uneven load, and hot keys.
+Tools: Redis Cluster, Memcached clients, and Apache Cassandra.
+
+Mental picture: seats around a round table where a new guest only displaces their neighbor.
+
+Habit to build: use many virtual nodes per server to even out the load.
+
+See also: Vector Clocks, which sits close to Consistent Hashing in the area of Distributed Systems.

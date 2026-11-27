@@ -1,0 +1,15 @@
+The Pros and Cons of SOLID Principles
+
+No technology is free of trade-offs, and SOLID Principles is no exception. Here is an honest summary.
+
+Advantages:
+- Supports structuring classes
+- Makes reviewing designs easier
+- Helps with reducing coupling
+
+Drawbacks and risks:
+- Risk: applying them rigidly to tiny scripts
+- Risk: creating too many tiny classes
+- Risk: confusing interfaces with inheritance
+
+Weigh the two lists against your own project. If the advantages match your needs, such as structuring classes, and you can manage the risks, SOLID Principles is a sound choice. Whatever you decide, apply them when a design starts to hurt, not before.

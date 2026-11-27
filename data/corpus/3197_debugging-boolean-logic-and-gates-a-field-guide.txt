@@ -1,0 +1,13 @@
+Debugging Boolean Logic and Gates: A Field Guide
+
+When something goes wrong around Boolean Logic and Gates, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: operator precedence mistakes, forgetting short-circuit behavior, and negating complex conditions incorrectly.
+Step 3: revisit AND, OR and NOT and truth tables, since misunderstandings there cause many bugs.
+Step 4: use Logisim or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Boolean Logic and Gates in work such as writing conditions come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, write a truth table whenever a condition feels confusing. It prevents a surprising number of repeat problems.

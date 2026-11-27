@@ -1,0 +1,13 @@
+Skills to Build Around CPU Caches
+
+Knowing the definition of CPU Caches is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with cache lines and hit and miss rates, and able to explain them without notes.
+
+Hands-on practice: spend real time with perf on a CPU Caches task, and try at least one alternative such as Valgrind cachegrind.
+
+Judgment: learn to decide when CPU Caches fits a problem such as speeding up loops, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example keeping your most-used books on your desk instead of in the library.
+
+Habits: access arrays in the order they are stored, and write down what you learn after each project.

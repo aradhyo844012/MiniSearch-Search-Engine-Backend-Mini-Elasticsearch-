@@ -1,0 +1,15 @@
+Database Backups and Recovery Quick Reference
+
+A one-screen reminder for Database Backups and Recovery. Bookmark it and return when the details fade.
+
+What it is: the practice of copying data regularly so that it can be restored after failures.
+Key terms: full and incremental backups, recovery point objective, recovery time objective, and restore testing.
+Typical uses: recovering deleted tables, migrating servers, and meeting compliance rules.
+Risks: never testing restores, storing backups on the same disk, and keeping credentials inside backup scripts.
+Tools: pg_dump, mysqldump, and AWS Backup.
+
+Mental picture: a spare house key kept at a trusted neighbor's home.
+
+Habit to build: schedule a restore drill on a regular basis.
+
+See also: Write-Ahead Logging, which sits close to Database Backups and Recovery in the area of Storage Engines and Databases.

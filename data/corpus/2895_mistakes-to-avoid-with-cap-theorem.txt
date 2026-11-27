@@ -1,0 +1,11 @@
+Mistakes to Avoid with CAP Theorem
+
+Everyone learns CAP Theorem partly through mistakes. Here are three worth avoiding.
+
+Mistake one: treating it as a three-way menu. It usually appears when someone skips consistency and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring latency trade-offs in normal operation. It tends to be noticed late, often during testing of choosing database types. A short checklist during review catches it early.
+
+Mistake three: assuming partitions never happen. It is easy to miss because everything seems to work at first. Keep an eye on trade-offs to spot it.
+
+If you remember only one rule, make it this: ask what your users prefer during a failure: stale answers or errors.

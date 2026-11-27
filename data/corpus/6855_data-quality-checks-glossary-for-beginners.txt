@@ -1,0 +1,12 @@
+Data Quality Checks Glossary for Beginners
+
+New words can make Data Quality Checks feel harder than it is. This glossary keeps the key ones in one place.
+
+Data Quality Checks: automated tests that verify data is complete, valid and consistent.
+null checks: a core term, most visible in protecting dashboards.
+uniqueness: a core term that beginners often confuse with freshness.
+freshness: a core term that connects to schema validation.
+schema validation: a core term worth revisiting after you try a real example.
+Great Expectations: a tool commonly used for validating ingestion.
+
+Come back to this Data Quality Checks list whenever documentation for dbt tests uses a word you do not recognize.

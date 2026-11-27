@@ -1,0 +1,11 @@
+Scaling Considerations for Reading Documentation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Reading Documentation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding search and getting learning new libraries right.
+
+Medium scale: problems start to appear. Watch for reading the wrong version and skipping the overview, and measure with MDN Web Docs before changing anything.
+
+Large scale: examples and version numbers move from background details to central design questions. Teams often revisit their choices around solving errors at this stage.
+
+Before you scale, check that the documentation version matches your installed version. It is cheaper to build that habit early than to fix a crisis later.

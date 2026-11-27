@@ -1,0 +1,26 @@
+Everything You Need to Know About Regression Testing
+
+This page collects the essentials about Regression Testing in one place. In short, Regression Testing is re-running tests after changes to make sure old features still work.
+
+Core concepts:
+- test suites
+- automation
+- test selection
+- bug reproduction tests
+
+Where it is used:
+- protecting releases
+- verifying bug fixes
+- refactoring safely
+
+Common problems:
+- slow suites that nobody runs
+- missing tests for fixed bugs
+- ignoring flaky failures
+
+Tools to know:
+- pytest
+- GitHub Actions
+- Jenkins
+
+Remember this above all: rechecking the old keys after cutting a new lock is a good way to picture it, and the best habit is to add a test for every bug you fix.

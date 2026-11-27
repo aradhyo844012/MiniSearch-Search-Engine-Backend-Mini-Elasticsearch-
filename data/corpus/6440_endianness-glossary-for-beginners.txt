@@ -1,0 +1,12 @@
+Endianness Glossary for Beginners
+
+New words can make Endianness feel harder than it is. This glossary keeps the key ones in one place.
+
+Endianness: the order in which a computer stores the bytes of a multi-byte number.
+big-endian: a core term, most visible in network protocols.
+little-endian: a core term that beginners often confuse with byte order marks.
+byte order marks: a core term that connects to network byte order.
+network byte order: a core term worth revisiting after you try a real example.
+Python struct: a tool commonly used for binary file formats.
+
+Come back to this Endianness list whenever documentation for htons and ntohl uses a word you do not recognize.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Garbage Collection
+
+Everyone learns Garbage Collection partly through mistakes. Here are three worth avoiding.
+
+Mistake one: creating huge numbers of short-lived objects. It usually appears when someone skips reachability and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: holding references longer than needed. It tends to be noticed late, often during testing of managed languages like Java and Python. A short checklist during review catches it early.
+
+Mistake three: ignoring pause times in latency-sensitive code. It is easy to miss because everything seems to work at first. Keep an eye on pause times to spot it.
+
+If you remember only one rule, make it this: measure allocation rates before tuning collector settings.

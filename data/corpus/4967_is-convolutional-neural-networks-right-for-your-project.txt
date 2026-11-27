@@ -1,0 +1,11 @@
+Is Convolutional Neural Networks Right for Your Project?
+
+Before adopting Convolutional Neural Networks, ask whether it fits the problem. Remember that Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns.
+
+It is a good fit when your work involves image classification or medical image analysis, and when your team understands filters.
+
+Be cautious when the project is very small, when deadlines leave no room to learn pooling, or when you cannot manage these risks: too little training data, ignoring data augmentation, and overly deep models for simple tasks.
+
+A simple decision test: write down the problem in one sentence, then check whether feature maps and stride are part of the answer. If they are, Convolutional Neural Networks is probably worth a closer look.
+
+If you decide to go ahead, start small with object detection and start from a pretrained model.

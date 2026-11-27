@@ -1,0 +1,13 @@
+Skills to Build Around gRPC
+
+Knowing the definition of gRPC is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with protocol buffers and service definitions, and able to explain them without notes.
+
+Hands-on practice: spend real time with protoc on a gRPC task, and try at least one alternative such as grpcurl.
+
+Judgment: learn to decide when gRPC fits a problem such as service-to-service calls, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a phone line with a pre-agreed script for every call.
+
+Habits: never reuse or renumber field numbers in a proto file, and write down what you learn after each project.

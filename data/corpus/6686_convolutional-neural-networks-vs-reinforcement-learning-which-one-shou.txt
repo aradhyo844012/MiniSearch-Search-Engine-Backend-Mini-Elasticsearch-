@@ -1,0 +1,13 @@
+Convolutional Neural Networks vs Reinforcement Learning: Which One Should You Learn First?
+
+Learners often ask whether to study Convolutional Neural Networks or Reinforcement Learning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns, and it is closely tied to filters and pooling. Reinforcement Learning, by contrast, is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment.
+
+Choose Convolutional Neural Networks first if you care about image classification or medical image analysis. Choose Reinforcement Learning first if you care about game playing or robot control.
+
+Think of Convolutional Neural Networks as a magnifying glass sweeping across a photo looking for edges and shapes, and of Reinforcement Learning as training a dog with treats for good behavior. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Convolutional Neural Networks, avoid too little training data. With Reinforcement Learning, avoid badly designed rewards.
+
+A good habit for Convolutional Neural Networks is to start from a pretrained model. A good habit for Reinforcement Learning is to start with simple environments.

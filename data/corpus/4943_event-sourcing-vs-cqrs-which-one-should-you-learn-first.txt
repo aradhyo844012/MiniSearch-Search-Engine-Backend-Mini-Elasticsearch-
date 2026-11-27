@@ -1,0 +1,13 @@
+Event Sourcing vs CQRS: Which One Should You Learn First?
+
+Learners often ask whether to study Event Sourcing or CQRS first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them, and it is closely tied to event log and projections. CQRS, by contrast, is a pattern that separates the models used to change data from the models used to read it, and it is closely tied to commands and queries.
+
+Choose Event Sourcing first if you care about audit trails or financial ledgers. Choose CQRS first if you care about high-read dashboards or complex domains.
+
+Think of Event Sourcing as a bank statement that lists every transaction instead of only the balance, and of CQRS as a restaurant with one counter for orders and another for pickup. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event Sourcing, avoid changing event formats carelessly. With CQRS, avoid adding it to simple apps.
+
+A good habit for Event Sourcing is to version your events from the first day. A good habit for CQRS is to start with a single model and split only when reads and writes truly diverge.

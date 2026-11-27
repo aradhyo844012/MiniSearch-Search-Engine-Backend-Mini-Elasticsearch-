@@ -1,0 +1,15 @@
+Combining K-Means Clustering with Data Augmentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how K-Means Clustering and Data Augmentation can work together in a single project.
+
+K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points. Data Augmentation is creating modified copies of training data to help models generalize.
+
+Imagine a project that involves customer segmentation and image models. K-Means Clustering brings centroids, while Data Augmentation brings transformations.
+
+A sensible plan is to start with scikit-learn for the K-Means Clustering part and Albumentations for the Data Augmentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unscaled features on one side, and augmenting the test set on the other.
+
+Picture the whole as dividing students into study groups around the most central member, working alongside practicing a sport in different weather and on different fields.
+
+Two habits help: first, scale features before clustering; second, augment only the training data.

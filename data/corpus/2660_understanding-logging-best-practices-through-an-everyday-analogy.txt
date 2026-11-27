@@ -1,0 +1,9 @@
+Understanding Logging Best Practices Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a ship's logbook that explains what happened and when.
+
+In that picture, log levels is the first rule you follow, structured logs is the next step, and correlation IDs and log rotation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Logging Best Practices is recording useful, structured information about what an application is doing, and it involves details such as logging sensitive data that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for the Python logging module to learn the exact behavior. The same picture helps when you explain debugging production issues to a friend.

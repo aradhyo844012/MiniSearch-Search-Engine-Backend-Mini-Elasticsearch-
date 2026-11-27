@@ -1,0 +1,15 @@
+Form Validation in 10 Minutes
+
+You have ten minutes, so here is the fast route through Form Validation.
+
+Minutes 1 and 2, the definition: Form Validation is checking user input for correctness before it is accepted.
+
+Minutes 3 and 4, the vocabulary: learn client-side checks, server-side checks, error messages, and constraint attributes.
+
+Minutes 5 and 6, the picture: imagine a proofreader checking a form before it is submitted. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through sign-up forms, payment pages, and search filters.
+
+Minutes 9 and 10, the traps and the tools: watch for validating only on the client and vague error messages, then try HTML constraint validation for a first experiment.
+
+If you have a spare minute, remember to validate on the server even when the browser checks too.

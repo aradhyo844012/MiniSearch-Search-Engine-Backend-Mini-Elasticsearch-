@@ -1,0 +1,15 @@
+Combining Event-Driven Architecture with Modular Monoliths in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Event-Driven Architecture and Modular Monoliths can work together in a single project.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them. Modular Monoliths is single deployable applications built from well-separated internal modules.
+
+Imagine a project that involves order pipelines and small teams. Event-Driven Architecture brings producers and consumers, while Modular Monoliths brings module boundaries.
+
+A sensible plan is to start with Apache Kafka for the Event-Driven Architecture part and ArchUnit for the Modular Monoliths part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: duplicate events on one side, and no enforced boundaries on the other.
+
+Picture the whole as a notice board where people post news and others react when they see it, working alongside an apartment building with separate flats under one roof.
+
+Two habits help: first, document every event name and schema; second, enforce boundaries with automated checks.

@@ -1,0 +1,13 @@
+React Hooks vs Web Storage: Which One Should You Learn First?
+
+Learners often ask whether to study React Hooks or Web Storage first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+React Hooks is functions that let components use state and lifecycle features without writing classes, and it is closely tied to useState and useEffect. Web Storage, by contrast, is browser features for keeping small amounts of data on the user's device, and it is closely tied to localStorage and sessionStorage.
+
+Choose React Hooks first if you care about managing form input or fetching data on load. Choose Web Storage first if you care about saving user preferences or remembering form drafts.
+
+Think of React Hooks as sticky notes a component keeps between redraws, and of Web Storage as a sticky note on the fridge that only your household can read. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With React Hooks, avoid missing dependencies in effects. With Web Storage, avoid storing sensitive data.
+
+A good habit for React Hooks is to enable the hooks lint rules from the start. A good habit for Web Storage is to wrap every read and write in error handling.

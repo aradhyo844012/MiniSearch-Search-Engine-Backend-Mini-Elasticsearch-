@@ -1,0 +1,12 @@
+Java Streams Glossary for Beginners
+
+New words can make Java Streams feel harder than it is. This glossary keeps the key ones in one place.
+
+Java Streams: a way of processing collections with chains of declarative operations.
+map: a core term, most visible in transforming lists.
+filter: a core term that beginners often confuse with reduce.
+reduce: a core term that connects to lazy evaluation.
+lazy evaluation: a core term worth revisiting after you try a real example.
+OpenJDK: a tool commonly used for aggregating records.
+
+Come back to this Java Streams list whenever documentation for IntelliJ IDEA uses a word you do not recognize.

@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Graph Databases: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Graph Databases first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Graph Databases, by contrast, is databases that store data as nodes and relationships and query connections directly, and it is closely tied to nodes and edges.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Graph Databases first if you care about social networks or recommendation engines.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Graph Databases as a city map where intersections are records and roads are relationships. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Graph Databases, avoid using them for simple tabular data.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Graph Databases is to limit traversal depth in every exploratory query.

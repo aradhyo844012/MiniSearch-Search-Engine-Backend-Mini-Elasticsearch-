@@ -1,0 +1,15 @@
+Combining React Native with Flutter in One Project
+
+Real projects rarely use one idea in isolation. This article shows how React Native and Flutter can work together in a single project.
+
+React Native is a framework for building mobile apps for several platforms using JavaScript and React. Flutter is a toolkit for building natively compiled apps from a single Dart codebase.
+
+Imagine a project that involves cross-platform apps and cross-platform mobile apps. React Native brings components, while Flutter brings widgets.
+
+A sensible plan is to start with Expo for the React Native part and Dart for the Flutter part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poorly tuned lists on one side, and poor state organization on the other.
+
+Picture the whole as one script performed by actors on two different stages, working alongside a box of customizable building blocks drawn by its own engine.
+
+Two habits help: first, test on real devices for both platforms; second, split big widgets into small reusable ones.

@@ -1,0 +1,17 @@
+Blue-Green Deployment for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Blue-Green Deployment.
+
+Learning goals:
+1. Explain Blue-Green Deployment in your own words.
+2. Describe blue and green environments, traffic switching, rollback, and database compatibility.
+3. Give examples from zero-downtime releases and quick rollbacks.
+4. Name three problems to watch for.
+
+Start with the definition: Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Then draw swapping to a fully prepared spare stage while the show goes on on paper and label the four terms from the goals above.
+
+Self-test questions: Why is database schema mismatches a problem? How does traffic switching relate to rollback? When would you choose AWS CodeDeploy or Kubernetes services?
+
+Study habit worth keeping: keep the old environment running until the new one is proven.
+
+When you feel ready, compare Blue-Green Deployment with Feature Flags and write down three differences.

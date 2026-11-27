@@ -1,0 +1,17 @@
+Union-Find Do's and Don'ts
+
+A quick list of habits for working with Union-Find.
+
+Do:
+- Learn parent pointers before anything else.
+- Try Python lists on a small example.
+- Make it a habit to implement path compression and union by rank together.
+- Test the case of detecting connected components early.
+
+Don't:
+- Ignore this: forgetting path compression.
+- Ignore this: merging without checking roots.
+- Ignore this: using it when deletions are required.
+- Adopt Union-Find just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Union-Find, a little patience with union operation pays off more than any clever shortcut.

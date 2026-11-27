@@ -1,0 +1,11 @@
+Is Event Sourcing Right for Your Project?
+
+Before adopting Event Sourcing, ask whether it fits the problem. Remember that Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+It is a good fit when your work involves audit trails or financial ledgers, and when your team understands event log.
+
+Be cautious when the project is very small, when deadlines leave no room to learn projections, or when you cannot manage these risks: changing event formats carelessly, unbounded replay times, and using it for simple CRUD apps.
+
+A simple decision test: write down the problem in one sentence, then check whether snapshots and replay are part of the answer. If they are, Event Sourcing is probably worth a closer look.
+
+If you decide to go ahead, start small with rebuilding read models and version your events from the first day.

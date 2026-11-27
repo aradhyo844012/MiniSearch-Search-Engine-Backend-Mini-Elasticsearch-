@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Service Mesh
+
+This path is for a learner who has never studied Service Mesh before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Service Mesh is an infrastructure layer that manages communication between services through proxies) and learn sidecar proxies and mutual TLS.
+
+Stage 2, hands-on: install Istio, follow a tutorial, and build a small example involving securing service traffic.
+
+Stage 3, depth: study traffic policies and observability, then deliberately explore this problem: added latency and complexity.
+
+Stage 4, application: apply Service Mesh to retries and timeouts, compare Linkerd with Envoy, and write up your results.
+
+Stage 5, review: teach Service Mesh to someone else, and then move on to Disaster Recovery.

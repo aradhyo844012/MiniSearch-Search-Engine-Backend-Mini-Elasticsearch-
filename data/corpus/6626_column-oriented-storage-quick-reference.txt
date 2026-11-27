@@ -1,0 +1,15 @@
+Column-Oriented Storage Quick Reference
+
+A one-screen reminder for Column-Oriented Storage. Bookmark it and return when the details fade.
+
+What it is: a way of storing table data by column instead of by row to speed up analytics.
+Key terms: column chunks, compression, vectorized scans, and predicate pushdown.
+Typical uses: analytics dashboards, large aggregations, and data warehouses.
+Risks: slow single-row lookups, many small writes, and wide tables with unused columns.
+Tools: Apache Parquet, ClickHouse, and DuckDB.
+
+Mental picture: a spreadsheet kept as separate lists per column so you can read just one.
+
+Habit to build: select only the columns you really need.
+
+See also: Graph Databases, which sits close to Column-Oriented Storage in the area of Storage Engines and Databases.

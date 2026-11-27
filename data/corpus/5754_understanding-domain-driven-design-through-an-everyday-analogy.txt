@@ -1,0 +1,9 @@
+Understanding Domain-Driven Design Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture writing software in the same vocabulary the business speaks.
+
+In that picture, ubiquitous language is the first rule you follow, bounded contexts is the next step, and aggregates and entities and value objects keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Domain-Driven Design is an approach to software that models the code around the real business domain, and it involves details such as using it for simple CRUD apps that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for event storming to learn the exact behavior. The same picture helps when you explain complex business systems to a friend.

@@ -1,0 +1,11 @@
+Choosing Tools for Embeddings
+
+There is no single best tool for Embeddings. The right choice depends on your project, your team and your timeline.
+
+sentence-transformers is a common first choice, especially for semantic search. FAISS suits teams that already work with similar technology, and Word2Vec is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle recommendations well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: mixing models between indexing and querying.
+
+As a rule of thumb, use the same embedding model for indexing and querying, no matter which tool you use.

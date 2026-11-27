@@ -1,0 +1,13 @@
+Skills to Build Around Topological Sorting
+
+Knowing the definition of Topological Sorting is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with directed acyclic graphs and in-degree counts, and able to explain them without notes.
+
+Hands-on practice: spend real time with Python graphlib on a Topological Sorting task, and try at least one alternative such as NetworkX.
+
+Judgment: learn to decide when Topological Sorting fits a problem such as build systems, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a recipe that must list every step after the steps it depends on.
+
+Habits: check for cycles first so you can report a clear error, and write down what you learn after each project.

@@ -1,0 +1,10 @@
+Rust Ownership: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Rust Ownership with confidence. The subject itself is a set of rules that lets Rust manage memory safely without a garbage collector.
+
+ownership: one of the building blocks of Rust Ownership. It shows up whenever you work on systems programming.
+borrowing: one of the building blocks of Rust Ownership. It shows up whenever you work on systems programming.
+lifetimes: one of the building blocks of Rust Ownership. You should be able to explain it in a single sentence before moving on.
+moves: one of the building blocks of Rust Ownership. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about command line tools. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,13 @@
+Content Security Policy vs Hashing vs Encryption: Which One Should You Learn First?
+
+Learners often ask whether to study Content Security Policy or Hashing vs Encryption first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load, and it is closely tied to directives and nonces. Hashing vs Encryption, by contrast, is the difference between one-way digests and reversible protection of data, and it is closely tied to one-way functions and keys.
+
+Choose Content Security Policy first if you care about reducing the impact of XSS or blocking unwanted scripts. Choose Hashing vs Encryption first if you care about storing passwords or verifying file integrity.
+
+Think of Content Security Policy as a guest list at the door of a building, and of Hashing vs Encryption as a paper shredder compared with a locked suitcase. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Content Security Policy, avoid allowing unsafe-inline. With Hashing vs Encryption, avoid encrypting passwords instead of hashing them.
+
+A good habit for Content Security Policy is to start in report-only mode to learn what would break. A good habit for Hashing vs Encryption is to ask whether you will ever need the original value back.

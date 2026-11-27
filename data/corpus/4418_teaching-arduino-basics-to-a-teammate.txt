@@ -1,0 +1,13 @@
+Teaching Arduino Basics to a Teammate
+
+Explaining Arduino Basics to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a tiny brain that watches inputs and flips switches. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Arduino Basics is a beginner-friendly microcontroller platform for reading sensors and controlling devices. Avoid jargon at this stage.
+
+Walk through an example involving reading sensors, naming sketches and digital and analog pins as they come up.
+
+Ask your teammate to explain setup and loop functions in Arduino Basics back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, wiring errors, and suggest this habit: test each sensor on its own before combining them.

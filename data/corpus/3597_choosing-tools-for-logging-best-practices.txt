@@ -1,0 +1,11 @@
+Choosing Tools for Logging Best Practices
+
+There is no single best tool for Logging Best Practices. The right choice depends on your project, your team and your timeline.
+
+the Python logging module is a common first choice, especially for debugging production issues. the ELK stack suits teams that already work with similar technology, and Grafana Loki is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle auditing actions well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: logging sensitive data.
+
+As a rule of thumb, include a request ID in every log line, no matter which tool you use.

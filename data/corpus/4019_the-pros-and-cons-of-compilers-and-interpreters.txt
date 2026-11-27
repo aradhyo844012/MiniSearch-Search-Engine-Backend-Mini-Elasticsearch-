@@ -1,0 +1,15 @@
+The Pros and Cons of Compilers and Interpreters
+
+No technology is free of trade-offs, and Compilers and Interpreters is no exception. Here is an honest summary.
+
+Advantages:
+- Supports running Python and JavaScript
+- Makes building native programs easier
+- Helps with creating tools like linters
+
+Drawbacks and risks:
+- Risk: assuming interpreted means slow without measuring
+- Risk: ignoring compiler warnings
+- Risk: confusing compile-time and run-time errors
+
+Weigh the two lists against your own project. If the advantages match your needs, such as running Python and JavaScript, and you can manage the risks, Compilers and Interpreters is a sound choice. Whatever you decide, turn on compiler warnings and treat them seriously.

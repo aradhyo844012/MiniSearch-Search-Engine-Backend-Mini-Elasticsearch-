@@ -1,0 +1,13 @@
+Saga Pattern Explained Simply
+
+Here is Saga Pattern without the jargon: it is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+Think of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: local transactions, compensating actions, orchestration, and choreography. You do not need to master them all at once. Start with local transactions, then add compensating actions.
+
+You will meet Saga Pattern in work such as order processing, travel bookings, and payment workflows.
+
+One practical tip is to make every step and its compensation idempotent.
+
+Once Saga Pattern feels comfortable, read about CAP Theorem, which lives in the same neighborhood of ideas.

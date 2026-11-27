@@ -1,0 +1,11 @@
+Backtracking in Real Projects
+
+Reading about Backtracking is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: solving Sudoku. Here, decision tree drives the main design choices, and the team needs to guard against forgetting to undo changes.
+
+Scenario two: generating permutations. This time pruning matters most, and tools such as Python recursion help keep things manageable.
+
+Scenario three: N-Queens puzzles. The key idea is state restoration, and the biggest risk is missing pruning rules.
+
+Across all three scenarios, Backtracking stays the same idea: a search technique that builds solutions step by step and undoes steps that lead to dead ends. Only the details change.

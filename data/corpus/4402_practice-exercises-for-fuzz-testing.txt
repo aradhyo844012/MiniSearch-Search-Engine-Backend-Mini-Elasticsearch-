@@ -1,0 +1,11 @@
+Practice Exercises for Fuzz Testing
+
+These exercises build real understanding of Fuzz Testing. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble testing parsers or finding memory bugs.
+Exercise 2: Explain how crash triage and corpora differ, using a drawing.
+Exercise 3: Compare libFuzzer and Atheris for security research and write down your conclusion.
+Exercise 4: Create a small example that deliberately triggers this problem: running without sanitizers. Then fix it.
+Exercise 5: Pick AFL++ and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Fuzz Testing is feeding programs random or malformed input to uncover crashes and security bugs.

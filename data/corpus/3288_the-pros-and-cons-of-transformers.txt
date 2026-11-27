@@ -1,0 +1,15 @@
+The Pros and Cons of Transformers
+
+No technology is free of trade-offs, and Transformers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports language translation
+- Makes text generation easier
+- Helps with code assistance
+
+Drawbacks and risks:
+- Risk: huge compute requirements
+- Risk: limited context windows
+- Risk: biased training data
+
+Weigh the two lists against your own project. If the advantages match your needs, such as language translation, and you can manage the risks, Transformers is a sound choice. Whatever you decide, begin with small pretrained models.

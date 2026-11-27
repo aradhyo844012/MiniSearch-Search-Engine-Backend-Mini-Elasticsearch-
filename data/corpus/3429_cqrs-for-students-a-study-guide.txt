@@ -1,0 +1,17 @@
+CQRS for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover CQRS.
+
+Learning goals:
+1. Explain CQRS in your own words.
+2. Describe commands, queries, read models, and eventual consistency.
+3. Give examples from high-read dashboards and complex domains.
+4. Name three problems to watch for.
+
+Start with the definition: CQRS is a pattern that separates the models used to change data from the models used to read it. Then draw a restaurant with one counter for orders and another for pickup on paper and label the four terms from the goals above.
+
+Self-test questions: Why is adding it to simple apps a problem? How does queries relate to read models? When would you choose Axon Framework or MediatR?
+
+Study habit worth keeping: start with a single model and split only when reads and writes truly diverge.
+
+When you feel ready, compare CQRS with Vector Clocks and write down three differences.

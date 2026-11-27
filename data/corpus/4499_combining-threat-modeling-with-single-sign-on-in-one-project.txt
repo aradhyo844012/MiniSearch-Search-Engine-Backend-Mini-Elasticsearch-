@@ -1,0 +1,15 @@
+Combining Threat Modeling with Single Sign-On in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Threat Modeling and Single Sign-On can work together in a single project.
+
+Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it. Single Sign-On is letting users log in once and access several applications.
+
+Imagine a project that involves designing new features and company intranets. Threat Modeling brings assets, while Single Sign-On brings identity provider.
+
+A sensible plan is to start with STRIDE for the Threat Modeling part and Okta for the Single Sign-On part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring data flows on one side, and misconfigured redirects on the other.
+
+Picture the whole as walking around a house asking where a burglar might get in, working alongside a festival wristband that opens every gate.
+
+Two habits help: first, draw the data flow diagram first; second, plan for identity provider outages.

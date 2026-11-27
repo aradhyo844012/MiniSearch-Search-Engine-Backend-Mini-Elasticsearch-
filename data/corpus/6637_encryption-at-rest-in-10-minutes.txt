@@ -1,0 +1,15 @@
+Encryption at Rest in 10 Minutes
+
+You have ten minutes, so here is the fast route through Encryption at Rest.
+
+Minutes 1 and 2, the definition: Encryption at Rest is protecting stored data by encrypting it on disk or in a database.
+
+Minutes 3 and 4, the vocabulary: learn symmetric keys, key management, disk encryption, and envelope encryption.
+
+Minutes 5 and 6, the picture: imagine a locked safe inside a locked room. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through protecting backups, meeting compliance rules, and securing laptops.
+
+Minutes 9 and 10, the traps and the tools: watch for storing keys next to the data and no key rotation, then try LUKS for a first experiment.
+
+If you have a spare minute, remember to keep keys in a separate service from the data.

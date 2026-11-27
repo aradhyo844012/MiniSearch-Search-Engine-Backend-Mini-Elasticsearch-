@@ -1,0 +1,11 @@
+Bluetooth Low Energy in Real Projects
+
+Reading about Bluetooth Low Energy is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: fitness trackers. Here, advertising drives the main design choices, and the team needs to guard against ignoring connection limits.
+
+Scenario two: smart locks. This time GATT services matters most, and tools such as nRF Connect help keep things manageable.
+
+Scenario three: proximity beacons. The key idea is characteristics, and the biggest risk is weak pairing security.
+
+Across all three scenarios, Bluetooth Low Energy stays the same idea: a short-range wireless technology designed for very low power use. Only the details change.

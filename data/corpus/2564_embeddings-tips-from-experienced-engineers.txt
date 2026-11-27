@@ -1,0 +1,11 @@
+Embeddings Tips from Experienced Engineers
+
+Engineers who work with Embeddings regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: mixing models between indexing and querying.
+2. Test the case of semantic search early, before the design hardens.
+3. Do not skip vectors; everything else builds on it.
+4. Make sure you can use the same embedding model for indexing and querying.
+5. Write down why you chose Embeddings so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to recommendations as well.

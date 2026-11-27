@@ -1,0 +1,15 @@
+Combining Support Vector Machines with Transformers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Support Vector Machines and Transformers can work together in a single project.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes. Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+Imagine a project that involves text classification and language translation. Support Vector Machines brings margin, while Transformers brings self-attention.
+
+A sensible plan is to start with scikit-learn for the Support Vector Machines part and Hugging Face for the Transformers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor kernel choices on one side, and limited context windows on the other.
+
+Picture the whole as drawing the widest road between two neighborhoods, working alongside a reader who can look back at any word of a paragraph while reading each new word.
+
+Two habits help: first, scale features and try a linear kernel first; second, begin with small pretrained models.

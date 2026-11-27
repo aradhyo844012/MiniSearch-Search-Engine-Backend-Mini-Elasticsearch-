@@ -1,0 +1,26 @@
+Everything You Need to Know About Two Pointers and Sliding Window
+
+This page collects the essentials about Two Pointers and Sliding Window in one place. In short, Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Core concepts:
+- left and right pointers
+- window boundaries
+- invariants
+- shrinking and expanding
+
+Where it is used:
+- finding pairs with a given sum
+- longest substring problems
+- merging sorted arrays
+
+Common problems:
+- moving the wrong pointer
+- forgetting empty inputs
+- breaking the invariant
+
+Tools to know:
+- Python lists
+- collections.deque
+- LeetCode
+
+Remember this above all: a small frame that slides along a line of text is a good way to picture it, and the best habit is to write down the window invariant before coding the loop.

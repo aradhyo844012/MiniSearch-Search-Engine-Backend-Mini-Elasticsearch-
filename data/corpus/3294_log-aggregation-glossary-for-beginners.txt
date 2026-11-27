@@ -1,0 +1,12 @@
+Log Aggregation Glossary for Beginners
+
+New words can make Log Aggregation feel harder than it is. This glossary keeps the key ones in one place.
+
+Log Aggregation: collecting logs from many machines into one searchable place.
+shippers: a core term, most visible in troubleshooting across services.
+indexing: a core term that beginners often confuse with retention.
+retention: a core term that connects to search queries.
+search queries: a core term worth revisiting after you try a real example.
+Elasticsearch: a tool commonly used for security investigations.
+
+Come back to this Log Aggregation list whenever documentation for Fluent Bit uses a word you do not recognize.

@@ -1,0 +1,12 @@
+Questions to Ask About Client-Side Routing in Code Review
+
+Reviewing code that involves Client-Side Routing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is React Router used consistently, or are we mixing approaches?
+- Could we test refreshing the page on every route?
+- Have we avoided this problem: lost scroll position?
+- Have we considered broken deep links?
+- Does the code handle the case of single-page apps correctly?
+- Does this change respect history API, or does it work around it?
+
+Good reviews of work on Client-Side Routing are specific, kind and focused on nested routes, not on personal style.

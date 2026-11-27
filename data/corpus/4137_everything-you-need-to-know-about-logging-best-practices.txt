@@ -1,0 +1,26 @@
+Everything You Need to Know About Logging Best Practices
+
+This page collects the essentials about Logging Best Practices in one place. In short, Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Core concepts:
+- log levels
+- structured logs
+- correlation IDs
+- log rotation
+
+Where it is used:
+- debugging production issues
+- auditing actions
+- measuring usage
+
+Common problems:
+- logging sensitive data
+- too much noise
+- missing context
+
+Tools to know:
+- the Python logging module
+- the ELK stack
+- Grafana Loki
+
+Remember this above all: a ship's logbook that explains what happened and when is a good way to picture it, and the best habit is to include a request ID in every log line.

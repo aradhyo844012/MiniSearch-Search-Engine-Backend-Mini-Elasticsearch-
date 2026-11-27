@@ -1,0 +1,13 @@
+Union-Find Explained Simply
+
+If Union-Find sounds intimidating, relax. It is a data structure that tracks which items belong to the same group and merges groups quickly, and the idea is simpler than the name suggests.
+
+Think of Union-Find as a set of club rosters where two clubs can merge into one. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: parent pointers, union operation, find operation, and path compression. You do not need to master them all at once. Start with parent pointers, then add union operation.
+
+You will meet Union-Find in work such as detecting connected components, building minimum spanning trees, and grouping equivalent items.
+
+One practical tip is to implement path compression and union by rank together.
+
+Once Union-Find feels comfortable, read about Skip Lists, which lives in the same neighborhood of ideas.

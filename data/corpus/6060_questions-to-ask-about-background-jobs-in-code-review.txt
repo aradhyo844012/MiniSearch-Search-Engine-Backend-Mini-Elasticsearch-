@@ -1,0 +1,12 @@
+Questions to Ask About Background Jobs in Code Review
+
+Reviewing code that involves Background Jobs is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect queues, or does it work around it?
+- Is Celery used consistently, or are we mixing approaches?
+- Could we give every job a timeout and a retry limit?
+- Is workers clear to someone reading the code for the first time?
+- Would a test catch unbounded retries if it appeared later?
+- Does the code handle the case of sending emails correctly?
+
+Good reviews of work on Background Jobs are specific, kind and focused on retries, not on personal style.

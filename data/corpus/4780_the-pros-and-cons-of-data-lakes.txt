@@ -1,0 +1,15 @@
+The Pros and Cons of Data Lakes
+
+No technology is free of trade-offs, and Data Lakes is no exception. Here is an honest summary.
+
+Advantages:
+- Supports storing logs and events
+- Makes machine learning datasets easier
+- Helps with analytics across many sources
+
+Drawbacks and risks:
+- Risk: turning into a data swamp
+- Risk: no catalog or ownership
+- Risk: poor access controls
+
+Weigh the two lists against your own project. If the advantages match your needs, such as storing logs and events, and you can manage the risks, Data Lakes is a sound choice. Whatever you decide, register every dataset in a catalog with an owner.

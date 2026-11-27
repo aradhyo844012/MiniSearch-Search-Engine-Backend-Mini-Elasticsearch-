@@ -1,0 +1,15 @@
+The Pros and Cons of Jupyter Notebooks
+
+No technology is free of trade-offs, and Jupyter Notebooks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports exploring data
+- Makes teaching and demos easier
+- Helps with sharing analysis
+
+Drawbacks and risks:
+- Risk: running cells out of order
+- Risk: hidden state
+- Risk: committing outputs that contain secrets
+
+Weigh the two lists against your own project. If the advantages match your needs, such as exploring data, and you can manage the risks, Jupyter Notebooks is a sound choice. Whatever you decide, restart the kernel and run all cells before sharing.

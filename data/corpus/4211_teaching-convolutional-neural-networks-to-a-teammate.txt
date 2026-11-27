@@ -1,0 +1,13 @@
+Teaching Convolutional Neural Networks to a Teammate
+
+Explaining Convolutional Neural Networks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a magnifying glass sweeping across a photo looking for edges and shapes. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns. Avoid jargon at this stage.
+
+Walk through an example involving image classification, naming filters and pooling as they come up.
+
+Ask your teammate to explain feature maps in Convolutional Neural Networks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, too little training data, and suggest this habit: start from a pretrained model.

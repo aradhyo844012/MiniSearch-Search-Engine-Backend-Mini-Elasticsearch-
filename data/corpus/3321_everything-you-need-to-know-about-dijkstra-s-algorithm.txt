@@ -1,0 +1,26 @@
+Everything You Need to Know About Dijkstra's Algorithm
+
+This page collects the essentials about Dijkstra's Algorithm in one place. In short, Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+Core concepts:
+- priority queue
+- distance table
+- edge relaxation
+- visited set
+
+Where it is used:
+- route planning
+- network routing
+- game pathfinding
+
+Common problems:
+- using it with negative edge weights
+- skipping the priority queue and getting slow code
+- not stopping early when only one target is needed
+
+Tools to know:
+- Python heapq
+- NetworkX
+- OSRM
+
+Remember this above all: a GPS that keeps expanding to the nearest unvisited intersection is a good way to picture it, and the best habit is to stop as soon as the destination is popped from the queue.

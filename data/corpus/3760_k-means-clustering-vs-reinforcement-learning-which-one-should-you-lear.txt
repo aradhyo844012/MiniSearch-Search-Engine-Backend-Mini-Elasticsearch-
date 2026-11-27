@@ -1,0 +1,13 @@
+K-Means Clustering vs Reinforcement Learning: Which One Should You Learn First?
+
+Learners often ask whether to study K-Means Clustering or Reinforcement Learning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points, and it is closely tied to centroids and distance measures. Reinforcement Learning, by contrast, is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment.
+
+Choose K-Means Clustering first if you care about customer segmentation or image compression. Choose Reinforcement Learning first if you care about game playing or robot control.
+
+Think of K-Means Clustering as dividing students into study groups around the most central member, and of Reinforcement Learning as training a dog with treats for good behavior. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With K-Means Clustering, avoid choosing k blindly. With Reinforcement Learning, avoid badly designed rewards.
+
+A good habit for K-Means Clustering is to scale features before clustering. A good habit for Reinforcement Learning is to start with simple environments.

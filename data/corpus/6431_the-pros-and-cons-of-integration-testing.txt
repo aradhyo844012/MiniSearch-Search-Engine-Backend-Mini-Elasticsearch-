@@ -1,0 +1,15 @@
+The Pros and Cons of Integration Testing
+
+No technology is free of trade-offs, and Integration Testing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports verifying API and database interaction
+- Makes catching contract mismatches easier
+- Helps with testing third-party integrations
+
+Drawbacks and risks:
+- Risk: slow suites
+- Risk: flaky external dependencies
+- Risk: unclear failures
+
+Weigh the two lists against your own project. If the advantages match your needs, such as verifying API and database interaction, and you can manage the risks, Integration Testing is a sound choice. Whatever you decide, use disposable containers for test dependencies.

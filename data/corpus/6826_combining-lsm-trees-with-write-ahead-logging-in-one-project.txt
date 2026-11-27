@@ -1,0 +1,15 @@
+Combining LSM Trees with Write-Ahead Logging in One Project
+
+Real projects rarely use one idea in isolation. This article shows how LSM Trees and Write-Ahead Logging can work together in a single project.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.
+
+Imagine a project that involves write-heavy databases and surviving crashes. LSM Trees brings memtable, while Write-Ahead Logging brings log records.
+
+A sensible plan is to start with RocksDB for the LSM Trees part and PostgreSQL WAL for the Write-Ahead Logging part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: compaction stalls on one side, and log files filling the disk on the other.
+
+Picture the whole as a mail room that sorts incoming letters in batches rather than one by one, working alongside writing a plan in a notebook before changing the real blueprint.
+
+Two habits help: first, watch compaction metrics before blaming the application; second, test crash recovery by killing the process on purpose.

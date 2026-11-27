@@ -1,0 +1,11 @@
+Is Load Testing Right for Your Project?
+
+Before adopting Load Testing, ask whether it fits the problem. Remember that Load Testing is measuring how a system behaves under expected and heavy traffic.
+
+It is a good fit when your work involves capacity planning or finding bottlenecks, and when your team understands virtual users.
+
+Be cautious when the project is very small, when deadlines leave no room to learn throughput, or when you cannot manage these risks: testing unrealistic traffic, ignoring warm-up, and using average latency only.
+
+A simple decision test: write down the problem in one sentence, then check whether latency percentiles and ramp-up are part of the answer. If they are, Load Testing is probably worth a closer look.
+
+If you decide to go ahead, start small with validating autoscaling and report p95 and p99 latency, not only averages.

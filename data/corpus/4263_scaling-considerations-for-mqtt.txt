@@ -1,0 +1,11 @@
+Scaling Considerations for MQTT
+
+A design that works for a classroom project can behave very differently under real load. Here is how MQTT changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding publish and subscribe and getting sensor networks right.
+
+Medium scale: problems start to appear. Watch for unsecured brokers and messy topic names, and measure with Mosquitto before changing anything.
+
+Large scale: brokers and quality of service levels move from background details to central design questions. Teams often revisit their choices around smart home devices at this stage.
+
+Before you scale, design topic names like a clear folder structure. It is cheaper to build that habit early than to fix a crisis later.

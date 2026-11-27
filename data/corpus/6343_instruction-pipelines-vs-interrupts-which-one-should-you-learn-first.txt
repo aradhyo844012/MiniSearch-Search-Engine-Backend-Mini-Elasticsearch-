@@ -1,0 +1,13 @@
+Instruction Pipelines vs Interrupts: Which One Should You Learn First?
+
+Learners often ask whether to study Instruction Pipelines or Interrupts first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Instruction Pipelines is a technique where a processor overlaps the stages of several instructions, and it is closely tied to fetch, decode and execute stages and hazards. Interrupts, by contrast, is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors.
+
+Choose Instruction Pipelines first if you care about explaining CPU speed or understanding branch costs. Choose Interrupts first if you care about keyboard and mouse input or timers.
+
+Think of Instruction Pipelines as an assembly line where several cars are in different stages at once, and of Interrupts as a phone call interrupting your reading. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Instruction Pipelines, avoid unpredictable branches. With Interrupts, avoid long handlers.
+
+A good habit for Instruction Pipelines is to avoid unpredictable branches in hot loops. A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work.

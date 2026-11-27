@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with B-Trees on Disk
+
+This is a fictional but realistic day for a developer whose project relies on B-Trees on Disk.
+
+Morning: Meera starts by reviewing a ticket about database indexes. Before touching any code, Meera re-reads the notes on pages to make sure the plan is sound.
+
+Midday: Meera pairs with a teammate to explore branching factor with PostgreSQL. A small test exposes the problem of random writes on fragmented pages, and they fix it together.
+
+Afternoon: the team discusses a new request involving file system directories. Meera sketches a filing cabinet where each drawer tells you which drawer to open next on the whiteboard to help everyone follow the idea.
+
+End of day: Meera writes a short note describing what changed and adds a reminder to keep indexed keys short so more of them fit on a page.
+
+Days like this are typical. B-Trees on Disk is not glamorous, but understanding it keeps small problems from growing.

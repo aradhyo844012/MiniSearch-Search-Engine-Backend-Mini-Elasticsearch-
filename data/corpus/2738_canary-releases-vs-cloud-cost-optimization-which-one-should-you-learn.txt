@@ -1,0 +1,13 @@
+Canary Releases vs Cloud Cost Optimization: Which One Should You Learn First?
+
+Learners often ask whether to study Canary Releases or Cloud Cost Optimization first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it is closely tied to traffic percentages and health metrics. Cloud Cost Optimization, by contrast, is the practice of reducing cloud spending while keeping performance and reliability, and it is closely tied to right-sizing and reserved capacity.
+
+Choose Canary Releases first if you care about safer releases or testing with real traffic. Choose Cloud Cost Optimization first if you care about cutting idle resources or budgeting by team.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads, and of Cloud Cost Optimization as turning off the lights in rooms nobody is using. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Canary Releases, avoid too little traffic to reveal problems. With Cloud Cost Optimization, avoid forgotten test environments.
+
+A good habit for Canary Releases is to define rollback conditions before starting the rollout. A good habit for Cloud Cost Optimization is to tag every resource with an owner.

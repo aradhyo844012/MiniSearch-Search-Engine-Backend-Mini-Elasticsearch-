@@ -1,0 +1,26 @@
+Everything You Need to Know About CPU Caches
+
+This page collects the essentials about CPU Caches in one place. In short, CPU Caches is small, fast memory close to the processor that stores recently used data.
+
+Core concepts:
+- cache lines
+- hit and miss rates
+- levels L1 to L3
+- locality
+
+Where it is used:
+- speeding up loops
+- explaining performance differences
+- designing data layouts
+
+Common problems:
+- false sharing
+- poor access patterns
+- assuming memory is uniformly fast
+
+Tools to know:
+- perf
+- Valgrind cachegrind
+- Intel VTune
+
+Remember this above all: keeping your most-used books on your desk instead of in the library is a good way to picture it, and the best habit is to access arrays in the order they are stored.

@@ -1,0 +1,15 @@
+Combining Consistent Hashing with Event Sourcing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Consistent Hashing and Event Sourcing can work together in a single project.
+
+Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys. Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+Imagine a project that involves distributed caches and audit trails. Consistent Hashing brings hash ring, while Event Sourcing brings event log.
+
+A sensible plan is to start with Redis Cluster for the Consistent Hashing part and Apache Kafka for the Event Sourcing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: uneven load on one side, and unbounded replay times on the other.
+
+Picture the whole as seats around a round table where a new guest only displaces their neighbor, working alongside a bank statement that lists every transaction instead of only the balance.
+
+Two habits help: first, use many virtual nodes per server to even out the load; second, version your events from the first day.

@@ -1,0 +1,10 @@
+Feature Stores: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Feature Stores with confidence. The subject itself is systems that store and serve the input variables used by machine learning models.
+
+offline store: one of the building blocks of Feature Stores. It shows up whenever you work on sharing features across models.
+online store: one of the building blocks of Feature Stores. Mixing it up with neighboring terms is a common source of confusion.
+point-in-time correctness: one of the building blocks of Feature Stores. You should be able to explain it in a single sentence before moving on.
+feature definitions: one of the building blocks of Feature Stores. Documentation for Feast usually mentions it early.
+
+Practice using these four terms in sentences about serving real-time predictions. If the sentences feel natural, the vocabulary has stuck.

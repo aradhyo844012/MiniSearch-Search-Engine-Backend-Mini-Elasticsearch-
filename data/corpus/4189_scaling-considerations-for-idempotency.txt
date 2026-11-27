@@ -1,0 +1,11 @@
+Scaling Considerations for Idempotency
+
+A design that works for a classroom project can behave very differently under real load. Here is how Idempotency changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding idempotency keys and getting payment APIs right.
+
+Medium scale: problems start to appear. Watch for keys that expire too soon and side effects outside the guarded step, and measure with Stripe idempotency keys before changing anything.
+
+Large scale: deduplication and at-least-once delivery move from background details to central design questions. Teams often revisit their choices around message processing at this stage.
+
+Before you scale, store the result with the key so retries return the same response. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Scaling Considerations for State Management
+
+A design that works for a classroom project can behave very differently under real load. Here is how State Management changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding single source of truth and getting large single-page apps right.
+
+Medium scale: problems start to appear. Watch for putting everything in global state and duplicated state that drifts apart, and measure with Redux before changing anything.
+
+Large scale: reducers and derived state move from background details to central design questions. Teams often revisit their choices around shared shopping carts at this stage.
+
+Before you scale, keep state as close as possible to where it is used. It is cheaper to build that habit early than to fix a crisis later.

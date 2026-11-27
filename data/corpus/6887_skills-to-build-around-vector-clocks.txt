@@ -1,0 +1,13 @@
+Skills to Build Around Vector Clocks
+
+Knowing the definition of Vector Clocks is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with logical time and per-process counters, and able to explain them without notes.
+
+Hands-on practice: spend real time with Riak on a Vector Clocks task, and try at least one alternative such as the Amazon Dynamo paper.
+
+Judgment: learn to decide when Vector Clocks fits a problem such as detecting concurrent edits, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example each person in a group chat keeping a tally of messages seen from everyone.
+
+Habits: compare clocks entry by entry to detect true concurrency, and write down what you learn after each project.

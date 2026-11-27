@@ -1,0 +1,11 @@
+Scaling Considerations for Object-Relational Mappers
+
+A design that works for a classroom project can behave very differently under real load. Here is how Object-Relational Mappers changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding models and getting building CRUD apps quickly right.
+
+Medium scale: problems start to appear. Watch for N+1 queries and loading entire tables, and measure with SQLAlchemy before changing anything.
+
+Large scale: relationships and migrations move from background details to central design questions. Teams often revisit their choices around switching databases at this stage.
+
+Before you scale, log the generated SQL during development. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+Hexagonal Architecture vs API Design Principles: Which One Should You Learn First?
+
+Learners often ask whether to study Hexagonal Architecture or API Design Principles first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters, and it is closely tied to ports and adapters. API Design Principles, by contrast, is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors.
+
+Choose Hexagonal Architecture first if you care about testable business logic or swapping databases. Choose API Design Principles first if you care about public platforms or internal service contracts.
+
+Think of Hexagonal Architecture as a power strip that lets any plug connect to the same core, and of API Design Principles as the controls of a car that behave the same in every model. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hexagonal Architecture, avoid too many layers for small apps. With API Design Principles, avoid leaking internal details.
+
+A good habit for Hexagonal Architecture is to keep framework imports out of the core domain. A good habit for API Design Principles is to write the documentation before the implementation.

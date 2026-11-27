@@ -1,0 +1,17 @@
+API Versioning Do's and Don'ts
+
+A quick list of habits for working with API Versioning.
+
+Do:
+- Learn version in the URL before anything else.
+- Try OpenAPI on a small example.
+- Make it a habit to announce deprecations with a clear sunset date.
+- Test the case of public APIs early.
+
+Don't:
+- Ignore this: versioning too often.
+- Ignore this: removing fields without notice.
+- Ignore this: having no deprecation schedule.
+- Adopt API Versioning just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with API Versioning, a little patience with header versioning pays off more than any clever shortcut.

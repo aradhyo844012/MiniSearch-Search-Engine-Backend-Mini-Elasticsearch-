@@ -1,0 +1,11 @@
+Mistakes to Avoid with Embedded Systems
+
+Everyone learns Embedded Systems partly through mistakes. Here are three worth avoiding.
+
+Mistake one: memory leaks on tiny devices. It usually appears when someone skips microcontrollers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: no plan for updates. It tends to be noticed late, often during testing of appliances. A short checklist during review catches it early.
+
+Mistake three: ignoring power use. It is easy to miss because everything seems to work at first. Keep an eye on memory limits to spot it.
+
+If you remember only one rule, make it this: plan how firmware updates will be delivered from the start.

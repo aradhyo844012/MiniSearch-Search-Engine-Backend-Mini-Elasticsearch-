@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Python Decorators
+
+This path is for a learner who has never studied Python Decorators before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Python Decorators is functions that wrap other functions to add behavior without changing their code) and learn higher-order functions and wrapper functions.
+
+Stage 2, hands-on: install functools, follow a tutorial, and build a small example involving logging calls.
+
+Stage 3, depth: study functools.wraps and decorator arguments, then deliberately explore this problem: losing function metadata.
+
+Stage 4, application: apply Python Decorators to caching results, compare Flask routes with pytest fixtures, and write up your results.
+
+Stage 5, review: teach Python Decorators to someone else, and then move on to TypeScript Generics.

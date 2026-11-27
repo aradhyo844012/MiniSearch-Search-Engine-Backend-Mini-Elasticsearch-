@@ -1,0 +1,15 @@
+The Pros and Cons of Background Jobs
+
+No technology is free of trade-offs, and Background Jobs is no exception. Here is an honest summary.
+
+Advantages:
+- Supports sending emails
+- Makes resizing images easier
+- Helps with generating reports
+
+Drawbacks and risks:
+- Risk: jobs that are not idempotent
+- Risk: unbounded retries
+- Risk: losing jobs on restarts
+
+Weigh the two lists against your own project. If the advantages match your needs, such as sending emails, and you can manage the risks, Background Jobs is a sound choice. Whatever you decide, give every job a timeout and a retry limit.

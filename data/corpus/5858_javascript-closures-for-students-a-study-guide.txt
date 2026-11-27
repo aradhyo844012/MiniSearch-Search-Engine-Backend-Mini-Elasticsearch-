@@ -1,0 +1,17 @@
+JavaScript Closures for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover JavaScript Closures.
+
+Learning goals:
+1. Explain JavaScript Closures in your own words.
+2. Describe lexical scope, captured variables, function factories, and memory retention.
+3. Give examples from keeping private state in modules and event handlers that need context.
+4. Name three problems to watch for.
+
+Start with the definition: JavaScript Closures is functions that remember the variables from the place where they were created. Then draw a backpack a function carries with everything it needs from home on paper and label the four terms from the goals above.
+
+Self-test questions: Why is loop variables captured by mistake a problem? How does captured variables relate to function factories? When would you choose Chrome DevTools or Node.js?
+
+Study habit worth keeping: use let instead of var inside loops.
+
+When you feel ready, compare JavaScript Closures with Python Asyncio and write down three differences.

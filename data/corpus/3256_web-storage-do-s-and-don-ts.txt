@@ -1,0 +1,17 @@
+Web Storage Do's and Don'ts
+
+A quick list of habits for working with Web Storage.
+
+Do:
+- Learn localStorage before anything else.
+- Try browser DevTools on a small example.
+- Make it a habit to wrap every read and write in error handling.
+- Test the case of saving user preferences early.
+
+Don't:
+- Ignore this: storing sensitive data.
+- Ignore this: assuming storage is always available.
+- Ignore this: hitting size limits.
+- Adopt Web Storage just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Web Storage, a little patience with sessionStorage pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Scaling Considerations for Apache Spark
+
+A design that works for a classroom project can behave very differently under real load. Here is how Apache Spark changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding DataFrames and getting large ETL jobs right.
+
+Medium scale: problems start to appear. Watch for data skew and too many small partitions, and measure with PySpark before changing anything.
+
+Large scale: partitions and lazy execution move from background details to central design questions. Teams often revisit their choices around machine learning on big data at this stage.
+
+Before you scale, avoid collecting large results onto a single machine. It is cheaper to build that habit early than to fix a crisis later.

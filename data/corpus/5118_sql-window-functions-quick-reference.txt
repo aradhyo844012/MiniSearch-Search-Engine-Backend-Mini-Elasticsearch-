@@ -1,0 +1,15 @@
+SQL Window Functions Quick Reference
+
+A one-screen reminder for SQL Window Functions. Bookmark it and return when the details fade.
+
+What it is: SQL features that calculate values across related rows without collapsing them.
+Key terms: the OVER clause, partitions, ordering, and frames.
+Typical uses: running totals, ranking rows, and comparing a row with the previous one.
+Risks: forgetting ORDER BY inside the window, confusing them with GROUP BY, and slow sorts on huge partitions.
+Tools: PostgreSQL, SQLite, and BigQuery.
+
+Mental picture: looking at the neighbors in a line without leaving your place.
+
+Habit to build: start with ROW_NUMBER and LAG on a small table.
+
+See also: Data Anonymization, which sits close to SQL Window Functions in the area of Data and Analytics.

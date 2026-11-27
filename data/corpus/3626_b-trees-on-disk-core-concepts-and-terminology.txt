@@ -1,0 +1,10 @@
+B-Trees on Disk: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about B-Trees on Disk with confidence. The subject itself is balanced tree structures designed to read large blocks from disk efficiently.
+
+pages: one of the building blocks of B-Trees on Disk. Mixing it up with neighboring terms is a common source of confusion.
+branching factor: one of the building blocks of B-Trees on Disk. It shows up whenever you work on database indexes.
+node splits: one of the building blocks of B-Trees on Disk. It shows up whenever you work on database indexes.
+sorted keys: one of the building blocks of B-Trees on Disk. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about file system directories. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Connection Pooling
+
+This path is for a learner who has never studied Connection Pooling before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request) and learn pool size and idle connections.
+
+Stage 2, hands-on: install PgBouncer, follow a tutorial, and build a small example involving web backends.
+
+Stage 3, depth: study timeouts and connection leaks, then deliberately explore this problem: pools larger than the database allows.
+
+Stage 4, application: apply Connection Pooling to serverless functions that call databases, compare HikariCP with SQLAlchemy pools, and write up your results.
+
+Stage 5, review: teach Connection Pooling to someone else, and then move on to Database Backups and Recovery.

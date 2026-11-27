@@ -1,0 +1,11 @@
+Is Time-Series Databases Right for Your Project?
+
+Before adopting Time-Series Databases, ask whether it fits the problem. Remember that Time-Series Databases is databases optimized for storing and querying data points ordered by time.
+
+It is a good fit when your work involves server metrics or sensor readings, and when your team understands timestamps.
+
+Be cautious when the project is very small, when deadlines leave no room to learn retention policies, or when you cannot manage these risks: high-cardinality tags, keeping raw data forever, and querying without time bounds.
+
+A simple decision test: write down the problem in one sentence, then check whether downsampling and tags and fields are part of the answer. If they are, Time-Series Databases is probably worth a closer look.
+
+If you decide to go ahead, start small with financial tick data and include a time range in every query.

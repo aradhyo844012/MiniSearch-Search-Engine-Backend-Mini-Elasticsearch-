@@ -1,0 +1,15 @@
+Combining Offline-First Apps with Bluetooth Low Energy in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Offline-First Apps and Bluetooth Low Energy can work together in a single project.
+
+Offline-First Apps is apps designed to work without a network and sync when a connection returns. Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+Imagine a project that involves field service tools and fitness trackers. Offline-First Apps brings local storage, while Bluetooth Low Energy brings advertising.
+
+A sensible plan is to start with SQLite for the Offline-First Apps part and nRF Connect for the Bluetooth Low Energy part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded local data on one side, and weak pairing security on the other.
+
+Picture the whole as writing in a notebook and mailing the pages later, working alongside a whisper between two nearby devices that barely uses any energy.
+
+Two habits help: first, show users which changes have not synced yet; second, test with several phone models.

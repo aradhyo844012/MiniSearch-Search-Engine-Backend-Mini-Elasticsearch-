@@ -1,0 +1,12 @@
+Questions to Ask About Load Testing in Code Review
+
+Reviewing code that involves Load Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered testing unrealistic traffic?
+- Does the code handle the case of capacity planning correctly?
+- Would a test catch ignoring warm-up if it appeared later?
+- Have we avoided this problem: using average latency only?
+- Is k6 used consistently, or are we mixing approaches?
+- Is throughput clear to someone reading the code for the first time?
+
+Good reviews of work on Load Testing are specific, kind and focused on latency percentiles, not on personal style.

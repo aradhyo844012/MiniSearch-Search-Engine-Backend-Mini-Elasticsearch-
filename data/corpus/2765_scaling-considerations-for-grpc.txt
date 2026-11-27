@@ -1,0 +1,11 @@
+Scaling Considerations for gRPC
+
+A design that works for a classroom project can behave very differently under real load. Here is how gRPC changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding protocol buffers and getting service-to-service calls right.
+
+Medium scale: problems start to appear. Watch for breaking changes in message fields and poor browser support without a proxy, and measure with protoc before changing anything.
+
+Large scale: streaming and HTTP/2 move from background details to central design questions. Teams often revisit their choices around low-latency APIs at this stage.
+
+Before you scale, never reuse or renumber field numbers in a proto file. It is cheaper to build that habit early than to fix a crisis later.

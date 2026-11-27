@@ -1,0 +1,13 @@
+Endianness Explained Simply
+
+Here is Endianness without the jargon: it is the order in which a computer stores the bytes of a multi-byte number.
+
+Think of Endianness as writing a date as day-month-year or as year-month-day. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: big-endian, little-endian, byte order marks, and network byte order. You do not need to master them all at once. Start with big-endian, then add little-endian.
+
+You will meet Endianness in work such as network protocols, binary file formats, and cross-platform data exchange.
+
+One practical tip is to always specify byte order in file and protocol formats.
+
+Once Endianness feels comfortable, read about Memory Hierarchy, which lives in the same neighborhood of ideas.

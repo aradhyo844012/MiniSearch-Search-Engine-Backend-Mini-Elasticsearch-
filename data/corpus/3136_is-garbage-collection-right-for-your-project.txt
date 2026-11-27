@@ -1,0 +1,11 @@
+Is Garbage Collection Right for Your Project?
+
+Before adopting Garbage Collection, ask whether it fits the problem. Remember that Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.
+
+It is a good fit when your work involves managed languages like Java and Python or reducing memory bugs, and when your team understands reachability.
+
+Be cautious when the project is very small, when deadlines leave no room to learn generations, or when you cannot manage these risks: creating huge numbers of short-lived objects, holding references longer than needed, and ignoring pause times in latency-sensitive code.
+
+A simple decision test: write down the problem in one sentence, then check whether mark and sweep and pause times are part of the answer. If they are, Garbage Collection is probably worth a closer look.
+
+If you decide to go ahead, start small with long-running services and measure allocation rates before tuning collector settings.

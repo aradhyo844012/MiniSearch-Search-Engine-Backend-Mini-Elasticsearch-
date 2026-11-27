@@ -1,0 +1,11 @@
+Scaling Considerations for Mobile App Security
+
+A design that works for a classroom project can behave very differently under real load. Here is how Mobile App Security changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding secure storage and getting banking apps right.
+
+Medium scale: problems start to appear. Watch for storing tokens in plain text and hard-coded API keys, and measure with OWASP MASVS before changing anything.
+
+Large scale: obfuscation and permissions move from background details to central design questions. Teams often revisit their choices around health apps at this stage.
+
+Before you scale, store secrets in the platform keychain or keystore. It is cheaper to build that habit early than to fix a crisis later.

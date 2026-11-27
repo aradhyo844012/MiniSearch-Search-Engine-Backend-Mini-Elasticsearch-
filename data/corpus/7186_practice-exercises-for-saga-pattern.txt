@@ -1,0 +1,11 @@
+Practice Exercises for Saga Pattern
+
+These exercises build real understanding of Saga Pattern. Do them in order, and write down your answers.
+
+Exercise 1: Pick Temporal and complete its getting-started tutorial.
+Exercise 2: Explain how orchestration and choreography differ, using a drawing.
+Exercise 3: Create a small example that deliberately triggers this problem: missing compensations. Then fix it.
+Exercise 4: Write a short paragraph describing Saga Pattern and include the term local transactions.
+Exercise 5: Compare Camunda and Apache Kafka for payment workflows and write down your conclusion.
+
+When you finish, compare your answers with the definition: Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.

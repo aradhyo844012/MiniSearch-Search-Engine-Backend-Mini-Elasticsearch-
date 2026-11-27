@@ -1,0 +1,11 @@
+Practice Exercises for Distributed Tracing
+
+These exercises build real understanding of Distributed Tracing. Do them in order, and write down your answers.
+
+Exercise 1: Explain how context propagation and sampling differ, using a drawing.
+Exercise 2: Create a small example that deliberately triggers this problem: missing context propagation. Then fix it.
+Exercise 3: Write a short paragraph describing Distributed Tracing and include the term spans.
+Exercise 4: Pick OpenTelemetry and complete its getting-started tutorial.
+Exercise 5: List three situations from your own experience that resemble finding slow services or understanding dependencies.
+
+When you finish, compare your answers with the definition: Distributed Tracing is following a single request as it passes through many services.

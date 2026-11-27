@@ -1,0 +1,17 @@
+End-to-End Testing Do's and Don'ts
+
+A quick list of habits for working with End-to-End Testing.
+
+Do:
+- Learn browser automation before anything else.
+- Try Playwright on a small example.
+- Make it a habit to cover only the most important user journeys.
+- Test the case of checking login and checkout flows early.
+
+Don't:
+- Ignore this: flaky tests.
+- Ignore this: slow runs.
+- Ignore this: brittle selectors.
+- Adopt End-to-End Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with End-to-End Testing, a little patience with user flows pays off more than any clever shortcut.

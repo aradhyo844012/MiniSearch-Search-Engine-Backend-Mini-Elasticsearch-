@@ -1,0 +1,15 @@
+The Pros and Cons of C Pointers
+
+No technology is free of trade-offs, and C Pointers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports dynamic memory allocation
+- Makes passing large data efficiently easier
+- Helps with building linked structures
+
+Drawbacks and risks:
+- Risk: dereferencing null pointers
+- Risk: memory leaks
+- Risk: dangling pointers
+
+Weigh the two lists against your own project. If the advantages match your needs, such as dynamic memory allocation, and you can manage the risks, C Pointers is a sound choice. Whatever you decide, set pointers to NULL after freeing them.

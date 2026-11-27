@@ -1,0 +1,12 @@
+Transformers Glossary for Beginners
+
+New words can make Transformers feel harder than it is. This glossary keeps the key ones in one place.
+
+Transformers: neural network architectures that use attention to relate all parts of an input to each other.
+self-attention: a core term, most visible in language translation.
+positional encoding: a core term that beginners often confuse with encoder and decoder blocks.
+encoder and decoder blocks: a core term that connects to tokens.
+tokens: a core term worth revisiting after you try a real example.
+Hugging Face: a tool commonly used for text generation.
+
+Come back to this Transformers list whenever documentation for PyTorch uses a word you do not recognize.

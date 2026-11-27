@@ -1,0 +1,11 @@
+Choosing Tools for Data Quality Checks
+
+There is no single best tool for Data Quality Checks. The right choice depends on your project, your team and your timeline.
+
+Great Expectations is a common first choice, especially for protecting dashboards. dbt tests suits teams that already work with similar technology, and Deequ is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle validating ingestion well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: alerts nobody reads.
+
+As a rule of thumb, check data as early as it enters the pipeline, no matter which tool you use.

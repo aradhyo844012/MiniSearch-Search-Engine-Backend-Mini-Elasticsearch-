@@ -1,0 +1,11 @@
+Is Test-Driven Development Right for Your Project?
+
+Before adopting Test-Driven Development, ask whether it fits the problem. Remember that Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass.
+
+It is a good fit when your work involves designing small modules or preventing regressions, and when your team understands red, green, refactor.
+
+Be cautious when the project is very small, when deadlines leave no room to learn small steps, or when you cannot manage these risks: writing tests that are too large, skipping the refactor step, and testing implementation details.
+
+A simple decision test: write down the problem in one sentence, then check whether test first and fast feedback are part of the answer. If they are, Test-Driven Development is probably worth a closer look.
+
+If you decide to go ahead, start small with gaining confidence for refactoring and keep each red-green cycle to a few minutes.

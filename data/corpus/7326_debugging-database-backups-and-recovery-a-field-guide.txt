@@ -1,0 +1,13 @@
+Debugging Database Backups and Recovery: A Field Guide
+
+When something goes wrong around Database Backups and Recovery, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: never testing restores, storing backups on the same disk, and keeping credentials inside backup scripts.
+Step 3: revisit full and incremental backups and recovery point objective, since misunderstandings there cause many bugs.
+Step 4: use pg_dump or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Database Backups and Recovery in work such as recovering deleted tables come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, schedule a restore drill on a regular basis. It prevents a surprising number of repeat problems.

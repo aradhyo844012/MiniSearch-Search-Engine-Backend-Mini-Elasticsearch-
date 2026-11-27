@@ -1,0 +1,15 @@
+Endianness in 10 Minutes
+
+You have ten minutes, so here is the fast route through Endianness.
+
+Minutes 1 and 2, the definition: Endianness is the order in which a computer stores the bytes of a multi-byte number.
+
+Minutes 3 and 4, the vocabulary: learn big-endian, little-endian, byte order marks, and network byte order.
+
+Minutes 5 and 6, the picture: imagine writing a date as day-month-year or as year-month-day. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through network protocols, binary file formats, and cross-platform data exchange.
+
+Minutes 9 and 10, the traps and the tools: watch for mixing byte orders and assuming all machines are alike, then try Python struct for a first experiment.
+
+If you have a spare minute, remember to always specify byte order in file and protocol formats.

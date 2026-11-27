@@ -1,0 +1,11 @@
+Where to Go Next After Learning Raft Consensus
+
+You have met the basics of Raft Consensus. Here is how to keep the momentum going.
+
+Go wider: read about Consistent Hashing, which belongs to the same area as Raft Consensus (Distributed Systems) and often appears in the same projects.
+
+Go deeper: choose one of leader election, log replication, terms or majority quorum, and study it until you can explain it to a beginner.
+
+Go practical: build something around distributed locks with etcd, and note every problem you meet, starting with even-sized clusters.
+
+Go social: share what you learned. Explaining Raft Consensus to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

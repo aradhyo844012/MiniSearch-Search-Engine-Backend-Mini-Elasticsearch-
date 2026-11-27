@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Eventual Consistency: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Eventual Consistency first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Eventual Consistency, by contrast, is a guarantee that replicas will agree on the same value if updates stop for long enough, and it is closely tied to replication delay and conflict resolution.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Eventual Consistency first if you care about global social feeds or shopping cart services.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Eventual Consistency as news spreading through a village until everyone has heard it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Eventual Consistency, avoid assuming reads are always fresh.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Eventual Consistency is to decide up front how your app handles stale reads.

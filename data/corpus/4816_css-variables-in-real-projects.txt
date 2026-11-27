@@ -1,0 +1,11 @@
+CSS Variables in Real Projects
+
+Reading about CSS Variables is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: theme switching. Here, custom properties drives the main design choices, and the team needs to guard against missing fallbacks.
+
+Scenario two: design systems. This time the var function matters most, and tools such as browser DevTools help keep things manageable.
+
+Scenario three: spacing scales. The key idea is inheritance, and the biggest risk is overriding at the wrong scope.
+
+Across all three scenarios, CSS Variables stays the same idea: custom properties that store values such as colors and spacing so they can be reused across styles. Only the details change.

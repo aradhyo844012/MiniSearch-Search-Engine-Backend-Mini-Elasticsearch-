@@ -1,0 +1,11 @@
+Is Feature Flags Right for Your Project?
+
+Before adopting Feature Flags, ask whether it fits the problem. Remember that Feature Flags is switches in configuration that turn features on or off without redeploying code.
+
+It is a good fit when your work involves dark launches or A/B tests, and when your team understands flag evaluation.
+
+Be cautious when the project is very small, when deadlines leave no room to learn targeting rules, or when you cannot manage these risks: never removing old flags, flags that depend on each other, and untested flag combinations.
+
+A simple decision test: write down the problem in one sentence, then check whether gradual rollout and flag cleanup are part of the answer. If they are, Feature Flags is probably worth a closer look.
+
+If you decide to go ahead, start small with emergency kill switches and give every flag an owner and a removal date.

@@ -1,0 +1,17 @@
+Backtracking for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Backtracking.
+
+Learning goals:
+1. Explain Backtracking in your own words.
+2. Describe decision tree, pruning, state restoration, and constraint checking.
+3. Give examples from solving Sudoku and generating permutations.
+4. Name three problems to watch for.
+
+Start with the definition: Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends. Then draw walking a maze and returning to the last fork whenever you hit a wall on paper and label the four terms from the goals above.
+
+Self-test questions: Why is forgetting to undo changes a problem? How does pruning relate to state restoration? When would you choose Python recursion or itertools?
+
+Study habit worth keeping: prune as early as possible because the savings multiply.
+
+When you feel ready, compare Backtracking with Dijkstra's Algorithm and write down three differences.

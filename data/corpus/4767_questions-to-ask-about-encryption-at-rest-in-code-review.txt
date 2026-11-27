@@ -1,0 +1,12 @@
+Questions to Ask About Encryption at Rest in Code Review
+
+Reviewing code that involves Encryption at Rest is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is key management clear to someone reading the code for the first time?
+- Does this change respect symmetric keys, or does it work around it?
+- Does the code handle the case of protecting backups correctly?
+- Would a test catch no key rotation if it appeared later?
+- Have we considered storing keys next to the data?
+- Could we keep keys in a separate service from the data?
+
+Good reviews of work on Encryption at Rest are specific, kind and focused on disk encryption, not on personal style.

@@ -1,0 +1,11 @@
+Scaling Considerations for System Design Interviews
+
+A design that works for a classroom project can behave very differently under real load. Here is how System Design Interviews changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding requirements and getting preparing for senior roles right.
+
+Medium scale: problems start to appear. Watch for jumping into solutions before clarifying requirements and ignoring trade-offs, and measure with whiteboard sketches before changing anything.
+
+Large scale: trade-offs and components move from background details to central design questions. Teams often revisit their choices around practicing architectural thinking at this stage.
+
+Before you scale, clarify requirements and scale before drawing boxes. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,17 @@
+gRPC Do's and Don'ts
+
+A quick list of habits for working with gRPC.
+
+Do:
+- Learn protocol buffers before anything else.
+- Try protoc on a small example.
+- Make it a habit to never reuse or renumber field numbers in a proto file.
+- Test the case of service-to-service calls early.
+
+Don't:
+- Ignore this: breaking changes in message fields.
+- Ignore this: poor browser support without a proxy.
+- Ignore this: harder manual debugging.
+- Adopt gRPC just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with gRPC, a little patience with service definitions pays off more than any clever shortcut.

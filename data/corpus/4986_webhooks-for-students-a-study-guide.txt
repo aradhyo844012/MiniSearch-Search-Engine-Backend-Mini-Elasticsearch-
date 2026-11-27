@@ -1,0 +1,17 @@
+Webhooks for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Webhooks.
+
+Learning goals:
+1. Explain Webhooks in your own words.
+2. Describe event payloads, signature verification, retries, and endpoints.
+3. Give examples from payment notifications and CI triggers.
+4. Name three problems to watch for.
+
+Start with the definition: Webhooks is HTTP callbacks that let one service notify another when an event happens. Then draw a doorbell that rings when a delivery arrives instead of you checking the porch on paper and label the four terms from the goals above.
+
+Self-test questions: Why is not verifying signatures a problem? How does signature verification relate to retries? When would you choose ngrok or the Stripe CLI?
+
+Study habit worth keeping: respond quickly and process the event in a background job.
+
+When you feel ready, compare Webhooks with Background Jobs and write down three differences.

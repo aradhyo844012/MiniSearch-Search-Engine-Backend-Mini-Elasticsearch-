@@ -1,0 +1,17 @@
+API Design Principles for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover API Design Principles.
+
+Learning goals:
+1. Explain API Design Principles in your own words.
+2. Describe consistent naming, clear errors, idempotent operations, and documentation.
+3. Give examples from public platforms and internal service contracts.
+4. Name three problems to watch for.
+
+Start with the definition: API Design Principles is guidelines for making APIs consistent, predictable and easy to use. Then draw the controls of a car that behave the same in every model on paper and label the four terms from the goals above.
+
+Self-test questions: Why is leaking internal details a problem? How does clear errors relate to idempotent operations? When would you choose OpenAPI or Postman?
+
+Study habit worth keeping: write the documentation before the implementation.
+
+When you feel ready, compare API Design Principles with Hexagonal Architecture and write down three differences.

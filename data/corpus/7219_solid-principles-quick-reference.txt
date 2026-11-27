@@ -1,0 +1,15 @@
+SOLID Principles Quick Reference
+
+A one-screen reminder for SOLID Principles. Bookmark it and return when the details fade.
+
+What it is: five guidelines for designing object-oriented code that is easy to change.
+Key terms: single responsibility, the open-closed principle, Liskov substitution, and dependency inversion.
+Typical uses: structuring classes, reviewing designs, and reducing coupling.
+Risks: applying them rigidly to tiny scripts, creating too many tiny classes, and confusing interfaces with inheritance.
+Tools: UML diagrams, SonarQube, and IDE refactoring tools.
+
+Mental picture: house rules that keep a shared kitchen tidy.
+
+Habit to build: apply them when a design starts to hurt, not before.
+
+See also: Modular Monoliths, which sits close to SOLID Principles in the area of Software Design.

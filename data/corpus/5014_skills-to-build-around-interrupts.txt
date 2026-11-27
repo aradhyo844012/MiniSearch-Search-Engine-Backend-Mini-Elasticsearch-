@@ -1,0 +1,13 @@
+Skills to Build Around Interrupts
+
+Knowing the definition of Interrupts is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with interrupt handlers and interrupt vectors, and able to explain them without notes.
+
+Hands-on practice: spend real time with Linux /proc/interrupts on a Interrupts task, and try at least one alternative such as logic analyzers.
+
+Judgment: learn to decide when Interrupts fits a problem such as keyboard and mouse input, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a phone call interrupting your reading.
+
+Habits: keep interrupt handlers short and defer the heavy work, and write down what you learn after each project.

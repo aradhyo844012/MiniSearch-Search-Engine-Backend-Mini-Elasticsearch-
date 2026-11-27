@@ -1,0 +1,11 @@
+Why Go Goroutines Matters for Developers
+
+Developers who understand Go Goroutines make better decisions, because Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.
+
+Three situations show why it matters. First, servers handling many connections. Second, parallel data processing. Third, background workers. In each case, a solid grasp of goroutines and channels separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: goroutine leaks, data races, and unbuffered channels causing deadlocks.
+
+You will not need to build everything yourself; the go command, the race detector, and pprof cover most needs.
+
+Connect Go Goroutines with Java Streams to see the bigger picture of Programming Languages.

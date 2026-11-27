@@ -1,0 +1,15 @@
+Combining Raft Consensus with Leader Election in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Raft Consensus and Leader Election can work together in a single project.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations. Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.
+
+Imagine a project that involves configuration stores and database primaries. Raft Consensus brings leader election, while Leader Election brings heartbeats.
+
+A sensible plan is to start with etcd for the Raft Consensus part and ZooKeeper for the Leader Election part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow disks causing elections on one side, and flapping leaders on the other.
+
+Picture the whole as a committee that elects a chair and only records decisions most members confirm, working alongside a classroom picking a monitor when the teacher leaves.
+
+Two habits help: first, use an odd number of nodes; second, tune heartbeat intervals against real network delays.

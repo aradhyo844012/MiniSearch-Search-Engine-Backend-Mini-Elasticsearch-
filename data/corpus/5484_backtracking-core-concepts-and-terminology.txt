@@ -1,0 +1,10 @@
+Backtracking: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Backtracking with confidence. The subject itself is a search technique that builds solutions step by step and undoes steps that lead to dead ends.
+
+decision tree: one of the building blocks of Backtracking. Documentation for Python recursion usually mentions it early.
+pruning: one of the building blocks of Backtracking. Documentation for Python recursion usually mentions it early.
+state restoration: one of the building blocks of Backtracking. Mixing it up with neighboring terms is a common source of confusion.
+constraint checking: one of the building blocks of Backtracking. It shows up whenever you work on solving Sudoku.
+
+Practice using these four terms in sentences about generating permutations. If the sentences feel natural, the vocabulary has stuck.

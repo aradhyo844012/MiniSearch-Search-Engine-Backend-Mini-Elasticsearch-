@@ -1,0 +1,11 @@
+Why gRPC Matters for Developers
+
+Developers who understand gRPC make better decisions, because gRPC is a framework for fast remote procedure calls using typed contracts.
+
+Three situations show why it matters. First, service-to-service calls. Second, low-latency APIs. Third, streaming data. In each case, a solid grasp of protocol buffers and service definitions separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: breaking changes in message fields, poor browser support without a proxy, and harder manual debugging.
+
+You will not need to build everything yourself; protoc, grpcurl, and Envoy cover most needs.
+
+Connect gRPC with Object-Relational Mappers to see the bigger picture of Backend Engineering.

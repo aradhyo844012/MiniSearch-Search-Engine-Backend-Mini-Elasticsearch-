@@ -1,0 +1,13 @@
+Technical Writing vs Debugging Strategies: Which One Should You Learn First?
+
+Learners often ask whether to study Technical Writing or Debugging Strategies first. Both sit in the area of Developer Career and Tools, so the honest answer is that it depends on your goals.
+
+Technical Writing is explaining technical ideas clearly in writing for a chosen audience, and it is closely tied to audience and structure. Debugging Strategies, by contrast, is systematic ways of finding and fixing the cause of unexpected program behavior, and it is closely tied to reproducing the bug and isolating the cause.
+
+Choose Technical Writing first if you care about documentation or blog posts. Choose Debugging Strategies first if you care about fixing production issues or learning unfamiliar code.
+
+Think of Technical Writing as giving directions to a stranger, and of Debugging Strategies as a detective narrowing down suspects. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Technical Writing, avoid assuming too much knowledge. With Debugging Strategies, avoid changing many things at once.
+
+A good habit for Technical Writing is to state the main point in the first two sentences. A good habit for Debugging Strategies is to change one thing at a time and record the result.

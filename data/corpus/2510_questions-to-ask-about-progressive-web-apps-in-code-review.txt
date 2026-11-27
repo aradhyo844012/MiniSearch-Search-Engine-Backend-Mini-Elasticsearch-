@@ -1,0 +1,12 @@
+Questions to Ask About Progressive Web Apps in Code Review
+
+Reviewing code that involves Progressive Web Apps is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch poor offline fallbacks if it appeared later?
+- Is Lighthouse used consistently, or are we mixing approaches?
+- Does the code handle the case of offline-friendly tools correctly?
+- Does this change respect web app manifest, or does it work around it?
+- Could we test the app in airplane mode?
+- Is service worker clear to someone reading the code for the first time?
+
+Good reviews of work on Progressive Web Apps are specific, kind and focused on installability, not on personal style.

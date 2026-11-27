@@ -1,0 +1,12 @@
+Fenwick Trees Glossary for Beginners
+
+New words can make Fenwick Trees feel harder than it is. This glossary keeps the key ones in one place.
+
+Fenwick Trees: a compact structure for prefix sums that supports fast updates.
+binary indexed trees: a core term, most visible in counting inversions.
+lowest set bit: a core term that beginners often confuse with prefix sums.
+prefix sums: a core term that connects to point updates.
+point updates: a core term worth revisiting after you try a real example.
+C++ vectors: a tool commonly used for maintaining running totals.
+
+Come back to this Fenwick Trees list whenever documentation for Python lists uses a word you do not recognize.

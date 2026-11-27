@@ -1,0 +1,12 @@
+Fuzz Testing Glossary for Beginners
+
+New words can make Fuzz Testing feel harder than it is. This glossary keeps the key ones in one place.
+
+Fuzz Testing: feeding programs random or malformed input to uncover crashes and security bugs.
+input generation: a core term, most visible in testing parsers.
+coverage guidance: a core term that beginners often confuse with crash triage.
+crash triage: a core term that connects to corpora.
+corpora: a core term worth revisiting after you try a real example.
+AFL++: a tool commonly used for finding memory bugs.
+
+Come back to this Fuzz Testing list whenever documentation for libFuzzer uses a word you do not recognize.

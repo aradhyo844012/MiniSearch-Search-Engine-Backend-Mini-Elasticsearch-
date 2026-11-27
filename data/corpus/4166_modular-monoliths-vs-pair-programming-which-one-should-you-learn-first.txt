@@ -1,0 +1,13 @@
+Modular Monoliths vs Pair Programming: Which One Should You Learn First?
+
+Learners often ask whether to study Modular Monoliths or Pair Programming first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Modular Monoliths is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces. Pair Programming, by contrast, is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation.
+
+Choose Modular Monoliths first if you care about small teams or early-stage products. Choose Pair Programming first if you care about teaching new teammates or solving hard bugs.
+
+Think of Modular Monoliths as an apartment building with separate flats under one roof, and of Pair Programming as a pilot and co-pilot who check each other's decisions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Modular Monoliths, avoid modules reaching into each other's tables. With Pair Programming, avoid one person dominating.
+
+A good habit for Modular Monoliths is to enforce boundaries with automated checks. A good habit for Pair Programming is to swap roles every twenty to thirty minutes.

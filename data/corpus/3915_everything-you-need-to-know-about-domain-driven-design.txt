@@ -1,0 +1,26 @@
+Everything You Need to Know About Domain-Driven Design
+
+This page collects the essentials about Domain-Driven Design in one place. In short, Domain-Driven Design is an approach to software that models the code around the real business domain.
+
+Core concepts:
+- ubiquitous language
+- bounded contexts
+- aggregates
+- entities and value objects
+
+Where it is used:
+- complex business systems
+- aligning developers with domain experts
+- splitting large systems
+
+Common problems:
+- using it for simple CRUD apps
+- models that never match the business
+- ignoring context boundaries
+
+Tools to know:
+- event storming
+- UML
+- Miro
+
+Remember this above all: writing software in the same vocabulary the business speaks is a good way to picture it, and the best habit is to agree on shared terms with domain experts before drawing classes.

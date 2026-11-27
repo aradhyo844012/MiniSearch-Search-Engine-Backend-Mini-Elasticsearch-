@@ -1,0 +1,10 @@
+Instruction Pipelines: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Instruction Pipelines with confidence. The subject itself is a technique where a processor overlaps the stages of several instructions.
+
+fetch, decode and execute stages: one of the building blocks of Instruction Pipelines. It shows up whenever you work on explaining CPU speed.
+hazards: one of the building blocks of Instruction Pipelines. It shows up whenever you work on explaining CPU speed.
+branch prediction: one of the building blocks of Instruction Pipelines. Documentation for perf usually mentions it early.
+stalls: one of the building blocks of Instruction Pipelines. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about understanding branch costs. If the sentences feel natural, the vocabulary has stuck.

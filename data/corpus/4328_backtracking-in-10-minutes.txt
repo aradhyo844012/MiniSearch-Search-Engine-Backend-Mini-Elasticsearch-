@@ -1,0 +1,15 @@
+Backtracking in 10 Minutes
+
+You have ten minutes, so here is the fast route through Backtracking.
+
+Minutes 1 and 2, the definition: Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends.
+
+Minutes 3 and 4, the vocabulary: learn decision tree, pruning, state restoration, and constraint checking.
+
+Minutes 5 and 6, the picture: imagine walking a maze and returning to the last fork whenever you hit a wall. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through solving Sudoku, generating permutations, and N-Queens puzzles.
+
+Minutes 9 and 10, the traps and the tools: watch for forgetting to undo changes and missing pruning rules, then try Python recursion for a first experiment.
+
+If you have a spare minute, remember to prune as early as possible because the savings multiply.

@@ -1,0 +1,15 @@
+Combining Debugging Strategies with Developer Portfolios in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Debugging Strategies and Developer Portfolios can work together in a single project.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Developer Portfolios is a collection of projects and writing that shows what a developer can build.
+
+Imagine a project that involves fixing production issues and applying for internships. Debugging Strategies brings reproducing the bug, while Developer Portfolios brings projects.
+
+A sensible plan is to start with debuggers for the Debugging Strategies part and GitHub Pages for the Developer Portfolios part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: guessing without evidence on one side, and no explanation of decisions on the other.
+
+Picture the whole as a detective narrowing down suspects, working alongside a shop window displaying your best work.
+
+Two habits help: first, change one thing at a time and record the result; second, feature a few polished projects rather than many half-finished ones.

@@ -1,0 +1,11 @@
+Raft Consensus in Real Projects
+
+Reading about Raft Consensus is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: configuration stores. Here, leader election drives the main design choices, and the team needs to guard against even-sized clusters.
+
+Scenario two: distributed locks. This time log replication matters most, and tools such as etcd help keep things manageable.
+
+Scenario three: replicated state machines. The key idea is terms, and the biggest risk is slow disks causing elections.
+
+Across all three scenarios, Raft Consensus stays the same idea: an algorithm that lets a group of servers agree on a shared log of operations. Only the details change.

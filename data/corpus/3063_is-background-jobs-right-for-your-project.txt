@@ -1,0 +1,11 @@
+Is Background Jobs Right for Your Project?
+
+Before adopting Background Jobs, ask whether it fits the problem. Remember that Background Jobs is tasks that run outside the request cycle so users do not have to wait for them.
+
+It is a good fit when your work involves sending emails or resizing images, and when your team understands queues.
+
+Be cautious when the project is very small, when deadlines leave no room to learn workers, or when you cannot manage these risks: jobs that are not idempotent, unbounded retries, and losing jobs on restarts.
+
+A simple decision test: write down the problem in one sentence, then check whether retries and scheduling are part of the answer. If they are, Background Jobs is probably worth a closer look.
+
+If you decide to go ahead, start small with generating reports and give every job a timeout and a retry limit.

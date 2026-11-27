@@ -1,0 +1,11 @@
+Scaling Considerations for Consistent Hashing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Consistent Hashing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding hash ring and getting distributed caches right.
+
+Medium scale: problems start to appear. Watch for too few virtual nodes and uneven load, and measure with Redis Cluster before changing anything.
+
+Large scale: key placement and rebalancing move from background details to central design questions. Teams often revisit their choices around sharded databases at this stage.
+
+Before you scale, use many virtual nodes per server to even out the load. It is cheaper to build that habit early than to fix a crisis later.

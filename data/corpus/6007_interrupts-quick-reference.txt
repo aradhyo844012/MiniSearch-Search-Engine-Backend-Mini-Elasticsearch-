@@ -1,0 +1,15 @@
+Interrupts Quick Reference
+
+A one-screen reminder for Interrupts. Bookmark it and return when the details fade.
+
+What it is: signals that make a processor pause its work to handle an urgent event.
+Key terms: interrupt handlers, interrupt vectors, priorities, and context saving.
+Typical uses: keyboard and mouse input, timers, and network packets arriving.
+Risks: long handlers, race conditions with shared data, and lost interrupts.
+Tools: Linux /proc/interrupts, logic analyzers, and embedded debuggers.
+
+Mental picture: a phone call interrupting your reading.
+
+Habit to build: keep interrupt handlers short and defer the heavy work.
+
+See also: Instruction Pipelines, which sits close to Interrupts in the area of Computer Systems.

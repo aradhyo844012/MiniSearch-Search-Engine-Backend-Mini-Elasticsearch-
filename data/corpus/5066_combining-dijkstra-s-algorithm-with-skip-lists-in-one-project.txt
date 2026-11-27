@@ -1,0 +1,15 @@
+Combining Dijkstra's Algorithm with Skip Lists in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Dijkstra's Algorithm and Skip Lists can work together in a single project.
+
+Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights. Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+Imagine a project that involves route planning and ordered in-memory indexes. Dijkstra's Algorithm brings priority queue, while Skip Lists brings multiple levels.
+
+A sensible plan is to start with Python heapq for the Dijkstra's Algorithm part and Redis sorted sets for the Skip Lists part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: skipping the priority queue and getting slow code on one side, and memory overhead on the other.
+
+Picture the whole as a GPS that keeps expanding to the nearest unvisited intersection, working alongside an express train line layered over a local train line.
+
+Two habits help: first, stop as soon as the destination is popped from the queue; second, draw several levels by hand to see how a search moves down.

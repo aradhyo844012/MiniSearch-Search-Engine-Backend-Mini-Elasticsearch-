@@ -1,0 +1,11 @@
+Jupyter Notebooks in Real Projects
+
+Reading about Jupyter Notebooks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: exploring data. Here, cells drives the main design choices, and the team needs to guard against running cells out of order.
+
+Scenario two: teaching and demos. This time kernels matters most, and tools such as JupyterLab help keep things manageable.
+
+Scenario three: sharing analysis. The key idea is markdown, and the biggest risk is hidden state.
+
+Across all three scenarios, Jupyter Notebooks stays the same idea: interactive documents that combine code, results and notes. Only the details change.

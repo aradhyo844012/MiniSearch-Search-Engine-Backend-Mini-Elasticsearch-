@@ -1,0 +1,11 @@
+Is Penetration Testing Right for Your Project?
+
+Before adopting Penetration Testing, ask whether it fits the problem. Remember that Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do.
+
+It is a good fit when your work involves pre-launch security checks or compliance audits, and when your team understands scoping.
+
+Be cautious when the project is very small, when deadlines leave no room to learn reconnaissance, or when you cannot manage these risks: testing without written permission, ignoring the findings afterward, and relying only on automated scans.
+
+A simple decision test: write down the problem in one sentence, then check whether exploitation and reporting are part of the answer. If they are, Penetration Testing is probably worth a closer look.
+
+If you decide to go ahead, start small with validating defenses and get written authorization before any test.

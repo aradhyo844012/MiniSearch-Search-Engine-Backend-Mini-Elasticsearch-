@@ -1,0 +1,17 @@
+Regular Expressions Do's and Don'ts
+
+A quick list of habits for working with Regular Expressions.
+
+Do:
+- Learn character classes before anything else.
+- Try the Python re module on a small example.
+- Make it a habit to build patterns in small steps and test each one.
+- Test the case of validating input early.
+
+Don't:
+- Ignore this: catastrophic backtracking.
+- Ignore this: patterns that are too greedy.
+- Ignore this: using them to parse HTML.
+- Adopt Regular Expressions just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Regular Expressions, a little patience with quantifiers pays off more than any clever shortcut.

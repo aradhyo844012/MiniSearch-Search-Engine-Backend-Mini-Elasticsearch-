@@ -1,0 +1,13 @@
+Event-Driven Architecture vs Modular Monoliths: Which One Should You Learn First?
+
+Learners often ask whether to study Event-Driven Architecture or Modular Monoliths first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers. Modular Monoliths, by contrast, is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces.
+
+Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications. Choose Modular Monoliths first if you care about small teams or early-stage products.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it, and of Modular Monoliths as an apartment building with separate flats under one roof. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event-Driven Architecture, avoid hard-to-trace flows. With Modular Monoliths, avoid modules reaching into each other's tables.
+
+A good habit for Event-Driven Architecture is to document every event name and schema. A good habit for Modular Monoliths is to enforce boundaries with automated checks.

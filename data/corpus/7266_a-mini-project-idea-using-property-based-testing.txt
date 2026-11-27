@@ -1,0 +1,16 @@
+A Mini Project Idea Using Property-Based Testing
+
+A small project is the fastest way to make Property-Based Testing stick. This one takes a weekend and needs only a laptop.
+
+The goal is to build a tiny program or demo that shows Property-Based Testing at work on testing parsers. Keep the scope small enough to finish.
+
+Milestones:
+1. Read about properties and generators.
+2. Set up Hypothesis and run a hello-world example.
+3. Add the core feature.
+4. Handle one failure case, such as vague properties.
+5. Write a short README explaining what you learned.
+
+Stretch goals: extend the demo to cover checking sorting and math functions, or compare QuickCheck with fast-check.
+
+Finish by recording what surprised you. Writing it down is how knowledge about Property-Based Testing turns into something you can show others.

@@ -1,0 +1,15 @@
+The Pros and Cons of Saga Pattern
+
+No technology is free of trade-offs, and Saga Pattern is no exception. Here is an honest summary.
+
+Advantages:
+- Supports order processing
+- Makes travel bookings easier
+- Helps with payment workflows
+
+Drawbacks and risks:
+- Risk: missing compensations
+- Risk: steps that are not idempotent
+- Risk: flows that are hard to trace
+
+Weigh the two lists against your own project. If the advantages match your needs, such as order processing, and you can manage the risks, Saga Pattern is a sound choice. Whatever you decide, make every step and its compensation idempotent.

@@ -1,0 +1,13 @@
+CSS Variables Explained Simply
+
+Here is CSS Variables without the jargon: it is custom properties that store values such as colors and spacing so they can be reused across styles.
+
+Think of CSS Variables as labeled paint buckets you refill once to recolor a whole house. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: custom properties, the var function, inheritance, and fallback values. You do not need to master them all at once. Start with custom properties, then add the var function.
+
+People reach for CSS Variables when they work on theme switching, design systems, and spacing scales.
+
+One practical tip is to define theme values on the root element.
+
+Once CSS Variables feels comfortable, read about State Management, which lives in the same neighborhood of ideas.

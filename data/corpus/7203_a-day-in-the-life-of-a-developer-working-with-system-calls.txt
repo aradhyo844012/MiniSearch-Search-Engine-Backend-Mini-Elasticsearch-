@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with System Calls
+
+This is a fictional but realistic day for a developer whose project relies on System Calls.
+
+Morning: Asha starts by reviewing a ticket about reading and writing files. Before touching any code, Asha re-reads the notes on user mode and kernel mode to make sure the plan is sound.
+
+Midday: Asha pairs with a teammate to explore syscall numbers with strace. A small test exposes the problem of ignoring error codes, and they fix it together.
+
+Afternoon: the team discusses a new request involving creating processes. Asha sketches a service window where a customer asks staff to do things in the back office on the whiteboard to help everyone follow the idea.
+
+End of day: Asha writes a short note describing what changed and adds a reminder to use strace to see what your program really asks the kernel to do.
+
+Days like this are typical. System Calls is not glamorous, but understanding it keeps small problems from growing.

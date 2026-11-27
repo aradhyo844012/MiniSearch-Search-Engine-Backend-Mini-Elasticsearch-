@@ -1,0 +1,26 @@
+Everything You Need to Know About Background Jobs
+
+This page collects the essentials about Background Jobs in one place. In short, Background Jobs is tasks that run outside the request cycle so users do not have to wait for them.
+
+Core concepts:
+- queues
+- workers
+- retries
+- scheduling
+
+Where it is used:
+- sending emails
+- resizing images
+- generating reports
+
+Common problems:
+- jobs that are not idempotent
+- unbounded retries
+- losing jobs on restarts
+
+Tools to know:
+- Celery
+- Sidekiq
+- BullMQ
+
+Remember this above all: dropping laundry at a service and collecting it later is a good way to picture it, and the best habit is to give every job a timeout and a retry limit.

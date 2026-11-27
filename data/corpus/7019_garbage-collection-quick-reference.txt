@@ -1,0 +1,15 @@
+Garbage Collection Quick Reference
+
+A one-screen reminder for Garbage Collection. Bookmark it and return when the details fade.
+
+What it is: automatic memory management that finds and frees objects a program no longer uses.
+Key terms: reachability, generations, mark and sweep, and pause times.
+Typical uses: managed languages like Java and Python, reducing memory bugs, and long-running services.
+Risks: creating huge numbers of short-lived objects, holding references longer than needed, and ignoring pause times in latency-sensitive code.
+Tools: JVM GC logs, the Python gc module, and VisualVM.
+
+Mental picture: a cleaner who removes items nobody has touched in a while.
+
+Habit to build: measure allocation rates before tuning collector settings.
+
+See also: Go Goroutines, which sits close to Garbage Collection in the area of Programming Languages.

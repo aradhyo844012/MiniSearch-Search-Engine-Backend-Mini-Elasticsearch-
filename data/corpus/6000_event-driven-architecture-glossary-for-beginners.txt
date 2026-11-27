@@ -1,0 +1,12 @@
+Event-Driven Architecture Glossary for Beginners
+
+New words can make Event-Driven Architecture feel harder than it is. This glossary keeps the key ones in one place.
+
+Event-Driven Architecture: a style in which components communicate by publishing events and reacting to them.
+producers and consumers: a core term, most visible in order pipelines.
+event brokers: a core term that beginners often confuse with loose coupling.
+loose coupling: a core term that connects to asynchronous handling.
+asynchronous handling: a core term worth revisiting after you try a real example.
+Apache Kafka: a tool commonly used for real-time notifications.
+
+Come back to this Event-Driven Architecture list whenever documentation for RabbitMQ uses a word you do not recognize.

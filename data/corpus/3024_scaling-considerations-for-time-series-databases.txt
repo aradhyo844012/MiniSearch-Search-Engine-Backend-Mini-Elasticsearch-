@@ -1,0 +1,11 @@
+Scaling Considerations for Time-Series Databases
+
+A design that works for a classroom project can behave very differently under real load. Here is how Time-Series Databases changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding timestamps and getting server metrics right.
+
+Medium scale: problems start to appear. Watch for high-cardinality tags and keeping raw data forever, and measure with InfluxDB before changing anything.
+
+Large scale: downsampling and tags and fields move from background details to central design questions. Teams often revisit their choices around sensor readings at this stage.
+
+Before you scale, include a time range in every query. It is cheaper to build that habit early than to fix a crisis later.

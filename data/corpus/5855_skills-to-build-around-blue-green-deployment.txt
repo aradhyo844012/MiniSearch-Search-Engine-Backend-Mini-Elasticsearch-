@@ -1,0 +1,13 @@
+Skills to Build Around Blue-Green Deployment
+
+Knowing the definition of Blue-Green Deployment is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with blue and green environments and traffic switching, and able to explain them without notes.
+
+Hands-on practice: spend real time with AWS CodeDeploy on a Blue-Green Deployment task, and try at least one alternative such as Kubernetes services.
+
+Judgment: learn to decide when Blue-Green Deployment fits a problem such as zero-downtime releases, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example swapping to a fully prepared spare stage while the show goes on.
+
+Habits: keep the old environment running until the new one is proven, and write down what you learn after each project.

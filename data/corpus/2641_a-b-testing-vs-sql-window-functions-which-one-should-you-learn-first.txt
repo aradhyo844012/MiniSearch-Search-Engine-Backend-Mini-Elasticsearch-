@@ -1,0 +1,13 @@
+A/B Testing vs SQL Window Functions: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or SQL Window Functions first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. SQL Window Functions, by contrast, is SQL features that calculate values across related rows without collapsing them, and it is closely tied to the OVER clause and partitions.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose SQL Window Functions first if you care about running totals or ranking rows.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of SQL Window Functions as looking at the neighbors in a line without leaving your place. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With SQL Window Functions, avoid forgetting ORDER BY inside the window.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for SQL Window Functions is to start with ROW_NUMBER and LAG on a small table.

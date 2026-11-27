@@ -1,0 +1,13 @@
+Time-Series Databases Explained Simply
+
+Here is Time-Series Databases without the jargon: it is databases optimized for storing and querying data points ordered by time.
+
+Think of Time-Series Databases as a long logbook where every line starts with the time. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: timestamps, retention policies, downsampling, and tags and fields. You do not need to master them all at once. Start with timestamps, then add retention policies.
+
+You will meet Time-Series Databases in work such as server metrics, sensor readings, and financial tick data.
+
+One practical tip is to include a time range in every query.
+
+Once Time-Series Databases feels comfortable, read about Write-Ahead Logging, which lives in the same neighborhood of ideas.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Write-Ahead Logging
+
+This page collects the essentials about Write-Ahead Logging in one place. In short, Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.
+
+Core concepts:
+- log records
+- checkpoints
+- crash recovery
+- fsync
+
+Where it is used:
+- surviving crashes
+- feeding replication streams
+- point-in-time recovery
+
+Common problems:
+- disabling fsync for speed
+- log files filling the disk
+- forgetting to archive logs
+
+Tools to know:
+- PostgreSQL WAL
+- SQLite journal
+- Apache Kafka
+
+Remember this above all: writing a plan in a notebook before changing the real blueprint is a good way to picture it, and the best habit is to test crash recovery by killing the process on purpose.

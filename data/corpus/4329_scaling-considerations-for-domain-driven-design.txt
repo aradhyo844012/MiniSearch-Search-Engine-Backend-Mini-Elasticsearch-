@@ -1,0 +1,11 @@
+Scaling Considerations for Domain-Driven Design
+
+A design that works for a classroom project can behave very differently under real load. Here is how Domain-Driven Design changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding ubiquitous language and getting complex business systems right.
+
+Medium scale: problems start to appear. Watch for using it for simple CRUD apps and models that never match the business, and measure with event storming before changing anything.
+
+Large scale: aggregates and entities and value objects move from background details to central design questions. Teams often revisit their choices around aligning developers with domain experts at this stage.
+
+Before you scale, agree on shared terms with domain experts before drawing classes. It is cheaper to build that habit early than to fix a crisis later.

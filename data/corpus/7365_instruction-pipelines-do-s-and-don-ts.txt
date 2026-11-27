@@ -1,0 +1,17 @@
+Instruction Pipelines Do's and Don'ts
+
+A quick list of habits for working with Instruction Pipelines.
+
+Do:
+- Learn fetch, decode and execute stages before anything else.
+- Try perf on a small example.
+- Make it a habit to avoid unpredictable branches in hot loops.
+- Test the case of explaining CPU speed early.
+
+Don't:
+- Ignore this: unpredictable branches.
+- Ignore this: dependency chains.
+- Ignore this: assuming each instruction takes one step.
+- Adopt Instruction Pipelines just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Instruction Pipelines, a little patience with hazards pays off more than any clever shortcut.

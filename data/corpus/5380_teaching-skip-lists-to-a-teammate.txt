@@ -1,0 +1,13 @@
+Teaching Skip Lists to a Teammate
+
+Explaining Skip Lists to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an express train line layered over a local train line. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Skip Lists is layered linked lists that allow fast searching by skipping over many elements. Avoid jargon at this stage.
+
+Walk through an example involving ordered in-memory indexes, naming multiple levels and random level assignment as they come up.
+
+Ask your teammate to explain forward pointers in Skip Lists back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, poor random number choices, and suggest this habit: draw several levels by hand to see how a search moves down.

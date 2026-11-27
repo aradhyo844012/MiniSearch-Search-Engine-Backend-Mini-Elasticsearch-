@@ -1,0 +1,12 @@
+Questions to Ask About Reinforcement Learning in Code Review
+
+Reviewing code that involves Reinforcement Learning is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect agent, or does it work around it?
+- Could we start with simple environments?
+- Is Gymnasium used consistently, or are we mixing approaches?
+- Is environment clear to someone reading the code for the first time?
+- Have we considered badly designed rewards?
+- Would a test catch slow training if it appeared later?
+
+Good reviews of work on Reinforcement Learning are specific, kind and focused on reward, not on personal style.

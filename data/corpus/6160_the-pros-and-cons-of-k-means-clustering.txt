@@ -1,0 +1,15 @@
+The Pros and Cons of K-Means Clustering
+
+No technology is free of trade-offs, and K-Means Clustering is no exception. Here is an honest summary.
+
+Advantages:
+- Supports customer segmentation
+- Makes image compression easier
+- Helps with grouping documents
+
+Drawbacks and risks:
+- Risk: choosing k blindly
+- Risk: unscaled features
+- Risk: sensitivity to starting points
+
+Weigh the two lists against your own project. If the advantages match your needs, such as customer segmentation, and you can manage the risks, K-Means Clustering is a sound choice. Whatever you decide, scale features before clustering.

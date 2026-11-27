@@ -1,0 +1,13 @@
+Python Decorators vs Java Streams: Which One Should You Learn First?
+
+Learners often ask whether to study Python Decorators or Java Streams first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Python Decorators is functions that wrap other functions to add behavior without changing their code, and it is closely tied to higher-order functions and wrapper functions. Java Streams, by contrast, is a way of processing collections with chains of declarative operations, and it is closely tied to map and filter.
+
+Choose Python Decorators first if you care about logging calls or caching results. Choose Java Streams first if you care about transforming lists or aggregating records.
+
+Think of Python Decorators as gift wrapping that adds a bow without changing the present, and of Java Streams as a conveyor belt where each station changes the item before passing it on. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Python Decorators, avoid losing function metadata. With Java Streams, avoid reusing a consumed stream.
+
+A good habit for Python Decorators is to always apply functools.wraps inside your decorator. A good habit for Java Streams is to keep each stream step small and readable.

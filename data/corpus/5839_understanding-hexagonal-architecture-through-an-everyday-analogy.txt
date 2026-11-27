@@ -1,0 +1,9 @@
+Understanding Hexagonal Architecture Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a power strip that lets any plug connect to the same core.
+
+In that picture, ports is the first rule you follow, adapters is the next step, and the core domain and dependency direction keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters, and it involves details such as too many layers for small apps that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Spring to learn the exact behavior. The same picture helps when you explain testable business logic to a friend.

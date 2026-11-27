@@ -1,0 +1,15 @@
+Hyperparameter Tuning in 10 Minutes
+
+You have ten minutes, so here is the fast route through Hyperparameter Tuning.
+
+Minutes 1 and 2, the definition: Hyperparameter Tuning is the process of searching for the best settings that control how a model learns.
+
+Minutes 3 and 4, the vocabulary: learn search spaces, grid search, random search, and validation scores.
+
+Minutes 5 and 6, the picture: imagine adjusting the knobs on a radio until the signal is clear. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through improving model accuracy, comparing algorithms, and running automated experiments.
+
+Minutes 9 and 10, the traps and the tools: watch for tuning on the test set and searching too many options, then try Optuna for a first experiment.
+
+If you have a spare minute, remember to try random search before anything fancier.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Greedy Algorithms
+
+Everyone learns Greedy Algorithms partly through mistakes. Here are three worth avoiding.
+
+Mistake one: assuming greedy always works. It usually appears when someone skips greedy choice property and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: missing counterexamples. It tends to be noticed late, often during testing of interval scheduling. A short checklist during review catches it early.
+
+Mistake three: skipping the correctness proof. It is easy to miss because everything seems to work at first. Keep an eye on local versus global optimum to spot it.
+
+If you remember only one rule, make it this: try to break your greedy idea with a small counterexample before trusting it.

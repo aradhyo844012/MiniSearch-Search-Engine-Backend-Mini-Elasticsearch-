@@ -1,0 +1,13 @@
+Skills to Build Around Distributed Locks
+
+Knowing the definition of Distributed Locks is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with lease times and fencing tokens, and able to explain them without notes.
+
+Hands-on practice: spend real time with Redis on a Distributed Locks task, and try at least one alternative such as ZooKeeper.
+
+Judgment: learn to decide when Distributed Locks fits a problem such as running scheduled jobs once, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a single key to a shared meeting room that expires automatically.
+
+Habits: always use a timeout together with a fencing token, and write down what you learn after each project.

@@ -1,0 +1,15 @@
+Combining Command Line Productivity with Developer Portfolios in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Command Line Productivity and Developer Portfolios can work together in a single project.
+
+Command Line Productivity is using shell tools and shortcuts to complete tasks faster. Developer Portfolios is a collection of projects and writing that shows what a developer can build.
+
+Imagine a project that involves automating repetitive tasks and applying for internships. Command Line Productivity brings aliases, while Developer Portfolios brings projects.
+
+A sensible plan is to start with bash for the Command Line Productivity part and GitHub Pages for the Developer Portfolios part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: dangerous wildcard use on one side, and no explanation of decisions on the other.
+
+Picture the whole as learning the shortcuts on a well-used road, working alongside a shop window displaying your best work.
+
+Two habits help: first, turn commands you repeat into small scripts; second, feature a few polished projects rather than many half-finished ones.

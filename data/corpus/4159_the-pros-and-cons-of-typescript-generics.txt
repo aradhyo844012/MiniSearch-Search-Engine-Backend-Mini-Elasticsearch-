@@ -1,0 +1,15 @@
+The Pros and Cons of TypeScript Generics
+
+No technology is free of trade-offs, and TypeScript Generics is no exception. Here is an honest summary.
+
+Advantages:
+- Supports reusable utility functions
+- Makes typed API clients easier
+- Helps with data containers
+
+Drawbacks and risks:
+- Risk: overusing any
+- Risk: overly complex generic types
+- Risk: forgetting constraints
+
+Weigh the two lists against your own project. If the advantages match your needs, such as reusable utility functions, and you can manage the risks, TypeScript Generics is a sound choice. Whatever you decide, add constraints so that error messages become clearer.

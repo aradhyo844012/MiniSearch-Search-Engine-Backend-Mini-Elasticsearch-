@@ -1,0 +1,15 @@
+The Pros and Cons of gRPC
+
+No technology is free of trade-offs, and gRPC is no exception. Here is an honest summary.
+
+Advantages:
+- Supports service-to-service calls
+- Makes low-latency APIs easier
+- Helps with streaming data
+
+Drawbacks and risks:
+- Risk: breaking changes in message fields
+- Risk: poor browser support without a proxy
+- Risk: harder manual debugging
+
+Weigh the two lists against your own project. If the advantages match your needs, such as service-to-service calls, and you can manage the risks, gRPC is a sound choice. Whatever you decide, never reuse or renumber field numbers in a proto file.

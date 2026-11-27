@@ -1,0 +1,11 @@
+Where to Go Next After Learning CSRF
+
+You have met the basics of CSRF. Here is how to keep the momentum going.
+
+Go wider: read about Hashing vs Encryption, which belongs to the same area as CSRF (Application Security) and often appears in the same projects.
+
+Go deeper: choose one of session cookies, anti-CSRF tokens, SameSite cookies or state-changing requests, and study it until you can explain it to a beginner.
+
+Go practical: build something around securing account settings with Django CSRF middleware, and note every problem you meet, starting with using GET requests for state changes.
+
+Go social: share what you learned. Explaining CSRF to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

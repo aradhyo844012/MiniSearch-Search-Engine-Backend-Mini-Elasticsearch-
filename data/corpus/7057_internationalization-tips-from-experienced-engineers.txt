@@ -1,0 +1,11 @@
+Internationalization Tips from Experienced Engineers
+
+Engineers who work with Internationalization regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: hard-coded strings.
+2. Test the case of global products early, before the design hardens.
+3. When something behaves strangely, revisit translation files before anything else.
+4. Write down why you chose Internationalization so the next person understands the decision.
+5. Make sure you can move every user-facing string into translation files from the first day.
+
+None of these tips needs special equipment, and all of them apply to multi-language websites as well.

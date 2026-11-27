@@ -1,0 +1,10 @@
+Dependency Vulnerabilities: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Dependency Vulnerabilities with confidence. The subject itself is security weaknesses that come from third-party libraries a project uses.
+
+CVE identifiers: one of the building blocks of Dependency Vulnerabilities. It shows up whenever you work on auditing projects.
+version pinning: one of the building blocks of Dependency Vulnerabilities. It shows up whenever you work on auditing projects.
+transitive dependencies: one of the building blocks of Dependency Vulnerabilities. Mixing it up with neighboring terms is a common source of confusion.
+software bills of materials: one of the building blocks of Dependency Vulnerabilities. It shows up whenever you work on auditing projects.
+
+Practice using these four terms in sentences about automating updates. If the sentences feel natural, the vocabulary has stuck.

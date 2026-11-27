@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Integration Testing
+
+This path is for a learner who has never studied Integration Testing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Integration Testing is tests that check how several parts of a system work together) and learn test databases and service boundaries.
+
+Stage 2, hands-on: install Testcontainers, follow a tutorial, and build a small example involving verifying API and database interaction.
+
+Stage 3, depth: study fixtures and test environments, then deliberately explore this problem: slow suites.
+
+Stage 4, application: apply Integration Testing to catching contract mismatches, compare pytest with Postman, and write up your results.
+
+Stage 5, review: teach Integration Testing to someone else, and then move on to Mocking and Stubbing.

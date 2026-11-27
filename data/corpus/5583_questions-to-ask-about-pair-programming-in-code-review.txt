@@ -1,0 +1,12 @@
+Questions to Ask About Pair Programming in Code Review
+
+Reviewing code that involves Pair Programming is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of teaching new teammates correctly?
+- Have we avoided this problem: pairing on every task?
+- Does this change respect driver and navigator, or does it work around it?
+- Would a test catch fatigue from long sessions if it appeared later?
+- Is rotation clear to someone reading the code for the first time?
+- Is VS Code Live Share used consistently, or are we mixing approaches?
+
+Good reviews of work on Pair Programming are specific, kind and focused on communication, not on personal style.

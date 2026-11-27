@@ -1,0 +1,11 @@
+Scaling Considerations for Embedded Systems
+
+A design that works for a classroom project can behave very differently under real load. Here is how Embedded Systems changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding microcontrollers and getting appliances right.
+
+Medium scale: problems start to appear. Watch for memory leaks on tiny devices and no plan for updates, and measure with C before changing anything.
+
+Large scale: real-time constraints and memory limits move from background details to central design questions. Teams often revisit their choices around medical devices at this stage.
+
+Before you scale, plan how firmware updates will be delivered from the start. It is cheaper to build that habit early than to fix a crisis later.

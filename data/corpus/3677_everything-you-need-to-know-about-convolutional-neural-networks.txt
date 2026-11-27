@@ -1,0 +1,26 @@
+Everything You Need to Know About Convolutional Neural Networks
+
+This page collects the essentials about Convolutional Neural Networks in one place. In short, Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns.
+
+Core concepts:
+- filters
+- pooling
+- feature maps
+- stride
+
+Where it is used:
+- image classification
+- medical image analysis
+- object detection
+
+Common problems:
+- too little training data
+- ignoring data augmentation
+- overly deep models for simple tasks
+
+Tools to know:
+- PyTorch
+- TensorFlow
+- Keras
+
+Remember this above all: a magnifying glass sweeping across a photo looking for edges and shapes is a good way to picture it, and the best habit is to start from a pretrained model.

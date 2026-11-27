@@ -1,0 +1,12 @@
+Blue-Green Deployment Glossary for Beginners
+
+New words can make Blue-Green Deployment feel harder than it is. This glossary keeps the key ones in one place.
+
+Blue-Green Deployment: a release method that keeps two identical environments and switches traffic from the old one to the new one.
+blue and green environments: a core term, most visible in zero-downtime releases.
+traffic switching: a core term that beginners often confuse with rollback.
+rollback: a core term that connects to database compatibility.
+database compatibility: a core term worth revisiting after you try a real example.
+AWS CodeDeploy: a tool commonly used for quick rollbacks.
+
+Come back to this Blue-Green Deployment list whenever documentation for Kubernetes services uses a word you do not recognize.

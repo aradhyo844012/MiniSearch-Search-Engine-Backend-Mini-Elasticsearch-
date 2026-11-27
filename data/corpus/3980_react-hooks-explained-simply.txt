@@ -1,0 +1,13 @@
+React Hooks Explained Simply
+
+Here is React Hooks without the jargon: it is functions that let components use state and lifecycle features without writing classes.
+
+Think of React Hooks as sticky notes a component keeps between redraws. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: useState, useEffect, dependency arrays, and custom hooks. You do not need to master them all at once. Start with useState, then add useEffect.
+
+You will meet React Hooks in work such as managing form input, fetching data on load, and sharing logic between components.
+
+One practical tip is to enable the hooks lint rules from the start.
+
+Once React Hooks feels comfortable, read about CSS Variables, which lives in the same neighborhood of ideas.

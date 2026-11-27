@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with JavaScript Closures
+
+This path is for a learner who has never studied JavaScript Closures before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (JavaScript Closures is functions that remember the variables from the place where they were created) and learn lexical scope and captured variables.
+
+Stage 2, hands-on: install Chrome DevTools, follow a tutorial, and build a small example involving keeping private state in modules.
+
+Stage 3, depth: study function factories and memory retention, then deliberately explore this problem: loop variables captured by mistake.
+
+Stage 4, application: apply JavaScript Closures to event handlers that need context, compare Node.js with ESLint, and write up your results.
+
+Stage 5, review: teach JavaScript Closures to someone else, and then move on to Garbage Collection.

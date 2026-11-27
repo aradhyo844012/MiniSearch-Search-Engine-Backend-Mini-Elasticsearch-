@@ -1,0 +1,11 @@
+Statistical Significance Tips from Experienced Engineers
+
+Engineers who work with Statistical Significance regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of judging experiment results early, before the design hardens.
+2. When something behaves strangely, revisit the null hypothesis before anything else.
+3. Make sure you can always report the effect size alongside the p-value.
+4. Be careful with this one: mistaking significance for importance.
+5. Do not skip p-values; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to comparing model performance as well.

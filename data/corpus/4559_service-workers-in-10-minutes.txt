@@ -1,0 +1,15 @@
+Service Workers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Service Workers.
+
+Minutes 1 and 2, the definition: Service Workers is scripts that run in the background of a browser and intercept network requests.
+
+Minutes 3 and 4, the vocabulary: learn registration, install and activate events, cache storage, and fetch handlers.
+
+Minutes 5 and 6, the picture: imagine a receptionist who answers common requests before they reach the manager. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through offline support, faster repeat visits, and push notifications.
+
+Minutes 9 and 10, the traps and the tools: watch for caching stale files forever and bugs surviving across deployments, then try Workbox for a first experiment.
+
+If you have a spare minute, remember to version your caches so old files can be removed.

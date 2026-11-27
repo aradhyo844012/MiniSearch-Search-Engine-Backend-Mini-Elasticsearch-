@@ -1,0 +1,15 @@
+Greedy Algorithms in 10 Minutes
+
+You have ten minutes, so here is the fast route through Greedy Algorithms.
+
+Minutes 1 and 2, the definition: Greedy Algorithms is algorithms that build a solution by always taking the locally best choice.
+
+Minutes 3 and 4, the vocabulary: learn greedy choice property, optimal substructure, exchange arguments, and local versus global optimum.
+
+Minutes 5 and 6, the picture: imagine picking the closest open parking spot at every junction and hoping it works out. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through interval scheduling, Huffman coding, and making change with standard coins.
+
+Minutes 9 and 10, the traps and the tools: watch for assuming greedy always works and missing counterexamples, then try pen and paper proofs for a first experiment.
+
+If you have a spare minute, remember to try to break your greedy idea with a small counterexample before trusting it.

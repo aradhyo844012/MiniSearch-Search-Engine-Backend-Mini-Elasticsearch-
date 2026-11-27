@@ -1,0 +1,11 @@
+Python Asyncio Tips from Experienced Engineers
+
+Engineers who work with Python Asyncio regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Python Asyncio so the next person understands the decision.
+2. When something behaves strangely, revisit coroutines before anything else.
+3. Make sure you can never call blocking code directly inside a coroutine.
+4. Do not skip event loop; everything else builds on it.
+5. Reach for asyncio first, and only then evaluate alternatives such as aiohttp.
+
+None of these tips needs special equipment, and all of them apply to web servers as well.

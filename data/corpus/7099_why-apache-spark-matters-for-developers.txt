@@ -1,0 +1,11 @@
+Why Apache Spark Matters for Developers
+
+Developers who understand Apache Spark make better decisions, because Apache Spark is a distributed engine for processing large datasets across many machines.
+
+Three situations show why it matters. First, large ETL jobs. Second, machine learning on big data. Third, log analysis. In each case, a solid grasp of DataFrames and transformations and actions separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: data skew, too many small partitions, and collecting huge results onto the driver.
+
+Good tools exist, including PySpark, Databricks, and the Spark UI, so you rarely have to start from nothing.
+
+Connect Apache Spark with Data Lakes to see the bigger picture of Data and Analytics.

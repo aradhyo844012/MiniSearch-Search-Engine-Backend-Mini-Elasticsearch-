@@ -1,0 +1,11 @@
+Scaling Considerations for Autoscaling
+
+A design that works for a classroom project can behave very differently under real load. Here is how Autoscaling changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding scaling metrics and getting handling traffic spikes right.
+
+Medium scale: problems start to appear. Watch for scaling too slowly and flapping because of short spikes, and measure with Kubernetes HPA before changing anything.
+
+Large scale: minimum and maximum limits and horizontal scaling move from background details to central design questions. Teams often revisit their choices around saving money overnight at this stage.
+
+Before you scale, load test the system to find realistic thresholds. It is cheaper to build that habit early than to fix a crisis later.

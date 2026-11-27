@@ -1,0 +1,17 @@
+Dijkstra's Algorithm Do's and Don'ts
+
+A quick list of habits for working with Dijkstra's Algorithm.
+
+Do:
+- Learn priority queue before anything else.
+- Try Python heapq on a small example.
+- Make it a habit to stop as soon as the destination is popped from the queue.
+- Test the case of route planning early.
+
+Don't:
+- Ignore this: using it with negative edge weights.
+- Ignore this: skipping the priority queue and getting slow code.
+- Ignore this: not stopping early when only one target is needed.
+- Adopt Dijkstra's Algorithm just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Dijkstra's Algorithm, a little patience with distance table pays off more than any clever shortcut.

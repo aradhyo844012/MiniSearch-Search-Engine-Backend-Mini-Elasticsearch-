@@ -1,0 +1,15 @@
+Skip Lists Quick Reference
+
+A one-screen reminder for Skip Lists. Bookmark it and return when the details fade.
+
+What it is: layered linked lists that allow fast searching by skipping over many elements.
+Key terms: multiple levels, random level assignment, forward pointers, and expected logarithmic time.
+Typical uses: ordered in-memory indexes, sorted sets in caches, and concurrent ordered maps.
+Risks: poor random number choices, memory overhead, and harder debugging than arrays.
+Tools: Redis sorted sets, Java ConcurrentSkipListMap, and LevelDB.
+
+Mental picture: an express train line layered over a local train line.
+
+Habit to build: draw several levels by hand to see how a search moves down.
+
+See also: Topological Sorting, which sits close to Skip Lists in the area of Algorithms in Practice.

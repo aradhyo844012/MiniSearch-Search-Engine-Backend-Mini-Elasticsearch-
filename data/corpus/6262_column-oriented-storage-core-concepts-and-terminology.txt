@@ -1,0 +1,10 @@
+Column-Oriented Storage: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Column-Oriented Storage with confidence. The subject itself is a way of storing table data by column instead of by row to speed up analytics.
+
+column chunks: one of the building blocks of Column-Oriented Storage. Documentation for Apache Parquet usually mentions it early.
+compression: one of the building blocks of Column-Oriented Storage. Documentation for Apache Parquet usually mentions it early.
+vectorized scans: one of the building blocks of Column-Oriented Storage. Mixing it up with neighboring terms is a common source of confusion.
+predicate pushdown: one of the building blocks of Column-Oriented Storage. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about large aggregations. If the sentences feel natural, the vocabulary has stuck.

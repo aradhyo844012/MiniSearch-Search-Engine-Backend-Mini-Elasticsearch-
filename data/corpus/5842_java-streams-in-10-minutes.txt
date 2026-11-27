@@ -1,0 +1,15 @@
+Java Streams in 10 Minutes
+
+You have ten minutes, so here is the fast route through Java Streams.
+
+Minutes 1 and 2, the definition: Java Streams is a way of processing collections with chains of declarative operations.
+
+Minutes 3 and 4, the vocabulary: learn map, filter, reduce, and lazy evaluation.
+
+Minutes 5 and 6, the picture: imagine a conveyor belt where each station changes the item before passing it on. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through transforming lists, aggregating records, and processing data in parallel.
+
+Minutes 9 and 10, the traps and the tools: watch for reusing a consumed stream and side effects inside lambdas, then try OpenJDK for a first experiment.
+
+If you have a spare minute, remember to keep each stream step small and readable.

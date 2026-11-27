@@ -1,0 +1,12 @@
+Questions to Ask About Assembly Language Basics in Code Review
+
+Reviewing code that involves Assembly Language Basics is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect registers, or does it work around it?
+- Have we avoided this problem: platform differences?
+- Would a test catch stack corruption if it appeared later?
+- Is GDB used consistently, or are we mixing approaches?
+- Does the code handle the case of understanding compiled code correctly?
+- Could we read the assembly of a tiny C function to see what the compiler does?
+
+Good reviews of work on Assembly Language Basics are specific, kind and focused on memory addressing, not on personal style.

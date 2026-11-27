@@ -1,0 +1,13 @@
+Blue-Green Deployment Explained Simply
+
+If Blue-Green Deployment sounds intimidating, relax. It is a release method that keeps two identical environments and switches traffic from the old one to the new one, and the idea is simpler than the name suggests.
+
+Think of Blue-Green Deployment as swapping to a fully prepared spare stage while the show goes on. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: blue and green environments, traffic switching, rollback, and database compatibility. You do not need to master them all at once. Start with blue and green environments, then add traffic switching.
+
+People reach for Blue-Green Deployment when they work on zero-downtime releases, quick rollbacks, and testing in production-like settings.
+
+One practical tip is to keep the old environment running until the new one is proven.
+
+Once Blue-Green Deployment feels comfortable, read about Secrets Management, which lives in the same neighborhood of ideas.

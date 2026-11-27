@@ -1,0 +1,13 @@
+Debugging System Design Interviews: A Field Guide
+
+When something goes wrong around System Design Interviews, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: jumping into solutions before clarifying requirements, ignoring trade-offs, and overcomplicating designs.
+Step 3: revisit requirements and scaling estimates, since misunderstandings there cause many bugs.
+Step 4: use whiteboard sketches or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving System Design Interviews in work such as preparing for senior roles come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, clarify requirements and scale before drawing boxes. It prevents a surprising number of repeat problems.

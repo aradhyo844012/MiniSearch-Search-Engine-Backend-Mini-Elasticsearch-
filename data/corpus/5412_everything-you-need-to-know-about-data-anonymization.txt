@@ -1,0 +1,26 @@
+Everything You Need to Know About Data Anonymization
+
+This page collects the essentials about Data Anonymization in one place. In short, Data Anonymization is removing or altering personal details in data so people cannot be identified.
+
+Core concepts:
+- masking
+- generalization
+- k-anonymity
+- differential privacy
+
+Where it is used:
+- sharing datasets with researchers
+- testing with production-like data
+- meeting privacy rules
+
+Common problems:
+- re-identification through combined fields
+- removing too little
+- destroying usefulness by removing too much
+
+Tools to know:
+- ARX
+- Faker
+- Google's differential privacy library
+
+Remember this above all: blurring faces in a crowd photo while keeping the scene is a good way to picture it, and the best habit is to test whether combining fields could identify a person.

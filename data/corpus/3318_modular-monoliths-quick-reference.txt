@@ -1,0 +1,15 @@
+Modular Monoliths Quick Reference
+
+A one-screen reminder for Modular Monoliths. Bookmark it and return when the details fade.
+
+What it is: single deployable applications built from well-separated internal modules.
+Key terms: module boundaries, public interfaces, shared database rules, and dependency checks.
+Typical uses: small teams, early-stage products, and preparing for later service extraction.
+Risks: modules reaching into each other's tables, no enforced boundaries, and treating modules as just folders.
+Tools: ArchUnit, import-linter, and Gradle modules.
+
+Mental picture: an apartment building with separate flats under one roof.
+
+Habit to build: enforce boundaries with automated checks.
+
+See also: Pair Programming, which sits close to Modular Monoliths in the area of Software Design.

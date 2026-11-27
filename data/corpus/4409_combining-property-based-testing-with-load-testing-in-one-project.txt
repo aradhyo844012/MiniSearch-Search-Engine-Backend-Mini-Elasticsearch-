@@ -1,0 +1,15 @@
+Combining Property-Based Testing with Load Testing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Property-Based Testing and Load Testing can work together in a single project.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Load Testing is measuring how a system behaves under expected and heavy traffic.
+
+Imagine a project that involves testing parsers and capacity planning. Property-Based Testing brings properties, while Load Testing brings virtual users.
+
+A sensible plan is to start with Hypothesis for the Property-Based Testing part and k6 for the Load Testing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow generators on one side, and ignoring warm-up on the other.
+
+Picture the whole as a robot tester trying thousands of odd inputs, working alongside a stress test that fills a stadium to see how the exits cope.
+
+Two habits help: first, save failing examples as regular tests; second, report p95 and p99 latency, not only averages.

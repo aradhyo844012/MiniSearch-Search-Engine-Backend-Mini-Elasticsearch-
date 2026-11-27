@@ -1,0 +1,11 @@
+Greedy Algorithms Tips from Experienced Engineers
+
+Engineers who work with Greedy Algorithms regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip greedy choice property; everything else builds on it.
+2. Reach for pen and paper proofs first, and only then evaluate alternatives such as Python sorted.
+3. Test the case of interval scheduling early, before the design hardens.
+4. Write down why you chose Greedy Algorithms so the next person understands the decision.
+5. Be careful with this one: assuming greedy always works.
+
+None of these tips needs special equipment, and all of them apply to Huffman coding as well.

@@ -1,0 +1,15 @@
+The Pros and Cons of Java Streams
+
+No technology is free of trade-offs, and Java Streams is no exception. Here is an honest summary.
+
+Advantages:
+- Supports transforming lists
+- Makes aggregating records easier
+- Helps with processing data in parallel
+
+Drawbacks and risks:
+- Risk: reusing a consumed stream
+- Risk: side effects inside lambdas
+- Risk: using parallel streams without measuring
+
+Weigh the two lists against your own project. If the advantages match your needs, such as transforming lists, and you can manage the risks, Java Streams is a sound choice. Whatever you decide, keep each stream step small and readable.

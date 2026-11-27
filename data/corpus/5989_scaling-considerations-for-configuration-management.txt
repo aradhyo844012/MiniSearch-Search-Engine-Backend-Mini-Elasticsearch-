@@ -1,0 +1,11 @@
+Scaling Considerations for Configuration Management
+
+A design that works for a classroom project can behave very differently under real load. Here is how Configuration Management changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding environment variables and getting separating development and production right.
+
+Medium scale: problems start to appear. Watch for committing secrets and inconsistent defaults, and measure with dotenv before changing anything.
+
+Large scale: defaults and secrets handling move from background details to central design questions. Teams often revisit their choices around toggling features at this stage.
+
+Before you scale, fail fast at startup if a required setting is missing. It is cheaper to build that habit early than to fix a crisis later.

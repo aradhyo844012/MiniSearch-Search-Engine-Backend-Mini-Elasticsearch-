@@ -1,0 +1,13 @@
+Debugging Hyperparameter Tuning: A Field Guide
+
+When something goes wrong around Hyperparameter Tuning, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: tuning on the test set, searching too many options, and ignoring training cost.
+Step 3: revisit search spaces and grid search, since misunderstandings there cause many bugs.
+Step 4: use Optuna or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Hyperparameter Tuning in work such as improving model accuracy come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, try random search before anything fancier. It prevents a surprising number of repeat problems.

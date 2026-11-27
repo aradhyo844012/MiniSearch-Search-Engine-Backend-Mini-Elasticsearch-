@@ -1,0 +1,13 @@
+Zero Trust Security vs CSRF: Which One Should You Learn First?
+
+Learners often ask whether to study Zero Trust Security or CSRF first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Zero Trust Security is a model that treats every request as untrusted until it is verified, and it is closely tied to identity verification and least privilege. CSRF, by contrast, is an attack that tricks a logged-in user's browser into sending unwanted requests to a site, and it is closely tied to session cookies and anti-CSRF tokens.
+
+Choose Zero Trust Security first if you care about remote work access or protecting internal services. Choose CSRF first if you care about protecting forms or securing account settings.
+
+Think of Zero Trust Security as a building where every door checks your badge, not just the front entrance, and of CSRF as a forged letter that a bank clerk stamps because your ID is already on file. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Zero Trust Security, avoid treating it as a product to buy. With CSRF, avoid using GET requests for state changes.
+
+A good habit for Zero Trust Security is to start with strong identity and device checks. A good habit for CSRF is to combine SameSite cookies with anti-CSRF tokens.

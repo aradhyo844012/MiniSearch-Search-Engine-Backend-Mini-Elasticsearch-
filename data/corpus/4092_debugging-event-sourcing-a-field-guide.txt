@@ -1,0 +1,13 @@
+Debugging Event Sourcing: A Field Guide
+
+When something goes wrong around Event Sourcing, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: changing event formats carelessly, unbounded replay times, and using it for simple CRUD apps.
+Step 3: revisit event log and projections, since misunderstandings there cause many bugs.
+Step 4: use Apache Kafka or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Event Sourcing in work such as audit trails come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, version your events from the first day. It prevents a surprising number of repeat problems.

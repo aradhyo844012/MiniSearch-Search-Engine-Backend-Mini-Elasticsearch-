@@ -1,0 +1,11 @@
+Is Data Anonymization Right for Your Project?
+
+Before adopting Data Anonymization, ask whether it fits the problem. Remember that Data Anonymization is removing or altering personal details in data so people cannot be identified.
+
+It is a good fit when your work involves sharing datasets with researchers or testing with production-like data, and when your team understands masking.
+
+Be cautious when the project is very small, when deadlines leave no room to learn generalization, or when you cannot manage these risks: re-identification through combined fields, removing too little, and destroying usefulness by removing too much.
+
+A simple decision test: write down the problem in one sentence, then check whether k-anonymity and differential privacy are part of the answer. If they are, Data Anonymization is probably worth a closer look.
+
+If you decide to go ahead, start small with meeting privacy rules and test whether combining fields could identify a person.

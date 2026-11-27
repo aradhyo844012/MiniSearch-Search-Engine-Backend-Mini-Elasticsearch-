@@ -1,0 +1,12 @@
+CSRF Glossary for Beginners
+
+New words can make CSRF feel harder than it is. This glossary keeps the key ones in one place.
+
+CSRF: an attack that tricks a logged-in user's browser into sending unwanted requests to a site.
+session cookies: a core term, most visible in protecting forms.
+anti-CSRF tokens: a core term that beginners often confuse with SameSite cookies.
+SameSite cookies: a core term that connects to state-changing requests.
+state-changing requests: a core term worth revisiting after you try a real example.
+Django CSRF middleware: a tool commonly used for securing account settings.
+
+Come back to this CSRF list whenever documentation for Flask-WTF uses a word you do not recognize.

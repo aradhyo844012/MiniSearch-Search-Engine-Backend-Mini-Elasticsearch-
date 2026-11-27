@@ -1,0 +1,9 @@
+Understanding Backtracking Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture walking a maze and returning to the last fork whenever you hit a wall.
+
+In that picture, decision tree is the first rule you follow, pruning is the next step, and state restoration and constraint checking keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends, and it involves details such as forgetting to undo changes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Python recursion to learn the exact behavior. The same picture helps when you explain solving Sudoku to a friend.

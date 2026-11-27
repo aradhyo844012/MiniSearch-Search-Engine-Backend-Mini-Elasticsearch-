@@ -1,0 +1,15 @@
+Combining Segment Trees with Dijkstra's Algorithm in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Segment Trees and Dijkstra's Algorithm can work together in a single project.
+
+Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time. Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+Imagine a project that involves range sum queries and route planning. Segment Trees brings tree nodes covering ranges, while Dijkstra's Algorithm brings priority queue.
+
+A sensible plan is to start with C++ arrays for the Segment Trees part and Python heapq for the Dijkstra's Algorithm part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: wrong tree size allocation on one side, and skipping the priority queue and getting slow code on the other.
+
+Picture the whole as a tournament bracket that remembers the winner of every group of players, working alongside a GPS that keeps expanding to the nearest unvisited intersection.
+
+Two habits help: first, test your tree against a slow brute-force version on small inputs; second, stop as soon as the destination is popped from the queue.

@@ -1,0 +1,12 @@
+Idempotency Glossary for Beginners
+
+New words can make Idempotency feel harder than it is. This glossary keeps the key ones in one place.
+
+Idempotency: the property that repeating an operation gives the same result as doing it once.
+idempotency keys: a core term, most visible in payment APIs.
+safe retries: a core term that beginners often confuse with deduplication.
+deduplication: a core term that connects to at-least-once delivery.
+at-least-once delivery: a core term worth revisiting after you try a real example.
+Stripe idempotency keys: a tool commonly used for message processing.
+
+Come back to this Idempotency list whenever documentation for Redis uses a word you do not recognize.

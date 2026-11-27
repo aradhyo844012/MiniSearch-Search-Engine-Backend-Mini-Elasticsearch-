@@ -1,0 +1,13 @@
+End-to-End Testing vs Mocking and Stubbing: Which One Should You Learn First?
+
+Learners often ask whether to study End-to-End Testing or Mocking and Stubbing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+End-to-End Testing is tests that drive an application through a real user journey from start to finish, and it is closely tied to browser automation and user flows. Mocking and Stubbing, by contrast, is replacing real dependencies with controlled fakes during tests, and it is closely tied to mocks and stubs.
+
+Choose End-to-End Testing first if you care about checking login and checkout flows or release verification. Choose Mocking and Stubbing first if you care about isolating units or simulating failures.
+
+Think of End-to-End Testing as a test drive of the whole car on a real road, and of Mocking and Stubbing as a crash test dummy standing in for a real passenger. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With End-to-End Testing, avoid flaky tests. With Mocking and Stubbing, avoid over-mocking.
+
+A good habit for End-to-End Testing is to cover only the most important user journeys. A good habit for Mocking and Stubbing is to prefer simple fakes over deep mock chains.

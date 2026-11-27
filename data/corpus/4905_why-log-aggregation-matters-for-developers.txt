@@ -1,0 +1,11 @@
+Why Log Aggregation Matters for Developers
+
+Developers who understand Log Aggregation make better decisions, because Log Aggregation is collecting logs from many machines into one searchable place.
+
+Three situations show why it matters. First, troubleshooting across services. Second, security investigations. Third, usage analysis. In each case, a solid grasp of shippers and indexing separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: unbounded storage growth, unstructured logs, and missing timestamps.
+
+Good tools exist, including Elasticsearch, Fluent Bit, and Grafana Loki, so you rarely have to start from nothing.
+
+Connect Log Aggregation with Distributed Tracing to see the bigger picture of DevOps and Cloud.

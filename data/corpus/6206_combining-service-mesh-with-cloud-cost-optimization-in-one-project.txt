@@ -1,0 +1,15 @@
+Combining Service Mesh with Cloud Cost Optimization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Service Mesh and Cloud Cost Optimization can work together in a single project.
+
+Service Mesh is an infrastructure layer that manages communication between services through proxies. Cloud Cost Optimization is the practice of reducing cloud spending while keeping performance and reliability.
+
+Imagine a project that involves securing service traffic and cutting idle resources. Service Mesh brings sidecar proxies, while Cloud Cost Optimization brings right-sizing.
+
+A sensible plan is to start with Istio for the Service Mesh part and AWS Cost Explorer for the Cloud Cost Optimization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: adopting it too early on one side, and over-provisioned databases on the other.
+
+Picture the whole as a postal system that applies delivery rules between buildings, working alongside turning off the lights in rooms nobody is using.
+
+Two habits help: first, adopt it only once the number of services makes manual setup painful; second, tag every resource with an owner.

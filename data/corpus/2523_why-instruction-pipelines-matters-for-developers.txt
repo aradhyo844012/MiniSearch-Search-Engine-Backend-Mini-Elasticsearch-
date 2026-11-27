@@ -1,0 +1,11 @@
+Why Instruction Pipelines Matters for Developers
+
+Developers who understand Instruction Pipelines make better decisions, because Instruction Pipelines is a technique where a processor overlaps the stages of several instructions.
+
+Three situations show why it matters. First, explaining CPU speed. Second, understanding branch costs. Third, optimizing tight loops. In each case, a solid grasp of fetch, decode and execute stages and hazards separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: unpredictable branches, dependency chains, and assuming each instruction takes one step.
+
+You will not need to build everything yourself; perf, Compiler Explorer, and published instruction tables cover most needs.
+
+Connect Instruction Pipelines with Endianness to see the bigger picture of Computer Systems.

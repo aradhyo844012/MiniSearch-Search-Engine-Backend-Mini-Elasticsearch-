@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Fenwick Trees
+
+This path is for a learner who has never studied Fenwick Trees before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Fenwick Trees is a compact structure for prefix sums that supports fast updates) and learn binary indexed trees and lowest set bit.
+
+Stage 2, hands-on: install C++ vectors, follow a tutorial, and build a small example involving counting inversions.
+
+Stage 3, depth: study prefix sums and point updates, then deliberately explore this problem: using zero-based indexes by mistake.
+
+Stage 4, application: apply Fenwick Trees to maintaining running totals, compare Python lists with LeetCode practice problems, and write up your results.
+
+Stage 5, review: teach Fenwick Trees to someone else, and then move on to Minimum Spanning Trees.

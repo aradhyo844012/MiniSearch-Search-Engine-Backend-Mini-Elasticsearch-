@@ -1,0 +1,11 @@
+Practice Exercises for Event-Driven Architecture
+
+These exercises build real understanding of Event-Driven Architecture. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: hard-to-trace flows. Then fix it.
+Exercise 2: Compare RabbitMQ and AWS EventBridge for integrating many services and write down your conclusion.
+Exercise 3: Pick Apache Kafka and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble order pipelines or real-time notifications.
+Exercise 5: Write a short paragraph describing Event-Driven Architecture and include the term producers and consumers.
+
+When you finish, compare your answers with the definition: Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them.

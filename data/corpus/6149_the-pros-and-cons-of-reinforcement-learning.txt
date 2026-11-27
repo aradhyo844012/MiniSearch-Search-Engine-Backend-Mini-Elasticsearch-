@@ -1,0 +1,15 @@
+The Pros and Cons of Reinforcement Learning
+
+No technology is free of trade-offs, and Reinforcement Learning is no exception. Here is an honest summary.
+
+Advantages:
+- Supports game playing
+- Makes robot control easier
+- Helps with recommendation strategies
+
+Drawbacks and risks:
+- Risk: badly designed rewards
+- Risk: slow training
+- Risk: unstable results across runs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as game playing, and you can manage the risks, Reinforcement Learning is a sound choice. Whatever you decide, start with simple environments.

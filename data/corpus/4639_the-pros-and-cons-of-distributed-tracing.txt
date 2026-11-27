@@ -1,0 +1,15 @@
+The Pros and Cons of Distributed Tracing
+
+No technology is free of trade-offs, and Distributed Tracing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports finding slow services
+- Makes understanding dependencies easier
+- Helps with debugging errors across services
+
+Drawbacks and risks:
+- Risk: missing context propagation
+- Risk: sampling too aggressively
+- Risk: overhead from too many spans
+
+Weigh the two lists against your own project. If the advantages match your needs, such as finding slow services, and you can manage the risks, Distributed Tracing is a sound choice. Whatever you decide, propagate trace IDs through every outgoing call.

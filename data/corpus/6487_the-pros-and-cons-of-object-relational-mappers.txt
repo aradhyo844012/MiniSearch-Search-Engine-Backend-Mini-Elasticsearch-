@@ -1,0 +1,15 @@
+The Pros and Cons of Object-Relational Mappers
+
+No technology is free of trade-offs, and Object-Relational Mappers is no exception. Here is an honest summary.
+
+Advantages:
+- Supports building CRUD apps quickly
+- Makes switching databases easier
+- Helps with keeping schema and code aligned
+
+Drawbacks and risks:
+- Risk: N+1 queries
+- Risk: loading entire tables
+- Risk: hiding slow SQL
+
+Weigh the two lists against your own project. If the advantages match your needs, such as building CRUD apps quickly, and you can manage the risks, Object-Relational Mappers is a sound choice. Whatever you decide, log the generated SQL during development.

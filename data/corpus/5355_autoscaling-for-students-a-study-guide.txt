@@ -1,0 +1,17 @@
+Autoscaling for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Autoscaling.
+
+Learning goals:
+1. Explain Autoscaling in your own words.
+2. Describe scaling metrics, cooldown periods, minimum and maximum limits, and horizontal scaling.
+3. Give examples from handling traffic spikes and saving money overnight.
+4. Name three problems to watch for.
+
+Start with the definition: Autoscaling is automatically adding or removing computing resources as demand changes. Then draw a restaurant opening extra tables when a crowd arrives on paper and label the four terms from the goals above.
+
+Self-test questions: Why is scaling too slowly a problem? How does cooldown periods relate to minimum and maximum limits? When would you choose Kubernetes HPA or AWS Auto Scaling?
+
+Study habit: load test the system to find realistic thresholds.
+
+When you feel ready, compare Autoscaling with Blue-Green Deployment and write down three differences.

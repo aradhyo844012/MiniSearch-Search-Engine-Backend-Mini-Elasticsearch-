@@ -1,0 +1,11 @@
+Is Log Aggregation Right for Your Project?
+
+Before adopting Log Aggregation, ask whether it fits the problem. Remember that Log Aggregation is collecting logs from many machines into one searchable place.
+
+It is a good fit when your work involves troubleshooting across services or security investigations, and when your team understands shippers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn indexing, or when you cannot manage these risks: unbounded storage growth, unstructured logs, and missing timestamps.
+
+A simple decision test: write down the problem in one sentence, then check whether retention and search queries are part of the answer. If they are, Log Aggregation is probably worth a closer look.
+
+If you decide to go ahead, start small with usage analysis and use structured JSON logs so that fields are searchable.

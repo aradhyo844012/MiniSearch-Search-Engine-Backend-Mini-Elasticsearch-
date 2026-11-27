@@ -1,0 +1,15 @@
+Combining CSRF with Single Sign-On in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CSRF and Single Sign-On can work together in a single project.
+
+CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site. Single Sign-On is letting users log in once and access several applications.
+
+Imagine a project that involves protecting forms and company intranets. CSRF brings session cookies, while Single Sign-On brings identity provider.
+
+A sensible plan is to start with Django CSRF middleware for the CSRF part and Okta for the Single Sign-On part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: skipping tokens on cookie-based APIs on one side, and misconfigured redirects on the other.
+
+Picture the whole as a forged letter that a bank clerk stamps because your ID is already on file, working alongside a festival wristband that opens every gate.
+
+Two habits help: first, combine SameSite cookies with anti-CSRF tokens; second, plan for identity provider outages.

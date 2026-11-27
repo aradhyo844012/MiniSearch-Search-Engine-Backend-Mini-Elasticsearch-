@@ -1,0 +1,12 @@
+Questions to Ask About Security Headers in Code Review
+
+Reviewing code that involves Security Headers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we test the headers on every environment?
+- Is X-Content-Type-Options clear to someone reading the code for the first time?
+- Have we avoided this problem: copying configurations without understanding them?
+- Does this change respect Strict-Transport-Security, or does it work around it?
+- Is securityheaders.com used consistently, or are we mixing approaches?
+- Does the code handle the case of hardening websites correctly?
+
+Good reviews of work on Security Headers are specific, kind and focused on frame protections, not on personal style.

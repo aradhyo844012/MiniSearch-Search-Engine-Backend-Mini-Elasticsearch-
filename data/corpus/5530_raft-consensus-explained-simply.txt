@@ -1,0 +1,13 @@
+Raft Consensus Explained Simply
+
+If Raft Consensus sounds intimidating, relax. It is an algorithm that lets a group of servers agree on a shared log of operations, and the idea is simpler than the name suggests.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: leader election, log replication, terms, and majority quorum. You do not need to master them all at once. Start with leader election, then add log replication.
+
+You will meet Raft Consensus in work such as configuration stores, distributed locks, and replicated state machines.
+
+One practical tip is to use an odd number of nodes.
+
+After Raft Consensus, a natural next topic is Distributed Locks.

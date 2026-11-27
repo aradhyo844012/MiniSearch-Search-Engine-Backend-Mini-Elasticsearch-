@@ -1,0 +1,12 @@
+Questions to Ask About Data Anonymization in Code Review
+
+Reviewing code that involves Data Anonymization is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered re-identification through combined fields?
+- Does the code handle the case of sharing datasets with researchers correctly?
+- Is generalization clear to someone reading the code for the first time?
+- Have we avoided this problem: destroying usefulness by removing too much?
+- Is ARX used consistently, or are we mixing approaches?
+- Does this change respect masking, or does it work around it?
+
+Good reviews of work on Data Anonymization are specific, kind and focused on k-anonymity, not on personal style.

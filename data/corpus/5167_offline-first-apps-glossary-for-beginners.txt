@@ -1,0 +1,12 @@
+Offline-First Apps Glossary for Beginners
+
+New words can make Offline-First Apps feel harder than it is. This glossary keeps the key ones in one place.
+
+Offline-First Apps: apps designed to work without a network and sync when a connection returns.
+local storage: a core term, most visible in field service tools.
+sync queues: a core term that beginners often confuse with conflict resolution.
+conflict resolution: a core term that connects to optimistic updates.
+optimistic updates: a core term worth revisiting after you try a real example.
+SQLite: a tool commonly used for note-taking apps.
+
+Come back to this Offline-First Apps list whenever documentation for PouchDB uses a word you do not recognize.

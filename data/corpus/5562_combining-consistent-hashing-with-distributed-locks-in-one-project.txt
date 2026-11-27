@@ -1,0 +1,15 @@
+Combining Consistent Hashing with Distributed Locks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Consistent Hashing and Distributed Locks can work together in a single project.
+
+Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys. Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines.
+
+Imagine a project that involves distributed caches and running scheduled jobs once. Consistent Hashing brings hash ring, while Distributed Locks brings lease times.
+
+A sensible plan is to start with Redis Cluster for the Consistent Hashing part and Redis for the Distributed Locks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: uneven load on one side, and clock drift on the other.
+
+Picture the whole as seats around a round table where a new guest only displaces their neighbor, working alongside a single key to a shared meeting room that expires automatically.
+
+Two habits help: first, use many virtual nodes per server to even out the load; second, always use a timeout together with a fencing token.

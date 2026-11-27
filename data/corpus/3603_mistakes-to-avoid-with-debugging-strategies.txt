@@ -1,0 +1,11 @@
+Mistakes to Avoid with Debugging Strategies
+
+Everyone learns Debugging Strategies partly through mistakes. Here are three worth avoiding.
+
+Mistake one: changing many things at once. It usually appears when someone skips reproducing the bug and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: guessing without evidence. It tends to be noticed late, often during testing of fixing production issues. A short checklist during review catches it early.
+
+Mistake three: not writing a test afterward. It is easy to miss because everything seems to work at first. Keep an eye on binary search through code to spot it.
+
+If you remember only one rule, make it this: change one thing at a time and record the result.

@@ -1,0 +1,13 @@
+Modular Monoliths Explained Simply
+
+Here is Modular Monoliths without the jargon: it is single deployable applications built from well-separated internal modules.
+
+Think of Modular Monoliths as an apartment building with separate flats under one roof. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: module boundaries, public interfaces, shared database rules, and dependency checks. You do not need to master them all at once. Start with module boundaries, then add public interfaces.
+
+You will meet Modular Monoliths in work such as small teams, early-stage products, and preparing for later service extraction.
+
+One practical tip is to enforce boundaries with automated checks.
+
+After Modular Monoliths, a natural next topic is Software Estimation.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Topological Sorting
+
+Everyone learns Topological Sorting partly through mistakes. Here are three worth avoiding.
+
+Mistake one: ignoring cycles. It usually appears when someone skips directed acyclic graphs and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: assuming the order is unique. It tends to be noticed late, often during testing of build systems. A short checklist during review catches it early.
+
+Mistake three: mixing up edge directions. It is easy to miss because everything seems to work at first. Keep an eye on cycle detection to spot it.
+
+If you remember only one rule, make it this: check for cycles first so you can report a clear error.

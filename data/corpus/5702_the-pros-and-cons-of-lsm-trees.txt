@@ -1,0 +1,15 @@
+The Pros and Cons of LSM Trees
+
+No technology is free of trade-offs, and LSM Trees is no exception. Here is an honest summary.
+
+Advantages:
+- Supports write-heavy databases
+- Makes time-ordered data easier
+- Helps with key-value stores
+
+Drawbacks and risks:
+- Risk: read amplification
+- Risk: compaction stalls
+- Risk: poor bloom filter tuning
+
+Weigh the two lists against your own project. If the advantages match your needs, such as write-heavy databases, and you can manage the risks, LSM Trees is a sound choice. Whatever you decide, watch compaction metrics before blaming the application.

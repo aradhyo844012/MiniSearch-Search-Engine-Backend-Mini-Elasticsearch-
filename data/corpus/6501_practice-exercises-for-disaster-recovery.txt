@@ -1,0 +1,11 @@
+Practice Exercises for Disaster Recovery
+
+These exercises build real understanding of Disaster Recovery. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: untested plans. Then fix it.
+Exercise 2: Compare Terraform and Route 53 failover for protecting critical data and write down your conclusion.
+Exercise 3: Explain how failover regions and runbooks differ, using a drawing.
+Exercise 4: Write a short paragraph describing Disaster Recovery and include the term recovery time objective.
+Exercise 5: Pick AWS Backup and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Disaster Recovery is the plans and systems that restore services after major failures.

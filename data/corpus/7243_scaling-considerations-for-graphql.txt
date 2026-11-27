@@ -1,0 +1,11 @@
+Scaling Considerations for GraphQL
+
+A design that works for a classroom project can behave very differently under real load. Here is how GraphQL changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding schema and getting mobile apps with limited bandwidth right.
+
+Medium scale: problems start to appear. Watch for the N+1 query problem and unbounded query depth, and measure with Apollo before changing anything.
+
+Large scale: resolvers and types move from background details to central design questions. Teams often revisit their choices around aggregating many services at this stage.
+
+Before you scale, use a data loader to avoid N+1 queries. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,15 @@
+Event Sourcing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Event Sourcing.
+
+Minutes 1 and 2, the definition: Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+Minutes 3 and 4, the vocabulary: learn event log, projections, snapshots, and replay.
+
+Minutes 5 and 6, the picture: imagine a bank statement that lists every transaction instead of only the balance. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through audit trails, financial ledgers, and rebuilding read models.
+
+Minutes 9 and 10, the traps and the tools: watch for changing event formats carelessly and unbounded replay times, then try Apache Kafka for a first experiment.
+
+If you have a spare minute, remember to version your events from the first day.

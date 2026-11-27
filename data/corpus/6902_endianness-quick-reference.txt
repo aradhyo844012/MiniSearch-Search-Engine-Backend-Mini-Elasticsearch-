@@ -1,0 +1,15 @@
+Endianness Quick Reference
+
+A one-screen reminder for Endianness. Bookmark it and return when the details fade.
+
+What it is: the order in which a computer stores the bytes of a multi-byte number.
+Key terms: big-endian, little-endian, byte order marks, and network byte order.
+Typical uses: network protocols, binary file formats, and cross-platform data exchange.
+Risks: mixing byte orders, assuming all machines are alike, and forgetting to convert before sending.
+Tools: Python struct, htons and ntohl, and hexdump.
+
+Mental picture: writing a date as day-month-year or as year-month-day.
+
+Habit to build: always specify byte order in file and protocol formats.
+
+See also: Assembly Language Basics, which sits close to Endianness in the area of Computer Systems.

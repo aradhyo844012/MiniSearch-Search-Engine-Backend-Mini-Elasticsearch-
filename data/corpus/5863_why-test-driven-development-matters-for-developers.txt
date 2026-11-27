@@ -1,0 +1,11 @@
+Why Test-Driven Development Matters for Developers
+
+Developers who understand Test-Driven Development make better decisions, because Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass.
+
+Three situations show why it matters. First, designing small modules. Second, preventing regressions. Third, gaining confidence for refactoring. In each case, a solid grasp of red, green, refactor and small steps separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: writing tests that are too large, skipping the refactor step, and testing implementation details.
+
+Good tools exist, including pytest, JUnit, and Jest, so you rarely have to start from nothing.
+
+Connect Test-Driven Development with Domain-Driven Design to see the bigger picture of Software Design.

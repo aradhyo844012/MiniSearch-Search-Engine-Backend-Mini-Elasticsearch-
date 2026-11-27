@@ -1,0 +1,17 @@
+Union-Find for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Union-Find.
+
+Learning goals:
+1. Explain Union-Find in your own words.
+2. Describe parent pointers, union operation, find operation, and path compression.
+3. Give examples from detecting connected components and building minimum spanning trees.
+4. Name three problems to watch for.
+
+Start with the definition: Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly. Then draw a set of club rosters where two clubs can merge into one on paper and label the four terms from the goals above.
+
+Self-test questions: Why is forgetting path compression a problem? How does union operation relate to find operation? When would you choose Python lists or scipy.sparse.csgraph?
+
+Study habit: implement path compression and union by rank together.
+
+When you feel ready, compare Union-Find with Minimum Spanning Trees and write down three differences.

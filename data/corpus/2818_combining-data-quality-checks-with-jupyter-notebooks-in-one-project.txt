@@ -1,0 +1,15 @@
+Combining Data Quality Checks with Jupyter Notebooks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Quality Checks and Jupyter Notebooks can work together in a single project.
+
+Data Quality Checks is automated tests that verify data is complete, valid and consistent. Jupyter Notebooks is interactive documents that combine code, results and notes.
+
+Imagine a project that involves protecting dashboards and exploring data. Data Quality Checks brings null checks, while Jupyter Notebooks brings cells.
+
+A sensible plan is to start with Great Expectations for the Data Quality Checks part and JupyterLab for the Jupyter Notebooks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: checks only at the end of pipelines on one side, and hidden state on the other.
+
+Picture the whole as a quality inspector at the end of an assembly line, working alongside a lab notebook that can run its own experiments.
+
+Two habits help: first, check data as early as it enters the pipeline; second, restart the kernel and run all cells before sharing.

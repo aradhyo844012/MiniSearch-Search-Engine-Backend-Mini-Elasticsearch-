@@ -1,0 +1,11 @@
+Skip Lists in Real Projects
+
+Reading about Skip Lists is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: ordered in-memory indexes. Here, multiple levels drives the main design choices, and the team needs to guard against poor random number choices.
+
+Scenario two: sorted sets in caches. This time random level assignment matters most, and tools such as Redis sorted sets help keep things manageable.
+
+Scenario three: concurrent ordered maps. The key idea is forward pointers, and the biggest risk is memory overhead.
+
+Across all three scenarios, Skip Lists stays the same idea: layered linked lists that allow fast searching by skipping over many elements. Only the details change.

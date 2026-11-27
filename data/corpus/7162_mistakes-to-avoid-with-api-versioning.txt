@@ -1,0 +1,11 @@
+Mistakes to Avoid with API Versioning
+
+Everyone learns API Versioning partly through mistakes. Here are three worth avoiding.
+
+Mistake one: versioning too often. It usually appears when someone skips version in the URL and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: removing fields without notice. It tends to be noticed late, often during testing of public APIs. A short checklist during review catches it early.
+
+Mistake three: having no deprecation schedule. It is easy to miss because everything seems to work at first. Keep an eye on backward compatibility to spot it.
+
+If you remember only one rule, make it this: announce deprecations with a clear sunset date.

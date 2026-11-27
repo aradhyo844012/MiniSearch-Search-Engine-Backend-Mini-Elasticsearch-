@@ -1,0 +1,15 @@
+Debugging Strategies in 10 Minutes
+
+You have ten minutes, so here is the fast route through Debugging Strategies.
+
+Minutes 1 and 2, the definition: Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior.
+
+Minutes 3 and 4, the vocabulary: learn reproducing the bug, isolating the cause, forming hypotheses, and binary search through code.
+
+Minutes 5 and 6, the picture: imagine a detective narrowing down suspects. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through fixing production issues, learning unfamiliar code, and reducing repeat bugs.
+
+Minutes 9 and 10, the traps and the tools: watch for changing many things at once and guessing without evidence, then try debuggers for a first experiment.
+
+If you have a spare minute, remember to change one thing at a time and record the result.

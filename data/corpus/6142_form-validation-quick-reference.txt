@@ -1,0 +1,15 @@
+Form Validation Quick Reference
+
+A one-screen reminder for Form Validation. Bookmark it and return when the details fade.
+
+What it is: checking user input for correctness before it is accepted.
+Key terms: client-side checks, server-side checks, error messages, and constraint attributes.
+Typical uses: sign-up forms, payment pages, and search filters.
+Risks: validating only on the client, vague error messages, and rejecting valid but unusual input.
+Tools: HTML constraint validation, Zod, and Yup.
+
+Mental picture: a proofreader checking a form before it is submitted.
+
+Habit to build: validate on the server even when the browser checks too.
+
+See also: Service Workers, which sits close to Form Validation in the area of Frontend Engineering.

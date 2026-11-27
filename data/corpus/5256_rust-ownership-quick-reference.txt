@@ -1,0 +1,15 @@
+Rust Ownership Quick Reference
+
+A one-screen reminder for Rust Ownership. Bookmark it and return when the details fade.
+
+What it is: a set of rules that lets Rust manage memory safely without a garbage collector.
+Key terms: ownership, borrowing, lifetimes, and moves.
+Typical uses: systems programming, command line tools, and safe concurrent code.
+Risks: fighting the borrow checker with needless clones, confusing moves and copies, and overly complex lifetime annotations.
+Tools: Cargo, rustc, and rust-analyzer.
+
+Mental picture: a single house key that you can hand over or lend out but never copy.
+
+Habit to build: read the compiler's error messages closely because they often explain the fix.
+
+See also: Go Goroutines, which sits close to Rust Ownership in the area of Programming Languages.

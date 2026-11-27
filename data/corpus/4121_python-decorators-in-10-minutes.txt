@@ -1,0 +1,15 @@
+Python Decorators in 10 Minutes
+
+You have ten minutes, so here is the fast route through Python Decorators.
+
+Minutes 1 and 2, the definition: Python Decorators is functions that wrap other functions to add behavior without changing their code.
+
+Minutes 3 and 4, the vocabulary: learn higher-order functions, wrapper functions, functools.wraps, and decorator arguments.
+
+Minutes 5 and 6, the picture: imagine gift wrapping that adds a bow without changing the present. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through logging calls, caching results, and checking permissions.
+
+Minutes 9 and 10, the traps and the tools: watch for losing function metadata and stacking decorators in the wrong order, then try functools for a first experiment.
+
+If you have a spare minute, remember to always apply functools.wraps inside your decorator.

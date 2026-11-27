@@ -1,0 +1,13 @@
+Teaching Embedded Systems to a Teammate
+
+Explaining Embedded Systems to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a small brain inside an appliance that only knows one job. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Embedded Systems is computers built into devices to perform dedicated tasks within tight limits. Avoid jargon at this stage.
+
+Walk through an example involving appliances, naming microcontrollers and firmware as they come up.
+
+Ask your teammate to explain real-time constraints in Embedded Systems back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, memory leaks on tiny devices, and suggest this habit: plan how firmware updates will be delivered from the start.

@@ -1,0 +1,15 @@
+The Pros and Cons of API Design Principles
+
+No technology is free of trade-offs, and API Design Principles is no exception. Here is an honest summary.
+
+Advantages:
+- Supports public platforms
+- Makes internal service contracts easier
+- Helps with mobile backends
+
+Drawbacks and risks:
+- Risk: leaking internal details
+- Risk: inconsistent responses
+- Risk: undocumented behavior
+
+Weigh the two lists against your own project. If the advantages match your needs, such as public platforms, and you can manage the risks, API Design Principles is a sound choice. Whatever you decide, write the documentation before the implementation.

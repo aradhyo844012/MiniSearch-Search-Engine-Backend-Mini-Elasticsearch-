@@ -1,0 +1,12 @@
+Questions to Ask About Pagination in Code Review
+
+Reviewing code that involves Pagination is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is cursor pagination clear to someone reading the code for the first time?
+- Could we prefer cursors for large or fast-changing data?
+- Would a test catch unstable sort order if it appeared later?
+- Does this change respect offset pagination, or does it work around it?
+- Have we avoided this problem: missing total counts when users need them?
+- Does the code handle the case of search results correctly?
+
+Good reviews of work on Pagination are specific, kind and focused on page size, not on personal style.

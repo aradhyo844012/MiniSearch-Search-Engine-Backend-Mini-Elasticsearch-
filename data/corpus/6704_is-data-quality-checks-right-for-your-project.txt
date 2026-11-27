@@ -1,0 +1,11 @@
+Is Data Quality Checks Right for Your Project?
+
+Before adopting Data Quality Checks, ask whether it fits the problem. Remember that Data Quality Checks is automated tests that verify data is complete, valid and consistent.
+
+It is a good fit when your work involves protecting dashboards or validating ingestion, and when your team understands null checks.
+
+Be cautious when the project is very small, when deadlines leave no room to learn uniqueness, or when you cannot manage these risks: alerts nobody reads, checks only at the end of pipelines, and no ownership of failures.
+
+A simple decision test: write down the problem in one sentence, then check whether freshness and schema validation are part of the answer. If they are, Data Quality Checks is probably worth a closer look.
+
+If you decide to go ahead, start small with catching pipeline bugs and check data as early as it enters the pipeline.

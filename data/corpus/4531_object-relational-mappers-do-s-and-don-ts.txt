@@ -1,0 +1,17 @@
+Object-Relational Mappers Do's and Don'ts
+
+A quick list of habits for working with Object-Relational Mappers.
+
+Do:
+- Learn models before anything else.
+- Try SQLAlchemy on a small example.
+- Make it a habit to log the generated SQL during development.
+- Test the case of building CRUD apps quickly early.
+
+Don't:
+- Ignore this: N+1 queries.
+- Ignore this: loading entire tables.
+- Ignore this: hiding slow SQL.
+- Adopt Object-Relational Mappers just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Object-Relational Mappers, a little patience with queries pays off more than any clever shortcut.

@@ -1,0 +1,10 @@
+Idempotency: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Idempotency with confidence. The subject itself is the property that repeating an operation gives the same result as doing it once.
+
+idempotency keys: one of the building blocks of Idempotency. You should be able to explain it in a single sentence before moving on.
+safe retries: one of the building blocks of Idempotency. It shows up whenever you work on payment APIs.
+deduplication: one of the building blocks of Idempotency. Mixing it up with neighboring terms is a common source of confusion.
+at-least-once delivery: one of the building blocks of Idempotency. Documentation for Stripe idempotency keys usually mentions it early.
+
+Practice using these four terms in sentences about message processing. If the sentences feel natural, the vocabulary has stuck.

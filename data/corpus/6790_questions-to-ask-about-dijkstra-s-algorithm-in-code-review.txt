@@ -1,0 +1,12 @@
+Questions to Ask About Dijkstra's Algorithm in Code Review
+
+Reviewing code that involves Dijkstra's Algorithm is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we stop as soon as the destination is popped from the queue?
+- Is distance table clear to someone reading the code for the first time?
+- Does this change respect priority queue, or does it work around it?
+- Does the code handle the case of route planning correctly?
+- Have we considered using it with negative edge weights?
+- Have we avoided this problem: not stopping early when only one target is needed?
+
+Good reviews of work on Dijkstra's Algorithm are specific, kind and focused on edge relaxation, not on personal style.

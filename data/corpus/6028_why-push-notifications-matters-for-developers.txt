@@ -1,0 +1,11 @@
+Why Push Notifications Matters for Developers
+
+Developers who understand Push Notifications make better decisions, because Push Notifications is messages sent to a user's device from a server even when the app is closed.
+
+Three situations show why it matters. First, order updates. Second, chat alerts. Third, re-engaging users. In each case, a solid grasp of device tokens and push services separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: asking for permission too early, sending too many messages, and ignoring token refresh.
+
+You will not need to build everything yourself; Firebase Cloud Messaging, Apple Push Notification service, and OneSignal cover most needs.
+
+Connect Push Notifications with Bluetooth Low Energy to see the bigger picture of Mobile, Embedded and IoT.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Backtracking
+
+This path is for a learner who has never studied Backtracking before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends) and learn decision tree and pruning.
+
+Stage 2, hands-on: install Python recursion, follow a tutorial, and build a small example involving solving Sudoku.
+
+Stage 3, depth: study state restoration and constraint checking, then deliberately explore this problem: forgetting to undo changes.
+
+Stage 4, application: apply Backtracking to generating permutations, compare itertools with debuggers, and write up your results.
+
+Stage 5, review: teach Backtracking to someone else, and then move on to Greedy Algorithms.

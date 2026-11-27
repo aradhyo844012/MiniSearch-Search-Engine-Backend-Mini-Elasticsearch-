@@ -1,0 +1,11 @@
+Practice Exercises for Service Mesh
+
+These exercises build real understanding of Service Mesh. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: added latency and complexity. Then fix it.
+Exercise 2: Pick Istio and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble securing service traffic or retries and timeouts.
+Exercise 4: Explain how traffic policies and observability differ, using a drawing.
+Exercise 5: Write a short paragraph describing Service Mesh and include the term sidecar proxies.
+
+When you finish, compare your answers with the definition: Service Mesh is an infrastructure layer that manages communication between services through proxies.

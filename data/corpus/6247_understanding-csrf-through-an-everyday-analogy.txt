@@ -1,0 +1,9 @@
+Understanding CSRF Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a forged letter that a bank clerk stamps because your ID is already on file.
+
+In that picture, session cookies is the first rule you follow, anti-CSRF tokens is the next step, and SameSite cookies and state-changing requests keep everything running smoothly.
+
+Every analogy breaks down eventually. Real CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site, and it involves details such as using GET requests for state changes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Django CSRF middleware to learn the exact behavior. The same picture helps when you explain protecting forms to a friend.

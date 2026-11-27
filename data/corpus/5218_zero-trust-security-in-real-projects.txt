@@ -1,0 +1,11 @@
+Zero Trust Security in Real Projects
+
+Reading about Zero Trust Security is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: remote work access. Here, identity verification drives the main design choices, and the team needs to guard against treating it as a product to buy.
+
+Scenario two: protecting internal services. This time least privilege matters most, and tools such as Okta help keep things manageable.
+
+Scenario three: limiting breach damage. The key idea is micro-segmentation, and the biggest risk is poor identity hygiene.
+
+Across all three scenarios, Zero Trust Security stays the same idea: a model that treats every request as untrusted until it is verified. Only the details change.

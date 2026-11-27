@@ -1,0 +1,15 @@
+The Pros and Cons of Connection Pooling
+
+No technology is free of trade-offs, and Connection Pooling is no exception. Here is an honest summary.
+
+Advantages:
+- Supports web backends
+- Makes serverless functions that call databases easier
+- Helps with high-traffic APIs
+
+Drawbacks and risks:
+- Risk: pools larger than the database allows
+- Risk: leaked connections
+- Risk: long transactions that hold connections
+
+Weigh the two lists against your own project. If the advantages match your needs, such as web backends, and you can manage the risks, Connection Pooling is a sound choice. Whatever you decide, always return connections in a finally block.

@@ -1,0 +1,15 @@
+Combining Event Sourcing with Saga Pattern in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Event Sourcing and Saga Pattern can work together in a single project.
+
+Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them. Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+Imagine a project that involves audit trails and order processing. Event Sourcing brings event log, while Saga Pattern brings local transactions.
+
+A sensible plan is to start with Apache Kafka for the Event Sourcing part and Temporal for the Saga Pattern part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded replay times on one side, and steps that are not idempotent on the other.
+
+Picture the whole as a bank statement that lists every transaction instead of only the balance, working alongside booking a trip with separate hotel, flight and car reservations that can each be cancelled.
+
+Two habits help: first, version your events from the first day; second, make every step and its compensation idempotent.

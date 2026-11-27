@@ -1,0 +1,13 @@
+Graph Databases vs Database Backups and Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Graph Databases or Database Backups and Recovery first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Graph Databases is databases that store data as nodes and relationships and query connections directly, and it is closely tied to nodes and edges. Database Backups and Recovery, by contrast, is the practice of copying data regularly so that it can be restored after failures, and it is closely tied to full and incremental backups and recovery point objective.
+
+Choose Graph Databases first if you care about social networks or recommendation engines. Choose Database Backups and Recovery first if you care about recovering deleted tables or migrating servers.
+
+Think of Graph Databases as a city map where intersections are records and roads are relationships, and of Database Backups and Recovery as a spare house key kept at a trusted neighbor's home. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Graph Databases, avoid using them for simple tabular data. With Database Backups and Recovery, avoid never testing restores.
+
+A good habit for Graph Databases is to limit traversal depth in every exploratory query. A good habit for Database Backups and Recovery is to schedule a restore drill on a regular basis.

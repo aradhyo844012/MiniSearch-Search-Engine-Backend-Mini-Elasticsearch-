@@ -1,0 +1,15 @@
+Apache Spark Quick Reference
+
+A one-screen reminder for Apache Spark. Bookmark it and return when the details fade.
+
+What it is: a distributed engine for processing large datasets across many machines.
+Key terms: DataFrames, transformations and actions, partitions, and lazy execution.
+Typical uses: large ETL jobs, machine learning on big data, and log analysis.
+Risks: data skew, too many small partitions, and collecting huge results onto the driver.
+Tools: PySpark, Databricks, and the Spark UI.
+
+Mental picture: a team of workers each processing a share of a huge pile of papers.
+
+Habit to build: avoid collecting large results onto a single machine.
+
+See also: Star Schema Modeling, which sits close to Apache Spark in the area of Data and Analytics.

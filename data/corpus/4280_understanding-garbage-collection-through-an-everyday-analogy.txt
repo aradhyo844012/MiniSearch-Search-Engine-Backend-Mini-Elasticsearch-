@@ -1,0 +1,9 @@
+Understanding Garbage Collection Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a cleaner who removes items nobody has touched in a while.
+
+In that picture, reachability is the first rule you follow, generations is the next step, and mark and sweep and pause times keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Garbage Collection is automatic memory management that finds and frees objects a program no longer uses, and it involves details such as creating huge numbers of short-lived objects that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for JVM GC logs to learn the exact behavior. The same picture helps when you explain managed languages like Java and Python to a friend.

@@ -1,0 +1,11 @@
+Is Webhooks Right for Your Project?
+
+Before adopting Webhooks, ask whether it fits the problem. Remember that Webhooks is HTTP callbacks that let one service notify another when an event happens.
+
+It is a good fit when your work involves payment notifications or CI triggers, and when your team understands event payloads.
+
+Be cautious when the project is very small, when deadlines leave no room to learn signature verification, or when you cannot manage these risks: not verifying signatures, slow handlers causing timeouts, and processing duplicate events.
+
+A simple decision test: write down the problem in one sentence, then check whether retries and endpoints are part of the answer. If they are, Webhooks is probably worth a closer look.
+
+If you decide to go ahead, start small with chat integrations and respond quickly and process the event in a background job.

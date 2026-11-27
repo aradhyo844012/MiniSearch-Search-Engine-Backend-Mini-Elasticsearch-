@@ -1,0 +1,13 @@
+CPU Caches vs Endianness: Which One Should You Learn First?
+
+Learners often ask whether to study CPU Caches or Endianness first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data, and it is closely tied to cache lines and hit and miss rates. Endianness, by contrast, is the order in which a computer stores the bytes of a multi-byte number, and it is closely tied to big-endian and little-endian.
+
+Choose CPU Caches first if you care about speeding up loops or explaining performance differences. Choose Endianness first if you care about network protocols or binary file formats.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library, and of Endianness as writing a date as day-month-year or as year-month-day. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CPU Caches, avoid false sharing. With Endianness, avoid mixing byte orders.
+
+A good habit for CPU Caches is to access arrays in the order they are stored. A good habit for Endianness is to always specify byte order in file and protocol formats.

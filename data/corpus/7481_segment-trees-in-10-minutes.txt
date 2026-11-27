@@ -1,0 +1,15 @@
+Segment Trees in 10 Minutes
+
+You have ten minutes, so here is the fast route through Segment Trees.
+
+Minutes 1 and 2, the definition: Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time.
+
+Minutes 3 and 4, the vocabulary: learn tree nodes covering ranges, range queries, point updates, and lazy propagation.
+
+Minutes 5 and 6, the picture: imagine a tournament bracket that remembers the winner of every group of players. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through range sum queries, finding minimums in a window, and competitive programming problems.
+
+Minutes 9 and 10, the traps and the tools: watch for off-by-one errors in ranges and wrong tree size allocation, then try C++ arrays for a first experiment.
+
+If you have a spare minute, remember to test your tree against a slow brute-force version on small inputs.

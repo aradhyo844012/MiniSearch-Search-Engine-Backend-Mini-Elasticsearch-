@@ -1,0 +1,12 @@
+Canary Releases Glossary for Beginners
+
+New words can make Canary Releases feel harder than it is. This glossary keeps the key ones in one place.
+
+Canary Releases: a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+traffic percentages: a core term, most visible in safer releases.
+health metrics: a core term that beginners often confuse with automatic rollback.
+automatic rollback: a core term that connects to progressive rollout.
+progressive rollout: a core term worth revisiting after you try a real example.
+Argo Rollouts: a tool commonly used for testing with real traffic.
+
+Come back to this Canary Releases list whenever documentation for Istio uses a word you do not recognize.

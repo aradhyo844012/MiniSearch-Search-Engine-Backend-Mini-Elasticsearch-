@@ -1,0 +1,13 @@
+Debugging Hashing vs Encryption: A Field Guide
+
+When something goes wrong around Hashing vs Encryption, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: encrypting passwords instead of hashing them, using broken hash functions, and confusing encoding with encryption.
+Step 3: revisit one-way functions and keys, since misunderstandings there cause many bugs.
+Step 4: use SHA-256 or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Hashing vs Encryption in work such as storing passwords come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, ask whether you will ever need the original value back. It prevents a surprising number of repeat problems.

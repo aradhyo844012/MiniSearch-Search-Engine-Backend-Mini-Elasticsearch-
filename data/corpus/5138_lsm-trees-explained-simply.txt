@@ -1,0 +1,13 @@
+LSM Trees Explained Simply
+
+If LSM Trees sounds intimidating, relax. It is storage structures that buffer writes in memory and merge them into sorted files on disk, and the idea is simpler than the name suggests.
+
+Think of LSM Trees as a mail room that sorts incoming letters in batches rather than one by one. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: memtable, sorted string tables, compaction, and write amplification. You do not need to master them all at once. Start with memtable, then add sorted string tables.
+
+You will meet LSM Trees in work such as write-heavy databases, time-ordered data, and key-value stores.
+
+One practical tip is to watch compaction metrics before blaming the application.
+
+After LSM Trees, a natural next topic is Eventual Consistency.

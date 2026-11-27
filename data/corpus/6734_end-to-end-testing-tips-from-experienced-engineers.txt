@@ -1,0 +1,11 @@
+End-to-End Testing Tips from Experienced Engineers
+
+Engineers who work with End-to-End Testing regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip browser automation; everything else builds on it.
+2. Write down why you chose End-to-End Testing so the next person understands the decision.
+3. Test the case of checking login and checkout flows early, before the design hardens.
+4. Make sure you can cover only the most important user journeys.
+5. Reach for Playwright first, and only then evaluate alternatives such as Cypress.
+
+None of these tips needs special equipment, and all of them apply to release verification as well.

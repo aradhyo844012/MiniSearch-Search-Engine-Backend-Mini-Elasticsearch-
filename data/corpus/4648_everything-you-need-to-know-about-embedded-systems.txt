@@ -1,0 +1,26 @@
+Everything You Need to Know About Embedded Systems
+
+This page collects the essentials about Embedded Systems in one place. In short, Embedded Systems is computers built into devices to perform dedicated tasks within tight limits.
+
+Core concepts:
+- microcontrollers
+- firmware
+- real-time constraints
+- memory limits
+
+Where it is used:
+- appliances
+- medical devices
+- vehicles
+
+Common problems:
+- memory leaks on tiny devices
+- no plan for updates
+- ignoring power use
+
+Tools to know:
+- C
+- FreeRTOS
+- PlatformIO
+
+Remember this above all: a small brain inside an appliance that only knows one job is a good way to picture it, and the best habit is to plan how firmware updates will be delivered from the start.

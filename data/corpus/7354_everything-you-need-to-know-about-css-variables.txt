@@ -1,0 +1,26 @@
+Everything You Need to Know About CSS Variables
+
+This page collects the essentials about CSS Variables in one place. In short, CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles.
+
+Core concepts:
+- custom properties
+- the var function
+- inheritance
+- fallback values
+
+Where it is used:
+- theme switching
+- design systems
+- spacing scales
+
+Common problems:
+- missing fallbacks
+- overriding at the wrong scope
+- expecting preprocessor features
+
+Tools to know:
+- browser DevTools
+- Sass
+- PostCSS
+
+Remember this above all: labeled paint buckets you refill once to recolor a whole house is a good way to picture it, and the best habit is to define theme values on the root element.

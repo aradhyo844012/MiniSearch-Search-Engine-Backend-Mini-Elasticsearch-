@@ -1,0 +1,15 @@
+The Pros and Cons of Database Backups and Recovery
+
+No technology is free of trade-offs, and Database Backups and Recovery is no exception. Here is an honest summary.
+
+Advantages:
+- Supports recovering deleted tables
+- Makes migrating servers easier
+- Helps with meeting compliance rules
+
+Drawbacks and risks:
+- Risk: never testing restores
+- Risk: storing backups on the same disk
+- Risk: keeping credentials inside backup scripts
+
+Weigh the two lists against your own project. If the advantages match your needs, such as recovering deleted tables, and you can manage the risks, Database Backups and Recovery is a sound choice. Whatever you decide, schedule a restore drill on a regular basis.

@@ -1,0 +1,17 @@
+Web Components Do's and Don'ts
+
+A quick list of habits for working with Web Components.
+
+Do:
+- Learn custom elements before anything else.
+- Try Lit on a small example.
+- Make it a habit to document the attributes and events like a public API.
+- Test the case of design system components early.
+
+Don't:
+- Ignore this: styling surprises across the shadow boundary.
+- Ignore this: poor accessibility.
+- Ignore this: heavy polyfills.
+- Adopt Web Components just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Web Components, a little patience with shadow DOM pays off more than any clever shortcut.

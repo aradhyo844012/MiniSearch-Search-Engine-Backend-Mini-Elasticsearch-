@@ -1,0 +1,13 @@
+LSM Trees vs Database Backups and Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study LSM Trees or Database Backups and Recovery first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk, and it is closely tied to memtable and sorted string tables. Database Backups and Recovery, by contrast, is the practice of copying data regularly so that it can be restored after failures, and it is closely tied to full and incremental backups and recovery point objective.
+
+Choose LSM Trees first if you care about write-heavy databases or time-ordered data. Choose Database Backups and Recovery first if you care about recovering deleted tables or migrating servers.
+
+Think of LSM Trees as a mail room that sorts incoming letters in batches rather than one by one, and of Database Backups and Recovery as a spare house key kept at a trusted neighbor's home. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With LSM Trees, avoid read amplification. With Database Backups and Recovery, avoid never testing restores.
+
+A good habit for LSM Trees is to watch compaction metrics before blaming the application. A good habit for Database Backups and Recovery is to schedule a restore drill on a regular basis.

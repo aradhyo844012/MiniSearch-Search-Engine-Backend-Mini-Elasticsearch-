@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Database Backups and Recovery
+
+This path is for a learner who has never studied Database Backups and Recovery before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures) and learn full and incremental backups and recovery point objective.
+
+Stage 2, hands-on: install pg_dump, follow a tutorial, and build a small example involving recovering deleted tables.
+
+Stage 3, depth: study recovery time objective and restore testing, then deliberately explore this problem: never testing restores.
+
+Stage 4, application: apply Database Backups and Recovery to migrating servers, compare mysqldump with AWS Backup, and write up your results.
+
+Stage 5, review: teach Database Backups and Recovery to someone else, and then move on to Connection Pooling.

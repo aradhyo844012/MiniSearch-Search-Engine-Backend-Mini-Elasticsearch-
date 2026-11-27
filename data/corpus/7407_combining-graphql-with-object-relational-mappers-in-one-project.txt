@@ -1,0 +1,15 @@
+Combining GraphQL with Object-Relational Mappers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how GraphQL and Object-Relational Mappers can work together in a single project.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need. Object-Relational Mappers is libraries that map database tables to objects in code.
+
+Imagine a project that involves mobile apps with limited bandwidth and building CRUD apps quickly. GraphQL brings schema, while Object-Relational Mappers brings models.
+
+A sensible plan is to start with Apollo for the GraphQL part and SQLAlchemy for the Object-Relational Mappers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded query depth on one side, and loading entire tables on the other.
+
+Picture the whole as ordering a la carte instead of picking a fixed set menu, working alongside a translator between the language of tables and the language of objects.
+
+Two habits help: first, use a data loader to avoid N+1 queries; second, log the generated SQL during development.

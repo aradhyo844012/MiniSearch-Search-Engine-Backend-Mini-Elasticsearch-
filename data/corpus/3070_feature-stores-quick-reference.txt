@@ -1,0 +1,15 @@
+Feature Stores Quick Reference
+
+A one-screen reminder for Feature Stores. Bookmark it and return when the details fade.
+
+What it is: systems that store and serve the input variables used by machine learning models.
+Key terms: offline store, online store, point-in-time correctness, and feature definitions.
+Typical uses: sharing features across models, serving real-time predictions, and avoiding training-serving skew.
+Risks: leaking future data, duplicate definitions, and stale online values.
+Tools: Feast, Tecton, and Databricks Feature Store.
+
+Mental picture: a shared pantry of prepared ingredients for many recipes.
+
+Habit to build: define each feature once and reuse it in training and serving.
+
+See also: Data Quality Checks, which sits close to Feature Stores in the area of Data and Analytics.

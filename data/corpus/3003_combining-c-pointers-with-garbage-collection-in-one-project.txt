@@ -1,0 +1,15 @@
+Combining C Pointers with Garbage Collection in One Project
+
+Real projects rarely use one idea in isolation. This article shows how C Pointers and Garbage Collection can work together in a single project.
+
+C Pointers is variables that store the memory address of another value. Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.
+
+Imagine a project that involves dynamic memory allocation and managed languages like Java and Python. C Pointers brings addresses, while Garbage Collection brings reachability.
+
+A sensible plan is to start with GCC for the C Pointers part and JVM GC logs for the Garbage Collection part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: memory leaks on one side, and holding references longer than needed on the other.
+
+Picture the whole as a street address written on a card instead of the house itself, working alongside a cleaner who removes items nobody has touched in a while.
+
+Two habits help: first, set pointers to NULL after freeing them; second, measure allocation rates before tuning collector settings.

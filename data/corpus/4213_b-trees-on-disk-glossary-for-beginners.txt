@@ -1,0 +1,12 @@
+B-Trees on Disk Glossary for Beginners
+
+New words can make B-Trees on Disk feel harder than it is. This glossary keeps the key ones in one place.
+
+B-Trees on Disk: balanced tree structures designed to read large blocks from disk efficiently.
+pages: a core term, most visible in database indexes.
+branching factor: a core term that beginners often confuse with node splits.
+node splits: a core term that connects to sorted keys.
+sorted keys: a core term worth revisiting after you try a real example.
+PostgreSQL: a tool commonly used for file system directories.
+
+Come back to this B-Trees on Disk list whenever documentation for SQLite uses a word you do not recognize.

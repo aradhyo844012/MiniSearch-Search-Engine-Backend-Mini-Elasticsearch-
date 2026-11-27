@@ -1,0 +1,11 @@
+Is Jupyter Notebooks Right for Your Project?
+
+Before adopting Jupyter Notebooks, ask whether it fits the problem. Remember that Jupyter Notebooks is interactive documents that combine code, results and notes.
+
+It is a good fit when your work involves exploring data or teaching and demos, and when your team understands cells.
+
+Be cautious when the project is very small, when deadlines leave no room to learn kernels, or when you cannot manage these risks: running cells out of order, hidden state, and committing outputs that contain secrets.
+
+A simple decision test: write down the problem in one sentence, then check whether markdown and outputs are part of the answer. If they are, Jupyter Notebooks is probably worth a closer look.
+
+If you decide to go ahead, start small with sharing analysis and restart the kernel and run all cells before sharing.

@@ -1,0 +1,11 @@
+Scaling Considerations for CPU Caches
+
+A design that works for a classroom project can behave very differently under real load. Here is how CPU Caches changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding cache lines and getting speeding up loops right.
+
+Medium scale: problems start to appear. Watch for false sharing and poor access patterns, and measure with perf before changing anything.
+
+Large scale: levels L1 to L3 and locality move from background details to central design questions. Teams often revisit their choices around explaining performance differences at this stage.
+
+Before you scale, access arrays in the order they are stored. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+Background Jobs vs Object-Relational Mappers: Which One Should You Learn First?
+
+Learners often ask whether to study Background Jobs or Object-Relational Mappers first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Background Jobs is tasks that run outside the request cycle so users do not have to wait for them, and it is closely tied to queues and workers. Object-Relational Mappers, by contrast, is libraries that map database tables to objects in code, and it is closely tied to models and queries.
+
+Choose Background Jobs first if you care about sending emails or resizing images. Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases.
+
+Think of Background Jobs as dropping laundry at a service and collecting it later, and of Object-Relational Mappers as a translator between the language of tables and the language of objects. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Background Jobs, avoid jobs that are not idempotent. With Object-Relational Mappers, avoid N+1 queries.
+
+A good habit for Background Jobs is to give every job a timeout and a retry limit. A good habit for Object-Relational Mappers is to log the generated SQL during development.

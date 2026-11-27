@@ -1,0 +1,12 @@
+Questions to Ask About Transformers in Code Review
+
+Reviewing code that involves Transformers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we begin with small pretrained models?
+- Would a test catch limited context windows if it appeared later?
+- Does this change respect self-attention, or does it work around it?
+- Have we avoided this problem: biased training data?
+- Does the code handle the case of language translation correctly?
+- Have we considered huge compute requirements?
+
+Good reviews of work on Transformers are specific, kind and focused on encoder and decoder blocks, not on personal style.

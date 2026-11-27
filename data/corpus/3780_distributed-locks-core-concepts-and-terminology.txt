@@ -1,0 +1,10 @@
+Distributed Locks: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Distributed Locks with confidence. The subject itself is mechanisms that ensure only one process at a time performs a critical action across machines.
+
+lease times: one of the building blocks of Distributed Locks. You should be able to explain it in a single sentence before moving on.
+fencing tokens: one of the building blocks of Distributed Locks. Documentation for Redis usually mentions it early.
+lock owners: one of the building blocks of Distributed Locks. Documentation for Redis usually mentions it early.
+timeouts: one of the building blocks of Distributed Locks. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about protecting shared resources. If the sentences feel natural, the vocabulary has stuck.

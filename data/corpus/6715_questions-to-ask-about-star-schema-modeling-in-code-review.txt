@@ -1,0 +1,12 @@
+Questions to Ask About Star Schema Modeling in Code Review
+
+Reviewing code that involves Star Schema Modeling is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of business intelligence reports correctly?
+- Does this change respect fact tables, or does it work around it?
+- Have we considered mixing different grains?
+- Could we state the grain of the fact table before designing anything else?
+- Is dbt used consistently, or are we mixing approaches?
+- Have we avoided this problem: missing date dimensions?
+
+Good reviews of work on Star Schema Modeling are specific, kind and focused on surrogate keys, not on personal style.

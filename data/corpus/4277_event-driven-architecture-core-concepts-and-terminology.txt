@@ -1,0 +1,10 @@
+Event-Driven Architecture: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Event-Driven Architecture with confidence. The subject itself is a style in which components communicate by publishing events and reacting to them.
+
+producers and consumers: one of the building blocks of Event-Driven Architecture. Documentation for Apache Kafka usually mentions it early.
+event brokers: one of the building blocks of Event-Driven Architecture. Documentation for Apache Kafka usually mentions it early.
+loose coupling: one of the building blocks of Event-Driven Architecture. You should be able to explain it in a single sentence before moving on.
+asynchronous handling: one of the building blocks of Event-Driven Architecture. It shows up whenever you work on order pipelines.
+
+Practice using these four terms in sentences about real-time notifications. If the sentences feel natural, the vocabulary has stuck.

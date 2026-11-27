@@ -1,0 +1,13 @@
+Hashing vs Encryption vs Dependency Vulnerabilities: Which One Should You Learn First?
+
+Learners often ask whether to study Hashing vs Encryption or Dependency Vulnerabilities first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Hashing vs Encryption is the difference between one-way digests and reversible protection of data, and it is closely tied to one-way functions and keys. Dependency Vulnerabilities, by contrast, is security weaknesses that come from third-party libraries a project uses, and it is closely tied to CVE identifiers and version pinning.
+
+Choose Hashing vs Encryption first if you care about storing passwords or verifying file integrity. Choose Dependency Vulnerabilities first if you care about auditing projects or automating updates.
+
+Think of Hashing vs Encryption as a paper shredder compared with a locked suitcase, and of Dependency Vulnerabilities as checking every ingredient supplier for recalls. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hashing vs Encryption, avoid encrypting passwords instead of hashing them. With Dependency Vulnerabilities, avoid ignoring transitive dependencies.
+
+A good habit for Hashing vs Encryption is to ask whether you will ever need the original value back. A good habit for Dependency Vulnerabilities is to automate update pull requests.

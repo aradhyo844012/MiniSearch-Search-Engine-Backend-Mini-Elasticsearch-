@@ -1,0 +1,12 @@
+Questions to Ask About Leader Election in Code Review
+
+Reviewing code that involves Leader Election is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is ZooKeeper used consistently, or are we mixing approaches?
+- Would a test catch flapping leaders if it appeared later?
+- Is terms or epochs clear to someone reading the code for the first time?
+- Does this change respect heartbeats, or does it work around it?
+- Have we considered split brain?
+- Have we avoided this problem: slow failure detection?
+
+Good reviews of work on Leader Election are specific, kind and focused on candidates, not on personal style.

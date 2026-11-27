@@ -1,0 +1,26 @@
+Everything You Need to Know About Bluetooth Low Energy
+
+This page collects the essentials about Bluetooth Low Energy in one place. In short, Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+Core concepts:
+- advertising
+- GATT services
+- characteristics
+- pairing
+
+Where it is used:
+- fitness trackers
+- smart locks
+- proximity beacons
+
+Common problems:
+- ignoring connection limits
+- weak pairing security
+- assuming long range
+
+Tools to know:
+- nRF Connect
+- BlueZ
+- Android Bluetooth APIs
+
+Remember this above all: a whisper between two nearby devices that barely uses any energy is a good way to picture it, and the best habit is to test with several phone models.

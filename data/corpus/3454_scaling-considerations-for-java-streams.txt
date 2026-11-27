@@ -1,0 +1,11 @@
+Scaling Considerations for Java Streams
+
+A design that works for a classroom project can behave very differently under real load. Here is how Java Streams changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding map and getting transforming lists right.
+
+Medium scale: problems start to appear. Watch for reusing a consumed stream and side effects inside lambdas, and measure with OpenJDK before changing anything.
+
+Large scale: reduce and lazy evaluation move from background details to central design questions. Teams often revisit their choices around aggregating records at this stage.
+
+Before you scale, keep each stream step small and readable. It is cheaper to build that habit early than to fix a crisis later.

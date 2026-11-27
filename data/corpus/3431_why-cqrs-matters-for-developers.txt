@@ -1,0 +1,11 @@
+Why CQRS Matters for Developers
+
+Developers who understand CQRS make better decisions, because CQRS is a pattern that separates the models used to change data from the models used to read it.
+
+Three situations show why it matters. First, high-read dashboards. Second, complex domains. Third, scaling reads independently. In each case, a solid grasp of commands and queries separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: adding it to simple apps, read models drifting out of sync, and duplicated logic.
+
+You will not need to build everything yourself; Axon Framework, MediatR, and Apache Kafka cover most needs.
+
+Connect CQRS with CAP Theorem to see the bigger picture of Distributed Systems.

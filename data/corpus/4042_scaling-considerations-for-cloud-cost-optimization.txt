@@ -1,0 +1,11 @@
+Scaling Considerations for Cloud Cost Optimization
+
+A design that works for a classroom project can behave very differently under real load. Here is how Cloud Cost Optimization changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding right-sizing and getting cutting idle resources right.
+
+Medium scale: problems start to appear. Watch for forgotten test environments and over-provisioned databases, and measure with AWS Cost Explorer before changing anything.
+
+Large scale: tagging and usage reports move from background details to central design questions. Teams often revisit their choices around budgeting by team at this stage.
+
+Before you scale, tag every resource with an owner. It is cheaper to build that habit early than to fix a crisis later.

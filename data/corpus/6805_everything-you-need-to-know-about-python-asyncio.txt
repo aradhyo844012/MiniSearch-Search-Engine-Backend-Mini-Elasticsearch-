@@ -1,0 +1,26 @@
+Everything You Need to Know About Python Asyncio
+
+This page collects the essentials about Python Asyncio in one place. In short, Python Asyncio is a library for running many waiting tasks concurrently on a single thread.
+
+Core concepts:
+- event loop
+- coroutines
+- await
+- tasks
+
+Where it is used:
+- calling many APIs at once
+- web servers
+- network clients
+
+Common problems:
+- blocking calls inside coroutines
+- forgetting to await
+- mixing threads and event loops carelessly
+
+Tools to know:
+- asyncio
+- aiohttp
+- FastAPI
+
+Remember this above all: a chef who starts several dishes and checks each one when its timer rings is a good way to picture it, and the best habit is to never call blocking code directly inside a coroutine.

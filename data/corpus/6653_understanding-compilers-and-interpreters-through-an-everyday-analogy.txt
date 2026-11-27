@@ -1,0 +1,9 @@
+Understanding Compilers and Interpreters Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a translator who either translates a whole book first or interprets sentence by sentence.
+
+In that picture, lexing is the first rule you follow, parsing is the next step, and code generation and bytecode keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Compilers and Interpreters is programs that translate or run source code written in a high-level language, and it involves details such as assuming interpreted means slow without measuring that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for GCC to learn the exact behavior. The same picture helps when you explain running Python and JavaScript to a friend.

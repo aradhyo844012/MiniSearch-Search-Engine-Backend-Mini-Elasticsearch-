@@ -1,0 +1,9 @@
+Understanding Feature Stores Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a shared pantry of prepared ingredients for many recipes.
+
+In that picture, offline store is the first rule you follow, online store is the next step, and point-in-time correctness and feature definitions keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Feature Stores is systems that store and serve the input variables used by machine learning models, and it involves details such as leaking future data that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Feast to learn the exact behavior. The same picture helps when you explain sharing features across models to a friend.

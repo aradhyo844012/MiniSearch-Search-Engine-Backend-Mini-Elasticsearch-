@@ -1,0 +1,15 @@
+Combining Random Forests with Transformers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Random Forests and Transformers can work together in a single project.
+
+Random Forests is ensembles of many decision trees whose predictions are combined. Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+Imagine a project that involves tabular predictions and language translation. Random Forests brings bagging, while Transformers brings self-attention.
+
+A sensible plan is to start with scikit-learn for the Random Forests part and Hugging Face for the Transformers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: very large forests being slow on one side, and limited context windows on the other.
+
+Picture the whole as asking many different experts and taking the majority view, working alongside a reader who can look back at any word of a paragraph while reading each new word.
+
+Two habits help: first, tune the number of trees only after the basics work; second, begin with small pretrained models.

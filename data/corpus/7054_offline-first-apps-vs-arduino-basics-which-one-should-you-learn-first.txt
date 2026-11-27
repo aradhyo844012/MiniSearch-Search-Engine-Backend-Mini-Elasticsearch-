@@ -1,0 +1,13 @@
+Offline-First Apps vs Arduino Basics: Which One Should You Learn First?
+
+Learners often ask whether to study Offline-First Apps or Arduino Basics first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Offline-First Apps is apps designed to work without a network and sync when a connection returns, and it is closely tied to local storage and sync queues. Arduino Basics, by contrast, is a beginner-friendly microcontroller platform for reading sensors and controlling devices, and it is closely tied to sketches and digital and analog pins.
+
+Choose Offline-First Apps first if you care about field service tools or note-taking apps. Choose Arduino Basics first if you care about reading sensors or driving motors and LEDs.
+
+Think of Offline-First Apps as writing in a notebook and mailing the pages later, and of Arduino Basics as a tiny brain that watches inputs and flips switches. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Offline-First Apps, avoid unresolved sync conflicts. With Arduino Basics, avoid wiring errors.
+
+A good habit for Offline-First Apps is to show users which changes have not synced yet. A good habit for Arduino Basics is to test each sensor on its own before combining them.

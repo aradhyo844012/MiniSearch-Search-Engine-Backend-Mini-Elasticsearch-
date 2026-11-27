@@ -1,0 +1,11 @@
+Mobile App Security Tips from Experienced Engineers
+
+Engineers who work with Mobile App Security regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip secure storage; everything else builds on it.
+2. Be careful with this one: storing tokens in plain text.
+3. Test the case of banking apps early, before the design hardens.
+4. Reach for OWASP MASVS first, and only then evaluate alternatives such as Android Keystore.
+5. Write down why you chose Mobile App Security so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to health apps as well.

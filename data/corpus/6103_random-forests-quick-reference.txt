@@ -1,0 +1,15 @@
+Random Forests Quick Reference
+
+A one-screen reminder for Random Forests. Bookmark it and return when the details fade.
+
+What it is: ensembles of many decision trees whose predictions are combined.
+Key terms: bagging, feature randomness, voting, and out-of-bag error.
+Typical uses: tabular predictions, feature importance ranking, and strong baseline models.
+Risks: treating importance scores as causes, very large forests being slow, and ignoring class imbalance.
+Tools: scikit-learn, XGBoost, and LightGBM.
+
+Mental picture: asking many different experts and taking the majority view.
+
+Habit to build: tune the number of trees only after the basics work.
+
+See also: Reinforcement Learning, which sits close to Random Forests in the area of AI and Machine Learning.

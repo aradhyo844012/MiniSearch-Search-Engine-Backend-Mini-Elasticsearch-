@@ -1,0 +1,11 @@
+Practice Exercises for Database Migrations
+
+These exercises build real understanding of Database Migrations. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Database Migrations and include the term up and down scripts.
+Exercise 2: Compare Flyway and Django migrations for keeping environments in sync and write down your conclusion.
+Exercise 3: Create a small example that deliberately triggers this problem: locking large tables. Then fix it.
+Exercise 4: Explain how backward compatibility and zero-downtime changes differ, using a drawing.
+Exercise 5: Pick Alembic and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way.

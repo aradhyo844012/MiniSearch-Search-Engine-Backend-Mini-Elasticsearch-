@@ -1,0 +1,13 @@
+CSS Variables vs Progressive Web Apps: Which One Should You Learn First?
+
+Learners often ask whether to study CSS Variables or Progressive Web Apps first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles, and it is closely tied to custom properties and the var function. Progressive Web Apps, by contrast, is web applications that can be installed and work offline like native apps, and it is closely tied to web app manifest and service worker.
+
+Choose CSS Variables first if you care about theme switching or design systems. Choose Progressive Web Apps first if you care about offline-friendly tools or lightweight alternatives to native apps.
+
+Think of CSS Variables as labeled paint buckets you refill once to recolor a whole house, and of Progressive Web Apps as a website that packs its own suitcase so it still works when the network is gone. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CSS Variables, avoid missing fallbacks. With Progressive Web Apps, avoid ignoring platform limitations.
+
+A good habit for CSS Variables is to define theme values on the root element. A good habit for Progressive Web Apps is to test the app in airplane mode.

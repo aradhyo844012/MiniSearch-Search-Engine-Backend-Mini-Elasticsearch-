@@ -1,0 +1,15 @@
+Combining Pagination with Dependency Injection in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Pagination and Dependency Injection can work together in a single project.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time. Dependency Injection is a design approach where objects receive their dependencies instead of creating them.
+
+Imagine a project that involves search results and easier unit testing. Pagination brings offset pagination, while Dependency Injection brings constructor injection.
+
+A sensible plan is to start with SQL LIMIT and OFFSET for the Pagination part and Spring for the Dependency Injection part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unstable sort order on one side, and circular dependencies on the other.
+
+Picture the whole as reading a long book one chapter at a time with a bookmark, working alongside a chef who is handed ingredients instead of shopping for them.
+
+Two habits help: first, prefer cursors for large or fast-changing data; second, inject interfaces so tests can use simple fakes.

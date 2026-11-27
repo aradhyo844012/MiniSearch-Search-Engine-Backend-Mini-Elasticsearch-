@@ -1,0 +1,11 @@
+Why Eventual Consistency Matters for Developers
+
+Developers who understand Eventual Consistency make better decisions, because Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+Three situations show why it matters. First, global social feeds. Second, shopping cart services. Third, DNS records. In each case, a solid grasp of replication delay and conflict resolution separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: assuming reads are always fresh, unresolved write conflicts, and no user feedback during delays.
+
+Good tools exist, including Amazon DynamoDB, Apache Cassandra, and CRDT libraries, so you rarely have to start from nothing.
+
+Connect Eventual Consistency with Column-Oriented Storage to see the bigger picture of Storage Engines and Databases.

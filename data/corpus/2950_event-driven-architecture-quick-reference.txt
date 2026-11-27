@@ -1,0 +1,15 @@
+Event-Driven Architecture Quick Reference
+
+A one-screen reminder for Event-Driven Architecture. Bookmark it and return when the details fade.
+
+What it is: a style in which components communicate by publishing events and reacting to them.
+Key terms: producers and consumers, event brokers, loose coupling, and asynchronous handling.
+Typical uses: order pipelines, real-time notifications, and integrating many services.
+Risks: hard-to-trace flows, duplicate events, and unclear event ownership.
+Tools: Apache Kafka, RabbitMQ, and AWS EventBridge.
+
+Mental picture: a notice board where people post news and others react when they see it.
+
+Habit to build: document every event name and schema.
+
+See also: Code Documentation, which sits close to Event-Driven Architecture in the area of Software Design.

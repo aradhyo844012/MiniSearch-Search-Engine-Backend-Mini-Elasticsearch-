@@ -1,0 +1,13 @@
+Offline-First Apps Explained Simply
+
+Here is Offline-First Apps without the jargon: it is apps designed to work without a network and sync when a connection returns.
+
+Think of Offline-First Apps as writing in a notebook and mailing the pages later. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: local storage, sync queues, conflict resolution, and optimistic updates. You do not need to master them all at once. Start with local storage, then add sync queues.
+
+You will meet Offline-First Apps in work such as field service tools, note-taking apps, and apps for low-connectivity regions.
+
+One practical tip is to show users which changes have not synced yet.
+
+Once Offline-First Apps feels comfortable, read about Arduino Basics, which lives in the same neighborhood of ideas.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Push Notifications
+
+This page collects the essentials about Push Notifications in one place. In short, Push Notifications is messages sent to a user's device from a server even when the app is closed.
+
+Core concepts:
+- device tokens
+- push services
+- payloads
+- permissions
+
+Where it is used:
+- order updates
+- chat alerts
+- re-engaging users
+
+Common problems:
+- asking for permission too early
+- sending too many messages
+- ignoring token refresh
+
+Tools to know:
+- Firebase Cloud Messaging
+- Apple Push Notification service
+- OneSignal
+
+Remember this above all: a courier who knocks on your door when a package arrives is a good way to picture it, and the best habit is to ask for permission at a moment when the user understands the value.

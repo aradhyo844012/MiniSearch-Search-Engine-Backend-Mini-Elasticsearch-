@@ -1,0 +1,17 @@
+Data Quality Checks for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Data Quality Checks.
+
+Learning goals:
+1. Explain Data Quality Checks in your own words.
+2. Describe null checks, uniqueness, freshness, and schema validation.
+3. Give examples from protecting dashboards and validating ingestion.
+4. Name three problems to watch for.
+
+Start with the definition: Data Quality Checks is automated tests that verify data is complete, valid and consistent. Then draw a quality inspector at the end of an assembly line on paper and label the four terms from the goals above.
+
+Self-test questions: Why is alerts nobody reads a problem? How does uniqueness relate to freshness? When would you choose Great Expectations or dbt tests?
+
+Study habit: check data as early as it enters the pipeline.
+
+When you feel ready, compare Data Quality Checks with Feature Stores and write down three differences.

@@ -1,0 +1,11 @@
+Scaling Considerations for Content Security Policy
+
+A design that works for a classroom project can behave very differently under real load. Here is how Content Security Policy changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding directives and getting reducing the impact of XSS right.
+
+Medium scale: problems start to appear. Watch for allowing unsafe-inline and policies too broad to help, and measure with browser DevTools before changing anything.
+
+Large scale: report-only mode and trusted sources move from background details to central design questions. Teams often revisit their choices around blocking unwanted scripts at this stage.
+
+Before you scale, start in report-only mode to learn what would break. It is cheaper to build that habit early than to fix a crisis later.

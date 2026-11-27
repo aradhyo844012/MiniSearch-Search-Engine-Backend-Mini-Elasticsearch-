@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Data Augmentation
+
+This path is for a learner who has never studied Data Augmentation before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Data Augmentation is creating modified copies of training data to help models generalize) and learn transformations and label preservation.
+
+Stage 2, hands-on: install Albumentations, follow a tutorial, and build a small example involving image models.
+
+Stage 3, depth: study synthetic samples and augmentation pipelines, then deliberately explore this problem: changes that alter the label.
+
+Stage 4, application: apply Data Augmentation to text classification, compare torchvision with nlpaug, and write up your results.
+
+Stage 5, review: teach Data Augmentation to someone else, and then move on to Support Vector Machines.

@@ -1,0 +1,17 @@
+API Design Principles Do's and Don'ts
+
+A quick list of habits for working with API Design Principles.
+
+Do:
+- Learn consistent naming before anything else.
+- Try OpenAPI on a small example.
+- Make it a habit to write the documentation before the implementation.
+- Test the case of public platforms early.
+
+Don't:
+- Ignore this: leaking internal details.
+- Ignore this: inconsistent responses.
+- Ignore this: undocumented behavior.
+- Adopt API Design Principles just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with API Design Principles, a little patience with clear errors pays off more than any clever shortcut.

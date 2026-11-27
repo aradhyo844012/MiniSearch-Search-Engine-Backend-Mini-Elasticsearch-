@@ -1,0 +1,13 @@
+Teaching Embeddings to a Teammate
+
+Explaining Embeddings to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: coordinates on a map where similar places are close together. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Embeddings is lists of numbers that represent words, images or items so that similar things sit close together. Avoid jargon at this stage.
+
+Walk through an example involving semantic search, naming vectors and cosine similarity as they come up.
+
+Ask your teammate to explain dimensionality in Embeddings back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, mixing models between indexing and querying, and suggest this habit: use the same embedding model for indexing and querying.

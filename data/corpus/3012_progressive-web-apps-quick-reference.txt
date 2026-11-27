@@ -1,0 +1,15 @@
+Progressive Web Apps Quick Reference
+
+A one-screen reminder for Progressive Web Apps. Bookmark it and return when the details fade.
+
+What it is: web applications that can be installed and work offline like native apps.
+Key terms: web app manifest, service worker, installability, and responsive design.
+Typical uses: offline-friendly tools, lightweight alternatives to native apps, and low-bandwidth markets.
+Risks: ignoring platform limitations, poor offline fallbacks, and heavy first loads.
+Tools: Lighthouse, Workbox, and PWABuilder.
+
+Mental picture: a website that packs its own suitcase so it still works when the network is gone.
+
+Habit to build: test the app in airplane mode.
+
+See also: Web Storage, which sits close to Progressive Web Apps in the area of Frontend Engineering.

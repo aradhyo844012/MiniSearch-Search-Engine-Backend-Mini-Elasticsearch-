@@ -1,0 +1,11 @@
+Is Offline-First Apps Right for Your Project?
+
+Before adopting Offline-First Apps, ask whether it fits the problem. Remember that Offline-First Apps is apps designed to work without a network and sync when a connection returns.
+
+It is a good fit when your work involves field service tools or note-taking apps, and when your team understands local storage.
+
+Be cautious when the project is very small, when deadlines leave no room to learn sync queues, or when you cannot manage these risks: unresolved sync conflicts, unbounded local data, and poor feedback about pending changes.
+
+A simple decision test: write down the problem in one sentence, then check whether conflict resolution and optimistic updates are part of the answer. If they are, Offline-First Apps is probably worth a closer look.
+
+If you decide to go ahead, start small with apps for low-connectivity regions and show users which changes have not synced yet.

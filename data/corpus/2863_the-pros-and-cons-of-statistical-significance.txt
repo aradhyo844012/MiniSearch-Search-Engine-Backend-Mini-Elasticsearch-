@@ -1,0 +1,15 @@
+The Pros and Cons of Statistical Significance
+
+No technology is free of trade-offs, and Statistical Significance is no exception. Here is an honest summary.
+
+Advantages:
+- Supports judging experiment results
+- Makes comparing model performance easier
+- Helps with reporting research findings
+
+Drawbacks and risks:
+- Risk: mistaking significance for importance
+- Risk: p-hacking
+- Risk: ignoring sample size
+
+Weigh the two lists against your own project. If the advantages match your needs, such as judging experiment results, and you can manage the risks, Statistical Significance is a sound choice. Whatever you decide, always report the effect size alongside the p-value.

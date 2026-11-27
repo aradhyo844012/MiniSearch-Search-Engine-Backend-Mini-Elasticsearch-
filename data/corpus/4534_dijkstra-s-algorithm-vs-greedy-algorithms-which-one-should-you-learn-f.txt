@@ -1,0 +1,13 @@
+Dijkstra's Algorithm vs Greedy Algorithms: Which One Should You Learn First?
+
+Learners often ask whether to study Dijkstra's Algorithm or Greedy Algorithms first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights, and it is closely tied to priority queue and distance table. Greedy Algorithms, by contrast, is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure.
+
+Choose Dijkstra's Algorithm first if you care about route planning or network routing. Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding.
+
+Think of Dijkstra's Algorithm as a GPS that keeps expanding to the nearest unvisited intersection, and of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Dijkstra's Algorithm, avoid using it with negative edge weights. With Greedy Algorithms, avoid assuming greedy always works.
+
+A good habit for Dijkstra's Algorithm is to stop as soon as the destination is popped from the queue. A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it.

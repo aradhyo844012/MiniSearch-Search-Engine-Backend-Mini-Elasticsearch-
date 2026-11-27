@@ -1,0 +1,11 @@
+Scaling Considerations for Integration Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Integration Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding test databases and getting verifying API and database interaction right.
+
+Medium scale: problems start to appear. Watch for slow suites and flaky external dependencies, and measure with Testcontainers before changing anything.
+
+Large scale: fixtures and test environments move from background details to central design questions. Teams often revisit their choices around catching contract mismatches at this stage.
+
+Before you scale, use disposable containers for test dependencies. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,11 @@
+Push Notifications in Real Projects
+
+Reading about Push Notifications is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: order updates. Here, device tokens drives the main design choices, and the team needs to guard against asking for permission too early.
+
+Scenario two: chat alerts. This time push services matters most, and tools such as Firebase Cloud Messaging help keep things manageable.
+
+Scenario three: re-engaging users. The key idea is payloads, and the biggest risk is sending too many messages.
+
+Across all three scenarios, Push Notifications stays the same idea: messages sent to a user's device from a server even when the app is closed. Only the details change.

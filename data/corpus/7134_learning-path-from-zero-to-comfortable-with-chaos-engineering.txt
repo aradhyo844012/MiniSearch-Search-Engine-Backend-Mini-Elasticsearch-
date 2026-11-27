@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Chaos Engineering
+
+This path is for a learner who has never studied Chaos Engineering before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Chaos Engineering is deliberately causing failures in a system to learn how it responds) and learn steady state and hypotheses.
+
+Stage 2, hands-on: install Chaos Monkey, follow a tutorial, and build a small example involving testing resilience.
+
+Stage 3, depth: study blast radius and fault injection, then deliberately explore this problem: experimenting without safeguards.
+
+Stage 4, application: apply Chaos Engineering to validating failover, compare Gremlin with LitmusChaos, and write up your results.
+
+Stage 5, review: teach Chaos Engineering to someone else, and then move on to Integration Testing.

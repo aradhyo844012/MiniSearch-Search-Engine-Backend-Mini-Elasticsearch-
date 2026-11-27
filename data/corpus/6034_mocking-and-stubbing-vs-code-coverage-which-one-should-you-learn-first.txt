@@ -1,0 +1,13 @@
+Mocking and Stubbing vs Code Coverage: Which One Should You Learn First?
+
+Learners often ask whether to study Mocking and Stubbing or Code Coverage first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Mocking and Stubbing is replacing real dependencies with controlled fakes during tests, and it is closely tied to mocks and stubs. Code Coverage, by contrast, is a measure of how much of the code is run by tests, and it is closely tied to line coverage and branch coverage.
+
+Choose Mocking and Stubbing first if you care about isolating units or simulating failures. Choose Code Coverage first if you care about finding untested code or setting quality gates.
+
+Think of Mocking and Stubbing as a crash test dummy standing in for a real passenger, and of Code Coverage as a map showing which rooms a security guard has walked through. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mocking and Stubbing, avoid over-mocking. With Code Coverage, avoid chasing 100 percent.
+
+A good habit for Mocking and Stubbing is to prefer simple fakes over deep mock chains. A good habit for Code Coverage is to use coverage to find gaps, not to judge quality.

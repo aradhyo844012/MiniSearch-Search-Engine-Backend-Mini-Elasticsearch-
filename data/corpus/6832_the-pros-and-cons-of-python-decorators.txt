@@ -1,0 +1,15 @@
+The Pros and Cons of Python Decorators
+
+No technology is free of trade-offs, and Python Decorators is no exception. Here is an honest summary.
+
+Advantages:
+- Supports logging calls
+- Makes caching results easier
+- Helps with checking permissions
+
+Drawbacks and risks:
+- Risk: losing function metadata
+- Risk: stacking decorators in the wrong order
+- Risk: hiding side effects
+
+Weigh the two lists against your own project. If the advantages match your needs, such as logging calls, and you can manage the risks, Python Decorators is a sound choice. Whatever you decide, always apply functools.wraps inside your decorator.

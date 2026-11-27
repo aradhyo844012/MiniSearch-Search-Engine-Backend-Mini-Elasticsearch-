@@ -1,0 +1,13 @@
+Vector Clocks Explained Simply
+
+If Vector Clocks sounds intimidating, relax. It is counters that let distributed processes track the order of events without a shared clock, and the idea is simpler than the name suggests.
+
+Think of Vector Clocks as each person in a group chat keeping a tally of messages seen from everyone. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: logical time, per-process counters, the happened-before relation, and conflict detection. You do not need to master them all at once. Start with logical time, then add per-process counters.
+
+You will meet Vector Clocks in work such as detecting concurrent edits, replicated databases, and collaborative tools.
+
+One practical tip is to compare clocks entry by entry to detect true concurrency.
+
+Once Vector Clocks feels comfortable, read about Idempotency, which lives in the same neighborhood of ideas.

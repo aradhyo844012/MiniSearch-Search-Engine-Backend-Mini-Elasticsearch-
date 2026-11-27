@@ -1,0 +1,12 @@
+Questions to Ask About Technical Writing in Code Review
+
+Reviewing code that involves Technical Writing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: long unbroken paragraphs?
+- Does this change respect audience, or does it work around it?
+- Is structure clear to someone reading the code for the first time?
+- Would a test catch burying the main point if it appeared later?
+- Could we state the main point in the first two sentences?
+- Have we considered assuming too much knowledge?
+
+Good reviews of work on Technical Writing are specific, kind and focused on examples, not on personal style.

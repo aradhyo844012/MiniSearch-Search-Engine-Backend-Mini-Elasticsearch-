@@ -1,0 +1,17 @@
+Support Vector Machines for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Support Vector Machines.
+
+Learning goals:
+1. Explain Support Vector Machines in your own words.
+2. Describe margin, support vectors, kernels, and regularization.
+3. Give examples from text classification and small high-dimensional datasets.
+4. Name three problems to watch for.
+
+Start with the definition: Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes. Then draw drawing the widest road between two neighborhoods on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow training on large data a problem? How does support vectors relate to kernels? When would you choose scikit-learn or LIBSVM?
+
+Study habit worth keeping: scale features and try a linear kernel first.
+
+When you feel ready, compare Support Vector Machines with Transformers and write down three differences.

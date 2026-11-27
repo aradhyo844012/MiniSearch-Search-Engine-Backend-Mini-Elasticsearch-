@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Autoscaling
+
+This path is for a learner who has never studied Autoscaling before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Autoscaling is automatically adding or removing computing resources as demand changes) and learn scaling metrics and cooldown periods.
+
+Stage 2, hands-on: install Kubernetes HPA, follow a tutorial, and build a small example involving handling traffic spikes.
+
+Stage 3, depth: study minimum and maximum limits and horizontal scaling, then deliberately explore this problem: scaling too slowly.
+
+Stage 4, application: apply Autoscaling to saving money overnight, compare AWS Auto Scaling with KEDA, and write up your results.
+
+Stage 5, review: teach Autoscaling to someone else, and then move on to Service Mesh.

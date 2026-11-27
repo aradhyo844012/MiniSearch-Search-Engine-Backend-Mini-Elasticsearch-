@@ -1,0 +1,15 @@
+Distributed Locks Quick Reference
+
+A one-screen reminder for Distributed Locks. Bookmark it and return when the details fade.
+
+What it is: mechanisms that ensure only one process at a time performs a critical action across machines.
+Key terms: lease times, fencing tokens, lock owners, and timeouts.
+Typical uses: running scheduled jobs once, protecting shared resources, and selecting a leader.
+Risks: locks that never expire, clock drift, and assuming the lock holder is still alive.
+Tools: Redis, ZooKeeper, and etcd.
+
+Mental picture: a single key to a shared meeting room that expires automatically.
+
+Habit to build: always use a timeout together with a fencing token.
+
+See also: Saga Pattern, which sits close to Distributed Locks in the area of Distributed Systems.

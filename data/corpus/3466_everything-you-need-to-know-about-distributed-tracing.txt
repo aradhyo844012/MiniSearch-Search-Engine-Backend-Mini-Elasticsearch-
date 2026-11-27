@@ -1,0 +1,26 @@
+Everything You Need to Know About Distributed Tracing
+
+This page collects the essentials about Distributed Tracing in one place. In short, Distributed Tracing is following a single request as it passes through many services.
+
+Core concepts:
+- spans
+- trace IDs
+- context propagation
+- sampling
+
+Where it is used:
+- finding slow services
+- understanding dependencies
+- debugging errors across services
+
+Common problems:
+- missing context propagation
+- sampling too aggressively
+- overhead from too many spans
+
+Tools to know:
+- OpenTelemetry
+- Jaeger
+- Zipkin
+
+Remember this above all: a parcel tracking page that shows every stop on the route is a good way to picture it, and the best habit is to propagate trace IDs through every outgoing call.

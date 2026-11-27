@@ -1,0 +1,13 @@
+Skills to Build Around Python Asyncio
+
+Knowing the definition of Python Asyncio is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with event loop and coroutines, and able to explain them without notes.
+
+Hands-on practice: spend real time with asyncio on a Python Asyncio task, and try at least one alternative such as aiohttp.
+
+Judgment: learn to decide when Python Asyncio fits a problem such as calling many APIs at once, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a chef who starts several dishes and checks each one when its timer rings.
+
+Habits: never call blocking code directly inside a coroutine, and write down what you learn after each project.

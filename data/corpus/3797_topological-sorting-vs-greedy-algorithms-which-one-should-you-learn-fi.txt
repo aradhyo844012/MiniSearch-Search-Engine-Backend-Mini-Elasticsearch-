@@ -1,0 +1,13 @@
+Topological Sorting vs Greedy Algorithms: Which One Should You Learn First?
+
+Learners often ask whether to study Topological Sorting or Greedy Algorithms first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on, and it is closely tied to directed acyclic graphs and in-degree counts. Greedy Algorithms, by contrast, is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure.
+
+Choose Topological Sorting first if you care about build systems or course prerequisite planning. Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding.
+
+Think of Topological Sorting as a recipe that must list every step after the steps it depends on, and of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Topological Sorting, avoid ignoring cycles. With Greedy Algorithms, avoid assuming greedy always works.
+
+A good habit for Topological Sorting is to check for cycles first so you can report a clear error. A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it.

@@ -1,0 +1,17 @@
+SQL Window Functions Do's and Don'ts
+
+A quick list of habits for working with SQL Window Functions.
+
+Do:
+- Learn the OVER clause before anything else.
+- Try PostgreSQL on a small example.
+- Make it a habit to start with ROW_NUMBER and LAG on a small table.
+- Test the case of running totals early.
+
+Don't:
+- Ignore this: forgetting ORDER BY inside the window.
+- Ignore this: confusing them with GROUP BY.
+- Ignore this: slow sorts on huge partitions.
+- Adopt SQL Window Functions just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with SQL Window Functions, a little patience with partitions pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Interrupts vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study Interrupts or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Interrupts is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose Interrupts first if you care about keyboard and mouse input or timers. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of Interrupts as a phone call interrupting your reading, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Interrupts, avoid long handlers. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

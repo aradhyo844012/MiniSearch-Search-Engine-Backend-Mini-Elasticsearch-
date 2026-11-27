@@ -1,0 +1,15 @@
+Service Mesh Quick Reference
+
+A one-screen reminder for Service Mesh. Bookmark it and return when the details fade.
+
+What it is: an infrastructure layer that manages communication between services through proxies.
+Key terms: sidecar proxies, mutual TLS, traffic policies, and observability.
+Typical uses: securing service traffic, retries and timeouts, and fine-grained routing.
+Risks: added latency and complexity, adopting it too early, and hard-to-debug proxy configs.
+Tools: Istio, Linkerd, and Envoy.
+
+Mental picture: a postal system that applies delivery rules between buildings.
+
+Habit to build: adopt it only once the number of services makes manual setup painful.
+
+See also: Feature Flags, which sits close to Service Mesh in the area of DevOps and Cloud.

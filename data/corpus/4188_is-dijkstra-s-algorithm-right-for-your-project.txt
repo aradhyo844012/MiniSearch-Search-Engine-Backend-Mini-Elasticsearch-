@@ -1,0 +1,11 @@
+Is Dijkstra's Algorithm Right for Your Project?
+
+Before adopting Dijkstra's Algorithm, ask whether it fits the problem. Remember that Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+It is a good fit when your work involves route planning or network routing, and when your team understands priority queue.
+
+Be cautious when the project is very small, when deadlines leave no room to learn distance table, or when you cannot manage these risks: using it with negative edge weights, skipping the priority queue and getting slow code, and not stopping early when only one target is needed.
+
+A simple decision test: write down the problem in one sentence, then check whether edge relaxation and visited set are part of the answer. If they are, Dijkstra's Algorithm is probably worth a closer look.
+
+If you decide to go ahead, start small with game pathfinding and stop as soon as the destination is popped from the queue.

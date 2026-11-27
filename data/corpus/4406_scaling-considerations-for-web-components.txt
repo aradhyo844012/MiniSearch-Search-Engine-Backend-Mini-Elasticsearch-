@@ -1,0 +1,11 @@
+Scaling Considerations for Web Components
+
+A design that works for a classroom project can behave very differently under real load. Here is how Web Components changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding custom elements and getting design system components right.
+
+Medium scale: problems start to appear. Watch for styling surprises across the shadow boundary and poor accessibility, and measure with Lit before changing anything.
+
+Large scale: templates and slots move from background details to central design questions. Teams often revisit their choices around widgets reused across frameworks at this stage.
+
+Before you scale, document the attributes and events like a public API. It is cheaper to build that habit early than to fix a crisis later.

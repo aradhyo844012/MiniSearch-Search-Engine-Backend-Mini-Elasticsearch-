@@ -1,0 +1,9 @@
+Understanding GPUs and Parallelism Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a stadium of workers each doing one small identical task.
+
+In that picture, threads and blocks is the first rule you follow, kernels is the next step, and memory transfers and SIMD keep everything running smoothly.
+
+Every analogy breaks down eventually. Real GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once, and it involves details such as slow data transfers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for CUDA to learn the exact behavior. The same picture helps when you explain training neural networks to a friend.

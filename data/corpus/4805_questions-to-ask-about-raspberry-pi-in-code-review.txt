@@ -1,0 +1,12 @@
+Questions to Ask About Raspberry Pi in Code Review
+
+Reviewing code that involves Raspberry Pi is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch inadequate power supplies if it appeared later?
+- Does this change respect GPIO pins, or does it work around it?
+- Have we avoided this problem: exposing the device without hardening?
+- Is Linux clear to someone reading the code for the first time?
+- Is Raspberry Pi OS used consistently, or are we mixing approaches?
+- Does the code handle the case of home automation correctly?
+
+Good reviews of work on Raspberry Pi are specific, kind and focused on SD card storage, not on personal style.

@@ -1,0 +1,13 @@
+Greedy Algorithms vs Backtracking: Which One Should You Learn First?
+
+Learners often ask whether to study Greedy Algorithms or Backtracking first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Greedy Algorithms is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure. Backtracking, by contrast, is a search technique that builds solutions step by step and undoes steps that lead to dead ends, and it is closely tied to decision tree and pruning.
+
+Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding. Choose Backtracking first if you care about solving Sudoku or generating permutations.
+
+Think of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out, and of Backtracking as walking a maze and returning to the last fork whenever you hit a wall. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Greedy Algorithms, avoid assuming greedy always works. With Backtracking, avoid forgetting to undo changes.
+
+A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it. A good habit for Backtracking is to prune as early as possible because the savings multiply.

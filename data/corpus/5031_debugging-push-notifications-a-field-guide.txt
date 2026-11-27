@@ -1,0 +1,13 @@
+Debugging Push Notifications: A Field Guide
+
+When something goes wrong around Push Notifications, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: asking for permission too early, sending too many messages, and ignoring token refresh.
+Step 3: revisit device tokens and push services, since misunderstandings there cause many bugs.
+Step 4: use Firebase Cloud Messaging or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Push Notifications in work such as order updates come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, ask for permission at a moment when the user understands the value. It prevents a surprising number of repeat problems.

@@ -1,0 +1,15 @@
+Combining Segment Trees with Fenwick Trees in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Segment Trees and Fenwick Trees can work together in a single project.
+
+Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time. Fenwick Trees is a compact structure for prefix sums that supports fast updates.
+
+Imagine a project that involves range sum queries and counting inversions. Segment Trees brings tree nodes covering ranges, while Fenwick Trees brings binary indexed trees.
+
+A sensible plan is to start with C++ arrays for the Segment Trees part and C++ vectors for the Fenwick Trees part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: wrong tree size allocation on one side, and forgetting that nodes store partial sums on the other.
+
+Picture the whole as a tournament bracket that remembers the winner of every group of players, working alongside a set of running subtotals where each one covers a block of entries.
+
+Two habits help: first, test your tree against a slow brute-force version on small inputs; second, start indexing from one to keep the bit tricks simple.

@@ -1,0 +1,15 @@
+Java Streams Quick Reference
+
+A one-screen reminder for Java Streams. Bookmark it and return when the details fade.
+
+What it is: a way of processing collections with chains of declarative operations.
+Key terms: map, filter, reduce, and lazy evaluation.
+Typical uses: transforming lists, aggregating records, and processing data in parallel.
+Risks: reusing a consumed stream, side effects inside lambdas, and using parallel streams without measuring.
+Tools: OpenJDK, IntelliJ IDEA, and JUnit.
+
+Mental picture: a conveyor belt where each station changes the item before passing it on.
+
+Habit to build: keep each stream step small and readable.
+
+See also: Garbage Collection, which sits close to Java Streams in the area of Programming Languages.

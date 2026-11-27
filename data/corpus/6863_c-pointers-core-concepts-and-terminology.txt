@@ -1,0 +1,10 @@
+C Pointers: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about C Pointers with confidence. The subject itself is variables that store the memory address of another value.
+
+addresses: one of the building blocks of C Pointers. It shows up whenever you work on dynamic memory allocation.
+dereferencing: one of the building blocks of C Pointers. Documentation for GCC usually mentions it early.
+pointer arithmetic: one of the building blocks of C Pointers. You should be able to explain it in a single sentence before moving on.
+null pointers: one of the building blocks of C Pointers. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about passing large data efficiently. If the sentences feel natural, the vocabulary has stuck.

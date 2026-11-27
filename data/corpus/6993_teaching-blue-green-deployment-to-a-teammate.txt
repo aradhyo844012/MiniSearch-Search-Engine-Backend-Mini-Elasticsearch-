@@ -1,0 +1,13 @@
+Teaching Blue-Green Deployment to a Teammate
+
+Explaining Blue-Green Deployment to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: swapping to a fully prepared spare stage while the show goes on. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Avoid jargon at this stage.
+
+Walk through an example involving zero-downtime releases, naming blue and green environments and traffic switching as they come up.
+
+Ask your teammate to explain rollback in Blue-Green Deployment back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, database schema mismatches, and suggest this habit: keep the old environment running until the new one is proven.

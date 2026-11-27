@@ -1,0 +1,11 @@
+CPU Caches Tips from Experienced Engineers
+
+Engineers who work with CPU Caches regularly tend to repeat the same advice. Here it is.
+
+1. Reach for perf first, and only then evaluate alternatives such as Valgrind cachegrind.
+2. Do not skip cache lines; everything else builds on it.
+3. Make sure you can access arrays in the order they are stored.
+4. Write down why you chose CPU Caches so the next person understands the decision.
+5. Be careful with this one: false sharing.
+
+None of these tips needs special equipment, and all of them apply to explaining performance differences as well.

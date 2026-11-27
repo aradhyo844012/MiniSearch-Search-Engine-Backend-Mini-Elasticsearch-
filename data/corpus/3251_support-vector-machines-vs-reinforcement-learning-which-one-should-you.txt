@@ -1,0 +1,13 @@
+Support Vector Machines vs Reinforcement Learning: Which One Should You Learn First?
+
+Learners often ask whether to study Support Vector Machines or Reinforcement Learning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors. Reinforcement Learning, by contrast, is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment.
+
+Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets. Choose Reinforcement Learning first if you care about game playing or robot control.
+
+Think of Support Vector Machines as drawing the widest road between two neighborhoods, and of Reinforcement Learning as training a dog with treats for good behavior. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Support Vector Machines, avoid slow training on large data. With Reinforcement Learning, avoid badly designed rewards.
+
+A good habit for Support Vector Machines is to scale features and try a linear kernel first. A good habit for Reinforcement Learning is to start with simple environments.

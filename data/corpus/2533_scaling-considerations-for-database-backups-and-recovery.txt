@@ -1,0 +1,11 @@
+Scaling Considerations for Database Backups and Recovery
+
+A design that works for a classroom project can behave very differently under real load. Here is how Database Backups and Recovery changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding full and incremental backups and getting recovering deleted tables right.
+
+Medium scale: problems start to appear. Watch for never testing restores and storing backups on the same disk, and measure with pg_dump before changing anything.
+
+Large scale: recovery time objective and restore testing move from background details to central design questions. Teams often revisit their choices around migrating servers at this stage.
+
+Before you scale, schedule a restore drill on a regular basis. It is cheaper to build that habit early than to fix a crisis later.

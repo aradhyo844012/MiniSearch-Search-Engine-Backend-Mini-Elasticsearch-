@@ -1,0 +1,11 @@
+Is CAP Theorem Right for Your Project?
+
+Before adopting CAP Theorem, ask whether it fits the problem. Remember that CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.
+
+It is a good fit when your work involves choosing database types or designing multi-region services, and when your team understands consistency.
+
+Be cautious when the project is very small, when deadlines leave no room to learn availability, or when you cannot manage these risks: treating it as a three-way menu, ignoring latency trade-offs in normal operation, and assuming partitions never happen.
+
+A simple decision test: write down the problem in one sentence, then check whether partition tolerance and trade-offs are part of the answer. If they are, CAP Theorem is probably worth a closer look.
+
+If you decide to go ahead, start small with explaining system behavior in interviews and ask what your users prefer during a failure: stale answers or errors.

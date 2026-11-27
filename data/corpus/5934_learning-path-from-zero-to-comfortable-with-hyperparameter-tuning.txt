@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Hyperparameter Tuning
+
+This path is for a learner who has never studied Hyperparameter Tuning before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Hyperparameter Tuning is the process of searching for the best settings that control how a model learns) and learn search spaces and grid search.
+
+Stage 2, hands-on: install Optuna, follow a tutorial, and build a small example involving improving model accuracy.
+
+Stage 3, depth: study random search and validation scores, then deliberately explore this problem: tuning on the test set.
+
+Stage 4, application: apply Hyperparameter Tuning to comparing algorithms, compare scikit-learn GridSearchCV with Ray Tune, and write up your results.
+
+Stage 5, review: teach Hyperparameter Tuning to someone else, and then move on to Reinforcement Learning.

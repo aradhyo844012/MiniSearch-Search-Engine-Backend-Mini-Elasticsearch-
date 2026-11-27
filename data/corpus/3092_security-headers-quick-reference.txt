@@ -1,0 +1,15 @@
+Security Headers Quick Reference
+
+A one-screen reminder for Security Headers. Bookmark it and return when the details fade.
+
+What it is: HTTP response headers that tell browsers to enforce extra protections.
+Key terms: Strict-Transport-Security, X-Content-Type-Options, frame protections, and referrer policy.
+Typical uses: hardening websites, reducing clickjacking, and enforcing HTTPS.
+Risks: setting headers on only some routes, breaking embeds, and copying configurations without understanding them.
+Tools: securityheaders.com, Helmet.js, and Mozilla Observatory.
+
+Mental picture: safety instructions printed on the packaging of every page.
+
+Habit to build: test the headers on every environment.
+
+See also: Encryption at Rest, which sits close to Security Headers in the area of Application Security.

@@ -1,0 +1,9 @@
+Understanding Dependency Injection Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a chef who is handed ingredients instead of shopping for them.
+
+In that picture, constructor injection is the first rule you follow, interfaces is the next step, and containers and inversion of control keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Dependency Injection is a design approach where objects receive their dependencies instead of creating them, and it involves details such as hiding too much behind containers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Spring to learn the exact behavior. The same picture helps when you explain easier unit testing to a friend.

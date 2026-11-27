@@ -1,0 +1,13 @@
+Debugging LSM Trees: A Field Guide
+
+When something goes wrong around LSM Trees, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: read amplification, compaction stalls, and poor bloom filter tuning.
+Step 3: revisit memtable and sorted string tables, since misunderstandings there cause many bugs.
+Step 4: use RocksDB or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving LSM Trees in work such as write-heavy databases come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, watch compaction metrics before blaming the application. It prevents a surprising number of repeat problems.

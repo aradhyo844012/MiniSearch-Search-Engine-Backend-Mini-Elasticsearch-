@@ -1,0 +1,13 @@
+Interrupts vs System Calls: Which One Should You Learn First?
+
+Learners often ask whether to study Interrupts or System Calls first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Interrupts is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors. System Calls, by contrast, is the controlled doorway through which programs ask the operating system to do privileged work, and it is closely tied to user mode and kernel mode and syscall numbers.
+
+Choose Interrupts first if you care about keyboard and mouse input or timers. Choose System Calls first if you care about reading and writing files or creating processes.
+
+Think of Interrupts as a phone call interrupting your reading, and of System Calls as a service window where a customer asks staff to do things in the back office. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Interrupts, avoid long handlers. With System Calls, avoid ignoring error codes.
+
+A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work. A good habit for System Calls is to use strace to see what your program really asks the kernel to do.

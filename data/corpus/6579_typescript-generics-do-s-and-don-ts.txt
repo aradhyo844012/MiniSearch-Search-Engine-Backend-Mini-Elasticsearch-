@@ -1,0 +1,17 @@
+TypeScript Generics Do's and Don'ts
+
+A quick list of habits for working with TypeScript Generics.
+
+Do:
+- Learn type parameters before anything else.
+- Try tsc on a small example.
+- Make it a habit to add constraints so that error messages become clearer.
+- Test the case of reusable utility functions early.
+
+Don't:
+- Ignore this: overusing any.
+- Ignore this: overly complex generic types.
+- Ignore this: forgetting constraints.
+- Adopt TypeScript Generics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with TypeScript Generics, a little patience with constraints pays off more than any clever shortcut.

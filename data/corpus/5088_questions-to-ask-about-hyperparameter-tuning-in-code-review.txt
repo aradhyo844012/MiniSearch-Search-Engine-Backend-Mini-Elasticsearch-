@@ -1,0 +1,12 @@
+Questions to Ask About Hyperparameter Tuning in Code Review
+
+Reviewing code that involves Hyperparameter Tuning is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch searching too many options if it appeared later?
+- Is grid search clear to someone reading the code for the first time?
+- Is Optuna used consistently, or are we mixing approaches?
+- Does this change respect search spaces, or does it work around it?
+- Have we avoided this problem: ignoring training cost?
+- Does the code handle the case of improving model accuracy correctly?
+
+Good reviews of work on Hyperparameter Tuning are specific, kind and focused on random search, not on personal style.

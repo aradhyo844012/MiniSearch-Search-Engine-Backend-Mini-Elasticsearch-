@@ -1,0 +1,13 @@
+Teaching Garbage Collection to a Teammate
+
+Explaining Garbage Collection to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a cleaner who removes items nobody has touched in a while. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Garbage Collection is automatic memory management that finds and frees objects a program no longer uses. Avoid jargon at this stage.
+
+Walk through an example involving managed languages like Java and Python, naming reachability and generations as they come up.
+
+Ask your teammate to explain mark and sweep in Garbage Collection back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, creating huge numbers of short-lived objects, and suggest this habit: measure allocation rates before tuning collector settings.

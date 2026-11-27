@@ -1,0 +1,11 @@
+Is Modular Monoliths Right for Your Project?
+
+Before adopting Modular Monoliths, ask whether it fits the problem. Remember that Modular Monoliths is single deployable applications built from well-separated internal modules.
+
+It is a good fit when your work involves small teams or early-stage products, and when your team understands module boundaries.
+
+Be cautious when the project is very small, when deadlines leave no room to learn public interfaces, or when you cannot manage these risks: modules reaching into each other's tables, no enforced boundaries, and treating modules as just folders.
+
+A simple decision test: write down the problem in one sentence, then check whether shared database rules and dependency checks are part of the answer. If they are, Modular Monoliths is probably worth a closer look.
+
+If you decide to go ahead, start small with preparing for later service extraction and enforce boundaries with automated checks.

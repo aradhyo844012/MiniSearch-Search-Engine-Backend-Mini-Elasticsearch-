@@ -1,0 +1,15 @@
+Combining Service Workers with Internationalization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Service Workers and Internationalization can work together in a single project.
+
+Service Workers is scripts that run in the background of a browser and intercept network requests. Internationalization is designing software so it can be adapted to different languages and regions.
+
+Imagine a project that involves offline support and global products. Service Workers brings registration, while Internationalization brings locale detection.
+
+A sensible plan is to start with Workbox for the Service Workers part and i18next for the Internationalization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: bugs surviving across deployments on one side, and text that overflows layouts on the other.
+
+Picture the whole as a receptionist who answers common requests before they reach the manager, working alongside a stage set where the backdrop can be swapped for each audience.
+
+Two habits help: first, version your caches so old files can be removed; second, move every user-facing string into translation files from the first day.

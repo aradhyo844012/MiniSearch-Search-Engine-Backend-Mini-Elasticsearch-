@@ -1,0 +1,15 @@
+Combining Encryption at Rest with Threat Modeling in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Encryption at Rest and Threat Modeling can work together in a single project.
+
+Encryption at Rest is protecting stored data by encrypting it on disk or in a database. Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it.
+
+Imagine a project that involves protecting backups and designing new features. Encryption at Rest brings symmetric keys, while Threat Modeling brings assets.
+
+A sensible plan is to start with LUKS for the Encryption at Rest part and STRIDE for the Threat Modeling part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no key rotation on one side, and ignoring data flows on the other.
+
+Picture the whole as a locked safe inside a locked room, working alongside walking around a house asking where a burglar might get in.
+
+Two habits help: first, keep keys in a separate service from the data; second, draw the data flow diagram first.

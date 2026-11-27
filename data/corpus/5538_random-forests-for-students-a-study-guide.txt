@@ -1,0 +1,17 @@
+Random Forests for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Random Forests.
+
+Learning goals:
+1. Explain Random Forests in your own words.
+2. Describe bagging, feature randomness, voting, and out-of-bag error.
+3. Give examples from tabular predictions and feature importance ranking.
+4. Name three problems to watch for.
+
+Start with the definition: Random Forests is ensembles of many decision trees whose predictions are combined. Then draw asking many different experts and taking the majority view on paper and label the four terms from the goals above.
+
+Self-test questions: Why is treating importance scores as causes a problem? How does feature randomness relate to voting? When would you choose scikit-learn or XGBoost?
+
+Study habit: tune the number of trees only after the basics work.
+
+When you feel ready, compare Random Forests with Transformers and write down three differences.

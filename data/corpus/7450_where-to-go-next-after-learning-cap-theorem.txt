@@ -1,0 +1,11 @@
+Where to Go Next After Learning CAP Theorem
+
+You have met the basics of CAP Theorem. Here is how to keep the momentum going.
+
+Go wider: read about Vector Clocks, which belongs to the same area as CAP Theorem (Distributed Systems) and often appears in the same projects.
+
+Go deeper: choose one of consistency, availability, partition tolerance or trade-offs, and study it until you can explain it to a beginner.
+
+Go practical: build something around designing multi-region services with Apache Cassandra, and note every problem you meet, starting with treating it as a three-way menu.
+
+Go social: share what you learned. Explaining CAP Theorem to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

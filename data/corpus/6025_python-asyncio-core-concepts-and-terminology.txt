@@ -1,0 +1,10 @@
+Python Asyncio: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Python Asyncio with confidence. The subject itself is a library for running many waiting tasks concurrently on a single thread.
+
+event loop: one of the building blocks of Python Asyncio. You should be able to explain it in a single sentence before moving on.
+coroutines: one of the building blocks of Python Asyncio. It shows up whenever you work on calling many APIs at once.
+await: one of the building blocks of Python Asyncio. Mixing it up with neighboring terms is a common source of confusion.
+tasks: one of the building blocks of Python Asyncio. It shows up whenever you work on calling many APIs at once.
+
+Practice using these four terms in sentences about web servers. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,16 @@
+A Mini Project Idea Using Autoscaling
+
+A small project is the fastest way to make Autoscaling stick. This one takes a weekend and needs only a laptop.
+
+The goal is to build a tiny program or demo that shows Autoscaling at work on handling traffic spikes. Keep the scope small enough to finish.
+
+Milestones:
+1. Read about scaling metrics and cooldown periods.
+2. Set up Kubernetes HPA and run a hello-world example.
+3. Add the core feature.
+4. Handle one failure case, such as scaling too slowly.
+5. Write a short README explaining what you learned.
+
+Stretch goals: extend the demo to cover saving money overnight, or compare AWS Auto Scaling with KEDA.
+
+Finish by recording what surprised you. Writing it down is how knowledge about Autoscaling turns into something you can show others.

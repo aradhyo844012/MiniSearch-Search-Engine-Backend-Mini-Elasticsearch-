@@ -1,0 +1,15 @@
+Fenwick Trees Quick Reference
+
+A one-screen reminder for Fenwick Trees. Bookmark it and return when the details fade.
+
+What it is: a compact structure for prefix sums that supports fast updates.
+Key terms: binary indexed trees, lowest set bit, prefix sums, and point updates.
+Typical uses: counting inversions, maintaining running totals, and building frequency tables.
+Risks: using zero-based indexes by mistake, forgetting that nodes store partial sums, and using it for operations that cannot be reversed.
+Tools: C++ vectors, Python lists, and LeetCode practice problems.
+
+Mental picture: a set of running subtotals where each one covers a block of entries.
+
+Habit to build: start indexing from one to keep the bit tricks simple.
+
+See also: Skip Lists, which sits close to Fenwick Trees in the area of Algorithms in Practice.

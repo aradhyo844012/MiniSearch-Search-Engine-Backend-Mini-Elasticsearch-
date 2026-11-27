@@ -1,0 +1,17 @@
+CQRS Do's and Don'ts
+
+A quick list of habits for working with CQRS.
+
+Do:
+- Learn commands before anything else.
+- Try Axon Framework on a small example.
+- Make it a habit to start with a single model and split only when reads and writes truly diverge.
+- Test the case of high-read dashboards early.
+
+Don't:
+- Ignore this: adding it to simple apps.
+- Ignore this: read models drifting out of sync.
+- Ignore this: duplicated logic.
+- Adopt CQRS just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with CQRS, a little patience with queries pays off more than any clever shortcut.

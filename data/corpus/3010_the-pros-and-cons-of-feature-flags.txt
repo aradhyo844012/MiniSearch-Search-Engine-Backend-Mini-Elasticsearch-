@@ -1,0 +1,15 @@
+The Pros and Cons of Feature Flags
+
+No technology is free of trade-offs, and Feature Flags is no exception. Here is an honest summary.
+
+Advantages:
+- Supports dark launches
+- Makes A/B tests easier
+- Helps with emergency kill switches
+
+Drawbacks and risks:
+- Risk: never removing old flags
+- Risk: flags that depend on each other
+- Risk: untested flag combinations
+
+Weigh the two lists against your own project. If the advantages match your needs, such as dark launches, and you can manage the risks, Feature Flags is a sound choice. Whatever you decide, give every flag an owner and a removal date.

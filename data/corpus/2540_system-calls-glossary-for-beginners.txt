@@ -1,0 +1,12 @@
+System Calls Glossary for Beginners
+
+New words can make System Calls feel harder than it is. This glossary keeps the key ones in one place.
+
+System Calls: the controlled doorway through which programs ask the operating system to do privileged work.
+user mode and kernel mode: a core term, most visible in reading and writing files.
+syscall numbers: a core term that beginners often confuse with file descriptors.
+file descriptors: a core term that connects to libc wrappers.
+libc wrappers: a core term worth revisiting after you try a real example.
+strace: a tool commonly used for creating processes.
+
+Come back to this System Calls list whenever documentation for man pages uses a word you do not recognize.

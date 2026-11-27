@@ -1,0 +1,26 @@
+Everything You Need to Know About LSM Trees
+
+This page collects the essentials about LSM Trees in one place. In short, LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk.
+
+Core concepts:
+- memtable
+- sorted string tables
+- compaction
+- write amplification
+
+Where it is used:
+- write-heavy databases
+- time-ordered data
+- key-value stores
+
+Common problems:
+- read amplification
+- compaction stalls
+- poor bloom filter tuning
+
+Tools to know:
+- RocksDB
+- LevelDB
+- Apache Cassandra
+
+Remember this above all: a mail room that sorts incoming letters in batches rather than one by one is a good way to picture it, and the best habit is to watch compaction metrics before blaming the application.

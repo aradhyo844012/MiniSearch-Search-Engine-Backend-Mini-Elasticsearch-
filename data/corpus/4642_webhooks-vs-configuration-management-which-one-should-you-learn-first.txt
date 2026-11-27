@@ -1,0 +1,13 @@
+Webhooks vs Configuration Management: Which One Should You Learn First?
+
+Learners often ask whether to study Webhooks or Configuration Management first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Webhooks is HTTP callbacks that let one service notify another when an event happens, and it is closely tied to event payloads and signature verification. Configuration Management, by contrast, is keeping application settings separate from code so they can change per environment, and it is closely tied to environment variables and config files.
+
+Choose Webhooks first if you care about payment notifications or CI triggers. Choose Configuration Management first if you care about separating development and production or toggling features.
+
+Think of Webhooks as a doorbell that rings when a delivery arrives instead of you checking the porch, and of Configuration Management as the settings dial on a machine that stays the same on every site. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Webhooks, avoid not verifying signatures. With Configuration Management, avoid committing secrets.
+
+A good habit for Webhooks is to respond quickly and process the event in a background job. A good habit for Configuration Management is to fail fast at startup if a required setting is missing.

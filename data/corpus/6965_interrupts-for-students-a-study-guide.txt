@@ -1,0 +1,17 @@
+Interrupts for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Interrupts.
+
+Learning goals:
+1. Explain Interrupts in your own words.
+2. Describe interrupt handlers, interrupt vectors, priorities, and context saving.
+3. Give examples from keyboard and mouse input and timers.
+4. Name three problems to watch for.
+
+Start with the definition: Interrupts is signals that make a processor pause its work to handle an urgent event. Then draw a phone call interrupting your reading on paper and label the four terms from the goals above.
+
+Self-test questions: Why is long handlers a problem? How does interrupt vectors relate to priorities? When would you choose Linux /proc/interrupts or logic analyzers?
+
+Study habit: keep interrupt handlers short and defer the heavy work.
+
+When you feel ready, compare Interrupts with Compilers and Interpreters and write down three differences.

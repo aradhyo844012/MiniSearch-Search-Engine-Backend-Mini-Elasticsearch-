@@ -1,0 +1,17 @@
+Dependency Vulnerabilities for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Dependency Vulnerabilities.
+
+Learning goals:
+1. Explain Dependency Vulnerabilities in your own words.
+2. Describe CVE identifiers, version pinning, transitive dependencies, and software bills of materials.
+3. Give examples from auditing projects and automating updates.
+4. Name three problems to watch for.
+
+Start with the definition: Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses. Then draw checking every ingredient supplier for recalls on paper and label the four terms from the goals above.
+
+Self-test questions: Why is ignoring transitive dependencies a problem? How does version pinning relate to transitive dependencies? When would you choose Dependabot or pip-audit?
+
+Study habit: automate update pull requests.
+
+When you feel ready, compare Dependency Vulnerabilities with Encryption at Rest and write down three differences.

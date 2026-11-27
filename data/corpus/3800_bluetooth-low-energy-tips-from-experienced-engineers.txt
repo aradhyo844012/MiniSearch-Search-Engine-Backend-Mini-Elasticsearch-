@@ -1,0 +1,11 @@
+Bluetooth Low Energy Tips from Experienced Engineers
+
+Engineers who work with Bluetooth Low Energy regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: ignoring connection limits.
+2. Do not skip advertising; everything else builds on it.
+3. When something behaves strangely, revisit GATT services before anything else.
+4. Reach for nRF Connect first, and only then evaluate alternatives such as BlueZ.
+5. Test the case of fitness trackers early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to smart locks as well.

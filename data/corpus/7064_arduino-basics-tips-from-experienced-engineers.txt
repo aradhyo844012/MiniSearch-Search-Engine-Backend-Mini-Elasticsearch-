@@ -1,0 +1,11 @@
+Arduino Basics Tips from Experienced Engineers
+
+Engineers who work with Arduino Basics regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit digital and analog pins before anything else.
+2. Do not skip sketches; everything else builds on it.
+3. Be careful with this one: wiring errors.
+4. Make sure you can test each sensor on its own before combining them.
+5. Write down why you chose Arduino Basics so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to driving motors and LEDs as well.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Database Backups and Recovery
+
+This is a fictional but realistic day for a developer whose project relies on Database Backups and Recovery.
+
+Morning: Karthik starts by reviewing a ticket about recovering deleted tables. Before touching any code, Karthik re-reads the notes on full and incremental backups to make sure the plan is sound.
+
+Midday: Karthik pairs with a teammate to explore recovery point objective with pg_dump. A small test exposes the problem of never testing restores, and they fix it together.
+
+Afternoon: the team discusses a new request involving migrating servers. Karthik sketches a spare house key kept at a trusted neighbor's home on the whiteboard to help everyone follow the idea.
+
+End of day: Karthik writes a short note describing what changed and adds a reminder to schedule a restore drill on a regular basis.
+
+Days like this are typical. Database Backups and Recovery is not glamorous, but understanding it keeps small problems from growing.

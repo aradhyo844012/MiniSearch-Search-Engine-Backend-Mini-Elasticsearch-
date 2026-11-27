@@ -1,0 +1,26 @@
+Everything You Need to Know About Command Line Productivity
+
+This page collects the essentials about Command Line Productivity in one place. In short, Command Line Productivity is using shell tools and shortcuts to complete tasks faster.
+
+Core concepts:
+- aliases
+- pipes
+- history search
+- scripts
+
+Where it is used:
+- automating repetitive tasks
+- exploring files and logs
+- managing servers
+
+Common problems:
+- copying commands without understanding them
+- dangerous wildcard use
+- undocumented scripts
+
+Tools to know:
+- bash
+- tmux
+- fzf
+
+Remember this above all: learning the shortcuts on a well-used road is a good way to picture it, and the best habit is to turn commands you repeat into small scripts.

@@ -1,0 +1,13 @@
+Teaching State Management to a Teammate
+
+Explaining State Management to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a shared whiteboard that everyone updates through the same rules. Ask your teammate what the picture suggests.
+
+Then give the plain definition: State Management is the practice of organizing where an application keeps and updates its data. Avoid jargon at this stage.
+
+Walk through an example involving large single-page apps, naming single source of truth and actions as they come up.
+
+Ask your teammate to explain reducers in State Management back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, putting everything in global state, and suggest this habit: keep state as close as possible to where it is used.

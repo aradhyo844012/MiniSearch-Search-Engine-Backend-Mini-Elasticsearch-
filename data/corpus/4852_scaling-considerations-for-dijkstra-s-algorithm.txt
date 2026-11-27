@@ -1,0 +1,11 @@
+Scaling Considerations for Dijkstra's Algorithm
+
+A design that works for a classroom project can behave very differently under real load. Here is how Dijkstra's Algorithm changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding priority queue and getting route planning right.
+
+Medium scale: problems start to appear. Watch for using it with negative edge weights and skipping the priority queue and getting slow code, and measure with Python heapq before changing anything.
+
+Large scale: edge relaxation and visited set move from background details to central design questions. Teams often revisit their choices around network routing at this stage.
+
+Before you scale, stop as soon as the destination is popped from the queue. It is cheaper to build that habit early than to fix a crisis later.

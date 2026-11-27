@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Feature Flags
+
+This path is for a learner who has never studied Feature Flags before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Feature Flags is switches in configuration that turn features on or off without redeploying code) and learn flag evaluation and targeting rules.
+
+Stage 2, hands-on: install LaunchDarkly, follow a tutorial, and build a small example involving dark launches.
+
+Stage 3, depth: study gradual rollout and flag cleanup, then deliberately explore this problem: never removing old flags.
+
+Stage 4, application: apply Feature Flags to A/B tests, compare Unleash with OpenFeature, and write up your results.
+
+Stage 5, review: teach Feature Flags to someone else, and then move on to Autoscaling.

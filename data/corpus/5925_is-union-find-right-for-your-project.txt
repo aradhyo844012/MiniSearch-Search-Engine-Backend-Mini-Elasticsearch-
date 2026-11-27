@@ -1,0 +1,11 @@
+Is Union-Find Right for Your Project?
+
+Before adopting Union-Find, ask whether it fits the problem. Remember that Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly.
+
+It is a good fit when your work involves detecting connected components or building minimum spanning trees, and when your team understands parent pointers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn union operation, or when you cannot manage these risks: forgetting path compression, merging without checking roots, and using it when deletions are required.
+
+A simple decision test: write down the problem in one sentence, then check whether find operation and path compression are part of the answer. If they are, Union-Find is probably worth a closer look.
+
+If you decide to go ahead, start small with grouping equivalent items and implement path compression and union by rank together.

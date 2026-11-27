@@ -1,0 +1,11 @@
+Mistakes to Avoid with Support Vector Machines
+
+Everyone learns Support Vector Machines partly through mistakes. Here are three worth avoiding.
+
+Mistake one: slow training on large data. It usually appears when someone skips margin and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: poor kernel choices. It tends to be noticed late, often during testing of text classification. A short checklist during review catches it early.
+
+Mistake three: unscaled features. It is easy to miss because everything seems to work at first. Keep an eye on regularization to spot it.
+
+If you remember only one rule, make it this: scale features and try a linear kernel first.

@@ -1,0 +1,17 @@
+Push Notifications for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Push Notifications.
+
+Learning goals:
+1. Explain Push Notifications in your own words.
+2. Describe device tokens, push services, payloads, and permissions.
+3. Give examples from order updates and chat alerts.
+4. Name three problems to watch for.
+
+Start with the definition: Push Notifications is messages sent to a user's device from a server even when the app is closed. Then draw a courier who knocks on your door when a package arrives on paper and label the four terms from the goals above.
+
+Self-test questions: Why is asking for permission too early a problem? How does push services relate to payloads? When would you choose Firebase Cloud Messaging or Apple Push Notification service?
+
+Study habit: ask for permission at a moment when the user understands the value.
+
+When you feel ready, compare Push Notifications with Arduino Basics and write down three differences.

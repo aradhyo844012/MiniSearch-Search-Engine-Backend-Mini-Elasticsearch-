@@ -1,0 +1,26 @@
+Everything You Need to Know About Minimum Spanning Trees
+
+This page collects the essentials about Minimum Spanning Trees in one place. In short, Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight.
+
+Core concepts:
+- weighted graphs
+- Kruskal's algorithm
+- Prim's algorithm
+- the cut property
+
+Where it is used:
+- designing cable networks
+- clustering data
+- reducing infrastructure cost
+
+Common problems:
+- using it on directed graphs
+- forgetting that the graph must be connected
+- treating ties as errors
+
+Tools to know:
+- NetworkX
+- SciPy
+- Graphviz
+
+Remember this above all: laying the cheapest set of roads that still links every town is a good way to picture it, and the best habit is to sort the edges once and reuse the order when testing variations.

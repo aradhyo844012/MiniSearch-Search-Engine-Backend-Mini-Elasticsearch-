@@ -1,0 +1,13 @@
+Star Schema Modeling vs Feature Stores: Which One Should You Learn First?
+
+Learners often ask whether to study Star Schema Modeling or Feature Stores first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it is closely tied to fact tables and dimension tables. Feature Stores, by contrast, is systems that store and serve the input variables used by machine learning models, and it is closely tied to offline store and online store.
+
+Choose Star Schema Modeling first if you care about business intelligence reports or data warehouses. Choose Feature Stores first if you care about sharing features across models or serving real-time predictions.
+
+Think of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions, and of Feature Stores as a shared pantry of prepared ingredients for many recipes. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Star Schema Modeling, avoid mixing different grains. With Feature Stores, avoid leaking future data.
+
+A good habit for Star Schema Modeling is to state the grain of the fact table before designing anything else. A good habit for Feature Stores is to define each feature once and reuse it in training and serving.

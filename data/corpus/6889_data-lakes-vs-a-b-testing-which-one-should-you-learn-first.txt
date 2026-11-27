@@ -1,0 +1,13 @@
+Data Lakes vs A/B Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Data Lakes or A/B Testing first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed, and it is closely tied to raw storage and schema on read. A/B Testing, by contrast, is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment.
+
+Choose Data Lakes first if you care about storing logs and events or machine learning datasets. Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms.
+
+Think of Data Lakes as a big reservoir where water from many rivers is stored before treatment, and of A/B Testing as taste-testing two recipes on randomly chosen guests. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Lakes, avoid turning into a data swamp. With A/B Testing, avoid stopping tests early.
+
+A good habit for Data Lakes is to register every dataset in a catalog with an owner. A good habit for A/B Testing is to decide the success metric and sample size before you begin.

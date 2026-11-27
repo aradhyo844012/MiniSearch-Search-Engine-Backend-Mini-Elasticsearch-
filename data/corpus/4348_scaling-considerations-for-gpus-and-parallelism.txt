@@ -1,0 +1,11 @@
+Scaling Considerations for GPUs and Parallelism
+
+A design that works for a classroom project can behave very differently under real load. Here is how GPUs and Parallelism changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding threads and blocks and getting training neural networks right.
+
+Medium scale: problems start to appear. Watch for slow data transfers and branch-heavy code, and measure with CUDA before changing anything.
+
+Large scale: memory transfers and SIMD move from background details to central design questions. Teams often revisit their choices around rendering graphics at this stage.
+
+Before you scale, minimize copies between CPU and GPU memory. It is cheaper to build that habit early than to fix a crisis later.

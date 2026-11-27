@@ -1,0 +1,11 @@
+Is Skip Lists Right for Your Project?
+
+Before adopting Skip Lists, ask whether it fits the problem. Remember that Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+It is a good fit when your work involves ordered in-memory indexes or sorted sets in caches, and when your team understands multiple levels.
+
+Be cautious when the project is very small, when deadlines leave no room to learn random level assignment, or when you cannot manage these risks: poor random number choices, memory overhead, and harder debugging than arrays.
+
+A simple decision test: write down the problem in one sentence, then check whether forward pointers and expected logarithmic time are part of the answer. If they are, Skip Lists is probably worth a closer look.
+
+If you decide to go ahead, start small with concurrent ordered maps and draw several levels by hand to see how a search moves down.

@@ -1,0 +1,15 @@
+Combining Offline-First Apps with Embedded Systems in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Offline-First Apps and Embedded Systems can work together in a single project.
+
+Offline-First Apps is apps designed to work without a network and sync when a connection returns. Embedded Systems is computers built into devices to perform dedicated tasks within tight limits.
+
+Imagine a project that involves field service tools and appliances. Offline-First Apps brings local storage, while Embedded Systems brings microcontrollers.
+
+A sensible plan is to start with SQLite for the Offline-First Apps part and C for the Embedded Systems part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded local data on one side, and no plan for updates on the other.
+
+Picture the whole as writing in a notebook and mailing the pages later, working alongside a small brain inside an appliance that only knows one job.
+
+Two habits help: first, show users which changes have not synced yet; second, plan how firmware updates will be delivered from the start.

@@ -1,0 +1,9 @@
+Understanding B-Trees on Disk Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a filing cabinet where each drawer tells you which drawer to open next.
+
+In that picture, pages is the first rule you follow, branching factor is the next step, and node splits and sorted keys keep everything running smoothly.
+
+Every analogy breaks down eventually. Real B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently, and it involves details such as random writes on fragmented pages that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PostgreSQL to learn the exact behavior. The same picture helps when you explain database indexes to a friend.

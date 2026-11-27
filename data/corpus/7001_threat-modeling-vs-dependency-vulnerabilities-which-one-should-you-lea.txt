@@ -1,0 +1,13 @@
+Threat Modeling vs Dependency Vulnerabilities: Which One Should You Learn First?
+
+Learners often ask whether to study Threat Modeling or Dependency Vulnerabilities first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it, and it is closely tied to assets and attackers. Dependency Vulnerabilities, by contrast, is security weaknesses that come from third-party libraries a project uses, and it is closely tied to CVE identifiers and version pinning.
+
+Choose Threat Modeling first if you care about designing new features or reviewing architecture. Choose Dependency Vulnerabilities first if you care about auditing projects or automating updates.
+
+Think of Threat Modeling as walking around a house asking where a burglar might get in, and of Dependency Vulnerabilities as checking every ingredient supplier for recalls. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Threat Modeling, avoid doing it once and never again. With Dependency Vulnerabilities, avoid ignoring transitive dependencies.
+
+A good habit for Threat Modeling is to draw the data flow diagram first. A good habit for Dependency Vulnerabilities is to automate update pull requests.

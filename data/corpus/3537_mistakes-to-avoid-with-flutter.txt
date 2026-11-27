@@ -1,0 +1,11 @@
+Mistakes to Avoid with Flutter
+
+Everyone learns Flutter partly through mistakes. Here are three worth avoiding.
+
+Mistake one: deep widget trees. It usually appears when someone skips widgets and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: poor state organization. It tends to be noticed late, often during testing of cross-platform mobile apps. A short checklist during review catches it early.
+
+Mistake three: large app sizes. It is easy to miss because everything seems to work at first. Keep an eye on the render tree to spot it.
+
+If you remember only one rule, make it this: split big widgets into small reusable ones.

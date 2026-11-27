@@ -1,0 +1,11 @@
+Hexagonal Architecture in Real Projects
+
+Reading about Hexagonal Architecture is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: testable business logic. Here, ports drives the main design choices, and the team needs to guard against too many layers for small apps.
+
+Scenario two: swapping databases. This time adapters matters most, and tools such as Spring help keep things manageable.
+
+Scenario three: supporting several interfaces. The key idea is the core domain, and the biggest risk is leaking framework types into the core.
+
+Across all three scenarios, Hexagonal Architecture stays the same idea: a design that keeps core logic separate from outside systems through ports and adapters. Only the details change.

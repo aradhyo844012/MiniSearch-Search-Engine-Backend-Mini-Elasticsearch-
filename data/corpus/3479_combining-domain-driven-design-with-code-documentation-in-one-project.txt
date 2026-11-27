@@ -1,0 +1,15 @@
+Combining Domain-Driven Design with Code Documentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Domain-Driven Design and Code Documentation can work together in a single project.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain. Code Documentation is written explanations that help others understand and use code.
+
+Imagine a project that involves complex business systems and onboarding new developers. Domain-Driven Design brings ubiquitous language, while Code Documentation brings README files.
+
+A sensible plan is to start with event storming for the Domain-Driven Design part and Sphinx for the Code Documentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: models that never match the business on one side, and comments that repeat the code on the other.
+
+Picture the whole as writing software in the same vocabulary the business speaks, working alongside a map left for the next traveler.
+
+Two habits help: first, agree on shared terms with domain experts before drawing classes; second, keep documentation in the same repository as the code.

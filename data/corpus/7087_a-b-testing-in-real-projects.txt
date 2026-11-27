@@ -1,0 +1,11 @@
+A/B Testing in Real Projects
+
+Reading about A/B Testing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: testing page designs. Here, control and variant drives the main design choices, and the team needs to guard against stopping tests early.
+
+Scenario two: comparing ranking algorithms. This time random assignment matters most, and tools such as Optimizely help keep things manageable.
+
+Scenario three: evaluating new features. The key idea is metrics, and the biggest risk is testing too many variants.
+
+Across all three scenarios, A/B Testing stays the same idea: an experiment that compares two versions of something to see which performs better. Only the details change.

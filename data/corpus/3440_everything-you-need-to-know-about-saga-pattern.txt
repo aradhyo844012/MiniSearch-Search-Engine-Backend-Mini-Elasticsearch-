@@ -1,0 +1,26 @@
+Everything You Need to Know About Saga Pattern
+
+This page collects the essentials about Saga Pattern in one place. In short, Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+Core concepts:
+- local transactions
+- compensating actions
+- orchestration
+- choreography
+
+Where it is used:
+- order processing
+- travel bookings
+- payment workflows
+
+Common problems:
+- missing compensations
+- steps that are not idempotent
+- flows that are hard to trace
+
+Tools to know:
+- Temporal
+- Camunda
+- Apache Kafka
+
+Remember this above all: booking a trip with separate hotel, flight and car reservations that can each be cancelled is a good way to picture it, and the best habit is to make every step and its compensation idempotent.

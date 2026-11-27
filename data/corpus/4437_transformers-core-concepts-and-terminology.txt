@@ -1,0 +1,10 @@
+Transformers: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Transformers with confidence. The subject itself is neural network architectures that use attention to relate all parts of an input to each other.
+
+self-attention: one of the building blocks of Transformers. You should be able to explain it in a single sentence before moving on.
+positional encoding: one of the building blocks of Transformers. Mixing it up with neighboring terms is a common source of confusion.
+encoder and decoder blocks: one of the building blocks of Transformers. You should be able to explain it in a single sentence before moving on.
+tokens: one of the building blocks of Transformers. Documentation for Hugging Face usually mentions it early.
+
+Practice using these four terms in sentences about text generation. If the sentences feel natural, the vocabulary has stuck.

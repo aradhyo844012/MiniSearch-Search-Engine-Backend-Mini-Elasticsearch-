@@ -1,0 +1,11 @@
+React Native in Real Projects
+
+Reading about React Native is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: cross-platform apps. Here, components drives the main design choices, and the team needs to guard against heavy re-renders.
+
+Scenario two: rapid prototypes. This time native modules matters most, and tools such as Expo help keep things manageable.
+
+Scenario three: sharing code with web teams. The key idea is styling with flexbox, and the biggest risk is poorly tuned lists.
+
+Across all three scenarios, React Native stays the same idea: a framework for building mobile apps for several platforms using JavaScript and React. Only the details change.

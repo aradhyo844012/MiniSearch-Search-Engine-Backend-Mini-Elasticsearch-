@@ -1,0 +1,11 @@
+Scaling Considerations for Regression Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Regression Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding test suites and getting protecting releases right.
+
+Medium scale: problems start to appear. Watch for slow suites that nobody runs and missing tests for fixed bugs, and measure with pytest before changing anything.
+
+Large scale: test selection and bug reproduction tests move from background details to central design questions. Teams often revisit their choices around verifying bug fixes at this stage.
+
+Before you scale, add a test for every bug you fix. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+Debugging Service Mesh: A Field Guide
+
+When something goes wrong around Service Mesh, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: added latency and complexity, adopting it too early, and hard-to-debug proxy configs.
+Step 3: revisit sidecar proxies and mutual TLS, since misunderstandings there cause many bugs.
+Step 4: use Istio or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Service Mesh in work such as securing service traffic come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, adopt it only once the number of services makes manual setup painful. It prevents a surprising number of repeat problems.

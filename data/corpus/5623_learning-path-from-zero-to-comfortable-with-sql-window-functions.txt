@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with SQL Window Functions
+
+This path is for a learner who has never studied SQL Window Functions before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (SQL Window Functions is SQL features that calculate values across related rows without collapsing them) and learn the OVER clause and partitions.
+
+Stage 2, hands-on: install PostgreSQL, follow a tutorial, and build a small example involving running totals.
+
+Stage 3, depth: study ordering and frames, then deliberately explore this problem: forgetting ORDER BY inside the window.
+
+Stage 4, application: apply SQL Window Functions to ranking rows, compare SQLite with BigQuery, and write up your results.
+
+Stage 5, review: teach SQL Window Functions to someone else, and then move on to Data Quality Checks.

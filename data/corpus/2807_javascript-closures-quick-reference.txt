@@ -1,0 +1,15 @@
+JavaScript Closures Quick Reference
+
+A one-screen reminder for JavaScript Closures. Bookmark it and return when the details fade.
+
+What it is: functions that remember the variables from the place where they were created.
+Key terms: lexical scope, captured variables, function factories, and memory retention.
+Typical uses: keeping private state in modules, event handlers that need context, and callbacks that remember settings.
+Risks: loop variables captured by mistake, memory leaks from long-lived closures, and accidentally sharing mutable state.
+Tools: Chrome DevTools, Node.js, and ESLint.
+
+Mental picture: a backpack a function carries with everything it needs from home.
+
+Habit to build: use let instead of var inside loops.
+
+See also: Java Streams, which sits close to JavaScript Closures in the area of Programming Languages.

@@ -1,0 +1,12 @@
+Questions to Ask About API Design Principles in Code Review
+
+Reviewing code that involves API Design Principles is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is OpenAPI used consistently, or are we mixing approaches?
+- Does this change respect consistent naming, or does it work around it?
+- Have we avoided this problem: undocumented behavior?
+- Have we considered leaking internal details?
+- Could we write the documentation before the implementation?
+- Is clear errors clear to someone reading the code for the first time?
+
+Good reviews of work on API Design Principles are specific, kind and focused on idempotent operations, not on personal style.

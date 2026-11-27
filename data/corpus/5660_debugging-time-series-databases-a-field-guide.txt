@@ -1,0 +1,13 @@
+Debugging Time-Series Databases: A Field Guide
+
+When something goes wrong around Time-Series Databases, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: high-cardinality tags, keeping raw data forever, and querying without time bounds.
+Step 3: revisit timestamps and retention policies, since misunderstandings there cause many bugs.
+Step 4: use InfluxDB or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Time-Series Databases in work such as server metrics come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, include a time range in every query. It prevents a surprising number of repeat problems.

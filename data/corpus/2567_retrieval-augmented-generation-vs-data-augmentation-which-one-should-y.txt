@@ -1,0 +1,13 @@
+Retrieval-Augmented Generation vs Data Augmentation: Which One Should You Learn First?
+
+Learners often ask whether to study Retrieval-Augmented Generation or Data Augmentation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers, and it is closely tied to retrieval and chunking. Data Augmentation, by contrast, is creating modified copies of training data to help models generalize, and it is closely tied to transformations and label preservation.
+
+Choose Retrieval-Augmented Generation first if you care about company knowledge assistants or question answering over documents. Choose Data Augmentation first if you care about image models or text classification.
+
+Think of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages, and of Data Augmentation as practicing a sport in different weather and on different fields. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Retrieval-Augmented Generation, avoid poor chunking. With Data Augmentation, avoid changes that alter the label.
+
+A good habit for Retrieval-Augmented Generation is to evaluate retrieval quality separately from answer quality. A good habit for Data Augmentation is to augment only the training data.

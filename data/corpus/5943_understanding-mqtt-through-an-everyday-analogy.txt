@@ -1,0 +1,9 @@
+Understanding MQTT Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a radio station with channels that devices can tune into.
+
+In that picture, publish and subscribe is the first rule you follow, topics is the next step, and brokers and quality of service levels keep everything running smoothly.
+
+Every analogy breaks down eventually. Real MQTT is a lightweight messaging protocol designed for small devices and unreliable networks, and it involves details such as unsecured brokers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Mosquitto to learn the exact behavior. The same picture helps when you explain sensor networks to a friend.

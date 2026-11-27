@@ -1,0 +1,15 @@
+Combining Penetration Testing with Encryption at Rest in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Penetration Testing and Encryption at Rest can work together in a single project.
+
+Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do. Encryption at Rest is protecting stored data by encrypting it on disk or in a database.
+
+Imagine a project that involves pre-launch security checks and protecting backups. Penetration Testing brings scoping, while Encryption at Rest brings symmetric keys.
+
+A sensible plan is to start with OWASP ZAP for the Penetration Testing part and LUKS for the Encryption at Rest part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring the findings afterward on one side, and no key rotation on the other.
+
+Picture the whole as hiring a locksmith to test your doors, working alongside a locked safe inside a locked room.
+
+Two habits help: first, get written authorization before any test; second, keep keys in a separate service from the data.

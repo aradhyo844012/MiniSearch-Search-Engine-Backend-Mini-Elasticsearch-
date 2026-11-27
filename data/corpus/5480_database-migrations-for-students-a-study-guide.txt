@@ -1,0 +1,17 @@
+Database Migrations for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Database Migrations.
+
+Learning goals:
+1. Explain Database Migrations in your own words.
+2. Describe up and down scripts, version tables, backward compatibility, and zero-downtime changes.
+3. Give examples from adding columns safely and renaming tables.
+4. Name three problems to watch for.
+
+Start with the definition: Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way. Then draw a numbered set of renovation steps applied to a building in order on paper and label the four terms from the goals above.
+
+Self-test questions: Why is locking large tables a problem? How does version tables relate to backward compatibility? When would you choose Alembic or Flyway?
+
+Study habit worth keeping: split risky changes into small steps that can each be rolled back.
+
+When you feel ready, compare Database Migrations with Database Backups and Recovery and write down three differences.

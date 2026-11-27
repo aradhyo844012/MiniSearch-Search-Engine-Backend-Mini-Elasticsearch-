@@ -1,0 +1,13 @@
+Push Notifications vs Arduino Basics: Which One Should You Learn First?
+
+Learners often ask whether to study Push Notifications or Arduino Basics first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed, and it is closely tied to device tokens and push services. Arduino Basics, by contrast, is a beginner-friendly microcontroller platform for reading sensors and controlling devices, and it is closely tied to sketches and digital and analog pins.
+
+Choose Push Notifications first if you care about order updates or chat alerts. Choose Arduino Basics first if you care about reading sensors or driving motors and LEDs.
+
+Think of Push Notifications as a courier who knocks on your door when a package arrives, and of Arduino Basics as a tiny brain that watches inputs and flips switches. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Push Notifications, avoid asking for permission too early. With Arduino Basics, avoid wiring errors.
+
+A good habit for Push Notifications is to ask for permission at a moment when the user understands the value. A good habit for Arduino Basics is to test each sensor on its own before combining them.

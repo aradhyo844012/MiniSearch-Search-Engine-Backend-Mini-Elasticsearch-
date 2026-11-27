@@ -1,0 +1,15 @@
+The Pros and Cons of Embeddings
+
+No technology is free of trade-offs, and Embeddings is no exception. Here is an honest summary.
+
+Advantages:
+- Supports semantic search
+- Makes recommendations easier
+- Helps with clustering text
+
+Drawbacks and risks:
+- Risk: mixing models between indexing and querying
+- Risk: ignoring normalization
+- Risk: stale embeddings after data changes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as semantic search, and you can manage the risks, Embeddings is a sound choice. Whatever you decide, use the same embedding model for indexing and querying.

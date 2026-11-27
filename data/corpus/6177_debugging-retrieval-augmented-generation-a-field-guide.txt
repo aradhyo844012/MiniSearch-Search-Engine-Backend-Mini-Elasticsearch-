@@ -1,0 +1,13 @@
+Debugging Retrieval-Augmented Generation: A Field Guide
+
+When something goes wrong around Retrieval-Augmented Generation, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: poor chunking, irrelevant retrieved text, and no evaluation of the answers.
+Step 3: revisit retrieval and chunking, since misunderstandings there cause many bugs.
+Step 4: use LangChain or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Retrieval-Augmented Generation in work such as company knowledge assistants come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, evaluate retrieval quality separately from answer quality. It prevents a surprising number of repeat problems.

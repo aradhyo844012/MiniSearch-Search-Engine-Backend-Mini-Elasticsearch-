@@ -1,0 +1,12 @@
+Questions to Ask About Autoscaling in Code Review
+
+Reviewing code that involves Autoscaling is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch flapping because of short spikes if it appeared later?
+- Could we load test the system to find realistic thresholds?
+- Does this change respect scaling metrics, or does it work around it?
+- Have we avoided this problem: ignoring database limits?
+- Is cooldown periods clear to someone reading the code for the first time?
+- Have we considered scaling too slowly?
+
+Good reviews of work on Autoscaling are specific, kind and focused on minimum and maximum limits, not on personal style.

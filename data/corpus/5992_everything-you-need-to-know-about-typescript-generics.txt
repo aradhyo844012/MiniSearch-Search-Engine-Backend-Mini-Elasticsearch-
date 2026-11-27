@@ -1,0 +1,26 @@
+Everything You Need to Know About TypeScript Generics
+
+This page collects the essentials about TypeScript Generics in one place. In short, TypeScript Generics is a feature that lets functions and types work with many types while keeping type safety.
+
+Core concepts:
+- type parameters
+- constraints
+- type inference
+- generic interfaces
+
+Where it is used:
+- reusable utility functions
+- typed API clients
+- data containers
+
+Common problems:
+- overusing any
+- overly complex generic types
+- forgetting constraints
+
+Tools to know:
+- tsc
+- the TypeScript Playground
+- ESLint
+
+Remember this above all: a labeled box whose label type is filled in when you use it is a good way to picture it, and the best habit is to add constraints so that error messages become clearer.

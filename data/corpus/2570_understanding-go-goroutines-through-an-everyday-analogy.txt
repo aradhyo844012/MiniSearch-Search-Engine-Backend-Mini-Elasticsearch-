@@ -1,0 +1,9 @@
+Understanding Go Goroutines Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a small crew of waiters passing notes through a serving hatch.
+
+In that picture, goroutines is the first rule you follow, channels is the next step, and select statements and wait groups keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently, and it involves details such as goroutine leaks that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for the go command to learn the exact behavior. The same picture helps when you explain servers handling many connections to a friend.

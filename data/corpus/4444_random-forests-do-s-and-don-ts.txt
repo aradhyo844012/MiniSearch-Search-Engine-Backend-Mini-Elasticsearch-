@@ -1,0 +1,17 @@
+Random Forests Do's and Don'ts
+
+A quick list of habits for working with Random Forests.
+
+Do:
+- Learn bagging before anything else.
+- Try scikit-learn on a small example.
+- Make it a habit to tune the number of trees only after the basics work.
+- Test the case of tabular predictions early.
+
+Don't:
+- Ignore this: treating importance scores as causes.
+- Ignore this: very large forests being slow.
+- Ignore this: ignoring class imbalance.
+- Adopt Random Forests just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Random Forests, a little patience with feature randomness pays off more than any clever shortcut.

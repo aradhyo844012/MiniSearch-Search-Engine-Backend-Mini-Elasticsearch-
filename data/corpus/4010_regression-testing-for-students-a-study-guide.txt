@@ -1,0 +1,17 @@
+Regression Testing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Regression Testing.
+
+Learning goals:
+1. Explain Regression Testing in your own words.
+2. Describe test suites, automation, test selection, and bug reproduction tests.
+3. Give examples from protecting releases and verifying bug fixes.
+4. Name three problems to watch for.
+
+Start with the definition: Regression Testing is re-running tests after changes to make sure old features still work. Then draw rechecking the old keys after cutting a new lock on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow suites that nobody runs a problem? How does automation relate to test selection? When would you choose pytest or GitHub Actions?
+
+Study habit worth keeping: add a test for every bug you fix.
+
+When you feel ready, compare Regression Testing with Property-Based Testing and write down three differences.

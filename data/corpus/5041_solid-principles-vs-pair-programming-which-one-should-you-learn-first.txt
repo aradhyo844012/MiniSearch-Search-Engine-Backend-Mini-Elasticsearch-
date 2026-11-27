@@ -1,0 +1,13 @@
+SOLID Principles vs Pair Programming: Which One Should You Learn First?
+
+Learners often ask whether to study SOLID Principles or Pair Programming first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change, and it is closely tied to single responsibility and the open-closed principle. Pair Programming, by contrast, is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation.
+
+Choose SOLID Principles first if you care about structuring classes or reviewing designs. Choose Pair Programming first if you care about teaching new teammates or solving hard bugs.
+
+Think of SOLID Principles as house rules that keep a shared kitchen tidy, and of Pair Programming as a pilot and co-pilot who check each other's decisions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With SOLID Principles, avoid applying them rigidly to tiny scripts. With Pair Programming, avoid one person dominating.
+
+A good habit for SOLID Principles is to apply them when a design starts to hurt, not before. A good habit for Pair Programming is to swap roles every twenty to thirty minutes.

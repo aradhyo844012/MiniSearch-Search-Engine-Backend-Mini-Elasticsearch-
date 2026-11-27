@@ -1,0 +1,15 @@
+Combining Debugging Strategies with Reading Documentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Debugging Strategies and Reading Documentation can work together in a single project.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Reading Documentation is the skill of finding accurate answers in official guides and references.
+
+Imagine a project that involves fixing production issues and learning new libraries. Debugging Strategies brings reproducing the bug, while Reading Documentation brings search.
+
+A sensible plan is to start with debuggers for the Debugging Strategies part and MDN Web Docs for the Reading Documentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: guessing without evidence on one side, and skipping the overview on the other.
+
+Picture the whole as a detective narrowing down suspects, working alongside reading the manual before assembling the furniture.
+
+Two habits help: first, change one thing at a time and record the result; second, check that the documentation version matches your installed version.

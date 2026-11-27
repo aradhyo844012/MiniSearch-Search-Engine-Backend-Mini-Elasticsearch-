@@ -1,0 +1,11 @@
+Is CQRS Right for Your Project?
+
+Before adopting CQRS, ask whether it fits the problem. Remember that CQRS is a pattern that separates the models used to change data from the models used to read it.
+
+It is a good fit when your work involves high-read dashboards or complex domains, and when your team understands commands.
+
+Be cautious when the project is very small, when deadlines leave no room to learn queries, or when you cannot manage these risks: adding it to simple apps, read models drifting out of sync, and duplicated logic.
+
+A simple decision test: write down the problem in one sentence, then check whether read models and eventual consistency are part of the answer. If they are, CQRS is probably worth a closer look.
+
+If you decide to go ahead, start small with scaling reads independently and start with a single model and split only when reads and writes truly diverge.

@@ -1,0 +1,9 @@
+Understanding Form Validation Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a proofreader checking a form before it is submitted.
+
+In that picture, client-side checks is the first rule you follow, server-side checks is the next step, and error messages and constraint attributes keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Form Validation is checking user input for correctness before it is accepted, and it involves details such as validating only on the client that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for HTML constraint validation to learn the exact behavior. The same picture helps when you explain sign-up forms to a friend.

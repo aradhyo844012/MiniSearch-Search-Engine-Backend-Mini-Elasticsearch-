@@ -1,0 +1,12 @@
+Questions to Ask About Event-Driven Architecture in Code Review
+
+Reviewing code that involves Event-Driven Architecture is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is event brokers clear to someone reading the code for the first time?
+- Does this change respect producers and consumers, or does it work around it?
+- Is Apache Kafka used consistently, or are we mixing approaches?
+- Does the code handle the case of order pipelines correctly?
+- Would a test catch duplicate events if it appeared later?
+- Have we considered hard-to-trace flows?
+
+Good reviews of work on Event-Driven Architecture are specific, kind and focused on loose coupling, not on personal style.

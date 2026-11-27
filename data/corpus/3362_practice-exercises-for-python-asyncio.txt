@@ -1,0 +1,11 @@
+Practice Exercises for Python Asyncio
+
+These exercises build real understanding of Python Asyncio. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Python Asyncio and include the term event loop.
+Exercise 2: Compare aiohttp and FastAPI for network clients and write down your conclusion.
+Exercise 3: List three situations from your own experience that resemble calling many APIs at once or web servers.
+Exercise 4: Pick asyncio and complete its getting-started tutorial.
+Exercise 5: Explain how await and tasks differ, using a drawing.
+
+When you finish, compare your answers with the definition: Python Asyncio is a library for running many waiting tasks concurrently on a single thread.

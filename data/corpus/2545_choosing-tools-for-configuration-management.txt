@@ -1,0 +1,11 @@
+Choosing Tools for Configuration Management
+
+There is no single best tool for Configuration Management. The right choice depends on your project, your team and your timeline.
+
+dotenv is a common first choice, especially for separating development and production. Pydantic settings suits teams that already work with similar technology, and HashiCorp Consul is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle toggling features well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: committing secrets.
+
+As a rule of thumb, fail fast at startup if a required setting is missing, no matter which tool you use.

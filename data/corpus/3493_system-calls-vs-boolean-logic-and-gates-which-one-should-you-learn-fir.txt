@@ -1,0 +1,13 @@
+System Calls vs Boolean Logic and Gates: Which One Should You Learn First?
+
+Learners often ask whether to study System Calls or Boolean Logic and Gates first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+System Calls is the controlled doorway through which programs ask the operating system to do privileged work, and it is closely tied to user mode and kernel mode and syscall numbers. Boolean Logic and Gates, by contrast, is the basic true-or-false operations that digital circuits and program conditions are built from, and it is closely tied to AND, OR and NOT and truth tables.
+
+Choose System Calls first if you care about reading and writing files or creating processes. Choose Boolean Logic and Gates first if you care about writing conditions or designing circuits.
+
+Think of System Calls as a service window where a customer asks staff to do things in the back office, and of Boolean Logic and Gates as light switches wired in series or in parallel. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With System Calls, avoid ignoring error codes. With Boolean Logic and Gates, avoid operator precedence mistakes.
+
+A good habit for System Calls is to use strace to see what your program really asks the kernel to do. A good habit for Boolean Logic and Gates is to write a truth table whenever a condition feels confusing.

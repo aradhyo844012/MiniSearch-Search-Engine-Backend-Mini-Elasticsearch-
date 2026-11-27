@@ -1,0 +1,11 @@
+Scaling Considerations for Code Coverage
+
+A design that works for a classroom project can behave very differently under real load. Here is how Code Coverage changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding line coverage and getting finding untested code right.
+
+Medium scale: problems start to appear. Watch for chasing 100 percent and treating coverage as quality, and measure with coverage.py before changing anything.
+
+Large scale: coverage reports and thresholds move from background details to central design questions. Teams often revisit their choices around setting quality gates at this stage.
+
+Before you scale, use coverage to find gaps, not to judge quality. It is cheaper to build that habit early than to fix a crisis later.

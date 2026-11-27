@@ -1,0 +1,9 @@
+Understanding CAP Theorem Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a phone tree that must choose between giving old information or staying silent when a line is cut.
+
+In that picture, consistency is the first rule you follow, availability is the next step, and partition tolerance and trade-offs keep everything running smoothly.
+
+Every analogy breaks down eventually. Real CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it involves details such as treating it as a three-way menu that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Apache Cassandra to learn the exact behavior. The same picture helps when you explain choosing database types to a friend.

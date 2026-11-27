@@ -1,0 +1,15 @@
+The Pros and Cons of Offline-First Apps
+
+No technology is free of trade-offs, and Offline-First Apps is no exception. Here is an honest summary.
+
+Advantages:
+- Supports field service tools
+- Makes note-taking apps easier
+- Helps with apps for low-connectivity regions
+
+Drawbacks and risks:
+- Risk: unresolved sync conflicts
+- Risk: unbounded local data
+- Risk: poor feedback about pending changes
+
+Weigh the two lists against your own project. If the advantages match your needs, such as field service tools, and you can manage the risks, Offline-First Apps is a sound choice. Whatever you decide, show users which changes have not synced yet.

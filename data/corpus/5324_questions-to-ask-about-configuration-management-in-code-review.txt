@@ -1,0 +1,12 @@
+Questions to Ask About Configuration Management in Code Review
+
+Reviewing code that involves Configuration Management is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect environment variables, or does it work around it?
+- Could we fail fast at startup if a required setting is missing?
+- Have we avoided this problem: undocumented settings?
+- Is dotenv used consistently, or are we mixing approaches?
+- Have we considered committing secrets?
+- Is config files clear to someone reading the code for the first time?
+
+Good reviews of work on Configuration Management are specific, kind and focused on defaults, not on personal style.

@@ -1,0 +1,12 @@
+Questions to Ask About Object-Relational Mappers in Code Review
+
+Reviewing code that involves Object-Relational Mappers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we log the generated SQL during development?
+- Have we avoided this problem: hiding slow SQL?
+- Is queries clear to someone reading the code for the first time?
+- Would a test catch loading entire tables if it appeared later?
+- Does the code handle the case of building CRUD apps quickly correctly?
+- Have we considered N+1 queries?
+
+Good reviews of work on Object-Relational Mappers are specific, kind and focused on relationships, not on personal style.

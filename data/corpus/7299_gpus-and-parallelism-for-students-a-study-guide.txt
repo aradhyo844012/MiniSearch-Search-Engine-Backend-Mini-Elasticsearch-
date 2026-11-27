@@ -1,0 +1,17 @@
+GPUs and Parallelism for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover GPUs and Parallelism.
+
+Learning goals:
+1. Explain GPUs and Parallelism in your own words.
+2. Describe threads and blocks, kernels, memory transfers, and SIMD.
+3. Give examples from training neural networks and rendering graphics.
+4. Name three problems to watch for.
+
+Start with the definition: GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once. Then draw a stadium of workers each doing one small identical task on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow data transfers a problem? How does kernels relate to memory transfers? When would you choose CUDA or PyTorch?
+
+Study habit: minimize copies between CPU and GPU memory.
+
+When you feel ready, compare GPUs and Parallelism with Endianness and write down three differences.

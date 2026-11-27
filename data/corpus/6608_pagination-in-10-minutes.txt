@@ -1,0 +1,15 @@
+Pagination in 10 Minutes
+
+You have ten minutes, so here is the fast route through Pagination.
+
+Minutes 1 and 2, the definition: Pagination is splitting large result sets into smaller pages that clients request one at a time.
+
+Minutes 3 and 4, the vocabulary: learn offset pagination, cursor pagination, page size, and stable ordering.
+
+Minutes 5 and 6, the picture: imagine reading a long book one chapter at a time with a bookmark. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through search results, activity feeds, and admin tables.
+
+Minutes 9 and 10, the traps and the tools: watch for offsets getting slow on huge tables and unstable sort order, then try SQL LIMIT and OFFSET for a first experiment.
+
+If you have a spare minute, remember to prefer cursors for large or fast-changing data.

@@ -1,0 +1,15 @@
+Combining Data Augmentation with Hyperparameter Tuning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Augmentation and Hyperparameter Tuning can work together in a single project.
+
+Data Augmentation is creating modified copies of training data to help models generalize. Hyperparameter Tuning is the process of searching for the best settings that control how a model learns.
+
+Imagine a project that involves image models and improving model accuracy. Data Augmentation brings transformations, while Hyperparameter Tuning brings search spaces.
+
+A sensible plan is to start with Albumentations for the Data Augmentation part and Optuna for the Hyperparameter Tuning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: augmenting the test set on one side, and searching too many options on the other.
+
+Picture the whole as practicing a sport in different weather and on different fields, working alongside adjusting the knobs on a radio until the signal is clear.
+
+Two habits help: first, augment only the training data; second, try random search before anything fancier.

@@ -1,0 +1,15 @@
+Combining Data Lakes with SQL Window Functions in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Lakes and SQL Window Functions can work together in a single project.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed. SQL Window Functions is SQL features that calculate values across related rows without collapsing them.
+
+Imagine a project that involves storing logs and events and running totals. Data Lakes brings raw storage, while SQL Window Functions brings the OVER clause.
+
+A sensible plan is to start with Amazon S3 for the Data Lakes part and PostgreSQL for the SQL Window Functions part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no catalog or ownership on one side, and confusing them with GROUP BY on the other.
+
+Picture the whole as a big reservoir where water from many rivers is stored before treatment, working alongside looking at the neighbors in a line without leaving your place.
+
+Two habits help: first, register every dataset in a catalog with an owner; second, start with ROW_NUMBER and LAG on a small table.

@@ -1,0 +1,15 @@
+Combining Time-Series Databases with Graph Databases in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Time-Series Databases and Graph Databases can work together in a single project.
+
+Time-Series Databases is databases optimized for storing and querying data points ordered by time. Graph Databases is databases that store data as nodes and relationships and query connections directly.
+
+Imagine a project that involves server metrics and social networks. Time-Series Databases brings timestamps, while Graph Databases brings nodes.
+
+A sensible plan is to start with InfluxDB for the Time-Series Databases part and Neo4j for the Graph Databases part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: keeping raw data forever on one side, and unbounded traversals on the other.
+
+Picture the whole as a long logbook where every line starts with the time, working alongside a city map where intersections are records and roads are relationships.
+
+Two habits help: first, include a time range in every query; second, limit traversal depth in every exploratory query.

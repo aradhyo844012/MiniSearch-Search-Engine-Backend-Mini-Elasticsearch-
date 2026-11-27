@@ -1,0 +1,15 @@
+The Pros and Cons of Arduino Basics
+
+No technology is free of trade-offs, and Arduino Basics is no exception. Here is an honest summary.
+
+Advantages:
+- Supports reading sensors
+- Makes driving motors and LEDs easier
+- Helps with learning electronics
+
+Drawbacks and risks:
+- Risk: wiring errors
+- Risk: blocking delays in the loop
+- Risk: insufficient power for motors
+
+Weigh the two lists against your own project. If the advantages match your needs, such as reading sensors, and you can manage the risks, Arduino Basics is a sound choice. Whatever you decide, test each sensor on its own before combining them.

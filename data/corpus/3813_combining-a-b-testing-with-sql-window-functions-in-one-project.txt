@@ -1,0 +1,15 @@
+Combining A/B Testing with SQL Window Functions in One Project
+
+Real projects rarely use one idea in isolation. This article shows how A/B Testing and SQL Window Functions can work together in a single project.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better. SQL Window Functions is SQL features that calculate values across related rows without collapsing them.
+
+Imagine a project that involves testing page designs and running totals. A/B Testing brings control and variant, while SQL Window Functions brings the OVER clause.
+
+A sensible plan is to start with Optimizely for the A/B Testing part and PostgreSQL for the SQL Window Functions part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: testing too many variants on one side, and confusing them with GROUP BY on the other.
+
+Picture the whole as taste-testing two recipes on randomly chosen guests, working alongside looking at the neighbors in a line without leaving your place.
+
+Two habits help: first, decide the success metric and sample size before you begin; second, start with ROW_NUMBER and LAG on a small table.

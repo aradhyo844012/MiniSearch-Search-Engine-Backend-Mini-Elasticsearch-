@@ -1,0 +1,9 @@
+Understanding Data Augmentation Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture practicing a sport in different weather and on different fields.
+
+In that picture, transformations is the first rule you follow, label preservation is the next step, and synthetic samples and augmentation pipelines keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Data Augmentation is creating modified copies of training data to help models generalize, and it involves details such as changes that alter the label that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Albumentations to learn the exact behavior. The same picture helps when you explain image models to a friend.

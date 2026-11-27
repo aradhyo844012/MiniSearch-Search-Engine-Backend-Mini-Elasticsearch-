@@ -1,0 +1,15 @@
+Data Quality Checks in 10 Minutes
+
+You have ten minutes, so here is the fast route through Data Quality Checks.
+
+Minutes 1 and 2, the definition: Data Quality Checks is automated tests that verify data is complete, valid and consistent.
+
+Minutes 3 and 4, the vocabulary: learn null checks, uniqueness, freshness, and schema validation.
+
+Minutes 5 and 6, the picture: imagine a quality inspector at the end of an assembly line. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through protecting dashboards, validating ingestion, and catching pipeline bugs.
+
+Minutes 9 and 10, the traps and the tools: watch for alerts nobody reads and checks only at the end of pipelines, then try Great Expectations for a first experiment.
+
+If you have a spare minute, remember to check data as early as it enters the pipeline.

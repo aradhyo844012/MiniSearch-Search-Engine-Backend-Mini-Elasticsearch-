@@ -1,0 +1,17 @@
+Mocking and Stubbing Do's and Don'ts
+
+A quick list of habits for working with Mocking and Stubbing.
+
+Do:
+- Learn mocks before anything else.
+- Try unittest.mock on a small example.
+- Make it a habit to prefer simple fakes over deep mock chains.
+- Test the case of isolating units early.
+
+Don't:
+- Ignore this: over-mocking.
+- Ignore this: tests that mirror the implementation.
+- Ignore this: mocks that drift from reality.
+- Adopt Mocking and Stubbing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Mocking and Stubbing, a little patience with stubs pays off more than any clever shortcut.

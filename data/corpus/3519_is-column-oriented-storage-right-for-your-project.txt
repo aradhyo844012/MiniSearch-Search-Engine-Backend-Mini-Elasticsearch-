@@ -1,0 +1,11 @@
+Is Column-Oriented Storage Right for Your Project?
+
+Before adopting Column-Oriented Storage, ask whether it fits the problem. Remember that Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+It is a good fit when your work involves analytics dashboards or large aggregations, and when your team understands column chunks.
+
+Be cautious when the project is very small, when deadlines leave no room to learn compression, or when you cannot manage these risks: slow single-row lookups, many small writes, and wide tables with unused columns.
+
+A simple decision test: write down the problem in one sentence, then check whether vectorized scans and predicate pushdown are part of the answer. If they are, Column-Oriented Storage is probably worth a closer look.
+
+If you decide to go ahead, start small with data warehouses and select only the columns you really need.

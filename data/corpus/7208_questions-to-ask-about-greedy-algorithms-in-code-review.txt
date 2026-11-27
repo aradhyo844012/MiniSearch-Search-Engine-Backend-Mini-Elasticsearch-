@@ -1,0 +1,12 @@
+Questions to Ask About Greedy Algorithms in Code Review
+
+Reviewing code that involves Greedy Algorithms is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: skipping the correctness proof?
+- Does this change respect greedy choice property, or does it work around it?
+- Have we considered assuming greedy always works?
+- Would a test catch missing counterexamples if it appeared later?
+- Does the code handle the case of interval scheduling correctly?
+- Is pen and paper proofs used consistently, or are we mixing approaches?
+
+Good reviews of work on Greedy Algorithms are specific, kind and focused on exchange arguments, not on personal style.

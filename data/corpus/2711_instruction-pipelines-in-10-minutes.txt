@@ -1,0 +1,15 @@
+Instruction Pipelines in 10 Minutes
+
+You have ten minutes, so here is the fast route through Instruction Pipelines.
+
+Minutes 1 and 2, the definition: Instruction Pipelines is a technique where a processor overlaps the stages of several instructions.
+
+Minutes 3 and 4, the vocabulary: learn fetch, decode and execute stages, hazards, branch prediction, and stalls.
+
+Minutes 5 and 6, the picture: imagine an assembly line where several cars are in different stages at once. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through explaining CPU speed, understanding branch costs, and optimizing tight loops.
+
+Minutes 9 and 10, the traps and the tools: watch for unpredictable branches and dependency chains, then try perf for a first experiment.
+
+If you have a spare minute, remember to avoid unpredictable branches in hot loops.

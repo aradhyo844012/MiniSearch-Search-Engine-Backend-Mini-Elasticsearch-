@@ -1,0 +1,15 @@
+The Pros and Cons of Segment Trees
+
+No technology is free of trade-offs, and Segment Trees is no exception. Here is an honest summary.
+
+Advantages:
+- Supports range sum queries
+- Makes finding minimums in a window easier
+- Helps with competitive programming problems
+
+Drawbacks and risks:
+- Risk: off-by-one errors in ranges
+- Risk: wrong tree size allocation
+- Risk: forgetting to push lazy updates
+
+Weigh the two lists against your own project. If the advantages match your needs, such as range sum queries, and you can manage the risks, Segment Trees is a sound choice. Whatever you decide, test your tree against a slow brute-force version on small inputs.

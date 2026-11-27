@@ -1,0 +1,9 @@
+Understanding Security Headers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture safety instructions printed on the packaging of every page.
+
+In that picture, Strict-Transport-Security is the first rule you follow, X-Content-Type-Options is the next step, and frame protections and referrer policy keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Security Headers is HTTP response headers that tell browsers to enforce extra protections, and it involves details such as setting headers on only some routes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for securityheaders.com to learn the exact behavior. The same picture helps when you explain hardening websites to a friend.

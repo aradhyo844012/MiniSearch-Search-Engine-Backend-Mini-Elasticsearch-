@@ -1,0 +1,11 @@
+Minimum Spanning Trees in Real Projects
+
+Reading about Minimum Spanning Trees is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: designing cable networks. Here, weighted graphs drives the main design choices, and the team needs to guard against using it on directed graphs.
+
+Scenario two: clustering data. This time Kruskal's algorithm matters most, and tools such as NetworkX help keep things manageable.
+
+Scenario three: reducing infrastructure cost. The key idea is Prim's algorithm, and the biggest risk is forgetting that the graph must be connected.
+
+Across all three scenarios, Minimum Spanning Trees stays the same idea: a set of edges that connects every node in a graph with the smallest possible total weight. Only the details change.

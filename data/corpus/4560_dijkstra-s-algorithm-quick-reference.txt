@@ -1,0 +1,15 @@
+Dijkstra's Algorithm Quick Reference
+
+A one-screen reminder for Dijkstra's Algorithm. Bookmark it and return when the details fade.
+
+What it is: a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+Key terms: priority queue, distance table, edge relaxation, and visited set.
+Typical uses: route planning, network routing, and game pathfinding.
+Risks: using it with negative edge weights, skipping the priority queue and getting slow code, and not stopping early when only one target is needed.
+Tools: Python heapq, NetworkX, and OSRM.
+
+Mental picture: a GPS that keeps expanding to the nearest unvisited intersection.
+
+Habit to build: stop as soon as the destination is popped from the queue.
+
+See also: Topological Sorting, which sits close to Dijkstra's Algorithm in the area of Algorithms in Practice.

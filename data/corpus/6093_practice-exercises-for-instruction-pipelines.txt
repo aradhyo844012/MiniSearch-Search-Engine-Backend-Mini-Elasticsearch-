@@ -1,0 +1,11 @@
+Practice Exercises for Instruction Pipelines
+
+These exercises build real understanding of Instruction Pipelines. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble explaining CPU speed or understanding branch costs.
+Exercise 2: Compare Compiler Explorer and published instruction tables for optimizing tight loops and write down your conclusion.
+Exercise 3: Create a small example that deliberately triggers this problem: unpredictable branches. Then fix it.
+Exercise 4: Pick perf and complete its getting-started tutorial.
+Exercise 5: Write a short paragraph describing Instruction Pipelines and include the term fetch, decode and execute stages.
+
+When you finish, compare your answers with the definition: Instruction Pipelines is a technique where a processor overlaps the stages of several instructions.

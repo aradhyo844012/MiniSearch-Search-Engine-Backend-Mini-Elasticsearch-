@@ -1,0 +1,11 @@
+Is Embeddings Right for Your Project?
+
+Before adopting Embeddings, ask whether it fits the problem. Remember that Embeddings is lists of numbers that represent words, images or items so that similar things sit close together.
+
+It is a good fit when your work involves semantic search or recommendations, and when your team understands vectors.
+
+Be cautious when the project is very small, when deadlines leave no room to learn cosine similarity, or when you cannot manage these risks: mixing models between indexing and querying, ignoring normalization, and stale embeddings after data changes.
+
+A simple decision test: write down the problem in one sentence, then check whether dimensionality and nearest neighbor search are part of the answer. If they are, Embeddings is probably worth a closer look.
+
+If you decide to go ahead, start small with clustering text and use the same embedding model for indexing and querying.

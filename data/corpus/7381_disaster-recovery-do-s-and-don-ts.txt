@@ -1,0 +1,17 @@
+Disaster Recovery Do's and Don'ts
+
+A quick list of habits for working with Disaster Recovery.
+
+Do:
+- Learn recovery time objective before anything else.
+- Try AWS Backup on a small example.
+- Make it a habit to run a failover exercise on a regular schedule.
+- Test the case of surviving regional outages early.
+
+Don't:
+- Ignore this: untested plans.
+- Ignore this: outdated runbooks.
+- Ignore this: dependencies missed in the plan.
+- Adopt Disaster Recovery just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Disaster Recovery, a little patience with recovery point objective pays off more than any clever shortcut.

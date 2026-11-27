@@ -1,0 +1,13 @@
+Modular Monoliths vs Code Documentation: Which One Should You Learn First?
+
+Learners often ask whether to study Modular Monoliths or Code Documentation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Modular Monoliths is single deployable applications built from well-separated internal modules, and it is closely tied to module boundaries and public interfaces. Code Documentation, by contrast, is written explanations that help others understand and use code, and it is closely tied to README files and docstrings.
+
+Choose Modular Monoliths first if you care about small teams or early-stage products. Choose Code Documentation first if you care about onboarding new developers or describing APIs.
+
+Think of Modular Monoliths as an apartment building with separate flats under one roof, and of Code Documentation as a map left for the next traveler. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Modular Monoliths, avoid modules reaching into each other's tables. With Code Documentation, avoid outdated docs.
+
+A good habit for Modular Monoliths is to enforce boundaries with automated checks. A good habit for Code Documentation is to keep documentation in the same repository as the code.

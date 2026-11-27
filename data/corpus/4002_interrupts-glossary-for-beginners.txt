@@ -1,0 +1,12 @@
+Interrupts Glossary for Beginners
+
+New words can make Interrupts feel harder than it is. This glossary keeps the key ones in one place.
+
+Interrupts: signals that make a processor pause its work to handle an urgent event.
+interrupt handlers: a core term, most visible in keyboard and mouse input.
+interrupt vectors: a core term that beginners often confuse with priorities.
+priorities: a core term that connects to context saving.
+context saving: a core term worth revisiting after you try a real example.
+Linux /proc/interrupts: a tool commonly used for timers.
+
+Come back to this Interrupts list whenever documentation for logic analyzers uses a word you do not recognize.

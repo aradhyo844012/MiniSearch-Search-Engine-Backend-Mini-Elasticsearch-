@@ -1,0 +1,11 @@
+Choosing Tools for Webhooks
+
+There is no single best tool for Webhooks. The right choice depends on your project, your team and your timeline.
+
+ngrok is a common first choice, especially for payment notifications. the Stripe CLI suits teams that already work with similar technology, and Postman is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle CI triggers well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: not verifying signatures.
+
+As a rule of thumb, respond quickly and process the event in a background job, no matter which tool you use.

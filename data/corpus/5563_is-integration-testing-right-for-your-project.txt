@@ -1,0 +1,11 @@
+Is Integration Testing Right for Your Project?
+
+Before adopting Integration Testing, ask whether it fits the problem. Remember that Integration Testing is tests that check how several parts of a system work together.
+
+It is a good fit when your work involves verifying API and database interaction or catching contract mismatches, and when your team understands test databases.
+
+Be cautious when the project is very small, when deadlines leave no room to learn service boundaries, or when you cannot manage these risks: slow suites, flaky external dependencies, and unclear failures.
+
+A simple decision test: write down the problem in one sentence, then check whether fixtures and test environments are part of the answer. If they are, Integration Testing is probably worth a closer look.
+
+If you decide to go ahead, start small with testing third-party integrations and use disposable containers for test dependencies.

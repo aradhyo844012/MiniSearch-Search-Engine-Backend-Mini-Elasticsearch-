@@ -1,0 +1,13 @@
+Teaching Column-Oriented Storage to a Teammate
+
+Explaining Column-Oriented Storage to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a spreadsheet kept as separate lists per column so you can read just one. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics. Avoid jargon at this stage.
+
+Walk through an example involving analytics dashboards, naming column chunks and compression as they come up.
+
+Ask your teammate to explain vectorized scans in Column-Oriented Storage back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, slow single-row lookups, and suggest this habit: select only the columns you really need.

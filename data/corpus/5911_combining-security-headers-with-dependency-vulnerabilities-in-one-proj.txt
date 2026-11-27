@@ -1,0 +1,15 @@
+Combining Security Headers with Dependency Vulnerabilities in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Security Headers and Dependency Vulnerabilities can work together in a single project.
+
+Security Headers is HTTP response headers that tell browsers to enforce extra protections. Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+Imagine a project that involves hardening websites and auditing projects. Security Headers brings Strict-Transport-Security, while Dependency Vulnerabilities brings CVE identifiers.
+
+A sensible plan is to start with securityheaders.com for the Security Headers part and Dependabot for the Dependency Vulnerabilities part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: breaking embeds on one side, and never updating on the other.
+
+Picture the whole as safety instructions printed on the packaging of every page, working alongside checking every ingredient supplier for recalls.
+
+Two habits help: first, test the headers on every environment; second, automate update pull requests.

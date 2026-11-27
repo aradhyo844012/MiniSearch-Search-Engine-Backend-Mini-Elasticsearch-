@@ -1,0 +1,26 @@
+Everything You Need to Know About Flutter
+
+This page collects the essentials about Flutter in one place. In short, Flutter is a toolkit for building natively compiled apps from a single Dart codebase.
+
+Core concepts:
+- widgets
+- state
+- hot reload
+- the render tree
+
+Where it is used:
+- cross-platform mobile apps
+- desktop apps
+- custom user interfaces
+
+Common problems:
+- deep widget trees
+- poor state organization
+- large app sizes
+
+Tools to know:
+- Dart
+- Flutter DevTools
+- Android Studio
+
+Remember this above all: a box of customizable building blocks drawn by its own engine is a good way to picture it, and the best habit is to split big widgets into small reusable ones.

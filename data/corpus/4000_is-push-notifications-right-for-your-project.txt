@@ -1,0 +1,11 @@
+Is Push Notifications Right for Your Project?
+
+Before adopting Push Notifications, ask whether it fits the problem. Remember that Push Notifications is messages sent to a user's device from a server even when the app is closed.
+
+It is a good fit when your work involves order updates or chat alerts, and when your team understands device tokens.
+
+Be cautious when the project is very small, when deadlines leave no room to learn push services, or when you cannot manage these risks: asking for permission too early, sending too many messages, and ignoring token refresh.
+
+A simple decision test: write down the problem in one sentence, then check whether payloads and permissions are part of the answer. If they are, Push Notifications is probably worth a closer look.
+
+If you decide to go ahead, start small with re-engaging users and ask for permission at a moment when the user understands the value.

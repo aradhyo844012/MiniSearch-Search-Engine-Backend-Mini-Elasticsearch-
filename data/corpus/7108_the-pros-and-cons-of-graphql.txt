@@ -1,0 +1,15 @@
+The Pros and Cons of GraphQL
+
+No technology is free of trade-offs, and GraphQL is no exception. Here is an honest summary.
+
+Advantages:
+- Supports mobile apps with limited bandwidth
+- Makes aggregating many services easier
+- Helps with flexible dashboards
+
+Drawbacks and risks:
+- Risk: the N+1 query problem
+- Risk: unbounded query depth
+- Risk: weak caching
+
+Weigh the two lists against your own project. If the advantages match your needs, such as mobile apps with limited bandwidth, and you can manage the risks, GraphQL is a sound choice. Whatever you decide, use a data loader to avoid N+1 queries.

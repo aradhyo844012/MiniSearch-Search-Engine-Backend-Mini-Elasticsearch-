@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with GraphQL
+
+This path is for a learner who has never studied GraphQL before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (GraphQL is a query language for APIs that lets clients ask for exactly the fields they need) and learn schema and queries and mutations.
+
+Stage 2, hands-on: install Apollo, follow a tutorial, and build a small example involving mobile apps with limited bandwidth.
+
+Stage 3, depth: study resolvers and types, then deliberately explore this problem: the N+1 query problem.
+
+Stage 4, application: apply GraphQL to aggregating many services, compare GraphQL Playground with Hasura, and write up your results.
+
+Stage 5, review: teach GraphQL to someone else, and then move on to gRPC.

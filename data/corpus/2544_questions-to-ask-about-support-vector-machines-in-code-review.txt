@@ -1,0 +1,12 @@
+Questions to Ask About Support Vector Machines in Code Review
+
+Reviewing code that involves Support Vector Machines is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect margin, or does it work around it?
+- Does the code handle the case of text classification correctly?
+- Have we considered slow training on large data?
+- Is support vectors clear to someone reading the code for the first time?
+- Would a test catch poor kernel choices if it appeared later?
+- Have we avoided this problem: unscaled features?
+
+Good reviews of work on Support Vector Machines are specific, kind and focused on kernels, not on personal style.

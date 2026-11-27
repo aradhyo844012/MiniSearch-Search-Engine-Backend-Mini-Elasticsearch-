@@ -1,0 +1,13 @@
+Teaching Logging Best Practices to a Teammate
+
+Explaining Logging Best Practices to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a ship's logbook that explains what happened and when. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Logging Best Practices is recording useful, structured information about what an application is doing. Avoid jargon at this stage.
+
+Walk through an example involving debugging production issues, naming log levels and structured logs as they come up.
+
+Ask your teammate to explain correlation IDs in Logging Best Practices back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, logging sensitive data, and suggest this habit: include a request ID in every log line.

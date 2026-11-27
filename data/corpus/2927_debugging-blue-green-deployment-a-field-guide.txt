@@ -1,0 +1,13 @@
+Debugging Blue-Green Deployment: A Field Guide
+
+When something goes wrong around Blue-Green Deployment, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: database schema mismatches, doubling infrastructure costs, and forgetting to drain old connections.
+Step 3: revisit blue and green environments and traffic switching, since misunderstandings there cause many bugs.
+Step 4: use AWS CodeDeploy or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Blue-Green Deployment in work such as zero-downtime releases come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep the old environment running until the new one is proven. It prevents a surprising number of repeat problems.

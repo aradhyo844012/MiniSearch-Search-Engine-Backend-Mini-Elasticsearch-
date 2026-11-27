@@ -1,0 +1,13 @@
+Data Augmentation vs Hyperparameter Tuning: Which One Should You Learn First?
+
+Learners often ask whether to study Data Augmentation or Hyperparameter Tuning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Data Augmentation is creating modified copies of training data to help models generalize, and it is closely tied to transformations and label preservation. Hyperparameter Tuning, by contrast, is the process of searching for the best settings that control how a model learns, and it is closely tied to search spaces and grid search.
+
+Choose Data Augmentation first if you care about image models or text classification. Choose Hyperparameter Tuning first if you care about improving model accuracy or comparing algorithms.
+
+Think of Data Augmentation as practicing a sport in different weather and on different fields, and of Hyperparameter Tuning as adjusting the knobs on a radio until the signal is clear. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Augmentation, avoid changes that alter the label. With Hyperparameter Tuning, avoid tuning on the test set.
+
+A good habit for Data Augmentation is to augment only the training data. A good habit for Hyperparameter Tuning is to try random search before anything fancier.

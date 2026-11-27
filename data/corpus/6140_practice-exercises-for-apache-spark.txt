@@ -1,0 +1,11 @@
+Practice Exercises for Apache Spark
+
+These exercises build real understanding of Apache Spark. Do them in order, and write down your answers.
+
+Exercise 1: Explain how partitions and lazy execution differ, using a drawing.
+Exercise 2: Write a short paragraph describing Apache Spark and include the term DataFrames.
+Exercise 3: List three situations from your own experience that resemble large ETL jobs or machine learning on big data.
+Exercise 4: Compare Databricks and the Spark UI for log analysis and write down your conclusion.
+Exercise 5: Create a small example that deliberately triggers this problem: data skew. Then fix it.
+
+When you finish, compare your answers with the definition: Apache Spark is a distributed engine for processing large datasets across many machines.

@@ -1,0 +1,15 @@
+The Pros and Cons of CPU Caches
+
+No technology is free of trade-offs, and CPU Caches is no exception. Here is an honest summary.
+
+Advantages:
+- Supports speeding up loops
+- Makes explaining performance differences easier
+- Helps with designing data layouts
+
+Drawbacks and risks:
+- Risk: false sharing
+- Risk: poor access patterns
+- Risk: assuming memory is uniformly fast
+
+Weigh the two lists against your own project. If the advantages match your needs, such as speeding up loops, and you can manage the risks, CPU Caches is a sound choice. Whatever you decide, access arrays in the order they are stored.

@@ -1,0 +1,11 @@
+Scaling Considerations for API Versioning
+
+A design that works for a classroom project can behave very differently under real load. Here is how API Versioning changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding version in the URL and getting public APIs right.
+
+Medium scale: problems start to appear. Watch for versioning too often and removing fields without notice, and measure with OpenAPI before changing anything.
+
+Large scale: deprecation and backward compatibility move from background details to central design questions. Teams often revisit their choices around mobile apps that cannot update instantly at this stage.
+
+Before you scale, announce deprecations with a clear sunset date. It is cheaper to build that habit early than to fix a crisis later.

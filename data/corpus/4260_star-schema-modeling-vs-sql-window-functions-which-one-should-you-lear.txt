@@ -1,0 +1,13 @@
+Star Schema Modeling vs SQL Window Functions: Which One Should You Learn First?
+
+Learners often ask whether to study Star Schema Modeling or SQL Window Functions first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables, and it is closely tied to fact tables and dimension tables. SQL Window Functions, by contrast, is SQL features that calculate values across related rows without collapsing them, and it is closely tied to the OVER clause and partitions.
+
+Choose Star Schema Modeling first if you care about business intelligence reports or data warehouses. Choose SQL Window Functions first if you care about running totals or ranking rows.
+
+Think of Star Schema Modeling as a wheel with a hub of numbers and spokes of descriptions, and of SQL Window Functions as looking at the neighbors in a line without leaving your place. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Star Schema Modeling, avoid mixing different grains. With SQL Window Functions, avoid forgetting ORDER BY inside the window.
+
+A good habit for Star Schema Modeling is to state the grain of the fact table before designing anything else. A good habit for SQL Window Functions is to start with ROW_NUMBER and LAG on a small table.

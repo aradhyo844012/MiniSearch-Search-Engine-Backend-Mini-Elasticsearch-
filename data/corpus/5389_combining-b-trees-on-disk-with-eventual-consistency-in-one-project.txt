@@ -1,0 +1,15 @@
+Combining B-Trees on Disk with Eventual Consistency in One Project
+
+Real projects rarely use one idea in isolation. This article shows how B-Trees on Disk and Eventual Consistency can work together in a single project.
+
+B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Eventual Consistency is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+Imagine a project that involves database indexes and global social feeds. B-Trees on Disk brings pages, while Eventual Consistency brings replication delay.
+
+A sensible plan is to start with PostgreSQL for the B-Trees on Disk part and Amazon DynamoDB for the Eventual Consistency part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: oversized keys on one side, and unresolved write conflicts on the other.
+
+Picture the whole as a filing cabinet where each drawer tells you which drawer to open next, working alongside news spreading through a village until everyone has heard it.
+
+Two habits help: first, keep indexed keys short so more of them fit on a page; second, decide up front how your app handles stale reads.

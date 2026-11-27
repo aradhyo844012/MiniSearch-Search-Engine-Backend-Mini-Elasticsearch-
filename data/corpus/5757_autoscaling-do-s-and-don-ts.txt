@@ -1,0 +1,17 @@
+Autoscaling Do's and Don'ts
+
+A quick list of habits for working with Autoscaling.
+
+Do:
+- Learn scaling metrics before anything else.
+- Try Kubernetes HPA on a small example.
+- Make it a habit to load test the system to find realistic thresholds.
+- Test the case of handling traffic spikes early.
+
+Don't:
+- Ignore this: scaling too slowly.
+- Ignore this: flapping because of short spikes.
+- Ignore this: ignoring database limits.
+- Adopt Autoscaling just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Autoscaling, a little patience with cooldown periods pays off more than any clever shortcut.

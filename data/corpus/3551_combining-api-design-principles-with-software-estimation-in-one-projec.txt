@@ -1,0 +1,15 @@
+Combining API Design Principles with Software Estimation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how API Design Principles and Software Estimation can work together in a single project.
+
+API Design Principles is guidelines for making APIs consistent, predictable and easy to use. Software Estimation is predicting how much time and effort a piece of work will take.
+
+Imagine a project that involves public platforms and sprint planning. API Design Principles brings consistent naming, while Software Estimation brings story points.
+
+A sensible plan is to start with OpenAPI for the API Design Principles part and planning poker for the Software Estimation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: inconsistent responses on one side, and ignoring unknowns on the other.
+
+Picture the whole as the controls of a car that behave the same in every model, working alongside forecasting the weather rather than reading a timetable.
+
+Two habits help: first, write the documentation before the implementation; second, give ranges instead of single numbers.

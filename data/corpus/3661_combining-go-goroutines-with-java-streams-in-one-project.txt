@@ -1,0 +1,15 @@
+Combining Go Goroutines with Java Streams in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Go Goroutines and Java Streams can work together in a single project.
+
+Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently. Java Streams is a way of processing collections with chains of declarative operations.
+
+Imagine a project that involves servers handling many connections and transforming lists. Go Goroutines brings goroutines, while Java Streams brings map.
+
+A sensible plan is to start with the go command for the Go Goroutines part and OpenJDK for the Java Streams part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: data races on one side, and side effects inside lambdas on the other.
+
+Picture the whole as a small crew of waiters passing notes through a serving hatch, working alongside a conveyor belt where each station changes the item before passing it on.
+
+Two habits help: first, run your tests with the race detector turned on; second, keep each stream step small and readable.

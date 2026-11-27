@@ -1,0 +1,13 @@
+Security Headers Explained Simply
+
+If Security Headers sounds intimidating, relax. It is HTTP response headers that tell browsers to enforce extra protections, and the idea is simpler than the name suggests.
+
+Think of Security Headers as safety instructions printed on the packaging of every page. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: Strict-Transport-Security, X-Content-Type-Options, frame protections, and referrer policy. You do not need to master them all at once. Start with Strict-Transport-Security, then add X-Content-Type-Options.
+
+People reach for Security Headers when they work on hardening websites, reducing clickjacking, and enforcing HTTPS.
+
+One practical tip is to test the headers on every environment.
+
+Once Security Headers feels comfortable, read about Hashing vs Encryption, which lives in the same neighborhood of ideas.

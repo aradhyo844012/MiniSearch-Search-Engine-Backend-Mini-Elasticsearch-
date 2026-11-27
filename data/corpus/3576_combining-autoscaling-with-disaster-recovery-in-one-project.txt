@@ -1,0 +1,15 @@
+Combining Autoscaling with Disaster Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Autoscaling and Disaster Recovery can work together in a single project.
+
+Autoscaling is automatically adding or removing computing resources as demand changes. Disaster Recovery is the plans and systems that restore services after major failures.
+
+Imagine a project that involves handling traffic spikes and surviving regional outages. Autoscaling brings scaling metrics, while Disaster Recovery brings recovery time objective.
+
+A sensible plan is to start with Kubernetes HPA for the Autoscaling part and AWS Backup for the Disaster Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flapping because of short spikes on one side, and outdated runbooks on the other.
+
+Picture the whole as a restaurant opening extra tables when a crowd arrives, working alongside a fire drill for a whole system.
+
+Two habits help: first, load test the system to find realistic thresholds; second, run a failover exercise on a regular schedule.

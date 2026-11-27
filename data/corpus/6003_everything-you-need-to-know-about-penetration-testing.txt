@@ -1,0 +1,26 @@
+Everything You Need to Know About Penetration Testing
+
+This page collects the essentials about Penetration Testing in one place. In short, Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do.
+
+Core concepts:
+- scoping
+- reconnaissance
+- exploitation
+- reporting
+
+Where it is used:
+- pre-launch security checks
+- compliance audits
+- validating defenses
+
+Common problems:
+- testing without written permission
+- ignoring the findings afterward
+- relying only on automated scans
+
+Tools to know:
+- OWASP ZAP
+- Burp Suite
+- Nmap
+
+Remember this above all: hiring a locksmith to test your doors is a good way to picture it, and the best habit is to get written authorization before any test.

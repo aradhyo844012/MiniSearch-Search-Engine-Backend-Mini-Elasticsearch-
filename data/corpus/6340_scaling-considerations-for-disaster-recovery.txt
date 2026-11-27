@@ -1,0 +1,11 @@
+Scaling Considerations for Disaster Recovery
+
+A design that works for a classroom project can behave very differently under real load. Here is how Disaster Recovery changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding recovery time objective and getting surviving regional outages right.
+
+Medium scale: problems start to appear. Watch for untested plans and outdated runbooks, and measure with AWS Backup before changing anything.
+
+Large scale: failover regions and runbooks move from background details to central design questions. Teams often revisit their choices around meeting compliance needs at this stage.
+
+Before you scale, run a failover exercise on a regular schedule. It is cheaper to build that habit early than to fix a crisis later.

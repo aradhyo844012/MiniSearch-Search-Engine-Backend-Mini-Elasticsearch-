@@ -1,0 +1,15 @@
+Hexagonal Architecture in 10 Minutes
+
+You have ten minutes, so here is the fast route through Hexagonal Architecture.
+
+Minutes 1 and 2, the definition: Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters.
+
+Minutes 3 and 4, the vocabulary: learn ports, adapters, the core domain, and dependency direction.
+
+Minutes 5 and 6, the picture: imagine a power strip that lets any plug connect to the same core. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through testable business logic, swapping databases, and supporting several interfaces.
+
+Minutes 9 and 10, the traps and the tools: watch for too many layers for small apps and leaking framework types into the core, then try Spring for a first experiment.
+
+If you have a spare minute, remember to keep framework imports out of the core domain.

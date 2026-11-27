@@ -1,0 +1,10 @@
+Write-Ahead Logging: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Write-Ahead Logging with confidence. The subject itself is a technique that records changes in a log before they are applied to the main data.
+
+log records: one of the building blocks of Write-Ahead Logging. Mixing it up with neighboring terms is a common source of confusion.
+checkpoints: one of the building blocks of Write-Ahead Logging. You should be able to explain it in a single sentence before moving on.
+crash recovery: one of the building blocks of Write-Ahead Logging. Mixing it up with neighboring terms is a common source of confusion.
+fsync: one of the building blocks of Write-Ahead Logging. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about feeding replication streams. If the sentences feel natural, the vocabulary has stuck.

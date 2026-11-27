@@ -1,0 +1,13 @@
+Debugging Web Components: A Field Guide
+
+When something goes wrong around Web Components, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: styling surprises across the shadow boundary, poor accessibility, and heavy polyfills.
+Step 3: revisit custom elements and shadow DOM, since misunderstandings there cause many bugs.
+Step 4: use Lit or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Web Components in work such as design system components come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, document the attributes and events like a public API. It prevents a surprising number of repeat problems.

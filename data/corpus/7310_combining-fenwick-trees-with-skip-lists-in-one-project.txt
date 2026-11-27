@@ -1,0 +1,15 @@
+Combining Fenwick Trees with Skip Lists in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Fenwick Trees and Skip Lists can work together in a single project.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates. Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+Imagine a project that involves counting inversions and ordered in-memory indexes. Fenwick Trees brings binary indexed trees, while Skip Lists brings multiple levels.
+
+A sensible plan is to start with C++ vectors for the Fenwick Trees part and Redis sorted sets for the Skip Lists part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that nodes store partial sums on one side, and memory overhead on the other.
+
+Picture the whole as a set of running subtotals where each one covers a block of entries, working alongside an express train line layered over a local train line.
+
+Two habits help: first, start indexing from one to keep the bit tricks simple; second, draw several levels by hand to see how a search moves down.

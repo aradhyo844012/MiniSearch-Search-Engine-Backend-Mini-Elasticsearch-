@@ -1,0 +1,12 @@
+Questions to Ask About Time-Series Databases in Code Review
+
+Reviewing code that involves Time-Series Databases is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we include a time range in every query?
+- Is InfluxDB used consistently, or are we mixing approaches?
+- Is retention policies clear to someone reading the code for the first time?
+- Have we considered high-cardinality tags?
+- Does this change respect timestamps, or does it work around it?
+- Would a test catch keeping raw data forever if it appeared later?
+
+Good reviews of work on Time-Series Databases are specific, kind and focused on downsampling, not on personal style.

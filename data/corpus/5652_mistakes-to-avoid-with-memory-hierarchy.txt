@@ -1,0 +1,11 @@
+Mistakes to Avoid with Memory Hierarchy
+
+Everyone learns Memory Hierarchy partly through mistakes. Here are three worth avoiding.
+
+Mistake one: ignoring locality. It usually appears when someone skips registers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: excessive paging. It tends to be noticed late, often during testing of designing efficient programs. A short checklist during review catches it early.
+
+Mistake three: treating all memory accesses as equal. It is easy to miss because everything seems to work at first. Keep an eye on disk to spot it.
+
+If you remember only one rule, make it this: reduce how often your program goes down to the slower layers.

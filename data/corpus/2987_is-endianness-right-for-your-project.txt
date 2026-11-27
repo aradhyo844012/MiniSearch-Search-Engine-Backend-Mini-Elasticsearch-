@@ -1,0 +1,11 @@
+Is Endianness Right for Your Project?
+
+Before adopting Endianness, ask whether it fits the problem. Remember that Endianness is the order in which a computer stores the bytes of a multi-byte number.
+
+It is a good fit when your work involves network protocols or binary file formats, and when your team understands big-endian.
+
+Be cautious when the project is very small, when deadlines leave no room to learn little-endian, or when you cannot manage these risks: mixing byte orders, assuming all machines are alike, and forgetting to convert before sending.
+
+A simple decision test: write down the problem in one sentence, then check whether byte order marks and network byte order are part of the answer. If they are, Endianness is probably worth a closer look.
+
+If you decide to go ahead, start small with cross-platform data exchange and always specify byte order in file and protocol formats.

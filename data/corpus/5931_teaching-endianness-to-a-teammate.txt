@@ -1,0 +1,13 @@
+Teaching Endianness to a Teammate
+
+Explaining Endianness to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: writing a date as day-month-year or as year-month-day. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Endianness is the order in which a computer stores the bytes of a multi-byte number. Avoid jargon at this stage.
+
+Walk through an example involving network protocols, naming big-endian and little-endian as they come up.
+
+Ask your teammate to explain byte order marks in Endianness back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, mixing byte orders, and suggest this habit: always specify byte order in file and protocol formats.

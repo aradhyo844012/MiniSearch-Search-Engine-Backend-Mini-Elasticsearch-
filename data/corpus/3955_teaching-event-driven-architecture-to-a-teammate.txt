@@ -1,0 +1,13 @@
+Teaching Event-Driven Architecture to a Teammate
+
+Explaining Event-Driven Architecture to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a notice board where people post news and others react when they see it. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them. Avoid jargon at this stage.
+
+Walk through an example involving order pipelines, naming producers and consumers and event brokers as they come up.
+
+Ask your teammate to explain loose coupling in Event-Driven Architecture back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, hard-to-trace flows, and suggest this habit: document every event name and schema.

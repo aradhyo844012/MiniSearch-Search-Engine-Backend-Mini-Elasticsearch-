@@ -1,0 +1,13 @@
+GPUs and Parallelism Explained Simply
+
+Here is GPUs and Parallelism without the jargon: it is processors with thousands of small cores that handle many similar calculations at once.
+
+Think of GPUs and Parallelism as a stadium of workers each doing one small identical task. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: threads and blocks, kernels, memory transfers, and SIMD. You do not need to master them all at once. Start with threads and blocks, then add kernels.
+
+People reach for GPUs and Parallelism when they work on training neural networks, rendering graphics, and scientific simulations.
+
+One practical tip is to minimize copies between CPU and GPU memory.
+
+Once GPUs and Parallelism feels comfortable, read about System Calls, which lives in the same neighborhood of ideas.

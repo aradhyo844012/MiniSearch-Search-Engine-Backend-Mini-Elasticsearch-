@@ -1,0 +1,11 @@
+Practice Exercises for Background Jobs
+
+These exercises build real understanding of Background Jobs. Do them in order, and write down your answers.
+
+Exercise 1: Explain how retries and scheduling differ, using a drawing.
+Exercise 2: Compare Sidekiq and BullMQ for generating reports and write down your conclusion.
+Exercise 3: Write a short paragraph describing Background Jobs and include the term queues.
+Exercise 4: List three situations from your own experience that resemble sending emails or resizing images.
+Exercise 5: Pick Celery and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Background Jobs is tasks that run outside the request cycle so users do not have to wait for them.

@@ -1,0 +1,13 @@
+Minimum Spanning Trees Explained Simply
+
+If Minimum Spanning Trees sounds intimidating, relax. It is a set of edges that connects every node in a graph with the smallest possible total weight, and the idea is simpler than the name suggests.
+
+Think of Minimum Spanning Trees as laying the cheapest set of roads that still links every town. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: weighted graphs, Kruskal's algorithm, Prim's algorithm, and the cut property. You do not need to master them all at once. Start with weighted graphs, then add Kruskal's algorithm.
+
+You will meet Minimum Spanning Trees in work such as designing cable networks, clustering data, and reducing infrastructure cost.
+
+One practical tip is to sort the edges once and reuse the order when testing variations.
+
+Once Minimum Spanning Trees feels comfortable, read about Union-Find, which lives in the same neighborhood of ideas.

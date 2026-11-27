@@ -1,0 +1,15 @@
+The Pros and Cons of Domain-Driven Design
+
+No technology is free of trade-offs, and Domain-Driven Design is no exception. Here is an honest summary.
+
+Advantages:
+- Supports complex business systems
+- Makes aligning developers with domain experts easier
+- Helps with splitting large systems
+
+Drawbacks and risks:
+- Risk: using it for simple CRUD apps
+- Risk: models that never match the business
+- Risk: ignoring context boundaries
+
+Weigh the two lists against your own project. If the advantages match your needs, such as complex business systems, and you can manage the risks, Domain-Driven Design is a sound choice. Whatever you decide, agree on shared terms with domain experts before drawing classes.

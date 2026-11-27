@@ -1,0 +1,12 @@
+Questions to Ask About Open Source Contribution in Code Review
+
+Reviewing code that involves Open Source Contribution is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered opening huge pull requests?
+- Could we start with documentation fixes or small bugs?
+- Have we avoided this problem: expecting instant replies?
+- Does the code handle the case of building a portfolio correctly?
+- Does this change respect forks, or does it work around it?
+- Would a test catch ignoring contribution rules if it appeared later?
+
+Good reviews of work on Open Source Contribution are specific, kind and focused on issues, not on personal style.

@@ -1,0 +1,9 @@
+Understanding Flutter Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a box of customizable building blocks drawn by its own engine.
+
+In that picture, widgets is the first rule you follow, state is the next step, and hot reload and the render tree keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Flutter is a toolkit for building natively compiled apps from a single Dart codebase, and it involves details such as deep widget trees that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Dart to learn the exact behavior. The same picture helps when you explain cross-platform mobile apps to a friend.

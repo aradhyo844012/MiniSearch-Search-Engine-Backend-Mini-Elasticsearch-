@@ -1,0 +1,11 @@
+Why CPU Caches Matters for Developers
+
+Developers who understand CPU Caches make better decisions, because CPU Caches is small, fast memory close to the processor that stores recently used data.
+
+Three situations show why it matters. First, speeding up loops. Second, explaining performance differences. Third, designing data layouts. In each case, a solid grasp of cache lines and hit and miss rates separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: false sharing, poor access patterns, and assuming memory is uniformly fast.
+
+You will not need to build everything yourself; perf, Valgrind cachegrind, and Intel VTune cover most needs.
+
+Connect CPU Caches with Endianness to see the bigger picture of Computer Systems.

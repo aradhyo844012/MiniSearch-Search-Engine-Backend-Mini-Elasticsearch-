@@ -1,0 +1,12 @@
+Assembly Language Basics Glossary for Beginners
+
+New words can make Assembly Language Basics feel harder than it is. This glossary keeps the key ones in one place.
+
+Assembly Language Basics: low-level instructions that map closely to what a processor actually executes.
+registers: a core term, most visible in understanding compiled code.
+instructions: a core term that beginners often confuse with memory addressing.
+memory addressing: a core term that connects to the stack.
+the stack: a core term worth revisiting after you try a real example.
+GDB: a tool commonly used for debugging crashes.
+
+Come back to this Assembly Language Basics list whenever documentation for objdump uses a word you do not recognize.

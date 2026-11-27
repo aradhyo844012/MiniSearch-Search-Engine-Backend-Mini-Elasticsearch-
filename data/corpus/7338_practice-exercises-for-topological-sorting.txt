@@ -1,0 +1,11 @@
+Practice Exercises for Topological Sorting
+
+These exercises build real understanding of Topological Sorting. Do them in order, and write down your answers.
+
+Exercise 1: Explain how Kahn's algorithm and cycle detection differ, using a drawing.
+Exercise 2: Create a small example that deliberately triggers this problem: ignoring cycles. Then fix it.
+Exercise 3: Pick Python graphlib and complete its getting-started tutorial.
+Exercise 4: Compare NetworkX and Make for task scheduling and write down your conclusion.
+Exercise 5: List three situations from your own experience that resemble build systems or course prerequisite planning.
+
+When you finish, compare your answers with the definition: Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.

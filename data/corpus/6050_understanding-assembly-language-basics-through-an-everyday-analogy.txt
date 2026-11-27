@@ -1,0 +1,9 @@
+Understanding Assembly Language Basics Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture the individual muscle movements behind a simple action.
+
+In that picture, registers is the first rule you follow, instructions is the next step, and memory addressing and the stack keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Assembly Language Basics is low-level instructions that map closely to what a processor actually executes, and it involves details such as wrong calling conventions that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for GDB to learn the exact behavior. The same picture helps when you explain understanding compiled code to a friend.

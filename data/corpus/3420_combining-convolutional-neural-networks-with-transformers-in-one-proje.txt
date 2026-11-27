@@ -1,0 +1,15 @@
+Combining Convolutional Neural Networks with Transformers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Convolutional Neural Networks and Transformers can work together in a single project.
+
+Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns. Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+Imagine a project that involves image classification and language translation. Convolutional Neural Networks brings filters, while Transformers brings self-attention.
+
+A sensible plan is to start with PyTorch for the Convolutional Neural Networks part and Hugging Face for the Transformers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring data augmentation on one side, and limited context windows on the other.
+
+Picture the whole as a magnifying glass sweeping across a photo looking for edges and shapes, working alongside a reader who can look back at any word of a paragraph while reading each new word.
+
+Two habits help: first, start from a pretrained model; second, begin with small pretrained models.

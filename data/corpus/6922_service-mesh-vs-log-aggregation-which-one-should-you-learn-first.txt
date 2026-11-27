@@ -1,0 +1,13 @@
+Service Mesh vs Log Aggregation: Which One Should You Learn First?
+
+Learners often ask whether to study Service Mesh or Log Aggregation first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Service Mesh is an infrastructure layer that manages communication between services through proxies, and it is closely tied to sidecar proxies and mutual TLS. Log Aggregation, by contrast, is collecting logs from many machines into one searchable place, and it is closely tied to shippers and indexing.
+
+Choose Service Mesh first if you care about securing service traffic or retries and timeouts. Choose Log Aggregation first if you care about troubleshooting across services or security investigations.
+
+Think of Service Mesh as a postal system that applies delivery rules between buildings, and of Log Aggregation as gathering notes from every desk into a single searchable binder. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Service Mesh, avoid added latency and complexity. With Log Aggregation, avoid unbounded storage growth.
+
+A good habit for Service Mesh is to adopt it only once the number of services makes manual setup painful. A good habit for Log Aggregation is to use structured JSON logs so that fields are searchable.

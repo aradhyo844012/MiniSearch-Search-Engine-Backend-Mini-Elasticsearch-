@@ -1,0 +1,12 @@
+Questions to Ask About Java Streams in Code Review
+
+Reviewing code that involves Java Streams is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of transforming lists correctly?
+- Does this change respect map, or does it work around it?
+- Is OpenJDK used consistently, or are we mixing approaches?
+- Would a test catch side effects inside lambdas if it appeared later?
+- Is filter clear to someone reading the code for the first time?
+- Have we avoided this problem: using parallel streams without measuring?
+
+Good reviews of work on Java Streams are specific, kind and focused on reduce, not on personal style.

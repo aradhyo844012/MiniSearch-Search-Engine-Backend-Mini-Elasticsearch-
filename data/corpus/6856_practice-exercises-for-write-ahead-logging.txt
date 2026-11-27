@@ -1,0 +1,11 @@
+Practice Exercises for Write-Ahead Logging
+
+These exercises build real understanding of Write-Ahead Logging. Do them in order, and write down your answers.
+
+Exercise 1: Explain how crash recovery and fsync differ, using a drawing.
+Exercise 2: Write a short paragraph describing Write-Ahead Logging and include the term log records.
+Exercise 3: Compare SQLite journal and Apache Kafka for point-in-time recovery and write down your conclusion.
+Exercise 4: Pick PostgreSQL WAL and complete its getting-started tutorial.
+Exercise 5: List three situations from your own experience that resemble surviving crashes or feeding replication streams.
+
+When you finish, compare your answers with the definition: Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data.

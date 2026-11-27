@@ -1,0 +1,17 @@
+Endianness Do's and Don'ts
+
+A quick list of habits for working with Endianness.
+
+Do:
+- Learn big-endian before anything else.
+- Try Python struct on a small example.
+- Make it a habit to always specify byte order in file and protocol formats.
+- Test the case of network protocols early.
+
+Don't:
+- Ignore this: mixing byte orders.
+- Ignore this: assuming all machines are alike.
+- Ignore this: forgetting to convert before sending.
+- Adopt Endianness just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Endianness, a little patience with little-endian pays off more than any clever shortcut.

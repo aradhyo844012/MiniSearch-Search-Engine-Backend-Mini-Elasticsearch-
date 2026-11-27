@@ -1,0 +1,11 @@
+Why Distributed Locks Matters for Developers
+
+Developers who understand Distributed Locks make better decisions, because Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines.
+
+Three situations show why it matters. First, running scheduled jobs once. Second, protecting shared resources. Third, selecting a leader. In each case, a solid grasp of lease times and fencing tokens separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: locks that never expire, clock drift, and assuming the lock holder is still alive.
+
+You will not need to build everything yourself; Redis, ZooKeeper, and etcd cover most needs.
+
+Connect Distributed Locks with Leader Election to see the bigger picture of Distributed Systems.

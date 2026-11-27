@@ -1,0 +1,11 @@
+Scaling Considerations for End-to-End Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how End-to-End Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding browser automation and getting checking login and checkout flows right.
+
+Medium scale: problems start to appear. Watch for flaky tests and slow runs, and measure with Playwright before changing anything.
+
+Large scale: test data and selectors move from background details to central design questions. Teams often revisit their choices around release verification at this stage.
+
+Before you scale, cover only the most important user journeys. It is cheaper to build that habit early than to fix a crisis later.

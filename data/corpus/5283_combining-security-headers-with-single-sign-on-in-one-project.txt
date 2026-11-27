@@ -1,0 +1,15 @@
+Combining Security Headers with Single Sign-On in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Security Headers and Single Sign-On can work together in a single project.
+
+Security Headers is HTTP response headers that tell browsers to enforce extra protections. Single Sign-On is letting users log in once and access several applications.
+
+Imagine a project that involves hardening websites and company intranets. Security Headers brings Strict-Transport-Security, while Single Sign-On brings identity provider.
+
+A sensible plan is to start with securityheaders.com for the Security Headers part and Okta for the Single Sign-On part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: breaking embeds on one side, and misconfigured redirects on the other.
+
+Picture the whole as safety instructions printed on the packaging of every page, working alongside a festival wristband that opens every gate.
+
+Two habits help: first, test the headers on every environment; second, plan for identity provider outages.

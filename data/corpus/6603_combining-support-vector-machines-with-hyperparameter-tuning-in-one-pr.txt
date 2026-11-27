@@ -1,0 +1,15 @@
+Combining Support Vector Machines with Hyperparameter Tuning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Support Vector Machines and Hyperparameter Tuning can work together in a single project.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes. Hyperparameter Tuning is the process of searching for the best settings that control how a model learns.
+
+Imagine a project that involves text classification and improving model accuracy. Support Vector Machines brings margin, while Hyperparameter Tuning brings search spaces.
+
+A sensible plan is to start with scikit-learn for the Support Vector Machines part and Optuna for the Hyperparameter Tuning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor kernel choices on one side, and searching too many options on the other.
+
+Picture the whole as drawing the widest road between two neighborhoods, working alongside adjusting the knobs on a radio until the signal is clear.
+
+Two habits help: first, scale features and try a linear kernel first; second, try random search before anything fancier.

@@ -1,0 +1,13 @@
+Debugging Leader Election: A Field Guide
+
+When something goes wrong around Leader Election, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: split brain, flapping leaders, and slow failure detection.
+Step 3: revisit heartbeats and terms or epochs, since misunderstandings there cause many bugs.
+Step 4: use ZooKeeper or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Leader Election in work such as database primaries come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, tune heartbeat intervals against real network delays. It prevents a surprising number of repeat problems.

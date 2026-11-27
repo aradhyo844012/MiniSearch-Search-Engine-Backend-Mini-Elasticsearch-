@@ -1,0 +1,12 @@
+Questions to Ask About Fuzz Testing in Code Review
+
+Reviewing code that involves Fuzz Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we keep every crashing input as a regression test?
+- Have we considered running without sanitizers?
+- Is AFL++ used consistently, or are we mixing approaches?
+- Have we avoided this problem: ignoring slow inputs?
+- Is coverage guidance clear to someone reading the code for the first time?
+- Does this change respect input generation, or does it work around it?
+
+Good reviews of work on Fuzz Testing are specific, kind and focused on crash triage, not on personal style.

@@ -1,0 +1,17 @@
+Write-Ahead Logging for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Write-Ahead Logging.
+
+Learning goals:
+1. Explain Write-Ahead Logging in your own words.
+2. Describe log records, checkpoints, crash recovery, and fsync.
+3. Give examples from surviving crashes and feeding replication streams.
+4. Name three problems to watch for.
+
+Start with the definition: Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data. Then draw writing a plan in a notebook before changing the real blueprint on paper and label the four terms from the goals above.
+
+Self-test questions: Why is disabling fsync for speed a problem? How does checkpoints relate to crash recovery? When would you choose PostgreSQL WAL or SQLite journal?
+
+Study habit worth keeping: test crash recovery by killing the process on purpose.
+
+When you feel ready, compare Write-Ahead Logging with Connection Pooling and write down three differences.

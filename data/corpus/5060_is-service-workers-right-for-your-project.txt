@@ -1,0 +1,11 @@
+Is Service Workers Right for Your Project?
+
+Before adopting Service Workers, ask whether it fits the problem. Remember that Service Workers is scripts that run in the background of a browser and intercept network requests.
+
+It is a good fit when your work involves offline support or faster repeat visits, and when your team understands registration.
+
+Be cautious when the project is very small, when deadlines leave no room to learn install and activate events, or when you cannot manage these risks: caching stale files forever, bugs surviving across deployments, and forgetting that HTTPS is required.
+
+A simple decision test: write down the problem in one sentence, then check whether cache storage and fetch handlers are part of the answer. If they are, Service Workers is probably worth a closer look.
+
+If you decide to go ahead, start small with push notifications and version your caches so old files can be removed.

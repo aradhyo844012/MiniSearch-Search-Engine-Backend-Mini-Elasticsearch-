@@ -1,0 +1,9 @@
+Understanding Minimum Spanning Trees Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture laying the cheapest set of roads that still links every town.
+
+In that picture, weighted graphs is the first rule you follow, Kruskal's algorithm is the next step, and Prim's algorithm and the cut property keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight, and it involves details such as using it on directed graphs that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for NetworkX to learn the exact behavior. The same picture helps when you explain designing cable networks to a friend.

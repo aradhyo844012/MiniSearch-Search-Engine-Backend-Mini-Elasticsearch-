@@ -1,0 +1,13 @@
+Logging Best Practices Explained Simply
+
+If Logging Best Practices sounds intimidating, relax. It is recording useful, structured information about what an application is doing, and the idea is simpler than the name suggests.
+
+Think of Logging Best Practices as a ship's logbook that explains what happened and when. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: log levels, structured logs, correlation IDs, and log rotation. You do not need to master them all at once. Start with log levels, then add structured logs.
+
+You will meet Logging Best Practices in work such as debugging production issues, auditing actions, and measuring usage.
+
+One practical tip is to include a request ID in every log line.
+
+After Logging Best Practices, a natural next topic is Dependency Injection.

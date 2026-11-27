@@ -1,0 +1,17 @@
+Event-Driven Architecture Do's and Don'ts
+
+A quick list of habits for working with Event-Driven Architecture.
+
+Do:
+- Learn producers and consumers before anything else.
+- Try Apache Kafka on a small example.
+- Make it a habit to document every event name and schema.
+- Test the case of order pipelines early.
+
+Don't:
+- Ignore this: hard-to-trace flows.
+- Ignore this: duplicate events.
+- Ignore this: unclear event ownership.
+- Adopt Event-Driven Architecture just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Event-Driven Architecture, a little patience with event brokers pays off more than any clever shortcut.

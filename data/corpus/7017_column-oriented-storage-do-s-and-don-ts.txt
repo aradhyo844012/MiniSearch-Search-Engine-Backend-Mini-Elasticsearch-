@@ -1,0 +1,17 @@
+Column-Oriented Storage Do's and Don'ts
+
+A quick list of habits for working with Column-Oriented Storage.
+
+Do:
+- Learn column chunks before anything else.
+- Try Apache Parquet on a small example.
+- Make it a habit to select only the columns you really need.
+- Test the case of analytics dashboards early.
+
+Don't:
+- Ignore this: slow single-row lookups.
+- Ignore this: many small writes.
+- Ignore this: wide tables with unused columns.
+- Adopt Column-Oriented Storage just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Column-Oriented Storage, a little patience with compression pays off more than any clever shortcut.

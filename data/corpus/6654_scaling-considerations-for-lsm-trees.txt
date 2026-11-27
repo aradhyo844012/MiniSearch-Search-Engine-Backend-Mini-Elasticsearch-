@@ -1,0 +1,11 @@
+Scaling Considerations for LSM Trees
+
+A design that works for a classroom project can behave very differently under real load. Here is how LSM Trees changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding memtable and getting write-heavy databases right.
+
+Medium scale: problems start to appear. Watch for read amplification and compaction stalls, and measure with RocksDB before changing anything.
+
+Large scale: compaction and write amplification move from background details to central design questions. Teams often revisit their choices around time-ordered data at this stage.
+
+Before you scale, watch compaction metrics before blaming the application. It is cheaper to build that habit early than to fix a crisis later.

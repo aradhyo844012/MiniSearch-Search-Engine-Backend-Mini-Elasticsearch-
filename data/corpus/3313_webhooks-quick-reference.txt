@@ -1,0 +1,15 @@
+Webhooks Quick Reference
+
+A one-screen reminder for Webhooks. Bookmark it and return when the details fade.
+
+What it is: HTTP callbacks that let one service notify another when an event happens.
+Key terms: event payloads, signature verification, retries, and endpoints.
+Typical uses: payment notifications, CI triggers, and chat integrations.
+Risks: not verifying signatures, slow handlers causing timeouts, and processing duplicate events.
+Tools: ngrok, the Stripe CLI, and Postman.
+
+Mental picture: a doorbell that rings when a delivery arrives instead of you checking the porch.
+
+Habit to build: respond quickly and process the event in a background job.
+
+See also: Background Jobs, which sits close to Webhooks in the area of Backend Engineering.

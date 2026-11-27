@@ -1,0 +1,11 @@
+Chaos Engineering in Real Projects
+
+Reading about Chaos Engineering is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: testing resilience. Here, steady state drives the main design choices, and the team needs to guard against experimenting without safeguards.
+
+Scenario two: validating failover. This time hypotheses matters most, and tools such as Chaos Monkey help keep things manageable.
+
+Scenario three: preparing teams for incidents. The key idea is blast radius, and the biggest risk is having no steady-state metrics.
+
+Across all three scenarios, Chaos Engineering stays the same idea: deliberately causing failures in a system to learn how it responds. Only the details change.

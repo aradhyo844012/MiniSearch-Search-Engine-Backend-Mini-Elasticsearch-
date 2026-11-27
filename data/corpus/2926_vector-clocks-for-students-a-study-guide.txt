@@ -1,0 +1,17 @@
+Vector Clocks for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Vector Clocks.
+
+Learning goals:
+1. Explain Vector Clocks in your own words.
+2. Describe logical time, per-process counters, the happened-before relation, and conflict detection.
+3. Give examples from detecting concurrent edits and replicated databases.
+4. Name three problems to watch for.
+
+Start with the definition: Vector Clocks is counters that let distributed processes track the order of events without a shared clock. Then draw each person in a group chat keeping a tally of messages seen from everyone on paper and label the four terms from the goals above.
+
+Self-test questions: Why is clocks that grow with many nodes a problem? How does per-process counters relate to the happened-before relation? When would you choose Riak or the Amazon Dynamo paper?
+
+Study habit worth keeping: compare clocks entry by entry to detect true concurrency.
+
+When you feel ready, compare Vector Clocks with CAP Theorem and write down three differences.

@@ -1,0 +1,15 @@
+The Pros and Cons of Push Notifications
+
+No technology is free of trade-offs, and Push Notifications is no exception. Here is an honest summary.
+
+Advantages:
+- Supports order updates
+- Makes chat alerts easier
+- Helps with re-engaging users
+
+Drawbacks and risks:
+- Risk: asking for permission too early
+- Risk: sending too many messages
+- Risk: ignoring token refresh
+
+Weigh the two lists against your own project. If the advantages match your needs, such as order updates, and you can manage the risks, Push Notifications is a sound choice. Whatever you decide, ask for permission at a moment when the user understands the value.

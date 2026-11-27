@@ -1,0 +1,11 @@
+Cloud Cost Optimization in Real Projects
+
+Reading about Cloud Cost Optimization is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: cutting idle resources. Here, right-sizing drives the main design choices, and the team needs to guard against forgotten test environments.
+
+Scenario two: budgeting by team. This time reserved capacity matters most, and tools such as AWS Cost Explorer help keep things manageable.
+
+Scenario three: choosing storage tiers. The key idea is tagging, and the biggest risk is over-provisioned databases.
+
+Across all three scenarios, Cloud Cost Optimization stays the same idea: the practice of reducing cloud spending while keeping performance and reliability. Only the details change.

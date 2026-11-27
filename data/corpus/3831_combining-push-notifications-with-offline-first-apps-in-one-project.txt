@@ -1,0 +1,15 @@
+Combining Push Notifications with Offline-First Apps in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Push Notifications and Offline-First Apps can work together in a single project.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed. Offline-First Apps is apps designed to work without a network and sync when a connection returns.
+
+Imagine a project that involves order updates and field service tools. Push Notifications brings device tokens, while Offline-First Apps brings local storage.
+
+A sensible plan is to start with Firebase Cloud Messaging for the Push Notifications part and SQLite for the Offline-First Apps part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: sending too many messages on one side, and unbounded local data on the other.
+
+Picture the whole as a courier who knocks on your door when a package arrives, working alongside writing in a notebook and mailing the pages later.
+
+Two habits help: first, ask for permission at a moment when the user understands the value; second, show users which changes have not synced yet.

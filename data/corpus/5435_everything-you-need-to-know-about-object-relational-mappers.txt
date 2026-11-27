@@ -1,0 +1,26 @@
+Everything You Need to Know About Object-Relational Mappers
+
+This page collects the essentials about Object-Relational Mappers in one place. In short, Object-Relational Mappers is libraries that map database tables to objects in code.
+
+Core concepts:
+- models
+- queries
+- relationships
+- migrations
+
+Where it is used:
+- building CRUD apps quickly
+- switching databases
+- keeping schema and code aligned
+
+Common problems:
+- N+1 queries
+- loading entire tables
+- hiding slow SQL
+
+Tools to know:
+- SQLAlchemy
+- the Django ORM
+- Hibernate
+
+Remember this above all: a translator between the language of tables and the language of objects is a good way to picture it, and the best habit is to log the generated SQL during development.

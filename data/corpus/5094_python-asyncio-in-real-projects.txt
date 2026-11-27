@@ -1,0 +1,11 @@
+Python Asyncio in Real Projects
+
+Reading about Python Asyncio is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: calling many APIs at once. Here, event loop drives the main design choices, and the team needs to guard against blocking calls inside coroutines.
+
+Scenario two: web servers. This time coroutines matters most, and tools such as asyncio help keep things manageable.
+
+Scenario three: network clients. The key idea is await, and the biggest risk is forgetting to await.
+
+Across all three scenarios, Python Asyncio stays the same idea: a library for running many waiting tasks concurrently on a single thread. Only the details change.

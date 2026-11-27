@@ -1,0 +1,11 @@
+Choosing Tools for Canary Releases
+
+There is no single best tool for Canary Releases. The right choice depends on your project, your team and your timeline.
+
+Argo Rollouts is a common first choice, especially for safer releases. Istio suits teams that already work with similar technology, and Flagger is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle testing with real traffic well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: too little traffic to reveal problems.
+
+As a rule of thumb, define rollback conditions before starting the rollout, no matter which tool you use.

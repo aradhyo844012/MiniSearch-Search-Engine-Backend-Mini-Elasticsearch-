@@ -1,0 +1,11 @@
+Mistakes to Avoid with Fenwick Trees
+
+Everyone learns Fenwick Trees partly through mistakes. Here are three worth avoiding.
+
+Mistake one: using zero-based indexes by mistake. It usually appears when someone skips binary indexed trees and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: forgetting that nodes store partial sums. It tends to be noticed late, often during testing of counting inversions. A short checklist during review catches it early.
+
+Mistake three: using it for operations that cannot be reversed. It is easy to miss because everything seems to work at first. Keep an eye on point updates to spot it.
+
+If you remember only one rule, make it this: start indexing from one to keep the bit tricks simple.

@@ -1,0 +1,13 @@
+Debugging Dijkstra's Algorithm: A Field Guide
+
+When something goes wrong around Dijkstra's Algorithm, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using it with negative edge weights, skipping the priority queue and getting slow code, and not stopping early when only one target is needed.
+Step 3: revisit priority queue and distance table, since misunderstandings there cause many bugs.
+Step 4: use Python heapq or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Dijkstra's Algorithm in work such as route planning come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, stop as soon as the destination is popped from the queue. It prevents a surprising number of repeat problems.

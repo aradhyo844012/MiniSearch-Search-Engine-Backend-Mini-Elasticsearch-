@@ -1,0 +1,11 @@
+Scaling Considerations for Fenwick Trees
+
+A design that works for a classroom project can behave very differently under real load. Here is how Fenwick Trees changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding binary indexed trees and getting counting inversions right.
+
+Medium scale: problems start to appear. Watch for using zero-based indexes by mistake and forgetting that nodes store partial sums, and measure with C++ vectors before changing anything.
+
+Large scale: prefix sums and point updates move from background details to central design questions. Teams often revisit their choices around maintaining running totals at this stage.
+
+Before you scale, start indexing from one to keep the bit tricks simple. It is cheaper to build that habit early than to fix a crisis later.

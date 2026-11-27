@@ -1,0 +1,13 @@
+Time-Series Databases vs Column-Oriented Storage: Which One Should You Learn First?
+
+Learners often ask whether to study Time-Series Databases or Column-Oriented Storage first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Time-Series Databases is databases optimized for storing and querying data points ordered by time, and it is closely tied to timestamps and retention policies. Column-Oriented Storage, by contrast, is a way of storing table data by column instead of by row to speed up analytics, and it is closely tied to column chunks and compression.
+
+Choose Time-Series Databases first if you care about server metrics or sensor readings. Choose Column-Oriented Storage first if you care about analytics dashboards or large aggregations.
+
+Think of Time-Series Databases as a long logbook where every line starts with the time, and of Column-Oriented Storage as a spreadsheet kept as separate lists per column so you can read just one. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Time-Series Databases, avoid high-cardinality tags. With Column-Oriented Storage, avoid slow single-row lookups.
+
+A good habit for Time-Series Databases is to include a time range in every query. A good habit for Column-Oriented Storage is to select only the columns you really need.

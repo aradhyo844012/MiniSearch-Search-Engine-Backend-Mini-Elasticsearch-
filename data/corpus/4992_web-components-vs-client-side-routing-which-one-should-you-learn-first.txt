@@ -1,0 +1,13 @@
+Web Components vs Client-Side Routing: Which One Should You Learn First?
+
+Learners often ask whether to study Web Components or Client-Side Routing first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Web Components is browser-native custom elements with their own markup, style and behavior, and it is closely tied to custom elements and shadow DOM. Client-Side Routing, by contrast, is changing the visible page in the browser without a full page reload, and it is closely tied to history API and route matching.
+
+Choose Web Components first if you care about design system components or widgets reused across frameworks. Choose Client-Side Routing first if you care about single-page apps or dashboards.
+
+Think of Web Components as a Lego brick in its own sealed packaging, and of Client-Side Routing as swapping the picture in a frame without replacing the frame. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Web Components, avoid styling surprises across the shadow boundary. With Client-Side Routing, avoid broken deep links.
+
+A good habit for Web Components is to document the attributes and events like a public API. A good habit for Client-Side Routing is to test refreshing the page on every route.

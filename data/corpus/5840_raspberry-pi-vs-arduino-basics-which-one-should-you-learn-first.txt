@@ -1,0 +1,13 @@
+Raspberry Pi vs Arduino Basics: Which One Should You Learn First?
+
+Learners often ask whether to study Raspberry Pi or Arduino Basics first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Raspberry Pi is a small, low-cost computer popular for learning, prototypes and home projects, and it is closely tied to GPIO pins and Linux. Arduino Basics, by contrast, is a beginner-friendly microcontroller platform for reading sensors and controlling devices, and it is closely tied to sketches and digital and analog pins.
+
+Choose Raspberry Pi first if you care about home automation or learning Linux. Choose Arduino Basics first if you care about reading sensors or driving motors and LEDs.
+
+Think of Raspberry Pi as a pocket-sized workshop for experiments, and of Arduino Basics as a tiny brain that watches inputs and flips switches. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raspberry Pi, avoid SD card corruption. With Arduino Basics, avoid wiring errors.
+
+A good habit for Raspberry Pi is to use a quality power supply and a reliable memory card. A good habit for Arduino Basics is to test each sensor on its own before combining them.

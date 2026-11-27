@@ -1,0 +1,12 @@
+Questions to Ask About Regression Testing in Code Review
+
+Reviewing code that involves Regression Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch missing tests for fixed bugs if it appeared later?
+- Have we considered slow suites that nobody runs?
+- Is pytest used consistently, or are we mixing approaches?
+- Does this change respect test suites, or does it work around it?
+- Could we add a test for every bug you fix?
+- Does the code handle the case of protecting releases correctly?
+
+Good reviews of work on Regression Testing are specific, kind and focused on test selection, not on personal style.

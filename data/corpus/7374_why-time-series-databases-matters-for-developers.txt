@@ -1,0 +1,11 @@
+Why Time-Series Databases Matters for Developers
+
+Developers who understand Time-Series Databases make better decisions, because Time-Series Databases is databases optimized for storing and querying data points ordered by time.
+
+Three situations show why it matters. First, server metrics. Second, sensor readings. Third, financial tick data. In each case, a solid grasp of timestamps and retention policies separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: high-cardinality tags, keeping raw data forever, and querying without time bounds.
+
+Good tools exist, including InfluxDB, TimescaleDB, and Prometheus, so you rarely have to start from nothing.
+
+Connect Time-Series Databases with Write-Ahead Logging to see the bigger picture of Storage Engines and Databases.

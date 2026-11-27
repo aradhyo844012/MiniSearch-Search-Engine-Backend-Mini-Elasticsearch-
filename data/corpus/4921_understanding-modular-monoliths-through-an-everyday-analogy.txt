@@ -1,0 +1,9 @@
+Understanding Modular Monoliths Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture an apartment building with separate flats under one roof.
+
+In that picture, module boundaries is the first rule you follow, public interfaces is the next step, and shared database rules and dependency checks keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Modular Monoliths is single deployable applications built from well-separated internal modules, and it involves details such as modules reaching into each other's tables that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for ArchUnit to learn the exact behavior. The same picture helps when you explain small teams to a friend.

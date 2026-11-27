@@ -1,0 +1,15 @@
+Content Security Policy in 10 Minutes
+
+You have ten minutes, so here is the fast route through Content Security Policy.
+
+Minutes 1 and 2, the definition: Content Security Policy is a browser feature that limits which scripts and resources a page may load.
+
+Minutes 3 and 4, the vocabulary: learn directives, nonces, report-only mode, and trusted sources.
+
+Minutes 5 and 6, the picture: imagine a guest list at the door of a building. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through reducing the impact of XSS, blocking unwanted scripts, and monitoring policy violations.
+
+Minutes 9 and 10, the traps and the tools: watch for allowing unsafe-inline and policies too broad to help, then try browser DevTools for a first experiment.
+
+If you have a spare minute, remember to start in report-only mode to learn what would break.

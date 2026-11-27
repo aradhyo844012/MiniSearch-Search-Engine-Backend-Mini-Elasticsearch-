@@ -1,0 +1,15 @@
+Combining Write-Ahead Logging with Column-Oriented Storage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Write-Ahead Logging and Column-Oriented Storage can work together in a single project.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data. Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Imagine a project that involves surviving crashes and analytics dashboards. Write-Ahead Logging brings log records, while Column-Oriented Storage brings column chunks.
+
+A sensible plan is to start with PostgreSQL WAL for the Write-Ahead Logging part and Apache Parquet for the Column-Oriented Storage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: log files filling the disk on one side, and many small writes on the other.
+
+Picture the whole as writing a plan in a notebook before changing the real blueprint, working alongside a spreadsheet kept as separate lists per column so you can read just one.
+
+Two habits help: first, test crash recovery by killing the process on purpose; second, select only the columns you really need.

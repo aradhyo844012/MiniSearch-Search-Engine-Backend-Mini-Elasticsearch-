@@ -1,0 +1,12 @@
+Questions to Ask About Log Aggregation in Code Review
+
+Reviewing code that involves Log Aggregation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered unbounded storage growth?
+- Have we avoided this problem: missing timestamps?
+- Does this change respect shippers, or does it work around it?
+- Is indexing clear to someone reading the code for the first time?
+- Would a test catch unstructured logs if it appeared later?
+- Does the code handle the case of troubleshooting across services correctly?
+
+Good reviews of work on Log Aggregation are specific, kind and focused on retention, not on personal style.

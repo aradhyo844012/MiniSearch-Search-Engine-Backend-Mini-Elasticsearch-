@@ -1,0 +1,12 @@
+Code Coverage Glossary for Beginners
+
+New words can make Code Coverage feel harder than it is. This glossary keeps the key ones in one place.
+
+Code Coverage: a measure of how much of the code is run by tests.
+line coverage: a core term, most visible in finding untested code.
+branch coverage: a core term that beginners often confuse with coverage reports.
+coverage reports: a core term that connects to thresholds.
+thresholds: a core term worth revisiting after you try a real example.
+coverage.py: a tool commonly used for setting quality gates.
+
+Come back to this Code Coverage list whenever documentation for JaCoCo uses a word you do not recognize.

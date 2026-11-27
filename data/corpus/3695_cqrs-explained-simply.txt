@@ -1,0 +1,13 @@
+CQRS Explained Simply
+
+Here is CQRS without the jargon: it is a pattern that separates the models used to change data from the models used to read it.
+
+Think of CQRS as a restaurant with one counter for orders and another for pickup. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: commands, queries, read models, and eventual consistency. You do not need to master them all at once. Start with commands, then add queries.
+
+People reach for CQRS when they work on high-read dashboards, complex domains, and scaling reads independently.
+
+One practical tip is to start with a single model and split only when reads and writes truly diverge.
+
+After CQRS, a natural next topic is Saga Pattern.

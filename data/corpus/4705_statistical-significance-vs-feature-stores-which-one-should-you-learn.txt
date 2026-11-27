@@ -1,0 +1,13 @@
+Statistical Significance vs Feature Stores: Which One Should You Learn First?
+
+Learners often ask whether to study Statistical Significance or Feature Stores first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Statistical Significance is a measure of how unlikely a result would be if there were no real effect, and it is closely tied to p-values and the null hypothesis. Feature Stores, by contrast, is systems that store and serve the input variables used by machine learning models, and it is closely tied to offline store and online store.
+
+Choose Statistical Significance first if you care about judging experiment results or comparing model performance. Choose Feature Stores first if you care about sharing features across models or serving real-time predictions.
+
+Think of Statistical Significance as asking how surprised you should be if a coin were actually fair, and of Feature Stores as a shared pantry of prepared ingredients for many recipes. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Statistical Significance, avoid mistaking significance for importance. With Feature Stores, avoid leaking future data.
+
+A good habit for Statistical Significance is to always report the effect size alongside the p-value. A good habit for Feature Stores is to define each feature once and reuse it in training and serving.

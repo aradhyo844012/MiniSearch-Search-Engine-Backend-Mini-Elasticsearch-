@@ -1,0 +1,17 @@
+GraphQL for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover GraphQL.
+
+Learning goals:
+1. Explain GraphQL in your own words.
+2. Describe schema, queries and mutations, resolvers, and types.
+3. Give examples from mobile apps with limited bandwidth and aggregating many services.
+4. Name three problems to watch for.
+
+Start with the definition: GraphQL is a query language for APIs that lets clients ask for exactly the fields they need. Then draw ordering a la carte instead of picking a fixed set menu on paper and label the four terms from the goals above.
+
+Self-test questions: Why is the N+1 query problem a problem? How does queries and mutations relate to resolvers? When would you choose Apollo or GraphQL Playground?
+
+Study habit: use a data loader to avoid N+1 queries.
+
+When you feel ready, compare GraphQL with Dependency Injection and write down three differences.

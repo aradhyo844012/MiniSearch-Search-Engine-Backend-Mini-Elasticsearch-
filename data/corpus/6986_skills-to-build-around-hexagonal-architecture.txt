@@ -1,0 +1,13 @@
+Skills to Build Around Hexagonal Architecture
+
+Knowing the definition of Hexagonal Architecture is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with ports and adapters, and able to explain them without notes.
+
+Hands-on practice: spend real time with Spring on a Hexagonal Architecture task, and try at least one alternative such as FastAPI.
+
+Judgment: learn to decide when Hexagonal Architecture fits a problem such as testable business logic, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a power strip that lets any plug connect to the same core.
+
+Habits: keep framework imports out of the core domain, and write down what you learn after each project.

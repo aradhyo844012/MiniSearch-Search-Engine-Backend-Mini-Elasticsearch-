@@ -1,0 +1,9 @@
+Understanding Idempotency Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture pressing an elevator call button many times and still getting one elevator.
+
+In that picture, idempotency keys is the first rule you follow, safe retries is the next step, and deduplication and at-least-once delivery keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Idempotency is the property that repeating an operation gives the same result as doing it once, and it involves details such as keys that expire too soon that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Stripe idempotency keys to learn the exact behavior. The same picture helps when you explain payment APIs to a friend.

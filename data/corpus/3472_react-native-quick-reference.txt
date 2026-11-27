@@ -1,0 +1,15 @@
+React Native Quick Reference
+
+A one-screen reminder for React Native. Bookmark it and return when the details fade.
+
+What it is: a framework for building mobile apps for several platforms using JavaScript and React.
+Key terms: components, native modules, styling with flexbox, and navigation.
+Typical uses: cross-platform apps, rapid prototypes, and sharing code with web teams.
+Risks: heavy re-renders, poorly tuned lists, and relying on outdated native modules.
+Tools: Expo, Metro, and React Native Debugger.
+
+Mental picture: one script performed by actors on two different stages.
+
+Habit to build: test on real devices for both platforms.
+
+See also: MQTT, which sits close to React Native in the area of Mobile, Embedded and IoT.

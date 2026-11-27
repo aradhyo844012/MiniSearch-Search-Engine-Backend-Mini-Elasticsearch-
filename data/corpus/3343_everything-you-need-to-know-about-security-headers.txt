@@ -1,0 +1,26 @@
+Everything You Need to Know About Security Headers
+
+This page collects the essentials about Security Headers in one place. In short, Security Headers is HTTP response headers that tell browsers to enforce extra protections.
+
+Core concepts:
+- Strict-Transport-Security
+- X-Content-Type-Options
+- frame protections
+- referrer policy
+
+Where it is used:
+- hardening websites
+- reducing clickjacking
+- enforcing HTTPS
+
+Common problems:
+- setting headers on only some routes
+- breaking embeds
+- copying configurations without understanding them
+
+Tools to know:
+- securityheaders.com
+- Helmet.js
+- Mozilla Observatory
+
+Remember this above all: safety instructions printed on the packaging of every page is a good way to picture it, and the best habit is to test the headers on every environment.

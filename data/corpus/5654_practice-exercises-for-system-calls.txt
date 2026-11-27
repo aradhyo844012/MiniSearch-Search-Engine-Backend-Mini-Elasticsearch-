@@ -1,0 +1,11 @@
+Practice Exercises for System Calls
+
+These exercises build real understanding of System Calls. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: ignoring error codes. Then fix it.
+Exercise 2: Explain how file descriptors and libc wrappers differ, using a drawing.
+Exercise 3: Pick strace and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble reading and writing files or creating processes.
+Exercise 5: Compare man pages and libc for using network sockets and write down your conclusion.
+
+When you finish, compare your answers with the definition: System Calls is the controlled doorway through which programs ask the operating system to do privileged work.

@@ -1,0 +1,15 @@
+Retrieval-Augmented Generation in 10 Minutes
+
+You have ten minutes, so here is the fast route through Retrieval-Augmented Generation.
+
+Minutes 1 and 2, the definition: Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers.
+
+Minutes 3 and 4, the vocabulary: learn retrieval, chunking, prompts with context, and grounding.
+
+Minutes 5 and 6, the picture: imagine an open-book exam where the student first looks up the right pages. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through company knowledge assistants, question answering over documents, and support bots.
+
+Minutes 9 and 10, the traps and the tools: watch for poor chunking and irrelevant retrieved text, then try LangChain for a first experiment.
+
+If you have a spare minute, remember to evaluate retrieval quality separately from answer quality.

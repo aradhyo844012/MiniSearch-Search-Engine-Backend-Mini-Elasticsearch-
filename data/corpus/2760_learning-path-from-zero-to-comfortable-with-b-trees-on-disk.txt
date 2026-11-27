@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with B-Trees on Disk
+
+This path is for a learner who has never studied B-Trees on Disk before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently) and learn pages and branching factor.
+
+Stage 2, hands-on: install PostgreSQL, follow a tutorial, and build a small example involving database indexes.
+
+Stage 3, depth: study node splits and sorted keys, then deliberately explore this problem: random writes on fragmented pages.
+
+Stage 4, application: apply B-Trees on Disk to file system directories, compare SQLite with MySQL InnoDB, and write up your results.
+
+Stage 5, review: teach B-Trees on Disk to someone else, and then move on to Write-Ahead Logging.

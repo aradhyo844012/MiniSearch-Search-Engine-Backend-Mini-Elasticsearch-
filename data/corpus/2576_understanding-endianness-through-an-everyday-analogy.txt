@@ -1,0 +1,9 @@
+Understanding Endianness Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture writing a date as day-month-year or as year-month-day.
+
+In that picture, big-endian is the first rule you follow, little-endian is the next step, and byte order marks and network byte order keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Endianness is the order in which a computer stores the bytes of a multi-byte number, and it involves details such as mixing byte orders that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Python struct to learn the exact behavior. The same picture helps when you explain network protocols to a friend.

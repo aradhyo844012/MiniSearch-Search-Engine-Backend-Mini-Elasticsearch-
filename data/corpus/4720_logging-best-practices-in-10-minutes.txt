@@ -1,0 +1,15 @@
+Logging Best Practices in 10 Minutes
+
+You have ten minutes, so here is the fast route through Logging Best Practices.
+
+Minutes 1 and 2, the definition: Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Minutes 3 and 4, the vocabulary: learn log levels, structured logs, correlation IDs, and log rotation.
+
+Minutes 5 and 6, the picture: imagine a ship's logbook that explains what happened and when. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through debugging production issues, auditing actions, and measuring usage.
+
+Minutes 9 and 10, the traps and the tools: watch for logging sensitive data and too much noise, then try the Python logging module for a first experiment.
+
+If you have a spare minute, remember to include a request ID in every log line.

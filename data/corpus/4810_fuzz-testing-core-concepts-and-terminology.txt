@@ -1,0 +1,10 @@
+Fuzz Testing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Fuzz Testing with confidence. The subject itself is feeding programs random or malformed input to uncover crashes and security bugs.
+
+input generation: one of the building blocks of Fuzz Testing. Mixing it up with neighboring terms is a common source of confusion.
+coverage guidance: one of the building blocks of Fuzz Testing. Documentation for AFL++ usually mentions it early.
+crash triage: one of the building blocks of Fuzz Testing. Mixing it up with neighboring terms is a common source of confusion.
+corpora: one of the building blocks of Fuzz Testing. It shows up whenever you work on testing parsers.
+
+Practice using these four terms in sentences about finding memory bugs. If the sentences feel natural, the vocabulary has stuck.

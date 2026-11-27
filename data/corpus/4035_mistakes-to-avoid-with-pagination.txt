@@ -1,0 +1,11 @@
+Mistakes to Avoid with Pagination
+
+Everyone learns Pagination partly through mistakes. Here are three worth avoiding.
+
+Mistake one: offsets getting slow on huge tables. It usually appears when someone skips offset pagination and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: unstable sort order. It tends to be noticed late, often during testing of search results. A short checklist during review catches it early.
+
+Mistake three: missing total counts when users need them. It is easy to miss because everything seems to work at first. Keep an eye on stable ordering to spot it.
+
+If you remember only one rule, make it this: prefer cursors for large or fast-changing data.

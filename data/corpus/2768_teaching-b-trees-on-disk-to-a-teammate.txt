@@ -1,0 +1,13 @@
+Teaching B-Trees on Disk to a Teammate
+
+Explaining B-Trees on Disk to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a filing cabinet where each drawer tells you which drawer to open next. Ask your teammate what the picture suggests.
+
+Then give the plain definition: B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Avoid jargon at this stage.
+
+Walk through an example involving database indexes, naming pages and branching factor as they come up.
+
+Ask your teammate to explain node splits in B-Trees on Disk back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, random writes on fragmented pages, and suggest this habit: keep indexed keys short so more of them fit on a page.

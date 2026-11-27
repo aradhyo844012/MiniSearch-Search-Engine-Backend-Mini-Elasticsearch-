@@ -1,0 +1,11 @@
+Why Chaos Engineering Matters for Developers
+
+Developers who understand Chaos Engineering make better decisions, because Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Three situations show why it matters. First, testing resilience. Second, validating failover. Third, preparing teams for incidents. In each case, a solid grasp of steady state and hypotheses separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: experimenting without safeguards, having no steady-state metrics, and running first in production.
+
+You will not need to build everything yourself; Chaos Monkey, Gremlin, and LitmusChaos cover most needs.
+
+Connect Chaos Engineering with Regression Testing to see the bigger picture of Testing and Quality.

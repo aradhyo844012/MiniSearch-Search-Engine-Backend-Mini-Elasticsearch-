@@ -1,0 +1,13 @@
+Form Validation Explained Simply
+
+If Form Validation sounds intimidating, relax. It is checking user input for correctness before it is accepted, and the idea is simpler than the name suggests.
+
+Think of Form Validation as a proofreader checking a form before it is submitted. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: client-side checks, server-side checks, error messages, and constraint attributes. You do not need to master them all at once. Start with client-side checks, then add server-side checks.
+
+You will meet Form Validation in work such as sign-up forms, payment pages, and search filters.
+
+One practical tip is to validate on the server even when the browser checks too.
+
+After Form Validation, a natural next topic is Service Workers.

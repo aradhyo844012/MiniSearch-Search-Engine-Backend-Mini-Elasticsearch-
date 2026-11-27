@@ -1,0 +1,15 @@
+Combining Dependency Vulnerabilities with Single Sign-On in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Dependency Vulnerabilities and Single Sign-On can work together in a single project.
+
+Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses. Single Sign-On is letting users log in once and access several applications.
+
+Imagine a project that involves auditing projects and company intranets. Dependency Vulnerabilities brings CVE identifiers, while Single Sign-On brings identity provider.
+
+A sensible plan is to start with Dependabot for the Dependency Vulnerabilities part and Okta for the Single Sign-On part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: never updating on one side, and misconfigured redirects on the other.
+
+Picture the whole as checking every ingredient supplier for recalls, working alongside a festival wristband that opens every gate.
+
+Two habits help: first, automate update pull requests; second, plan for identity provider outages.

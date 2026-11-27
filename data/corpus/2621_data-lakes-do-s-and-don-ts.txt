@@ -1,0 +1,17 @@
+Data Lakes Do's and Don'ts
+
+A quick list of habits for working with Data Lakes.
+
+Do:
+- Learn raw storage before anything else.
+- Try Amazon S3 on a small example.
+- Make it a habit to register every dataset in a catalog with an owner.
+- Test the case of storing logs and events early.
+
+Don't:
+- Ignore this: turning into a data swamp.
+- Ignore this: no catalog or ownership.
+- Ignore this: poor access controls.
+- Adopt Data Lakes just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Data Lakes, a little patience with schema on read pays off more than any clever shortcut.

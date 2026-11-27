@@ -1,0 +1,13 @@
+Threat Modeling Explained Simply
+
+If Threat Modeling sounds intimidating, relax. It is a structured way of identifying what could go wrong in a system and how to prevent it, and the idea is simpler than the name suggests.
+
+Think of Threat Modeling as walking around a house asking where a burglar might get in. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: assets, attackers, trust boundaries, and mitigations. You do not need to master them all at once. Start with assets, then add attackers.
+
+People reach for Threat Modeling when they work on designing new features, reviewing architecture, and prioritizing security work.
+
+One practical tip is to draw the data flow diagram first.
+
+After Threat Modeling, a natural next topic is Dependency Vulnerabilities.

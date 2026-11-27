@@ -1,0 +1,13 @@
+Data Lakes vs Apache Spark: Which One Should You Learn First?
+
+Learners often ask whether to study Data Lakes or Apache Spark first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed, and it is closely tied to raw storage and schema on read. Apache Spark, by contrast, is a distributed engine for processing large datasets across many machines, and it is closely tied to DataFrames and transformations and actions.
+
+Choose Data Lakes first if you care about storing logs and events or machine learning datasets. Choose Apache Spark first if you care about large ETL jobs or machine learning on big data.
+
+Think of Data Lakes as a big reservoir where water from many rivers is stored before treatment, and of Apache Spark as a team of workers each processing a share of a huge pile of papers. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Data Lakes, avoid turning into a data swamp. With Apache Spark, avoid data skew.
+
+A good habit for Data Lakes is to register every dataset in a catalog with an owner. A good habit for Apache Spark is to avoid collecting large results onto a single machine.

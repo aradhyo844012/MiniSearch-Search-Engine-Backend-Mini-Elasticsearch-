@@ -1,0 +1,15 @@
+Leader Election Quick Reference
+
+A one-screen reminder for Leader Election. Bookmark it and return when the details fade.
+
+What it is: a process by which nodes in a cluster choose one node to coordinate the work.
+Key terms: heartbeats, terms or epochs, candidates, and failover.
+Typical uses: database primaries, job schedulers, and cluster managers.
+Risks: split brain, flapping leaders, and slow failure detection.
+Tools: ZooKeeper, etcd, and Kubernetes leases.
+
+Mental picture: a classroom picking a monitor when the teacher leaves.
+
+Habit to build: tune heartbeat intervals against real network delays.
+
+See also: Vector Clocks, which sits close to Leader Election in the area of Distributed Systems.

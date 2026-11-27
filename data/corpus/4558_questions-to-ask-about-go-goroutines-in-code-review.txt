@@ -1,0 +1,12 @@
+Questions to Ask About Go Goroutines in Code Review
+
+Reviewing code that involves Go Goroutines is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is the go command used consistently, or are we mixing approaches?
+- Have we avoided this problem: unbuffered channels causing deadlocks?
+- Does this change respect goroutines, or does it work around it?
+- Is channels clear to someone reading the code for the first time?
+- Does the code handle the case of servers handling many connections correctly?
+- Have we considered goroutine leaks?
+
+Good reviews of work on Go Goroutines are specific, kind and focused on select statements, not on personal style.

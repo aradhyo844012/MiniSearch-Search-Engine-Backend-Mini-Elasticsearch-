@@ -1,0 +1,11 @@
+Is Canary Releases Right for Your Project?
+
+Before adopting Canary Releases, ask whether it fits the problem. Remember that Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+
+It is a good fit when your work involves safer releases or testing with real traffic, and when your team understands traffic percentages.
+
+Be cautious when the project is very small, when deadlines leave no room to learn health metrics, or when you cannot manage these risks: too little traffic to reveal problems, no clear success metrics, and manual promotion mistakes.
+
+A simple decision test: write down the problem in one sentence, then check whether automatic rollback and progressive rollout are part of the answer. If they are, Canary Releases is probably worth a closer look.
+
+If you decide to go ahead, start small with reducing the blast radius of bugs and define rollback conditions before starting the rollout.

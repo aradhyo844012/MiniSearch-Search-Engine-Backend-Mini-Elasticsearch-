@@ -1,0 +1,15 @@
+Combining React Native with Push Notifications in One Project
+
+Real projects rarely use one idea in isolation. This article shows how React Native and Push Notifications can work together in a single project.
+
+React Native is a framework for building mobile apps for several platforms using JavaScript and React. Push Notifications is messages sent to a user's device from a server even when the app is closed.
+
+Imagine a project that involves cross-platform apps and order updates. React Native brings components, while Push Notifications brings device tokens.
+
+A sensible plan is to start with Expo for the React Native part and Firebase Cloud Messaging for the Push Notifications part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poorly tuned lists on one side, and sending too many messages on the other.
+
+Picture the whole as one script performed by actors on two different stages, working alongside a courier who knocks on your door when a package arrives.
+
+Two habits help: first, test on real devices for both platforms; second, ask for permission at a moment when the user understands the value.

@@ -1,0 +1,12 @@
+Questions to Ask About React Native in Code Review
+
+Reviewing code that involves React Native is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is native modules clear to someone reading the code for the first time?
+- Would a test catch poorly tuned lists if it appeared later?
+- Does this change respect components, or does it work around it?
+- Have we considered heavy re-renders?
+- Is Expo used consistently, or are we mixing approaches?
+- Could we test on real devices for both platforms?
+
+Good reviews of work on React Native are specific, kind and focused on styling with flexbox, not on personal style.

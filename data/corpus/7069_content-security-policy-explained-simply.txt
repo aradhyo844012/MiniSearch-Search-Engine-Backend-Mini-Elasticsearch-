@@ -1,0 +1,13 @@
+Content Security Policy Explained Simply
+
+If Content Security Policy sounds intimidating, relax. It is a browser feature that limits which scripts and resources a page may load, and the idea is simpler than the name suggests.
+
+Think of Content Security Policy as a guest list at the door of a building. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: directives, nonces, report-only mode, and trusted sources. You do not need to master them all at once. Start with directives, then add nonces.
+
+You will meet Content Security Policy in work such as reducing the impact of XSS, blocking unwanted scripts, and monitoring policy violations.
+
+One practical tip is to start in report-only mode to learn what would break.
+
+After Content Security Policy, a natural next topic is Hashing vs Encryption.

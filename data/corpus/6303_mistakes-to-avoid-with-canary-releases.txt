@@ -1,0 +1,11 @@
+Mistakes to Avoid with Canary Releases
+
+Everyone learns Canary Releases partly through mistakes. Here are three worth avoiding.
+
+Mistake one: too little traffic to reveal problems. It usually appears when someone skips traffic percentages and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: no clear success metrics. It tends to be noticed late, often during testing of safer releases. A short checklist during review catches it early.
+
+Mistake three: manual promotion mistakes. It is easy to miss because everything seems to work at first. Keep an eye on progressive rollout to spot it.
+
+If you remember only one rule, make it this: define rollback conditions before starting the rollout.

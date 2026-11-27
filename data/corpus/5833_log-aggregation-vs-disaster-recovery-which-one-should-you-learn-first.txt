@@ -1,0 +1,13 @@
+Log Aggregation vs Disaster Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Log Aggregation or Disaster Recovery first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Log Aggregation is collecting logs from many machines into one searchable place, and it is closely tied to shippers and indexing. Disaster Recovery, by contrast, is the plans and systems that restore services after major failures, and it is closely tied to recovery time objective and recovery point objective.
+
+Choose Log Aggregation first if you care about troubleshooting across services or security investigations. Choose Disaster Recovery first if you care about surviving regional outages or meeting compliance needs.
+
+Think of Log Aggregation as gathering notes from every desk into a single searchable binder, and of Disaster Recovery as a fire drill for a whole system. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Log Aggregation, avoid unbounded storage growth. With Disaster Recovery, avoid untested plans.
+
+A good habit for Log Aggregation is to use structured JSON logs so that fields are searchable. A good habit for Disaster Recovery is to run a failover exercise on a regular schedule.

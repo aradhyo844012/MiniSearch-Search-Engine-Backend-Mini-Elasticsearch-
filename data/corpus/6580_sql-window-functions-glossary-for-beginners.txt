@@ -1,0 +1,12 @@
+SQL Window Functions Glossary for Beginners
+
+New words can make SQL Window Functions feel harder than it is. This glossary keeps the key ones in one place.
+
+SQL Window Functions: SQL features that calculate values across related rows without collapsing them.
+the OVER clause: a core term, most visible in running totals.
+partitions: a core term that beginners often confuse with ordering.
+ordering: a core term that connects to frames.
+frames: a core term worth revisiting after you try a real example.
+PostgreSQL: a tool commonly used for ranking rows.
+
+Come back to this SQL Window Functions list whenever documentation for SQLite uses a word you do not recognize.

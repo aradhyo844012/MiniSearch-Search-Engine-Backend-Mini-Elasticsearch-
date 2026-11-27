@@ -1,0 +1,26 @@
+Everything You Need to Know About Raft Consensus
+
+This page collects the essentials about Raft Consensus in one place. In short, Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations.
+
+Core concepts:
+- leader election
+- log replication
+- terms
+- majority quorum
+
+Where it is used:
+- configuration stores
+- distributed locks
+- replicated state machines
+
+Common problems:
+- even-sized clusters
+- slow disks causing elections
+- network delays above election timeouts
+
+Tools to know:
+- etcd
+- Consul
+- HashiCorp Raft library
+
+Remember this above all: a committee that elects a chair and only records decisions most members confirm is a good way to picture it, and the best habit is to use an odd number of nodes.

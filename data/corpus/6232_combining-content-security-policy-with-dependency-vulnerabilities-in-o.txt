@@ -1,0 +1,15 @@
+Combining Content Security Policy with Dependency Vulnerabilities in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Content Security Policy and Dependency Vulnerabilities can work together in a single project.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load. Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+Imagine a project that involves reducing the impact of XSS and auditing projects. Content Security Policy brings directives, while Dependency Vulnerabilities brings CVE identifiers.
+
+A sensible plan is to start with browser DevTools for the Content Security Policy part and Dependabot for the Dependency Vulnerabilities part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: policies too broad to help on one side, and never updating on the other.
+
+Picture the whole as a guest list at the door of a building, working alongside checking every ingredient supplier for recalls.
+
+Two habits help: first, start in report-only mode to learn what would break; second, automate update pull requests.

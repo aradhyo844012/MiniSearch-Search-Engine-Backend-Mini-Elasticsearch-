@@ -1,0 +1,15 @@
+Cloud Cost Optimization Quick Reference
+
+A one-screen reminder for Cloud Cost Optimization. Bookmark it and return when the details fade.
+
+What it is: the practice of reducing cloud spending while keeping performance and reliability.
+Key terms: right-sizing, reserved capacity, tagging, and usage reports.
+Typical uses: cutting idle resources, budgeting by team, and choosing storage tiers.
+Risks: forgotten test environments, over-provisioned databases, and surprise data transfer charges.
+Tools: AWS Cost Explorer, Infracost, and Kubecost.
+
+Mental picture: turning off the lights in rooms nobody is using.
+
+Habit to build: tag every resource with an owner.
+
+See also: Autoscaling, which sits close to Cloud Cost Optimization in the area of DevOps and Cloud.

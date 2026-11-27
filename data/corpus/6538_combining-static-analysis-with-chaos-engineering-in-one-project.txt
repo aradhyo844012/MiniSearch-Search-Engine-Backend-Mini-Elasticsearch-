@@ -1,0 +1,15 @@
+Combining Static Analysis with Chaos Engineering in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Static Analysis and Chaos Engineering can work together in a single project.
+
+Static Analysis is automated checking of source code for bugs and style problems without running it. Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Imagine a project that involves catching bugs early and testing resilience. Static Analysis brings linters, while Chaos Engineering brings steady state.
+
+A sensible plan is to start with ESLint for the Static Analysis part and Chaos Monkey for the Chaos Engineering part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: too many noisy rules on one side, and having no steady-state metrics on the other.
+
+Picture the whole as a spell checker for code, working alongside a fire drill where you secretly block one exit.
+
+Two habits help: first, run it in CI so problems never reach the main branch; second, start with small experiments in a test environment.

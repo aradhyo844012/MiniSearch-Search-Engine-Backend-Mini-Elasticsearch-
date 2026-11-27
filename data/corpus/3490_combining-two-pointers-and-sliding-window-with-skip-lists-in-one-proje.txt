@@ -1,0 +1,15 @@
+Combining Two Pointers and Sliding Window with Skip Lists in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Two Pointers and Sliding Window and Skip Lists can work together in a single project.
+
+Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops. Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+Imagine a project that involves finding pairs with a given sum and ordered in-memory indexes. Two Pointers and Sliding Window brings left and right pointers, while Skip Lists brings multiple levels.
+
+A sensible plan is to start with Python lists for the Two Pointers and Sliding Window part and Redis sorted sets for the Skip Lists part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting empty inputs on one side, and memory overhead on the other.
+
+Picture the whole as a small frame that slides along a line of text, working alongside an express train line layered over a local train line.
+
+Two habits help: first, write down the window invariant before coding the loop; second, draw several levels by hand to see how a search moves down.

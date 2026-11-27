@@ -1,0 +1,12 @@
+Questions to Ask About Two Pointers and Sliding Window in Code Review
+
+Reviewing code that involves Two Pointers and Sliding Window is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we write down the window invariant before coding the loop?
+- Is Python lists used consistently, or are we mixing approaches?
+- Is window boundaries clear to someone reading the code for the first time?
+- Have we avoided this problem: breaking the invariant?
+- Would a test catch forgetting empty inputs if it appeared later?
+- Have we considered moving the wrong pointer?
+
+Good reviews of work on Two Pointers and Sliding Window are specific, kind and focused on invariants, not on personal style.

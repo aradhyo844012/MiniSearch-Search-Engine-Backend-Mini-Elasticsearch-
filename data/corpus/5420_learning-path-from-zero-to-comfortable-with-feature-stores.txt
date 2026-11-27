@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Feature Stores
+
+This path is for a learner who has never studied Feature Stores before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Feature Stores is systems that store and serve the input variables used by machine learning models) and learn offline store and online store.
+
+Stage 2, hands-on: install Feast, follow a tutorial, and build a small example involving sharing features across models.
+
+Stage 3, depth: study point-in-time correctness and feature definitions, then deliberately explore this problem: leaking future data.
+
+Stage 4, application: apply Feature Stores to serving real-time predictions, compare Tecton with Databricks Feature Store, and write up your results.
+
+Stage 5, review: teach Feature Stores to someone else, and then move on to Data Anonymization.

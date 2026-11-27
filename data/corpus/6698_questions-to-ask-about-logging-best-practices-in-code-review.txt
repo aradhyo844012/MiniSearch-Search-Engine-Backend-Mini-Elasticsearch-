@@ -1,0 +1,12 @@
+Questions to Ask About Logging Best Practices in Code Review
+
+Reviewing code that involves Logging Best Practices is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of debugging production issues correctly?
+- Have we avoided this problem: missing context?
+- Could we include a request ID in every log line?
+- Is structured logs clear to someone reading the code for the first time?
+- Is the Python logging module used consistently, or are we mixing approaches?
+- Would a test catch too much noise if it appeared later?
+
+Good reviews of work on Logging Best Practices are specific, kind and focused on correlation IDs, not on personal style.

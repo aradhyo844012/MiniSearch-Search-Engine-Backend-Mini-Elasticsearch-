@@ -1,0 +1,11 @@
+Is Instruction Pipelines Right for Your Project?
+
+Before adopting Instruction Pipelines, ask whether it fits the problem. Remember that Instruction Pipelines is a technique where a processor overlaps the stages of several instructions.
+
+It is a good fit when your work involves explaining CPU speed or understanding branch costs, and when your team understands fetch, decode and execute stages.
+
+Be cautious when the project is very small, when deadlines leave no room to learn hazards, or when you cannot manage these risks: unpredictable branches, dependency chains, and assuming each instruction takes one step.
+
+A simple decision test: write down the problem in one sentence, then check whether branch prediction and stalls are part of the answer. If they are, Instruction Pipelines is probably worth a closer look.
+
+If you decide to go ahead, start small with optimizing tight loops and avoid unpredictable branches in hot loops.

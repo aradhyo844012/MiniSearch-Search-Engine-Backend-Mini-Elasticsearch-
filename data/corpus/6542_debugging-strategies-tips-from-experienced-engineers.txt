@@ -1,0 +1,11 @@
+Debugging Strategies Tips from Experienced Engineers
+
+Engineers who work with Debugging Strategies regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of fixing production issues early, before the design hardens.
+2. Reach for debuggers first, and only then evaluate alternatives such as logging.
+3. Do not skip reproducing the bug; everything else builds on it.
+4. Write down why you chose Debugging Strategies so the next person understands the decision.
+5. Be careful with this one: changing many things at once.
+
+None of these tips needs special equipment, and all of them apply to learning unfamiliar code as well.

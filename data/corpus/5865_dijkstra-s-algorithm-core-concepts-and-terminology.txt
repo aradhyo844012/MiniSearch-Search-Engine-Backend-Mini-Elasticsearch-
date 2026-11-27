@@ -1,0 +1,10 @@
+Dijkstra's Algorithm: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Dijkstra's Algorithm with confidence. The subject itself is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+priority queue: one of the building blocks of Dijkstra's Algorithm. Documentation for Python heapq usually mentions it early.
+distance table: one of the building blocks of Dijkstra's Algorithm. Mixing it up with neighboring terms is a common source of confusion.
+edge relaxation: one of the building blocks of Dijkstra's Algorithm. It shows up whenever you work on route planning.
+visited set: one of the building blocks of Dijkstra's Algorithm. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about network routing. If the sentences feel natural, the vocabulary has stuck.

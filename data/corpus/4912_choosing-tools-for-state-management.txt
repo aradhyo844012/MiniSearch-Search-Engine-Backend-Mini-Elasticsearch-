@@ -1,0 +1,11 @@
+Choosing Tools for State Management
+
+There is no single best tool for State Management. The right choice depends on your project, your team and your timeline.
+
+Redux is a common first choice, especially for large single-page apps. Zustand suits teams that already work with similar technology, and Vue Pinia is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle shared shopping carts well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: putting everything in global state.
+
+As a rule of thumb, keep state as close as possible to where it is used, no matter which tool you use.

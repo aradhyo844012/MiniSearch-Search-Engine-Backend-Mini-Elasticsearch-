@@ -1,0 +1,26 @@
+Everything You Need to Know About Code Documentation
+
+This page collects the essentials about Code Documentation in one place. In short, Code Documentation is written explanations that help others understand and use code.
+
+Core concepts:
+- README files
+- docstrings
+- architecture notes
+- examples
+
+Where it is used:
+- onboarding new developers
+- describing APIs
+- recording design decisions
+
+Common problems:
+- outdated docs
+- comments that repeat the code
+- missing examples
+
+Tools to know:
+- Sphinx
+- MkDocs
+- Javadoc
+
+Remember this above all: a map left for the next traveler is a good way to picture it, and the best habit is to keep documentation in the same repository as the code.

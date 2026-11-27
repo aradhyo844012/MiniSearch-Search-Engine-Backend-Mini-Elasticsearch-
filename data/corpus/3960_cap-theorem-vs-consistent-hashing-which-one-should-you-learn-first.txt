@@ -1,0 +1,13 @@
+CAP Theorem vs Consistent Hashing: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or Consistent Hashing first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. Consistent Hashing, by contrast, is a way of mapping keys to servers so that adding or removing servers moves very few keys, and it is closely tied to hash ring and virtual nodes.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose Consistent Hashing first if you care about distributed caches or sharded databases.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of Consistent Hashing as seats around a round table where a new guest only displaces their neighbor. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With Consistent Hashing, avoid too few virtual nodes.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for Consistent Hashing is to use many virtual nodes per server to even out the load.

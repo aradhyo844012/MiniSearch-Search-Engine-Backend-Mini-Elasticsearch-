@@ -1,0 +1,15 @@
+Combining Web Components with Form Validation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Web Components and Form Validation can work together in a single project.
+
+Web Components is browser-native custom elements with their own markup, style and behavior. Form Validation is checking user input for correctness before it is accepted.
+
+Imagine a project that involves design system components and sign-up forms. Web Components brings custom elements, while Form Validation brings client-side checks.
+
+A sensible plan is to start with Lit for the Web Components part and HTML constraint validation for the Form Validation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor accessibility on one side, and vague error messages on the other.
+
+Picture the whole as a Lego brick in its own sealed packaging, working alongside a proofreader checking a form before it is submitted.
+
+Two habits help: first, document the attributes and events like a public API; second, validate on the server even when the browser checks too.

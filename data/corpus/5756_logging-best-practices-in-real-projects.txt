@@ -1,0 +1,11 @@
+Logging Best Practices in Real Projects
+
+Reading about Logging Best Practices is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: debugging production issues. Here, log levels drives the main design choices, and the team needs to guard against logging sensitive data.
+
+Scenario two: auditing actions. This time structured logs matters most, and tools such as the Python logging module help keep things manageable.
+
+Scenario three: measuring usage. The key idea is correlation IDs, and the biggest risk is too much noise.
+
+Across all three scenarios, Logging Best Practices stays the same idea: recording useful, structured information about what an application is doing. Only the details change.

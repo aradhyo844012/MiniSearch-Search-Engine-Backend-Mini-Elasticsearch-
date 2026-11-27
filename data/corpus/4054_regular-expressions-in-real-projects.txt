@@ -1,0 +1,11 @@
+Regular Expressions in Real Projects
+
+Reading about Regular Expressions is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: validating input. Here, character classes drives the main design choices, and the team needs to guard against catastrophic backtracking.
+
+Scenario two: searching logs. This time quantifiers matters most, and tools such as the Python re module help keep things manageable.
+
+Scenario three: extracting fields from text. The key idea is groups, and the biggest risk is patterns that are too greedy.
+
+Across all three scenarios, Regular Expressions stays the same idea: compact patterns for matching and extracting text. Only the details change.

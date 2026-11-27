@@ -1,0 +1,9 @@
+Understanding Raft Consensus Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a committee that elects a chair and only records decisions most members confirm.
+
+In that picture, leader election is the first rule you follow, log replication is the next step, and terms and majority quorum keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it involves details such as even-sized clusters that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for etcd to learn the exact behavior. The same picture helps when you explain configuration stores to a friend.

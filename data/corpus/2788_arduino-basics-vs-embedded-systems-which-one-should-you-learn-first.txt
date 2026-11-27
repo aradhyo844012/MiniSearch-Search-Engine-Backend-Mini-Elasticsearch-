@@ -1,0 +1,13 @@
+Arduino Basics vs Embedded Systems: Which One Should You Learn First?
+
+Learners often ask whether to study Arduino Basics or Embedded Systems first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Arduino Basics is a beginner-friendly microcontroller platform for reading sensors and controlling devices, and it is closely tied to sketches and digital and analog pins. Embedded Systems, by contrast, is computers built into devices to perform dedicated tasks within tight limits, and it is closely tied to microcontrollers and firmware.
+
+Choose Arduino Basics first if you care about reading sensors or driving motors and LEDs. Choose Embedded Systems first if you care about appliances or medical devices.
+
+Think of Arduino Basics as a tiny brain that watches inputs and flips switches, and of Embedded Systems as a small brain inside an appliance that only knows one job. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Arduino Basics, avoid wiring errors. With Embedded Systems, avoid memory leaks on tiny devices.
+
+A good habit for Arduino Basics is to test each sensor on its own before combining them. A good habit for Embedded Systems is to plan how firmware updates will be delivered from the start.

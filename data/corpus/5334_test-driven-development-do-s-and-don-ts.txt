@@ -1,0 +1,17 @@
+Test-Driven Development Do's and Don'ts
+
+A quick list of habits for working with Test-Driven Development.
+
+Do:
+- Learn red, green, refactor before anything else.
+- Try pytest on a small example.
+- Make it a habit to keep each red-green cycle to a few minutes.
+- Test the case of designing small modules early.
+
+Don't:
+- Ignore this: writing tests that are too large.
+- Ignore this: skipping the refactor step.
+- Ignore this: testing implementation details.
+- Adopt Test-Driven Development just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Test-Driven Development, a little patience with small steps pays off more than any clever shortcut.

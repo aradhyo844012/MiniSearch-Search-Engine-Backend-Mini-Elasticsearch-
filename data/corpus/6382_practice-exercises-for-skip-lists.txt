@@ -1,0 +1,11 @@
+Practice Exercises for Skip Lists
+
+These exercises build real understanding of Skip Lists. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble ordered in-memory indexes or sorted sets in caches.
+Exercise 2: Pick Redis sorted sets and complete its getting-started tutorial.
+Exercise 3: Create a small example that deliberately triggers this problem: poor random number choices. Then fix it.
+Exercise 4: Explain how forward pointers and expected logarithmic time differ, using a drawing.
+Exercise 5: Write a short paragraph describing Skip Lists and include the term multiple levels.
+
+When you finish, compare your answers with the definition: Skip Lists is layered linked lists that allow fast searching by skipping over many elements.

@@ -1,0 +1,13 @@
+API Design Principles vs Test-Driven Development: Which One Should You Learn First?
+
+Learners often ask whether to study API Design Principles or Test-Driven Development first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+API Design Principles is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors. Test-Driven Development, by contrast, is a workflow where you write a failing test first and then write code to make it pass, and it is closely tied to red, green, refactor and small steps.
+
+Choose API Design Principles first if you care about public platforms or internal service contracts. Choose Test-Driven Development first if you care about designing small modules or preventing regressions.
+
+Think of API Design Principles as the controls of a car that behave the same in every model, and of Test-Driven Development as writing the exam questions before teaching the lesson. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With API Design Principles, avoid leaking internal details. With Test-Driven Development, avoid writing tests that are too large.
+
+A good habit for API Design Principles is to write the documentation before the implementation. A good habit for Test-Driven Development is to keep each red-green cycle to a few minutes.

@@ -1,0 +1,11 @@
+Security Headers in Real Projects
+
+Reading about Security Headers is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: hardening websites. Here, Strict-Transport-Security drives the main design choices, and the team needs to guard against setting headers on only some routes.
+
+Scenario two: reducing clickjacking. This time X-Content-Type-Options matters most, and tools such as securityheaders.com help keep things manageable.
+
+Scenario three: enforcing HTTPS. The key idea is frame protections, and the biggest risk is breaking embeds.
+
+Across all three scenarios, Security Headers stays the same idea: HTTP response headers that tell browsers to enforce extra protections. Only the details change.

@@ -1,0 +1,13 @@
+GraphQL vs Object-Relational Mappers: Which One Should You Learn First?
+
+Learners often ask whether to study GraphQL or Object-Relational Mappers first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need, and it is closely tied to schema and queries and mutations. Object-Relational Mappers, by contrast, is libraries that map database tables to objects in code, and it is closely tied to models and queries.
+
+Choose GraphQL first if you care about mobile apps with limited bandwidth or aggregating many services. Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases.
+
+Think of GraphQL as ordering a la carte instead of picking a fixed set menu, and of Object-Relational Mappers as a translator between the language of tables and the language of objects. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With GraphQL, avoid the N+1 query problem. With Object-Relational Mappers, avoid N+1 queries.
+
+A good habit for GraphQL is to use a data loader to avoid N+1 queries. A good habit for Object-Relational Mappers is to log the generated SQL during development.

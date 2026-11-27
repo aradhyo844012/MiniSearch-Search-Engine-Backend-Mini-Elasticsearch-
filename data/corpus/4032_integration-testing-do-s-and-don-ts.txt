@@ -1,0 +1,17 @@
+Integration Testing Do's and Don'ts
+
+A quick list of habits for working with Integration Testing.
+
+Do:
+- Learn test databases before anything else.
+- Try Testcontainers on a small example.
+- Make it a habit to use disposable containers for test dependencies.
+- Test the case of verifying API and database interaction early.
+
+Don't:
+- Ignore this: slow suites.
+- Ignore this: flaky external dependencies.
+- Ignore this: unclear failures.
+- Adopt Integration Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Integration Testing, a little patience with service boundaries pays off more than any clever shortcut.

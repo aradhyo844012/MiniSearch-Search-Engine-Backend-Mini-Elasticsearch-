@@ -1,0 +1,12 @@
+Questions to Ask About GPUs and Parallelism in Code Review
+
+Reviewing code that involves GPUs and Parallelism is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is kernels clear to someone reading the code for the first time?
+- Does this change respect threads and blocks, or does it work around it?
+- Is CUDA used consistently, or are we mixing approaches?
+- Could we minimize copies between CPU and GPU memory?
+- Would a test catch branch-heavy code if it appeared later?
+- Have we avoided this problem: launching tiny workloads?
+
+Good reviews of work on GPUs and Parallelism are specific, kind and focused on memory transfers, not on personal style.

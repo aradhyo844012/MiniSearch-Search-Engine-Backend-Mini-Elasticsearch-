@@ -1,0 +1,15 @@
+Push Notifications Quick Reference
+
+A one-screen reminder for Push Notifications. Bookmark it and return when the details fade.
+
+What it is: messages sent to a user's device from a server even when the app is closed.
+Key terms: device tokens, push services, payloads, and permissions.
+Typical uses: order updates, chat alerts, and re-engaging users.
+Risks: asking for permission too early, sending too many messages, and ignoring token refresh.
+Tools: Firebase Cloud Messaging, Apple Push Notification service, and OneSignal.
+
+Mental picture: a courier who knocks on your door when a package arrives.
+
+Habit to build: ask for permission at a moment when the user understands the value.
+
+See also: Mobile App Security, which sits close to Push Notifications in the area of Mobile, Embedded and IoT.

@@ -1,0 +1,11 @@
+Scaling Considerations for B-Trees on Disk
+
+A design that works for a classroom project can behave very differently under real load. Here is how B-Trees on Disk changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding pages and getting database indexes right.
+
+Medium scale: problems start to appear. Watch for random writes on fragmented pages and oversized keys, and measure with PostgreSQL before changing anything.
+
+Large scale: node splits and sorted keys move from background details to central design questions. Teams often revisit their choices around file system directories at this stage.
+
+Before you scale, keep indexed keys short so more of them fit on a page. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,12 @@
+Eventual Consistency Glossary for Beginners
+
+New words can make Eventual Consistency feel harder than it is. This glossary keeps the key ones in one place.
+
+Eventual Consistency: a guarantee that replicas will agree on the same value if updates stop for long enough.
+replication delay: a core term, most visible in global social feeds.
+conflict resolution: a core term that beginners often confuse with read-your-writes.
+read-your-writes: a core term that connects to convergence.
+convergence: a core term worth revisiting after you try a real example.
+Amazon DynamoDB: a tool commonly used for shopping cart services.
+
+Come back to this Eventual Consistency list whenever documentation for Apache Cassandra uses a word you do not recognize.

@@ -1,0 +1,15 @@
+Combining Distributed Locks with Event Sourcing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Distributed Locks and Event Sourcing can work together in a single project.
+
+Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines. Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+Imagine a project that involves running scheduled jobs once and audit trails. Distributed Locks brings lease times, while Event Sourcing brings event log.
+
+A sensible plan is to start with Redis for the Distributed Locks part and Apache Kafka for the Event Sourcing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: clock drift on one side, and unbounded replay times on the other.
+
+Picture the whole as a single key to a shared meeting room that expires automatically, working alongside a bank statement that lists every transaction instead of only the balance.
+
+Two habits help: first, always use a timeout together with a fencing token; second, version your events from the first day.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Assembly Language Basics
+
+Everyone learns Assembly Language Basics partly through mistakes. Here are three worth avoiding.
+
+Mistake one: wrong calling conventions. It usually appears when someone skips registers and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: stack corruption. It tends to be noticed late, often during testing of understanding compiled code. A short checklist during review catches it early.
+
+Mistake three: platform differences. It is easy to miss because everything seems to work at first. Keep an eye on the stack to spot it.
+
+If you remember only one rule, make it this: read the assembly of a tiny C function to see what the compiler does.

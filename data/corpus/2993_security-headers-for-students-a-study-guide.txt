@@ -1,0 +1,17 @@
+Security Headers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Security Headers.
+
+Learning goals:
+1. Explain Security Headers in your own words.
+2. Describe Strict-Transport-Security, X-Content-Type-Options, frame protections, and referrer policy.
+3. Give examples from hardening websites and reducing clickjacking.
+4. Name three problems to watch for.
+
+Start with the definition: Security Headers is HTTP response headers that tell browsers to enforce extra protections. Then draw safety instructions printed on the packaging of every page on paper and label the four terms from the goals above.
+
+Self-test questions: Why is setting headers on only some routes a problem? How does X-Content-Type-Options relate to frame protections? When would you choose securityheaders.com or Helmet.js?
+
+Study habit worth keeping: test the headers on every environment.
+
+When you feel ready, compare Security Headers with Dependency Vulnerabilities and write down three differences.

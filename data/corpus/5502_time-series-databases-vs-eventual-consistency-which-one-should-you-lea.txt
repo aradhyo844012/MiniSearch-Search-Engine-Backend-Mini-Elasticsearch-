@@ -1,0 +1,13 @@
+Time-Series Databases vs Eventual Consistency: Which One Should You Learn First?
+
+Learners often ask whether to study Time-Series Databases or Eventual Consistency first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Time-Series Databases is databases optimized for storing and querying data points ordered by time, and it is closely tied to timestamps and retention policies. Eventual Consistency, by contrast, is a guarantee that replicas will agree on the same value if updates stop for long enough, and it is closely tied to replication delay and conflict resolution.
+
+Choose Time-Series Databases first if you care about server metrics or sensor readings. Choose Eventual Consistency first if you care about global social feeds or shopping cart services.
+
+Think of Time-Series Databases as a long logbook where every line starts with the time, and of Eventual Consistency as news spreading through a village until everyone has heard it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Time-Series Databases, avoid high-cardinality tags. With Eventual Consistency, avoid assuming reads are always fresh.
+
+A good habit for Time-Series Databases is to include a time range in every query. A good habit for Eventual Consistency is to decide up front how your app handles stale reads.

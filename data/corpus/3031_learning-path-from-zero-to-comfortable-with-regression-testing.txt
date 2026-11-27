@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Regression Testing
+
+This path is for a learner who has never studied Regression Testing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Regression Testing is re-running tests after changes to make sure old features still work) and learn test suites and automation.
+
+Stage 2, hands-on: install pytest, follow a tutorial, and build a small example involving protecting releases.
+
+Stage 3, depth: study test selection and bug reproduction tests, then deliberately explore this problem: slow suites that nobody runs.
+
+Stage 4, application: apply Regression Testing to verifying bug fixes, compare GitHub Actions with Jenkins, and write up your results.
+
+Stage 5, review: teach Regression Testing to someone else, and then move on to Code Coverage.

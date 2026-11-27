@@ -1,0 +1,13 @@
+Teaching API Design Principles to a Teammate
+
+Explaining API Design Principles to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: the controls of a car that behave the same in every model. Ask your teammate what the picture suggests.
+
+Then give the plain definition: API Design Principles is guidelines for making APIs consistent, predictable and easy to use. Avoid jargon at this stage.
+
+Walk through an example involving public platforms, naming consistent naming and clear errors as they come up.
+
+Ask your teammate to explain idempotent operations in API Design Principles back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, leaking internal details, and suggest this habit: write the documentation before the implementation.

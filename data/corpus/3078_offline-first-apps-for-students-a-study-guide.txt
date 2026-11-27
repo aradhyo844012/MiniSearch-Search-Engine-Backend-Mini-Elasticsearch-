@@ -1,0 +1,17 @@
+Offline-First Apps for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Offline-First Apps.
+
+Learning goals:
+1. Explain Offline-First Apps in your own words.
+2. Describe local storage, sync queues, conflict resolution, and optimistic updates.
+3. Give examples from field service tools and note-taking apps.
+4. Name three problems to watch for.
+
+Start with the definition: Offline-First Apps is apps designed to work without a network and sync when a connection returns. Then draw writing in a notebook and mailing the pages later on paper and label the four terms from the goals above.
+
+Self-test questions: Why is unresolved sync conflicts a problem? How does sync queues relate to conflict resolution? When would you choose SQLite or PouchDB?
+
+Study habit: show users which changes have not synced yet.
+
+When you feel ready, compare Offline-First Apps with Embedded Systems and write down three differences.

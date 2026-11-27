@@ -1,0 +1,11 @@
+Union-Find in Real Projects
+
+Reading about Union-Find is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: detecting connected components. Here, parent pointers drives the main design choices, and the team needs to guard against forgetting path compression.
+
+Scenario two: building minimum spanning trees. This time union operation matters most, and tools such as Python lists help keep things manageable.
+
+Scenario three: grouping equivalent items. The key idea is find operation, and the biggest risk is merging without checking roots.
+
+Across all three scenarios, Union-Find stays the same idea: a data structure that tracks which items belong to the same group and merges groups quickly. Only the details change.

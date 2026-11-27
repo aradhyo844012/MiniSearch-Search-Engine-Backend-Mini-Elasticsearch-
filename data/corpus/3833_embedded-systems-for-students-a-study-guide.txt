@@ -1,0 +1,17 @@
+Embedded Systems for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Embedded Systems.
+
+Learning goals:
+1. Explain Embedded Systems in your own words.
+2. Describe microcontrollers, firmware, real-time constraints, and memory limits.
+3. Give examples from appliances and medical devices.
+4. Name three problems to watch for.
+
+Start with the definition: Embedded Systems is computers built into devices to perform dedicated tasks within tight limits. Then draw a small brain inside an appliance that only knows one job on paper and label the four terms from the goals above.
+
+Self-test questions: Why is memory leaks on tiny devices a problem? How does firmware relate to real-time constraints? When would you choose C or FreeRTOS?
+
+Study habit worth keeping: plan how firmware updates will be delivered from the start.
+
+When you feel ready, compare Embedded Systems with Push Notifications and write down three differences.

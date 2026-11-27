@@ -1,0 +1,15 @@
+Combining gRPC with Webhooks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how gRPC and Webhooks can work together in a single project.
+
+gRPC is a framework for fast remote procedure calls using typed contracts. Webhooks is HTTP callbacks that let one service notify another when an event happens.
+
+Imagine a project that involves service-to-service calls and payment notifications. gRPC brings protocol buffers, while Webhooks brings event payloads.
+
+A sensible plan is to start with protoc for the gRPC part and ngrok for the Webhooks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor browser support without a proxy on one side, and slow handlers causing timeouts on the other.
+
+Picture the whole as a phone line with a pre-agreed script for every call, working alongside a doorbell that rings when a delivery arrives instead of you checking the porch.
+
+Two habits help: first, never reuse or renumber field numbers in a proto file; second, respond quickly and process the event in a background job.

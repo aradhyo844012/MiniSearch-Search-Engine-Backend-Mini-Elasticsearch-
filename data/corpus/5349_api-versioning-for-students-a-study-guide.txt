@@ -1,0 +1,17 @@
+API Versioning for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover API Versioning.
+
+Learning goals:
+1. Explain API Versioning in your own words.
+2. Describe version in the URL, header versioning, deprecation, and backward compatibility.
+3. Give examples from public APIs and mobile apps that cannot update instantly.
+4. Name three problems to watch for.
+
+Start with the definition: API Versioning is the practice of evolving an API without breaking existing clients. Then draw keeping old editions of a textbook available while a new one is published on paper and label the four terms from the goals above.
+
+Self-test questions: Why is versioning too often a problem? How does header versioning relate to deprecation? When would you choose OpenAPI or Swagger UI?
+
+Study habit worth keeping: announce deprecations with a clear sunset date.
+
+When you feel ready, compare API Versioning with Configuration Management and write down three differences.

@@ -1,0 +1,13 @@
+Hexagonal Architecture vs Event-Driven Architecture: Which One Should You Learn First?
+
+Learners often ask whether to study Hexagonal Architecture or Event-Driven Architecture first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters, and it is closely tied to ports and adapters. Event-Driven Architecture, by contrast, is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers.
+
+Choose Hexagonal Architecture first if you care about testable business logic or swapping databases. Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications.
+
+Think of Hexagonal Architecture as a power strip that lets any plug connect to the same core, and of Event-Driven Architecture as a notice board where people post news and others react when they see it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Hexagonal Architecture, avoid too many layers for small apps. With Event-Driven Architecture, avoid hard-to-trace flows.
+
+A good habit for Hexagonal Architecture is to keep framework imports out of the core domain. A good habit for Event-Driven Architecture is to document every event name and schema.

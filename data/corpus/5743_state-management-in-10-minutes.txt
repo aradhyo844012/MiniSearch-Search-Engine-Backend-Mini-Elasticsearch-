@@ -1,0 +1,15 @@
+State Management in 10 Minutes
+
+You have ten minutes, so here is the fast route through State Management.
+
+Minutes 1 and 2, the definition: State Management is the practice of organizing where an application keeps and updates its data.
+
+Minutes 3 and 4, the vocabulary: learn single source of truth, actions, reducers, and derived state.
+
+Minutes 5 and 6, the picture: imagine a shared whiteboard that everyone updates through the same rules. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through large single-page apps, shared shopping carts, and multi-step form wizards.
+
+Minutes 9 and 10, the traps and the tools: watch for putting everything in global state and duplicated state that drifts apart, then try Redux for a first experiment.
+
+If you have a spare minute, remember to keep state as close as possible to where it is used.

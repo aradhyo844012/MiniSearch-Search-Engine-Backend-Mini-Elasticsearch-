@@ -1,0 +1,11 @@
+SOLID Principles in Real Projects
+
+Reading about SOLID Principles is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: structuring classes. Here, single responsibility drives the main design choices, and the team needs to guard against applying them rigidly to tiny scripts.
+
+Scenario two: reviewing designs. This time the open-closed principle matters most, and tools such as UML diagrams help keep things manageable.
+
+Scenario three: reducing coupling. The key idea is Liskov substitution, and the biggest risk is creating too many tiny classes.
+
+Across all three scenarios, SOLID Principles stays the same idea: five guidelines for designing object-oriented code that is easy to change. Only the details change.

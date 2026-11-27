@@ -1,0 +1,13 @@
+State Management Explained Simply
+
+Here is State Management without the jargon: it is the practice of organizing where an application keeps and updates its data.
+
+Think of State Management as a shared whiteboard that everyone updates through the same rules. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: single source of truth, actions, reducers, and derived state. You do not need to master them all at once. Start with single source of truth, then add actions.
+
+People reach for State Management when they work on large single-page apps, shared shopping carts, and multi-step form wizards.
+
+One practical tip is to keep state as close as possible to where it is used.
+
+After State Management, a natural next topic is Form Validation.

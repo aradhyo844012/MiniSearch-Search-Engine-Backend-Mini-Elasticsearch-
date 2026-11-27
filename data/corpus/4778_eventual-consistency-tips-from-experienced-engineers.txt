@@ -1,0 +1,11 @@
+Eventual Consistency Tips from Experienced Engineers
+
+Engineers who work with Eventual Consistency regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip replication delay; everything else builds on it.
+2. Write down why you chose Eventual Consistency so the next person understands the decision.
+3. Be careful with this one: assuming reads are always fresh.
+4. Reach for Amazon DynamoDB first, and only then evaluate alternatives such as Apache Cassandra.
+5. Test the case of global social feeds early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to shopping cart services as well.

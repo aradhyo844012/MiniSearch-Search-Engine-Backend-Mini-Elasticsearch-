@@ -1,0 +1,13 @@
+Debugging gRPC: A Field Guide
+
+When something goes wrong around gRPC, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: breaking changes in message fields, poor browser support without a proxy, and harder manual debugging.
+Step 3: revisit protocol buffers and service definitions, since misunderstandings there cause many bugs.
+Step 4: use protoc or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving gRPC in work such as service-to-service calls come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, never reuse or renumber field numbers in a proto file. It prevents a surprising number of repeat problems.

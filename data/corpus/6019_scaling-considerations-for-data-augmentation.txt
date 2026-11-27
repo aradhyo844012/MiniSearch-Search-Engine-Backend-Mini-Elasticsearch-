@@ -1,0 +1,11 @@
+Scaling Considerations for Data Augmentation
+
+A design that works for a classroom project can behave very differently under real load. Here is how Data Augmentation changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding transformations and getting image models right.
+
+Medium scale: problems start to appear. Watch for changes that alter the label and augmenting the test set, and measure with Albumentations before changing anything.
+
+Large scale: synthetic samples and augmentation pipelines move from background details to central design questions. Teams often revisit their choices around text classification at this stage.
+
+Before you scale, augment only the training data. It is cheaper to build that habit early than to fix a crisis later.

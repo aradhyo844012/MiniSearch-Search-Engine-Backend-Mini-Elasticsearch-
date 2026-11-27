@@ -1,0 +1,13 @@
+React Native vs Offline-First Apps: Which One Should You Learn First?
+
+Learners often ask whether to study React Native or Offline-First Apps first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+React Native is a framework for building mobile apps for several platforms using JavaScript and React, and it is closely tied to components and native modules. Offline-First Apps, by contrast, is apps designed to work without a network and sync when a connection returns, and it is closely tied to local storage and sync queues.
+
+Choose React Native first if you care about cross-platform apps or rapid prototypes. Choose Offline-First Apps first if you care about field service tools or note-taking apps.
+
+Think of React Native as one script performed by actors on two different stages, and of Offline-First Apps as writing in a notebook and mailing the pages later. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With React Native, avoid heavy re-renders. With Offline-First Apps, avoid unresolved sync conflicts.
+
+A good habit for React Native is to test on real devices for both platforms. A good habit for Offline-First Apps is to show users which changes have not synced yet.

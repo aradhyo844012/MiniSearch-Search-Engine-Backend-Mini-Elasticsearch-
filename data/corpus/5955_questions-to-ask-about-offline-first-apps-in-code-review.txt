@@ -1,0 +1,12 @@
+Questions to Ask About Offline-First Apps in Code Review
+
+Reviewing code that involves Offline-First Apps is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is SQLite used consistently, or are we mixing approaches?
+- Does this change respect local storage, or does it work around it?
+- Would a test catch unbounded local data if it appeared later?
+- Could we show users which changes have not synced yet?
+- Have we avoided this problem: poor feedback about pending changes?
+- Is sync queues clear to someone reading the code for the first time?
+
+Good reviews of work on Offline-First Apps are specific, kind and focused on conflict resolution, not on personal style.

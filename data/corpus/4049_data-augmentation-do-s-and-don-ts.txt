@@ -1,0 +1,17 @@
+Data Augmentation Do's and Don'ts
+
+A quick list of habits for working with Data Augmentation.
+
+Do:
+- Learn transformations before anything else.
+- Try Albumentations on a small example.
+- Make it a habit to augment only the training data.
+- Test the case of image models early.
+
+Don't:
+- Ignore this: changes that alter the label.
+- Ignore this: augmenting the test set.
+- Ignore this: unrealistic transformations.
+- Adopt Data Augmentation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Data Augmentation, a little patience with label preservation pays off more than any clever shortcut.

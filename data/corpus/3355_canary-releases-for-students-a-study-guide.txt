@@ -1,0 +1,17 @@
+Canary Releases for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Canary Releases.
+
+Learning goals:
+1. Explain Canary Releases in your own words.
+2. Describe traffic percentages, health metrics, automatic rollback, and progressive rollout.
+3. Give examples from safer releases and testing with real traffic.
+4. Name three problems to watch for.
+
+Start with the definition: Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it. Then draw a canary in a coal mine warning miners before the danger spreads on paper and label the four terms from the goals above.
+
+Self-test questions: Why is too little traffic to reveal problems a problem? How does health metrics relate to automatic rollback? When would you choose Argo Rollouts or Istio?
+
+Study habit worth keeping: define rollback conditions before starting the rollout.
+
+When you feel ready, compare Canary Releases with Cloud Cost Optimization and write down three differences.

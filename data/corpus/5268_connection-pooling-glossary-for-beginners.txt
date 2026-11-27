@@ -1,0 +1,12 @@
+Connection Pooling Glossary for Beginners
+
+New words can make Connection Pooling feel harder than it is. This glossary keeps the key ones in one place.
+
+Connection Pooling: reusing a limited set of open database connections instead of opening a new one for every request.
+pool size: a core term, most visible in web backends.
+idle connections: a core term that beginners often confuse with timeouts.
+timeouts: a core term that connects to connection leaks.
+connection leaks: a core term worth revisiting after you try a real example.
+PgBouncer: a tool commonly used for serverless functions that call databases.
+
+Come back to this Connection Pooling list whenever documentation for HikariCP uses a word you do not recognize.

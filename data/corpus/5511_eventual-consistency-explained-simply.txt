@@ -1,0 +1,13 @@
+Eventual Consistency Explained Simply
+
+Here is Eventual Consistency without the jargon: it is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+Think of Eventual Consistency as news spreading through a village until everyone has heard it. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: replication delay, conflict resolution, read-your-writes, and convergence. You do not need to master them all at once. Start with replication delay, then add conflict resolution.
+
+You will meet Eventual Consistency in work such as global social feeds, shopping cart services, and DNS records.
+
+One practical tip is to decide up front how your app handles stale reads.
+
+Once Eventual Consistency feels comfortable, read about Graph Databases, which lives in the same neighborhood of ideas.

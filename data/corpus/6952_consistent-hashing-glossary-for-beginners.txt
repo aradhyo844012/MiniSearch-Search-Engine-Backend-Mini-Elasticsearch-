@@ -1,0 +1,12 @@
+Consistent Hashing Glossary for Beginners
+
+New words can make Consistent Hashing feel harder than it is. This glossary keeps the key ones in one place.
+
+Consistent Hashing: a way of mapping keys to servers so that adding or removing servers moves very few keys.
+hash ring: a core term, most visible in distributed caches.
+virtual nodes: a core term that beginners often confuse with key placement.
+key placement: a core term that connects to rebalancing.
+rebalancing: a core term worth revisiting after you try a real example.
+Redis Cluster: a tool commonly used for sharded databases.
+
+Come back to this Consistent Hashing list whenever documentation for Memcached clients uses a word you do not recognize.

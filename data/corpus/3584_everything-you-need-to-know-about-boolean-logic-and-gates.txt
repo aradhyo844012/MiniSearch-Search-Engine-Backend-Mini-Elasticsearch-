@@ -1,0 +1,26 @@
+Everything You Need to Know About Boolean Logic and Gates
+
+This page collects the essentials about Boolean Logic and Gates in one place. In short, Boolean Logic and Gates is the basic true-or-false operations that digital circuits and program conditions are built from.
+
+Core concepts:
+- AND, OR and NOT
+- truth tables
+- De Morgan's laws
+- logic gates
+
+Where it is used:
+- writing conditions
+- designing circuits
+- simplifying expressions
+
+Common problems:
+- operator precedence mistakes
+- forgetting short-circuit behavior
+- negating complex conditions incorrectly
+
+Tools to know:
+- Logisim
+- Python bitwise operators
+- Karnaugh maps
+
+Remember this above all: light switches wired in series or in parallel is a good way to picture it, and the best habit is to write a truth table whenever a condition feels confusing.

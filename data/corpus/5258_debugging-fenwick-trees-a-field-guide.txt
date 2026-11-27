@@ -1,0 +1,13 @@
+Debugging Fenwick Trees: A Field Guide
+
+When something goes wrong around Fenwick Trees, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using zero-based indexes by mistake, forgetting that nodes store partial sums, and using it for operations that cannot be reversed.
+Step 3: revisit binary indexed trees and lowest set bit, since misunderstandings there cause many bugs.
+Step 4: use C++ vectors or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Fenwick Trees in work such as counting inversions come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, start indexing from one to keep the bit tricks simple. It prevents a surprising number of repeat problems.

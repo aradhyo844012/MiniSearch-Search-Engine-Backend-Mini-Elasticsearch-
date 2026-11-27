@@ -1,0 +1,15 @@
+Star Schema Modeling Quick Reference
+
+A one-screen reminder for Star Schema Modeling. Bookmark it and return when the details fade.
+
+What it is: a way of organizing analytics data into a central fact table surrounded by dimension tables.
+Key terms: fact tables, dimension tables, surrogate keys, and grain.
+Typical uses: business intelligence reports, data warehouses, and fast aggregations.
+Risks: mixing different grains, over-normalized dimensions, and missing date dimensions.
+Tools: dbt, Snowflake, and Kimball techniques.
+
+Mental picture: a wheel with a hub of numbers and spokes of descriptions.
+
+Habit to build: state the grain of the fact table before designing anything else.
+
+See also: SQL Window Functions, which sits close to Star Schema Modeling in the area of Data and Analytics.

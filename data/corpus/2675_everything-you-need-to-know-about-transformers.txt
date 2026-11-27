@@ -1,0 +1,26 @@
+Everything You Need to Know About Transformers
+
+This page collects the essentials about Transformers in one place. In short, Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+Core concepts:
+- self-attention
+- positional encoding
+- encoder and decoder blocks
+- tokens
+
+Where it is used:
+- language translation
+- text generation
+- code assistance
+
+Common problems:
+- huge compute requirements
+- limited context windows
+- biased training data
+
+Tools to know:
+- Hugging Face
+- PyTorch
+- TensorFlow
+
+Remember this above all: a reader who can look back at any word of a paragraph while reading each new word is a good way to picture it, and the best habit is to begin with small pretrained models.

@@ -1,0 +1,15 @@
+Database Migrations Quick Reference
+
+A one-screen reminder for Database Migrations. Bookmark it and return when the details fade.
+
+What it is: versioned scripts that change a database schema in a controlled and repeatable way.
+Key terms: up and down scripts, version tables, backward compatibility, and zero-downtime changes.
+Typical uses: adding columns safely, renaming tables, and keeping environments in sync.
+Risks: locking large tables, editing old migrations, and data loss on rollbacks.
+Tools: Alembic, Flyway, and Django migrations.
+
+Mental picture: a numbered set of renovation steps applied to a building in order.
+
+Habit to build: split risky changes into small steps that can each be rolled back.
+
+See also: Column-Oriented Storage, which sits close to Database Migrations in the area of Storage Engines and Databases.

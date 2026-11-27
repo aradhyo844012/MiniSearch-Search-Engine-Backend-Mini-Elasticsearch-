@@ -1,0 +1,12 @@
+Questions to Ask About Feature Flags in Code Review
+
+Reviewing code that involves Feature Flags is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is targeting rules clear to someone reading the code for the first time?
+- Is LaunchDarkly used consistently, or are we mixing approaches?
+- Does this change respect flag evaluation, or does it work around it?
+- Could we give every flag an owner and a removal date?
+- Does the code handle the case of dark launches correctly?
+- Would a test catch flags that depend on each other if it appeared later?
+
+Good reviews of work on Feature Flags are specific, kind and focused on gradual rollout, not on personal style.

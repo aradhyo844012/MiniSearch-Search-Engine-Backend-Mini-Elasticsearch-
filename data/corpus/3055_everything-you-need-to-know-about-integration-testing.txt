@@ -1,0 +1,26 @@
+Everything You Need to Know About Integration Testing
+
+This page collects the essentials about Integration Testing in one place. In short, Integration Testing is tests that check how several parts of a system work together.
+
+Core concepts:
+- test databases
+- service boundaries
+- fixtures
+- test environments
+
+Where it is used:
+- verifying API and database interaction
+- catching contract mismatches
+- testing third-party integrations
+
+Common problems:
+- slow suites
+- flaky external dependencies
+- unclear failures
+
+Tools to know:
+- Testcontainers
+- pytest
+- Postman
+
+Remember this above all: checking that the gears of a watch mesh before closing the case is a good way to picture it, and the best habit is to use disposable containers for test dependencies.

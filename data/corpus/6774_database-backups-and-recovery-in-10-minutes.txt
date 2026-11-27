@@ -1,0 +1,15 @@
+Database Backups and Recovery in 10 Minutes
+
+You have ten minutes, so here is the fast route through Database Backups and Recovery.
+
+Minutes 1 and 2, the definition: Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Minutes 3 and 4, the vocabulary: learn full and incremental backups, recovery point objective, recovery time objective, and restore testing.
+
+Minutes 5 and 6, the picture: imagine a spare house key kept at a trusted neighbor's home. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through recovering deleted tables, migrating servers, and meeting compliance rules.
+
+Minutes 9 and 10, the traps and the tools: watch for never testing restores and storing backups on the same disk, then try pg_dump for a first experiment.
+
+If you have a spare minute, remember to schedule a restore drill on a regular basis.

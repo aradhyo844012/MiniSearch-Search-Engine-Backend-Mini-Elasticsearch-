@@ -1,0 +1,15 @@
+The Pros and Cons of Union-Find
+
+No technology is free of trade-offs, and Union-Find is no exception. Here is an honest summary.
+
+Advantages:
+- Supports detecting connected components
+- Makes building minimum spanning trees easier
+- Helps with grouping equivalent items
+
+Drawbacks and risks:
+- Risk: forgetting path compression
+- Risk: merging without checking roots
+- Risk: using it when deletions are required
+
+Weigh the two lists against your own project. If the advantages match your needs, such as detecting connected components, and you can manage the risks, Union-Find is a sound choice. Whatever you decide, implement path compression and union by rank together.

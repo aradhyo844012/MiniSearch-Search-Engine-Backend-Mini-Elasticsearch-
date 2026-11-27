@@ -1,0 +1,12 @@
+Convolutional Neural Networks Glossary for Beginners
+
+New words can make Convolutional Neural Networks feel harder than it is. This glossary keeps the key ones in one place.
+
+Convolutional Neural Networks: neural networks that scan images with small filters to detect patterns.
+filters: a core term, most visible in image classification.
+pooling: a core term that beginners often confuse with feature maps.
+feature maps: a core term that connects to stride.
+stride: a core term worth revisiting after you try a real example.
+PyTorch: a tool commonly used for medical image analysis.
+
+Come back to this Convolutional Neural Networks list whenever documentation for TensorFlow uses a word you do not recognize.

@@ -1,0 +1,13 @@
+Union-Find vs Two Pointers and Sliding Window: Which One Should You Learn First?
+
+Learners often ask whether to study Union-Find or Two Pointers and Sliding Window first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly, and it is closely tied to parent pointers and union operation. Two Pointers and Sliding Window, by contrast, is techniques that scan arrays with two moving positions to avoid nested loops, and it is closely tied to left and right pointers and window boundaries.
+
+Choose Union-Find first if you care about detecting connected components or building minimum spanning trees. Choose Two Pointers and Sliding Window first if you care about finding pairs with a given sum or longest substring problems.
+
+Think of Union-Find as a set of club rosters where two clubs can merge into one, and of Two Pointers and Sliding Window as a small frame that slides along a line of text. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Union-Find, avoid forgetting path compression. With Two Pointers and Sliding Window, avoid moving the wrong pointer.
+
+A good habit for Union-Find is to implement path compression and union by rank together. A good habit for Two Pointers and Sliding Window is to write down the window invariant before coding the loop.

@@ -1,0 +1,10 @@
+Eventual Consistency: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Eventual Consistency with confidence. The subject itself is a guarantee that replicas will agree on the same value if updates stop for long enough.
+
+replication delay: one of the building blocks of Eventual Consistency. You should be able to explain it in a single sentence before moving on.
+conflict resolution: one of the building blocks of Eventual Consistency. It shows up whenever you work on global social feeds.
+read-your-writes: one of the building blocks of Eventual Consistency. Mixing it up with neighboring terms is a common source of confusion.
+convergence: one of the building blocks of Eventual Consistency. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about shopping cart services. If the sentences feel natural, the vocabulary has stuck.

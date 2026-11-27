@@ -1,0 +1,15 @@
+The Pros and Cons of Garbage Collection
+
+No technology is free of trade-offs, and Garbage Collection is no exception. Here is an honest summary.
+
+Advantages:
+- Supports managed languages like Java and Python
+- Makes reducing memory bugs easier
+- Helps with long-running services
+
+Drawbacks and risks:
+- Risk: creating huge numbers of short-lived objects
+- Risk: holding references longer than needed
+- Risk: ignoring pause times in latency-sensitive code
+
+Weigh the two lists against your own project. If the advantages match your needs, such as managed languages like Java and Python, and you can manage the risks, Garbage Collection is a sound choice. Whatever you decide, measure allocation rates before tuning collector settings.

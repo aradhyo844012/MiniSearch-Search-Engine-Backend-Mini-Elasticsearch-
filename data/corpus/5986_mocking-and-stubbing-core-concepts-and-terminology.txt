@@ -1,0 +1,10 @@
+Mocking and Stubbing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Mocking and Stubbing with confidence. The subject itself is replacing real dependencies with controlled fakes during tests.
+
+mocks: one of the building blocks of Mocking and Stubbing. It shows up whenever you work on isolating units.
+stubs: one of the building blocks of Mocking and Stubbing. Documentation for unittest.mock usually mentions it early.
+spies: one of the building blocks of Mocking and Stubbing. Documentation for unittest.mock usually mentions it early.
+fakes: one of the building blocks of Mocking and Stubbing. Documentation for unittest.mock usually mentions it early.
+
+Practice using these four terms in sentences about simulating failures. If the sentences feel natural, the vocabulary has stuck.

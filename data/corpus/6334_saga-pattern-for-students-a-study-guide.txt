@@ -1,0 +1,17 @@
+Saga Pattern for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Saga Pattern.
+
+Learning goals:
+1. Explain Saga Pattern in your own words.
+2. Describe local transactions, compensating actions, orchestration, and choreography.
+3. Give examples from order processing and travel bookings.
+4. Name three problems to watch for.
+
+Start with the definition: Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions. Then draw booking a trip with separate hotel, flight and car reservations that can each be cancelled on paper and label the four terms from the goals above.
+
+Self-test questions: Why is missing compensations a problem? How does compensating actions relate to orchestration? When would you choose Temporal or Camunda?
+
+Study habit: make every step and its compensation idempotent.
+
+When you feel ready, compare Saga Pattern with Consistent Hashing and write down three differences.

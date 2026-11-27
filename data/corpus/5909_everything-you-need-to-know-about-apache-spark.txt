@@ -1,0 +1,26 @@
+Everything You Need to Know About Apache Spark
+
+This page collects the essentials about Apache Spark in one place. In short, Apache Spark is a distributed engine for processing large datasets across many machines.
+
+Core concepts:
+- DataFrames
+- transformations and actions
+- partitions
+- lazy execution
+
+Where it is used:
+- large ETL jobs
+- machine learning on big data
+- log analysis
+
+Common problems:
+- data skew
+- too many small partitions
+- collecting huge results onto the driver
+
+Tools to know:
+- PySpark
+- Databricks
+- the Spark UI
+
+Remember this above all: a team of workers each processing a share of a huge pile of papers is a good way to picture it, and the best habit is to avoid collecting large results onto a single machine.

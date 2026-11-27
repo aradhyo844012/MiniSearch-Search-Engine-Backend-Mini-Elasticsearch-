@@ -1,0 +1,12 @@
+Questions to Ask About Chaos Engineering in Code Review
+
+Reviewing code that involves Chaos Engineering is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered experimenting without safeguards?
+- Have we avoided this problem: running first in production?
+- Is hypotheses clear to someone reading the code for the first time?
+- Does this change respect steady state, or does it work around it?
+- Is Chaos Monkey used consistently, or are we mixing approaches?
+- Does the code handle the case of testing resilience correctly?
+
+Good reviews of work on Chaos Engineering are specific, kind and focused on blast radius, not on personal style.

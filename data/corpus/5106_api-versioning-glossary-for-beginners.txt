@@ -1,0 +1,12 @@
+API Versioning Glossary for Beginners
+
+New words can make API Versioning feel harder than it is. This glossary keeps the key ones in one place.
+
+API Versioning: the practice of evolving an API without breaking existing clients.
+version in the URL: a core term, most visible in public APIs.
+header versioning: a core term that beginners often confuse with deprecation.
+deprecation: a core term that connects to backward compatibility.
+backward compatibility: a core term worth revisiting after you try a real example.
+OpenAPI: a tool commonly used for mobile apps that cannot update instantly.
+
+Come back to this API Versioning list whenever documentation for Swagger UI uses a word you do not recognize.

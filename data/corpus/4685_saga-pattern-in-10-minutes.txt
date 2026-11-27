@@ -1,0 +1,15 @@
+Saga Pattern in 10 Minutes
+
+You have ten minutes, so here is the fast route through Saga Pattern.
+
+Minutes 1 and 2, the definition: Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+Minutes 3 and 4, the vocabulary: learn local transactions, compensating actions, orchestration, and choreography.
+
+Minutes 5 and 6, the picture: imagine booking a trip with separate hotel, flight and car reservations that can each be cancelled. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through order processing, travel bookings, and payment workflows.
+
+Minutes 9 and 10, the traps and the tools: watch for missing compensations and steps that are not idempotent, then try Temporal for a first experiment.
+
+If you have a spare minute, remember to make every step and its compensation idempotent.

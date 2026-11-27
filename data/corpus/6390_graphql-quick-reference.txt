@@ -1,0 +1,15 @@
+GraphQL Quick Reference
+
+A one-screen reminder for GraphQL. Bookmark it and return when the details fade.
+
+What it is: a query language for APIs that lets clients ask for exactly the fields they need.
+Key terms: schema, queries and mutations, resolvers, and types.
+Typical uses: mobile apps with limited bandwidth, aggregating many services, and flexible dashboards.
+Risks: the N+1 query problem, unbounded query depth, and weak caching.
+Tools: Apollo, GraphQL Playground, and Hasura.
+
+Mental picture: ordering a la carte instead of picking a fixed set menu.
+
+Habit to build: use a data loader to avoid N+1 queries.
+
+See also: Dependency Injection, which sits close to GraphQL in the area of Backend Engineering.

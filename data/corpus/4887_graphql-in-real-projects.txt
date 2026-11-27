@@ -1,0 +1,11 @@
+GraphQL in Real Projects
+
+Reading about GraphQL is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: mobile apps with limited bandwidth. Here, schema drives the main design choices, and the team needs to guard against the N+1 query problem.
+
+Scenario two: aggregating many services. This time queries and mutations matters most, and tools such as Apollo help keep things manageable.
+
+Scenario three: flexible dashboards. The key idea is resolvers, and the biggest risk is unbounded query depth.
+
+Across all three scenarios, GraphQL stays the same idea: a query language for APIs that lets clients ask for exactly the fields they need. Only the details change.

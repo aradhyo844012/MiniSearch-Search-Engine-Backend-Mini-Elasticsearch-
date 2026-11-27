@@ -1,0 +1,15 @@
+Eventual Consistency Quick Reference
+
+A one-screen reminder for Eventual Consistency. Bookmark it and return when the details fade.
+
+What it is: a guarantee that replicas will agree on the same value if updates stop for long enough.
+Key terms: replication delay, conflict resolution, read-your-writes, and convergence.
+Typical uses: global social feeds, shopping cart services, and DNS records.
+Risks: assuming reads are always fresh, unresolved write conflicts, and no user feedback during delays.
+Tools: Amazon DynamoDB, Apache Cassandra, and CRDT libraries.
+
+Mental picture: news spreading through a village until everyone has heard it.
+
+Habit to build: decide up front how your app handles stale reads.
+
+See also: Graph Databases, which sits close to Eventual Consistency in the area of Storage Engines and Databases.

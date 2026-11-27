@@ -1,0 +1,13 @@
+Skills to Build Around Raft Consensus
+
+Knowing the definition of Raft Consensus is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with leader election and log replication, and able to explain them without notes.
+
+Hands-on practice: spend real time with etcd on a Raft Consensus task, and try at least one alternative such as Consul.
+
+Judgment: learn to decide when Raft Consensus fits a problem such as configuration stores, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a committee that elects a chair and only records decisions most members confirm.
+
+Habits: use an odd number of nodes, and write down what you learn after each project.

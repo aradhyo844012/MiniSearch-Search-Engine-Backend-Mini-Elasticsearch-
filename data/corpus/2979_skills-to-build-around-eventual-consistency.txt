@@ -1,0 +1,13 @@
+Skills to Build Around Eventual Consistency
+
+Knowing the definition of Eventual Consistency is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with replication delay and conflict resolution, and able to explain them without notes.
+
+Hands-on practice: spend real time with Amazon DynamoDB on a Eventual Consistency task, and try at least one alternative such as Apache Cassandra.
+
+Judgment: learn to decide when Eventual Consistency fits a problem such as global social feeds, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example news spreading through a village until everyone has heard it.
+
+Habits: decide up front how your app handles stale reads, and write down what you learn after each project.

@@ -1,0 +1,11 @@
+Why Data Quality Checks Matters for Developers
+
+Developers who understand Data Quality Checks make better decisions, because Data Quality Checks is automated tests that verify data is complete, valid and consistent.
+
+Three situations show why it matters. First, protecting dashboards. Second, validating ingestion. Third, catching pipeline bugs. In each case, a solid grasp of null checks and uniqueness separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: alerts nobody reads, checks only at the end of pipelines, and no ownership of failures.
+
+Good tools exist, including Great Expectations, dbt tests, and Deequ, so you rarely have to start from nothing.
+
+Connect Data Quality Checks with Feature Stores to see the bigger picture of Data and Analytics.

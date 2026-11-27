@@ -1,0 +1,13 @@
+Event-Driven Architecture vs Test-Driven Development: Which One Should You Learn First?
+
+Learners often ask whether to study Event-Driven Architecture or Test-Driven Development first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers. Test-Driven Development, by contrast, is a workflow where you write a failing test first and then write code to make it pass, and it is closely tied to red, green, refactor and small steps.
+
+Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications. Choose Test-Driven Development first if you care about designing small modules or preventing regressions.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it, and of Test-Driven Development as writing the exam questions before teaching the lesson. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event-Driven Architecture, avoid hard-to-trace flows. With Test-Driven Development, avoid writing tests that are too large.
+
+A good habit for Event-Driven Architecture is to document every event name and schema. A good habit for Test-Driven Development is to keep each red-green cycle to a few minutes.

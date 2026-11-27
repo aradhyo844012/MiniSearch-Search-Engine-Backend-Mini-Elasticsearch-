@@ -1,0 +1,10 @@
+Static Analysis: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Static Analysis with confidence. The subject itself is automated checking of source code for bugs and style problems without running it.
+
+linters: one of the building blocks of Static Analysis. Documentation for ESLint usually mentions it early.
+type checkers: one of the building blocks of Static Analysis. Mixing it up with neighboring terms is a common source of confusion.
+rule sets: one of the building blocks of Static Analysis. Documentation for ESLint usually mentions it early.
+false positives: one of the building blocks of Static Analysis. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about enforcing team style. If the sentences feel natural, the vocabulary has stuck.

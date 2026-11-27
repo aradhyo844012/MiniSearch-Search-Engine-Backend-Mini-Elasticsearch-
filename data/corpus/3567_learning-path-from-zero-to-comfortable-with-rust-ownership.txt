@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Rust Ownership
+
+This path is for a learner who has never studied Rust Ownership before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Rust Ownership is a set of rules that lets Rust manage memory safely without a garbage collector) and learn ownership and borrowing.
+
+Stage 2, hands-on: install Cargo, follow a tutorial, and build a small example involving systems programming.
+
+Stage 3, depth: study lifetimes and moves, then deliberately explore this problem: fighting the borrow checker with needless clones.
+
+Stage 4, application: apply Rust Ownership to command line tools, compare rustc with rust-analyzer, and write up your results.
+
+Stage 5, review: teach Rust Ownership to someone else, and then move on to Python Decorators.

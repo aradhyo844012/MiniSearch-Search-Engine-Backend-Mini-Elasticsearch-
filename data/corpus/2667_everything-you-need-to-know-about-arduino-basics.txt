@@ -1,0 +1,26 @@
+Everything You Need to Know About Arduino Basics
+
+This page collects the essentials about Arduino Basics in one place. In short, Arduino Basics is a beginner-friendly microcontroller platform for reading sensors and controlling devices.
+
+Core concepts:
+- sketches
+- digital and analog pins
+- setup and loop functions
+- the serial monitor
+
+Where it is used:
+- reading sensors
+- driving motors and LEDs
+- learning electronics
+
+Common problems:
+- wiring errors
+- blocking delays in the loop
+- insufficient power for motors
+
+Tools to know:
+- Arduino IDE
+- PlatformIO
+- Tinkercad
+
+Remember this above all: a tiny brain that watches inputs and flips switches is a good way to picture it, and the best habit is to test each sensor on its own before combining them.

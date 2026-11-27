@@ -1,0 +1,13 @@
+Graph Databases Explained Simply
+
+If Graph Databases sounds intimidating, relax. It is databases that store data as nodes and relationships and query connections directly, and the idea is simpler than the name suggests.
+
+Think of Graph Databases as a city map where intersections are records and roads are relationships. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: nodes, edges, properties, and traversal queries. You do not need to master them all at once. Start with nodes, then add edges.
+
+You will meet Graph Databases in work such as social networks, recommendation engines, and fraud detection.
+
+One practical tip is to limit traversal depth in every exploratory query.
+
+Once Graph Databases feels comfortable, read about Eventual Consistency, which lives in the same neighborhood of ideas.

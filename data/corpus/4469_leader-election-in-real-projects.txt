@@ -1,0 +1,11 @@
+Leader Election in Real Projects
+
+Reading about Leader Election is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: database primaries. Here, heartbeats drives the main design choices, and the team needs to guard against split brain.
+
+Scenario two: job schedulers. This time terms or epochs matters most, and tools such as ZooKeeper help keep things manageable.
+
+Scenario three: cluster managers. The key idea is candidates, and the biggest risk is flapping leaders.
+
+Across all three scenarios, Leader Election stays the same idea: a process by which nodes in a cluster choose one node to coordinate the work. Only the details change.

@@ -1,0 +1,13 @@
+Distributed Locks vs Leader Election: Which One Should You Learn First?
+
+Learners often ask whether to study Distributed Locks or Leader Election first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines, and it is closely tied to lease times and fencing tokens. Leader Election, by contrast, is a process by which nodes in a cluster choose one node to coordinate the work, and it is closely tied to heartbeats and terms or epochs.
+
+Choose Distributed Locks first if you care about running scheduled jobs once or protecting shared resources. Choose Leader Election first if you care about database primaries or job schedulers.
+
+Think of Distributed Locks as a single key to a shared meeting room that expires automatically, and of Leader Election as a classroom picking a monitor when the teacher leaves. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Distributed Locks, avoid locks that never expire. With Leader Election, avoid split brain.
+
+A good habit for Distributed Locks is to always use a timeout together with a fencing token. A good habit for Leader Election is to tune heartbeat intervals against real network delays.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Go Goroutines
+
+This is a fictional but realistic day for a developer whose project relies on Go Goroutines.
+
+Morning: Sneha starts by reviewing a ticket about servers handling many connections. Before touching any code, Sneha re-reads the notes on goroutines to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore channels with the go command. A small test exposes the problem of goroutine leaks, and they fix it together.
+
+Afternoon: the team discusses a new request involving parallel data processing. Sneha sketches a small crew of waiters passing notes through a serving hatch on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to run your tests with the race detector turned on.
+
+Days like this are typical. Go Goroutines is not glamorous, but understanding it keeps small problems from growing.

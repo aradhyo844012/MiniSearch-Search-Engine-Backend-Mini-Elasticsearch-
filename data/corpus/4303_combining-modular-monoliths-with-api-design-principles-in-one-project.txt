@@ -1,0 +1,15 @@
+Combining Modular Monoliths with API Design Principles in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Modular Monoliths and API Design Principles can work together in a single project.
+
+Modular Monoliths is single deployable applications built from well-separated internal modules. API Design Principles is guidelines for making APIs consistent, predictable and easy to use.
+
+Imagine a project that involves small teams and public platforms. Modular Monoliths brings module boundaries, while API Design Principles brings consistent naming.
+
+A sensible plan is to start with ArchUnit for the Modular Monoliths part and OpenAPI for the API Design Principles part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no enforced boundaries on one side, and inconsistent responses on the other.
+
+Picture the whole as an apartment building with separate flats under one roof, working alongside the controls of a car that behave the same in every model.
+
+Two habits help: first, enforce boundaries with automated checks; second, write the documentation before the implementation.

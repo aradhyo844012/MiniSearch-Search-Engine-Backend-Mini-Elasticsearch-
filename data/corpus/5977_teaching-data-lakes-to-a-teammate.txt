@@ -1,0 +1,13 @@
+Teaching Data Lakes to a Teammate
+
+Explaining Data Lakes to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a big reservoir where water from many rivers is stored before treatment. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Data Lakes is large storage systems that keep raw data in its original format until it is needed. Avoid jargon at this stage.
+
+Walk through an example involving storing logs and events, naming raw storage and schema on read as they come up.
+
+Ask your teammate to explain partitioning in Data Lakes back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, turning into a data swamp, and suggest this habit: register every dataset in a catalog with an owner.

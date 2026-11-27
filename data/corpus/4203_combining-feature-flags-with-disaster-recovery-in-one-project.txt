@@ -1,0 +1,15 @@
+Combining Feature Flags with Disaster Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Feature Flags and Disaster Recovery can work together in a single project.
+
+Feature Flags is switches in configuration that turn features on or off without redeploying code. Disaster Recovery is the plans and systems that restore services after major failures.
+
+Imagine a project that involves dark launches and surviving regional outages. Feature Flags brings flag evaluation, while Disaster Recovery brings recovery time objective.
+
+A sensible plan is to start with LaunchDarkly for the Feature Flags part and AWS Backup for the Disaster Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flags that depend on each other on one side, and outdated runbooks on the other.
+
+Picture the whole as light switches wired to every room of a house, working alongside a fire drill for a whole system.
+
+Two habits help: first, give every flag an owner and a removal date; second, run a failover exercise on a regular schedule.

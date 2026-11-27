@@ -1,0 +1,12 @@
+Questions to Ask About Minimum Spanning Trees in Code Review
+
+Reviewing code that involves Minimum Spanning Trees is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Kruskal's algorithm clear to someone reading the code for the first time?
+- Could we sort the edges once and reuse the order when testing variations?
+- Does this change respect weighted graphs, or does it work around it?
+- Have we considered using it on directed graphs?
+- Does the code handle the case of designing cable networks correctly?
+- Would a test catch forgetting that the graph must be connected if it appeared later?
+
+Good reviews of work on Minimum Spanning Trees are specific, kind and focused on Prim's algorithm, not on personal style.

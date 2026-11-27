@@ -1,0 +1,15 @@
+Test-Driven Development in 10 Minutes
+
+You have ten minutes, so here is the fast route through Test-Driven Development.
+
+Minutes 1 and 2, the definition: Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass.
+
+Minutes 3 and 4, the vocabulary: learn red, green, refactor, small steps, test first, and fast feedback.
+
+Minutes 5 and 6, the picture: imagine writing the exam questions before teaching the lesson. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through designing small modules, preventing regressions, and gaining confidence for refactoring.
+
+Minutes 9 and 10, the traps and the tools: watch for writing tests that are too large and skipping the refactor step, then try pytest for a first experiment.
+
+If you have a spare minute, remember to keep each red-green cycle to a few minutes.

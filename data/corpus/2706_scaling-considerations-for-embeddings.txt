@@ -1,0 +1,11 @@
+Scaling Considerations for Embeddings
+
+A design that works for a classroom project can behave very differently under real load. Here is how Embeddings changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding vectors and getting semantic search right.
+
+Medium scale: problems start to appear. Watch for mixing models between indexing and querying and ignoring normalization, and measure with sentence-transformers before changing anything.
+
+Large scale: dimensionality and nearest neighbor search move from background details to central design questions. Teams often revisit their choices around recommendations at this stage.
+
+Before you scale, use the same embedding model for indexing and querying. It is cheaper to build that habit early than to fix a crisis later.

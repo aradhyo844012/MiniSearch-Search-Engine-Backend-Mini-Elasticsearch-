@@ -1,0 +1,11 @@
+Practice Exercises for CPU Caches
+
+These exercises build real understanding of CPU Caches. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: false sharing. Then fix it.
+Exercise 2: Compare Valgrind cachegrind and Intel VTune for designing data layouts and write down your conclusion.
+Exercise 3: Pick perf and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble speeding up loops or explaining performance differences.
+Exercise 5: Write a short paragraph describing CPU Caches and include the term cache lines.
+
+When you finish, compare your answers with the definition: CPU Caches is small, fast memory close to the processor that stores recently used data.

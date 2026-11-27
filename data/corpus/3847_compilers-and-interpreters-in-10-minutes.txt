@@ -1,0 +1,15 @@
+Compilers and Interpreters in 10 Minutes
+
+You have ten minutes, so here is the fast route through Compilers and Interpreters.
+
+Minutes 1 and 2, the definition: Compilers and Interpreters is programs that translate or run source code written in a high-level language.
+
+Minutes 3 and 4, the vocabulary: learn lexing, parsing, code generation, and bytecode.
+
+Minutes 5 and 6, the picture: imagine a translator who either translates a whole book first or interprets sentence by sentence. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through running Python and JavaScript, building native programs, and creating tools like linters.
+
+Minutes 9 and 10, the traps and the tools: watch for assuming interpreted means slow without measuring and ignoring compiler warnings, then try GCC for a first experiment.
+
+If you have a spare minute, remember to turn on compiler warnings and treat them seriously.

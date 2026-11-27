@@ -1,0 +1,15 @@
+Transformers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Transformers.
+
+Minutes 1 and 2, the definition: Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+Minutes 3 and 4, the vocabulary: learn self-attention, positional encoding, encoder and decoder blocks, and tokens.
+
+Minutes 5 and 6, the picture: imagine a reader who can look back at any word of a paragraph while reading each new word. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through language translation, text generation, and code assistance.
+
+Minutes 9 and 10, the traps and the tools: watch for huge compute requirements and limited context windows, then try Hugging Face for a first experiment.
+
+If you have a spare minute, remember to begin with small pretrained models.

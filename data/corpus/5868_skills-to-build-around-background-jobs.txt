@@ -1,0 +1,13 @@
+Skills to Build Around Background Jobs
+
+Knowing the definition of Background Jobs is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with queues and workers, and able to explain them without notes.
+
+Hands-on practice: spend real time with Celery on a Background Jobs task, and try at least one alternative such as Sidekiq.
+
+Judgment: learn to decide when Background Jobs fits a problem such as sending emails, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example dropping laundry at a service and collecting it later.
+
+Habits: give every job a timeout and a retry limit, and write down what you learn after each project.

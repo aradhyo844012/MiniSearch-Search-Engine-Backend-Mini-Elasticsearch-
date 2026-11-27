@@ -1,0 +1,11 @@
+Scaling Considerations for Backtracking
+
+A design that works for a classroom project can behave very differently under real load. Here is how Backtracking changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding decision tree and getting solving Sudoku right.
+
+Medium scale: problems start to appear. Watch for forgetting to undo changes and missing pruning rules, and measure with Python recursion before changing anything.
+
+Large scale: state restoration and constraint checking move from background details to central design questions. Teams often revisit their choices around generating permutations at this stage.
+
+Before you scale, prune as early as possible because the savings multiply. It is cheaper to build that habit early than to fix a crisis later.

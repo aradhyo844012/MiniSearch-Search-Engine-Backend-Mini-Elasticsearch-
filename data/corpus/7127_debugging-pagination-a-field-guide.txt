@@ -1,0 +1,13 @@
+Debugging Pagination: A Field Guide
+
+When something goes wrong around Pagination, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: offsets getting slow on huge tables, unstable sort order, and missing total counts when users need them.
+Step 3: revisit offset pagination and cursor pagination, since misunderstandings there cause many bugs.
+Step 4: use SQL LIMIT and OFFSET or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Pagination in work such as search results come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, prefer cursors for large or fast-changing data. It prevents a surprising number of repeat problems.

@@ -1,0 +1,17 @@
+Convolutional Neural Networks Do's and Don'ts
+
+A quick list of habits for working with Convolutional Neural Networks.
+
+Do:
+- Learn filters before anything else.
+- Try PyTorch on a small example.
+- Make it a habit to start from a pretrained model.
+- Test the case of image classification early.
+
+Don't:
+- Ignore this: too little training data.
+- Ignore this: ignoring data augmentation.
+- Ignore this: overly deep models for simple tasks.
+- Adopt Convolutional Neural Networks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Convolutional Neural Networks, a little patience with pooling pays off more than any clever shortcut.

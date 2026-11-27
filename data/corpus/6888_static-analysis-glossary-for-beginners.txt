@@ -1,0 +1,12 @@
+Static Analysis Glossary for Beginners
+
+New words can make Static Analysis feel harder than it is. This glossary keeps the key ones in one place.
+
+Static Analysis: automated checking of source code for bugs and style problems without running it.
+linters: a core term, most visible in catching bugs early.
+type checkers: a core term that beginners often confuse with rule sets.
+rule sets: a core term that connects to false positives.
+false positives: a core term worth revisiting after you try a real example.
+ESLint: a tool commonly used for enforcing team style.
+
+Come back to this Static Analysis list whenever documentation for Pylint uses a word you do not recognize.

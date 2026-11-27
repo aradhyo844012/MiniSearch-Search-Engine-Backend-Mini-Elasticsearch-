@@ -1,0 +1,26 @@
+Everything You Need to Know About JavaScript Closures
+
+This page collects the essentials about JavaScript Closures in one place. In short, JavaScript Closures is functions that remember the variables from the place where they were created.
+
+Core concepts:
+- lexical scope
+- captured variables
+- function factories
+- memory retention
+
+Where it is used:
+- keeping private state in modules
+- event handlers that need context
+- callbacks that remember settings
+
+Common problems:
+- loop variables captured by mistake
+- memory leaks from long-lived closures
+- accidentally sharing mutable state
+
+Tools to know:
+- Chrome DevTools
+- Node.js
+- ESLint
+
+Remember this above all: a backpack a function carries with everything it needs from home is a good way to picture it, and the best habit is to use let instead of var inside loops.

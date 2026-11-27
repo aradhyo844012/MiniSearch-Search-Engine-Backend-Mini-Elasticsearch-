@@ -1,0 +1,15 @@
+Combining Column-Oriented Storage with Database Backups and Recovery in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Column-Oriented Storage and Database Backups and Recovery can work together in a single project.
+
+Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics. Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Imagine a project that involves analytics dashboards and recovering deleted tables. Column-Oriented Storage brings column chunks, while Database Backups and Recovery brings full and incremental backups.
+
+A sensible plan is to start with Apache Parquet for the Column-Oriented Storage part and pg_dump for the Database Backups and Recovery part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: many small writes on one side, and storing backups on the same disk on the other.
+
+Picture the whole as a spreadsheet kept as separate lists per column so you can read just one, working alongside a spare house key kept at a trusted neighbor's home.
+
+Two habits help: first, select only the columns you really need; second, schedule a restore drill on a regular basis.

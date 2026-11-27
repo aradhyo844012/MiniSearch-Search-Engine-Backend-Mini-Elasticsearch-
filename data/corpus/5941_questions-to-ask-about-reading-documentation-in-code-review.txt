@@ -1,0 +1,12 @@
+Questions to Ask About Reading Documentation in Code Review
+
+Reviewing code that involves Reading Documentation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is tutorials versus references clear to someone reading the code for the first time?
+- Have we considered reading the wrong version?
+- Could we check that the documentation version matches your installed version?
+- Have we avoided this problem: copying examples blindly?
+- Does the code handle the case of learning new libraries correctly?
+- Would a test catch skipping the overview if it appeared later?
+
+Good reviews of work on Reading Documentation are specific, kind and focused on examples, not on personal style.

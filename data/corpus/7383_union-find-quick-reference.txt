@@ -1,0 +1,15 @@
+Union-Find Quick Reference
+
+A one-screen reminder for Union-Find. Bookmark it and return when the details fade.
+
+What it is: a data structure that tracks which items belong to the same group and merges groups quickly.
+Key terms: parent pointers, union operation, find operation, and path compression.
+Typical uses: detecting connected components, building minimum spanning trees, and grouping equivalent items.
+Risks: forgetting path compression, merging without checking roots, and using it when deletions are required.
+Tools: Python lists, scipy.sparse.csgraph, and NetworkX.
+
+Mental picture: a set of club rosters where two clubs can merge into one.
+
+Habit to build: implement path compression and union by rank together.
+
+See also: Greedy Algorithms, which sits close to Union-Find in the area of Algorithms in Practice.

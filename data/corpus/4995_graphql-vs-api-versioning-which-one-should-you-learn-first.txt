@@ -1,0 +1,13 @@
+GraphQL vs API Versioning: Which One Should You Learn First?
+
+Learners often ask whether to study GraphQL or API Versioning first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need, and it is closely tied to schema and queries and mutations. API Versioning, by contrast, is the practice of evolving an API without breaking existing clients, and it is closely tied to version in the URL and header versioning.
+
+Choose GraphQL first if you care about mobile apps with limited bandwidth or aggregating many services. Choose API Versioning first if you care about public APIs or mobile apps that cannot update instantly.
+
+Think of GraphQL as ordering a la carte instead of picking a fixed set menu, and of API Versioning as keeping old editions of a textbook available while a new one is published. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With GraphQL, avoid the N+1 query problem. With API Versioning, avoid versioning too often.
+
+A good habit for GraphQL is to use a data loader to avoid N+1 queries. A good habit for API Versioning is to announce deprecations with a clear sunset date.

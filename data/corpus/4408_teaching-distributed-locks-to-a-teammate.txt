@@ -1,0 +1,13 @@
+Teaching Distributed Locks to a Teammate
+
+Explaining Distributed Locks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a single key to a shared meeting room that expires automatically. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines. Avoid jargon at this stage.
+
+Walk through an example involving running scheduled jobs once, naming lease times and fencing tokens as they come up.
+
+Ask your teammate to explain lock owners in Distributed Locks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, locks that never expire, and suggest this habit: always use a timeout together with a fencing token.

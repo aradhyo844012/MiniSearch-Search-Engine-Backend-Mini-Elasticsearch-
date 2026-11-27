@@ -1,0 +1,13 @@
+Raft Consensus vs Vector Clocks: Which One Should You Learn First?
+
+Learners often ask whether to study Raft Consensus or Vector Clocks first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations, and it is closely tied to leader election and log replication. Vector Clocks, by contrast, is counters that let distributed processes track the order of events without a shared clock, and it is closely tied to logical time and per-process counters.
+
+Choose Raft Consensus first if you care about configuration stores or distributed locks. Choose Vector Clocks first if you care about detecting concurrent edits or replicated databases.
+
+Think of Raft Consensus as a committee that elects a chair and only records decisions most members confirm, and of Vector Clocks as each person in a group chat keeping a tally of messages seen from everyone. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Raft Consensus, avoid even-sized clusters. With Vector Clocks, avoid clocks that grow with many nodes.
+
+A good habit for Raft Consensus is to use an odd number of nodes. A good habit for Vector Clocks is to compare clocks entry by entry to detect true concurrency.

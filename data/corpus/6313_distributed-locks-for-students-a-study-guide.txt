@@ -1,0 +1,17 @@
+Distributed Locks for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Distributed Locks.
+
+Learning goals:
+1. Explain Distributed Locks in your own words.
+2. Describe lease times, fencing tokens, lock owners, and timeouts.
+3. Give examples from running scheduled jobs once and protecting shared resources.
+4. Name three problems to watch for.
+
+Start with the definition: Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines. Then draw a single key to a shared meeting room that expires automatically on paper and label the four terms from the goals above.
+
+Self-test questions: Why is locks that never expire a problem? How does fencing tokens relate to lock owners? When would you choose Redis or ZooKeeper?
+
+Study habit worth keeping: always use a timeout together with a fencing token.
+
+When you feel ready, compare Distributed Locks with Raft Consensus and write down three differences.

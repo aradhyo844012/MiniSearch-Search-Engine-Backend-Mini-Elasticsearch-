@@ -1,0 +1,26 @@
+Everything You Need to Know About Configuration Management
+
+This page collects the essentials about Configuration Management in one place. In short, Configuration Management is keeping application settings separate from code so they can change per environment.
+
+Core concepts:
+- environment variables
+- config files
+- defaults
+- secrets handling
+
+Where it is used:
+- separating development and production
+- toggling features
+- deploying the same build everywhere
+
+Common problems:
+- committing secrets
+- inconsistent defaults
+- undocumented settings
+
+Tools to know:
+- dotenv
+- Pydantic settings
+- HashiCorp Consul
+
+Remember this above all: the settings dial on a machine that stays the same on every site is a good way to picture it, and the best habit is to fail fast at startup if a required setting is missing.

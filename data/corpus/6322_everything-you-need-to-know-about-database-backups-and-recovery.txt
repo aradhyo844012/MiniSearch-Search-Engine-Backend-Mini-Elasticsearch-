@@ -1,0 +1,26 @@
+Everything You Need to Know About Database Backups and Recovery
+
+This page collects the essentials about Database Backups and Recovery in one place. In short, Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.
+
+Core concepts:
+- full and incremental backups
+- recovery point objective
+- recovery time objective
+- restore testing
+
+Where it is used:
+- recovering deleted tables
+- migrating servers
+- meeting compliance rules
+
+Common problems:
+- never testing restores
+- storing backups on the same disk
+- keeping credentials inside backup scripts
+
+Tools to know:
+- pg_dump
+- mysqldump
+- AWS Backup
+
+Remember this above all: a spare house key kept at a trusted neighbor's home is a good way to picture it, and the best habit is to schedule a restore drill on a regular basis.

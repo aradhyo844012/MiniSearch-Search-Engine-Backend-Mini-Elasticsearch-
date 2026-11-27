@@ -1,0 +1,17 @@
+Code Coverage for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Code Coverage.
+
+Learning goals:
+1. Explain Code Coverage in your own words.
+2. Describe line coverage, branch coverage, coverage reports, and thresholds.
+3. Give examples from finding untested code and setting quality gates.
+4. Name three problems to watch for.
+
+Start with the definition: Code Coverage is a measure of how much of the code is run by tests. Then draw a map showing which rooms a security guard has walked through on paper and label the four terms from the goals above.
+
+Self-test questions: Why is chasing 100 percent a problem? How does branch coverage relate to coverage reports? When would you choose coverage.py or JaCoCo?
+
+Study habit: use coverage to find gaps, not to judge quality.
+
+When you feel ready, compare Code Coverage with Load Testing and write down three differences.

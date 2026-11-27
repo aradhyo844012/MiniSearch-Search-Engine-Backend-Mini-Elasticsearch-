@@ -1,0 +1,13 @@
+Teaching Object-Relational Mappers to a Teammate
+
+Explaining Object-Relational Mappers to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a translator between the language of tables and the language of objects. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Object-Relational Mappers is libraries that map database tables to objects in code. Avoid jargon at this stage.
+
+Walk through an example involving building CRUD apps quickly, naming models and queries as they come up.
+
+Ask your teammate to explain relationships in Object-Relational Mappers back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, N+1 queries, and suggest this habit: log the generated SQL during development.

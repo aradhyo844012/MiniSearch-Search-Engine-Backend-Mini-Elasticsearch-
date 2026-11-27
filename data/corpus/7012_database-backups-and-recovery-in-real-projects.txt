@@ -1,0 +1,11 @@
+Database Backups and Recovery in Real Projects
+
+Reading about Database Backups and Recovery is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: recovering deleted tables. Here, full and incremental backups drives the main design choices, and the team needs to guard against never testing restores.
+
+Scenario two: migrating servers. This time recovery point objective matters most, and tools such as pg_dump help keep things manageable.
+
+Scenario three: meeting compliance rules. The key idea is recovery time objective, and the biggest risk is storing backups on the same disk.
+
+Across all three scenarios, Database Backups and Recovery stays the same idea: the practice of copying data regularly so that it can be restored after failures. Only the details change.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Mocking and Stubbing
+
+This is a fictional but realistic day for a developer whose project relies on Mocking and Stubbing.
+
+Morning: Sneha starts by reviewing a ticket about isolating units. Before touching any code, Sneha re-reads the notes on mocks to make sure the plan is sound.
+
+Midday: Sneha pairs with a teammate to explore stubs with unittest.mock. A small test exposes the problem of over-mocking, and they fix it together.
+
+Afternoon: the team discusses a new request involving simulating failures. Sneha sketches a crash test dummy standing in for a real passenger on the whiteboard to help everyone follow the idea.
+
+End of day: Sneha writes a short note describing what changed and adds a reminder to prefer simple fakes over deep mock chains.
+
+Days like this are typical. Mocking and Stubbing is not glamorous, but understanding it keeps small problems from growing.

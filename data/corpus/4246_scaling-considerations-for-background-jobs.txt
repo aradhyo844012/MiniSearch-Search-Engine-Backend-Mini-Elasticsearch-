@@ -1,0 +1,11 @@
+Scaling Considerations for Background Jobs
+
+A design that works for a classroom project can behave very differently under real load. Here is how Background Jobs changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding queues and getting sending emails right.
+
+Medium scale: problems start to appear. Watch for jobs that are not idempotent and unbounded retries, and measure with Celery before changing anything.
+
+Large scale: retries and scheduling move from background details to central design questions. Teams often revisit their choices around resizing images at this stage.
+
+Before you scale, give every job a timeout and a retry limit. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,13 @@
+Interrupts vs GPUs and Parallelism: Which One Should You Learn First?
+
+Learners often ask whether to study Interrupts or GPUs and Parallelism first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Interrupts is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors. GPUs and Parallelism, by contrast, is processors with thousands of small cores that handle many similar calculations at once, and it is closely tied to threads and blocks and kernels.
+
+Choose Interrupts first if you care about keyboard and mouse input or timers. Choose GPUs and Parallelism first if you care about training neural networks or rendering graphics.
+
+Think of Interrupts as a phone call interrupting your reading, and of GPUs and Parallelism as a stadium of workers each doing one small identical task. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Interrupts, avoid long handlers. With GPUs and Parallelism, avoid slow data transfers.
+
+A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work. A good habit for GPUs and Parallelism is to minimize copies between CPU and GPU memory.

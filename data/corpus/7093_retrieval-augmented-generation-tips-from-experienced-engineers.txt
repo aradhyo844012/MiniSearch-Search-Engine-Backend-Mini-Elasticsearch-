@@ -1,0 +1,11 @@
+Retrieval-Augmented Generation Tips from Experienced Engineers
+
+Engineers who work with Retrieval-Augmented Generation regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of company knowledge assistants early, before the design hardens.
+2. When something behaves strangely, revisit chunking before anything else.
+3. Write down why you chose Retrieval-Augmented Generation so the next person understands the decision.
+4. Reach for LangChain first, and only then evaluate alternatives such as FAISS.
+5. Do not skip retrieval; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to question answering over documents as well.

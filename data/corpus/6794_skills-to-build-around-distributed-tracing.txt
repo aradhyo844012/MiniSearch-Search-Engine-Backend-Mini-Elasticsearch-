@@ -1,0 +1,13 @@
+Skills to Build Around Distributed Tracing
+
+Knowing the definition of Distributed Tracing is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with spans and trace IDs, and able to explain them without notes.
+
+Hands-on practice: spend real time with OpenTelemetry on a Distributed Tracing task, and try at least one alternative such as Jaeger.
+
+Judgment: learn to decide when Distributed Tracing fits a problem such as finding slow services, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a parcel tracking page that shows every stop on the route.
+
+Habits: propagate trace IDs through every outgoing call, and write down what you learn after each project.

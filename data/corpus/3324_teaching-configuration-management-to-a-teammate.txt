@@ -1,0 +1,13 @@
+Teaching Configuration Management to a Teammate
+
+Explaining Configuration Management to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: the settings dial on a machine that stays the same on every site. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Configuration Management is keeping application settings separate from code so they can change per environment. Avoid jargon at this stage.
+
+Walk through an example involving separating development and production, naming environment variables and config files as they come up.
+
+Ask your teammate to explain defaults in Configuration Management back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, committing secrets, and suggest this habit: fail fast at startup if a required setting is missing.

@@ -1,0 +1,17 @@
+Embeddings for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Embeddings.
+
+Learning goals:
+1. Explain Embeddings in your own words.
+2. Describe vectors, cosine similarity, dimensionality, and nearest neighbor search.
+3. Give examples from semantic search and recommendations.
+4. Name three problems to watch for.
+
+Start with the definition: Embeddings is lists of numbers that represent words, images or items so that similar things sit close together. Then draw coordinates on a map where similar places are close together on paper and label the four terms from the goals above.
+
+Self-test questions: Why is mixing models between indexing and querying a problem? How does cosine similarity relate to dimensionality? When would you choose sentence-transformers or FAISS?
+
+Study habit: use the same embedding model for indexing and querying.
+
+When you feel ready, compare Embeddings with Retrieval-Augmented Generation and write down three differences.

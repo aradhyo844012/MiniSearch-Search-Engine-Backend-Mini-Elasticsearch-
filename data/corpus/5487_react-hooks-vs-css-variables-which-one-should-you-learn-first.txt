@@ -1,0 +1,13 @@
+React Hooks vs CSS Variables: Which One Should You Learn First?
+
+Learners often ask whether to study React Hooks or CSS Variables first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+React Hooks is functions that let components use state and lifecycle features without writing classes, and it is closely tied to useState and useEffect. CSS Variables, by contrast, is custom properties that store values such as colors and spacing so they can be reused across styles, and it is closely tied to custom properties and the var function.
+
+Choose React Hooks first if you care about managing form input or fetching data on load. Choose CSS Variables first if you care about theme switching or design systems.
+
+Think of React Hooks as sticky notes a component keeps between redraws, and of CSS Variables as labeled paint buckets you refill once to recolor a whole house. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With React Hooks, avoid missing dependencies in effects. With CSS Variables, avoid missing fallbacks.
+
+A good habit for React Hooks is to enable the hooks lint rules from the start. A good habit for CSS Variables is to define theme values on the root element.

@@ -1,0 +1,11 @@
+Practice Exercises for Data Quality Checks
+
+These exercises build real understanding of Data Quality Checks. Do them in order, and write down your answers.
+
+Exercise 1: Explain how freshness and schema validation differ, using a drawing.
+Exercise 2: Compare dbt tests and Deequ for catching pipeline bugs and write down your conclusion.
+Exercise 3: Create a small example that deliberately triggers this problem: alerts nobody reads. Then fix it.
+Exercise 4: Write a short paragraph describing Data Quality Checks and include the term null checks.
+Exercise 5: Pick Great Expectations and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Data Quality Checks is automated tests that verify data is complete, valid and consistent.

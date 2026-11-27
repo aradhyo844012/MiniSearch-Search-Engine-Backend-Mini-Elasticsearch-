@@ -1,0 +1,15 @@
+Combining CPU Caches with Endianness in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CPU Caches and Endianness can work together in a single project.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data. Endianness is the order in which a computer stores the bytes of a multi-byte number.
+
+Imagine a project that involves speeding up loops and network protocols. CPU Caches brings cache lines, while Endianness brings big-endian.
+
+A sensible plan is to start with perf for the CPU Caches part and Python struct for the Endianness part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor access patterns on one side, and assuming all machines are alike on the other.
+
+Picture the whole as keeping your most-used books on your desk instead of in the library, working alongside writing a date as day-month-year or as year-month-day.
+
+Two habits help: first, access arrays in the order they are stored; second, always specify byte order in file and protocol formats.

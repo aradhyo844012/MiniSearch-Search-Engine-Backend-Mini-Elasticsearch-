@@ -1,0 +1,26 @@
+Everything You Need to Know About K-Means Clustering
+
+This page collects the essentials about K-Means Clustering in one place. In short, K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points.
+
+Core concepts:
+- centroids
+- distance measures
+- choosing k
+- iterations
+
+Where it is used:
+- customer segmentation
+- image compression
+- grouping documents
+
+Common problems:
+- choosing k blindly
+- unscaled features
+- sensitivity to starting points
+
+Tools to know:
+- scikit-learn
+- NumPy
+- matplotlib
+
+Remember this above all: dividing students into study groups around the most central member is a good way to picture it, and the best habit is to scale features before clustering.

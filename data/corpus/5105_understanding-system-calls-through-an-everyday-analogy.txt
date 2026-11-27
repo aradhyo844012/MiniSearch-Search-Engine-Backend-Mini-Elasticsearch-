@@ -1,0 +1,9 @@
+Understanding System Calls Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a service window where a customer asks staff to do things in the back office.
+
+In that picture, user mode and kernel mode is the first rule you follow, syscall numbers is the next step, and file descriptors and libc wrappers keep everything running smoothly.
+
+Every analogy breaks down eventually. Real System Calls is the controlled doorway through which programs ask the operating system to do privileged work, and it involves details such as ignoring error codes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for strace to learn the exact behavior. The same picture helps when you explain reading and writing files to a friend.

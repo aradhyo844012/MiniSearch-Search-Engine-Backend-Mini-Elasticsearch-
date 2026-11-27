@@ -1,0 +1,11 @@
+Practice Exercises for Data Augmentation
+
+These exercises build real understanding of Data Augmentation. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble image models or text classification.
+Exercise 2: Pick Albumentations and complete its getting-started tutorial.
+Exercise 3: Write a short paragraph describing Data Augmentation and include the term transformations.
+Exercise 4: Create a small example that deliberately triggers this problem: changes that alter the label. Then fix it.
+Exercise 5: Compare torchvision and nlpaug for small datasets and write down your conclusion.
+
+When you finish, compare your answers with the definition: Data Augmentation is creating modified copies of training data to help models generalize.

@@ -1,0 +1,15 @@
+The Pros and Cons of Fenwick Trees
+
+No technology is free of trade-offs, and Fenwick Trees is no exception. Here is an honest summary.
+
+Advantages:
+- Supports counting inversions
+- Makes maintaining running totals easier
+- Helps with building frequency tables
+
+Drawbacks and risks:
+- Risk: using zero-based indexes by mistake
+- Risk: forgetting that nodes store partial sums
+- Risk: using it for operations that cannot be reversed
+
+Weigh the two lists against your own project. If the advantages match your needs, such as counting inversions, and you can manage the risks, Fenwick Trees is a sound choice. Whatever you decide, start indexing from one to keep the bit tricks simple.

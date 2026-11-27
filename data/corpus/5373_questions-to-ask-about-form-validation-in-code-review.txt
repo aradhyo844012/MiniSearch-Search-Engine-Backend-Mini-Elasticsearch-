@@ -1,0 +1,12 @@
+Questions to Ask About Form Validation in Code Review
+
+Reviewing code that involves Form Validation is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is server-side checks clear to someone reading the code for the first time?
+- Would a test catch vague error messages if it appeared later?
+- Could we validate on the server even when the browser checks too?
+- Have we considered validating only on the client?
+- Is HTML constraint validation used consistently, or are we mixing approaches?
+- Does this change respect client-side checks, or does it work around it?
+
+Good reviews of work on Form Validation are specific, kind and focused on error messages, not on personal style.

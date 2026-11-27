@@ -1,0 +1,11 @@
+Why Background Jobs Matters for Developers
+
+Developers who understand Background Jobs make better decisions, because Background Jobs is tasks that run outside the request cycle so users do not have to wait for them.
+
+Three situations show why it matters. First, sending emails. Second, resizing images. Third, generating reports. In each case, a solid grasp of queues and workers separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: jobs that are not idempotent, unbounded retries, and losing jobs on restarts.
+
+Good tools exist, including Celery, Sidekiq, and BullMQ, so you rarely have to start from nothing.
+
+Connect Background Jobs with Object-Relational Mappers to see the bigger picture of Backend Engineering.

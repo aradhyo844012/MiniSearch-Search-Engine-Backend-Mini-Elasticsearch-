@@ -1,0 +1,13 @@
+System Calls vs Assembly Language Basics: Which One Should You Learn First?
+
+Learners often ask whether to study System Calls or Assembly Language Basics first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+System Calls is the controlled doorway through which programs ask the operating system to do privileged work, and it is closely tied to user mode and kernel mode and syscall numbers. Assembly Language Basics, by contrast, is low-level instructions that map closely to what a processor actually executes, and it is closely tied to registers and instructions.
+
+Choose System Calls first if you care about reading and writing files or creating processes. Choose Assembly Language Basics first if you care about understanding compiled code or debugging crashes.
+
+Think of System Calls as a service window where a customer asks staff to do things in the back office, and of Assembly Language Basics as the individual muscle movements behind a simple action. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With System Calls, avoid ignoring error codes. With Assembly Language Basics, avoid wrong calling conventions.
+
+A good habit for System Calls is to use strace to see what your program really asks the kernel to do. A good habit for Assembly Language Basics is to read the assembly of a tiny C function to see what the compiler does.

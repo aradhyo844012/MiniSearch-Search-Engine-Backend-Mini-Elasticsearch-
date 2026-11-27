@@ -1,0 +1,11 @@
+Scaling Considerations for Distributed Tracing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Distributed Tracing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding spans and getting finding slow services right.
+
+Medium scale: problems start to appear. Watch for missing context propagation and sampling too aggressively, and measure with OpenTelemetry before changing anything.
+
+Large scale: context propagation and sampling move from background details to central design questions. Teams often revisit their choices around understanding dependencies at this stage.
+
+Before you scale, propagate trace IDs through every outgoing call. It is cheaper to build that habit early than to fix a crisis later.

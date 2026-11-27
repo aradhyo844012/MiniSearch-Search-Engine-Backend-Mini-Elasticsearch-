@@ -1,0 +1,26 @@
+Everything You Need to Know About Backtracking
+
+This page collects the essentials about Backtracking in one place. In short, Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends.
+
+Core concepts:
+- decision tree
+- pruning
+- state restoration
+- constraint checking
+
+Where it is used:
+- solving Sudoku
+- generating permutations
+- N-Queens puzzles
+
+Common problems:
+- forgetting to undo changes
+- missing pruning rules
+- copying large state at every step
+
+Tools to know:
+- Python recursion
+- itertools
+- debuggers
+
+Remember this above all: walking a maze and returning to the last fork whenever you hit a wall is a good way to picture it, and the best habit is to prune as early as possible because the savings multiply.

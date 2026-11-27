@@ -1,0 +1,17 @@
+B-Trees on Disk for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover B-Trees on Disk.
+
+Learning goals:
+1. Explain B-Trees on Disk in your own words.
+2. Describe pages, branching factor, node splits, and sorted keys.
+3. Give examples from database indexes and file system directories.
+4. Name three problems to watch for.
+
+Start with the definition: B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently. Then draw a filing cabinet where each drawer tells you which drawer to open next on paper and label the four terms from the goals above.
+
+Self-test questions: Why is random writes on fragmented pages a problem? How does branching factor relate to node splits? When would you choose PostgreSQL or SQLite?
+
+Study habit worth keeping: keep indexed keys short so more of them fit on a page.
+
+When you feel ready, compare B-Trees on Disk with Time-Series Databases and write down three differences.

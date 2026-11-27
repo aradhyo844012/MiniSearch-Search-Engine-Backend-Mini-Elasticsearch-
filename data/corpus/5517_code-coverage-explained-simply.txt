@@ -1,0 +1,13 @@
+Code Coverage Explained Simply
+
+Here is Code Coverage without the jargon: it is a measure of how much of the code is run by tests.
+
+Think of Code Coverage as a map showing which rooms a security guard has walked through. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: line coverage, branch coverage, coverage reports, and thresholds. You do not need to master them all at once. Start with line coverage, then add branch coverage.
+
+People reach for Code Coverage when they work on finding untested code, setting quality gates, and tracking test progress.
+
+One practical tip is to use coverage to find gaps, not to judge quality.
+
+After Code Coverage, a natural next topic is Integration Testing.

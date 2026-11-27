@@ -1,0 +1,13 @@
+A/B Testing vs Feature Stores: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or Feature Stores first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. Feature Stores, by contrast, is systems that store and serve the input variables used by machine learning models, and it is closely tied to offline store and online store.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose Feature Stores first if you care about sharing features across models or serving real-time predictions.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of Feature Stores as a shared pantry of prepared ingredients for many recipes. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With Feature Stores, avoid leaking future data.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for Feature Stores is to define each feature once and reuse it in training and serving.

@@ -1,0 +1,11 @@
+Event Sourcing in Real Projects
+
+Reading about Event Sourcing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: audit trails. Here, event log drives the main design choices, and the team needs to guard against changing event formats carelessly.
+
+Scenario two: financial ledgers. This time projections matters most, and tools such as Apache Kafka help keep things manageable.
+
+Scenario three: rebuilding read models. The key idea is snapshots, and the biggest risk is unbounded replay times.
+
+Across all three scenarios, Event Sourcing stays the same idea: a design in which every change is stored as an immutable event and state is rebuilt from them. Only the details change.

@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Data Lakes
+
+This is a fictional but realistic day for a developer whose project relies on Data Lakes.
+
+Morning: Arjun starts by reviewing a ticket about storing logs and events. Before touching any code, Arjun re-reads the notes on raw storage to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore schema on read with Amazon S3. A small test exposes the problem of turning into a data swamp, and they fix it together.
+
+Afternoon: the team discusses a new request involving machine learning datasets. Arjun sketches a big reservoir where water from many rivers is stored before treatment on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to register every dataset in a catalog with an owner.
+
+Days like this are typical. Data Lakes is not glamorous, but understanding it keeps small problems from growing.

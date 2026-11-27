@@ -1,0 +1,15 @@
+Combining Endianness with Assembly Language Basics in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Endianness and Assembly Language Basics can work together in a single project.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number. Assembly Language Basics is low-level instructions that map closely to what a processor actually executes.
+
+Imagine a project that involves network protocols and understanding compiled code. Endianness brings big-endian, while Assembly Language Basics brings registers.
+
+A sensible plan is to start with Python struct for the Endianness part and GDB for the Assembly Language Basics part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: assuming all machines are alike on one side, and stack corruption on the other.
+
+Picture the whole as writing a date as day-month-year or as year-month-day, working alongside the individual muscle movements behind a simple action.
+
+Two habits help: first, always specify byte order in file and protocol formats; second, read the assembly of a tiny C function to see what the compiler does.

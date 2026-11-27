@@ -1,0 +1,13 @@
+Canary Releases vs Distributed Tracing: Which One Should You Learn First?
+
+Learners often ask whether to study Canary Releases or Distributed Tracing first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it, and it is closely tied to traffic percentages and health metrics. Distributed Tracing, by contrast, is following a single request as it passes through many services, and it is closely tied to spans and trace IDs.
+
+Choose Canary Releases first if you care about safer releases or testing with real traffic. Choose Distributed Tracing first if you care about finding slow services or understanding dependencies.
+
+Think of Canary Releases as a canary in a coal mine warning miners before the danger spreads, and of Distributed Tracing as a parcel tracking page that shows every stop on the route. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Canary Releases, avoid too little traffic to reveal problems. With Distributed Tracing, avoid missing context propagation.
+
+A good habit for Canary Releases is to define rollback conditions before starting the rollout. A good habit for Distributed Tracing is to propagate trace IDs through every outgoing call.

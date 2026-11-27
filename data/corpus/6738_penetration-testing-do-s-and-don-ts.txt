@@ -1,0 +1,17 @@
+Penetration Testing Do's and Don'ts
+
+A quick list of habits for working with Penetration Testing.
+
+Do:
+- Learn scoping before anything else.
+- Try OWASP ZAP on a small example.
+- Make it a habit to get written authorization before any test.
+- Test the case of pre-launch security checks early.
+
+Don't:
+- Ignore this: testing without written permission.
+- Ignore this: ignoring the findings afterward.
+- Ignore this: relying only on automated scans.
+- Adopt Penetration Testing just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Penetration Testing, a little patience with reconnaissance pays off more than any clever shortcut.

@@ -1,0 +1,26 @@
+Everything You Need to Know About CSRF
+
+This page collects the essentials about CSRF in one place. In short, CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site.
+
+Core concepts:
+- session cookies
+- anti-CSRF tokens
+- SameSite cookies
+- state-changing requests
+
+Where it is used:
+- protecting forms
+- securing account settings
+- hardening admin panels
+
+Common problems:
+- using GET requests for state changes
+- skipping tokens on cookie-based APIs
+- misconfigured SameSite settings
+
+Tools to know:
+- Django CSRF middleware
+- Flask-WTF
+- OWASP guides
+
+Remember this above all: a forged letter that a bank clerk stamps because your ID is already on file is a good way to picture it, and the best habit is to combine SameSite cookies with anti-CSRF tokens.

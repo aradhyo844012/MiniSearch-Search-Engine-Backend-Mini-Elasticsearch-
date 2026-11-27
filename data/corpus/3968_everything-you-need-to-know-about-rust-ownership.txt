@@ -1,0 +1,26 @@
+Everything You Need to Know About Rust Ownership
+
+This page collects the essentials about Rust Ownership in one place. In short, Rust Ownership is a set of rules that lets Rust manage memory safely without a garbage collector.
+
+Core concepts:
+- ownership
+- borrowing
+- lifetimes
+- moves
+
+Where it is used:
+- systems programming
+- command line tools
+- safe concurrent code
+
+Common problems:
+- fighting the borrow checker with needless clones
+- confusing moves and copies
+- overly complex lifetime annotations
+
+Tools to know:
+- Cargo
+- rustc
+- rust-analyzer
+
+Remember this above all: a single house key that you can hand over or lend out but never copy is a good way to picture it, and the best habit is to read the compiler's error messages closely because they often explain the fix.

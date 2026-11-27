@@ -1,0 +1,11 @@
+Interrupts in Real Projects
+
+Reading about Interrupts is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: keyboard and mouse input. Here, interrupt handlers drives the main design choices, and the team needs to guard against long handlers.
+
+Scenario two: timers. This time interrupt vectors matters most, and tools such as Linux /proc/interrupts help keep things manageable.
+
+Scenario three: network packets arriving. The key idea is priorities, and the biggest risk is race conditions with shared data.
+
+Across all three scenarios, Interrupts stays the same idea: signals that make a processor pause its work to handle an urgent event. Only the details change.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Minimum Spanning Trees
+
+Everyone learns Minimum Spanning Trees partly through mistakes. Here are three worth avoiding.
+
+Mistake one: using it on directed graphs. It usually appears when someone skips weighted graphs and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: forgetting that the graph must be connected. It tends to be noticed late, often during testing of designing cable networks. A short checklist during review catches it early.
+
+Mistake three: treating ties as errors. It is easy to miss because everything seems to work at first. Keep an eye on the cut property to spot it.
+
+If you remember only one rule, make it this: sort the edges once and reuse the order when testing variations.

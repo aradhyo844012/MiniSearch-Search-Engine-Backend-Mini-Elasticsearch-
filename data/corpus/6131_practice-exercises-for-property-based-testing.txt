@@ -1,0 +1,11 @@
+Practice Exercises for Property-Based Testing
+
+These exercises build real understanding of Property-Based Testing. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Property-Based Testing and include the term properties.
+Exercise 2: Pick Hypothesis and complete its getting-started tutorial.
+Exercise 3: Explain how shrinking and invariants differ, using a drawing.
+Exercise 4: Compare QuickCheck and fast-check for finding edge cases and write down your conclusion.
+Exercise 5: Create a small example that deliberately triggers this problem: vague properties. Then fix it.
+
+When you finish, compare your answers with the definition: Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold.

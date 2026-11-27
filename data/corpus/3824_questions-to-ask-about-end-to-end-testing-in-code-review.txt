@@ -1,0 +1,12 @@
+Questions to Ask About End-to-End Testing in Code Review
+
+Reviewing code that involves End-to-End Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of checking login and checkout flows correctly?
+- Have we avoided this problem: brittle selectors?
+- Would a test catch slow runs if it appeared later?
+- Is user flows clear to someone reading the code for the first time?
+- Does this change respect browser automation, or does it work around it?
+- Could we cover only the most important user journeys?
+
+Good reviews of work on End-to-End Testing are specific, kind and focused on test data, not on personal style.

@@ -1,0 +1,11 @@
+Scaling Considerations for Push Notifications
+
+A design that works for a classroom project can behave very differently under real load. Here is how Push Notifications changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding device tokens and getting order updates right.
+
+Medium scale: problems start to appear. Watch for asking for permission too early and sending too many messages, and measure with Firebase Cloud Messaging before changing anything.
+
+Large scale: payloads and permissions move from background details to central design questions. Teams often revisit their choices around chat alerts at this stage.
+
+Before you scale, ask for permission at a moment when the user understands the value. It is cheaper to build that habit early than to fix a crisis later.

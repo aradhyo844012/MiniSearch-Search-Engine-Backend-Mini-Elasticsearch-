@@ -1,0 +1,15 @@
+Combining Log Aggregation with Distributed Tracing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Log Aggregation and Distributed Tracing can work together in a single project.
+
+Log Aggregation is collecting logs from many machines into one searchable place. Distributed Tracing is following a single request as it passes through many services.
+
+Imagine a project that involves troubleshooting across services and finding slow services. Log Aggregation brings shippers, while Distributed Tracing brings spans.
+
+A sensible plan is to start with Elasticsearch for the Log Aggregation part and OpenTelemetry for the Distributed Tracing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unstructured logs on one side, and sampling too aggressively on the other.
+
+Picture the whole as gathering notes from every desk into a single searchable binder, working alongside a parcel tracking page that shows every stop on the route.
+
+Two habits help: first, use structured JSON logs so that fields are searchable; second, propagate trace IDs through every outgoing call.

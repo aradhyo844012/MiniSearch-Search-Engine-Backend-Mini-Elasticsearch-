@@ -1,0 +1,11 @@
+Topological Sorting in Real Projects
+
+Reading about Topological Sorting is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: build systems. Here, directed acyclic graphs drives the main design choices, and the team needs to guard against ignoring cycles.
+
+Scenario two: course prerequisite planning. This time in-degree counts matters most, and tools such as Python graphlib help keep things manageable.
+
+Scenario three: task scheduling. The key idea is Kahn's algorithm, and the biggest risk is assuming the order is unique.
+
+Across all three scenarios, Topological Sorting stays the same idea: an ordering of tasks in a directed graph so that every task comes after the tasks it depends on. Only the details change.

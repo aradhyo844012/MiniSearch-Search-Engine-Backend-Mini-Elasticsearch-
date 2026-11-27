@@ -1,0 +1,15 @@
+Combining Endianness with System Calls in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Endianness and System Calls can work together in a single project.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number. System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+Imagine a project that involves network protocols and reading and writing files. Endianness brings big-endian, while System Calls brings user mode and kernel mode.
+
+A sensible plan is to start with Python struct for the Endianness part and strace for the System Calls part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: assuming all machines are alike on one side, and making too many small calls on the other.
+
+Picture the whole as writing a date as day-month-year or as year-month-day, working alongside a service window where a customer asks staff to do things in the back office.
+
+Two habits help: first, always specify byte order in file and protocol formats; second, use strace to see what your program really asks the kernel to do.

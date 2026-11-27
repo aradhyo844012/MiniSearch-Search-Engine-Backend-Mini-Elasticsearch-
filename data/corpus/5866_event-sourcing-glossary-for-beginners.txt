@@ -1,0 +1,12 @@
+Event Sourcing Glossary for Beginners
+
+New words can make Event Sourcing feel harder than it is. This glossary keeps the key ones in one place.
+
+Event Sourcing: a design in which every change is stored as an immutable event and state is rebuilt from them.
+event log: a core term, most visible in audit trails.
+projections: a core term that beginners often confuse with snapshots.
+snapshots: a core term that connects to replay.
+replay: a core term worth revisiting after you try a real example.
+Apache Kafka: a tool commonly used for financial ledgers.
+
+Come back to this Event Sourcing list whenever documentation for EventStoreDB uses a word you do not recognize.

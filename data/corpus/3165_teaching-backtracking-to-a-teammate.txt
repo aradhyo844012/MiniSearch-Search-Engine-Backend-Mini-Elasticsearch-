@@ -1,0 +1,13 @@
+Teaching Backtracking to a Teammate
+
+Explaining Backtracking to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: walking a maze and returning to the last fork whenever you hit a wall. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends. Avoid jargon at this stage.
+
+Walk through an example involving solving Sudoku, naming decision tree and pruning as they come up.
+
+Ask your teammate to explain state restoration in Backtracking back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, forgetting to undo changes, and suggest this habit: prune as early as possible because the savings multiply.

@@ -1,0 +1,13 @@
+A/B Testing vs Data Anonymization: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or Data Anonymization first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. Data Anonymization, by contrast, is removing or altering personal details in data so people cannot be identified, and it is closely tied to masking and generalization.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose Data Anonymization first if you care about sharing datasets with researchers or testing with production-like data.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of Data Anonymization as blurring faces in a crowd photo while keeping the scene. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With Data Anonymization, avoid re-identification through combined fields.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for Data Anonymization is to test whether combining fields could identify a person.

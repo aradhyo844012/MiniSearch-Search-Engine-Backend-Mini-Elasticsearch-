@@ -1,0 +1,11 @@
+Practice Exercises for CAP Theorem
+
+These exercises build real understanding of CAP Theorem. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble choosing database types or designing multi-region services.
+Exercise 2: Create a small example that deliberately triggers this problem: treating it as a three-way menu. Then fix it.
+Exercise 3: Compare etcd and ZooKeeper for explaining system behavior in interviews and write down your conclusion.
+Exercise 4: Write a short paragraph describing CAP Theorem and include the term consistency.
+Exercise 5: Pick Apache Cassandra and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.

@@ -1,0 +1,13 @@
+Teaching System Calls to a Teammate
+
+Explaining System Calls to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a service window where a customer asks staff to do things in the back office. Ask your teammate what the picture suggests.
+
+Then give the plain definition: System Calls is the controlled doorway through which programs ask the operating system to do privileged work. Avoid jargon at this stage.
+
+Walk through an example involving reading and writing files, naming user mode and kernel mode and syscall numbers as they come up.
+
+Ask your teammate to explain file descriptors in System Calls back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, ignoring error codes, and suggest this habit: use strace to see what your program really asks the kernel to do.

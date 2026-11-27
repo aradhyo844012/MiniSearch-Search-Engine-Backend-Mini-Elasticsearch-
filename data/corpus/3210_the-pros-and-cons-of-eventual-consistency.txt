@@ -1,0 +1,15 @@
+The Pros and Cons of Eventual Consistency
+
+No technology is free of trade-offs, and Eventual Consistency is no exception. Here is an honest summary.
+
+Advantages:
+- Supports global social feeds
+- Makes shopping cart services easier
+- Helps with DNS records
+
+Drawbacks and risks:
+- Risk: assuming reads are always fresh
+- Risk: unresolved write conflicts
+- Risk: no user feedback during delays
+
+Weigh the two lists against your own project. If the advantages match your needs, such as global social feeds, and you can manage the risks, Eventual Consistency is a sound choice. Whatever you decide, decide up front how your app handles stale reads.

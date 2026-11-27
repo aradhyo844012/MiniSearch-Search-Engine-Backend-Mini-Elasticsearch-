@@ -1,0 +1,11 @@
+Scaling Considerations for Raft Consensus
+
+A design that works for a classroom project can behave very differently under real load. Here is how Raft Consensus changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding leader election and getting configuration stores right.
+
+Medium scale: problems start to appear. Watch for even-sized clusters and slow disks causing elections, and measure with etcd before changing anything.
+
+Large scale: terms and majority quorum move from background details to central design questions. Teams often revisit their choices around distributed locks at this stage.
+
+Before you scale, use an odd number of nodes. It is cheaper to build that habit early than to fix a crisis later.

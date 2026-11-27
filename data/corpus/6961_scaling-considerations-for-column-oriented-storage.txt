@@ -1,0 +1,11 @@
+Scaling Considerations for Column-Oriented Storage
+
+A design that works for a classroom project can behave very differently under real load. Here is how Column-Oriented Storage changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding column chunks and getting analytics dashboards right.
+
+Medium scale: problems start to appear. Watch for slow single-row lookups and many small writes, and measure with Apache Parquet before changing anything.
+
+Large scale: vectorized scans and predicate pushdown move from background details to central design questions. Teams often revisit their choices around large aggregations at this stage.
+
+Before you scale, select only the columns you really need. It is cheaper to build that habit early than to fix a crisis later.

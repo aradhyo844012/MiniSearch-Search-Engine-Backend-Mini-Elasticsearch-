@@ -1,0 +1,15 @@
+Combining CPU Caches with GPUs and Parallelism in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CPU Caches and GPUs and Parallelism can work together in a single project.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data. GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Imagine a project that involves speeding up loops and training neural networks. CPU Caches brings cache lines, while GPUs and Parallelism brings threads and blocks.
+
+A sensible plan is to start with perf for the CPU Caches part and CUDA for the GPUs and Parallelism part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor access patterns on one side, and branch-heavy code on the other.
+
+Picture the whole as keeping your most-used books on your desk instead of in the library, working alongside a stadium of workers each doing one small identical task.
+
+Two habits help: first, access arrays in the order they are stored; second, minimize copies between CPU and GPU memory.

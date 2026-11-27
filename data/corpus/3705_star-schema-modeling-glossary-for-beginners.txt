@@ -1,0 +1,12 @@
+Star Schema Modeling Glossary for Beginners
+
+New words can make Star Schema Modeling feel harder than it is. This glossary keeps the key ones in one place.
+
+Star Schema Modeling: a way of organizing analytics data into a central fact table surrounded by dimension tables.
+fact tables: a core term, most visible in business intelligence reports.
+dimension tables: a core term that beginners often confuse with surrogate keys.
+surrogate keys: a core term that connects to grain.
+grain: a core term worth revisiting after you try a real example.
+dbt: a tool commonly used for data warehouses.
+
+Come back to this Star Schema Modeling list whenever documentation for Snowflake uses a word you do not recognize.

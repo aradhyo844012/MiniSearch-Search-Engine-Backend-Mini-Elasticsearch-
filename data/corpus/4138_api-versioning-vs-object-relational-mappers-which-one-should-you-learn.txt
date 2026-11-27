@@ -1,0 +1,13 @@
+API Versioning vs Object-Relational Mappers: Which One Should You Learn First?
+
+Learners often ask whether to study API Versioning or Object-Relational Mappers first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+API Versioning is the practice of evolving an API without breaking existing clients, and it is closely tied to version in the URL and header versioning. Object-Relational Mappers, by contrast, is libraries that map database tables to objects in code, and it is closely tied to models and queries.
+
+Choose API Versioning first if you care about public APIs or mobile apps that cannot update instantly. Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases.
+
+Think of API Versioning as keeping old editions of a textbook available while a new one is published, and of Object-Relational Mappers as a translator between the language of tables and the language of objects. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With API Versioning, avoid versioning too often. With Object-Relational Mappers, avoid N+1 queries.
+
+A good habit for API Versioning is to announce deprecations with a clear sunset date. A good habit for Object-Relational Mappers is to log the generated SQL during development.

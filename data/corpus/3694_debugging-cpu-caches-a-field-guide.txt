@@ -1,0 +1,13 @@
+Debugging CPU Caches: A Field Guide
+
+When something goes wrong around CPU Caches, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: false sharing, poor access patterns, and assuming memory is uniformly fast.
+Step 3: revisit cache lines and hit and miss rates, since misunderstandings there cause many bugs.
+Step 4: use perf or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving CPU Caches in work such as speeding up loops come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, access arrays in the order they are stored. It prevents a surprising number of repeat problems.

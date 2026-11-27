@@ -1,0 +1,11 @@
+Why Property-Based Testing Matters for Developers
+
+Developers who understand Property-Based Testing make better decisions, because Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold.
+
+Three situations show why it matters. First, testing parsers. Second, checking sorting and math functions. Third, finding edge cases. In each case, a solid grasp of properties and generators separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: vague properties, slow generators, and ignoring random seed reports.
+
+You will not need to build everything yourself; Hypothesis, QuickCheck, and fast-check cover most needs.
+
+Connect Property-Based Testing with Fuzz Testing to see the bigger picture of Testing and Quality.

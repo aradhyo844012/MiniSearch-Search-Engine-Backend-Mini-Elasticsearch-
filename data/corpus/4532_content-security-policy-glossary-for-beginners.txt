@@ -1,0 +1,12 @@
+Content Security Policy Glossary for Beginners
+
+New words can make Content Security Policy feel harder than it is. This glossary keeps the key ones in one place.
+
+Content Security Policy: a browser feature that limits which scripts and resources a page may load.
+directives: a core term, most visible in reducing the impact of XSS.
+nonces: a core term that beginners often confuse with report-only mode.
+report-only mode: a core term that connects to trusted sources.
+trusted sources: a core term worth revisiting after you try a real example.
+browser DevTools: a tool commonly used for blocking unwanted scripts.
+
+Come back to this Content Security Policy list whenever documentation for CSP Evaluator uses a word you do not recognize.

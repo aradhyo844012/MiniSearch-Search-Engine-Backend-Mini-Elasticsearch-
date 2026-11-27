@@ -1,0 +1,11 @@
+Scaling Considerations for Python Asyncio
+
+A design that works for a classroom project can behave very differently under real load. Here is how Python Asyncio changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding event loop and getting calling many APIs at once right.
+
+Medium scale: problems start to appear. Watch for blocking calls inside coroutines and forgetting to await, and measure with asyncio before changing anything.
+
+Large scale: await and tasks move from background details to central design questions. Teams often revisit their choices around web servers at this stage.
+
+Before you scale, never call blocking code directly inside a coroutine. It is cheaper to build that habit early than to fix a crisis later.

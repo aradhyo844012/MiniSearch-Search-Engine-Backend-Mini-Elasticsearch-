@@ -1,0 +1,15 @@
+Fenwick Trees in 10 Minutes
+
+You have ten minutes, so here is the fast route through Fenwick Trees.
+
+Minutes 1 and 2, the definition: Fenwick Trees is a compact structure for prefix sums that supports fast updates.
+
+Minutes 3 and 4, the vocabulary: learn binary indexed trees, lowest set bit, prefix sums, and point updates.
+
+Minutes 5 and 6, the picture: imagine a set of running subtotals where each one covers a block of entries. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through counting inversions, maintaining running totals, and building frequency tables.
+
+Minutes 9 and 10, the traps and the tools: watch for using zero-based indexes by mistake and forgetting that nodes store partial sums, then try C++ vectors for a first experiment.
+
+If you have a spare minute, remember to start indexing from one to keep the bit tricks simple.

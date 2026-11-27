@@ -1,0 +1,15 @@
+The Pros and Cons of Webhooks
+
+No technology is free of trade-offs, and Webhooks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports payment notifications
+- Makes CI triggers easier
+- Helps with chat integrations
+
+Drawbacks and risks:
+- Risk: not verifying signatures
+- Risk: slow handlers causing timeouts
+- Risk: processing duplicate events
+
+Weigh the two lists against your own project. If the advantages match your needs, such as payment notifications, and you can manage the risks, Webhooks is a sound choice. Whatever you decide, respond quickly and process the event in a background job.

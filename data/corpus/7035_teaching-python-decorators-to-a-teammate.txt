@@ -1,0 +1,13 @@
+Teaching Python Decorators to a Teammate
+
+Explaining Python Decorators to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: gift wrapping that adds a bow without changing the present. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Python Decorators is functions that wrap other functions to add behavior without changing their code. Avoid jargon at this stage.
+
+Walk through an example involving logging calls, naming higher-order functions and wrapper functions as they come up.
+
+Ask your teammate to explain functools.wraps in Python Decorators back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, losing function metadata, and suggest this habit: always apply functools.wraps inside your decorator.

@@ -1,0 +1,15 @@
+Combining Python Decorators with C Pointers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Python Decorators and C Pointers can work together in a single project.
+
+Python Decorators is functions that wrap other functions to add behavior without changing their code. C Pointers is variables that store the memory address of another value.
+
+Imagine a project that involves logging calls and dynamic memory allocation. Python Decorators brings higher-order functions, while C Pointers brings addresses.
+
+A sensible plan is to start with functools for the Python Decorators part and GCC for the C Pointers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: stacking decorators in the wrong order on one side, and memory leaks on the other.
+
+Picture the whole as gift wrapping that adds a bow without changing the present, working alongside a street address written on a card instead of the house itself.
+
+Two habits help: first, always apply functools.wraps inside your decorator; second, set pointers to NULL after freeing them.

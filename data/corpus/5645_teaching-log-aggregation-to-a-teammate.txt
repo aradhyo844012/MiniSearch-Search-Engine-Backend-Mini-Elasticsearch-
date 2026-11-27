@@ -1,0 +1,13 @@
+Teaching Log Aggregation to a Teammate
+
+Explaining Log Aggregation to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: gathering notes from every desk into a single searchable binder. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Log Aggregation is collecting logs from many machines into one searchable place. Avoid jargon at this stage.
+
+Walk through an example involving troubleshooting across services, naming shippers and indexing as they come up.
+
+Ask your teammate to explain retention in Log Aggregation back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, unbounded storage growth, and suggest this habit: use structured JSON logs so that fields are searchable.

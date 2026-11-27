@@ -1,0 +1,11 @@
+Raft Consensus Tips from Experienced Engineers
+
+Engineers who work with Raft Consensus regularly tend to repeat the same advice. Here it is.
+
+1. Reach for etcd first, and only then evaluate alternatives such as Consul.
+2. Write down why you chose Raft Consensus so the next person understands the decision.
+3. Test the case of configuration stores early, before the design hardens.
+4. When something behaves strangely, revisit log replication before anything else.
+5. Do not skip leader election; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to distributed locks as well.

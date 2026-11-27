@@ -1,0 +1,11 @@
+Static Analysis in Real Projects
+
+Reading about Static Analysis is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: catching bugs early. Here, linters drives the main design choices, and the team needs to guard against ignoring warnings.
+
+Scenario two: enforcing team style. This time type checkers matters most, and tools such as ESLint help keep things manageable.
+
+Scenario three: improving security. The key idea is rule sets, and the biggest risk is too many noisy rules.
+
+Across all three scenarios, Static Analysis stays the same idea: automated checking of source code for bugs and style problems without running it. Only the details change.

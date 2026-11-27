@@ -1,0 +1,11 @@
+Mistakes to Avoid with Internationalization
+
+Everyone learns Internationalization partly through mistakes. Here are three worth avoiding.
+
+Mistake one: hard-coded strings. It usually appears when someone skips locale detection and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: text that overflows layouts. It tends to be noticed late, often during testing of global products. A short checklist during review catches it early.
+
+Mistake three: assuming left-to-right text. It is easy to miss because everything seems to work at first. Keep an eye on date and number formatting to spot it.
+
+If you remember only one rule, make it this: move every user-facing string into translation files from the first day.

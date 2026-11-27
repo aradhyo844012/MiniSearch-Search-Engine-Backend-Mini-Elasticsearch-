@@ -1,0 +1,13 @@
+Webhooks vs Object-Relational Mappers: Which One Should You Learn First?
+
+Learners often ask whether to study Webhooks or Object-Relational Mappers first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Webhooks is HTTP callbacks that let one service notify another when an event happens, and it is closely tied to event payloads and signature verification. Object-Relational Mappers, by contrast, is libraries that map database tables to objects in code, and it is closely tied to models and queries.
+
+Choose Webhooks first if you care about payment notifications or CI triggers. Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases.
+
+Think of Webhooks as a doorbell that rings when a delivery arrives instead of you checking the porch, and of Object-Relational Mappers as a translator between the language of tables and the language of objects. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Webhooks, avoid not verifying signatures. With Object-Relational Mappers, avoid N+1 queries.
+
+A good habit for Webhooks is to respond quickly and process the event in a background job. A good habit for Object-Relational Mappers is to log the generated SQL during development.

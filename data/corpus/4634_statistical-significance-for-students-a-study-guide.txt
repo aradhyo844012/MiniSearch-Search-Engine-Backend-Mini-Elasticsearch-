@@ -1,0 +1,17 @@
+Statistical Significance for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Statistical Significance.
+
+Learning goals:
+1. Explain Statistical Significance in your own words.
+2. Describe p-values, the null hypothesis, confidence intervals, and effect size.
+3. Give examples from judging experiment results and comparing model performance.
+4. Name three problems to watch for.
+
+Start with the definition: Statistical Significance is a measure of how unlikely a result would be if there were no real effect. Then draw asking how surprised you should be if a coin were actually fair on paper and label the four terms from the goals above.
+
+Self-test questions: Why is mistaking significance for importance a problem? How does the null hypothesis relate to confidence intervals? When would you choose SciPy or statsmodels?
+
+Study habit: always report the effect size alongside the p-value.
+
+When you feel ready, compare Statistical Significance with Apache Spark and write down three differences.

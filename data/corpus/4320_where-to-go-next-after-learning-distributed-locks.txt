@@ -1,0 +1,11 @@
+Where to Go Next After Learning Distributed Locks
+
+You have met the basics of Distributed Locks. Here is how to keep the momentum going.
+
+Go wider: read about Idempotency, which belongs to the same area as Distributed Locks (Distributed Systems) and often appears in the same projects.
+
+Go deeper: choose one of lease times, fencing tokens, lock owners or timeouts, and study it until you can explain it to a beginner.
+
+Go practical: build something around protecting shared resources with Redis, and note every problem you meet, starting with locks that never expire.
+
+Go social: share what you learned. Explaining Distributed Locks to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

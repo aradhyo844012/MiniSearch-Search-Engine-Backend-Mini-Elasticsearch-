@@ -1,0 +1,13 @@
+Distributed Locks Explained Simply
+
+If Distributed Locks sounds intimidating, relax. It is mechanisms that ensure only one process at a time performs a critical action across machines, and the idea is simpler than the name suggests.
+
+Think of Distributed Locks as a single key to a shared meeting room that expires automatically. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: lease times, fencing tokens, lock owners, and timeouts. You do not need to master them all at once. Start with lease times, then add fencing tokens.
+
+People reach for Distributed Locks when they work on running scheduled jobs once, protecting shared resources, and selecting a leader.
+
+One practical tip is to always use a timeout together with a fencing token.
+
+After Distributed Locks, a natural next topic is CAP Theorem.

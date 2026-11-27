@@ -1,0 +1,17 @@
+Logging Best Practices for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Logging Best Practices.
+
+Learning goals:
+1. Explain Logging Best Practices in your own words.
+2. Describe log levels, structured logs, correlation IDs, and log rotation.
+3. Give examples from debugging production issues and auditing actions.
+4. Name three problems to watch for.
+
+Start with the definition: Logging Best Practices is recording useful, structured information about what an application is doing. Then draw a ship's logbook that explains what happened and when on paper and label the four terms from the goals above.
+
+Self-test questions: Why is logging sensitive data a problem? How does structured logs relate to correlation IDs? When would you choose the Python logging module or the ELK stack?
+
+Study habit: include a request ID in every log line.
+
+When you feel ready, compare Logging Best Practices with API Versioning and write down three differences.

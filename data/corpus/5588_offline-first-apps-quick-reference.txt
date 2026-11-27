@@ -1,0 +1,15 @@
+Offline-First Apps Quick Reference
+
+A one-screen reminder for Offline-First Apps. Bookmark it and return when the details fade.
+
+What it is: apps designed to work without a network and sync when a connection returns.
+Key terms: local storage, sync queues, conflict resolution, and optimistic updates.
+Typical uses: field service tools, note-taking apps, and apps for low-connectivity regions.
+Risks: unresolved sync conflicts, unbounded local data, and poor feedback about pending changes.
+Tools: SQLite, PouchDB, and Room.
+
+Mental picture: writing in a notebook and mailing the pages later.
+
+Habit to build: show users which changes have not synced yet.
+
+See also: Push Notifications, which sits close to Offline-First Apps in the area of Mobile, Embedded and IoT.

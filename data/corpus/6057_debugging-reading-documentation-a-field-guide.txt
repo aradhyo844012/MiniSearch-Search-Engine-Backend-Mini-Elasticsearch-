@@ -1,0 +1,13 @@
+Debugging Reading Documentation: A Field Guide
+
+When something goes wrong around Reading Documentation, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: reading the wrong version, skipping the overview, and copying examples blindly.
+Step 3: revisit search and tutorials versus references, since misunderstandings there cause many bugs.
+Step 4: use MDN Web Docs or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Reading Documentation in work such as learning new libraries come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, check that the documentation version matches your installed version. It prevents a surprising number of repeat problems.

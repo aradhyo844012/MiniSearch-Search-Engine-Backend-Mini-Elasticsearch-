@@ -1,0 +1,9 @@
+Understanding Background Jobs Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture dropping laundry at a service and collecting it later.
+
+In that picture, queues is the first rule you follow, workers is the next step, and retries and scheduling keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Background Jobs is tasks that run outside the request cycle so users do not have to wait for them, and it involves details such as jobs that are not idempotent that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Celery to learn the exact behavior. The same picture helps when you explain sending emails to a friend.

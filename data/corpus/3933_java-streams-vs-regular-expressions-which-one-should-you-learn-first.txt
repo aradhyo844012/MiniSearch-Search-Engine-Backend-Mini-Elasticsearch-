@@ -1,0 +1,13 @@
+Java Streams vs Regular Expressions: Which One Should You Learn First?
+
+Learners often ask whether to study Java Streams or Regular Expressions first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Java Streams is a way of processing collections with chains of declarative operations, and it is closely tied to map and filter. Regular Expressions, by contrast, is compact patterns for matching and extracting text, and it is closely tied to character classes and quantifiers.
+
+Choose Java Streams first if you care about transforming lists or aggregating records. Choose Regular Expressions first if you care about validating input or searching logs.
+
+Think of Java Streams as a conveyor belt where each station changes the item before passing it on, and of Regular Expressions as a stencil that only lets certain shapes of text show through. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Java Streams, avoid reusing a consumed stream. With Regular Expressions, avoid catastrophic backtracking.
+
+A good habit for Java Streams is to keep each stream step small and readable. A good habit for Regular Expressions is to build patterns in small steps and test each one.

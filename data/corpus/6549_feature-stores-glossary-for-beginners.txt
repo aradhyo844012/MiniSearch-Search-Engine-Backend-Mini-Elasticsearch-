@@ -1,0 +1,12 @@
+Feature Stores Glossary for Beginners
+
+New words can make Feature Stores feel harder than it is. This glossary keeps the key ones in one place.
+
+Feature Stores: systems that store and serve the input variables used by machine learning models.
+offline store: a core term, most visible in sharing features across models.
+online store: a core term that beginners often confuse with point-in-time correctness.
+point-in-time correctness: a core term that connects to feature definitions.
+feature definitions: a core term worth revisiting after you try a real example.
+Feast: a tool commonly used for serving real-time predictions.
+
+Come back to this Feature Stores list whenever documentation for Tecton uses a word you do not recognize.

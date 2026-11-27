@@ -1,0 +1,15 @@
+Single Sign-On Quick Reference
+
+A one-screen reminder for Single Sign-On. Bookmark it and return when the details fade.
+
+What it is: letting users log in once and access several applications.
+Key terms: identity provider, SAML, OpenID Connect, and session lifetime.
+Typical uses: company intranets, reducing password fatigue, and centralized access control.
+Risks: a single point of failure, misconfigured redirects, and long sessions on shared devices.
+Tools: Okta, Keycloak, and Azure AD.
+
+Mental picture: a festival wristband that opens every gate.
+
+Habit to build: plan for identity provider outages.
+
+See also: Content Security Policy, which sits close to Single Sign-On in the area of Application Security.

@@ -1,0 +1,15 @@
+Combining Blue-Green Deployment with Distributed Tracing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Blue-Green Deployment and Distributed Tracing can work together in a single project.
+
+Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one. Distributed Tracing is following a single request as it passes through many services.
+
+Imagine a project that involves zero-downtime releases and finding slow services. Blue-Green Deployment brings blue and green environments, while Distributed Tracing brings spans.
+
+A sensible plan is to start with AWS CodeDeploy for the Blue-Green Deployment part and OpenTelemetry for the Distributed Tracing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: doubling infrastructure costs on one side, and sampling too aggressively on the other.
+
+Picture the whole as swapping to a fully prepared spare stage while the show goes on, working alongside a parcel tracking page that shows every stop on the route.
+
+Two habits help: first, keep the old environment running until the new one is proven; second, propagate trace IDs through every outgoing call.

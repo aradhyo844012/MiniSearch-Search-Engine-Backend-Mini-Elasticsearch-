@@ -1,0 +1,15 @@
+B-Trees on Disk in 10 Minutes
+
+You have ten minutes, so here is the fast route through B-Trees on Disk.
+
+Minutes 1 and 2, the definition: B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently.
+
+Minutes 3 and 4, the vocabulary: learn pages, branching factor, node splits, and sorted keys.
+
+Minutes 5 and 6, the picture: imagine a filing cabinet where each drawer tells you which drawer to open next. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through database indexes, file system directories, and range scans.
+
+Minutes 9 and 10, the traps and the tools: watch for random writes on fragmented pages and oversized keys, then try PostgreSQL for a first experiment.
+
+If you have a spare minute, remember to keep indexed keys short so more of them fit on a page.

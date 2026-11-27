@@ -1,0 +1,13 @@
+Integration Testing Explained Simply
+
+If Integration Testing sounds intimidating, relax. It is tests that check how several parts of a system work together, and the idea is simpler than the name suggests.
+
+Think of Integration Testing as checking that the gears of a watch mesh before closing the case. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: test databases, service boundaries, fixtures, and test environments. You do not need to master them all at once. Start with test databases, then add service boundaries.
+
+People reach for Integration Testing when they work on verifying API and database interaction, catching contract mismatches, and testing third-party integrations.
+
+One practical tip is to use disposable containers for test dependencies.
+
+After Integration Testing, a natural next topic is Load Testing.

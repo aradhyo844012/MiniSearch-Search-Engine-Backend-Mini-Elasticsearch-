@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Transformers
+
+This is a fictional but realistic day for a developer whose project relies on Transformers.
+
+Morning: Arjun starts by reviewing a ticket about language translation. Before touching any code, Arjun re-reads the notes on self-attention to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore positional encoding with Hugging Face. A small test exposes the problem of huge compute requirements, and they fix it together.
+
+Afternoon: the team discusses a new request involving text generation. Arjun sketches a reader who can look back at any word of a paragraph while reading each new word on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to begin with small pretrained models.
+
+Days like this are typical. Transformers is not glamorous, but understanding it keeps small problems from growing.

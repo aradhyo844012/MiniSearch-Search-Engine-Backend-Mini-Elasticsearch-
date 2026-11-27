@@ -1,0 +1,15 @@
+Convolutional Neural Networks Quick Reference
+
+A one-screen reminder for Convolutional Neural Networks. Bookmark it and return when the details fade.
+
+What it is: neural networks that scan images with small filters to detect patterns.
+Key terms: filters, pooling, feature maps, and stride.
+Typical uses: image classification, medical image analysis, and object detection.
+Risks: too little training data, ignoring data augmentation, and overly deep models for simple tasks.
+Tools: PyTorch, TensorFlow, and Keras.
+
+Mental picture: a magnifying glass sweeping across a photo looking for edges and shapes.
+
+Habit to build: start from a pretrained model.
+
+See also: Data Augmentation, which sits close to Convolutional Neural Networks in the area of AI and Machine Learning.

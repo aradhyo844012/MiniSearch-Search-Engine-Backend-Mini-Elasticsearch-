@@ -1,0 +1,15 @@
+Combining Feature Flags with Service Mesh in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Feature Flags and Service Mesh can work together in a single project.
+
+Feature Flags is switches in configuration that turn features on or off without redeploying code. Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+Imagine a project that involves dark launches and securing service traffic. Feature Flags brings flag evaluation, while Service Mesh brings sidecar proxies.
+
+A sensible plan is to start with LaunchDarkly for the Feature Flags part and Istio for the Service Mesh part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flags that depend on each other on one side, and adopting it too early on the other.
+
+Picture the whole as light switches wired to every room of a house, working alongside a postal system that applies delivery rules between buildings.
+
+Two habits help: first, give every flag an owner and a removal date; second, adopt it only once the number of services makes manual setup painful.

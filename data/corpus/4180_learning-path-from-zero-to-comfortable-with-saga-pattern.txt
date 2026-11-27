@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Saga Pattern
+
+This path is for a learner who has never studied Saga Pattern before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions) and learn local transactions and compensating actions.
+
+Stage 2, hands-on: install Temporal, follow a tutorial, and build a small example involving order processing.
+
+Stage 3, depth: study orchestration and choreography, then deliberately explore this problem: missing compensations.
+
+Stage 4, application: apply Saga Pattern to travel bookings, compare Camunda with Apache Kafka, and write up your results.
+
+Stage 5, review: teach Saga Pattern to someone else, and then move on to CQRS.

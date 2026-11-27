@@ -1,0 +1,15 @@
+The Pros and Cons of Regression Testing
+
+No technology is free of trade-offs, and Regression Testing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports protecting releases
+- Makes verifying bug fixes easier
+- Helps with refactoring safely
+
+Drawbacks and risks:
+- Risk: slow suites that nobody runs
+- Risk: missing tests for fixed bugs
+- Risk: ignoring flaky failures
+
+Weigh the two lists against your own project. If the advantages match your needs, such as protecting releases, and you can manage the risks, Regression Testing is a sound choice. Whatever you decide, add a test for every bug you fix.

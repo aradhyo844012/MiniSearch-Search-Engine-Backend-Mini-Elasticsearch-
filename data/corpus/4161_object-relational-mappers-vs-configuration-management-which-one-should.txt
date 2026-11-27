@@ -1,0 +1,13 @@
+Object-Relational Mappers vs Configuration Management: Which One Should You Learn First?
+
+Learners often ask whether to study Object-Relational Mappers or Configuration Management first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Object-Relational Mappers is libraries that map database tables to objects in code, and it is closely tied to models and queries. Configuration Management, by contrast, is keeping application settings separate from code so they can change per environment, and it is closely tied to environment variables and config files.
+
+Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases. Choose Configuration Management first if you care about separating development and production or toggling features.
+
+Think of Object-Relational Mappers as a translator between the language of tables and the language of objects, and of Configuration Management as the settings dial on a machine that stays the same on every site. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Object-Relational Mappers, avoid N+1 queries. With Configuration Management, avoid committing secrets.
+
+A good habit for Object-Relational Mappers is to log the generated SQL during development. A good habit for Configuration Management is to fail fast at startup if a required setting is missing.

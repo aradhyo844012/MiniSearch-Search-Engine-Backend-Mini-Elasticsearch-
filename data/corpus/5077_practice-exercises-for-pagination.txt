@@ -1,0 +1,11 @@
+Practice Exercises for Pagination
+
+These exercises build real understanding of Pagination. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Pagination and include the term offset pagination.
+Exercise 2: List three situations from your own experience that resemble search results or activity feeds.
+Exercise 3: Explain how page size and stable ordering differ, using a drawing.
+Exercise 4: Compare keyset queries and Django REST Framework for admin tables and write down your conclusion.
+Exercise 5: Pick SQL LIMIT and OFFSET and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Pagination is splitting large result sets into smaller pages that clients request one at a time.

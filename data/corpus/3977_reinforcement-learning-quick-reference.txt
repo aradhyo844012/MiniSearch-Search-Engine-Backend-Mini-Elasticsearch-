@@ -1,0 +1,15 @@
+Reinforcement Learning Quick Reference
+
+A one-screen reminder for Reinforcement Learning. Bookmark it and return when the details fade.
+
+What it is: a way of training agents to choose actions by rewarding good outcomes.
+Key terms: agent, environment, reward, and policy.
+Typical uses: game playing, robot control, and recommendation strategies.
+Risks: badly designed rewards, slow training, and unstable results across runs.
+Tools: Gymnasium, Stable-Baselines3, and PyTorch.
+
+Mental picture: training a dog with treats for good behavior.
+
+Habit to build: start with simple environments.
+
+See also: K-Means Clustering, which sits close to Reinforcement Learning in the area of AI and Machine Learning.

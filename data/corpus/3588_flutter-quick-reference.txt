@@ -1,0 +1,15 @@
+Flutter Quick Reference
+
+A one-screen reminder for Flutter. Bookmark it and return when the details fade.
+
+What it is: a toolkit for building natively compiled apps from a single Dart codebase.
+Key terms: widgets, state, hot reload, and the render tree.
+Typical uses: cross-platform mobile apps, desktop apps, and custom user interfaces.
+Risks: deep widget trees, poor state organization, and large app sizes.
+Tools: Dart, Flutter DevTools, and Android Studio.
+
+Mental picture: a box of customizable building blocks drawn by its own engine.
+
+Habit to build: split big widgets into small reusable ones.
+
+See also: Offline-First Apps, which sits close to Flutter in the area of Mobile, Embedded and IoT.

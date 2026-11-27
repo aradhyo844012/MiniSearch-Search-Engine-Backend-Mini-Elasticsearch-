@@ -1,0 +1,15 @@
+Combining Event-Driven Architecture with API Design Principles in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Event-Driven Architecture and API Design Principles can work together in a single project.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them. API Design Principles is guidelines for making APIs consistent, predictable and easy to use.
+
+Imagine a project that involves order pipelines and public platforms. Event-Driven Architecture brings producers and consumers, while API Design Principles brings consistent naming.
+
+A sensible plan is to start with Apache Kafka for the Event-Driven Architecture part and OpenAPI for the API Design Principles part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: duplicate events on one side, and inconsistent responses on the other.
+
+Picture the whole as a notice board where people post news and others react when they see it, working alongside the controls of a car that behave the same in every model.
+
+Two habits help: first, document every event name and schema; second, write the documentation before the implementation.

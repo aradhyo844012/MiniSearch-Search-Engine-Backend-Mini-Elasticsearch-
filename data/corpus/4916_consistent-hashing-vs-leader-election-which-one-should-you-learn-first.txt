@@ -1,0 +1,13 @@
+Consistent Hashing vs Leader Election: Which One Should You Learn First?
+
+Learners often ask whether to study Consistent Hashing or Leader Election first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys, and it is closely tied to hash ring and virtual nodes. Leader Election, by contrast, is a process by which nodes in a cluster choose one node to coordinate the work, and it is closely tied to heartbeats and terms or epochs.
+
+Choose Consistent Hashing first if you care about distributed caches or sharded databases. Choose Leader Election first if you care about database primaries or job schedulers.
+
+Think of Consistent Hashing as seats around a round table where a new guest only displaces their neighbor, and of Leader Election as a classroom picking a monitor when the teacher leaves. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Consistent Hashing, avoid too few virtual nodes. With Leader Election, avoid split brain.
+
+A good habit for Consistent Hashing is to use many virtual nodes per server to even out the load. A good habit for Leader Election is to tune heartbeat intervals against real network delays.

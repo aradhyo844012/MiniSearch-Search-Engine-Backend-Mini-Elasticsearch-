@@ -1,0 +1,11 @@
+Threat Modeling in Real Projects
+
+Reading about Threat Modeling is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: designing new features. Here, assets drives the main design choices, and the team needs to guard against doing it once and never again.
+
+Scenario two: reviewing architecture. This time attackers matters most, and tools such as STRIDE help keep things manageable.
+
+Scenario three: prioritizing security work. The key idea is trust boundaries, and the biggest risk is ignoring data flows.
+
+Across all three scenarios, Threat Modeling stays the same idea: a structured way of identifying what could go wrong in a system and how to prevent it. Only the details change.

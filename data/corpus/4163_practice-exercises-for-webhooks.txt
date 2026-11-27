@@ -1,0 +1,11 @@
+Practice Exercises for Webhooks
+
+These exercises build real understanding of Webhooks. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble payment notifications or CI triggers.
+Exercise 2: Explain how retries and endpoints differ, using a drawing.
+Exercise 3: Create a small example that deliberately triggers this problem: not verifying signatures. Then fix it.
+Exercise 4: Write a short paragraph describing Webhooks and include the term event payloads.
+Exercise 5: Compare the Stripe CLI and Postman for chat integrations and write down your conclusion.
+
+When you finish, compare your answers with the definition: Webhooks is HTTP callbacks that let one service notify another when an event happens.

@@ -1,0 +1,11 @@
+Command Line Productivity Tips from Experienced Engineers
+
+Engineers who work with Command Line Productivity regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: copying commands without understanding them.
+2. Write down why you chose Command Line Productivity so the next person understands the decision.
+3. Reach for bash first, and only then evaluate alternatives such as tmux.
+4. When something behaves strangely, revisit pipes before anything else.
+5. Make sure you can turn commands you repeat into small scripts.
+
+None of these tips needs special equipment, and all of them apply to exploring files and logs as well.

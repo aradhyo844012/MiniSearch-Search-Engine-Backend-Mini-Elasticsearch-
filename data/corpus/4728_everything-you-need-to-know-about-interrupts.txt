@@ -1,0 +1,26 @@
+Everything You Need to Know About Interrupts
+
+This page collects the essentials about Interrupts in one place. In short, Interrupts is signals that make a processor pause its work to handle an urgent event.
+
+Core concepts:
+- interrupt handlers
+- interrupt vectors
+- priorities
+- context saving
+
+Where it is used:
+- keyboard and mouse input
+- timers
+- network packets arriving
+
+Common problems:
+- long handlers
+- race conditions with shared data
+- lost interrupts
+
+Tools to know:
+- Linux /proc/interrupts
+- logic analyzers
+- embedded debuggers
+
+Remember this above all: a phone call interrupting your reading is a good way to picture it, and the best habit is to keep interrupt handlers short and defer the heavy work.

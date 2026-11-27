@@ -1,0 +1,13 @@
+SOLID Principles vs Software Estimation: Which One Should You Learn First?
+
+Learners often ask whether to study SOLID Principles or Software Estimation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change, and it is closely tied to single responsibility and the open-closed principle. Software Estimation, by contrast, is predicting how much time and effort a piece of work will take, and it is closely tied to story points and ranges.
+
+Choose SOLID Principles first if you care about structuring classes or reviewing designs. Choose Software Estimation first if you care about sprint planning or setting deadlines.
+
+Think of SOLID Principles as house rules that keep a shared kitchen tidy, and of Software Estimation as forecasting the weather rather than reading a timetable. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With SOLID Principles, avoid applying them rigidly to tiny scripts. With Software Estimation, avoid treating estimates as promises.
+
+A good habit for SOLID Principles is to apply them when a design starts to hurt, not before. A good habit for Software Estimation is to give ranges instead of single numbers.

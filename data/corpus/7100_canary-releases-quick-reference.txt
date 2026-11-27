@@ -1,0 +1,15 @@
+Canary Releases Quick Reference
+
+A one-screen reminder for Canary Releases. Bookmark it and return when the details fade.
+
+What it is: a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+Key terms: traffic percentages, health metrics, automatic rollback, and progressive rollout.
+Typical uses: safer releases, testing with real traffic, and reducing the blast radius of bugs.
+Risks: too little traffic to reveal problems, no clear success metrics, and manual promotion mistakes.
+Tools: Argo Rollouts, Istio, and Flagger.
+
+Mental picture: a canary in a coal mine warning miners before the danger spreads.
+
+Habit to build: define rollback conditions before starting the rollout.
+
+See also: Blue-Green Deployment, which sits close to Canary Releases in the area of DevOps and Cloud.

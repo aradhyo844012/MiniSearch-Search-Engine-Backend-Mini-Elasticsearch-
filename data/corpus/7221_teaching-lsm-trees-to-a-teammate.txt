@@ -1,0 +1,13 @@
+Teaching LSM Trees to a Teammate
+
+Explaining LSM Trees to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a mail room that sorts incoming letters in batches rather than one by one. Ask your teammate what the picture suggests.
+
+Then give the plain definition: LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Avoid jargon at this stage.
+
+Walk through an example involving write-heavy databases, naming memtable and sorted string tables as they come up.
+
+Ask your teammate to explain compaction in LSM Trees back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, read amplification, and suggest this habit: watch compaction metrics before blaming the application.

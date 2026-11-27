@@ -1,0 +1,15 @@
+Combining Technical Writing with Reading Documentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Technical Writing and Reading Documentation can work together in a single project.
+
+Technical Writing is explaining technical ideas clearly in writing for a chosen audience. Reading Documentation is the skill of finding accurate answers in official guides and references.
+
+Imagine a project that involves documentation and learning new libraries. Technical Writing brings audience, while Reading Documentation brings search.
+
+A sensible plan is to start with Markdown for the Technical Writing part and MDN Web Docs for the Reading Documentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: burying the main point on one side, and skipping the overview on the other.
+
+Picture the whole as giving directions to a stranger, working alongside reading the manual before assembling the furniture.
+
+Two habits help: first, state the main point in the first two sentences; second, check that the documentation version matches your installed version.

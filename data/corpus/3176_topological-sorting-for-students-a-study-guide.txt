@@ -1,0 +1,17 @@
+Topological Sorting for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Topological Sorting.
+
+Learning goals:
+1. Explain Topological Sorting in your own words.
+2. Describe directed acyclic graphs, in-degree counts, Kahn's algorithm, and cycle detection.
+3. Give examples from build systems and course prerequisite planning.
+4. Name three problems to watch for.
+
+Start with the definition: Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on. Then draw a recipe that must list every step after the steps it depends on on paper and label the four terms from the goals above.
+
+Self-test questions: Why is ignoring cycles a problem? How does in-degree counts relate to Kahn's algorithm? When would you choose Python graphlib or NetworkX?
+
+Study habit worth keeping: check for cycles first so you can report a clear error.
+
+When you feel ready, compare Topological Sorting with Minimum Spanning Trees and write down three differences.

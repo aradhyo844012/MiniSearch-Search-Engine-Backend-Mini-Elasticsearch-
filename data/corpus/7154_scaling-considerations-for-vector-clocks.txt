@@ -1,0 +1,11 @@
+Scaling Considerations for Vector Clocks
+
+A design that works for a classroom project can behave very differently under real load. Here is how Vector Clocks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding logical time and getting detecting concurrent edits right.
+
+Medium scale: problems start to appear. Watch for clocks that grow with many nodes and confusing them with wall-clock time, and measure with Riak before changing anything.
+
+Large scale: the happened-before relation and conflict detection move from background details to central design questions. Teams often revisit their choices around replicated databases at this stage.
+
+Before you scale, compare clocks entry by entry to detect true concurrency. It is cheaper to build that habit early than to fix a crisis later.

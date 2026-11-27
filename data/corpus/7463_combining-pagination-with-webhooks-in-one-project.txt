@@ -1,0 +1,15 @@
+Combining Pagination with Webhooks in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Pagination and Webhooks can work together in a single project.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time. Webhooks is HTTP callbacks that let one service notify another when an event happens.
+
+Imagine a project that involves search results and payment notifications. Pagination brings offset pagination, while Webhooks brings event payloads.
+
+A sensible plan is to start with SQL LIMIT and OFFSET for the Pagination part and ngrok for the Webhooks part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unstable sort order on one side, and slow handlers causing timeouts on the other.
+
+Picture the whole as reading a long book one chapter at a time with a bookmark, working alongside a doorbell that rings when a delivery arrives instead of you checking the porch.
+
+Two habits help: first, prefer cursors for large or fast-changing data; second, respond quickly and process the event in a background job.

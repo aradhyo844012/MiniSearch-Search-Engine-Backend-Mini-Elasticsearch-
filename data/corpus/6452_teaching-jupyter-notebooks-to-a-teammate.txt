@@ -1,0 +1,13 @@
+Teaching Jupyter Notebooks to a Teammate
+
+Explaining Jupyter Notebooks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a lab notebook that can run its own experiments. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Jupyter Notebooks is interactive documents that combine code, results and notes. Avoid jargon at this stage.
+
+Walk through an example involving exploring data, naming cells and kernels as they come up.
+
+Ask your teammate to explain markdown in Jupyter Notebooks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, running cells out of order, and suggest this habit: restart the kernel and run all cells before sharing.

@@ -1,0 +1,13 @@
+Skills to Build Around GPUs and Parallelism
+
+Knowing the definition of GPUs and Parallelism is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with threads and blocks and kernels, and able to explain them without notes.
+
+Hands-on practice: spend real time with CUDA on a GPUs and Parallelism task, and try at least one alternative such as PyTorch.
+
+Judgment: learn to decide when GPUs and Parallelism fits a problem such as training neural networks, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a stadium of workers each doing one small identical task.
+
+Habits: minimize copies between CPU and GPU memory, and write down what you learn after each project.

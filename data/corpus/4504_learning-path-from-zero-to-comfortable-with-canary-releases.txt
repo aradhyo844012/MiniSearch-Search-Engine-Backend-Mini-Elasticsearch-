@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Canary Releases
+
+This path is for a learner who has never studied Canary Releases before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it) and learn traffic percentages and health metrics.
+
+Stage 2, hands-on: install Argo Rollouts, follow a tutorial, and build a small example involving safer releases.
+
+Stage 3, depth: study automatic rollback and progressive rollout, then deliberately explore this problem: too little traffic to reveal problems.
+
+Stage 4, application: apply Canary Releases to testing with real traffic, compare Istio with Flagger, and write up your results.
+
+Stage 5, review: teach Canary Releases to someone else, and then move on to Autoscaling.

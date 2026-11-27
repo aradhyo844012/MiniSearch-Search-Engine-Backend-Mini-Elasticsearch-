@@ -1,0 +1,15 @@
+The Pros and Cons of Form Validation
+
+No technology is free of trade-offs, and Form Validation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports sign-up forms
+- Makes payment pages easier
+- Helps with search filters
+
+Drawbacks and risks:
+- Risk: validating only on the client
+- Risk: vague error messages
+- Risk: rejecting valid but unusual input
+
+Weigh the two lists against your own project. If the advantages match your needs, such as sign-up forms, and you can manage the risks, Form Validation is a sound choice. Whatever you decide, validate on the server even when the browser checks too.

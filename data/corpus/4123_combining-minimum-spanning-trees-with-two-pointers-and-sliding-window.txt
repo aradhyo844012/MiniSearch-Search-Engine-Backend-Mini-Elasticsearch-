@@ -1,0 +1,15 @@
+Combining Minimum Spanning Trees with Two Pointers and Sliding Window in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Minimum Spanning Trees and Two Pointers and Sliding Window can work together in a single project.
+
+Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight. Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Imagine a project that involves designing cable networks and finding pairs with a given sum. Minimum Spanning Trees brings weighted graphs, while Two Pointers and Sliding Window brings left and right pointers.
+
+A sensible plan is to start with NetworkX for the Minimum Spanning Trees part and Python lists for the Two Pointers and Sliding Window part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that the graph must be connected on one side, and forgetting empty inputs on the other.
+
+Picture the whole as laying the cheapest set of roads that still links every town, working alongside a small frame that slides along a line of text.
+
+Two habits help: first, sort the edges once and reuse the order when testing variations; second, write down the window invariant before coding the loop.

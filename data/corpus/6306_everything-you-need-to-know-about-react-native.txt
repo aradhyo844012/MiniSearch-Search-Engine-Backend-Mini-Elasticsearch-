@@ -1,0 +1,26 @@
+Everything You Need to Know About React Native
+
+This page collects the essentials about React Native in one place. In short, React Native is a framework for building mobile apps for several platforms using JavaScript and React.
+
+Core concepts:
+- components
+- native modules
+- styling with flexbox
+- navigation
+
+Where it is used:
+- cross-platform apps
+- rapid prototypes
+- sharing code with web teams
+
+Common problems:
+- heavy re-renders
+- poorly tuned lists
+- relying on outdated native modules
+
+Tools to know:
+- Expo
+- Metro
+- React Native Debugger
+
+Remember this above all: one script performed by actors on two different stages is a good way to picture it, and the best habit is to test on real devices for both platforms.

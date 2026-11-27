@@ -1,0 +1,26 @@
+Everything You Need to Know About Instruction Pipelines
+
+This page collects the essentials about Instruction Pipelines in one place. In short, Instruction Pipelines is a technique where a processor overlaps the stages of several instructions.
+
+Core concepts:
+- fetch, decode and execute stages
+- hazards
+- branch prediction
+- stalls
+
+Where it is used:
+- explaining CPU speed
+- understanding branch costs
+- optimizing tight loops
+
+Common problems:
+- unpredictable branches
+- dependency chains
+- assuming each instruction takes one step
+
+Tools to know:
+- perf
+- Compiler Explorer
+- published instruction tables
+
+Remember this above all: an assembly line where several cars are in different stages at once is a good way to picture it, and the best habit is to avoid unpredictable branches in hot loops.

@@ -1,0 +1,15 @@
+Consistent Hashing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Consistent Hashing.
+
+Minutes 1 and 2, the definition: Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys.
+
+Minutes 3 and 4, the vocabulary: learn hash ring, virtual nodes, key placement, and rebalancing.
+
+Minutes 5 and 6, the picture: imagine seats around a round table where a new guest only displaces their neighbor. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through distributed caches, sharded databases, and load balancing.
+
+Minutes 9 and 10, the traps and the tools: watch for too few virtual nodes and uneven load, then try Redis Cluster for a first experiment.
+
+If you have a spare minute, remember to use many virtual nodes per server to even out the load.

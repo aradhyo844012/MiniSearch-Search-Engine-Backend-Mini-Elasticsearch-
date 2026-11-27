@@ -1,0 +1,11 @@
+Is Event-Driven Architecture Right for Your Project?
+
+Before adopting Event-Driven Architecture, ask whether it fits the problem. Remember that Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them.
+
+It is a good fit when your work involves order pipelines or real-time notifications, and when your team understands producers and consumers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn event brokers, or when you cannot manage these risks: hard-to-trace flows, duplicate events, and unclear event ownership.
+
+A simple decision test: write down the problem in one sentence, then check whether loose coupling and asynchronous handling are part of the answer. If they are, Event-Driven Architecture is probably worth a closer look.
+
+If you decide to go ahead, start small with integrating many services and document every event name and schema.

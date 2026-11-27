@@ -1,0 +1,11 @@
+Random Forests in Real Projects
+
+Reading about Random Forests is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: tabular predictions. Here, bagging drives the main design choices, and the team needs to guard against treating importance scores as causes.
+
+Scenario two: feature importance ranking. This time feature randomness matters most, and tools such as scikit-learn help keep things manageable.
+
+Scenario three: strong baseline models. The key idea is voting, and the biggest risk is very large forests being slow.
+
+Across all three scenarios, Random Forests stays the same idea: ensembles of many decision trees whose predictions are combined. Only the details change.

@@ -1,0 +1,13 @@
+CPU Caches vs Memory Hierarchy: Which One Should You Learn First?
+
+Learners often ask whether to study CPU Caches or Memory Hierarchy first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data, and it is closely tied to cache lines and hit and miss rates. Memory Hierarchy, by contrast, is the layers of storage from registers to disks, trading speed for size, and it is closely tied to registers and cache.
+
+Choose CPU Caches first if you care about speeding up loops or explaining performance differences. Choose Memory Hierarchy first if you care about designing efficient programs or explaining slow I/O.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library, and of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CPU Caches, avoid false sharing. With Memory Hierarchy, avoid ignoring locality.
+
+A good habit for CPU Caches is to access arrays in the order they are stored. A good habit for Memory Hierarchy is to reduce how often your program goes down to the slower layers.

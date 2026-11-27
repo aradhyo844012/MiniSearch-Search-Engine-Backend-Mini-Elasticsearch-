@@ -1,0 +1,15 @@
+Configuration Management in 10 Minutes
+
+You have ten minutes, so here is the fast route through Configuration Management.
+
+Minutes 1 and 2, the definition: Configuration Management is keeping application settings separate from code so they can change per environment.
+
+Minutes 3 and 4, the vocabulary: learn environment variables, config files, defaults, and secrets handling.
+
+Minutes 5 and 6, the picture: imagine the settings dial on a machine that stays the same on every site. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through separating development and production, toggling features, and deploying the same build everywhere.
+
+Minutes 9 and 10, the traps and the tools: watch for committing secrets and inconsistent defaults, then try dotenv for a first experiment.
+
+If you have a spare minute, remember to fail fast at startup if a required setting is missing.

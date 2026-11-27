@@ -1,0 +1,11 @@
+Static Analysis Tips from Experienced Engineers
+
+Engineers who work with Static Analysis regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose Static Analysis so the next person understands the decision.
+2. When something behaves strangely, revisit type checkers before anything else.
+3. Do not skip linters; everything else builds on it.
+4. Test the case of catching bugs early early, before the design hardens.
+5. Reach for ESLint first, and only then evaluate alternatives such as Pylint.
+
+None of these tips needs special equipment, and all of them apply to enforcing team style as well.

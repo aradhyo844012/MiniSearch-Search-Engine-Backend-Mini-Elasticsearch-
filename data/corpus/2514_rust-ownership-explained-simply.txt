@@ -1,0 +1,13 @@
+Rust Ownership Explained Simply
+
+If Rust Ownership sounds intimidating, relax. It is a set of rules that lets Rust manage memory safely without a garbage collector, and the idea is simpler than the name suggests.
+
+Think of Rust Ownership as a single house key that you can hand over or lend out but never copy. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: ownership, borrowing, lifetimes, and moves. You do not need to master them all at once. Start with ownership, then add borrowing.
+
+You will meet Rust Ownership in work such as systems programming, command line tools, and safe concurrent code.
+
+One practical tip is to read the compiler's error messages closely because they often explain the fix.
+
+Once Rust Ownership feels comfortable, read about Python Decorators, which lives in the same neighborhood of ideas.

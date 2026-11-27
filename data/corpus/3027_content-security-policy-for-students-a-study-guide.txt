@@ -1,0 +1,17 @@
+Content Security Policy for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Content Security Policy.
+
+Learning goals:
+1. Explain Content Security Policy in your own words.
+2. Describe directives, nonces, report-only mode, and trusted sources.
+3. Give examples from reducing the impact of XSS and blocking unwanted scripts.
+4. Name three problems to watch for.
+
+Start with the definition: Content Security Policy is a browser feature that limits which scripts and resources a page may load. Then draw a guest list at the door of a building on paper and label the four terms from the goals above.
+
+Self-test questions: Why is allowing unsafe-inline a problem? How does nonces relate to report-only mode? When would you choose browser DevTools or CSP Evaluator?
+
+Study habit worth keeping: start in report-only mode to learn what would break.
+
+When you feel ready, compare Content Security Policy with CSRF and write down three differences.

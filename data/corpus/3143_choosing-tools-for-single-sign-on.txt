@@ -1,0 +1,11 @@
+Choosing Tools for Single Sign-On
+
+There is no single best tool for Single Sign-On. The right choice depends on your project, your team and your timeline.
+
+Okta is a common first choice, especially for company intranets. Keycloak suits teams that already work with similar technology, and Azure AD is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle reducing password fatigue well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: a single point of failure.
+
+As a rule of thumb, plan for identity provider outages, no matter which tool you use.

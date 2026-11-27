@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Vector Clocks
+
+This path is for a learner who has never studied Vector Clocks before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Vector Clocks is counters that let distributed processes track the order of events without a shared clock) and learn logical time and per-process counters.
+
+Stage 2, hands-on: install Riak, follow a tutorial, and build a small example involving detecting concurrent edits.
+
+Stage 3, depth: study the happened-before relation and conflict detection, then deliberately explore this problem: clocks that grow with many nodes.
+
+Stage 4, application: apply Vector Clocks to replicated databases, compare the Amazon Dynamo paper with CRDT libraries, and write up your results.
+
+Stage 5, review: teach Vector Clocks to someone else, and then move on to Idempotency.

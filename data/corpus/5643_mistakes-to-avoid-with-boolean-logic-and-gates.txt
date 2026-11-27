@@ -1,0 +1,11 @@
+Mistakes to Avoid with Boolean Logic and Gates
+
+Everyone learns Boolean Logic and Gates partly through mistakes. Here are three worth avoiding.
+
+Mistake one: operator precedence mistakes. It usually appears when someone skips AND, OR and NOT and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: forgetting short-circuit behavior. It tends to be noticed late, often during testing of writing conditions. A short checklist during review catches it early.
+
+Mistake three: negating complex conditions incorrectly. It is easy to miss because everything seems to work at first. Keep an eye on logic gates to spot it.
+
+If you remember only one rule, make it this: write a truth table whenever a condition feels confusing.

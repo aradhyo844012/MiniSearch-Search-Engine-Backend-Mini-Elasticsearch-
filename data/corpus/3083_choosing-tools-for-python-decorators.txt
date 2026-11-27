@@ -1,0 +1,11 @@
+Choosing Tools for Python Decorators
+
+There is no single best tool for Python Decorators. The right choice depends on your project, your team and your timeline.
+
+functools is a common first choice, especially for logging calls. Flask routes suits teams that already work with similar technology, and pytest fixtures is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle caching results well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: losing function metadata.
+
+As a rule of thumb, always apply functools.wraps inside your decorator, no matter which tool you use.

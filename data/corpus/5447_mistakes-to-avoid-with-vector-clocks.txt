@@ -1,0 +1,11 @@
+Mistakes to Avoid with Vector Clocks
+
+Everyone learns Vector Clocks partly through mistakes. Here are three worth avoiding.
+
+Mistake one: clocks that grow with many nodes. It usually appears when someone skips logical time and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: confusing them with wall-clock time. It tends to be noticed late, often during testing of detecting concurrent edits. A short checklist during review catches it early.
+
+Mistake three: never pruning old entries. It is easy to miss because everything seems to work at first. Keep an eye on conflict detection to spot it.
+
+If you remember only one rule, make it this: compare clocks entry by entry to detect true concurrency.

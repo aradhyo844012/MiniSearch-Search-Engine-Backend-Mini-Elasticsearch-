@@ -1,0 +1,15 @@
+Data Anonymization Quick Reference
+
+A one-screen reminder for Data Anonymization. Bookmark it and return when the details fade.
+
+What it is: removing or altering personal details in data so people cannot be identified.
+Key terms: masking, generalization, k-anonymity, and differential privacy.
+Typical uses: sharing datasets with researchers, testing with production-like data, and meeting privacy rules.
+Risks: re-identification through combined fields, removing too little, and destroying usefulness by removing too much.
+Tools: ARX, Faker, and Google's differential privacy library.
+
+Mental picture: blurring faces in a crowd photo while keeping the scene.
+
+Habit to build: test whether combining fields could identify a person.
+
+See also: SQL Window Functions, which sits close to Data Anonymization in the area of Data and Analytics.

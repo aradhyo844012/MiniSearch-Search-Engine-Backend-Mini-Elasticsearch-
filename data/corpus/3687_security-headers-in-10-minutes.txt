@@ -1,0 +1,15 @@
+Security Headers in 10 Minutes
+
+You have ten minutes, so here is the fast route through Security Headers.
+
+Minutes 1 and 2, the definition: Security Headers is HTTP response headers that tell browsers to enforce extra protections.
+
+Minutes 3 and 4, the vocabulary: learn Strict-Transport-Security, X-Content-Type-Options, frame protections, and referrer policy.
+
+Minutes 5 and 6, the picture: imagine safety instructions printed on the packaging of every page. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through hardening websites, reducing clickjacking, and enforcing HTTPS.
+
+Minutes 9 and 10, the traps and the tools: watch for setting headers on only some routes and breaking embeds, then try securityheaders.com for a first experiment.
+
+If you have a spare minute, remember to test the headers on every environment.

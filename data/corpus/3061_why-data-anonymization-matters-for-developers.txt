@@ -1,0 +1,11 @@
+Why Data Anonymization Matters for Developers
+
+Developers who understand Data Anonymization make better decisions, because Data Anonymization is removing or altering personal details in data so people cannot be identified.
+
+Three situations show why it matters. First, sharing datasets with researchers. Second, testing with production-like data. Third, meeting privacy rules. In each case, a solid grasp of masking and generalization separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: re-identification through combined fields, removing too little, and destroying usefulness by removing too much.
+
+Good tools exist, including ARX, Faker, and Google's differential privacy library, so you rarely have to start from nothing.
+
+Connect Data Anonymization with Apache Spark to see the bigger picture of Data and Analytics.

@@ -1,0 +1,9 @@
+Understanding Pagination Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture reading a long book one chapter at a time with a bookmark.
+
+In that picture, offset pagination is the first rule you follow, cursor pagination is the next step, and page size and stable ordering keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Pagination is splitting large result sets into smaller pages that clients request one at a time, and it involves details such as offsets getting slow on huge tables that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for SQL LIMIT and OFFSET to learn the exact behavior. The same picture helps when you explain search results to a friend.

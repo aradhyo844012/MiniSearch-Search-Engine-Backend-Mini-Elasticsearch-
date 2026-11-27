@@ -1,0 +1,11 @@
+Choosing Tools for Hexagonal Architecture
+
+There is no single best tool for Hexagonal Architecture. The right choice depends on your project, your team and your timeline.
+
+Spring is a common first choice, especially for testable business logic. FastAPI suits teams that already work with similar technology, and pytest is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle swapping databases well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: too many layers for small apps.
+
+As a rule of thumb, keep framework imports out of the core domain, no matter which tool you use.

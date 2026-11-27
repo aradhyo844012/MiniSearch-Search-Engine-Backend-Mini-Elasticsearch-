@@ -1,0 +1,26 @@
+Everything You Need to Know About Debugging Strategies
+
+This page collects the essentials about Debugging Strategies in one place. In short, Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior.
+
+Core concepts:
+- reproducing the bug
+- isolating the cause
+- forming hypotheses
+- binary search through code
+
+Where it is used:
+- fixing production issues
+- learning unfamiliar code
+- reducing repeat bugs
+
+Common problems:
+- changing many things at once
+- guessing without evidence
+- not writing a test afterward
+
+Tools to know:
+- debuggers
+- logging
+- git bisect
+
+Remember this above all: a detective narrowing down suspects is a good way to picture it, and the best habit is to change one thing at a time and record the result.

@@ -1,0 +1,15 @@
+Encryption at Rest Quick Reference
+
+A one-screen reminder for Encryption at Rest. Bookmark it and return when the details fade.
+
+What it is: protecting stored data by encrypting it on disk or in a database.
+Key terms: symmetric keys, key management, disk encryption, and envelope encryption.
+Typical uses: protecting backups, meeting compliance rules, and securing laptops.
+Risks: storing keys next to the data, no key rotation, and assuming it stops every kind of attack.
+Tools: LUKS, AWS KMS, and BitLocker.
+
+Mental picture: a locked safe inside a locked room.
+
+Habit to build: keep keys in a separate service from the data.
+
+See also: Single Sign-On, which sits close to Encryption at Rest in the area of Application Security.

@@ -1,0 +1,13 @@
+Penetration Testing vs Encryption at Rest: Which One Should You Learn First?
+
+Learners often ask whether to study Penetration Testing or Encryption at Rest first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do, and it is closely tied to scoping and reconnaissance. Encryption at Rest, by contrast, is protecting stored data by encrypting it on disk or in a database, and it is closely tied to symmetric keys and key management.
+
+Choose Penetration Testing first if you care about pre-launch security checks or compliance audits. Choose Encryption at Rest first if you care about protecting backups or meeting compliance rules.
+
+Think of Penetration Testing as hiring a locksmith to test your doors, and of Encryption at Rest as a locked safe inside a locked room. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Penetration Testing, avoid testing without written permission. With Encryption at Rest, avoid storing keys next to the data.
+
+A good habit for Penetration Testing is to get written authorization before any test. A good habit for Encryption at Rest is to keep keys in a separate service from the data.

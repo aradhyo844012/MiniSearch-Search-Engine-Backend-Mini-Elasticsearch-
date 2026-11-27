@@ -1,0 +1,11 @@
+Idempotency in Real Projects
+
+Reading about Idempotency is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: payment APIs. Here, idempotency keys drives the main design choices, and the team needs to guard against keys that expire too soon.
+
+Scenario two: message processing. This time safe retries matters most, and tools such as Stripe idempotency keys help keep things manageable.
+
+Scenario three: retrying failed requests. The key idea is deduplication, and the biggest risk is side effects outside the guarded step.
+
+Across all three scenarios, Idempotency stays the same idea: the property that repeating an operation gives the same result as doing it once. Only the details change.

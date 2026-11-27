@@ -1,0 +1,15 @@
+Combining Pagination with Logging Best Practices in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Pagination and Logging Best Practices can work together in a single project.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time. Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Imagine a project that involves search results and debugging production issues. Pagination brings offset pagination, while Logging Best Practices brings log levels.
+
+A sensible plan is to start with SQL LIMIT and OFFSET for the Pagination part and the Python logging module for the Logging Best Practices part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unstable sort order on one side, and too much noise on the other.
+
+Picture the whole as reading a long book one chapter at a time with a bookmark, working alongside a ship's logbook that explains what happened and when.
+
+Two habits help: first, prefer cursors for large or fast-changing data; second, include a request ID in every log line.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Distributed Locks
+
+Everyone learns Distributed Locks partly through mistakes. Here are three worth avoiding.
+
+Mistake one: locks that never expire. It usually appears when someone skips lease times and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: clock drift. It tends to be noticed late, often during testing of running scheduled jobs once. A short checklist during review catches it early.
+
+Mistake three: assuming the lock holder is still alive. It is easy to miss because everything seems to work at first. Keep an eye on timeouts to spot it.
+
+If you remember only one rule, make it this: always use a timeout together with a fencing token.

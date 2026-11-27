@@ -1,0 +1,11 @@
+Choosing Tools for Feature Stores
+
+There is no single best tool for Feature Stores. The right choice depends on your project, your team and your timeline.
+
+Feast is a common first choice, especially for sharing features across models. Tecton suits teams that already work with similar technology, and Databricks Feature Store is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle serving real-time predictions well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: leaking future data.
+
+As a rule of thumb, define each feature once and reuse it in training and serving, no matter which tool you use.

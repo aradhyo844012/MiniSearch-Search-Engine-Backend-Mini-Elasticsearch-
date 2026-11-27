@@ -1,0 +1,12 @@
+Memory Hierarchy Glossary for Beginners
+
+New words can make Memory Hierarchy feel harder than it is. This glossary keeps the key ones in one place.
+
+Memory Hierarchy: the layers of storage from registers to disks, trading speed for size.
+registers: a core term, most visible in designing efficient programs.
+cache: a core term that beginners often confuse with main memory.
+main memory: a core term that connects to disk.
+disk: a core term worth revisiting after you try a real example.
+lscpu: a tool commonly used for explaining slow I/O.
+
+Come back to this Memory Hierarchy list whenever documentation for vmstat uses a word you do not recognize.

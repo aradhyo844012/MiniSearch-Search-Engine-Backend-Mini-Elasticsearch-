@@ -1,0 +1,11 @@
+Scaling Considerations for TypeScript Generics
+
+A design that works for a classroom project can behave very differently under real load. Here is how TypeScript Generics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding type parameters and getting reusable utility functions right.
+
+Medium scale: problems start to appear. Watch for overusing any and overly complex generic types, and measure with tsc before changing anything.
+
+Large scale: type inference and generic interfaces move from background details to central design questions. Teams often revisit their choices around typed API clients at this stage.
+
+Before you scale, add constraints so that error messages become clearer. It is cheaper to build that habit early than to fix a crisis later.

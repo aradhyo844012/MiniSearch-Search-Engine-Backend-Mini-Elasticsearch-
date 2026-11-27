@@ -1,0 +1,15 @@
+Canary Releases in 10 Minutes
+
+You have ten minutes, so here is the fast route through Canary Releases.
+
+Minutes 1 and 2, the definition: Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it.
+
+Minutes 3 and 4, the vocabulary: learn traffic percentages, health metrics, automatic rollback, and progressive rollout.
+
+Minutes 5 and 6, the picture: imagine a canary in a coal mine warning miners before the danger spreads. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through safer releases, testing with real traffic, and reducing the blast radius of bugs.
+
+Minutes 9 and 10, the traps and the tools: watch for too little traffic to reveal problems and no clear success metrics, then try Argo Rollouts for a first experiment.
+
+If you have a spare minute, remember to define rollback conditions before starting the rollout.

@@ -1,0 +1,11 @@
+Why GraphQL Matters for Developers
+
+Developers who understand GraphQL make better decisions, because GraphQL is a query language for APIs that lets clients ask for exactly the fields they need.
+
+Three situations show why it matters. First, mobile apps with limited bandwidth. Second, aggregating many services. Third, flexible dashboards. In each case, a solid grasp of schema and queries and mutations separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: the N+1 query problem, unbounded query depth, and weak caching.
+
+Good tools exist, including Apollo, GraphQL Playground, and Hasura, so you rarely have to start from nothing.
+
+Connect GraphQL with Pagination to see the bigger picture of Backend Engineering.

@@ -1,0 +1,17 @@
+Event Sourcing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Event Sourcing.
+
+Learning goals:
+1. Explain Event Sourcing in your own words.
+2. Describe event log, projections, snapshots, and replay.
+3. Give examples from audit trails and financial ledgers.
+4. Name three problems to watch for.
+
+Start with the definition: Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them. Then draw a bank statement that lists every transaction instead of only the balance on paper and label the four terms from the goals above.
+
+Self-test questions: Why is changing event formats carelessly a problem? How does projections relate to snapshots? When would you choose Apache Kafka or EventStoreDB?
+
+Study habit worth keeping: version your events from the first day.
+
+When you feel ready, compare Event Sourcing with Consistent Hashing and write down three differences.

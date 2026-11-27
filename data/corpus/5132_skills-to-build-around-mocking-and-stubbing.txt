@@ -1,0 +1,13 @@
+Skills to Build Around Mocking and Stubbing
+
+Knowing the definition of Mocking and Stubbing is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with mocks and stubs, and able to explain them without notes.
+
+Hands-on practice: spend real time with unittest.mock on a Mocking and Stubbing task, and try at least one alternative such as Mockito.
+
+Judgment: learn to decide when Mocking and Stubbing fits a problem such as isolating units, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a crash test dummy standing in for a real passenger.
+
+Habits: prefer simple fakes over deep mock chains, and write down what you learn after each project.

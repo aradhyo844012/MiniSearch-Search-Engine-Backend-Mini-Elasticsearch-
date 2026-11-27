@@ -1,0 +1,15 @@
+Blue-Green Deployment Quick Reference
+
+A one-screen reminder for Blue-Green Deployment. Bookmark it and return when the details fade.
+
+What it is: a release method that keeps two identical environments and switches traffic from the old one to the new one.
+Key terms: blue and green environments, traffic switching, rollback, and database compatibility.
+Typical uses: zero-downtime releases, quick rollbacks, and testing in production-like settings.
+Risks: database schema mismatches, doubling infrastructure costs, and forgetting to drain old connections.
+Tools: AWS CodeDeploy, Kubernetes services, and NGINX.
+
+Mental picture: swapping to a fully prepared spare stage while the show goes on.
+
+Habit to build: keep the old environment running until the new one is proven.
+
+See also: Autoscaling, which sits close to Blue-Green Deployment in the area of DevOps and Cloud.

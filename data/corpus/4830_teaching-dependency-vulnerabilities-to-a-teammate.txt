@@ -1,0 +1,13 @@
+Teaching Dependency Vulnerabilities to a Teammate
+
+Explaining Dependency Vulnerabilities to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: checking every ingredient supplier for recalls. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses. Avoid jargon at this stage.
+
+Walk through an example involving auditing projects, naming CVE identifiers and version pinning as they come up.
+
+Ask your teammate to explain transitive dependencies in Dependency Vulnerabilities back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, ignoring transitive dependencies, and suggest this habit: automate update pull requests.

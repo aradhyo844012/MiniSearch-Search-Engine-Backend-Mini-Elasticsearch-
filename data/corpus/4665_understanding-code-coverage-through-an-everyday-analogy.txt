@@ -1,0 +1,9 @@
+Understanding Code Coverage Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a map showing which rooms a security guard has walked through.
+
+In that picture, line coverage is the first rule you follow, branch coverage is the next step, and coverage reports and thresholds keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Code Coverage is a measure of how much of the code is run by tests, and it involves details such as chasing 100 percent that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for coverage.py to learn the exact behavior. The same picture helps when you explain finding untested code to a friend.

@@ -1,0 +1,11 @@
+Scaling Considerations for Single Sign-On
+
+A design that works for a classroom project can behave very differently under real load. Here is how Single Sign-On changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding identity provider and getting company intranets right.
+
+Medium scale: problems start to appear. Watch for a single point of failure and misconfigured redirects, and measure with Okta before changing anything.
+
+Large scale: OpenID Connect and session lifetime move from background details to central design questions. Teams often revisit their choices around reducing password fatigue at this stage.
+
+Before you scale, plan for identity provider outages. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,15 @@
+Combining Union-Find with Topological Sorting in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Union-Find and Topological Sorting can work together in a single project.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly. Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+
+Imagine a project that involves detecting connected components and build systems. Union-Find brings parent pointers, while Topological Sorting brings directed acyclic graphs.
+
+A sensible plan is to start with Python lists for the Union-Find part and Python graphlib for the Topological Sorting part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: merging without checking roots on one side, and assuming the order is unique on the other.
+
+Picture the whole as a set of club rosters where two clubs can merge into one, working alongside a recipe that must list every step after the steps it depends on.
+
+Two habits help: first, implement path compression and union by rank together; second, check for cycles first so you can report a clear error.

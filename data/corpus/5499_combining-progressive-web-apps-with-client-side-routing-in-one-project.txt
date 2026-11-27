@@ -1,0 +1,15 @@
+Combining Progressive Web Apps with Client-Side Routing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Progressive Web Apps and Client-Side Routing can work together in a single project.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps. Client-Side Routing is changing the visible page in the browser without a full page reload.
+
+Imagine a project that involves offline-friendly tools and single-page apps. Progressive Web Apps brings web app manifest, while Client-Side Routing brings history API.
+
+A sensible plan is to start with Lighthouse for the Progressive Web Apps part and React Router for the Client-Side Routing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor offline fallbacks on one side, and unhandled 404 pages on the other.
+
+Picture the whole as a website that packs its own suitcase so it still works when the network is gone, working alongside swapping the picture in a frame without replacing the frame.
+
+Two habits help: first, test the app in airplane mode; second, test refreshing the page on every route.

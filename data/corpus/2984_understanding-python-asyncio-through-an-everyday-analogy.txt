@@ -1,0 +1,9 @@
+Understanding Python Asyncio Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a chef who starts several dishes and checks each one when its timer rings.
+
+In that picture, event loop is the first rule you follow, coroutines is the next step, and await and tasks keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Python Asyncio is a library for running many waiting tasks concurrently on a single thread, and it involves details such as blocking calls inside coroutines that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for asyncio to learn the exact behavior. The same picture helps when you explain calling many APIs at once to a friend.

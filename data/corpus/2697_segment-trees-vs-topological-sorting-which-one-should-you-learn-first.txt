@@ -1,0 +1,13 @@
+Segment Trees vs Topological Sorting: Which One Should You Learn First?
+
+Learners often ask whether to study Segment Trees or Topological Sorting first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time, and it is closely tied to tree nodes covering ranges and range queries. Topological Sorting, by contrast, is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on, and it is closely tied to directed acyclic graphs and in-degree counts.
+
+Choose Segment Trees first if you care about range sum queries or finding minimums in a window. Choose Topological Sorting first if you care about build systems or course prerequisite planning.
+
+Think of Segment Trees as a tournament bracket that remembers the winner of every group of players, and of Topological Sorting as a recipe that must list every step after the steps it depends on. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Segment Trees, avoid off-by-one errors in ranges. With Topological Sorting, avoid ignoring cycles.
+
+A good habit for Segment Trees is to test your tree against a slow brute-force version on small inputs. A good habit for Topological Sorting is to check for cycles first so you can report a clear error.

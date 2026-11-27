@@ -1,0 +1,13 @@
+Greedy Algorithms vs Skip Lists: Which One Should You Learn First?
+
+Learners often ask whether to study Greedy Algorithms or Skip Lists first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Greedy Algorithms is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure. Skip Lists, by contrast, is layered linked lists that allow fast searching by skipping over many elements, and it is closely tied to multiple levels and random level assignment.
+
+Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding. Choose Skip Lists first if you care about ordered in-memory indexes or sorted sets in caches.
+
+Think of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out, and of Skip Lists as an express train line layered over a local train line. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Greedy Algorithms, avoid assuming greedy always works. With Skip Lists, avoid poor random number choices.
+
+A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it. A good habit for Skip Lists is to draw several levels by hand to see how a search moves down.

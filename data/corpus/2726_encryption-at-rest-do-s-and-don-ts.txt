@@ -1,0 +1,17 @@
+Encryption at Rest Do's and Don'ts
+
+A quick list of habits for working with Encryption at Rest.
+
+Do:
+- Learn symmetric keys before anything else.
+- Try LUKS on a small example.
+- Make it a habit to keep keys in a separate service from the data.
+- Test the case of protecting backups early.
+
+Don't:
+- Ignore this: storing keys next to the data.
+- Ignore this: no key rotation.
+- Ignore this: assuming it stops every kind of attack.
+- Adopt Encryption at Rest just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Encryption at Rest, a little patience with key management pays off more than any clever shortcut.

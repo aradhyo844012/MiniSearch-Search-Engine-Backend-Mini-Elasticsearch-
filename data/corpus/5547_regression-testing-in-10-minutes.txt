@@ -1,0 +1,15 @@
+Regression Testing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Regression Testing.
+
+Minutes 1 and 2, the definition: Regression Testing is re-running tests after changes to make sure old features still work.
+
+Minutes 3 and 4, the vocabulary: learn test suites, automation, test selection, and bug reproduction tests.
+
+Minutes 5 and 6, the picture: imagine rechecking the old keys after cutting a new lock. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through protecting releases, verifying bug fixes, and refactoring safely.
+
+Minutes 9 and 10, the traps and the tools: watch for slow suites that nobody runs and missing tests for fixed bugs, then try pytest for a first experiment.
+
+If you have a spare minute, remember to add a test for every bug you fix.

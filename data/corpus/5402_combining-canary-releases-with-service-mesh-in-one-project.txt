@@ -1,0 +1,15 @@
+Combining Canary Releases with Service Mesh in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Canary Releases and Service Mesh can work together in a single project.
+
+Canary Releases is a rollout strategy that sends a small share of traffic to a new version before everyone gets it. Service Mesh is an infrastructure layer that manages communication between services through proxies.
+
+Imagine a project that involves safer releases and securing service traffic. Canary Releases brings traffic percentages, while Service Mesh brings sidecar proxies.
+
+A sensible plan is to start with Argo Rollouts for the Canary Releases part and Istio for the Service Mesh part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no clear success metrics on one side, and adopting it too early on the other.
+
+Picture the whole as a canary in a coal mine warning miners before the danger spreads, working alongside a postal system that applies delivery rules between buildings.
+
+Two habits help: first, define rollback conditions before starting the rollout; second, adopt it only once the number of services makes manual setup painful.

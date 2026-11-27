@@ -1,0 +1,11 @@
+Choosing Tools for Chaos Engineering
+
+There is no single best tool for Chaos Engineering. The right choice depends on your project, your team and your timeline.
+
+Chaos Monkey is a common first choice, especially for testing resilience. Gremlin suits teams that already work with similar technology, and LitmusChaos is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle validating failover well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: experimenting without safeguards.
+
+As a rule of thumb, start with small experiments in a test environment, no matter which tool you use.

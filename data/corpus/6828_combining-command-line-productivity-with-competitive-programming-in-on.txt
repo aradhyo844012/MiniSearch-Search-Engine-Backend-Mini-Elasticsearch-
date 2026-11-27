@@ -1,0 +1,15 @@
+Combining Command Line Productivity with Competitive Programming in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Command Line Productivity and Competitive Programming can work together in a single project.
+
+Command Line Productivity is using shell tools and shortcuts to complete tasks faster. Competitive Programming is solving algorithmic problems under time limits to build speed and problem-solving skills.
+
+Imagine a project that involves automating repetitive tasks and interview preparation. Command Line Productivity brings aliases, while Competitive Programming brings problem patterns.
+
+A sensible plan is to start with bash for the Command Line Productivity part and Codeforces for the Competitive Programming part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: dangerous wildcard use on one side, and skipping fundamentals on the other.
+
+Picture the whole as learning the shortcuts on a well-used road, working alongside athletic training for problem solving.
+
+Two habits help: first, turn commands you repeat into small scripts; second, review problems you could not solve and study the editorial.

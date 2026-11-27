@@ -1,0 +1,12 @@
+Questions to Ask About Random Forests in Code Review
+
+Reviewing code that involves Random Forests is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect bagging, or does it work around it?
+- Have we considered treating importance scores as causes?
+- Is scikit-learn used consistently, or are we mixing approaches?
+- Does the code handle the case of tabular predictions correctly?
+- Would a test catch very large forests being slow if it appeared later?
+- Could we tune the number of trees only after the basics work?
+
+Good reviews of work on Random Forests are specific, kind and focused on voting, not on personal style.

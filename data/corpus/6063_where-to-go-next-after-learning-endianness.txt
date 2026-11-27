@@ -1,0 +1,11 @@
+Where to Go Next After Learning Endianness
+
+You have met the basics of Endianness. Here is how to keep the momentum going.
+
+Go wider: read about System Calls, which belongs to the same area as Endianness (Computer Systems) and often appears in the same projects.
+
+Go deeper: choose one of big-endian, little-endian, byte order marks or network byte order, and study it until you can explain it to a beginner.
+
+Go practical: build something around binary file formats with Python struct, and note every problem you meet, starting with mixing byte orders.
+
+Go social: share what you learned. Explaining Endianness to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

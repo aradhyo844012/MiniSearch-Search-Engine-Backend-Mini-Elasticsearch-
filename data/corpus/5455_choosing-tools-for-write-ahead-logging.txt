@@ -1,0 +1,11 @@
+Choosing Tools for Write-Ahead Logging
+
+There is no single best tool for Write-Ahead Logging. The right choice depends on your project, your team and your timeline.
+
+PostgreSQL WAL is a common first choice, especially for surviving crashes. SQLite journal suits teams that already work with similar technology, and Apache Kafka is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle feeding replication streams well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: disabling fsync for speed.
+
+As a rule of thumb, test crash recovery by killing the process on purpose, no matter which tool you use.

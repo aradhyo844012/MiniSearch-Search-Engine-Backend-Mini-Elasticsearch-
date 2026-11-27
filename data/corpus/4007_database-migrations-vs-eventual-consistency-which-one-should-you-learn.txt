@@ -1,0 +1,13 @@
+Database Migrations vs Eventual Consistency: Which One Should You Learn First?
+
+Learners often ask whether to study Database Migrations or Eventual Consistency first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way, and it is closely tied to up and down scripts and version tables. Eventual Consistency, by contrast, is a guarantee that replicas will agree on the same value if updates stop for long enough, and it is closely tied to replication delay and conflict resolution.
+
+Choose Database Migrations first if you care about adding columns safely or renaming tables. Choose Eventual Consistency first if you care about global social feeds or shopping cart services.
+
+Think of Database Migrations as a numbered set of renovation steps applied to a building in order, and of Eventual Consistency as news spreading through a village until everyone has heard it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Database Migrations, avoid locking large tables. With Eventual Consistency, avoid assuming reads are always fresh.
+
+A good habit for Database Migrations is to split risky changes into small steps that can each be rolled back. A good habit for Eventual Consistency is to decide up front how your app handles stale reads.

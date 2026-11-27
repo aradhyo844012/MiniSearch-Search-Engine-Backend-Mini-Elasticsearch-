@@ -1,0 +1,13 @@
+Teaching CSS Variables to a Teammate
+
+Explaining CSS Variables to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: labeled paint buckets you refill once to recolor a whole house. Ask your teammate what the picture suggests.
+
+Then give the plain definition: CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles. Avoid jargon at this stage.
+
+Walk through an example involving theme switching, naming custom properties and the var function as they come up.
+
+Ask your teammate to explain inheritance in CSS Variables back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, missing fallbacks, and suggest this habit: define theme values on the root element.

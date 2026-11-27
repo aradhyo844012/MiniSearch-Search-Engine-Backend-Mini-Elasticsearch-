@@ -1,0 +1,11 @@
+Choosing Tools for Flutter
+
+There is no single best tool for Flutter. The right choice depends on your project, your team and your timeline.
+
+Dart is a common first choice, especially for cross-platform mobile apps. Flutter DevTools suits teams that already work with similar technology, and Android Studio is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle desktop apps well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: deep widget trees.
+
+As a rule of thumb, split big widgets into small reusable ones, no matter which tool you use.

@@ -1,0 +1,11 @@
+Assembly Language Basics Tips from Experienced Engineers
+
+Engineers who work with Assembly Language Basics regularly tend to repeat the same advice. Here it is.
+
+1. When something behaves strangely, revisit instructions before anything else.
+2. Test the case of understanding compiled code early, before the design hardens.
+3. Write down why you chose Assembly Language Basics so the next person understands the decision.
+4. Do not skip registers; everything else builds on it.
+5. Make sure you can read the assembly of a tiny C function to see what the compiler does.
+
+None of these tips needs special equipment, and all of them apply to debugging crashes as well.

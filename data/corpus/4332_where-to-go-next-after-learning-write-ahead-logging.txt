@@ -1,0 +1,11 @@
+Where to Go Next After Learning Write-Ahead Logging
+
+You have met the basics of Write-Ahead Logging. Here is how to keep the momentum going.
+
+Go wider: read about Database Backups and Recovery, which belongs to the same area as Write-Ahead Logging (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of log records, checkpoints, crash recovery or fsync, and study it until you can explain it to a beginner.
+
+Go practical: build something around feeding replication streams with PostgreSQL WAL, and note every problem you meet, starting with disabling fsync for speed.
+
+Go social: share what you learned. Explaining Write-Ahead Logging to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

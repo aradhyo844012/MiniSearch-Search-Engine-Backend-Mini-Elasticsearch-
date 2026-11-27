@@ -1,0 +1,13 @@
+Autoscaling vs Log Aggregation: Which One Should You Learn First?
+
+Learners often ask whether to study Autoscaling or Log Aggregation first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Autoscaling is automatically adding or removing computing resources as demand changes, and it is closely tied to scaling metrics and cooldown periods. Log Aggregation, by contrast, is collecting logs from many machines into one searchable place, and it is closely tied to shippers and indexing.
+
+Choose Autoscaling first if you care about handling traffic spikes or saving money overnight. Choose Log Aggregation first if you care about troubleshooting across services or security investigations.
+
+Think of Autoscaling as a restaurant opening extra tables when a crowd arrives, and of Log Aggregation as gathering notes from every desk into a single searchable binder. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Autoscaling, avoid scaling too slowly. With Log Aggregation, avoid unbounded storage growth.
+
+A good habit for Autoscaling is to load test the system to find realistic thresholds. A good habit for Log Aggregation is to use structured JSON logs so that fields are searchable.

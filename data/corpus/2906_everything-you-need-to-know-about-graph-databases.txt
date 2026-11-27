@@ -1,0 +1,26 @@
+Everything You Need to Know About Graph Databases
+
+This page collects the essentials about Graph Databases in one place. In short, Graph Databases is databases that store data as nodes and relationships and query connections directly.
+
+Core concepts:
+- nodes
+- edges
+- properties
+- traversal queries
+
+Where it is used:
+- social networks
+- recommendation engines
+- fraud detection
+
+Common problems:
+- using them for simple tabular data
+- unbounded traversals
+- supernodes with millions of edges
+
+Tools to know:
+- Neo4j
+- Cypher
+- Amazon Neptune
+
+Remember this above all: a city map where intersections are records and roads are relationships is a good way to picture it, and the best habit is to limit traversal depth in every exploratory query.

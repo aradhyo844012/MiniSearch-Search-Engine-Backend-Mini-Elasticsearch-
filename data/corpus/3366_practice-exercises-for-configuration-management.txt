@@ -1,0 +1,11 @@
+Practice Exercises for Configuration Management
+
+These exercises build real understanding of Configuration Management. Do them in order, and write down your answers.
+
+Exercise 1: Explain how defaults and secrets handling differ, using a drawing.
+Exercise 2: Pick dotenv and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble separating development and production or toggling features.
+Exercise 4: Compare Pydantic settings and HashiCorp Consul for deploying the same build everywhere and write down your conclusion.
+Exercise 5: Write a short paragraph describing Configuration Management and include the term environment variables.
+
+When you finish, compare your answers with the definition: Configuration Management is keeping application settings separate from code so they can change per environment.

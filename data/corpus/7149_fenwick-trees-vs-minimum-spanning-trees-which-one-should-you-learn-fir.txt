@@ -1,0 +1,13 @@
+Fenwick Trees vs Minimum Spanning Trees: Which One Should You Learn First?
+
+Learners often ask whether to study Fenwick Trees or Minimum Spanning Trees first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates, and it is closely tied to binary indexed trees and lowest set bit. Minimum Spanning Trees, by contrast, is a set of edges that connects every node in a graph with the smallest possible total weight, and it is closely tied to weighted graphs and Kruskal's algorithm.
+
+Choose Fenwick Trees first if you care about counting inversions or maintaining running totals. Choose Minimum Spanning Trees first if you care about designing cable networks or clustering data.
+
+Think of Fenwick Trees as a set of running subtotals where each one covers a block of entries, and of Minimum Spanning Trees as laying the cheapest set of roads that still links every town. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Fenwick Trees, avoid using zero-based indexes by mistake. With Minimum Spanning Trees, avoid using it on directed graphs.
+
+A good habit for Fenwick Trees is to start indexing from one to keep the bit tricks simple. A good habit for Minimum Spanning Trees is to sort the edges once and reuse the order when testing variations.

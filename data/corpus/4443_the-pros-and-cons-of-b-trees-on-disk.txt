@@ -1,0 +1,15 @@
+The Pros and Cons of B-Trees on Disk
+
+No technology is free of trade-offs, and B-Trees on Disk is no exception. Here is an honest summary.
+
+Advantages:
+- Supports database indexes
+- Makes file system directories easier
+- Helps with range scans
+
+Drawbacks and risks:
+- Risk: random writes on fragmented pages
+- Risk: oversized keys
+- Risk: ignoring page fill factor
+
+Weigh the two lists against your own project. If the advantages match your needs, such as database indexes, and you can manage the risks, B-Trees on Disk is a sound choice. Whatever you decide, keep indexed keys short so more of them fit on a page.

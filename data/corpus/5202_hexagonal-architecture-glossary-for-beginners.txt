@@ -1,0 +1,12 @@
+Hexagonal Architecture Glossary for Beginners
+
+New words can make Hexagonal Architecture feel harder than it is. This glossary keeps the key ones in one place.
+
+Hexagonal Architecture: a design that keeps core logic separate from outside systems through ports and adapters.
+ports: a core term, most visible in testable business logic.
+adapters: a core term that beginners often confuse with the core domain.
+the core domain: a core term that connects to dependency direction.
+dependency direction: a core term worth revisiting after you try a real example.
+Spring: a tool commonly used for swapping databases.
+
+Come back to this Hexagonal Architecture list whenever documentation for FastAPI uses a word you do not recognize.

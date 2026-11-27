@@ -1,0 +1,11 @@
+Configuration Management in Real Projects
+
+Reading about Configuration Management is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: separating development and production. Here, environment variables drives the main design choices, and the team needs to guard against committing secrets.
+
+Scenario two: toggling features. This time config files matters most, and tools such as dotenv help keep things manageable.
+
+Scenario three: deploying the same build everywhere. The key idea is defaults, and the biggest risk is inconsistent defaults.
+
+Across all three scenarios, Configuration Management stays the same idea: keeping application settings separate from code so they can change per environment. Only the details change.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Command Line Productivity
+
+Everyone learns Command Line Productivity partly through mistakes. Here are three worth avoiding.
+
+Mistake one: copying commands without understanding them. It usually appears when someone skips aliases and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: dangerous wildcard use. It tends to be noticed late, often during testing of automating repetitive tasks. A short checklist during review catches it early.
+
+Mistake three: undocumented scripts. It is easy to miss because everything seems to work at first. Keep an eye on scripts to spot it.
+
+If you remember only one rule, make it this: turn commands you repeat into small scripts.

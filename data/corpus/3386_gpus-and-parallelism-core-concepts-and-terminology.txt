@@ -1,0 +1,10 @@
+GPUs and Parallelism: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about GPUs and Parallelism with confidence. The subject itself is processors with thousands of small cores that handle many similar calculations at once.
+
+threads and blocks: one of the building blocks of GPUs and Parallelism. Mixing it up with neighboring terms is a common source of confusion.
+kernels: one of the building blocks of GPUs and Parallelism. Documentation for CUDA usually mentions it early.
+memory transfers: one of the building blocks of GPUs and Parallelism. It shows up whenever you work on training neural networks.
+SIMD: one of the building blocks of GPUs and Parallelism. Documentation for CUDA usually mentions it early.
+
+Practice using these four terms in sentences about rendering graphics. If the sentences feel natural, the vocabulary has stuck.

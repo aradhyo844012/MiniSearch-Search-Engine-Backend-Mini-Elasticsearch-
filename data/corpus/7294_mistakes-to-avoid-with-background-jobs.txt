@@ -1,0 +1,11 @@
+Mistakes to Avoid with Background Jobs
+
+Everyone learns Background Jobs partly through mistakes. Here are three worth avoiding.
+
+Mistake one: jobs that are not idempotent. It usually appears when someone skips queues and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: unbounded retries. It tends to be noticed late, often during testing of sending emails. A short checklist during review catches it early.
+
+Mistake three: losing jobs on restarts. It is easy to miss because everything seems to work at first. Keep an eye on scheduling to spot it.
+
+If you remember only one rule, make it this: give every job a timeout and a retry limit.

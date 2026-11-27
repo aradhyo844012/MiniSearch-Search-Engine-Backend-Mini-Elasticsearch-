@@ -1,0 +1,11 @@
+Practice Exercises for Raft Consensus
+
+These exercises build real understanding of Raft Consensus. Do them in order, and write down your answers.
+
+Exercise 1: List three situations from your own experience that resemble configuration stores or distributed locks.
+Exercise 2: Explain how terms and majority quorum differ, using a drawing.
+Exercise 3: Write a short paragraph describing Raft Consensus and include the term leader election.
+Exercise 4: Create a small example that deliberately triggers this problem: even-sized clusters. Then fix it.
+Exercise 5: Compare Consul and HashiCorp Raft library for replicated state machines and write down your conclusion.
+
+When you finish, compare your answers with the definition: Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations.

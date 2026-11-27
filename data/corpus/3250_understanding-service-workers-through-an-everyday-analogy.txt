@@ -1,0 +1,9 @@
+Understanding Service Workers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a receptionist who answers common requests before they reach the manager.
+
+In that picture, registration is the first rule you follow, install and activate events is the next step, and cache storage and fetch handlers keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Service Workers is scripts that run in the background of a browser and intercept network requests, and it involves details such as caching stale files forever that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Workbox to learn the exact behavior. The same picture helps when you explain offline support to a friend.

@@ -1,0 +1,13 @@
+Embeddings Explained Simply
+
+Here is Embeddings without the jargon: it is lists of numbers that represent words, images or items so that similar things sit close together.
+
+Think of Embeddings as coordinates on a map where similar places are close together. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: vectors, cosine similarity, dimensionality, and nearest neighbor search. You do not need to master them all at once. Start with vectors, then add cosine similarity.
+
+People reach for Embeddings when they work on semantic search, recommendations, and clustering text.
+
+One practical tip is to use the same embedding model for indexing and querying.
+
+After Embeddings, a natural next topic is Convolutional Neural Networks.

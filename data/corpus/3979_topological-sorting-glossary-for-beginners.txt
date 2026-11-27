@@ -1,0 +1,12 @@
+Topological Sorting Glossary for Beginners
+
+New words can make Topological Sorting feel harder than it is. This glossary keeps the key ones in one place.
+
+Topological Sorting: an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+directed acyclic graphs: a core term, most visible in build systems.
+in-degree counts: a core term that beginners often confuse with Kahn's algorithm.
+Kahn's algorithm: a core term that connects to cycle detection.
+cycle detection: a core term worth revisiting after you try a real example.
+Python graphlib: a tool commonly used for course prerequisite planning.
+
+Come back to this Topological Sorting list whenever documentation for NetworkX uses a word you do not recognize.

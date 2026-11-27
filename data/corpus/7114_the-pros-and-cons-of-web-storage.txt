@@ -1,0 +1,15 @@
+The Pros and Cons of Web Storage
+
+No technology is free of trade-offs, and Web Storage is no exception. Here is an honest summary.
+
+Advantages:
+- Supports saving user preferences
+- Makes remembering form drafts easier
+- Helps with caching small API results
+
+Drawbacks and risks:
+- Risk: storing sensitive data
+- Risk: assuming storage is always available
+- Risk: hitting size limits
+
+Weigh the two lists against your own project. If the advantages match your needs, such as saving user preferences, and you can manage the risks, Web Storage is a sound choice. Whatever you decide, wrap every read and write in error handling.

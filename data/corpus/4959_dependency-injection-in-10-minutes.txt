@@ -1,0 +1,15 @@
+Dependency Injection in 10 Minutes
+
+You have ten minutes, so here is the fast route through Dependency Injection.
+
+Minutes 1 and 2, the definition: Dependency Injection is a design approach where objects receive their dependencies instead of creating them.
+
+Minutes 3 and 4, the vocabulary: learn constructor injection, interfaces, containers, and inversion of control.
+
+Minutes 5 and 6, the picture: imagine a chef who is handed ingredients instead of shopping for them. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through easier unit testing, swapping implementations, and configuring services.
+
+Minutes 9 and 10, the traps and the tools: watch for hiding too much behind containers and circular dependencies, then try Spring for a first experiment.
+
+If you have a spare minute, remember to inject interfaces so tests can use simple fakes.

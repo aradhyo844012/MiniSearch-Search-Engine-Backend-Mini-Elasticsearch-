@@ -1,0 +1,9 @@
+Understanding Memory Hierarchy Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a kitchen with a spice rack, a pantry and a warehouse.
+
+In that picture, registers is the first rule you follow, cache is the next step, and main memory and disk keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Memory Hierarchy is the layers of storage from registers to disks, trading speed for size, and it involves details such as ignoring locality that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for lscpu to learn the exact behavior. The same picture helps when you explain designing efficient programs to a friend.

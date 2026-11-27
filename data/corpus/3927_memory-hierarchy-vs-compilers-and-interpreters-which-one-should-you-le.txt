@@ -1,0 +1,13 @@
+Memory Hierarchy vs Compilers and Interpreters: Which One Should You Learn First?
+
+Learners often ask whether to study Memory Hierarchy or Compilers and Interpreters first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Memory Hierarchy is the layers of storage from registers to disks, trading speed for size, and it is closely tied to registers and cache. Compilers and Interpreters, by contrast, is programs that translate or run source code written in a high-level language, and it is closely tied to lexing and parsing.
+
+Choose Memory Hierarchy first if you care about designing efficient programs or explaining slow I/O. Choose Compilers and Interpreters first if you care about running Python and JavaScript or building native programs.
+
+Think of Memory Hierarchy as a kitchen with a spice rack, a pantry and a warehouse, and of Compilers and Interpreters as a translator who either translates a whole book first or interprets sentence by sentence. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Memory Hierarchy, avoid ignoring locality. With Compilers and Interpreters, avoid assuming interpreted means slow without measuring.
+
+A good habit for Memory Hierarchy is to reduce how often your program goes down to the slower layers. A good habit for Compilers and Interpreters is to turn on compiler warnings and treat them seriously.

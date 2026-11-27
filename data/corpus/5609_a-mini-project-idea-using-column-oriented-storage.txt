@@ -1,0 +1,16 @@
+A Mini Project Idea Using Column-Oriented Storage
+
+A small project is the fastest way to make Column-Oriented Storage stick. This one takes a weekend and needs only a laptop.
+
+The goal is to build a tiny program or demo that shows Column-Oriented Storage at work on analytics dashboards. Keep the scope small enough to finish.
+
+Milestones:
+1. Read about column chunks and compression.
+2. Set up Apache Parquet and run a hello-world example.
+3. Add the core feature.
+4. Handle one failure case, such as slow single-row lookups.
+5. Write a short README explaining what you learned.
+
+Stretch goals: extend the demo to cover large aggregations, or compare ClickHouse with DuckDB.
+
+Finish by recording what surprised you. Writing it down is how knowledge about Column-Oriented Storage turns into something you can show others.

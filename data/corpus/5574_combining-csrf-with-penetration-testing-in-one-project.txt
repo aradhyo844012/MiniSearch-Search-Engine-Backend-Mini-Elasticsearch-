@@ -1,0 +1,15 @@
+Combining CSRF with Penetration Testing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CSRF and Penetration Testing can work together in a single project.
+
+CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site. Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do.
+
+Imagine a project that involves protecting forms and pre-launch security checks. CSRF brings session cookies, while Penetration Testing brings scoping.
+
+A sensible plan is to start with Django CSRF middleware for the CSRF part and OWASP ZAP for the Penetration Testing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: skipping tokens on cookie-based APIs on one side, and ignoring the findings afterward on the other.
+
+Picture the whole as a forged letter that a bank clerk stamps because your ID is already on file, working alongside hiring a locksmith to test your doors.
+
+Two habits help: first, combine SameSite cookies with anti-CSRF tokens; second, get written authorization before any test.

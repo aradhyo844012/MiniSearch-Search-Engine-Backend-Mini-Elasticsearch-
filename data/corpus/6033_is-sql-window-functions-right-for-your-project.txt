@@ -1,0 +1,11 @@
+Is SQL Window Functions Right for Your Project?
+
+Before adopting SQL Window Functions, ask whether it fits the problem. Remember that SQL Window Functions is SQL features that calculate values across related rows without collapsing them.
+
+It is a good fit when your work involves running totals or ranking rows, and when your team understands the OVER clause.
+
+Be cautious when the project is very small, when deadlines leave no room to learn partitions, or when you cannot manage these risks: forgetting ORDER BY inside the window, confusing them with GROUP BY, and slow sorts on huge partitions.
+
+A simple decision test: write down the problem in one sentence, then check whether ordering and frames are part of the answer. If they are, SQL Window Functions is probably worth a closer look.
+
+If you decide to go ahead, start small with comparing a row with the previous one and start with ROW_NUMBER and LAG on a small table.

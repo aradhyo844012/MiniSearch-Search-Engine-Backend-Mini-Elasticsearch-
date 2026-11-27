@@ -1,0 +1,17 @@
+Load Testing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Load Testing.
+
+Learning goals:
+1. Explain Load Testing in your own words.
+2. Describe virtual users, throughput, latency percentiles, and ramp-up.
+3. Give examples from capacity planning and finding bottlenecks.
+4. Name three problems to watch for.
+
+Start with the definition: Load Testing is measuring how a system behaves under expected and heavy traffic. Then draw a stress test that fills a stadium to see how the exits cope on paper and label the four terms from the goals above.
+
+Self-test questions: Why is testing unrealistic traffic a problem? How does throughput relate to latency percentiles? When would you choose k6 or Locust?
+
+Study habit worth keeping: report p95 and p99 latency, not only averages.
+
+When you feel ready, compare Load Testing with Chaos Engineering and write down three differences.

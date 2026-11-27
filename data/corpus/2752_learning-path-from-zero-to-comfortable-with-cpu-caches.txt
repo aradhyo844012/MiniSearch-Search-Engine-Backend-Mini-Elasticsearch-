@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with CPU Caches
+
+This path is for a learner who has never studied CPU Caches before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (CPU Caches is small, fast memory close to the processor that stores recently used data) and learn cache lines and hit and miss rates.
+
+Stage 2, hands-on: install perf, follow a tutorial, and build a small example involving speeding up loops.
+
+Stage 3, depth: study levels L1 to L3 and locality, then deliberately explore this problem: false sharing.
+
+Stage 4, application: apply CPU Caches to explaining performance differences, compare Valgrind cachegrind with Intel VTune, and write up your results.
+
+Stage 5, review: teach CPU Caches to someone else, and then move on to Instruction Pipelines.

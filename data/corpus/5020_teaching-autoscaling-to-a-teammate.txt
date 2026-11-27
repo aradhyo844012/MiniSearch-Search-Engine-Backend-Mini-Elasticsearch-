@@ -1,0 +1,13 @@
+Teaching Autoscaling to a Teammate
+
+Explaining Autoscaling to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a restaurant opening extra tables when a crowd arrives. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Autoscaling is automatically adding or removing computing resources as demand changes. Avoid jargon at this stage.
+
+Walk through an example involving handling traffic spikes, naming scaling metrics and cooldown periods as they come up.
+
+Ask your teammate to explain minimum and maximum limits in Autoscaling back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, scaling too slowly, and suggest this habit: load test the system to find realistic thresholds.

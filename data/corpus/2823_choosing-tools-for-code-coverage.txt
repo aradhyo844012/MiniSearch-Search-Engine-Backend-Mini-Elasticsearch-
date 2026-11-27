@@ -1,0 +1,11 @@
+Choosing Tools for Code Coverage
+
+There is no single best tool for Code Coverage. The right choice depends on your project, your team and your timeline.
+
+coverage.py is a common first choice, especially for finding untested code. JaCoCo suits teams that already work with similar technology, and Istanbul is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle setting quality gates well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: chasing 100 percent.
+
+As a rule of thumb, use coverage to find gaps, not to judge quality, no matter which tool you use.

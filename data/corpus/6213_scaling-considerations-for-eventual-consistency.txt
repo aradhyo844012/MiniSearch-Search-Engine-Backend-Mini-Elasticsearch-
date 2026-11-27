@@ -1,0 +1,11 @@
+Scaling Considerations for Eventual Consistency
+
+A design that works for a classroom project can behave very differently under real load. Here is how Eventual Consistency changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding replication delay and getting global social feeds right.
+
+Medium scale: problems start to appear. Watch for assuming reads are always fresh and unresolved write conflicts, and measure with Amazon DynamoDB before changing anything.
+
+Large scale: read-your-writes and convergence move from background details to central design questions. Teams often revisit their choices around shopping cart services at this stage.
+
+Before you scale, decide up front how your app handles stale reads. It is cheaper to build that habit early than to fix a crisis later.

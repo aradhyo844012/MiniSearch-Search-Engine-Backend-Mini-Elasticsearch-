@@ -1,0 +1,13 @@
+Interrupts Explained Simply
+
+Here is Interrupts without the jargon: it is signals that make a processor pause its work to handle an urgent event.
+
+Think of Interrupts as a phone call interrupting your reading. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: interrupt handlers, interrupt vectors, priorities, and context saving. You do not need to master them all at once. Start with interrupt handlers, then add interrupt vectors.
+
+You will meet Interrupts in work such as keyboard and mouse input, timers, and network packets arriving.
+
+One practical tip is to keep interrupt handlers short and defer the heavy work.
+
+Once Interrupts feels comfortable, read about Compilers and Interpreters, which lives in the same neighborhood of ideas.

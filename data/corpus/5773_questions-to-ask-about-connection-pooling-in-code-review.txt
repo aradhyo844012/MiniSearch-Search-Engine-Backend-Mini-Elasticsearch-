@@ -1,0 +1,12 @@
+Questions to Ask About Connection Pooling in Code Review
+
+Reviewing code that involves Connection Pooling is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of web backends correctly?
+- Is idle connections clear to someone reading the code for the first time?
+- Have we considered pools larger than the database allows?
+- Would a test catch leaked connections if it appeared later?
+- Could we always return connections in a finally block?
+- Have we avoided this problem: long transactions that hold connections?
+
+Good reviews of work on Connection Pooling are specific, kind and focused on timeouts, not on personal style.

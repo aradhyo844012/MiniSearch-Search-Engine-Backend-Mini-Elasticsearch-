@@ -1,0 +1,15 @@
+The Pros and Cons of Memory Hierarchy
+
+No technology is free of trade-offs, and Memory Hierarchy is no exception. Here is an honest summary.
+
+Advantages:
+- Supports designing efficient programs
+- Makes explaining slow I/O easier
+- Helps with choosing data structures
+
+Drawbacks and risks:
+- Risk: ignoring locality
+- Risk: excessive paging
+- Risk: treating all memory accesses as equal
+
+Weigh the two lists against your own project. If the advantages match your needs, such as designing efficient programs, and you can manage the risks, Memory Hierarchy is a sound choice. Whatever you decide, reduce how often your program goes down to the slower layers.

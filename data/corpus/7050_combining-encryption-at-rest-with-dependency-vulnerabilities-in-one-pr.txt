@@ -1,0 +1,15 @@
+Combining Encryption at Rest with Dependency Vulnerabilities in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Encryption at Rest and Dependency Vulnerabilities can work together in a single project.
+
+Encryption at Rest is protecting stored data by encrypting it on disk or in a database. Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+Imagine a project that involves protecting backups and auditing projects. Encryption at Rest brings symmetric keys, while Dependency Vulnerabilities brings CVE identifiers.
+
+A sensible plan is to start with LUKS for the Encryption at Rest part and Dependabot for the Dependency Vulnerabilities part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no key rotation on one side, and never updating on the other.
+
+Picture the whole as a locked safe inside a locked room, working alongside checking every ingredient supplier for recalls.
+
+Two habits help: first, keep keys in a separate service from the data; second, automate update pull requests.

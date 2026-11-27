@@ -1,0 +1,15 @@
+Combining GraphQL with API Versioning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how GraphQL and API Versioning can work together in a single project.
+
+GraphQL is a query language for APIs that lets clients ask for exactly the fields they need. API Versioning is the practice of evolving an API without breaking existing clients.
+
+Imagine a project that involves mobile apps with limited bandwidth and public APIs. GraphQL brings schema, while API Versioning brings version in the URL.
+
+A sensible plan is to start with Apollo for the GraphQL part and OpenAPI for the API Versioning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded query depth on one side, and removing fields without notice on the other.
+
+Picture the whole as ordering a la carte instead of picking a fixed set menu, working alongside keeping old editions of a textbook available while a new one is published.
+
+Two habits help: first, use a data loader to avoid N+1 queries; second, announce deprecations with a clear sunset date.

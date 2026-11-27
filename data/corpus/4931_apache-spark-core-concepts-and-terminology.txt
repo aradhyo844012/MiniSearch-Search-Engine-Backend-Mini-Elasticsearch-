@@ -1,0 +1,10 @@
+Apache Spark: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Apache Spark with confidence. The subject itself is a distributed engine for processing large datasets across many machines.
+
+DataFrames: one of the building blocks of Apache Spark. You should be able to explain it in a single sentence before moving on.
+transformations and actions: one of the building blocks of Apache Spark. It shows up whenever you work on large ETL jobs.
+partitions: one of the building blocks of Apache Spark. Documentation for PySpark usually mentions it early.
+lazy execution: one of the building blocks of Apache Spark. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about machine learning on big data. If the sentences feel natural, the vocabulary has stuck.

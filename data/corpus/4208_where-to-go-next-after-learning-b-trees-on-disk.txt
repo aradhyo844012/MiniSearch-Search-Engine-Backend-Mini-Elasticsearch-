@@ -1,0 +1,11 @@
+Where to Go Next After Learning B-Trees on Disk
+
+You have met the basics of B-Trees on Disk. Here is how to keep the momentum going.
+
+Go wider: read about Eventual Consistency, which belongs to the same area as B-Trees on Disk (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of pages, branching factor, node splits or sorted keys, and study it until you can explain it to a beginner.
+
+Go practical: build something around file system directories with PostgreSQL, and note every problem you meet, starting with random writes on fragmented pages.
+
+Go social: share what you learned. Explaining B-Trees on Disk to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

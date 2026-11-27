@@ -1,0 +1,13 @@
+Teaching K-Means Clustering to a Teammate
+
+Explaining K-Means Clustering to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: dividing students into study groups around the most central member. Ask your teammate what the picture suggests.
+
+Then give the plain definition: K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points. Avoid jargon at this stage.
+
+Walk through an example involving customer segmentation, naming centroids and distance measures as they come up.
+
+Ask your teammate to explain choosing k in K-Means Clustering back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, choosing k blindly, and suggest this habit: scale features before clustering.

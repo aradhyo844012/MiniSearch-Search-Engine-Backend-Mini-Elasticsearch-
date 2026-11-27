@@ -1,0 +1,13 @@
+Penetration Testing vs Security Headers: Which One Should You Learn First?
+
+Learners often ask whether to study Penetration Testing or Security Headers first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do, and it is closely tied to scoping and reconnaissance. Security Headers, by contrast, is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options.
+
+Choose Penetration Testing first if you care about pre-launch security checks or compliance audits. Choose Security Headers first if you care about hardening websites or reducing clickjacking.
+
+Think of Penetration Testing as hiring a locksmith to test your doors, and of Security Headers as safety instructions printed on the packaging of every page. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Penetration Testing, avoid testing without written permission. With Security Headers, avoid setting headers on only some routes.
+
+A good habit for Penetration Testing is to get written authorization before any test. A good habit for Security Headers is to test the headers on every environment.

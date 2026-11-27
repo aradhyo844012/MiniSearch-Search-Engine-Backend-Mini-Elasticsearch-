@@ -1,0 +1,17 @@
+Java Streams for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Java Streams.
+
+Learning goals:
+1. Explain Java Streams in your own words.
+2. Describe map, filter, reduce, and lazy evaluation.
+3. Give examples from transforming lists and aggregating records.
+4. Name three problems to watch for.
+
+Start with the definition: Java Streams is a way of processing collections with chains of declarative operations. Then draw a conveyor belt where each station changes the item before passing it on on paper and label the four terms from the goals above.
+
+Self-test questions: Why is reusing a consumed stream a problem? How does filter relate to reduce? When would you choose OpenJDK or IntelliJ IDEA?
+
+Study habit: keep each stream step small and readable.
+
+When you feel ready, compare Java Streams with Go Goroutines and write down three differences.

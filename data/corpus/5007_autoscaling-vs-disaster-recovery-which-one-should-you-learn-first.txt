@@ -1,0 +1,13 @@
+Autoscaling vs Disaster Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Autoscaling or Disaster Recovery first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Autoscaling is automatically adding or removing computing resources as demand changes, and it is closely tied to scaling metrics and cooldown periods. Disaster Recovery, by contrast, is the plans and systems that restore services after major failures, and it is closely tied to recovery time objective and recovery point objective.
+
+Choose Autoscaling first if you care about handling traffic spikes or saving money overnight. Choose Disaster Recovery first if you care about surviving regional outages or meeting compliance needs.
+
+Think of Autoscaling as a restaurant opening extra tables when a crowd arrives, and of Disaster Recovery as a fire drill for a whole system. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Autoscaling, avoid scaling too slowly. With Disaster Recovery, avoid untested plans.
+
+A good habit for Autoscaling is to load test the system to find realistic thresholds. A good habit for Disaster Recovery is to run a failover exercise on a regular schedule.

@@ -1,0 +1,10 @@
+Database Backups and Recovery: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Database Backups and Recovery with confidence. The subject itself is the practice of copying data regularly so that it can be restored after failures.
+
+full and incremental backups: one of the building blocks of Database Backups and Recovery. It shows up whenever you work on recovering deleted tables.
+recovery point objective: one of the building blocks of Database Backups and Recovery. It shows up whenever you work on recovering deleted tables.
+recovery time objective: one of the building blocks of Database Backups and Recovery. It shows up whenever you work on recovering deleted tables.
+restore testing: one of the building blocks of Database Backups and Recovery. Documentation for pg_dump usually mentions it early.
+
+Practice using these four terms in sentences about migrating servers. If the sentences feel natural, the vocabulary has stuck.

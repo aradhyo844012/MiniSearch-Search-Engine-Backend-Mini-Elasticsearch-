@@ -1,0 +1,11 @@
+Mistakes to Avoid with Service Mesh
+
+Everyone learns Service Mesh partly through mistakes. Here are three worth avoiding.
+
+Mistake one: added latency and complexity. It usually appears when someone skips sidecar proxies and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: adopting it too early. It tends to be noticed late, often during testing of securing service traffic. A short checklist during review catches it early.
+
+Mistake three: hard-to-debug proxy configs. It is easy to miss because everything seems to work at first. Keep an eye on observability to spot it.
+
+If you remember only one rule, make it this: adopt it only once the number of services makes manual setup painful.

@@ -1,0 +1,15 @@
+Autoscaling Quick Reference
+
+A one-screen reminder for Autoscaling. Bookmark it and return when the details fade.
+
+What it is: automatically adding or removing computing resources as demand changes.
+Key terms: scaling metrics, cooldown periods, minimum and maximum limits, and horizontal scaling.
+Typical uses: handling traffic spikes, saving money overnight, and keeping latency steady.
+Risks: scaling too slowly, flapping because of short spikes, and ignoring database limits.
+Tools: Kubernetes HPA, AWS Auto Scaling, and KEDA.
+
+Mental picture: a restaurant opening extra tables when a crowd arrives.
+
+Habit to build: load test the system to find realistic thresholds.
+
+See also: Feature Flags, which sits close to Autoscaling in the area of DevOps and Cloud.

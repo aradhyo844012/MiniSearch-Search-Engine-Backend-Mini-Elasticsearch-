@@ -1,0 +1,13 @@
+Client-Side Routing vs Internationalization: Which One Should You Learn First?
+
+Learners often ask whether to study Client-Side Routing or Internationalization first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Client-Side Routing is changing the visible page in the browser without a full page reload, and it is closely tied to history API and route matching. Internationalization, by contrast, is designing software so it can be adapted to different languages and regions, and it is closely tied to locale detection and translation files.
+
+Choose Client-Side Routing first if you care about single-page apps or dashboards. Choose Internationalization first if you care about global products or multi-language websites.
+
+Think of Client-Side Routing as swapping the picture in a frame without replacing the frame, and of Internationalization as a stage set where the backdrop can be swapped for each audience. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Client-Side Routing, avoid broken deep links. With Internationalization, avoid hard-coded strings.
+
+A good habit for Client-Side Routing is to test refreshing the page on every route. A good habit for Internationalization is to move every user-facing string into translation files from the first day.

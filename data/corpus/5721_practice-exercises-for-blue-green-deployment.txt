@@ -1,0 +1,11 @@
+Practice Exercises for Blue-Green Deployment
+
+These exercises build real understanding of Blue-Green Deployment. Do them in order, and write down your answers.
+
+Exercise 1: Compare Kubernetes services and NGINX for testing in production-like settings and write down your conclusion.
+Exercise 2: Pick AWS CodeDeploy and complete its getting-started tutorial.
+Exercise 3: Create a small example that deliberately triggers this problem: database schema mismatches. Then fix it.
+Exercise 4: Write a short paragraph describing Blue-Green Deployment and include the term blue and green environments.
+Exercise 5: Explain how rollback and database compatibility differ, using a drawing.
+
+When you finish, compare your answers with the definition: Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one.

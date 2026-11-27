@@ -1,0 +1,13 @@
+Convolutional Neural Networks vs Retrieval-Augmented Generation: Which One Should You Learn First?
+
+Learners often ask whether to study Convolutional Neural Networks or Retrieval-Augmented Generation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns, and it is closely tied to filters and pooling. Retrieval-Augmented Generation, by contrast, is a technique that gives a language model relevant documents to read before it answers, and it is closely tied to retrieval and chunking.
+
+Choose Convolutional Neural Networks first if you care about image classification or medical image analysis. Choose Retrieval-Augmented Generation first if you care about company knowledge assistants or question answering over documents.
+
+Think of Convolutional Neural Networks as a magnifying glass sweeping across a photo looking for edges and shapes, and of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Convolutional Neural Networks, avoid too little training data. With Retrieval-Augmented Generation, avoid poor chunking.
+
+A good habit for Convolutional Neural Networks is to start from a pretrained model. A good habit for Retrieval-Augmented Generation is to evaluate retrieval quality separately from answer quality.

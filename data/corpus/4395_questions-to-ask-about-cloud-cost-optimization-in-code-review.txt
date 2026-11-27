@@ -1,0 +1,12 @@
+Questions to Ask About Cloud Cost Optimization in Code Review
+
+Reviewing code that involves Cloud Cost Optimization is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch over-provisioned databases if it appeared later?
+- Is AWS Cost Explorer used consistently, or are we mixing approaches?
+- Have we avoided this problem: surprise data transfer charges?
+- Could we tag every resource with an owner?
+- Does the code handle the case of cutting idle resources correctly?
+- Does this change respect right-sizing, or does it work around it?
+
+Good reviews of work on Cloud Cost Optimization are specific, kind and focused on tagging, not on personal style.

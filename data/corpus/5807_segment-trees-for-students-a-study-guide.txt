@@ -1,0 +1,17 @@
+Segment Trees for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Segment Trees.
+
+Learning goals:
+1. Explain Segment Trees in your own words.
+2. Describe tree nodes covering ranges, range queries, point updates, and lazy propagation.
+3. Give examples from range sum queries and finding minimums in a window.
+4. Name three problems to watch for.
+
+Start with the definition: Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time. Then draw a tournament bracket that remembers the winner of every group of players on paper and label the four terms from the goals above.
+
+Self-test questions: Why is off-by-one errors in ranges a problem? How does range queries relate to point updates? When would you choose C++ arrays or Python lists?
+
+Study habit worth keeping: test your tree against a slow brute-force version on small inputs.
+
+When you feel ready, compare Segment Trees with Backtracking and write down three differences.

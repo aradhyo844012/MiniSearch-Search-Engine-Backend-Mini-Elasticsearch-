@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Write-Ahead Logging
+
+This path is for a learner who has never studied Write-Ahead Logging before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data) and learn log records and checkpoints.
+
+Stage 2, hands-on: install PostgreSQL WAL, follow a tutorial, and build a small example involving surviving crashes.
+
+Stage 3, depth: study crash recovery and fsync, then deliberately explore this problem: disabling fsync for speed.
+
+Stage 4, application: apply Write-Ahead Logging to feeding replication streams, compare SQLite journal with Apache Kafka, and write up your results.
+
+Stage 5, review: teach Write-Ahead Logging to someone else, and then move on to LSM Trees.

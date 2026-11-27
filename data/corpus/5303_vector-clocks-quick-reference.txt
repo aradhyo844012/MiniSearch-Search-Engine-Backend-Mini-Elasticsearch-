@@ -1,0 +1,15 @@
+Vector Clocks Quick Reference
+
+A one-screen reminder for Vector Clocks. Bookmark it and return when the details fade.
+
+What it is: counters that let distributed processes track the order of events without a shared clock.
+Key terms: logical time, per-process counters, the happened-before relation, and conflict detection.
+Typical uses: detecting concurrent edits, replicated databases, and collaborative tools.
+Risks: clocks that grow with many nodes, confusing them with wall-clock time, and never pruning old entries.
+Tools: Riak, the Amazon Dynamo paper, and CRDT libraries.
+
+Mental picture: each person in a group chat keeping a tally of messages seen from everyone.
+
+Habit to build: compare clocks entry by entry to detect true concurrency.
+
+See also: Leader Election, which sits close to Vector Clocks in the area of Distributed Systems.

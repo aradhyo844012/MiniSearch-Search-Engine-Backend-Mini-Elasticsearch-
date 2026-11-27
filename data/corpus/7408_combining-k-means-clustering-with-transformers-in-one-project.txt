@@ -1,0 +1,15 @@
+Combining K-Means Clustering with Transformers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how K-Means Clustering and Transformers can work together in a single project.
+
+K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points. Transformers is neural network architectures that use attention to relate all parts of an input to each other.
+
+Imagine a project that involves customer segmentation and language translation. K-Means Clustering brings centroids, while Transformers brings self-attention.
+
+A sensible plan is to start with scikit-learn for the K-Means Clustering part and Hugging Face for the Transformers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unscaled features on one side, and limited context windows on the other.
+
+Picture the whole as dividing students into study groups around the most central member, working alongside a reader who can look back at any word of a paragraph while reading each new word.
+
+Two habits help: first, scale features before clustering; second, begin with small pretrained models.

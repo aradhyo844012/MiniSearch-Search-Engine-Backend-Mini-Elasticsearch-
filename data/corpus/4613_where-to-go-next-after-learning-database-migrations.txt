@@ -1,0 +1,11 @@
+Where to Go Next After Learning Database Migrations
+
+You have met the basics of Database Migrations. Here is how to keep the momentum going.
+
+Go wider: read about B-Trees on Disk, which belongs to the same area as Database Migrations (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of up and down scripts, version tables, backward compatibility or zero-downtime changes, and study it until you can explain it to a beginner.
+
+Go practical: build something around renaming tables with Alembic, and note every problem you meet, starting with locking large tables.
+
+Go social: share what you learned. Explaining Database Migrations to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

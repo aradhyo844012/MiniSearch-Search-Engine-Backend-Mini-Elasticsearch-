@@ -1,0 +1,15 @@
+Combining Convolutional Neural Networks with Data Augmentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Convolutional Neural Networks and Data Augmentation can work together in a single project.
+
+Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns. Data Augmentation is creating modified copies of training data to help models generalize.
+
+Imagine a project that involves image classification and image models. Convolutional Neural Networks brings filters, while Data Augmentation brings transformations.
+
+A sensible plan is to start with PyTorch for the Convolutional Neural Networks part and Albumentations for the Data Augmentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring data augmentation on one side, and augmenting the test set on the other.
+
+Picture the whole as a magnifying glass sweeping across a photo looking for edges and shapes, working alongside practicing a sport in different weather and on different fields.
+
+Two habits help: first, start from a pretrained model; second, augment only the training data.

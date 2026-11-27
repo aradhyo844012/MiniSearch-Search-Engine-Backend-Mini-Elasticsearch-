@@ -1,0 +1,13 @@
+Teaching Modular Monoliths to a Teammate
+
+Explaining Modular Monoliths to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an apartment building with separate flats under one roof. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Modular Monoliths is single deployable applications built from well-separated internal modules. Avoid jargon at this stage.
+
+Walk through an example involving small teams, naming module boundaries and public interfaces as they come up.
+
+Ask your teammate to explain shared database rules in Modular Monoliths back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, modules reaching into each other's tables, and suggest this habit: enforce boundaries with automated checks.

@@ -1,0 +1,11 @@
+Raspberry Pi Tips from Experienced Engineers
+
+Engineers who work with Raspberry Pi regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of home automation early, before the design hardens.
+2. Make sure you can use a quality power supply and a reliable memory card.
+3. Be careful with this one: SD card corruption.
+4. Reach for Raspberry Pi OS first, and only then evaluate alternatives such as Python GPIO libraries.
+5. Do not skip GPIO pins; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to learning Linux as well.

@@ -1,0 +1,17 @@
+Raft Consensus Do's and Don'ts
+
+A quick list of habits for working with Raft Consensus.
+
+Do:
+- Learn leader election before anything else.
+- Try etcd on a small example.
+- Make it a habit to use an odd number of nodes.
+- Test the case of configuration stores early.
+
+Don't:
+- Ignore this: even-sized clusters.
+- Ignore this: slow disks causing elections.
+- Ignore this: network delays above election timeouts.
+- Adopt Raft Consensus just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Raft Consensus, a little patience with log replication pays off more than any clever shortcut.

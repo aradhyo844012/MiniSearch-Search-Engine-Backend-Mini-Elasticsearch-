@@ -1,0 +1,15 @@
+Combining Threat Modeling with Dependency Vulnerabilities in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Threat Modeling and Dependency Vulnerabilities can work together in a single project.
+
+Threat Modeling is a structured way of identifying what could go wrong in a system and how to prevent it. Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+Imagine a project that involves designing new features and auditing projects. Threat Modeling brings assets, while Dependency Vulnerabilities brings CVE identifiers.
+
+A sensible plan is to start with STRIDE for the Threat Modeling part and Dependabot for the Dependency Vulnerabilities part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring data flows on one side, and never updating on the other.
+
+Picture the whole as walking around a house asking where a burglar might get in, working alongside checking every ingredient supplier for recalls.
+
+Two habits help: first, draw the data flow diagram first; second, automate update pull requests.

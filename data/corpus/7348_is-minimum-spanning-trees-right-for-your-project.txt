@@ -1,0 +1,11 @@
+Is Minimum Spanning Trees Right for Your Project?
+
+Before adopting Minimum Spanning Trees, ask whether it fits the problem. Remember that Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight.
+
+It is a good fit when your work involves designing cable networks or clustering data, and when your team understands weighted graphs.
+
+Be cautious when the project is very small, when deadlines leave no room to learn Kruskal's algorithm, or when you cannot manage these risks: using it on directed graphs, forgetting that the graph must be connected, and treating ties as errors.
+
+A simple decision test: write down the problem in one sentence, then check whether Prim's algorithm and the cut property are part of the answer. If they are, Minimum Spanning Trees is probably worth a closer look.
+
+If you decide to go ahead, start small with reducing infrastructure cost and sort the edges once and reuse the order when testing variations.

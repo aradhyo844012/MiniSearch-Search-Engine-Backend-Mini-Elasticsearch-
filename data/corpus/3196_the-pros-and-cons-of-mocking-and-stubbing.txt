@@ -1,0 +1,15 @@
+The Pros and Cons of Mocking and Stubbing
+
+No technology is free of trade-offs, and Mocking and Stubbing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports isolating units
+- Makes simulating failures easier
+- Helps with avoiding network calls
+
+Drawbacks and risks:
+- Risk: over-mocking
+- Risk: tests that mirror the implementation
+- Risk: mocks that drift from reality
+
+Weigh the two lists against your own project. If the advantages match your needs, such as isolating units, and you can manage the risks, Mocking and Stubbing is a sound choice. Whatever you decide, prefer simple fakes over deep mock chains.

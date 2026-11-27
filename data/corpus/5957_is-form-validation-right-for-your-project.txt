@@ -1,0 +1,11 @@
+Is Form Validation Right for Your Project?
+
+Before adopting Form Validation, ask whether it fits the problem. Remember that Form Validation is checking user input for correctness before it is accepted.
+
+It is a good fit when your work involves sign-up forms or payment pages, and when your team understands client-side checks.
+
+Be cautious when the project is very small, when deadlines leave no room to learn server-side checks, or when you cannot manage these risks: validating only on the client, vague error messages, and rejecting valid but unusual input.
+
+A simple decision test: write down the problem in one sentence, then check whether error messages and constraint attributes are part of the answer. If they are, Form Validation is probably worth a closer look.
+
+If you decide to go ahead, start small with search filters and validate on the server even when the browser checks too.

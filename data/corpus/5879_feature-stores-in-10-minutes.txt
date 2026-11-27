@@ -1,0 +1,15 @@
+Feature Stores in 10 Minutes
+
+You have ten minutes, so here is the fast route through Feature Stores.
+
+Minutes 1 and 2, the definition: Feature Stores is systems that store and serve the input variables used by machine learning models.
+
+Minutes 3 and 4, the vocabulary: learn offline store, online store, point-in-time correctness, and feature definitions.
+
+Minutes 5 and 6, the picture: imagine a shared pantry of prepared ingredients for many recipes. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through sharing features across models, serving real-time predictions, and avoiding training-serving skew.
+
+Minutes 9 and 10, the traps and the tools: watch for leaking future data and duplicate definitions, then try Feast for a first experiment.
+
+If you have a spare minute, remember to define each feature once and reuse it in training and serving.

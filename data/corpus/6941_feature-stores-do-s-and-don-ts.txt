@@ -1,0 +1,17 @@
+Feature Stores Do's and Don'ts
+
+A quick list of habits for working with Feature Stores.
+
+Do:
+- Learn offline store before anything else.
+- Try Feast on a small example.
+- Make it a habit to define each feature once and reuse it in training and serving.
+- Test the case of sharing features across models early.
+
+Don't:
+- Ignore this: leaking future data.
+- Ignore this: duplicate definitions.
+- Ignore this: stale online values.
+- Adopt Feature Stores just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Feature Stores, a little patience with online store pays off more than any clever shortcut.

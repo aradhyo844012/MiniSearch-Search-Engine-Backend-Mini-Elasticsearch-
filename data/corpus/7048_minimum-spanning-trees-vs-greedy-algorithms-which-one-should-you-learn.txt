@@ -1,0 +1,13 @@
+Minimum Spanning Trees vs Greedy Algorithms: Which One Should You Learn First?
+
+Learners often ask whether to study Minimum Spanning Trees or Greedy Algorithms first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight, and it is closely tied to weighted graphs and Kruskal's algorithm. Greedy Algorithms, by contrast, is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure.
+
+Choose Minimum Spanning Trees first if you care about designing cable networks or clustering data. Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding.
+
+Think of Minimum Spanning Trees as laying the cheapest set of roads that still links every town, and of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Minimum Spanning Trees, avoid using it on directed graphs. With Greedy Algorithms, avoid assuming greedy always works.
+
+A good habit for Minimum Spanning Trees is to sort the edges once and reuse the order when testing variations. A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it.

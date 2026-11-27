@@ -1,0 +1,15 @@
+Random Forests in 10 Minutes
+
+You have ten minutes, so here is the fast route through Random Forests.
+
+Minutes 1 and 2, the definition: Random Forests is ensembles of many decision trees whose predictions are combined.
+
+Minutes 3 and 4, the vocabulary: learn bagging, feature randomness, voting, and out-of-bag error.
+
+Minutes 5 and 6, the picture: imagine asking many different experts and taking the majority view. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through tabular predictions, feature importance ranking, and strong baseline models.
+
+Minutes 9 and 10, the traps and the tools: watch for treating importance scores as causes and very large forests being slow, then try scikit-learn for a first experiment.
+
+If you have a spare minute, remember to tune the number of trees only after the basics work.

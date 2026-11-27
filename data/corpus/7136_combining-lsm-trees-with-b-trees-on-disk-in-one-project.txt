@@ -1,0 +1,15 @@
+Combining LSM Trees with B-Trees on Disk in One Project
+
+Real projects rarely use one idea in isolation. This article shows how LSM Trees and B-Trees on Disk can work together in a single project.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently.
+
+Imagine a project that involves write-heavy databases and database indexes. LSM Trees brings memtable, while B-Trees on Disk brings pages.
+
+A sensible plan is to start with RocksDB for the LSM Trees part and PostgreSQL for the B-Trees on Disk part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: compaction stalls on one side, and oversized keys on the other.
+
+Picture the whole as a mail room that sorts incoming letters in batches rather than one by one, working alongside a filing cabinet where each drawer tells you which drawer to open next.
+
+Two habits help: first, watch compaction metrics before blaming the application; second, keep indexed keys short so more of them fit on a page.

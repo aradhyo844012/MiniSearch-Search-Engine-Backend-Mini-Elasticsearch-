@@ -1,0 +1,11 @@
+Why Leader Election Matters for Developers
+
+Developers who understand Leader Election make better decisions, because Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.
+
+Three situations show why it matters. First, database primaries. Second, job schedulers. Third, cluster managers. In each case, a solid grasp of heartbeats and terms or epochs separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: split brain, flapping leaders, and slow failure detection.
+
+You will not need to build everything yourself; ZooKeeper, etcd, and Kubernetes leases cover most needs.
+
+Connect Leader Election with Idempotency to see the bigger picture of Distributed Systems.

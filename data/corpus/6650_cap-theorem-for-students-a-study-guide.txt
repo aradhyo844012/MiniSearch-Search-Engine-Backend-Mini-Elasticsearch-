@@ -1,0 +1,17 @@
+CAP Theorem for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover CAP Theorem.
+
+Learning goals:
+1. Explain CAP Theorem in your own words.
+2. Describe consistency, availability, partition tolerance, and trade-offs.
+3. Give examples from choosing database types and designing multi-region services.
+4. Name three problems to watch for.
+
+Start with the definition: CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once. Then draw a phone tree that must choose between giving old information or staying silent when a line is cut on paper and label the four terms from the goals above.
+
+Self-test questions: Why is treating it as a three-way menu a problem? How does availability relate to partition tolerance? When would you choose Apache Cassandra or etcd?
+
+Study habit worth keeping: ask what your users prefer during a failure: stale answers or errors.
+
+When you feel ready, compare CAP Theorem with Consistent Hashing and write down three differences.

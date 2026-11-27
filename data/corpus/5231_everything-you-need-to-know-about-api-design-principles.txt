@@ -1,0 +1,26 @@
+Everything You Need to Know About API Design Principles
+
+This page collects the essentials about API Design Principles in one place. In short, API Design Principles is guidelines for making APIs consistent, predictable and easy to use.
+
+Core concepts:
+- consistent naming
+- clear errors
+- idempotent operations
+- documentation
+
+Where it is used:
+- public platforms
+- internal service contracts
+- mobile backends
+
+Common problems:
+- leaking internal details
+- inconsistent responses
+- undocumented behavior
+
+Tools to know:
+- OpenAPI
+- Postman
+- Stoplight
+
+Remember this above all: the controls of a car that behave the same in every model is a good way to picture it, and the best habit is to write the documentation before the implementation.

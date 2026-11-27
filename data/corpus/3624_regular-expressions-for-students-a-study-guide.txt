@@ -1,0 +1,17 @@
+Regular Expressions for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Regular Expressions.
+
+Learning goals:
+1. Explain Regular Expressions in your own words.
+2. Describe character classes, quantifiers, groups, and anchors.
+3. Give examples from validating input and searching logs.
+4. Name three problems to watch for.
+
+Start with the definition: Regular Expressions is compact patterns for matching and extracting text. Then draw a stencil that only lets certain shapes of text show through on paper and label the four terms from the goals above.
+
+Self-test questions: Why is catastrophic backtracking a problem? How does quantifiers relate to groups? When would you choose the Python re module or regex101?
+
+Study habit: build patterns in small steps and test each one.
+
+When you feel ready, compare Regular Expressions with Java Streams and write down three differences.

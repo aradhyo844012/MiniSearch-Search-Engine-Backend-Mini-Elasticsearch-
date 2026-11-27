@@ -1,0 +1,11 @@
+TypeScript Generics Tips from Experienced Engineers
+
+Engineers who work with TypeScript Generics regularly tend to repeat the same advice. Here it is.
+
+1. Write down why you chose TypeScript Generics so the next person understands the decision.
+2. Be careful with this one: overusing any.
+3. When something behaves strangely, revisit constraints before anything else.
+4. Reach for tsc first, and only then evaluate alternatives such as the TypeScript Playground.
+5. Do not skip type parameters; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to typed API clients as well.

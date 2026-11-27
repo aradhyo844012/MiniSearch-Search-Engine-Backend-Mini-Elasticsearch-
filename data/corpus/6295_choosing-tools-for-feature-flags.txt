@@ -1,0 +1,11 @@
+Choosing Tools for Feature Flags
+
+There is no single best tool for Feature Flags. The right choice depends on your project, your team and your timeline.
+
+LaunchDarkly is a common first choice, especially for dark launches. Unleash suits teams that already work with similar technology, and OpenFeature is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle A/B tests well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: never removing old flags.
+
+As a rule of thumb, give every flag an owner and a removal date, no matter which tool you use.

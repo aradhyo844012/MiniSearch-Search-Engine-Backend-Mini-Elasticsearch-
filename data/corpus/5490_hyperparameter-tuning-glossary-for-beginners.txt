@@ -1,0 +1,12 @@
+Hyperparameter Tuning Glossary for Beginners
+
+New words can make Hyperparameter Tuning feel harder than it is. This glossary keeps the key ones in one place.
+
+Hyperparameter Tuning: the process of searching for the best settings that control how a model learns.
+search spaces: a core term, most visible in improving model accuracy.
+grid search: a core term that beginners often confuse with random search.
+random search: a core term that connects to validation scores.
+validation scores: a core term worth revisiting after you try a real example.
+Optuna: a tool commonly used for comparing algorithms.
+
+Come back to this Hyperparameter Tuning list whenever documentation for scikit-learn GridSearchCV uses a word you do not recognize.

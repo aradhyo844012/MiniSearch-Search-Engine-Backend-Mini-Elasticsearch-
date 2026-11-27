@@ -1,0 +1,11 @@
+Mistakes to Avoid with Raspberry Pi
+
+Everyone learns Raspberry Pi partly through mistakes. Here are three worth avoiding.
+
+Mistake one: SD card corruption. It usually appears when someone skips GPIO pins and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: inadequate power supplies. It tends to be noticed late, often during testing of home automation. A short checklist during review catches it early.
+
+Mistake three: exposing the device without hardening. It is easy to miss because everything seems to work at first. Keep an eye on headless setup to spot it.
+
+If you remember only one rule, make it this: use a quality power supply and a reliable memory card.

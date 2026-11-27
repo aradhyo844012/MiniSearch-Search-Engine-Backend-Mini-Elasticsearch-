@@ -1,0 +1,15 @@
+Combining Technical Writing with Command Line Productivity in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Technical Writing and Command Line Productivity can work together in a single project.
+
+Technical Writing is explaining technical ideas clearly in writing for a chosen audience. Command Line Productivity is using shell tools and shortcuts to complete tasks faster.
+
+Imagine a project that involves documentation and automating repetitive tasks. Technical Writing brings audience, while Command Line Productivity brings aliases.
+
+A sensible plan is to start with Markdown for the Technical Writing part and bash for the Command Line Productivity part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: burying the main point on one side, and dangerous wildcard use on the other.
+
+Picture the whole as giving directions to a stranger, working alongside learning the shortcuts on a well-used road.
+
+Two habits help: first, state the main point in the first two sentences; second, turn commands you repeat into small scripts.

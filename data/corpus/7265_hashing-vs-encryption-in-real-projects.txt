@@ -1,0 +1,11 @@
+Hashing vs Encryption in Real Projects
+
+Reading about Hashing vs Encryption is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: storing passwords. Here, one-way functions drives the main design choices, and the team needs to guard against encrypting passwords instead of hashing them.
+
+Scenario two: verifying file integrity. This time keys matters most, and tools such as SHA-256 help keep things manageable.
+
+Scenario three: protecting data in transit. The key idea is collision resistance, and the biggest risk is using broken hash functions.
+
+Across all three scenarios, Hashing vs Encryption stays the same idea: the difference between one-way digests and reversible protection of data. Only the details change.

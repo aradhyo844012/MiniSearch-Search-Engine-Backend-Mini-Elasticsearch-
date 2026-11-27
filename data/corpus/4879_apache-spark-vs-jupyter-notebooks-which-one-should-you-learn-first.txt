@@ -1,0 +1,13 @@
+Apache Spark vs Jupyter Notebooks: Which One Should You Learn First?
+
+Learners often ask whether to study Apache Spark or Jupyter Notebooks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Apache Spark is a distributed engine for processing large datasets across many machines, and it is closely tied to DataFrames and transformations and actions. Jupyter Notebooks, by contrast, is interactive documents that combine code, results and notes, and it is closely tied to cells and kernels.
+
+Choose Apache Spark first if you care about large ETL jobs or machine learning on big data. Choose Jupyter Notebooks first if you care about exploring data or teaching and demos.
+
+Think of Apache Spark as a team of workers each processing a share of a huge pile of papers, and of Jupyter Notebooks as a lab notebook that can run its own experiments. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Apache Spark, avoid data skew. With Jupyter Notebooks, avoid running cells out of order.
+
+A good habit for Apache Spark is to avoid collecting large results onto a single machine. A good habit for Jupyter Notebooks is to restart the kernel and run all cells before sharing.

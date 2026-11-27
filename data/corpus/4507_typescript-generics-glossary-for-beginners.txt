@@ -1,0 +1,12 @@
+TypeScript Generics Glossary for Beginners
+
+New words can make TypeScript Generics feel harder than it is. This glossary keeps the key ones in one place.
+
+TypeScript Generics: a feature that lets functions and types work with many types while keeping type safety.
+type parameters: a core term, most visible in reusable utility functions.
+constraints: a core term that beginners often confuse with type inference.
+type inference: a core term that connects to generic interfaces.
+generic interfaces: a core term worth revisiting after you try a real example.
+tsc: a tool commonly used for typed API clients.
+
+Come back to this TypeScript Generics list whenever documentation for the TypeScript Playground uses a word you do not recognize.

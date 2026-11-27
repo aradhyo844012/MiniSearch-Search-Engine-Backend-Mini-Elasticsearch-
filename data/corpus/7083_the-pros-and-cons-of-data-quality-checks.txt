@@ -1,0 +1,15 @@
+The Pros and Cons of Data Quality Checks
+
+No technology is free of trade-offs, and Data Quality Checks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports protecting dashboards
+- Makes validating ingestion easier
+- Helps with catching pipeline bugs
+
+Drawbacks and risks:
+- Risk: alerts nobody reads
+- Risk: checks only at the end of pipelines
+- Risk: no ownership of failures
+
+Weigh the two lists against your own project. If the advantages match your needs, such as protecting dashboards, and you can manage the risks, Data Quality Checks is a sound choice. Whatever you decide, check data as early as it enters the pipeline.

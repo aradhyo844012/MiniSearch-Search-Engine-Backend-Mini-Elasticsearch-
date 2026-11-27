@@ -1,0 +1,12 @@
+Questions to Ask About Debugging Strategies in Code Review
+
+Reviewing code that involves Debugging Strategies is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch guessing without evidence if it appeared later?
+- Is isolating the cause clear to someone reading the code for the first time?
+- Could we change one thing at a time and record the result?
+- Have we avoided this problem: not writing a test afterward?
+- Does this change respect reproducing the bug, or does it work around it?
+- Does the code handle the case of fixing production issues correctly?
+
+Good reviews of work on Debugging Strategies are specific, kind and focused on forming hypotheses, not on personal style.

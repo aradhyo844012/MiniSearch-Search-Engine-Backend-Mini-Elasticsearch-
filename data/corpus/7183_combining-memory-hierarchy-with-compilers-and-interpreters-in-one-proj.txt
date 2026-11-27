@@ -1,0 +1,15 @@
+Combining Memory Hierarchy with Compilers and Interpreters in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Memory Hierarchy and Compilers and Interpreters can work together in a single project.
+
+Memory Hierarchy is the layers of storage from registers to disks, trading speed for size. Compilers and Interpreters is programs that translate or run source code written in a high-level language.
+
+Imagine a project that involves designing efficient programs and running Python and JavaScript. Memory Hierarchy brings registers, while Compilers and Interpreters brings lexing.
+
+A sensible plan is to start with lscpu for the Memory Hierarchy part and GCC for the Compilers and Interpreters part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: excessive paging on one side, and ignoring compiler warnings on the other.
+
+Picture the whole as a kitchen with a spice rack, a pantry and a warehouse, working alongside a translator who either translates a whole book first or interprets sentence by sentence.
+
+Two habits help: first, reduce how often your program goes down to the slower layers; second, turn on compiler warnings and treat them seriously.

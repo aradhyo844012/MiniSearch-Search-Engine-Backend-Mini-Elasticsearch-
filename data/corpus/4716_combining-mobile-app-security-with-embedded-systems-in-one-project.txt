@@ -1,0 +1,15 @@
+Combining Mobile App Security with Embedded Systems in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Mobile App Security and Embedded Systems can work together in a single project.
+
+Mobile App Security is practices that protect mobile apps and their data from attacks. Embedded Systems is computers built into devices to perform dedicated tasks within tight limits.
+
+Imagine a project that involves banking apps and appliances. Mobile App Security brings secure storage, while Embedded Systems brings microcontrollers.
+
+A sensible plan is to start with OWASP MASVS for the Mobile App Security part and C for the Embedded Systems part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: hard-coded API keys on one side, and no plan for updates on the other.
+
+Picture the whole as locking an app's valuables in a hotel safe, working alongside a small brain inside an appliance that only knows one job.
+
+Two habits help: first, store secrets in the platform keychain or keystore; second, plan how firmware updates will be delivered from the start.

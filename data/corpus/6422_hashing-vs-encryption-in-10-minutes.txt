@@ -1,0 +1,15 @@
+Hashing vs Encryption in 10 Minutes
+
+You have ten minutes, so here is the fast route through Hashing vs Encryption.
+
+Minutes 1 and 2, the definition: Hashing vs Encryption is the difference between one-way digests and reversible protection of data.
+
+Minutes 3 and 4, the vocabulary: learn one-way functions, keys, collision resistance, and reversibility.
+
+Minutes 5 and 6, the picture: imagine a paper shredder compared with a locked suitcase. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through storing passwords, verifying file integrity, and protecting data in transit.
+
+Minutes 9 and 10, the traps and the tools: watch for encrypting passwords instead of hashing them and using broken hash functions, then try SHA-256 for a first experiment.
+
+If you have a spare minute, remember to ask whether you will ever need the original value back.

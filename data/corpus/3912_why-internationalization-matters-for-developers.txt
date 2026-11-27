@@ -1,0 +1,11 @@
+Why Internationalization Matters for Developers
+
+Developers who understand Internationalization make better decisions, because Internationalization is designing software so it can be adapted to different languages and regions.
+
+Three situations show why it matters. First, global products. Second, multi-language websites. Third, regional pricing. In each case, a solid grasp of locale detection and translation files separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: hard-coded strings, text that overflows layouts, and assuming left-to-right text.
+
+Good tools exist, including i18next, the Intl API, and Crowdin, so you rarely have to start from nothing.
+
+Connect Internationalization with CSS Variables to see the bigger picture of Frontend Engineering.

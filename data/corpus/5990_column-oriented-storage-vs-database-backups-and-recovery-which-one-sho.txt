@@ -1,0 +1,13 @@
+Column-Oriented Storage vs Database Backups and Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Column-Oriented Storage or Database Backups and Recovery first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics, and it is closely tied to column chunks and compression. Database Backups and Recovery, by contrast, is the practice of copying data regularly so that it can be restored after failures, and it is closely tied to full and incremental backups and recovery point objective.
+
+Choose Column-Oriented Storage first if you care about analytics dashboards or large aggregations. Choose Database Backups and Recovery first if you care about recovering deleted tables or migrating servers.
+
+Think of Column-Oriented Storage as a spreadsheet kept as separate lists per column so you can read just one, and of Database Backups and Recovery as a spare house key kept at a trusted neighbor's home. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Column-Oriented Storage, avoid slow single-row lookups. With Database Backups and Recovery, avoid never testing restores.
+
+A good habit for Column-Oriented Storage is to select only the columns you really need. A good habit for Database Backups and Recovery is to schedule a restore drill on a regular basis.

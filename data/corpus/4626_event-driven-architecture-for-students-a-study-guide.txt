@@ -1,0 +1,17 @@
+Event-Driven Architecture for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Event-Driven Architecture.
+
+Learning goals:
+1. Explain Event-Driven Architecture in your own words.
+2. Describe producers and consumers, event brokers, loose coupling, and asynchronous handling.
+3. Give examples from order pipelines and real-time notifications.
+4. Name three problems to watch for.
+
+Start with the definition: Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them. Then draw a notice board where people post news and others react when they see it on paper and label the four terms from the goals above.
+
+Self-test questions: Why is hard-to-trace flows a problem? How does event brokers relate to loose coupling? When would you choose Apache Kafka or RabbitMQ?
+
+Study habit: document every event name and schema.
+
+When you feel ready, compare Event-Driven Architecture with Test-Driven Development and write down three differences.

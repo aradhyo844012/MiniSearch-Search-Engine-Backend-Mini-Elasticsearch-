@@ -1,0 +1,11 @@
+Scaling Considerations for API Design Principles
+
+A design that works for a classroom project can behave very differently under real load. Here is how API Design Principles changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding consistent naming and getting public platforms right.
+
+Medium scale: problems start to appear. Watch for leaking internal details and inconsistent responses, and measure with OpenAPI before changing anything.
+
+Large scale: idempotent operations and documentation move from background details to central design questions. Teams often revisit their choices around internal service contracts at this stage.
+
+Before you scale, write the documentation before the implementation. It is cheaper to build that habit early than to fix a crisis later.

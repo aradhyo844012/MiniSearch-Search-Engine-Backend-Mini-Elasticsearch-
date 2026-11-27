@@ -1,0 +1,11 @@
+Choosing Tools for Encryption at Rest
+
+There is no single best tool for Encryption at Rest. The right choice depends on your project, your team and your timeline.
+
+LUKS is a common first choice, especially for protecting backups. AWS KMS suits teams that already work with similar technology, and BitLocker is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle meeting compliance rules well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: storing keys next to the data.
+
+As a rule of thumb, keep keys in a separate service from the data, no matter which tool you use.

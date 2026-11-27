@@ -1,0 +1,13 @@
+Skills to Build Around Column-Oriented Storage
+
+Knowing the definition of Column-Oriented Storage is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with column chunks and compression, and able to explain them without notes.
+
+Hands-on practice: spend real time with Apache Parquet on a Column-Oriented Storage task, and try at least one alternative such as ClickHouse.
+
+Judgment: learn to decide when Column-Oriented Storage fits a problem such as analytics dashboards, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a spreadsheet kept as separate lists per column so you can read just one.
+
+Habits: select only the columns you really need, and write down what you learn after each project.

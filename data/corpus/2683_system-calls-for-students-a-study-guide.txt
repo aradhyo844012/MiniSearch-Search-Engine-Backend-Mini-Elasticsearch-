@@ -1,0 +1,17 @@
+System Calls for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover System Calls.
+
+Learning goals:
+1. Explain System Calls in your own words.
+2. Describe user mode and kernel mode, syscall numbers, file descriptors, and libc wrappers.
+3. Give examples from reading and writing files and creating processes.
+4. Name three problems to watch for.
+
+Start with the definition: System Calls is the controlled doorway through which programs ask the operating system to do privileged work. Then draw a service window where a customer asks staff to do things in the back office on paper and label the four terms from the goals above.
+
+Self-test questions: Why is ignoring error codes a problem? How does syscall numbers relate to file descriptors? When would you choose strace or man pages?
+
+Study habit worth keeping: use strace to see what your program really asks the kernel to do.
+
+When you feel ready, compare System Calls with Endianness and write down three differences.

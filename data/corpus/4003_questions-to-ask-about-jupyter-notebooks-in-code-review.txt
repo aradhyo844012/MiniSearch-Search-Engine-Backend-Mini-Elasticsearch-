@@ -1,0 +1,12 @@
+Questions to Ask About Jupyter Notebooks in Code Review
+
+Reviewing code that involves Jupyter Notebooks is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is JupyterLab used consistently, or are we mixing approaches?
+- Is kernels clear to someone reading the code for the first time?
+- Could we restart the kernel and run all cells before sharing?
+- Have we avoided this problem: committing outputs that contain secrets?
+- Would a test catch hidden state if it appeared later?
+- Does the code handle the case of exploring data correctly?
+
+Good reviews of work on Jupyter Notebooks are specific, kind and focused on markdown, not on personal style.

@@ -1,0 +1,17 @@
+Idempotency for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Idempotency.
+
+Learning goals:
+1. Explain Idempotency in your own words.
+2. Describe idempotency keys, safe retries, deduplication, and at-least-once delivery.
+3. Give examples from payment APIs and message processing.
+4. Name three problems to watch for.
+
+Start with the definition: Idempotency is the property that repeating an operation gives the same result as doing it once. Then draw pressing an elevator call button many times and still getting one elevator on paper and label the four terms from the goals above.
+
+Self-test questions: Why is keys that expire too soon a problem? How does safe retries relate to deduplication? When would you choose Stripe idempotency keys or Redis?
+
+Study habit worth keeping: store the result with the key so retries return the same response.
+
+When you feel ready, compare Idempotency with Saga Pattern and write down three differences.

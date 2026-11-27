@@ -1,0 +1,13 @@
+Teaching Feature Flags to a Teammate
+
+Explaining Feature Flags to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: light switches wired to every room of a house. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Feature Flags is switches in configuration that turn features on or off without redeploying code. Avoid jargon at this stage.
+
+Walk through an example involving dark launches, naming flag evaluation and targeting rules as they come up.
+
+Ask your teammate to explain gradual rollout in Feature Flags back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, never removing old flags, and suggest this habit: give every flag an owner and a removal date.

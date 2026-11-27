@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with MQTT
+
+This path is for a learner who has never studied MQTT before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (MQTT is a lightweight messaging protocol designed for small devices and unreliable networks) and learn publish and subscribe and topics.
+
+Stage 2, hands-on: install Mosquitto, follow a tutorial, and build a small example involving sensor networks.
+
+Stage 3, depth: study brokers and quality of service levels, then deliberately explore this problem: unsecured brokers.
+
+Stage 4, application: apply MQTT to smart home devices, compare paho-mqtt with MQTT Explorer, and write up your results.
+
+Stage 5, review: teach MQTT to someone else, and then move on to Push Notifications.

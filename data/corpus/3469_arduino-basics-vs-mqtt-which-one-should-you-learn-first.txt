@@ -1,0 +1,13 @@
+Arduino Basics vs MQTT: Which One Should You Learn First?
+
+Learners often ask whether to study Arduino Basics or MQTT first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Arduino Basics is a beginner-friendly microcontroller platform for reading sensors and controlling devices, and it is closely tied to sketches and digital and analog pins. MQTT, by contrast, is a lightweight messaging protocol designed for small devices and unreliable networks, and it is closely tied to publish and subscribe and topics.
+
+Choose Arduino Basics first if you care about reading sensors or driving motors and LEDs. Choose MQTT first if you care about sensor networks or smart home devices.
+
+Think of Arduino Basics as a tiny brain that watches inputs and flips switches, and of MQTT as a radio station with channels that devices can tune into. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Arduino Basics, avoid wiring errors. With MQTT, avoid unsecured brokers.
+
+A good habit for Arduino Basics is to test each sensor on its own before combining them. A good habit for MQTT is to design topic names like a clear folder structure.

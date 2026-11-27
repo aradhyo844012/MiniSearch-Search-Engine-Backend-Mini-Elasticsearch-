@@ -1,0 +1,11 @@
+Support Vector Machines in Real Projects
+
+Reading about Support Vector Machines is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: text classification. Here, margin drives the main design choices, and the team needs to guard against slow training on large data.
+
+Scenario two: small high-dimensional datasets. This time support vectors matters most, and tools such as scikit-learn help keep things manageable.
+
+Scenario three: image recognition baselines. The key idea is kernels, and the biggest risk is poor kernel choices.
+
+Across all three scenarios, Support Vector Machines stays the same idea: models that classify data by finding the boundary with the widest margin between classes. Only the details change.

@@ -1,0 +1,11 @@
+Is TypeScript Generics Right for Your Project?
+
+Before adopting TypeScript Generics, ask whether it fits the problem. Remember that TypeScript Generics is a feature that lets functions and types work with many types while keeping type safety.
+
+It is a good fit when your work involves reusable utility functions or typed API clients, and when your team understands type parameters.
+
+Be cautious when the project is very small, when deadlines leave no room to learn constraints, or when you cannot manage these risks: overusing any, overly complex generic types, and forgetting constraints.
+
+A simple decision test: write down the problem in one sentence, then check whether type inference and generic interfaces are part of the answer. If they are, TypeScript Generics is probably worth a closer look.
+
+If you decide to go ahead, start small with data containers and add constraints so that error messages become clearer.

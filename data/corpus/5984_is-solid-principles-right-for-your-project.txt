@@ -1,0 +1,11 @@
+Is SOLID Principles Right for Your Project?
+
+Before adopting SOLID Principles, ask whether it fits the problem. Remember that SOLID Principles is five guidelines for designing object-oriented code that is easy to change.
+
+It is a good fit when your work involves structuring classes or reviewing designs, and when your team understands single responsibility.
+
+Be cautious when the project is very small, when deadlines leave no room to learn the open-closed principle, or when you cannot manage these risks: applying them rigidly to tiny scripts, creating too many tiny classes, and confusing interfaces with inheritance.
+
+A simple decision test: write down the problem in one sentence, then check whether Liskov substitution and dependency inversion are part of the answer. If they are, SOLID Principles is probably worth a closer look.
+
+If you decide to go ahead, start small with reducing coupling and apply them when a design starts to hurt, not before.

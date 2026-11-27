@@ -1,0 +1,13 @@
+Support Vector Machines vs Data Augmentation: Which One Should You Learn First?
+
+Learners often ask whether to study Support Vector Machines or Data Augmentation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Support Vector Machines is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors. Data Augmentation, by contrast, is creating modified copies of training data to help models generalize, and it is closely tied to transformations and label preservation.
+
+Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets. Choose Data Augmentation first if you care about image models or text classification.
+
+Think of Support Vector Machines as drawing the widest road between two neighborhoods, and of Data Augmentation as practicing a sport in different weather and on different fields. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Support Vector Machines, avoid slow training on large data. With Data Augmentation, avoid changes that alter the label.
+
+A good habit for Support Vector Machines is to scale features and try a linear kernel first. A good habit for Data Augmentation is to augment only the training data.

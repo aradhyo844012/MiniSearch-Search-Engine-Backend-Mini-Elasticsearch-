@@ -1,0 +1,13 @@
+Service Workers Explained Simply
+
+Here is Service Workers without the jargon: it is scripts that run in the background of a browser and intercept network requests.
+
+Think of Service Workers as a receptionist who answers common requests before they reach the manager. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: registration, install and activate events, cache storage, and fetch handlers. You do not need to master them all at once. Start with registration, then add install and activate events.
+
+People reach for Service Workers when they work on offline support, faster repeat visits, and push notifications.
+
+One practical tip is to version your caches so old files can be removed.
+
+Once Service Workers feels comfortable, read about Client-Side Routing, which lives in the same neighborhood of ideas.

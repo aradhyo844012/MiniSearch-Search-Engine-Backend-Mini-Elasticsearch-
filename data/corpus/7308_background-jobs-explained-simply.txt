@@ -1,0 +1,13 @@
+Background Jobs Explained Simply
+
+Here is Background Jobs without the jargon: it is tasks that run outside the request cycle so users do not have to wait for them.
+
+Think of Background Jobs as dropping laundry at a service and collecting it later. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: queues, workers, retries, and scheduling. You do not need to master them all at once. Start with queues, then add workers.
+
+People reach for Background Jobs when they work on sending emails, resizing images, and generating reports.
+
+One practical tip is to give every job a timeout and a retry limit.
+
+Once Background Jobs feels comfortable, read about API Versioning, which lives in the same neighborhood of ideas.

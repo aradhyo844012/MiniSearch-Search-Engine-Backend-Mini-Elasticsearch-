@@ -1,0 +1,12 @@
+Autoscaling Glossary for Beginners
+
+New words can make Autoscaling feel harder than it is. This glossary keeps the key ones in one place.
+
+Autoscaling: automatically adding or removing computing resources as demand changes.
+scaling metrics: a core term, most visible in handling traffic spikes.
+cooldown periods: a core term that beginners often confuse with minimum and maximum limits.
+minimum and maximum limits: a core term that connects to horizontal scaling.
+horizontal scaling: a core term worth revisiting after you try a real example.
+Kubernetes HPA: a tool commonly used for saving money overnight.
+
+Come back to this Autoscaling list whenever documentation for AWS Auto Scaling uses a word you do not recognize.

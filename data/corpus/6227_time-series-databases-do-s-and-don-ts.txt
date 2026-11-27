@@ -1,0 +1,17 @@
+Time-Series Databases Do's and Don'ts
+
+A quick list of habits for working with Time-Series Databases.
+
+Do:
+- Learn timestamps before anything else.
+- Try InfluxDB on a small example.
+- Make it a habit to include a time range in every query.
+- Test the case of server metrics early.
+
+Don't:
+- Ignore this: high-cardinality tags.
+- Ignore this: keeping raw data forever.
+- Ignore this: querying without time bounds.
+- Adopt Time-Series Databases just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Time-Series Databases, a little patience with retention policies pays off more than any clever shortcut.

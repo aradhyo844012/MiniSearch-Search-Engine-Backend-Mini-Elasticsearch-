@@ -1,0 +1,17 @@
+Saga Pattern Do's and Don'ts
+
+A quick list of habits for working with Saga Pattern.
+
+Do:
+- Learn local transactions before anything else.
+- Try Temporal on a small example.
+- Make it a habit to make every step and its compensation idempotent.
+- Test the case of order processing early.
+
+Don't:
+- Ignore this: missing compensations.
+- Ignore this: steps that are not idempotent.
+- Ignore this: flows that are hard to trace.
+- Adopt Saga Pattern just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Saga Pattern, a little patience with compensating actions pays off more than any clever shortcut.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with End-to-End Testing
+
+Everyone learns End-to-End Testing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: flaky tests. It usually appears when someone skips browser automation and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: slow runs. It tends to be noticed late, often during testing of checking login and checkout flows. A short checklist during review catches it early.
+
+Mistake three: brittle selectors. It is easy to miss because everything seems to work at first. Keep an eye on selectors to spot it.
+
+If you remember only one rule, make it this: cover only the most important user journeys.

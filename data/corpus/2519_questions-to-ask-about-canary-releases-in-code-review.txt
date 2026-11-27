@@ -1,0 +1,12 @@
+Questions to Ask About Canary Releases in Code Review
+
+Reviewing code that involves Canary Releases is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Argo Rollouts used consistently, or are we mixing approaches?
+- Is health metrics clear to someone reading the code for the first time?
+- Have we considered too little traffic to reveal problems?
+- Does the code handle the case of safer releases correctly?
+- Would a test catch no clear success metrics if it appeared later?
+- Does this change respect traffic percentages, or does it work around it?
+
+Good reviews of work on Canary Releases are specific, kind and focused on automatic rollback, not on personal style.

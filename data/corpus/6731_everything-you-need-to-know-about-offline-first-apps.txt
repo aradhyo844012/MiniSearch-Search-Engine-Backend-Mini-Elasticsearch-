@@ -1,0 +1,26 @@
+Everything You Need to Know About Offline-First Apps
+
+This page collects the essentials about Offline-First Apps in one place. In short, Offline-First Apps is apps designed to work without a network and sync when a connection returns.
+
+Core concepts:
+- local storage
+- sync queues
+- conflict resolution
+- optimistic updates
+
+Where it is used:
+- field service tools
+- note-taking apps
+- apps for low-connectivity regions
+
+Common problems:
+- unresolved sync conflicts
+- unbounded local data
+- poor feedback about pending changes
+
+Tools to know:
+- SQLite
+- PouchDB
+- Room
+
+Remember this above all: writing in a notebook and mailing the pages later is a good way to picture it, and the best habit is to show users which changes have not synced yet.

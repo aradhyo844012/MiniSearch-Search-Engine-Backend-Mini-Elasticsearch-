@@ -1,0 +1,9 @@
+Understanding Greedy Algorithms Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture picking the closest open parking spot at every junction and hoping it works out.
+
+In that picture, greedy choice property is the first rule you follow, optimal substructure is the next step, and exchange arguments and local versus global optimum keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Greedy Algorithms is algorithms that build a solution by always taking the locally best choice, and it involves details such as assuming greedy always works that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for pen and paper proofs to learn the exact behavior. The same picture helps when you explain interval scheduling to a friend.

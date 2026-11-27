@@ -1,0 +1,17 @@
+CSRF Do's and Don'ts
+
+A quick list of habits for working with CSRF.
+
+Do:
+- Learn session cookies before anything else.
+- Try Django CSRF middleware on a small example.
+- Make it a habit to combine SameSite cookies with anti-CSRF tokens.
+- Test the case of protecting forms early.
+
+Don't:
+- Ignore this: using GET requests for state changes.
+- Ignore this: skipping tokens on cookie-based APIs.
+- Ignore this: misconfigured SameSite settings.
+- Adopt CSRF just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with CSRF, a little patience with anti-CSRF tokens pays off more than any clever shortcut.

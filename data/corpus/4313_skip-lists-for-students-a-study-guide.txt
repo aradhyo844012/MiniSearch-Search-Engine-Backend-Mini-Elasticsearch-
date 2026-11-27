@@ -1,0 +1,17 @@
+Skip Lists for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Skip Lists.
+
+Learning goals:
+1. Explain Skip Lists in your own words.
+2. Describe multiple levels, random level assignment, forward pointers, and expected logarithmic time.
+3. Give examples from ordered in-memory indexes and sorted sets in caches.
+4. Name three problems to watch for.
+
+Start with the definition: Skip Lists is layered linked lists that allow fast searching by skipping over many elements. Then draw an express train line layered over a local train line on paper and label the four terms from the goals above.
+
+Self-test questions: Why is poor random number choices a problem? How does random level assignment relate to forward pointers? When would you choose Redis sorted sets or Java ConcurrentSkipListMap?
+
+Study habit worth keeping: draw several levels by hand to see how a search moves down.
+
+When you feel ready, compare Skip Lists with Two Pointers and Sliding Window and write down three differences.

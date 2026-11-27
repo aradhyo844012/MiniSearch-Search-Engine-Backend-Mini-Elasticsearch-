@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Encryption at Rest
+
+This path is for a learner who has never studied Encryption at Rest before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Encryption at Rest is protecting stored data by encrypting it on disk or in a database) and learn symmetric keys and key management.
+
+Stage 2, hands-on: install LUKS, follow a tutorial, and build a small example involving protecting backups.
+
+Stage 3, depth: study disk encryption and envelope encryption, then deliberately explore this problem: storing keys next to the data.
+
+Stage 4, application: apply Encryption at Rest to meeting compliance rules, compare AWS KMS with BitLocker, and write up your results.
+
+Stage 5, review: teach Encryption at Rest to someone else, and then move on to Hashing vs Encryption.

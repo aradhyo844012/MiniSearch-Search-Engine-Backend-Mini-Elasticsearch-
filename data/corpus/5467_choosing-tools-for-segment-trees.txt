@@ -1,0 +1,11 @@
+Choosing Tools for Segment Trees
+
+There is no single best tool for Segment Trees. The right choice depends on your project, your team and your timeline.
+
+C++ arrays is a common first choice, especially for range sum queries. Python lists suits teams that already work with similar technology, and Codeforces problem sets is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle finding minimums in a window well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: off-by-one errors in ranges.
+
+As a rule of thumb, test your tree against a slow brute-force version on small inputs, no matter which tool you use.

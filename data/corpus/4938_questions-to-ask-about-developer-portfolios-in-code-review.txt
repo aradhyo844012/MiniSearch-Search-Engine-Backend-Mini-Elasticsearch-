@@ -1,0 +1,12 @@
+Questions to Ask About Developer Portfolios in Code Review
+
+Reviewing code that involves Developer Portfolios is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch no explanation of decisions if it appeared later?
+- Have we avoided this problem: broken demo links?
+- Does this change respect projects, or does it work around it?
+- Have we considered too many unfinished projects?
+- Is GitHub Pages used consistently, or are we mixing approaches?
+- Is README quality clear to someone reading the code for the first time?
+
+Good reviews of work on Developer Portfolios are specific, kind and focused on live demos, not on personal style.

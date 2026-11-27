@@ -1,0 +1,15 @@
+CSS Variables Quick Reference
+
+A one-screen reminder for CSS Variables. Bookmark it and return when the details fade.
+
+What it is: custom properties that store values such as colors and spacing so they can be reused across styles.
+Key terms: custom properties, the var function, inheritance, and fallback values.
+Typical uses: theme switching, design systems, and spacing scales.
+Risks: missing fallbacks, overriding at the wrong scope, and expecting preprocessor features.
+Tools: browser DevTools, Sass, and PostCSS.
+
+Mental picture: labeled paint buckets you refill once to recolor a whole house.
+
+Habit to build: define theme values on the root element.
+
+See also: Client-Side Routing, which sits close to CSS Variables in the area of Frontend Engineering.

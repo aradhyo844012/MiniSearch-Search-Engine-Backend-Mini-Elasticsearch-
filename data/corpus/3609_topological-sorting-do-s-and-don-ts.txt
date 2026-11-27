@@ -1,0 +1,17 @@
+Topological Sorting Do's and Don'ts
+
+A quick list of habits for working with Topological Sorting.
+
+Do:
+- Learn directed acyclic graphs before anything else.
+- Try Python graphlib on a small example.
+- Make it a habit to check for cycles first so you can report a clear error.
+- Test the case of build systems early.
+
+Don't:
+- Ignore this: ignoring cycles.
+- Ignore this: assuming the order is unique.
+- Ignore this: mixing up edge directions.
+- Adopt Topological Sorting just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Topological Sorting, a little patience with in-degree counts pays off more than any clever shortcut.

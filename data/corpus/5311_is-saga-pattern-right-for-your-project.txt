@@ -1,0 +1,11 @@
+Is Saga Pattern Right for Your Project?
+
+Before adopting Saga Pattern, ask whether it fits the problem. Remember that Saga Pattern is a way of managing long business operations across services using a sequence of local steps and compensating actions.
+
+It is a good fit when your work involves order processing or travel bookings, and when your team understands local transactions.
+
+Be cautious when the project is very small, when deadlines leave no room to learn compensating actions, or when you cannot manage these risks: missing compensations, steps that are not idempotent, and flows that are hard to trace.
+
+A simple decision test: write down the problem in one sentence, then check whether orchestration and choreography are part of the answer. If they are, Saga Pattern is probably worth a closer look.
+
+If you decide to go ahead, start small with payment workflows and make every step and its compensation idempotent.

@@ -1,0 +1,12 @@
+Load Testing Glossary for Beginners
+
+New words can make Load Testing feel harder than it is. This glossary keeps the key ones in one place.
+
+Load Testing: measuring how a system behaves under expected and heavy traffic.
+virtual users: a core term, most visible in capacity planning.
+throughput: a core term that beginners often confuse with latency percentiles.
+latency percentiles: a core term that connects to ramp-up.
+ramp-up: a core term worth revisiting after you try a real example.
+k6: a tool commonly used for finding bottlenecks.
+
+Come back to this Load Testing list whenever documentation for Locust uses a word you do not recognize.

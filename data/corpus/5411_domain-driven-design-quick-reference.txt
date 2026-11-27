@@ -1,0 +1,15 @@
+Domain-Driven Design Quick Reference
+
+A one-screen reminder for Domain-Driven Design. Bookmark it and return when the details fade.
+
+What it is: an approach to software that models the code around the real business domain.
+Key terms: ubiquitous language, bounded contexts, aggregates, and entities and value objects.
+Typical uses: complex business systems, aligning developers with domain experts, and splitting large systems.
+Risks: using it for simple CRUD apps, models that never match the business, and ignoring context boundaries.
+Tools: event storming, UML, and Miro.
+
+Mental picture: writing software in the same vocabulary the business speaks.
+
+Habit to build: agree on shared terms with domain experts before drawing classes.
+
+See also: Hexagonal Architecture, which sits close to Domain-Driven Design in the area of Software Design.

@@ -1,0 +1,13 @@
+Fenwick Trees vs Skip Lists: Which One Should You Learn First?
+
+Learners often ask whether to study Fenwick Trees or Skip Lists first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates, and it is closely tied to binary indexed trees and lowest set bit. Skip Lists, by contrast, is layered linked lists that allow fast searching by skipping over many elements, and it is closely tied to multiple levels and random level assignment.
+
+Choose Fenwick Trees first if you care about counting inversions or maintaining running totals. Choose Skip Lists first if you care about ordered in-memory indexes or sorted sets in caches.
+
+Think of Fenwick Trees as a set of running subtotals where each one covers a block of entries, and of Skip Lists as an express train line layered over a local train line. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Fenwick Trees, avoid using zero-based indexes by mistake. With Skip Lists, avoid poor random number choices.
+
+A good habit for Fenwick Trees is to start indexing from one to keep the bit tricks simple. A good habit for Skip Lists is to draw several levels by hand to see how a search moves down.

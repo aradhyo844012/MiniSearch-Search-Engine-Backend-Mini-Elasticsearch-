@@ -1,0 +1,15 @@
+Combining Data Lakes with Feature Stores in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Lakes and Feature Stores can work together in a single project.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed. Feature Stores is systems that store and serve the input variables used by machine learning models.
+
+Imagine a project that involves storing logs and events and sharing features across models. Data Lakes brings raw storage, while Feature Stores brings offline store.
+
+A sensible plan is to start with Amazon S3 for the Data Lakes part and Feast for the Feature Stores part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no catalog or ownership on one side, and duplicate definitions on the other.
+
+Picture the whole as a big reservoir where water from many rivers is stored before treatment, working alongside a shared pantry of prepared ingredients for many recipes.
+
+Two habits help: first, register every dataset in a catalog with an owner; second, define each feature once and reuse it in training and serving.

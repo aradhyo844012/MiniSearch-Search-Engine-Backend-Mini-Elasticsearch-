@@ -1,0 +1,13 @@
+TypeScript Generics Explained Simply
+
+Here is TypeScript Generics without the jargon: it is a feature that lets functions and types work with many types while keeping type safety.
+
+Think of TypeScript Generics as a labeled box whose label type is filled in when you use it. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: type parameters, constraints, type inference, and generic interfaces. You do not need to master them all at once. Start with type parameters, then add constraints.
+
+You will meet TypeScript Generics in work such as reusable utility functions, typed API clients, and data containers.
+
+One practical tip is to add constraints so that error messages become clearer.
+
+Once TypeScript Generics feels comfortable, read about Python Asyncio, which lives in the same neighborhood of ideas.

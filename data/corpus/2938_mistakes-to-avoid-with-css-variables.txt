@@ -1,0 +1,11 @@
+Mistakes to Avoid with CSS Variables
+
+Everyone learns CSS Variables partly through mistakes. Here are three worth avoiding.
+
+Mistake one: missing fallbacks. It usually appears when someone skips custom properties and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: overriding at the wrong scope. It tends to be noticed late, often during testing of theme switching. A short checklist during review catches it early.
+
+Mistake three: expecting preprocessor features. It is easy to miss because everything seems to work at first. Keep an eye on fallback values to spot it.
+
+If you remember only one rule, make it this: define theme values on the root element.

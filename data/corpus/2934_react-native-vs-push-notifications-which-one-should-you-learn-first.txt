@@ -1,0 +1,13 @@
+React Native vs Push Notifications: Which One Should You Learn First?
+
+Learners often ask whether to study React Native or Push Notifications first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+React Native is a framework for building mobile apps for several platforms using JavaScript and React, and it is closely tied to components and native modules. Push Notifications, by contrast, is messages sent to a user's device from a server even when the app is closed, and it is closely tied to device tokens and push services.
+
+Choose React Native first if you care about cross-platform apps or rapid prototypes. Choose Push Notifications first if you care about order updates or chat alerts.
+
+Think of React Native as one script performed by actors on two different stages, and of Push Notifications as a courier who knocks on your door when a package arrives. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With React Native, avoid heavy re-renders. With Push Notifications, avoid asking for permission too early.
+
+A good habit for React Native is to test on real devices for both platforms. A good habit for Push Notifications is to ask for permission at a moment when the user understands the value.

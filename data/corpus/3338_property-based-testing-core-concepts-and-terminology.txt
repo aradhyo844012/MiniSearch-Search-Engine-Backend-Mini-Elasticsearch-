@@ -1,0 +1,10 @@
+Property-Based Testing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Property-Based Testing with confidence. The subject itself is testing with many automatically generated inputs to check that general rules always hold.
+
+properties: one of the building blocks of Property-Based Testing. You should be able to explain it in a single sentence before moving on.
+generators: one of the building blocks of Property-Based Testing. It shows up whenever you work on testing parsers.
+shrinking: one of the building blocks of Property-Based Testing. You should be able to explain it in a single sentence before moving on.
+invariants: one of the building blocks of Property-Based Testing. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about checking sorting and math functions. If the sentences feel natural, the vocabulary has stuck.

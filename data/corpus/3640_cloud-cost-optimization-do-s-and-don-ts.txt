@@ -1,0 +1,17 @@
+Cloud Cost Optimization Do's and Don'ts
+
+A quick list of habits for working with Cloud Cost Optimization.
+
+Do:
+- Learn right-sizing before anything else.
+- Try AWS Cost Explorer on a small example.
+- Make it a habit to tag every resource with an owner.
+- Test the case of cutting idle resources early.
+
+Don't:
+- Ignore this: forgotten test environments.
+- Ignore this: over-provisioned databases.
+- Ignore this: surprise data transfer charges.
+- Adopt Cloud Cost Optimization just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Cloud Cost Optimization, a little patience with reserved capacity pays off more than any clever shortcut.

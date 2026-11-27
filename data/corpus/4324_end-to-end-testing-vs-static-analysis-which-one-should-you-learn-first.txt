@@ -1,0 +1,13 @@
+End-to-End Testing vs Static Analysis: Which One Should You Learn First?
+
+Learners often ask whether to study End-to-End Testing or Static Analysis first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+End-to-End Testing is tests that drive an application through a real user journey from start to finish, and it is closely tied to browser automation and user flows. Static Analysis, by contrast, is automated checking of source code for bugs and style problems without running it, and it is closely tied to linters and type checkers.
+
+Choose End-to-End Testing first if you care about checking login and checkout flows or release verification. Choose Static Analysis first if you care about catching bugs early or enforcing team style.
+
+Think of End-to-End Testing as a test drive of the whole car on a real road, and of Static Analysis as a spell checker for code. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With End-to-End Testing, avoid flaky tests. With Static Analysis, avoid ignoring warnings.
+
+A good habit for End-to-End Testing is to cover only the most important user journeys. A good habit for Static Analysis is to run it in CI so problems never reach the main branch.

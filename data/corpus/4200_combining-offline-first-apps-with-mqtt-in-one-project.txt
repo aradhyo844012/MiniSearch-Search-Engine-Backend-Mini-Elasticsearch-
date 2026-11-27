@@ -1,0 +1,15 @@
+Combining Offline-First Apps with MQTT in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Offline-First Apps and MQTT can work together in a single project.
+
+Offline-First Apps is apps designed to work without a network and sync when a connection returns. MQTT is a lightweight messaging protocol designed for small devices and unreliable networks.
+
+Imagine a project that involves field service tools and sensor networks. Offline-First Apps brings local storage, while MQTT brings publish and subscribe.
+
+A sensible plan is to start with SQLite for the Offline-First Apps part and Mosquitto for the MQTT part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unbounded local data on one side, and messy topic names on the other.
+
+Picture the whole as writing in a notebook and mailing the pages later, working alongside a radio station with channels that devices can tune into.
+
+Two habits help: first, show users which changes have not synced yet; second, design topic names like a clear folder structure.

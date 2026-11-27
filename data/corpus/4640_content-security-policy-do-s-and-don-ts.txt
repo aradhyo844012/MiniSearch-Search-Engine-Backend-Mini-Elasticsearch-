@@ -1,0 +1,17 @@
+Content Security Policy Do's and Don'ts
+
+A quick list of habits for working with Content Security Policy.
+
+Do:
+- Learn directives before anything else.
+- Try browser DevTools on a small example.
+- Make it a habit to start in report-only mode to learn what would break.
+- Test the case of reducing the impact of XSS early.
+
+Don't:
+- Ignore this: allowing unsafe-inline.
+- Ignore this: policies too broad to help.
+- Ignore this: breaking third-party widgets.
+- Adopt Content Security Policy just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Content Security Policy, a little patience with nonces pays off more than any clever shortcut.

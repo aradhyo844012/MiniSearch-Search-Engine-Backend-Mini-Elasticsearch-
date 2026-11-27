@@ -1,0 +1,17 @@
+K-Means Clustering for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover K-Means Clustering.
+
+Learning goals:
+1. Explain K-Means Clustering in your own words.
+2. Describe centroids, distance measures, choosing k, and iterations.
+3. Give examples from customer segmentation and image compression.
+4. Name three problems to watch for.
+
+Start with the definition: K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points. Then draw dividing students into study groups around the most central member on paper and label the four terms from the goals above.
+
+Self-test questions: Why is choosing k blindly a problem? How does distance measures relate to choosing k? When would you choose scikit-learn or NumPy?
+
+Study habit worth keeping: scale features before clustering.
+
+When you feel ready, compare K-Means Clustering with Transformers and write down three differences.

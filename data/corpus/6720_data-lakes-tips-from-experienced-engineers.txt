@@ -1,0 +1,11 @@
+Data Lakes Tips from Experienced Engineers
+
+Engineers who work with Data Lakes regularly tend to repeat the same advice. Here it is.
+
+1. Test the case of storing logs and events early, before the design hardens.
+2. Do not skip raw storage; everything else builds on it.
+3. When something behaves strangely, revisit schema on read before anything else.
+4. Write down why you chose Data Lakes so the next person understands the decision.
+5. Make sure you can register every dataset in a catalog with an owner.
+
+None of these tips needs special equipment, and all of them apply to machine learning datasets as well.

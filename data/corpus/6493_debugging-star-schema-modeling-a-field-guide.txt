@@ -1,0 +1,13 @@
+Debugging Star Schema Modeling: A Field Guide
+
+When something goes wrong around Star Schema Modeling, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mixing different grains, over-normalized dimensions, and missing date dimensions.
+Step 3: revisit fact tables and dimension tables, since misunderstandings there cause many bugs.
+Step 4: use dbt or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Star Schema Modeling in work such as business intelligence reports come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, state the grain of the fact table before designing anything else. It prevents a surprising number of repeat problems.

@@ -1,0 +1,15 @@
+C Pointers Quick Reference
+
+A one-screen reminder for C Pointers. Bookmark it and return when the details fade.
+
+What it is: variables that store the memory address of another value.
+Key terms: addresses, dereferencing, pointer arithmetic, and null pointers.
+Typical uses: dynamic memory allocation, passing large data efficiently, and building linked structures.
+Risks: dereferencing null pointers, memory leaks, and dangling pointers.
+Tools: GCC, Valgrind, and AddressSanitizer.
+
+Mental picture: a street address written on a card instead of the house itself.
+
+Habit to build: set pointers to NULL after freeing them.
+
+See also: Regular Expressions, which sits close to C Pointers in the area of Programming Languages.

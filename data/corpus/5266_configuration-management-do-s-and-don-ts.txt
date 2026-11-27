@@ -1,0 +1,17 @@
+Configuration Management Do's and Don'ts
+
+A quick list of habits for working with Configuration Management.
+
+Do:
+- Learn environment variables before anything else.
+- Try dotenv on a small example.
+- Make it a habit to fail fast at startup if a required setting is missing.
+- Test the case of separating development and production early.
+
+Don't:
+- Ignore this: committing secrets.
+- Ignore this: inconsistent defaults.
+- Ignore this: undocumented settings.
+- Adopt Configuration Management just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Configuration Management, a little patience with config files pays off more than any clever shortcut.

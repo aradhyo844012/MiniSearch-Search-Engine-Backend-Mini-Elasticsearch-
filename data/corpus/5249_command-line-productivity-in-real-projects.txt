@@ -1,0 +1,11 @@
+Command Line Productivity in Real Projects
+
+Reading about Command Line Productivity is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: automating repetitive tasks. Here, aliases drives the main design choices, and the team needs to guard against copying commands without understanding them.
+
+Scenario two: exploring files and logs. This time pipes matters most, and tools such as bash help keep things manageable.
+
+Scenario three: managing servers. The key idea is history search, and the biggest risk is dangerous wildcard use.
+
+Across all three scenarios, Command Line Productivity stays the same idea: using shell tools and shortcuts to complete tasks faster. Only the details change.

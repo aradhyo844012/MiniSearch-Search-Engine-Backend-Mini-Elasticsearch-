@@ -1,0 +1,15 @@
+Combining Random Forests with Data Augmentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Random Forests and Data Augmentation can work together in a single project.
+
+Random Forests is ensembles of many decision trees whose predictions are combined. Data Augmentation is creating modified copies of training data to help models generalize.
+
+Imagine a project that involves tabular predictions and image models. Random Forests brings bagging, while Data Augmentation brings transformations.
+
+A sensible plan is to start with scikit-learn for the Random Forests part and Albumentations for the Data Augmentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: very large forests being slow on one side, and augmenting the test set on the other.
+
+Picture the whole as asking many different experts and taking the majority view, working alongside practicing a sport in different weather and on different fields.
+
+Two habits help: first, tune the number of trees only after the basics work; second, augment only the training data.

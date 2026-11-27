@@ -1,0 +1,11 @@
+Mistakes to Avoid with State Management
+
+Everyone learns State Management partly through mistakes. Here are three worth avoiding.
+
+Mistake one: putting everything in global state. It usually appears when someone skips single source of truth and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: duplicated state that drifts apart. It tends to be noticed late, often during testing of large single-page apps. A short checklist during review catches it early.
+
+Mistake three: unclear update paths. It is easy to miss because everything seems to work at first. Keep an eye on derived state to spot it.
+
+If you remember only one rule, make it this: keep state as close as possible to where it is used.

@@ -1,0 +1,11 @@
+Scaling Considerations for Progressive Web Apps
+
+A design that works for a classroom project can behave very differently under real load. Here is how Progressive Web Apps changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding web app manifest and getting offline-friendly tools right.
+
+Medium scale: problems start to appear. Watch for ignoring platform limitations and poor offline fallbacks, and measure with Lighthouse before changing anything.
+
+Large scale: installability and responsive design move from background details to central design questions. Teams often revisit their choices around lightweight alternatives to native apps at this stage.
+
+Before you scale, test the app in airplane mode. It is cheaper to build that habit early than to fix a crisis later.

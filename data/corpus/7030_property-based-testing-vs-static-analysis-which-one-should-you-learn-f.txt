@@ -1,0 +1,13 @@
+Property-Based Testing vs Static Analysis: Which One Should You Learn First?
+
+Learners often ask whether to study Property-Based Testing or Static Analysis first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold, and it is closely tied to properties and generators. Static Analysis, by contrast, is automated checking of source code for bugs and style problems without running it, and it is closely tied to linters and type checkers.
+
+Choose Property-Based Testing first if you care about testing parsers or checking sorting and math functions. Choose Static Analysis first if you care about catching bugs early or enforcing team style.
+
+Think of Property-Based Testing as a robot tester trying thousands of odd inputs, and of Static Analysis as a spell checker for code. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Property-Based Testing, avoid vague properties. With Static Analysis, avoid ignoring warnings.
+
+A good habit for Property-Based Testing is to save failing examples as regular tests. A good habit for Static Analysis is to run it in CI so problems never reach the main branch.

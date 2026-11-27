@@ -1,0 +1,15 @@
+Database Migrations in 10 Minutes
+
+You have ten minutes, so here is the fast route through Database Migrations.
+
+Minutes 1 and 2, the definition: Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way.
+
+Minutes 3 and 4, the vocabulary: learn up and down scripts, version tables, backward compatibility, and zero-downtime changes.
+
+Minutes 5 and 6, the picture: imagine a numbered set of renovation steps applied to a building in order. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through adding columns safely, renaming tables, and keeping environments in sync.
+
+Minutes 9 and 10, the traps and the tools: watch for locking large tables and editing old migrations, then try Alembic for a first experiment.
+
+If you have a spare minute, remember to split risky changes into small steps that can each be rolled back.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Jupyter Notebooks
+
+This page collects the essentials about Jupyter Notebooks in one place. In short, Jupyter Notebooks is interactive documents that combine code, results and notes.
+
+Core concepts:
+- cells
+- kernels
+- markdown
+- outputs
+
+Where it is used:
+- exploring data
+- teaching and demos
+- sharing analysis
+
+Common problems:
+- running cells out of order
+- hidden state
+- committing outputs that contain secrets
+
+Tools to know:
+- JupyterLab
+- VS Code
+- Google Colab
+
+Remember this above all: a lab notebook that can run its own experiments is a good way to picture it, and the best habit is to restart the kernel and run all cells before sharing.

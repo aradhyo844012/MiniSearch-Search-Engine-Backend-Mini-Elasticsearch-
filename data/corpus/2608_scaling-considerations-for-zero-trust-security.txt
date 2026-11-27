@@ -1,0 +1,11 @@
+Scaling Considerations for Zero Trust Security
+
+A design that works for a classroom project can behave very differently under real load. Here is how Zero Trust Security changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding identity verification and getting remote work access right.
+
+Medium scale: problems start to appear. Watch for treating it as a product to buy and poor identity hygiene, and measure with Okta before changing anything.
+
+Large scale: micro-segmentation and continuous checks move from background details to central design questions. Teams often revisit their choices around protecting internal services at this stage.
+
+Before you scale, start with strong identity and device checks. It is cheaper to build that habit early than to fix a crisis later.

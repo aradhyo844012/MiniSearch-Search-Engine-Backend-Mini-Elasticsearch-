@@ -1,0 +1,15 @@
+The Pros and Cons of Convolutional Neural Networks
+
+No technology is free of trade-offs, and Convolutional Neural Networks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports image classification
+- Makes medical image analysis easier
+- Helps with object detection
+
+Drawbacks and risks:
+- Risk: too little training data
+- Risk: ignoring data augmentation
+- Risk: overly deep models for simple tasks
+
+Weigh the two lists against your own project. If the advantages match your needs, such as image classification, and you can manage the risks, Convolutional Neural Networks is a sound choice. Whatever you decide, start from a pretrained model.

@@ -1,0 +1,9 @@
+Understanding Property-Based Testing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a robot tester trying thousands of odd inputs.
+
+In that picture, properties is the first rule you follow, generators is the next step, and shrinking and invariants keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold, and it involves details such as vague properties that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Hypothesis to learn the exact behavior. The same picture helps when you explain testing parsers to a friend.

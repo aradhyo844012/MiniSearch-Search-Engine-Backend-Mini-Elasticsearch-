@@ -1,0 +1,9 @@
+Understanding K-Means Clustering Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture dividing students into study groups around the most central member.
+
+In that picture, centroids is the first rule you follow, distance measures is the next step, and choosing k and iterations keep everything running smoothly.
+
+Every analogy breaks down eventually. Real K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points, and it involves details such as choosing k blindly that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for scikit-learn to learn the exact behavior. The same picture helps when you explain customer segmentation to a friend.

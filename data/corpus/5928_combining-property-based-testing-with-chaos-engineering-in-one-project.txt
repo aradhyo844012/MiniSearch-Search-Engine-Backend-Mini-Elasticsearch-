@@ -1,0 +1,15 @@
+Combining Property-Based Testing with Chaos Engineering in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Property-Based Testing and Chaos Engineering can work together in a single project.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Imagine a project that involves testing parsers and testing resilience. Property-Based Testing brings properties, while Chaos Engineering brings steady state.
+
+A sensible plan is to start with Hypothesis for the Property-Based Testing part and Chaos Monkey for the Chaos Engineering part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow generators on one side, and having no steady-state metrics on the other.
+
+Picture the whole as a robot tester trying thousands of odd inputs, working alongside a fire drill where you secretly block one exit.
+
+Two habits help: first, save failing examples as regular tests; second, start with small experiments in a test environment.

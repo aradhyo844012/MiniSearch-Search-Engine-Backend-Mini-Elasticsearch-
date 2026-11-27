@@ -1,0 +1,11 @@
+Scaling Considerations for Database Migrations
+
+A design that works for a classroom project can behave very differently under real load. Here is how Database Migrations changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding up and down scripts and getting adding columns safely right.
+
+Medium scale: problems start to appear. Watch for locking large tables and editing old migrations, and measure with Alembic before changing anything.
+
+Large scale: backward compatibility and zero-downtime changes move from background details to central design questions. Teams often revisit their choices around renaming tables at this stage.
+
+Before you scale, split risky changes into small steps that can each be rolled back. It is cheaper to build that habit early than to fix a crisis later.

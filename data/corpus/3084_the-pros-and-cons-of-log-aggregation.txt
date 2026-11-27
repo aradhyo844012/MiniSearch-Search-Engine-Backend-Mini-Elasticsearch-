@@ -1,0 +1,15 @@
+The Pros and Cons of Log Aggregation
+
+No technology is free of trade-offs, and Log Aggregation is no exception. Here is an honest summary.
+
+Advantages:
+- Supports troubleshooting across services
+- Makes security investigations easier
+- Helps with usage analysis
+
+Drawbacks and risks:
+- Risk: unbounded storage growth
+- Risk: unstructured logs
+- Risk: missing timestamps
+
+Weigh the two lists against your own project. If the advantages match your needs, such as troubleshooting across services, and you can manage the risks, Log Aggregation is a sound choice. Whatever you decide, use structured JSON logs so that fields are searchable.

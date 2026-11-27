@@ -1,0 +1,10 @@
+Modular Monoliths: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Modular Monoliths with confidence. The subject itself is single deployable applications built from well-separated internal modules.
+
+module boundaries: one of the building blocks of Modular Monoliths. You should be able to explain it in a single sentence before moving on.
+public interfaces: one of the building blocks of Modular Monoliths. It shows up whenever you work on small teams.
+shared database rules: one of the building blocks of Modular Monoliths. Mixing it up with neighboring terms is a common source of confusion.
+dependency checks: one of the building blocks of Modular Monoliths. It shows up whenever you work on small teams.
+
+Practice using these four terms in sentences about early-stage products. If the sentences feel natural, the vocabulary has stuck.

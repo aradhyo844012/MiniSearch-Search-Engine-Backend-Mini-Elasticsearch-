@@ -1,0 +1,17 @@
+gRPC for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover gRPC.
+
+Learning goals:
+1. Explain gRPC in your own words.
+2. Describe protocol buffers, service definitions, streaming, and HTTP/2.
+3. Give examples from service-to-service calls and low-latency APIs.
+4. Name three problems to watch for.
+
+Start with the definition: gRPC is a framework for fast remote procedure calls using typed contracts. Then draw a phone line with a pre-agreed script for every call on paper and label the four terms from the goals above.
+
+Self-test questions: Why is breaking changes in message fields a problem? How does service definitions relate to streaming? When would you choose protoc or grpcurl?
+
+Study habit worth keeping: never reuse or renumber field numbers in a proto file.
+
+When you feel ready, compare gRPC with Configuration Management and write down three differences.

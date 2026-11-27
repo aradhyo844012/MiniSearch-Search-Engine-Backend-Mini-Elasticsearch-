@@ -1,0 +1,12 @@
+Questions to Ask About B-Trees on Disk in Code Review
+
+Reviewing code that involves B-Trees on Disk is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered random writes on fragmented pages?
+- Is PostgreSQL used consistently, or are we mixing approaches?
+- Would a test catch oversized keys if it appeared later?
+- Does the code handle the case of database indexes correctly?
+- Is branching factor clear to someone reading the code for the first time?
+- Does this change respect pages, or does it work around it?
+
+Good reviews of work on B-Trees on Disk are specific, kind and focused on node splits, not on personal style.

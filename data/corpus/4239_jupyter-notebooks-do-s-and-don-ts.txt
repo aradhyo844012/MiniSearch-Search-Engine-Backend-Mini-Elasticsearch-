@@ -1,0 +1,17 @@
+Jupyter Notebooks Do's and Don'ts
+
+A quick list of habits for working with Jupyter Notebooks.
+
+Do:
+- Learn cells before anything else.
+- Try JupyterLab on a small example.
+- Make it a habit to restart the kernel and run all cells before sharing.
+- Test the case of exploring data early.
+
+Don't:
+- Ignore this: running cells out of order.
+- Ignore this: hidden state.
+- Ignore this: committing outputs that contain secrets.
+- Adopt Jupyter Notebooks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Jupyter Notebooks, a little patience with kernels pays off more than any clever shortcut.

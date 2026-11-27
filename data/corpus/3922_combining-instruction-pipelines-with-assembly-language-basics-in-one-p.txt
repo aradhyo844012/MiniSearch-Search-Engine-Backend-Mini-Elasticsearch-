@@ -1,0 +1,15 @@
+Combining Instruction Pipelines with Assembly Language Basics in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Instruction Pipelines and Assembly Language Basics can work together in a single project.
+
+Instruction Pipelines is a technique where a processor overlaps the stages of several instructions. Assembly Language Basics is low-level instructions that map closely to what a processor actually executes.
+
+Imagine a project that involves explaining CPU speed and understanding compiled code. Instruction Pipelines brings fetch, decode and execute stages, while Assembly Language Basics brings registers.
+
+A sensible plan is to start with perf for the Instruction Pipelines part and GDB for the Assembly Language Basics part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: dependency chains on one side, and stack corruption on the other.
+
+Picture the whole as an assembly line where several cars are in different stages at once, working alongside the individual muscle movements behind a simple action.
+
+Two habits help: first, avoid unpredictable branches in hot loops; second, read the assembly of a tiny C function to see what the compiler does.

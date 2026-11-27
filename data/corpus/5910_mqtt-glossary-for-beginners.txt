@@ -1,0 +1,12 @@
+MQTT Glossary for Beginners
+
+New words can make MQTT feel harder than it is. This glossary keeps the key ones in one place.
+
+MQTT: a lightweight messaging protocol designed for small devices and unreliable networks.
+publish and subscribe: a core term, most visible in sensor networks.
+topics: a core term that beginners often confuse with brokers.
+brokers: a core term that connects to quality of service levels.
+quality of service levels: a core term worth revisiting after you try a real example.
+Mosquitto: a tool commonly used for smart home devices.
+
+Come back to this MQTT list whenever documentation for paho-mqtt uses a word you do not recognize.

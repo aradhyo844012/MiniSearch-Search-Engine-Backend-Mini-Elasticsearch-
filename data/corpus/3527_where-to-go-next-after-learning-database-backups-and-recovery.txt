@@ -1,0 +1,11 @@
+Where to Go Next After Learning Database Backups and Recovery
+
+You have met the basics of Database Backups and Recovery. Here is how to keep the momentum going.
+
+Go wider: read about Graph Databases, which belongs to the same area as Database Backups and Recovery (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of full and incremental backups, recovery point objective, recovery time objective or restore testing, and study it until you can explain it to a beginner.
+
+Go practical: build something around migrating servers with pg_dump, and note every problem you meet, starting with never testing restores.
+
+Go social: share what you learned. Explaining Database Backups and Recovery to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

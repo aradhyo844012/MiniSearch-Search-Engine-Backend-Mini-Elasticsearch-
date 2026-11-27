@@ -1,0 +1,15 @@
+Combining Mobile App Security with Bluetooth Low Energy in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Mobile App Security and Bluetooth Low Energy can work together in a single project.
+
+Mobile App Security is practices that protect mobile apps and their data from attacks. Bluetooth Low Energy is a short-range wireless technology designed for very low power use.
+
+Imagine a project that involves banking apps and fitness trackers. Mobile App Security brings secure storage, while Bluetooth Low Energy brings advertising.
+
+A sensible plan is to start with OWASP MASVS for the Mobile App Security part and nRF Connect for the Bluetooth Low Energy part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: hard-coded API keys on one side, and weak pairing security on the other.
+
+Picture the whole as locking an app's valuables in a hotel safe, working alongside a whisper between two nearby devices that barely uses any energy.
+
+Two habits help: first, store secrets in the platform keychain or keystore; second, test with several phone models.

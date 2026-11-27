@@ -1,0 +1,13 @@
+Retrieval-Augmented Generation Explained Simply
+
+If Retrieval-Augmented Generation sounds intimidating, relax. It is a technique that gives a language model relevant documents to read before it answers, and the idea is simpler than the name suggests.
+
+Think of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: retrieval, chunking, prompts with context, and grounding. You do not need to master them all at once. Start with retrieval, then add chunking.
+
+You will meet Retrieval-Augmented Generation in work such as company knowledge assistants, question answering over documents, and support bots.
+
+One practical tip is to evaluate retrieval quality separately from answer quality.
+
+Once Retrieval-Augmented Generation feels comfortable, read about Hyperparameter Tuning, which lives in the same neighborhood of ideas.

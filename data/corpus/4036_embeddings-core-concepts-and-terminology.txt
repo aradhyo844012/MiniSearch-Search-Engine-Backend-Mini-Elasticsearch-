@@ -1,0 +1,10 @@
+Embeddings: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Embeddings with confidence. The subject itself is lists of numbers that represent words, images or items so that similar things sit close together.
+
+vectors: one of the building blocks of Embeddings. It shows up whenever you work on semantic search.
+cosine similarity: one of the building blocks of Embeddings. Documentation for sentence-transformers usually mentions it early.
+dimensionality: one of the building blocks of Embeddings. Mixing it up with neighboring terms is a common source of confusion.
+nearest neighbor search: one of the building blocks of Embeddings. It shows up whenever you work on semantic search.
+
+Practice using these four terms in sentences about recommendations. If the sentences feel natural, the vocabulary has stuck.

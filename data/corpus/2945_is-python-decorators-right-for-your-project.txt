@@ -1,0 +1,11 @@
+Is Python Decorators Right for Your Project?
+
+Before adopting Python Decorators, ask whether it fits the problem. Remember that Python Decorators is functions that wrap other functions to add behavior without changing their code.
+
+It is a good fit when your work involves logging calls or caching results, and when your team understands higher-order functions.
+
+Be cautious when the project is very small, when deadlines leave no room to learn wrapper functions, or when you cannot manage these risks: losing function metadata, stacking decorators in the wrong order, and hiding side effects.
+
+A simple decision test: write down the problem in one sentence, then check whether functools.wraps and decorator arguments are part of the answer. If they are, Python Decorators is probably worth a closer look.
+
+If you decide to go ahead, start small with checking permissions and always apply functools.wraps inside your decorator.

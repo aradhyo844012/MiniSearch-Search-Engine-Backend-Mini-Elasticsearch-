@@ -1,0 +1,12 @@
+Background Jobs Glossary for Beginners
+
+New words can make Background Jobs feel harder than it is. This glossary keeps the key ones in one place.
+
+Background Jobs: tasks that run outside the request cycle so users do not have to wait for them.
+queues: a core term, most visible in sending emails.
+workers: a core term that beginners often confuse with retries.
+retries: a core term that connects to scheduling.
+scheduling: a core term worth revisiting after you try a real example.
+Celery: a tool commonly used for resizing images.
+
+Come back to this Background Jobs list whenever documentation for Sidekiq uses a word you do not recognize.

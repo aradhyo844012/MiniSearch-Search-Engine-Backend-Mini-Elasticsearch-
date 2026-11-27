@@ -1,0 +1,10 @@
+Database Migrations: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Database Migrations with confidence. The subject itself is versioned scripts that change a database schema in a controlled and repeatable way.
+
+up and down scripts: one of the building blocks of Database Migrations. Documentation for Alembic usually mentions it early.
+version tables: one of the building blocks of Database Migrations. You should be able to explain it in a single sentence before moving on.
+backward compatibility: one of the building blocks of Database Migrations. Mixing it up with neighboring terms is a common source of confusion.
+zero-downtime changes: one of the building blocks of Database Migrations. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about renaming tables. If the sentences feel natural, the vocabulary has stuck.

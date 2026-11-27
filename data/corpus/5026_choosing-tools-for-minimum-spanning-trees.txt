@@ -1,0 +1,11 @@
+Choosing Tools for Minimum Spanning Trees
+
+There is no single best tool for Minimum Spanning Trees. The right choice depends on your project, your team and your timeline.
+
+NetworkX is a common first choice, especially for designing cable networks. SciPy suits teams that already work with similar technology, and Graphviz is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle clustering data well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: using it on directed graphs.
+
+As a rule of thumb, sort the edges once and reuse the order when testing variations, no matter which tool you use.

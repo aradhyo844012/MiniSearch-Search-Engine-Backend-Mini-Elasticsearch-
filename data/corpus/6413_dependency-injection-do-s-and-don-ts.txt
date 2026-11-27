@@ -1,0 +1,17 @@
+Dependency Injection Do's and Don'ts
+
+A quick list of habits for working with Dependency Injection.
+
+Do:
+- Learn constructor injection before anything else.
+- Try Spring on a small example.
+- Make it a habit to inject interfaces so tests can use simple fakes.
+- Test the case of easier unit testing early.
+
+Don't:
+- Ignore this: hiding too much behind containers.
+- Ignore this: circular dependencies.
+- Ignore this: injecting too many dependencies.
+- Adopt Dependency Injection just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Dependency Injection, a little patience with interfaces pays off more than any clever shortcut.

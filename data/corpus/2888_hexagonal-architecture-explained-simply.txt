@@ -1,0 +1,13 @@
+Hexagonal Architecture Explained Simply
+
+Here is Hexagonal Architecture without the jargon: it is a design that keeps core logic separate from outside systems through ports and adapters.
+
+Think of Hexagonal Architecture as a power strip that lets any plug connect to the same core. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: ports, adapters, the core domain, and dependency direction. You do not need to master them all at once. Start with ports, then add adapters.
+
+You will meet Hexagonal Architecture in work such as testable business logic, swapping databases, and supporting several interfaces.
+
+One practical tip is to keep framework imports out of the core domain.
+
+Once Hexagonal Architecture feels comfortable, read about Event-Driven Architecture, which lives in the same neighborhood of ideas.

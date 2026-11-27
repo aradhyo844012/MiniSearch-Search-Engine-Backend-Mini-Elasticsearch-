@@ -1,0 +1,12 @@
+Questions to Ask About Command Line Productivity in Code Review
+
+Reviewing code that involves Command Line Productivity is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is pipes clear to someone reading the code for the first time?
+- Would a test catch dangerous wildcard use if it appeared later?
+- Does the code handle the case of automating repetitive tasks correctly?
+- Could we turn commands you repeat into small scripts?
+- Have we considered copying commands without understanding them?
+- Does this change respect aliases, or does it work around it?
+
+Good reviews of work on Command Line Productivity are specific, kind and focused on history search, not on personal style.

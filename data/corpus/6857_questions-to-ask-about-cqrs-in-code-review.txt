@@ -1,0 +1,12 @@
+Questions to Ask About CQRS in Code Review
+
+Reviewing code that involves CQRS is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch read models drifting out of sync if it appeared later?
+- Could we start with a single model and split only when reads and writes truly diverge?
+- Have we avoided this problem: duplicated logic?
+- Is queries clear to someone reading the code for the first time?
+- Is Axon Framework used consistently, or are we mixing approaches?
+- Have we considered adding it to simple apps?
+
+Good reviews of work on CQRS are specific, kind and focused on read models, not on personal style.

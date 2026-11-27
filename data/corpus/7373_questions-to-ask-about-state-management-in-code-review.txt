@@ -1,0 +1,12 @@
+Questions to Ask About State Management in Code Review
+
+Reviewing code that involves State Management is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch duplicated state that drifts apart if it appeared later?
+- Is Redux used consistently, or are we mixing approaches?
+- Is actions clear to someone reading the code for the first time?
+- Could we keep state as close as possible to where it is used?
+- Have we considered putting everything in global state?
+- Have we avoided this problem: unclear update paths?
+
+Good reviews of work on State Management are specific, kind and focused on reducers, not on personal style.

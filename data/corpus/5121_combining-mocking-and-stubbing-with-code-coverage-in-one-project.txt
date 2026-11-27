@@ -1,0 +1,15 @@
+Combining Mocking and Stubbing with Code Coverage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Mocking and Stubbing and Code Coverage can work together in a single project.
+
+Mocking and Stubbing is replacing real dependencies with controlled fakes during tests. Code Coverage is a measure of how much of the code is run by tests.
+
+Imagine a project that involves isolating units and finding untested code. Mocking and Stubbing brings mocks, while Code Coverage brings line coverage.
+
+A sensible plan is to start with unittest.mock for the Mocking and Stubbing part and coverage.py for the Code Coverage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: tests that mirror the implementation on one side, and treating coverage as quality on the other.
+
+Picture the whole as a crash test dummy standing in for a real passenger, working alongside a map showing which rooms a security guard has walked through.
+
+Two habits help: first, prefer simple fakes over deep mock chains; second, use coverage to find gaps, not to judge quality.

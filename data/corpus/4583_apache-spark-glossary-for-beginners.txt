@@ -1,0 +1,12 @@
+Apache Spark Glossary for Beginners
+
+New words can make Apache Spark feel harder than it is. This glossary keeps the key ones in one place.
+
+Apache Spark: a distributed engine for processing large datasets across many machines.
+DataFrames: a core term, most visible in large ETL jobs.
+transformations and actions: a core term that beginners often confuse with partitions.
+partitions: a core term that connects to lazy execution.
+lazy execution: a core term worth revisiting after you try a real example.
+PySpark: a tool commonly used for machine learning on big data.
+
+Come back to this Apache Spark list whenever documentation for Databricks uses a word you do not recognize.

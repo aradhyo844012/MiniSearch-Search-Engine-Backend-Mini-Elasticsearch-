@@ -1,0 +1,13 @@
+Convolutional Neural Networks vs Data Augmentation: Which One Should You Learn First?
+
+Learners often ask whether to study Convolutional Neural Networks or Data Augmentation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns, and it is closely tied to filters and pooling. Data Augmentation, by contrast, is creating modified copies of training data to help models generalize, and it is closely tied to transformations and label preservation.
+
+Choose Convolutional Neural Networks first if you care about image classification or medical image analysis. Choose Data Augmentation first if you care about image models or text classification.
+
+Think of Convolutional Neural Networks as a magnifying glass sweeping across a photo looking for edges and shapes, and of Data Augmentation as practicing a sport in different weather and on different fields. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Convolutional Neural Networks, avoid too little training data. With Data Augmentation, avoid changes that alter the label.
+
+A good habit for Convolutional Neural Networks is to start from a pretrained model. A good habit for Data Augmentation is to augment only the training data.

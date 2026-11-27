@@ -1,0 +1,15 @@
+Combining Domain-Driven Design with Hexagonal Architecture in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Domain-Driven Design and Hexagonal Architecture can work together in a single project.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain. Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters.
+
+Imagine a project that involves complex business systems and testable business logic. Domain-Driven Design brings ubiquitous language, while Hexagonal Architecture brings ports.
+
+A sensible plan is to start with event storming for the Domain-Driven Design part and Spring for the Hexagonal Architecture part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: models that never match the business on one side, and leaking framework types into the core on the other.
+
+Picture the whole as writing software in the same vocabulary the business speaks, working alongside a power strip that lets any plug connect to the same core.
+
+Two habits help: first, agree on shared terms with domain experts before drawing classes; second, keep framework imports out of the core domain.

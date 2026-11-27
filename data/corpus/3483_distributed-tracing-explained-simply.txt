@@ -1,0 +1,13 @@
+Distributed Tracing Explained Simply
+
+Here is Distributed Tracing without the jargon: it is following a single request as it passes through many services.
+
+Think of Distributed Tracing as a parcel tracking page that shows every stop on the route. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: spans, trace IDs, context propagation, and sampling. You do not need to master them all at once. Start with spans, then add trace IDs.
+
+You will meet Distributed Tracing in work such as finding slow services, understanding dependencies, and debugging errors across services.
+
+One practical tip is to propagate trace IDs through every outgoing call.
+
+After Distributed Tracing, a natural next topic is Secrets Management.

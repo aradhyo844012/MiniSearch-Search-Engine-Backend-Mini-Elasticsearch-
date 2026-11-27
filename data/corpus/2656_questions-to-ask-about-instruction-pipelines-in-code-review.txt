@@ -1,0 +1,12 @@
+Questions to Ask About Instruction Pipelines in Code Review
+
+Reviewing code that involves Instruction Pipelines is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is perf used consistently, or are we mixing approaches?
+- Does this change respect fetch, decode and execute stages, or does it work around it?
+- Does the code handle the case of explaining CPU speed correctly?
+- Would a test catch dependency chains if it appeared later?
+- Is hazards clear to someone reading the code for the first time?
+- Have we avoided this problem: assuming each instruction takes one step?
+
+Good reviews of work on Instruction Pipelines are specific, kind and focused on branch prediction, not on personal style.

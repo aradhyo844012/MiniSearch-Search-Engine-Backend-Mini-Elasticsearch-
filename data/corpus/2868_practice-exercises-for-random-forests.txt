@@ -1,0 +1,11 @@
+Practice Exercises for Random Forests
+
+These exercises build real understanding of Random Forests. Do them in order, and write down your answers.
+
+Exercise 1: Pick scikit-learn and complete its getting-started tutorial.
+Exercise 2: List three situations from your own experience that resemble tabular predictions or feature importance ranking.
+Exercise 3: Compare XGBoost and LightGBM for strong baseline models and write down your conclusion.
+Exercise 4: Explain how voting and out-of-bag error differ, using a drawing.
+Exercise 5: Create a small example that deliberately triggers this problem: treating importance scores as causes. Then fix it.
+
+When you finish, compare your answers with the definition: Random Forests is ensembles of many decision trees whose predictions are combined.

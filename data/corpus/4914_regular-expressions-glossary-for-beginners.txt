@@ -1,0 +1,12 @@
+Regular Expressions Glossary for Beginners
+
+New words can make Regular Expressions feel harder than it is. This glossary keeps the key ones in one place.
+
+Regular Expressions: compact patterns for matching and extracting text.
+character classes: a core term, most visible in validating input.
+quantifiers: a core term that beginners often confuse with groups.
+groups: a core term that connects to anchors.
+anchors: a core term worth revisiting after you try a real example.
+the Python re module: a tool commonly used for searching logs.
+
+Come back to this Regular Expressions list whenever documentation for regex101 uses a word you do not recognize.

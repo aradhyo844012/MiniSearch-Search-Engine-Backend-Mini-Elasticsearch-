@@ -1,0 +1,10 @@
+Data Augmentation: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Data Augmentation with confidence. The subject itself is creating modified copies of training data to help models generalize.
+
+transformations: one of the building blocks of Data Augmentation. It shows up whenever you work on image models.
+label preservation: one of the building blocks of Data Augmentation. Mixing it up with neighboring terms is a common source of confusion.
+synthetic samples: one of the building blocks of Data Augmentation. Mixing it up with neighboring terms is a common source of confusion.
+augmentation pipelines: one of the building blocks of Data Augmentation. Documentation for Albumentations usually mentions it early.
+
+Practice using these four terms in sentences about text classification. If the sentences feel natural, the vocabulary has stuck.

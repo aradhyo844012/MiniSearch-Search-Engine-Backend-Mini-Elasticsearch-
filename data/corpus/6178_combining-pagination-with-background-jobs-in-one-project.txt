@@ -1,0 +1,15 @@
+Combining Pagination with Background Jobs in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Pagination and Background Jobs can work together in a single project.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time. Background Jobs is tasks that run outside the request cycle so users do not have to wait for them.
+
+Imagine a project that involves search results and sending emails. Pagination brings offset pagination, while Background Jobs brings queues.
+
+A sensible plan is to start with SQL LIMIT and OFFSET for the Pagination part and Celery for the Background Jobs part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unstable sort order on one side, and unbounded retries on the other.
+
+Picture the whole as reading a long book one chapter at a time with a bookmark, working alongside dropping laundry at a service and collecting it later.
+
+Two habits help: first, prefer cursors for large or fast-changing data; second, give every job a timeout and a retry limit.

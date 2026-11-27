@@ -1,0 +1,10 @@
+Regression Testing: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Regression Testing with confidence. The subject itself is re-running tests after changes to make sure old features still work.
+
+test suites: one of the building blocks of Regression Testing. You should be able to explain it in a single sentence before moving on.
+automation: one of the building blocks of Regression Testing. Documentation for pytest usually mentions it early.
+test selection: one of the building blocks of Regression Testing. It shows up whenever you work on protecting releases.
+bug reproduction tests: one of the building blocks of Regression Testing. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about verifying bug fixes. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,12 @@
+GPUs and Parallelism Glossary for Beginners
+
+New words can make GPUs and Parallelism feel harder than it is. This glossary keeps the key ones in one place.
+
+GPUs and Parallelism: processors with thousands of small cores that handle many similar calculations at once.
+threads and blocks: a core term, most visible in training neural networks.
+kernels: a core term that beginners often confuse with memory transfers.
+memory transfers: a core term that connects to SIMD.
+SIMD: a core term worth revisiting after you try a real example.
+CUDA: a tool commonly used for rendering graphics.
+
+Come back to this GPUs and Parallelism list whenever documentation for PyTorch uses a word you do not recognize.

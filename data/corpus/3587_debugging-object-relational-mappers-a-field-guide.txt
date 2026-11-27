@@ -1,0 +1,13 @@
+Debugging Object-Relational Mappers: A Field Guide
+
+When something goes wrong around Object-Relational Mappers, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: N+1 queries, loading entire tables, and hiding slow SQL.
+Step 3: revisit models and queries, since misunderstandings there cause many bugs.
+Step 4: use SQLAlchemy or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Object-Relational Mappers in work such as building CRUD apps quickly come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, log the generated SQL during development. It prevents a surprising number of repeat problems.

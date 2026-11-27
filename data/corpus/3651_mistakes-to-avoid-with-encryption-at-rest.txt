@@ -1,0 +1,11 @@
+Mistakes to Avoid with Encryption at Rest
+
+Everyone learns Encryption at Rest partly through mistakes. Here are three worth avoiding.
+
+Mistake one: storing keys next to the data. It usually appears when someone skips symmetric keys and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: no key rotation. It tends to be noticed late, often during testing of protecting backups. A short checklist during review catches it early.
+
+Mistake three: assuming it stops every kind of attack. It is easy to miss because everything seems to work at first. Keep an eye on envelope encryption to spot it.
+
+If you remember only one rule, make it this: keep keys in a separate service from the data.

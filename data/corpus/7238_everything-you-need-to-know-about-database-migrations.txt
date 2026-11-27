@@ -1,0 +1,26 @@
+Everything You Need to Know About Database Migrations
+
+This page collects the essentials about Database Migrations in one place. In short, Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way.
+
+Core concepts:
+- up and down scripts
+- version tables
+- backward compatibility
+- zero-downtime changes
+
+Where it is used:
+- adding columns safely
+- renaming tables
+- keeping environments in sync
+
+Common problems:
+- locking large tables
+- editing old migrations
+- data loss on rollbacks
+
+Tools to know:
+- Alembic
+- Flyway
+- Django migrations
+
+Remember this above all: a numbered set of renovation steps applied to a building in order is a good way to picture it, and the best habit is to split risky changes into small steps that can each be rolled back.

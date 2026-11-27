@@ -1,0 +1,17 @@
+Assembly Language Basics Do's and Don'ts
+
+A quick list of habits for working with Assembly Language Basics.
+
+Do:
+- Learn registers before anything else.
+- Try GDB on a small example.
+- Make it a habit to read the assembly of a tiny C function to see what the compiler does.
+- Test the case of understanding compiled code early.
+
+Don't:
+- Ignore this: wrong calling conventions.
+- Ignore this: stack corruption.
+- Ignore this: platform differences.
+- Adopt Assembly Language Basics just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Assembly Language Basics, a little patience with instructions pays off more than any clever shortcut.

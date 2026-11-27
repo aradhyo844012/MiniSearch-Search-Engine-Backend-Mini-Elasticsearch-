@@ -1,0 +1,13 @@
+CSRF vs Threat Modeling: Which One Should You Learn First?
+
+Learners often ask whether to study CSRF or Threat Modeling first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site, and it is closely tied to session cookies and anti-CSRF tokens. Threat Modeling, by contrast, is a structured way of identifying what could go wrong in a system and how to prevent it, and it is closely tied to assets and attackers.
+
+Choose CSRF first if you care about protecting forms or securing account settings. Choose Threat Modeling first if you care about designing new features or reviewing architecture.
+
+Think of CSRF as a forged letter that a bank clerk stamps because your ID is already on file, and of Threat Modeling as walking around a house asking where a burglar might get in. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CSRF, avoid using GET requests for state changes. With Threat Modeling, avoid doing it once and never again.
+
+A good habit for CSRF is to combine SameSite cookies with anti-CSRF tokens. A good habit for Threat Modeling is to draw the data flow diagram first.

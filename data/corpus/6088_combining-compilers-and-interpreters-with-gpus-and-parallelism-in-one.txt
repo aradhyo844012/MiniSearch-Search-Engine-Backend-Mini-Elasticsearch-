@@ -1,0 +1,15 @@
+Combining Compilers and Interpreters with GPUs and Parallelism in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Compilers and Interpreters and GPUs and Parallelism can work together in a single project.
+
+Compilers and Interpreters is programs that translate or run source code written in a high-level language. GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Imagine a project that involves running Python and JavaScript and training neural networks. Compilers and Interpreters brings lexing, while GPUs and Parallelism brings threads and blocks.
+
+A sensible plan is to start with GCC for the Compilers and Interpreters part and CUDA for the GPUs and Parallelism part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring compiler warnings on one side, and branch-heavy code on the other.
+
+Picture the whole as a translator who either translates a whole book first or interprets sentence by sentence, working alongside a stadium of workers each doing one small identical task.
+
+Two habits help: first, turn on compiler warnings and treat them seriously; second, minimize copies between CPU and GPU memory.

@@ -1,0 +1,15 @@
+The Pros and Cons of Column-Oriented Storage
+
+No technology is free of trade-offs, and Column-Oriented Storage is no exception. Here is an honest summary.
+
+Advantages:
+- Supports analytics dashboards
+- Makes large aggregations easier
+- Helps with data warehouses
+
+Drawbacks and risks:
+- Risk: slow single-row lookups
+- Risk: many small writes
+- Risk: wide tables with unused columns
+
+Weigh the two lists against your own project. If the advantages match your needs, such as analytics dashboards, and you can manage the risks, Column-Oriented Storage is a sound choice. Whatever you decide, select only the columns you really need.

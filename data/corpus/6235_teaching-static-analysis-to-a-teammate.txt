@@ -1,0 +1,13 @@
+Teaching Static Analysis to a Teammate
+
+Explaining Static Analysis to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a spell checker for code. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Static Analysis is automated checking of source code for bugs and style problems without running it. Avoid jargon at this stage.
+
+Walk through an example involving catching bugs early, naming linters and type checkers as they come up.
+
+Ask your teammate to explain rule sets in Static Analysis back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, ignoring warnings, and suggest this habit: run it in CI so problems never reach the main branch.

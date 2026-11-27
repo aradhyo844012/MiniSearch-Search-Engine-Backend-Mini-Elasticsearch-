@@ -1,0 +1,13 @@
+Embeddings vs Retrieval-Augmented Generation: Which One Should You Learn First?
+
+Learners often ask whether to study Embeddings or Retrieval-Augmented Generation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Embeddings is lists of numbers that represent words, images or items so that similar things sit close together, and it is closely tied to vectors and cosine similarity. Retrieval-Augmented Generation, by contrast, is a technique that gives a language model relevant documents to read before it answers, and it is closely tied to retrieval and chunking.
+
+Choose Embeddings first if you care about semantic search or recommendations. Choose Retrieval-Augmented Generation first if you care about company knowledge assistants or question answering over documents.
+
+Think of Embeddings as coordinates on a map where similar places are close together, and of Retrieval-Augmented Generation as an open-book exam where the student first looks up the right pages. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Embeddings, avoid mixing models between indexing and querying. With Retrieval-Augmented Generation, avoid poor chunking.
+
+A good habit for Embeddings is to use the same embedding model for indexing and querying. A good habit for Retrieval-Augmented Generation is to evaluate retrieval quality separately from answer quality.

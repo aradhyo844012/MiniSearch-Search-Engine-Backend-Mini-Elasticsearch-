@@ -1,0 +1,12 @@
+Questions to Ask About Data Lakes in Code Review
+
+Reviewing code that involves Data Lakes is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered turning into a data swamp?
+- Does this change respect raw storage, or does it work around it?
+- Have we avoided this problem: poor access controls?
+- Is Amazon S3 used consistently, or are we mixing approaches?
+- Does the code handle the case of storing logs and events correctly?
+- Would a test catch no catalog or ownership if it appeared later?
+
+Good reviews of work on Data Lakes are specific, kind and focused on partitioning, not on personal style.

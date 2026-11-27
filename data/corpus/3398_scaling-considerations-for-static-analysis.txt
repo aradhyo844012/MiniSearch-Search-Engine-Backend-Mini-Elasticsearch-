@@ -1,0 +1,11 @@
+Scaling Considerations for Static Analysis
+
+A design that works for a classroom project can behave very differently under real load. Here is how Static Analysis changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding linters and getting catching bugs early right.
+
+Medium scale: problems start to appear. Watch for ignoring warnings and too many noisy rules, and measure with ESLint before changing anything.
+
+Large scale: rule sets and false positives move from background details to central design questions. Teams often revisit their choices around enforcing team style at this stage.
+
+Before you scale, run it in CI so problems never reach the main branch. It is cheaper to build that habit early than to fix a crisis later.

@@ -1,0 +1,10 @@
+Chaos Engineering: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Chaos Engineering with confidence. The subject itself is deliberately causing failures in a system to learn how it responds.
+
+steady state: one of the building blocks of Chaos Engineering. Mixing it up with neighboring terms is a common source of confusion.
+hypotheses: one of the building blocks of Chaos Engineering. It shows up whenever you work on testing resilience.
+blast radius: one of the building blocks of Chaos Engineering. You should be able to explain it in a single sentence before moving on.
+fault injection: one of the building blocks of Chaos Engineering. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about validating failover. If the sentences feel natural, the vocabulary has stuck.

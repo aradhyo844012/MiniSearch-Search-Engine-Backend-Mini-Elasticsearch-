@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Distributed Locks
+
+This path is for a learner who has never studied Distributed Locks before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Distributed Locks is mechanisms that ensure only one process at a time performs a critical action across machines) and learn lease times and fencing tokens.
+
+Stage 2, hands-on: install Redis, follow a tutorial, and build a small example involving running scheduled jobs once.
+
+Stage 3, depth: study lock owners and timeouts, then deliberately explore this problem: locks that never expire.
+
+Stage 4, application: apply Distributed Locks to protecting shared resources, compare ZooKeeper with etcd, and write up your results.
+
+Stage 5, review: teach Distributed Locks to someone else, and then move on to Idempotency.

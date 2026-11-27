@@ -1,0 +1,11 @@
+Why Interrupts Matters for Developers
+
+Developers who understand Interrupts make better decisions, because Interrupts is signals that make a processor pause its work to handle an urgent event.
+
+Three situations show why it matters. First, keyboard and mouse input. Second, timers. Third, network packets arriving. In each case, a solid grasp of interrupt handlers and interrupt vectors separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: long handlers, race conditions with shared data, and lost interrupts.
+
+You will not need to build everything yourself; Linux /proc/interrupts, logic analyzers, and embedded debuggers cover most needs.
+
+Connect Interrupts with Assembly Language Basics to see the bigger picture of Computer Systems.

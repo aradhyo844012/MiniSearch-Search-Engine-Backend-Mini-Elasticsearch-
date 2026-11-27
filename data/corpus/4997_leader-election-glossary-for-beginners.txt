@@ -1,0 +1,12 @@
+Leader Election Glossary for Beginners
+
+New words can make Leader Election feel harder than it is. This glossary keeps the key ones in one place.
+
+Leader Election: a process by which nodes in a cluster choose one node to coordinate the work.
+heartbeats: a core term, most visible in database primaries.
+terms or epochs: a core term that beginners often confuse with candidates.
+candidates: a core term that connects to failover.
+failover: a core term worth revisiting after you try a real example.
+ZooKeeper: a tool commonly used for job schedulers.
+
+Come back to this Leader Election list whenever documentation for etcd uses a word you do not recognize.

@@ -1,0 +1,9 @@
+Understanding Consistent Hashing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture seats around a round table where a new guest only displaces their neighbor.
+
+In that picture, hash ring is the first rule you follow, virtual nodes is the next step, and key placement and rebalancing keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys, and it involves details such as too few virtual nodes that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Redis Cluster to learn the exact behavior. The same picture helps when you explain distributed caches to a friend.

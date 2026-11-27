@@ -1,0 +1,11 @@
+Scaling Considerations for Pair Programming
+
+A design that works for a classroom project can behave very differently under real load. Here is how Pair Programming changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding driver and navigator and getting teaching new teammates right.
+
+Medium scale: problems start to appear. Watch for one person dominating and fatigue from long sessions, and measure with VS Code Live Share before changing anything.
+
+Large scale: communication and shared ownership move from background details to central design questions. Teams often revisit their choices around solving hard bugs at this stage.
+
+Before you scale, swap roles every twenty to thirty minutes. It is cheaper to build that habit early than to fix a crisis later.

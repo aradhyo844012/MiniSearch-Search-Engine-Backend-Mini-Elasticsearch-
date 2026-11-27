@@ -1,0 +1,15 @@
+The Pros and Cons of Logging Best Practices
+
+No technology is free of trade-offs, and Logging Best Practices is no exception. Here is an honest summary.
+
+Advantages:
+- Supports debugging production issues
+- Makes auditing actions easier
+- Helps with measuring usage
+
+Drawbacks and risks:
+- Risk: logging sensitive data
+- Risk: too much noise
+- Risk: missing context
+
+Weigh the two lists against your own project. If the advantages match your needs, such as debugging production issues, and you can manage the risks, Logging Best Practices is a sound choice. Whatever you decide, include a request ID in every log line.

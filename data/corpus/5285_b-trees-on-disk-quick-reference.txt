@@ -1,0 +1,15 @@
+B-Trees on Disk Quick Reference
+
+A one-screen reminder for B-Trees on Disk. Bookmark it and return when the details fade.
+
+What it is: balanced tree structures designed to read large blocks from disk efficiently.
+Key terms: pages, branching factor, node splits, and sorted keys.
+Typical uses: database indexes, file system directories, and range scans.
+Risks: random writes on fragmented pages, oversized keys, and ignoring page fill factor.
+Tools: PostgreSQL, SQLite, and MySQL InnoDB.
+
+Mental picture: a filing cabinet where each drawer tells you which drawer to open next.
+
+Habit to build: keep indexed keys short so more of them fit on a page.
+
+See also: Database Backups and Recovery, which sits close to B-Trees on Disk in the area of Storage Engines and Databases.

@@ -1,0 +1,15 @@
+Combining Consistent Hashing with Idempotency in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Consistent Hashing and Idempotency can work together in a single project.
+
+Consistent Hashing is a way of mapping keys to servers so that adding or removing servers moves very few keys. Idempotency is the property that repeating an operation gives the same result as doing it once.
+
+Imagine a project that involves distributed caches and payment APIs. Consistent Hashing brings hash ring, while Idempotency brings idempotency keys.
+
+A sensible plan is to start with Redis Cluster for the Consistent Hashing part and Stripe idempotency keys for the Idempotency part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: uneven load on one side, and side effects outside the guarded step on the other.
+
+Picture the whole as seats around a round table where a new guest only displaces their neighbor, working alongside pressing an elevator call button many times and still getting one elevator.
+
+Two habits help: first, use many virtual nodes per server to even out the load; second, store the result with the key so retries return the same response.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Hexagonal Architecture
+
+This path is for a learner who has never studied Hexagonal Architecture before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Hexagonal Architecture is a design that keeps core logic separate from outside systems through ports and adapters) and learn ports and adapters.
+
+Stage 2, hands-on: install Spring, follow a tutorial, and build a small example involving testable business logic.
+
+Stage 3, depth: study the core domain and dependency direction, then deliberately explore this problem: too many layers for small apps.
+
+Stage 4, application: apply Hexagonal Architecture to swapping databases, compare FastAPI with pytest, and write up your results.
+
+Stage 5, review: teach Hexagonal Architecture to someone else, and then move on to Software Estimation.

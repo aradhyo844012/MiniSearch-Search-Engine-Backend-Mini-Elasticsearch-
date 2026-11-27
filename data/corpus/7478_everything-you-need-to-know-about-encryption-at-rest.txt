@@ -1,0 +1,26 @@
+Everything You Need to Know About Encryption at Rest
+
+This page collects the essentials about Encryption at Rest in one place. In short, Encryption at Rest is protecting stored data by encrypting it on disk or in a database.
+
+Core concepts:
+- symmetric keys
+- key management
+- disk encryption
+- envelope encryption
+
+Where it is used:
+- protecting backups
+- meeting compliance rules
+- securing laptops
+
+Common problems:
+- storing keys next to the data
+- no key rotation
+- assuming it stops every kind of attack
+
+Tools to know:
+- LUKS
+- AWS KMS
+- BitLocker
+
+Remember this above all: a locked safe inside a locked room is a good way to picture it, and the best habit is to keep keys in a separate service from the data.

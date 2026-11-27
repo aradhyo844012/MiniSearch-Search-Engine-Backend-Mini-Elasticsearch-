@@ -1,0 +1,17 @@
+React Hooks for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover React Hooks.
+
+Learning goals:
+1. Explain React Hooks in your own words.
+2. Describe useState, useEffect, dependency arrays, and custom hooks.
+3. Give examples from managing form input and fetching data on load.
+4. Name three problems to watch for.
+
+Start with the definition: React Hooks is functions that let components use state and lifecycle features without writing classes. Then draw sticky notes a component keeps between redraws on paper and label the four terms from the goals above.
+
+Self-test questions: Why is missing dependencies in effects a problem? How does useEffect relate to dependency arrays? When would you choose React DevTools or Vite?
+
+Study habit: enable the hooks lint rules from the start.
+
+When you feel ready, compare React Hooks with Client-Side Routing and write down three differences.

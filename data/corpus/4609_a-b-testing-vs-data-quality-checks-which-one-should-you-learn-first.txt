@@ -1,0 +1,13 @@
+A/B Testing vs Data Quality Checks: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or Data Quality Checks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. Data Quality Checks, by contrast, is automated tests that verify data is complete, valid and consistent, and it is closely tied to null checks and uniqueness.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose Data Quality Checks first if you care about protecting dashboards or validating ingestion.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of Data Quality Checks as a quality inspector at the end of an assembly line. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With Data Quality Checks, avoid alerts nobody reads.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for Data Quality Checks is to check data as early as it enters the pipeline.

@@ -1,0 +1,13 @@
+Teaching Connection Pooling to a Teammate
+
+Explaining Connection Pooling to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a rental desk that lends a few shared bikes instead of buying one per visitor. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Connection Pooling is reusing a limited set of open database connections instead of opening a new one for every request. Avoid jargon at this stage.
+
+Walk through an example involving web backends, naming pool size and idle connections as they come up.
+
+Ask your teammate to explain timeouts in Connection Pooling back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, pools larger than the database allows, and suggest this habit: always return connections in a finally block.

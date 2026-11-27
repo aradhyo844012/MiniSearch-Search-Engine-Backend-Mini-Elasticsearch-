@@ -1,0 +1,11 @@
+Data Quality Checks in Real Projects
+
+Reading about Data Quality Checks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: protecting dashboards. Here, null checks drives the main design choices, and the team needs to guard against alerts nobody reads.
+
+Scenario two: validating ingestion. This time uniqueness matters most, and tools such as Great Expectations help keep things manageable.
+
+Scenario three: catching pipeline bugs. The key idea is freshness, and the biggest risk is checks only at the end of pipelines.
+
+Across all three scenarios, Data Quality Checks stays the same idea: automated tests that verify data is complete, valid and consistent. Only the details change.

@@ -1,0 +1,26 @@
+Everything You Need to Know About GraphQL
+
+This page collects the essentials about GraphQL in one place. In short, GraphQL is a query language for APIs that lets clients ask for exactly the fields they need.
+
+Core concepts:
+- schema
+- queries and mutations
+- resolvers
+- types
+
+Where it is used:
+- mobile apps with limited bandwidth
+- aggregating many services
+- flexible dashboards
+
+Common problems:
+- the N+1 query problem
+- unbounded query depth
+- weak caching
+
+Tools to know:
+- Apollo
+- GraphQL Playground
+- Hasura
+
+Remember this above all: ordering a la carte instead of picking a fixed set menu is a good way to picture it, and the best habit is to use a data loader to avoid N+1 queries.

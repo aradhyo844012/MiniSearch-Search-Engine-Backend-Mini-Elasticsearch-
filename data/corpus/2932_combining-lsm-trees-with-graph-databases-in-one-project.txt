@@ -1,0 +1,15 @@
+Combining LSM Trees with Graph Databases in One Project
+
+Real projects rarely use one idea in isolation. This article shows how LSM Trees and Graph Databases can work together in a single project.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk. Graph Databases is databases that store data as nodes and relationships and query connections directly.
+
+Imagine a project that involves write-heavy databases and social networks. LSM Trees brings memtable, while Graph Databases brings nodes.
+
+A sensible plan is to start with RocksDB for the LSM Trees part and Neo4j for the Graph Databases part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: compaction stalls on one side, and unbounded traversals on the other.
+
+Picture the whole as a mail room that sorts incoming letters in batches rather than one by one, working alongside a city map where intersections are records and roads are relationships.
+
+Two habits help: first, watch compaction metrics before blaming the application; second, limit traversal depth in every exploratory query.

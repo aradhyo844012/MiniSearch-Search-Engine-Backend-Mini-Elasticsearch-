@@ -1,0 +1,26 @@
+Everything You Need to Know About Java Streams
+
+This page collects the essentials about Java Streams in one place. In short, Java Streams is a way of processing collections with chains of declarative operations.
+
+Core concepts:
+- map
+- filter
+- reduce
+- lazy evaluation
+
+Where it is used:
+- transforming lists
+- aggregating records
+- processing data in parallel
+
+Common problems:
+- reusing a consumed stream
+- side effects inside lambdas
+- using parallel streams without measuring
+
+Tools to know:
+- OpenJDK
+- IntelliJ IDEA
+- JUnit
+
+Remember this above all: a conveyor belt where each station changes the item before passing it on is a good way to picture it, and the best habit is to keep each stream step small and readable.

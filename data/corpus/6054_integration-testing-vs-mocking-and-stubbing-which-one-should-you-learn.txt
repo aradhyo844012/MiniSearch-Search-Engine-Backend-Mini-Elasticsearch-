@@ -1,0 +1,13 @@
+Integration Testing vs Mocking and Stubbing: Which One Should You Learn First?
+
+Learners often ask whether to study Integration Testing or Mocking and Stubbing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Integration Testing is tests that check how several parts of a system work together, and it is closely tied to test databases and service boundaries. Mocking and Stubbing, by contrast, is replacing real dependencies with controlled fakes during tests, and it is closely tied to mocks and stubs.
+
+Choose Integration Testing first if you care about verifying API and database interaction or catching contract mismatches. Choose Mocking and Stubbing first if you care about isolating units or simulating failures.
+
+Think of Integration Testing as checking that the gears of a watch mesh before closing the case, and of Mocking and Stubbing as a crash test dummy standing in for a real passenger. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Integration Testing, avoid slow suites. With Mocking and Stubbing, avoid over-mocking.
+
+A good habit for Integration Testing is to use disposable containers for test dependencies. A good habit for Mocking and Stubbing is to prefer simple fakes over deep mock chains.

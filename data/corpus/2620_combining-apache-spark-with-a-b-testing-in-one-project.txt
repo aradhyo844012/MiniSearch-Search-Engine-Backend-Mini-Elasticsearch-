@@ -1,0 +1,15 @@
+Combining Apache Spark with A/B Testing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Apache Spark and A/B Testing can work together in a single project.
+
+Apache Spark is a distributed engine for processing large datasets across many machines. A/B Testing is an experiment that compares two versions of something to see which performs better.
+
+Imagine a project that involves large ETL jobs and testing page designs. Apache Spark brings DataFrames, while A/B Testing brings control and variant.
+
+A sensible plan is to start with PySpark for the Apache Spark part and Optimizely for the A/B Testing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: too many small partitions on one side, and testing too many variants on the other.
+
+Picture the whole as a team of workers each processing a share of a huge pile of papers, working alongside taste-testing two recipes on randomly chosen guests.
+
+Two habits help: first, avoid collecting large results onto a single machine; second, decide the success metric and sample size before you begin.

@@ -1,0 +1,10 @@
+Service Mesh: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Service Mesh with confidence. The subject itself is an infrastructure layer that manages communication between services through proxies.
+
+sidecar proxies: one of the building blocks of Service Mesh. You should be able to explain it in a single sentence before moving on.
+mutual TLS: one of the building blocks of Service Mesh. It shows up whenever you work on securing service traffic.
+traffic policies: one of the building blocks of Service Mesh. It shows up whenever you work on securing service traffic.
+observability: one of the building blocks of Service Mesh. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about retries and timeouts. If the sentences feel natural, the vocabulary has stuck.

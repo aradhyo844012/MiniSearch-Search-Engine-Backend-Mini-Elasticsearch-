@@ -1,0 +1,12 @@
+Questions to Ask About Content Security Policy in Code Review
+
+Reviewing code that involves Content Security Policy is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we avoided this problem: breaking third-party widgets?
+- Does the code handle the case of reducing the impact of XSS correctly?
+- Is browser DevTools used consistently, or are we mixing approaches?
+- Does this change respect directives, or does it work around it?
+- Have we considered allowing unsafe-inline?
+- Is nonces clear to someone reading the code for the first time?
+
+Good reviews of work on Content Security Policy are specific, kind and focused on report-only mode, not on personal style.

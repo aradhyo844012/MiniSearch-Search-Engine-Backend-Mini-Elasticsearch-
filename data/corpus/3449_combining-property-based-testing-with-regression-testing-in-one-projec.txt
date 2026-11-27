@@ -1,0 +1,15 @@
+Combining Property-Based Testing with Regression Testing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Property-Based Testing and Regression Testing can work together in a single project.
+
+Property-Based Testing is testing with many automatically generated inputs to check that general rules always hold. Regression Testing is re-running tests after changes to make sure old features still work.
+
+Imagine a project that involves testing parsers and protecting releases. Property-Based Testing brings properties, while Regression Testing brings test suites.
+
+A sensible plan is to start with Hypothesis for the Property-Based Testing part and pytest for the Regression Testing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow generators on one side, and missing tests for fixed bugs on the other.
+
+Picture the whole as a robot tester trying thousands of odd inputs, working alongside rechecking the old keys after cutting a new lock.
+
+Two habits help: first, save failing examples as regular tests; second, add a test for every bug you fix.

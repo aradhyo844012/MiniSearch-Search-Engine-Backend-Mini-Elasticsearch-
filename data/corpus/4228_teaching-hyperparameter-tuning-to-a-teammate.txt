@@ -1,0 +1,13 @@
+Teaching Hyperparameter Tuning to a Teammate
+
+Explaining Hyperparameter Tuning to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: adjusting the knobs on a radio until the signal is clear. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Hyperparameter Tuning is the process of searching for the best settings that control how a model learns. Avoid jargon at this stage.
+
+Walk through an example involving improving model accuracy, naming search spaces and grid search as they come up.
+
+Ask your teammate to explain random search in Hyperparameter Tuning back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, tuning on the test set, and suggest this habit: try random search before anything fancier.

@@ -1,0 +1,13 @@
+Teaching Greedy Algorithms to a Teammate
+
+Explaining Greedy Algorithms to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: picking the closest open parking spot at every junction and hoping it works out. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Greedy Algorithms is algorithms that build a solution by always taking the locally best choice. Avoid jargon at this stage.
+
+Walk through an example involving interval scheduling, naming greedy choice property and optimal substructure as they come up.
+
+Ask your teammate to explain exchange arguments in Greedy Algorithms back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, assuming greedy always works, and suggest this habit: try to break your greedy idea with a small counterexample before trusting it.

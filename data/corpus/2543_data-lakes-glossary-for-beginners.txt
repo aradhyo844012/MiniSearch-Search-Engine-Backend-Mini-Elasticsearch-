@@ -1,0 +1,12 @@
+Data Lakes Glossary for Beginners
+
+New words can make Data Lakes feel harder than it is. This glossary keeps the key ones in one place.
+
+Data Lakes: large storage systems that keep raw data in its original format until it is needed.
+raw storage: a core term, most visible in storing logs and events.
+schema on read: a core term that beginners often confuse with partitioning.
+partitioning: a core term that connects to metadata catalogs.
+metadata catalogs: a core term worth revisiting after you try a real example.
+Amazon S3: a tool commonly used for machine learning datasets.
+
+Come back to this Data Lakes list whenever documentation for Delta Lake uses a word you do not recognize.

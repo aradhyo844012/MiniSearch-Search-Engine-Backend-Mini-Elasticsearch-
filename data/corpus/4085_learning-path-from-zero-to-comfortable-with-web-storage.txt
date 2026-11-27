@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Web Storage
+
+This path is for a learner who has never studied Web Storage before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Web Storage is browser features for keeping small amounts of data on the user's device) and learn localStorage and sessionStorage.
+
+Stage 2, hands-on: install browser DevTools, follow a tutorial, and build a small example involving saving user preferences.
+
+Stage 3, depth: study cookies and IndexedDB, then deliberately explore this problem: storing sensitive data.
+
+Stage 4, application: apply Web Storage to remembering form drafts, compare localForage with Dexie.js, and write up your results.
+
+Stage 5, review: teach Web Storage to someone else, and then move on to State Management.

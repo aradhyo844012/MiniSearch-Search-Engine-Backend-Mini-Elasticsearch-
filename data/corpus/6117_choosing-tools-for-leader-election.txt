@@ -1,0 +1,11 @@
+Choosing Tools for Leader Election
+
+There is no single best tool for Leader Election. The right choice depends on your project, your team and your timeline.
+
+ZooKeeper is a common first choice, especially for database primaries. etcd suits teams that already work with similar technology, and Kubernetes leases is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle job schedulers well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: split brain.
+
+As a rule of thumb, tune heartbeat intervals against real network delays, no matter which tool you use.

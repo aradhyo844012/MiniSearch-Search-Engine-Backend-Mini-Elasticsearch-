@@ -1,0 +1,26 @@
+Everything You Need to Know About Idempotency
+
+This page collects the essentials about Idempotency in one place. In short, Idempotency is the property that repeating an operation gives the same result as doing it once.
+
+Core concepts:
+- idempotency keys
+- safe retries
+- deduplication
+- at-least-once delivery
+
+Where it is used:
+- payment APIs
+- message processing
+- retrying failed requests
+
+Common problems:
+- keys that expire too soon
+- side effects outside the guarded step
+- reusing keys for different requests
+
+Tools to know:
+- Stripe idempotency keys
+- Redis
+- database unique constraints
+
+Remember this above all: pressing an elevator call button many times and still getting one elevator is a good way to picture it, and the best habit is to store the result with the key so retries return the same response.

@@ -1,0 +1,17 @@
+Raft Consensus for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Raft Consensus.
+
+Learning goals:
+1. Explain Raft Consensus in your own words.
+2. Describe leader election, log replication, terms, and majority quorum.
+3. Give examples from configuration stores and distributed locks.
+4. Name three problems to watch for.
+
+Start with the definition: Raft Consensus is an algorithm that lets a group of servers agree on a shared log of operations. Then draw a committee that elects a chair and only records decisions most members confirm on paper and label the four terms from the goals above.
+
+Self-test questions: Why is even-sized clusters a problem? How does log replication relate to terms? When would you choose etcd or Consul?
+
+Study habit worth keeping: use an odd number of nodes.
+
+When you feel ready, compare Raft Consensus with Saga Pattern and write down three differences.

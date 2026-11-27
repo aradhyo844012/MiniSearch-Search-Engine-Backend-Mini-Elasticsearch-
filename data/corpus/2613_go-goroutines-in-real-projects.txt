@@ -1,0 +1,11 @@
+Go Goroutines in Real Projects
+
+Reading about Go Goroutines is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: servers handling many connections. Here, goroutines drives the main design choices, and the team needs to guard against goroutine leaks.
+
+Scenario two: parallel data processing. This time channels matters most, and tools such as the go command help keep things manageable.
+
+Scenario three: background workers. The key idea is select statements, and the biggest risk is data races.
+
+Across all three scenarios, Go Goroutines stays the same idea: lightweight threads managed by the Go runtime that run functions concurrently. Only the details change.

@@ -1,0 +1,15 @@
+The Pros and Cons of Web Components
+
+No technology is free of trade-offs, and Web Components is no exception. Here is an honest summary.
+
+Advantages:
+- Supports design system components
+- Makes widgets reused across frameworks easier
+- Helps with embeddable tools
+
+Drawbacks and risks:
+- Risk: styling surprises across the shadow boundary
+- Risk: poor accessibility
+- Risk: heavy polyfills
+
+Weigh the two lists against your own project. If the advantages match your needs, such as design system components, and you can manage the risks, Web Components is a sound choice. Whatever you decide, document the attributes and events like a public API.

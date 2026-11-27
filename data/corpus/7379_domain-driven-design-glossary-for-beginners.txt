@@ -1,0 +1,12 @@
+Domain-Driven Design Glossary for Beginners
+
+New words can make Domain-Driven Design feel harder than it is. This glossary keeps the key ones in one place.
+
+Domain-Driven Design: an approach to software that models the code around the real business domain.
+ubiquitous language: a core term, most visible in complex business systems.
+bounded contexts: a core term that beginners often confuse with aggregates.
+aggregates: a core term that connects to entities and value objects.
+entities and value objects: a core term worth revisiting after you try a real example.
+event storming: a tool commonly used for aligning developers with domain experts.
+
+Come back to this Domain-Driven Design list whenever documentation for UML uses a word you do not recognize.

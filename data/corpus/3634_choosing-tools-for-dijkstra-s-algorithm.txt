@@ -1,0 +1,11 @@
+Choosing Tools for Dijkstra's Algorithm
+
+There is no single best tool for Dijkstra's Algorithm. The right choice depends on your project, your team and your timeline.
+
+Python heapq is a common first choice, especially for route planning. NetworkX suits teams that already work with similar technology, and OSRM is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle network routing well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: using it with negative edge weights.
+
+As a rule of thumb, stop as soon as the destination is popped from the queue, no matter which tool you use.

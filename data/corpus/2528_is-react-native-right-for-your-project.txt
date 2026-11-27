@@ -1,0 +1,11 @@
+Is React Native Right for Your Project?
+
+Before adopting React Native, ask whether it fits the problem. Remember that React Native is a framework for building mobile apps for several platforms using JavaScript and React.
+
+It is a good fit when your work involves cross-platform apps or rapid prototypes, and when your team understands components.
+
+Be cautious when the project is very small, when deadlines leave no room to learn native modules, or when you cannot manage these risks: heavy re-renders, poorly tuned lists, and relying on outdated native modules.
+
+A simple decision test: write down the problem in one sentence, then check whether styling with flexbox and navigation are part of the answer. If they are, React Native is probably worth a closer look.
+
+If you decide to go ahead, start small with sharing code with web teams and test on real devices for both platforms.

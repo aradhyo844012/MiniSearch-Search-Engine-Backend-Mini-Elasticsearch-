@@ -1,0 +1,15 @@
+Combining Open Source Contribution with Reading Documentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Open Source Contribution and Reading Documentation can work together in a single project.
+
+Open Source Contribution is helping improve public software projects by fixing bugs, writing documentation or adding features. Reading Documentation is the skill of finding accurate answers in official guides and references.
+
+Imagine a project that involves building a portfolio and learning new libraries. Open Source Contribution brings forks, while Reading Documentation brings search.
+
+A sensible plan is to start with GitHub for the Open Source Contribution part and MDN Web Docs for the Reading Documentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring contribution rules on one side, and skipping the overview on the other.
+
+Picture the whole as helping repair a shared public library, working alongside reading the manual before assembling the furniture.
+
+Two habits help: first, start with documentation fixes or small bugs; second, check that the documentation version matches your installed version.

@@ -1,0 +1,13 @@
+Transformers vs Reinforcement Learning: Which One Should You Learn First?
+
+Learners often ask whether to study Transformers or Reinforcement Learning first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Transformers is neural network architectures that use attention to relate all parts of an input to each other, and it is closely tied to self-attention and positional encoding. Reinforcement Learning, by contrast, is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment.
+
+Choose Transformers first if you care about language translation or text generation. Choose Reinforcement Learning first if you care about game playing or robot control.
+
+Think of Transformers as a reader who can look back at any word of a paragraph while reading each new word, and of Reinforcement Learning as training a dog with treats for good behavior. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Transformers, avoid huge compute requirements. With Reinforcement Learning, avoid badly designed rewards.
+
+A good habit for Transformers is to begin with small pretrained models. A good habit for Reinforcement Learning is to start with simple environments.

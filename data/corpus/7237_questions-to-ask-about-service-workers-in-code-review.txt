@@ -1,0 +1,12 @@
+Questions to Ask About Service Workers in Code Review
+
+Reviewing code that involves Service Workers is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered caching stale files forever?
+- Does the code handle the case of offline support correctly?
+- Does this change respect registration, or does it work around it?
+- Is Workbox used consistently, or are we mixing approaches?
+- Could we version your caches so old files can be removed?
+- Is install and activate events clear to someone reading the code for the first time?
+
+Good reviews of work on Service Workers are specific, kind and focused on cache storage, not on personal style.

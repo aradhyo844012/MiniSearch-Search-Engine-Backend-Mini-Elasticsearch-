@@ -1,0 +1,17 @@
+Python Decorators for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Python Decorators.
+
+Learning goals:
+1. Explain Python Decorators in your own words.
+2. Describe higher-order functions, wrapper functions, functools.wraps, and decorator arguments.
+3. Give examples from logging calls and caching results.
+4. Name three problems to watch for.
+
+Start with the definition: Python Decorators is functions that wrap other functions to add behavior without changing their code. Then draw gift wrapping that adds a bow without changing the present on paper and label the four terms from the goals above.
+
+Self-test questions: Why is losing function metadata a problem? How does wrapper functions relate to functools.wraps? When would you choose functools or Flask routes?
+
+Study habit worth keeping: always apply functools.wraps inside your decorator.
+
+When you feel ready, compare Python Decorators with Rust Ownership and write down three differences.

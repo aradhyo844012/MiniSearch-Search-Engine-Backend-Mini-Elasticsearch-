@@ -1,0 +1,13 @@
+Domain-Driven Design Explained Simply
+
+If Domain-Driven Design sounds intimidating, relax. It is an approach to software that models the code around the real business domain, and the idea is simpler than the name suggests.
+
+Think of Domain-Driven Design as writing software in the same vocabulary the business speaks. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: ubiquitous language, bounded contexts, aggregates, and entities and value objects. You do not need to master them all at once. Start with ubiquitous language, then add bounded contexts.
+
+People reach for Domain-Driven Design when they work on complex business systems, aligning developers with domain experts, and splitting large systems.
+
+One practical tip is to agree on shared terms with domain experts before drawing classes.
+
+Once Domain-Driven Design feels comfortable, read about Pair Programming, which lives in the same neighborhood of ideas.

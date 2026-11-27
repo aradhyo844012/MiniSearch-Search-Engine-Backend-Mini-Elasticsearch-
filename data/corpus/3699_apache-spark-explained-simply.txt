@@ -1,0 +1,13 @@
+Apache Spark Explained Simply
+
+If Apache Spark sounds intimidating, relax. It is a distributed engine for processing large datasets across many machines, and the idea is simpler than the name suggests.
+
+Think of Apache Spark as a team of workers each processing a share of a huge pile of papers. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: DataFrames, transformations and actions, partitions, and lazy execution. You do not need to master them all at once. Start with DataFrames, then add transformations and actions.
+
+People reach for Apache Spark when they work on large ETL jobs, machine learning on big data, and log analysis.
+
+One practical tip is to avoid collecting large results onto a single machine.
+
+After Apache Spark, a natural next topic is Data Lakes.

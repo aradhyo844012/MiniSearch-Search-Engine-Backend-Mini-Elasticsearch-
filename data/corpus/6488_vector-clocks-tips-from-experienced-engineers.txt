@@ -1,0 +1,11 @@
+Vector Clocks Tips from Experienced Engineers
+
+Engineers who work with Vector Clocks regularly tend to repeat the same advice. Here it is.
+
+1. Do not skip logical time; everything else builds on it.
+2. Reach for Riak first, and only then evaluate alternatives such as the Amazon Dynamo paper.
+3. When something behaves strangely, revisit per-process counters before anything else.
+4. Be careful with this one: clocks that grow with many nodes.
+5. Write down why you chose Vector Clocks so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to replicated databases as well.

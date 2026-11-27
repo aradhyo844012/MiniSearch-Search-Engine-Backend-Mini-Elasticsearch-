@@ -1,0 +1,11 @@
+JavaScript Closures in Real Projects
+
+Reading about JavaScript Closures is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: keeping private state in modules. Here, lexical scope drives the main design choices, and the team needs to guard against loop variables captured by mistake.
+
+Scenario two: event handlers that need context. This time captured variables matters most, and tools such as Chrome DevTools help keep things manageable.
+
+Scenario three: callbacks that remember settings. The key idea is function factories, and the biggest risk is memory leaks from long-lived closures.
+
+Across all three scenarios, JavaScript Closures stays the same idea: functions that remember the variables from the place where they were created. Only the details change.

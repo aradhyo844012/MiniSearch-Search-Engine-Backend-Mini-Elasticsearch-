@@ -1,0 +1,10 @@
+Interrupts: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Interrupts with confidence. The subject itself is signals that make a processor pause its work to handle an urgent event.
+
+interrupt handlers: one of the building blocks of Interrupts. Mixing it up with neighboring terms is a common source of confusion.
+interrupt vectors: one of the building blocks of Interrupts. Mixing it up with neighboring terms is a common source of confusion.
+priorities: one of the building blocks of Interrupts. Documentation for Linux /proc/interrupts usually mentions it early.
+context saving: one of the building blocks of Interrupts. It shows up whenever you work on keyboard and mouse input.
+
+Practice using these four terms in sentences about timers. If the sentences feel natural, the vocabulary has stuck.

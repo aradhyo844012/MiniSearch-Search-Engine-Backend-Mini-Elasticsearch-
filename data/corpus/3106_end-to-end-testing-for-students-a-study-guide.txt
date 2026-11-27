@@ -1,0 +1,17 @@
+End-to-End Testing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover End-to-End Testing.
+
+Learning goals:
+1. Explain End-to-End Testing in your own words.
+2. Describe browser automation, user flows, test data, and selectors.
+3. Give examples from checking login and checkout flows and release verification.
+4. Name three problems to watch for.
+
+Start with the definition: End-to-End Testing is tests that drive an application through a real user journey from start to finish. Then draw a test drive of the whole car on a real road on paper and label the four terms from the goals above.
+
+Self-test questions: Why is flaky tests a problem? How does user flows relate to test data? When would you choose Playwright or Cypress?
+
+Study habit worth keeping: cover only the most important user journeys.
+
+When you feel ready, compare End-to-End Testing with Chaos Engineering and write down three differences.

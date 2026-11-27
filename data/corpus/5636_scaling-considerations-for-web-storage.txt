@@ -1,0 +1,11 @@
+Scaling Considerations for Web Storage
+
+A design that works for a classroom project can behave very differently under real load. Here is how Web Storage changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding localStorage and getting saving user preferences right.
+
+Medium scale: problems start to appear. Watch for storing sensitive data and assuming storage is always available, and measure with browser DevTools before changing anything.
+
+Large scale: cookies and IndexedDB move from background details to central design questions. Teams often revisit their choices around remembering form drafts at this stage.
+
+Before you scale, wrap every read and write in error handling. It is cheaper to build that habit early than to fix a crisis later.

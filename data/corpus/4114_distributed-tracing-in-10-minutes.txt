@@ -1,0 +1,15 @@
+Distributed Tracing in 10 Minutes
+
+You have ten minutes, so here is the fast route through Distributed Tracing.
+
+Minutes 1 and 2, the definition: Distributed Tracing is following a single request as it passes through many services.
+
+Minutes 3 and 4, the vocabulary: learn spans, trace IDs, context propagation, and sampling.
+
+Minutes 5 and 6, the picture: imagine a parcel tracking page that shows every stop on the route. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through finding slow services, understanding dependencies, and debugging errors across services.
+
+Minutes 9 and 10, the traps and the tools: watch for missing context propagation and sampling too aggressively, then try OpenTelemetry for a first experiment.
+
+If you have a spare minute, remember to propagate trace IDs through every outgoing call.

@@ -1,0 +1,11 @@
+Is Raspberry Pi Right for Your Project?
+
+Before adopting Raspberry Pi, ask whether it fits the problem. Remember that Raspberry Pi is a small, low-cost computer popular for learning, prototypes and home projects.
+
+It is a good fit when your work involves home automation or learning Linux, and when your team understands GPIO pins.
+
+Be cautious when the project is very small, when deadlines leave no room to learn Linux, or when you cannot manage these risks: SD card corruption, inadequate power supplies, and exposing the device without hardening.
+
+A simple decision test: write down the problem in one sentence, then check whether SD card storage and headless setup are part of the answer. If they are, Raspberry Pi is probably worth a closer look.
+
+If you decide to go ahead, start small with small servers and use a quality power supply and a reliable memory card.

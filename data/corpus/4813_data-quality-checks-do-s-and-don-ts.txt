@@ -1,0 +1,17 @@
+Data Quality Checks Do's and Don'ts
+
+A quick list of habits for working with Data Quality Checks.
+
+Do:
+- Learn null checks before anything else.
+- Try Great Expectations on a small example.
+- Make it a habit to check data as early as it enters the pipeline.
+- Test the case of protecting dashboards early.
+
+Don't:
+- Ignore this: alerts nobody reads.
+- Ignore this: checks only at the end of pipelines.
+- Ignore this: no ownership of failures.
+- Adopt Data Quality Checks just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Data Quality Checks, a little patience with uniqueness pays off more than any clever shortcut.

@@ -1,0 +1,13 @@
+Debugging B-Trees on Disk: A Field Guide
+
+When something goes wrong around B-Trees on Disk, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: random writes on fragmented pages, oversized keys, and ignoring page fill factor.
+Step 3: revisit pages and branching factor, since misunderstandings there cause many bugs.
+Step 4: use PostgreSQL or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving B-Trees on Disk in work such as database indexes come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep indexed keys short so more of them fit on a page. It prevents a surprising number of repeat problems.

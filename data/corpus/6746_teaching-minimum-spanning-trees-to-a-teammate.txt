@@ -1,0 +1,13 @@
+Teaching Minimum Spanning Trees to a Teammate
+
+Explaining Minimum Spanning Trees to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: laying the cheapest set of roads that still links every town. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight. Avoid jargon at this stage.
+
+Walk through an example involving designing cable networks, naming weighted graphs and Kruskal's algorithm as they come up.
+
+Ask your teammate to explain Prim's algorithm in Minimum Spanning Trees back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, using it on directed graphs, and suggest this habit: sort the edges once and reuse the order when testing variations.

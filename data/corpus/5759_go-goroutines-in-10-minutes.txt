@@ -1,0 +1,15 @@
+Go Goroutines in 10 Minutes
+
+You have ten minutes, so here is the fast route through Go Goroutines.
+
+Minutes 1 and 2, the definition: Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.
+
+Minutes 3 and 4, the vocabulary: learn goroutines, channels, select statements, and wait groups.
+
+Minutes 5 and 6, the picture: imagine a small crew of waiters passing notes through a serving hatch. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through servers handling many connections, parallel data processing, and background workers.
+
+Minutes 9 and 10, the traps and the tools: watch for goroutine leaks and data races, then try the go command for a first experiment.
+
+If you have a spare minute, remember to run your tests with the race detector turned on.

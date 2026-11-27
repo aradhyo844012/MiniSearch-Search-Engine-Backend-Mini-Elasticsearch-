@@ -1,0 +1,13 @@
+Domain-Driven Design vs API Design Principles: Which One Should You Learn First?
+
+Learners often ask whether to study Domain-Driven Design or API Design Principles first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain, and it is closely tied to ubiquitous language and bounded contexts. API Design Principles, by contrast, is guidelines for making APIs consistent, predictable and easy to use, and it is closely tied to consistent naming and clear errors.
+
+Choose Domain-Driven Design first if you care about complex business systems or aligning developers with domain experts. Choose API Design Principles first if you care about public platforms or internal service contracts.
+
+Think of Domain-Driven Design as writing software in the same vocabulary the business speaks, and of API Design Principles as the controls of a car that behave the same in every model. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Domain-Driven Design, avoid using it for simple CRUD apps. With API Design Principles, avoid leaking internal details.
+
+A good habit for Domain-Driven Design is to agree on shared terms with domain experts before drawing classes. A good habit for API Design Principles is to write the documentation before the implementation.

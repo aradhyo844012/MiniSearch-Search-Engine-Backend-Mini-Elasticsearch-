@@ -1,0 +1,11 @@
+React Hooks in Real Projects
+
+Reading about React Hooks is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: managing form input. Here, useState drives the main design choices, and the team needs to guard against missing dependencies in effects.
+
+Scenario two: fetching data on load. This time useEffect matters most, and tools such as React DevTools help keep things manageable.
+
+Scenario three: sharing logic between components. The key idea is dependency arrays, and the biggest risk is calling hooks conditionally.
+
+Across all three scenarios, React Hooks stays the same idea: functions that let components use state and lifecycle features without writing classes. Only the details change.

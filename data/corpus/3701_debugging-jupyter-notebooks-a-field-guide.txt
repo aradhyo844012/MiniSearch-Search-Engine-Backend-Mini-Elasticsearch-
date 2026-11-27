@@ -1,0 +1,13 @@
+Debugging Jupyter Notebooks: A Field Guide
+
+When something goes wrong around Jupyter Notebooks, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: running cells out of order, hidden state, and committing outputs that contain secrets.
+Step 3: revisit cells and kernels, since misunderstandings there cause many bugs.
+Step 4: use JupyterLab or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Jupyter Notebooks in work such as exploring data come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, restart the kernel and run all cells before sharing. It prevents a surprising number of repeat problems.

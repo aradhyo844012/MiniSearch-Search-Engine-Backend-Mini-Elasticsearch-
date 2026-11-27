@@ -1,0 +1,11 @@
+Offline-First Apps Tips from Experienced Engineers
+
+Engineers who work with Offline-First Apps regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can show users which changes have not synced yet.
+2. Be careful with this one: unresolved sync conflicts.
+3. Reach for SQLite first, and only then evaluate alternatives such as PouchDB.
+4. When something behaves strangely, revisit sync queues before anything else.
+5. Test the case of field service tools early, before the design hardens.
+
+None of these tips needs special equipment, and all of them apply to note-taking apps as well.

@@ -1,0 +1,13 @@
+Write-Ahead Logging Explained Simply
+
+Here is Write-Ahead Logging without the jargon: it is a technique that records changes in a log before they are applied to the main data.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: log records, checkpoints, crash recovery, and fsync. You do not need to master them all at once. Start with log records, then add checkpoints.
+
+People reach for Write-Ahead Logging when they work on surviving crashes, feeding replication streams, and point-in-time recovery.
+
+One practical tip is to test crash recovery by killing the process on purpose.
+
+After Write-Ahead Logging, a natural next topic is Eventual Consistency.

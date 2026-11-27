@@ -1,0 +1,15 @@
+Combining Debugging Strategies with Competitive Programming in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Debugging Strategies and Competitive Programming can work together in a single project.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior. Competitive Programming is solving algorithmic problems under time limits to build speed and problem-solving skills.
+
+Imagine a project that involves fixing production issues and interview preparation. Debugging Strategies brings reproducing the bug, while Competitive Programming brings problem patterns.
+
+A sensible plan is to start with debuggers for the Debugging Strategies part and Codeforces for the Competitive Programming part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: guessing without evidence on one side, and skipping fundamentals on the other.
+
+Picture the whole as a detective narrowing down suspects, working alongside athletic training for problem solving.
+
+Two habits help: first, change one thing at a time and record the result; second, review problems you could not solve and study the editorial.

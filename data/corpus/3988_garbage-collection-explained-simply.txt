@@ -1,0 +1,13 @@
+Garbage Collection Explained Simply
+
+If Garbage Collection sounds intimidating, relax. It is automatic memory management that finds and frees objects a program no longer uses, and the idea is simpler than the name suggests.
+
+Think of Garbage Collection as a cleaner who removes items nobody has touched in a while. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: reachability, generations, mark and sweep, and pause times. You do not need to master them all at once. Start with reachability, then add generations.
+
+You will meet Garbage Collection in work such as managed languages like Java and Python, reducing memory bugs, and long-running services.
+
+One practical tip is to measure allocation rates before tuning collector settings.
+
+Once Garbage Collection feels comfortable, read about C Pointers, which lives in the same neighborhood of ideas.

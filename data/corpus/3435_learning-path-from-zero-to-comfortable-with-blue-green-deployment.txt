@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Blue-Green Deployment
+
+This path is for a learner who has never studied Blue-Green Deployment before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Blue-Green Deployment is a release method that keeps two identical environments and switches traffic from the old one to the new one) and learn blue and green environments and traffic switching.
+
+Stage 2, hands-on: install AWS CodeDeploy, follow a tutorial, and build a small example involving zero-downtime releases.
+
+Stage 3, depth: study rollback and database compatibility, then deliberately explore this problem: database schema mismatches.
+
+Stage 4, application: apply Blue-Green Deployment to quick rollbacks, compare Kubernetes services with NGINX, and write up your results.
+
+Stage 5, review: teach Blue-Green Deployment to someone else, and then move on to Disaster Recovery.

@@ -1,0 +1,12 @@
+Questions to Ask About Integration Testing in Code Review
+
+Reviewing code that involves Integration Testing is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered slow suites?
+- Is Testcontainers used consistently, or are we mixing approaches?
+- Could we use disposable containers for test dependencies?
+- Would a test catch flaky external dependencies if it appeared later?
+- Is service boundaries clear to someone reading the code for the first time?
+- Does this change respect test databases, or does it work around it?
+
+Good reviews of work on Integration Testing are specific, kind and focused on fixtures, not on personal style.

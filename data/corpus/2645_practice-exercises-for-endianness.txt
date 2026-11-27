@@ -1,0 +1,11 @@
+Practice Exercises for Endianness
+
+These exercises build real understanding of Endianness. Do them in order, and write down your answers.
+
+Exercise 1: Explain how byte order marks and network byte order differ, using a drawing.
+Exercise 2: Pick Python struct and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble network protocols or binary file formats.
+Exercise 4: Compare htons and ntohl and hexdump for cross-platform data exchange and write down your conclusion.
+Exercise 5: Create a small example that deliberately triggers this problem: mixing byte orders. Then fix it.
+
+When you finish, compare your answers with the definition: Endianness is the order in which a computer stores the bytes of a multi-byte number.

@@ -1,0 +1,11 @@
+Single Sign-On in Real Projects
+
+Reading about Single Sign-On is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: company intranets. Here, identity provider drives the main design choices, and the team needs to guard against a single point of failure.
+
+Scenario two: reducing password fatigue. This time SAML matters most, and tools such as Okta help keep things manageable.
+
+Scenario three: centralized access control. The key idea is OpenID Connect, and the biggest risk is misconfigured redirects.
+
+Across all three scenarios, Single Sign-On stays the same idea: letting users log in once and access several applications. Only the details change.

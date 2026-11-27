@@ -1,0 +1,17 @@
+Apache Spark Do's and Don'ts
+
+A quick list of habits for working with Apache Spark.
+
+Do:
+- Learn DataFrames before anything else.
+- Try PySpark on a small example.
+- Make it a habit to avoid collecting large results onto a single machine.
+- Test the case of large ETL jobs early.
+
+Don't:
+- Ignore this: data skew.
+- Ignore this: too many small partitions.
+- Ignore this: collecting huge results onto the driver.
+- Adopt Apache Spark just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Apache Spark, a little patience with transformations and actions pays off more than any clever shortcut.

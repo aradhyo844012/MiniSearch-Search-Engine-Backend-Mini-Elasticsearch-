@@ -1,0 +1,12 @@
+Questions to Ask About Interrupts in Code Review
+
+Reviewing code that involves Interrupts is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does this change respect interrupt handlers, or does it work around it?
+- Have we considered long handlers?
+- Would a test catch race conditions with shared data if it appeared later?
+- Does the code handle the case of keyboard and mouse input correctly?
+- Is Linux /proc/interrupts used consistently, or are we mixing approaches?
+- Could we keep interrupt handlers short and defer the heavy work?
+
+Good reviews of work on Interrupts are specific, kind and focused on priorities, not on personal style.

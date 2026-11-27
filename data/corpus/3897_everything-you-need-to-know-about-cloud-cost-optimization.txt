@@ -1,0 +1,26 @@
+Everything You Need to Know About Cloud Cost Optimization
+
+This page collects the essentials about Cloud Cost Optimization in one place. In short, Cloud Cost Optimization is the practice of reducing cloud spending while keeping performance and reliability.
+
+Core concepts:
+- right-sizing
+- reserved capacity
+- tagging
+- usage reports
+
+Where it is used:
+- cutting idle resources
+- budgeting by team
+- choosing storage tiers
+
+Common problems:
+- forgotten test environments
+- over-provisioned databases
+- surprise data transfer charges
+
+Tools to know:
+- AWS Cost Explorer
+- Infracost
+- Kubecost
+
+Remember this above all: turning off the lights in rooms nobody is using is a good way to picture it, and the best habit is to tag every resource with an owner.

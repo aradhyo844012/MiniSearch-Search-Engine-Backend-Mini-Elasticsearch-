@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Star Schema Modeling
+
+This path is for a learner who has never studied Star Schema Modeling before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables) and learn fact tables and dimension tables.
+
+Stage 2, hands-on: install dbt, follow a tutorial, and build a small example involving business intelligence reports.
+
+Stage 3, depth: study surrogate keys and grain, then deliberately explore this problem: mixing different grains.
+
+Stage 4, application: apply Star Schema Modeling to data warehouses, compare Snowflake with Kimball techniques, and write up your results.
+
+Stage 5, review: teach Star Schema Modeling to someone else, and then move on to Feature Stores.

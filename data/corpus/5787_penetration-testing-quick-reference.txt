@@ -1,0 +1,15 @@
+Penetration Testing Quick Reference
+
+A one-screen reminder for Penetration Testing. Bookmark it and return when the details fade.
+
+What it is: authorized attempts to find and exploit weaknesses in a system before real attackers do.
+Key terms: scoping, reconnaissance, exploitation, and reporting.
+Typical uses: pre-launch security checks, compliance audits, and validating defenses.
+Risks: testing without written permission, ignoring the findings afterward, and relying only on automated scans.
+Tools: OWASP ZAP, Burp Suite, and Nmap.
+
+Mental picture: hiring a locksmith to test your doors.
+
+Habit to build: get written authorization before any test.
+
+See also: Encryption at Rest, which sits close to Penetration Testing in the area of Application Security.

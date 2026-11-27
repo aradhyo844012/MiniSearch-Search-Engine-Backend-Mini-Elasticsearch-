@@ -1,0 +1,10 @@
+Threat Modeling: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Threat Modeling with confidence. The subject itself is a structured way of identifying what could go wrong in a system and how to prevent it.
+
+assets: one of the building blocks of Threat Modeling. You should be able to explain it in a single sentence before moving on.
+attackers: one of the building blocks of Threat Modeling. It shows up whenever you work on designing new features.
+trust boundaries: one of the building blocks of Threat Modeling. Documentation for STRIDE usually mentions it early.
+mitigations: one of the building blocks of Threat Modeling. It shows up whenever you work on designing new features.
+
+Practice using these four terms in sentences about reviewing architecture. If the sentences feel natural, the vocabulary has stuck.

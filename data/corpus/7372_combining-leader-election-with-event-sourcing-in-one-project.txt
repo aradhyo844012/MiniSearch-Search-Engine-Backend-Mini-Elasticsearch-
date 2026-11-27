@@ -1,0 +1,15 @@
+Combining Leader Election with Event Sourcing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Leader Election and Event Sourcing can work together in a single project.
+
+Leader Election is a process by which nodes in a cluster choose one node to coordinate the work. Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them.
+
+Imagine a project that involves database primaries and audit trails. Leader Election brings heartbeats, while Event Sourcing brings event log.
+
+A sensible plan is to start with ZooKeeper for the Leader Election part and Apache Kafka for the Event Sourcing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flapping leaders on one side, and unbounded replay times on the other.
+
+Picture the whole as a classroom picking a monitor when the teacher leaves, working alongside a bank statement that lists every transaction instead of only the balance.
+
+Two habits help: first, tune heartbeat intervals against real network delays; second, version your events from the first day.

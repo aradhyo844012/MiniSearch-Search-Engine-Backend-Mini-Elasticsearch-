@@ -1,0 +1,17 @@
+Logging Best Practices Do's and Don'ts
+
+A quick list of habits for working with Logging Best Practices.
+
+Do:
+- Learn log levels before anything else.
+- Try the Python logging module on a small example.
+- Make it a habit to include a request ID in every log line.
+- Test the case of debugging production issues early.
+
+Don't:
+- Ignore this: logging sensitive data.
+- Ignore this: too much noise.
+- Ignore this: missing context.
+- Adopt Logging Best Practices just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Logging Best Practices, a little patience with structured logs pays off more than any clever shortcut.

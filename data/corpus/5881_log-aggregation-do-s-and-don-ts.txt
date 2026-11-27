@@ -1,0 +1,17 @@
+Log Aggregation Do's and Don'ts
+
+A quick list of habits for working with Log Aggregation.
+
+Do:
+- Learn shippers before anything else.
+- Try Elasticsearch on a small example.
+- Make it a habit to use structured JSON logs so that fields are searchable.
+- Test the case of troubleshooting across services early.
+
+Don't:
+- Ignore this: unbounded storage growth.
+- Ignore this: unstructured logs.
+- Ignore this: missing timestamps.
+- Adopt Log Aggregation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Log Aggregation, a little patience with indexing pays off more than any clever shortcut.

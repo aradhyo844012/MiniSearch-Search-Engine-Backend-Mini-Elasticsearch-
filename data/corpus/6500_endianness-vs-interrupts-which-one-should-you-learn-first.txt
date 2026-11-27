@@ -1,0 +1,13 @@
+Endianness vs Interrupts: Which One Should You Learn First?
+
+Learners often ask whether to study Endianness or Interrupts first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+Endianness is the order in which a computer stores the bytes of a multi-byte number, and it is closely tied to big-endian and little-endian. Interrupts, by contrast, is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors.
+
+Choose Endianness first if you care about network protocols or binary file formats. Choose Interrupts first if you care about keyboard and mouse input or timers.
+
+Think of Endianness as writing a date as day-month-year or as year-month-day, and of Interrupts as a phone call interrupting your reading. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Endianness, avoid mixing byte orders. With Interrupts, avoid long handlers.
+
+A good habit for Endianness is to always specify byte order in file and protocol formats. A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work.

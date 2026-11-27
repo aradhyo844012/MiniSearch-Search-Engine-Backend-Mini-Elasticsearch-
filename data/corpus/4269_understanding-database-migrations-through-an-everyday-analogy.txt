@@ -1,0 +1,9 @@
+Understanding Database Migrations Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a numbered set of renovation steps applied to a building in order.
+
+In that picture, up and down scripts is the first rule you follow, version tables is the next step, and backward compatibility and zero-downtime changes keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way, and it involves details such as locking large tables that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Alembic to learn the exact behavior. The same picture helps when you explain adding columns safely to a friend.

@@ -1,0 +1,10 @@
+Background Jobs: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Background Jobs with confidence. The subject itself is tasks that run outside the request cycle so users do not have to wait for them.
+
+queues: one of the building blocks of Background Jobs. Mixing it up with neighboring terms is a common source of confusion.
+workers: one of the building blocks of Background Jobs. Documentation for Celery usually mentions it early.
+retries: one of the building blocks of Background Jobs. You should be able to explain it in a single sentence before moving on.
+scheduling: one of the building blocks of Background Jobs. It shows up whenever you work on sending emails.
+
+Practice using these four terms in sentences about resizing images. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,13 @@
+Progressive Web Apps vs Web Storage: Which One Should You Learn First?
+
+Learners often ask whether to study Progressive Web Apps or Web Storage first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps, and it is closely tied to web app manifest and service worker. Web Storage, by contrast, is browser features for keeping small amounts of data on the user's device, and it is closely tied to localStorage and sessionStorage.
+
+Choose Progressive Web Apps first if you care about offline-friendly tools or lightweight alternatives to native apps. Choose Web Storage first if you care about saving user preferences or remembering form drafts.
+
+Think of Progressive Web Apps as a website that packs its own suitcase so it still works when the network is gone, and of Web Storage as a sticky note on the fridge that only your household can read. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Progressive Web Apps, avoid ignoring platform limitations. With Web Storage, avoid storing sensitive data.
+
+A good habit for Progressive Web Apps is to test the app in airplane mode. A good habit for Web Storage is to wrap every read and write in error handling.

@@ -1,0 +1,13 @@
+Teaching Mocking and Stubbing to a Teammate
+
+Explaining Mocking and Stubbing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a crash test dummy standing in for a real passenger. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Mocking and Stubbing is replacing real dependencies with controlled fakes during tests. Avoid jargon at this stage.
+
+Walk through an example involving isolating units, naming mocks and stubs as they come up.
+
+Ask your teammate to explain spies in Mocking and Stubbing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, over-mocking, and suggest this habit: prefer simple fakes over deep mock chains.

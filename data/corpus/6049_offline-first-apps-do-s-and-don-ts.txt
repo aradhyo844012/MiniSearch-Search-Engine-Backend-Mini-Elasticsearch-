@@ -1,0 +1,17 @@
+Offline-First Apps Do's and Don'ts
+
+A quick list of habits for working with Offline-First Apps.
+
+Do:
+- Learn local storage before anything else.
+- Try SQLite on a small example.
+- Make it a habit to show users which changes have not synced yet.
+- Test the case of field service tools early.
+
+Don't:
+- Ignore this: unresolved sync conflicts.
+- Ignore this: unbounded local data.
+- Ignore this: poor feedback about pending changes.
+- Adopt Offline-First Apps just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Offline-First Apps, a little patience with sync queues pays off more than any clever shortcut.

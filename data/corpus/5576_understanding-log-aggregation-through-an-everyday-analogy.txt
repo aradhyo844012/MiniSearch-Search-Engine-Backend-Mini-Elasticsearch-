@@ -1,0 +1,9 @@
+Understanding Log Aggregation Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture gathering notes from every desk into a single searchable binder.
+
+In that picture, shippers is the first rule you follow, indexing is the next step, and retention and search queries keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Log Aggregation is collecting logs from many machines into one searchable place, and it involves details such as unbounded storage growth that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Elasticsearch to learn the exact behavior. The same picture helps when you explain troubleshooting across services to a friend.

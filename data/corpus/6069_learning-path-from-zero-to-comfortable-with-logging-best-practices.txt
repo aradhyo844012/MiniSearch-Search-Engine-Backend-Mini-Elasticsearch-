@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Logging Best Practices
+
+This path is for a learner who has never studied Logging Best Practices before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Logging Best Practices is recording useful, structured information about what an application is doing) and learn log levels and structured logs.
+
+Stage 2, hands-on: install the Python logging module, follow a tutorial, and build a small example involving debugging production issues.
+
+Stage 3, depth: study correlation IDs and log rotation, then deliberately explore this problem: logging sensitive data.
+
+Stage 4, application: apply Logging Best Practices to auditing actions, compare the ELK stack with Grafana Loki, and write up your results.
+
+Stage 5, review: teach Logging Best Practices to someone else, and then move on to gRPC.

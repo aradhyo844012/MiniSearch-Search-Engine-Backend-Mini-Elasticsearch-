@@ -1,0 +1,11 @@
+Scaling Considerations for Boolean Logic and Gates
+
+A design that works for a classroom project can behave very differently under real load. Here is how Boolean Logic and Gates changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding AND, OR and NOT and getting writing conditions right.
+
+Medium scale: problems start to appear. Watch for operator precedence mistakes and forgetting short-circuit behavior, and measure with Logisim before changing anything.
+
+Large scale: De Morgan's laws and logic gates move from background details to central design questions. Teams often revisit their choices around designing circuits at this stage.
+
+Before you scale, write a truth table whenever a condition feels confusing. It is cheaper to build that habit early than to fix a crisis later.

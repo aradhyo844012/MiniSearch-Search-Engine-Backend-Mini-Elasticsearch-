@@ -1,0 +1,26 @@
+Everything You Need to Know About Code Coverage
+
+This page collects the essentials about Code Coverage in one place. In short, Code Coverage is a measure of how much of the code is run by tests.
+
+Core concepts:
+- line coverage
+- branch coverage
+- coverage reports
+- thresholds
+
+Where it is used:
+- finding untested code
+- setting quality gates
+- tracking test progress
+
+Common problems:
+- chasing 100 percent
+- treating coverage as quality
+- ignoring branch coverage
+
+Tools to know:
+- coverage.py
+- JaCoCo
+- Istanbul
+
+Remember this above all: a map showing which rooms a security guard has walked through is a good way to picture it, and the best habit is to use coverage to find gaps, not to judge quality.

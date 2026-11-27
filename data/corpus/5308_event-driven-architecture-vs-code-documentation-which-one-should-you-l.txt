@@ -1,0 +1,13 @@
+Event-Driven Architecture vs Code Documentation: Which One Should You Learn First?
+
+Learners often ask whether to study Event-Driven Architecture or Code Documentation first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers. Code Documentation, by contrast, is written explanations that help others understand and use code, and it is closely tied to README files and docstrings.
+
+Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications. Choose Code Documentation first if you care about onboarding new developers or describing APIs.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it, and of Code Documentation as a map left for the next traveler. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event-Driven Architecture, avoid hard-to-trace flows. With Code Documentation, avoid outdated docs.
+
+A good habit for Event-Driven Architecture is to document every event name and schema. A good habit for Code Documentation is to keep documentation in the same repository as the code.

@@ -1,0 +1,17 @@
+Service Mesh for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Service Mesh.
+
+Learning goals:
+1. Explain Service Mesh in your own words.
+2. Describe sidecar proxies, mutual TLS, traffic policies, and observability.
+3. Give examples from securing service traffic and retries and timeouts.
+4. Name three problems to watch for.
+
+Start with the definition: Service Mesh is an infrastructure layer that manages communication between services through proxies. Then draw a postal system that applies delivery rules between buildings on paper and label the four terms from the goals above.
+
+Self-test questions: Why is added latency and complexity a problem? How does mutual TLS relate to traffic policies? When would you choose Istio or Linkerd?
+
+Study habit: adopt it only once the number of services makes manual setup painful.
+
+When you feel ready, compare Service Mesh with Disaster Recovery and write down three differences.

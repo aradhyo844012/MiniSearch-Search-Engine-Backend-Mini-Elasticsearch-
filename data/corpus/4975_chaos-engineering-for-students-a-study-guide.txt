@@ -1,0 +1,17 @@
+Chaos Engineering for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Chaos Engineering.
+
+Learning goals:
+1. Explain Chaos Engineering in your own words.
+2. Describe steady state, hypotheses, blast radius, and fault injection.
+3. Give examples from testing resilience and validating failover.
+4. Name three problems to watch for.
+
+Start with the definition: Chaos Engineering is deliberately causing failures in a system to learn how it responds. Then draw a fire drill where you secretly block one exit on paper and label the four terms from the goals above.
+
+Self-test questions: Why is experimenting without safeguards a problem? How does hypotheses relate to blast radius? When would you choose Chaos Monkey or Gremlin?
+
+Study habit: start with small experiments in a test environment.
+
+When you feel ready, compare Chaos Engineering with Regression Testing and write down three differences.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Load Testing
+
+This path is for a learner who has never studied Load Testing before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Load Testing is measuring how a system behaves under expected and heavy traffic) and learn virtual users and throughput.
+
+Stage 2, hands-on: install k6, follow a tutorial, and build a small example involving capacity planning.
+
+Stage 3, depth: study latency percentiles and ramp-up, then deliberately explore this problem: testing unrealistic traffic.
+
+Stage 4, application: apply Load Testing to finding bottlenecks, compare Locust with Apache JMeter, and write up your results.
+
+Stage 5, review: teach Load Testing to someone else, and then move on to Static Analysis.

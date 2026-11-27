@@ -1,0 +1,15 @@
+Combining Pagination with Object-Relational Mappers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Pagination and Object-Relational Mappers can work together in a single project.
+
+Pagination is splitting large result sets into smaller pages that clients request one at a time. Object-Relational Mappers is libraries that map database tables to objects in code.
+
+Imagine a project that involves search results and building CRUD apps quickly. Pagination brings offset pagination, while Object-Relational Mappers brings models.
+
+A sensible plan is to start with SQL LIMIT and OFFSET for the Pagination part and SQLAlchemy for the Object-Relational Mappers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unstable sort order on one side, and loading entire tables on the other.
+
+Picture the whole as reading a long book one chapter at a time with a bookmark, working alongside a translator between the language of tables and the language of objects.
+
+Two habits help: first, prefer cursors for large or fast-changing data; second, log the generated SQL during development.

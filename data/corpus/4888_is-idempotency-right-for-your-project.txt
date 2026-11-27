@@ -1,0 +1,11 @@
+Is Idempotency Right for Your Project?
+
+Before adopting Idempotency, ask whether it fits the problem. Remember that Idempotency is the property that repeating an operation gives the same result as doing it once.
+
+It is a good fit when your work involves payment APIs or message processing, and when your team understands idempotency keys.
+
+Be cautious when the project is very small, when deadlines leave no room to learn safe retries, or when you cannot manage these risks: keys that expire too soon, side effects outside the guarded step, and reusing keys for different requests.
+
+A simple decision test: write down the problem in one sentence, then check whether deduplication and at-least-once delivery are part of the answer. If they are, Idempotency is probably worth a closer look.
+
+If you decide to go ahead, start small with retrying failed requests and store the result with the key so retries return the same response.

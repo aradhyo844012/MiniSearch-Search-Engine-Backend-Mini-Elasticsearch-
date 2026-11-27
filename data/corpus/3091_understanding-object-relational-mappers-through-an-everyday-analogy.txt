@@ -1,0 +1,9 @@
+Understanding Object-Relational Mappers Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a translator between the language of tables and the language of objects.
+
+In that picture, models is the first rule you follow, queries is the next step, and relationships and migrations keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Object-Relational Mappers is libraries that map database tables to objects in code, and it involves details such as N+1 queries that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for SQLAlchemy to learn the exact behavior. The same picture helps when you explain building CRUD apps quickly to a friend.

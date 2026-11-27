@@ -1,0 +1,15 @@
+Combining Greedy Algorithms with Backtracking in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Greedy Algorithms and Backtracking can work together in a single project.
+
+Greedy Algorithms is algorithms that build a solution by always taking the locally best choice. Backtracking is a search technique that builds solutions step by step and undoes steps that lead to dead ends.
+
+Imagine a project that involves interval scheduling and solving Sudoku. Greedy Algorithms brings greedy choice property, while Backtracking brings decision tree.
+
+A sensible plan is to start with pen and paper proofs for the Greedy Algorithms part and Python recursion for the Backtracking part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: missing counterexamples on one side, and missing pruning rules on the other.
+
+Picture the whole as picking the closest open parking spot at every junction and hoping it works out, working alongside walking a maze and returning to the last fork whenever you hit a wall.
+
+Two habits help: first, try to break your greedy idea with a small counterexample before trusting it; second, prune as early as possible because the savings multiply.

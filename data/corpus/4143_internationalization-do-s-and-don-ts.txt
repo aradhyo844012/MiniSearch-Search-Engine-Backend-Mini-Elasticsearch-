@@ -1,0 +1,17 @@
+Internationalization Do's and Don'ts
+
+A quick list of habits for working with Internationalization.
+
+Do:
+- Learn locale detection before anything else.
+- Try i18next on a small example.
+- Make it a habit to move every user-facing string into translation files from the first day.
+- Test the case of global products early.
+
+Don't:
+- Ignore this: hard-coded strings.
+- Ignore this: text that overflows layouts.
+- Ignore this: assuming left-to-right text.
+- Adopt Internationalization just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Internationalization, a little patience with translation files pays off more than any clever shortcut.

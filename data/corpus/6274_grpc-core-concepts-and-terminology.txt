@@ -1,0 +1,10 @@
+gRPC: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about gRPC with confidence. The subject itself is a framework for fast remote procedure calls using typed contracts.
+
+protocol buffers: one of the building blocks of gRPC. Documentation for protoc usually mentions it early.
+service definitions: one of the building blocks of gRPC. Documentation for protoc usually mentions it early.
+streaming: one of the building blocks of gRPC. You should be able to explain it in a single sentence before moving on.
+HTTP/2: one of the building blocks of gRPC. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about low-latency APIs. If the sentences feel natural, the vocabulary has stuck.

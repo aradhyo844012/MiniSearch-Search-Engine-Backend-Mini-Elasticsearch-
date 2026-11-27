@@ -1,0 +1,13 @@
+Teaching Webhooks to a Teammate
+
+Explaining Webhooks to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a doorbell that rings when a delivery arrives instead of you checking the porch. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Webhooks is HTTP callbacks that let one service notify another when an event happens. Avoid jargon at this stage.
+
+Walk through an example involving payment notifications, naming event payloads and signature verification as they come up.
+
+Ask your teammate to explain retries in Webhooks back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, not verifying signatures, and suggest this habit: respond quickly and process the event in a background job.

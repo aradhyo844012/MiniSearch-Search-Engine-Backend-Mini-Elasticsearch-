@@ -1,0 +1,13 @@
+Backtracking Explained Simply
+
+If Backtracking sounds intimidating, relax. It is a search technique that builds solutions step by step and undoes steps that lead to dead ends, and the idea is simpler than the name suggests.
+
+Think of Backtracking as walking a maze and returning to the last fork whenever you hit a wall. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: decision tree, pruning, state restoration, and constraint checking. You do not need to master them all at once. Start with decision tree, then add pruning.
+
+People reach for Backtracking when they work on solving Sudoku, generating permutations, and N-Queens puzzles.
+
+One practical tip is to prune as early as possible because the savings multiply.
+
+After Backtracking, a natural next topic is Greedy Algorithms.

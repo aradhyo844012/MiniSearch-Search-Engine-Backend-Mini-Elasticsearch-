@@ -1,0 +1,15 @@
+Combining A/B Testing with Star Schema Modeling in One Project
+
+Real projects rarely use one idea in isolation. This article shows how A/B Testing and Star Schema Modeling can work together in a single project.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better. Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.
+
+Imagine a project that involves testing page designs and business intelligence reports. A/B Testing brings control and variant, while Star Schema Modeling brings fact tables.
+
+A sensible plan is to start with Optimizely for the A/B Testing part and dbt for the Star Schema Modeling part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: testing too many variants on one side, and over-normalized dimensions on the other.
+
+Picture the whole as taste-testing two recipes on randomly chosen guests, working alongside a wheel with a hub of numbers and spokes of descriptions.
+
+Two habits help: first, decide the success metric and sample size before you begin; second, state the grain of the fact table before designing anything else.

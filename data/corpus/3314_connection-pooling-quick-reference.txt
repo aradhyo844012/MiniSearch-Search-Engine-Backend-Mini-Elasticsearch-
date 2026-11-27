@@ -1,0 +1,15 @@
+Connection Pooling Quick Reference
+
+A one-screen reminder for Connection Pooling. Bookmark it and return when the details fade.
+
+What it is: reusing a limited set of open database connections instead of opening a new one for every request.
+Key terms: pool size, idle connections, timeouts, and connection leaks.
+Typical uses: web backends, serverless functions that call databases, and high-traffic APIs.
+Risks: pools larger than the database allows, leaked connections, and long transactions that hold connections.
+Tools: PgBouncer, HikariCP, and SQLAlchemy pools.
+
+Mental picture: a rental desk that lends a few shared bikes instead of buying one per visitor.
+
+Habit to build: always return connections in a finally block.
+
+See also: Write-Ahead Logging, which sits close to Connection Pooling in the area of Storage Engines and Databases.

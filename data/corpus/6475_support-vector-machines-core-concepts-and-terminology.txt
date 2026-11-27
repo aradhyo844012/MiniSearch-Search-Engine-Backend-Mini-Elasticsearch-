@@ -1,0 +1,10 @@
+Support Vector Machines: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Support Vector Machines with confidence. The subject itself is models that classify data by finding the boundary with the widest margin between classes.
+
+margin: one of the building blocks of Support Vector Machines. Mixing it up with neighboring terms is a common source of confusion.
+support vectors: one of the building blocks of Support Vector Machines. Mixing it up with neighboring terms is a common source of confusion.
+kernels: one of the building blocks of Support Vector Machines. Documentation for scikit-learn usually mentions it early.
+regularization: one of the building blocks of Support Vector Machines. It shows up whenever you work on text classification.
+
+Practice using these four terms in sentences about small high-dimensional datasets. If the sentences feel natural, the vocabulary has stuck.

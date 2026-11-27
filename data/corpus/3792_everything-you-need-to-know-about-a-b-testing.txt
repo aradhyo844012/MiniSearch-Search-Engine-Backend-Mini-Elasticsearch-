@@ -1,0 +1,26 @@
+Everything You Need to Know About A/B Testing
+
+This page collects the essentials about A/B Testing in one place. In short, A/B Testing is an experiment that compares two versions of something to see which performs better.
+
+Core concepts:
+- control and variant
+- random assignment
+- metrics
+- sample size
+
+Where it is used:
+- testing page designs
+- comparing ranking algorithms
+- evaluating new features
+
+Common problems:
+- stopping tests early
+- testing too many variants
+- ignoring sample size
+
+Tools to know:
+- Optimizely
+- GrowthBook
+- statsmodels
+
+Remember this above all: taste-testing two recipes on randomly chosen guests is a good way to picture it, and the best habit is to decide the success metric and sample size before you begin.

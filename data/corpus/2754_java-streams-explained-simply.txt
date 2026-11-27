@@ -1,0 +1,13 @@
+Java Streams Explained Simply
+
+Here is Java Streams without the jargon: it is a way of processing collections with chains of declarative operations.
+
+Think of Java Streams as a conveyor belt where each station changes the item before passing it on. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: map, filter, reduce, and lazy evaluation. You do not need to master them all at once. Start with map, then add filter.
+
+You will meet Java Streams in work such as transforming lists, aggregating records, and processing data in parallel.
+
+One practical tip is to keep each stream step small and readable.
+
+Once Java Streams feels comfortable, read about Python Decorators, which lives in the same neighborhood of ideas.

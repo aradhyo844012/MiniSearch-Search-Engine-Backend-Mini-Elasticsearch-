@@ -1,0 +1,17 @@
+Test-Driven Development for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Test-Driven Development.
+
+Learning goals:
+1. Explain Test-Driven Development in your own words.
+2. Describe red, green, refactor, small steps, test first, and fast feedback.
+3. Give examples from designing small modules and preventing regressions.
+4. Name three problems to watch for.
+
+Start with the definition: Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass. Then draw writing the exam questions before teaching the lesson on paper and label the four terms from the goals above.
+
+Self-test questions: Why is writing tests that are too large a problem? How does small steps relate to test first? When would you choose pytest or JUnit?
+
+Study habit worth keeping: keep each red-green cycle to a few minutes.
+
+When you feel ready, compare Test-Driven Development with Software Estimation and write down three differences.

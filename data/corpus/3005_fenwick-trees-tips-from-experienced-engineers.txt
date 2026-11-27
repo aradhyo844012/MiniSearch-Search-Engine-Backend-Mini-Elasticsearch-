@@ -1,0 +1,11 @@
+Fenwick Trees Tips from Experienced Engineers
+
+Engineers who work with Fenwick Trees regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can start indexing from one to keep the bit tricks simple.
+2. When something behaves strangely, revisit lowest set bit before anything else.
+3. Test the case of counting inversions early, before the design hardens.
+4. Write down why you chose Fenwick Trees so the next person understands the decision.
+5. Do not skip binary indexed trees; everything else builds on it.
+
+None of these tips needs special equipment, and all of them apply to maintaining running totals as well.

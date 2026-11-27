@@ -1,0 +1,13 @@
+Debugging Strategies vs Code Editors and IDEs: Which One Should You Learn First?
+
+Learners often ask whether to study Debugging Strategies or Code Editors and IDEs first. Both sit in the area of Developer Career and Tools, so the honest answer is that it depends on your goals.
+
+Debugging Strategies is systematic ways of finding and fixing the cause of unexpected program behavior, and it is closely tied to reproducing the bug and isolating the cause. Code Editors and IDEs, by contrast, is tools for writing, navigating and debugging code, and it is closely tied to syntax highlighting and autocomplete.
+
+Choose Debugging Strategies first if you care about fixing production issues or learning unfamiliar code. Choose Code Editors and IDEs first if you care about daily development or navigating large codebases.
+
+Think of Debugging Strategies as a detective narrowing down suspects, and of Code Editors and IDEs as a well-organized workbench. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Debugging Strategies, avoid changing many things at once. With Code Editors and IDEs, avoid installing too many extensions.
+
+A good habit for Debugging Strategies is to change one thing at a time and record the result. A good habit for Code Editors and IDEs is to learn the shortcuts for the actions you repeat most.

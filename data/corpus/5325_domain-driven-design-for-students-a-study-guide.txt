@@ -1,0 +1,17 @@
+Domain-Driven Design for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Domain-Driven Design.
+
+Learning goals:
+1. Explain Domain-Driven Design in your own words.
+2. Describe ubiquitous language, bounded contexts, aggregates, and entities and value objects.
+3. Give examples from complex business systems and aligning developers with domain experts.
+4. Name three problems to watch for.
+
+Start with the definition: Domain-Driven Design is an approach to software that models the code around the real business domain. Then draw writing software in the same vocabulary the business speaks on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using it for simple CRUD apps a problem? How does bounded contexts relate to aggregates? When would you choose event storming or UML?
+
+Study habit worth keeping: agree on shared terms with domain experts before drawing classes.
+
+When you feel ready, compare Domain-Driven Design with Modular Monoliths and write down three differences.

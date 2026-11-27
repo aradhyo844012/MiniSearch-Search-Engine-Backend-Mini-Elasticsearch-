@@ -1,0 +1,9 @@
+Understanding Convolutional Neural Networks Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a magnifying glass sweeping across a photo looking for edges and shapes.
+
+In that picture, filters is the first rule you follow, pooling is the next step, and feature maps and stride keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns, and it involves details such as too little training data that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PyTorch to learn the exact behavior. The same picture helps when you explain image classification to a friend.

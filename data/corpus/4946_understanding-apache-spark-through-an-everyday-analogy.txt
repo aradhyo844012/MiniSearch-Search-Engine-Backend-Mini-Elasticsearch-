@@ -1,0 +1,9 @@
+Understanding Apache Spark Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a team of workers each processing a share of a huge pile of papers.
+
+In that picture, DataFrames is the first rule you follow, transformations and actions is the next step, and partitions and lazy execution keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Apache Spark is a distributed engine for processing large datasets across many machines, and it involves details such as data skew that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for PySpark to learn the exact behavior. The same picture helps when you explain large ETL jobs to a friend.

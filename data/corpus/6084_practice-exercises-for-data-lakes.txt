@@ -1,0 +1,11 @@
+Practice Exercises for Data Lakes
+
+These exercises build real understanding of Data Lakes. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: turning into a data swamp. Then fix it.
+Exercise 2: Explain how partitioning and metadata catalogs differ, using a drawing.
+Exercise 3: Compare Delta Lake and Apache Iceberg for analytics across many sources and write down your conclusion.
+Exercise 4: List three situations from your own experience that resemble storing logs and events or machine learning datasets.
+Exercise 5: Write a short paragraph describing Data Lakes and include the term raw storage.
+
+When you finish, compare your answers with the definition: Data Lakes is large storage systems that keep raw data in its original format until it is needed.

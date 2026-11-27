@@ -1,0 +1,13 @@
+Debugging Random Forests: A Field Guide
+
+When something goes wrong around Random Forests, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: treating importance scores as causes, very large forests being slow, and ignoring class imbalance.
+Step 3: revisit bagging and feature randomness, since misunderstandings there cause many bugs.
+Step 4: use scikit-learn or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Random Forests in work such as tabular predictions come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, tune the number of trees only after the basics work. It prevents a surprising number of repeat problems.

@@ -1,0 +1,15 @@
+Combining Assembly Language Basics with GPUs and Parallelism in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Assembly Language Basics and GPUs and Parallelism can work together in a single project.
+
+Assembly Language Basics is low-level instructions that map closely to what a processor actually executes. GPUs and Parallelism is processors with thousands of small cores that handle many similar calculations at once.
+
+Imagine a project that involves understanding compiled code and training neural networks. Assembly Language Basics brings registers, while GPUs and Parallelism brings threads and blocks.
+
+A sensible plan is to start with GDB for the Assembly Language Basics part and CUDA for the GPUs and Parallelism part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: stack corruption on one side, and branch-heavy code on the other.
+
+Picture the whole as the individual muscle movements behind a simple action, working alongside a stadium of workers each doing one small identical task.
+
+Two habits help: first, read the assembly of a tiny C function to see what the compiler does; second, minimize copies between CPU and GPU memory.

@@ -1,0 +1,11 @@
+Is Apache Spark Right for Your Project?
+
+Before adopting Apache Spark, ask whether it fits the problem. Remember that Apache Spark is a distributed engine for processing large datasets across many machines.
+
+It is a good fit when your work involves large ETL jobs or machine learning on big data, and when your team understands DataFrames.
+
+Be cautious when the project is very small, when deadlines leave no room to learn transformations and actions, or when you cannot manage these risks: data skew, too many small partitions, and collecting huge results onto the driver.
+
+A simple decision test: write down the problem in one sentence, then check whether partitions and lazy execution are part of the answer. If they are, Apache Spark is probably worth a closer look.
+
+If you decide to go ahead, start small with log analysis and avoid collecting large results onto a single machine.

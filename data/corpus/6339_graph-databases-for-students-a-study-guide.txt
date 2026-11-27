@@ -1,0 +1,17 @@
+Graph Databases for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Graph Databases.
+
+Learning goals:
+1. Explain Graph Databases in your own words.
+2. Describe nodes, edges, properties, and traversal queries.
+3. Give examples from social networks and recommendation engines.
+4. Name three problems to watch for.
+
+Start with the definition: Graph Databases is databases that store data as nodes and relationships and query connections directly. Then draw a city map where intersections are records and roads are relationships on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using them for simple tabular data a problem? How does edges relate to properties? When would you choose Neo4j or Cypher?
+
+Study habit: limit traversal depth in every exploratory query.
+
+When you feel ready, compare Graph Databases with B-Trees on Disk and write down three differences.

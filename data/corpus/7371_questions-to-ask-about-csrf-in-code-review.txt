@@ -1,0 +1,12 @@
+Questions to Ask About CSRF in Code Review
+
+Reviewing code that involves CSRF is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Django CSRF middleware used consistently, or are we mixing approaches?
+- Is anti-CSRF tokens clear to someone reading the code for the first time?
+- Would a test catch skipping tokens on cookie-based APIs if it appeared later?
+- Could we combine SameSite cookies with anti-CSRF tokens?
+- Does the code handle the case of protecting forms correctly?
+- Have we avoided this problem: misconfigured SameSite settings?
+
+Good reviews of work on CSRF are specific, kind and focused on SameSite cookies, not on personal style.

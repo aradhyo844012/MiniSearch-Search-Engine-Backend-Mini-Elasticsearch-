@@ -1,0 +1,10 @@
+CSRF: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about CSRF with confidence. The subject itself is an attack that tricks a logged-in user's browser into sending unwanted requests to a site.
+
+session cookies: one of the building blocks of CSRF. Documentation for Django CSRF middleware usually mentions it early.
+anti-CSRF tokens: one of the building blocks of CSRF. You should be able to explain it in a single sentence before moving on.
+SameSite cookies: one of the building blocks of CSRF. Mixing it up with neighboring terms is a common source of confusion.
+state-changing requests: one of the building blocks of CSRF. Documentation for Django CSRF middleware usually mentions it early.
+
+Practice using these four terms in sentences about securing account settings. If the sentences feel natural, the vocabulary has stuck.

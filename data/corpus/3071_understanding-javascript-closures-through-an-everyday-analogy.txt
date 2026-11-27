@@ -1,0 +1,9 @@
+Understanding JavaScript Closures Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a backpack a function carries with everything it needs from home.
+
+In that picture, lexical scope is the first rule you follow, captured variables is the next step, and function factories and memory retention keep everything running smoothly.
+
+Every analogy breaks down eventually. Real JavaScript Closures is functions that remember the variables from the place where they were created, and it involves details such as loop variables captured by mistake that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Chrome DevTools to learn the exact behavior. The same picture helps when you explain keeping private state in modules to a friend.

@@ -1,0 +1,13 @@
+Domain-Driven Design vs Event-Driven Architecture: Which One Should You Learn First?
+
+Learners often ask whether to study Domain-Driven Design or Event-Driven Architecture first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Domain-Driven Design is an approach to software that models the code around the real business domain, and it is closely tied to ubiquitous language and bounded contexts. Event-Driven Architecture, by contrast, is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers.
+
+Choose Domain-Driven Design first if you care about complex business systems or aligning developers with domain experts. Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications.
+
+Think of Domain-Driven Design as writing software in the same vocabulary the business speaks, and of Event-Driven Architecture as a notice board where people post news and others react when they see it. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Domain-Driven Design, avoid using it for simple CRUD apps. With Event-Driven Architecture, avoid hard-to-trace flows.
+
+A good habit for Domain-Driven Design is to agree on shared terms with domain experts before drawing classes. A good habit for Event-Driven Architecture is to document every event name and schema.

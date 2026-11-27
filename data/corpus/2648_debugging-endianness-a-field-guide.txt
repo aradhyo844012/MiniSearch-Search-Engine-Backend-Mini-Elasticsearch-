@@ -1,0 +1,13 @@
+Debugging Endianness: A Field Guide
+
+When something goes wrong around Endianness, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: mixing byte orders, assuming all machines are alike, and forgetting to convert before sending.
+Step 3: revisit big-endian and little-endian, since misunderstandings there cause many bugs.
+Step 4: use Python struct or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Endianness in work such as network protocols come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, always specify byte order in file and protocol formats. It prevents a surprising number of repeat problems.

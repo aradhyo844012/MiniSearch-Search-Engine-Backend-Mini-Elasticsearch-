@@ -1,0 +1,11 @@
+Is JavaScript Closures Right for Your Project?
+
+Before adopting JavaScript Closures, ask whether it fits the problem. Remember that JavaScript Closures is functions that remember the variables from the place where they were created.
+
+It is a good fit when your work involves keeping private state in modules or event handlers that need context, and when your team understands lexical scope.
+
+Be cautious when the project is very small, when deadlines leave no room to learn captured variables, or when you cannot manage these risks: loop variables captured by mistake, memory leaks from long-lived closures, and accidentally sharing mutable state.
+
+A simple decision test: write down the problem in one sentence, then check whether function factories and memory retention are part of the answer. If they are, JavaScript Closures is probably worth a closer look.
+
+If you decide to go ahead, start small with callbacks that remember settings and use let instead of var inside loops.

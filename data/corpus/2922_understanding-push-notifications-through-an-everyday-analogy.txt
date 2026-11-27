@@ -1,0 +1,9 @@
+Understanding Push Notifications Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a courier who knocks on your door when a package arrives.
+
+In that picture, device tokens is the first rule you follow, push services is the next step, and payloads and permissions keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Push Notifications is messages sent to a user's device from a server even when the app is closed, and it involves details such as asking for permission too early that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Firebase Cloud Messaging to learn the exact behavior. The same picture helps when you explain order updates to a friend.

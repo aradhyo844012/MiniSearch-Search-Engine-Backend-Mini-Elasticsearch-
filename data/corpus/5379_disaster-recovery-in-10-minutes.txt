@@ -1,0 +1,15 @@
+Disaster Recovery in 10 Minutes
+
+You have ten minutes, so here is the fast route through Disaster Recovery.
+
+Minutes 1 and 2, the definition: Disaster Recovery is the plans and systems that restore services after major failures.
+
+Minutes 3 and 4, the vocabulary: learn recovery time objective, recovery point objective, failover regions, and runbooks.
+
+Minutes 5 and 6, the picture: imagine a fire drill for a whole system. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through surviving regional outages, meeting compliance needs, and protecting critical data.
+
+Minutes 9 and 10, the traps and the tools: watch for untested plans and outdated runbooks, then try AWS Backup for a first experiment.
+
+If you have a spare minute, remember to run a failover exercise on a regular schedule.

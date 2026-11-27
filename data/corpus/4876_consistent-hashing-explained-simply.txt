@@ -1,0 +1,13 @@
+Consistent Hashing Explained Simply
+
+Here is Consistent Hashing without the jargon: it is a way of mapping keys to servers so that adding or removing servers moves very few keys.
+
+Think of Consistent Hashing as seats around a round table where a new guest only displaces their neighbor. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: hash ring, virtual nodes, key placement, and rebalancing. You do not need to master them all at once. Start with hash ring, then add virtual nodes.
+
+You will meet Consistent Hashing in work such as distributed caches, sharded databases, and load balancing.
+
+One practical tip is to use many virtual nodes per server to even out the load.
+
+After Consistent Hashing, a natural next topic is Raft Consensus.

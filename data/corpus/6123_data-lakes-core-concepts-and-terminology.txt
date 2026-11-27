@@ -1,0 +1,10 @@
+Data Lakes: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Data Lakes with confidence. The subject itself is large storage systems that keep raw data in its original format until it is needed.
+
+raw storage: one of the building blocks of Data Lakes. Documentation for Amazon S3 usually mentions it early.
+schema on read: one of the building blocks of Data Lakes. Documentation for Amazon S3 usually mentions it early.
+partitioning: one of the building blocks of Data Lakes. It shows up whenever you work on storing logs and events.
+metadata catalogs: one of the building blocks of Data Lakes. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about machine learning datasets. If the sentences feel natural, the vocabulary has stuck.

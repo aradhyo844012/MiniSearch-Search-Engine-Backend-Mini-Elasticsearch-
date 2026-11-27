@@ -1,0 +1,13 @@
+System Calls Explained Simply
+
+If System Calls sounds intimidating, relax. It is the controlled doorway through which programs ask the operating system to do privileged work, and the idea is simpler than the name suggests.
+
+Think of System Calls as a service window where a customer asks staff to do things in the back office. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: user mode and kernel mode, syscall numbers, file descriptors, and libc wrappers. You do not need to master them all at once. Start with user mode and kernel mode, then add syscall numbers.
+
+You will meet System Calls in work such as reading and writing files, creating processes, and using network sockets.
+
+One practical tip is to use strace to see what your program really asks the kernel to do.
+
+Once System Calls feels comfortable, read about Boolean Logic and Gates, which lives in the same neighborhood of ideas.

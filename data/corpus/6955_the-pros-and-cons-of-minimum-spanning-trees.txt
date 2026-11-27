@@ -1,0 +1,15 @@
+The Pros and Cons of Minimum Spanning Trees
+
+No technology is free of trade-offs, and Minimum Spanning Trees is no exception. Here is an honest summary.
+
+Advantages:
+- Supports designing cable networks
+- Makes clustering data easier
+- Helps with reducing infrastructure cost
+
+Drawbacks and risks:
+- Risk: using it on directed graphs
+- Risk: forgetting that the graph must be connected
+- Risk: treating ties as errors
+
+Weigh the two lists against your own project. If the advantages match your needs, such as designing cable networks, and you can manage the risks, Minimum Spanning Trees is a sound choice. Whatever you decide, sort the edges once and reuse the order when testing variations.

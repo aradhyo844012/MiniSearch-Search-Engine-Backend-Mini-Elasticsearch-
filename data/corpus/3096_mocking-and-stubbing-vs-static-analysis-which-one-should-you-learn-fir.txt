@@ -1,0 +1,13 @@
+Mocking and Stubbing vs Static Analysis: Which One Should You Learn First?
+
+Learners often ask whether to study Mocking and Stubbing or Static Analysis first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Mocking and Stubbing is replacing real dependencies with controlled fakes during tests, and it is closely tied to mocks and stubs. Static Analysis, by contrast, is automated checking of source code for bugs and style problems without running it, and it is closely tied to linters and type checkers.
+
+Choose Mocking and Stubbing first if you care about isolating units or simulating failures. Choose Static Analysis first if you care about catching bugs early or enforcing team style.
+
+Think of Mocking and Stubbing as a crash test dummy standing in for a real passenger, and of Static Analysis as a spell checker for code. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mocking and Stubbing, avoid over-mocking. With Static Analysis, avoid ignoring warnings.
+
+A good habit for Mocking and Stubbing is to prefer simple fakes over deep mock chains. A good habit for Static Analysis is to run it in CI so problems never reach the main branch.

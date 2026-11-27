@@ -1,0 +1,26 @@
+Everything You Need to Know About C Pointers
+
+This page collects the essentials about C Pointers in one place. In short, C Pointers is variables that store the memory address of another value.
+
+Core concepts:
+- addresses
+- dereferencing
+- pointer arithmetic
+- null pointers
+
+Where it is used:
+- dynamic memory allocation
+- passing large data efficiently
+- building linked structures
+
+Common problems:
+- dereferencing null pointers
+- memory leaks
+- dangling pointers
+
+Tools to know:
+- GCC
+- Valgrind
+- AddressSanitizer
+
+Remember this above all: a street address written on a card instead of the house itself is a good way to picture it, and the best habit is to set pointers to NULL after freeing them.

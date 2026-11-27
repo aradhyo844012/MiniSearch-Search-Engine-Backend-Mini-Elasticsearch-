@@ -1,0 +1,11 @@
+Is C Pointers Right for Your Project?
+
+Before adopting C Pointers, ask whether it fits the problem. Remember that C Pointers is variables that store the memory address of another value.
+
+It is a good fit when your work involves dynamic memory allocation or passing large data efficiently, and when your team understands addresses.
+
+Be cautious when the project is very small, when deadlines leave no room to learn dereferencing, or when you cannot manage these risks: dereferencing null pointers, memory leaks, and dangling pointers.
+
+A simple decision test: write down the problem in one sentence, then check whether pointer arithmetic and null pointers are part of the answer. If they are, C Pointers is probably worth a closer look.
+
+If you decide to go ahead, start small with building linked structures and set pointers to NULL after freeing them.

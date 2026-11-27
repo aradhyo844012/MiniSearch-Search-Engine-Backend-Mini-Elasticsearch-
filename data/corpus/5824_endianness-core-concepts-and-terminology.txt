@@ -1,0 +1,10 @@
+Endianness: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Endianness with confidence. The subject itself is the order in which a computer stores the bytes of a multi-byte number.
+
+big-endian: one of the building blocks of Endianness. Mixing it up with neighboring terms is a common source of confusion.
+little-endian: one of the building blocks of Endianness. You should be able to explain it in a single sentence before moving on.
+byte order marks: one of the building blocks of Endianness. Mixing it up with neighboring terms is a common source of confusion.
+network byte order: one of the building blocks of Endianness. Documentation for Python struct usually mentions it early.
+
+Practice using these four terms in sentences about binary file formats. If the sentences feel natural, the vocabulary has stuck.

@@ -1,0 +1,12 @@
+Questions to Ask About Column-Oriented Storage in Code Review
+
+Reviewing code that involves Column-Oriented Storage is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Could we select only the columns you really need?
+- Is compression clear to someone reading the code for the first time?
+- Have we considered slow single-row lookups?
+- Does the code handle the case of analytics dashboards correctly?
+- Does this change respect column chunks, or does it work around it?
+- Is Apache Parquet used consistently, or are we mixing approaches?
+
+Good reviews of work on Column-Oriented Storage are specific, kind and focused on vectorized scans, not on personal style.

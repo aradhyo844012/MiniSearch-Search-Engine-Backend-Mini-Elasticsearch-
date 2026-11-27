@@ -1,0 +1,15 @@
+Assembly Language Basics in 10 Minutes
+
+You have ten minutes, so here is the fast route through Assembly Language Basics.
+
+Minutes 1 and 2, the definition: Assembly Language Basics is low-level instructions that map closely to what a processor actually executes.
+
+Minutes 3 and 4, the vocabulary: learn registers, instructions, memory addressing, and the stack.
+
+Minutes 5 and 6, the picture: imagine the individual muscle movements behind a simple action. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through understanding compiled code, debugging crashes, and writing tiny boot code.
+
+Minutes 9 and 10, the traps and the tools: watch for wrong calling conventions and stack corruption, then try GDB for a first experiment.
+
+If you have a spare minute, remember to read the assembly of a tiny C function to see what the compiler does.

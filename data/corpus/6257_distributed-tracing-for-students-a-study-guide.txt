@@ -1,0 +1,17 @@
+Distributed Tracing for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Distributed Tracing.
+
+Learning goals:
+1. Explain Distributed Tracing in your own words.
+2. Describe spans, trace IDs, context propagation, and sampling.
+3. Give examples from finding slow services and understanding dependencies.
+4. Name three problems to watch for.
+
+Start with the definition: Distributed Tracing is following a single request as it passes through many services. Then draw a parcel tracking page that shows every stop on the route on paper and label the four terms from the goals above.
+
+Self-test questions: Why is missing context propagation a problem? How does trace IDs relate to context propagation? When would you choose OpenTelemetry or Jaeger?
+
+Study habit: propagate trace IDs through every outgoing call.
+
+When you feel ready, compare Distributed Tracing with Feature Flags and write down three differences.

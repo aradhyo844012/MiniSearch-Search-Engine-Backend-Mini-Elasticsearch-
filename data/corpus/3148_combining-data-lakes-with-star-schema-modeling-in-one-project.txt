@@ -1,0 +1,15 @@
+Combining Data Lakes with Star Schema Modeling in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Lakes and Star Schema Modeling can work together in a single project.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed. Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.
+
+Imagine a project that involves storing logs and events and business intelligence reports. Data Lakes brings raw storage, while Star Schema Modeling brings fact tables.
+
+A sensible plan is to start with Amazon S3 for the Data Lakes part and dbt for the Star Schema Modeling part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no catalog or ownership on one side, and over-normalized dimensions on the other.
+
+Picture the whole as a big reservoir where water from many rivers is stored before treatment, working alongside a wheel with a hub of numbers and spokes of descriptions.
+
+Two habits help: first, register every dataset in a catalog with an owner; second, state the grain of the fact table before designing anything else.

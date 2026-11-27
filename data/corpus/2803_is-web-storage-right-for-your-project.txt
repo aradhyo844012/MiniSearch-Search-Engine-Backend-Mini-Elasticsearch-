@@ -1,0 +1,11 @@
+Is Web Storage Right for Your Project?
+
+Before adopting Web Storage, ask whether it fits the problem. Remember that Web Storage is browser features for keeping small amounts of data on the user's device.
+
+It is a good fit when your work involves saving user preferences or remembering form drafts, and when your team understands localStorage.
+
+Be cautious when the project is very small, when deadlines leave no room to learn sessionStorage, or when you cannot manage these risks: storing sensitive data, assuming storage is always available, and hitting size limits.
+
+A simple decision test: write down the problem in one sentence, then check whether cookies and IndexedDB are part of the answer. If they are, Web Storage is probably worth a closer look.
+
+If you decide to go ahead, start small with caching small API results and wrap every read and write in error handling.

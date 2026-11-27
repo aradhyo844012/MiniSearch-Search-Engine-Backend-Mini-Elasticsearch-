@@ -1,0 +1,10 @@
+Data Quality Checks: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Data Quality Checks with confidence. The subject itself is automated tests that verify data is complete, valid and consistent.
+
+null checks: one of the building blocks of Data Quality Checks. Documentation for Great Expectations usually mentions it early.
+uniqueness: one of the building blocks of Data Quality Checks. You should be able to explain it in a single sentence before moving on.
+freshness: one of the building blocks of Data Quality Checks. It shows up whenever you work on protecting dashboards.
+schema validation: one of the building blocks of Data Quality Checks. You should be able to explain it in a single sentence before moving on.
+
+Practice using these four terms in sentences about validating ingestion. If the sentences feel natural, the vocabulary has stuck.

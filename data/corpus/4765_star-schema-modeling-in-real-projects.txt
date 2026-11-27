@@ -1,0 +1,11 @@
+Star Schema Modeling in Real Projects
+
+Reading about Star Schema Modeling is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: business intelligence reports. Here, fact tables drives the main design choices, and the team needs to guard against mixing different grains.
+
+Scenario two: data warehouses. This time dimension tables matters most, and tools such as dbt help keep things manageable.
+
+Scenario three: fast aggregations. The key idea is surrogate keys, and the biggest risk is over-normalized dimensions.
+
+Across all three scenarios, Star Schema Modeling stays the same idea: a way of organizing analytics data into a central fact table surrounded by dimension tables. Only the details change.

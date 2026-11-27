@@ -1,0 +1,17 @@
+Star Schema Modeling Do's and Don'ts
+
+A quick list of habits for working with Star Schema Modeling.
+
+Do:
+- Learn fact tables before anything else.
+- Try dbt on a small example.
+- Make it a habit to state the grain of the fact table before designing anything else.
+- Test the case of business intelligence reports early.
+
+Don't:
+- Ignore this: mixing different grains.
+- Ignore this: over-normalized dimensions.
+- Ignore this: missing date dimensions.
+- Adopt Star Schema Modeling just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Star Schema Modeling, a little patience with dimension tables pays off more than any clever shortcut.

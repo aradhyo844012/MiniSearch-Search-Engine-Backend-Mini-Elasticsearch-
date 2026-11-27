@@ -1,0 +1,13 @@
+Database Migrations vs Time-Series Databases: Which One Should You Learn First?
+
+Learners often ask whether to study Database Migrations or Time-Series Databases first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way, and it is closely tied to up and down scripts and version tables. Time-Series Databases, by contrast, is databases optimized for storing and querying data points ordered by time, and it is closely tied to timestamps and retention policies.
+
+Choose Database Migrations first if you care about adding columns safely or renaming tables. Choose Time-Series Databases first if you care about server metrics or sensor readings.
+
+Think of Database Migrations as a numbered set of renovation steps applied to a building in order, and of Time-Series Databases as a long logbook where every line starts with the time. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Database Migrations, avoid locking large tables. With Time-Series Databases, avoid high-cardinality tags.
+
+A good habit for Database Migrations is to split risky changes into small steps that can each be rolled back. A good habit for Time-Series Databases is to include a time range in every query.

@@ -1,0 +1,15 @@
+Instruction Pipelines Quick Reference
+
+A one-screen reminder for Instruction Pipelines. Bookmark it and return when the details fade.
+
+What it is: a technique where a processor overlaps the stages of several instructions.
+Key terms: fetch, decode and execute stages, hazards, branch prediction, and stalls.
+Typical uses: explaining CPU speed, understanding branch costs, and optimizing tight loops.
+Risks: unpredictable branches, dependency chains, and assuming each instruction takes one step.
+Tools: perf, Compiler Explorer, and published instruction tables.
+
+Mental picture: an assembly line where several cars are in different stages at once.
+
+Habit to build: avoid unpredictable branches in hot loops.
+
+See also: Assembly Language Basics, which sits close to Instruction Pipelines in the area of Computer Systems.

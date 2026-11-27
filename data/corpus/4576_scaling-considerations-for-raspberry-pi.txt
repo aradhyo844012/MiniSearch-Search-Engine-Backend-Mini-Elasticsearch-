@@ -1,0 +1,11 @@
+Scaling Considerations for Raspberry Pi
+
+A design that works for a classroom project can behave very differently under real load. Here is how Raspberry Pi changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding GPIO pins and getting home automation right.
+
+Medium scale: problems start to appear. Watch for SD card corruption and inadequate power supplies, and measure with Raspberry Pi OS before changing anything.
+
+Large scale: SD card storage and headless setup move from background details to central design questions. Teams often revisit their choices around learning Linux at this stage.
+
+Before you scale, use a quality power supply and a reliable memory card. It is cheaper to build that habit early than to fix a crisis later.

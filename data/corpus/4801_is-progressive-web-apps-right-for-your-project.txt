@@ -1,0 +1,11 @@
+Is Progressive Web Apps Right for Your Project?
+
+Before adopting Progressive Web Apps, ask whether it fits the problem. Remember that Progressive Web Apps is web applications that can be installed and work offline like native apps.
+
+It is a good fit when your work involves offline-friendly tools or lightweight alternatives to native apps, and when your team understands web app manifest.
+
+Be cautious when the project is very small, when deadlines leave no room to learn service worker, or when you cannot manage these risks: ignoring platform limitations, poor offline fallbacks, and heavy first loads.
+
+A simple decision test: write down the problem in one sentence, then check whether installability and responsive design are part of the answer. If they are, Progressive Web Apps is probably worth a closer look.
+
+If you decide to go ahead, start small with low-bandwidth markets and test the app in airplane mode.

@@ -1,0 +1,13 @@
+Skip Lists Explained Simply
+
+Here is Skip Lists without the jargon: it is layered linked lists that allow fast searching by skipping over many elements.
+
+Think of Skip Lists as an express train line layered over a local train line. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: multiple levels, random level assignment, forward pointers, and expected logarithmic time. You do not need to master them all at once. Start with multiple levels, then add random level assignment.
+
+People reach for Skip Lists when they work on ordered in-memory indexes, sorted sets in caches, and concurrent ordered maps.
+
+One practical tip is to draw several levels by hand to see how a search moves down.
+
+Once Skip Lists feels comfortable, read about Segment Trees, which lives in the same neighborhood of ideas.

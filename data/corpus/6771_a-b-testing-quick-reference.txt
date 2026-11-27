@@ -1,0 +1,15 @@
+A/B Testing Quick Reference
+
+A one-screen reminder for A/B Testing. Bookmark it and return when the details fade.
+
+What it is: an experiment that compares two versions of something to see which performs better.
+Key terms: control and variant, random assignment, metrics, and sample size.
+Typical uses: testing page designs, comparing ranking algorithms, and evaluating new features.
+Risks: stopping tests early, testing too many variants, and ignoring sample size.
+Tools: Optimizely, GrowthBook, and statsmodels.
+
+Mental picture: taste-testing two recipes on randomly chosen guests.
+
+Habit to build: decide the success metric and sample size before you begin.
+
+See also: Data Lakes, which sits close to A/B Testing in the area of Data and Analytics.

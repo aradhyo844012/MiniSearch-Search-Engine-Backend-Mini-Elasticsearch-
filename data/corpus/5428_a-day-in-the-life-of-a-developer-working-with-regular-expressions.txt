@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Regular Expressions
+
+This is a fictional but realistic day for a developer whose project relies on Regular Expressions.
+
+Morning: Arjun starts by reviewing a ticket about validating input. Before touching any code, Arjun re-reads the notes on character classes to make sure the plan is sound.
+
+Midday: Arjun pairs with a teammate to explore quantifiers with the Python re module. A small test exposes the problem of catastrophic backtracking, and they fix it together.
+
+Afternoon: the team discusses a new request involving searching logs. Arjun sketches a stencil that only lets certain shapes of text show through on the whiteboard to help everyone follow the idea.
+
+End of day: Arjun writes a short note describing what changed and adds a reminder to build patterns in small steps and test each one.
+
+Days like this are typical. Regular Expressions is not glamorous, but understanding it keeps small problems from growing.

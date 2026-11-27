@@ -1,0 +1,15 @@
+Combining Transformers with Retrieval-Augmented Generation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Transformers and Retrieval-Augmented Generation can work together in a single project.
+
+Transformers is neural network architectures that use attention to relate all parts of an input to each other. Retrieval-Augmented Generation is a technique that gives a language model relevant documents to read before it answers.
+
+Imagine a project that involves language translation and company knowledge assistants. Transformers brings self-attention, while Retrieval-Augmented Generation brings retrieval.
+
+A sensible plan is to start with Hugging Face for the Transformers part and LangChain for the Retrieval-Augmented Generation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: limited context windows on one side, and irrelevant retrieved text on the other.
+
+Picture the whole as a reader who can look back at any word of a paragraph while reading each new word, working alongside an open-book exam where the student first looks up the right pages.
+
+Two habits help: first, begin with small pretrained models; second, evaluate retrieval quality separately from answer quality.

@@ -1,0 +1,13 @@
+Mocking and Stubbing Explained Simply
+
+If Mocking and Stubbing sounds intimidating, relax. It is replacing real dependencies with controlled fakes during tests, and the idea is simpler than the name suggests.
+
+Think of Mocking and Stubbing as a crash test dummy standing in for a real passenger. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: mocks, stubs, spies, and fakes. You do not need to master them all at once. Start with mocks, then add stubs.
+
+You will meet Mocking and Stubbing in work such as isolating units, simulating failures, and avoiding network calls.
+
+One practical tip is to prefer simple fakes over deep mock chains.
+
+Once Mocking and Stubbing feels comfortable, read about Property-Based Testing, which lives in the same neighborhood of ideas.

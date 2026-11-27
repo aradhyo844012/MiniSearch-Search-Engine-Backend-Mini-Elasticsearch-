@@ -1,0 +1,26 @@
+Everything You Need to Know About Time-Series Databases
+
+This page collects the essentials about Time-Series Databases in one place. In short, Time-Series Databases is databases optimized for storing and querying data points ordered by time.
+
+Core concepts:
+- timestamps
+- retention policies
+- downsampling
+- tags and fields
+
+Where it is used:
+- server metrics
+- sensor readings
+- financial tick data
+
+Common problems:
+- high-cardinality tags
+- keeping raw data forever
+- querying without time bounds
+
+Tools to know:
+- InfluxDB
+- TimescaleDB
+- Prometheus
+
+Remember this above all: a long logbook where every line starts with the time is a good way to picture it, and the best habit is to include a time range in every query.

@@ -1,0 +1,13 @@
+Reinforcement Learning vs Data Augmentation: Which One Should You Learn First?
+
+Learners often ask whether to study Reinforcement Learning or Data Augmentation first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes, and it is closely tied to agent and environment. Data Augmentation, by contrast, is creating modified copies of training data to help models generalize, and it is closely tied to transformations and label preservation.
+
+Choose Reinforcement Learning first if you care about game playing or robot control. Choose Data Augmentation first if you care about image models or text classification.
+
+Think of Reinforcement Learning as training a dog with treats for good behavior, and of Data Augmentation as practicing a sport in different weather and on different fields. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Reinforcement Learning, avoid badly designed rewards. With Data Augmentation, avoid changes that alter the label.
+
+A good habit for Reinforcement Learning is to start with simple environments. A good habit for Data Augmentation is to augment only the training data.

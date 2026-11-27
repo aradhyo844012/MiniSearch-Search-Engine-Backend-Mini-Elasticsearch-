@@ -1,0 +1,11 @@
+Practice Exercises for Leader Election
+
+These exercises build real understanding of Leader Election. Do them in order, and write down your answers.
+
+Exercise 1: Pick ZooKeeper and complete its getting-started tutorial.
+Exercise 2: Explain how candidates and failover differ, using a drawing.
+Exercise 3: Write a short paragraph describing Leader Election and include the term heartbeats.
+Exercise 4: Compare etcd and Kubernetes leases for cluster managers and write down your conclusion.
+Exercise 5: List three situations from your own experience that resemble database primaries or job schedulers.
+
+When you finish, compare your answers with the definition: Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.

@@ -1,0 +1,9 @@
+Understanding Dijkstra's Algorithm Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a GPS that keeps expanding to the nearest unvisited intersection.
+
+In that picture, priority queue is the first rule you follow, distance table is the next step, and edge relaxation and visited set keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights, and it involves details such as using it with negative edge weights that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Python heapq to learn the exact behavior. The same picture helps when you explain route planning to a friend.

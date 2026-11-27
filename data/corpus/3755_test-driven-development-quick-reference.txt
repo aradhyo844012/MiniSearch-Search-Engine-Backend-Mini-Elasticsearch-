@@ -1,0 +1,15 @@
+Test-Driven Development Quick Reference
+
+A one-screen reminder for Test-Driven Development. Bookmark it and return when the details fade.
+
+What it is: a workflow where you write a failing test first and then write code to make it pass.
+Key terms: red, green, refactor, small steps, test first, and fast feedback.
+Typical uses: designing small modules, preventing regressions, and gaining confidence for refactoring.
+Risks: writing tests that are too large, skipping the refactor step, and testing implementation details.
+Tools: pytest, JUnit, and Jest.
+
+Mental picture: writing the exam questions before teaching the lesson.
+
+Habit to build: keep each red-green cycle to a few minutes.
+
+See also: Event-Driven Architecture, which sits close to Test-Driven Development in the area of Software Design.

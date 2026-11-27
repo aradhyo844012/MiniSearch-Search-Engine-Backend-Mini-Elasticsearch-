@@ -1,0 +1,11 @@
+Is Distributed Tracing Right for Your Project?
+
+Before adopting Distributed Tracing, ask whether it fits the problem. Remember that Distributed Tracing is following a single request as it passes through many services.
+
+It is a good fit when your work involves finding slow services or understanding dependencies, and when your team understands spans.
+
+Be cautious when the project is very small, when deadlines leave no room to learn trace IDs, or when you cannot manage these risks: missing context propagation, sampling too aggressively, and overhead from too many spans.
+
+A simple decision test: write down the problem in one sentence, then check whether context propagation and sampling are part of the answer. If they are, Distributed Tracing is probably worth a closer look.
+
+If you decide to go ahead, start small with debugging errors across services and propagate trace IDs through every outgoing call.

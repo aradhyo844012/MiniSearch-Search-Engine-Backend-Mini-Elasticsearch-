@@ -1,0 +1,13 @@
+Mocking and Stubbing vs Property-Based Testing: Which One Should You Learn First?
+
+Learners often ask whether to study Mocking and Stubbing or Property-Based Testing first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Mocking and Stubbing is replacing real dependencies with controlled fakes during tests, and it is closely tied to mocks and stubs. Property-Based Testing, by contrast, is testing with many automatically generated inputs to check that general rules always hold, and it is closely tied to properties and generators.
+
+Choose Mocking and Stubbing first if you care about isolating units or simulating failures. Choose Property-Based Testing first if you care about testing parsers or checking sorting and math functions.
+
+Think of Mocking and Stubbing as a crash test dummy standing in for a real passenger, and of Property-Based Testing as a robot tester trying thousands of odd inputs. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mocking and Stubbing, avoid over-mocking. With Property-Based Testing, avoid vague properties.
+
+A good habit for Mocking and Stubbing is to prefer simple fakes over deep mock chains. A good habit for Property-Based Testing is to save failing examples as regular tests.

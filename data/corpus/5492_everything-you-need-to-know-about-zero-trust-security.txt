@@ -1,0 +1,26 @@
+Everything You Need to Know About Zero Trust Security
+
+This page collects the essentials about Zero Trust Security in one place. In short, Zero Trust Security is a model that treats every request as untrusted until it is verified.
+
+Core concepts:
+- identity verification
+- least privilege
+- micro-segmentation
+- continuous checks
+
+Where it is used:
+- remote work access
+- protecting internal services
+- limiting breach damage
+
+Common problems:
+- treating it as a product to buy
+- poor identity hygiene
+- breaking usability
+
+Tools to know:
+- Okta
+- Tailscale
+- identity-aware proxies
+
+Remember this above all: a building where every door checks your badge, not just the front entrance is a good way to picture it, and the best habit is to start with strong identity and device checks.

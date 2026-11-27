@@ -1,0 +1,13 @@
+Dependency Vulnerabilities Explained Simply
+
+Here is Dependency Vulnerabilities without the jargon: it is security weaknesses that come from third-party libraries a project uses.
+
+Think of Dependency Vulnerabilities as checking every ingredient supplier for recalls. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: CVE identifiers, version pinning, transitive dependencies, and software bills of materials. You do not need to master them all at once. Start with CVE identifiers, then add version pinning.
+
+You will meet Dependency Vulnerabilities in work such as auditing projects, automating updates, and meeting supply chain requirements.
+
+One practical tip is to automate update pull requests.
+
+Once Dependency Vulnerabilities feels comfortable, read about Threat Modeling, which lives in the same neighborhood of ideas.

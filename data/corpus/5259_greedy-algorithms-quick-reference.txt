@@ -1,0 +1,15 @@
+Greedy Algorithms Quick Reference
+
+A one-screen reminder for Greedy Algorithms. Bookmark it and return when the details fade.
+
+What it is: algorithms that build a solution by always taking the locally best choice.
+Key terms: greedy choice property, optimal substructure, exchange arguments, and local versus global optimum.
+Typical uses: interval scheduling, Huffman coding, and making change with standard coins.
+Risks: assuming greedy always works, missing counterexamples, and skipping the correctness proof.
+Tools: pen and paper proofs, Python sorted, and unit tests.
+
+Mental picture: picking the closest open parking spot at every junction and hoping it works out.
+
+Habit to build: try to break your greedy idea with a small counterexample before trusting it.
+
+See also: Union-Find, which sits close to Greedy Algorithms in the area of Algorithms in Practice.

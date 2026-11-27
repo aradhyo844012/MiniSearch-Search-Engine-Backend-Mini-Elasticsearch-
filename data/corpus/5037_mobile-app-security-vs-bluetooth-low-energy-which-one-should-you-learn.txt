@@ -1,0 +1,13 @@
+Mobile App Security vs Bluetooth Low Energy: Which One Should You Learn First?
+
+Learners often ask whether to study Mobile App Security or Bluetooth Low Energy first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Mobile App Security is practices that protect mobile apps and their data from attacks, and it is closely tied to secure storage and certificate pinning. Bluetooth Low Energy, by contrast, is a short-range wireless technology designed for very low power use, and it is closely tied to advertising and GATT services.
+
+Choose Mobile App Security first if you care about banking apps or health apps. Choose Bluetooth Low Energy first if you care about fitness trackers or smart locks.
+
+Think of Mobile App Security as locking an app's valuables in a hotel safe, and of Bluetooth Low Energy as a whisper between two nearby devices that barely uses any energy. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mobile App Security, avoid storing tokens in plain text. With Bluetooth Low Energy, avoid ignoring connection limits.
+
+A good habit for Mobile App Security is to store secrets in the platform keychain or keystore. A good habit for Bluetooth Low Energy is to test with several phone models.

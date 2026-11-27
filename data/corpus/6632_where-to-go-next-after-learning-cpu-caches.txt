@@ -1,0 +1,11 @@
+Where to Go Next After Learning CPU Caches
+
+You have met the basics of CPU Caches. Here is how to keep the momentum going.
+
+Go wider: read about GPUs and Parallelism, which belongs to the same area as CPU Caches (Computer Systems) and often appears in the same projects.
+
+Go deeper: choose one of cache lines, hit and miss rates, levels L1 to L3 or locality, and study it until you can explain it to a beginner.
+
+Go practical: build something around explaining performance differences with perf, and note every problem you meet, starting with false sharing.
+
+Go social: share what you learned. Explaining CPU Caches to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

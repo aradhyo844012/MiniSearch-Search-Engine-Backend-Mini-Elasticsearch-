@@ -1,0 +1,13 @@
+Data Quality Checks Explained Simply
+
+Here is Data Quality Checks without the jargon: it is automated tests that verify data is complete, valid and consistent.
+
+Think of Data Quality Checks as a quality inspector at the end of an assembly line. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: null checks, uniqueness, freshness, and schema validation. You do not need to master them all at once. Start with null checks, then add uniqueness.
+
+You will meet Data Quality Checks in work such as protecting dashboards, validating ingestion, and catching pipeline bugs.
+
+One practical tip is to check data as early as it enters the pipeline.
+
+Once Data Quality Checks feels comfortable, read about Data Anonymization, which lives in the same neighborhood of ideas.

@@ -1,0 +1,13 @@
+Teaching Fenwick Trees to a Teammate
+
+Explaining Fenwick Trees to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a set of running subtotals where each one covers a block of entries. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Fenwick Trees is a compact structure for prefix sums that supports fast updates. Avoid jargon at this stage.
+
+Walk through an example involving counting inversions, naming binary indexed trees and lowest set bit as they come up.
+
+Ask your teammate to explain prefix sums in Fenwick Trees back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, using zero-based indexes by mistake, and suggest this habit: start indexing from one to keep the bit tricks simple.

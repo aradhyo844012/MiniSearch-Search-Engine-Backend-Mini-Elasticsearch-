@@ -1,0 +1,15 @@
+The Pros and Cons of CAP Theorem
+
+No technology is free of trade-offs, and CAP Theorem is no exception. Here is an honest summary.
+
+Advantages:
+- Supports choosing database types
+- Makes designing multi-region services easier
+- Helps with explaining system behavior in interviews
+
+Drawbacks and risks:
+- Risk: treating it as a three-way menu
+- Risk: ignoring latency trade-offs in normal operation
+- Risk: assuming partitions never happen
+
+Weigh the two lists against your own project. If the advantages match your needs, such as choosing database types, and you can manage the risks, CAP Theorem is a sound choice. Whatever you decide, ask what your users prefer during a failure: stale answers or errors.

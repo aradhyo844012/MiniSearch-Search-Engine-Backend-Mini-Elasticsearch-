@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Static Analysis
+
+This path is for a learner who has never studied Static Analysis before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Static Analysis is automated checking of source code for bugs and style problems without running it) and learn linters and type checkers.
+
+Stage 2, hands-on: install ESLint, follow a tutorial, and build a small example involving catching bugs early.
+
+Stage 3, depth: study rule sets and false positives, then deliberately explore this problem: ignoring warnings.
+
+Stage 4, application: apply Static Analysis to enforcing team style, compare Pylint with SonarQube, and write up your results.
+
+Stage 5, review: teach Static Analysis to someone else, and then move on to Fuzz Testing.

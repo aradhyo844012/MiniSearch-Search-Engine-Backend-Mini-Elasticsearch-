@@ -1,0 +1,11 @@
+Scaling Considerations for Mocking and Stubbing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Mocking and Stubbing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding mocks and getting isolating units right.
+
+Medium scale: problems start to appear. Watch for over-mocking and tests that mirror the implementation, and measure with unittest.mock before changing anything.
+
+Large scale: spies and fakes move from background details to central design questions. Teams often revisit their choices around simulating failures at this stage.
+
+Before you scale, prefer simple fakes over deep mock chains. It is cheaper to build that habit early than to fix a crisis later.

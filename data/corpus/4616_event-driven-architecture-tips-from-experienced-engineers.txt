@@ -1,0 +1,11 @@
+Event-Driven Architecture Tips from Experienced Engineers
+
+Engineers who work with Event-Driven Architecture regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Apache Kafka first, and only then evaluate alternatives such as RabbitMQ.
+2. Write down why you chose Event-Driven Architecture so the next person understands the decision.
+3. Make sure you can document every event name and schema.
+4. Do not skip producers and consumers; everything else builds on it.
+5. Be careful with this one: hard-to-trace flows.
+
+None of these tips needs special equipment, and all of them apply to real-time notifications as well.

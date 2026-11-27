@@ -1,0 +1,12 @@
+Questions to Ask About Disaster Recovery in Code Review
+
+Reviewing code that involves Disaster Recovery is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is AWS Backup used consistently, or are we mixing approaches?
+- Have we considered untested plans?
+- Does the code handle the case of surviving regional outages correctly?
+- Could we run a failover exercise on a regular schedule?
+- Does this change respect recovery time objective, or does it work around it?
+- Is recovery point objective clear to someone reading the code for the first time?
+
+Good reviews of work on Disaster Recovery are specific, kind and focused on failover regions, not on personal style.

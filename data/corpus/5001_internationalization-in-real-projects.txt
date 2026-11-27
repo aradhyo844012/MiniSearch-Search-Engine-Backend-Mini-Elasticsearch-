@@ -1,0 +1,11 @@
+Internationalization in Real Projects
+
+Reading about Internationalization is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: global products. Here, locale detection drives the main design choices, and the team needs to guard against hard-coded strings.
+
+Scenario two: multi-language websites. This time translation files matters most, and tools such as i18next help keep things manageable.
+
+Scenario three: regional pricing. The key idea is pluralization, and the biggest risk is text that overflows layouts.
+
+Across all three scenarios, Internationalization stays the same idea: designing software so it can be adapted to different languages and regions. Only the details change.

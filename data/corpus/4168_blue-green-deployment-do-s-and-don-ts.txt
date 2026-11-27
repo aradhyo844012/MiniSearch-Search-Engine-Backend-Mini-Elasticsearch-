@@ -1,0 +1,17 @@
+Blue-Green Deployment Do's and Don'ts
+
+A quick list of habits for working with Blue-Green Deployment.
+
+Do:
+- Learn blue and green environments before anything else.
+- Try AWS CodeDeploy on a small example.
+- Make it a habit to keep the old environment running until the new one is proven.
+- Test the case of zero-downtime releases early.
+
+Don't:
+- Ignore this: database schema mismatches.
+- Ignore this: doubling infrastructure costs.
+- Ignore this: forgetting to drain old connections.
+- Adopt Blue-Green Deployment just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Blue-Green Deployment, a little patience with traffic switching pays off more than any clever shortcut.

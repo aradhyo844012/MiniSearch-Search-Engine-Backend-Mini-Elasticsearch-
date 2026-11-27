@@ -1,0 +1,11 @@
+Practice Exercises for Database Backups and Recovery
+
+These exercises build real understanding of Database Backups and Recovery. Do them in order, and write down your answers.
+
+Exercise 1: Pick pg_dump and complete its getting-started tutorial.
+Exercise 2: List three situations from your own experience that resemble recovering deleted tables or migrating servers.
+Exercise 3: Create a small example that deliberately triggers this problem: never testing restores. Then fix it.
+Exercise 4: Write a short paragraph describing Database Backups and Recovery and include the term full and incremental backups.
+Exercise 5: Compare mysqldump and AWS Backup for meeting compliance rules and write down your conclusion.
+
+When you finish, compare your answers with the definition: Database Backups and Recovery is the practice of copying data regularly so that it can be restored after failures.

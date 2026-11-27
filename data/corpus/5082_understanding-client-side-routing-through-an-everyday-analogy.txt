@@ -1,0 +1,9 @@
+Understanding Client-Side Routing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture swapping the picture in a frame without replacing the frame.
+
+In that picture, history API is the first rule you follow, route matching is the next step, and nested routes and route guards keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Client-Side Routing is changing the visible page in the browser without a full page reload, and it involves details such as broken deep links that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for React Router to learn the exact behavior. The same picture helps when you explain single-page apps to a friend.

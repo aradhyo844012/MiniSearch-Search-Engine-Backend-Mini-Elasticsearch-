@@ -1,0 +1,15 @@
+Pagination Quick Reference
+
+A one-screen reminder for Pagination. Bookmark it and return when the details fade.
+
+What it is: splitting large result sets into smaller pages that clients request one at a time.
+Key terms: offset pagination, cursor pagination, page size, and stable ordering.
+Typical uses: search results, activity feeds, and admin tables.
+Risks: offsets getting slow on huge tables, unstable sort order, and missing total counts when users need them.
+Tools: SQL LIMIT and OFFSET, keyset queries, and Django REST Framework.
+
+Mental picture: reading a long book one chapter at a time with a bookmark.
+
+Habit to build: prefer cursors for large or fast-changing data.
+
+See also: GraphQL, which sits close to Pagination in the area of Backend Engineering.

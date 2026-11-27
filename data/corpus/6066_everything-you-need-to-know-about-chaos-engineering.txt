@@ -1,0 +1,26 @@
+Everything You Need to Know About Chaos Engineering
+
+This page collects the essentials about Chaos Engineering in one place. In short, Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Core concepts:
+- steady state
+- hypotheses
+- blast radius
+- fault injection
+
+Where it is used:
+- testing resilience
+- validating failover
+- preparing teams for incidents
+
+Common problems:
+- experimenting without safeguards
+- having no steady-state metrics
+- running first in production
+
+Tools to know:
+- Chaos Monkey
+- Gremlin
+- LitmusChaos
+
+Remember this above all: a fire drill where you secretly block one exit is a good way to picture it, and the best habit is to start with small experiments in a test environment.

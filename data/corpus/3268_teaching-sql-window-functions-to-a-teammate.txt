@@ -1,0 +1,13 @@
+Teaching SQL Window Functions to a Teammate
+
+Explaining SQL Window Functions to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: looking at the neighbors in a line without leaving your place. Ask your teammate what the picture suggests.
+
+Then give the plain definition: SQL Window Functions is SQL features that calculate values across related rows without collapsing them. Avoid jargon at this stage.
+
+Walk through an example involving running totals, naming the OVER clause and partitions as they come up.
+
+Ask your teammate to explain ordering in SQL Window Functions back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, forgetting ORDER BY inside the window, and suggest this habit: start with ROW_NUMBER and LAG on a small table.

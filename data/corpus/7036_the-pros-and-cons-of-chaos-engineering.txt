@@ -1,0 +1,15 @@
+The Pros and Cons of Chaos Engineering
+
+No technology is free of trade-offs, and Chaos Engineering is no exception. Here is an honest summary.
+
+Advantages:
+- Supports testing resilience
+- Makes validating failover easier
+- Helps with preparing teams for incidents
+
+Drawbacks and risks:
+- Risk: experimenting without safeguards
+- Risk: having no steady-state metrics
+- Risk: running first in production
+
+Weigh the two lists against your own project. If the advantages match your needs, such as testing resilience, and you can manage the risks, Chaos Engineering is a sound choice. Whatever you decide, start with small experiments in a test environment.

@@ -1,0 +1,13 @@
+Teaching Instruction Pipelines to a Teammate
+
+Explaining Instruction Pipelines to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: an assembly line where several cars are in different stages at once. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Instruction Pipelines is a technique where a processor overlaps the stages of several instructions. Avoid jargon at this stage.
+
+Walk through an example involving explaining CPU speed, naming fetch, decode and execute stages and hazards as they come up.
+
+Ask your teammate to explain branch prediction in Instruction Pipelines back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, unpredictable branches, and suggest this habit: avoid unpredictable branches in hot loops.

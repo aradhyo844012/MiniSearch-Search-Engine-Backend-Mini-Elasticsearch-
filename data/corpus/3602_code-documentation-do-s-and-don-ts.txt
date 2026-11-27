@@ -1,0 +1,17 @@
+Code Documentation Do's and Don'ts
+
+A quick list of habits for working with Code Documentation.
+
+Do:
+- Learn README files before anything else.
+- Try Sphinx on a small example.
+- Make it a habit to keep documentation in the same repository as the code.
+- Test the case of onboarding new developers early.
+
+Don't:
+- Ignore this: outdated docs.
+- Ignore this: comments that repeat the code.
+- Ignore this: missing examples.
+- Adopt Code Documentation just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Code Documentation, a little patience with docstrings pays off more than any clever shortcut.

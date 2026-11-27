@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Dijkstra's Algorithm
+
+This path is for a learner who has never studied Dijkstra's Algorithm before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights) and learn priority queue and distance table.
+
+Stage 2, hands-on: install Python heapq, follow a tutorial, and build a small example involving route planning.
+
+Stage 3, depth: study edge relaxation and visited set, then deliberately explore this problem: using it with negative edge weights.
+
+Stage 4, application: apply Dijkstra's Algorithm to network routing, compare NetworkX with OSRM, and write up your results.
+
+Stage 5, review: teach Dijkstra's Algorithm to someone else, and then move on to Skip Lists.

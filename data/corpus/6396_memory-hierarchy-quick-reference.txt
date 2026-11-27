@@ -1,0 +1,15 @@
+Memory Hierarchy Quick Reference
+
+A one-screen reminder for Memory Hierarchy. Bookmark it and return when the details fade.
+
+What it is: the layers of storage from registers to disks, trading speed for size.
+Key terms: registers, cache, main memory, and disk.
+Typical uses: designing efficient programs, explaining slow I/O, and choosing data structures.
+Risks: ignoring locality, excessive paging, and treating all memory accesses as equal.
+Tools: lscpu, vmstat, and Linux perf.
+
+Mental picture: a kitchen with a spice rack, a pantry and a warehouse.
+
+Habit to build: reduce how often your program goes down to the slower layers.
+
+See also: Boolean Logic and Gates, which sits close to Memory Hierarchy in the area of Computer Systems.

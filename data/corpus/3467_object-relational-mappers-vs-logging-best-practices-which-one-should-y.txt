@@ -1,0 +1,13 @@
+Object-Relational Mappers vs Logging Best Practices: Which One Should You Learn First?
+
+Learners often ask whether to study Object-Relational Mappers or Logging Best Practices first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Object-Relational Mappers is libraries that map database tables to objects in code, and it is closely tied to models and queries. Logging Best Practices, by contrast, is recording useful, structured information about what an application is doing, and it is closely tied to log levels and structured logs.
+
+Choose Object-Relational Mappers first if you care about building CRUD apps quickly or switching databases. Choose Logging Best Practices first if you care about debugging production issues or auditing actions.
+
+Think of Object-Relational Mappers as a translator between the language of tables and the language of objects, and of Logging Best Practices as a ship's logbook that explains what happened and when. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Object-Relational Mappers, avoid N+1 queries. With Logging Best Practices, avoid logging sensitive data.
+
+A good habit for Object-Relational Mappers is to log the generated SQL during development. A good habit for Logging Best Practices is to include a request ID in every log line.

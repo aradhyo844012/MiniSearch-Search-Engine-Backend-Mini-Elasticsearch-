@@ -1,0 +1,17 @@
+Hashing vs Encryption Do's and Don'ts
+
+A quick list of habits for working with Hashing vs Encryption.
+
+Do:
+- Learn one-way functions before anything else.
+- Try SHA-256 on a small example.
+- Make it a habit to ask whether you will ever need the original value back.
+- Test the case of storing passwords early.
+
+Don't:
+- Ignore this: encrypting passwords instead of hashing them.
+- Ignore this: using broken hash functions.
+- Ignore this: confusing encoding with encryption.
+- Adopt Hashing vs Encryption just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Hashing vs Encryption, a little patience with keys pays off more than any clever shortcut.

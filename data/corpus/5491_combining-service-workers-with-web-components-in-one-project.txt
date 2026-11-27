@@ -1,0 +1,15 @@
+Combining Service Workers with Web Components in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Service Workers and Web Components can work together in a single project.
+
+Service Workers is scripts that run in the background of a browser and intercept network requests. Web Components is browser-native custom elements with their own markup, style and behavior.
+
+Imagine a project that involves offline support and design system components. Service Workers brings registration, while Web Components brings custom elements.
+
+A sensible plan is to start with Workbox for the Service Workers part and Lit for the Web Components part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: bugs surviving across deployments on one side, and poor accessibility on the other.
+
+Picture the whole as a receptionist who answers common requests before they reach the manager, working alongside a Lego brick in its own sealed packaging.
+
+Two habits help: first, version your caches so old files can be removed; second, document the attributes and events like a public API.

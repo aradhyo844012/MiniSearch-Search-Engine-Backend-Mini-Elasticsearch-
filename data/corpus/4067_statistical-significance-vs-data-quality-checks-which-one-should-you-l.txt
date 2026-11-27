@@ -1,0 +1,13 @@
+Statistical Significance vs Data Quality Checks: Which One Should You Learn First?
+
+Learners often ask whether to study Statistical Significance or Data Quality Checks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+Statistical Significance is a measure of how unlikely a result would be if there were no real effect, and it is closely tied to p-values and the null hypothesis. Data Quality Checks, by contrast, is automated tests that verify data is complete, valid and consistent, and it is closely tied to null checks and uniqueness.
+
+Choose Statistical Significance first if you care about judging experiment results or comparing model performance. Choose Data Quality Checks first if you care about protecting dashboards or validating ingestion.
+
+Think of Statistical Significance as asking how surprised you should be if a coin were actually fair, and of Data Quality Checks as a quality inspector at the end of an assembly line. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Statistical Significance, avoid mistaking significance for importance. With Data Quality Checks, avoid alerts nobody reads.
+
+A good habit for Statistical Significance is to always report the effect size alongside the p-value. A good habit for Data Quality Checks is to check data as early as it enters the pipeline.

@@ -1,0 +1,15 @@
+Combining API Versioning with Pagination in One Project
+
+Real projects rarely use one idea in isolation. This article shows how API Versioning and Pagination can work together in a single project.
+
+API Versioning is the practice of evolving an API without breaking existing clients. Pagination is splitting large result sets into smaller pages that clients request one at a time.
+
+Imagine a project that involves public APIs and search results. API Versioning brings version in the URL, while Pagination brings offset pagination.
+
+A sensible plan is to start with OpenAPI for the API Versioning part and SQL LIMIT and OFFSET for the Pagination part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: removing fields without notice on one side, and unstable sort order on the other.
+
+Picture the whole as keeping old editions of a textbook available while a new one is published, working alongside reading a long book one chapter at a time with a bookmark.
+
+Two habits help: first, announce deprecations with a clear sunset date; second, prefer cursors for large or fast-changing data.

@@ -1,0 +1,13 @@
+Log Aggregation Explained Simply
+
+Here is Log Aggregation without the jargon: it is collecting logs from many machines into one searchable place.
+
+Think of Log Aggregation as gathering notes from every desk into a single searchable binder. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: shippers, indexing, retention, and search queries. You do not need to master them all at once. Start with shippers, then add indexing.
+
+You will meet Log Aggregation in work such as troubleshooting across services, security investigations, and usage analysis.
+
+One practical tip is to use structured JSON logs so that fields are searchable.
+
+Once Log Aggregation feels comfortable, read about Service Mesh, which lives in the same neighborhood of ideas.

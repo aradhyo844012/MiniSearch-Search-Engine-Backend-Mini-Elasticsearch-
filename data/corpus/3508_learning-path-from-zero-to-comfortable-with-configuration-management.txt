@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Configuration Management
+
+This path is for a learner who has never studied Configuration Management before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Configuration Management is keeping application settings separate from code so they can change per environment) and learn environment variables and config files.
+
+Stage 2, hands-on: install dotenv, follow a tutorial, and build a small example involving separating development and production.
+
+Stage 3, depth: study defaults and secrets handling, then deliberately explore this problem: committing secrets.
+
+Stage 4, application: apply Configuration Management to toggling features, compare Pydantic settings with HashiCorp Consul, and write up your results.
+
+Stage 5, review: teach Configuration Management to someone else, and then move on to gRPC.

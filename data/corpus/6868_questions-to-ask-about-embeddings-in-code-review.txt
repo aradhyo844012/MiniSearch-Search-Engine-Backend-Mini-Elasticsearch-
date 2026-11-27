@@ -1,0 +1,12 @@
+Questions to Ask About Embeddings in Code Review
+
+Reviewing code that involves Embeddings is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Does the code handle the case of semantic search correctly?
+- Would a test catch ignoring normalization if it appeared later?
+- Does this change respect vectors, or does it work around it?
+- Have we avoided this problem: stale embeddings after data changes?
+- Have we considered mixing models between indexing and querying?
+- Could we use the same embedding model for indexing and querying?
+
+Good reviews of work on Embeddings are specific, kind and focused on dimensionality, not on personal style.

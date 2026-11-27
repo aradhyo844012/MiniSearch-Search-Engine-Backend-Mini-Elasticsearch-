@@ -1,0 +1,17 @@
+Progressive Web Apps Do's and Don'ts
+
+A quick list of habits for working with Progressive Web Apps.
+
+Do:
+- Learn web app manifest before anything else.
+- Try Lighthouse on a small example.
+- Make it a habit to test the app in airplane mode.
+- Test the case of offline-friendly tools early.
+
+Don't:
+- Ignore this: ignoring platform limitations.
+- Ignore this: poor offline fallbacks.
+- Ignore this: heavy first loads.
+- Adopt Progressive Web Apps just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Progressive Web Apps, a little patience with service worker pays off more than any clever shortcut.

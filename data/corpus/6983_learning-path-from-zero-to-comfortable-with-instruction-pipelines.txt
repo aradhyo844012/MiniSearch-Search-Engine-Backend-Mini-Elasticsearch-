@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Instruction Pipelines
+
+This path is for a learner who has never studied Instruction Pipelines before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Instruction Pipelines is a technique where a processor overlaps the stages of several instructions) and learn fetch, decode and execute stages and hazards.
+
+Stage 2, hands-on: install perf, follow a tutorial, and build a small example involving explaining CPU speed.
+
+Stage 3, depth: study branch prediction and stalls, then deliberately explore this problem: unpredictable branches.
+
+Stage 4, application: apply Instruction Pipelines to understanding branch costs, compare Compiler Explorer with published instruction tables, and write up your results.
+
+Stage 5, review: teach Instruction Pipelines to someone else, and then move on to GPUs and Parallelism.

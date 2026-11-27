@@ -1,0 +1,13 @@
+CPU Caches vs Interrupts: Which One Should You Learn First?
+
+Learners often ask whether to study CPU Caches or Interrupts first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data, and it is closely tied to cache lines and hit and miss rates. Interrupts, by contrast, is signals that make a processor pause its work to handle an urgent event, and it is closely tied to interrupt handlers and interrupt vectors.
+
+Choose CPU Caches first if you care about speeding up loops or explaining performance differences. Choose Interrupts first if you care about keyboard and mouse input or timers.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library, and of Interrupts as a phone call interrupting your reading. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CPU Caches, avoid false sharing. With Interrupts, avoid long handlers.
+
+A good habit for CPU Caches is to access arrays in the order they are stored. A good habit for Interrupts is to keep interrupt handlers short and defer the heavy work.

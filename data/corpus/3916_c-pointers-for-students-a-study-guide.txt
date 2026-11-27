@@ -1,0 +1,17 @@
+C Pointers for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover C Pointers.
+
+Learning goals:
+1. Explain C Pointers in your own words.
+2. Describe addresses, dereferencing, pointer arithmetic, and null pointers.
+3. Give examples from dynamic memory allocation and passing large data efficiently.
+4. Name three problems to watch for.
+
+Start with the definition: C Pointers is variables that store the memory address of another value. Then draw a street address written on a card instead of the house itself on paper and label the four terms from the goals above.
+
+Self-test questions: Why is dereferencing null pointers a problem? How does dereferencing relate to pointer arithmetic? When would you choose GCC or Valgrind?
+
+Study habit worth keeping: set pointers to NULL after freeing them.
+
+When you feel ready, compare C Pointers with Rust Ownership and write down three differences.

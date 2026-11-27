@@ -1,0 +1,17 @@
+Dijkstra's Algorithm for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Dijkstra's Algorithm.
+
+Learning goals:
+1. Explain Dijkstra's Algorithm in your own words.
+2. Describe priority queue, distance table, edge relaxation, and visited set.
+3. Give examples from route planning and network routing.
+4. Name three problems to watch for.
+
+Start with the definition: Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights. Then draw a GPS that keeps expanding to the nearest unvisited intersection on paper and label the four terms from the goals above.
+
+Self-test questions: Why is using it with negative edge weights a problem? How does distance table relate to edge relaxation? When would you choose Python heapq or NetworkX?
+
+Study habit: stop as soon as the destination is popped from the queue.
+
+When you feel ready, compare Dijkstra's Algorithm with Topological Sorting and write down three differences.

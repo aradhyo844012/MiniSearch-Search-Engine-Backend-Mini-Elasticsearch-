@@ -1,0 +1,17 @@
+Hexagonal Architecture Do's and Don'ts
+
+A quick list of habits for working with Hexagonal Architecture.
+
+Do:
+- Learn ports before anything else.
+- Try Spring on a small example.
+- Make it a habit to keep framework imports out of the core domain.
+- Test the case of testable business logic early.
+
+Don't:
+- Ignore this: too many layers for small apps.
+- Ignore this: leaking framework types into the core.
+- Ignore this: confusing ports with adapters.
+- Adopt Hexagonal Architecture just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Hexagonal Architecture, a little patience with adapters pays off more than any clever shortcut.

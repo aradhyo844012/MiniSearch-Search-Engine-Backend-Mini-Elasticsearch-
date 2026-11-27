@@ -1,0 +1,13 @@
+Teaching Rust Ownership to a Teammate
+
+Explaining Rust Ownership to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a single house key that you can hand over or lend out but never copy. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Rust Ownership is a set of rules that lets Rust manage memory safely without a garbage collector. Avoid jargon at this stage.
+
+Walk through an example involving systems programming, naming ownership and borrowing as they come up.
+
+Ask your teammate to explain lifetimes in Rust Ownership back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, fighting the borrow checker with needless clones, and suggest this habit: read the compiler's error messages closely because they often explain the fix.

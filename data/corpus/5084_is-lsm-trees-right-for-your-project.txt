@@ -1,0 +1,11 @@
+Is LSM Trees Right for Your Project?
+
+Before adopting LSM Trees, ask whether it fits the problem. Remember that LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk.
+
+It is a good fit when your work involves write-heavy databases or time-ordered data, and when your team understands memtable.
+
+Be cautious when the project is very small, when deadlines leave no room to learn sorted string tables, or when you cannot manage these risks: read amplification, compaction stalls, and poor bloom filter tuning.
+
+A simple decision test: write down the problem in one sentence, then check whether compaction and write amplification are part of the answer. If they are, LSM Trees is probably worth a closer look.
+
+If you decide to go ahead, start small with key-value stores and watch compaction metrics before blaming the application.

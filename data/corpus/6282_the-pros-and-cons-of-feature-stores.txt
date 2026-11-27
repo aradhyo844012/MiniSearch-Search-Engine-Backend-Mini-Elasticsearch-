@@ -1,0 +1,15 @@
+The Pros and Cons of Feature Stores
+
+No technology is free of trade-offs, and Feature Stores is no exception. Here is an honest summary.
+
+Advantages:
+- Supports sharing features across models
+- Makes serving real-time predictions easier
+- Helps with avoiding training-serving skew
+
+Drawbacks and risks:
+- Risk: leaking future data
+- Risk: duplicate definitions
+- Risk: stale online values
+
+Weigh the two lists against your own project. If the advantages match your needs, such as sharing features across models, and you can manage the risks, Feature Stores is a sound choice. Whatever you decide, define each feature once and reuse it in training and serving.

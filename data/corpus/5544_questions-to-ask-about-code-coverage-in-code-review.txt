@@ -1,0 +1,12 @@
+Questions to Ask About Code Coverage in Code Review
+
+Reviewing code that involves Code Coverage is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Have we considered chasing 100 percent?
+- Does the code handle the case of finding untested code correctly?
+- Would a test catch treating coverage as quality if it appeared later?
+- Does this change respect line coverage, or does it work around it?
+- Could we use coverage to find gaps, not to judge quality?
+- Have we avoided this problem: ignoring branch coverage?
+
+Good reviews of work on Code Coverage are specific, kind and focused on coverage reports, not on personal style.

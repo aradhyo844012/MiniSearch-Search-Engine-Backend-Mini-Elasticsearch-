@@ -1,0 +1,15 @@
+Combining Idempotency with CQRS in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Idempotency and CQRS can work together in a single project.
+
+Idempotency is the property that repeating an operation gives the same result as doing it once. CQRS is a pattern that separates the models used to change data from the models used to read it.
+
+Imagine a project that involves payment APIs and high-read dashboards. Idempotency brings idempotency keys, while CQRS brings commands.
+
+A sensible plan is to start with Stripe idempotency keys for the Idempotency part and Axon Framework for the CQRS part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: side effects outside the guarded step on one side, and read models drifting out of sync on the other.
+
+Picture the whole as pressing an elevator call button many times and still getting one elevator, working alongside a restaurant with one counter for orders and another for pickup.
+
+Two habits help: first, store the result with the key so retries return the same response; second, start with a single model and split only when reads and writes truly diverge.

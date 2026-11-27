@@ -1,0 +1,11 @@
+Java Streams Tips from Experienced Engineers
+
+Engineers who work with Java Streams regularly tend to repeat the same advice. Here it is.
+
+1. Make sure you can keep each stream step small and readable.
+2. When something behaves strangely, revisit filter before anything else.
+3. Reach for OpenJDK first, and only then evaluate alternatives such as IntelliJ IDEA.
+4. Do not skip map; everything else builds on it.
+5. Be careful with this one: reusing a consumed stream.
+
+None of these tips needs special equipment, and all of them apply to aggregating records as well.

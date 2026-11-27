@@ -1,0 +1,13 @@
+Random Forests vs Support Vector Machines: Which One Should You Learn First?
+
+Learners often ask whether to study Random Forests or Support Vector Machines first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+Random Forests is ensembles of many decision trees whose predictions are combined, and it is closely tied to bagging and feature randomness. Support Vector Machines, by contrast, is models that classify data by finding the boundary with the widest margin between classes, and it is closely tied to margin and support vectors.
+
+Choose Random Forests first if you care about tabular predictions or feature importance ranking. Choose Support Vector Machines first if you care about text classification or small high-dimensional datasets.
+
+Think of Random Forests as asking many different experts and taking the majority view, and of Support Vector Machines as drawing the widest road between two neighborhoods. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Random Forests, avoid treating importance scores as causes. With Support Vector Machines, avoid slow training on large data.
+
+A good habit for Random Forests is to tune the number of trees only after the basics work. A good habit for Support Vector Machines is to scale features and try a linear kernel first.

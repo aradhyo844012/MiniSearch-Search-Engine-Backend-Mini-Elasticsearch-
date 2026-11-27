@@ -1,0 +1,12 @@
+Webhooks Glossary for Beginners
+
+New words can make Webhooks feel harder than it is. This glossary keeps the key ones in one place.
+
+Webhooks: HTTP callbacks that let one service notify another when an event happens.
+event payloads: a core term, most visible in payment notifications.
+signature verification: a core term that beginners often confuse with retries.
+retries: a core term that connects to endpoints.
+endpoints: a core term worth revisiting after you try a real example.
+ngrok: a tool commonly used for CI triggers.
+
+Come back to this Webhooks list whenever documentation for the Stripe CLI uses a word you do not recognize.

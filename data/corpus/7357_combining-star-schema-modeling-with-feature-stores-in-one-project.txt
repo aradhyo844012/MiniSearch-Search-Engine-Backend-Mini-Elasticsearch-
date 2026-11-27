@@ -1,0 +1,15 @@
+Combining Star Schema Modeling with Feature Stores in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Star Schema Modeling and Feature Stores can work together in a single project.
+
+Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables. Feature Stores is systems that store and serve the input variables used by machine learning models.
+
+Imagine a project that involves business intelligence reports and sharing features across models. Star Schema Modeling brings fact tables, while Feature Stores brings offline store.
+
+A sensible plan is to start with dbt for the Star Schema Modeling part and Feast for the Feature Stores part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: over-normalized dimensions on one side, and duplicate definitions on the other.
+
+Picture the whole as a wheel with a hub of numbers and spokes of descriptions, working alongside a shared pantry of prepared ingredients for many recipes.
+
+Two habits help: first, state the grain of the fact table before designing anything else; second, define each feature once and reuse it in training and serving.

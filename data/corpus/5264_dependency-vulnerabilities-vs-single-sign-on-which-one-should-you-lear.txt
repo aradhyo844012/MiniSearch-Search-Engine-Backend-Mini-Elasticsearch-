@@ -1,0 +1,13 @@
+Dependency Vulnerabilities vs Single Sign-On: Which One Should You Learn First?
+
+Learners often ask whether to study Dependency Vulnerabilities or Single Sign-On first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses, and it is closely tied to CVE identifiers and version pinning. Single Sign-On, by contrast, is letting users log in once and access several applications, and it is closely tied to identity provider and SAML.
+
+Choose Dependency Vulnerabilities first if you care about auditing projects or automating updates. Choose Single Sign-On first if you care about company intranets or reducing password fatigue.
+
+Think of Dependency Vulnerabilities as checking every ingredient supplier for recalls, and of Single Sign-On as a festival wristband that opens every gate. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Dependency Vulnerabilities, avoid ignoring transitive dependencies. With Single Sign-On, avoid a single point of failure.
+
+A good habit for Dependency Vulnerabilities is to automate update pull requests. A good habit for Single Sign-On is to plan for identity provider outages.

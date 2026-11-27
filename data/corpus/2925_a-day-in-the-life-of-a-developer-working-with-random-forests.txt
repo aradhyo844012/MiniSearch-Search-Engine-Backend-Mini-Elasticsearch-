@@ -1,0 +1,13 @@
+A Day in the Life of a Developer Working with Random Forests
+
+This is a fictional but realistic day for a developer whose project relies on Random Forests.
+
+Morning: Divya starts by reviewing a ticket about tabular predictions. Before touching any code, Divya re-reads the notes on bagging to make sure the plan is sound.
+
+Midday: Divya pairs with a teammate to explore feature randomness with scikit-learn. A small test exposes the problem of treating importance scores as causes, and they fix it together.
+
+Afternoon: the team discusses a new request involving feature importance ranking. Divya sketches asking many different experts and taking the majority view on the whiteboard to help everyone follow the idea.
+
+End of day: Divya writes a short note describing what changed and adds a reminder to tune the number of trees only after the basics work.
+
+Days like this are typical. Random Forests is not glamorous, but understanding it keeps small problems from growing.

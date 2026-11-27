@@ -1,0 +1,11 @@
+Why Disaster Recovery Matters for Developers
+
+Developers who understand Disaster Recovery make better decisions, because Disaster Recovery is the plans and systems that restore services after major failures.
+
+Three situations show why it matters. First, surviving regional outages. Second, meeting compliance needs. Third, protecting critical data. In each case, a solid grasp of recovery time objective and recovery point objective separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: untested plans, outdated runbooks, and dependencies missed in the plan.
+
+You will not need to build everything yourself; AWS Backup, Terraform, and Route 53 failover cover most needs.
+
+Connect Disaster Recovery with Blue-Green Deployment to see the bigger picture of DevOps and Cloud.

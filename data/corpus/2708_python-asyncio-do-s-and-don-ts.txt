@@ -1,0 +1,17 @@
+Python Asyncio Do's and Don'ts
+
+A quick list of habits for working with Python Asyncio.
+
+Do:
+- Learn event loop before anything else.
+- Try asyncio on a small example.
+- Make it a habit to never call blocking code directly inside a coroutine.
+- Test the case of calling many APIs at once early.
+
+Don't:
+- Ignore this: blocking calls inside coroutines.
+- Ignore this: forgetting to await.
+- Ignore this: mixing threads and event loops carelessly.
+- Adopt Python Asyncio just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Python Asyncio, a little patience with coroutines pays off more than any clever shortcut.

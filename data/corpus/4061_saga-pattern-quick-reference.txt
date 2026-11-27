@@ -1,0 +1,15 @@
+Saga Pattern Quick Reference
+
+A one-screen reminder for Saga Pattern. Bookmark it and return when the details fade.
+
+What it is: a way of managing long business operations across services using a sequence of local steps and compensating actions.
+Key terms: local transactions, compensating actions, orchestration, and choreography.
+Typical uses: order processing, travel bookings, and payment workflows.
+Risks: missing compensations, steps that are not idempotent, and flows that are hard to trace.
+Tools: Temporal, Camunda, and Apache Kafka.
+
+Mental picture: booking a trip with separate hotel, flight and car reservations that can each be cancelled.
+
+Habit to build: make every step and its compensation idempotent.
+
+See also: Event Sourcing, which sits close to Saga Pattern in the area of Distributed Systems.

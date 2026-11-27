@@ -1,0 +1,11 @@
+Is Topological Sorting Right for Your Project?
+
+Before adopting Topological Sorting, ask whether it fits the problem. Remember that Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+
+It is a good fit when your work involves build systems or course prerequisite planning, and when your team understands directed acyclic graphs.
+
+Be cautious when the project is very small, when deadlines leave no room to learn in-degree counts, or when you cannot manage these risks: ignoring cycles, assuming the order is unique, and mixing up edge directions.
+
+A simple decision test: write down the problem in one sentence, then check whether Kahn's algorithm and cycle detection are part of the answer. If they are, Topological Sorting is probably worth a closer look.
+
+If you decide to go ahead, start small with task scheduling and check for cycles first so you can report a clear error.

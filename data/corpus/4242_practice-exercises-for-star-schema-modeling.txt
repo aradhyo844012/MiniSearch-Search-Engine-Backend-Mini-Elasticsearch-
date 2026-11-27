@@ -1,0 +1,11 @@
+Practice Exercises for Star Schema Modeling
+
+These exercises build real understanding of Star Schema Modeling. Do them in order, and write down your answers.
+
+Exercise 1: Explain how surrogate keys and grain differ, using a drawing.
+Exercise 2: Pick dbt and complete its getting-started tutorial.
+Exercise 3: Write a short paragraph describing Star Schema Modeling and include the term fact tables.
+Exercise 4: List three situations from your own experience that resemble business intelligence reports or data warehouses.
+Exercise 5: Compare Snowflake and Kimball techniques for fast aggregations and write down your conclusion.
+
+When you finish, compare your answers with the definition: Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.

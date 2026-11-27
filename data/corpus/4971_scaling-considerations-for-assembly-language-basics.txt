@@ -1,0 +1,11 @@
+Scaling Considerations for Assembly Language Basics
+
+A design that works for a classroom project can behave very differently under real load. Here is how Assembly Language Basics changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding registers and getting understanding compiled code right.
+
+Medium scale: problems start to appear. Watch for wrong calling conventions and stack corruption, and measure with GDB before changing anything.
+
+Large scale: memory addressing and the stack move from background details to central design questions. Teams often revisit their choices around debugging crashes at this stage.
+
+Before you scale, read the assembly of a tiny C function to see what the compiler does. It is cheaper to build that habit early than to fix a crisis later.

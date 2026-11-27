@@ -1,0 +1,15 @@
+Interrupts in 10 Minutes
+
+You have ten minutes, so here is the fast route through Interrupts.
+
+Minutes 1 and 2, the definition: Interrupts is signals that make a processor pause its work to handle an urgent event.
+
+Minutes 3 and 4, the vocabulary: learn interrupt handlers, interrupt vectors, priorities, and context saving.
+
+Minutes 5 and 6, the picture: imagine a phone call interrupting your reading. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through keyboard and mouse input, timers, and network packets arriving.
+
+Minutes 9 and 10, the traps and the tools: watch for long handlers and race conditions with shared data, then try Linux /proc/interrupts for a first experiment.
+
+If you have a spare minute, remember to keep interrupt handlers short and defer the heavy work.

@@ -1,0 +1,11 @@
+Choosing Tools for Command Line Productivity
+
+There is no single best tool for Command Line Productivity. The right choice depends on your project, your team and your timeline.
+
+bash is a common first choice, especially for automating repetitive tasks. tmux suits teams that already work with similar technology, and fzf is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle exploring files and logs well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: copying commands without understanding them.
+
+As a rule of thumb, turn commands you repeat into small scripts, no matter which tool you use.

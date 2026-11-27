@@ -1,0 +1,11 @@
+LSM Trees in Real Projects
+
+Reading about LSM Trees is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: write-heavy databases. Here, memtable drives the main design choices, and the team needs to guard against read amplification.
+
+Scenario two: time-ordered data. This time sorted string tables matters most, and tools such as RocksDB help keep things manageable.
+
+Scenario three: key-value stores. The key idea is compaction, and the biggest risk is compaction stalls.
+
+Across all three scenarios, LSM Trees stays the same idea: storage structures that buffer writes in memory and merge them into sorted files on disk. Only the details change.

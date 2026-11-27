@@ -1,0 +1,12 @@
+CPU Caches Glossary for Beginners
+
+New words can make CPU Caches feel harder than it is. This glossary keeps the key ones in one place.
+
+CPU Caches: small, fast memory close to the processor that stores recently used data.
+cache lines: a core term, most visible in speeding up loops.
+hit and miss rates: a core term that beginners often confuse with levels L1 to L3.
+levels L1 to L3: a core term that connects to locality.
+locality: a core term worth revisiting after you try a real example.
+perf: a tool commonly used for explaining performance differences.
+
+Come back to this CPU Caches list whenever documentation for Valgrind cachegrind uses a word you do not recognize.

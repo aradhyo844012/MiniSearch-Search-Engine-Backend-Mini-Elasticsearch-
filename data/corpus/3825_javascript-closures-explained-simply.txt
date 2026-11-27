@@ -1,0 +1,13 @@
+JavaScript Closures Explained Simply
+
+Here is JavaScript Closures without the jargon: it is functions that remember the variables from the place where they were created.
+
+Think of JavaScript Closures as a backpack a function carries with everything it needs from home. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: lexical scope, captured variables, function factories, and memory retention. You do not need to master them all at once. Start with lexical scope, then add captured variables.
+
+You will meet JavaScript Closures in work such as keeping private state in modules, event handlers that need context, and callbacks that remember settings.
+
+One practical tip is to use let instead of var inside loops.
+
+Once JavaScript Closures feels comfortable, read about Go Goroutines, which lives in the same neighborhood of ideas.

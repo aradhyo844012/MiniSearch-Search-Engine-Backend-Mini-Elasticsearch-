@@ -1,0 +1,15 @@
+Jupyter Notebooks Quick Reference
+
+A one-screen reminder for Jupyter Notebooks. Bookmark it and return when the details fade.
+
+What it is: interactive documents that combine code, results and notes.
+Key terms: cells, kernels, markdown, and outputs.
+Typical uses: exploring data, teaching and demos, and sharing analysis.
+Risks: running cells out of order, hidden state, and committing outputs that contain secrets.
+Tools: JupyterLab, VS Code, and Google Colab.
+
+Mental picture: a lab notebook that can run its own experiments.
+
+Habit to build: restart the kernel and run all cells before sharing.
+
+See also: Feature Stores, which sits close to Jupyter Notebooks in the area of Data and Analytics.

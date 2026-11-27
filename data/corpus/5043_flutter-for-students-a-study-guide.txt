@@ -1,0 +1,17 @@
+Flutter for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Flutter.
+
+Learning goals:
+1. Explain Flutter in your own words.
+2. Describe widgets, state, hot reload, and the render tree.
+3. Give examples from cross-platform mobile apps and desktop apps.
+4. Name three problems to watch for.
+
+Start with the definition: Flutter is a toolkit for building natively compiled apps from a single Dart codebase. Then draw a box of customizable building blocks drawn by its own engine on paper and label the four terms from the goals above.
+
+Self-test questions: Why is deep widget trees a problem? How does state relate to hot reload? When would you choose Dart or Flutter DevTools?
+
+Study habit: split big widgets into small reusable ones.
+
+When you feel ready, compare Flutter with Push Notifications and write down three differences.

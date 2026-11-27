@@ -1,0 +1,17 @@
+Modular Monoliths Do's and Don'ts
+
+A quick list of habits for working with Modular Monoliths.
+
+Do:
+- Learn module boundaries before anything else.
+- Try ArchUnit on a small example.
+- Make it a habit to enforce boundaries with automated checks.
+- Test the case of small teams early.
+
+Don't:
+- Ignore this: modules reaching into each other's tables.
+- Ignore this: no enforced boundaries.
+- Ignore this: treating modules as just folders.
+- Adopt Modular Monoliths just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Modular Monoliths, a little patience with public interfaces pays off more than any clever shortcut.

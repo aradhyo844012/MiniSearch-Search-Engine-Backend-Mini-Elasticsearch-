@@ -1,0 +1,11 @@
+Choosing Tools for System Calls
+
+There is no single best tool for System Calls. The right choice depends on your project, your team and your timeline.
+
+strace is a common first choice, especially for reading and writing files. man pages suits teams that already work with similar technology, and libc is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle creating processes well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: ignoring error codes.
+
+As a rule of thumb, use strace to see what your program really asks the kernel to do, no matter which tool you use.

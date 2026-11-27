@@ -1,0 +1,10 @@
+Raft Consensus: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Raft Consensus with confidence. The subject itself is an algorithm that lets a group of servers agree on a shared log of operations.
+
+leader election: one of the building blocks of Raft Consensus. Documentation for etcd usually mentions it early.
+log replication: one of the building blocks of Raft Consensus. Mixing it up with neighboring terms is a common source of confusion.
+terms: one of the building blocks of Raft Consensus. It shows up whenever you work on configuration stores.
+majority quorum: one of the building blocks of Raft Consensus. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about distributed locks. If the sentences feel natural, the vocabulary has stuck.

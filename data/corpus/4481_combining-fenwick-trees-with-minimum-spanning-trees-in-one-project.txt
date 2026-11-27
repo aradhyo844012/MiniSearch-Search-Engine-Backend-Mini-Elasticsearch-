@@ -1,0 +1,15 @@
+Combining Fenwick Trees with Minimum Spanning Trees in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Fenwick Trees and Minimum Spanning Trees can work together in a single project.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates. Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight.
+
+Imagine a project that involves counting inversions and designing cable networks. Fenwick Trees brings binary indexed trees, while Minimum Spanning Trees brings weighted graphs.
+
+A sensible plan is to start with C++ vectors for the Fenwick Trees part and NetworkX for the Minimum Spanning Trees part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that nodes store partial sums on one side, and forgetting that the graph must be connected on the other.
+
+Picture the whole as a set of running subtotals where each one covers a block of entries, working alongside laying the cheapest set of roads that still links every town.
+
+Two habits help: first, start indexing from one to keep the bit tricks simple; second, sort the edges once and reuse the order when testing variations.

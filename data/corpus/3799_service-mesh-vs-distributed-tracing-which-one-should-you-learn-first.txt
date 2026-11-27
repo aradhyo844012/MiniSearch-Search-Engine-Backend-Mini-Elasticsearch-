@@ -1,0 +1,13 @@
+Service Mesh vs Distributed Tracing: Which One Should You Learn First?
+
+Learners often ask whether to study Service Mesh or Distributed Tracing first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Service Mesh is an infrastructure layer that manages communication between services through proxies, and it is closely tied to sidecar proxies and mutual TLS. Distributed Tracing, by contrast, is following a single request as it passes through many services, and it is closely tied to spans and trace IDs.
+
+Choose Service Mesh first if you care about securing service traffic or retries and timeouts. Choose Distributed Tracing first if you care about finding slow services or understanding dependencies.
+
+Think of Service Mesh as a postal system that applies delivery rules between buildings, and of Distributed Tracing as a parcel tracking page that shows every stop on the route. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Service Mesh, avoid added latency and complexity. With Distributed Tracing, avoid missing context propagation.
+
+A good habit for Service Mesh is to adopt it only once the number of services makes manual setup painful. A good habit for Distributed Tracing is to propagate trace IDs through every outgoing call.

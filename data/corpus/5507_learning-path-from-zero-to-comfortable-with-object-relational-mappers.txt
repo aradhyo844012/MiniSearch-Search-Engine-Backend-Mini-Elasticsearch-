@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Object-Relational Mappers
+
+This path is for a learner who has never studied Object-Relational Mappers before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Object-Relational Mappers is libraries that map database tables to objects in code) and learn models and queries.
+
+Stage 2, hands-on: install SQLAlchemy, follow a tutorial, and build a small example involving building CRUD apps quickly.
+
+Stage 3, depth: study relationships and migrations, then deliberately explore this problem: N+1 queries.
+
+Stage 4, application: apply Object-Relational Mappers to switching databases, compare the Django ORM with Hibernate, and write up your results.
+
+Stage 5, review: teach Object-Relational Mappers to someone else, and then move on to GraphQL.

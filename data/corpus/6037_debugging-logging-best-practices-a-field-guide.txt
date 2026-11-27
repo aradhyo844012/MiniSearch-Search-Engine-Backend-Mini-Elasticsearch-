@@ -1,0 +1,13 @@
+Debugging Logging Best Practices: A Field Guide
+
+When something goes wrong around Logging Best Practices, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: logging sensitive data, too much noise, and missing context.
+Step 3: revisit log levels and structured logs, since misunderstandings there cause many bugs.
+Step 4: use the Python logging module or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Logging Best Practices in work such as debugging production issues come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, include a request ID in every log line. It prevents a surprising number of repeat problems.

@@ -1,0 +1,15 @@
+Data Augmentation Quick Reference
+
+A one-screen reminder for Data Augmentation. Bookmark it and return when the details fade.
+
+What it is: creating modified copies of training data to help models generalize.
+Key terms: transformations, label preservation, synthetic samples, and augmentation pipelines.
+Typical uses: image models, text classification, and small datasets.
+Risks: changes that alter the label, augmenting the test set, and unrealistic transformations.
+Tools: Albumentations, torchvision, and nlpaug.
+
+Mental picture: practicing a sport in different weather and on different fields.
+
+Habit to build: augment only the training data.
+
+See also: Hyperparameter Tuning, which sits close to Data Augmentation in the area of AI and Machine Learning.

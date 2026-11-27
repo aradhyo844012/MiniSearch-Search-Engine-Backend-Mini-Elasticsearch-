@@ -1,0 +1,11 @@
+TypeScript Generics in Real Projects
+
+Reading about TypeScript Generics is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: reusable utility functions. Here, type parameters drives the main design choices, and the team needs to guard against overusing any.
+
+Scenario two: typed API clients. This time constraints matters most, and tools such as tsc help keep things manageable.
+
+Scenario three: data containers. The key idea is type inference, and the biggest risk is overly complex generic types.
+
+Across all three scenarios, TypeScript Generics stays the same idea: a feature that lets functions and types work with many types while keeping type safety. Only the details change.

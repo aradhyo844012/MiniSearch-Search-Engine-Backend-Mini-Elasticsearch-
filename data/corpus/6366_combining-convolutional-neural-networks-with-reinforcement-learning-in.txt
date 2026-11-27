@@ -1,0 +1,15 @@
+Combining Convolutional Neural Networks with Reinforcement Learning in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Convolutional Neural Networks and Reinforcement Learning can work together in a single project.
+
+Convolutional Neural Networks is neural networks that scan images with small filters to detect patterns. Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes.
+
+Imagine a project that involves image classification and game playing. Convolutional Neural Networks brings filters, while Reinforcement Learning brings agent.
+
+A sensible plan is to start with PyTorch for the Convolutional Neural Networks part and Gymnasium for the Reinforcement Learning part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring data augmentation on one side, and slow training on the other.
+
+Picture the whole as a magnifying glass sweeping across a photo looking for edges and shapes, working alongside training a dog with treats for good behavior.
+
+Two habits help: first, start from a pretrained model; second, start with simple environments.

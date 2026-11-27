@@ -1,0 +1,15 @@
+Combining Progressive Web Apps with Internationalization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Progressive Web Apps and Internationalization can work together in a single project.
+
+Progressive Web Apps is web applications that can be installed and work offline like native apps. Internationalization is designing software so it can be adapted to different languages and regions.
+
+Imagine a project that involves offline-friendly tools and global products. Progressive Web Apps brings web app manifest, while Internationalization brings locale detection.
+
+A sensible plan is to start with Lighthouse for the Progressive Web Apps part and i18next for the Internationalization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: poor offline fallbacks on one side, and text that overflows layouts on the other.
+
+Picture the whole as a website that packs its own suitcase so it still works when the network is gone, working alongside a stage set where the backdrop can be swapped for each audience.
+
+Two habits help: first, test the app in airplane mode; second, move every user-facing string into translation files from the first day.

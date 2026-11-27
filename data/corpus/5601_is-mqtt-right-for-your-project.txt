@@ -1,0 +1,11 @@
+Is MQTT Right for Your Project?
+
+Before adopting MQTT, ask whether it fits the problem. Remember that MQTT is a lightweight messaging protocol designed for small devices and unreliable networks.
+
+It is a good fit when your work involves sensor networks or smart home devices, and when your team understands publish and subscribe.
+
+Be cautious when the project is very small, when deadlines leave no room to learn topics, or when you cannot manage these risks: unsecured brokers, messy topic names, and wrong quality of service choices.
+
+A simple decision test: write down the problem in one sentence, then check whether brokers and quality of service levels are part of the answer. If they are, MQTT is probably worth a closer look.
+
+If you decide to go ahead, start small with telemetry and design topic names like a clear folder structure.

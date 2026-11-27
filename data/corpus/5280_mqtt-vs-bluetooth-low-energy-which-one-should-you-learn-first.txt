@@ -1,0 +1,13 @@
+MQTT vs Bluetooth Low Energy: Which One Should You Learn First?
+
+Learners often ask whether to study MQTT or Bluetooth Low Energy first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+MQTT is a lightweight messaging protocol designed for small devices and unreliable networks, and it is closely tied to publish and subscribe and topics. Bluetooth Low Energy, by contrast, is a short-range wireless technology designed for very low power use, and it is closely tied to advertising and GATT services.
+
+Choose MQTT first if you care about sensor networks or smart home devices. Choose Bluetooth Low Energy first if you care about fitness trackers or smart locks.
+
+Think of MQTT as a radio station with channels that devices can tune into, and of Bluetooth Low Energy as a whisper between two nearby devices that barely uses any energy. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With MQTT, avoid unsecured brokers. With Bluetooth Low Energy, avoid ignoring connection limits.
+
+A good habit for MQTT is to design topic names like a clear folder structure. A good habit for Bluetooth Low Energy is to test with several phone models.

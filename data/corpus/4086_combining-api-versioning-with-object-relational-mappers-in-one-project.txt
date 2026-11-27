@@ -1,0 +1,15 @@
+Combining API Versioning with Object-Relational Mappers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how API Versioning and Object-Relational Mappers can work together in a single project.
+
+API Versioning is the practice of evolving an API without breaking existing clients. Object-Relational Mappers is libraries that map database tables to objects in code.
+
+Imagine a project that involves public APIs and building CRUD apps quickly. API Versioning brings version in the URL, while Object-Relational Mappers brings models.
+
+A sensible plan is to start with OpenAPI for the API Versioning part and SQLAlchemy for the Object-Relational Mappers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: removing fields without notice on one side, and loading entire tables on the other.
+
+Picture the whole as keeping old editions of a textbook available while a new one is published, working alongside a translator between the language of tables and the language of objects.
+
+Two habits help: first, announce deprecations with a clear sunset date; second, log the generated SQL during development.

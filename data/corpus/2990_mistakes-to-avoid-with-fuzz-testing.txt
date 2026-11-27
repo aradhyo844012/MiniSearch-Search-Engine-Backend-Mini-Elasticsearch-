@@ -1,0 +1,11 @@
+Mistakes to Avoid with Fuzz Testing
+
+Everyone learns Fuzz Testing partly through mistakes. Here are three worth avoiding.
+
+Mistake one: running without sanitizers. It usually appears when someone skips input generation and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: crashes that cannot be reproduced. It tends to be noticed late, often during testing of testing parsers. A short checklist during review catches it early.
+
+Mistake three: ignoring slow inputs. It is easy to miss because everything seems to work at first. Keep an eye on corpora to spot it.
+
+If you remember only one rule, make it this: keep every crashing input as a regression test.

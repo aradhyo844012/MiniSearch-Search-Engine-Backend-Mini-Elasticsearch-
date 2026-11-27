@@ -1,0 +1,15 @@
+Combining Code Coverage with Chaos Engineering in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Code Coverage and Chaos Engineering can work together in a single project.
+
+Code Coverage is a measure of how much of the code is run by tests. Chaos Engineering is deliberately causing failures in a system to learn how it responds.
+
+Imagine a project that involves finding untested code and testing resilience. Code Coverage brings line coverage, while Chaos Engineering brings steady state.
+
+A sensible plan is to start with coverage.py for the Code Coverage part and Chaos Monkey for the Chaos Engineering part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: treating coverage as quality on one side, and having no steady-state metrics on the other.
+
+Picture the whole as a map showing which rooms a security guard has walked through, working alongside a fire drill where you secretly block one exit.
+
+Two habits help: first, use coverage to find gaps, not to judge quality; second, start with small experiments in a test environment.

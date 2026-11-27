@@ -1,0 +1,17 @@
+Data Lakes for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Data Lakes.
+
+Learning goals:
+1. Explain Data Lakes in your own words.
+2. Describe raw storage, schema on read, partitioning, and metadata catalogs.
+3. Give examples from storing logs and events and machine learning datasets.
+4. Name three problems to watch for.
+
+Start with the definition: Data Lakes is large storage systems that keep raw data in its original format until it is needed. Then draw a big reservoir where water from many rivers is stored before treatment on paper and label the four terms from the goals above.
+
+Self-test questions: Why is turning into a data swamp a problem? How does schema on read relate to partitioning? When would you choose Amazon S3 or Delta Lake?
+
+Study habit: register every dataset in a catalog with an owner.
+
+When you feel ready, compare Data Lakes with Data Quality Checks and write down three differences.

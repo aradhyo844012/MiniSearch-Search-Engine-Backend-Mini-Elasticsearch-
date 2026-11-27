@@ -1,0 +1,15 @@
+Statistical Significance Quick Reference
+
+A one-screen reminder for Statistical Significance. Bookmark it and return when the details fade.
+
+What it is: a measure of how unlikely a result would be if there were no real effect.
+Key terms: p-values, the null hypothesis, confidence intervals, and effect size.
+Typical uses: judging experiment results, comparing model performance, and reporting research findings.
+Risks: mistaking significance for importance, p-hacking, and ignoring sample size.
+Tools: SciPy, statsmodels, and R.
+
+Mental picture: asking how surprised you should be if a coin were actually fair.
+
+Habit to build: always report the effect size alongside the p-value.
+
+See also: Data Anonymization, which sits close to Statistical Significance in the area of Data and Analytics.

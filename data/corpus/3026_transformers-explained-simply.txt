@@ -1,0 +1,13 @@
+Transformers Explained Simply
+
+Here is Transformers without the jargon: it is neural network architectures that use attention to relate all parts of an input to each other.
+
+Think of Transformers as a reader who can look back at any word of a paragraph while reading each new word. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: self-attention, positional encoding, encoder and decoder blocks, and tokens. You do not need to master them all at once. Start with self-attention, then add positional encoding.
+
+People reach for Transformers when they work on language translation, text generation, and code assistance.
+
+One practical tip is to begin with small pretrained models.
+
+After Transformers, a natural next topic is Hyperparameter Tuning.

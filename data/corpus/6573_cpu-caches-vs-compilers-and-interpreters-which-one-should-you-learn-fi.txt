@@ -1,0 +1,13 @@
+CPU Caches vs Compilers and Interpreters: Which One Should You Learn First?
+
+Learners often ask whether to study CPU Caches or Compilers and Interpreters first. Both sit in the area of Computer Systems, so the honest answer is that it depends on your goals.
+
+CPU Caches is small, fast memory close to the processor that stores recently used data, and it is closely tied to cache lines and hit and miss rates. Compilers and Interpreters, by contrast, is programs that translate or run source code written in a high-level language, and it is closely tied to lexing and parsing.
+
+Choose CPU Caches first if you care about speeding up loops or explaining performance differences. Choose Compilers and Interpreters first if you care about running Python and JavaScript or building native programs.
+
+Think of CPU Caches as keeping your most-used books on your desk instead of in the library, and of Compilers and Interpreters as a translator who either translates a whole book first or interprets sentence by sentence. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CPU Caches, avoid false sharing. With Compilers and Interpreters, avoid assuming interpreted means slow without measuring.
+
+A good habit for CPU Caches is to access arrays in the order they are stored. A good habit for Compilers and Interpreters is to turn on compiler warnings and treat them seriously.

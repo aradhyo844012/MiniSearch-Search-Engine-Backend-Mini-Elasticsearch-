@@ -1,0 +1,11 @@
+Practice Exercises for Minimum Spanning Trees
+
+These exercises build real understanding of Minimum Spanning Trees. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: using it on directed graphs. Then fix it.
+Exercise 2: Write a short paragraph describing Minimum Spanning Trees and include the term weighted graphs.
+Exercise 3: Compare SciPy and Graphviz for reducing infrastructure cost and write down your conclusion.
+Exercise 4: Explain how Prim's algorithm and the cut property differ, using a drawing.
+Exercise 5: Pick NetworkX and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight.

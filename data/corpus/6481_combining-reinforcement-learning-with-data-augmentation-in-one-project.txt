@@ -1,0 +1,15 @@
+Combining Reinforcement Learning with Data Augmentation in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Reinforcement Learning and Data Augmentation can work together in a single project.
+
+Reinforcement Learning is a way of training agents to choose actions by rewarding good outcomes. Data Augmentation is creating modified copies of training data to help models generalize.
+
+Imagine a project that involves game playing and image models. Reinforcement Learning brings agent, while Data Augmentation brings transformations.
+
+A sensible plan is to start with Gymnasium for the Reinforcement Learning part and Albumentations for the Data Augmentation part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow training on one side, and augmenting the test set on the other.
+
+Picture the whole as training a dog with treats for good behavior, working alongside practicing a sport in different weather and on different fields.
+
+Two habits help: first, start with simple environments; second, augment only the training data.

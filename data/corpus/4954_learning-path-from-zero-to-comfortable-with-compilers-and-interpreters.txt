@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Compilers and Interpreters
+
+This path is for a learner who has never studied Compilers and Interpreters before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Compilers and Interpreters is programs that translate or run source code written in a high-level language) and learn lexing and parsing.
+
+Stage 2, hands-on: install GCC, follow a tutorial, and build a small example involving running Python and JavaScript.
+
+Stage 3, depth: study code generation and bytecode, then deliberately explore this problem: assuming interpreted means slow without measuring.
+
+Stage 4, application: apply Compilers and Interpreters to building native programs, compare LLVM with CPython, and write up your results.
+
+Stage 5, review: teach Compilers and Interpreters to someone else, and then move on to Interrupts.

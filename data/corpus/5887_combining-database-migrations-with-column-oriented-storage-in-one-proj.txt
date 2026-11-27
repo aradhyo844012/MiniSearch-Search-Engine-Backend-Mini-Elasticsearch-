@@ -1,0 +1,15 @@
+Combining Database Migrations with Column-Oriented Storage in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Database Migrations and Column-Oriented Storage can work together in a single project.
+
+Database Migrations is versioned scripts that change a database schema in a controlled and repeatable way. Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics.
+
+Imagine a project that involves adding columns safely and analytics dashboards. Database Migrations brings up and down scripts, while Column-Oriented Storage brings column chunks.
+
+A sensible plan is to start with Alembic for the Database Migrations part and Apache Parquet for the Column-Oriented Storage part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: editing old migrations on one side, and many small writes on the other.
+
+Picture the whole as a numbered set of renovation steps applied to a building in order, working alongside a spreadsheet kept as separate lists per column so you can read just one.
+
+Two habits help: first, split risky changes into small steps that can each be rolled back; second, select only the columns you really need.

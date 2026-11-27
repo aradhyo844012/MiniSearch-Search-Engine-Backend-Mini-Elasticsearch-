@@ -1,0 +1,11 @@
+Is Statistical Significance Right for Your Project?
+
+Before adopting Statistical Significance, ask whether it fits the problem. Remember that Statistical Significance is a measure of how unlikely a result would be if there were no real effect.
+
+It is a good fit when your work involves judging experiment results or comparing model performance, and when your team understands p-values.
+
+Be cautious when the project is very small, when deadlines leave no room to learn the null hypothesis, or when you cannot manage these risks: mistaking significance for importance, p-hacking, and ignoring sample size.
+
+A simple decision test: write down the problem in one sentence, then check whether confidence intervals and effect size are part of the answer. If they are, Statistical Significance is probably worth a closer look.
+
+If you decide to go ahead, start small with reporting research findings and always report the effect size alongside the p-value.

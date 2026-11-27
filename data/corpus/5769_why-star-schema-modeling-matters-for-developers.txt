@@ -1,0 +1,11 @@
+Why Star Schema Modeling Matters for Developers
+
+Developers who understand Star Schema Modeling make better decisions, because Star Schema Modeling is a way of organizing analytics data into a central fact table surrounded by dimension tables.
+
+Three situations show why it matters. First, business intelligence reports. Second, data warehouses. Third, fast aggregations. In each case, a solid grasp of fact tables and dimension tables separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: mixing different grains, over-normalized dimensions, and missing date dimensions.
+
+You will not need to build everything yourself; dbt, Snowflake, and Kimball techniques cover most needs.
+
+Connect Star Schema Modeling with Jupyter Notebooks to see the bigger picture of Data and Analytics.

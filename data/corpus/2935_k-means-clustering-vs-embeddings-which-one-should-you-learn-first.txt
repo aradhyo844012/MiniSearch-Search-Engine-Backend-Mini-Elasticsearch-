@@ -1,0 +1,13 @@
+K-Means Clustering vs Embeddings: Which One Should You Learn First?
+
+Learners often ask whether to study K-Means Clustering or Embeddings first. Both sit in the area of AI and Machine Learning, so the honest answer is that it depends on your goals.
+
+K-Means Clustering is an algorithm that groups data points into a chosen number of clusters around central points, and it is closely tied to centroids and distance measures. Embeddings, by contrast, is lists of numbers that represent words, images or items so that similar things sit close together, and it is closely tied to vectors and cosine similarity.
+
+Choose K-Means Clustering first if you care about customer segmentation or image compression. Choose Embeddings first if you care about semantic search or recommendations.
+
+Think of K-Means Clustering as dividing students into study groups around the most central member, and of Embeddings as coordinates on a map where similar places are close together. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With K-Means Clustering, avoid choosing k blindly. With Embeddings, avoid mixing models between indexing and querying.
+
+A good habit for K-Means Clustering is to scale features before clustering. A good habit for Embeddings is to use the same embedding model for indexing and querying.

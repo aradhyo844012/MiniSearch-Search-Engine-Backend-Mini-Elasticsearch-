@@ -1,0 +1,15 @@
+Skip Lists in 10 Minutes
+
+You have ten minutes, so here is the fast route through Skip Lists.
+
+Minutes 1 and 2, the definition: Skip Lists is layered linked lists that allow fast searching by skipping over many elements.
+
+Minutes 3 and 4, the vocabulary: learn multiple levels, random level assignment, forward pointers, and expected logarithmic time.
+
+Minutes 5 and 6, the picture: imagine an express train line layered over a local train line. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through ordered in-memory indexes, sorted sets in caches, and concurrent ordered maps.
+
+Minutes 9 and 10, the traps and the tools: watch for poor random number choices and memory overhead, then try Redis sorted sets for a first experiment.
+
+If you have a spare minute, remember to draw several levels by hand to see how a search moves down.

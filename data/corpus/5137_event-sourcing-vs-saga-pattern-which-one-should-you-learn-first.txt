@@ -1,0 +1,13 @@
+Event Sourcing vs Saga Pattern: Which One Should You Learn First?
+
+Learners often ask whether to study Event Sourcing or Saga Pattern first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+Event Sourcing is a design in which every change is stored as an immutable event and state is rebuilt from them, and it is closely tied to event log and projections. Saga Pattern, by contrast, is a way of managing long business operations across services using a sequence of local steps and compensating actions, and it is closely tied to local transactions and compensating actions.
+
+Choose Event Sourcing first if you care about audit trails or financial ledgers. Choose Saga Pattern first if you care about order processing or travel bookings.
+
+Think of Event Sourcing as a bank statement that lists every transaction instead of only the balance, and of Saga Pattern as booking a trip with separate hotel, flight and car reservations that can each be cancelled. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event Sourcing, avoid changing event formats carelessly. With Saga Pattern, avoid missing compensations.
+
+A good habit for Event Sourcing is to version your events from the first day. A good habit for Saga Pattern is to make every step and its compensation idempotent.

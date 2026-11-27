@@ -1,0 +1,15 @@
+Combining Dependency Injection with Configuration Management in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Dependency Injection and Configuration Management can work together in a single project.
+
+Dependency Injection is a design approach where objects receive their dependencies instead of creating them. Configuration Management is keeping application settings separate from code so they can change per environment.
+
+Imagine a project that involves easier unit testing and separating development and production. Dependency Injection brings constructor injection, while Configuration Management brings environment variables.
+
+A sensible plan is to start with Spring for the Dependency Injection part and dotenv for the Configuration Management part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: circular dependencies on one side, and inconsistent defaults on the other.
+
+Picture the whole as a chef who is handed ingredients instead of shopping for them, working alongside the settings dial on a machine that stays the same on every site.
+
+Two habits help: first, inject interfaces so tests can use simple fakes; second, fail fast at startup if a required setting is missing.

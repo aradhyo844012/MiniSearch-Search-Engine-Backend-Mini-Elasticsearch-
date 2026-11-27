@@ -1,0 +1,13 @@
+CSRF vs Security Headers: Which One Should You Learn First?
+
+Learners often ask whether to study CSRF or Security Headers first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+CSRF is an attack that tricks a logged-in user's browser into sending unwanted requests to a site, and it is closely tied to session cookies and anti-CSRF tokens. Security Headers, by contrast, is HTTP response headers that tell browsers to enforce extra protections, and it is closely tied to Strict-Transport-Security and X-Content-Type-Options.
+
+Choose CSRF first if you care about protecting forms or securing account settings. Choose Security Headers first if you care about hardening websites or reducing clickjacking.
+
+Think of CSRF as a forged letter that a bank clerk stamps because your ID is already on file, and of Security Headers as safety instructions printed on the packaging of every page. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CSRF, avoid using GET requests for state changes. With Security Headers, avoid setting headers on only some routes.
+
+A good habit for CSRF is to combine SameSite cookies with anti-CSRF tokens. A good habit for Security Headers is to test the headers on every environment.

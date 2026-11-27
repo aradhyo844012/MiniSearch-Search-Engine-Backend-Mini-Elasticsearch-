@@ -1,0 +1,12 @@
+Questions to Ask About Boolean Logic and Gates in Code Review
+
+Reviewing code that involves Boolean Logic and Gates is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is truth tables clear to someone reading the code for the first time?
+- Would a test catch forgetting short-circuit behavior if it appeared later?
+- Does the code handle the case of writing conditions correctly?
+- Have we avoided this problem: negating complex conditions incorrectly?
+- Does this change respect AND, OR and NOT, or does it work around it?
+- Could we write a truth table whenever a condition feels confusing?
+
+Good reviews of work on Boolean Logic and Gates are specific, kind and focused on De Morgan's laws, not on personal style.

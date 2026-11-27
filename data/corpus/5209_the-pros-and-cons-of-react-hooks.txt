@@ -1,0 +1,15 @@
+The Pros and Cons of React Hooks
+
+No technology is free of trade-offs, and React Hooks is no exception. Here is an honest summary.
+
+Advantages:
+- Supports managing form input
+- Makes fetching data on load easier
+- Helps with sharing logic between components
+
+Drawbacks and risks:
+- Risk: missing dependencies in effects
+- Risk: calling hooks conditionally
+- Risk: stale closures
+
+Weigh the two lists against your own project. If the advantages match your needs, such as managing form input, and you can manage the risks, React Hooks is a sound choice. Whatever you decide, enable the hooks lint rules from the start.

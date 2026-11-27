@@ -1,0 +1,15 @@
+The Pros and Cons of Topological Sorting
+
+No technology is free of trade-offs, and Topological Sorting is no exception. Here is an honest summary.
+
+Advantages:
+- Supports build systems
+- Makes course prerequisite planning easier
+- Helps with task scheduling
+
+Drawbacks and risks:
+- Risk: ignoring cycles
+- Risk: assuming the order is unique
+- Risk: mixing up edge directions
+
+Weigh the two lists against your own project. If the advantages match your needs, such as build systems, and you can manage the risks, Topological Sorting is a sound choice. Whatever you decide, check for cycles first so you can report a clear error.

@@ -1,0 +1,26 @@
+Everything You Need to Know About Statistical Significance
+
+This page collects the essentials about Statistical Significance in one place. In short, Statistical Significance is a measure of how unlikely a result would be if there were no real effect.
+
+Core concepts:
+- p-values
+- the null hypothesis
+- confidence intervals
+- effect size
+
+Where it is used:
+- judging experiment results
+- comparing model performance
+- reporting research findings
+
+Common problems:
+- mistaking significance for importance
+- p-hacking
+- ignoring sample size
+
+Tools to know:
+- SciPy
+- statsmodels
+- R
+
+Remember this above all: asking how surprised you should be if a coin were actually fair is a good way to picture it, and the best habit is to always report the effect size alongside the p-value.

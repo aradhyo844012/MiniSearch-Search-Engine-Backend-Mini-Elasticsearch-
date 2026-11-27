@@ -1,0 +1,15 @@
+Combining Webhooks with Object-Relational Mappers in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Webhooks and Object-Relational Mappers can work together in a single project.
+
+Webhooks is HTTP callbacks that let one service notify another when an event happens. Object-Relational Mappers is libraries that map database tables to objects in code.
+
+Imagine a project that involves payment notifications and building CRUD apps quickly. Webhooks brings event payloads, while Object-Relational Mappers brings models.
+
+A sensible plan is to start with ngrok for the Webhooks part and SQLAlchemy for the Object-Relational Mappers part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: slow handlers causing timeouts on one side, and loading entire tables on the other.
+
+Picture the whole as a doorbell that rings when a delivery arrives instead of you checking the porch, working alongside a translator between the language of tables and the language of objects.
+
+Two habits help: first, respond quickly and process the event in a background job; second, log the generated SQL during development.

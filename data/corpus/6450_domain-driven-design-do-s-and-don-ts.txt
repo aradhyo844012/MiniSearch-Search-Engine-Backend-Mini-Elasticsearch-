@@ -1,0 +1,17 @@
+Domain-Driven Design Do's and Don'ts
+
+A quick list of habits for working with Domain-Driven Design.
+
+Do:
+- Learn ubiquitous language before anything else.
+- Try event storming on a small example.
+- Make it a habit to agree on shared terms with domain experts before drawing classes.
+- Test the case of complex business systems early.
+
+Don't:
+- Ignore this: using it for simple CRUD apps.
+- Ignore this: models that never match the business.
+- Ignore this: ignoring context boundaries.
+- Adopt Domain-Driven Design just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Domain-Driven Design, a little patience with bounded contexts pays off more than any clever shortcut.

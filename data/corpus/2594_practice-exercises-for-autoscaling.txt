@@ -1,0 +1,11 @@
+Practice Exercises for Autoscaling
+
+These exercises build real understanding of Autoscaling. Do them in order, and write down your answers.
+
+Exercise 1: Compare AWS Auto Scaling and KEDA for keeping latency steady and write down your conclusion.
+Exercise 2: List three situations from your own experience that resemble handling traffic spikes or saving money overnight.
+Exercise 3: Write a short paragraph describing Autoscaling and include the term scaling metrics.
+Exercise 4: Explain how minimum and maximum limits and horizontal scaling differ, using a drawing.
+Exercise 5: Create a small example that deliberately triggers this problem: scaling too slowly. Then fix it.
+
+When you finish, compare your answers with the definition: Autoscaling is automatically adding or removing computing resources as demand changes.

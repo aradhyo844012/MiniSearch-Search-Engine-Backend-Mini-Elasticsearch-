@@ -1,0 +1,15 @@
+Leader Election in 10 Minutes
+
+You have ten minutes, so here is the fast route through Leader Election.
+
+Minutes 1 and 2, the definition: Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.
+
+Minutes 3 and 4, the vocabulary: learn heartbeats, terms or epochs, candidates, and failover.
+
+Minutes 5 and 6, the picture: imagine a classroom picking a monitor when the teacher leaves. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through database primaries, job schedulers, and cluster managers.
+
+Minutes 9 and 10, the traps and the tools: watch for split brain and flapping leaders, then try ZooKeeper for a first experiment.
+
+If you have a spare minute, remember to tune heartbeat intervals against real network delays.

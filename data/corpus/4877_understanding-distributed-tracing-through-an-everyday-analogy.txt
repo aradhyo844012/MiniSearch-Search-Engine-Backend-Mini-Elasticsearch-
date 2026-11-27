@@ -1,0 +1,9 @@
+Understanding Distributed Tracing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a parcel tracking page that shows every stop on the route.
+
+In that picture, spans is the first rule you follow, trace IDs is the next step, and context propagation and sampling keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Distributed Tracing is following a single request as it passes through many services, and it involves details such as missing context propagation that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for OpenTelemetry to learn the exact behavior. The same picture helps when you explain finding slow services to a friend.

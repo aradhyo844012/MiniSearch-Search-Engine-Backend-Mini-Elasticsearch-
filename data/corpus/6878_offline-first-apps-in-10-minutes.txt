@@ -1,0 +1,15 @@
+Offline-First Apps in 10 Minutes
+
+You have ten minutes, so here is the fast route through Offline-First Apps.
+
+Minutes 1 and 2, the definition: Offline-First Apps is apps designed to work without a network and sync when a connection returns.
+
+Minutes 3 and 4, the vocabulary: learn local storage, sync queues, conflict resolution, and optimistic updates.
+
+Minutes 5 and 6, the picture: imagine writing in a notebook and mailing the pages later. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through field service tools, note-taking apps, and apps for low-connectivity regions.
+
+Minutes 9 and 10, the traps and the tools: watch for unresolved sync conflicts and unbounded local data, then try SQLite for a first experiment.
+
+If you have a spare minute, remember to show users which changes have not synced yet.

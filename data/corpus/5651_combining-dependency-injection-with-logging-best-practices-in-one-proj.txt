@@ -1,0 +1,15 @@
+Combining Dependency Injection with Logging Best Practices in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Dependency Injection and Logging Best Practices can work together in a single project.
+
+Dependency Injection is a design approach where objects receive their dependencies instead of creating them. Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Imagine a project that involves easier unit testing and debugging production issues. Dependency Injection brings constructor injection, while Logging Best Practices brings log levels.
+
+A sensible plan is to start with Spring for the Dependency Injection part and the Python logging module for the Logging Best Practices part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: circular dependencies on one side, and too much noise on the other.
+
+Picture the whole as a chef who is handed ingredients instead of shopping for them, working alongside a ship's logbook that explains what happened and when.
+
+Two habits help: first, inject interfaces so tests can use simple fakes; second, include a request ID in every log line.

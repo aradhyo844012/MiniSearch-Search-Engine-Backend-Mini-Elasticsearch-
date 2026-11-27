@@ -1,0 +1,15 @@
+Combining Interrupts with System Calls in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Interrupts and System Calls can work together in a single project.
+
+Interrupts is signals that make a processor pause its work to handle an urgent event. System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+Imagine a project that involves keyboard and mouse input and reading and writing files. Interrupts brings interrupt handlers, while System Calls brings user mode and kernel mode.
+
+A sensible plan is to start with Linux /proc/interrupts for the Interrupts part and strace for the System Calls part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: race conditions with shared data on one side, and making too many small calls on the other.
+
+Picture the whole as a phone call interrupting your reading, working alongside a service window where a customer asks staff to do things in the back office.
+
+Two habits help: first, keep interrupt handlers short and defer the heavy work; second, use strace to see what your program really asks the kernel to do.

@@ -1,0 +1,11 @@
+Is Command Line Productivity Right for Your Project?
+
+Before adopting Command Line Productivity, ask whether it fits the problem. Remember that Command Line Productivity is using shell tools and shortcuts to complete tasks faster.
+
+It is a good fit when your work involves automating repetitive tasks or exploring files and logs, and when your team understands aliases.
+
+Be cautious when the project is very small, when deadlines leave no room to learn pipes, or when you cannot manage these risks: copying commands without understanding them, dangerous wildcard use, and undocumented scripts.
+
+A simple decision test: write down the problem in one sentence, then check whether history search and scripts are part of the answer. If they are, Command Line Productivity is probably worth a closer look.
+
+If you decide to go ahead, start small with managing servers and turn commands you repeat into small scripts.

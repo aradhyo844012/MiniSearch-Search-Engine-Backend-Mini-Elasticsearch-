@@ -1,0 +1,13 @@
+Push Notifications vs MQTT: Which One Should You Learn First?
+
+Learners often ask whether to study Push Notifications or MQTT first. Both sit in the area of Mobile, Embedded and IoT, so the honest answer is that it depends on your goals.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed, and it is closely tied to device tokens and push services. MQTT, by contrast, is a lightweight messaging protocol designed for small devices and unreliable networks, and it is closely tied to publish and subscribe and topics.
+
+Choose Push Notifications first if you care about order updates or chat alerts. Choose MQTT first if you care about sensor networks or smart home devices.
+
+Think of Push Notifications as a courier who knocks on your door when a package arrives, and of MQTT as a radio station with channels that devices can tune into. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Push Notifications, avoid asking for permission too early. With MQTT, avoid unsecured brokers.
+
+A good habit for Push Notifications is to ask for permission at a moment when the user understands the value. A good habit for MQTT is to design topic names like a clear folder structure.

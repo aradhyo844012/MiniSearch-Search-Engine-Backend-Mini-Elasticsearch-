@@ -1,0 +1,17 @@
+CAP Theorem Do's and Don'ts
+
+A quick list of habits for working with CAP Theorem.
+
+Do:
+- Learn consistency before anything else.
+- Try Apache Cassandra on a small example.
+- Make it a habit to ask what your users prefer during a failure: stale answers or errors.
+- Test the case of choosing database types early.
+
+Don't:
+- Ignore this: treating it as a three-way menu.
+- Ignore this: ignoring latency trade-offs in normal operation.
+- Ignore this: assuming partitions never happen.
+- Adopt CAP Theorem just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with CAP Theorem, a little patience with availability pays off more than any clever shortcut.

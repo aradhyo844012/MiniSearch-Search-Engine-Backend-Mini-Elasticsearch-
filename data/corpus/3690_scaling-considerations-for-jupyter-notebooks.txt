@@ -1,0 +1,11 @@
+Scaling Considerations for Jupyter Notebooks
+
+A design that works for a classroom project can behave very differently under real load. Here is how Jupyter Notebooks changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding cells and getting exploring data right.
+
+Medium scale: problems start to appear. Watch for running cells out of order and hidden state, and measure with JupyterLab before changing anything.
+
+Large scale: markdown and outputs move from background details to central design questions. Teams often revisit their choices around teaching and demos at this stage.
+
+Before you scale, restart the kernel and run all cells before sharing. It is cheaper to build that habit early than to fix a crisis later.

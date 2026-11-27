@@ -1,0 +1,13 @@
+Debugging Minimum Spanning Trees: A Field Guide
+
+When something goes wrong around Minimum Spanning Trees, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using it on directed graphs, forgetting that the graph must be connected, and treating ties as errors.
+Step 3: revisit weighted graphs and Kruskal's algorithm, since misunderstandings there cause many bugs.
+Step 4: use NetworkX or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Minimum Spanning Trees in work such as designing cable networks come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, sort the edges once and reuse the order when testing variations. It prevents a surprising number of repeat problems.

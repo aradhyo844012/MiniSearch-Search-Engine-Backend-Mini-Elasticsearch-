@@ -1,0 +1,13 @@
+Debugging Go Goroutines: A Field Guide
+
+When something goes wrong around Go Goroutines, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: goroutine leaks, data races, and unbuffered channels causing deadlocks.
+Step 3: revisit goroutines and channels, since misunderstandings there cause many bugs.
+Step 4: use the go command or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Go Goroutines in work such as servers handling many connections come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, run your tests with the race detector turned on. It prevents a surprising number of repeat problems.

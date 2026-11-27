@@ -1,0 +1,15 @@
+The Pros and Cons of Internationalization
+
+No technology is free of trade-offs, and Internationalization is no exception. Here is an honest summary.
+
+Advantages:
+- Supports global products
+- Makes multi-language websites easier
+- Helps with regional pricing
+
+Drawbacks and risks:
+- Risk: hard-coded strings
+- Risk: text that overflows layouts
+- Risk: assuming left-to-right text
+
+Weigh the two lists against your own project. If the advantages match your needs, such as global products, and you can manage the risks, Internationalization is a sound choice. Whatever you decide, move every user-facing string into translation files from the first day.

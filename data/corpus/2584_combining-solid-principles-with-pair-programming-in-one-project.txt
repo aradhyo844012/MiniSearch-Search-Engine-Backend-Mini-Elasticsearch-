@@ -1,0 +1,15 @@
+Combining SOLID Principles with Pair Programming in One Project
+
+Real projects rarely use one idea in isolation. This article shows how SOLID Principles and Pair Programming can work together in a single project.
+
+SOLID Principles is five guidelines for designing object-oriented code that is easy to change. Pair Programming is two developers working together at one computer on the same code.
+
+Imagine a project that involves structuring classes and teaching new teammates. SOLID Principles brings single responsibility, while Pair Programming brings driver and navigator.
+
+A sensible plan is to start with UML diagrams for the SOLID Principles part and VS Code Live Share for the Pair Programming part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: creating too many tiny classes on one side, and fatigue from long sessions on the other.
+
+Picture the whole as house rules that keep a shared kitchen tidy, working alongside a pilot and co-pilot who check each other's decisions.
+
+Two habits help: first, apply them when a design starts to hurt, not before; second, swap roles every twenty to thirty minutes.

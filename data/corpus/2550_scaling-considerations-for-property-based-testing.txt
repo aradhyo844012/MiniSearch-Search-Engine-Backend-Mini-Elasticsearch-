@@ -1,0 +1,11 @@
+Scaling Considerations for Property-Based Testing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Property-Based Testing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding properties and getting testing parsers right.
+
+Medium scale: problems start to appear. Watch for vague properties and slow generators, and measure with Hypothesis before changing anything.
+
+Large scale: shrinking and invariants move from background details to central design questions. Teams often revisit their choices around checking sorting and math functions at this stage.
+
+Before you scale, save failing examples as regular tests. It is cheaper to build that habit early than to fix a crisis later.

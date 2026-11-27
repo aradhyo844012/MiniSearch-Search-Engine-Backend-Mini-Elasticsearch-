@@ -1,0 +1,15 @@
+Combining Push Notifications with MQTT in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Push Notifications and MQTT can work together in a single project.
+
+Push Notifications is messages sent to a user's device from a server even when the app is closed. MQTT is a lightweight messaging protocol designed for small devices and unreliable networks.
+
+Imagine a project that involves order updates and sensor networks. Push Notifications brings device tokens, while MQTT brings publish and subscribe.
+
+A sensible plan is to start with Firebase Cloud Messaging for the Push Notifications part and Mosquitto for the MQTT part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: sending too many messages on one side, and messy topic names on the other.
+
+Picture the whole as a courier who knocks on your door when a package arrives, working alongside a radio station with channels that devices can tune into.
+
+Two habits help: first, ask for permission at a moment when the user understands the value; second, design topic names like a clear folder structure.

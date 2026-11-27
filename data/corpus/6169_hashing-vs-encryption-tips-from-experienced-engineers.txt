@@ -1,0 +1,11 @@
+Hashing vs Encryption Tips from Experienced Engineers
+
+Engineers who work with Hashing vs Encryption regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: encrypting passwords instead of hashing them.
+2. Reach for SHA-256 first, and only then evaluate alternatives such as AES.
+3. Do not skip one-way functions; everything else builds on it.
+4. Make sure you can ask whether you will ever need the original value back.
+5. Write down why you chose Hashing vs Encryption so the next person understands the decision.
+
+None of these tips needs special equipment, and all of them apply to verifying file integrity as well.

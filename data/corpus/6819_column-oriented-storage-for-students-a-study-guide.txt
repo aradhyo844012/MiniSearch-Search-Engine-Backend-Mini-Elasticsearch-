@@ -1,0 +1,17 @@
+Column-Oriented Storage for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Column-Oriented Storage.
+
+Learning goals:
+1. Explain Column-Oriented Storage in your own words.
+2. Describe column chunks, compression, vectorized scans, and predicate pushdown.
+3. Give examples from analytics dashboards and large aggregations.
+4. Name three problems to watch for.
+
+Start with the definition: Column-Oriented Storage is a way of storing table data by column instead of by row to speed up analytics. Then draw a spreadsheet kept as separate lists per column so you can read just one on paper and label the four terms from the goals above.
+
+Self-test questions: Why is slow single-row lookups a problem? How does compression relate to vectorized scans? When would you choose Apache Parquet or ClickHouse?
+
+Study habit worth keeping: select only the columns you really need.
+
+When you feel ready, compare Column-Oriented Storage with Database Backups and Recovery and write down three differences.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Progressive Web Apps
+
+Everyone learns Progressive Web Apps partly through mistakes. Here are three worth avoiding.
+
+Mistake one: ignoring platform limitations. It usually appears when someone skips web app manifest and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: poor offline fallbacks. It tends to be noticed late, often during testing of offline-friendly tools. A short checklist during review catches it early.
+
+Mistake three: heavy first loads. It is easy to miss because everything seems to work at first. Keep an eye on responsive design to spot it.
+
+If you remember only one rule, make it this: test the app in airplane mode.

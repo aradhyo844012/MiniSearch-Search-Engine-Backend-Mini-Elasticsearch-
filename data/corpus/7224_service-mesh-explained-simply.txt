@@ -1,0 +1,13 @@
+Service Mesh Explained Simply
+
+If Service Mesh sounds intimidating, relax. It is an infrastructure layer that manages communication between services through proxies, and the idea is simpler than the name suggests.
+
+Think of Service Mesh as a postal system that applies delivery rules between buildings. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: sidecar proxies, mutual TLS, traffic policies, and observability. You do not need to master them all at once. Start with sidecar proxies, then add mutual TLS.
+
+You will meet Service Mesh in work such as securing service traffic, retries and timeouts, and fine-grained routing.
+
+One practical tip is to adopt it only once the number of services makes manual setup painful.
+
+Once Service Mesh feels comfortable, read about Feature Flags, which lives in the same neighborhood of ideas.

@@ -1,0 +1,11 @@
+Choosing Tools for GPUs and Parallelism
+
+There is no single best tool for GPUs and Parallelism. The right choice depends on your project, your team and your timeline.
+
+CUDA is a common first choice, especially for training neural networks. PyTorch suits teams that already work with similar technology, and OpenCL is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle rendering graphics well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: slow data transfers.
+
+As a rule of thumb, minimize copies between CPU and GPU memory, no matter which tool you use.

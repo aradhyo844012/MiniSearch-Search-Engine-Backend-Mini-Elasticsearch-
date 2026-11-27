@@ -1,0 +1,15 @@
+Combining Configuration Management with Logging Best Practices in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Configuration Management and Logging Best Practices can work together in a single project.
+
+Configuration Management is keeping application settings separate from code so they can change per environment. Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Imagine a project that involves separating development and production and debugging production issues. Configuration Management brings environment variables, while Logging Best Practices brings log levels.
+
+A sensible plan is to start with dotenv for the Configuration Management part and the Python logging module for the Logging Best Practices part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: inconsistent defaults on one side, and too much noise on the other.
+
+Picture the whole as the settings dial on a machine that stays the same on every site, working alongside a ship's logbook that explains what happened and when.
+
+Two habits help: first, fail fast at startup if a required setting is missing; second, include a request ID in every log line.

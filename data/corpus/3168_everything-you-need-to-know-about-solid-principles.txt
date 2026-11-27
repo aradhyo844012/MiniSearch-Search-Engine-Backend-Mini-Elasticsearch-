@@ -1,0 +1,26 @@
+Everything You Need to Know About SOLID Principles
+
+This page collects the essentials about SOLID Principles in one place. In short, SOLID Principles is five guidelines for designing object-oriented code that is easy to change.
+
+Core concepts:
+- single responsibility
+- the open-closed principle
+- Liskov substitution
+- dependency inversion
+
+Where it is used:
+- structuring classes
+- reviewing designs
+- reducing coupling
+
+Common problems:
+- applying them rigidly to tiny scripts
+- creating too many tiny classes
+- confusing interfaces with inheritance
+
+Tools to know:
+- UML diagrams
+- SonarQube
+- IDE refactoring tools
+
+Remember this above all: house rules that keep a shared kitchen tidy is a good way to picture it, and the best habit is to apply them when a design starts to hurt, not before.

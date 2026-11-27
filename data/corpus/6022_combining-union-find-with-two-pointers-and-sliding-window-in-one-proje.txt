@@ -1,0 +1,15 @@
+Combining Union-Find with Two Pointers and Sliding Window in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Union-Find and Two Pointers and Sliding Window can work together in a single project.
+
+Union-Find is a data structure that tracks which items belong to the same group and merges groups quickly. Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Imagine a project that involves detecting connected components and finding pairs with a given sum. Union-Find brings parent pointers, while Two Pointers and Sliding Window brings left and right pointers.
+
+A sensible plan is to start with Python lists for the Union-Find part and Python lists for the Two Pointers and Sliding Window part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: merging without checking roots on one side, and forgetting empty inputs on the other.
+
+Picture the whole as a set of club rosters where two clubs can merge into one, working alongside a small frame that slides along a line of text.
+
+Two habits help: first, implement path compression and union by rank together; second, write down the window invariant before coding the loop.

@@ -1,0 +1,13 @@
+Debugging Java Streams: A Field Guide
+
+When something goes wrong around Java Streams, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: reusing a consumed stream, side effects inside lambdas, and using parallel streams without measuring.
+Step 3: revisit map and filter, since misunderstandings there cause many bugs.
+Step 4: use OpenJDK or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Java Streams in work such as transforming lists come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, keep each stream step small and readable. It prevents a surprising number of repeat problems.

@@ -1,0 +1,12 @@
+Saga Pattern Glossary for Beginners
+
+New words can make Saga Pattern feel harder than it is. This glossary keeps the key ones in one place.
+
+Saga Pattern: a way of managing long business operations across services using a sequence of local steps and compensating actions.
+local transactions: a core term, most visible in order processing.
+compensating actions: a core term that beginners often confuse with orchestration.
+orchestration: a core term that connects to choreography.
+choreography: a core term worth revisiting after you try a real example.
+Temporal: a tool commonly used for travel bookings.
+
+Come back to this Saga Pattern list whenever documentation for Camunda uses a word you do not recognize.

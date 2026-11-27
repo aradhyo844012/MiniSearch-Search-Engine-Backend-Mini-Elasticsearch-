@@ -1,0 +1,12 @@
+Questions to Ask About Union-Find in Code Review
+
+Reviewing code that involves Union-Find is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is union operation clear to someone reading the code for the first time?
+- Is Python lists used consistently, or are we mixing approaches?
+- Would a test catch merging without checking roots if it appeared later?
+- Have we considered forgetting path compression?
+- Does this change respect parent pointers, or does it work around it?
+- Have we avoided this problem: using it when deletions are required?
+
+Good reviews of work on Union-Find are specific, kind and focused on find operation, not on personal style.

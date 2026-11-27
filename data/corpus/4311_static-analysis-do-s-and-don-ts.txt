@@ -1,0 +1,17 @@
+Static Analysis Do's and Don'ts
+
+A quick list of habits for working with Static Analysis.
+
+Do:
+- Learn linters before anything else.
+- Try ESLint on a small example.
+- Make it a habit to run it in CI so problems never reach the main branch.
+- Test the case of catching bugs early early.
+
+Don't:
+- Ignore this: ignoring warnings.
+- Ignore this: too many noisy rules.
+- Ignore this: disabling checks permanently.
+- Adopt Static Analysis just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Static Analysis, a little patience with type checkers pays off more than any clever shortcut.

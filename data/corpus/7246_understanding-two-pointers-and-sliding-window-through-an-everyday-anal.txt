@@ -1,0 +1,9 @@
+Understanding Two Pointers and Sliding Window Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a small frame that slides along a line of text.
+
+In that picture, left and right pointers is the first rule you follow, window boundaries is the next step, and invariants and shrinking and expanding keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops, and it involves details such as moving the wrong pointer that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Python lists to learn the exact behavior. The same picture helps when you explain finding pairs with a given sum to a friend.

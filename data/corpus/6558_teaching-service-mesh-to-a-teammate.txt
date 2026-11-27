@@ -1,0 +1,13 @@
+Teaching Service Mesh to a Teammate
+
+Explaining Service Mesh to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a postal system that applies delivery rules between buildings. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Service Mesh is an infrastructure layer that manages communication between services through proxies. Avoid jargon at this stage.
+
+Walk through an example involving securing service traffic, naming sidecar proxies and mutual TLS as they come up.
+
+Ask your teammate to explain traffic policies in Service Mesh back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, added latency and complexity, and suggest this habit: adopt it only once the number of services makes manual setup painful.

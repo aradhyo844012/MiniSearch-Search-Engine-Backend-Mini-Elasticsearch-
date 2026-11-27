@@ -1,0 +1,11 @@
+Scaling Considerations for Event Sourcing
+
+A design that works for a classroom project can behave very differently under real load. Here is how Event Sourcing changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding event log and getting audit trails right.
+
+Medium scale: problems start to appear. Watch for changing event formats carelessly and unbounded replay times, and measure with Apache Kafka before changing anything.
+
+Large scale: snapshots and replay move from background details to central design questions. Teams often revisit their choices around financial ledgers at this stage.
+
+Before you scale, version your events from the first day. It is cheaper to build that habit early than to fix a crisis later.

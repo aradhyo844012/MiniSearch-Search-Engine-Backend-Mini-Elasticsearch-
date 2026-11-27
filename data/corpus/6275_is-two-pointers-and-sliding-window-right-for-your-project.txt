@@ -1,0 +1,11 @@
+Is Two Pointers and Sliding Window Right for Your Project?
+
+Before adopting Two Pointers and Sliding Window, ask whether it fits the problem. Remember that Two Pointers and Sliding Window is techniques that scan arrays with two moving positions to avoid nested loops.
+
+It is a good fit when your work involves finding pairs with a given sum or longest substring problems, and when your team understands left and right pointers.
+
+Be cautious when the project is very small, when deadlines leave no room to learn window boundaries, or when you cannot manage these risks: moving the wrong pointer, forgetting empty inputs, and breaking the invariant.
+
+A simple decision test: write down the problem in one sentence, then check whether invariants and shrinking and expanding are part of the answer. If they are, Two Pointers and Sliding Window is probably worth a closer look.
+
+If you decide to go ahead, start small with merging sorted arrays and write down the window invariant before coding the loop.

@@ -1,0 +1,11 @@
+Is Code Coverage Right for Your Project?
+
+Before adopting Code Coverage, ask whether it fits the problem. Remember that Code Coverage is a measure of how much of the code is run by tests.
+
+It is a good fit when your work involves finding untested code or setting quality gates, and when your team understands line coverage.
+
+Be cautious when the project is very small, when deadlines leave no room to learn branch coverage, or when you cannot manage these risks: chasing 100 percent, treating coverage as quality, and ignoring branch coverage.
+
+A simple decision test: write down the problem in one sentence, then check whether coverage reports and thresholds are part of the answer. If they are, Code Coverage is probably worth a closer look.
+
+If you decide to go ahead, start small with tracking test progress and use coverage to find gaps, not to judge quality.

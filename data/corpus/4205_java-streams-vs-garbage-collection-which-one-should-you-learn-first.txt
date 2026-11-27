@@ -1,0 +1,13 @@
+Java Streams vs Garbage Collection: Which One Should You Learn First?
+
+Learners often ask whether to study Java Streams or Garbage Collection first. Both sit in the area of Programming Languages, so the honest answer is that it depends on your goals.
+
+Java Streams is a way of processing collections with chains of declarative operations, and it is closely tied to map and filter. Garbage Collection, by contrast, is automatic memory management that finds and frees objects a program no longer uses, and it is closely tied to reachability and generations.
+
+Choose Java Streams first if you care about transforming lists or aggregating records. Choose Garbage Collection first if you care about managed languages like Java and Python or reducing memory bugs.
+
+Think of Java Streams as a conveyor belt where each station changes the item before passing it on, and of Garbage Collection as a cleaner who removes items nobody has touched in a while. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Java Streams, avoid reusing a consumed stream. With Garbage Collection, avoid creating huge numbers of short-lived objects.
+
+A good habit for Java Streams is to keep each stream step small and readable. A good habit for Garbage Collection is to measure allocation rates before tuning collector settings.

@@ -1,0 +1,13 @@
+Teaching Distributed Tracing to a Teammate
+
+Explaining Distributed Tracing to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a parcel tracking page that shows every stop on the route. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Distributed Tracing is following a single request as it passes through many services. Avoid jargon at this stage.
+
+Walk through an example involving finding slow services, naming spans and trace IDs as they come up.
+
+Ask your teammate to explain context propagation in Distributed Tracing back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, missing context propagation, and suggest this habit: propagate trace IDs through every outgoing call.

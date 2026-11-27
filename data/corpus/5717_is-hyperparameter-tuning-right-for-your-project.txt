@@ -1,0 +1,11 @@
+Is Hyperparameter Tuning Right for Your Project?
+
+Before adopting Hyperparameter Tuning, ask whether it fits the problem. Remember that Hyperparameter Tuning is the process of searching for the best settings that control how a model learns.
+
+It is a good fit when your work involves improving model accuracy or comparing algorithms, and when your team understands search spaces.
+
+Be cautious when the project is very small, when deadlines leave no room to learn grid search, or when you cannot manage these risks: tuning on the test set, searching too many options, and ignoring training cost.
+
+A simple decision test: write down the problem in one sentence, then check whether random search and validation scores are part of the answer. If they are, Hyperparameter Tuning is probably worth a closer look.
+
+If you decide to go ahead, start small with running automated experiments and try random search before anything fancier.

@@ -1,0 +1,13 @@
+Log Aggregation vs Distributed Tracing: Which One Should You Learn First?
+
+Learners often ask whether to study Log Aggregation or Distributed Tracing first. Both sit in the area of DevOps and Cloud, so the honest answer is that it depends on your goals.
+
+Log Aggregation is collecting logs from many machines into one searchable place, and it is closely tied to shippers and indexing. Distributed Tracing, by contrast, is following a single request as it passes through many services, and it is closely tied to spans and trace IDs.
+
+Choose Log Aggregation first if you care about troubleshooting across services or security investigations. Choose Distributed Tracing first if you care about finding slow services or understanding dependencies.
+
+Think of Log Aggregation as gathering notes from every desk into a single searchable binder, and of Distributed Tracing as a parcel tracking page that shows every stop on the route. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Log Aggregation, avoid unbounded storage growth. With Distributed Tracing, avoid missing context propagation.
+
+A good habit for Log Aggregation is to use structured JSON logs so that fields are searchable. A good habit for Distributed Tracing is to propagate trace IDs through every outgoing call.

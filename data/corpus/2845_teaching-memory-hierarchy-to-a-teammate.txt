@@ -1,0 +1,13 @@
+Teaching Memory Hierarchy to a Teammate
+
+Explaining Memory Hierarchy to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a kitchen with a spice rack, a pantry and a warehouse. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Memory Hierarchy is the layers of storage from registers to disks, trading speed for size. Avoid jargon at this stage.
+
+Walk through an example involving designing efficient programs, naming registers and cache as they come up.
+
+Ask your teammate to explain main memory in Memory Hierarchy back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, ignoring locality, and suggest this habit: reduce how often your program goes down to the slower layers.

@@ -1,0 +1,13 @@
+Debugging Regular Expressions: A Field Guide
+
+When something goes wrong around Regular Expressions, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: catastrophic backtracking, patterns that are too greedy, and using them to parse HTML.
+Step 3: revisit character classes and quantifiers, since misunderstandings there cause many bugs.
+Step 4: use the Python re module or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Regular Expressions in work such as validating input come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, build patterns in small steps and test each one. It prevents a surprising number of repeat problems.

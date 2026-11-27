@@ -1,0 +1,15 @@
+Dijkstra's Algorithm in 10 Minutes
+
+You have ten minutes, so here is the fast route through Dijkstra's Algorithm.
+
+Minutes 1 and 2, the definition: Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.
+
+Minutes 3 and 4, the vocabulary: learn priority queue, distance table, edge relaxation, and visited set.
+
+Minutes 5 and 6, the picture: imagine a GPS that keeps expanding to the nearest unvisited intersection. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through route planning, network routing, and game pathfinding.
+
+Minutes 9 and 10, the traps and the tools: watch for using it with negative edge weights and skipping the priority queue and getting slow code, then try Python heapq for a first experiment.
+
+If you have a spare minute, remember to stop as soon as the destination is popped from the queue.

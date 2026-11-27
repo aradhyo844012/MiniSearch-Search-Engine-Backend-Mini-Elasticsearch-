@@ -1,0 +1,11 @@
+Mistakes to Avoid with Compilers and Interpreters
+
+Everyone learns Compilers and Interpreters partly through mistakes. Here are three worth avoiding.
+
+Mistake one: assuming interpreted means slow without measuring. It usually appears when someone skips lexing and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring compiler warnings. It tends to be noticed late, often during testing of running Python and JavaScript. A short checklist during review catches it early.
+
+Mistake three: confusing compile-time and run-time errors. It is easy to miss because everything seems to work at first. Keep an eye on bytecode to spot it.
+
+If you remember only one rule, make it this: turn on compiler warnings and treat them seriously.

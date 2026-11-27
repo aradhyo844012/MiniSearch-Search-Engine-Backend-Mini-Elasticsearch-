@@ -1,0 +1,15 @@
+Modular Monoliths in 10 Minutes
+
+You have ten minutes, so here is the fast route through Modular Monoliths.
+
+Minutes 1 and 2, the definition: Modular Monoliths is single deployable applications built from well-separated internal modules.
+
+Minutes 3 and 4, the vocabulary: learn module boundaries, public interfaces, shared database rules, and dependency checks.
+
+Minutes 5 and 6, the picture: imagine an apartment building with separate flats under one roof. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through small teams, early-stage products, and preparing for later service extraction.
+
+Minutes 9 and 10, the traps and the tools: watch for modules reaching into each other's tables and no enforced boundaries, then try ArchUnit for a first experiment.
+
+If you have a spare minute, remember to enforce boundaries with automated checks.

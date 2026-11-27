@@ -1,0 +1,13 @@
+Leader Election Explained Simply
+
+If Leader Election sounds intimidating, relax. It is a process by which nodes in a cluster choose one node to coordinate the work, and the idea is simpler than the name suggests.
+
+Think of Leader Election as a classroom picking a monitor when the teacher leaves. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: heartbeats, terms or epochs, candidates, and failover. You do not need to master them all at once. Start with heartbeats, then add terms or epochs.
+
+You will meet Leader Election in work such as database primaries, job schedulers, and cluster managers.
+
+One practical tip is to tune heartbeat intervals against real network delays.
+
+Once Leader Election feels comfortable, read about Event Sourcing, which lives in the same neighborhood of ideas.

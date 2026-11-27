@@ -1,0 +1,15 @@
+The Pros and Cons of Skip Lists
+
+No technology is free of trade-offs, and Skip Lists is no exception. Here is an honest summary.
+
+Advantages:
+- Supports ordered in-memory indexes
+- Makes sorted sets in caches easier
+- Helps with concurrent ordered maps
+
+Drawbacks and risks:
+- Risk: poor random number choices
+- Risk: memory overhead
+- Risk: harder debugging than arrays
+
+Weigh the two lists against your own project. If the advantages match your needs, such as ordered in-memory indexes, and you can manage the risks, Skip Lists is a sound choice. Whatever you decide, draw several levels by hand to see how a search moves down.

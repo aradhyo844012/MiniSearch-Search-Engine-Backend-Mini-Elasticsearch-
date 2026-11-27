@@ -1,0 +1,26 @@
+Everything You Need to Know About Event-Driven Architecture
+
+This page collects the essentials about Event-Driven Architecture in one place. In short, Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them.
+
+Core concepts:
+- producers and consumers
+- event brokers
+- loose coupling
+- asynchronous handling
+
+Where it is used:
+- order pipelines
+- real-time notifications
+- integrating many services
+
+Common problems:
+- hard-to-trace flows
+- duplicate events
+- unclear event ownership
+
+Tools to know:
+- Apache Kafka
+- RabbitMQ
+- AWS EventBridge
+
+Remember this above all: a notice board where people post news and others react when they see it is a good way to picture it, and the best habit is to document every event name and schema.

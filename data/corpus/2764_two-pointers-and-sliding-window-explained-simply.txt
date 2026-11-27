@@ -1,0 +1,13 @@
+Two Pointers and Sliding Window Explained Simply
+
+Here is Two Pointers and Sliding Window without the jargon: it is techniques that scan arrays with two moving positions to avoid nested loops.
+
+Think of Two Pointers and Sliding Window as a small frame that slides along a line of text. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: left and right pointers, window boundaries, invariants, and shrinking and expanding. You do not need to master them all at once. Start with left and right pointers, then add window boundaries.
+
+People reach for Two Pointers and Sliding Window when they work on finding pairs with a given sum, longest substring problems, and merging sorted arrays.
+
+One practical tip is to write down the window invariant before coding the loop.
+
+After Two Pointers and Sliding Window, a natural next topic is Segment Trees.

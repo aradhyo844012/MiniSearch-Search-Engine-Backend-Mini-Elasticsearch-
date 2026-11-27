@@ -1,0 +1,15 @@
+Autoscaling in 10 Minutes
+
+You have ten minutes, so here is the fast route through Autoscaling.
+
+Minutes 1 and 2, the definition: Autoscaling is automatically adding or removing computing resources as demand changes.
+
+Minutes 3 and 4, the vocabulary: learn scaling metrics, cooldown periods, minimum and maximum limits, and horizontal scaling.
+
+Minutes 5 and 6, the picture: imagine a restaurant opening extra tables when a crowd arrives. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through handling traffic spikes, saving money overnight, and keeping latency steady.
+
+Minutes 9 and 10, the traps and the tools: watch for scaling too slowly and flapping because of short spikes, then try Kubernetes HPA for a first experiment.
+
+If you have a spare minute, remember to load test the system to find realistic thresholds.

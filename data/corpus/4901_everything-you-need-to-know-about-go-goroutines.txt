@@ -1,0 +1,26 @@
+Everything You Need to Know About Go Goroutines
+
+This page collects the essentials about Go Goroutines in one place. In short, Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.
+
+Core concepts:
+- goroutines
+- channels
+- select statements
+- wait groups
+
+Where it is used:
+- servers handling many connections
+- parallel data processing
+- background workers
+
+Common problems:
+- goroutine leaks
+- data races
+- unbuffered channels causing deadlocks
+
+Tools to know:
+- the go command
+- the race detector
+- pprof
+
+Remember this above all: a small crew of waiters passing notes through a serving hatch is a good way to picture it, and the best habit is to run your tests with the race detector turned on.

@@ -1,0 +1,11 @@
+Code Editors and IDEs in Real Projects
+
+Reading about Code Editors and IDEs is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: daily development. Here, syntax highlighting drives the main design choices, and the team needs to guard against installing too many extensions.
+
+Scenario two: navigating large codebases. This time autocomplete matters most, and tools such as VS Code help keep things manageable.
+
+Scenario three: refactoring. The key idea is debugger integration, and the biggest risk is ignoring keyboard shortcuts.
+
+Across all three scenarios, Code Editors and IDEs stays the same idea: tools for writing, navigating and debugging code. Only the details change.

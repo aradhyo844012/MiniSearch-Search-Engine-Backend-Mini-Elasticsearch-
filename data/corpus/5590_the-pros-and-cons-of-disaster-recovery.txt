@@ -1,0 +1,15 @@
+The Pros and Cons of Disaster Recovery
+
+No technology is free of trade-offs, and Disaster Recovery is no exception. Here is an honest summary.
+
+Advantages:
+- Supports surviving regional outages
+- Makes meeting compliance needs easier
+- Helps with protecting critical data
+
+Drawbacks and risks:
+- Risk: untested plans
+- Risk: outdated runbooks
+- Risk: dependencies missed in the plan
+
+Weigh the two lists against your own project. If the advantages match your needs, such as surviving regional outages, and you can manage the risks, Disaster Recovery is a sound choice. Whatever you decide, run a failover exercise on a regular schedule.

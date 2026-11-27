@@ -1,0 +1,11 @@
+Mocking and Stubbing in Real Projects
+
+Reading about Mocking and Stubbing is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: isolating units. Here, mocks drives the main design choices, and the team needs to guard against over-mocking.
+
+Scenario two: simulating failures. This time stubs matters most, and tools such as unittest.mock help keep things manageable.
+
+Scenario three: avoiding network calls. The key idea is spies, and the biggest risk is tests that mirror the implementation.
+
+Across all three scenarios, Mocking and Stubbing stays the same idea: replacing real dependencies with controlled fakes during tests. Only the details change.

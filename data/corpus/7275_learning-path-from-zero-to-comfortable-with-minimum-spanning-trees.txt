@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Minimum Spanning Trees
+
+This path is for a learner who has never studied Minimum Spanning Trees before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Minimum Spanning Trees is a set of edges that connects every node in a graph with the smallest possible total weight) and learn weighted graphs and Kruskal's algorithm.
+
+Stage 2, hands-on: install NetworkX, follow a tutorial, and build a small example involving designing cable networks.
+
+Stage 3, depth: study Prim's algorithm and the cut property, then deliberately explore this problem: using it on directed graphs.
+
+Stage 4, application: apply Minimum Spanning Trees to clustering data, compare SciPy with Graphviz, and write up your results.
+
+Stage 5, review: teach Minimum Spanning Trees to someone else, and then move on to Skip Lists.

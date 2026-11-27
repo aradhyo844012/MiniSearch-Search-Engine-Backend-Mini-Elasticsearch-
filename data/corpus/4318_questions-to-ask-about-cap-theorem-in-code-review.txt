@@ -1,0 +1,12 @@
+Questions to Ask About CAP Theorem in Code Review
+
+Reviewing code that involves CAP Theorem is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Would a test catch ignoring latency trade-offs in normal operation if it appeared later?
+- Is availability clear to someone reading the code for the first time?
+- Does the code handle the case of choosing database types correctly?
+- Is Apache Cassandra used consistently, or are we mixing approaches?
+- Have we considered treating it as a three-way menu?
+- Have we avoided this problem: assuming partitions never happen?
+
+Good reviews of work on CAP Theorem are specific, kind and focused on partition tolerance, not on personal style.

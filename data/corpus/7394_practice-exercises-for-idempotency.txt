@@ -1,0 +1,11 @@
+Practice Exercises for Idempotency
+
+These exercises build real understanding of Idempotency. Do them in order, and write down your answers.
+
+Exercise 1: Write a short paragraph describing Idempotency and include the term idempotency keys.
+Exercise 2: Pick Stripe idempotency keys and complete its getting-started tutorial.
+Exercise 3: List three situations from your own experience that resemble payment APIs or message processing.
+Exercise 4: Create a small example that deliberately triggers this problem: keys that expire too soon. Then fix it.
+Exercise 5: Compare Redis and database unique constraints for retrying failed requests and write down your conclusion.
+
+When you finish, compare your answers with the definition: Idempotency is the property that repeating an operation gives the same result as doing it once.

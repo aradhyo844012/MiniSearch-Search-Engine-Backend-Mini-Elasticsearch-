@@ -1,0 +1,15 @@
+Combining CAP Theorem with Leader Election in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CAP Theorem and Leader Election can work together in a single project.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once. Leader Election is a process by which nodes in a cluster choose one node to coordinate the work.
+
+Imagine a project that involves choosing database types and database primaries. CAP Theorem brings consistency, while Leader Election brings heartbeats.
+
+A sensible plan is to start with Apache Cassandra for the CAP Theorem part and ZooKeeper for the Leader Election part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring latency trade-offs in normal operation on one side, and flapping leaders on the other.
+
+Picture the whole as a phone tree that must choose between giving old information or staying silent when a line is cut, working alongside a classroom picking a monitor when the teacher leaves.
+
+Two habits help: first, ask what your users prefer during a failure: stale answers or errors; second, tune heartbeat intervals against real network delays.

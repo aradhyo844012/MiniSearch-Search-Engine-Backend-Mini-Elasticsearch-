@@ -1,0 +1,11 @@
+Scaling Considerations for Internationalization
+
+A design that works for a classroom project can behave very differently under real load. Here is how Internationalization changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding locale detection and getting global products right.
+
+Medium scale: problems start to appear. Watch for hard-coded strings and text that overflows layouts, and measure with i18next before changing anything.
+
+Large scale: pluralization and date and number formatting move from background details to central design questions. Teams often revisit their choices around multi-language websites at this stage.
+
+Before you scale, move every user-facing string into translation files from the first day. It is cheaper to build that habit early than to fix a crisis later.

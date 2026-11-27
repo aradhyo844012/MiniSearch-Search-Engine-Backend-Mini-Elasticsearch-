@@ -1,0 +1,13 @@
+Encryption at Rest Explained Simply
+
+If Encryption at Rest sounds intimidating, relax. It is protecting stored data by encrypting it on disk or in a database, and the idea is simpler than the name suggests.
+
+Think of Encryption at Rest as a locked safe inside a locked room. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: symmetric keys, key management, disk encryption, and envelope encryption. You do not need to master them all at once. Start with symmetric keys, then add key management.
+
+People reach for Encryption at Rest when they work on protecting backups, meeting compliance rules, and securing laptops.
+
+One practical tip is to keep keys in a separate service from the data.
+
+After Encryption at Rest, a natural next topic is Dependency Vulnerabilities.

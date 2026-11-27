@@ -1,0 +1,11 @@
+Is Boolean Logic and Gates Right for Your Project?
+
+Before adopting Boolean Logic and Gates, ask whether it fits the problem. Remember that Boolean Logic and Gates is the basic true-or-false operations that digital circuits and program conditions are built from.
+
+It is a good fit when your work involves writing conditions or designing circuits, and when your team understands AND, OR and NOT.
+
+Be cautious when the project is very small, when deadlines leave no room to learn truth tables, or when you cannot manage these risks: operator precedence mistakes, forgetting short-circuit behavior, and negating complex conditions incorrectly.
+
+A simple decision test: write down the problem in one sentence, then check whether De Morgan's laws and logic gates are part of the answer. If they are, Boolean Logic and Gates is probably worth a closer look.
+
+If you decide to go ahead, start small with simplifying expressions and write a truth table whenever a condition feels confusing.

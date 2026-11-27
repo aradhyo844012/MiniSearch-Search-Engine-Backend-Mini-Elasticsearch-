@@ -1,0 +1,17 @@
+Modular Monoliths for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Modular Monoliths.
+
+Learning goals:
+1. Explain Modular Monoliths in your own words.
+2. Describe module boundaries, public interfaces, shared database rules, and dependency checks.
+3. Give examples from small teams and early-stage products.
+4. Name three problems to watch for.
+
+Start with the definition: Modular Monoliths is single deployable applications built from well-separated internal modules. Then draw an apartment building with separate flats under one roof on paper and label the four terms from the goals above.
+
+Self-test questions: Why is modules reaching into each other's tables a problem? How does public interfaces relate to shared database rules? When would you choose ArchUnit or import-linter?
+
+Study habit worth keeping: enforce boundaries with automated checks.
+
+When you feel ready, compare Modular Monoliths with Hexagonal Architecture and write down three differences.

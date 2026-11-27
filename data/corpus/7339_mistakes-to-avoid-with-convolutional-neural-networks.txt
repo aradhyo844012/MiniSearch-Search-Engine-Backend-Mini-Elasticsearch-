@@ -1,0 +1,11 @@
+Mistakes to Avoid with Convolutional Neural Networks
+
+Everyone learns Convolutional Neural Networks partly through mistakes. Here are three worth avoiding.
+
+Mistake one: too little training data. It usually appears when someone skips filters and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: ignoring data augmentation. It tends to be noticed late, often during testing of image classification. A short checklist during review catches it early.
+
+Mistake three: overly deep models for simple tasks. It is easy to miss because everything seems to work at first. Keep an eye on stride to spot it.
+
+If you remember only one rule, make it this: start from a pretrained model.

@@ -1,0 +1,15 @@
+Combining Code Editors and IDEs with System Design Interviews in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Code Editors and IDEs and System Design Interviews can work together in a single project.
+
+Code Editors and IDEs is tools for writing, navigating and debugging code. System Design Interviews is discussions in which candidates design a large software system and explain their choices.
+
+Imagine a project that involves daily development and preparing for senior roles. Code Editors and IDEs brings syntax highlighting, while System Design Interviews brings requirements.
+
+A sensible plan is to start with VS Code for the Code Editors and IDEs part and whiteboard sketches for the System Design Interviews part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring keyboard shortcuts on one side, and ignoring trade-offs on the other.
+
+Picture the whole as a well-organized workbench, working alongside sketching the blueprint of a city while explaining why each road exists.
+
+Two habits help: first, learn the shortcuts for the actions you repeat most; second, clarify requirements and scale before drawing boxes.

@@ -1,0 +1,15 @@
+Combining Fenwick Trees with Topological Sorting in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Fenwick Trees and Topological Sorting can work together in a single project.
+
+Fenwick Trees is a compact structure for prefix sums that supports fast updates. Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on.
+
+Imagine a project that involves counting inversions and build systems. Fenwick Trees brings binary indexed trees, while Topological Sorting brings directed acyclic graphs.
+
+A sensible plan is to start with C++ vectors for the Fenwick Trees part and Python graphlib for the Topological Sorting part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: forgetting that nodes store partial sums on one side, and assuming the order is unique on the other.
+
+Picture the whole as a set of running subtotals where each one covers a block of entries, working alongside a recipe that must list every step after the steps it depends on.
+
+Two habits help: first, start indexing from one to keep the bit tricks simple; second, check for cycles first so you can report a clear error.

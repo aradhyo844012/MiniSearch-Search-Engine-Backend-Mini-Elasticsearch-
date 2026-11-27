@@ -1,0 +1,9 @@
+Understanding Fuzz Testing Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture shaking a machine hard to see what rattles loose.
+
+In that picture, input generation is the first rule you follow, coverage guidance is the next step, and crash triage and corpora keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Fuzz Testing is feeding programs random or malformed input to uncover crashes and security bugs, and it involves details such as running without sanitizers that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for AFL++ to learn the exact behavior. The same picture helps when you explain testing parsers to a friend.

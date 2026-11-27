@@ -1,0 +1,13 @@
+Teaching Apache Spark to a Teammate
+
+Explaining Apache Spark to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a team of workers each processing a share of a huge pile of papers. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Apache Spark is a distributed engine for processing large datasets across many machines. Avoid jargon at this stage.
+
+Walk through an example involving large ETL jobs, naming DataFrames and transformations and actions as they come up.
+
+Ask your teammate to explain partitions in Apache Spark back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, data skew, and suggest this habit: avoid collecting large results onto a single machine.

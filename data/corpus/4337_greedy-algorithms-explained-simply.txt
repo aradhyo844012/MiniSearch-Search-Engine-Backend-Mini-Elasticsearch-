@@ -1,0 +1,13 @@
+Greedy Algorithms Explained Simply
+
+If Greedy Algorithms sounds intimidating, relax. It is algorithms that build a solution by always taking the locally best choice, and the idea is simpler than the name suggests.
+
+Think of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: greedy choice property, optimal substructure, exchange arguments, and local versus global optimum. You do not need to master them all at once. Start with greedy choice property, then add optimal substructure.
+
+You will meet Greedy Algorithms in work such as interval scheduling, Huffman coding, and making change with standard coins.
+
+One practical tip is to try to break your greedy idea with a small counterexample before trusting it.
+
+After Greedy Algorithms, a natural next topic is Union-Find.

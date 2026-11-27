@@ -1,0 +1,15 @@
+The Pros and Cons of Hexagonal Architecture
+
+No technology is free of trade-offs, and Hexagonal Architecture is no exception. Here is an honest summary.
+
+Advantages:
+- Supports testable business logic
+- Makes swapping databases easier
+- Helps with supporting several interfaces
+
+Drawbacks and risks:
+- Risk: too many layers for small apps
+- Risk: leaking framework types into the core
+- Risk: confusing ports with adapters
+
+Weigh the two lists against your own project. If the advantages match your needs, such as testable business logic, and you can manage the risks, Hexagonal Architecture is a sound choice. Whatever you decide, keep framework imports out of the core domain.

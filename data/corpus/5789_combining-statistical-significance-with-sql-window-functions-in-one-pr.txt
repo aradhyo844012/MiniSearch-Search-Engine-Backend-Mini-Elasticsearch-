@@ -1,0 +1,15 @@
+Combining Statistical Significance with SQL Window Functions in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Statistical Significance and SQL Window Functions can work together in a single project.
+
+Statistical Significance is a measure of how unlikely a result would be if there were no real effect. SQL Window Functions is SQL features that calculate values across related rows without collapsing them.
+
+Imagine a project that involves judging experiment results and running totals. Statistical Significance brings p-values, while SQL Window Functions brings the OVER clause.
+
+A sensible plan is to start with SciPy for the Statistical Significance part and PostgreSQL for the SQL Window Functions part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: p-hacking on one side, and confusing them with GROUP BY on the other.
+
+Picture the whole as asking how surprised you should be if a coin were actually fair, working alongside looking at the neighbors in a line without leaving your place.
+
+Two habits help: first, always report the effect size alongside the p-value; second, start with ROW_NUMBER and LAG on a small table.

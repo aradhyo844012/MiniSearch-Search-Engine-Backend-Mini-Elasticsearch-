@@ -1,0 +1,12 @@
+Feature Flags Glossary for Beginners
+
+New words can make Feature Flags feel harder than it is. This glossary keeps the key ones in one place.
+
+Feature Flags: switches in configuration that turn features on or off without redeploying code.
+flag evaluation: a core term, most visible in dark launches.
+targeting rules: a core term that beginners often confuse with gradual rollout.
+gradual rollout: a core term that connects to flag cleanup.
+flag cleanup: a core term worth revisiting after you try a real example.
+LaunchDarkly: a tool commonly used for A/B tests.
+
+Come back to this Feature Flags list whenever documentation for Unleash uses a word you do not recognize.

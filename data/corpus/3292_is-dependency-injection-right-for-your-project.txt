@@ -1,0 +1,11 @@
+Is Dependency Injection Right for Your Project?
+
+Before adopting Dependency Injection, ask whether it fits the problem. Remember that Dependency Injection is a design approach where objects receive their dependencies instead of creating them.
+
+It is a good fit when your work involves easier unit testing or swapping implementations, and when your team understands constructor injection.
+
+Be cautious when the project is very small, when deadlines leave no room to learn interfaces, or when you cannot manage these risks: hiding too much behind containers, circular dependencies, and injecting too many dependencies.
+
+A simple decision test: write down the problem in one sentence, then check whether containers and inversion of control are part of the answer. If they are, Dependency Injection is probably worth a closer look.
+
+If you decide to go ahead, start small with configuring services and inject interfaces so tests can use simple fakes.

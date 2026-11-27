@@ -1,0 +1,11 @@
+Saga Pattern in Real Projects
+
+Reading about Saga Pattern is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: order processing. Here, local transactions drives the main design choices, and the team needs to guard against missing compensations.
+
+Scenario two: travel bookings. This time compensating actions matters most, and tools such as Temporal help keep things manageable.
+
+Scenario three: payment workflows. The key idea is orchestration, and the biggest risk is steps that are not idempotent.
+
+Across all three scenarios, Saga Pattern stays the same idea: a way of managing long business operations across services using a sequence of local steps and compensating actions. Only the details change.

@@ -1,0 +1,15 @@
+CAP Theorem Quick Reference
+
+A one-screen reminder for CAP Theorem. Bookmark it and return when the details fade.
+
+What it is: a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once.
+Key terms: consistency, availability, partition tolerance, and trade-offs.
+Typical uses: choosing database types, designing multi-region services, and explaining system behavior in interviews.
+Risks: treating it as a three-way menu, ignoring latency trade-offs in normal operation, and assuming partitions never happen.
+Tools: Apache Cassandra, etcd, and ZooKeeper.
+
+Mental picture: a phone tree that must choose between giving old information or staying silent when a line is cut.
+
+Habit to build: ask what your users prefer during a failure: stale answers or errors.
+
+See also: Idempotency, which sits close to CAP Theorem in the area of Distributed Systems.

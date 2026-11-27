@@ -1,0 +1,15 @@
+Combining CAP Theorem with CQRS in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CAP Theorem and CQRS can work together in a single project.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once. CQRS is a pattern that separates the models used to change data from the models used to read it.
+
+Imagine a project that involves choosing database types and high-read dashboards. CAP Theorem brings consistency, while CQRS brings commands.
+
+A sensible plan is to start with Apache Cassandra for the CAP Theorem part and Axon Framework for the CQRS part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring latency trade-offs in normal operation on one side, and read models drifting out of sync on the other.
+
+Picture the whole as a phone tree that must choose between giving old information or staying silent when a line is cut, working alongside a restaurant with one counter for orders and another for pickup.
+
+Two habits help: first, ask what your users prefer during a failure: stale answers or errors; second, start with a single model and split only when reads and writes truly diverge.

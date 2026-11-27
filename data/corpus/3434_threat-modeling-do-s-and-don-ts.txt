@@ -1,0 +1,17 @@
+Threat Modeling Do's and Don'ts
+
+A quick list of habits for working with Threat Modeling.
+
+Do:
+- Learn assets before anything else.
+- Try STRIDE on a small example.
+- Make it a habit to draw the data flow diagram first.
+- Test the case of designing new features early.
+
+Don't:
+- Ignore this: doing it once and never again.
+- Ignore this: ignoring data flows.
+- Ignore this: focusing only on technical threats.
+- Adopt Threat Modeling just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with Threat Modeling, a little patience with attackers pays off more than any clever shortcut.

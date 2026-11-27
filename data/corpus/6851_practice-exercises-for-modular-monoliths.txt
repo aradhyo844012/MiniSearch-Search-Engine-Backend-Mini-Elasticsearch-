@@ -1,0 +1,11 @@
+Practice Exercises for Modular Monoliths
+
+These exercises build real understanding of Modular Monoliths. Do them in order, and write down your answers.
+
+Exercise 1: Compare import-linter and Gradle modules for preparing for later service extraction and write down your conclusion.
+Exercise 2: Create a small example that deliberately triggers this problem: modules reaching into each other's tables. Then fix it.
+Exercise 3: Pick ArchUnit and complete its getting-started tutorial.
+Exercise 4: List three situations from your own experience that resemble small teams or early-stage products.
+Exercise 5: Write a short paragraph describing Modular Monoliths and include the term module boundaries.
+
+When you finish, compare your answers with the definition: Modular Monoliths is single deployable applications built from well-separated internal modules.

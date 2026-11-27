@@ -1,0 +1,15 @@
+Combining Object-Relational Mappers with Logging Best Practices in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Object-Relational Mappers and Logging Best Practices can work together in a single project.
+
+Object-Relational Mappers is libraries that map database tables to objects in code. Logging Best Practices is recording useful, structured information about what an application is doing.
+
+Imagine a project that involves building CRUD apps quickly and debugging production issues. Object-Relational Mappers brings models, while Logging Best Practices brings log levels.
+
+A sensible plan is to start with SQLAlchemy for the Object-Relational Mappers part and the Python logging module for the Logging Best Practices part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: loading entire tables on one side, and too much noise on the other.
+
+Picture the whole as a translator between the language of tables and the language of objects, working alongside a ship's logbook that explains what happened and when.
+
+Two habits help: first, log the generated SQL during development; second, include a request ID in every log line.

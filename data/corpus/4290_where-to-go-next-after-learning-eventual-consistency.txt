@@ -1,0 +1,11 @@
+Where to Go Next After Learning Eventual Consistency
+
+You have met the basics of Eventual Consistency. Here is how to keep the momentum going.
+
+Go wider: read about B-Trees on Disk, which belongs to the same area as Eventual Consistency (Storage Engines and Databases) and often appears in the same projects.
+
+Go deeper: choose one of replication delay, conflict resolution, read-your-writes or convergence, and study it until you can explain it to a beginner.
+
+Go practical: build something around shopping cart services with Amazon DynamoDB, and note every problem you meet, starting with assuming reads are always fresh.
+
+Go social: share what you learned. Explaining Eventual Consistency to others, and hearing their questions, is the quickest way to find the gaps in your knowledge.

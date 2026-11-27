@@ -1,0 +1,15 @@
+TypeScript Generics Quick Reference
+
+A one-screen reminder for TypeScript Generics. Bookmark it and return when the details fade.
+
+What it is: a feature that lets functions and types work with many types while keeping type safety.
+Key terms: type parameters, constraints, type inference, and generic interfaces.
+Typical uses: reusable utility functions, typed API clients, and data containers.
+Risks: overusing any, overly complex generic types, and forgetting constraints.
+Tools: tsc, the TypeScript Playground, and ESLint.
+
+Mental picture: a labeled box whose label type is filled in when you use it.
+
+Habit to build: add constraints so that error messages become clearer.
+
+See also: Rust Ownership, which sits close to TypeScript Generics in the area of Programming Languages.

@@ -1,0 +1,15 @@
+Combining CSS Variables with Progressive Web Apps in One Project
+
+Real projects rarely use one idea in isolation. This article shows how CSS Variables and Progressive Web Apps can work together in a single project.
+
+CSS Variables is custom properties that store values such as colors and spacing so they can be reused across styles. Progressive Web Apps is web applications that can be installed and work offline like native apps.
+
+Imagine a project that involves theme switching and offline-friendly tools. CSS Variables brings custom properties, while Progressive Web Apps brings web app manifest.
+
+A sensible plan is to start with browser DevTools for the CSS Variables part and Lighthouse for the Progressive Web Apps part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: overriding at the wrong scope on one side, and poor offline fallbacks on the other.
+
+Picture the whole as labeled paint buckets you refill once to recolor a whole house, working alongside a website that packs its own suitcase so it still works when the network is gone.
+
+Two habits help: first, define theme values on the root element; second, test the app in airplane mode.

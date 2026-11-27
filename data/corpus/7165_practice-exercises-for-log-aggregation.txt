@@ -1,0 +1,11 @@
+Practice Exercises for Log Aggregation
+
+These exercises build real understanding of Log Aggregation. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: unbounded storage growth. Then fix it.
+Exercise 2: List three situations from your own experience that resemble troubleshooting across services or security investigations.
+Exercise 3: Pick Elasticsearch and complete its getting-started tutorial.
+Exercise 4: Explain how retention and search queries differ, using a drawing.
+Exercise 5: Write a short paragraph describing Log Aggregation and include the term shippers.
+
+When you finish, compare your answers with the definition: Log Aggregation is collecting logs from many machines into one searchable place.

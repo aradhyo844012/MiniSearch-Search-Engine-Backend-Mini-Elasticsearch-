@@ -1,0 +1,13 @@
+LSM Trees vs Column-Oriented Storage: Which One Should You Learn First?
+
+Learners often ask whether to study LSM Trees or Column-Oriented Storage first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk, and it is closely tied to memtable and sorted string tables. Column-Oriented Storage, by contrast, is a way of storing table data by column instead of by row to speed up analytics, and it is closely tied to column chunks and compression.
+
+Choose LSM Trees first if you care about write-heavy databases or time-ordered data. Choose Column-Oriented Storage first if you care about analytics dashboards or large aggregations.
+
+Think of LSM Trees as a mail room that sorts incoming letters in batches rather than one by one, and of Column-Oriented Storage as a spreadsheet kept as separate lists per column so you can read just one. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With LSM Trees, avoid read amplification. With Column-Oriented Storage, avoid slow single-row lookups.
+
+A good habit for LSM Trees is to watch compaction metrics before blaming the application. A good habit for Column-Oriented Storage is to select only the columns you really need.

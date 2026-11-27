@@ -1,0 +1,11 @@
+Practice Exercises for Dependency Injection
+
+These exercises build real understanding of Dependency Injection. Do them in order, and write down your answers.
+
+Exercise 1: Compare FastAPI Depends and Dagger for configuring services and write down your conclusion.
+Exercise 2: List three situations from your own experience that resemble easier unit testing or swapping implementations.
+Exercise 3: Explain how containers and inversion of control differ, using a drawing.
+Exercise 4: Write a short paragraph describing Dependency Injection and include the term constructor injection.
+Exercise 5: Pick Spring and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Dependency Injection is a design approach where objects receive their dependencies instead of creating them.

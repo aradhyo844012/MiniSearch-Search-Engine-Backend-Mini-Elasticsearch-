@@ -1,0 +1,13 @@
+Teaching Encryption at Rest to a Teammate
+
+Explaining Encryption at Rest to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a locked safe inside a locked room. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Encryption at Rest is protecting stored data by encrypting it on disk or in a database. Avoid jargon at this stage.
+
+Walk through an example involving protecting backups, naming symmetric keys and key management as they come up.
+
+Ask your teammate to explain disk encryption in Encryption at Rest back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, storing keys next to the data, and suggest this habit: keep keys in a separate service from the data.

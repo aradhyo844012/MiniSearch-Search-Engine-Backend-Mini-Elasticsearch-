@@ -1,0 +1,13 @@
+Event-Driven Architecture vs Pair Programming: Which One Should You Learn First?
+
+Learners often ask whether to study Event-Driven Architecture or Pair Programming first. Both sit in the area of Software Design, so the honest answer is that it depends on your goals.
+
+Event-Driven Architecture is a style in which components communicate by publishing events and reacting to them, and it is closely tied to producers and consumers and event brokers. Pair Programming, by contrast, is two developers working together at one computer on the same code, and it is closely tied to driver and navigator and rotation.
+
+Choose Event-Driven Architecture first if you care about order pipelines or real-time notifications. Choose Pair Programming first if you care about teaching new teammates or solving hard bugs.
+
+Think of Event-Driven Architecture as a notice board where people post news and others react when they see it, and of Pair Programming as a pilot and co-pilot who check each other's decisions. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Event-Driven Architecture, avoid hard-to-trace flows. With Pair Programming, avoid one person dominating.
+
+A good habit for Event-Driven Architecture is to document every event name and schema. A good habit for Pair Programming is to swap roles every twenty to thirty minutes.

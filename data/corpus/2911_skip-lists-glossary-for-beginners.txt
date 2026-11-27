@@ -1,0 +1,12 @@
+Skip Lists Glossary for Beginners
+
+New words can make Skip Lists feel harder than it is. This glossary keeps the key ones in one place.
+
+Skip Lists: layered linked lists that allow fast searching by skipping over many elements.
+multiple levels: a core term, most visible in ordered in-memory indexes.
+random level assignment: a core term that beginners often confuse with forward pointers.
+forward pointers: a core term that connects to expected logarithmic time.
+expected logarithmic time: a core term worth revisiting after you try a real example.
+Redis sorted sets: a tool commonly used for sorted sets in caches.
+
+Come back to this Skip Lists list whenever documentation for Java ConcurrentSkipListMap uses a word you do not recognize.

@@ -1,0 +1,15 @@
+Code Coverage Quick Reference
+
+A one-screen reminder for Code Coverage. Bookmark it and return when the details fade.
+
+What it is: a measure of how much of the code is run by tests.
+Key terms: line coverage, branch coverage, coverage reports, and thresholds.
+Typical uses: finding untested code, setting quality gates, and tracking test progress.
+Risks: chasing 100 percent, treating coverage as quality, and ignoring branch coverage.
+Tools: coverage.py, JaCoCo, and Istanbul.
+
+Mental picture: a map showing which rooms a security guard has walked through.
+
+Habit to build: use coverage to find gaps, not to judge quality.
+
+See also: Property-Based Testing, which sits close to Code Coverage in the area of Testing and Quality.

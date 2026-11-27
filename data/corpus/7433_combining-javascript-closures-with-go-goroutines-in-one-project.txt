@@ -1,0 +1,15 @@
+Combining JavaScript Closures with Go Goroutines in One Project
+
+Real projects rarely use one idea in isolation. This article shows how JavaScript Closures and Go Goroutines can work together in a single project.
+
+JavaScript Closures is functions that remember the variables from the place where they were created. Go Goroutines is lightweight threads managed by the Go runtime that run functions concurrently.
+
+Imagine a project that involves keeping private state in modules and servers handling many connections. JavaScript Closures brings lexical scope, while Go Goroutines brings goroutines.
+
+A sensible plan is to start with Chrome DevTools for the JavaScript Closures part and the go command for the Go Goroutines part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: memory leaks from long-lived closures on one side, and data races on the other.
+
+Picture the whole as a backpack a function carries with everything it needs from home, working alongside a small crew of waiters passing notes through a serving hatch.
+
+Two habits help: first, use let instead of var inside loops; second, run your tests with the race detector turned on.

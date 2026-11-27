@@ -1,0 +1,12 @@
+Python Decorators Glossary for Beginners
+
+New words can make Python Decorators feel harder than it is. This glossary keeps the key ones in one place.
+
+Python Decorators: functions that wrap other functions to add behavior without changing their code.
+higher-order functions: a core term, most visible in logging calls.
+wrapper functions: a core term that beginners often confuse with functools.wraps.
+functools.wraps: a core term that connects to decorator arguments.
+decorator arguments: a core term worth revisiting after you try a real example.
+functools: a tool commonly used for caching results.
+
+Come back to this Python Decorators list whenever documentation for Flask routes uses a word you do not recognize.

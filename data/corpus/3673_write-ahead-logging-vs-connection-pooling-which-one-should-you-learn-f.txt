@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Connection Pooling: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Connection Pooling first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Connection Pooling, by contrast, is reusing a limited set of open database connections instead of opening a new one for every request, and it is closely tied to pool size and idle connections.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Connection Pooling first if you care about web backends or serverless functions that call databases.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Connection Pooling as a rental desk that lends a few shared bikes instead of buying one per visitor. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Connection Pooling, avoid pools larger than the database allows.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Connection Pooling is to always return connections in a finally block.

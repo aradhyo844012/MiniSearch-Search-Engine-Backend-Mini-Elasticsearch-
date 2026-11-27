@@ -1,0 +1,15 @@
+The Pros and Cons of Greedy Algorithms
+
+No technology is free of trade-offs, and Greedy Algorithms is no exception. Here is an honest summary.
+
+Advantages:
+- Supports interval scheduling
+- Makes Huffman coding easier
+- Helps with making change with standard coins
+
+Drawbacks and risks:
+- Risk: assuming greedy always works
+- Risk: missing counterexamples
+- Risk: skipping the correctness proof
+
+Weigh the two lists against your own project. If the advantages match your needs, such as interval scheduling, and you can manage the risks, Greedy Algorithms is a sound choice. Whatever you decide, try to break your greedy idea with a small counterexample before trusting it.

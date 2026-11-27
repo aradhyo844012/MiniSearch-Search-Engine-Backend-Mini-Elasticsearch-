@@ -1,0 +1,12 @@
+Encryption at Rest Glossary for Beginners
+
+New words can make Encryption at Rest feel harder than it is. This glossary keeps the key ones in one place.
+
+Encryption at Rest: protecting stored data by encrypting it on disk or in a database.
+symmetric keys: a core term, most visible in protecting backups.
+key management: a core term that beginners often confuse with disk encryption.
+disk encryption: a core term that connects to envelope encryption.
+envelope encryption: a core term worth revisiting after you try a real example.
+LUKS: a tool commonly used for meeting compliance rules.
+
+Come back to this Encryption at Rest list whenever documentation for AWS KMS uses a word you do not recognize.

@@ -1,0 +1,13 @@
+API Versioning vs Configuration Management: Which One Should You Learn First?
+
+Learners often ask whether to study API Versioning or Configuration Management first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+API Versioning is the practice of evolving an API without breaking existing clients, and it is closely tied to version in the URL and header versioning. Configuration Management, by contrast, is keeping application settings separate from code so they can change per environment, and it is closely tied to environment variables and config files.
+
+Choose API Versioning first if you care about public APIs or mobile apps that cannot update instantly. Choose Configuration Management first if you care about separating development and production or toggling features.
+
+Think of API Versioning as keeping old editions of a textbook available while a new one is published, and of Configuration Management as the settings dial on a machine that stays the same on every site. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With API Versioning, avoid versioning too often. With Configuration Management, avoid committing secrets.
+
+A good habit for API Versioning is to announce deprecations with a clear sunset date. A good habit for Configuration Management is to fail fast at startup if a required setting is missing.

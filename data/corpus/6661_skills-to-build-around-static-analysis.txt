@@ -1,0 +1,13 @@
+Skills to Build Around Static Analysis
+
+Knowing the definition of Static Analysis is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with linters and type checkers, and able to explain them without notes.
+
+Hands-on practice: spend real time with ESLint on a Static Analysis task, and try at least one alternative such as Pylint.
+
+Judgment: learn to decide when Static Analysis fits a problem such as catching bugs early, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a spell checker for code.
+
+Habits: run it in CI so problems never reach the main branch, and write down what you learn after each project.

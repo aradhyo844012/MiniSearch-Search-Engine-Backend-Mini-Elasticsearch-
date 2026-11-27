@@ -1,0 +1,11 @@
+Scaling Considerations for Service Mesh
+
+A design that works for a classroom project can behave very differently under real load. Here is how Service Mesh changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding sidecar proxies and getting securing service traffic right.
+
+Medium scale: problems start to appear. Watch for added latency and complexity and adopting it too early, and measure with Istio before changing anything.
+
+Large scale: traffic policies and observability move from background details to central design questions. Teams often revisit their choices around retries and timeouts at this stage.
+
+Before you scale, adopt it only once the number of services makes manual setup painful. It is cheaper to build that habit early than to fix a crisis later.

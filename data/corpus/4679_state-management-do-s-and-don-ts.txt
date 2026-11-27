@@ -1,0 +1,17 @@
+State Management Do's and Don'ts
+
+A quick list of habits for working with State Management.
+
+Do:
+- Learn single source of truth before anything else.
+- Try Redux on a small example.
+- Make it a habit to keep state as close as possible to where it is used.
+- Test the case of large single-page apps early.
+
+Don't:
+- Ignore this: putting everything in global state.
+- Ignore this: duplicated state that drifts apart.
+- Ignore this: unclear update paths.
+- Adopt State Management just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with State Management, a little patience with actions pays off more than any clever shortcut.

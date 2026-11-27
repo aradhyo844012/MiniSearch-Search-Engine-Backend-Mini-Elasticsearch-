@@ -1,0 +1,13 @@
+Skills to Build Around Database Migrations
+
+Knowing the definition of Database Migrations is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with up and down scripts and version tables, and able to explain them without notes.
+
+Hands-on practice: spend real time with Alembic on a Database Migrations task, and try at least one alternative such as Flyway.
+
+Judgment: learn to decide when Database Migrations fits a problem such as adding columns safely, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a numbered set of renovation steps applied to a building in order.
+
+Habits: split risky changes into small steps that can each be rolled back, and write down what you learn after each project.

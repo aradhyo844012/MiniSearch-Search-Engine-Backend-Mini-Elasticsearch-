@@ -1,0 +1,13 @@
+Web Components vs Form Validation: Which One Should You Learn First?
+
+Learners often ask whether to study Web Components or Form Validation first. Both sit in the area of Frontend Engineering, so the honest answer is that it depends on your goals.
+
+Web Components is browser-native custom elements with their own markup, style and behavior, and it is closely tied to custom elements and shadow DOM. Form Validation, by contrast, is checking user input for correctness before it is accepted, and it is closely tied to client-side checks and server-side checks.
+
+Choose Web Components first if you care about design system components or widgets reused across frameworks. Choose Form Validation first if you care about sign-up forms or payment pages.
+
+Think of Web Components as a Lego brick in its own sealed packaging, and of Form Validation as a proofreader checking a form before it is submitted. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Web Components, avoid styling surprises across the shadow boundary. With Form Validation, avoid validating only on the client.
+
+A good habit for Web Components is to document the attributes and events like a public API. A good habit for Form Validation is to validate on the server even when the browser checks too.

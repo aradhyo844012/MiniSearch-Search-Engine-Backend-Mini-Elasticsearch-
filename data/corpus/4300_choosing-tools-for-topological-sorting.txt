@@ -1,0 +1,11 @@
+Choosing Tools for Topological Sorting
+
+There is no single best tool for Topological Sorting. The right choice depends on your project, your team and your timeline.
+
+Python graphlib is a common first choice, especially for build systems. NetworkX suits teams that already work with similar technology, and Make is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle course prerequisite planning well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: ignoring cycles.
+
+As a rule of thumb, check for cycles first so you can report a clear error, no matter which tool you use.

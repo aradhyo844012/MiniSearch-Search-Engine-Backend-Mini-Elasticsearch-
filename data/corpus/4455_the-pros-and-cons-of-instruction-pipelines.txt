@@ -1,0 +1,15 @@
+The Pros and Cons of Instruction Pipelines
+
+No technology is free of trade-offs, and Instruction Pipelines is no exception. Here is an honest summary.
+
+Advantages:
+- Supports explaining CPU speed
+- Makes understanding branch costs easier
+- Helps with optimizing tight loops
+
+Drawbacks and risks:
+- Risk: unpredictable branches
+- Risk: dependency chains
+- Risk: assuming each instruction takes one step
+
+Weigh the two lists against your own project. If the advantages match your needs, such as explaining CPU speed, and you can manage the risks, Instruction Pipelines is a sound choice. Whatever you decide, avoid unpredictable branches in hot loops.

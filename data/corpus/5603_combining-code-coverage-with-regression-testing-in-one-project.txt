@@ -1,0 +1,15 @@
+Combining Code Coverage with Regression Testing in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Code Coverage and Regression Testing can work together in a single project.
+
+Code Coverage is a measure of how much of the code is run by tests. Regression Testing is re-running tests after changes to make sure old features still work.
+
+Imagine a project that involves finding untested code and protecting releases. Code Coverage brings line coverage, while Regression Testing brings test suites.
+
+A sensible plan is to start with coverage.py for the Code Coverage part and pytest for the Regression Testing part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: treating coverage as quality on one side, and missing tests for fixed bugs on the other.
+
+Picture the whole as a map showing which rooms a security guard has walked through, working alongside rechecking the old keys after cutting a new lock.
+
+Two habits help: first, use coverage to find gaps, not to judge quality; second, add a test for every bug you fix.

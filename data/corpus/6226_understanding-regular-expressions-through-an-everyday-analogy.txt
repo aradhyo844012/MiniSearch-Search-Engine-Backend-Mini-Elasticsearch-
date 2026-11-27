@@ -1,0 +1,9 @@
+Understanding Regular Expressions Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a stencil that only lets certain shapes of text show through.
+
+In that picture, character classes is the first rule you follow, quantifiers is the next step, and groups and anchors keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Regular Expressions is compact patterns for matching and extracting text, and it involves details such as catastrophic backtracking that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for the Python re module to learn the exact behavior. The same picture helps when you explain validating input to a friend.

@@ -1,0 +1,13 @@
+Segment Trees vs Greedy Algorithms: Which One Should You Learn First?
+
+Learners often ask whether to study Segment Trees or Greedy Algorithms first. Both sit in the area of Algorithms in Practice, so the honest answer is that it depends on your goals.
+
+Segment Trees is a tree structure that answers range queries and handles updates in logarithmic time, and it is closely tied to tree nodes covering ranges and range queries. Greedy Algorithms, by contrast, is algorithms that build a solution by always taking the locally best choice, and it is closely tied to greedy choice property and optimal substructure.
+
+Choose Segment Trees first if you care about range sum queries or finding minimums in a window. Choose Greedy Algorithms first if you care about interval scheduling or Huffman coding.
+
+Think of Segment Trees as a tournament bracket that remembers the winner of every group of players, and of Greedy Algorithms as picking the closest open parking spot at every junction and hoping it works out. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Segment Trees, avoid off-by-one errors in ranges. With Greedy Algorithms, avoid assuming greedy always works.
+
+A good habit for Segment Trees is to test your tree against a slow brute-force version on small inputs. A good habit for Greedy Algorithms is to try to break your greedy idea with a small counterexample before trusting it.

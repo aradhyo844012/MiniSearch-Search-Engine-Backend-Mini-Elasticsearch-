@@ -1,0 +1,12 @@
+Questions to Ask About Push Notifications in Code Review
+
+Reviewing code that involves Push Notifications is easier with a short list of questions. Keep these in mind as you read the diff.
+
+- Is Firebase Cloud Messaging used consistently, or are we mixing approaches?
+- Is push services clear to someone reading the code for the first time?
+- Have we avoided this problem: ignoring token refresh?
+- Have we considered asking for permission too early?
+- Does this change respect device tokens, or does it work around it?
+- Does the code handle the case of order updates correctly?
+
+Good reviews of work on Push Notifications are specific, kind and focused on payloads, not on personal style.

@@ -1,0 +1,13 @@
+Configuration Management vs Logging Best Practices: Which One Should You Learn First?
+
+Learners often ask whether to study Configuration Management or Logging Best Practices first. Both sit in the area of Backend Engineering, so the honest answer is that it depends on your goals.
+
+Configuration Management is keeping application settings separate from code so they can change per environment, and it is closely tied to environment variables and config files. Logging Best Practices, by contrast, is recording useful, structured information about what an application is doing, and it is closely tied to log levels and structured logs.
+
+Choose Configuration Management first if you care about separating development and production or toggling features. Choose Logging Best Practices first if you care about debugging production issues or auditing actions.
+
+Think of Configuration Management as the settings dial on a machine that stays the same on every site, and of Logging Best Practices as a ship's logbook that explains what happened and when. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Configuration Management, avoid committing secrets. With Logging Best Practices, avoid logging sensitive data.
+
+A good habit for Configuration Management is to fail fast at startup if a required setting is missing. A good habit for Logging Best Practices is to include a request ID in every log line.

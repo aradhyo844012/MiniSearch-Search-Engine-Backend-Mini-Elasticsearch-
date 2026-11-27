@@ -1,0 +1,15 @@
+The Pros and Cons of Support Vector Machines
+
+No technology is free of trade-offs, and Support Vector Machines is no exception. Here is an honest summary.
+
+Advantages:
+- Supports text classification
+- Makes small high-dimensional datasets easier
+- Helps with image recognition baselines
+
+Drawbacks and risks:
+- Risk: slow training on large data
+- Risk: poor kernel choices
+- Risk: unscaled features
+
+Weigh the two lists against your own project. If the advantages match your needs, such as text classification, and you can manage the risks, Support Vector Machines is a sound choice. Whatever you decide, scale features and try a linear kernel first.

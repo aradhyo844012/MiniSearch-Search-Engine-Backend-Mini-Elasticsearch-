@@ -1,0 +1,13 @@
+Teaching Progressive Web Apps to a Teammate
+
+Explaining Progressive Web Apps to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: a website that packs its own suitcase so it still works when the network is gone. Ask your teammate what the picture suggests.
+
+Then give the plain definition: Progressive Web Apps is web applications that can be installed and work offline like native apps. Avoid jargon at this stage.
+
+Walk through an example involving offline-friendly tools, naming web app manifest and service worker as they come up.
+
+Ask your teammate to explain installability in Progressive Web Apps back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, ignoring platform limitations, and suggest this habit: test the app in airplane mode.

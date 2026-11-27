@@ -1,0 +1,11 @@
+Scaling Considerations for Interrupts
+
+A design that works for a classroom project can behave very differently under real load. Here is how Interrupts changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding interrupt handlers and getting keyboard and mouse input right.
+
+Medium scale: problems start to appear. Watch for long handlers and race conditions with shared data, and measure with Linux /proc/interrupts before changing anything.
+
+Large scale: priorities and context saving move from background details to central design questions. Teams often revisit their choices around timers at this stage.
+
+Before you scale, keep interrupt handlers short and defer the heavy work. It is cheaper to build that habit early than to fix a crisis later.

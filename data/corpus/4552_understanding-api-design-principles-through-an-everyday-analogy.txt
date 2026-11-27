@@ -1,0 +1,9 @@
+Understanding API Design Principles Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture the controls of a car that behave the same in every model.
+
+In that picture, consistent naming is the first rule you follow, clear errors is the next step, and idempotent operations and documentation keep everything running smoothly.
+
+Every analogy breaks down eventually. Real API Design Principles is guidelines for making APIs consistent, predictable and easy to use, and it involves details such as leaking internal details that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for OpenAPI to learn the exact behavior. The same picture helps when you explain public platforms to a friend.

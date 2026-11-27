@@ -1,0 +1,15 @@
+Combining Software Estimation with Test-Driven Development in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Software Estimation and Test-Driven Development can work together in a single project.
+
+Software Estimation is predicting how much time and effort a piece of work will take. Test-Driven Development is a workflow where you write a failing test first and then write code to make it pass.
+
+Imagine a project that involves sprint planning and designing small modules. Software Estimation brings story points, while Test-Driven Development brings red, green, refactor.
+
+A sensible plan is to start with planning poker for the Software Estimation part and pytest for the Test-Driven Development part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring unknowns on one side, and skipping the refactor step on the other.
+
+Picture the whole as forecasting the weather rather than reading a timetable, working alongside writing the exam questions before teaching the lesson.
+
+Two habits help: first, give ranges instead of single numbers; second, keep each red-green cycle to a few minutes.

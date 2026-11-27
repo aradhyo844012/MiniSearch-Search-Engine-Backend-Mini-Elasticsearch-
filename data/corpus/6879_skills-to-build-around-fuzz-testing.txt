@@ -1,0 +1,13 @@
+Skills to Build Around Fuzz Testing
+
+Knowing the definition of Fuzz Testing is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with input generation and coverage guidance, and able to explain them without notes.
+
+Hands-on practice: spend real time with AFL++ on a Fuzz Testing task, and try at least one alternative such as libFuzzer.
+
+Judgment: learn to decide when Fuzz Testing fits a problem such as testing parsers, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example shaking a machine hard to see what rattles loose.
+
+Habits: keep every crashing input as a regression test, and write down what you learn after each project.

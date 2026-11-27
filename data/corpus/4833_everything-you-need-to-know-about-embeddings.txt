@@ -1,0 +1,26 @@
+Everything You Need to Know About Embeddings
+
+This page collects the essentials about Embeddings in one place. In short, Embeddings is lists of numbers that represent words, images or items so that similar things sit close together.
+
+Core concepts:
+- vectors
+- cosine similarity
+- dimensionality
+- nearest neighbor search
+
+Where it is used:
+- semantic search
+- recommendations
+- clustering text
+
+Common problems:
+- mixing models between indexing and querying
+- ignoring normalization
+- stale embeddings after data changes
+
+Tools to know:
+- sentence-transformers
+- FAISS
+- Word2Vec
+
+Remember this above all: coordinates on a map where similar places are close together is a good way to picture it, and the best habit is to use the same embedding model for indexing and querying.

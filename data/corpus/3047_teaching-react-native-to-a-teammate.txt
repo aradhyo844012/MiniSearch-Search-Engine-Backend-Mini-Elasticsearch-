@@ -1,0 +1,13 @@
+Teaching React Native to a Teammate
+
+Explaining React Native to someone else is one of the best ways to test your own understanding. Use this simple outline.
+
+Start with a picture: one script performed by actors on two different stages. Ask your teammate what the picture suggests.
+
+Then give the plain definition: React Native is a framework for building mobile apps for several platforms using JavaScript and React. Avoid jargon at this stage.
+
+Walk through an example involving cross-platform apps, naming components and native modules as they come up.
+
+Ask your teammate to explain styling with flexbox in React Native back to you. Gaps in their explanation show you what to clarify.
+
+Finish by pointing out a trap, heavy re-renders, and suggest this habit: test on real devices for both platforms.

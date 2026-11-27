@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Modular Monoliths
+
+This path is for a learner who has never studied Modular Monoliths before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Modular Monoliths is single deployable applications built from well-separated internal modules) and learn module boundaries and public interfaces.
+
+Stage 2, hands-on: install ArchUnit, follow a tutorial, and build a small example involving small teams.
+
+Stage 3, depth: study shared database rules and dependency checks, then deliberately explore this problem: modules reaching into each other's tables.
+
+Stage 4, application: apply Modular Monoliths to early-stage products, compare import-linter with Gradle modules, and write up your results.
+
+Stage 5, review: teach Modular Monoliths to someone else, and then move on to Pair Programming.

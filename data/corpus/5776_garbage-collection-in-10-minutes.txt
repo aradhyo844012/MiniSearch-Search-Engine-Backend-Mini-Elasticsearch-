@@ -1,0 +1,15 @@
+Garbage Collection in 10 Minutes
+
+You have ten minutes, so here is the fast route through Garbage Collection.
+
+Minutes 1 and 2, the definition: Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.
+
+Minutes 3 and 4, the vocabulary: learn reachability, generations, mark and sweep, and pause times.
+
+Minutes 5 and 6, the picture: imagine a cleaner who removes items nobody has touched in a while. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through managed languages like Java and Python, reducing memory bugs, and long-running services.
+
+Minutes 9 and 10, the traps and the tools: watch for creating huge numbers of short-lived objects and holding references longer than needed, then try JVM GC logs for a first experiment.
+
+If you have a spare minute, remember to measure allocation rates before tuning collector settings.

@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Code Coverage
+
+This path is for a learner who has never studied Code Coverage before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Code Coverage is a measure of how much of the code is run by tests) and learn line coverage and branch coverage.
+
+Stage 2, hands-on: install coverage.py, follow a tutorial, and build a small example involving finding untested code.
+
+Stage 3, depth: study coverage reports and thresholds, then deliberately explore this problem: chasing 100 percent.
+
+Stage 4, application: apply Code Coverage to setting quality gates, compare JaCoCo with Istanbul, and write up your results.
+
+Stage 5, review: teach Code Coverage to someone else, and then move on to Load Testing.

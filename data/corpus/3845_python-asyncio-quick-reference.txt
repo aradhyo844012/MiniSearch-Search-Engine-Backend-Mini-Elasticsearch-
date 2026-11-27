@@ -1,0 +1,15 @@
+Python Asyncio Quick Reference
+
+A one-screen reminder for Python Asyncio. Bookmark it and return when the details fade.
+
+What it is: a library for running many waiting tasks concurrently on a single thread.
+Key terms: event loop, coroutines, await, and tasks.
+Typical uses: calling many APIs at once, web servers, and network clients.
+Risks: blocking calls inside coroutines, forgetting to await, and mixing threads and event loops carelessly.
+Tools: asyncio, aiohttp, and FastAPI.
+
+Mental picture: a chef who starts several dishes and checks each one when its timer rings.
+
+Habit to build: never call blocking code directly inside a coroutine.
+
+See also: Go Goroutines, which sits close to Python Asyncio in the area of Programming Languages.

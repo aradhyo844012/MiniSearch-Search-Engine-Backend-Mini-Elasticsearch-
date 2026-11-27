@@ -1,0 +1,11 @@
+Why LSM Trees Matters for Developers
+
+Developers who understand LSM Trees make better decisions, because LSM Trees is storage structures that buffer writes in memory and merge them into sorted files on disk.
+
+Three situations show why it matters. First, write-heavy databases. Second, time-ordered data. Third, key-value stores. In each case, a solid grasp of memtable and sorted string tables separates a quick fix from a lasting solution.
+
+Ignoring it has a cost. Teams run into these problems: read amplification, compaction stalls, and poor bloom filter tuning.
+
+You will not need to build everything yourself; RocksDB, LevelDB, and Apache Cassandra cover most needs.
+
+Connect LSM Trees with Eventual Consistency to see the bigger picture of Storage Engines and Databases.

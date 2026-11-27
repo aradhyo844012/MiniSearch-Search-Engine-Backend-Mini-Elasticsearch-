@@ -1,0 +1,13 @@
+Hyperparameter Tuning Explained Simply
+
+Here is Hyperparameter Tuning without the jargon: it is the process of searching for the best settings that control how a model learns.
+
+Think of Hyperparameter Tuning as adjusting the knobs on a radio until the signal is clear. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: search spaces, grid search, random search, and validation scores. You do not need to master them all at once. Start with search spaces, then add grid search.
+
+People reach for Hyperparameter Tuning when they work on improving model accuracy, comparing algorithms, and running automated experiments.
+
+One practical tip is to try random search before anything fancier.
+
+Once Hyperparameter Tuning feels comfortable, read about K-Means Clustering, which lives in the same neighborhood of ideas.

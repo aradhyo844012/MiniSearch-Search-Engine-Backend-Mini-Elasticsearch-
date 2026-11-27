@@ -1,0 +1,13 @@
+Skills to Build Around CAP Theorem
+
+Knowing the definition of CAP Theorem is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with consistency and availability, and able to explain them without notes.
+
+Hands-on practice: spend real time with Apache Cassandra on a CAP Theorem task, and try at least one alternative such as etcd.
+
+Judgment: learn to decide when CAP Theorem fits a problem such as choosing database types, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a phone tree that must choose between giving old information or staying silent when a line is cut.
+
+Habits: ask what your users prefer during a failure: stale answers or errors, and write down what you learn after each project.

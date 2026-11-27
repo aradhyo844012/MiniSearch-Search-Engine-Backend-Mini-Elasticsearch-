@@ -1,0 +1,15 @@
+The Pros and Cons of Single Sign-On
+
+No technology is free of trade-offs, and Single Sign-On is no exception. Here is an honest summary.
+
+Advantages:
+- Supports company intranets
+- Makes reducing password fatigue easier
+- Helps with centralized access control
+
+Drawbacks and risks:
+- Risk: a single point of failure
+- Risk: misconfigured redirects
+- Risk: long sessions on shared devices
+
+Weigh the two lists against your own project. If the advantages match your needs, such as company intranets, and you can manage the risks, Single Sign-On is a sound choice. Whatever you decide, plan for identity provider outages.

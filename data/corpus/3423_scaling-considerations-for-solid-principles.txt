@@ -1,0 +1,11 @@
+Scaling Considerations for SOLID Principles
+
+A design that works for a classroom project can behave very differently under real load. Here is how SOLID Principles changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding single responsibility and getting structuring classes right.
+
+Medium scale: problems start to appear. Watch for applying them rigidly to tiny scripts and creating too many tiny classes, and measure with UML diagrams before changing anything.
+
+Large scale: Liskov substitution and dependency inversion move from background details to central design questions. Teams often revisit their choices around reviewing designs at this stage.
+
+Before you scale, apply them when a design starts to hurt, not before. It is cheaper to build that habit early than to fix a crisis later.

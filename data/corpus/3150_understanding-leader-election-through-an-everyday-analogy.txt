@@ -1,0 +1,9 @@
+Understanding Leader Election Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a classroom picking a monitor when the teacher leaves.
+
+In that picture, heartbeats is the first rule you follow, terms or epochs is the next step, and candidates and failover keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Leader Election is a process by which nodes in a cluster choose one node to coordinate the work, and it involves details such as split brain that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for ZooKeeper to learn the exact behavior. The same picture helps when you explain database primaries to a friend.

@@ -1,0 +1,13 @@
+Content Security Policy vs Encryption at Rest: Which One Should You Learn First?
+
+Learners often ask whether to study Content Security Policy or Encryption at Rest first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Content Security Policy is a browser feature that limits which scripts and resources a page may load, and it is closely tied to directives and nonces. Encryption at Rest, by contrast, is protecting stored data by encrypting it on disk or in a database, and it is closely tied to symmetric keys and key management.
+
+Choose Content Security Policy first if you care about reducing the impact of XSS or blocking unwanted scripts. Choose Encryption at Rest first if you care about protecting backups or meeting compliance rules.
+
+Think of Content Security Policy as a guest list at the door of a building, and of Encryption at Rest as a locked safe inside a locked room. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Content Security Policy, avoid allowing unsafe-inline. With Encryption at Rest, avoid storing keys next to the data.
+
+A good habit for Content Security Policy is to start in report-only mode to learn what would break. A good habit for Encryption at Rest is to keep keys in a separate service from the data.

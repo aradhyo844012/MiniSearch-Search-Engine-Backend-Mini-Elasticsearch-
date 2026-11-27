@@ -1,0 +1,26 @@
+Everything You Need to Know About Webhooks
+
+This page collects the essentials about Webhooks in one place. In short, Webhooks is HTTP callbacks that let one service notify another when an event happens.
+
+Core concepts:
+- event payloads
+- signature verification
+- retries
+- endpoints
+
+Where it is used:
+- payment notifications
+- CI triggers
+- chat integrations
+
+Common problems:
+- not verifying signatures
+- slow handlers causing timeouts
+- processing duplicate events
+
+Tools to know:
+- ngrok
+- the Stripe CLI
+- Postman
+
+Remember this above all: a doorbell that rings when a delivery arrives instead of you checking the porch is a good way to picture it, and the best habit is to respond quickly and process the event in a background job.

@@ -1,0 +1,11 @@
+Domain-Driven Design in Real Projects
+
+Reading about Domain-Driven Design is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: complex business systems. Here, ubiquitous language drives the main design choices, and the team needs to guard against using it for simple CRUD apps.
+
+Scenario two: aligning developers with domain experts. This time bounded contexts matters most, and tools such as event storming help keep things manageable.
+
+Scenario three: splitting large systems. The key idea is aggregates, and the biggest risk is models that never match the business.
+
+Across all three scenarios, Domain-Driven Design stays the same idea: an approach to software that models the code around the real business domain. Only the details change.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with C Pointers
+
+Everyone learns C Pointers partly through mistakes. Here are three worth avoiding.
+
+Mistake one: dereferencing null pointers. It usually appears when someone skips addresses and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: memory leaks. It tends to be noticed late, often during testing of dynamic memory allocation. A short checklist during review catches it early.
+
+Mistake three: dangling pointers. It is easy to miss because everything seems to work at first. Keep an eye on null pointers to spot it.
+
+If you remember only one rule, make it this: set pointers to NULL after freeing them.

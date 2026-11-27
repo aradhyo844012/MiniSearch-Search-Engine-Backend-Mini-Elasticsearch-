@@ -1,0 +1,11 @@
+CPU Caches in Real Projects
+
+Reading about CPU Caches is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: speeding up loops. Here, cache lines drives the main design choices, and the team needs to guard against false sharing.
+
+Scenario two: explaining performance differences. This time hit and miss rates matters most, and tools such as perf help keep things manageable.
+
+Scenario three: designing data layouts. The key idea is levels L1 to L3, and the biggest risk is poor access patterns.
+
+Across all three scenarios, CPU Caches stays the same idea: small, fast memory close to the processor that stores recently used data. Only the details change.

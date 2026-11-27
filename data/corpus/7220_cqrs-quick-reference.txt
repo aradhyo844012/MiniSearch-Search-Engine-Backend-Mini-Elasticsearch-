@@ -1,0 +1,15 @@
+CQRS Quick Reference
+
+A one-screen reminder for CQRS. Bookmark it and return when the details fade.
+
+What it is: a pattern that separates the models used to change data from the models used to read it.
+Key terms: commands, queries, read models, and eventual consistency.
+Typical uses: high-read dashboards, complex domains, and scaling reads independently.
+Risks: adding it to simple apps, read models drifting out of sync, and duplicated logic.
+Tools: Axon Framework, MediatR, and Apache Kafka.
+
+Mental picture: a restaurant with one counter for orders and another for pickup.
+
+Habit to build: start with a single model and split only when reads and writes truly diverge.
+
+See also: Leader Election, which sits close to CQRS in the area of Distributed Systems.

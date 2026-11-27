@@ -1,0 +1,9 @@
+Understanding Topological Sorting Through an Everyday Analogy
+
+Abstract ideas are easier to hold onto when you attach them to something familiar. So picture a recipe that must list every step after the steps it depends on.
+
+In that picture, directed acyclic graphs is the first rule you follow, in-degree counts is the next step, and Kahn's algorithm and cycle detection keep everything running smoothly.
+
+Every analogy breaks down eventually. Real Topological Sorting is an ordering of tasks in a directed graph so that every task comes after the tasks it depends on, and it involves details such as ignoring cycles that no everyday picture captures.
+
+Use the analogy to remember the shape of the idea, and use documentation for Python graphlib to learn the exact behavior. The same picture helps when you explain build systems to a friend.

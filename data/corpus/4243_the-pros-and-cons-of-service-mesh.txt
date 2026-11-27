@@ -1,0 +1,15 @@
+The Pros and Cons of Service Mesh
+
+No technology is free of trade-offs, and Service Mesh is no exception. Here is an honest summary.
+
+Advantages:
+- Supports securing service traffic
+- Makes retries and timeouts easier
+- Helps with fine-grained routing
+
+Drawbacks and risks:
+- Risk: added latency and complexity
+- Risk: adopting it too early
+- Risk: hard-to-debug proxy configs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as securing service traffic, and you can manage the risks, Service Mesh is a sound choice. Whatever you decide, adopt it only once the number of services makes manual setup painful.

@@ -1,0 +1,13 @@
+Write-Ahead Logging vs Database Backups and Recovery: Which One Should You Learn First?
+
+Learners often ask whether to study Write-Ahead Logging or Database Backups and Recovery first. Both sit in the area of Storage Engines and Databases, so the honest answer is that it depends on your goals.
+
+Write-Ahead Logging is a technique that records changes in a log before they are applied to the main data, and it is closely tied to log records and checkpoints. Database Backups and Recovery, by contrast, is the practice of copying data regularly so that it can be restored after failures, and it is closely tied to full and incremental backups and recovery point objective.
+
+Choose Write-Ahead Logging first if you care about surviving crashes or feeding replication streams. Choose Database Backups and Recovery first if you care about recovering deleted tables or migrating servers.
+
+Think of Write-Ahead Logging as writing a plan in a notebook before changing the real blueprint, and of Database Backups and Recovery as a spare house key kept at a trusted neighbor's home. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Write-Ahead Logging, avoid disabling fsync for speed. With Database Backups and Recovery, avoid never testing restores.
+
+A good habit for Write-Ahead Logging is to test crash recovery by killing the process on purpose. A good habit for Database Backups and Recovery is to schedule a restore drill on a regular basis.

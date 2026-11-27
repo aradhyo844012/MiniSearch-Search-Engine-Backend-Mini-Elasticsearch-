@@ -1,0 +1,11 @@
+Is System Calls Right for Your Project?
+
+Before adopting System Calls, ask whether it fits the problem. Remember that System Calls is the controlled doorway through which programs ask the operating system to do privileged work.
+
+It is a good fit when your work involves reading and writing files or creating processes, and when your team understands user mode and kernel mode.
+
+Be cautious when the project is very small, when deadlines leave no room to learn syscall numbers, or when you cannot manage these risks: ignoring error codes, making too many small calls, and unsafe assumptions about blocking.
+
+A simple decision test: write down the problem in one sentence, then check whether file descriptors and libc wrappers are part of the answer. If they are, System Calls is probably worth a closer look.
+
+If you decide to go ahead, start small with using network sockets and use strace to see what your program really asks the kernel to do.

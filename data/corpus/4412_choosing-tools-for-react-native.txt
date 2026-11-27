@@ -1,0 +1,11 @@
+Choosing Tools for React Native
+
+There is no single best tool for React Native. The right choice depends on your project, your team and your timeline.
+
+Expo is a common first choice, especially for cross-platform apps. Metro suits teams that already work with similar technology, and React Native Debugger is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle rapid prototypes well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: heavy re-renders.
+
+As a rule of thumb, test on real devices for both platforms, no matter which tool you use.

@@ -1,0 +1,15 @@
+Combining Leader Election with Idempotency in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Leader Election and Idempotency can work together in a single project.
+
+Leader Election is a process by which nodes in a cluster choose one node to coordinate the work. Idempotency is the property that repeating an operation gives the same result as doing it once.
+
+Imagine a project that involves database primaries and payment APIs. Leader Election brings heartbeats, while Idempotency brings idempotency keys.
+
+A sensible plan is to start with ZooKeeper for the Leader Election part and Stripe idempotency keys for the Idempotency part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: flapping leaders on one side, and side effects outside the guarded step on the other.
+
+Picture the whole as a classroom picking a monitor when the teacher leaves, working alongside pressing an elevator call button many times and still getting one elevator.
+
+Two habits help: first, tune heartbeat intervals against real network delays; second, store the result with the key so retries return the same response.

@@ -1,0 +1,11 @@
+Mistakes to Avoid with Endianness
+
+Everyone learns Endianness partly through mistakes. Here are three worth avoiding.
+
+Mistake one: mixing byte orders. It usually appears when someone skips big-endian and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: assuming all machines are alike. It tends to be noticed late, often during testing of network protocols. A short checklist during review catches it early.
+
+Mistake three: forgetting to convert before sending. It is easy to miss because everything seems to work at first. Keep an eye on network byte order to spot it.
+
+If you remember only one rule, make it this: always specify byte order in file and protocol formats.

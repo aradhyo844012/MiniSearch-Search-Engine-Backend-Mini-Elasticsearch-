@@ -1,0 +1,11 @@
+Flutter Tips from Experienced Engineers
+
+Engineers who work with Flutter regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Dart first, and only then evaluate alternatives such as Flutter DevTools.
+2. Write down why you chose Flutter so the next person understands the decision.
+3. Test the case of cross-platform mobile apps early, before the design hardens.
+4. Make sure you can split big widgets into small reusable ones.
+5. Be careful with this one: deep widget trees.
+
+None of these tips needs special equipment, and all of them apply to desktop apps as well.

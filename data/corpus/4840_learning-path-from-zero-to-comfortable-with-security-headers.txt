@@ -1,0 +1,13 @@
+Learning Path: From Zero to Comfortable with Security Headers
+
+This path is for a learner who has never studied Security Headers before. Move at your own speed.
+
+Stage 1, the basics: read a short definition (Security Headers is HTTP response headers that tell browsers to enforce extra protections) and learn Strict-Transport-Security and X-Content-Type-Options.
+
+Stage 2, hands-on: install securityheaders.com, follow a tutorial, and build a small example involving hardening websites.
+
+Stage 3, depth: study frame protections and referrer policy, then deliberately explore this problem: setting headers on only some routes.
+
+Stage 4, application: apply Security Headers to reducing clickjacking, compare Helmet.js with Mozilla Observatory, and write up your results.
+
+Stage 5, review: teach Security Headers to someone else, and then move on to Dependency Vulnerabilities.

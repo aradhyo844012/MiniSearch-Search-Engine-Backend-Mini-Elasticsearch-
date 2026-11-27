@@ -1,0 +1,13 @@
+Configuration Management Explained Simply
+
+Here is Configuration Management without the jargon: it is keeping application settings separate from code so they can change per environment.
+
+Think of Configuration Management as the settings dial on a machine that stays the same on every site. Keep that picture in mind as you read on.
+
+The vocabulary has four main pieces: environment variables, config files, defaults, and secrets handling. You do not need to master them all at once. Start with environment variables, then add config files.
+
+You will meet Configuration Management in work such as separating development and production, toggling features, and deploying the same build everywhere.
+
+One practical tip is to fail fast at startup if a required setting is missing.
+
+After Configuration Management, a natural next topic is gRPC.

@@ -1,0 +1,15 @@
+Graph Databases in 10 Minutes
+
+You have ten minutes, so here is the fast route through Graph Databases.
+
+Minutes 1 and 2, the definition: Graph Databases is databases that store data as nodes and relationships and query connections directly.
+
+Minutes 3 and 4, the vocabulary: learn nodes, edges, properties, and traversal queries.
+
+Minutes 5 and 6, the picture: imagine a city map where intersections are records and roads are relationships. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through social networks, recommendation engines, and fraud detection.
+
+Minutes 9 and 10, the traps and the tools: watch for using them for simple tabular data and unbounded traversals, then try Neo4j for a first experiment.
+
+If you have a spare minute, remember to limit traversal depth in every exploratory query.

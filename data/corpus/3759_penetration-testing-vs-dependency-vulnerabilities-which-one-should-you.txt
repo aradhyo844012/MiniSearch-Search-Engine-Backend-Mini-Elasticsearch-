@@ -1,0 +1,13 @@
+Penetration Testing vs Dependency Vulnerabilities: Which One Should You Learn First?
+
+Learners often ask whether to study Penetration Testing or Dependency Vulnerabilities first. Both sit in the area of Application Security, so the honest answer is that it depends on your goals.
+
+Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do, and it is closely tied to scoping and reconnaissance. Dependency Vulnerabilities, by contrast, is security weaknesses that come from third-party libraries a project uses, and it is closely tied to CVE identifiers and version pinning.
+
+Choose Penetration Testing first if you care about pre-launch security checks or compliance audits. Choose Dependency Vulnerabilities first if you care about auditing projects or automating updates.
+
+Think of Penetration Testing as hiring a locksmith to test your doors, and of Dependency Vulnerabilities as checking every ingredient supplier for recalls. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Penetration Testing, avoid testing without written permission. With Dependency Vulnerabilities, avoid ignoring transitive dependencies.
+
+A good habit for Penetration Testing is to get written authorization before any test. A good habit for Dependency Vulnerabilities is to automate update pull requests.

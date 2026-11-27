@@ -1,0 +1,10 @@
+Connection Pooling: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Connection Pooling with confidence. The subject itself is reusing a limited set of open database connections instead of opening a new one for every request.
+
+pool size: one of the building blocks of Connection Pooling. You should be able to explain it in a single sentence before moving on.
+idle connections: one of the building blocks of Connection Pooling. Documentation for PgBouncer usually mentions it early.
+timeouts: one of the building blocks of Connection Pooling. Mixing it up with neighboring terms is a common source of confusion.
+connection leaks: one of the building blocks of Connection Pooling. Documentation for PgBouncer usually mentions it early.
+
+Practice using these four terms in sentences about serverless functions that call databases. If the sentences feel natural, the vocabulary has stuck.

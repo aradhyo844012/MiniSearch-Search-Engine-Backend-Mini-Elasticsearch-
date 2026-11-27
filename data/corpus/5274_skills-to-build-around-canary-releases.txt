@@ -1,0 +1,13 @@
+Skills to Build Around Canary Releases
+
+Knowing the definition of Canary Releases is only the start. These skills turn that knowledge into something useful.
+
+Foundations: be comfortable with traffic percentages and health metrics, and able to explain them without notes.
+
+Hands-on practice: spend real time with Argo Rollouts on a Canary Releases task, and try at least one alternative such as Istio.
+
+Judgment: learn to decide when Canary Releases fits a problem such as safer releases, and when something simpler is better.
+
+Communication: practice describing it with an everyday picture, for example a canary in a coal mine warning miners before the danger spreads.
+
+Habits: define rollback conditions before starting the rollout, and write down what you learn after each project.

@@ -1,0 +1,13 @@
+A/B Testing vs Jupyter Notebooks: Which One Should You Learn First?
+
+Learners often ask whether to study A/B Testing or Jupyter Notebooks first. Both sit in the area of Data and Analytics, so the honest answer is that it depends on your goals.
+
+A/B Testing is an experiment that compares two versions of something to see which performs better, and it is closely tied to control and variant and random assignment. Jupyter Notebooks, by contrast, is interactive documents that combine code, results and notes, and it is closely tied to cells and kernels.
+
+Choose A/B Testing first if you care about testing page designs or comparing ranking algorithms. Choose Jupyter Notebooks first if you care about exploring data or teaching and demos.
+
+Think of A/B Testing as taste-testing two recipes on randomly chosen guests, and of Jupyter Notebooks as a lab notebook that can run its own experiments. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With A/B Testing, avoid stopping tests early. With Jupyter Notebooks, avoid running cells out of order.
+
+A good habit for A/B Testing is to decide the success metric and sample size before you begin. A good habit for Jupyter Notebooks is to restart the kernel and run all cells before sharing.

@@ -1,0 +1,11 @@
+Is API Design Principles Right for Your Project?
+
+Before adopting API Design Principles, ask whether it fits the problem. Remember that API Design Principles is guidelines for making APIs consistent, predictable and easy to use.
+
+It is a good fit when your work involves public platforms or internal service contracts, and when your team understands consistent naming.
+
+Be cautious when the project is very small, when deadlines leave no room to learn clear errors, or when you cannot manage these risks: leaking internal details, inconsistent responses, and undocumented behavior.
+
+A simple decision test: write down the problem in one sentence, then check whether idempotent operations and documentation are part of the answer. If they are, API Design Principles is probably worth a closer look.
+
+If you decide to go ahead, start small with mobile backends and write the documentation before the implementation.

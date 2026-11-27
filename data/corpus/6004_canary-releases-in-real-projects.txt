@@ -1,0 +1,11 @@
+Canary Releases in Real Projects
+
+Reading about Canary Releases is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: safer releases. Here, traffic percentages drives the main design choices, and the team needs to guard against too little traffic to reveal problems.
+
+Scenario two: testing with real traffic. This time health metrics matters most, and tools such as Argo Rollouts help keep things manageable.
+
+Scenario three: reducing the blast radius of bugs. The key idea is automatic rollback, and the biggest risk is no clear success metrics.
+
+Across all three scenarios, Canary Releases stays the same idea: a rollout strategy that sends a small share of traffic to a new version before everyone gets it. Only the details change.

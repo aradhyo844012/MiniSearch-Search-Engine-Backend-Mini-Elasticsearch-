@@ -1,0 +1,17 @@
+Background Jobs for Students: A Study Guide
+
+This study guide prepares you for exams, labs and interviews that cover Background Jobs.
+
+Learning goals:
+1. Explain Background Jobs in your own words.
+2. Describe queues, workers, retries, and scheduling.
+3. Give examples from sending emails and resizing images.
+4. Name three problems to watch for.
+
+Start with the definition: Background Jobs is tasks that run outside the request cycle so users do not have to wait for them. Then draw dropping laundry at a service and collecting it later on paper and label the four terms from the goals above.
+
+Self-test questions: Why is jobs that are not idempotent a problem? How does workers relate to retries? When would you choose Celery or Sidekiq?
+
+Study habit: give every job a timeout and a retry limit.
+
+When you feel ready, compare Background Jobs with Logging Best Practices and write down three differences.

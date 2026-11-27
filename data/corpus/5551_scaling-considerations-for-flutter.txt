@@ -1,0 +1,11 @@
+Scaling Considerations for Flutter
+
+A design that works for a classroom project can behave very differently under real load. Here is how Flutter changes as things grow.
+
+Small scale: almost any approach works. Focus on understanding widgets and getting cross-platform mobile apps right.
+
+Medium scale: problems start to appear. Watch for deep widget trees and poor state organization, and measure with Dart before changing anything.
+
+Large scale: hot reload and the render tree move from background details to central design questions. Teams often revisit their choices around desktop apps at this stage.
+
+Before you scale, split big widgets into small reusable ones. It is cheaper to build that habit early than to fix a crisis later.

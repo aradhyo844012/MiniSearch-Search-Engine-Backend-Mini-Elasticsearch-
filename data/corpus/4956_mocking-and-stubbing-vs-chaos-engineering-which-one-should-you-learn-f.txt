@@ -1,0 +1,13 @@
+Mocking and Stubbing vs Chaos Engineering: Which One Should You Learn First?
+
+Learners often ask whether to study Mocking and Stubbing or Chaos Engineering first. Both sit in the area of Testing and Quality, so the honest answer is that it depends on your goals.
+
+Mocking and Stubbing is replacing real dependencies with controlled fakes during tests, and it is closely tied to mocks and stubs. Chaos Engineering, by contrast, is deliberately causing failures in a system to learn how it responds, and it is closely tied to steady state and hypotheses.
+
+Choose Mocking and Stubbing first if you care about isolating units or simulating failures. Choose Chaos Engineering first if you care about testing resilience or validating failover.
+
+Think of Mocking and Stubbing as a crash test dummy standing in for a real passenger, and of Chaos Engineering as a fire drill where you secretly block one exit. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With Mocking and Stubbing, avoid over-mocking. With Chaos Engineering, avoid experimenting without safeguards.
+
+A good habit for Mocking and Stubbing is to prefer simple fakes over deep mock chains. A good habit for Chaos Engineering is to start with small experiments in a test environment.

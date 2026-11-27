@@ -1,0 +1,15 @@
+K-Means Clustering Quick Reference
+
+A one-screen reminder for K-Means Clustering. Bookmark it and return when the details fade.
+
+What it is: an algorithm that groups data points into a chosen number of clusters around central points.
+Key terms: centroids, distance measures, choosing k, and iterations.
+Typical uses: customer segmentation, image compression, and grouping documents.
+Risks: choosing k blindly, unscaled features, and sensitivity to starting points.
+Tools: scikit-learn, NumPy, and matplotlib.
+
+Mental picture: dividing students into study groups around the most central member.
+
+Habit to build: scale features before clustering.
+
+See also: Retrieval-Augmented Generation, which sits close to K-Means Clustering in the area of AI and Machine Learning.

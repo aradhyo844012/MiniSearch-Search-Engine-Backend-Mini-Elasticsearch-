@@ -1,0 +1,26 @@
+Everything You Need to Know About Disaster Recovery
+
+This page collects the essentials about Disaster Recovery in one place. In short, Disaster Recovery is the plans and systems that restore services after major failures.
+
+Core concepts:
+- recovery time objective
+- recovery point objective
+- failover regions
+- runbooks
+
+Where it is used:
+- surviving regional outages
+- meeting compliance needs
+- protecting critical data
+
+Common problems:
+- untested plans
+- outdated runbooks
+- dependencies missed in the plan
+
+Tools to know:
+- AWS Backup
+- Terraform
+- Route 53 failover
+
+Remember this above all: a fire drill for a whole system is a good way to picture it, and the best habit is to run a failover exercise on a regular schedule.

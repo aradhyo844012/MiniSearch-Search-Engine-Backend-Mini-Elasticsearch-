@@ -1,0 +1,15 @@
+Client-Side Routing Quick Reference
+
+A one-screen reminder for Client-Side Routing. Bookmark it and return when the details fade.
+
+What it is: changing the visible page in the browser without a full page reload.
+Key terms: history API, route matching, nested routes, and route guards.
+Typical uses: single-page apps, dashboards, and multi-step flows.
+Risks: broken deep links, unhandled 404 pages, and lost scroll position.
+Tools: React Router, Vue Router, and Next.js.
+
+Mental picture: swapping the picture in a frame without replacing the frame.
+
+Habit to build: test refreshing the page on every route.
+
+See also: CSS Variables, which sits close to Client-Side Routing in the area of Frontend Engineering.

@@ -1,0 +1,17 @@
+SOLID Principles Do's and Don'ts
+
+A quick list of habits for working with SOLID Principles.
+
+Do:
+- Learn single responsibility before anything else.
+- Try UML diagrams on a small example.
+- Make it a habit to apply them when a design starts to hurt, not before.
+- Test the case of structuring classes early.
+
+Don't:
+- Ignore this: applying them rigidly to tiny scripts.
+- Ignore this: creating too many tiny classes.
+- Ignore this: confusing interfaces with inheritance.
+- Adopt SOLID Principles just because it is fashionable.
+
+Most of the Don'ts come from rushing. When you work with SOLID Principles, a little patience with the open-closed principle pays off more than any clever shortcut.

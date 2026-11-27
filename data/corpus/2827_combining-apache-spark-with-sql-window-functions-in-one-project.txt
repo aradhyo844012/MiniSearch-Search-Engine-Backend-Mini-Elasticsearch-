@@ -1,0 +1,15 @@
+Combining Apache Spark with SQL Window Functions in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Apache Spark and SQL Window Functions can work together in a single project.
+
+Apache Spark is a distributed engine for processing large datasets across many machines. SQL Window Functions is SQL features that calculate values across related rows without collapsing them.
+
+Imagine a project that involves large ETL jobs and running totals. Apache Spark brings DataFrames, while SQL Window Functions brings the OVER clause.
+
+A sensible plan is to start with PySpark for the Apache Spark part and PostgreSQL for the SQL Window Functions part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: too many small partitions on one side, and confusing them with GROUP BY on the other.
+
+Picture the whole as a team of workers each processing a share of a huge pile of papers, working alongside looking at the neighbors in a line without leaving your place.
+
+Two habits help: first, avoid collecting large results onto a single machine; second, start with ROW_NUMBER and LAG on a small table.

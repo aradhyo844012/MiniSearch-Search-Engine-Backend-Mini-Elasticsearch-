@@ -1,0 +1,15 @@
+Vector Clocks in 10 Minutes
+
+You have ten minutes, so here is the fast route through Vector Clocks.
+
+Minutes 1 and 2, the definition: Vector Clocks is counters that let distributed processes track the order of events without a shared clock.
+
+Minutes 3 and 4, the vocabulary: learn logical time, per-process counters, the happened-before relation, and conflict detection.
+
+Minutes 5 and 6, the picture: imagine each person in a group chat keeping a tally of messages seen from everyone. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through detecting concurrent edits, replicated databases, and collaborative tools.
+
+Minutes 9 and 10, the traps and the tools: watch for clocks that grow with many nodes and confusing them with wall-clock time, then try Riak for a first experiment.
+
+If you have a spare minute, remember to compare clocks entry by entry to detect true concurrency.

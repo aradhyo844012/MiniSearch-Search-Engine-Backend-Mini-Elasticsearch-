@@ -1,0 +1,11 @@
+Client-Side Routing Tips from Experienced Engineers
+
+Engineers who work with Client-Side Routing regularly tend to repeat the same advice. Here it is.
+
+1. Be careful with this one: broken deep links.
+2. Write down why you chose Client-Side Routing so the next person understands the decision.
+3. When something behaves strangely, revisit route matching before anything else.
+4. Test the case of single-page apps early, before the design hardens.
+5. Reach for React Router first, and only then evaluate alternatives such as Vue Router.
+
+None of these tips needs special equipment, and all of them apply to dashboards as well.

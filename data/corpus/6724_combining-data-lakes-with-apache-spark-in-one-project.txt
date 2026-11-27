@@ -1,0 +1,15 @@
+Combining Data Lakes with Apache Spark in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Data Lakes and Apache Spark can work together in a single project.
+
+Data Lakes is large storage systems that keep raw data in its original format until it is needed. Apache Spark is a distributed engine for processing large datasets across many machines.
+
+Imagine a project that involves storing logs and events and large ETL jobs. Data Lakes brings raw storage, while Apache Spark brings DataFrames.
+
+A sensible plan is to start with Amazon S3 for the Data Lakes part and PySpark for the Apache Spark part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: no catalog or ownership on one side, and too many small partitions on the other.
+
+Picture the whole as a big reservoir where water from many rivers is stored before treatment, working alongside a team of workers each processing a share of a huge pile of papers.
+
+Two habits help: first, register every dataset in a catalog with an owner; second, avoid collecting large results onto a single machine.

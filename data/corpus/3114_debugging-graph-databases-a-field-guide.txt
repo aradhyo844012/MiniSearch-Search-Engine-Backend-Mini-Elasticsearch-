@@ -1,0 +1,13 @@
+Debugging Graph Databases: A Field Guide
+
+When something goes wrong around Graph Databases, resist the urge to guess. Work through the problem in order.
+
+Step 1: reproduce the problem with the smallest possible example.
+Step 2: list the usual suspects: using them for simple tabular data, unbounded traversals, and supernodes with millions of edges.
+Step 3: revisit nodes and edges, since misunderstandings there cause many bugs.
+Step 4: use Neo4j or similar tools to look inside.
+Step 5: write a test that fails because of the bug and passes after the fix.
+
+Many bugs involving Graph Databases in work such as social networks come down to the first suspect on the list. Check the simple causes before suspecting anything exotic.
+
+Finally, limit traversal depth in every exploratory query. It prevents a surprising number of repeat problems.

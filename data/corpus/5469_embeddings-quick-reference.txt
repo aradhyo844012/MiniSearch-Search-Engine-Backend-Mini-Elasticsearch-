@@ -1,0 +1,15 @@
+Embeddings Quick Reference
+
+A one-screen reminder for Embeddings. Bookmark it and return when the details fade.
+
+What it is: lists of numbers that represent words, images or items so that similar things sit close together.
+Key terms: vectors, cosine similarity, dimensionality, and nearest neighbor search.
+Typical uses: semantic search, recommendations, and clustering text.
+Risks: mixing models between indexing and querying, ignoring normalization, and stale embeddings after data changes.
+Tools: sentence-transformers, FAISS, and Word2Vec.
+
+Mental picture: coordinates on a map where similar places are close together.
+
+Habit to build: use the same embedding model for indexing and querying.
+
+See also: Support Vector Machines, which sits close to Embeddings in the area of AI and Machine Learning.

@@ -1,0 +1,11 @@
+Practice Exercises for Garbage Collection
+
+These exercises build real understanding of Garbage Collection. Do them in order, and write down your answers.
+
+Exercise 1: Explain how mark and sweep and pause times differ, using a drawing.
+Exercise 2: Pick JVM GC logs and complete its getting-started tutorial.
+Exercise 3: Create a small example that deliberately triggers this problem: creating huge numbers of short-lived objects. Then fix it.
+Exercise 4: Write a short paragraph describing Garbage Collection and include the term reachability.
+Exercise 5: Compare the Python gc module and VisualVM for long-running services and write down your conclusion.
+
+When you finish, compare your answers with the definition: Garbage Collection is automatic memory management that finds and frees objects a program no longer uses.

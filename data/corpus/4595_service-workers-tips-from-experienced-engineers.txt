@@ -1,0 +1,11 @@
+Service Workers Tips from Experienced Engineers
+
+Engineers who work with Service Workers regularly tend to repeat the same advice. Here it is.
+
+1. Reach for Workbox first, and only then evaluate alternatives such as the Chrome DevTools Application panel.
+2. Make sure you can version your caches so old files can be removed.
+3. Do not skip registration; everything else builds on it.
+4. Be careful with this one: caching stale files forever.
+5. When something behaves strangely, revisit install and activate events before anything else.
+
+None of these tips needs special equipment, and all of them apply to faster repeat visits as well.

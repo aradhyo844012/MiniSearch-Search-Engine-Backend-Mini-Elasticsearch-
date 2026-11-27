@@ -1,0 +1,15 @@
+Mobile App Security in 10 Minutes
+
+You have ten minutes, so here is the fast route through Mobile App Security.
+
+Minutes 1 and 2, the definition: Mobile App Security is practices that protect mobile apps and their data from attacks.
+
+Minutes 3 and 4, the vocabulary: learn secure storage, certificate pinning, obfuscation, and permissions.
+
+Minutes 5 and 6, the picture: imagine locking an app's valuables in a hotel safe. That is the intuition.
+
+Minutes 7 and 8, the use cases: skim through banking apps, health apps, and enterprise apps.
+
+Minutes 9 and 10, the traps and the tools: watch for storing tokens in plain text and hard-coded API keys, then try OWASP MASVS for a first experiment.
+
+If you have a spare minute, remember to store secrets in the platform keychain or keystore.

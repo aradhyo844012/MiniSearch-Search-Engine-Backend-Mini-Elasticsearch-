@@ -1,0 +1,11 @@
+Connection Pooling in Real Projects
+
+Reading about Connection Pooling is useful, but the ideas make more sense in context. These three scenarios show how it appears in real projects.
+
+Scenario one: web backends. Here, pool size drives the main design choices, and the team needs to guard against pools larger than the database allows.
+
+Scenario two: serverless functions that call databases. This time idle connections matters most, and tools such as PgBouncer help keep things manageable.
+
+Scenario three: high-traffic APIs. The key idea is timeouts, and the biggest risk is leaked connections.
+
+Across all three scenarios, Connection Pooling stays the same idea: reusing a limited set of open database connections instead of opening a new one for every request. Only the details change.

@@ -1,0 +1,12 @@
+Rust Ownership Glossary for Beginners
+
+New words can make Rust Ownership feel harder than it is. This glossary keeps the key ones in one place.
+
+Rust Ownership: a set of rules that lets Rust manage memory safely without a garbage collector.
+ownership: a core term, most visible in systems programming.
+borrowing: a core term that beginners often confuse with lifetimes.
+lifetimes: a core term that connects to moves.
+moves: a core term worth revisiting after you try a real example.
+Cargo: a tool commonly used for command line tools.
+
+Come back to this Rust Ownership list whenever documentation for rustc uses a word you do not recognize.

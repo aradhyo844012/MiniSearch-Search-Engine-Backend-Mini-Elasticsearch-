@@ -1,0 +1,12 @@
+Instruction Pipelines Glossary for Beginners
+
+New words can make Instruction Pipelines feel harder than it is. This glossary keeps the key ones in one place.
+
+Instruction Pipelines: a technique where a processor overlaps the stages of several instructions.
+fetch, decode and execute stages: a core term, most visible in explaining CPU speed.
+hazards: a core term that beginners often confuse with branch prediction.
+branch prediction: a core term that connects to stalls.
+stalls: a core term worth revisiting after you try a real example.
+perf: a tool commonly used for understanding branch costs.
+
+Come back to this Instruction Pipelines list whenever documentation for Compiler Explorer uses a word you do not recognize.

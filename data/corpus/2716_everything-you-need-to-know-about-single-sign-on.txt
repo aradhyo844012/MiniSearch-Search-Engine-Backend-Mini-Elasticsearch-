@@ -1,0 +1,26 @@
+Everything You Need to Know About Single Sign-On
+
+This page collects the essentials about Single Sign-On in one place. In short, Single Sign-On is letting users log in once and access several applications.
+
+Core concepts:
+- identity provider
+- SAML
+- OpenID Connect
+- session lifetime
+
+Where it is used:
+- company intranets
+- reducing password fatigue
+- centralized access control
+
+Common problems:
+- a single point of failure
+- misconfigured redirects
+- long sessions on shared devices
+
+Tools to know:
+- Okta
+- Keycloak
+- Azure AD
+
+Remember this above all: a festival wristband that opens every gate is a good way to picture it, and the best habit is to plan for identity provider outages.

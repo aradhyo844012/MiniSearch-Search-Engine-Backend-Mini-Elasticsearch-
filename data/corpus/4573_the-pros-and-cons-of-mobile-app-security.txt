@@ -1,0 +1,15 @@
+The Pros and Cons of Mobile App Security
+
+No technology is free of trade-offs, and Mobile App Security is no exception. Here is an honest summary.
+
+Advantages:
+- Supports banking apps
+- Makes health apps easier
+- Helps with enterprise apps
+
+Drawbacks and risks:
+- Risk: storing tokens in plain text
+- Risk: hard-coded API keys
+- Risk: requesting unnecessary permissions
+
+Weigh the two lists against your own project. If the advantages match your needs, such as banking apps, and you can manage the risks, Mobile App Security is a sound choice. Whatever you decide, store secrets in the platform keychain or keystore.

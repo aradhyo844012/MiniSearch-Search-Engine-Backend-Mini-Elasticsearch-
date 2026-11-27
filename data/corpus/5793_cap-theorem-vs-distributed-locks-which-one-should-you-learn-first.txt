@@ -1,0 +1,13 @@
+CAP Theorem vs Distributed Locks: Which One Should You Learn First?
+
+Learners often ask whether to study CAP Theorem or Distributed Locks first. Both sit in the area of Distributed Systems, so the honest answer is that it depends on your goals.
+
+CAP Theorem is a result stating that a distributed system cannot guarantee consistency, availability and partition tolerance all at once, and it is closely tied to consistency and availability. Distributed Locks, by contrast, is mechanisms that ensure only one process at a time performs a critical action across machines, and it is closely tied to lease times and fencing tokens.
+
+Choose CAP Theorem first if you care about choosing database types or designing multi-region services. Choose Distributed Locks first if you care about running scheduled jobs once or protecting shared resources.
+
+Think of CAP Theorem as a phone tree that must choose between giving old information or staying silent when a line is cut, and of Distributed Locks as a single key to a shared meeting room that expires automatically. The two pictures are very different, which is a useful reminder that the topics solve different problems.
+
+Both have traps. With CAP Theorem, avoid treating it as a three-way menu. With Distributed Locks, avoid locks that never expire.
+
+A good habit for CAP Theorem is to ask what your users prefer during a failure: stale answers or errors. A good habit for Distributed Locks is to always use a timeout together with a fencing token.

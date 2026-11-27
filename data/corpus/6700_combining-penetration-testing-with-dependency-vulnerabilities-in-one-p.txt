@@ -1,0 +1,15 @@
+Combining Penetration Testing with Dependency Vulnerabilities in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Penetration Testing and Dependency Vulnerabilities can work together in a single project.
+
+Penetration Testing is authorized attempts to find and exploit weaknesses in a system before real attackers do. Dependency Vulnerabilities is security weaknesses that come from third-party libraries a project uses.
+
+Imagine a project that involves pre-launch security checks and auditing projects. Penetration Testing brings scoping, while Dependency Vulnerabilities brings CVE identifiers.
+
+A sensible plan is to start with OWASP ZAP for the Penetration Testing part and Dependabot for the Dependency Vulnerabilities part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: ignoring the findings afterward on one side, and never updating on the other.
+
+Picture the whole as hiring a locksmith to test your doors, working alongside checking every ingredient supplier for recalls.
+
+Two habits help: first, get written authorization before any test; second, automate update pull requests.

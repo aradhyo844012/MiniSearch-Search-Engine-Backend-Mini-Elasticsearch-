@@ -1,0 +1,11 @@
+Mistakes to Avoid with Blue-Green Deployment
+
+Everyone learns Blue-Green Deployment partly through mistakes. Here are three worth avoiding.
+
+Mistake one: database schema mismatches. It usually appears when someone skips blue and green environments and jumps straight to implementation. The fix is to slow down and review the basics.
+
+Mistake two: doubling infrastructure costs. It tends to be noticed late, often during testing of zero-downtime releases. A short checklist during review catches it early.
+
+Mistake three: forgetting to drain old connections. It is easy to miss because everything seems to work at first. Keep an eye on database compatibility to spot it.
+
+If you remember only one rule, make it this: keep the old environment running until the new one is proven.

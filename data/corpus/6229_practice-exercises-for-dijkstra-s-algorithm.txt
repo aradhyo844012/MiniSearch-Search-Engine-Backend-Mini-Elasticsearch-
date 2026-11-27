@@ -1,0 +1,11 @@
+Practice Exercises for Dijkstra's Algorithm
+
+These exercises build real understanding of Dijkstra's Algorithm. Do them in order, and write down your answers.
+
+Exercise 1: Create a small example that deliberately triggers this problem: using it with negative edge weights. Then fix it.
+Exercise 2: Compare NetworkX and OSRM for game pathfinding and write down your conclusion.
+Exercise 3: Write a short paragraph describing Dijkstra's Algorithm and include the term priority queue.
+Exercise 4: Explain how edge relaxation and visited set differ, using a drawing.
+Exercise 5: Pick Python heapq and complete its getting-started tutorial.
+
+When you finish, compare your answers with the definition: Dijkstra's Algorithm is a method for finding the shortest path from one node to all others in a graph with non-negative weights.

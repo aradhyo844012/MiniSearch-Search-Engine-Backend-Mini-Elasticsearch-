@@ -1,0 +1,15 @@
+Combining Client-Side Routing with Internationalization in One Project
+
+Real projects rarely use one idea in isolation. This article shows how Client-Side Routing and Internationalization can work together in a single project.
+
+Client-Side Routing is changing the visible page in the browser without a full page reload. Internationalization is designing software so it can be adapted to different languages and regions.
+
+Imagine a project that involves single-page apps and global products. Client-Side Routing brings history API, while Internationalization brings locale detection.
+
+A sensible plan is to start with React Router for the Client-Side Routing part and i18next for the Internationalization part, and to keep the two sides connected through a small, well-tested interface.
+
+Be prepared for combined risks: unhandled 404 pages on one side, and text that overflows layouts on the other.
+
+Picture the whole as swapping the picture in a frame without replacing the frame, working alongside a stage set where the backdrop can be swapped for each audience.
+
+Two habits help: first, test refreshing the page on every route; second, move every user-facing string into translation files from the first day.

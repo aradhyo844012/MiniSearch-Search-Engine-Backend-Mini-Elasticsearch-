@@ -1,0 +1,11 @@
+Choosing Tools for Event Sourcing
+
+There is no single best tool for Event Sourcing. The right choice depends on your project, your team and your timeline.
+
+Apache Kafka is a common first choice, especially for audit trails. EventStoreDB suits teams that already work with similar technology, and PostgreSQL is worth a look when you need something different.
+
+Judge any tool by four questions: Is the documentation clear? Is the community active? Does it handle financial ledgers well? Can you leave it later if you need to?
+
+Whichever tool you pick, test it on a small problem first, and watch for this: changing event formats carelessly.
+
+As a rule of thumb, version your events from the first day, no matter which tool you use.

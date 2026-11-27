@@ -1,0 +1,11 @@
+Is B-Trees on Disk Right for Your Project?
+
+Before adopting B-Trees on Disk, ask whether it fits the problem. Remember that B-Trees on Disk is balanced tree structures designed to read large blocks from disk efficiently.
+
+It is a good fit when your work involves database indexes or file system directories, and when your team understands pages.
+
+Be cautious when the project is very small, when deadlines leave no room to learn branching factor, or when you cannot manage these risks: random writes on fragmented pages, oversized keys, and ignoring page fill factor.
+
+A simple decision test: write down the problem in one sentence, then check whether node splits and sorted keys are part of the answer. If they are, B-Trees on Disk is probably worth a closer look.
+
+If you decide to go ahead, start small with range scans and keep indexed keys short so more of them fit on a page.

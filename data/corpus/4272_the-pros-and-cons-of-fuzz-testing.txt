@@ -1,0 +1,15 @@
+The Pros and Cons of Fuzz Testing
+
+No technology is free of trade-offs, and Fuzz Testing is no exception. Here is an honest summary.
+
+Advantages:
+- Supports testing parsers
+- Makes finding memory bugs easier
+- Helps with security research
+
+Drawbacks and risks:
+- Risk: running without sanitizers
+- Risk: crashes that cannot be reproduced
+- Risk: ignoring slow inputs
+
+Weigh the two lists against your own project. If the advantages match your needs, such as testing parsers, and you can manage the risks, Fuzz Testing is a sound choice. Whatever you decide, keep every crashing input as a regression test.

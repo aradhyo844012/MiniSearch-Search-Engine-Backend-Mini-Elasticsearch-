@@ -1,0 +1,10 @@
+Feature Flags: Core Concepts and Terminology
+
+This page defines the vocabulary you need to read about Feature Flags with confidence. The subject itself is switches in configuration that turn features on or off without redeploying code.
+
+flag evaluation: one of the building blocks of Feature Flags. It shows up whenever you work on dark launches.
+targeting rules: one of the building blocks of Feature Flags. You should be able to explain it in a single sentence before moving on.
+gradual rollout: one of the building blocks of Feature Flags. You should be able to explain it in a single sentence before moving on.
+flag cleanup: one of the building blocks of Feature Flags. Mixing it up with neighboring terms is a common source of confusion.
+
+Practice using these four terms in sentences about A/B tests. If the sentences feel natural, the vocabulary has stuck.
